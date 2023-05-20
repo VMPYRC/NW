@@ -45,6 +45,7 @@
 	<string key="reward_type_itemdye" rel_version="Feature_MTX">Barwnik</string>
 	<string key="reward_type_armorskin" rel_version="Feature_MTX">Skórka pancerza</string>
 	<string key="reward_type_toolskin" rel_version="Feature_MTX">Skórka narzędzia</string>
+	<string key="url_worldtransfer">https://www.newworld.com/forward-link?id=update-1-0-1</string>
 	<string key="reward_type_weaponskin" rel_version="Feature_MTX">Skórka broni</string>
 	<string key="reward_type_guildcrest" rel_version="Feature_MTX">Herb kompanii</string>
 	<string key="reward_type_guildcrest_fg" rel_version="Feature_MTX">Kolor herbu</string>
@@ -336,7 +337,8 @@
 	<string key="server_transfer_requirements" rel_version="Feature_Server_Transfer">WYMAGANIA</string>
 	<string key="server_transfer_not_transfer" rel_version="Feature_Server_Transfer">CO NIE PRZECHODZI</string>
 	<string key="server_transfer_requirements_detail1" rel_version="Feature_Server_Transfer">Nie można należeć do kompanii przed przeniesieniem postaci</string>
-	<string key="server_transfer_requirements_detail2" rel_version="Feature_Server_Transfer">Nie można mieć aktywnych ofert sprzedaży w faktorii przed przeniesieniem postaci</string>
+	<string key="server_transfer_requirements_detail2" rel_version="Feature_Server_Transfer">Nie można mieć aktywnych ofert kupna/sprzedaży w faktorii przed przeniesieniem postaci</string>
+	<string key="server_transfer_requirements_detail3" rel_version="Feature_Server_Transfer">Musisz znajdować się w azylu (osada, posterunek, kapliczka ducha, strażnica), by móc przenieść postać</string>
 	<string key="server_transfer_not_transfer_detail1" rel_version="Feature_Server_Transfer">Twoja lista znajomych ulegnie usunięciu i nie zostanie przeniesiona</string>
 	<string key="server_transfer_not_transfer_detail2" rel_version="Feature_Server_Transfer">Aktywne misje projektu miasteczka nie zostaną przeniesione</string>
 	<string key="server_transfer_not_transfer_detail3" rel_version="Feature_Server_Transfer">Aktywne misje frakcyjne nie zostaną przeniesione</string>
@@ -356,7 +358,8 @@
 	<string key="server_transfer_region_hint" rel_version="Feature_Server_Transfer">Można przenieść postać tylko do innego świata w tym samym regionie. Aby zagrać w innym regionie, należy stworzyć w nim nową postać.</string>
 	<string key="server_transfer_maintenance" rel_version="Feature_Server_Transfer">Nie można przenieść postaci do świata, który podlega pracom konserwacyjnym.</string>
 	<string key="server_transfer_requirements_company" rel_version="Feature_Server_Transfer">Nie można należeć do kompanii przed przeniesieniem postaci.</string>
-	<string key="server_transfer_requirements_tradingPost" rel_version="Feature_Server_Transfer">Nie można mieć aktywnych ofert sprzedaży w faktorii przed przeniesieniem postaci.</string>
+	<string key="server_transfer_requirements_tradingPost" rel_version="Feature_Server_Transfer">Nie można mieć aktywnych ofert kupna/sprzedaży w faktorii przed przeniesieniem postaci.</string>
+	<string key="server_transfer_requirements_sanctuary" rel_version="Feature_Server_Transfer">Musisz znajdować się w azylu (osada, posterunek, kapliczka ducha, strażnica), by móc przenieść postać.</string>
 	<string key="server_transfer_requirements_tradingPost_unknown" rel_version="Feature_Server_Transfer">Sprawdzanie stanu faktorii…</string>
 	<string key="server_transfer_confirm" rel_version="Feature_Server_Transfer">POTWIERDŹ PRZENIESIENIE MIĘDZY ŚWIATAMI</string>
 	<string key="server_transfer_confirm_button" rel_version="Feature_Server_Transfer">Potwierdź przeniesienie</string>
@@ -371,5 +374,7 @@
 	<string key="rename_extra_detail" rel_version="MTX_October_Skins">Możesz na swoim koncie 1 raz zmienić imię postaci za darmo. Po wykorzystaniu możliwość ta nie będzie dostępna dla innych twoich postaci.</string>
 	<string key="Housing_Happy_Pumpkin_description" rel_version="MTX_October_Skins">„Ten nikczemny nicpoń zawsze chodził piekielnie uradowany. Tobie też byłoby wesoło, gdyby udało ci się okpić samego diabła!” Ozdoba do domu</string>
 	<string key="Housing_Happy_Pumpkin_name" rel_version="MTX_October_Skins">Radosna latarnia Jasia Nicponia</string>
+	<string key="Emote_Impatient_name" rel_version="Emote_Impatient">Oczekiwanie</string>
+	<string key="Emote_Impatient_description" rel_version="Emote_Impatient">„Nie mamy całej wieczności… a może jednak mamy?” Gest</string>
 </resources>
 

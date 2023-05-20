@@ -45,6 +45,7 @@
 	<string key="reward_type_itemdye" rel_version="Feature_MTX">Tintura</string>
 	<string key="reward_type_armorskin" rel_version="Feature_MTX">Aparência de armadura</string>
 	<string key="reward_type_toolskin" rel_version="Feature_MTX">Aparência de Ferramenta</string>
+	<string key="url_worldtransfer">https://www.newworld.com/forward-link?id=update-1-0-1</string>
 	<string key="reward_type_weaponskin" rel_version="Feature_MTX">Aparência de arma</string>
 	<string key="reward_type_guildcrest" rel_version="Feature_MTX">Brasão da Companhia</string>
 	<string key="reward_type_guildcrest_fg" rel_version="Feature_MTX">Cor do brasão</string>
@@ -336,7 +337,8 @@
 	<string key="server_transfer_requirements" rel_version="Feature_Server_Transfer">REQUISITOS</string>
 	<string key="server_transfer_not_transfer" rel_version="Feature_Server_Transfer">O QUE NÃO SERÁ TRANSFERIDO</string>
 	<string key="server_transfer_requirements_detail1" rel_version="Feature_Server_Transfer">Você não pode ser membro de uma Companhia ao se transferir</string>
-	<string key="server_transfer_requirements_detail2" rel_version="Feature_Server_Transfer">Você não pode ter Pedidos de Venda de Entreposto Comercial ativos ao se transferir</string>
+	<string key="server_transfer_requirements_detail2" rel_version="Feature_Server_Transfer">Você não pode ter Pedidos de Compra ou Venda de Entreposto Comercial ativos ao se transferir</string>
+	<string key="server_transfer_requirements_detail3" rel_version="Feature_Server_Transfer">Você precisa estar em um Santuário (Assentamento, Posto Avançado, Santuário Espiritual ou Torre de Vigia) antes de se transferir</string>
 	<string key="server_transfer_not_transfer_detail1" rel_version="Feature_Server_Transfer">Sua Lista de Amigos será apagada e não será transferida</string>
 	<string key="server_transfer_not_transfer_detail2" rel_version="Feature_Server_Transfer">Missões de Projeto de Vila ativas não serão transferidas</string>
 	<string key="server_transfer_not_transfer_detail3" rel_version="Feature_Server_Transfer">Missões de Facção ativas não serão transferidas</string>
@@ -356,7 +358,8 @@
 	<string key="server_transfer_region_hint" rel_version="Feature_Server_Transfer">Você só pode transferir personagens para um mundo diferente dentro da mesma região. Para jogar em uma região diferente, você terá de criar um personagem nessa região.</string>
 	<string key="server_transfer_maintenance" rel_version="Feature_Server_Transfer">Você não pode se transferir para um mundo em manutenção.</string>
 	<string key="server_transfer_requirements_company" rel_version="Feature_Server_Transfer">Você não pode ser membro de uma Companhia ao se transferir.</string>
-	<string key="server_transfer_requirements_tradingPost" rel_version="Feature_Server_Transfer">Você não pode ter Pedidos de Venda de Entreposto Comercial ativos ao se transferir.</string>
+	<string key="server_transfer_requirements_tradingPost" rel_version="Feature_Server_Transfer">Você não pode ter Pedidos de Compra ou Venda de Entreposto Comercial ativos ao se transferir.</string>
+	<string key="server_transfer_requirements_sanctuary" rel_version="Feature_Server_Transfer">Você precisa estar em um Santuário (Assentamento, Posto Avançado, Santuário Espiritual ou Torre de Vigia) antes de se transferir.</string>
 	<string key="server_transfer_requirements_tradingPost_unknown" rel_version="Feature_Server_Transfer">Conferindo status do Entreposto Comercial...</string>
 	<string key="server_transfer_confirm" rel_version="Feature_Server_Transfer">CONFIRMAR TRANSFERÊNCIA DE MUNDO</string>
 	<string key="server_transfer_confirm_button" rel_version="Feature_Server_Transfer">Confirmar Transferência</string>
@@ -371,5 +374,7 @@
 	<string key="rename_extra_detail" rel_version="MTX_October_Skins">Sua conta tem direito a 1 alteração de nome gratuita. Depois de usada, ela não estará mais disponível para seus outros personagens.</string>
 	<string key="Housing_Happy_Pumpkin_description" rel_version="MTX_October_Skins">“O canalha estava felizmente danado e danadamente feliz. Você também sorriria se tivesse enganado o próprio Diabo!” Decoração de Alojamento</string>
 	<string key="Housing_Happy_Pumpkin_name" rel_version="MTX_October_Skins">Lampião Feliz do Jack Mandrião</string>
+	<string key="Emote_Impatient_name" rel_version="Emote_Impatient">Aguardando</string>
+	<string key="Emote_Impatient_description" rel_version="Emote_Impatient">“Não temos toda a eternidade... ou temos?” Gesto</string>
 </resources>
 

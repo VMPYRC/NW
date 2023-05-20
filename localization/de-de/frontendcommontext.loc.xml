@@ -113,6 +113,8 @@
 	<string key="mm_loginservices_location_BEACH9080">Du bist in der Warteschlange für ein Startgebiet …</string>
 	<string key="mm_loginservices_location_BEACH9009">Du bist in der Warteschlange für ein Startgebiet …</string>
 	<string key="mm_loginservices_location_BEACH9021">Du bist in der Warteschlange für ein Startgebiet …</string>
+	<string key="mm_loginservices_leave_queue_title">Warteschlange verlassen</string>
+	<string key="mm_loginservices_leave_queue_message">Möchtest du die Warteschlange wirklich verlassen?</string>
 	<string key="mm_invalidname_length">Unzulässige Namenslänge.</string>
 	<string key="mm_invalidname_minlength">Der Name ist zu kurz.</string>
 	<string key="mm_invalidname_maxlength">Der Name ist zu lang.</string>
@@ -181,8 +183,8 @@
 	<string key="mm_rejected_Client_Kicked_CSLockout">Dein Konto wurde gesperrt. Bitte wende dich an den Kundendienst für zusätzliche Informationen.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Du wurdest aus dem Spiel geworfen.</string>
 	<string key="mm_authresult_Authorized">Erfolg</string>
-	<string key="mm_characterCreateDisabled">Die Charaktererstellung auf diesem Server wurde vorübergehend ausgesetzt um Überpopulation zu verhindern.</string>
-	<string key="mm_charactertransferdisabled">Character transfer is temporarily disabled on this world. Please try a different world.</string>
+	<string key="mm_characterCreateDisabled">Die Charaktererstellung ist vorübergehend deaktiviert. Die Welt ist zu voll. Bitte versuche, den Charakter auf einer anderen Welt zu erstellen.</string>
+	<string key="mm_charactertransferdisabled">Die Charakterübertragung ist für diese Welt vorübergehend deaktiviert. Bitte versuche es auf einer anderen Welt.</string>
 	<string key="mm_authresult_Denied_ClaimConnectionTicketFailed">Verbindungsticket konnte nicht beansprucht werden.</string>
 	<string key="mm_authresult_Denied_HubNotReady">Server noch nicht spielbereit. Erneuter Versuch …</string>
 	<string key="mm_authresult_Denied_CapacityLimitReached">Die Server sind gerade beschäftigt. Versuche es bitte später erneut.</string>
@@ -215,7 +217,7 @@
 	<string key="mm_waitingforaoi_message">Verbindung zum Server wird aufgebaut, bitte warten ...</string>
 	<string key="mm_waitingforspawnpoint_title">Warte auf Beitritt …</string>
 	<string key="mm_waitingforspawnpoint_message">Kapazitäten werden gesucht, bitte warten ...</string>
-	<string key="mm_world_character_limit">Charakterlimit der Welt erreicht.</string>
+	<string key="mm_world_character_limit">Du kannst nur 1 Charakter im Weltset haben.</string>
 	<string key="confirm_buy_unequippable">Nicht ausrüstbar</string>
 	<string key="confirm_buy_unequippable_body">Du kannst diesen Gegenstand derzeit nicht ausrüsten. Fortfahren?</string>
 	<string key="lt_1_title">Beanspruchen</string>
@@ -335,17 +337,17 @@
 	<string key="mm_connection_error_title">Verbindungsfehler</string>
 	<string key="mm_retry">Erneut versuchen</string>
 	<string key="crafting_repair_requires">Reparatur erfordert:\n{quantityRequired}x {itemRequired} und wird die max. Strapazierfähigkeit um {durabilityLoss} verringern.</string>
-	<string key="crafting_repair_requires_withrepairparts">Reparatur erfordert {goldQuantityRequired} Taler und {repairPartsRequired} Reparaturteile.</string>
+	<string key="crafting_repair_requires_withrepairparts">Reparatur erfordert {goldQuantityRequired} Taler und {repairPartsRequired} Ersatzteile.</string>
 	<string key="crafting_repair_requires_level">Reparatur erfordert:\nStufe</string>
 	<string key="crafting_repair_requires_kit">Reparatur erfordert: {quantityRequired} x {itemRequired} Rang {tierNumber}.</string>
 	<string key="crafting_cannot_repair">Reparatur nicht möglich</string>
 	<string key="crafting_requires_station">Das geht nur an der richtigen Werkstelle.</string>
 	<string key="inv_salvage_tooltip" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {numItems} {itemName}.{gemMessage}</string>
-	<string key="inv_salvage_tooltip_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {numItems} {itemName} und {numRepairParts} Reparaturteile.{gemMessage}</string>
-	<string key="inv_salvage_tooltip_onlyrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {numRepairParts} Reparaturteile.{gemMessage}</string>
-	<string key="inv_salvage_tooltip_repairparts_and_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {numRepairParts} Reparaturteile und {coinAmount}.{gemMessage}</string>
+	<string key="inv_salvage_tooltip_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {numItems} {itemName} und {numRepairParts} Ersatzteile.{gemMessage}</string>
+	<string key="inv_salvage_tooltip_onlyrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {numRepairParts} Ersatzteile.{gemMessage}</string>
+	<string key="inv_salvage_tooltip_repairparts_and_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {numRepairParts} Ersatzteile und {coinAmount}.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_range" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {min}-{max} {itemName}.{gemMessage}</string>
-	<string key="inv_salvage_tooltip_range_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {min}-{max} {itemName} und {numRepairParts} Reparaturteile.{gemMessage}</string>
+	<string key="inv_salvage_tooltip_range_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {min}-{max} {itemName} und {numRepairParts} Ersatzteile.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_gemmessage" comment="this will come after a previous sentence and should have a space in front"> Es besteht eine geringe Wahrscheinlichkeit, den eingesetzten Edelstein zurückzuerhalten.</string>
 	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items."> Zusätzliche Gegenstände wie {itemName} können ebenfalls erworben werden.</string>
 	<string key="inv_salvage_tooltip_recipe">Durch das Zerlegen dieses Gegenstands lernst du den Plan: {recipeName}.</string>
@@ -409,5 +411,6 @@
 	<string key="error_banned">{message}\n\nGrund:[{reason}]</string>
 	<string key="error_perm_ban">Endgültige Sperre</string>
 	<string key="error_temp_ban">Vorübergehende Sperrung</string>
+	<string key="error_world_select_server_down">Während der Wartung einer Welt, kannst du diese nicht auswählen.</string>
 </resources>
 

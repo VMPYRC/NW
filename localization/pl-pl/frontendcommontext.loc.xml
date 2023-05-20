@@ -113,6 +113,8 @@
 	<string key="mm_loginservices_location_BEACH9080">Czekasz w kolejce do obszaru początkowego…</string>
 	<string key="mm_loginservices_location_BEACH9009">Czekasz w kolejce do obszaru początkowego…</string>
 	<string key="mm_loginservices_location_BEACH9021">Czekasz w kolejce do obszaru początkowego…</string>
+	<string key="mm_loginservices_leave_queue_title">Opuść kolejkę</string>
+	<string key="mm_loginservices_leave_queue_message">Czy na pewno chcesz opuścić kolejkę?</string>
 	<string key="mm_invalidname_length">Nieprawidłowa długość nazwy.</string>
 	<string key="mm_invalidname_minlength">To imię jest za krótkie.</string>
 	<string key="mm_invalidname_maxlength">To imię jest za długie.</string>
@@ -181,8 +183,8 @@
 	<string key="mm_rejected_Client_Kicked_CSLockout">Twoje konto jest obecnie zablokowane. Skontaktuj się z działem obsługi, aby dowiedzieć się więcej.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Wyrzucono cię z gry.</string>
 	<string key="mm_authresult_Authorized">Sukces</string>
-	<string key="mm_characterCreateDisabled">Tworzenie postacie na tym serwerze zostało tymczasowo wyłączone, by uniknąć przeludnienia</string>
-	<string key="mm_charactertransferdisabled">Character transfer is temporarily disabled on this world. Please try a different world.</string>
+	<string key="mm_characterCreateDisabled">Tworzenie postaci zostało tymczasowo wyłączone – ten świat jest pełny. Wybierz inny świat.</string>
+	<string key="mm_charactertransferdisabled">Przenoszenie postaci zostało tymczasowo wyłączone na tym świecie. Wybierz inny świat.</string>
 	<string key="mm_authresult_Denied_ClaimConnectionTicketFailed">Błąd przejęcia zgłoszenia połączenia.</string>
 	<string key="mm_authresult_Denied_HubNotReady">Serwer nie jest gotowy do gry. Ponawianie...</string>
 	<string key="mm_authresult_Denied_CapacityLimitReached">Serwery są w tej chwili zajęte. Spróbuj ponownie później.</string>
@@ -215,7 +217,7 @@
 	<string key="mm_waitingforaoi_message">Łączenie z serwerem, proszę czekać…</string>
 	<string key="mm_waitingforspawnpoint_title">Oczekiwanie na dołączenie...</string>
 	<string key="mm_waitingforspawnpoint_message">Szukanie wolnego miejsca, proszę czekać...</string>
-	<string key="mm_world_character_limit">Limit postaci w świecie</string>
+	<string key="mm_world_character_limit">Możesz mieć tylko 1 postać w zestawie światów.</string>
 	<string key="confirm_buy_unequippable">Nie można się wyposażyć</string>
 	<string key="confirm_buy_unequippable_body">Obecnie nie możesz wyposażyć się w ten przedmiot. Kontynuować?</string>
 	<string key="lt_1_title">Przejmowanie</string>
@@ -409,5 +411,6 @@
 	<string key="error_banned">{message}\n\nPowód: [{reason}]</string>
 	<string key="error_perm_ban">Stała blokada</string>
 	<string key="error_temp_ban">Tymczasowa blokada</string>
+	<string key="error_world_select_server_down">Nie można wybrać świata, który podlega pracom konserwacyjnym.</string>
 </resources>
 

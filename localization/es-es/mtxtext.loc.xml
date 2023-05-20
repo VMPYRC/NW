@@ -39,12 +39,13 @@
 	<string key="ui_purchase" rel_version="Feature_MTX">Comprar</string>
 	<string key="ui_confirm_purchase" rel_version="Feature_MTX">Confirmar desbloqueo</string>
 	<string key="ui_credit_balance" rel_version="Feature_MTX">Saldo de crédito: {balance}</string>
-	<string key="ui_get_credits" rel_version="Feature_MTX">Obtener marcas de fortuna</string>
+	<string key="ui_get_credits" rel_version="Feature_MTX">Obtener marcas</string>
 	<string key="reward_type_emote" rel_version="Feature_MTX">Gesto</string>
 	<string key="reward_type_itemskin" rel_version="Feature_MTX">Diseño</string>
 	<string key="reward_type_itemdye" rel_version="Feature_MTX">Tinte</string>
 	<string key="reward_type_armorskin" rel_version="Feature_MTX">Diseño de armadura</string>
 	<string key="reward_type_toolskin" rel_version="Feature_MTX">Diseño de herramienta</string>
+	<string key="url_worldtransfer">https://www.newworld.com/forward-link?id=update-1-0-1</string>
 	<string key="reward_type_weaponskin" rel_version="Feature_MTX">Diseño de arma</string>
 	<string key="reward_type_guildcrest" rel_version="Feature_MTX">Blasón de compañía</string>
 	<string key="reward_type_guildcrest_fg" rel_version="Feature_MTX">Color de blasón</string>
@@ -137,7 +138,7 @@
 	<string key="ui_transaction_failed">Error en la transacción.</string>
 	<string key="ui_transaction_timed_out">Se ha agotado el tiempo de espera de la transacción. ¿Reintentar?</string>
 	<string key="ui_bonus_marks">(+{bonus} marcas)</string>
-	<string key="ui_bonus_percent">{bonusPct} % de bonificación</string>
+	<string key="ui_bonus_percent">{bonusPct} % bonificación</string>
 	<string key="ui_how_to_use">Cómo se usa</string>
 	<string key="ui_notification_unlock_desc">Se han añadido objetos a tu cuenta.</string>
 	<string key="ui_notification_unlock_title">Desbloqueado</string>
@@ -332,11 +333,12 @@
 	<string key="ui_character_world_transfer" rel_version="Feature_Server_Transfer">Transferencia de personaje a otro mundo</string>
 	<string key="server_transfer_description" rel_version="Feature_Server_Transfer">Te permite transferir este personaje a otro mundo dentro de la región actual.</string>
 	<string key="server_transfer_extra_detail" rel_version="Feature_Server_Transfer">En tu cuenta tienes una transferencia de mundo gratis. Una vez que la utilices con un personaje, ya no estará disponible para los demás.</string>
-	<string key="server_transfer_names" rel_version="Feature_Server_Transfer">Transfiriendo a &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; a &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{ServerName}&lt;/font&gt; ({WorldSetName})</string>
+	<string key="server_transfer_names" rel_version="Feature_Server_Transfer">Transfiriendo a &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; a: &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{ServerName}&lt;/font&gt; ({WorldSetName})</string>
 	<string key="server_transfer_requirements" rel_version="Feature_Server_Transfer">REQUISITOS</string>
 	<string key="server_transfer_not_transfer" rel_version="Feature_Server_Transfer">QUÉ NO SE TRANSFIERE</string>
 	<string key="server_transfer_requirements_detail1" rel_version="Feature_Server_Transfer">No puedes pertenecer a una compañía antes de transferirte a otro mundo</string>
-	<string key="server_transfer_requirements_detail2" rel_version="Feature_Server_Transfer">No puedes tener ofertas de venta activas en el puesto comercial antes de transferirte a otro mundo</string>
+	<string key="server_transfer_requirements_detail2" rel_version="Feature_Server_Transfer">You cannot have active Trading Post Buy/Sell Orders before transferring</string>
+	<string key="server_transfer_requirements_detail3" rel_version="Feature_Server_Transfer">You must be in a Sanctuary (Settlement, Outpost, Spirit Shrine, or Watchtower) before transferring</string>
 	<string key="server_transfer_not_transfer_detail1" rel_version="Feature_Server_Transfer">Se eliminará tu lista de amigos y no se transferirá</string>
 	<string key="server_transfer_not_transfer_detail2" rel_version="Feature_Server_Transfer">Las misiones activas de proyectos de pueblo no se transferirán</string>
 	<string key="server_transfer_not_transfer_detail3" rel_version="Feature_Server_Transfer">Las misiones activas de facción no se transferirán</string>
@@ -356,7 +358,8 @@
 	<string key="server_transfer_region_hint" rel_version="Feature_Server_Transfer">Solo puedes transferir personajes a otro mundo que esté en la misma región. Para jugar en una región distinta, tienes que crear un nuevo personaje en esa región.</string>
 	<string key="server_transfer_maintenance" rel_version="Feature_Server_Transfer">No puedes transferirte a un mundo mientras esté en mantenimiento.</string>
 	<string key="server_transfer_requirements_company" rel_version="Feature_Server_Transfer">No puedes pertenecer a una compañía antes de transferirte a otro mundo.</string>
-	<string key="server_transfer_requirements_tradingPost" rel_version="Feature_Server_Transfer">No puedes tener ofertas de venta activas en el puesto comercial antes de transferirte a otro mundo.</string>
+	<string key="server_transfer_requirements_tradingPost" rel_version="Feature_Server_Transfer">You cannot have active Trading Post Buy/Sell Orders before transferring.</string>
+	<string key="server_transfer_requirements_sanctuary" rel_version="Feature_Server_Transfer">You must be in a Sanctuary (Settlement, Outpost, Spirit Shrine, or Watchtower) before transferring.</string>
 	<string key="server_transfer_requirements_tradingPost_unknown" rel_version="Feature_Server_Transfer">Comprobando transacciones del puesto comercial…</string>
 	<string key="server_transfer_confirm" rel_version="Feature_Server_Transfer">CONFIRMAR TRANSFERENCIA DE MUNDO</string>
 	<string key="server_transfer_confirm_button" rel_version="Feature_Server_Transfer">Confirmar transferencia</string>
@@ -371,5 +374,7 @@
 	<string key="rename_extra_detail" rel_version="MTX_October_Skins">En tu cuenta dispones de un cambio de nombre gratis. Una vez que lo utilices con un personaje, ya no estará disponible para los demás.</string>
 	<string key="Housing_Happy_Pumpkin_description" rel_version="MTX_October_Skins">«El incorregible sinvergüenza estaba felizmente condenado y condenadamente feliz. ¡Tú también sonreirías si hubieras engañado al mismísimo diablo!» Decoración para casas</string>
 	<string key="Housing_Happy_Pumpkin_name" rel_version="MTX_October_Skins">Calabaza risueña de Jack el Buscalíos</string>
+	<string key="Emote_Impatient_name" rel_version="Emote_Impatient">Impaciente</string>
+	<string key="Emote_Impatient_description" rel_version="Emote_Impatient">«No puedo esperar eternamente... Miento, sí que puedo». Gesto</string>
 </resources>
 

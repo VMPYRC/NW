@@ -1,69 +1,122 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="emote_2fingers">{playerName} fait le signe de la victoire.</string>
 	<string key="emote_2thumbsup">{playerName} lève les deux pouces.</string>
-	<string key="emote_apol1">{playerName} s'excuse pour sa gravissime erreur.</string>
-	<string key="emote_beckon">{playerName} vous fait signe d'approcher.</string>
-	<string key="emote_bow">{playerName} s'incline.</string>
 	<string key="emote_cheer">{playerName} donne des encouragements.</string>
-	<string key="emote_chestpound">{playerName} se frappe la poitrine.</string>
-	<string key="emote_chinscrape">{playerName} ne trouve pas ça drôle.</string>
-	<string key="emote_clap">{playerName} applaudit.</string>
 	<string key="emote_coin_heads" comment="The top side of a coin">face</string>
 	<string key="emote_coin_tails" comment="The bottom side of a coin">pile</string>
-	<string key="emote_cointoss" comment="{coinResult} will be replaced with the tag emote_coin_heads or emote_coin_tails. They are also defined in this file.">{playerName} lance une pièce et obtient {coinResult}.</string>
-	<string key="emote_cry1">{playerName} pleure.</string>
-	<string key="emote_cry3">{playerName} ne peut contenir sa peine.</string>
+	<string key="emote_cointoss" comment="{coinResult} will be replaced with the tag emote_coin_heads or emote_coin_tails. They are also defined in this file." rel_version="MTX_October_Skins">{playerName} lance une pièce et obtient {coinResult}.</string>
 	<string key="emote_dance1">{playerName} danse.</string>
 	<string key="emote_diceroll" comment="{diceResult} is a number from 1 to 6">{playerName} a obtenu un {diceResult}.</string>
-	<string key="emote_eyesonyou">{playerName} ne vous quitte pas des yeux.</string>
-	<string key="emote_farmerblow">{playerName} se mouche.</string>
-	<string key="emote_fingerwag">{playerName} déconseille de faire ça.</string>
-	<string key="emote_fistbump">{playerName} fait un check.</string>
-	<string key="emote_fistshake">{playerName} lève le poing.</string>
+	<string key="emote_eyesonyou" rel_version="New_World_Launch">{playerName} ne vous quitte pas des yeux.</string>
+	<string key="emote_fistbump" rel_version="New_World_Launch">{playerName} fait un check.</string>
 	<string key="emote_flex1">{playerName} fléchit les muscles.</string>
 	<string key="emote_flex2">{playerName} fléchit les muscles.</string>
-	<string key="emote_flex3">{playerName} vous montre ses bras. Jolis muscles, non ?</string>
+	<string key="emote_flex3" rel_version="New_World_Launch">{playerName} vous montre ses bras. Jolis muscles, non ?</string>
 	<string key="emote_forearmjerk">{playerName} exprime son mécontentement.</string>
-	<string key="emote_golfclap">{playerName} applaudit sans grand enthousiasme.</string>
-	<string key="emote_goodbye">{playerName} fait au revoir de la main.</string>
-	<string key="emote_hi">{playerName} dit bonjour.</string>
-	<string key="emote_highfive">{playerName} lève la main pour toper.</string>
-	<string key="emote_impatient">{playerName} attend...</string>
-	<string key="emote_laugh1">{playerName} rit.</string>
-	<string key="emote_laugh2">{playerName} se moque de vous.</string>
+	<string key="emote_golfclap" rel_version="MTX_October_Skins">{playerName} applaudit courtoisement</string>
+	<string key="emote_impatient" rel_version="Emote_Impatient">{playerName} perd patience.</string>
 	<string key="emote_loudpoint">{playerName} montre quelque chose du doigt.</string>
-	<string key="emote_no">{playerName} refuse.</string>
 	<string key="emote_nodeal">{playerName} n'aime pas ça.</string>
 	<string key="emote_overhere">{playerName} veut que vous alliez là-bas.</string>
-	<string key="emote_pray">{playerName} prie.</string>
-	<string key="emote_pushups">{playerName} fait quelques pompes.</string>
-	<string key="emote_revel">{playerName} aime beaucoup ça.</string>
-	<string key="emote_rockpaperscissors">{playerName} se lance dans une partie de chifoumi.</string>
-	<string key="emote_shhh">{playerName} fait signe de se taire.</string>
-	<string key="emote_shrug">{playerName} hausse les épaules.</string>
-	<string key="emote_sillywalk1">{playerName} marche de manière stupide</string>
+	<string key="emote_rockpaperscissors" rel_version="New_World_Launch">{playerName} se lance dans une partie de chifoumi.</string>
 	<string key="emote_sit" comment="comment">{playerName} s'assoit.</string>
-	<string key="emote_slowclap">{playerName} applaudit ironiquement.</string>
-	<string key="emote_surrender">{playerName} se rend.</string>
-	<string key="emote_throatslit">{playerName} fait un geste menaçant.</string>
-	<string key="emote_thumbsdown">{playerName} désapprouve.</string>
-	<string key="emote_thumbsside">{playerName} n'arrive pas à se décider.</string>
-	<string key="emote_thumbsup">{playerName} lève les deux pouces.</string>
+	<string key="emote_throatslit" rel_version="New_World_Launch">{playerName} fait un geste menaçant.</string>
+	<string key="emote_thumbsdown" rel_version="New_World_Launch">{playerName} désapprouve.</string>
+	<string key="emote_thumbsside" rel_version="New_World_Launch">{playerName} n'arrive pas à se décider.</string>
+	<string key="emote_thumbsup" rel_version="New_World_Launch">{playerName} lève les deux pouces.</string>
 	<string key="emote_wave">{playerName} fait signe de la main.</string>
-	<string key="emote_whistle">{playerName} siffle.</string>
-	<string key="emote_firework1">{playerName} tire une fusée de chrysanthème.</string>
-	<string key="emote_firework2">{playerName} tire une double fusée.</string>
-	<string key="emote_firework3">{playerName} tire une triple fusée.</string>
-	<string key="emote_firework4">{playerName} tire une quadruple fusée.</string>
-	<string key="emote_firework5">{playerName} tire une quintuple fusée.</string>
-	<string key="emote_blowkiss">{playerName} vous embrasse</string>
-	<string key="emote_ahoy">{playerName} prend la pose</string>
-	<string key="emote_fingerwag">{playerName} fait non non non</string>
+	<string key="emote_blowkiss" rel_version="New_World_Launch">{playerName} vous embrasse</string>
+	<string key="emote_ahoy" rel_version="New_World_Launch">{playerName} prend la pose</string>
+	<string key="emote_fingerwag" rel_version="New_World_Launch">{playerName} fait non non non</string>
+	<string key="ui_emote">Émote</string>
+	<string key="ui_emotes">Émotes</string>
+	<string key="ui_emote_unavailable_reason">Cette émote est réservée à : {entitlementRequirements}</string>
+	<string key="ui_emote_unavailable">&lt;font color="#f25d5d"&gt;Cette émote n'est pas disponible.&lt;/font&gt;</string>
 	<string key="ui_emote_BlowKiss">Baiser au vent</string>
 	<string key="ui_emote_PiratePose">Posture de pirate</string>
 	<string key="ui_emote_FingerWag">Doigt pointé</string>
-	<string key="ui_emote_BlowKiss_description">Émote Baiser au vent</string>
-	<string key="ui_emote_PiratePose_description">Émote Posture de pirate</string>
-	<string key="ui_emote_FingerWag_description">Émote Doigt pointé</string>
+	<string key="ui_emote_BlowKiss_description">« Un geste d'amour courtois. »</string>
+	<string key="ui_emote_PiratePose_description">« Tes trésors seront bientôt à moi. »</string>
+	<string key="ui_emote_FingerWag_description">« Non, pas aujourd'hui ! »</string>
+	<string key="ui_emote_Impatient" rel_version="Emote_Impatient">En attente</string>
+	<string key="ui_emote_Impatient_description" rel_version="Emote_Impatient">« On va pas passer la nuit ici... ou bien... ? »</string>
+	<string key="ui_emote_sit">S'asseoir</string>
+	<string key="ui_emote_flex">Muscles</string>
+	<string key="ui_emote_flex2">Muscles</string>
+	<string key="ui_emote_go">Par là</string>
+	<string key="ui_emote_here">Ici</string>
+	<string key="ui_emote_wave">Saluer</string>
+	<string key="ui_emote_nono">Non-non</string>
+	<string key="ui_emote_cheer">Encourager</string>
+	<string key="ui_emote_Dice">Dés</string>
+	<string key="ui_emote_thumbs">Pouces</string>
+	<string key="ui_emote_dance1">Danse</string>
+	<string key="ui_emote_kill">Égorgement</string>
+	<string key="ui_emote_Watching">Je te vois</string>
+	<string key="ui_emote_No">Non</string>
+	<string key="ui_emote_Clap">Applaudissements</string>
+	<string key="ui_emote_surrender">Se rendre</string>
+	<string key="ui_emote_pray">Prier</string>
+	<string key="ui_emote_nope">Nope</string>
+	<string key="ui_emote_Beckon">Appeler</string>
+	<string key="ui_emote_RockPaperScissors">Chifoumi</string>
+	<string key="ui_emote_FistBump">Check</string>
+	<string key="ui_emote_Revel">Se réjouir</string>
+	<string key="ui_emote_Hi">Salut</string>
+	<string key="ui_emote_GoodBye">Bye</string>
+	<string key="ui_emote_Apologize">S'excuser</string>
+	<string key="ui_emote_Thumbs_Sideways">Pouces sur les côtés</string>
+	<string key="ui_emote_Thumbs_Up">Pouces levés</string>
+	<string key="ui_emote_Thumbs_Down">Pouces baissés</string>
+	<string key="ui_emote_High_Five">Tope là</string>
+	<string key="ui_emote_Slow_Clap">Bravos ironiques</string>
+	<string key="ui_emote_Laugh_1">Rire 1</string>
+	<string key="ui_emote_Laugh_2">Rire 2</string>
+	<string key="ui_emote_Cry_3">Pleurer 3</string>
+	<string key="ui_emote_Coin_Toss">Lancer de pièce</string>
+	<string key="ui_emote_Chin_Scrape">Grattement de menton</string>
+	<string key="ui_emote_Push_Ups">Pompes</string>
+	<string key="ui_emote_Flex_3">Fléchissement</string>
+	<string key="ui_emote_Golf_Clap">Applaudissement courtois</string>
+	<string key="ui_emote_sillywalk1">Marche stupide</string>
+	<string key="ui_emote_sit_description">Description de l'émote S'asseoir</string>
+	<string key="ui_emote_flex_description">Description de l'émote Muscles</string>
+	<string key="ui_emote_flex2_description">Description de l'émote Muscles</string>
+	<string key="ui_emote_go_description">Description de l'émote Aller</string>
+	<string key="ui_emote_here_description">Description de l'émote Ici</string>
+	<string key="ui_emote_wave_description">Description de l'émote Saluer</string>
+	<string key="ui_emote_nono_description">Description de l'émote Non !</string>
+	<string key="ui_emote_cheer_description">Description de l'émote Encourager</string>
+	<string key="ui_emote_Dice_description">Description de l'émote Dés</string>
+	<string key="ui_emote_thumbs_description">Description de l'émote Pouces</string>
+	<string key="ui_emote_dance1_description">Description de l'émote Danse</string>
+	<string key="ui_emote_kill_description">« Le signe du brigand. »</string>
+	<string key="ui_emote_Watching_description">« Vigilance éternelle. »</string>
+	<string key="ui_emote_No_description">Description de l'émote Non</string>
+	<string key="ui_emote_Clap_description">Description de l'émote Applaudissements</string>
+	<string key="ui_emote_surrender_description">Description de l'émote Se rendre</string>
+	<string key="ui_emote_pray_description">« Prosternez-vous devant une puissance supérieure. »</string>
+	<string key="ui_emote_nope_description">Description de l'émote Nope</string>
+	<string key="ui_emote_Beckon_description">Description de l'émote Appeler</string>
+	<string key="ui_emote_RockPaperScissors_description">« Un seul peut l'emporter. Sauf en cas d'égalité. »</string>
+	<string key="ui_emote_FistBump_description">Description de l'émote Check</string>
+	<string key="ui_emote_Revel_description">Description de l'émote Se réjouir</string>
+	<string key="ui_emote_Hi_description">Description de l'émote Salut</string>
+	<string key="ui_emote_GoodBye_description">Description de l'émote Bye</string>
+	<string key="ui_emote_Apologize_description">Description de l'émote S'excuser</string>
+	<string key="ui_emote_Thumbs_Sideways_description">« Je préfère ne pas me prononcer. »</string>
+	<string key="ui_emote_Thumbs_Up_description">« D'accord. »</string>
+	<string key="ui_emote_Thumbs_Down_description">« Pas d'accord. »</string>
+	<string key="ui_emote_High_Five_description">Description de l'émote Tope là</string>
+	<string key="ui_emote_Slow_Clap_description">Description de l'émote Bravos sarcastiques</string>
+	<string key="ui_emote_Laugh_1_description">Description de l'émote Rire 1</string>
+	<string key="ui_emote_Laugh_2_description">Description de l'émote Rire 2</string>
+	<string key="ui_emote_Cry_3_description">Description de l'émote Pleurer 3</string>
+	<string key="ui_emote_Coin_Toss_description">« Le lancer d'une pièce. »</string>
+	<string key="ui_emote_Chin_Scrape_description">Description de l'émote Grattement de menton</string>
+	<string key="ui_emote_Push_Ups_description">Description de l'émote Pompes</string>
+	<string key="ui_emote_Flex_3_description">« Montrez votre force. »</string>
+	<string key="ui_emote_Golf_Clap_description">« Un boulot rondement mené ! »</string>
+	<string key="ui_emote_sillywalk1_description">Description de l'émote Marche stupide</string>
 </resources>
 

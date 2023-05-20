@@ -874,10 +874,10 @@
 	<string key="ui_floating_coin_val">&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;{amount}</string>
 	<string key="ui_floating_xp_val">&lt;img src="lyshineui/images/icons/misc/icon_xp" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;{amount}</string>
 	<string key="ui_floating_standing_val">&lt;img src="lyshineui/images/icons/misc/icon_territoryStanding" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;{amount}</string>
-	<string key="ui_killfeed_xp_val">+ {amount} </string>
-	<string key="ui_killfeed_coin_val">+ {amount} </string>
-	<string key="ui_killfeed_standing_val">+ {amount} </string>
-	<string key="ui_killfeed_tradeskill_val">+ {amount} </string>
+	<string key="ui_killfeed_xp_val">+ {amount}</string>
+	<string key="ui_killfeed_coin_val">+ {amount}</string>
+	<string key="ui_killfeed_standing_val">+ {amount}</string>
+	<string key="ui_killfeed_tradeskill_val">+ {amount}</string>
 	<string key="ui_navmenu_friends">AMICI</string>
 	<string key="ui_navmenu_guild">COMPAGNIA</string>
 	<string key="ui_navmenu_map">MAPPA</string>
@@ -1550,7 +1550,6 @@
 	<string key="ui_emote_Laugh_2">Risata 2</string>
 	<string key="ui_emote_Cry_1">Pianto 1</string>
 	<string key="ui_emote_Cry_3">Pianto 3</string>
-	<string key="ui_emote_Impatient">Impaziente</string>
 	<string key="ui_emote_Coin_Toss">Testa o croce</string>
 	<string key="ui_emote_Chest_Pound">Pugni sul petto</string>
 	<string key="ui_emote_Fist_Shake">Agitare il pugno</string>
@@ -1598,7 +1597,6 @@
 	<string key="ui_emote_Laugh_2_description">Descrizione dell'emote Risata 2</string>
 	<string key="ui_emote_Cry_1_description">Descrizione dell'emote Pianto 1</string>
 	<string key="ui_emote_Cry_3_description">Descrizione dell'emote Pianto 3</string>
-	<string key="ui_emote_Impatient_description">Descrizione dell'emote Impaziente</string>
 	<string key="ui_emote_Coin_Toss_description">"Un lancio della moneta."</string>
 	<string key="ui_emote_Chest_Pound_description">Descrizione dell'emote Pugni sul petto</string>
 	<string key="ui_emote_Fist_Shake_description">Descrizione dell'emote Agitare il pugno</string>
@@ -2300,7 +2298,7 @@
 	<string key="ui_tooltip_effect_duration">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{value}&lt;/font&gt; Durata effetto</string>
 	<string key="ui_cap_unfocused_fps">Limite FPS in secondo piano</string>
 	<string key="ui_cap_unfocused_fps_desc">Quando è abilitato, limita il framerate se ridotto a icona o è in secondo piano.</string>
-	<string key="ui_Enable_Viewport_Scale">Scala di risoluzione dinamica </string>
+	<string key="ui_Enable_Viewport_Scale">Scala di risoluzione dinamica</string>
 	<string key="ui_Enable_Viewport_Scale_desc">Quando è abilitato, regola automaticamente la risoluzione interna del gioco per mantenere le prestazioni del framerate.</string>
 	<string key="ui_gathering_disabled">Al momento la raccolta è disattivata</string>
 	<string key="ui_autopinObjectivesMain">Fissa automaticamente missioni storia principale</string>

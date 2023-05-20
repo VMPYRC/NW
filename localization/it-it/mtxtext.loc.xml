@@ -45,6 +45,7 @@
 	<string key="reward_type_itemdye" rel_version="Feature_MTX">Tinta</string>
 	<string key="reward_type_armorskin" rel_version="Feature_MTX">Skin per armatura</string>
 	<string key="reward_type_toolskin" rel_version="Feature_MTX">Skin per strumento</string>
+	<string key="url_worldtransfer">https://www.newworld.com/forward-link?id=update-1-0-1</string>
 	<string key="reward_type_weaponskin" rel_version="Feature_MTX">Skin per arma</string>
 	<string key="reward_type_guildcrest" rel_version="Feature_MTX">Emblema della compagnia</string>
 	<string key="reward_type_guildcrest_fg" rel_version="Feature_MTX">Colore dell'emblema</string>
@@ -332,11 +333,12 @@
 	<string key="ui_character_world_transfer" rel_version="Feature_Server_Transfer">Trasferimento di mondo del personaggio</string>
 	<string key="server_transfer_description" rel_version="Feature_Server_Transfer">Consente di trasferire questo personaggio in un altro mondo all'interno della regione attuale.</string>
 	<string key="server_transfer_extra_detail" rel_version="Feature_Server_Transfer">Sul tuo account è disponibile 1 trasferimento gratuito. Una volta rivendicato, non potrai usarlo su altri personaggi.</string>
-	<string key="server_transfer_names" rel_version="Feature_Server_Transfer">Trasferimento di &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; a: &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{ServerName}&lt;/font&gt; ({WorldSetName})</string>
+	<string key="server_transfer_names" rel_version="Feature_Server_Transfer">Trasferimento &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; verso: &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{ServerName}&lt;/font&gt; ({WorldSetName})</string>
 	<string key="server_transfer_requirements" rel_version="Feature_Server_Transfer">REQUISITI</string>
 	<string key="server_transfer_not_transfer" rel_version="Feature_Server_Transfer">COSA NON SARÀ TRASFERITO</string>
 	<string key="server_transfer_requirements_detail1" rel_version="Feature_Server_Transfer">Non puoi fare parte di una compagnia prima del trasferimento</string>
-	<string key="server_transfer_requirements_detail2" rel_version="Feature_Server_Transfer">Non puoi avere ordini di vendita attivi all'emporio prima del trasferimento</string>
+	<string key="server_transfer_requirements_detail2" rel_version="Feature_Server_Transfer">You cannot have active Trading Post Buy/Sell Orders before transferring</string>
+	<string key="server_transfer_requirements_detail3" rel_version="Feature_Server_Transfer">You must be in a Sanctuary (Settlement, Outpost, Spirit Shrine, or Watchtower) before transferring</string>
 	<string key="server_transfer_not_transfer_detail1" rel_version="Feature_Server_Transfer">La tua lista amici verrà cancellata e non sarà trasferita</string>
 	<string key="server_transfer_not_transfer_detail2" rel_version="Feature_Server_Transfer">Le missioni del progetto cittadino attivo non saranno trasferite</string>
 	<string key="server_transfer_not_transfer_detail3" rel_version="Feature_Server_Transfer">Le missioni della fazione attiva non saranno trasferite</string>
@@ -356,7 +358,8 @@
 	<string key="server_transfer_region_hint" rel_version="Feature_Server_Transfer">È possibile trasferire personaggi solo in un altro mondo all'interno della stessa regione. Per poter giocare in una regione diversa, devi creare un nuovo personaggio in quella regione.</string>
 	<string key="server_transfer_maintenance" rel_version="Feature_Server_Transfer">Non puoi effettuare il trasferimento in un mondo mentre è in corso la manutenzione.</string>
 	<string key="server_transfer_requirements_company" rel_version="Feature_Server_Transfer">Non puoi fare parte di una compagnia prima del trasferimento.</string>
-	<string key="server_transfer_requirements_tradingPost" rel_version="Feature_Server_Transfer">Non puoi avere ordini di vendita attivi all'emporio prima del trasferimento.</string>
+	<string key="server_transfer_requirements_tradingPost" rel_version="Feature_Server_Transfer">You cannot have active Trading Post Buy/Sell Orders before transferring.</string>
+	<string key="server_transfer_requirements_sanctuary" rel_version="Feature_Server_Transfer">You must be in a Sanctuary (Settlement, Outpost, Spirit Shrine, or Watchtower) before transferring.</string>
 	<string key="server_transfer_requirements_tradingPost_unknown" rel_version="Feature_Server_Transfer">Verifica stato dell'emporio...</string>
 	<string key="server_transfer_confirm" rel_version="Feature_Server_Transfer">CONFERMA TRASFERIMENTO DI MONDO</string>
 	<string key="server_transfer_confirm_button" rel_version="Feature_Server_Transfer">Conferma trasferimento</string>
@@ -370,6 +373,8 @@
 	<string key="server_transfer_step_2" rel_version="Feature_Server_Transfer">Passo 2 di 2</string>
 	<string key="rename_extra_detail" rel_version="MTX_October_Skins">Sul tuo account è disponibile 1 cambio di nome. Una volta rivendicato, non potrai usarlo su altri personaggi.</string>
 	<string key="Housing_Happy_Pumpkin_description" rel_version="MTX_October_Skins">"L'incapace disgraziato era felicemente dannato e dannatamente felice. Sorrideresti anche tu se avessi ingannato il diavolo in persona!" Decorazione della casa</string>
-	<string key="Housing_Happy_Pumpkin_name" rel_version="MTX_October_Skins">Lanterna della felicità di Jack lo Scapestrato</string>
+	<string key="Housing_Happy_Pumpkin_name" rel_version="MTX_October_Skins">Lanterna di Jack lo Scapestrato</string>
+	<string key="Emote_Impatient_name" rel_version="Emote_Impatient">In attesa</string>
+	<string key="Emote_Impatient_description" rel_version="Emote_Impatient">"Non abbiamo mica tutta l'eternità... o forse sì? Emote</string>
 </resources>
 

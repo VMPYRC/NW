@@ -113,6 +113,8 @@
 	<string key="mm_loginservices_location_BEACH9080">Vous faites la queue pour accéder à une zone de départ...</string>
 	<string key="mm_loginservices_location_BEACH9009">Vous faites la queue pour accéder à une zone de départ...</string>
 	<string key="mm_loginservices_location_BEACH9021">Vous faites la queue pour accéder à une zone de départ...</string>
+	<string key="mm_loginservices_leave_queue_title">Quitter la file d'attente</string>
+	<string key="mm_loginservices_leave_queue_message">Voulez-vous vraiment quitter la file d'attente ?</string>
 	<string key="mm_invalidname_length">La longueur de ce nom est invalide.</string>
 	<string key="mm_invalidname_minlength">Ce nom est trop court.</string>
 	<string key="mm_invalidname_maxlength">Ce nom est trop long.</string>
@@ -181,8 +183,8 @@
 	<string key="mm_rejected_Client_Kicked_CSLockout">Votre compte est actuellement verrouillé. Veuillez contacter le service client pour de plus amples informations.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Vous êtes exclu(e) du jeu.</string>
 	<string key="mm_authresult_Authorized">Réussite</string>
-	<string key="mm_characterCreateDisabled">La création de personnages a été désactivée temporairement sur ce serveur pour éviter la surpopulation.</string>
-	<string key="mm_charactertransferdisabled">Character transfer is temporarily disabled on this world. Please try a different world.</string>
+	<string key="mm_characterCreateDisabled">La création de personnages a été désactivée temporairement, car ce monde est plein. Réessayez dans un autre monde.</string>
+	<string key="mm_charactertransferdisabled">Le transfert de personnage a été désactivé temporairement dans ce monde. Réessayez dans un autre monde.</string>
 	<string key="mm_authresult_Denied_ClaimConnectionTicketFailed">Impossible d'obtenir un ticket de connexion.</string>
 	<string key="mm_authresult_Denied_HubNotReady">Ce serveur n'est pas prêt pour jouer. Nouvelle tentative...</string>
 	<string key="mm_authresult_Denied_CapacityLimitReached">Les serveurs sont occupés. Veuillez réessayer plus tard.</string>
@@ -215,7 +217,7 @@
 	<string key="mm_waitingforaoi_message">Connexion au serveur, veuillez patienter...</string>
 	<string key="mm_waitingforspawnpoint_title">En attente de rejoindre...</string>
 	<string key="mm_waitingforspawnpoint_message">Recherche de capacité, veuillez patienter...</string>
-	<string key="mm_world_character_limit">Limite de personnage atteinte dans ce monde</string>
+	<string key="mm_world_character_limit">Vous ne pouvez avoir qu'un personnage dans un ensemble de mondes.</string>
 	<string key="confirm_buy_unequippable">Équipement impossible</string>
 	<string key="confirm_buy_unequippable_body">Vous ne pouvez pas vous en équiper actuellement. Continuer ?</string>
 	<string key="lt_1_title">Revendiquer</string>
@@ -409,5 +411,6 @@
 	<string key="error_banned">{message}\n\nRaison : [{reason}]</string>
 	<string key="error_perm_ban">Bannissement permanent</string>
 	<string key="error_temp_ban">Bannissement temporaire</string>
+	<string key="error_world_select_server_down">Vous ne pouvez pas sélectionner un monde en cours de maintenance.</string>
 </resources>
 
