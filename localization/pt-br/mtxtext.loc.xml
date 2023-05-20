@@ -1,0 +1,362 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="ui_go_to_store" rel_version="Feature_MTX">Loja de New World</string>
+	<string key="ui_browse_shop" rel_version="Feature_MTX">Explorar a Loja</string>
+	<string key="product_purchased" rel_version="Feature_MTX">Comprado</string>
+	<string key="marketing_new" rel_version="Feature_MTX">Novo!</string>
+	<string key="marketing_sale" rel_version="Feature_MTX">Promoção!</string>
+	<string key="ui_credits_purchase" rel_version="Feature_MTX">Comprar créditos</string>
+	<string key="ui_credit_purchase_suggest" rel_version="Feature_MTX">Você precisa de &lt;font color="#ffae00"&gt;{amount} Marcas da Sorte&lt;/font&gt; para comprar &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{product}&lt;/font&gt;.</string>
+	<string key="ui_featureddeals" rel_version="Feature_MTX">Ofertas em destaque</string>
+	<string key="ui_consumables" rel_version="Feature_MTX">Consumíveis</string>
+	<string key="ui_armorskins" rel_version="Feature_MTX">Aparências de armadura</string>
+	<string key="ui_weaponskins" rel_version="Feature_MTX">Aparências de arma</string>
+	<string key="ui_toolskins" rel_version="Feature_MTX">Tool Skins</string>
+	<string key="ui_housingitems" rel_version="Feature_MTX">Itens da casa</string>
+	<string key="ui_world_transfer_mtx" rel_version="Feature_MTX">Transferência de Mundo</string>
+	<string key="ui_guildcrestcolors" rel_version="Feature_MTX">Brasões da Companhia</string>
+	<string key="ui_bundles" rel_version="Feature_MTX">Conjuntos</string>
+	<string key="ui_orderhistory" rel_version="Feature_MTX">Itens Desbloqueados</string>
+	<string key="ui_store" rel_version="Feature_MTX">Loja</string>
+	<string key="ui_bundle" rel_version="Feature_MTX">Conjunto</string>
+	<string key="ui_credit_purchase" rel_version="Feature_MTX">Comprar créditos</string>
+	<string key="ui_reward_count" rel_version="Feature_MTX">{total} recompensa(s).</string>
+	<string key="ui_reward_package_info" rel_version="Feature_MTX">Há {total} recompensa(s) neste pacote.</string>
+	<string key="ui_reward_filtered_info" rel_version="Feature_MTX">Existem {included} recompensa(s) para o filtro “{filter}” de um total de {total} recompensa(s) neste pacote.</string>
+	<string key="ui_purchases_title" rel_version="Feature_MTX">Compras e DLCs</string>
+	<string key="ui_purchases_button" rel_version="Feature_MTX">Compras e DLCs</string>
+	<string key="ui_purchases_desc" rel_version="Feature_MTX">Todos os DLCs ficam disponíveis para todos os personagens de sua conta.</string>
+	<string key="ui_featured">Ofertas em destaque</string>
+	<string key="ui_show_purchased">Mostrar desbloqueados</string>
+	<string key="ui_sort_by">Ordenar por:</string>
+	<string key="ui_add_more_fictional_currency" rel_version="Feature_MTX">Adicione mais &lt;img src="lyshineui/images/mtx/icon_mtx_currency" scale="2.8" yOffset="10"&gt;&lt;/img&gt;</string>
+	<string key="ui_discount_off">{number} &lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;de desconto&lt;/font&gt;</string>
+	<string key="ui_discount_off_bold">{number} &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;de desconto&lt;/font&gt;</string>
+	<string key="ui_marks_of_fortune" rel_version="Feature_MTX">Marcas da Sorte</string>
+	<string key="ui_entitlement_balance" rel_version="Feature_MTX">Saldo atual {balance}</string>
+	<string key="ui_dye_number" rel_version="Feature_MTX">Tintura n. {rewardId}</string>
+	<string key="ui_unlock" rel_version="Feature_MTX">Desbloquear</string>
+	<string key="ui_unlock_bundle" rel_version="Feature_MTX">Desbloquear conjunto</string>
+	<string key="ui_purchase" rel_version="Feature_MTX">Comprar</string>
+	<string key="ui_confirm_purchase" rel_version="Feature_MTX">Confirmar Desbloqueio</string>
+	<string key="ui_credit_balance" rel_version="Feature_MTX">Saldo de créditos {balance}</string>
+	<string key="ui_get_credits" rel_version="Feature_MTX">Adquira Marcas da Sorte</string>
+	<string key="reward_type_emote" rel_version="Feature_MTX">Gesto</string>
+	<string key="reward_type_itemskin" rel_version="Feature_MTX">Aparência</string>
+	<string key="reward_type_itemdye" rel_version="Feature_MTX">Tintura</string>
+	<string key="reward_type_armorskin" rel_version="Feature_MTX">Aparência de armadura</string>
+	<string key="reward_type_toolskin" rel_version="Feature_MTX">Tool Skin</string>
+	<string key="reward_type_weaponskin" rel_version="Feature_MTX">Aparência de arma</string>
+	<string key="reward_type_guildcrest" rel_version="Feature_MTX">Brasão da Companhia</string>
+	<string key="reward_type_guildcrest_fg" rel_version="Feature_MTX">Cor do brasão</string>
+	<string key="reward_type_guildcrest_bg" rel_version="Feature_MTX">Cor do brasão</string>
+	<string key="reward_type_housing_item" rel_version="Feature_MTX">Item de Alojamento</string>
+	<string key="reward_type_player_title" rel_version="Feature_MTX">Título</string>
+	<string key="reward_type_inventory_item" rel_version="Feature_MTX">Item</string>
+	<string key="reward_type_extra" rel_version="Feature_MTX">Extra</string>
+	<string key="reward_type_entitlement" rel_version="Feature_MTX">DIREITO</string>
+	<string key="reward_type_marks_of_fortune" rel_version="Feature_MTX">Marcas da Sorte</string>
+	<string key="reward_type_service" rel_version="Feature_MTX">Transferência de Mundo</string>
+	<string key="entitlement_included" rel_version="Feature_MTX">Incluído</string>
+	<string key="ui_account_bound" rel_version="Feature_MTX">Vinculado à conta (não pode ser negociado)</string>
+	<string key="ui_account_bound_tooltip" rel_version="Feature_MTX">Os itens são vinculados à sua conta (podem ser usados em todos os seus personagens). Itens não podem ser descartados, trocados ou vendidos no Entreposto Comercial.\n\n&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;Consumíveis:&lt;/font&gt; Consumíveis têm uso limitado; se você usar um deles em um personagem específico, a quantidade será reduzida em toda a conta. Por exemplo, se você tiver cinco tinturas e usar uma delas em um personagem, os outros personagens da mesma conta também ficarão com quatro tinturas restantes.</string>
+	<string key="ui_unlock_for" rel_version="Feature_MTX">Desbloqueie por &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/mtx/icon_mtx_currency" scale="2.5" yOffset="10"&gt;&lt;/img&gt;</string>
+	<string key="ui_unlock_with_icon" rel_version="Feature_MTX">&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_purchase" scale="1.75" yOffset="3.5"&gt;&lt;/img&gt; Desbloquear</string>
+	<string key="ui_bundle_with_icon" rel_version="Feature_MTX">&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_bundle" scale="1.75" yOffset="3.5"&gt;&lt;/img&gt; Conjunto de DLC</string>
+	<string key="ui_currency_price_big" rel_version="Feature_MTX">{number} &lt;img src="lyshineui/images/mtx/icon_mtx_currency" scale="1.8" yOffset="7"&gt;&lt;/img&gt;</string>
+	<string key="ui_do_not_own" rel_version="Feature_MTX">Você não possui este item.</string>
+	<string key="ui_housing_tooltip_noitem">Você não possui este item.</string>
+	<string key="ui_housing_tooltip_not_entitled">Você não possui este item.</string>
+	<string key="ui_itemskin_tooltip_not_entitled">Você não possui este item.</string>
+	<string key="ui_twitch_item" rel_version="Feature_MTX">Twitch</string>
+	<string key="ui_prime_gaming_item" rel_version="Feature_MTX">Prime Gaming</string>
+	<string key="ui_pre_order_item" rel_version="Feature_MTX">Pré-venda</string>
+	<string key="ui_mtx_disclaimer" rel_version="Feature_MTX">Este item é vinculado à sua conta (pode ser usado com qualquer um de seus personagens).</string>
+	<string key="ui_emote_description_default" rel_version="Feature_MTX">Este gesto não tem descrição. Adicione uma, por favor!</string>
+	<string key="ui_crest_emblem_description_default" rel_version="Feature_MTX">Emblema do brasão.</string>
+	<string key="ui_crest_color_description_default" rel_version="Feature_MTX">Cor do brasão.</string>
+	<string key="ui_refund_policy" rel_version="Feature_MTX">Política de reembolso</string>
+	<string key="ui_non_returnable" rel_version="Feature_MTX">Não reembolsável</string>
+	<string key="ui_order_history_dec" rel_version="Feature_MTX">Exibe os 10 itens da loja desbloqueados mais recentemente.</string>
+	<string key="ui_expand_bundle" rel_version="Feature_MTX">Conjunto (clique para expandir)</string>
+	<string key="ui_collapse_bundle" rel_version="Feature_MTX">Conjunto (clique para recolher)</string>
+	<string key="ui_type_none" rel_version="Feature_MTX">Dados sem tipo</string>
+	<string key="ui_mtx_unavailable" rel_version="Feature_MTX">Produto indisponível</string>
+	<string key="ui_mtx_dye_description_default" rel_version="Feature_MTX">Usado para tingir partes de roupas e armaduras.</string>
+	<string key="ui_bundle_tooltip" rel_version="Feature_MTX">Este produto é um conjunto.</string>
+	<string key="reward_type_tooltip_emote" rel_version="Feature_MTX">Você pode usar um gesto no menu de Gestos. Pressione [{hintText}] para abrir o menu de Gestos.</string>
+	<string key="reward_type_tooltip_itemskin" rel_version="Feature_MTX">Você pode aplicar uma aparência ao clicar em sua armadura e armas no inventário e depois em “Alterar Aparência”.</string>
+	<string key="reward_type_tooltip_itemdye" rel_version="Feature_MTX">Você pode usar uma tintura ao clicar em sua armadura no inventário e depois em “Tingir Armadura”.</string>
+	<string key="reward_type_tooltip_guildcrest" rel_version="Feature_MTX">Você pode usar esta imagem de brasão na tela de companhia.</string>
+	<string key="reward_type_tooltip_housing_item" rel_version="Feature_MTX">Você pode posicionar este item da casa no Modo Decoração quando estiver em sua casa.</string>
+	<string key="reward_type_tooltip_player_title" rel_version="Feature_MTX">Você pode aplicar um título no menu de Personagens, na opção “Alterar Título”.</string>
+	<string key="reward_type_tooltip_inventory_item" rel_version="Feature_MTX">Use this item in Inventory.</string>
+	<string key="reward_type_tooltip_extra" rel_version="Feature_MTX">This product is an extra.</string>
+	<string key="reward_type_tooltip_entitlement" rel_version="Feature_MTX">This product is an entitlement.</string>
+	<string key="reward_type_tooltip_marks_of_fortune" rel_version="Feature_MTX">You can use this currency in the store menu to purchase a product.</string>
+	<string key="reward_type_tooltip_service" rel_version="Feature_MTX">You can use this service in Store menu. Select "World transfer" product in Store.</string>
+	<string key="ui_crest_disclaimer" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Aviso:&lt;/font&gt; Brasões da Companhia só podem ser usados se você for o governador (criador) da companhia.</string>
+	<string key="ui_disabled_default_title" rel_version="Feature_MTX">Conteúdo Indisponível</string>
+	<string key="ui_disabled_default_description" rel_version="Feature_MTX">Este conteúdo não está disponível no momento.</string>
+	<string key="ui_preview_emote">Pré-visualizar Gesto</string>
+	<string key="ui_end_preview">Encerrar pré-visualização</string>
+	<string key="ui_limited_time">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Tempo limitado&lt;/font&gt;</string>
+	<string key="ui_release_date">Data de lançamento</string>
+	<string key="ui_price">Preço</string>
+	<string key="store_tree_splitter_name">Parte-Árvores</string>
+	<string key="store_tree_splitter_description">“Mesmo a árvore mais imponente não resiste ao seu machado.” Conjunto de Aparências para Vestimenta</string>
+	<string key="ui_leaves_store" rel_version="Feature_MTX">Sai da loja:</string>
+	<string key="ui_discount_end" rel_version="Feature_MTX">O desconto acaba em:</string>
+	<string key="ui_show_available">Mostrar somente os disponíveis</string>
+	<string key="ui_show_purchasable" rel_version="Feature_MTX">Disponível para compra</string>
+	<string key="ui_show_all">Exibir tudo</string>
+	<string key="ui_skin_applied">Aparência aplicada ao item</string>
+	<string key="ui_skins_applied">Aparências aplicadas aos itens</string>
+	<string key="ui_purchase_skin">Procurar aparências</string>
+	<string key="ui_mtx_coming_soon">Em Breve!</string>
+	<string key="ui_button_disabled_dead">Você não pode executar esta ação enquanto estiver morto.</string>
+	<string key="url_refundpolicy_US" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://www.amazongames.com/en-us/support/new-world/articles/amazon-games-refund-policy</string>
+	<string key="url_refundpolicy_GB" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://www.amazongames.com/en-us/support/new-world/articles/amazon-games-refund-policy</string>
+	<string key="url_refundpolicy_FR" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://www.amazongames.com/fr-fr/support/new-world/articles/amazon-games-refund-policy</string>
+	<string key="url_refundpolicy_IT" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://www.amazongames.com/it-it/support/new-world/articles/amazon-games-refund-policy</string>
+	<string key="url_refundpolicy_ES" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://www.amazongames.com/es-es/support/new-world/articles/amazon-games-refund-policy</string>
+	<string key="url_refundpolicy_DE" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://www.amazongames.com/de-de/support/new-world/articles/amazon-games-refund-policy</string>
+	<string key="url_refundpolicy_PL" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://www.amazongames.com/pl-pl/support/new-world/articles/amazon-games-refund-policy</string>
+	<string key="url_refundpolicy_MX" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://www.amazongames.com/es-mx/support/new-world/articles/amazon-games-refund-policy</string>
+	<string key="url_refundpolicy_BR" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://www.amazongames.com/pt-br/support/new-world/articles/amazon-games-refund-policy</string>
+	<string key="ui_transaction_status">Status da Transação</string>
+	<string key="ui_transaction_in_progress">Transação em andamento...</string>
+	<string key="ui_transaction_failed_code">A transação falhou: código de erro {error}.</string>
+	<string key="ui_transaction_timed_out">A transação expirou. Tentar novamente?</string>
+	<string key="ui_bonus_marks">(+{bonus} Marcas)</string>
+	<string key="ui_bonus_percent">Bônus de {bonusPct}%</string>
+	<string key="ui_how_to_use">Como Utilizar</string>
+	<string key="ui_notification_unlock_desc">Itens foram adicionados à sua conta.</string>
+	<string key="ui_notification_unlock_title">Desbloqueou!</string>
+	<string key="ui_view_item">Exibir Itens</string>
+	<string key="runic_jackal_name" rel_version="Apparel_RunicJackal">Chacal Rúnico</string>
+	<string key="crescent_fang_name" rel_version="Weapon_CrescentFang">Presa Crescente</string>
+	<string key="arm_flex_name" rel_version="New_World_Launch">Flexionar Braço</string>
+	<string key="sublimebone_dye_name" rel_version="New_World_Launch">Osso Sublime</string>
+	<string key="Icon_Crest_Pack_Merriment_name" rel_version="New_World_Launch">Pacote de Brasões da Alegria</string>
+	<string key="EntitlementSkin_Medium_Angel_name" rel_version="AngelsDemonsWeapons">Égide da Providência</string>
+	<string key="EntitlementSkin_AnglesDemon_WarHammer_name" rel_version="New_World_Launch">Ira do Destruidor</string>
+	<string key="galaxy_rabbit_name" rel_version="New_World_Launch">Lebre Celestial</string>
+	<string key="eyesonyou_name" rel_version="New_World_Launch">De Olho em Você</string>
+	<string key="Icon_Crest_Pack_Smugglers_name" rel_version="New_World_Launch">Pacote de Brasões dos Contrabandistas</string>
+	<string key="runic_jackal_description" rel_version="Apparel_RunicJackal">“Há chifres para beber e chifres para vestir. Ambos são necessários.” Conjunto de Aparências para Armaduras</string>
+	<string key="crescent_fang_description" rel_version="Weapon_CrescentFang">“Com uma mordida tão temível quanto a da serpente do mundo.” Aparência para Machadinha</string>
+	<string key="arm_flex_description" rel_version="New_World_Launch">“Mostre sua força.” Gesto</string>
+	<string key="sublimebone_dye_description" rel_version="New_World_Launch">Pacote de Tinturas Consumível</string>
+	<string key="Icon_Crest_Pack_Merriment_description" rel_version="New_World_Launch">“Um brinde a seus corajosos companheiros!” Pacote de Brasões da Companhia</string>
+	<string key="EntitlementSkin_Medium_Angel_description" rel_version="AngelsDemonsWeapons">“Expulse o mal com fúria e luz virtuosa.” Conjunto de Aparências para Armaduras</string>
+	<string key="EntitlementSkin_AnglesDemon_WarHammer_description" rel_version="New_World_Launch">“Deixe um rastro de retaliação amaldiçoada.” Aparência para Martelo de Guerra</string>
+	<string key="galaxy_rabbit_description" rel_version="New_World_Launch">“Por mais espantoso que seja, a vasta imensidão do universo reside no pelo deste coelho. Se você o acariciar, talvez sinta.” Animal de Estimação Lebre Celestial</string>
+	<string key="eyesonyou_description" rel_version="New_World_Launch">“Vigilância eterna.” Gesto</string>
+	<string key="Icon_Crest_Pack_Smugglers_description" rel_version="New_World_Launch">“A escuridão oculta nossos empreendimentos mais lucrativos.” Pacote de Brasões da Companhia</string>
+	<string key="ui_store_unavailable">Desculpe, a loja está em manutenção no momento. Tente novamente mais tarde.</string>
+	<string key="fenrirsfury_name" rel_version="New_World_Launch">Fúria de Fenrir</string>
+	<string key="fenrirsfury_description" rel_version="New_World_Launch">“Um tributo adequado à fera do massacre.” Aparência para Machadão</string>
+	<string key="EntitlementSkin_Light_Demon_name" rel_version="AngelsDemonsWeapons">Casca de Cambião</string>
+	<string key="twitch_pirate_itemskin_name" rel_version="New_World_Launch">Espadachim</string>
+	<string key="EntitlementSkin_Heavy_Angel_name" rel_version="AngelsDemonsWeapons">Guardião Virtuoso</string>
+	<string key="twitch_robinhood_itemskin_name" rel_version="New_World_Launch">Robin Hood</string>
+	<string key="runic_bear_name" rel_version="Apparel_RunicBear">Urso Rúnico</string>
+	<string key="runic_fox_name" rel_version="Apparel_RunicFox">Raposa Rúnica</string>
+	<string key="EntitlementSkin_SpecialCorruptedVar1_name" rel_version="New_World_Launch">Fúria Dourada</string>
+	<string key="Icon_Crest_Pack_AnimalHead_name" rel_version="New_World_Launch">Pacote de Brasões de Cabeças de Animais</string>
+	<string key="Icon_Crest_Pack_FullDeck_name" rel_version="New_World_Launch">Pacote de Brasões dos Naipes de Baralho</string>
+	<string key="Icon_Crest_Pack_Gesture_name" rel_version="New_World_Launch">Pacote de Brasões de Gestos</string>
+	<string key="twitch_pirate_crestpack_name" rel_version="New_World_Launch">Pacote de Brasões de Pirata</string>
+	<string key="Icon_Crest_Pack_RobinHood_name" rel_version="New_World_Launch">Pacote de Brasões do Robin Hood</string>
+	<string key="Icon_Crest_Pack_WeaponMaster_name" rel_version="New_World_Launch">Pacote de Brasões do Mestre de Armamentos</string>
+	<string key="primeblue_dye_name" rel_version="New_World_Launch">Azul-Prime-Gaming</string>
+	<string key="amazonorange_dye_name" rel_version="New_World_Launch">Laranja-Amazon</string>
+	<string key="bleached_cofee_dye_name" rel_version="New_World_Launch">Café com Leite</string>
+	<string key="blood_dye_name" rel_version="New_World_Launch">Sangue</string>
+	<string key="viola_dye_name" rel_version="New_World_Launch">Violeta</string>
+	<string key="burntsienna_dye_name" rel_version="New_World_Launch">Siena Queimada</string>
+	<string key="forestgreen_dye_name" rel_version="New_World_Launch">Verde-floresta</string>
+	<string key="tradewind_dye_name" rel_version="New_World_Launch">Brisa</string>
+	<string key="bluedsteel_dye_name" rel_version="New_World_Launch">Aço Azulado</string>
+	<string key="springgrape_dye_name" rel_version="New_World_Launch">Uva da Primavera</string>
+	<string key="lavender_dye_name" rel_version="New_World_Launch">Lavanda</string>
+	<string key="twitch_robinhood_emote_blowkiss_name" rel_version="New_World_Launch">Mandar Beijo</string>
+	<string key="coin_toss_name" rel_version="New_World_Launch">Lançar Moeda</string>
+	<string key="applause_name" rel_version="New_World_Launch">Aplauso Cortês</string>
+	<string key="twitch_robinhood_emote_fingerwag_name" rel_version="New_World_Launch">Sacudir o Dedo</string>
+	<string key="twitch_pirate_emote_piratestance_name" rel_version="New_World_Launch">Postura de Pirata</string>
+	<string key="twitch_pirate_emote_throat_name" rel_version="New_World_Launch">Cortar Garganta</string>
+	<string key="thumbs_name" rel_version="New_World_Launch">Polegar pra Cima, Polegar pra Baixo, Polegar pro Lado</string>
+	<string key="dragons_coil_name" rel_version="Weapon_DragonsCoil">Espiral do Dragão</string>
+	<string key="EntitlementSkin_AnglesDemon_Spear_name" rel_version="AngelsDemonsWeapons">Vingança Divina</string>
+	<string key="EntitlementSkin_AnglesDemon_FireStaff_name" rel_version="AngelsDemonsWeapons">Fogo e Enxofre</string>
+	<string key="twitch_pirate_weapon_sword_name" rel_version="New_World_Launch">Alto Risco</string>
+	<string key="EntitlementSkin_AnglesDemon_LifeStaff_name" rel_version="AngelsDemonsWeapons">Restauração Harmônica</string>
+	<string key="howl_at_dawn_name" rel_version="Weapon_HowlAtDawn">Uivo ao Amanhecer</string>
+	<string key="twin_wolves_name" rel_version="Weapon_TwinWolves">Lobos Gêmeos</string>
+	<string key="Bundle_Decor_Pirate_name" rel_version="New_World_Launch">Conjunto de Móveis de Decoração Pirata</string>
+	<string key="EntitlementSkin_Light_Demon_description" rel_version="AngelsDemonsWeapons">“Confeccionado a partir da união infernal entre humano e demônio.” Conjunto de Aparências de Armadura</string>
+	<string key="twitch_pirate_itemskin_description" rel_version="New_World_Launch">“Se os mortos não contam histórias, quem falará sobre sua glória?” Conjunto de Aparências para Vestimenta</string>
+	<string key="EntitlementSkin_Heavy_Angel_description" rel_version="AngelsDemonsWeapons">“Abata os inimigos com vingança divina.” Conjunto de Aparências de Armadura</string>
+	<string key="twitch_robinhood_itemskin_description" rel_version="New_World_Launch">“Uma última uma coisa antes que você se vá... sua bolsa.” Conjunto de Aparências para Vestimenta</string>
+	<string key="runic_bear_description" rel_version="Apparel_RunicBear">“Vista o manto do poderoso urso das cavernas.” Conjunto de Aparências para Armaduras</string>
+	<string key="runic_fox_description" rel_version="Apparel_RunicFox">“Travessuras acompanham a raposa.” Conjunto de Aparências para Armaduras</string>
+	<string key="EntitlementSkin_SpecialCorruptedVar1_description" rel_version="New_World_Launch">“Formado nas forjas quentíssimas da Grande Fenda, este avatar do ódio se levanta, reluzindo em ouro.” Conjunto de Aparências para Vestimenta</string>
+	<string key="Icon_Crest_Pack_AnimalHead_description" rel_version="New_World_Launch">“Entre em contato com o espírito do animal.” Pacote de Brasões da Companhia</string>
+	<string key="Icon_Crest_Pack_FullDeck_description" rel_version="New_World_Launch">“Só mostre suas cartas quando o ouro estiver na mesa.” Pacote de Brasões da Companhia</string>
+	<string key="Icon_Crest_Pack_Gesture_description" rel_version="New_World_Launch">“Você fala tanto e não diz nada.” Pacote de Brasões da Companhia</string>
+	<string key="twitch_pirate_crestpack_description" rel_version="New_World_Launch">“Em frente, cães sarnentos!” Pacote de Brasões da Companhia</string>
+	<string key="Icon_Crest_Pack_RobinHood_description" rel_version="New_World_Launch">“A floresta pertence aos seus homens alegres.” Pacote de Brasões da Companhia</string>
+	<string key="Icon_Crest_Pack_WeaponMaster_description" rel_version="New_World_Launch">“Lâmina ou arco, machado ou mosquete? O viajante sobrevive, o mestre prospera.” Pacote de Brasões da Companhia</string>
+	<string key="primeblue_dye_description" rel_version="New_World_Launch">Pacote de Tinturas Consumível</string>
+	<string key="amazonorange_dye_description" rel_version="New_World_Launch">Pacote de Tinturas Consumível</string>
+	<string key="bleached_cofee_dye_description" rel_version="New_World_Launch">Pacote de Tinturas Consumível</string>
+	<string key="blood_dye_description" rel_version="New_World_Launch">Pacote de Tinturas Consumível</string>
+	<string key="viola_dye_description" rel_version="New_World_Launch">Pacote de Tinturas Consumível</string>
+	<string key="burntsienna_dye_description" rel_version="New_World_Launch">Pacote de Tinturas Consumível</string>
+	<string key="forestgreen_dye_description" rel_version="New_World_Launch">Pacote de Tinturas Consumível</string>
+	<string key="tradewind_dye_description" rel_version="New_World_Launch">Pacote de Tinturas Consumível</string>
+	<string key="bluedsteel_dye_description" rel_version="New_World_Launch">Pacote de Tinturas Consumível</string>
+	<string key="springgrape_dye_description" rel_version="New_World_Launch">Pacote de Tinturas Consumível</string>
+	<string key="lavender_dye_description" rel_version="New_World_Launch">Pacote de Tinturas Consumível</string>
+	<string key="twitch_robinhood_emote_blowkiss_description" rel_version="New_World_Launch">“Um gesto de amor cortês.” Gesto</string>
+	<string key="coin_toss_description" rel_version="New_World_Launch">“O lançar da moeda.” Gesto</string>
+	<string key="applause_description" rel_version="New_World_Launch">“Um trabalho bem feito!” Gesto</string>
+	<string key="twitch_robinhood_emote_fingerwag_description" rel_version="New_World_Launch">“Não, não, não, hoje não!” Gesto</string>
+	<string key="twitch_pirate_emote_piratestance_description" rel_version="New_World_Launch">“Suas frotas de tesouros em breve serão minhas.” Gesto</string>
+	<string key="twitch_pirate_emote_throat_description" rel_version="New_World_Launch">“A marca do salteador.” Gesto</string>
+	<string key="thumbs_description" rel_version="New_World_Launch">“Aprovar, desaprovar, aguardar para julgar.” Gestos</string>
+	<string key="dragons_coil_description" rel_version="Weapon_DragonsCoil">“As serpentes de outrora rastejam eternamente com escamas de aço.” Aparência para Escudo</string>
+	<string key="EntitlementSkin_AnglesDemon_Spear_description" rel_version="AngelsDemonsWeapons">“Uma lanceta abençoada para manter o equilíbrio entre luz e trevas.” Aparência para Lança</string>
+	<string key="EntitlementSkin_AnglesDemon_FireStaff_description" rel_version="AngelsDemonsWeapons">“Um fogo infernal e atormentado estala em seu interior.” Aparência para Bastão Flamejante</string>
+	<string key="twitch_pirate_weapon_sword_description" rel_version="New_World_Launch">“Quando você aposta tudo... até mesmo a alma.” Aparência para Espada</string>
+	<string key="EntitlementSkin_AnglesDemon_LifeStaff_description" rel_version="AngelsDemonsWeapons">“Um cajado impregnado de forças restauradoras primordiais.” Aparência para Bastão Vital</string>
+	<string key="howl_at_dawn_description" rel_version="Weapon_HowlAtDawn">“Um grito na hora derradeira.” Aparência para Espada</string>
+	<string key="twin_wolves_description" rel_version="Weapon_TwinWolves">“Os uivos deles estão cada vez mais perto.” Aparência para Martelo de Guerra</string>
+	<string key="Bundle_Decor_Pirate_description" rel_version="New_World_Launch">“Águas traiçoeiras podem esconder grandes tesouros.” Conjunto de Móveis de Decoração Pirata</string>
+	<string key="ui_no_featured_deal">Não há nenhuma promoção em destaque.\n\n&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;&lt;font color="#ffffff"&gt;E X P L O R E A L O J A&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_no_featured_deal_store">Não há nenhuma promoção em destaque.\nExplore a loja usando as abas na esquerda.</string>
+	<string key="Marks_Of_Fortune_5000_name" rel_version="New_World_Launch">Sacola Marcas da Sorte</string>
+	<string key="Marks_Of_Fortune_11000_name" rel_version="New_World_Launch">Monte Marcas da Sorte</string>
+	<string key="Marks_Of_Fortune_23000_name" rel_version="New_World_Launch">Pilha Marcas da Sorte</string>
+	<string key="Marks_Of_Fortune_40250_name" rel_version="New_World_Launch">Bolsa Marcas da Sorte</string>
+	<string key="Marks_Of_Fortune_60000_name" rel_version="New_World_Launch">Baú Marcas da Sorte</string>
+	<string key="Marks_Of_Fortune_5000_description" rel_version="New_World_Launch">Pacote de Moeda Marcas da Sorte</string>
+	<string key="Marks_Of_Fortune_11000_description" rel_version="New_World_Launch">Pacote de Moeda Marcas da Sorte</string>
+	<string key="Marks_Of_Fortune_23000_description" rel_version="New_World_Launch">Pacote de Moeda Marcas da Sorte</string>
+	<string key="Marks_Of_Fortune_40250_description" rel_version="New_World_Launch">Pacote de Moeda Marcas da Sorte</string>
+	<string key="Marks_Of_Fortune_60000_description" rel_version="New_World_Launch">Pacote de Moeda Marcas da Sorte</string>
+	<string key="ui_crestforeground_08" rel_version="New_World_Launch">Cabeça de Lobo</string>
+	<string key="ui_crestforeground_23" rel_version="New_World_Launch">Caneca Congelada</string>
+	<string key="ui_crestforeground_35" rel_version="New_World_Launch">Cabeça de Touro</string>
+	<string key="ui_crestforeground_42" rel_version="New_World_Launch">Viva!</string>
+	<string key="ui_crestforeground_53" rel_version="New_World_Launch">Copas</string>
+	<string key="ui_crestforeground_54" rel_version="New_World_Launch">Espadas</string>
+	<string key="ui_crestforeground_55" rel_version="New_World_Launch">Paus</string>
+	<string key="ui_crestforeground_56" rel_version="New_World_Launch">Ouros</string>
+	<string key="ui_crestforeground_90" rel_version="New_World_Launch">Pistolas Cruzadas</string>
+	<string key="ui_crestforeground_96" rel_version="New_World_Launch">Emblema de Brasão</string>
+	<string key="ui_crestforeground_97" rel_version="New_World_Launch">Emblema de Brasão</string>
+	<string key="ui_crestforeground_98" rel_version="New_World_Launch">Emblema de Brasão</string>
+	<string key="ui_crestforeground_99" rel_version="New_World_Launch">Peru para o Jantar</string>
+	<string key="ui_crestforeground_100" rel_version="New_World_Launch">Chapéu de Peregrino</string>
+	<string key="ui_crestforeground_101" rel_version="New_World_Launch">Machado x Mosquete</string>
+	<string key="ui_crestforeground_102" rel_version="New_World_Launch">Rosa dos Ventos</string>
+	<string key="ui_crestforeground_103" rel_version="New_World_Launch">Âncora de Navio</string>
+	<string key="ui_crestforeground_104" rel_version="New_World_Launch">Bucaneiro</string>
+	<string key="ui_crestforeground_142" rel_version="New_World_Launch">Bandido</string>
+	<string key="ui_crestforeground_144" rel_version="New_World_Launch">Brasão do Contrabandista</string>
+	<string key="ui_crestforeground_145" rel_version="New_World_Launch">Chapéu do Chef</string>
+	<string key="ui_crestforeground_149" rel_version="New_World_Launch">Cervo do Rei</string>
+	<string key="ui_crestforeground_155" rel_version="New_World_Launch">Escudo de Armas</string>
+	<string key="ui_crestforeground_157" rel_version="New_World_Launch">Rico e Pobre</string>
+	<string key="ui_crestforeground_160" rel_version="New_World_Launch">Cabeça de Urso</string>
+	<string key="ui_crestforeground_162" rel_version="New_World_Launch">Cabeça de Leão</string>
+	<string key="ui_crestforeground_170" rel_version="New_World_Launch">Cabeça de Cobra</string>
+	<string key="ui_crestforeground_178" rel_version="New_World_Launch">Cabum</string>
+	<string key="ui_crestforeground_179" rel_version="New_World_Launch">Marca do Mercador</string>
+	<string key="ui_crestforeground_184" rel_version="New_World_Launch">Exibindo os Chifres</string>
+	<string key="ui_crestforeground_187" rel_version="New_World_Launch">Mãos de Coração</string>
+	<string key="ui_crestforeground_191" rel_version="New_World_Launch">A de Amor</string>
+	<string key="ui_crestforeground_200" rel_version="New_World_Launch">Mestre do Arco</string>
+	<string key="ui_crestforeground_201" rel_version="New_World_Launch">Mestre do Bastão Flamejante</string>
+	<string key="ui_crestforeground_202" rel_version="New_World_Launch">Mestre do Machadão</string>
+	<string key="ui_crestforeground_203" rel_version="New_World_Launch">Mestre da Machadinha</string>
+	<string key="ui_crestforeground_204" rel_version="New_World_Launch">Mestre do Bastão Vital</string>
+	<string key="ui_crestforeground_205" rel_version="New_World_Launch">Mestre do Mosquete</string>
+	<string key="ui_crestforeground_206" rel_version="New_World_Launch">Fortaleza</string>
+	<string key="ui_crestforeground_207" rel_version="New_World_Launch">Mestre da Lança</string>
+	<string key="ui_crestforeground_208" rel_version="New_World_Launch">Maestria de Martelo de Guerra</string>
+	<string key="Bundle_Decor_Spooky2021_name" rel_version="New_World_Launch">Haunted Housing Decor Bundle</string>
+	<string key="Bundle_Decor_Spooky2021_description" rel_version="New_World_Launch">Conjunto de Móveis de Decoração “Como se os Corrompidos não fossem assustadores o suficiente...”</string>
+	<string key="Pet_Ghost_Dog_name" rel_version="New_World_Launch">Cãosparzinho</string>
+	<string key="Pet_Ghost_Dog_description" rel_version="New_World_Launch">“Um canino tão fiel que não precisa de uma forma física para estar lá por você. Além disso, sem alergias ou sujeira!” Animal de Estimação</string>
+	<string key="Pet_BlackTiger_name" rel_version="New_World_Launch">Tigre Cinzento</string>
+	<string key="Pet_BlackTiger_description" rel_version="New_World_Launch">“Nem a luz nem a cor podem escapar da escuridão profunda de sua pelagem. Mas você sabe o que pode? Amor! E este grande gatinho precisa de muito amor.” Animal de Estimação</string>
+	<string key="Monster_GreatAxe_name" rel_version="New_World_Launch">Maldição do Faraó</string>
+	<string key="Monster_GreatAxe_description" rel_version="New_World_Launch">“Perdido nas areias do deserto há muito tempo, agora livre para causar o caos.” Aparência para Machadão</string>
+	<string key="Monster_LifeStaff_name" rel_version="New_World_Launch">Bastão da Viúva Negra</string>
+	<string key="Monster_LifeStaff_description" rel_version="New_World_Launch">“Seu beijo dá vida, sua picada a leva embora.” Aparência para Bastão Vital</string>
+	<string key="Monster_WarHammer_name" rel_version="New_World_Launch">Martelo de Frankenstein</string>
+	<string key="Monster_WarHammer_description" rel_version="New_World_Launch">“A centelha de vida desce dos céus.” Aparência para Martelo de Guerra</string>
+	<string key="Monster_Musket_name" rel_version="New_World_Launch">Trava de Sangue Carmesim</string>
+	<string key="Monster_Musket_description" rel_version="New_World_Launch">“Sua mordida é pior que seu latido.” Aparência para Mosquete</string>
+	<string key="Monster_Rapier_name" rel_version="New_World_Launch">Rapieira Esquelética</string>
+	<string key="Monster_Rapier_description" rel_version="New_World_Launch">“Uma fera terrível, agora esquecida, doou os ossos que formam esta lâmina insidiosa.” Aparência para Rapieira</string>
+	<string key="Mask_AngryEarth_name" rel_version="New_World_Launch">Máscara Elemental</string>
+	<string key="Mask_AngryEarth_description" rel_version="New_World_Launch">“Correntes de energia correm por este acessório, dando a seu usuário uma aparência levemente mais mágica.” Aparência para Máscara</string>
+	<string key="Mask_Demon_name" rel_version="New_World_Launch">Máscara de Demônio</string>
+	<string key="Mask_Demon_description" rel_version="New_World_Launch">“Mesmo sendo feita de madeira, esta máscara lembra um estilo diferente...”</string>
+	<string key="Mask_PlagueDoctor_name" rel_version="New_World_Launch">Máscara do Plaguiatra</string>
+	<string key="Mask_PlagueDoctor_description" rel_version="New_World_Launch">“Quando o medo toma conta da terra, muitos vão atrás de seu serviço.”</string>
+	<string key="Mask_HalfWooden_name" rel_version="New_World_Launch">Máscara do Elusivo</string>
+	<string key="Mask_HalfWooden_description" rel_version="New_World_Launch">“O estranho misterioso, dificilmente avistado, mas nunca esquecido.”</string>
+	<string key="Apparel_Monster_Vampire_name" rel_version="New_World_Launch">Conde Sanguinário</string>
+	<string key="Apparel_Monster_Vampire_description" rel_version="New_World_Launch">“É mais fácil esconder respingos se você usar vermelho, camarada.” Conjunto de Aparências para Vestimenta</string>
+	<string key="Apparel_Monster_Mummy_name" rel_version="New_World_Launch">Mortalha do Faraó</string>
+	<string key="Apparel_Monster_Mummy_description" rel_version="New_World_Launch">“Para uma relíquia bolorenta guardada por milhares de anos, não cheira tão mal quanto pensava.” Conjunto de Aparências para Vestimenta</string>
+	<string key="Apparel_Monster_Skeleton_name" rel_version="New_World_Launch">Nobre Esquelético</string>
+	<string key="Apparel_Monster_Skeleton_description" rel_version="New_World_Launch">“Sinistro e sepulcral, exércitos de ossos obedecem suas invocações.” Conjunto de Aparências para Vestimenta</string>
+	<string key="server_transfer_name" rel_version="MTX_October_Skins">Transferência de Mundo (Uso Único)</string>
+	<string key="ui_character_world_transfer" rel_version="MTX_October_Skins">Character World Transfer</string>
+	<string key="server_transfer_description" rel_version="MTX_October_Skins">Permite que você transfira este personagem para outro mundo dentro da região atual.</string>
+	<string key="server_transfer_extra_detail" rel_version="MTX_October_Skins">Sua conta tem direito a 1 transferência de mundo gratuita. Depois de usada, ela não estará mais disponível para seus outros personagens.</string>
+	<string key="server_transfer_names" rel_version="MTX_October_Skins">Transferindo &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; para: &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{ServerName}&lt;/font&gt; ({WorldSetName})</string>
+	<string key="server_transfer_requirements" rel_version="MTX_October_Skins">REQUISITOS</string>
+	<string key="server_transfer_not_transfer" rel_version="MTX_October_Skins">O QUE NÃO SERÁ TRANSFERIDO</string>
+	<string key="server_transfer_requirements_detail1" rel_version="MTX_October_Skins">Você não pode ser membro de uma Companhia ao se transferir</string>
+	<string key="server_transfer_requirements_detail2" rel_version="MTX_October_Skins">Você não pode ter Pedidos de Venda de Entreposto Comercial ativos ao se transferir</string>
+	<string key="server_transfer_not_transfer_detail1" rel_version="MTX_October_Skins">Your Friends List will be erased and will not carry over</string>
+	<string key="server_transfer_not_transfer_detail2" rel_version="MTX_October_Skins">Active Town Project missions will not carry over</string>
+	<string key="server_transfer_not_transfer_detail3" rel_version="MTX_October_Skins">Active Faction missions will not carry over</string>
+	<string key="server_transfer_more_details" rel_version="MTX_October_Skins">For more details see</string>
+	<string key="server_transfer_transfer_faq" rel_version="MTX_October_Skins">&lt;font color="#70d2e4"&gt;Character World Transfer FAQ&lt;/font&gt;</string>
+	<string key="server_transfer_final_details" rel_version="MTX_October_Skins">Ao confirmar a transferência, você voltará ao menu principal de seleção de personagem. As transferências são irreversíveis.</string>
+	<string key="server_transfer_change_world" rel_version="MTX_October_Skins">Mudar de Mundo</string>
+	<string key="server_transfer_select_world" rel_version="MTX_October_Skins">Selecionar Mundo</string>
+	<string key="server_transfer_change_world_tooltip" rel_version="MTX_October_Skins">Você pode mudar de mundo se conectando com seu personagem e acessando a loja do jogo na seção “Transferência de Mundo”.</string>
+	<string key="server_transfer_region_hint" rel_version="MTX_October_Skins">Você só pode transferir personagens para um mundo diferente dentro da mesma região. Para jogar em uma região diferente, você terá de criar um personagem nessa região.</string>
+	<string key="server_transfer_maintenance" rel_version="MTX_October_Skins">Você não pode se transferir para um mundo em manutenção.</string>
+	<string key="server_transfer_requirements_company" rel_version="MTX_October_Skins">Você não pode ser membro de uma Companhia ao se transferir</string>
+	<string key="server_transfer_requirements_tradingPost" rel_version="MTX_October_Skins">Você não pode ter Pedidos de Venda de Entreposto Comercial ativos ao se transferir</string>
+	<string key="server_transfer_requirements_tradingPost_unknown" rel_version="MTX_October_Skins">Conferindo status do Entreposto Comercial...</string>
+	<string key="server_transfer_confirm" rel_version="MTX_October_Skins">CONFIRMAR TRANSFERÊNCIA DE MUNDO</string>
+	<string key="server_transfer_confirm_button" rel_version="MTX_October_Skins">CONFIRMAR TRANSFERÊNCIA</string>
+	<string key="server_transfer_select_world_fail" rel_version="MTX_October_Skins">Primeiro, você precisa escolher um mundo válido.</string>
+	<string key="server_transfer_select_world_fail_same" rel_version="MTX_October_Skins">Escolha um mundo no qual o personagem não está.</string>
+	<string key="server_transfer_current_world" rel_version="MTX_October_Skins">Home World: {worldName}</string>
+	<string key="server_transfer_home_world" rel_version="MTX_October_Skins">Home World:</string>
+	<string key="server_transfer_step_1" rel_version="MTX_October_Skins">Etapa 1 de 2</string>
+	<string key="server_transfer_step_2" rel_version="MTX_October_Skins">Etapa 2 de 2</string>
+	<string key="Housing_Happy_Pumpkin_description" rel_version="MTX_October_Skins">“O canalha estava felizmente danado e danadamente feliz. Você também sorriria se tivesse enganado o próprio Diabo!” Decoração de Alojamento</string>
+	<string key="Housing_Happy_Pumpkin_name" rel_version="MTX_October_Skins">Lampião Feliz do Jack Mandrião</string>
+	<string key="Bundle_Tool_LegendaryAzoth_name">Legendary Azoth Tools</string>
+	<string key="Bundle_Tool_LegendaryStrength_name">Legendary Strength Tools</string>
+	<string key="Bundle_Tool_ClassicMonster_name">Monstrous Instruments</string>
+	<string key="Bundle_Tool_RoyalCourt_name">Royal Opulence</string>
+	<string key="Bundle_Tool_LegendaryAzoth_description">"A touch of magic pairs well with any task, including gathering what is needed to survive." Tool Skin Bundle</string>
+	<string key="Bundle_Tool_LegendaryStrength_description">"Strength of arm can be the best way to render the resources of Aeternum into their consituent natures." Tool Skin Bundle</string>
+	<string key="Bundle_Tool_ClassicMonster_description">"A collection of frightful, cursed tools that bore into the user's very psyche for their power." Tool Skin Bundle</string>
+	<string key="Bundle_Tool_RoyalCourt_description">"These tools shine so that all may know who wields the power of gold on Aeternum." Tool Skin Bundle</string>
+</resources>
+
