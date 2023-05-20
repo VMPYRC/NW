@@ -93,7 +93,8 @@
 	<string key="mm_loginservices_PatchFieldNotPermitted">Odmowa dostępu: Nie można wprowadzić poprawek pola bohatera.</string>
 	<string key="mm_loginservices_CharacterNotFlaggedForRename">Odmowa dostępu: Nie można zmienić nazwy postaci.</string>
 	<string key="mm_loginservices_NotEligibleForFTUE">Odmowa logowania: Podstawy gry już zostały poznane.</string>
-	<string key="mm_loginservices_InternalError">Wewnętrzny błąd usług logowania.</string>
+	<string key="mm_loginservices_InternalError">Błąd logowania, spróbuj ponownie wkrótce.</string>
+	<string key="mm_loginservices_InternalServerErrorException">Błąd serwera logowania, spróbuj ponownie wkrótce.</string>
 	<string key="mm_loginservices_CredentialsError">Nieprawidłowe dane usług logowania.</string>
 	<string key="mm_loginservices_NameLengthError">Nieprawidłowa długość nazwy.</string>
 	<string key="mm_loginservices_NameNotAvailableError">To imię jest zajęte.</string>
@@ -102,6 +103,7 @@
 	<string key="mm_loginservices_UnavailableError">Usługi logowania są niedostępne.</string>
 	<string key="mm_loginservices_InputValidationError">Wysłano nieprawidłowe żądanie do usług logowania.</string>
 	<string key="mm_loginservices_UnableToConnectError">Nie można się połączyć z usługą logowania. Trwa ponowne łączenie, proszę czekać…</string>
+	<string key="mm_loginservices_TooManyRequestsException">Serwer logowania jest zajęty, spróbuj ponownie wkrótce.</string>
 	<string key="mm_loginservices_NoConnection">Usługa logowania jest obecnie niedostępna. To może oznaczać problem z połączeniem internetowym. Trwa ponowne łączenie, proszę czekać…</string>
 	<string key="mm_loginservices_location_DEFAULT000">Czekasz w kolejce do otwartego świata…</string>
 	<string key="mm_loginservices_location_FTUE000">Czekasz w kolejce jako nowy gracz…</string>
@@ -178,7 +180,7 @@
 	<string key="mm_rejected_Client_Kicked_BannedOffensiveCompanyName">Obraźliwa nazwa kompanii</string>
 	<string key="mm_rejected_Client_Kicked_OffensiveCompanyName">Obraźliwa nazwa kompanii</string>
 	<string key="mm_rejected_Client_Kicked_BannedSuspectedFraud">Podejrzenie oszustwa</string>
-	<string key="mm_rejected_Client_Kicked_EasyAntiCheat">Nie masz uprawnień do kontynuowania gry.</string>
+	<string key="mm_rejected_Client_Kicked_EasyAntiCheat">Zablokowany login: Wykryto podejrzane oprogramowanie lub uszkodzoną instalację</string>
 	<string key="mm_rejected_Client_Kicked_BannedCSLockout">Twoje konto jest obecnie zablokowane. Skontaktuj się z działem obsługi, aby dowiedzieć się więcej.</string>
 	<string key="mm_rejected_Client_Kicked_CSLockout">Twoje konto jest obecnie zablokowane. Skontaktuj się z działem obsługi, aby dowiedzieć się więcej.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Wyrzucono cię z gry.</string>
@@ -204,6 +206,7 @@
 	<string key="mm_authresult_Error_Persona_Assume_Role">Nie udało się pobrać danych uwierzytelniających.\nSpróbuj ponownie lub skontaktuj się ze społecznością New World, by uzyskać więcej informacji: https://forums.newworld.com</string>
 	<string key="mm_authresult_Error_Steam">Nie udało się uwierzytelnić za pomocą platformy Steam.</string>
 	<string key="mm_authresult_Denied_DatasheetVersionCheckFailed">Niedopasowanie wersji danych technicznych.</string>
+	<string key="mm_authresult_Http_Error_Response_Code">Niemożliwa weryfikacja klienta. Spróbuj ponownie wkrótce.</string>
 	<string key="mm_http_NoResponse">Nie udało się nawiązać połączenia. Brak odpowiedzi.</string>
 	<string key="mm_queuesoon">Szacowany czas: &lt; 1 minuta\nMiejsce w kolejce: {rank}\n{status}</string>
 	<string key="mm_queuewithestimate">Szacowany czas: {time}\nMiejsce w kolejce: {rank}\n{status}</string>
@@ -349,7 +352,7 @@
 	<string key="inv_salvage_tooltip_range" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz: {min}-{max} {itemName}.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_range_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz: {min}-{max} {itemName} oraz części zamienne: {numRepairParts}.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_gemmessage" comment="this will come after a previous sentence and should have a space in front"> Istnieje mała szansa na odzyskanie osadzonego klejnotu.</string>
-	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items."> Można uzyskać też dodatkowe przedmioty, takie jak: {itemName}.</string>
+	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items.">Można uzyskać też dodatkowe przedmioty, takie jak: {itemName}.</string>
 	<string key="inv_salvage_tooltip_recipe">Po użyciu tego przedmiotu poznasz schemat: {recipeName}.</string>
 	<string key="inv_salvage_tertiary_recipe">Schemat: {recipeName}</string>
 	<string key="minspec_warning_requirements_title">Ostrzeżenie o konf. min.</string>

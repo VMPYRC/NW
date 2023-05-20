@@ -35,9 +35,11 @@
 	<string key="ui_house_abandon_notification">Has abandonado la casa {houseName}.</string>
 	<string key="ui_house_abandon_popup_desc">Ya tienes una casa en este pueblo.\n¿Quieres abandonar {houseName} para comprar esta casa?\nTodos los trofeos y muebles de la casa abandonada se llevarán al almacén del pueblo.</string>
 	<string key="ui_house_abandon_popup_title">No puedes tener más de una casa en un pueblo.</string>
-	<string key="ui_house_abandon_this_popup_desc">¿Quieres abandonar esta casa?\nTodos los trofeos y muebles de la casa abandonada se llevarán al almacén del pueblo.</string>
-	<string key="ui_house_abandon_this_house_desc">Si abandonas la casa, todos los trofeos y muebles de la casa abandonada se llevarán al almacén del pueblo.</string>
+	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;Purchase cost and taxes will not be refunded if this house is abandoned.&lt;/font&gt;\nAll trophies &amp; furniture in the abandoned house will be moved into Town Storage.\n\nTo continue, type {territoryName} below.</string>
+	<string key="ui_house_abandon_this_house_desc">Purchase cost and taxes will not be refunded if this house is abandoned. All trophies and furniture in the house will be moved to the town storage.</string>
 	<string key="ui_house_abandon_this_popup_title">¿Abandonar casa?</string>
+	<string key="ui_house_abandon_confirm_placeholder_text">Type the territory name.</string>
+	<string key="ui_house_abandon_confirm_button">Abandon House</string>
 	<string key="ui_house_already_owned">En propiedad</string>
 	<string key="ui_house_hint_decorate">Decorar</string>
 	<string key="ui_house_hint_exit">Salir</string>
@@ -71,7 +73,7 @@
 	<string key="ui_house_type">Tipo de casa</string>
 	<string key="ui_house_unpaid_taxes">Cantidad atrasada</string>
 	<string key="ui_house_unpaid_taxes_string">Tu casa (desactivada)</string>
-	<string key="ui_house_tax">Imp. de propiedad</string>
+	<string key="ui_house_tax">Property Tax</string>
 	<string key="ui_house_unpaid_taxes_due_soon">Impuesto de propiedad a pagar en {territoryName} en: {time}. Paga el impuesto de propiedad para seguir usando el viaje rápido y la decoración.</string>
 	<string key="ui_house_overdue_at">Impuesto de propiedad atrasado en {territoryName}. Paga el impuesto de propiedad para seguir usando el viaje rápido y la decoración.</string>
 	<string key="ui_house_overdue_label">Impuesto de propiedad atrasado</string>
@@ -81,7 +83,7 @@
 	<string key="ui_housing_decorate_desc">Colocar muebles y mascotas</string>
 	<string key="ui_housing_disabled">Desactivado</string>
 	<string key="ui_housing_disabled_tooltip">Tu casa está desactivada. ¡Paga el impuesto para volver a activarla!</string>
-	<string key="ui_housing_enabled">Activada</string>
+	<string key="ui_housing_enabled">Enabled</string>
 	<string key="ui_housing_fast_travel">Viaje rápido</string>
 	<string key="ui_housing_fast_travel_desc">Viaja a tu casa desde donde estés</string>
 	<string key="ui_housing_decorations">Modo de decoración</string>
@@ -112,13 +114,13 @@
 	<string key="ui_housing_update_time">La lista se actualizará en {time}</string>
 	<string key="ui_lighting">Iluminación</string>
 	<string key="ui_max_homes_owned">Cantidad máxima de casas en propiedad</string>
-	<string key="ui_max_homes_owned_territory">Cantidad máxima de casas en propiedad en este territorio</string>
+	<string key="ui_max_homes_owned_territory">Max Homes Owned In This Territory</string>
 	<string key="ui_misc">Varios</string>
 	<string key="ui_my_house_map_desc">Casa {number} de {location}</string>
 	<string key="ui_my_house_map_desc_disabled">Casa {number} de {location} (desactivada)</string>
 	<string key="ui_my_house_map_title">Tu casa</string>
 	<string key="ui_my_houses_map_title">Tus casas</string>
-	<string key="ui_pay_property_tax_desc">Paga el impuesto de propiedad para activar tu casa.</string>
+	<string key="ui_pay_property_tax_desc">Pay Property tax via the map or at your house.</string>
 	<string key="ui_no_home_owners">Casa vacía</string>
 	<string key="ui_num_housing_points">{points} puntos</string>
 	<string key="ui_owner_list">Lista de propietarios</string>
@@ -166,8 +168,8 @@
 	<string key="ui_your_inn">&lt;font color="#73b651"&gt;&lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;Registro realizado&lt;/font&gt;&lt;/font&gt;\nPosada activa. Puedes regresar y reaparecer en esta posada desde cualquier parte del mundo.</string>
 	<string key="ui_inn_map_tooltip">&lt;font color="#949494"&gt;&lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;Registro no realizado&lt;/font&gt;&lt;/font&gt;\nRegístrate en la posada para establecer un punto de reaparición y de regreso.</string>
 	<string key="ui_inn_check_in">Registro en la posada de {territoryName}.</string>
-	<string key="ui_inn_check_in_desc">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;¡Te doy la bienvenida a la posada de {territoryName}!&lt;/font&gt;&lt;/font&gt;\n\n¿Quieres &lt;font color="#f3d981"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;registrarte&lt;/font&gt;&lt;/font&gt;?\n\nSi lo haces, ¡podrás regresar a este asentamiento\ny reaparecer aquí desde cualquier parte del mundo!</string>
-	<string key="ui_inn_replace_desc">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;¡Te doy la bienvenida a la posada de {territoryName}!&lt;/font&gt;&lt;/font&gt;\n\n¿Quieres &lt;font color="#f3d981"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;registrarte&lt;/font&gt;&lt;/font&gt;?\nSi lo haces, ¡podrás regresar a este asentamiento\ny reaparecer aquí desde cualquier parte del mundo!\n\n&lt;font color="#f3d981"&gt;Esto reemplazará tu punto de regreso actual.&lt;/font&gt;</string>
+	<string key="ui_inn_check_in_desc">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Welcome to {territoryName} Inn!&lt;/font&gt;&lt;/font&gt;\n\n¿Quieres &lt;font color="#f3d981"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;registrarte&lt;/font&gt;&lt;/font&gt;?\n\nSi lo haces, ¡podrás regresar a este asentamiento\ny reaparecer aquí desde cualquier parte del mundo!</string>
+	<string key="ui_inn_replace_desc">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Welcome to {territoryName} Inn!&lt;/font&gt;&lt;/font&gt;\n\n¿Quieres &lt;font color="#f3d981"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;registrarte&lt;/font&gt;&lt;/font&gt;?\nSi lo haces, ¡podrás regresar a este asentamiento\ny reaparecer aquí desde cualquier parte del mundo!\n\n&lt;font color="#f3d981"&gt;Esto reemplazará tu punto de regreso actual.&lt;/font&gt;</string>
 	<string key="ui_current_inn_label">TU POSADA ACTUAL</string>
 	<string key="ui_inn_already_checked_in">Anda, ¡parece que ya te habías registrado en esta posada!\n\n¡Puedes regresar a este asentamiento\ny reaparecer aquí desde cualquier parte del mundo!</string>
 	<string key="ui_current_inn_and_distance">Posada de {territoryName} ({distance}).</string>
@@ -205,6 +207,8 @@
 	<string key="@ui_house_items_refunded_title">Objetos de la casa reembolsados</string>
 	<string key="@ui_house_items_refunded_single_message">Debido a los cambios en {settlement}, se ha devuelto un objeto de la casa a tu inventario.</string>
 	<string key="@ui_house_items_refunded_multiple_message">Debido a los cambios en {settlement}, se han devuelto {count} objetos a tu inventario.</string>
+	<string key="ui_house_compensation_title">Housing Compensation</string>
+	<string key="ui_house_compensation_message_JAV141577">Due to incorrect messaging around taxes for first time homebuyers, you have been granted {amount} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; as a homebuyer. We hope you continue to enjoy New World and your house.</string>
 	<string key="ui_house_type_items">Objetos</string>
 	<string key="ui_house_placed_items">Colocados</string>
 	<string key="ui_house_type_items_limits">Hasta {numPets} {petPluralOrSingle}, {numLights} {lightPluralOrSingle} y {numStorage} {storagePluralOrSingle}.</string>

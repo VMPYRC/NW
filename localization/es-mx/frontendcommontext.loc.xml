@@ -93,7 +93,8 @@
 	<string key="mm_loginservices_PatchFieldNotPermitted">Acceso denegado: El campo del personaje no se puede corregir.</string>
 	<string key="mm_loginservices_CharacterNotFlaggedForRename">Acceso denegado: El personaje no se puede renombrar.</string>
 	<string key="mm_loginservices_NotEligibleForFTUE">Inicio de sesión denegado: FTUE ya se completó.</string>
-	<string key="mm_loginservices_InternalError">Error interno de inicio de sesión.</string>
+	<string key="mm_loginservices_InternalError">Fallo en el inicio de sesión, inténtalo de nuevo más tarde.</string>
+	<string key="mm_loginservices_InternalServerErrorException">Fallo en el servidor de inicio de sesión, inténtalo de nuevo más tarde.</string>
 	<string key="mm_loginservices_CredentialsError">Credenciales no válidas para inicio de sesión.</string>
 	<string key="mm_loginservices_NameLengthError">Longitud de nombre no válida.</string>
 	<string key="mm_loginservices_NameNotAvailableError">Este nombre está en uso.</string>
@@ -102,6 +103,7 @@
 	<string key="mm_loginservices_UnavailableError">El inicio de sesión no está disponible.</string>
 	<string key="mm_loginservices_InputValidationError">Solicitud de inicio de sesión no válida.</string>
 	<string key="mm_loginservices_UnableToConnectError">No se ha podido conectar con el servicio de inicio de sesión. Espera. Reconectando…</string>
+	<string key="mm_loginservices_TooManyRequestsException">El servidor de inicio de sesión está demasiado ocupado, inténtalo de nuevo más tarde.</string>
 	<string key="mm_loginservices_NoConnection">El servicio de inicio de sesión no está disponible en este momento. Es posible que tengas problemas de conexión a internet. Espera. Reconectando…</string>
 	<string key="mm_loginservices_location_DEFAULT000">Estás en espera para el mundo abierto...</string>
 	<string key="mm_loginservices_location_FTUE000">Estás en espera como jugador nuevo...</string>
@@ -178,7 +180,7 @@
 	<string key="mm_rejected_Client_Kicked_BannedOffensiveCompanyName">Nombre de compañía ofensivo</string>
 	<string key="mm_rejected_Client_Kicked_OffensiveCompanyName">Nombre de compañía ofensivo</string>
 	<string key="mm_rejected_Client_Kicked_BannedSuspectedFraud">Sospecha de comportamiento fraudulento</string>
-	<string key="mm_rejected_Client_Kicked_EasyAntiCheat">No tienes autorización para seguir jugando.</string>
+	<string key="mm_rejected_Client_Kicked_EasyAntiCheat">Inicio de sesión bloqueado: Se detectó una instalación dañada o un software sospechoso.</string>
 	<string key="mm_rejected_Client_Kicked_BannedCSLockout">Tu cuenta está bloqueada. Comunícate con atención al cliente para más información.</string>
 	<string key="mm_rejected_Client_Kicked_CSLockout">Tu cuenta está bloqueada. Comunícate con atención al cliente para más información.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Fuiste expulsado del juego.</string>
@@ -204,6 +206,7 @@
 	<string key="mm_authresult_Error_Persona_Assume_Role">No se pudieron obtener las credenciales.\nVuelve a intentarlo o comunícate con la comunidad de New World para obtener más información, https://forums.newworld.com</string>
 	<string key="mm_authresult_Error_Steam">No se pudo realizar la autenticación con Steam.</string>
 	<string key="mm_authresult_Denied_DatasheetVersionCheckFailed">Falta de coincidencia con la versión de la hoja de datos.</string>
+	<string key="mm_authresult_Http_Error_Response_Code">No se pudo autenticar tu cliente. Inténtalo de nuevo más tarde.</string>
 	<string key="mm_http_NoResponse">No se pudo realizar la solicitud de HTTP; no hubo respuesta.</string>
 	<string key="mm_queuesoon">Tiempo estimado: &lt;1 minuto\nPosición en cola: {rank}\n{status}</string>
 	<string key="mm_queuewithestimate">Tiempo estimado: {time}\nPosición en la lista de espera: {rank}\n{status}</string>
@@ -349,7 +352,7 @@
 	<string key="inv_salvage_tooltip_range" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Si desarmas este objeto obtendrás {min}-{max} {itemName}.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_range_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Si desarmas este objeto obtendrás {min}-{max} {itemName} y {numRepairParts} piezas de repuesto.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_gemmessage" comment="this will come after a previous sentence and should have a space in front">Hay una pequeña posibilidad de recuperar la gema adosada.</string>
-	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items."> También podrías adquirir objetos adicionales como {itemName}.</string>
+	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items.">También podrías adquirir objetos adicionales como {itemName}.</string>
 	<string key="inv_salvage_tooltip_recipe">Si desarmas este objeto, aprenderás la receta {recipeName}.</string>
 	<string key="inv_salvage_tertiary_recipe">Receta {recipeName}</string>
 	<string key="minspec_warning_requirements_title">Aviso sobre los requisitos mínimos</string>
@@ -409,7 +412,7 @@
 	<string key="mm_stage_alpha">Alfa</string>
 	<string key="mm_charslot_locked_tooltip">El espacio de personaje está bloqueado. El espacio no está disponible, compra uno para desbloquear a este personaje.</string>
 	<string key="error_banned">{message}\n\nMotivo: [{reason}]</string>
-	<string key="error_perm_ban">Prohibición permanente</string>
+	<string key="error_perm_ban">Suspensión permanente</string>
 	<string key="error_temp_ban">Prohibición temporal</string>
 	<string key="error_world_select_server_down">No puedes seleccionar un mundo cuando se están realizando tareas de mantenimiento.</string>
 </resources>

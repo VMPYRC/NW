@@ -25,7 +25,7 @@
 	<string key="ui_fast_travel_popup_confirm">¿Quieres usar el viaje rápido para ir a esta ubicación?</string>
 	<string key="ui_inn_recall_popup_confirm">¿Quieres regresar a esta posada?</string>
 	<string key="ui_inn_recall_from_esc_popup_confirm">¿Quieres regresar a la posada de {territoryName}?</string>
-	<string key="ui_watchtower_recall_from_esc_popup_confirm">Would you like to recall to the watchtower located in {territoryName}?</string>
+	<string key="ui_watchtower_recall_from_esc_popup_confirm">¿Quieres regresar a la torre de observación de {territoryName}?</string>
 	<string key="ui_house_recall_popup_confirm">¿Quieres regresar a tu casa?</string>
 	<string key="ui_fast_travel_reset_popup">¿Restablecer tiempo de reutilización?</string>
 	<string key="ui_fast_travel_reset_popup_confirm">¿Quieres reestablecer el tiempo de reutilización?</string>
@@ -35,9 +35,11 @@
 	<string key="ui_house_abandon_notification">Abandonaste la casa {houseName}.</string>
 	<string key="ui_house_abandon_popup_desc">Ya tienes 1 casa en este pueblo.\n ¿Quieres abandonar {houseName} para comprar esta casa?\nTodos los trofeos y los muebles de la casa que abandones se trasladarán al almacenamiento del pueblo.</string>
 	<string key="ui_house_abandon_popup_title">Solo puedes tener una casa por pueblo.</string>
-	<string key="ui_house_abandon_this_popup_desc">¿Quieres abandonar esta casa?\nTodos los trofeos y los muebles de la casa que abandones se trasladarán al almacenamiento del pueblo.</string>
-	<string key="ui_house_abandon_this_house_desc">Todos los trofeos y los muebles de la casa se trasladarán al almacenamiento del pueblo si abandonas la casa.</string>
+	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;Purchase cost and taxes will not be refunded if this house is abandoned.&lt;/font&gt;\nAll trophies &amp; furniture in the abandoned house will be moved into Town Storage.\n\nTo continue, type {territoryName} below.</string>
+	<string key="ui_house_abandon_this_house_desc">El costo de la compra y los impuestos no se reembolsarán si esta casa se abandona. Todos los trofeos y muebles de la casa se trasladarán al almacenamiento del pueblo.</string>
 	<string key="ui_house_abandon_this_popup_title">¿Quieres abandonar la casa?</string>
+	<string key="ui_house_abandon_confirm_placeholder_text">Type the territory name.</string>
+	<string key="ui_house_abandon_confirm_button">Abandon House</string>
 	<string key="ui_house_already_owned">Esta casa ya es tuya</string>
 	<string key="ui_house_hint_decorate">Decorar</string>
 	<string key="ui_house_hint_exit">Salir</string>
@@ -118,14 +120,14 @@
 	<string key="ui_my_house_map_desc_disabled">Casa n.º {number} en {location} (inhabilitada)</string>
 	<string key="ui_my_house_map_title">Tu casa</string>
 	<string key="ui_my_houses_map_title">Tus casas</string>
-	<string key="ui_pay_property_tax_desc">Para habilitar tu casa, debes pagar los impuestos inmobiliarios.</string>
+	<string key="ui_pay_property_tax_desc">Pay Property tax via the map or at your house.</string>
 	<string key="ui_no_home_owners">Casa vacía</string>
 	<string key="ui_num_housing_points">{points} puntos</string>
 	<string key="ui_owner_list">Lista de propietarios</string>
 	<string key="ui_pay_house_tax_fail">Se produjo un error al pagar los impuestos en la casa. Vuelve a intentarlo.</string>
 	<string key="ui_pay_property_tax">Pagar los impuestos</string>
 	<string key="ui_pay_property_tax_popup_desc">Si quieres regresar a tu casa, renacer en ella y decorarla, debes pagar los impuestos inmobiliarios.\nLos impuestos se pagan de forma {firstCycle} después de que compres la casa y cada {otherCycle} después.</string>
-	<string key="ui_property_tax">Impuesto inmobiliario</string>
+	<string key="ui_property_tax">Impuestos\ninmobiliarios</string>
 	<string key="ui_property_tax_amount_desc">Monto del impuesto inmobiliario recurrente</string>
 	<string key="ui_property_tax_desc">Paga el impuesto inmobiliario recurrente para poder seguir usando las funciones residenciales.</string>
 	<string key="ui_property_tax_due">Monto adeudado</string>
@@ -196,7 +198,7 @@
 	<string key="ui_travel">Viajar</string>
 	<string key="ui_your_house_desc">Siempre y cuando el impuesto esté pago, podrás regresar a tu casa y renacer en ella.</string>
 	<string key="ui_view_warinfo">Ver la información de la guerra</string>
-	<string key="ui_view_taxinfo">Detalles del asentamiento/información de la guerra</string>
+	<string key="ui_view_taxinfo">Detalles de asentamiento y guerra</string>
 	<string key="ui_view_personalstorage">Mi almacenamiento</string>
 	<string key="ui_more_info">Más información</string>
 	<string key="ui_company_discount">{discountPercent} % por tu compañía</string>
@@ -205,6 +207,8 @@
 	<string key="@ui_house_items_refunded_title">Se han reembolsado los objetos de la casa</string>
 	<string key="@ui_house_items_refunded_single_message">Debido a los cambios en {settlement}, se ha devuelto un objeto de la casa a tu inventario.</string>
 	<string key="@ui_house_items_refunded_multiple_message">Debido a los cambios en {settlement}, se han devuelto {count} objetos a tu inventario.</string>
+	<string key="ui_house_compensation_title">Housing Compensation</string>
+	<string key="ui_house_compensation_message_JAV141577">Due to incorrect messaging around taxes for first time homebuyers, you have been granted {amount} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; as a homebuyer. We hope you continue to enjoy New World and your house.</string>
 	<string key="ui_house_type_items"> Objetos</string>
 	<string key="ui_house_placed_items">Colocados</string>
 	<string key="ui_house_type_items_limits">Hasta {numPets} {petPluralOrSingle}, {numLights} {lightPluralOrSingle} y {numStorage} {storagePluralOrSingle}.</string>

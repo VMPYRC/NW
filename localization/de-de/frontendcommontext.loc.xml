@@ -93,7 +93,8 @@
 	<string key="mm_loginservices_PatchFieldNotPermitted">Zugriff verweigert: Das Charakterfeld kann nicht gepatcht werden.</string>
 	<string key="mm_loginservices_CharacterNotFlaggedForRename">Zugriff verweigert: Der Charakter kann nicht umbenannt werden.</string>
 	<string key="mm_loginservices_NotEligibleForFTUE">Anmeldung verweigert: Die Einführung (FTUE) wurde bereits abgeschlossen.</string>
-	<string key="mm_loginservices_InternalError">Interner Fehler beim Anmeldedienst.</string>
+	<string key="mm_loginservices_InternalError">Anmeldung ist fehlgeschlagen, versuche es bitte erneut.</string>
+	<string key="mm_loginservices_InternalServerErrorException">Fehler auf dem Login-Server. Versuche es bitte erneut.</string>
 	<string key="mm_loginservices_CredentialsError">Ungültige Zugangsdaten für die Anmeldedienste.</string>
 	<string key="mm_loginservices_NameLengthError">Unzulässige Namenslänge.</string>
 	<string key="mm_loginservices_NameNotAvailableError">Dieser Name wird bereits verwendet.</string>
@@ -102,6 +103,7 @@
 	<string key="mm_loginservices_UnavailableError">Die Anmeldedienste sind nicht verfügbar.</string>
 	<string key="mm_loginservices_InputValidationError">Ungültige Anfrage an Anmeldedienste.</string>
 	<string key="mm_loginservices_UnableToConnectError">Verbindung zum Anmeldedienst nicht möglich. Verbindungsaufbau, bitte warten ...</string>
+	<string key="mm_loginservices_TooManyRequestsException">Der Login-Server ist ausgelastet. Versuche es bitte erneut.</string>
 	<string key="mm_loginservices_NoConnection">Anmeldedienst ist zurzeit nicht verfügbar. Grund kann eine fehlerhafte Internetverbindung sein. Verbindungsaufbau, bitte warten ...</string>
 	<string key="mm_loginservices_location_DEFAULT000">Du bist in der Warteschlange für die offene Welt …</string>
 	<string key="mm_loginservices_location_FTUE000">Du bist in der Warteschlange für neue Spieler …</string>
@@ -178,7 +180,7 @@
 	<string key="mm_rejected_Client_Kicked_BannedOffensiveCompanyName">Beleidigender Kompaniename</string>
 	<string key="mm_rejected_Client_Kicked_OffensiveCompanyName">Beleidigender Kompaniename</string>
 	<string key="mm_rejected_Client_Kicked_BannedSuspectedFraud">Vermutlicher Betrug</string>
-	<string key="mm_rejected_Client_Kicked_EasyAntiCheat">Du darfst nicht weiterspielen.</string>
+	<string key="mm_rejected_Client_Kicked_EasyAntiCheat">Anmeldung gesperrt: Verdächtige Software oder defekte Installation erkannt.</string>
 	<string key="mm_rejected_Client_Kicked_BannedCSLockout">Dein Konto wurde gesperrt. Bitte wende dich an den Kundendienst für zusätzliche Informationen.</string>
 	<string key="mm_rejected_Client_Kicked_CSLockout">Dein Konto wurde gesperrt. Bitte wende dich an den Kundendienst für zusätzliche Informationen.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Du wurdest aus dem Spiel geworfen.</string>
@@ -204,6 +206,7 @@
 	<string key="mm_authresult_Error_Persona_Assume_Role">Abholung der Zugangsdaten fehlgeschlagen.\nBitte erneut versuchen oder weitere Informationen in der New-World-Community einholen: https://forums.newworld.com</string>
 	<string key="mm_authresult_Error_Steam">Fehler bei der Authentifizierung mit Steam.</string>
 	<string key="mm_authresult_Denied_DatasheetVersionCheckFailed">Datenblattversionsfehler.</string>
+	<string key="mm_authresult_Http_Error_Response_Code">Dein Client ist möglicherweise nicht authentifiziert. Versuche es bitte erneut.</string>
 	<string key="mm_http_NoResponse">HTTP-Anfrage fehlgeschlagen; keine Rückmeldung</string>
 	<string key="mm_queuesoon">Erwartete Dauer: &lt; 1 Minute\nWarteschlangenposition: {rank}\n{status}</string>
 	<string key="mm_queuewithestimate">Erwartete Dauer: {time}\nWarteschlangenposition: {rank}\n{status}</string>
@@ -349,7 +352,7 @@
 	<string key="inv_salvage_tooltip_range" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {min}-{max} {itemName}.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_range_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {min}-{max} {itemName} und {numRepairParts} Ersatzteile.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_gemmessage" comment="this will come after a previous sentence and should have a space in front"> Es besteht eine geringe Wahrscheinlichkeit, den eingesetzten Edelstein zurückzuerhalten.</string>
-	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items."> Zusätzliche Gegenstände wie {itemName} können ebenfalls erworben werden.</string>
+	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items.">Zusätzliche Gegenstände wie {itemName} können ebenfalls erworben werden.</string>
 	<string key="inv_salvage_tooltip_recipe">Durch das Zerlegen dieses Gegenstands lernst du den Plan: {recipeName}.</string>
 	<string key="inv_salvage_tertiary_recipe">Plan: {recipeName}</string>
 	<string key="minspec_warning_requirements_title">Mindestanf.-Warnung</string>

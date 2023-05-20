@@ -35,9 +35,11 @@
 	<string key="ui_house_abandon_notification">Sua casa {houseName} foi abandonada.</string>
 	<string key="ui_house_abandon_popup_desc">Você já tem 1 casa nesta vila.\n Você gostaria de abandonar {houseName} para comprar esta casa?\nTodos os troféus e móveis da casa abandonada serão movidos para o Inventário da Vila.</string>
 	<string key="ui_house_abandon_popup_title">Você só pode ter uma casa em cada vila.</string>
-	<string key="ui_house_abandon_this_popup_desc">Você gostaria de abandonar esta casa?\nTodos os troféus e móveis da casa abandonada serão movidos para o Inventário da Vila.</string>
-	<string key="ui_house_abandon_this_house_desc">Todos os troféus e móveis da casa serão movidos para o Inventário da Vila se a casa for abandonada.</string>
+	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;Purchase cost and taxes will not be refunded if this house is abandoned.&lt;/font&gt;\nAll trophies &amp; furniture in the abandoned house will be moved into Town Storage.\n\nTo continue, type {territoryName} below.</string>
+	<string key="ui_house_abandon_this_house_desc">Purchase cost and taxes will not be refunded if this house is abandoned. All trophies and furniture in the house will be moved to the town storage.</string>
 	<string key="ui_house_abandon_this_popup_title">Abandonar Casa?</string>
+	<string key="ui_house_abandon_confirm_placeholder_text">Type the territory name.</string>
+	<string key="ui_house_abandon_confirm_button">Abandon House</string>
 	<string key="ui_house_already_owned">Já Adquirida</string>
 	<string key="ui_house_hint_decorate">Decorar</string>
 	<string key="ui_house_hint_exit">Sair</string>
@@ -112,13 +114,13 @@
 	<string key="ui_housing_update_time">Esta lista será atualizada em {time}</string>
 	<string key="ui_lighting">Iluminação</string>
 	<string key="ui_max_homes_owned">Máximo de Casas Adquiridas</string>
-	<string key="ui_max_homes_owned_territory">Máximo de Casas Adquiridas No Território</string>
+	<string key="ui_max_homes_owned_territory">Max Homes Owned In This Territory</string>
 	<string key="ui_misc">Diversos</string>
 	<string key="ui_my_house_map_desc">{location} casa {number}</string>
 	<string key="ui_my_house_map_desc_disabled">{location} casa {number} (Desativado)</string>
 	<string key="ui_my_house_map_title">Sua Casa</string>
 	<string key="ui_my_houses_map_title">Suas Casas</string>
-	<string key="ui_pay_property_tax_desc">Pague impostos imobiliários para ativar sua casa.</string>
+	<string key="ui_pay_property_tax_desc">Pay Property tax via the map or at your house.</string>
 	<string key="ui_no_home_owners">Casa Vazia</string>
 	<string key="ui_num_housing_points">{points} Pontos</string>
 	<string key="ui_owner_list">Lista do Proprietário</string>
@@ -205,6 +207,8 @@
 	<string key="@ui_house_items_refunded_title">Itens de Casa reembolsados</string>
 	<string key="@ui_house_items_refunded_single_message">Devido a mudanças em {settlement}, um item de casa foi devolvido ao seu inventário.</string>
 	<string key="@ui_house_items_refunded_multiple_message">Devido a mudanças em {settlement}, {count} itens de casa foram devolvidos ao seu inventário.</string>
+	<string key="ui_house_compensation_title">Housing Compensation</string>
+	<string key="ui_house_compensation_message_JAV141577">Due to incorrect messaging around taxes for first time homebuyers, you have been granted {amount} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; as a homebuyer. We hope you continue to enjoy New World and your house.</string>
 	<string key="ui_house_type_items">Itens</string>
 	<string key="ui_house_placed_items">Colocado(s)</string>
 	<string key="ui_house_type_items_limits">Máximo de {numPets} {petPluralOrSingle}, {numLights} {lightPluralOrSingle} e {numStorage} {storagePluralOrSingle}.</string>

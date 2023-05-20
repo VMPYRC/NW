@@ -93,7 +93,8 @@
 	<string key="mm_loginservices_PatchFieldNotPermitted">Acesso negado: O campo de personagens não pode ser atualizado.</string>
 	<string key="mm_loginservices_CharacterNotFlaggedForRename">Acesso negado: O personagem não é elegível para ser renomeado.</string>
 	<string key="mm_loginservices_NotEligibleForFTUE">Autenticação negada: O FTUE já foi concluído.</string>
-	<string key="mm_loginservices_InternalError">Erro interno nos serviços de autenticação.</string>
+	<string key="mm_loginservices_InternalError">Problema ao iniciar sessão, tente novamente em breve.</string>
+	<string key="mm_loginservices_InternalServerErrorException">Problema do servidor ao iniciar sessão, tente novamente em breve.</string>
 	<string key="mm_loginservices_CredentialsError">Credenciais inválidas para os serviços de autenticação.</string>
 	<string key="mm_loginservices_NameLengthError">Tamanho de nome inválido.</string>
 	<string key="mm_loginservices_NameNotAvailableError">Este nome já está em uso.</string>
@@ -102,6 +103,7 @@
 	<string key="mm_loginservices_UnavailableError">Os serviços de autenticação estão indisponíveis.</string>
 	<string key="mm_loginservices_InputValidationError">Solicitação inválida aos serviços de autenticação.</string>
 	<string key="mm_loginservices_UnableToConnectError">Não foi possível conectar ao serviço de autenticação. Reconectando, aguarde...</string>
+	<string key="mm_loginservices_TooManyRequestsException">O servidor de autenticação está muito ocupado, tente novamente em breve.</string>
 	<string key="mm_loginservices_NoConnection">O serviço de autenticação não está disponível no momento. Isso pode indicar problemas na conexão de Internet. Reconectando, aguarde...</string>
 	<string key="mm_loginservices_location_DEFAULT000">Você está na fila para o mundo aberto...</string>
 	<string key="mm_loginservices_location_FTUE000">Você está na fila como um novo jogador...</string>
@@ -178,7 +180,7 @@
 	<string key="mm_rejected_Client_Kicked_BannedOffensiveCompanyName">Nome da companhia ofensivo</string>
 	<string key="mm_rejected_Client_Kicked_OffensiveCompanyName">Nome da companhia ofensivo</string>
 	<string key="mm_rejected_Client_Kicked_BannedSuspectedFraud">Suspeita de atividade de fraude</string>
-	<string key="mm_rejected_Client_Kicked_EasyAntiCheat">Não está autorizado a continuar jogando.</string>
+	<string key="mm_rejected_Client_Kicked_EasyAntiCheat">Autenticação bloqueada: Software suspeito ou instalação corrompida detectada</string>
 	<string key="mm_rejected_Client_Kicked_BannedCSLockout">Sua conta está bloqueada no momento. Entre em contato com o atendimento ao cliente para obter mais informações.</string>
 	<string key="mm_rejected_Client_Kicked_CSLockout">Sua conta está bloqueada no momento. Entre em contato com o atendimento ao cliente para obter mais informações.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Você foi expulso do jogo</string>
@@ -204,6 +206,7 @@
 	<string key="mm_authresult_Error_Persona_Assume_Role">Falha ao recuperar credenciais.\nTente novamente ou, para mais informações, entre em contato com a comunidade de New World em https://forums.newworld.com</string>
 	<string key="mm_authresult_Error_Steam">Falha ao autenticar com o Steam.</string>
 	<string key="mm_authresult_Denied_DatasheetVersionCheckFailed">As versões da planilha de dados divergem.</string>
+	<string key="mm_authresult_Http_Error_Response_Code">Seu cliente não pôde ser autenticado. Tente novamente em breve.</string>
 	<string key="mm_http_NoResponse">Falha na autenticação HTTP, sem resposta</string>
 	<string key="mm_queuesoon">Tempo Estimado: &lt; 1 minuto\nPosição na Fila: {rank}\n{status}</string>
 	<string key="mm_queuewithestimate">Tempo Estimado: {time}\nPosição na Fila: {rank}\n{status}</string>
@@ -349,7 +352,7 @@
 	<string key="inv_salvage_tooltip_range" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Sucatear este item fornecerá entre {min} e {max} {itemName}.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_range_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Sucatear este item fornecerá entre {min} e {max} {itemName} e {numRepairParts} Peças de Reparos.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_gemmessage" comment="this will come after a previous sentence and should have a space in front">Há uma pequena chance de recuperar a gema acoplada.</string>
-	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items."> Também é possível adquirir itens adicionais como {itemName}.</string>
+	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items.">Também é possível adquirir itens adicionais como {itemName}.</string>
 	<string key="inv_salvage_tooltip_recipe">Sucatear este item ensinará a você a receita {recipeName}.</string>
 	<string key="inv_salvage_tertiary_recipe">Receita {recipeName}</string>
 	<string key="minspec_warning_requirements_title">Aviso de ReqMín</string>

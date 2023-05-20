@@ -93,7 +93,8 @@
 	<string key="mm_loginservices_PatchFieldNotPermitted">Accesso negato: La patch non può essere applicata al campo Personaggio</string>
 	<string key="mm_loginservices_CharacterNotFlaggedForRename">Accesso negato: Il personaggio non può essere rinominato.</string>
 	<string key="mm_loginservices_NotEligibleForFTUE">Accesso negato: La FTUE è già stata completata.</string>
-	<string key="mm_loginservices_InternalError">Errore interno nei servizi di accesso.</string>
+	<string key="mm_loginservices_InternalError">Malfunzionamento dell'accesso, riprova tra poco.</string>
+	<string key="mm_loginservices_InternalServerErrorException">Malfunzionamento dell'accesso al server, riprova tra poco.</string>
 	<string key="mm_loginservices_CredentialsError">Credenziali non valide per i servizi di accesso.</string>
 	<string key="mm_loginservices_NameLengthError">Lunghezza del nome non valida.</string>
 	<string key="mm_loginservices_NameNotAvailableError">Questo nome è già in uso.</string>
@@ -102,6 +103,7 @@
 	<string key="mm_loginservices_UnavailableError">I servizi di accesso non sono disponibili.</string>
 	<string key="mm_loginservices_InputValidationError">Richiesta non valida ai servizi di accesso.</string>
 	<string key="mm_loginservices_UnableToConnectError">Impossibile connettersi al servizio di accesso. Riconnessione in corso, attendi...</string>
+	<string key="mm_loginservices_TooManyRequestsException">I server di accesso sono sovraccarichi, riprova tra poco.</string>
 	<string key="mm_loginservices_NoConnection">Il servizio di accesso non è attualmente disponibile. Potrebbero esserci problemi di connessione a Internet. Riconnessione in corso, attendi...</string>
 	<string key="mm_loginservices_location_DEFAULT000">Sei in coda per il mondo aperto...</string>
 	<string key="mm_loginservices_location_FTUE000">Sei in coda come nuovo giocatore...</string>
@@ -178,7 +180,7 @@
 	<string key="mm_rejected_Client_Kicked_BannedOffensiveCompanyName">Nome compagnia offensivo</string>
 	<string key="mm_rejected_Client_Kicked_OffensiveCompanyName">Nome compagnia offensivo</string>
 	<string key="mm_rejected_Client_Kicked_BannedSuspectedFraud">Comportamento potenzialmente fraudolento</string>
-	<string key="mm_rejected_Client_Kicked_EasyAntiCheat">Non hai l'autorizzazione a proseguire il gioco.</string>
+	<string key="mm_rejected_Client_Kicked_EasyAntiCheat">Accesso bloccato: Rilevato un software sospetto o un file di installazione corrotto</string>
 	<string key="mm_rejected_Client_Kicked_BannedCSLockout">Al momento il tuo account è bloccato. Per ulteriori informazioni contatta il servizio clienti.</string>
 	<string key="mm_rejected_Client_Kicked_CSLockout">Al momento il tuo account è bloccato. Per ulteriori informazioni contatta il servizio clienti.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Sei stato espulso dal gioco</string>
@@ -204,6 +206,7 @@
 	<string key="mm_authresult_Error_Persona_Assume_Role">Impossibile recuperare le credenziali.\nRiprova o contatta la community di New World per maggiori informazioni: https://forums.newworld.com</string>
 	<string key="mm_authresult_Error_Steam">Autenticazione con Steam non riuscita.</string>
 	<string key="mm_authresult_Denied_DatasheetVersionCheckFailed">La versione del datasheet non corrisponde.</string>
+	<string key="mm_authresult_Http_Error_Response_Code">Non è stato possibile autenticare il tuo client. Riprova tra poco.</string>
 	<string key="mm_http_NoResponse">Richiesta HTTP non riuscita; nessuna risposta.</string>
 	<string key="mm_queuesoon">Tempo previsto: &lt; 1 minuto\nPosizione in coda: {rank}\n{status}</string>
 	<string key="mm_queuewithestimate">Tempo previsto: {time}\nPosizione in coda: {rank}\n{status}</string>
@@ -349,7 +352,7 @@
 	<string key="inv_salvage_tooltip_range" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {min}-{max} {itemName}.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_range_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {min}-{max} {itemName} e {numRepairParts} ricambi.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_gemmessage" comment="this will come after a previous sentence and should have a space in front">C'è una piccola possibilità di recuperare la gemma incastonata.</string>
-	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items."> Puoi acquisire anche oggetti aggiuntivi, come {itemName}.</string>
+	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items.">Puoi acquisire anche oggetti aggiuntivi, come {itemName}.</string>
 	<string key="inv_salvage_tooltip_recipe">Recuperando questo oggetto apprenderai la ricetta: {recipeName}.</string>
 	<string key="inv_salvage_tertiary_recipe">Ricetta: {recipeName}</string>
 	<string key="minspec_warning_requirements_title">Avviso requisiti minimi</string>

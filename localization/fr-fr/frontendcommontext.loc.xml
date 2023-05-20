@@ -93,7 +93,8 @@
 	<string key="mm_loginservices_PatchFieldNotPermitted">Accès refusé : Champ de personnage impossible à modifier.</string>
 	<string key="mm_loginservices_CharacterNotFlaggedForRename">Accès refusé : Ce personnage ne peut pas être renommé.</string>
 	<string key="mm_loginservices_NotEligibleForFTUE">Connexion refusée : Introduction au jeu déjà effectuée.</string>
-	<string key="mm_loginservices_InternalError">Erreur interne du service d'identification.</string>
+	<string key="mm_loginservices_InternalError">Dysfonctionnement de la connexion, veuillez réessayer plus tard.</string>
+	<string key="mm_loginservices_InternalServerErrorException">Dysfonctionnement du serveur de connexion, veuillez réessayer plus tard.</string>
 	<string key="mm_loginservices_CredentialsError">ID du service d'identification incorrect.</string>
 	<string key="mm_loginservices_NameLengthError">La longueur de ce nom est incorrecte.</string>
 	<string key="mm_loginservices_NameNotAvailableError">Ce nom est déjà utilisé.</string>
@@ -102,6 +103,7 @@
 	<string key="mm_loginservices_UnavailableError">Service d'identification indisponible.</string>
 	<string key="mm_loginservices_InputValidationError">Requête au service d'identification incorrecte.</string>
 	<string key="mm_loginservices_UnableToConnectError">Impossible de se connecter au service d'identification. Reconnexion, veuillez patienter...</string>
+	<string key="mm_loginservices_TooManyRequestsException">Serveur de connexion saturé, veuillez réessayer plus tard.</string>
 	<string key="mm_loginservices_NoConnection">Le service d'identification n'est pas disponible pour le moment. Cela peut indiquer un problème de connexion à Internet. Reconnexion, veuillez patienter...</string>
 	<string key="mm_loginservices_location_DEFAULT000">Vous faites la queue pour accéder au monde ouvert...</string>
 	<string key="mm_loginservices_location_FTUE000">Vous faites la queue en tant que nouveau joueur...</string>
@@ -178,7 +180,7 @@
 	<string key="mm_rejected_Client_Kicked_BannedOffensiveCompanyName">Nom de compagnie insultant</string>
 	<string key="mm_rejected_Client_Kicked_OffensiveCompanyName">Nom de compagnie insultant</string>
 	<string key="mm_rejected_Client_Kicked_BannedSuspectedFraud">Suspicion de comportement frauduleux</string>
-	<string key="mm_rejected_Client_Kicked_EasyAntiCheat">Vous n'êtes pas autorisé à jouer.</string>
+	<string key="mm_rejected_Client_Kicked_EasyAntiCheat">Connexion refusée : logiciel suspect ou installation corrompue détecté(e)</string>
 	<string key="mm_rejected_Client_Kicked_BannedCSLockout">Votre compte est actuellement verrouillé. Veuillez contacter le service client pour de plus amples informations.</string>
 	<string key="mm_rejected_Client_Kicked_CSLockout">Votre compte est actuellement verrouillé. Veuillez contacter le service client pour de plus amples informations.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Vous êtes exclu(e) du jeu.</string>
@@ -204,6 +206,7 @@
 	<string key="mm_authresult_Error_Persona_Assume_Role">Impossible de récupérer les identifiants.\nVeuillez réessayer ou contacter la communauté New World sur https://forums.newworld.com pour en savoir plus.</string>
 	<string key="mm_authresult_Error_Steam">Échec de l'authentification avec Steam</string>
 	<string key="mm_authresult_Denied_DatasheetVersionCheckFailed">Non-concordance de la version de la feuille de données.</string>
+	<string key="mm_authresult_Http_Error_Response_Code">Votre client n'a pas pu être authentifié. Veuillez réessayer plus tard.</string>
 	<string key="mm_http_NoResponse">Échec de la requête HTTP ; pas de réponse</string>
 	<string key="mm_queuesoon">Temps estimé : &lt; 1 minute\nPosition dans la file : {rank}\n{status}</string>
 	<string key="mm_queuewithestimate">Temps estimé : {time}\nPosition dans la file : {rank}\n{status}</string>
@@ -349,7 +352,7 @@
 	<string key="inv_salvage_tooltip_range" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet confère : {min}-{max} {itemName}. {gemMessage}</string>
 	<string key="inv_salvage_tooltip_range_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet confère : {min}-{max} {itemName} et {numRepairParts} pièces de réparation. {gemMessage}</string>
 	<string key="inv_salvage_tooltip_gemmessage" comment="this will come after a previous sentence and should have a space in front">Vous aurez une petite chance de récupérer la gemme sertie sur cet objet.</string>
-	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items."> Il est possible d'acquérir des objets supplémentaires tels que : {itemName}.</string>
+	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items.">Il est possible d'acquérir des objets supplémentaires tels que : {itemName}.</string>
 	<string key="inv_salvage_tooltip_recipe">Recycler cet objet vous permettra d'apprendre la recette : {recipeName}.</string>
 	<string key="inv_salvage_tertiary_recipe">Recette : {recipeName}</string>
 	<string key="minspec_warning_requirements_title">Avertissement ConfigMin</string>

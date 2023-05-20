@@ -1,5 +1,5 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<string key="ui_abandon">Dieses Haus aufgeben</string>
+	<string key="ui_abandon">Abandon this house</string>
 	<string key="ui_beds">Betten</string>
 	<string key="ui_fast_travel_mission_abandon_confirm">ACHTUNG: Durch Schnellreisen werden sämtliche PvP-Fraktionsmissionen abgebrochen.\n{count} Missionen werden abgebrochen.\n\nFortfahren?</string>
 	<string key="ui_cannot_travel_in_war">Im Krieg sind keine Schnellreisen möglich.</string>
@@ -25,19 +25,21 @@
 	<string key="ui_fast_travel_popup_confirm">Möchtest du an diesen Ort schnellreisen?</string>
 	<string key="ui_inn_recall_popup_confirm">Rückruf in diesen Gasthof?</string>
 	<string key="ui_inn_recall_from_esc_popup_confirm">Rückruf in den Gasthof in {territoryName}?</string>
-	<string key="ui_watchtower_recall_from_esc_popup_confirm">Would you like to recall to the watchtower located in {territoryName}?</string>
+	<string key="ui_watchtower_recall_from_esc_popup_confirm">Rückruf zum Wachturm in {territoryName}?</string>
 	<string key="ui_house_recall_popup_confirm">Rückruf in dein Haus?</string>
 	<string key="ui_fast_travel_reset_popup">Abklingzeit zurücksetzen?</string>
 	<string key="ui_fast_travel_reset_popup_confirm">Abklingzeit zurücksetzen?</string>
 	<string key="ui_group_member_homes">Häuser des Gruppenmitglieds</string>
 	<string key="ui_group_member_homes_no_data">Hier wohnt kein Gruppenmitglied.</string>
 	<string key="ui_house">Haus</string>
-	<string key="ui_house_abandon_notification">Du hast dein Haus {houseName} aufgegeben.</string>
-	<string key="ui_house_abandon_popup_desc">In dieser Stadt besitzt du bereits ein Haus.\nMöchtest du {houseName} aufgeben, um dieses Haus zu kaufen?\nSämtliche Trophäen und Möbel aus dem aufgegebenen Haus werden ins Stadtlager gebracht.</string>
+	<string key="ui_house_abandon_notification">Your house {houseName} has been abandoned.</string>
+	<string key="ui_house_abandon_popup_desc">You already have 1 house in this town.\nMöchtest du {houseName} aufgeben, um dieses Haus zu kaufen?\nSämtliche Trophäen und Möbel aus dem aufgegebenen Haus werden ins Stadtlager gebracht.</string>
 	<string key="ui_house_abandon_popup_title">Du kannst in jeder Stadt nur ein Haus haben.</string>
-	<string key="ui_house_abandon_this_popup_desc">Möchtest du dieses Haus aufgeben?\nSämtliche Trophäen und Möbel aus dem verlassenen Haus werden ins Stadtlager gebracht.</string>
-	<string key="ui_house_abandon_this_house_desc">Sämtliche Trophäen und Möbel aus dem Haus werden ins Stadtlager gebracht, wenn du aus dem Haus ausziehst.</string>
-	<string key="ui_house_abandon_this_popup_title">Haus aufgeben?</string>
+	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;Purchase cost and taxes will not be refunded if this house is abandoned.&lt;/font&gt;\nAll trophies &amp; furniture in the abandoned house will be moved into Town Storage.\n\nTo continue, type {territoryName} below.</string>
+	<string key="ui_house_abandon_this_house_desc">Purchase cost and taxes will not be refunded if this house is abandoned. All trophies and furniture in the house will be moved to the town storage.</string>
+	<string key="ui_house_abandon_this_popup_title">Abandon House?</string>
+	<string key="ui_house_abandon_confirm_placeholder_text">Type the territory name.</string>
+	<string key="ui_house_abandon_confirm_button">Abandon House</string>
 	<string key="ui_house_already_owned">In Besitz</string>
 	<string key="ui_house_hint_decorate">Dekorieren</string>
 	<string key="ui_house_hint_exit">Verlassen</string>
@@ -72,7 +74,7 @@
 	<string key="ui_house_unpaid_taxes">Überfällige Zahlung</string>
 	<string key="ui_house_unpaid_taxes_string">Dein Haus (nicht verfügbar)</string>
 	<string key="ui_house_tax">Grundsteuer</string>
-	<string key="ui_house_unpaid_taxes_due_soon">Grundsteuer für {territoryName} fällig in: {time}. Entrichte die Grundsteuer, um weiterhin die Funktionen Schnellreise und Dekorieren zu verwenden</string>
+	<string key="ui_house_unpaid_taxes_due_soon">Property Tax due at {territoryName} in: {time}. Entrichte die Grundsteuer, um weiterhin die Funktionen Schnellreise und Dekorieren zu verwenden</string>
 	<string key="ui_house_overdue_at">Grundsteuer für {territoryName} überfällig. Entrichte die Grundsteuer, um weiterhin die Funktionen Schnellreise und Dekorieren zu verwenden</string>
 	<string key="ui_house_overdue_label">Grundsteuer überfällig</string>
 	<string key="ui_house_overdue_desc">Grundsteuer ist überfällig. Bezahle die Grundsteuer, um dein Haus benutzen zu können.</string>
@@ -118,7 +120,7 @@
 	<string key="ui_my_house_map_desc_disabled">{location} Haus {number} (nicht verfügbar)</string>
 	<string key="ui_my_house_map_title">Mein Haus</string>
 	<string key="ui_my_houses_map_title">Meine Häuser</string>
-	<string key="ui_pay_property_tax_desc">Bezahle die Grundsteuer, um dein Haus zu aktvieren.</string>
+	<string key="ui_pay_property_tax_desc">Bezahle die Grundsteuer über die Karte oder an deinem Haus.</string>
 	<string key="ui_no_home_owners">Leeres Haus</string>
 	<string key="ui_num_housing_points">{points} Punkte</string>
 	<string key="ui_owner_list">Eigentümerliste</string>
@@ -159,7 +161,7 @@
 	<string key="ui_inn_checked_in">{territoryName} ist jetzt dein Rückrufpunkt.</string>
 	<string key="ui_active_home_point_fail">Anmeldung fehlgeschlagen</string>
 	<string key="ui_inn_fast_travel">Rückruf in Gasthof</string>
-	<string key="ui_watchtower_fast_travel">Recall to Watchtower</string>
+	<string key="ui_watchtower_fast_travel">Rückruf zum Wachturm</string>
 	<string key="ui_inn_fast_travel_notavailable">Rückruf möglich in: {time}</string>
 	<string key="ui_inn">Gasthof</string>
 	<string key="ui_inn_header">{territoryName}-Gasthof.</string>
@@ -205,6 +207,8 @@
 	<string key="@ui_house_items_refunded_title">Hausgegenstände erstattet</string>
 	<string key="@ui_house_items_refunded_single_message">Aufgrund von Änderungen in {settlement} wurde ein Hausgegenstand in dein Inventar zurückgeführt.</string>
 	<string key="@ui_house_items_refunded_multiple_message">Aufgrund von Änderungen in {settlement} wurden {count} Hausgegenstände in dein Inventar zurückgeführt.</string>
+	<string key="ui_house_compensation_title">Housing Compensation</string>
+	<string key="ui_house_compensation_message_JAV141577">Due to incorrect messaging around taxes for first time homebuyers, you have been granted {amount} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; as a homebuyer. We hope you continue to enjoy New World and your house.</string>
 	<string key="ui_house_type_items">Gegenstände</string>
 	<string key="ui_house_placed_items">Platziert</string>
 	<string key="ui_house_type_items_limits">Bis zu {numPets} {petPluralOrSingle}, {numLights} {lightPluralOrSingle} und {numStorage} {storagePluralOrSingle}.</string>
