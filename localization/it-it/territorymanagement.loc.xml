@@ -180,6 +180,7 @@
 	<string key="ui_encounter_signupbutton_war">Iscriviti a un tabellone</string>
 	<string key="ui_encounter_signupDesc_war">Per partecipare a questa guerra, iscriviti presso\n&lt;font color='#f1ede2'&gt;un tabellone di guerra&lt;/font&gt; in questa città.</string>
 	<string key="ui_encounter_signupDesc_invasion">Per partecipare a questa invasione, iscriviti presso\n&lt;font color='#f1ede2'&gt;un tabellone di guerra&lt;/font&gt; in questa città.</string>
+	<string key="ui_encounter_signupDesc_invasion_minlevel">&lt;font color="#ff6363"&gt;Livello minimo: {level}&lt;/font&gt;</string>
 	<string key="ui_encounter_signupbutton_invasion">Iscriviti a un tabellone</string>
 	<string key="ui_encounter_viewstatusbutton_war">Visualizza esercito</string>
 	<string key="ui_encounter_viewstatusbutton_invasion">Visualizza esercito</string>
@@ -572,11 +573,12 @@
 	<string key="ui_town_project_allCompleted">100% &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;completato&lt;/font&gt;</string>
 	<string key="ui_territory_standing_no_bonuses">Non hai alcun bonus nel territorio {territory}.</string>
 	<string key="ui_territory_standing_upgrade_description_generic">Ottieni ABILITÀ nel territorio {territory}.</string>
-	<string key="ui_territory_standing_upgrade_description_increase_stat">Aumenta &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; di &lt;font color='#e1ddd4'&gt;{value}&lt;/font&gt; nel territorio {territory}.</string>
-	<string key="ui_territory_standing_upgrade_description_increase_rate">Ottieni &lt;font color='#e1ddd4'&gt;{value}&lt;/font&gt; &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; aggiuntivi mentre sei a {territory}.</string>
-	<string key="ui_territory_standing_upgrade_description_increase_stat_no_territory">Aumenta &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; di &lt;font color='#e1ddd4'&gt;{value}&lt;/font&gt;.</string>
-	<string key="ui_territory_standing_upgrade_description_decrease_stat">Riduci &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; di &lt;font color='#e1ddd4'&gt;{value}&lt;/font&gt; nel territorio {territory}.</string>
+	<string key="ui_territory_standing_upgrade_description_increase_stat">Aumenta &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; presso {territory}.</string>
+	<string key="ui_territory_standing_upgrade_description_increase_rate">Ottieni &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; in più mentre sei a {territory}.</string>
+	<string key="ui_territory_standing_upgrade_description_increase_stat_no_territory">Aumenta &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt;.</string>
+	<string key="ui_territory_standing_upgrade_description_decrease_stat">Riduci &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; presso {territory}.</string>
 	<string key="ui_territory_standing_upgrade_description_own_house">Puoi possedere una casa nel territorio {territory}.</string>
+	<string key="ui_territory_standing_upgrade_value">&lt;font color='#e1ddd4'&gt; ({current}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/arrow_right" xPadding="8" scale="0.8" yOffset="-0.4"&gt;&lt;/img&gt;&lt;font color='#e1ddd4'&gt;{value})&lt;/font&gt;</string>
 	<string key="ui_territory_standing_upgrade_category_generic">Una categoria</string>
 	<string key="ui_territory_standing_upgrade_category_reputation">Gettoni fazione</string>
 	<string key="ui_territory_standing_upgrade_category_housepoint">Oggetti della casa</string>
@@ -634,6 +636,7 @@
 	<string key="ui_new_mission">Preso sarà disponibile\nuna nuova missione</string>
 	<string key="ui_mission_canceled">Missione annullata</string>
 	<string key="ui_territory_influence">Influenza sul territorio</string>
+	<string key="ui_territory_governed_by_label">Questo territorio è governato da</string>
 	<string key="ui_AlwaysAvailableProjectId">Manutenzione della città</string>
 	<string key="lifestyle_title_LumberJackSpiritProjectId">Attiva Spirito del taglialegna</string>
 	<string key="lifestyle_title_MinersResolveProjectId">Attiva Determinazione del minatore</string>

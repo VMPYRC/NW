@@ -10,7 +10,7 @@
 	<string key="ui_consumables" rel_version="Feature_MTX">Consommables</string>
 	<string key="ui_armorskins" rel_version="Feature_MTX">Apparences d'armure</string>
 	<string key="ui_weaponskins" rel_version="Feature_MTX">Apparences d'arme</string>
-	<string key="ui_toolskins" rel_version="Feature_MTX">Tool Skins</string>
+	<string key="ui_toolskins" rel_version="Feature_MTX">Apparences d'outils</string>
 	<string key="ui_housingitems" rel_version="Feature_MTX">Objets domestiques</string>
 	<string key="ui_world_transfer_mtx" rel_version="Feature_MTX">Transfert de monde</string>
 	<string key="ui_guildcrestcolors" rel_version="Feature_MTX">Armoiries de compagnie</string>
@@ -44,7 +44,7 @@
 	<string key="reward_type_itemskin" rel_version="Feature_MTX">Apparence</string>
 	<string key="reward_type_itemdye" rel_version="Feature_MTX">Teinture</string>
 	<string key="reward_type_armorskin" rel_version="Feature_MTX">Apparence d'armure</string>
-	<string key="reward_type_toolskin" rel_version="Feature_MTX">Tool Skin</string>
+	<string key="reward_type_toolskin" rel_version="Feature_MTX">Apparence d'outil</string>
 	<string key="reward_type_weaponskin" rel_version="Feature_MTX">Apparence d'arme</string>
 	<string key="reward_type_guildcrest" rel_version="Feature_MTX">Armoiries de compagnie</string>
 	<string key="reward_type_guildcrest_fg" rel_version="Feature_MTX">Coloris d'armoiries</string>
@@ -57,8 +57,8 @@
 	<string key="reward_type_marks_of_fortune" rel_version="Feature_MTX">Gages de fortune</string>
 	<string key="reward_type_service" rel_version="Feature_MTX">Transfert de monde</string>
 	<string key="entitlement_included" rel_version="Feature_MTX">Compris</string>
-	<string key="ui_account_bound" rel_version="Feature_MTX">Lié au compte (non cessible)</string>
-	<string key="ui_account_bound_tooltip" rel_version="Feature_MTX">Les objets sont liés à votre compte (ils peuvent être utilisés sur tous vos personnages). Les objets ne peuvent être abandonnés, échangés ou vendus au comptoir.\n\n&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;Consommables :&lt;/font&gt; Les consommables ont un usage limité et leur utilisation sur un personnage spécifique s'applique sur l'ensemble du compte. Par exemple, si vous avez cinq teintures et que vous en utilisez une sur un personnage, il ne vous en restera plus que quatre si vous vous connectez avec un autre personnage sur le même compte.</string>
+	<string key="ui_account_bound" rel_version="Feature_MTX">Tous les objets sont liés au compte (non cessibles) et non remboursables.</string>
+	<string key="ui_account_bound_tooltip" rel_version="Feature_MTX">Tous les objets sont liés au compte (ils peuvent être utilisés sur tous vos personnages) et ne peuvent être abandonnés, échangés ou vendus au comptoir. Tous les objets sont également non remboursables.\n\n&lt;font face="lyshineui/fonts/Nimbus_Bold.font" &gt;Consommables : &lt;/font&gt; Les consommables ont un usage limité et leur utilisation sur un personnage spécifique s'applique sur l'ensemble du compte. Par exemple, si vous avez cinq teintures et que vous en utilisez une sur un personnage, il ne vous en restera plus que quatre si vous vous connectez avec un autre personnage sur le même compte.</string>
 	<string key="ui_unlock_for" rel_version="Feature_MTX">Déverrouiller contre &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/mtx/icon_mtx_currency" scale="2.5" yOffset="10"&gt;&lt;/img&gt;</string>
 	<string key="ui_unlock_with_icon" rel_version="Feature_MTX">&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_purchase" scale="1.75" yOffset="3.5"&gt;&lt;/img&gt; Déverrouiller</string>
 	<string key="ui_bundle_with_icon" rel_version="Feature_MTX">&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_bundle" scale="1.75" yOffset="3.5"&gt;&lt;/img&gt; Pack DLC</string>
@@ -75,7 +75,15 @@
 	<string key="ui_crest_emblem_description_default" rel_version="Feature_MTX">Emblème d'armoiries.</string>
 	<string key="ui_crest_color_description_default" rel_version="Feature_MTX">Coloris d'armoiries.</string>
 	<string key="ui_refund_policy" rel_version="Feature_MTX">Politique de remboursement</string>
-	<string key="ui_non_returnable" rel_version="Feature_MTX">Non retournable</string>
+	<string key="ui_fixed_appearance" rel_version="Feature_MTX">Apparence corrigée</string>
+	<string key="ui_fixed_appearance_tooltip" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Les apparences&lt;/font&gt; s'appliquent à votre personnage et à tout objet équipé dans le même emplacement jusqu'à ce que vous changiez d'apparence ou que vous la retiriez.\n\n&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Les apparences&lt;/font&gt; ne peuvent pas être teintes.</string>
+	<string key="ui_item_restrictions" rel_version="Feature_MTX">Restrictions d'objets</string>
+	<string key="ui_item_restrictions_item_skins" rel_version="Feature_MTX">Les &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;apparences&lt;/font&gt; doivent être équipées sur un objet de base pour être visibles.</string>
+	<string key="ui_item_restrictions_crests" rel_version="Feature_MTX">Seul le gouverneur (créateur) de la compagnie peut utiliser les &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;armoiries de compagnie&lt;/font&gt;.</string>
+	<string key="ui_item_restrictions_housing_items" rel_version="Feature_MTX">Les &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;objets domestiques&lt;/font&gt; ne peuvent être utilisés qu'après avoir déverrouillé la possibilité d'avoir un logement et acheté une maison.</string>
+	<string key="ui_item_restrictions_dyes" rel_version="Feature_MTX">Les &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;teintures&lt;/font&gt; peuvent uniquement être appliquées sur votre armure. Si vous échangez ou vendez l'armure, la teinture sera retirée et ne pourra pas être récupérée. Il est impossible d'appliquer une teinture sur une apparence.</string>
+	<string key="ui_item_restrictions_camp_skins" rel_version="Feature_MTX">Les &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;apparences de bivouac&lt;/font&gt; nécessitent d'avoir déverrouillé la possibilité d'établir un bivouac.</string>
+	<string key="ui_non_returnable" rel_version="Feature_MTX">Objet non remboursable.</string>
 	<string key="ui_order_history_dec" rel_version="Feature_MTX">Affiche vos 10 derniers objets déverrouillés dans la boutique.</string>
 	<string key="ui_expand_bundle" rel_version="Feature_MTX">Pack (cliquer pour développer)</string>
 	<string key="ui_collapse_bundle" rel_version="Feature_MTX">Pack (cliquer pour réduire)</string>
@@ -89,11 +97,11 @@
 	<string key="reward_type_tooltip_guildcrest" rel_version="Feature_MTX">Vous pouvez utiliser ces armoiries sur l'écran de compagnie.</string>
 	<string key="reward_type_tooltip_housing_item" rel_version="Feature_MTX">Vous pouvez placer cet objet domestique dans votre logement depuis le mode Logement.</string>
 	<string key="reward_type_tooltip_player_title" rel_version="Feature_MTX">Vous pouvez indiquer un titre en accédant au menu Personnages, puis « Modifier le titre ».</string>
-	<string key="reward_type_tooltip_inventory_item" rel_version="Feature_MTX">Use this item in Inventory.</string>
-	<string key="reward_type_tooltip_extra" rel_version="Feature_MTX">This product is an extra.</string>
-	<string key="reward_type_tooltip_entitlement" rel_version="Feature_MTX">This product is an entitlement.</string>
-	<string key="reward_type_tooltip_marks_of_fortune" rel_version="Feature_MTX">You can use this currency in the store menu to purchase a product.</string>
-	<string key="reward_type_tooltip_service" rel_version="Feature_MTX">You can use this service in Store menu. Select "World transfer" product in Store.</string>
+	<string key="reward_type_tooltip_inventory_item" rel_version="Feature_MTX">Utilisez cet objet dans l'inventaire.</string>
+	<string key="reward_type_tooltip_extra" rel_version="Feature_MTX">Ce produit est un extra.</string>
+	<string key="reward_type_tooltip_entitlement" rel_version="Feature_MTX">Ce produit est un droit.</string>
+	<string key="reward_type_tooltip_marks_of_fortune" rel_version="Feature_MTX">Vous pouvez utiliser cette devise dans la boutique pour acheter un produit.</string>
+	<string key="reward_type_tooltip_service" rel_version="Feature_MTX">Vous pouvez utiliser ce service dans la boutique. Sélectionnez le produit « Transfert de monde » dans la boutique.</string>
 	<string key="ui_crest_disclaimer" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Attention :&lt;/font&gt; seul le gouverneur (créateur) de la compagnie peut utiliser les armoiries de compagnie.</string>
 	<string key="ui_disabled_default_title" rel_version="Feature_MTX">Contenu indisponible</string>
 	<string key="ui_disabled_default_description" rel_version="Feature_MTX">Ce contenu est actuellement indisponible.</string>
@@ -126,6 +134,7 @@
 	<string key="ui_transaction_status">Statut de la transaction</string>
 	<string key="ui_transaction_in_progress">Transaction en cours...</string>
 	<string key="ui_transaction_failed_code">Transaction échouée, code d'erreur : {error}.</string>
+	<string key="ui_transaction_failed">Échec de la transaction.</string>
 	<string key="ui_transaction_timed_out">La transaction a expiré. Réessayer ?</string>
 	<string key="ui_bonus_marks">(+{bonus} marques)</string>
 	<string key="ui_bonus_percent">Bonus de {bonusPct} %</string>
@@ -287,7 +296,7 @@
 	<string key="ui_crestforeground_206" rel_version="New_World_Launch">Forteresse</string>
 	<string key="ui_crestforeground_207" rel_version="New_World_Launch">Maître de la lance</string>
 	<string key="ui_crestforeground_208" rel_version="New_World_Launch">Maîtrise du marteau d'armes</string>
-	<string key="Bundle_Decor_Spooky2021_name" rel_version="New_World_Launch">Haunted Housing Decor Bundle</string>
+	<string key="Bundle_Decor_Spooky2021_name" rel_version="New_World_Launch">Pack de décorations de logement hanté</string>
 	<string key="Bundle_Decor_Spooky2021_description" rel_version="New_World_Launch">« Comme si les altérés n'étaient pas suffisamment effrayants... »</string>
 	<string key="Pet_Ghost_Dog_name" rel_version="New_World_Launch">Spectrotoutou</string>
 	<string key="Pet_Ghost_Dog_description" rel_version="New_World_Launch">« Un canidé si fidèle qu'il n'a pas besoin d'enveloppe physique pour rester à vos côtés. En plus, pas d'allergies ni de poils à balayer ! » Animal de compagnie</string>
@@ -306,7 +315,7 @@
 	<string key="Mask_AngryEarth_name" rel_version="New_World_Launch">Masque élémentaire</string>
 	<string key="Mask_AngryEarth_description" rel_version="New_World_Launch">« Des courants d'énergie circulent dans cet accessoire de visage, donnant une apparence à son propriétaire un peu plus magique qu'il est vraiment. » Apparence pour le masque</string>
 	<string key="Mask_Demon_name" rel_version="New_World_Launch">Masque de démon</string>
-	<string key="Mask_Demon_description" rel_version="New_World_Launch">« Bien qu'il soit en bois, ce masque vous fait penser à de la pierre... »</string>
+	<string key="Mask_Demon_description" rel_version="New_World_Launch">« Bien qu'il soit en bois, ce masque vous fait penser à de la pierre... » Apparence pour le masque</string>
 	<string key="Mask_PlagueDoctor_name" rel_version="New_World_Launch">Masque de médecin de peste</string>
 	<string key="Mask_PlagueDoctor_description" rel_version="New_World_Launch">« Ses services sont très demandés quand la peur s'empare du pays. »</string>
 	<string key="Mask_HalfWooden_name" rel_version="New_World_Launch">Masque de l'insaisissable</string>
@@ -317,46 +326,50 @@
 	<string key="Apparel_Monster_Mummy_description" rel_version="New_World_Launch">« Pour une relique moisie qui a des milliers d'années, ça ne sent pas aussi mauvais que je le pensais. » Ensemble d'apparences de vêtements</string>
 	<string key="Apparel_Monster_Skeleton_name" rel_version="New_World_Launch">Chevalier osseux</string>
 	<string key="Apparel_Monster_Skeleton_description" rel_version="New_World_Launch">« Des armées sinistres et sépulcrales répondent à son appel. » Ensemble d'apparences de vêtements</string>
-	<string key="server_transfer_name" rel_version="MTX_October_Skins">Transfert de monde (utilisable une seule fois)</string>
-	<string key="ui_character_world_transfer" rel_version="MTX_October_Skins">Character World Transfer</string>
-	<string key="server_transfer_description" rel_version="MTX_October_Skins">Vous permet de transférer ce personnage dans un autre monde situé dans la même région.</string>
-	<string key="server_transfer_extra_detail" rel_version="MTX_October_Skins">Vous disposez d'un transfert de monde gratuit sur votre compte. Une fois utilisé, il ne sera plus disponible pour les autres personnages.</string>
-	<string key="server_transfer_names" rel_version="MTX_October_Skins">Transfert de &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; vers : &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{ServerName}&lt;/font&gt; ({WorldSetName})</string>
-	<string key="server_transfer_requirements" rel_version="MTX_October_Skins">CONDITIONS NÉCESSAIRES</string>
-	<string key="server_transfer_not_transfer" rel_version="MTX_October_Skins">CE QUI NE PEUT ÊTRE TRANSFÉRÉ</string>
-	<string key="server_transfer_requirements_detail1" rel_version="MTX_October_Skins">Vous ne pouvez pas appartenir à une compagnie avant de procéder au transfert.</string>
-	<string key="server_transfer_requirements_detail2" rel_version="MTX_October_Skins">Vous ne pouvez pas avoir d'ordres de vente actifs au comptoir avant de procéder au transfert.</string>
-	<string key="server_transfer_not_transfer_detail1" rel_version="MTX_October_Skins">Your Friends List will be erased and will not carry over</string>
-	<string key="server_transfer_not_transfer_detail2" rel_version="MTX_October_Skins">Active Town Project missions will not carry over</string>
-	<string key="server_transfer_not_transfer_detail3" rel_version="MTX_October_Skins">Active Faction missions will not carry over</string>
-	<string key="server_transfer_more_details" rel_version="MTX_October_Skins">For more details see</string>
-	<string key="server_transfer_transfer_faq" rel_version="MTX_October_Skins">&lt;font color="#70d2e4"&gt;Character World Transfer FAQ&lt;/font&gt;</string>
-	<string key="server_transfer_final_details" rel_version="MTX_October_Skins">En confirmant le transfert, vous vous déconnecterez du menu principal de sélection des personnages. Les transferts sont irréversibles.</string>
-	<string key="server_transfer_change_world" rel_version="MTX_October_Skins">Changement de monde</string>
-	<string key="server_transfer_select_world" rel_version="MTX_October_Skins">Sélectionner monde</string>
-	<string key="server_transfer_change_world_tooltip" rel_version="MTX_October_Skins">Pour changer de monde, il vous suffit de vous connecter à votre personnage, de vous rendre dans la boutique en jeu et de choisir l'option « Transfert de monde ».</string>
-	<string key="server_transfer_region_hint" rel_version="MTX_October_Skins">Vous ne pouvez transférer des personnages vers un monde différent qu'au sein d'une même région. Pour pouvoir jouer dans une autre région, vous devez créer un nouveau personnage dans cette région.</string>
-	<string key="server_transfer_maintenance" rel_version="MTX_October_Skins">Vous ne pouvez pas transférer votre personnage vers un monde en cours de maintenance.</string>
-	<string key="server_transfer_requirements_company" rel_version="MTX_October_Skins">Vous ne pouvez pas appartenir à une compagnie avant de procéder au transfert.</string>
-	<string key="server_transfer_requirements_tradingPost" rel_version="MTX_October_Skins">Vous ne pouvez pas avoir d'ordres de vente actifs au comptoir avant de procéder au transfert.</string>
-	<string key="server_transfer_requirements_tradingPost_unknown" rel_version="MTX_October_Skins">Vérification du statut du comptoir...</string>
-	<string key="server_transfer_confirm" rel_version="MTX_October_Skins">CONFIRMER LE TRANSFERT DE MONDE</string>
-	<string key="server_transfer_confirm_button" rel_version="MTX_October_Skins">CONFIRMER LE TRANSFERT</string>
-	<string key="server_transfer_select_world_fail" rel_version="MTX_October_Skins">Vous devez d'abord sélectionner un monde éligible.</string>
-	<string key="server_transfer_select_world_fail_same" rel_version="MTX_October_Skins">Vous devez sélectionner un monde dans lequel le personnage ne se trouve pas déjà.</string>
-	<string key="server_transfer_current_world" rel_version="MTX_October_Skins">Home World: {worldName}</string>
-	<string key="server_transfer_home_world" rel_version="MTX_October_Skins">Home World:</string>
-	<string key="server_transfer_step_1" rel_version="MTX_October_Skins">Étape 1 sur 2</string>
-	<string key="server_transfer_step_2" rel_version="MTX_October_Skins">Étape 2 sur 2</string>
+	<string key="server_transfer_name" rel_version="Feature_Server_Transfer">Transfert de monde (utilisable une seule fois)</string>
+	<string key="character_rename" rel_version="MTX_October_Skins">Renommage du personnage (usage unique)</string>
+	<string key="character_rename_description" rel_version="MTX_October_Skins">Permet de changer le nom de votre personnage.\nUne seule utilisation.</string>
+	<string key="ui_character_world_transfer" rel_version="Feature_Server_Transfer">Transfert de monde de personnage</string>
+	<string key="server_transfer_description" rel_version="Feature_Server_Transfer">Vous permet de transférer ce personnage dans un autre monde situé dans la même région.</string>
+	<string key="server_transfer_extra_detail" rel_version="Feature_Server_Transfer">Vous disposez d'un transfert de monde gratuit sur votre compte. Une fois utilisé, il ne sera plus disponible pour les autres personnages.</string>
+	<string key="server_transfer_names" rel_version="Feature_Server_Transfer">Transfert de &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; vers : &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{ServerName}&lt;/font&gt; ({WorldSetName})</string>
+	<string key="server_transfer_requirements" rel_version="Feature_Server_Transfer">CONDITIONS NÉCESSAIRES</string>
+	<string key="server_transfer_not_transfer" rel_version="Feature_Server_Transfer">CE QUI NE PEUT ÊTRE TRANSFÉRÉ</string>
+	<string key="server_transfer_requirements_detail1" rel_version="Feature_Server_Transfer">Vous ne pouvez pas appartenir à une compagnie avant de procéder au transfert.</string>
+	<string key="server_transfer_requirements_detail2" rel_version="Feature_Server_Transfer">Vous ne pouvez pas avoir d'ordres de vente actifs au comptoir avant de procéder au transfert.</string>
+	<string key="server_transfer_not_transfer_detail1" rel_version="Feature_Server_Transfer">Votre liste d'amis sera effacée et ne sera pas conservée.</string>
+	<string key="server_transfer_not_transfer_detail2" rel_version="Feature_Server_Transfer">Les missions de projet urbain en cours ne seront pas conservées.</string>
+	<string key="server_transfer_not_transfer_detail3" rel_version="Feature_Server_Transfer">Les missions de faction en cours ne seront pas conservées.</string>
+	<string key="server_transfer_unavailable_raidid" rel_version="Feature_Server_Transfer">Impossible de changer de monde lorsque vous participez à une guerre.</string>
+	<string key="server_transfer_unavailable_dungeon" rel_version="Feature_Server_Transfer">Impossible de changer de monde lorsque vous participez à une expédition.</string>
+	<string key="server_transfer_unavailable_arena" rel_version="Feature_Server_Transfer">Impossible de changer de monde pendant un combat d'arène.</string>
+	<string key="server_transfer_unavailable_duel" rel_version="Feature_Server_Transfer">Impossible de changer de monde lorsque vous participez à une escarmouche.</string>
+	<string key="server_transfer_unavailable_outpost_rush" rel_version="Feature_Server_Transfer">Impossible de changer de monde durant la Déferlante.</string>
+	<string key="server_transfer_unavailable_outpost_rush_queue" rel_version="Feature_Server_Transfer">Impossible de changer de monde dans la file d'attente de la Déferlante.</string>
+	<string key="server_transfer_more_details" rel_version="Feature_Server_Transfer">Pour plus de détails, consultez la</string>
+	<string key="server_transfer_transfer_faq" rel_version="Feature_Server_Transfer">&lt;font color="#70d2e4"&gt;FAQ sur le transfert de monde de personnage&lt;/font&gt;.</string>
+	<string key="server_transfer_final_details" rel_version="Feature_Server_Transfer">En confirmant le transfert, vous vous déconnecterez du menu principal de sélection des personnages. Les transferts sont irréversibles.</string>
+	<string key="server_transfer_final_details_purchase" rel_version="Feature_Server_Transfer">Après la transaction, vous vous déconnecterez du menu principal de sélection des personnages. Vous ne pourrez plus transférer ce personnage avant une durée de 7 jours, sauf en cas de fusion de mondes. Les transferts sont irréversibles.</string>
+	<string key="server_transfer_change_world" rel_version="Feature_Server_Transfer">Changement de monde</string>
+	<string key="server_transfer_select_world" rel_version="Feature_Server_Transfer">Sélectionner le monde</string>
+	<string key="server_transfer_change_world_tooltip" rel_version="Feature_Server_Transfer">Pour changer de monde, il vous suffit de vous connecter à votre personnage, de vous rendre dans la boutique en jeu et de choisir l'option « Transfert de monde ».</string>
+	<string key="server_transfer_region_hint" rel_version="Feature_Server_Transfer">Vous ne pouvez transférer des personnages vers un monde différent qu'au sein d'une même région. Pour pouvoir jouer dans une autre région, vous devez créer un nouveau personnage dans cette région.</string>
+	<string key="server_transfer_maintenance" rel_version="Feature_Server_Transfer">Vous ne pouvez pas transférer votre personnage vers un monde en cours de maintenance.</string>
+	<string key="server_transfer_requirements_company" rel_version="Feature_Server_Transfer">Vous ne pouvez pas appartenir à une compagnie avant de procéder au transfert.</string>
+	<string key="server_transfer_requirements_tradingPost" rel_version="Feature_Server_Transfer">Vous ne pouvez pas avoir d'ordres de vente actifs au comptoir avant de procéder au transfert.</string>
+	<string key="server_transfer_requirements_tradingPost_unknown" rel_version="Feature_Server_Transfer">Vérification du statut du comptoir...</string>
+	<string key="server_transfer_confirm" rel_version="Feature_Server_Transfer">CONFIRMER LE TRANSFERT DE MONDE</string>
+	<string key="server_transfer_confirm_button" rel_version="Feature_Server_Transfer">CONFIRMER LE TRANSFERT</string>
+	<string key="server_transfer_confirm_purchase" rel_version="Feature_Server_Transfer">ACHETER LE TRANSFERT DE MONDE</string>
+	<string key="server_transfer_confirm_button_purchase" rel_version="Feature_Server_Transfer">Acheter le transfert</string>
+	<string key="server_transfer_select_world_fail" rel_version="Feature_Server_Transfer">Vous devez d'abord sélectionner un monde éligible.</string>
+	<string key="server_transfer_select_world_fail_same" rel_version="Feature_Server_Transfer">Vous devez sélectionner un monde dans lequel le personnage ne se trouve pas déjà.</string>
+	<string key="server_transfer_current_world" rel_version="Feature_Server_Transfer">Monde d'origine : {worldName}</string>
+	<string key="server_transfer_home_world" rel_version="Feature_Server_Transfer">Monde d'origine :</string>
+	<string key="server_transfer_step_1" rel_version="Feature_Server_Transfer">Étape 1 sur 2</string>
+	<string key="server_transfer_step_2" rel_version="Feature_Server_Transfer">Étape 2 sur 2</string>
+	<string key="rename_extra_detail" rel_version="MTX_October_Skins">Vous disposez d'un renommage gratuit sur votre compte. Une fois utilisé, il ne sera plus disponible pour les autres personnages.</string>
 	<string key="Housing_Happy_Pumpkin_description" rel_version="MTX_October_Skins">« Le mécréant ignorant était désespérément condamné et sacrément heureux. Vous auriez le sourire vous aussi si vous aviez trompé le Diable en personne ! » Décoration du logement</string>
 	<string key="Housing_Happy_Pumpkin_name" rel_version="MTX_October_Skins">Lanterne joyeuse de Jack le Vaurien</string>
-	<string key="Bundle_Tool_LegendaryAzoth_name">Legendary Azoth Tools</string>
-	<string key="Bundle_Tool_LegendaryStrength_name">Legendary Strength Tools</string>
-	<string key="Bundle_Tool_ClassicMonster_name">Monstrous Instruments</string>
-	<string key="Bundle_Tool_RoyalCourt_name">Royal Opulence</string>
-	<string key="Bundle_Tool_LegendaryAzoth_description">"A touch of magic pairs well with any task, including gathering what is needed to survive." Tool Skin Bundle</string>
-	<string key="Bundle_Tool_LegendaryStrength_description">"Strength of arm can be the best way to render the resources of Aeternum into their consituent natures." Tool Skin Bundle</string>
-	<string key="Bundle_Tool_ClassicMonster_description">"A collection of frightful, cursed tools that bore into the user's very psyche for their power." Tool Skin Bundle</string>
-	<string key="Bundle_Tool_RoyalCourt_description">"These tools shine so that all may know who wields the power of gold on Aeternum." Tool Skin Bundle</string>
 </resources>
 

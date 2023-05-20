@@ -155,7 +155,7 @@
 	<string key="owg_rewardtype_currency">&lt;img src="lyshineui/images/icons/objectives/reward_coin" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt;monedas</string>
 	<string key="owg_rewardtype_experience">&lt;img src="lyshineui/images/icons/misc/icon_xp" xPadding="0" scale="1.9" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;de EXP&lt;/font&gt;</string>
 	<string key="owg_rewardtype_azoth">&lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; azoth</string>
-	<string key="owg_rewardtype_guildreputation">Reputación de &lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt;&lt;font color="#ffffff" &gt;{amount}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;</string>
+	<string key="owg_rewardtype_guildreputation">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;de reputación&lt;/font&gt;</string>
 	<string key="owg_rewardtype_guildcurrency">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;tokens&lt;/font&gt;</string>
 	<string key="owg_rewardtype_item">Objeto</string>
 	<string key="owg_rewardtype_standing">&lt;img src="lyshineui/images/icons/objectives/reward_territorystanding" xPadding="0" scale="2" yOffset="5"&gt;&lt;/img&gt; {amount}</string>
@@ -275,7 +275,7 @@
 	<string key="CMissionAcquireRawhide_Name">Se necesitan cazadores</string>
 	<string key="CMissionAcquireLeather_Name">Se necesitan curtidores</string>
 	<string key="CMissionAcquireFish_Name">Se necesitan pescadores</string>
-	<string key="CMissionHuntCreature_Name">Caza {enemyName}</string>
+	<string key="CMissionHuntCreature_Name">Se necesitan cazadores de {enemyName}</string>
 	<string key="CMissionHuntCreature_Desc">Caza &lt;font color="#eaeaea"&gt;{enemyName} ({killAmount})&lt;/font&gt;</string>
 	<string key="CMissionAcquire1_Desc">Adquiere y entrega &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt;.</string>
 	<string key="M_fetch_title">Explora y encuentra</string>
@@ -311,11 +311,11 @@
 	<string key="owg_target_Withered_Brute_Named_05">La aberración</string>
 	<string key="owg_target_Withered_Brute_Named_10WS07">Benjamin, el desatado</string>
 	<string key="owg_target_Alligator_Strange_10WS03">Caimanes a rayas</string>
-	<string key="FactionMission_weaponsmith_title">Forja de armas</string>
+	<string key="FactionMission_weaponsmith_title">Se necesitan armeros</string>
 	<string key="FactionMission_weaponsmith_desc">Forja y entrega &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.</string>
-	<string key="FactionMission_armorsmith_title">Forja de armaduras</string>
+	<string key="FactionMission_armorsmith_title">Se necesitan forjadores de armaduras</string>
 	<string key="FactionMission_armorsmith_desc">Forja y entrega &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.</string>
-	<string key="FactionMission_cooking_title">Cocina</string>
+	<string key="FactionMission_cooking_title">Se necesitan cocineros</string>
 	<string key="FactionMission_cooking_desc">Cocina y entrega &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.</string>
 	<string key="FactionMission_RAID_title">Asaltar a {POITags}</string>
 	<string key="FactionMission_RAID_desc">Hemos identificado una amenaza para los intereses de los saqueadores en esta región.\n\nVe a {POITags} y derrota a todos los ejemplares de &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; necesarios sin reservas.</string>
@@ -425,5 +425,7 @@
 	<string key="FactionMission_S_TROPHYHUNT_ELITE_desc">Hemos identificado un sujeto que merece la pena estudiar más a fondo.\n\nCaza &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; en {POITags} y vuelve con una muestra de tejido.\n&lt;font color="#eaeaea"&gt;(élite)&lt;/font&gt;</string>
 	<string key="FactionMission_C_TROPHYHUNT_ELITE_title">Caza excelsa en {POITags} (élite)</string>
 	<string key="FactionMission_C_TROPHYHUNT_ELITE_desc">La chispa nos ofrece una gran oportunidad.\n\nAprovéchala derrotando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; en {POITags} y vuelve con su opulento botín\n&lt;font color="#eaeaea"&gt;(élite)&lt;/font&gt;</string>
+	<string key="FactionMission_WARCAMP_LOOT_title">Campamento de guerra (temporal)</string>
+	<string key="FactionMission_WARCAMP_LOOT_desc">Infíltrate en el campamento de guerra junto al fuerte en {territoryID} y busca información valiosa.</string>
 </resources>
 
