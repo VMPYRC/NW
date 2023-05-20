@@ -11,7 +11,7 @@ Extracted localization files from New World
 |      [v1.0.2](https://www.newworld.com/en-us/news/articles/update-1-0-2)       |  2021-10-06   | 4773114808158402784 |   2   |
 | [v1.0.3](https://www.newworld.com/en-us/news/articles/server-transfer-details) |  2021-10-13   | 7318516529783437536 |   2   |
 | [v1.0.4](https://www.newworld.com/en-us/news/articles/new-world-update-1-0-4)  |  2021-10-28   | 9222862747747176646 |   2   |
-|                                   [v1.0.x]()                                   |               |                     |       |
+| [v1.0.5](https://www.newworld.com/en-us/news/articles/new-world-update-1-0-5)  |  2021-11-04   | 2382799855181888976 |   2   |
 |                                   [v1.0.x]()                                   |               |                     |       |
 |                                   [v1.0.x]()                                   |               |                     |       |
 |                                   [v1.0.x]()                                   |               |                     |       |

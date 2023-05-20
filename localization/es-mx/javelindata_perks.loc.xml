@@ -1363,7 +1363,7 @@
 	<string key="PerkID_Armor_ResistBlight_Name">Resistencia a la plaga</string>
 	<string key="PerkID_Armor_ResistBlight_Description">+{[AffixStatDataTable.Affix_Armor_ResistBlight.RESBlight * {perkMultiplier}]} de resistencia a la plaga.</string>
 	<string key="PerkID_Armor_DefCritDmg_Name">Resiliencia</string>
-	<string key="PerkID_Armor_DefCritDmg_Description">Los impactos críticos te infligen un {[GlobalAbilityTable.Global_Armor_DefCritDmg.BaseDamageReduction * 100 * {perkMultiplier}]} % menos de daño.</string>
+	<string key="PerkID_Armor_DefCritDmg_Description">Los impactos críticos te infligen un {[GlobalAbilityTable.Global_Armor_DefCritDmg.CritDamageReduction * 100 * {perkMultiplier}]} % menos de daño.</string>
 	<string key="PerkID_Armor_Durability_Name">Reforzado</string>
 	<string key="PerkID_Armor_Durability_Description">Un {[AffixStatDataTable.Affix_Armor_Durability.DurabilityMod * 100 * {perkMultiplier}]} % más de durabilidad.</string>
 	<string key="PerkID_Armor_DurCC_Name">Libertad</string>
