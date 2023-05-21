@@ -1,6 +1,7 @@
 # New World Extract
 
 + Extracted localization files from New World
+  + Steam Console: download_depot 1063730 1063731 MANIFESTID
 + See [RELEASES](https://github.com/VMPYRC/NW/releases) for zip files
   + If there isn't a release for a specific version, that means that no file in the localization folder was changed
 + See [COMMITS](https://github.com/VMPYRC/NW/commits/main) for all commits
@@ -49,7 +50,7 @@
 |           [v1.6.5](https://www.newworld.com/en-us/news/articles/new-world-update-1-6-5)            |    2022-09-07     | 4086663056591598273 |       |
 |           [v1.6.6](https://www.newworld.com/en-us/news/articles/new-world-update-1-6-6)            |    2022-09-22     | 7335762321009607434 |       |
 |           [v1.6.7](https://www.newworld.com/en-us/news/articles/new-world-update-1-6-7)            |    2022-10-05     | 568805853533928777  |       |
-|           [v1.7.x](https://www.newworld.com/en-us/game/releases/brimstone-sands-release)           |    2022-10-18     | 8789436291514374048 |       |
+|           [v1.7.0](https://www.newworld.com/en-us/game/releases/brimstone-sands-release)           |    2022-10-18     | 8789436291514374048 |       |
 |           [v1.7.1](https://www.newworld.com/en-us/news/articles/new-world-update-1-7-1)            |    2022-11-02     | 6089703820431559117 |       |
 |           [v1.7.2](https://www.newworld.com/en-us/news/articles/new-world-update-1-7-2)            |    2022-11-16     | 3598245367378001905 |       |
 |   [v1.8.0](https://www.newworld.com/en-us/game/releases/december-update-winter-convergence-2022)   |    2022-12-06     | 1610347941795559226 |       |
