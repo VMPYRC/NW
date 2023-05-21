@@ -1,9 +1,9 @@
 # New World Extract
 
 + Extracted localization files from New World
-+ See [RELEASES] for zip files
++ See [RELEASES](https://github.com/VMPYRC/NW/releases) for zip files
   + If there isn't a release for a specific version, that means that no file in the localization folder was changed
-+ See [COMMITS] for all commits
++ See [COMMITS](https://github.com/VMPYRC/NW/commits/main) for all commits
 
 ## Releases
 
@@ -24,7 +24,7 @@
 |           [v1.2.1](https://www.newworld.com/en-us/news/articles/new-world-update-1-2-1)            |    2021-12-22     | 8793701253768941953 |   2   |
 |           [v1.2.2](https://www.newworld.com/en-us/news/articles/new-world-update-1-2-2)            |    2022-01-12     | 5053787297631899628 |   2   |
 |           [v1.3.0](https://www.newworld.com/en-us/game/releases/january-update-mutators)           |    2022-01-25     | 1003187854538586339 |   2   |
-|           [v1.3.1](https://www.newworld.com/en-us/news/articles/new-world-update-1-3-1)            |    2022-02-03     | 7412876783710780419 |       |
+|           [v1.3.1](https://www.newworld.com/en-us/news/articles/new-world-update-1-3-1)            |    2022-02-03     | 7412876783710780419 |   2   |
 |           [v1.3.2](https://www.newworld.com/en-us/news/articles/new-world-update-1-3-2)            |    2022-02-10     | 3219946713811191063 |       |
 |       [v1.3.3](https://www.newworld.com/en-us/news/articles/new-world-february-2022-update)        |    2022-02-28     | 5673036503735452785 |       |
 |           [v1.3.4](https://www.newworld.com/en-us/news/articles/new-world-update-1-3-4)            |    2022-03-09     | 4847591895169874052 |       |
