@@ -6,7 +6,7 @@
 	<string key="0204_0101_UndyingAppetite_proposal_next" speaker="Head Cleric Pennyfather" name="HeadClericPennyfather" gender="F" quest_id="0204_0101_UndyingAppetite" VO="Overseer_0204_0101_UndyingAppetite_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0204_0101_UndyingAppetite_proposal_prompt">Quizá. La herbalista Lau llegó aquí la década pasada, y cree que la mismísima tierra podría estar maldita.\n\nSi le consigues muestras de suelo de algunas de las aldeas del norte, podrá probar su teoría. Te estaríamos muy agradecidos.</string>
 	<string key="0204_0101_UndyingAppetite_description" speaker="UI - Journal - Quest  Description" quest_id="0204_0101_UndyingAppetite">Inspecciona las granjas antiguas al norte del Bosque Luminoso en busca de pruebas de lo que puede haber provocado la maldición de la tierra. Cuando termines esta tarea, habla con la herbalista Lau en el asentamiento de Bosque Luminoso.</string>
 	<string key="0204_0101_UndyingAppetite_incomplete" speaker="Head Cleric Pennyfather" gender="M" quest_id="0204_0101_UndyingAppetite">Ten cuidado con los perdidos que deambulan por esas viejas granjas. Pueden ser muy peligrosos en grupo.</string>
-	<string key="0204_0101_UndyingAppetite_complete" speaker="Herbalist Lau - Brightwood" gender="M" quest_id="0204_0101_UndyingAppetite" VO="Overseer_0204_0101_UndyingAppetite_AvailResponse" VO_Status="Recorded" dialogue-next="@0204_0101_UndyingAppetite_complete_next">¡Ah, hola! ¿Te envía el clérigo jefe para recoger muestras de suelo de los municipios del norte?\n\nAh, perfecto. Te lo agradezco. Soy la herbalista Lau, ¿y tú eres...?</string>
+	<string key="0204_0101_UndyingAppetite_complete" speaker="Herbalist Lau - Brightwood" name="HerbalistLau" gender="M" quest_id="0204_0101_UndyingAppetite" VO="Overseer_0204_0101_UndyingAppetite_AvailResponse" VO_Status="Recorded" dialogue-next="@0204_0101_UndyingAppetite_complete_next">¡Ah, hola! ¿Te envía el clérigo jefe para recoger muestras de suelo de los municipios del norte?\n\nAh, perfecto. Te lo agradezco. Soy la herbalista Lau, ¿y tú eres...?</string>
 	<string key="0204_0101_UndyingAppetite_complete_prompt" speaker="UI - Player Prompt">«Me llamo {playerName}».</string>
 	<string key="0204_0101_UndyingAppetite_complete_next" speaker="Herbalist Lau - Brightwood" name="HerbalistLau" gender="M" quest_id="0204_0101_UndyingAppetite" VO="Overseer_0204_0101_UndyingAppetite_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@0204_0101_UndyingAppetite_complete_prompt">Bien, veamos... ¿Has encontrado estos trozos de hueso en el suelo de allí?\n\nNo es un hallazgo muy sorprendente en estos territorios tan antiguos, pero, estos otros objetos, en cambio... Me pregunto...</string>
 	<string key="0204_0101_d_01_Task_Goto" speaker="UI" quest_id="0204_0101_UndyingAppetite">Consigue muestras de tierra de cultivo de {POITags}</string>
@@ -22,7 +22,7 @@
 	<string key="0202_0101_BlindingLight_proposal_prompt2" speaker="UI - Player Prompt">«Me llamo {playerName} y sí, os ayudaré».</string>
 	<string key="0202_0101_BlindingLight_proposal_next2" speaker="Justiciar Farrell - Brightwood" name="JusticiarFarrell" gender="F" quest_id="0202_0101_BlindingLight" VO="Magistrate_0202_0101_BlindingLight_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@0202_0101_BlindingLight_proposal_prompt2">Excelente. Lo primero que necesitamos son las herramientas con las que contaban los inquisidores.\n\nLa inquisidora Lucía era la pesadilla de los sin alma... hasta que perdió la suya. Acaba con ella y recupera sus herramientas. Ella estaría de acuerdo.</string>
 	<string key="0202_0101_BlindingLight_description" speaker="UI - Journal - Quest  Description" quest_id="0202_0101_BlindingLight">Destruye a la temida inquisidora Lucía y hazte con sus herramientas. Cuando termines esta tarea, habla con la justiciar Farrell en el asentamiento de Bosque Luminoso.</string>
-	<string key="0202_0101_BlindingLight_incomplete" speaker="Justiciar Farrell - Brightwood" name="JusticiarFarrell" gender="F" quest_id="0202_0101_BlindingLight" VO="Magistrate_0202_0101_BlindingLight_InProgResponse" VO_Status="Recorded">El talento de la inquisidora Lucía para erradicar a los perdidos la ha vuelto particularmente peligrosa desde que se ha unido a ellos.\n\nTen mucho cuidado.</string>
+	<string key="0202_0101_BlindingLight_incomplete" speaker="Justiciar Farrell - Brightwood" name="JusticiarFarrell" gender="F" quest_id="0202_0101_BlindingLight">El talento de la inquisidora Lucía para erradicar a los perdidos la ha vuelto particularmente peligrosa desde que se ha unido a ellos.\n\nTen mucho cuidado.</string>
 	<string key="0202_0101_BlindingLight_complete" speaker="Justiciar Farrell - Brightwood" name="JusticiarFarrell" gender="F" quest_id="0202_0101_BlindingLight" VO="Magistrate_0202_0101_BlindingLight_AvailResponse" VO_Status="Recorded">Vaya... La famosa inquisidora Lucía ya es historia y has recuperado sus herramientas.\n\nEstos instrumentos nos ayudarán en nuestra campaña, {playerName}. Has hecho un buen trabajo.</string>
 	<string key="0202_0101_d_01_Task_Goto" speaker="UI" quest_id="0202_0101_BlindingLight">Busca a la inquisidora Lucía en {POITags}</string>
 	<string key="0202_0101_d_02_Task_Fetch" speaker="UI" quest_id="0202_0101_BlindingLight">Obtén {itemName} de {POITags}.</string>
@@ -153,22 +153,22 @@
 	<string key="0230_0201_bellyofcorrupted_title" speaker="UI - Quest Title">La hambruna de los corruptos</string>
 	<string key="0230_0201_bellyofcorrupted_description" speaker="UI - Quest Description">Sabotea la cadena de suministros de comida de los corruptos en la madriguera de Reida. Cuando lo consigas, habla con la montaraz Shui Tijong en Bosque Luminoso.</string>
 	<string key="0230_0201_bellyofcorrupted_start_prompt" speaker="UI - Player Prompt">«No podemos permitir que esto siga así».</string>
-	<string key="0230_0201_bellyofcorrupted_proposal" speaker="Ranger Shui Tijong - Brightwood" dialogue-next="@0230_0201_bellyofcorrupted_proposal_next">Pienso lo mismo. Ya avisaremos al asentamiento más tarde. Tenemos que hacer daño y rápido.\n\nHe estado observando los movimientos de las fuerzas de los corruptos desde su llegada.</string>
+	<string key="0230_0201_bellyofcorrupted_proposal" speaker="Ranger Shui Tijong - Brightwood" name="ShuiTijong" VO="0230_0201_bellyofcorrupted_proposal" VO_Status="Needs Recording" dialogue-next="@0230_0201_bellyofcorrupted_proposal_next">Pienso lo mismo. Ya avisaremos al asentamiento más tarde. Tenemos que hacer daño y rápido.\n\nHe estado observando los movimientos de las fuerzas de los corruptos desde su llegada.</string>
 	<string key="0230_0201_bellyofcorrupted_proposal_prompt" speaker="UI - Player Prompt">«¿Has identificado algún patrón?»</string>
-	<string key="0230_0201_bellyofcorrupted_proposal_next" speaker="Ranger Shui Tijong - Brightwood" dialogue-prompt="@0230_0201_bellyofcorrupted_proposal_prompt">Sí. Se han apoderado de esta zona para usarla como centro neurálgico de su cadena de suministros de comida y armas.\n\nEl hambre es la cruz de un ejército, por lo que deberíamos atacar primero su cadena de suministro y acabar con sus cazadores.</string>
-	<string key="0230_0201_bellyofcorrupted_incomplete" speaker="Ranger Shui Tijong - Brightwood">Si destruimos a los cazadores y nos hacemos con sus raciones, las líneas de suministros de las tropas de los corruptos se desestabilizarán.</string>
-	<string key="0230_0201_bellyofcorrupted_complete" speaker="Ranger Shui Tijong - Brightwood">Buen trabajo. Los corruptos sucumbirán al hambre sin raciones ni cazadores.\n\nEl hambre dará pie a la desesperación y la desesperación hará que los soldados se vuelvan descuidados.</string>
+	<string key="0230_0201_bellyofcorrupted_proposal_next" speaker="Ranger Shui Tijong - Brightwood" name="ShuiTijong" VO="0230_0201_bellyofcorrupted_proposal_next" VO_Status="Needs Recording" dialogue-prompt="@0230_0201_bellyofcorrupted_proposal_prompt">Sí. Se han apoderado de esta zona para usarla como centro neurálgico de su cadena de suministros de comida y armas.\n\nEl hambre es la cruz de un ejército, por lo que deberíamos atacar primero su cadena de suministro y acabar con sus cazadores.</string>
+	<string key="0230_0201_bellyofcorrupted_incomplete" speaker="Ranger Shui Tijong - Brightwood" name="ShuiTijong" VO="0230_0201_bellyofcorrupted_incomplete" VO_Status="Needs Recording">Si destruimos a los cazadores y nos hacemos con sus raciones, las líneas de suministros de las tropas de los corruptos se desestabilizarán.</string>
+	<string key="0230_0201_bellyofcorrupted_complete" speaker="Ranger Shui Tijong - Brightwood" name="ShuiTijong" VO="0230_0201_bellyofcorrupted_complete" VO_Status="Needs Recording">Buen trabajo. Los corruptos sucumbirán al hambre sin raciones ni cazadores.\n\nEl hambre dará pie a la desesperación y la desesperación hará que los soldados se vuelvan descuidados.</string>
 	<string key="0230_0201_goto" speaker="UI">Sabotea la cadena de suministro de los corruptos en {POITags}</string>
 	<string key="0230_0201_kill_hunters" speaker="UI">Derrota a {targetName}</string>
 	<string key="0230_0201_loot_butcher" speaker="UI">Obtén {itemName} de {targetName}</string>
 	<string key="0230_0202_infernalarmaments_title" speaker="UI - Quest Title">Armamentos infernales</string>
 	<string key="0230_0202_infernalarmaments_description" speaker="UI - Quest Description">Asalta las operaciones de fabricación de armas de las tropas de los corruptos en los Campos de Hierro. Cuando termines esta tarea, habla con la montaraz Shui Tijong en Bosque Luminoso.</string>
 	<string key="0230_0202_infernalarmaments_start_prompt" speaker="UI - Player Prompt">«Parece que funciona».</string>
-	<string key="0230_0202_infernalarmaments_proposal" speaker="Ranger Shui Tijong - Brightwood" dialogue-next="@0230_0202_infernalarmaments_proposal_next">El principal objetivo de las operaciones de los corruptos aquí es proveer a las tropas con armamento.\n\nLlevan a cabo un proceso completo que consiste en la extracción de minerales y la forja de armas.</string>
+	<string key="0230_0202_infernalarmaments_proposal" speaker="Ranger Shui Tijong - Brightwood" name="ShuiTijong" VO="0230_0202_infernalarmaments_proposal" VO_Status="Needs Recording" dialogue-next="@0230_0202_infernalarmaments_proposal_next">El principal objetivo de las operaciones de los corruptos aquí es proveer a las tropas con armamento.\n\nLlevan a cabo un proceso completo que consiste en la extracción de minerales y la forja de armas.</string>
 	<string key="0230_0202_infernalarmaments_proposal_prompt" speaker="UI - Player Prompt">«¿Dónde son más vulnerables?»</string>
-	<string key="0230_0202_infernalarmaments_proposal_next" speaker="Ranger Shui Tijong - Brightwood" dialogue-prompt="@0230_0202_infernalarmaments_proposal_prompt">El núcleo de la operación son las minas, pero están bien protegidas.\n\nTe sugiero que te centres en los Campos de Hierro al norte, ya que es ahí donde almacenan las armas. Buena suerte.</string>
-	<string key="0230_0202_infernalarmaments_incomplete" speaker="Ranger Shui Tijong - Brightwood">Los Campos de Hierro son el punto débil de las operaciones de fabricación de armas de los corruptos.\n\nAtaca ahí y tardarán en recuperarse.</string>
-	<string key="0230_0202_infernalarmaments_complete" speaker="Ranger Shui Tijong - Brightwood">¿Has conseguido las armas? Excelente, excelente. Veamos...\n\nLas armas... están muy bien hechas para ser de los corruptos. ¿Cómo...? Oh, no. ¡Imposible! ¿El herrero maestro McCoy?</string>
+	<string key="0230_0202_infernalarmaments_proposal_next" speaker="Ranger Shui Tijong - Brightwood" name="ShuiTijong" VO="0230_0202_infernalarmaments_proposal_next" VO_Status="Needs Recording" dialogue-prompt="@0230_0202_infernalarmaments_proposal_prompt">El núcleo de la operación son las minas, pero están bien protegidas.\n\nTe sugiero que te centres en los Campos de Hierro al norte, ya que es ahí donde almacenan las armas. Buena suerte.</string>
+	<string key="0230_0202_infernalarmaments_incomplete" speaker="Ranger Shui Tijong - Brightwood" name="ShuiTijong" VO="0230_0202_infernalarmaments_incomplete" VO_Status="Needs Recording">Los Campos de Hierro son el punto débil de las operaciones de fabricación de armas de los corruptos.\n\nAtaca ahí y tardarán en recuperarse.</string>
+	<string key="0230_0202_infernalarmaments_complete" speaker="Ranger Shui Tijong - Brightwood" name="ShuiTijong" VO="0230_0202_infernalarmaments_complete" VO_Status="Needs Recording">¿Has conseguido las armas? Excelente, excelente. Veamos...\n\nLas armas... están muy bien hechas para ser de los corruptos. ¿Cómo...? Oh, no. ¡Imposible! ¿El herrero maestro McCoy?</string>
 	<string key="0230_0202_goto" speaker="UI">Roba armas corruptas de {POITags}</string>
 	<string key="0230_0202_kill_mercs" speaker="UI">Derrota a {targetName}</string>
 	<string key="0230_0202_kill_miners" speaker="UI">Derrota a {targetName}</string>
@@ -176,164 +176,164 @@
 	<string key="0230_0203_blacksmithbetrayer_title" speaker="UI - Quest Title">Herrero traidor</string>
 	<string key="0230_0203_blacksmithbetrayer_description" speaker="UI - Quest Description">Acaba con el herrero maestro McCoy que está a cargo de las operaciones de minería de Corlew y hazte con los diseños de sus armas. Cuando lo consigas, habla con la montaraz Shui Tijong en Bosque Luminoso.</string>
 	<string key="0230_0203_blacksmithbetrayer_start_prompt" speaker="UI - Player Prompt">«¿Sabes dónde está?»</string>
-	<string key="0230_0203_blacksmithbetrayer_proposal" speaker="Ranger Shui Tijong - Brightwood" dialogue-next="@0230_0203_blacksmithbetrayer_proposal_next">Está claro que McCoy es el encargado de las operaciones en la mina de Corlew.\n\nTemo que, con él al mando, nuestros esfuerzos no sean sino un pequeño contratiempo para los corruptos.</string>
-	<string key="0230_0203_blacksmithbetrayer_proposal_prompt">«Pues acabemos con McCoy».</string>
-	<string key="0230_0203_blacksmithbetrayer_proposal_next" speaker="Ranger Shui Tijong - Brightwood" dialogue-prompt="@0230_0203_blacksmithbetrayer_proposal_prompt">¿Pretendes atacar directamente las minas de Corlew? Es cierto que eres valiente, aunque también estás como una cabra.\n\nEstá bien, como quieras. Acaba con el herrero maestro McCoy y asegúrate de conseguir alguno de sus diseños. Ten cuidado.</string>
-	<string key="0230_0203_blacksmithbetrayer_incomplete" speaker="Ranger Shui Tijong - Brightwood">Aunque me preocupa la resistencia que puedas encontrarte, he de admitir que despachar al herrero maestro McCoy rápidamente es buena idea.</string>
-	<string key="0230_0203_blacksmithbetrayer_complete" speaker="Ranger Shui Tijong - Brightwood">¿Has acabado ya con McCoy? Ah, ¿y sus diseños? ¡Excelente! Así interrumpiremos la cadena de suministros de los corruptos.\n\nAplaudo tu coraje y valor. Muy pocos serían capaces de hacer lo que has hecho.</string>
+	<string key="0230_0203_blacksmithbetrayer_proposal" speaker="Ranger Shui Tijong - Brightwood" name="ShuiTijong" VO="0230_0203_blacksmithbetrayer_proposal" VO_Status="Needs Recording" dialogue-next="@0230_0203_blacksmithbetrayer_proposal_next">Está claro que McCoy es el encargado de las operaciones en la mina de Corlew.\n\nTemo que, con él al mando, nuestros esfuerzos no sean sino un pequeño contratiempo para los corruptos.</string>
+	<string key="0230_0203_blacksmithbetrayer_proposal_prompt" speaker="UI - Player Prompt">«Pues acabemos con McCoy».</string>
+	<string key="0230_0203_blacksmithbetrayer_proposal_next" speaker="Ranger Shui Tijong - Brightwood" name="ShuiTijong" VO="0230_0203_blacksmithbetrayer_proposal_next" VO_Status="Needs Recording" dialogue-prompt="@0230_0203_blacksmithbetrayer_proposal_prompt">¿Pretendes atacar directamente las minas de Corlew? Es cierto que eres valiente, aunque también estás como una cabra.\n\nEstá bien, como quieras. Acaba con el herrero maestro McCoy y asegúrate de conseguir alguno de sus diseños. Ten cuidado.</string>
+	<string key="0230_0203_blacksmithbetrayer_incomplete" speaker="Ranger Shui Tijong - Brightwood" name="ShuiTijong" VO="0230_0203_blacksmithbetrayer_incomplete" VO_Status="Needs Recording">Aunque me preocupa la resistencia que puedas encontrarte, he de admitir que despachar al herrero maestro McCoy rápidamente es buena idea.</string>
+	<string key="0230_0203_blacksmithbetrayer_complete" speaker="Ranger Shui Tijong - Brightwood" name="ShuiTijong" VO="0230_0203_blacksmithbetrayer_complete" VO_Status="Needs Recording">¿Has acabado ya con McCoy? Ah, ¿y sus diseños? ¡Excelente! Así interrumpiremos la cadena de suministros de los corruptos.\n\nAplaudo tu coraje y valor. Muy pocos serían capaces de hacer lo que has hecho.</string>
 	<string key="0230_0203_goto" speaker="UI">Sabotea las operaciones del herrero maestro McCoy en {POITags}</string>
 	<string key="0230_0203_loot_chests" speaker="UI">Obtén {itemName} de los cofres en {POITags}</string>
 	<string key="0230_0203_kill_mccoy" speaker="UI">Interrumpe los suministros de armas de los corruptos destruyendo: {targetName}</string>
-	<string key="0231_0201_placeEasel1">Explora el norte de Vallegrís en busca de una cascada</string>
-	<string key="0231_0201_placeEasel2">Explora el sur de Vallegrís en busca de una cascada</string>
-	<string key="0231_0201_placeEasel3">Explora el norte del lago Genevieve en busca de una cascada</string>
+	<string key="0231_0201_placeEasel1" speaker="UI - Tracker Text">Explora el norte de Vallegrís en busca de una cascada</string>
+	<string key="0231_0201_placeEasel2" speaker="UI - Tracker Text">Explora el sur de Vallegrís en busca de una cascada</string>
+	<string key="0231_0201_placeEasel3" speaker="UI - Tracker Text">Explora el norte del lago Genevieve en busca de una cascada</string>
 	<string key="0231_0201_locationscout_title" speaker="UI">Exploración de ubicación</string>
-	<string key="0231_0201_locationscout_description">Encuentra cascadas hermosas para que Wolcott las pinte y coloca un caballete en cada una. Cuando lo consigas, habla con el pintor Wolcott en el Bosque Luminoso.</string>
-	<string key="0231_0201_locationscout_start_prompt">«¿No tienes tiempo?»</string>
-	<string key="0231_0201_locationscout_proposal" dialogue-next="@0231_0201_locationscout_proposal_next">Por desgracia, no tengo tiempo para encontrar lugares hermosos y pintarlos. Las prisas nunca son buenas a la hora de buscar y me lleva muchísimo tiempo organizar mis pinturas. \n\n¡Pero quizá tú puedas ayudarme!</string>
-	<string key="0231_0201_locationscout_proposal_prompt">«¿Qué quieres decir?».</string>
-	<string key="0231_0201_locationscout_proposal_next" dialogue-prompt="@0231_0201_locationscout_proposal_prompt">Podrías encontrarme los lugares más bonitos para que los pinte. \n\nMe ahorrarías un montón de tiempo si colocases un caballete en cada una de las cascadas que encuentres. Cuando hayas terminado, ven a verme. ¡Será perfecto!</string>
-	<string key="0231_0201_locationscout_incomplete">Necesito inspiración. ¡Algo tan espectacular que casi se pinte solo! \n\nAhora vete. ¡Cuento contigo!</string>
-	<string key="0231_0201_locationscout_complete" dialogue-next="@0231_0201_locationscout_complete_next">¡Maravilloso! Me encanta cómo fluye el agua y se refleja la luz entre los árboles. ¡Sí, sí! Esto servirá.</string>
-	<string key="0231_0201_locationscout_complete_prompt">«¿Qué harás ahora?»</string>
-	<string key="0231_0201_locationscout_complete_next" dialogue-prompt="@0231_0201_locationscout_complete_prompt">Ya que me has marcado las ubicaciones en el mapa, tengo que organizar las pinturas. \n\nDe nada serviría empezar y darse cuenta de que no tienes el tono de azul adecuado.</string>
-	<string key="0231_0202_placeEasel1">Explora el sur de Vallegrís en busca de una cascada</string>
-	<string key="0231_0202_placeEasel2">Explora el norte de Vallegrís en busca de una cascada</string>
-	<string key="0231_0202_placeEasel3">Explora el oeste de Vallegrís en busca de una cascada</string>
-	<string key="0231_0202_eyeforreflection_title">Una buena imagen</string>
+	<string key="0231_0201_locationscout_description" speaker="UI - Quest Description">Encuentra cascadas hermosas para que Wolcott las pinte y coloca un caballete en cada una. Cuando lo consigas, habla con el pintor Wolcott en el Bosque Luminoso.</string>
+	<string key="0231_0201_locationscout_start_prompt" speaker="UI - Player Prompt">«¿No tienes tiempo?»</string>
+	<string key="0231_0201_locationscout_proposal" speaker="Painter Pietr Wolcott - Brightwood" name="PietrWolcott" VO="0231_0201_locationscout_proposal" VO_Status="Needs Recording" dialogue-next="@0231_0201_locationscout_proposal_next">Por desgracia, no tengo tiempo para encontrar lugares hermosos y pintarlos. Las prisas nunca son buenas a la hora de buscar y me lleva muchísimo tiempo organizar mis pinturas. \n\n¡Pero quizá tú puedas ayudarme!</string>
+	<string key="0231_0201_locationscout_proposal_prompt" speaker="UI - Player Prompt">«¿Qué quieres decir?».</string>
+	<string key="0231_0201_locationscout_proposal_next" speaker="Painter Pietr Wolcott - Brightwood" name="PietrWolcott" VO="0231_0201_locationscout_proposal_next" VO_Status="Needs Recording" dialogue-prompt="@0231_0201_locationscout_proposal_prompt">Podrías encontrarme los lugares más bonitos para que los pinte. \n\nMe ahorrarías un montón de tiempo si colocases un caballete en cada una de las cascadas que encuentres. Cuando hayas terminado, ven a verme. ¡Será perfecto!</string>
+	<string key="0231_0201_locationscout_incomplete" speaker="Painter Pietr Wolcott - Brightwood" name="PietrWolcott" VO="0231_0201_locationscout_incomplete" VO_Status="Needs Recording">Necesito inspiración. ¡Algo tan espectacular que casi se pinte solo! \n\nAhora vete. ¡Cuento contigo!</string>
+	<string key="0231_0201_locationscout_complete" speaker="Painter Pietr Wolcott - Brightwood" name="PietrWolcott" VO="0231_0201_locationscout_complete" VO_Status="Needs Recording" dialogue-next="@0231_0201_locationscout_complete_next">¡Maravilloso! Me encanta cómo fluye el agua y se refleja la luz entre los árboles. ¡Sí, sí! Esto servirá.</string>
+	<string key="0231_0201_locationscout_complete_prompt" speaker="UI - Player Prompt">«¿Qué harás ahora?»</string>
+	<string key="0231_0201_locationscout_complete_next" speaker="Painter Pietr Wolcott - Brightwood" name="PietrWolcott" VO="0231_0201_locationscout_complete_next" VO_Status="Needs Recording" dialogue-prompt="@0231_0201_locationscout_complete_prompt">Ya que me has marcado las ubicaciones en el mapa, tengo que organizar las pinturas. \n\nDe nada serviría empezar y darse cuenta de que no tienes el tono de azul adecuado.</string>
+	<string key="0231_0202_placeEasel1" speaker="UI - Tracker Text">Explora el sur de Vallegrís en busca de una cascada</string>
+	<string key="0231_0202_placeEasel2" speaker="UI - Tracker Text">Explora el norte de Vallegrís en busca de una cascada</string>
+	<string key="0231_0202_placeEasel3" speaker="UI - Tracker Text">Explora el oeste de Vallegrís en busca de una cascada</string>
+	<string key="0231_0202_eyeforreflection_title" speaker="UI - Quest Title">Una buena imagen</string>
 	<string key="0231_0202_eyeforreflection_description">Encuentra cascadas dinámicas para que Wolcott las pinte y coloca un caballete en cada una. Cuando lo consigas, habla con el pintor Wolcott en el Bosque Luminoso.</string>
-	<string key="0231_0202_eyeforreflection_start_prompt">«¿El poder?»</string>
-	<string key="0231_0202_eyeforreflection_proposal" dialogue-next="@0231_0202_eyeforreflection_proposal_next">Es tan dinámica que crea una escena. Te sientes lleno de vida al verla. Cómo se mueve, aun estando quieta. \n\nSé con certeza que se venderán bien. ¡Me harán falta más lugares!</string>
-	<string key="0231_0202_eyeforreflection_proposal_prompt">«¿Más cascadas?»</string>
-	<string key="0231_0202_eyeforreflection_proposal_next" dialogue-prompt="@0231_0202_eyeforreflection_proposal_prompt">¡Sí! Hay muchísimas en Vallegrís. Es el paraíso de todo pintor. \n\nMe vendría bien alguien con buen ojo que me buscase cascadas para pintarlas.</string>
-	<string key="0231_0202_eyeforreflection_incomplete">Antes me ayudaste tanto que quiero pedirte un nuevo favor. \n\nBusca cascadas poderosas que pueda usar de referencia.</string>
-	<string key="0231_0202_eyeforreflection_complete" dialogue-next="@0231_0202_eyeforreflection_complete_next">¡Son magníficas! Gracias por marcarme los lugares en el mapa. Tan solo espero que las cascadas que pinte puedan competir con lo que ya hay disponible en el mercado.</string>
-	<string key="0231_0202_eyeforreflection_complete_prompt">«¿Qué quieres decir?»</string>
-	<string key="0231_0202_eyeforreflection_complete_next" dialogue-prompt="@0231_0202_eyeforreflection_complete_prompt">No soy el único paisajista en Aetérnum. La pintora Cole es famosa por sus obras «Oso en prado» y «Amanecer montañoso», muy populares en los asentamientos.</string>
-	<string key="0231_0203_placeEasel1">Explora el centro de Vallegrís en busca de un lago</string>
-	<string key="0231_0203_placeEasel2">Explora el norte de Vallegrís en busca de un lago</string>
-	<string key="0231_0203_placeEasel3">Explora el este Vallegrís en busca de un lago</string>
-	<string key="0231_0203_wolcottsmasterpiece_title">La obra maestra de Wolcott</string>
-	<string key="0231_0203_wolcottsmasterpiece_description">Encuentra lagos pintorescos para que Wolcott los pinte y coloca un caballete en cada uno. Cuando lo consigas, habla con el pintor Wolcott en el Bosque Luminoso.</string>
-	<string key="0231_0203_wolcottsmasterpiece_start_prompt">«Mira que hay lagos bonitos por aquí».</string>
-	<string key="0231_0203_wolcottsmasterpiece_proposal" dialogue-next="@0231_0203_wolcottsmasterpiece_proposal_next">He decidido que mi siguiente colección de pinturas será sobre los lagos locales. \n\nAlgo reconfortante para la vista y relajante para el alma. ¡Sin duda serán muy populares!</string>
-	<string key="0231_0203_wolcottsmasterpiece_proposal_prompt">«¿Qué hay de las cascadas?»</string>
-	<string key="0231_0203_wolcottsmasterpiece_proposal_next" dialogue-prompt="@0231_0203_wolcottsmasterpiece_proposal_prompt">¡Las pintaré también! Tengo que pintarlo todo para estar a la altura de Cole. \n\nEncuentra tres lagos inspiradores en los que colocar los caballetes.</string>
-	<string key="0231_0203_wolcottsmasterpiece_incomplete">Las cascadas que encontraste antes eran encantadoras. \n\n¡Ahora me hacen falta tres lagos para mis próximos cuadros!</string>
-	<string key="0231_0203_wolcottsmasterpiece_complete" dialogue-next="@0231_0203_wolcottsmasterpiece_complete_next">¡Estupendo! Los lugares que has seleccionado encajan de maravilla en el paisaje, son como un pedazo de cielo en la tierra. \n\nMe lo pasaré en grande pintando estos lagos. ¡Y encima Cole no ha pintado nada remotamente similar!</string>
-	<string key="0231_0203_wolcottsmasterpiece_complete_prompt">«¿En serio?»</string>
-	<string key="0231_0203_wolcottsmasterpiece_complete_next" dialogue-prompt="@0231_0203_wolcottsmasterpiece_complete_prompt">No, ¡seré la primera persona en darles vida sobre un lienzo! Pronto seré conocido como el pintor de lagos y cascadas. \n\nGracias por marcármelos en el mapa. ¡Qué ganas tengo de ponerme manos a la obra!</string>
+	<string key="0231_0202_eyeforreflection_start_prompt" speaker="UI - Player Prompt">«¿El poder?»</string>
+	<string key="0231_0202_eyeforreflection_proposal" speaker="Painter Pietr Wolcott - Brightwood" name="PietrWolcott" VO="0231_0202_eyeforreflection_proposal" VO_Status="Needs Recording" dialogue-next="@0231_0202_eyeforreflection_proposal_next">Es tan dinámica que crea una escena. Te sientes lleno de vida al verla. Cómo se mueve, aun estando quieta. \n\nSé con certeza que se venderán bien. ¡Me harán falta más lugares!</string>
+	<string key="0231_0202_eyeforreflection_proposal_prompt" speaker="UI - Player Prompt">«¿Más cascadas?»</string>
+	<string key="0231_0202_eyeforreflection_proposal_next" speaker="Painter Pietr Wolcott - Brightwood" name="PietrWolcott" VO="0231_0202_eyeforreflection_proposal_next" VO_Status="Needs Recording" dialogue-prompt="@0231_0202_eyeforreflection_proposal_prompt">¡Sí! Hay muchísimas en Vallegrís. Es el paraíso de todo pintor. \n\nMe vendría bien alguien con buen ojo que me buscase cascadas para pintarlas.</string>
+	<string key="0231_0202_eyeforreflection_incomplete" speaker="Painter Pietr Wolcott - Brightwood" name="PietrWolcott" VO="0231_0202_eyeforreflection_incomplete" VO_Status="Needs Recording">Antes me ayudaste tanto que quiero pedirte un nuevo favor. \n\nBusca cascadas poderosas que pueda usar de referencia.</string>
+	<string key="0231_0202_eyeforreflection_complete" speaker="Painter Pietr Wolcott - Brightwood" name="PietrWolcott" VO="0231_0202_eyeforreflection_complete" VO_Status="Needs Recording" dialogue-next="@0231_0202_eyeforreflection_complete_next">¡Son magníficas! Gracias por marcarme los lugares en el mapa. Tan solo espero que las cascadas que pinte puedan competir con lo que ya hay disponible en el mercado.</string>
+	<string key="0231_0202_eyeforreflection_complete_prompt" speaker="UI - Player Prompt">«¿Qué quieres decir?»</string>
+	<string key="0231_0202_eyeforreflection_complete_next" speaker="Painter Pietr Wolcott - Brightwood" name="PietrWolcott" VO="0231_0202_eyeforreflection_complete_next" VO_Status="Needs Recording" dialogue-prompt="@0231_0202_eyeforreflection_complete_prompt">No soy el único paisajista en Aetérnum. La pintora Cole es famosa por sus obras «Oso en prado» y «Amanecer montañoso», muy populares en los asentamientos.</string>
+	<string key="0231_0203_placeEasel1" speaker="UI - Tracker Text">Explora el centro de Vallegrís en busca de un lago</string>
+	<string key="0231_0203_placeEasel2" speaker="UI - Tracker Text">Explora el norte de Vallegrís en busca de un lago</string>
+	<string key="0231_0203_placeEasel3" speaker="UI - Tracker Text">Explora el este Vallegrís en busca de un lago</string>
+	<string key="0231_0203_wolcottsmasterpiece_title" speaker="UI - Quest Title">La obra maestra de Wolcott</string>
+	<string key="0231_0203_wolcottsmasterpiece_description" speaker="UI - Quest Description">Encuentra lagos pintorescos para que Wolcott los pinte y coloca un caballete en cada uno. Cuando lo consigas, habla con el pintor Wolcott en el Bosque Luminoso.</string>
+	<string key="0231_0203_wolcottsmasterpiece_start_prompt" speaker="UI - Player Prompt">«Mira que hay lagos bonitos por aquí».</string>
+	<string key="0231_0203_wolcottsmasterpiece_proposal" speaker="Painter Pietr Wolcott - Brightwood" name="PietrWolcott" VO="0231_0203_wolcottsmasterpiece_proposal" VO_Status="Needs Recording" dialogue-next="@0231_0203_wolcottsmasterpiece_proposal_next">He decidido que mi siguiente colección de pinturas será sobre los lagos locales. \n\nAlgo reconfortante para la vista y relajante para el alma. ¡Sin duda serán muy populares!</string>
+	<string key="0231_0203_wolcottsmasterpiece_proposal_prompt" speaker="UI - Player Prompt">«¿Qué hay de las cascadas?»</string>
+	<string key="0231_0203_wolcottsmasterpiece_proposal_next" speaker="Painter Pietr Wolcott - Brightwood" name="PietrWolcott" VO="0231_0203_wolcottsmasterpiece_proposal_next" VO_Status="Needs Recording" dialogue-prompt="@0231_0203_wolcottsmasterpiece_proposal_prompt">¡Las pintaré también! Tengo que pintarlo todo para estar a la altura de Cole. \n\nEncuentra tres lagos inspiradores en los que colocar los caballetes.</string>
+	<string key="0231_0203_wolcottsmasterpiece_incomplete" speaker="Painter Pietr Wolcott - Brightwood" name="PietrWolcott" VO="0231_0203_wolcottsmasterpiece_incomplete" VO_Status="Needs Recording">Las cascadas que encontraste antes eran encantadoras. \n\n¡Ahora me hacen falta tres lagos para mis próximos cuadros!</string>
+	<string key="0231_0203_wolcottsmasterpiece_complete" speaker="Painter Pietr Wolcott - Brightwood" name="PietrWolcott" VO="0231_0203_wolcottsmasterpiece_complete" VO_Status="Needs Recording" dialogue-next="@0231_0203_wolcottsmasterpiece_complete_next">¡Estupendo! Los lugares que has seleccionado encajan de maravilla en el paisaje, son como un pedazo de cielo en la tierra. \n\nMe lo pasaré en grande pintando estos lagos. ¡Y encima Cole no ha pintado nada remotamente similar!</string>
+	<string key="0231_0203_wolcottsmasterpiece_complete_prompt" speaker="UI - Player Prompt">«¿En serio?»</string>
+	<string key="0231_0203_wolcottsmasterpiece_complete_next" speaker="Painter Pietr Wolcott - Brightwood" name="PietrWolcott" VO="0231_0203_wolcottsmasterpiece_complete_next" VO_Status="Needs Recording" dialogue-prompt="@0231_0203_wolcottsmasterpiece_complete_prompt">No, ¡seré la primera persona en darles vida sobre un lienzo! Pronto seré conocido como el pintor de lagos y cascadas. \n\nGracias por marcármelos en el mapa. ¡Qué ganas tengo de ponerme manos a la obra!</string>
 	<string key="0232_0201_asimpletea_title" speaker="UI - Quest Title">Un simple té</string>
 	<string key="0232_0201_asimpletea_description" speaker="UI - Quest Description">Enfréntate a los dríades raizbroncíneos del Desfiladero Verde para conseguir hojas de té inmaculadas y llévaselas a la naturalista Khunbish en el Bosque Luminoso.</string>
 	<string key="0232_0201_asimpletea_start_prompt" speaker="UI - Player Prompt">«¿Qué necesitas?».</string>
-	<string key="0232_0201_asimpletea_proposal" speaker="Naturalist Yargui Khunbish - Brightwood" dialogue-next="@0232_0201_asimpletea_proposal_next">Los sin alma de los perdidos llevan siglos devastando el Bosque Luminoso. Hay quienes dicen que la tierra está maldita.\n\nPero los tierramarga han conseguido prosperar ahí, pese a estar rodeados de muerte.</string>
-	<string key="0232_0201_asimpletea_proposal_prompt">«¿Cuál será su secreto?»</string>
-	<string key="0232_0201_asimpletea_proposal_next" speaker="Naturalist Yargui Khunbish - Brightwood" dialogue-prompt="@0232_0201_asimpletea_proposal_prompt">Los tierramarga poseen muchos secretos, pero me interesa el que está relacionado con el té que beben.\n\nLos raizbroncíneos del Desfiladero llevan encima unas hojas de té especiales. Consígueme unas cuantas y estaré en deuda contigo.</string>
-	<string key="0232_0201_asimpletea_incomplete" speaker="Naturalist Yargui Khunbish - Brightwood">Los raizbroncíneos del Desfiladero verde llevan encima unas hojas de té especiales.\n\nConsígueme unas cuantas y te recompensaré.</string>
-	<string key="0232_0201_asimpletea_complete" speaker="Naturalist Yargui Khunbish - Brightwood">Ah, ¿las has conseguido? ¡Sí, estas hojas son perfectas!\n\nEl té que prepararé a partir de ellas será... Bueno, tampoco tengo muy claras todas sus propiedades.</string>
+	<string key="0232_0201_asimpletea_proposal" speaker="Naturalist Yargui Khunbish - Brightwood" name="YarguiKhunbish" VO="0232_0201_asimpletea_proposal" VO_Status="Needs Recording" dialogue-next="@0232_0201_asimpletea_proposal_next">Los sin alma de los perdidos llevan siglos devastando el Bosque Luminoso. Hay quienes dicen que la tierra está maldita.\n\nPero los tierramarga han conseguido prosperar ahí, pese a estar rodeados de muerte.</string>
+	<string key="0232_0201_asimpletea_proposal_prompt" speaker="UI - Player Prompt">«¿Cuál será su secreto?»</string>
+	<string key="0232_0201_asimpletea_proposal_next" speaker="Naturalist Yargui Khunbish - Brightwood" name="YarguiKhunbish" VO="0232_0201_asimpletea_proposal_next" VO_Status="Needs Recording" dialogue-prompt="@0232_0201_asimpletea_proposal_prompt">Los tierramarga poseen muchos secretos, pero me interesa el que está relacionado con el té que beben.\n\nLos raizbroncíneos del Desfiladero llevan encima unas hojas de té especiales. Consígueme unas cuantas y estaré en deuda contigo.</string>
+	<string key="0232_0201_asimpletea_incomplete" speaker="Naturalist Yargui Khunbish - Brightwood" name="YarguiKhunbish" VO="0232_0201_asimpletea_incomplete" VO_Status="Needs Recording">Los raizbroncíneos del Desfiladero verde llevan encima unas hojas de té especiales.\n\nConsígueme unas cuantas y te recompensaré.</string>
+	<string key="0232_0201_asimpletea_complete" speaker="Naturalist Yargui Khunbish - Brightwood" name="YarguiKhunbish" VO="0232_0201_asimpletea_complete" VO_Status="Needs Recording">Ah, ¿las has conseguido? ¡Sí, estas hojas son perfectas!\n\nEl té que prepararé a partir de ellas será... Bueno, tampoco tengo muy claras todas sus propiedades.</string>
 	<string key="0232_0201_goto" speaker="UI">Adéntrate en {POITags}</string>
 	<string key="0232_0201_d_02_Task_Gather_postrekhin_leaves" speaker="UI">Obtén {itemName} derrotando: dríades {targetName}</string>
 	<string key="0232_0202_hiddensecrets_title" speaker="UI - Quest Title">Dulces secretos</string>
 	<string key="0232_0202_hiddensecrets_description" speaker="UI - Quest Description">Recoge saviadulce exuberante de los árboles en el Escondite Exuberante y llévasela a la naturalista Khunbish en el Bosque Luminoso para que pueda beberse el té que está preparando.</string>
 	<string key="0232_0202_hiddensecrets_start_prompt" speaker="UI - Player Prompt">«Un poco de miel debería bastar».</string>
-	<string key="0232_0202_hiddensecrets_proposal" speaker="Naturalist Yargui Khunbish - Brightwood" dialogue-next="@0232_0202_hiddensecrets_proposal_next">No, he jurado no probar los luces productos de los Apoidea.\n\nLos árboles al sur dan saviadulce exuberante, pero los tierramarga de la zona son muy recelosos.</string>
-	<string key="0232_0202_hiddensecrets_proposal_prompt">«¿Quieres que vaya yo en tu lugar?».</string>
-	<string key="0232_0202_hiddensecrets_proposal_next" speaker="Naturalist Yargui Khunbish - Brightwood" dialogue-prompt="@0232_0202_hiddensecrets_proposal_prompt">Sí, si estás por la labor de adentrarte en el escondite exuberante y conseguir saviadulce exuberante, duplicaré tu recompensa.\n\nEvita dañar a los tierramarga tanto como puedas, ya que solo se guían por el instinto.</string>
-	<string key="0232_0202_hiddensecrets_incomplete" speaker="Naturalist Yargui Khunbish - Brightwood">No hablo de los árboles del sino. Me refiero a los árboles normales de la caverna; esos son los que dan saviadulce exuberante.\n\nGracias por la ayuda.</string>
-	<string key="0232_0202_hiddensecrets_complete" speaker="Naturalist Yargui Khunbish - Brightwood">¡Ya está! ¡Dime que has conseguido la saviadulce exuberante! ¡Sí, esto servirá!\n\nBueno, al menos podré tomarme este té, siempre y cuando tenga lo necesario para prepararlo.</string>
+	<string key="0232_0202_hiddensecrets_proposal" speaker="Naturalist Yargui Khunbish - Brightwood" name="YarguiKhunbish" VO="0232_0202_hiddensecrets_proposal" VO_Status="Needs Recording" dialogue-next="@0232_0202_hiddensecrets_proposal_next">No, he jurado no probar los luces productos de los Apoidea.\n\nLos árboles al sur dan saviadulce exuberante, pero los tierramarga de la zona son muy recelosos.</string>
+	<string key="0232_0202_hiddensecrets_proposal_prompt" speaker="UI - Player Prompt">«¿Quieres que vaya yo en tu lugar?».</string>
+	<string key="0232_0202_hiddensecrets_proposal_next" speaker="Naturalist Yargui Khunbish - Brightwood" name="YarguiKhunbish" VO="0232_0202_hiddensecrets_proposal_next" VO_Status="Needs Recording" dialogue-prompt="@0232_0202_hiddensecrets_proposal_prompt">Sí, si estás por la labor de adentrarte en el escondite exuberante y conseguir saviadulce exuberante, duplicaré tu recompensa.\n\nEvita dañar a los tierramarga tanto como puedas, ya que solo se guían por el instinto.</string>
+	<string key="0232_0202_hiddensecrets_incomplete" speaker="Naturalist Yargui Khunbish - Brightwood" name="YarguiKhunbish" VO="0232_0202_hiddensecrets_incomplete" VO_Status="Needs Recording">No hablo de los árboles del sino. Me refiero a los árboles normales de la caverna; esos son los que dan saviadulce exuberante.\n\nGracias por la ayuda.</string>
+	<string key="0232_0202_hiddensecrets_complete" speaker="Naturalist Yargui Khunbish - Brightwood" name="YarguiKhunbish" VO="0232_0202_hiddensecrets_complete" VO_Status="Needs Recording">¡Ya está! ¡Dime que has conseguido la saviadulce exuberante! ¡Sí, esto servirá!\n\nBueno, al menos podré tomarme este té, siempre y cuando tenga lo necesario para prepararlo.</string>
 	<string key="0232_0202_goto" speaker="UI">Consigue saviadulce exuberante en {POITags}</string>
 	<string key="0232_0202_loot_treesap" speaker="UI">Recolecta {itemName} de los pimpollos en {POITags}</string>
 	<string key="0232_0203_verdantadelphia_title" speaker="UI - Quest Title">Adelphia verdeante</string>
 	<string key="0232_0203_verdantadelphia_description" speaker="UI - Quest Description">Recoge tubérculos de adelphia en la Caverna Verdeante y llévaselos a la naturalista Khunbish en el Bosque Luminoso para que pueda terminar al fin su té.</string>
 	<string key="0232_0203_verdantadelphia_start_prompt" speaker="UI - Player Prompt">«Deja que lo adivine: necesitas algo más».</string>
-	<string key="0232_0203_verdantadelphia_proposal" speaker="Naturalist Yargui Khunbish - Brightwood" dialogue-next="@0232_0203_verdantadelphia_proposal_next">Así es, pero temo haber abusado demasiado de tu generosidad. \n\nSi los tierramarga no fuesen tan crueles, no me hallaría en esta situación. Les ocultan sus secretos incluso a sus aliados.</string>
-	<string key="0232_0203_verdantadelphia_proposal_prompt">«¿Se te considera uno de ellos?»</string>
-	<string key="0232_0203_verdantadelphia_proposal_next" speaker="Naturalist Yargui Khunbish - Brightwood" dialogue-next="@0232_0203_verdantadelphia_proposal_next2" dialogue-prompt="@0232_0203_verdantadelphia_proposal_prompt">Somos pocos los que nos hemos ganado la confianza de los tierramarga en Aetérnum, aunque, en mi caso, la perdí hace años.\n\nDesde entonces, trato de recuperarla a la menor oportunidad.</string>
-	<string key="0232_0203_verdantadelphia_proposal_prompt2">«¿El té es para eso?»</string>
-	<string key="0232_0203_verdantadelphia_proposal_next2" speaker="Naturalist Yargui Khunbish - Brightwood" dialogue-prompt="@0232_0203_verdantadelphia_proposal_prompt2">Sí. Supongo que contarte la verdad no hará daño. Para terminar el té necesito tubérculos de adelphia.\n\nLos chamanes de la Caverna Verdeante suelen llevarlos encima. Si los consigues, redimiré mis pecados.</string>
-	<string key="0232_0203_verdantadelphia_incomplete" speaker="Naturalist Yargui Khunbish - Brightwood">Nada de esto sería necesario si accedieran a acogerme de nuevo entre ellos. El té y los tubérculos de adelphia son la única solución.</string>
-	<string key="0232_0203_verdantadelphia_complete" speaker="Naturalist Yargui Khunbish - Brightwood">¿Has derrotado a los chamanes? ¡Ajá! ¡Los tubérculos! ¡Son el último ingrediente!\n\nAhora podré preparar el té mágico con el que redimirme ante los tierramarga.</string>
+	<string key="0232_0203_verdantadelphia_proposal" speaker="Naturalist Yargui Khunbish - Brightwood" name="YarguiKhunbish" VO="0232_0203_verdantadelphia_proposal" VO_Status="Needs Recording" dialogue-next="@0232_0203_verdantadelphia_proposal_next">Así es, pero temo haber abusado demasiado de tu generosidad. \n\nSi los tierramarga no fuesen tan crueles, no me hallaría en esta situación. Les ocultan sus secretos incluso a sus aliados.</string>
+	<string key="0232_0203_verdantadelphia_proposal_prompt" speaker="UI - Player Prompt">«¿Se te considera uno de ellos?»</string>
+	<string key="0232_0203_verdantadelphia_proposal_next" speaker="Naturalist Yargui Khunbish - Brightwood" name="YarguiKhunbish" VO="0232_0203_verdantadelphia_proposal_next" VO_Status="Needs Recording" dialogue-next="@0232_0203_verdantadelphia_proposal_next2" dialogue-prompt="@0232_0203_verdantadelphia_proposal_prompt">Somos pocos los que nos hemos ganado la confianza de los tierramarga en Aetérnum, aunque, en mi caso, la perdí hace años.\n\nDesde entonces, trato de recuperarla a la menor oportunidad.</string>
+	<string key="0232_0203_verdantadelphia_proposal_prompt2" speaker="UI - Player Prompt">«¿El té es para eso?»</string>
+	<string key="0232_0203_verdantadelphia_proposal_next2" speaker="Naturalist Yargui Khunbish - Brightwood" name="YarguiKhunbish" VO="0232_0203_verdantadelphia_proposal_next2" VO_Status="Needs Recording" dialogue-prompt="@0232_0203_verdantadelphia_proposal_prompt2">Sí. Supongo que contarte la verdad no hará daño. Para terminar el té necesito tubérculos de adelphia.\n\nLos chamanes de la Caverna Verdeante suelen llevarlos encima. Si los consigues, redimiré mis pecados.</string>
+	<string key="0232_0203_verdantadelphia_incomplete" speaker="Naturalist Yargui Khunbish - Brightwood" name="YarguiKhunbish" VO="0232_0203_verdantadelphia_incomplete" VO_Status="Needs Recording">Nada de esto sería necesario si accedieran a acogerme de nuevo entre ellos. El té y los tubérculos de adelphia son la única solución.</string>
+	<string key="0232_0203_verdantadelphia_complete" speaker="Naturalist Yargui Khunbish - Brightwood" name="YarguiKhunbish" VO="0232_0203_verdantadelphia_complete" VO_Status="Needs Recording">¿Has derrotado a los chamanes? ¡Ajá! ¡Los tubérculos! ¡Son el último ingrediente!\n\nAhora podré preparar el té mágico con el que redimirme ante los tierramarga.</string>
 	<string key="0232_0203_goto" speaker="UI">Consigue tubérculos de adelphia en {POITags}</string>
 	<string key="0232_0203_loot_tubers" speaker="UI">Derrota a {targetName} y consigue {itemName} en {POITags}</string>
 	<string key="0232_0204_azothtreeachene_title" speaker="UI - Quest Title">Aquenio de árbol de Azoth (élite)</string>
 	<string key="0232_0204_azothtreeachene_description" speaker="UI - Quest Description">Derrota a Ceran, el líder de los tierramarga, en el árbol de Azoth y recoge su aquenio. Cuando lo consigas, habla con la naturalista Khunbish en el Bosque Luminoso.</string>
 	<string key="0232_0204_azothtreeachene_start_prompt" speaker="UI - Player Prompt">«Habla pues. Te escucho».</string>
-	<string key="0232_0204_azothtreeachene_proposal" speaker="Naturalist Yargui Khunbish - Brightwood" dialogue-next="@0232_0204_azothtreeachene_proposal_next">El líder de los tierramarga de la zona fue quien me desterró. Es un dríade arquero llamado Ceran.\n\nAunque le ofrezca el té que me has dado, es posible que me rechace de nuevo.</string>
-	<string key="0232_0204_azothtreeachene_proposal_prompt">«¿Quieres que me enfrente a él?»</string>
-	<string key="0232_0204_azothtreeachene_proposal_next" speaker="Naturalist Yargui Khunbish - Brightwood" dialogue-prompt="@0232_0204_azothtreeachene_proposal_prompt">Sí, pero imagino que ni a ti te resultará tarea fácil, si te soy sincera.\n\nSi lo destruyes y me traes su aquenio, te recompensaré con mis bienes más valiosos.</string>
-	<string key="0232_0204_azothtreeachene_incomplete" speaker="Naturalist Yargui Khunbish - Brightwood">Destruye a Ceran y tráeme su aquenio. Solo entonces volverán a acogerme los tierramarga.</string>
-	<string key="0232_0204_azothtreeachene_complete" speaker="Naturalist Yargui Khunbish - Brightwood" dialogue-next="@0232_0204_azothtreeachene_complete_next">Ceran ya es historia. Puedo sentirlo. Has hecho un gran trabajo, más de lo que te imaginas; has restaurado el verdadero orden del lugar.\n\nSiento no haber podido compartir contigo toda la verdad antes.</string>
-	<string key="0232_0204_azothtreeachene_complete_prompt">«¿Toda la verdad?»</string>
-	<string key="0232_0204_azothtreeachene_complete_next" speaker="Naturalist Yargui Khunbish - Brightwood" dialogue-prompt="@0232_0204_azothtreeachene_complete_prompt">Antes era una guardiana del árbol de Azoth, pero Ceran me expulsó.\n\nEl té me concederá mi verdadera forma y la desaparición de Ceran me permitirá retomar mi puesto. Te lo agradezco, mortal.</string>
+	<string key="0232_0204_azothtreeachene_proposal" speaker="Naturalist Yargui Khunbish - Brightwood" name="YarguiKhunbish" VO="0232_0204_azothtreeachene_proposal" VO_Status="Needs Recording" dialogue-next="@0232_0204_azothtreeachene_proposal_next">El líder de los tierramarga de la zona fue quien me desterró. Es un dríade arquero llamado Ceran.\n\nAunque le ofrezca el té que me has dado, es posible que me rechace de nuevo.</string>
+	<string key="0232_0204_azothtreeachene_proposal_prompt" speaker="UI - Player Prompt">«¿Quieres que me enfrente a él?»</string>
+	<string key="0232_0204_azothtreeachene_proposal_next" speaker="Naturalist Yargui Khunbish - Brightwood" name="YarguiKhunbish" VO="0232_0204_azothtreeachene_proposal_next" VO_Status="Needs Recording" dialogue-prompt="@0232_0204_azothtreeachene_proposal_prompt">Sí, pero imagino que ni a ti te resultará tarea fácil, si te soy sincera.\n\nSi lo destruyes y me traes su aquenio, te recompensaré con mis mejores galas.</string>
+	<string key="0232_0204_azothtreeachene_incomplete" speaker="Naturalist Yargui Khunbish - Brightwood" name="YarguiKhunbish" VO="0232_0204_azothtreeachene_incomplete" VO_Status="Needs Recording">Destruye a Ceran y tráeme su aquenio. Solo entonces volverán a acogerme los tierramarga.</string>
+	<string key="0232_0204_azothtreeachene_complete" speaker="Naturalist Yargui Khunbish - Brightwood" name="YarguiKhunbish" VO="0232_0204_azothtreeachene_complete" VO_Status="Needs Recording" dialogue-next="@0232_0204_azothtreeachene_complete_next">Ceran ya es historia. Puedo sentirlo. Has hecho un gran trabajo, más de lo que te imaginas; has restaurado el verdadero orden del lugar.\n\nSiento no haber podido compartir contigo toda la verdad antes.</string>
+	<string key="0232_0204_azothtreeachene_complete_prompt" speaker="UI - Player Prompt">«¿Toda la verdad?»</string>
+	<string key="0232_0204_azothtreeachene_complete_next" speaker="Naturalist Yargui Khunbish - Brightwood" name="YarguiKhunbish" VO="0232_0204_azothtreeachene_complete_next" VO_Status="Needs Recording" dialogue-prompt="@0232_0204_azothtreeachene_complete_prompt">Antes era una guardiana del árbol de Azoth, pero Ceran me expulsó.\n\nEl té me concederá mi verdadera forma y la desaparición de Ceran me permitirá retomar mi puesto. Te lo agradezco, mortal.</string>
 	<string key="0232_0204_goto" speaker="UI">Derrota al líder de los tierramarga en {POITags}</string>
 	<string key="0232_0204_loot_achene_from_ceran" speaker="UI">Obtén {itemName} derrotando: {targetName}</string>
 	<string key="0233_0201_bearcohabitation_title" speaker="UI - Quest Title">Viviendo entre osos</string>
 	<string key="0233_0201_bearcohabitation_description" speaker="UI - Quest Description">Ayuda al cazador Hutchison del Bosque Luminoso a vengarse de los osos salvajes de Vallegrís que acabaron con su familia.</string>
 	<string key="0233_0201_bearcohabitation_start_prompt" speaker="UI - Player Prompt">«¿Ya no vives allí?»</string>
-	<string key="0233_0201_bearcohabitation_proposal" speaker="Holt Hutchison - Brightwood" dialogue-next="@0233_0201_bearcohabitation_proposal_next">Qué va. Ya no soy bienvenido. Lo han dejado más que claro.\n\nSusan, mi mujer, y yo convivimos durante décadas con ellos en perfecta armonía. Hasta hace unos meses.</string>
-	<string key="0233_0201_bearcohabitation_proposal_prompt">«¿Qué pasó?»</string>
-	<string key="0233_0201_bearcohabitation_proposal_next" speaker="Holt Hutchison - Brightwood" dialogue-prompt="@0233_0201_bearcohabitation_proposal_prompt">Un día nos atacaron y nos despedazaron para alimentarse de nuestra carne. Susan... pasó a formar parte de las filas de los perdidos.\n\nYo no sé qué hago aún aquí, salvo quizá buscar venganza. De hecho, si acabas con un par de ellos, te recompensaré.</string>
-	<string key="0233_0201_bearcohabitation_incomplete" speaker="Holt Hutchison - Brightwood">Aún no lo he superado. Se abalanzaron sobre nosotros de la nada.\n\nAyúdame a cobrarme mi venganza y estaré en deuda contigo.</string>
-	<string key="0233_0201_bearcohabitation_complete" speaker="Holt Hutchison - Brightwood">He oído cómo rugían y gruñían desde aquí.\n\nSe merecen que les paguemos con la misma moneda.</string>
+	<string key="0233_0201_bearcohabitation_proposal" speaker="Holt Hutchison - Brightwood" name="HoltHutchison" VO="0233_0201_bearcohabitation_proposal" VO_Status="Needs Recording" dialogue-next="@0233_0201_bearcohabitation_proposal_next">Qué va. Ya no soy bienvenido. Lo han dejado más que claro.\n\nSusan, mi mujer, y yo convivimos durante décadas con ellos en perfecta armonía. Hasta hace unos meses.</string>
+	<string key="0233_0201_bearcohabitation_proposal_prompt" speaker="UI - Player Prompt">«¿Qué pasó?»</string>
+	<string key="0233_0201_bearcohabitation_proposal_next" speaker="Holt Hutchison - Brightwood" name="HoltHutchison" VO="0233_0201_bearcohabitation_proposal_next" VO_Status="Needs Recording" dialogue-prompt="@0233_0201_bearcohabitation_proposal_prompt">Un día nos atacaron y nos despedazaron para alimentarse de nuestra carne. Susan... pasó a formar parte de las filas de los perdidos.\n\nYo no sé qué hago aún aquí, salvo buscar venganza. De hecho, si acabas con un par de ellos, te recompensaré.</string>
+	<string key="0233_0201_bearcohabitation_incomplete" speaker="Holt Hutchison - Brightwood" name="HoltHutchison" VO="0233_0201_bearcohabitation_incomplete" VO_Status="Needs Recording">Aún no lo he superado. Se abalanzaron sobre nosotros de la nada.\n\nAyúdame a cobrarme mi venganza y estaré en deuda contigo.</string>
+	<string key="0233_0201_bearcohabitation_complete" speaker="Holt Hutchison - Brightwood" name="HoltHutchison" VO="0233_0201_bearcohabitation_complete" VO_Status="Needs Recording">He oído cómo rugían y gruñían desde aquí.\n\nSe merecen que les paguemos con la misma moneda.</string>
 	<string key="0233_0201_kill_bears" speaker="UI">Destruye {targetName} en {POITags}</string>
 	<string key="0233_0202_papabear_title" speaker="UI - Quest Title">Papá oso (élite)</string>
 	<string key="0233_0202_papabear_description" speaker="UI - Quest Description">El cazador Hutchison te ha pedido que acabes con Gren, el oso gigante que mató a su mujer, y recuperes su anillo de casada. Llévale el anillo al cazador Hutchinson en el Bosque Luminoso.</string>
 	<string key="0233_0202_papabear_start_prompt" speaker="UI - Player Prompt">«¿Tienes familia en alguna parte?»</string>
-	<string key="0233_0202_papabear_proposal" speaker="Holt Hutchison - Brightwood" dialogue-next="@0233_0202_papabear_proposal_next">No, Susan y los osos eran la única familia que tenía.\n\nVivíamos aquí, buscando miel, hibernando... Es la única vida que conozco, el único sitio donde me siento en casa.</string>
-	<string key="0233_0202_papabear_proposal_prompt">«Entonces quizá debas quedarte aquí».</string>
-	<string key="0233_0202_papabear_proposal_next" speaker="Holt Hutchison - Brightwood" dialogue-prompt="@0233_0202_papabear_proposal_prompt">Por muy furioso que esté, es la decisión correcta. Debería intentarlo.\n\nEl patriarca, Gren, fue quien nos atacó. Si acabas con Gren y recuperas el anillo de Susan, quizá tenga una oportunidad. Pero ten cuidado.</string>
-	<string key="0233_0202_papabear_incomplete" speaker="Holt Hutchison - Brightwood">Ese monstruo de Gren se comió a mi querida mujer.\n\nAcaba con él para que pueda regresar con la familia que me queda.</string>
-	<string key="0233_0202_papabear_complete" speaker="Holt Hutchison - Brightwood">¿Lo has hecho? ¿Ha perecido ya ese oso monstruoso? No solo posees valor, sino también fuerza.\n\nDe acuerdo, haré acopio de fuerzas para volver a casa. Si vuelven a atacarme, no sé qué haré. Supongo que acabaré como Susan.</string>
+	<string key="0233_0202_papabear_proposal" speaker="Holt Hutchison - Brightwood" name="HoltHutchison" VO="0233_0202_papabear_proposal" VO_Status="Needs Recording" dialogue-next="@0233_0202_papabear_proposal_next">No, Susan y los osos eran la única familia que tenía.\n\nVivíamos aquí, buscando miel, hibernando... Es la única vida que conozco, el único sitio donde me siento en casa.</string>
+	<string key="0233_0202_papabear_proposal_prompt" speaker="UI - Player Prompt">«Entonces quizá debas quedarte aquí».</string>
+	<string key="0233_0202_papabear_proposal_next" speaker="Holt Hutchison - Brightwood" name="HoltHutchison" VO="0233_0202_papabear_proposal_next" VO_Status="Needs Recording" dialogue-prompt="@0233_0202_papabear_proposal_prompt">Por muy furioso que esté, es la decisión correcta. Debería intentarlo.\n\nEl patriarca, Gren, fue quien nos atacó. Si acabas con Gren y recuperas el anillo de Susan, quizá tenga una oportunidad. Pero ten cuidado.</string>
+	<string key="0233_0202_papabear_incomplete" speaker="Holt Hutchison - Brightwood" name="HoltHutchison" VO="0233_0202_papabear_incomplete" VO_Status="Needs Recording">Ese monstruo de Gren se comió a mi querida mujer.\n\nAcaba con él para que pueda regresar con la familia que me queda.</string>
+	<string key="0233_0202_papabear_complete" speaker="Holt Hutchison - Brightwood" name="HoltHutchison" VO="0233_0202_papabear_complete" VO_Status="Needs Recording">¿Lo has hecho? ¿Ha perecido ya ese oso monstruoso? No solo posees valor, sino también fuerza.\n\nDe acuerdo, haré acopio de fuerzas para volver a casa. Si vuelven a atacarme, no sé qué haré. Supongo que acabaré como Susan.</string>
 	<string key="0233_0202_goto" speaker="UI">Encuentra al oso alfa en {POITags}</string>
 	<string key="0233_0202_loot_ring_from_gren" speaker="UI">Obtén {itemName} derrotando: {targetName}</string>
 	<string key="0234_0201_memoriesofanotherlife_title" speaker="UI - Quest Title">Recuerdos de otra vida</string>
 	<string key="0234_0201_memoriesofanotherlife_description" speaker="UI - Quest Description">Megara Pantazis solía vivir en la zona de Walsham hace décadas. Te ha pedido que recuperes sus recuerdos del pueblo y se los lleves hasta el Bosque Luminoso para revivir su pasado.</string>
 	<string key="0234_0201_memoriesofanotherlife_start_prompt" speaker="UI - Player Prompt">«¿Qué ocurrió?»</string>
-	<string key="0234_0201_memoriesofanotherlife_proposal" speaker="Megara Pantazis - Brightwood" dialogue-next="@0234_0201_memoriesofanotherlife_proposal_next">El pueblo de Walsham cayó a manos de los perdidos hace... más años de los que soy capaz de contar.\n\nAunque no me creas, la boda se celebró aquí mismo. Fue un momento que jamás olvidaré. Era el amor de mi vida, ¿sabes?</string>
-	<string key="0234_0201_memoriesofanotherlife_proposal_prompt">«¿Se ha convertido en un perdido?»</string>
-	<string key="0234_0201_memoriesofanotherlife_proposal_next" speaker="Megara Pantazis - Brightwood" dialogue-prompt="@0234_0201_memoriesofanotherlife_proposal_prompt">Sí, sucumbió a la desesperanza. Mi orgullo evitó que corriera la misma suerte. Me he levantado y he vuelto a caer muchas veces desde entonces.\n\nAhora solo quiero esos recuerdos. Si te adentras en el pueblo, me gustaría que recuperases parte de mis memorias.</string>
-	<string key="0234_0201_memoriesofanotherlife_incomplete" speaker="Megara Pantazis - Brightwood">Los años en Walsham fueron los mejores de mi vida.\n\nSi pudieses recuperar los recuerdos, te estaría muy agradecido.</string>
-	<string key="0234_0201_memoriesofanotherlife_complete" speaker="Megara Pantazis - Brightwood">¡Anda, qué suerte! Has encontrado todos mis recuerdos.\n\nSon tristes, ¿verdad? O, por lo menos, deberían serlo. Solo que, por alguna razón, tan solo me vienen los momentos felices a la cabeza.</string>
+	<string key="0234_0201_memoriesofanotherlife_proposal" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0201_memoriesofanotherlife_proposal" VO_Status="Needs Recording" dialogue-next="@0234_0201_memoriesofanotherlife_proposal_next">El pueblo de Walsham cayó a manos de los perdidos hace... más años de los que soy capaz de contar.\n\nAunque no me creas, la boda se celebró aquí mismo. Fue un momento que jamás olvidaré. Era el amor de mi vida, ¿sabes?</string>
+	<string key="0234_0201_memoriesofanotherlife_proposal_prompt" speaker="UI - Player Prompt">«¿Se ha convertido en un perdido?»</string>
+	<string key="0234_0201_memoriesofanotherlife_proposal_next" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0201_memoriesofanotherlife_proposal_next" VO_Status="Needs Recording" dialogue-prompt="@0234_0201_memoriesofanotherlife_proposal_prompt">Sí, sucumbió a la desesperanza. Mi orgullo evitó que corriera la misma suerte. Me he levantado y he vuelto a caer muchas veces desde entonces.\n\nAhora solo quiero esos recuerdos. Si te adentras en el pueblo, me gustaría que recuperases parte de mis memorias.</string>
+	<string key="0234_0201_memoriesofanotherlife_incomplete" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0201_memoriesofanotherlife_incomplete" VO_Status="Needs Recording">Los años en Walsham fueron los mejores de mi vida.\n\nSi pudieses recuperar los recuerdos, te estaría muy agradecido.</string>
+	<string key="0234_0201_memoriesofanotherlife_complete" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0201_memoriesofanotherlife_complete" VO_Status="Needs Recording">¡Anda, qué suerte! Has encontrado todos mis recuerdos.\n\nSon tristes, ¿verdad? O, por lo menos, deberían serlo. Solo que, por alguna razón, tan solo me vienen los momentos felices a la cabeza.</string>
 	<string key="0234_0201_goto" speaker="UI">Busca los recuerdos de Megara en {POITags}</string>
 	<string key="0234_0201_loot_mementos" speaker="UI">Busca {itemName} en cofres en {POITags}</string>
 	<string key="0234_0202_homenomore_title" speaker="UI - Quest Title">Sin hogar</string>
 	<string key="0234_0202_homenomore_description" speaker="UI - Quest Description">Megara Pantazis ha decidido que quiere unirse a los perdidos para estar con el amor de su vida. Te ha pedido que encuentres su diario en la aldea de Marcel y se lo lleves hasta el Bosque Luminoso para que, al leerlo, pueda sucumbir a la desesperanza.</string>
 	<string key="0234_0202_homenomore_start_prompt" speaker="UI - Player Prompt">«¿De que hablas?»</string>
-	<string key="0234_0202_homenomore_proposal" speaker="Megara Pantazis - Brightwood" dialogue-next="@0234_0202_homenomore_proposal_next">De que he pasado muchísimos años intentando mantenerme a flote y sobrevivir.\n\nPero, mientras tanto, el amor de mi vida forma parte de los perdidos y puede que pronto caiga en el olvido. He decidido que quiero estar a su lado.</string>
-	<string key="0234_0202_homenomore_proposal_prompt">«¿Y cómo piensas lograrlo?»</string>
-	<string key="0234_0202_homenomore_proposal_next" speaker="Megara Pantazis - Brightwood" dialogue-prompt="@0234_0202_homenomore_proposal_prompt">Desmoralizándome. Esperaba que los recuerdos me ayudasen a ello, pero veo que no.\n\nSi estás por la labor, hay un viejo diario en nuestra casa de la aldea de Marcel. Tráemelo. Fueron tiempos difíciles. El diario debería servir.</string>
-	<string key="0234_0202_homenomore_incomplete" speaker="Megara Pantazis - Brightwood">Escribí en él durante años, cuando nuestro amor estaba prohibido, y también después.\n\nHará que me derrumbe, estoy segura de ello.</string>
-	<string key="0234_0202_homenomore_complete" speaker="Megara Pantazis - Brightwood">¿Lo tienes? Gracias a los dioses. Mira lo viejo que está. Está muy desgastado, pero sigue de una pieza.\n\nDeja que lo lea. me ayudará a evocar la desesperanza que sentí entonces. Así es como volveré junto a mi amado.</string>
+	<string key="0234_0202_homenomore_proposal" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0202_homenomore_proposal" VO_Status="Needs Recording" dialogue-next="@0234_0202_homenomore_proposal_next">De que he pasado muchísimos años intentando mantenerme a flote y sobrevivir.\n\nPero, mientras tanto, el amor de mi vida forma parte de los perdidos y puede que pronto caiga en el olvido. He decidido que quiero estar a su lado.</string>
+	<string key="0234_0202_homenomore_proposal_prompt" speaker="UI - Player Prompt">«¿Y cómo piensas lograrlo?»</string>
+	<string key="0234_0202_homenomore_proposal_next" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0202_homenomore_proposal_next" VO_Status="Needs Recording" dialogue-prompt="@0234_0202_homenomore_proposal_prompt">Desmoralizándome. Esperaba que los recuerdos me ayudasen a ello, pero veo que no.\n\nSi estás por la labor, hay un viejo diario en nuestra casa de la aldea de Marcel. Tráemelo. Fueron tiempos difíciles. El diario debería servir.</string>
+	<string key="0234_0202_homenomore_incomplete" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0202_homenomore_incomplete" VO_Status="Needs Recording">Escribí en él durante años, cuando nuestro amor estaba prohibido, y también después.\n\nHará que me derrumbe, estoy segura de ello.</string>
+	<string key="0234_0202_homenomore_complete" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0202_homenomore_complete" VO_Status="Needs Recording">¿Lo tienes? Gracias a los dioses. Mira lo viejo que está. Está muy desgastado, pero sigue de una pieza.\n\nDeja que lo lea. me ayudará a evocar la desesperanza que sentí entonces. Así es como volveré junto a mi amado.</string>
 	<string key="0234_0202_goto" speaker="UI">Busca el diario de Megara en {POITags}</string>
 	<string key="0234_0202_loot_journal" speaker="UI">Busca {itemName} en cofres en {POITags}</string>
 	<string key="0234_0203_tildeathdouspart_title" speaker="UI - Quest Title">Hasta que la muerte nos separe (élite)</string>
 	<string key="0234_0203_tildeathdouspart_description" speaker="UI - Quest Description">Megara Pantazis ha admitido que el amor de su vida era el pastor Walsham. Quiere que te asegures de que no queda ni rastro de su naturaleza humana antes de unirse a él como perdida. Cuando termines esta tarea, habla con ella en el Bosque Luminoso.</string>
 	<string key="0234_0203_tildeathdouspart_start_prompt" speaker="UI - Player Prompt">«¿Cuándo salió a la luz qué verdad?»</string>
-	<string key="0234_0203_tildeathdouspart_proposal" speaker="Megara Pantazis - Brightwood" dialogue-next="@0234_0203_tildeathdouspart_proposal_next">La verdad sobre el amor de mi vida. No te he contado toda la historia.\n\nLa boda que se celebró aquí... no fue dónde me casé con mi verdadero amor, sino donde lo conocí.</string>
-	<string key="0234_0203_tildeathdouspart_proposal_prompt">«¿De quién era la boda?»</string>
-	<string key="0234_0203_tildeathdouspart_proposal_next" speaker="Megara Pantazis - Brightwood" dialogue-next="@0234_0203_tildeathdouspart_proposal_next2" dialogue-prompt="@0234_0203_tildeathdouspart_proposal_prompt">Mía, solo que el novio era más soso que el pan sin sal. Se llamaba Aulus y provenía de la Legión, como yo.\n\nEl pastor Walsham fue quién nos casó y quien se convirtió en el amor de mi vida.</string>
-	<string key="0234_0203_tildeathdouspart_proposal_prompt2">«¿Quieres unirte a los perdidos para estar junto a él?»</string>
-	<string key="0234_0203_tildeathdouspart_proposal_next2" speaker="Megara Pantazis - Brightwood" dialogue-prompt="@0234_0203_tildeathdouspart_proposal_prompt2">Exacto, pero me temo que el diario no servirá tampoco.\n\nProbemos lo siguiente: encuentra a mi amado, el pastor Walsham. Acaba con él y tráeme algo suyo. Eso hará que me derrumbe.</string>
-	<string key="0234_0203_tildeathdouspart_incomplete" speaker="Megara Pantazis - Brightwood">Mi amado fue un hombre increíble. Imagino que será difícil de vencer. Ten cuidado.</string>
-	<string key="0234_0203_tildeathdouspart_complete" speaker="Megara Pantazis - Brightwood" dialogue-next="@0234_0203_tildeathdouspart_complete_next">¿Lo has visto? ¿Parecía miserable por ser un perdido? ¿O estaba en paz?\n\nAy, quiero estar con él. Pero, ¿que has descubierto? ¿Qué es esto?</string>
-	<string key="0234_0203_tildeathdouspart_complete_prompt">«Una carta que lleva tu nombre».</string>
-	<string key="0234_0203_tildeathdouspart_complete_next" speaker="Megara Pantazis - Brightwood" dialogue-prompt="@0234_0203_tildeathdouspart_complete_prompt">Deja que le eche un vistazo... Oh, dice que fue incapaz de soportarlo. Optó por convertirse en perdido para evitar enfrentarse a mí.\n\nPor lo visto, quería romper conmigo... Sentía remordimientos y todo eso. Será cobarde. Bueno, creo que me has convencido para que siga viviendo. Gracias.</string>
+	<string key="0234_0203_tildeathdouspart_proposal" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0203_tildeathdouspart_proposal" VO_Status="Needs Recording" dialogue-next="@0234_0203_tildeathdouspart_proposal_next">La verdad sobre el amor de mi vida. No te he contado toda la historia.\n\nLa boda que se celebró aquí... no fue dónde me casé con mi verdadero amor, sino donde lo conocí.</string>
+	<string key="0234_0203_tildeathdouspart_proposal_prompt" speaker="UI - Player Prompt">«¿De quién era la boda?»</string>
+	<string key="0234_0203_tildeathdouspart_proposal_next" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0203_tildeathdouspart_proposal_next" VO_Status="Needs Recording" dialogue-next="@0234_0203_tildeathdouspart_proposal_next2" dialogue-prompt="@0234_0203_tildeathdouspart_proposal_prompt">Mía, solo que el novio era más soso que el pan sin sal. Se llamaba Aulus y provenía de la Legión, como yo.\n\nEl pastor Walsham fue quién nos casó y quien se convirtió en el amor de mi vida.</string>
+	<string key="0234_0203_tildeathdouspart_proposal_prompt2" speaker="UI - Player Prompt">«¿Quieres unirte a los perdidos para estar junto a él?»</string>
+	<string key="0234_0203_tildeathdouspart_proposal_next2" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0203_tildeathdouspart_proposal_next2" VO_Status="Needs Recording" dialogue-prompt="@0234_0203_tildeathdouspart_proposal_prompt2">Exacto, pero me temo que el diario no servirá tampoco.\n\nProbemos lo siguiente: encuentra a mi amado, el pastor Walsham. Acaba con él y tráeme algo suyo. Eso hará que me derrumbe.</string>
+	<string key="0234_0203_tildeathdouspart_incomplete" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0203_tildeathdouspart_incomplete" VO_Status="Needs Recording">Mi amado fue un hombre increíble. Imagino que será difícil de vencer. Ten cuidado.</string>
+	<string key="0234_0203_tildeathdouspart_complete" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0203_tildeathdouspart_complete" VO_Status="Needs Recording" dialogue-next="@0234_0203_tildeathdouspart_complete_next">¿Lo has visto? ¿Parecía miserable por ser un perdido? ¿O estaba en paz?\n\nAy, quiero estar con él. Pero, ¿que has descubierto? ¿Qué es esto?</string>
+	<string key="0234_0203_tildeathdouspart_complete_prompt" speaker="UI - Player Prompt">«Una carta que lleva tu nombre».</string>
+	<string key="0234_0203_tildeathdouspart_complete_next" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0203_tildeathdouspart_complete_next" VO_Status="Needs Recording" dialogue-prompt="@0234_0203_tildeathdouspart_complete_prompt">Deja que le eche un vistazo... Oh, dice que fue incapaz de soportarlo. Optó por convertirse en perdido para evitar enfrentarse a mí.\n\nPor lo visto, quería romper conmigo... Sentía remordimientos y todo eso. Será cobarde. Bueno, creo que me has convencido para que siga viviendo. Gracias.</string>
 	<string key="0234_0203_goto" speaker="UI">Enfréntate al pastor Walsham en la Congregación de Walsham</string>
 	<string key="0234_0203_loot_goodbye" speaker="UI">Obtén {itemName} derrotando: {targetName}</string>
-	<string key="98_M_0001_RankUp_title">Nuevo rango en los Saqueadores: Gladiador</string>
-	<string key="98_M_0001_RankUp_description">Consigue reputación de la facción y participa en el desafío por el rango de Gladiador</string>
-	<string key="98_M_0001_RankUp_factionhandoff">Completa misiones del tablero de la facción. Después, preséntate ante el magistrado del lugar.</string>
-	<string key="98_M_Reach_NextMarauderRank">Consigue reputación de la facción para enfrentarte a la prueba del siguiente rango.</string>
-	<string key="98_M_0001_CompleteTrial_Gladiator">Ve a Cayos del Alfanje y completa la prueba del Gladiador</string>
-	<string key="98_M_0102_RankUp_title">Nuevo rango en los Saqueadores: Devastador</string>
-	<string key="98_M_0102_RankUp_description">Consigue reputación de la facción y participa en el desafío por el rango de Devastador</string>
-	<string key="98_M_0102_CompleteTrial_Ravager">Ve a la Ciénaga de los Tejedores y completa la prueba del Devastador</string>
-	<string key="98_M_0203_RankUp_title">Nuevo rango en los Saqueadores: Destructor</string>
-	<string key="98_M_0203_RankUp_description">Consigue reputación de la facción y participa en el desafío por el rango de Destructor</string>
-	<string key="98_M_0203_CompleteTrial_Destroyer">Ve a la Costa de la Zozobra y completa la prueba del Destructor</string>
-	<string key="98_M_0304_RankUp_title">Nuevo rango en los Saqueadores: Comandante</string>
-	<string key="98_M_0304_RankUp_description">Consigue reputación de la facción y participa en el desafío por el rango de Comandante</string>
-	<string key="98_M_0304_CompleteTrial_Commander">Ve a Altos de Escamanegra y completa la prueba del Comandante</string>
+	<string key="98_M_0001_RankUp_title" speaker="UI - Quest Title">Nuevo rango en los Saqueadores: Gladiador</string>
+	<string key="98_M_0001_RankUp_description" speaker="UI - Tracker Text">Consigue la suficiente reputación de facción para llegar a Gladiador y, luego, habla con el representante de tu facción en Cayos del Alfanje para empezar la misión La prueba del Gladiador.</string>
+	<string key="98_M_0001_RankUp_factionhandoff" speaker="UI - Tracker Text">Completa misiones del tablero de la facción. Después, preséntate ante el magistrado del lugar.</string>
+	<string key="98_M_Reach_NextMarauderRank" speaker="UI - Tracker Text">Consigue reputación de la facción para enfrentarte a la prueba del siguiente rango.</string>
+	<string key="98_M_0001_CompleteTrial_Gladiator" speaker="UI - Tracker Text">Ve a Cayos del Alfanje y completa La prueba del Gladiador\n(Nivel recomendado: 25)</string>
+	<string key="98_M_0102_RankUp_title" speaker="UI - Quest Title">Nuevo rango en los Saqueadores: Devastador</string>
+	<string key="98_M_0102_RankUp_description" speaker="UI - Tracker Text">Consigue la suficiente reputación de facción para llegar a Devastador y, luego, habla con el representante de tu facción en la Ciénaga de los Tejedores para empezar la misión La prueba del Devastador.</string>
+	<string key="98_M_0102_CompleteTrial_Ravager" speaker="UI - Tracker Text">Ve a la Ciénaga de los Tejedores y completa La prueba del Devastador\n(Nivel recomendado: 35)</string>
+	<string key="98_M_0203_RankUp_title" speaker="UI - Quest Title">Nuevo rango en los Saqueadores: Destructor</string>
+	<string key="98_M_0203_RankUp_description" speaker="UI - Tracker Text">Consigue la suficiente reputación de facción para llegar a Destructor y, luego, habla con el representante de tu facción en Costa de la Zozobra para empezar la misión La prueba del Destructor.</string>
+	<string key="98_M_0203_CompleteTrial_Destroyer" speaker="UI - Tracker Text">Ve a la Costa de la Zozobra y completa La prueba del Destructor\n(Nivel recomendado: 49)</string>
+	<string key="98_M_0304_RankUp_title" speaker="UI - Quest Title">Nuevo rango en los Saqueadores: Comandante</string>
+	<string key="98_M_0304_RankUp_description" speaker="UI - Tracker Text">Consigue la suficiente reputación de facción para llegar a Comandante y, luego, habla con el representante de tu facción en los Altos de Escamanegra para empezar la misión La prueba del Comandante.</string>
+	<string key="98_M_0304_CompleteTrial_Commander" speaker="UI - Tracker Text">Ve a Altos de Escamanegra y completa La prueba del Comandante\n(Nivel recomendado: 60)</string>
 	<string key="98_M_01_combatprowess_title" speaker="UI - Quest Title">La prueba del Gladiador</string>
 	<string key="98_M_01_combatprowess_description" speaker="UI - Quest Description">Derrota al pirata perdido Hamidou para demostrar tu valía y ascender al rango de Gladiador Cuando termines esta tarea, habla con la devastadora Silas en Cayos del Alfanje.</string>
 	<string key="98_M_01_combatprowess_start_prompt" speaker="UI - Player Prompt">«Tan difícil no puede ser, si hasta tú lo has logrado».</string>
@@ -384,20 +384,20 @@
 	<string key="98_M_03_darkvengeance_complete" speaker="Commander Hartford - Ebonscale" name="CommanderHartford" gender="M" VO="Commander_98_M_03_darkvengeance_AvailResponse" VO_Status="Recorded">Sé que tiene que haber sido desagradable. Tenemos que honrar a Silas por lo que aspiraba a ser, no por lo que se convirtió.\n\nPero cambiando a un tema más agradable: me enorgullece concederte el título de «Comandante».</string>
 	<string key="98_M_03_darkvengeance_goto_POI" speaker="UI">Derrota al devastador corrupto Silas en {POITags} para ascender al rango de Comandante</string>
 	<string key="98_M_03_darkvengeance_killtarget_defeat_AI" speaker="UI">Derrota a {targetName}</string>
-	<string key="98_S_0001_RankUp_title">Nuevo rango en el Sindicato: Escriba</string>
-	<string key="98_S_0001_RankUp_description">Consigue reputación de la facción y compite por el rango de Escriba</string>
-	<string key="98_S_0001_RankUp_factionhandoff">Completa misiones del tablero de la facción. Después, preséntate ante el magistrado del lugar.</string>
-	<string key="98_S_Reach_NextSyndicateRank">Consigue reputación de la facción para enfrentarte a la prueba del siguiente rango.</string>
-	<string key="98_S_0001_CompleteTrial_Scrivener">Ve al Bosque Luminoso y completa la prueba del Escriba</string>
-	<string key="98_S_0102_RankUp_title">Nuevo rango en el Sindicato: Cronista</string>
-	<string key="98_S_0102_RankUp_description">Consigue reputación de la facción y compite por el rango de Cronista</string>
-	<string key="98_S_0102_CompleteTrial_Chronicler">Ve a la Ciénaga de los Tejedores y completa la prueba del Cronista</string>
-	<string key="98_S_0203_RankUp_title">Nuevo rango en el Sindicato: Cabalista</string>
-	<string key="98_S_0203_RankUp_description">Consigue reputación de la facción y compite por el rango de Cabalista</string>
-	<string key="98_S_0203_CompleteTrial_Cabalist">Ve al Valle del Pesar y completa la prueba del Cabalista</string>
-	<string key="98_S_0304_RankUp_title">Nuevo rango en el Sindicato: Alquimista</string>
-	<string key="98_S_0304_RankUp_description">Consigue reputación de la facción y compite por el rango de Alquimista</string>
-	<string key="98_S_0304_CompleteTrial_Alchemist">Ve a Aguas Fétidas y completa la prueba del Alquimista</string>
+	<string key="98_S_0001_RankUp_title" speaker="UI - Quest Title">Nuevo rango en el Sindicato: Escriba</string>
+	<string key="98_S_0001_RankUp_description" speaker="UI - Tracker Text">Consigue la suficiente reputación de facción para llegar a Escriba y, luego, habla con el representante de tu facción en el Bosque Luminoso para empezar la misión La prueba del Escriba.</string>
+	<string key="98_S_0001_RankUp_factionhandoff" speaker="UI - Tracker Text">Completa misiones del tablero de la facción. Después, preséntate ante el magistrado del lugar.</string>
+	<string key="98_S_Reach_NextSyndicateRank" speaker="UI - Tracker Text">Consigue reputación de la facción para enfrentarte a la prueba del siguiente rango.</string>
+	<string key="98_S_0001_CompleteTrial_Scrivener" speaker="UI - Tracker Text">Ve al Bosque Luminoso y completa La prueba del Escriba\n(Nivel recomendado: 25)</string>
+	<string key="98_S_0102_RankUp_title" speaker="UI - Quest Title">Nuevo rango en el Sindicato: Cronista</string>
+	<string key="98_S_0102_RankUp_description" speaker="UI - Tracker Text">Consigue la suficiente reputación de facción para llegar a Cronista y, luego, habla con el representante de tu facción en la Ciénaga de los Tejedores para empezar la misión La prueba del Cronista.</string>
+	<string key="98_S_0102_CompleteTrial_Chronicler" speaker="UI - Tracker Text">Ve a la Ciénaga de los Tejedores y completa La prueba del Cronista\n(Nivel recomendado: 35)</string>
+	<string key="98_S_0203_RankUp_title" speaker="UI - Quest Title">Nuevo rango en el Sindicato: Cabalista</string>
+	<string key="98_S_0203_RankUp_description" speaker="UI - Tracker Text">Consigue la suficiente reputación de facción para llegar a Cabalista y, luego, habla con el representante de tu facción en el Valle del Pesar para empezar la misión La prueba del Cabalista.</string>
+	<string key="98_S_0203_CompleteTrial_Cabalist" speaker="UI - Tracker Text">Ve al Valle del Pesar y completa La prueba del Cabalista\n(Nivel recomendado: 49)</string>
+	<string key="98_S_0304_RankUp_title" speaker="UI - Quest Title">Nuevo rango en el Sindicato: Alquimista</string>
+	<string key="98_S_0304_RankUp_description" speaker="UI - Tracker Text">Consigue la suficiente reputación de facción para llegar a Alquimista y, luego, habla con el representante de tu facción en Aguas Fétidas para empezar la misión La prueba del Alquimista.</string>
+	<string key="98_S_0304_CompleteTrial_Alchemist" speaker="UI - Tracker Text">Ve a Aguas Fétidas y completa La prueba del Alquimista\n(Nivel recomendado: 60)</string>
 	<string key="98_S_01_theexperiment_title" speaker="UI - Quest Title">La prueba del Escriba</string>
 	<string key="98_S_01_theexperiment_description" speaker="UI - Quest Description">Derrota al geist perdido Malikor y usa el absorbedor psicoquinético para atrapar los vestigios de almas y hacerte con el rango de Escriba. Cuando lo consigas, habla con el escriba Krockes en el Bosque Luminoso.</string>
 	<string key="98_S_01_theexperiment_start_prompt" speaker="UI - Player Prompt">«Así es. ¿Qué debo hacer?».</string>
@@ -445,20 +445,20 @@
 	<string key="98_S_03_lostnotlost_killtarget_defeat_AI" speaker="UI">Derrota a {targetName}</string>
 	<string key="98_S_03_lostnotlost_collect_IO" speaker="UI">Recupera el absorbedor psicoquinético</string>
 	<string key="98_S_03_lostnotlost_destroy_item" speaker="UI">Destruye el absorbedor psicoquinético con la ayuda de los dríades</string>
-	<string key="98_C_0001_RankUp_title">Nuevo rango en la Alianza: Templario</string>
-	<string key="98_C_0001_RankUp_description">Consigue reputación de la facción y demuestra que te mereces el rango de Templario</string>
-	<string key="98_C_0001_RankUp_factionhandoff">Completa misiones del tablero de la facción. Después, preséntate ante el magistrado del lugar.</string>
-	<string key="98_C_Reach_NextCovenantRank">Consigue reputación de la facción para enfrentarte a la prueba del siguiente rango.</string>
-	<string key="98_C_0001_CompleteTrial_Templar">Ve al Bosque Luminoso y completa la prueba del Templario</string>
-	<string key="98_C_0102_RankUp_title">Nuevo rango en la Alianza: Excubitor</string>
-	<string key="98_C_0102_RankUp_description">Consigue reputación de la facción y demuestra que te mereces el rango de Excubitor</string>
-	<string key="98_C_0102_CompleteTrial_Excubitor">Ve a la Ciénaga de los Tejedores y completa la prueba del Excubitor</string>
-	<string key="98_C_0203_RankUp_title">Nuevo rango en la Alianza: Lumen</string>
-	<string key="98_C_0203_RankUp_description">Consigue reputación de la facción y demuestra que te mereces el rango de Lumen</string>
-	<string key="98_C_0203_CompleteTrial_Lumen">Ve a la Gran Grieta y completa la prueba del Lumen</string>
-	<string key="98_C_0304_RankUp_title">Nuevo rango en la Alianza: Juez</string>
-	<string key="98_C_0304_RankUp_description">Consigue reputación de la facción y demuestra que te mereces el rango de Juez</string>
-	<string key="98_C_0304_CompleteTrial_Adjudicator">Ve a la Cima Quebrada y completa la prueba del Juez</string>
+	<string key="98_C_0001_RankUp_title" speaker="UI - Quest Title">Nuevo rango en la Alianza: Templario</string>
+	<string key="98_C_0001_RankUp_description" speaker="UI - Tracker Text">Consigue la suficiente reputación de facción para llegar a Templario y, luego, habla con el representante de tu facción en el Bosque Luminoso para empezar la misión La prueba del Templario.</string>
+	<string key="98_C_0001_RankUp_factionhandoff" speaker="UI - Tracker Text">Completa misiones del tablero de la facción. Después, preséntate ante el magistrado del lugar.</string>
+	<string key="98_C_Reach_NextCovenantRank" speaker="UI - Tracker Text">Consigue reputación de la facción para enfrentarte a la prueba del siguiente rango.</string>
+	<string key="98_C_0001_CompleteTrial_Templar" speaker="UI - Tracker Text">Ve al Bosque Luminoso y completa La prueba del Templario\n(Nivel recomendado: 25)</string>
+	<string key="98_C_0102_RankUp_title" speaker="UI - Quest Title">Nuevo rango en la Alianza: Excubitor</string>
+	<string key="98_C_0102_RankUp_description" speaker="UI - Tracker Text">Consigue la suficiente reputación de facción para llegar a Excubitor y, luego, habla con el representante de tu facción en la Ciénaga de los Tejedores para empezar la misión La prueba del Excubitor.</string>
+	<string key="98_C_0102_CompleteTrial_Excubitor" speaker="UI - Tracker Text">Ve a la Ciénaga de los Tejedores y completa La prueba del Excubitor\n(Nivel recomendado: 35)</string>
+	<string key="98_C_0203_RankUp_title" speaker="UI - Quest Title">Nuevo rango en la Alianza: Lumen</string>
+	<string key="98_C_0203_RankUp_description" speaker="UI - Tracker Text">Consigue la suficiente reputación de facción para llegar a Lumen y, luego, habla con el representante de tu facción en la Gran Grieta para empezar la misión La prueba del Lumen.</string>
+	<string key="98_C_0203_CompleteTrial_Lumen" speaker="UI - Tracker Text">Ve a la Gran Grieta y completa La prueba del Lumen\n(Nivel recomendado: 49)</string>
+	<string key="98_C_0304_RankUp_title" speaker="UI - Quest Title">Nuevo rango en la Alianza: Juez</string>
+	<string key="98_C_0304_RankUp_description" speaker="UI - Tracker Text">Consigue la suficiente reputación de facción para llegar a Juez y, luego, habla con el representante de tu facción en Cima Quebrada para empezar la misión La prueba del Juez.</string>
+	<string key="98_C_0304_CompleteTrial_Adjudicator" speaker="UI - Tracker Text">Ve a la Cima Quebrada y completa La prueba del Juez\n(Nivel recomendado: 60)</string>
 	<string key="98_C_01_theapostate_title" speaker="UI - Quest Title">La prueba del Templario</string>
 	<string key="98_C_01_theapostate_description" speaker="UI - Quest Description">Encuentra al iniciado de la Alianza Bremen Luca, que ha desaparecido, y descubre qué le ocurrió para ascender al rango de Templario Cuando termines esta tarea, habla con la templaria Roose en el Bosque Luminoso.</string>
 	<string key="98_C_01_theapostate_start_prompt" speaker="UI - Player Prompt">«Lo tengo todo listo. ¿Qué tengo que hacer?».</string>
@@ -508,75 +508,75 @@
 	<string key="0205_0102_Battles_Embrace_Gear_title" speaker="UI - Quest Title">Adalid de la batalla</string>
 	<string key="0205_0102_Battles_Embrace_Gear_description" speaker="UI - Quest Description" gender="F">Recupera las recetas y componentes necesarios para fabricar la armadura adalid de la batalla. Cuando lo consigas, habla con la justiciar Sobol en el Bosque Luminoso.</string>
 	<string key="0205_0102_Battles_Embrace_Gear_start_prompt" speaker="UI - Player Prompt">«Quien algo quiere, algo le cuesta».</string>
-	<string key="0205_0102_Battles_Embrace_Gear_proposal" speaker="Justiciar Sobol - Brightwood" gender="F" VO="Artificer_0205_0102_Battles_Embrace_Gear_ProposalResponse" VO_Status="Recorded" dialogue-next="@0205_0102_Battles_Embrace_Gear_proposal_next">Es cierto. Pero me he enterado de algo que podría ayudar a afrontar los problemas.\n\n¡La legendaria armadura que convierte a quien la lleva en una fortaleza andante!</string>
+	<string key="0205_0102_Battles_Embrace_Gear_proposal" speaker="Justiciar Sobol - Brightwood" name="JusticiarSobol" gender="F" VO="Artificer_0205_0102_Battles_Embrace_Gear_ProposalResponse" VO_Status="Recorded" dialogue-next="@0205_0102_Battles_Embrace_Gear_proposal_next">Es cierto. Pero me he enterado de algo que podría ayudar a afrontar los problemas.\n\n¡La legendaria armadura que convierte a quien la lleva en una fortaleza andante!</string>
 	<string key="0205_0102_Battles_Embrace_Gear_proposal_prompt" speaker="UI - Player Prompt">«¿Cómo se llama?».</string>
-	<string key="0205_0102_Battles_Embrace_Gear_proposal_next" speaker="Justiciar Sobol - Brightwood" gender="F" VO="Artificer_0205_0102_Battles_Embrace_Gear_CompleteNext" VO_Status="Recorded" dialogue-next="@0205_0102_Battles_Embrace_Gear_proposal_next2" dialogue-prompt="@0205_0102_Battles_Embrace_Gear_proposal_prompt">El adalid de la batalla. Antaño la lucía un poderoso comandante que se enfrentó a los corruptos y los envió de vueltas a la Cima Quebrada.\n\nSin embargo, el comandante desapareció sin dejar rastro junto con su armadura.</string>
+	<string key="0205_0102_Battles_Embrace_Gear_proposal_next" speaker="Justiciar Sobol - Brightwood" name="JusticiarSobol" gender="F" VO="Artificer_0205_0102_Battles_Embrace_Gear_CompleteNext" VO_Status="Recorded" dialogue-next="@0205_0102_Battles_Embrace_Gear_proposal_next2" dialogue-prompt="@0205_0102_Battles_Embrace_Gear_proposal_prompt">El adalid de la batalla. Antaño la lucía un poderoso comandante que se enfrentó a los corruptos y los envió de vueltas a la Cima Quebrada.\n\nSin embargo, el comandante desapareció sin dejar rastro junto con su armadura.</string>
 	<string key="0205_0102_Battles_Embrace_Gear_proposal_prompt2" speaker="UI - Player Prompt">«¿Nadie sabe dónde está?».</string>
-	<string key="0205_0102_Battles_Embrace_Gear_proposal_next2" speaker="Justiciar Sobol - Brightwood" gender="F" VO="Artificer_0205_0102_Battles_Embrace_Gear_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@0205_0102_Battles_Embrace_Gear_proposal_prompt2">No, los rumores sobre lo ocurrido se vuelven confusos cuando el comandante llegó a la Cima Quebrada.\n\nLo único que se conserva son los diseños con los que fabricar la armadura. Si reunimos materiales, podremos usarlos para fabricar de nuevo la armadura.</string>
+	<string key="0205_0102_Battles_Embrace_Gear_proposal_next2" speaker="Justiciar Sobol - Brightwood" name="JusticiarSobol" gender="F" VO="Artificer_0205_0102_Battles_Embrace_Gear_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@0205_0102_Battles_Embrace_Gear_proposal_prompt2">No, los rumores sobre lo ocurrido se vuelven confusos cuando el comandante llegó a la Cima Quebrada.\n\nLo único que se conserva son los diseños con los que fabricar la armadura. Si reunimos materiales, podremos usarlos para fabricar de nuevo la armadura.</string>
 	<string key="0205_0102_Battles_Embrace_Gear_incomplete" speaker="Justiciar Sobol - Brightwood" gender="F">Intenta encontrar los materiales necesarios para fabricar el adalid de la batalla.\n\nSu uso inspirará el surgimiento de una nueva generación de guerreros dispuestos a enfrentarse a los corruptos.</string>
-	<string key="0205_0102_Battles_Embrace_Gear_complete" speaker="Justiciar Sobol - Brightwood" gender="F" VO="Artificer_0205_0102_Battles_Embrace_Gear_AvailResponse" VO_Status="Recorded" dialogue-next="@0205_0102_Battles_Embrace_Gear_complete_next">¿Qué ven mis ojos? ¿Has conseguido los materiales para fabricar el adalid de la batalla?\n\n¡Sí, está claro! ¡Jamás pensé que vería la armadura legendaria en acción!</string>
+	<string key="0205_0102_Battles_Embrace_Gear_complete" speaker="Justiciar Sobol - Brightwood" name="JusticiarSobol" gender="F" VO="Artificer_0205_0102_Battles_Embrace_Gear_AvailResponse" VO_Status="Recorded" dialogue-next="@0205_0102_Battles_Embrace_Gear_complete_next">¿Qué ven mis ojos? ¿Has conseguido los materiales para fabricar el adalid de la batalla?\n\n¡Sí, está claro! ¡Jamás pensé que vería la armadura legendaria en acción!</string>
 	<string key="0205_0102_Battles_Embrace_Gear_complete_prompt" speaker="UI - Player Prompt">«¿Es como relataban las leyendas?».</string>
-	<string key="0205_0102_Battles_Embrace_Gear_complete_next" speaker="Justiciar Sobol - Brightwood" gender="F" VO="Artificer_0205_0102_Battles_Embrace_Gear_CompleteNext3" VO_Status="Recorded" dialogue-prompt="@0205_0102_Battles_Embrace_Gear_complete_prompt">¡Sí! ¡Es como me esperaba! Deja que te proteja en las batallas que te aguardan en el futuro.\n\nEsta noche compartiré una historia de lo más interesante: ¡el adalid de la batalla ha regresado!</string>
-	<string key="0205_0102_01_container_Battles_Embrace_questComplete_1">Completa la misión: Avanza con buen pie</string>
-	<string key="0205_0102_02_container_Battles_Embrace_questComplete_2">Completa la misión: Acepta la batalla</string>
-	<string key="0205_0102_03_container_Battles_Embrace_questComplete_3">Completa la misión: Golpes severos</string>
-	<string key="0205_0102_04_container_Battles_Embrace_questComplete_4">Completa la misión: Correr las baquetas</string>
-	<string key="0205_0102_05_container_Battles_Embrace_questComplete_5">Completa la misión: Por delante del resto</string>
-	<string key="0205_0102_01_Boots_title">Avanza con buen pie</string>
+	<string key="0205_0102_Battles_Embrace_Gear_complete_next" speaker="Justiciar Sobol - Brightwood" name="JusticiarSobol" gender="F" VO="Artificer_0205_0102_Battles_Embrace_Gear_CompleteNext3" VO_Status="Recorded" dialogue-prompt="@0205_0102_Battles_Embrace_Gear_complete_prompt">¡Sí! ¡Es como me esperaba! Deja que te proteja en las batallas que te aguardan en el futuro.\n\nEsta noche compartiré una historia de lo más interesante: ¡el adalid de la batalla ha regresado!</string>
+	<string key="0205_0102_01_container_Battles_Embrace_questComplete_1" speaker="UI - Tracker Text">Completa la misión: Avanza con buen pie</string>
+	<string key="0205_0102_02_container_Battles_Embrace_questComplete_2" speaker="UI - Tracker Text">Completa la misión: Acepta la batalla</string>
+	<string key="0205_0102_03_container_Battles_Embrace_questComplete_3" speaker="UI - Tracker Text">Completa la misión: Golpes severos</string>
+	<string key="0205_0102_04_container_Battles_Embrace_questComplete_4" speaker="UI - Tracker Text">Completa la misión: Correr las baquetas</string>
+	<string key="0205_0102_05_container_Battles_Embrace_questComplete_5" speaker="UI - Tracker Text">Completa la misión: Por delante del resto</string>
+	<string key="0205_0102_01_Boots_title" speaker="UI - Quest Title">Avanza con buen pie</string>
 	<string key="0205_0102_01_Boots_description">Obtén cuero robusto de Fenton en la aldea de Fenton, clavos tratados en Cayo de la Muerte y sortijas de metal inquebrantable de la zozobra en los restos putrefactos. Después, ve a una fragua de clase 3 para fabricar las botas del adalid de la batalla.</string>
-	<string key="0205_0102_01_Boots_task_01">Receta entregada.</string>
-	<string key="0205_0102_01_Boots_task_02" comment="Fenton Hamlet">Ve a {POITags} en la Ciénaga de los Tejedores para obtener cuero robusto de Fenton</string>
-	<string key="0205_0102_01_Boots_task_03" comment="Stout Fenton Hides">Obtén {itemName} de los enemigos: {targetName}</string>
-	<string key="0205_0102_01_Boots_task_04" comment="Cayo de la Muerte">Ve a {POITags} en Cayos del Alfanje para obtener los clavos tratados</string>
-	<string key="0205_0102_01_Boots_task_05" comment="Treated Hobnails">Obtén {itemName} de los enemigos: {targetName}</string>
-	<string key="0205_0102_01_Boots_task_06" comment="Festering Flotsam">Ve a {POITags} en Costa de la Zozobra para obtener las sortijas de metal inquebrantable</string>
-	<string key="0205_0102_01_Boots_task_07" comment="Restless Metal Bands">Obtén {itemName} de los enemigos: {targetName}</string>
-	<string key="0205_0102_01_Boots_task_08">Ve a una fragua</string>
-	<string key="0205_0102_01_Boots_task_09">Fabrica: {itemName}</string>
-	<string key="0205_0102_02_Breastplate_title">Acepta la batalla</string>
-	<string key="0205_0102_02_Breastplate_description">Obtén los remaches de adepto de Princesa Dorada, el abrillantador brilloeterno de los Pilares de Gélida y el metal trabajado del bastión Acedia. Después, ve a una fragua de clase 3 para fabricar la coraza del adalid de la batalla.</string>
-	<string key="0205_0102_02_Breastplate_task_01">Receta entregada.</string>
-	<string key="0205_0102_02_Breastplate_task_02" comment="The Golden Princess">Ve a {POITags} en Costa de la Zozobra para obtener remaches de adepto </string>
-	<string key="0205_0102_02_Breastplate_task_03" comment="Stalwart Rivets">Obtén {itemName} de los enemigos: {targetName}</string>
-	<string key="0205_0102_02_Breastplate_task_04" comment="Gelida Pillars">Ve a los {POITags} en la Gran Grieta para obtener abrillantador brilloeterno </string>
-	<string key="0205_0102_02_Breastplate_task_05" comment="Evershine Polish">Obtén {itemName} de los enemigos: {targetName}</string>
-	<string key="0205_0102_02_Breastplate_task_06" comment="Acedia Bastion">Ve a {POITags} en la Gran Grieta para obtener metal trabajado </string>
-	<string key="0205_0102_02_Breastplate_task_07" comment="Hammered Metal">Obtén {itemName} de los enemigos: {targetName}</string>
-	<string key="0205_0102_02_Breastplate_task_08">Ve a una fragua</string>
-	<string key="0205_0102_02_Breastplate_task_09">Fabrica: {itemName}</string>
-	<string key="0205_0102_03_Greaves_title">Golpes severos</string>
+	<string key="0205_0102_01_Boots_task_01" speaker="UI - Tracker Text">Receta entregada.</string>
+	<string key="0205_0102_01_Boots_task_02" comment="Fenton Hamlet" speaker="UI - Tracker Text">Ve a {POITags} en la Ciénaga de los Tejedores para obtener cuero robusto de Fenton</string>
+	<string key="0205_0102_01_Boots_task_03" comment="Stout Fenton Hides" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos: {targetName}</string>
+	<string key="0205_0102_01_Boots_task_04" comment="Cayo de la Muerte" speaker="UI - Tracker Text">Ve a {POITags} en Cayos del Alfanje para obtener los clavos tratados</string>
+	<string key="0205_0102_01_Boots_task_05" comment="Treated Hobnails" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos: {targetName}</string>
+	<string key="0205_0102_01_Boots_task_06" comment="Festering Flotsam" speaker="UI - Tracker Text">Ve a {POITags} en Costa de la Zozobra para obtener las sortijas de metal inquebrantable</string>
+	<string key="0205_0102_01_Boots_task_07" comment="Restless Metal Bands" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos: {targetName}</string>
+	<string key="0205_0102_01_Boots_task_08" speaker="UI - Tracker Text">Ve a una fragua</string>
+	<string key="0205_0102_01_Boots_task_09" speaker="UI - Tracker Text">Fabrica: {itemName}</string>
+	<string key="0205_0102_02_Breastplate_title" speaker="UI - Quest Title">Acepta la batalla</string>
+	<string key="0205_0102_02_Breastplate_description" speaker="UI - Tracker Text">Obtén los remaches de adepto de Princesa Dorada, el abrillantador brilloeterno de los Pilares de Gélida y el metal trabajado del bastión Acedia. Después, ve a una fragua de clase 3 para fabricar la coraza del adalid de la batalla.</string>
+	<string key="0205_0102_02_Breastplate_task_01" speaker="UI - Tracker Text">Receta entregada.</string>
+	<string key="0205_0102_02_Breastplate_task_02" comment="The Golden Princess" speaker="UI - Tracker Text">Ve a {POITags} en Costa de la Zozobra para obtener los remaches de adepto</string>
+	<string key="0205_0102_02_Breastplate_task_03" comment="Stalwart Rivets" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos: {targetName}</string>
+	<string key="0205_0102_02_Breastplate_task_04" comment="Gelida Pillars" speaker="UI - Tracker Text">Ve a los {POITags} en la Gran Grieta para obtener el abrillantador brilloeterno</string>
+	<string key="0205_0102_02_Breastplate_task_05" comment="Evershine Polish" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos: {targetName}</string>
+	<string key="0205_0102_02_Breastplate_task_06" comment="Acedia Bastion" speaker="UI - Tracker Text">Ve a los {POITags} en la Gran Grieta para obtener el metal trabajado</string>
+	<string key="0205_0102_02_Breastplate_task_07" comment="Hammered Metal" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos: {targetName}</string>
+	<string key="0205_0102_02_Breastplate_task_08" speaker="UI - Tracker Text">Ve a una fragua</string>
+	<string key="0205_0102_02_Breastplate_task_09" speaker="UI - Tracker Text">Fabrica: {itemName}</string>
+	<string key="0205_0102_03_Greaves_title" speaker="UI - Quest Title">Golpes severos</string>
 	<string key="0205_0102_03_Greaves_description">Obtén blindaje reforjado en Fuerte Condenación, aceite semillaamarga en Propus y metal estelar vinculado en Olimpo. Después, ve a una fragua de clase 3 para fabricar las grebas del adalid de la batalla.</string>
-	<string key="0205_0102_03_Greaves_task_01">Receta entregada.</string>
-	<string key="0205_0102_03_Greaves_task_02" comment="Fort Damnation">Ve a {POITags} en Costa de la Zozobra para obtener blindaje reforjado </string>
-	<string key="0205_0102_03_Greaves_task_03" comment="Reforged Plating">Obtén {itemName} de los enemigos: {targetName}</string>
-	<string key="0205_0102_03_Greaves_task_04" comment="Propus">Ve a {POITags} en el Valle del Pesar para obtener aceite semillaamarga </string>
-	<string key="0205_0102_03_Greaves_task_05" comment="Baneseed Oil">Obtén {itemName} de los enemigos: {targetName}</string>
-	<string key="0205_0102_03_Greaves_task_06" comment="Olympus">Ve a {POITags} en el Valle del Pesar para obtener metal estelar vinculado </string>
-	<string key="0205_0102_03_Greaves_task_07" comment="Attuned Starmetal">Obtén {itemName} de los enemigos: {targetName}</string>
-	<string key="0205_0102_03_Greaves_task_08">Ve a una fragua</string>
-	<string key="0205_0102_03_Greaves_task_09">Fabrica: {itemName}</string>
-	<string key="0205_0102_04_Gauntlets_title">Correr las baquetas</string>
-	<string key="0205_0102_04_Gauntlets_description">Obtén vilfuego refinado en el alcázar de los svikin, malla flexible en Vela y esencia de poder en Litheltop. Después, ve a una fragua de clase 3 para fabricar las manoplas del adalid de la batalla.</string>
-	<string key="0205_0102_04_Gauntlets_task_01">Receta entregada.</string>
-	<string key="0205_0102_04_Gauntlets_task_02" comment="Svikin's Stand">Ve a {POITags} en la Gran Grieta para obtener vilfuego refinado.</string>
-	<string key="0205_0102_04_Gauntlets_task_03" comment="Refined Balefire">Obtén {itemName} de los enemigos: {targetName}</string>
-	<string key="0205_0102_04_Gauntlets_task_04" comment="Vela">Ve a {POITags} en la Arboleda del Edén para obtener las mallas flexibles</string>
-	<string key="0205_0102_04_Gauntlets_task_05" comment="Flexible Mesh">Obtén {itemName} de los enemigos: {targetName}</string>
-	<string key="0205_0102_04_Gauntlets_task_06" comment="Litheltop">Ve a {POITags} en el Valle del Pesar para obtener esencia de poder.</string>
-	<string key="0205_0102_04_Gauntlets_task_07" comment="Essence of Power">Obtén {itemName} de los enemigos: {targetName}</string>
-	<string key="0205_0102_04_Gauntlets_task_08">Ve a una fragua</string>
-	<string key="0205_0102_04_Gauntlets_task_09">Fabrica: {itemName}</string>
-	<string key="0205_0102_05_Helm_title">Por delante del resto</string>
-	<string key="0205_0102_05_Helm_description">Obtén barniz fuerte de Ortigagobio, fragmentos de batalla de la mina de escoria inferior y acolchado grueso de la mina de escoria superior. Después, ve a una fragua de clase 3 para fabricar el yelmo del adalid de la batalla.</string>
-	<string key="0205_0102_05_Helm_task_01">Receta entregada.</string>
-	<string key="0205_0102_05_Helm_task_02" comment="Nettlevex">Ve a {POITags} en la Arboleda del Edén para obtener el barniz fuerte</string>
-	<string key="0205_0102_05_Helm_task_03" comment="Rugged Varnish">Obtén {itemName} de los enemigos: {targetName}</string>
-	<string key="0205_0102_05_Helm_task_04" comment="Lower Slag Mine">Ve a {POITags} en la Arboleda del Edén para obtener fragmentos de batalla</string>
-	<string key="0205_0102_05_Helm_task_05" comment="Shards of Battle">Obtén {itemName} de los enemigos: {targetName}</string>
-	<string key="0205_0102_05_Helm_task_06" comment="Upper Slag Mine">Ve a la {POITags} en la Arboleda del Edén para obtener el acolchado grueso</string>
-	<string key="0205_0102_05_Helm_task_07" comment="Heavy Padding">Obtén {itemName} de los enemigos: {targetName}</string>
-	<string key="0205_0102_05_Helm_task_08">Ve a una fragua</string>
-	<string key="0205_0102_05_Helm_task_09">Fabrica: {itemName}</string>
+	<string key="0205_0102_03_Greaves_task_01" speaker="UI - Tracker Text">Receta entregada.</string>
+	<string key="0205_0102_03_Greaves_task_02" comment="Fort Damnation" speaker="UI - Tracker Text">Ve al {POITags} en Costa de la Zozobra para obtener blindaje reforjado</string>
+	<string key="0205_0102_03_Greaves_task_03" comment="Reforged Plating" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos: {targetName}</string>
+	<string key="0205_0102_03_Greaves_task_04" comment="Propus" speaker="UI - Tracker Text">Ve a {POITags} en el Valle del Pesar para obtener aceite semillaamarga</string>
+	<string key="0205_0102_03_Greaves_task_05" comment="Baneseed Oil" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos: {targetName}</string>
+	<string key="0205_0102_03_Greaves_task_06" comment="Olympus" speaker="UI - Tracker Text">Ve a {POITags} en el Valle del Pesar para obtener metal estelar vinculado</string>
+	<string key="0205_0102_03_Greaves_task_07" comment="Attuned Starmetal" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos: {targetName}</string>
+	<string key="0205_0102_03_Greaves_task_08" speaker="UI - Tracker Text">Ve a una fragua</string>
+	<string key="0205_0102_03_Greaves_task_09" speaker="UI - Tracker Text">Fabrica: {itemName}</string>
+	<string key="0205_0102_04_Gauntlets_title" speaker="UI - Quest Title">Correr las baquetas</string>
+	<string key="0205_0102_04_Gauntlets_description" speaker="UI - Quest Description">Obtén vilfuego refinado en el alcázar de los svikin, malla flexible en Vela y esencia de poder en Litheltop. Después, ve a una fragua de clase 3 para fabricar las manoplas del adalid de la batalla.</string>
+	<string key="0205_0102_04_Gauntlets_task_01" speaker="UI - Tracker Text">Receta entregada.</string>
+	<string key="0205_0102_04_Gauntlets_task_02" comment="Svikin's Stand" speaker="UI - Tracker Text">Ve a {POITags} en la Gran Grieta para obtener vilfuego refinado.</string>
+	<string key="0205_0102_04_Gauntlets_task_03" comment="Refined Balefire" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos: {targetName}</string>
+	<string key="0205_0102_04_Gauntlets_task_04" comment="Vela" speaker="UI - Tracker Text">Ve a {POITags} en la Arboleda del Edén para obtener las mallas flexibles</string>
+	<string key="0205_0102_04_Gauntlets_task_05" comment="Flexible Mesh" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos: {targetName}</string>
+	<string key="0205_0102_04_Gauntlets_task_06" comment="Litheltop" speaker="UI - Tracker Text">Ve a {POITags} en el Valle del Pesar para obtener esencia de poder.</string>
+	<string key="0205_0102_04_Gauntlets_task_07" comment="Essence of Power" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos: {targetName}</string>
+	<string key="0205_0102_04_Gauntlets_task_08" speaker="UI - Tracker Text">Ve a una fragua</string>
+	<string key="0205_0102_04_Gauntlets_task_09" speaker="UI - Tracker Text">Fabrica: {itemName}</string>
+	<string key="0205_0102_05_Helm_title" speaker="UI - Quest Title">Por delante del resto</string>
+	<string key="0205_0102_05_Helm_description" speaker="UI - Quest Description">Obtén barniz fuerte de Ortigagobio, fragmentos de batalla de la mina de escoria inferior y acolchado grueso de la mina de escoria superior. Después, ve a una fragua de clase 3 para fabricar el yelmo del adalid de la batalla.</string>
+	<string key="0205_0102_05_Helm_task_01" speaker="UI - Tracker Text">Receta entregada.</string>
+	<string key="0205_0102_05_Helm_task_02" comment="Nettlevex" speaker="UI - Tracker Text">Ve a {POITags} en la Arboleda del Edén para obtener el barniz fuerte</string>
+	<string key="0205_0102_05_Helm_task_03" comment="Rugged Varnish" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos: {targetName}</string>
+	<string key="0205_0102_05_Helm_task_04" comment="Lower Slag Mine" speaker="UI - Tracker Text">Ve a {POITags} en la Arboleda del Edén para obtener fragmentos de batalla</string>
+	<string key="0205_0102_05_Helm_task_05" comment="Shards of Battle" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos: {targetName}</string>
+	<string key="0205_0102_05_Helm_task_06" comment="Upper Slag Mine" speaker="UI - Tracker Text">Ve a la {POITags} en la Arboleda del Edén para obtener el acolchado grueso</string>
+	<string key="0205_0102_05_Helm_task_07" comment="Heavy Padding" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos: {targetName}</string>
+	<string key="0205_0102_05_Helm_task_08" speaker="UI - Tracker Text">Ve a una fragua</string>
+	<string key="0205_0102_05_Helm_task_09" speaker="UI - Tracker Text">Fabrica: {itemName}</string>
 	<string key="0204_0104_Executioner_title" speaker="UI - Quest Title">Ejecutora</string>
 	<string key="0204_0104_Executioner_description" speaker="UI - Quest Description">Obtén el tablón de bucanero del Fuerte Rocráneo, la atadura de verdugo de las Colinas Descarriadas, la hoja de los cafres de Tiburón Saqueador y el coagulante infernal de Grus para construir la infame hacha «Ejecutor». Cuando termines esta tarea, habla con el clérigo jefe Pennyfather en el asentamiento de Bosque Luminoso.</string>
 	<string key="0204_0104_Executioner_start_prompt" speaker="UI - Player Prompt">«Eso me interesa».</string>
@@ -589,52 +589,52 @@
 	<string key="0203_0103_Hope_Manifest_proposal" speaker="Embalmer Bankole - Brightwood" gender="M" VO="Survivalist_0203_0103_Hope_Manifest_Proposal" VO_Status="Recorded">Oh, tendrías que remontarte muchos siglos atrás para poder encontrar uno. Aunque puedo enseñarte a fabricarlo.\n\nAquí tienes una lista de los elementos necesarios. Reúnelos y podrás fabricar el báculo Mensaje de esperanza.</string>
 	<string key="0203_0103_Hope_Manifest_incomplete" speaker="Embalmer Bankole - Brightwood" gender="M">¿Sigues buscando los elementos del báculo?\n\nTarde o temprano los encontrarás, si perseveras en la búsqueda.</string>
 	<string key="0203_0103_Hope_Manifest_complete" speaker="Embalmer Bankole - Brightwood" gender="M" VO="Survivalist_0203_0103_Hope_Manifest_Complete" VO_Status="Recorded">Ahí está la nueva luz del Bosque Luminoso y también has encontrado algo que necesitabas, ¿verdad?\n\nMientras empuñes el báculo, serás la encarnación del «Mensaje de esperanza». El brillo te seguirá adondequiera que vayas.</string>
-	<string key="0204_0104_BucaneersPlank_Quest_objective_title">Consigue los objetos necesarios para fabricar el Ejecutor</string>
-	<string key="0204_0104_HangmansBinding_Quest_objective_title">Consigue los objetos necesarios para fabricar el Ejecutor</string>
-	<string key="0204_0104_BladeBrute_Quest_objective_title">Consigue los objetos necesarios para fabricar el Ejecutor</string>
-	<string key="0204_0104_InfernalCoagulant_Quest_objective_title">Consigue los objetos. Después, fabrica el Ejecutor</string>
-	<string key="0204_0104_BucaneersPlank_Quest_description">Los piratas más traicioneros solo aman una cosa: el abrazo del mar.</string>
-	<string key="0204_0104_HangmansBinding_Quest_description">Los condenados a la horca tienen la suerte echada y no pueden escapar de su sino. Solo tú puedes darles descanso.</string>
-	<string key="0204_0104_BladeBrute_Quest_description">Los más despiadados de entre nosotros debemos prescindir de la piedad, pues ellos no muestran ninguna con el enemigo.</string>
-	<string key="0204_0104_InfernalCoagulant_Quest_description">Incluso la sangre más exaltada que corre por las venas sucumbe a la fétida oscuridad.</string>
-	<string key="0203_0103_MendersCloth_Quest_objective_title">Consigue los objetos necesarios para fabricar Mensaje de esperanza</string>
-	<string key="0203_0103_SoothsayerSalve_Quest_objective_title">Consigue los objetos necesarios para fabricar Mensaje de esperanza</string>
-	<string key="0203_0103_MercysBreath_Quest_objective_title">Consigue los objetos necesarios para fabricar Mensaje de esperanza</string>
-	<string key="0203_0103_HopeCatalyst_Quest_objective_title">Consigue los objetos. Después, fabrica Mensaje de esperanza</string>
-	<string key="0203_0103_MendersCloth_Quest_description">La sanación yace en las telas del curandero, pues venda las heridas como una égida.</string>
-	<string key="0203_0103_SoothsayerSalve_Quest_description">La sanación yace en el bálsamo de quien reconforta, pues su caricia adormece el dolor.</string>
-	<string key="0203_0103_MercysBreath_Quest_description">La sanación yace en el Aliento de la Piedad, un obsequio de los destinos que jamás dejan de tejerse.</string>
-	<string key="0203_0103_HopeCatalyst_Quest_description">La sanación yace en la esperanza que da vida y en quienes la catalizan.</string>
-	<string key="0204_0104_BucaneersPlank_Quest_task_01" comment="Stone Skull Fort">Ve a {POITags} en Cayos del Alfanje para obtener el tablón de bucanero</string>
-	<string key="0204_0104_BucaneersPlank_Quest_task_02" comment="Bucaneer's Plank">Obtén {itemName} de los enemigos: {targetName}</string>
-	<string key="0204_0104_HangmansBinding_Quest_task_01" comment="Wayward Mounds">Ve a {POITags} en la Gran Grieta para obtener la atadura de verdugo</string>
-	<string key="0204_0104_HangmansBinding_Quest_task_02" comment="Hangman's Binding">Obtén {itemName} de los enemigos gules, redivivos y ánimas</string>
-	<string key="0204_0104_HangmansBinding_Quest_task_03" comment="Hangman's Binding">Obtén {itemName} de los enemigos: {targetName}</string>
-	<string key="0204_0104_BladeBrute_Quest_task_01" comment="Plundering Shark">Ve a {POITags} en Costa de la Zozobra para obtener la hoja de los cafres</string>
-	<string key="0204_0104_BladeBrute_Quest_task_02" comment="Blade of the Brutes">Obtén {itemName} de los enemigos: {targetName}</string>
-	<string key="0204_0104_InfernalCoagulant_Quest_task_01" comment="Grus">Ve a {POITags} en el Valle del Pesar para obtener el coagulante infernal</string>
-	<string key="0204_0104_InfernalCoagulant_Quest_task_02" comment="Infernal Coagulant">Obtén {itemName} de {targetName}</string>
-	<string key="0204_0104_InfernalCoagulant_Quest_task_03">Receta entregada.</string>
-	<string key="0204_0104_InfernalCoagulant_Quest_task_04">Ve a una fragua</string>
-	<string key="0204_0104_InfernalCoagulant_Quest_task_05">Crea: {itemName}</string>
-	<string key="0203_0103_MendersCloth_Quest_task_01" comment="Seele's Stake">Ve a {POITags} en Costa de la Zozobra para obtener la tela de curandero</string>
-	<string key="0203_0103_MendersCloth_Quest_task_02" comment="Mender's Cloth">Obtén {itemName} de los enemigos: {targetName}</string>
-	<string key="0203_0103_SoothsayerSalve_Quest_task_01" comment="Catara Falls">Ve a {POITags} en la Gran Grieta para obtener el bálsamo de augur</string>
-	<string key="0203_0103_SoothsayerSalve_Quest_task_02" comment="Soothsayer's Salve">Obtén {itemName} de los enemigos: {targetName}</string>
-	<string key="0203_0103_MercysBreath_Quest_task_01" comment="Eridanus">Ve a {POITags} en Costa de la Zozobra para obtener el aliento de la piedad</string>
-	<string key="0203_0103_MercysBreath_Quest_task_02" comment="Mercy's Breath">Obtén {itemName} de los enemigos: {targetName}</string>
-	<string key="0203_0103_HopeCatalyst_Quest_task_01" comment="Vela">Ve a {POITags} en el Valle del Pesar para obtener el catalizador de la esperanza</string>
-	<string key="0203_0103_HopeCatalyst_Quest_task_02" comment="Hope Catalyst">Obtén {itemName} de {targetName}</string>
-	<string key="0203_0103_HopeCatalyst_Quest_task_03">Receta entregada.</string>
-	<string key="0203_0103_HopeCatalyst_Quest_task_04">Ve a una estación arcana</string>
-	<string key="0203_0103_HopeCatalyst_Quest_task_05">Crea: {itemName}</string>
-	<string key="0203_0103_01_container_Weapon_Hope_Manifest_questComplete_1">Completa la misión: Cortado con la misma tijera</string>
-	<string key="0203_0103_02_container_Weapon_Hope_Manifest_questComplete_2">Completa la misión: Bálsamo balsámico</string>
-	<string key="0203_0103_03_container_Weapon_Hope_Manifest_questComplete_3">Completa la misión: Destinos piadosos</string>
-	<string key="0203_0103_04_container_Weapon_Hope_Manifest_questComplete_4">Completa la misión: Fuente de esperanza</string>
-	<string key="0204_0104_01_container_Weapon_Executioner_questComplete_1">Completa la misión: Caminar por la tabla</string>
-	<string key="0204_0104_02_container_Weapon_Executioner_questComplete_2">Completa la misión: Los vínculos que unen</string>
-	<string key="0204_0104_03_container_Weapon_Executioner_questComplete_3">Completa la misión: Brutalidad shakespeariana</string>
-	<string key="0204_0104_04_container_Weapon_Executioner_questComplete_4">Completa la misión: Más espeso que el agua</string>
+	<string key="0204_0104_BucaneersPlank_Quest_objective_title" speaker="UI - Tracker Text">Consigue los objetos necesarios para fabricar el Ejecutor</string>
+	<string key="0204_0104_HangmansBinding_Quest_objective_title" speaker="UI - Tracker Text">Consigue los objetos necesarios para fabricar el Ejecutor</string>
+	<string key="0204_0104_BladeBrute_Quest_objective_title" speaker="UI - Tracker Text">Consigue los objetos necesarios para fabricar el Ejecutor</string>
+	<string key="0204_0104_InfernalCoagulant_Quest_objective_title" speaker="UI - Tracker Text">Consigue los objetos. Después, fabrica el Ejecutor</string>
+	<string key="0204_0104_BucaneersPlank_Quest_description" speaker="UI - Quest Description">Los piratas más traicioneros solo aman una cosa: el abrazo del mar.</string>
+	<string key="0204_0104_HangmansBinding_Quest_description" speaker="UI - Quest Description">Los condenados a la horca tienen la suerte echada y no pueden escapar de su sino. Solo tú puedes darles descanso.</string>
+	<string key="0204_0104_BladeBrute_Quest_description" speaker="UI - Quest Description">Los más despiadados de entre nosotros debemos prescindir de la piedad, pues ellos no muestran ninguna con el enemigo.</string>
+	<string key="0204_0104_InfernalCoagulant_Quest_description" speaker="UI - Quest Description">Incluso la sangre más exaltada que corre por las venas sucumbe a la fétida oscuridad.</string>
+	<string key="0203_0103_MendersCloth_Quest_objective_title" speaker="UI - Tracker Text">Consigue los objetos necesarios para fabricar Mensaje de esperanza</string>
+	<string key="0203_0103_SoothsayerSalve_Quest_objective_title" speaker="UI - Tracker Text">Consigue los objetos necesarios para fabricar Mensaje de esperanza</string>
+	<string key="0203_0103_MercysBreath_Quest_objective_title" speaker="UI - Tracker Text">Consigue los objetos necesarios para fabricar Mensaje de esperanza</string>
+	<string key="0203_0103_HopeCatalyst_Quest_objective_title" speaker="UI - Tracker Text">Consigue los objetos. Después, fabrica Mensaje de esperanza</string>
+	<string key="0203_0103_MendersCloth_Quest_description" speaker="UI - Quest Description">La sanación yace en las telas del curandero, pues venda las heridas como una égida.</string>
+	<string key="0203_0103_SoothsayerSalve_Quest_description" speaker="UI - Quest Description">La sanación yace en el bálsamo de quien reconforta, pues su caricia adormece el dolor.</string>
+	<string key="0203_0103_MercysBreath_Quest_description" speaker="UI - Quest Description">La sanación yace en el Aliento de la Piedad, un obsequio de los destinos que jamás dejan de tejerse.</string>
+	<string key="0203_0103_HopeCatalyst_Quest_description" speaker="UI - Quest Description">La sanación yace en la esperanza que da vida y en quienes la catalizan.</string>
+	<string key="0204_0104_BucaneersPlank_Quest_task_01" comment="Stone Skull Fort" speaker="UI - Tracker Text">Ve a {POITags} en Cayos del Alfanje para obtener el tablón de bucanero</string>
+	<string key="0204_0104_BucaneersPlank_Quest_task_02" comment="Bucaneer's Plank" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos: {targetName}</string>
+	<string key="0204_0104_HangmansBinding_Quest_task_01" comment="Wayward Mounds" speaker="UI - Tracker Text">Ve a {POITags} en la Gran Grieta para obtener la atadura de verdugo</string>
+	<string key="0204_0104_HangmansBinding_Quest_task_02" comment="Hangman's Binding" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos gules, redivivos y ánimas</string>
+	<string key="0204_0104_HangmansBinding_Quest_task_03" comment="Hangman's Binding" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos: {targetName}</string>
+	<string key="0204_0104_BladeBrute_Quest_task_01" comment="Plundering Shark" speaker="UI - Tracker Text">Ve a {POITags} en Costa de la Zozobra para obtener la hoja de los cafres</string>
+	<string key="0204_0104_BladeBrute_Quest_task_02" comment="Blade of the Brutes" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos: {targetName}</string>
+	<string key="0204_0104_InfernalCoagulant_Quest_task_01" comment="Grus" speaker="UI - Tracker Text">Ve a {POITags} en el Valle del Pesar para obtener el coagulante infernal</string>
+	<string key="0204_0104_InfernalCoagulant_Quest_task_02" comment="Infernal Coagulant" speaker="UI - Tracker Text">Obtén {itemName} de {targetName}</string>
+	<string key="0204_0104_InfernalCoagulant_Quest_task_03" speaker="UI - Tracker Text">Receta entregada.</string>
+	<string key="0204_0104_InfernalCoagulant_Quest_task_04" speaker="UI - Tracker Text">Ve a una fragua</string>
+	<string key="0204_0104_InfernalCoagulant_Quest_task_05" speaker="UI - Tracker Text">Crea: {itemName}</string>
+	<string key="0203_0103_MendersCloth_Quest_task_01" comment="Seele's Stake" speaker="UI - Tracker Text">Ve a {POITags} en Costa de la Zozobra para obtener la tela de curandero</string>
+	<string key="0203_0103_MendersCloth_Quest_task_02" comment="Mender's Cloth" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos: {targetName}</string>
+	<string key="0203_0103_SoothsayerSalve_Quest_task_01" comment="Catara Falls" speaker="UI - Tracker Text">Ve a {POITags} en la Gran Grieta para obtener el bálsamo de augur</string>
+	<string key="0203_0103_SoothsayerSalve_Quest_task_02" comment="Soothsayer's Salve" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos: {targetName}</string>
+	<string key="0203_0103_MercysBreath_Quest_task_01" comment="Eridanus" speaker="UI - Tracker Text">Ve a {POITags} en Costa de la Zozobra para obtener el aliento de la piedad</string>
+	<string key="0203_0103_MercysBreath_Quest_task_02" comment="Mercy's Breath" speaker="UI - Tracker Text">Obtén {itemName} de los enemigos: {targetName}</string>
+	<string key="0203_0103_HopeCatalyst_Quest_task_01" comment="Vela" speaker="UI - Tracker Text">Ve a {POITags} en el Valle del Pesar para obtener el catalizador de la esperanza</string>
+	<string key="0203_0103_HopeCatalyst_Quest_task_02" comment="Hope Catalyst" speaker="UI - Tracker Text">Obtén {itemName} de {targetName}</string>
+	<string key="0203_0103_HopeCatalyst_Quest_task_03" speaker="UI - Tracker Text">Receta entregada.</string>
+	<string key="0203_0103_HopeCatalyst_Quest_task_04" speaker="UI - Tracker Text">Ve a una estación arcana</string>
+	<string key="0203_0103_HopeCatalyst_Quest_task_05" speaker="UI - Tracker Text">Crea: {itemName}</string>
+	<string key="0203_0103_01_container_Weapon_Hope_Manifest_questComplete_1" speaker="UI - Tracker Text">Completa la misión: Cortado con la misma tijera</string>
+	<string key="0203_0103_02_container_Weapon_Hope_Manifest_questComplete_2" speaker="UI - Tracker Text">Completa la misión: Bálsamo balsámico</string>
+	<string key="0203_0103_03_container_Weapon_Hope_Manifest_questComplete_3" speaker="UI - Tracker Text">Completa la misión: Destinos piadosos</string>
+	<string key="0203_0103_04_container_Weapon_Hope_Manifest_questComplete_4" speaker="UI - Tracker Text">Completa la misión: Fuente de esperanza</string>
+	<string key="0204_0104_01_container_Weapon_Executioner_questComplete_1" speaker="UI - Tracker Text">Completa la misión: Caminar por la tabla</string>
+	<string key="0204_0104_02_container_Weapon_Executioner_questComplete_2" speaker="UI - Tracker Text">Completa la misión: Los vínculos que unen</string>
+	<string key="0204_0104_03_container_Weapon_Executioner_questComplete_3" speaker="UI - Tracker Text">Completa la misión: Brutalidad shakespeariana</string>
+	<string key="0204_0104_04_container_Weapon_Executioner_questComplete_4" speaker="UI - Tracker Text">Completa la misión: Más espeso que el agua</string>
 </resources>
 

@@ -110,7 +110,7 @@
 	<string key="ui_contract_failure_insufficient_items">Objets insuffisants.</string>
 	<string key="ui_contract_failure_outpost_storage_full">Rangement de la colonie plein.</string>
 	<string key="ui_contract_failure_server_error">Erreur de serveur.</string>
-	<string key="ui_contract_failure_creator_cannot_complete">Impossible de remplir un ordre que vous avez créé.</string>
+	<string key="ui_contract_failure_creator_cannot_complete">Vous ne pouvez pas finaliser l'ordre que vous avez créé.</string>
 	<string key="ui_contract_failure_invalid_request">Demande d'ordre incorrecte</string>
 	<string key="ui_contract_failure_inventory_full">Inventaire plein.</string>
 	<string key="ui_contract_failure_throttled">Requête ralentie. Veuillez réessayer plus tard.</string>
@@ -136,9 +136,11 @@
 	<string key="ui_view_details">Afficher les détails</string>
 	<string key="ui_cancelorder_confirmation">Voulez-vous vraiment annuler cet ordre ?</string>
 	<string key="ui_returnorder_buyconfirmation">Les &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{priceTotal}&lt;/font&gt;&lt;/font&gt; &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; restants seront reversés dans votre bourse.</string>
-	<string key="ui_returnorder_sellconfirmation">Les &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{count} objets&lt;/font&gt;&lt;/font&gt; restants seront placés dans votre &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;inventaire&lt;/font&gt;&lt;/font&gt;.</string>
+	<string key="ui_returnorder_inventory_sellconfirmation">Les &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{count} objets&lt;/font&gt;&lt;/font&gt; restants seront placés dans votre &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;inventaire&lt;/font&gt;&lt;/font&gt;.</string>
+	<string key="ui_returnorder_outpost_sellconfirmation">Les &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{count} objets&lt;/font&gt;&lt;/font&gt; restants seront déposés à : &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{outpostName}&lt;/font&gt;&lt;/font&gt;.</string>
 	<string key="ui_returnorder_sell_title">Ordre annulé</string>
-	<string key="ui_returnorder_sell_desc">Vous avez annulé l'ordre de &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} x {quantity}&lt;/font&gt;&lt;/font&gt; ! Cet objet est désormais disponible dans votre &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;inventaire&lt;/font&gt;&lt;/font&gt;.</string>
+	<string key="ui_returnorder_inventory_sell_desc">Vous avez annulé l'ordre de &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} x {quantity}&lt;/font&gt;&lt;/font&gt; ! Cet objet est désormais disponible dans votre &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;inventaire&lt;/font&gt;&lt;/font&gt;.</string>
+	<string key="ui_returnorder_outpost_sell_desc">Vous avez annulé l'ordre de &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} x {quantity}&lt;/font&gt;&lt;/font&gt; ! Cet objet est désormais disponible à : &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt;.</string>
 	<string key="ui_returnorder_failed">Annulation de l'ordre impossible</string>
 	<string key="ui_contract_no_longer_available">L'ordre n'est plus disponible.</string>
 	<string key="ui_numbuyandsellorders">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{numBuyOrders}&lt;/font&gt;&lt;/font&gt; Ordres d'achat, &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{numSellOrders}&lt;/font&gt;&lt;/font&gt; Ordres de vente</string>
@@ -210,7 +212,7 @@
 	<string key="ui_buyorder_gem_socket_label">Niche à gemme :</string>
 	<string key="ui_buyorder_rarity_label">Rareté :</string>
 	<string key="ui_buyorder_perk_label">Atout :</string>
-	<string key="ui_exclusive_perk_popup_title">Atout dit « exclusif » sélectionné</string>
+	<string key="ui_exclusive_perk_popup_title">Atout « exclusif » sélectionné</string>
 	<string key="ui_exclusive_perk_popup_message">Vous ne pouvez disposer que d'un seul atout de ce type. Souhaitez-vous remplacer l'atout de ce type actuellement sélectionné par celui-ci ?</string>
 	<string key="ui_exclusive_perk_popup_message_no_replace">{newPerkName} et {selectedPerkName} sont exclusifs et ne peuvent pas être sélectionnés ensemble.</string>
 	<string key="ui_max_perk_popup_title">Maximum atteint</string>

@@ -42,6 +42,8 @@
 	<string key="objective_buySell_spendGoldSingleTransaction" speaker="UI">Gaste {amountCount} moedas em uma única transação</string>
 	<string key="objective_completed" speaker="UI">Objetivo Concluído</string>
 	<string key="dynamic_poi_objective_completed" speaker="UI">Marco Investigado</string>
+	<string key="objective_quest_encounter">Encontro de Jornada</string>
+	<string key="objective_quest_encounter_description">Conclua o encontro para avançar na jornada.</string>
 	<string key="objective_craft" speaker="UI">Confeccione {itemName}</string>
 	<string key="objective_craft_p" speaker="UI">Confeccione {itemAmount}x {itemName}</string>
 	<string key="objective_crafthealingdrops" speaker="UI">Confeccione {itemName} em seu Acampamento (padrão: [Y])</string>
@@ -67,7 +69,7 @@
 	<string key="objective_experience" speaker="UI">Exp</string>
 	<string key="objective_failed" speaker="UI">Falha no Objetivo</string>
 	<string key="objective_gather_herbs" speaker="UI">Colete {itemName}s Azuis de áreas litorâneas</string>
-	<string key="objective_gatherironore" speaker="UI">Recupere o Minério de Ferro na Algibeira Pesada no inventário</string>
+	<string key="objective_gatherironore" speaker="UI">Recupere o Minério de Ferro na Algibeira Pesada no inventário OU</string>
 	<string key="objective_gatherrawhide" speaker="UI">Esfole Javalis e Lobos para obter {itemName}</string>
 	<string key="objective_gatherstone" speaker="UI">Minere {itemName} de Rochedos</string>
 	<string key="objective_gatherwood" speaker="UI">Colete {itemName} de Arbustos ou Árvores</string>
@@ -76,6 +78,7 @@
 	<string key="objective_have_level" speaker="UI">Chegue ao nível {level}</string>
 	<string key="objective_have" speaker="UI">Obtenha {itemName}</string>
 	<string key="objective_have_p" speaker="UI">Obtenha {itemAmount}x {itemName}</string>
+	<string key="@objective_house_score" speaker="UI">Alcance uma pontuação de decoração da casa de {score}</string>
 	<string key="objective_ingredients" speaker="UI">INGREDIENTES</string>
 	<string key="objective_journal" speaker="UI">Diário</string>
 	<string key="objective_journey" speaker="UI">Histórias Paralelas</string>
@@ -157,6 +160,8 @@
 	<string key="objective_has_location" speaker="UI">Com Localizações Específicas</string>
 	<string key="objective_no_location" speaker="UI">Sem Localizações Específicas</string>
 	<string key="objective_side_quests" speaker="UI">Jornadas Paralelas</string>
+	<string key="objective_event" speaker="UI">Jornadas de Evento</string>
+	<string key="objective_event_desc" speaker="UI">Objetivos disponíveis durante um Evento</string>
 	<string key="objective_faction_missions" speaker="UI">Missões da Facção</string>
 	<string key="objective_community_goal" speaker="UI">Projetos da Vila</string>
 	<string key="objective_POI" speaker="UI">Marco</string>
@@ -201,7 +206,7 @@
 	<string key="objective_story_task_getoffthebeach" speaker="UI">Encontre o Posto Avançado</string>
 	<string key="objective_story_task_search_containers" speaker="UI">Procure caixotes perto de {POITags}</string>
 	<string key="objective_tasks" speaker="UI">TAREFAS</string>
-	<string key="objective_townproject" speaker="UI">Projeto de Vila</string>
+	<string key="objective_townproject" speaker="UI">Projetos de Vila</string>
 	<string key="objective_townproject_desc" speaker="UI">Encontrado nos Quadros de Planejamento de Vila</string>
 	<string key="objective_unpin" speaker="UI">Desafixar</string>
 	<string key="objective_use" speaker="UI">Utilize {itemName}</string>
@@ -226,6 +231,7 @@
 	<string key="objective_mission_task_patrol_windsward" speaker="UI">Patrulhe o Território</string>
 	<string key="patrol_task_container_description" speaker="UI">Defenda seu território, mas sobreviva.</string>
 	<string key="objective_mission_task_patrol_timer" speaker="UI">Segure {POITags} durante {timeRemaining}</string>
+	<string key="objective_mission_task_control_point" speaker="UI">Capture o Forte de {TerritoryID} pelos Saqueadores</string>
 	<string key="task_choose_faction" speaker="UI">Escolha uma facção com {destinationName}</string>
 	<string key="complete_available_prompt_DEFAULT" comment="male" speaker="UI - Button">Concluir a Missão</string>
 	<string key="prompt_DEFAULT" speaker="UI - Button">Aceitar a Missão</string>
@@ -262,5 +268,24 @@
 	<string key="objective_destroy_and_collect" speaker="UI">Destrua {targetName} e colete {itemName} em {POITags}</string>
 	<string key="commander">Comandante</string>
 	<string key="objective_mission_destroy_generic_at_POI">Destrua {targetName} em {POITags}</string>
+	<string key="objective_mission_task_PVP_kill_and_acquire_X_items_anywhere">Derrote membros de facções inimigas para coletar {itemName}</string>
+	<string key="objective_mission_kill_generic">Derrote {targetName}</string>
+	<string key="objective_mission_loot_chests_generic">Procure {itemName} em baús</string>
+	<string key="objective_mission_hunt_generic">Cace {targetName}</string>
+	<string key="objective_mission_loot_chests_at_Warcamp">Procure {itemName} em baús no Acampamento de Guerra {TerritoryID}</string>
+	<string key="objective_mission_kill_with_weapon">Derrote {targetName} usando {WeaponClassId}</string>
+	<string key="objective_mission_kill_with_sword">Derrote {targetName} usando Espada e Escudo</string>
+	<string key="objective_mission_kill_with_rapier">Derrote {targetName} usando uma Rapieira</string>
+	<string key="objective_mission_kill_with_hatchet">Derrote {targetName} usando uma Machadinha</string>
+	<string key="objective_mission_kill_with_greataxe">Derrote {targetName} usando um Machadão</string>
+	<string key="objective_mission_kill_with_warhammer">Derrote {targetName} usando um Martelo de Guerra</string>
+	<string key="objective_mission_kill_with_spear">Derrote {targetName} usando uma Lança</string>
+	<string key="objective_mission_kill_with_bow">Derrote {targetName} usando um Arco</string>
+	<string key="objective_mission_kill_with_musket">Derrote {targetName} usando um Mosquete</string>
+	<string key="objective_mission_kill_with_firestaff">Derrote {targetName} usando um Bastão Flamejante</string>
+	<string key="objective_mission_kill_with_lifestaff">Derrote {targetName} usando um Bastão Vital</string>
+	<string key="objective_mission_kill_with_icegauntlet">Derrote {targetName} usando uma Manopla de Gelo</string>
+	<string key="objective_mission_task_control_point_S">Capture o Forte de {TerritoryID} pelo Sindicato</string>
+	<string key="objective_mission_task_control_point_C">Capture o Forte de {TerritoryID} pela Aliança</string>
 </resources>
 

@@ -61,8 +61,8 @@
 	<string key="inv_equipLoadSlow">Ciężkie</string>
 	<string key="inv_equipLoadOverburdened">Nadmiar ekwipunku</string>
 	<string key="inv_equipLoadTooltip">Łączna waga noszonego pancerza i tarczy określa ciężar twojego wyposażenia. W zależności od ciężaru wyposażenia różnią się uniki i inne premie.</string>
-	<string key="inv_equipLoadFastTooltip">Nosząc lekki pancerz, możesz wykonać szybki przewrót o sporym zasięgu. Zadajesz 20% dodatkowych obrażeń.</string>
-	<string key="inv_equipLoadNormalTooltip">Nosząc pancerz o średnim ciężarze, możesz wykonać szybki odskok. Zadajesz 10% dodatkowych obrażeń. Czas trwania negatywnych efektów obezwładniających, które nakładasz, zostaje wydłużony o 10%.</string>
+	<string key="inv_equipLoadFastTooltip">Nosząc lekki pancerz, możesz wykonać szybki przewrót o sporym zasięgu. Masz premię 20% do zadawanych obrażeń i {[Type_StatusEffectData.EquipLoad_HealingBonus_Light.HealScalingValueMultiplier * 100]}% do leczenia.</string>
+	<string key="inv_equipLoadNormalTooltip">Nosząc pancerz o średnim ciężarze, możesz wykonać szybki odskok. Masz premię 10% do zadawanych obrażeń i 15% do leczenia. Czas trwania negatywnych efektów obezwładniających, które nakładasz, zostaje wydłużony o 10%.</string>
 	<string key="inv_equipLoadSlowTooltip">Nosząc ciężki pancerz, możesz wykonać powolny zwód. Zwiększa twoją stabilność blokowania o 15%. Czas trwania negatywnych efektów obezwładniających, które nakładasz, zostaje wydłużony o 20%.</string>
 	<string key="inv_equipLoadOverburdenedTooltip">Po przekroczeniu maksymalnego ciężaru wyposażenia nie możesz wykonywać uników, poruszać się sprintem i używać umiejętności. Odłóż część przedmiotów.</string>
 	<string key="inv_equipLoadEncumberedTooltip">Masz za dużo przedmiotów w ekwipunku. W przypadku przeciążenia ciężar wyposażenia nie ma znaczenia. Nie możesz biegać sprintem ani wykonywać uników, a blokowanie zużywa więcej wytrzymałości. Usuń część przedmiotów ze swojego plecaka.</string>
@@ -78,6 +78,7 @@
 	<string key="inv_does_not_meet_weapon_requirements">Niewystarczające cechy</string>
 	<string key="inv_encumbranceAttackNotification">Przeciążenie uniemożliwia atak</string>
 	<string key="inv_insufficientManaNotification">Za mało many</string>
+	<string key="inv_OutOfRangeNotification">Cel poza zasięgiem</string>
 	<string key="inv_compareTo">Porównaj z: {location}</string>
 	<string key="inv_additionalItems">Dodatkowe przedmioty: {count}</string>
 	<string key="inv_repairparts_quantity">Części zamienne: {count}</string>
@@ -124,6 +125,8 @@
 	<string key="ui_currency_totreasury">Do skarbca kompanii</string>
 	<string key="ui_new_primary_tool_set">Nowy główny zestaw narzędzi ({gatheringType})</string>
 	<string key="ui_storage_is_full">Magazyn jest pełny.</string>
+	<string key="ui_storage_is_empty">Magazyn jest pusty.</string>
+	<string key="ui_retrieving_storage">Pobieranie danych magazynu.</string>
 	<string key="ui_split_stack">Podziel stos</string>
 	<string key="ui_set_quantity">Podaj liczbę</string>
 	<string key="ui_drag_new_stack">Przeciągnij na nowy stos</string>
@@ -159,5 +162,6 @@
 	<string key="ui_Constitution_short">KOND.</string>
 	<string key="ui_loot_bag_1_item">1 przedmiot</string>
 	<string key="ui_loot_bag_items">Przedmioty: {amount}</string>
+	<string key="tutorial_salvage_items">Odzyskuj &lt;font color="#ffea00"&gt;części zamienne&lt;/font&gt; z broni, pancerzy i narzędzi.</string>
 </resources>
 

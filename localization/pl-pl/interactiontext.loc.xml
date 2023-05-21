@@ -22,7 +22,7 @@
 	<string key="ui_lowskillmining" comment="the required skill level will be shown in a circle immediately to the right of this string">Wymagana umiejętność górnictwa</string>
 	<string key="ui_notoolazothstaff">Nie wyposażono się w: {itemName} klasy {tier}</string>
 	<string key="ui_nopermission">Brak dostępu publicznego.</string>
-	<string key="ui_nopermissionrank">Stopień „{rank}” nie ma pozwolenia na to działanie ({action}).</string>
+	<string key="ui_nopermissionrank">Stopień "{rank}" nie ma pozwolenia na to działanie ({action}).</string>
 	<string key="ui_nopermissionpublic">To działanie ({action}) nie jest dozwolone w przypadku konstrukcji publicznych.</string>
 	<string key="ui_nopermissionatwar">Cel wojny</string>
 	<string key="ui_nopermissionhover">Stopień {rank} nie jest dozwolony</string>
@@ -59,7 +59,7 @@
 	<string key="ui_view_town_projects">Wyświetl projekty miasteczka</string>
 	<string key="ui_view_raid_information">Wyświetl informacje o armii</string>
 	<string key="ui_talk">Rozmawiaj</string>
-	<string key="ui_interact_pet" comment="Reserving ui_pet for if we get a more generic interact for that down the line">Zwierzę domowe</string>
+	<string key="ui_interact_pet" comment="Reserving ui_pet for if we get a more generic interact for that down the line">Pogłaszcz</string>
 	<string key="ui_interact_territory_functionality_down">BŁĄD SERWERA: Spróbuj ponownie za kilka minut.</string>
 	<string key="ui_interact_with_item_cost">{interactionName} ({amount} {itemName})</string>
 	<string key="ui_interact_with_item_cost_sufficient">{interactionName} ({have}/{need} &lt;img src="lyshineui/images/icons/items/{itemType}/{itemName}" xPadding="2" scale="1.25" yOffset="0.5"&gt;&lt;/img&gt;)</string>
@@ -83,5 +83,6 @@
 	<string key="ui_open_arena_menu">Wyświetl informacje o arenie</string>
 	<string key="ui_notification_summoning_stone_placed">KAMIEŃ PRZYWOŁANIA UMIESZCZONY</string>
 	<string key="ui_watcherscampfire">Ognisko strażnika</string>
+	<string key="ui_hunterscampfire">Ognisko łowcy</string>
 </resources>
 

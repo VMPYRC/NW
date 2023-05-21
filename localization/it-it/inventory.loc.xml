@@ -61,8 +61,8 @@
 	<string key="inv_equipLoadSlow">Pesante</string>
 	<string key="inv_equipLoadOverburdened">Sovraccarico</string>
 	<string key="inv_equipLoadTooltip">Il peso totale dell'armatura e dello scudo equipaggiati determina il tuo carico equipaggiato. Ogni carico equipaggiato offre una schivata unica e altri bonus.</string>
-	<string key="inv_equipLoadFastTooltip">Mentre indossi un'armatura leggera, la tua schivata è una rotolata veloce che copre una lunga distanza. Infliggi un 20% di danni bonus.</string>
-	<string key="inv_equipLoadNormalTooltip">Mentre indossi un'armatura media, la tua schivata è un salto veloce. Infliggi un 10% di danni bonus e i depotenziamenti di controllo di gruppo che applichi durano un 10% in più.</string>
+	<string key="inv_equipLoadFastTooltip">Mentre indossi un'armatura leggera, la tua schivata è una rotolata veloce che copre una lunga distanza. Causi un 20% di danni bonus e un {[Type_StatusEffectData.EquipLoad_HealingBonus_Light.HealScalingValueMultiplier * 100]}% di cure bonus.</string>
+	<string key="inv_equipLoadNormalTooltip">Mentre indossi un'armatura media, la tua schivata è un salto veloce. Causi un 10% di danni bonus e un 15% di cure bonus. I depotenziamenti di controllo di gruppo che applichi durano un 10% in più.</string>
 	<string key="inv_equipLoadSlowTooltip">Mentre indossi un'armatura pesante, la tua schivata è uno spostamento laterale lento. La stabilità della tua parata viene aumentata del 15% e i depotenziamenti di controllo di gruppo che applichi durano un 20% in più.</string>
 	<string key="inv_equipLoadOverburdenedTooltip">Quando superi il carico massimo equipaggiabile, non puoi schivare, scattare, né usare le abilità. Dovresti rimuovere qualche oggetto.</string>
 	<string key="inv_equipLoadEncumberedTooltip">Stai trasportando troppi oggetti nell'inventario. Quando hai troppo peso, non importa qual è il tuo carico equipaggiato. Non puoi scattare o schivare e perderai più energia durante la parata. Dovresti rimuovere qualche oggetto dalla borsa.</string>
@@ -78,6 +78,7 @@
 	<string key="inv_does_not_meet_weapon_requirements">Attributi insufficienti</string>
 	<string key="inv_encumbranceAttackNotification">Troppo peso per attaccare</string>
 	<string key="inv_insufficientManaNotification">Mana insufficiente</string>
+	<string key="inv_OutOfRangeNotification">Bersaglio fuori portata</string>
 	<string key="inv_compareTo">Confronta con {location}</string>
 	<string key="inv_additionalItems">{count} oggetti aggiuntivi</string>
 	<string key="inv_repairparts_quantity">Pezzi di ricambio: {count}</string>
@@ -124,6 +125,8 @@
 	<string key="ui_currency_totreasury">Alla cassa comune della compagnia</string>
 	<string key="ui_new_primary_tool_set">Nuovo set di strumenti di base per {gatheringType}</string>
 	<string key="ui_storage_is_full">Deposito pieno</string>
+	<string key="ui_storage_is_empty">Deposito vuoto</string>
+	<string key="ui_retrieving_storage">Recupero dati deposito</string>
 	<string key="ui_split_stack">Dividi pila</string>
 	<string key="ui_set_quantity">Imposta quantità</string>
 	<string key="ui_drag_new_stack">Trascina nuova pila</string>
@@ -141,7 +144,7 @@
 	<string key="ui_sort_chrono">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ordina per &lt;font color="#ffffff"&gt;Più recente&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="inv_equipmentstatrow_modifiertemplate">({baseValue} &lt;font color={modifierColor}&gt;{operator} {modifierValue}&lt;/font&gt;)</string>
 	<string key="ui_attributemodifier_pending_value">(+{pendingValue})</string>
-	<string key="ui_attributemodifier_tooltip">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color={color}&gt;{attributeValue}{attributeName}&lt;/font&gt;&lt;font color="#dddddd" face="lyshineui/fonts/Nimbus_Regular.font"&gt; punti Attributo&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color={color}&gt;{attributeValue} {attributeName}&lt;/font&gt; &lt;font color="#dddddd" face="lyshineui/fonts/Nimbus_Regular.font"&gt; punti Attributo&lt;/font&gt;</string>
 	<string key="ui_attributemodifier_tooltip_committed">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;(Punti applicati: {value})&lt;/font&gt;</string>
 	<string key="ui_attributemodifier_tooltip_equipment">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;(Equipaggiamento: {value})&lt;/font&gt;</string>
 	<string key="ui_attributemodifier_tooltip_buffs">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;(Potenziamenti oggetto: &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={modifierColor}&gt;{modifierOperator}{value}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;)&lt;/font&gt;</string>
@@ -159,5 +162,6 @@
 	<string key="ui_Constitution_short">COST</string>
 	<string key="ui_loot_bag_1_item">1 oggetto</string>
 	<string key="ui_loot_bag_items">{amount} oggetti</string>
+	<string key="tutorial_salvage_items">Recupera armi, armatura e strumenti per ottenere &lt;font color="#ffea00"&gt;pezzi di ricambio&lt;/font&gt;.</string>
 </resources>
 

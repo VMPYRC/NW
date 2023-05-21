@@ -435,11 +435,6 @@
 	<string key="2hWarhammerT3_RecipeName">Martelo de Guerra de Aço</string>
 	<string key="2hWarhammerT4_RecipeName">Martelo de Guerra de Estelaço</string>
 	<string key="2hWarhammerT5_RecipeName">Martelo de Guerra de Oricalco</string>
-	<string key="1hClubT1_RecipeName">Clava de Madeira</string>
-	<string key="1hClubT2_RecipeName">Maça de Ferro</string>
-	<string key="1hClubT3_RecipeName">Maça de Aço</string>
-	<string key="1hClubT4_RecipeName">Maça de Estelaço</string>
-	<string key="1hClubT5_RecipeName">Maça de Oricalco</string>
 	<string key="2hClubT1_RecipeName">Clava Imensa de Cascalho</string>
 	<string key="2hClubT2_RecipeName">Marreta de Ferro</string>
 	<string key="2hClubT3_RecipeName">Marreta de Aço</string>
@@ -488,10 +483,6 @@
 	<string key="2hFishingPoleT4_RecipeName">Vara de Pescar de Jucá</string>
 	<string key="2hFishingPoleT5_RecipeName">Vara de Pescar de Urdeira</string>
 	<string key="OhTorchT1_RecipeName">Tocha</string>
-	<string key="1hCelestialGauntlet_HealT2_RecipeName">Manopla Celestial de Ferro</string>
-	<string key="1hCelestialGauntlet_HealT3_RecipeName">Manopla Celestial de Aço</string>
-	<string key="1hCelestialGauntlet_HealT4_RecipeName">Manopla Celestial de Estelaço</string>
-	<string key="1hCelestialGauntlet_HealT5_RecipeName">Manopla Celestial de Oricalco</string>
 	<string key="2hElementalStaff_FireT2_RecipeName">Bastão Flamejante de Ferro</string>
 	<string key="2hElementalStaff_FireT3_RecipeName">Bastão Flamejante de Aço</string>
 	<string key="2hElementalStaff_FireT4_RecipeName">Bastão Flamejante de Estelaço</string>
@@ -1287,11 +1278,9 @@
 	<string key="House_Settler_Table02_C_RecipeName">Mesa Grande de Carvalho</string>
 	<string key="House_Settler_Table02_D_RecipeName">Mesa Grande de Mogno</string>
 	<string key="Dye1_RecipeName">Tintura Verde-floresta</string>
-	<string key="Dye2_RecipeName">Tintura Verde-grama</string>
-	<string key="Dye3_RecipeName">Tintura Lima-comum</string>
+	<string key="Dye3_RecipeName" rel_version="Entitlements_November">Tintura Lima-comum</string>
 	<string key="Dye4_RecipeName">Tintura Azul-real</string>
 	<string key="Dye5_RecipeName">Tintura Azul-bebê</string>
-	<string key="Dye6_RecipeName">Tintura Dourada</string>
 	<string key="Dye7_RecipeName">Tintura Mostarda</string>
 	<string key="Dye8_RecipeName">Tintura Amarelo-clara</string>
 	<string key="Dye9_RecipeName">Tintura Laranja-siena</string>
@@ -1308,11 +1297,11 @@
 	<string key="Dye20_RecipeName">Azul de Guerra</string>
 	<string key="Dye21_RecipeName">Vermelho de Guerra</string>
 	<string key="Dye22_RecipeName">Laranja-amazon</string>
-	<string key="Dye23_RecipeName">Roxo-twitch</string>
+	<string key="Dye23_RecipeName" rel_version="Entitlements_November">Roxo-twitch</string>
 	<string key="Dye24_RecipeName">Preto</string>
 	<string key="Dye25_RecipeName">Branco</string>
 	<string key="Dye26_RecipeName">Branco</string>
-	<string key="Dye27_RecipeName">Cinza-navio</string>
+	<string key="Dye27_RecipeName" rel_version="Entitlements_November">Cinza-navio</string>
 	<string key="Dye28_RecipeName">Basalto Congelado</string>
 	<string key="Dye29_RecipeName">Carvão de Rocha Esfarelada</string>
 	<string key="Dye30_RecipeName">Scarpa</string>
@@ -1321,13 +1310,11 @@
 	<string key="Dye33_RecipeName">Lúgubre</string>
 	<string key="Dye34_RecipeName">Cinza Natural</string>
 	<string key="Dye35_RecipeName">Pólvora</string>
-	<string key="Dye36_RecipeName">Pérola Manchada</string>
 	<string key="Dye37_RecipeName">Osso Sublime</string>
 	<string key="Dye38_RecipeName">Detrito</string>
 	<string key="Dye39_RecipeName">Marrom-sela</string>
 	<string key="Dye40_RecipeName">Obsidiana Embaçada</string>
 	<string key="Dye41_RecipeName">Castanho-escuro</string>
-	<string key="Dye42_RecipeName">Sândalo</string>
 	<string key="Dye43_RecipeName">Líquen da Floresta</string>
 	<string key="Dye44_RecipeName">Marrom-russet</string>
 	<string key="Dye45_RecipeName">Poeira</string>
@@ -1340,7 +1327,6 @@
 	<string key="Dye52_RecipeName">Coral Deslumbrante</string>
 	<string key="Dye53_RecipeName">Cinábrio do Paraíso</string>
 	<string key="Dye54_RecipeName">Amaranto</string>
-	<string key="Dye55_RecipeName">Rouge</string>
 	<string key="Dye56_RecipeName">Violeta</string>
 	<string key="Dye57_RecipeName">Pedra Rosa</string>
 	<string key="Dye58_RecipeName">Feno</string>
@@ -1359,37 +1345,32 @@
 	<string key="Dye71_RecipeName">Canela</string>
 	<string key="Dye72_RecipeName">Limo-escuro</string>
 	<string key="Dye73_RecipeName">Rum Amanteigado</string>
-	<string key="Dye74_RecipeName">Lodo</string>
+	<string key="Dye74_RecipeName" rel_version="Entitlements_November">Lodo</string>
 	<string key="Dye75_RecipeName">Siena Crua</string>
 	<string key="Dye76_RecipeName">Areia Delicada</string>
 	<string key="Dye77_RecipeName">Cevada Colhida</string>
 	<string key="Dye78_RecipeName">Cascalho</string>
-	<string key="Dye79_RecipeName">Loiro</string>
 	<string key="Dye80_RecipeName">Barbante</string>
 	<string key="Dye81_RecipeName">Verdejante</string>
-	<string key="Dye82_RecipeName">Grama-pantanal</string>
+	<string key="Dye82_RecipeName">Grama do Pântano</string>
 	<string key="Dye83_RecipeName">Limo do Outono</string>
 	<string key="Dye84_RecipeName">Lodo Aquecido</string>
-	<string key="Dye85_RecipeName">Verde-sushi</string>
 	<string key="Dye86_RecipeName">Abacate</string>
 	<string key="Dye87_RecipeName">Névoa Tropical</string>
-	<string key="Dye88_RecipeName">Lima Comum</string>
+	<string key="Dye88_RecipeName" rel_version="Entitlements_November">Lima Comum</string>
 	<string key="Dye89_RecipeName">Verde-floresta</string>
-	<string key="Dye90_RecipeName">Grama Verde</string>
 	<string key="Dye91_RecipeName">Jade Embaçada</string>
 	<string key="Dye92_RecipeName">Pesto</string>
 	<string key="Dye93_RecipeName">Madeira-fina</string>
-	<string key="Dye94_RecipeName">Louva-a-deus</string>
 	<string key="Dye95_RecipeName">Malaquita Enfumaçada</string>
 	<string key="Dye96_RecipeName">Viridiano</string>
 	<string key="Dye97_RecipeName">Salgueiro Plácido</string>
 	<string key="Dye98_RecipeName">Verde-fundo-do-mar</string>
 	<string key="Dye99_RecipeName">Verde Mineral</string>
-	<string key="Dye100_RecipeName">Cetim Angelical</string>
 	<string key="Dye101_RecipeName">Água-marinha do Castelo</string>
 	<string key="Dye102_RecipeName">Ciano Suave</string>
 	<string key="Dye103_RecipeName">Brisa</string>
-	<string key="Dye104_RecipeName">Córrego Escondido</string>
+	<string key="Dye104_RecipeName" rel_version="Entitlements_November">Córrego Escondido</string>
 	<string key="Dye105_RecipeName">Cobalto-claro</string>
 	<string key="Dye106_RecipeName">Zimbro</string>
 	<string key="Dye107_RecipeName">Luz Estelar</string>
@@ -1397,8 +1378,6 @@
 	<string key="Dye109_RecipeName">Aço Azulado</string>
 	<string key="Dye110_RecipeName">Cometa</string>
 	<string key="Dye111_RecipeName">Azul da Aurora</string>
-	<string key="Dye112_RecipeName">Safira Suprema</string>
-	<string key="Dye113_RecipeName">Cobalto Intenso</string>
 	<string key="Dye114_RecipeName">Sabugueiro</string>
 	<string key="Dye115_RecipeName">Caroço de Fruta</string>
 	<string key="Dye116_RecipeName">Ametista Bruta</string>
@@ -1406,10 +1385,8 @@
 	<string key="Dye118_RecipeName">Asa de Borboleta</string>
 	<string key="Dye119_RecipeName">Roxo Soberano</string>
 	<string key="Dye120_RecipeName">Violeta Serena</string>
-	<string key="Dye121_RecipeName">Flor Plácida</string>
 	<string key="Dye122_RecipeName">Lilás Polido</string>
-	<string key="Dye123_RecipeName">Veludo Intenso</string>
-	<string key="Dye124_RecipeName">Fruta Esmagada</string>
+	<string key="Dye123_RecipeName" rel_version="Entitlements_November">Veludo Intenso</string>
 	<string key="Dye125_RecipeName">Violeta Ríspida</string>
 	<string key="Dye126_RecipeName">Ameixa Pútrida</string>
 	<string key="Dye127_RecipeName">Rosa Vibrante</string>

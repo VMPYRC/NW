@@ -1,4 +1,26 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="IngotT2_Down_Name">Rebaixar Aço para Ferro</string>
+	<string key="IngotT3_Down_Name">Rebaixar Estelaço para Aço</string>
+	<string key="IngotT4_Down_Name">Rebaixar Oricalco para Estelaço</string>
+	<string key="IngotPreciousT1_Down_Name">Rebaixar Ouro para Prata</string>
+	<string key="IngotPreciousT2_Down_Name">Rebaixar Platina para Ouro</string>
+	<string key="IngotPreciousT3_Down_Name">Rebaixar Oricalco para Platina</string>
+	<string key="LeatherT2_Down_Name">Rebaixar Couro Rústico para Couro Grosseiro</string>
+	<string key="LeatherT3_Down_Name">Rebaixar Couro Reforçado para Couro Rústico</string>
+	<string key="LeatherT4_Down_Name">Rebaixar Couro Infuso para Couro Reforçado</string>
+	<string key="ClothT2_Down_Name">Rebaixar Cetim para Linho</string>
+	<string key="ClothT3_Down_Name">Rebaixar Seda para Cetim</string>
+	<string key="ClothT4_Down_Name">Rebaixar Seda Infusa para Seda</string>
+	<string key="TimberT2_Down_Name">Rebaixar Lenha para Tábua</string>
+	<string key="TimberT3_Down_Name">Rebaixar Urdeira para Lenha</string>
+	<string key="TimberT4_Down_Name">Rebaixar Jucá para Urdeira</string>
+	<string key="BlockT2_Down_Name">Rebaixar Tijolo de Pedra para Bloco de Pedra</string>
+	<string key="BlockT3_Down_Name">Rebaixar Tijolo de Magnetita para Tijolo de Pedra</string>
+	<string key="BlockT4_Down_Name">Rebaixar Pedra Imaterial Obsidiana para Tijolo de Magnetita</string>
+	<string key="Procedural_GauntletVoidT2" rel_version="Weapon_Void_Gauntlet">Manopla Imaterial de Ferro</string>
+	<string key="Procedural_GauntletVoidT3" rel_version="Weapon_Void_Gauntlet">Manopla Imaterial de Aço</string>
+	<string key="Procedural_GauntletVoidT4" rel_version="Weapon_Void_Gauntlet">Manopla Imaterial de Estelaço</string>
+	<string key="Procedural_GauntletVoidT5" rel_version="Weapon_Void_Gauntlet">Manopla Imaterial de Oricalco</string>
 	<string key="Procedural_LightHead_DressT2">Gorro de Linho</string>
 	<string key="Procedural_LightHead_DressT3">Chapéu de Cetim</string>
 	<string key="Procedural_LightHead_DressT4">Fascinador de Seda</string>
@@ -249,10 +271,10 @@
 	<string key="Procedural_2hGreatAxeT3">Machadão de Aço</string>
 	<string key="Procedural_2hGreatAxeT4">Machadão de Estelaço</string>
 	<string key="Procedural_2hGreatAxeT5">Machadão de Oricalco</string>
-	<string key="Procedural_SpearT2">Lança de Ferro</string>
-	<string key="Procedural_SpearT3">Lança de Aço</string>
-	<string key="Procedural_SpearT4">Lança de Estelaço</string>
-	<string key="Procedural_SpearT5">Lança de Oricalco</string>
+	<string key="Procedural_SpearT2">Lança de Madeira Tratada</string>
+	<string key="Procedural_SpearT3">Lança de Madeira Laqueada</string>
+	<string key="Procedural_SpearT4">Lança de Urdeira</string>
+	<string key="Procedural_SpearT5">Lança de Jucá</string>
 	<string key="Procedural_HatchetT2">Machadinha de Ferro</string>
 	<string key="Procedural_HatchetT3">Machadinha de Aço</string>
 	<string key="Procedural_HatchetT4">Machadinha de Estelaço</string>
@@ -399,10 +421,10 @@
 	<string key="Procedural_RobeFeetT3">Sapatos de Robe de Cetim</string>
 	<string key="Procedural_RobeFeetT4">Sapatos de Robe de Seda</string>
 	<string key="Procedural_RobeFeetT5">Sapatos de Robe de Seda Infusa</string>
-	<string key="Procedural_BagAT2">Bolsa de Couro Grosseiro</string>
-	<string key="Procedural_BagAT3">Bolsa de Couro Rústico</string>
-	<string key="Procedural_BagAT4">Bolsa de Couro Reforçado</string>
-	<string key="Procedural_BagAT5">Bolsa de Couro Infuso</string>
+	<string key="Procedural_BagAT2">Algibeira do Aventureiro de Couro Grosseiro</string>
+	<string key="Procedural_BagAT3">Algibeira do Aventureiro de Couro Rústico</string>
+	<string key="Procedural_BagAT4">Algibeira do Aventureiro de Couro Reforçado</string>
+	<string key="Procedural_BagAT5">Algibeira do Aventureiro de Couro Infuso</string>
 	<string key="Procedural_StaffFireT2">Bastão Flamejante de Ferro</string>
 	<string key="Procedural_StaffFireT3">Bastão Flamejante de Aço</string>
 	<string key="Procedural_StaffFireT4">Bastão Flamejante de Estelaço</string>
@@ -783,16 +805,6 @@
 	<string key="2hGreatAxeT3_CraftName">Machadão\nde Aço</string>
 	<string key="2hGreatAxeT4_CraftName">Machadão\nde Estelaço</string>
 	<string key="2hGreatAxeT5_CraftName">Machadão\nde Oricalco</string>
-	<string key="1hClubT1_CraftName">Clava de Madeira</string>
-	<string key="1hClubT2_CraftName">Maça\nde Ferro</string>
-	<string key="1hClubT3_CraftName">Maça\nde Aço</string>
-	<string key="1hClubT4_CraftName">Maça\nde Estelaço</string>
-	<string key="1hClubT5_CraftName">Maça\nde Oricalco</string>
-	<string key="2hClubT1_CraftName">Clava Imensa\nde Cascalho</string>
-	<string key="2hClubT2_CraftName">Marreta\nde Ferro</string>
-	<string key="2hClubT3_CraftName">Marreta\nde Aço</string>
-	<string key="2hClubT4_CraftName">Marreta\nde Estelaço</string>
-	<string key="2hClubT5_CraftName">Marreta\nde Oricalco</string>
 	<string key="2hSpearT1_CraftName">Lança\nde Cascalho</string>
 	<string key="2hSpearT2_CraftName">Lança\nde Ferro</string>
 	<string key="2hSpearBT2_CraftName">Lança\nde Ferro\nForjada a Frio</string>
@@ -1370,10 +1382,6 @@
 	<string key="CombatDummyT1_CraftName">Boneco de Treino</string>
 	<string key="WindMillT2_CraftName">Moinho de Grãos E2</string>
 	<string key="FeedT1_CraftName">Forragem</string>
-	<string key="1hCelestialGauntlet_HealT2_CraftName">Manopla\nCelestial\nde Ferro</string>
-	<string key="1hCelestialGauntlet_HealT3_CraftName">Manopla\nCelestial\nde Aço</string>
-	<string key="1hCelestialGauntlet_HealT4_CraftName">Manopla\nCelestial\nde Estelaço</string>
-	<string key="1hCelestialGauntlet_HealT5_CraftName">Manopla\nCelestial\nde Oricalco</string>
 	<string key="FoodHealthRecoveryT1_CraftName">Ração\nLeve</string>
 	<string key="FoodCorruptedT1_CraftName">Carne\nCozida</string>
 	<string key="FoodLostT1_CraftName">Peixe\nCozido</string>

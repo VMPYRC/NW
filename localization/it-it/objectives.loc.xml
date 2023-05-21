@@ -42,6 +42,8 @@
 	<string key="objective_buySell_spendGoldSingleTransaction" speaker="UI">Spendi {amountCount} monete in un'unica transazione</string>
 	<string key="objective_completed" speaker="UI">Obiettivo completato</string>
 	<string key="dynamic_poi_objective_completed" speaker="UI">Punto di riferimento esplorato</string>
+	<string key="objective_quest_encounter">Incontro missione</string>
+	<string key="objective_quest_encounter_description">Completa l'incontro per avanzare nella missione.</string>
 	<string key="objective_craft" speaker="UI">Produci 1 {itemName}</string>
 	<string key="objective_craft_p" speaker="UI">Produci: {itemName} (quantità: {itemAmount})</string>
 	<string key="objective_crafthealingdrops" speaker="UI">Al tuo accampamento produci: {itemName} (tasto predefinito: [Y])</string>
@@ -67,7 +69,7 @@
 	<string key="objective_experience" speaker="UI">PE</string>
 	<string key="objective_failed" speaker="UI">Obiettivo fallito</string>
 	<string key="objective_gather_herbs" speaker="UI">Raccogli {itemName} blu dalle aree costiere</string>
-	<string key="objective_gatherironore" speaker="UI">Prendi il minerale di ferro dalla tracolla pesante nel tuo inventario</string>
+	<string key="objective_gatherironore" speaker="UI">Prendi il minerale di ferro dalla tracolla pesante nel tuo inventario OPPURE</string>
 	<string key="objective_gatherrawhide" speaker="UI">Scuoia cinghiali e lupi per ottenere: {itemName}</string>
 	<string key="objective_gatherstone" speaker="UI">Estrai {itemName} dai macigni</string>
 	<string key="objective_gatherwood" speaker="UI">Raccogli {itemName} da cespugli o alberi</string>
@@ -76,6 +78,7 @@
 	<string key="objective_have_level" speaker="UI">Raggiungi il livello {level}</string>
 	<string key="objective_have" speaker="UI">Ottieni: {itemName}</string>
 	<string key="objective_have_p" speaker="UI">Ottieni:{itemName} (x{itemAmount})</string>
+	<string key="@objective_house_score" speaker="UI">Raggiungi il punteggio arredamento {score}</string>
 	<string key="objective_ingredients" speaker="UI">INGREDIENTI</string>
 	<string key="objective_journal" speaker="UI">Diario</string>
 	<string key="objective_journey" speaker="UI">Storie secondarie</string>
@@ -157,6 +160,8 @@
 	<string key="objective_has_location" speaker="UI">Con luoghi specifici</string>
 	<string key="objective_no_location" speaker="UI">Senza luoghi specifici</string>
 	<string key="objective_side_quests" speaker="UI">Missioni secondarie</string>
+	<string key="objective_event" speaker="UI">Missioni evento</string>
+	<string key="objective_event_desc" speaker="UI">Obiettivi disponibili durante un evento</string>
 	<string key="objective_faction_missions" speaker="UI">Missioni della fazione</string>
 	<string key="objective_community_goal" speaker="UI">Progetti cittadini</string>
 	<string key="objective_POI" speaker="UI">Punto di riferimento</string>
@@ -201,7 +206,7 @@
 	<string key="objective_story_task_getoffthebeach" speaker="UI">Trova l'avamposto</string>
 	<string key="objective_story_task_search_containers" speaker="UI">Cerca nelle casse nelle vicinanze di {POITags}</string>
 	<string key="objective_tasks" speaker="UI">INCARICHI</string>
-	<string key="objective_townproject" speaker="UI">Progetto cittadino</string>
+	<string key="objective_townproject" speaker="UI">Progetti cittadini</string>
 	<string key="objective_townproject_desc" speaker="UI">Trovato presso i comitati di pianificazione della città</string>
 	<string key="objective_unpin" speaker="UI">Rimuovi</string>
 	<string key="objective_use" speaker="UI">Usa: {itemName}</string>
@@ -226,6 +231,7 @@
 	<string key="objective_mission_task_patrol_windsward" speaker="UI">Pattuglia il territorio</string>
 	<string key="patrol_task_container_description" speaker="UI">Mantieni la tua posizione, ma senza lasciarci la pelle.</string>
 	<string key="objective_mission_task_patrol_timer" speaker="UI">Tieni premuto {POITags} per {timeRemaining}</string>
+	<string key="objective_mission_task_control_point" speaker="UI">Conquista il forte di {TerritoryID} per i Predoni</string>
 	<string key="task_choose_faction" speaker="UI">Scegli una fazione con {destinationName}</string>
 	<string key="complete_available_prompt_DEFAULT" comment="male" speaker="UI - Button">Porta a termine la missione</string>
 	<string key="prompt_DEFAULT" speaker="UI - Button">Accetta la missione</string>
@@ -262,5 +268,24 @@
 	<string key="objective_destroy_and_collect" speaker="UI">Distruggi {targetName} e raccogli presso {POITags}: {itemName}</string>
 	<string key="commander">Comandante</string>
 	<string key="objective_mission_destroy_generic_at_POI">Distruggi {targetName} presso: {POITags}</string>
+	<string key="objective_mission_task_PVP_kill_and_acquire_X_items_anywhere">Sconfiggi i membri della fazione nemica per raccogliere: {itemName}</string>
+	<string key="objective_mission_kill_generic">Sconfiggi: {targetName}</string>
+	<string key="objective_mission_loot_chests_generic">Cerca nei forzieri per ottenere: {itemName}</string>
+	<string key="objective_mission_hunt_generic">Dai la caccia a: {targetName}</string>
+	<string key="objective_mission_loot_chests_at_Warcamp">Cerca nei forzieri presso l'accampamento di guerra di {TerritoryID} per ottenere: {itemName}</string>
+	<string key="objective_mission_kill_with_weapon">Sconfiggi {targetName} usando: {WeaponClassId}</string>
+	<string key="objective_mission_kill_with_sword">Sconfiggi {targetName} usando spada e scudo</string>
+	<string key="objective_mission_kill_with_rapier">Sconfiggi {targetName} usando lo stocco</string>
+	<string key="objective_mission_kill_with_hatchet">Sconfiggi {targetName} usando l'accetta</string>
+	<string key="objective_mission_kill_with_greataxe">Sconfiggi {targetName} usando l'ascia grande</string>
+	<string key="objective_mission_kill_with_warhammer">Sconfiggi {targetName} usando il martello da guerra</string>
+	<string key="objective_mission_kill_with_spear">Sconfiggi {targetName} usando la lancia</string>
+	<string key="objective_mission_kill_with_bow">Sconfiggi {targetName} usando l'arco</string>
+	<string key="objective_mission_kill_with_musket">Sconfiggi {targetName} usando il moschetto</string>
+	<string key="objective_mission_kill_with_firestaff">Sconfiggi {targetName} usando il bastone infuocato</string>
+	<string key="objective_mission_kill_with_lifestaff">Sconfiggi {targetName} usando il bastone della vita</string>
+	<string key="objective_mission_kill_with_icegauntlet">Sconfiggi {targetName} usando il guanto di ghiaccio</string>
+	<string key="objective_mission_task_control_point_S">Conquista il forte di {TerritoryID} per l'Unione</string>
+	<string key="objective_mission_task_control_point_C">Conquista il forte di {TerritoryID} per il Patto</string>
 </resources>
 

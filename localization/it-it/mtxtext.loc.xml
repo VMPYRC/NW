@@ -78,12 +78,13 @@
 	<string key="ui_refund_policy" rel_version="Feature_MTX">Politica di rimborso</string>
 	<string key="ui_fixed_appearance" rel_version="Feature_MTX">Aspetto fisso</string>
 	<string key="ui_fixed_appearance_tooltip" rel_version="Feature_MTX">Le &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;skin&lt;/font&gt; vengono applicate al tuo personaggio e saranno applicate a qualsiasi oggetto equipaggiato nello stesso slot finché non ne modificherai l'aspetto o lo rimuoverai.\n\nLe &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;skin&lt;/font&gt; non possono essere tinte.</string>
+	<string key="ui_transfer_requirement" rel_version="Feature_MTX">Requisiti per il trasferimento</string>
+	<string key="ui_transfer_requirement_tooltip" rel_version="Feature_MTX">- Devi trovarti in un Santuario (insediamento, avamposto, santuario dello spirito o torre di guardia) prima del trasferimento\n- Non puoi fare parte di una compagnia prima del trasferimento\n- Non puoi avere ordini di vendita attivi all'emporio prima del trasferimento</string>
 	<string key="ui_item_restrictions" rel_version="Feature_MTX">Restrizioni sugli oggetti</string>
-	<string key="ui_item_restrictions_item_skins" rel_version="Feature_MTX">Affinché le &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;skin&lt;/font&gt; siano visibili, l'oggetto di base deve essere equipaggiato.</string>
+	<string key="ui_item_restrictions_item_skins" rel_version="Feature_MTX">Affinché le &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;skin&lt;/font&gt; siano visibili, l'oggetto di base deve essere equipaggiato. &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Le skin&lt;/font&gt; non possono essere tinte.</string>
 	<string key="ui_item_restrictions_crests" rel_version="Feature_MTX">Gli &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;emblemi della compagnia&lt;/font&gt; possono essere utilizzati solo se sei il governatore (creatore) della compagnia.</string>
 	<string key="ui_item_restrictions_housing_items" rel_version="Feature_MTX">Gli &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;oggetti per la casa&lt;/font&gt; possono essere utilizzati solo dopo aver sbloccato le funzionalità della casa e averne acquisita una.</string>
 	<string key="ui_item_restrictions_dyes" rel_version="Feature_MTX">Le &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;tinte&lt;/font&gt; possono essere applicate soltanto alla tua armatura. Se l'armatura viene scambiata o venduta, la tinta sarà rimossa e non restituita. Non si possono applicare tinte sulle skin.</string>
-	<string key="ui_item_restrictions_camp_skins" rel_version="Feature_MTX">Per usare le &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;skin per l'accampamento&lt;/font&gt; devi aver sbloccato l'accampamento.</string>
 	<string key="ui_non_returnable" rel_version="Feature_MTX">Oggetto non rimborsabile.</string>
 	<string key="ui_order_history_dec" rel_version="Feature_MTX">Mostra i 10 sblocchi più recenti nel negozio.</string>
 	<string key="ui_expand_bundle" rel_version="Feature_MTX">Pacchetto (fai clic per espandere)</string>
@@ -92,16 +93,16 @@
 	<string key="ui_mtx_unavailable" rel_version="Feature_MTX">Prodotto non disponibile</string>
 	<string key="ui_mtx_dye_description_default" rel_version="Feature_MTX">Serve per tingere parti di abiti e armatura.</string>
 	<string key="ui_bundle_tooltip" rel_version="Feature_MTX">Questo prodotto è un pacchetto.</string>
-	<string key="reward_type_tooltip_emote" rel_version="Feature_MTX">Puoi usare un'emote nel menu Emote. Premi [{hintText}] per aprire il menu Emote.</string>
-	<string key="reward_type_tooltip_itemskin" rel_version="Feature_MTX">Puoi applicare una skin facendo clic sull'armatura e sulle armi nel tuo inventario e poi su "Cambia skin".</string>
-	<string key="reward_type_tooltip_itemdye" rel_version="Feature_MTX">Puoi usare la tinta facendo clic sull'armatura nel tuo inventario e poi su "Colora armatura".</string>
-	<string key="reward_type_tooltip_guildcrest" rel_version="Feature_MTX">Puoi utilizzare questo emblema nella schermata della compagnia.</string>
-	<string key="reward_type_tooltip_housing_item" rel_version="Feature_MTX">Puoi posizionare questo oggetto per la casa in modalità arredamento quando sei nella tua casa.</string>
-	<string key="reward_type_tooltip_player_title" rel_version="Feature_MTX">Puoi applicare un titolo nel menu Personaggi e poi "Cambia titolo".</string>
+	<string key="reward_type_tooltip_emote" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;EMOTE&lt;/font&gt; : Puoi usare un'emote nel menu Emote. Premi [{hintText}] per aprire il menu Emote.</string>
+	<string key="reward_type_tooltip_itemskin" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;SKIN OGGETTI&lt;/font&gt; : Puoi applicare una skin facendo clic sull'armatura e sulle armi nel tuo inventario e poi su "Cambia skin".</string>
+	<string key="reward_type_tooltip_itemdye" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;TINTE&lt;/font&gt; : Puoi usare la tinta facendo clic sull'armatura nel tuo inventario e poi su "Colora armatura".</string>
+	<string key="reward_type_tooltip_guildcrest" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;EMBLEMI&lt;/font&gt; : Puoi applicare emblemi alla Schermata Compagnia.</string>
+	<string key="reward_type_tooltip_housing_item" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;OGGETTI PER LA CASA&lt;/font&gt; : Puoi posizionare oggetti per la casa in modalità arredamento quando sei nella tua casa.</string>
+	<string key="reward_type_tooltip_player_title" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;TITOLI&lt;/font&gt; : Puoi applicare un titolo nella scheda Biografia del personaggio, selezionando "Cambia titolo".</string>
 	<string key="reward_type_tooltip_inventory_item" rel_version="Feature_MTX">Usa questo oggetto nell'inventario.</string>
 	<string key="reward_type_tooltip_extra" rel_version="Feature_MTX">Questo prodotto è un extra.</string>
 	<string key="reward_type_tooltip_entitlement" rel_version="Feature_MTX">Questo prodotto è tuo di diritto.</string>
-	<string key="reward_type_tooltip_marks_of_fortune" rel_version="Feature_MTX">Puoi utilizzare questa valuta nel menu del negozio per acquistare un prodotto.</string>
+	<string key="reward_type_tooltip_marks_of_fortune" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;MARCHI DELLA FORTUNA&lt;/font&gt; : Puoi utilizzare questa valuta nel negozio per acquistare un prodotto.</string>
 	<string key="reward_type_tooltip_service" rel_version="Feature_MTX">Puoi utilizzare questo servizio nel menu del negozio. Seleziona il prodotto "Trasferimento di mondo" nel negozio.</string>
 	<string key="ui_crest_disclaimer" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Avviso:&lt;/font&gt; Gli emblemi della compagnia possono essere utilizzati solo se sei il governatore (creatore) della compagnia.</string>
 	<string key="ui_disabled_default_title" rel_version="Feature_MTX">Contenuto non disponibile</string>
@@ -137,6 +138,7 @@
 	<string key="ui_transaction_failed_code">Transazione non riuscita. Codice di errore: {error}.</string>
 	<string key="ui_transaction_failed">Transazione non riuscita.</string>
 	<string key="ui_transaction_timed_out">Transazione scaduta. Riprovare?</string>
+	<string key="ui_transaction_timeout_overlay">Transazione scaduta.\nAssicurati che l'overlay di Steam sia abilitato.</string>
 	<string key="ui_bonus_marks">(+{bonus} marchi)</string>
 	<string key="ui_bonus_percent">{bonusPct}% di bonus</string>
 	<string key="ui_how_to_use">Come si usa</string>
@@ -146,30 +148,32 @@
 	<string key="runic_jackal_name" rel_version="Apparel_RunicJackal">Sciacallo runico</string>
 	<string key="crescent_fang_name" rel_version="Weapon_CrescentFang">Zanna a falce</string>
 	<string key="arm_flex_name" rel_version="New_World_Launch">Mostra i muscoli del braccio</string>
-	<string key="sublimebone_dye_name" rel_version="New_World_Launch">Osso sublime</string>
+	<string key="sublimebone_dye_name" rel_version="MTX_October_Skins">Osso sublime</string>
 	<string key="Icon_Crest_Pack_Merriment_name" rel_version="New_World_Launch">Pacchetto emblema dell'allegria</string>
 	<string key="EntitlementSkin_Medium_Angel_name" rel_version="AngelsDemonsWeapons">Egida della Provvidenza</string>
-	<string key="EntitlementSkin_AnglesDemon_WarHammer_name" rel_version="New_World_Launch">Ira del distruttore</string>
+	<string key="EntitlementSkin_AnglesDemon_WarHammer_name" rel_version="AngelsDemonsWeapons">Ira del distruttore</string>
 	<string key="galaxy_rabbit_name" rel_version="New_World_Launch">Lepre celestiale</string>
 	<string key="eyesonyou_name" rel_version="New_World_Launch">Occhi su di te</string>
+	<string key="hiddenstream_dye_name" rel_version="Entitlements_November">Ruscello nascosto</string>
 	<string key="Icon_Crest_Pack_Smugglers_name" rel_version="New_World_Launch">Pacchetto emblema da contrabbandiere</string>
 	<string key="runic_jackal_description" rel_version="Apparel_RunicJackal">"Ci sono corni per bere e corna da indossare. Servono entrambe." Set di skin per armatura</string>
 	<string key="crescent_fang_description" rel_version="Weapon_CrescentFang">"Ha un morso spaventoso come quello di Jormungandr." Skin per ascia</string>
 	<string key="arm_flex_description" rel_version="New_World_Launch">"Mostra la tua forza." Emote</string>
-	<string key="sublimebone_dye_description" rel_version="New_World_Launch">Pacchetto tinta consumabile</string>
+	<string key="sublimebone_dye_description" rel_version="MTX_October_Skins">Pacchetto tinta consumabile</string>
 	<string key="Icon_Crest_Pack_Merriment_description" rel_version="New_World_Launch">"Brinda ai tuoi coraggiosi compagni!" Pacchetto emblema della compagnia</string>
 	<string key="EntitlementSkin_Medium_Angel_description" rel_version="AngelsDemonsWeapons">"Scaccia il male con la furia e la luce dei giusti." Set di skin per armatura</string>
-	<string key="EntitlementSkin_AnglesDemon_WarHammer_description" rel_version="New_World_Launch">"Lasciati alle spalle una scia di vendetta." Skin per martello da guerra</string>
+	<string key="EntitlementSkin_AnglesDemon_WarHammer_description" rel_version="AngelsDemonsWeapons">"Lasciati alle spalle una scia di vendetta." Skin per martello da guerra</string>
 	<string key="galaxy_rabbit_description" rel_version="New_World_Launch">"Sbalorditivo: la pelliccia di questo coniglio racchiude tutta l'immensa vastità dell'universo. Se lo accarezzi potresti perfino percepirla." Lepre celestiale addomesticata</string>
 	<string key="eyesonyou_description" rel_version="New_World_Launch">"Vigilanza eterna". Emote</string>
+	<string key="hiddenstream_dye_description" rel_version="Entitlements_November">Pacchetto tinta consumabile</string>
 	<string key="Icon_Crest_Pack_Smugglers_description" rel_version="New_World_Launch">"L'oscurità avvolge le nostre imprese più redditizie." Pacchetto emblema della compagnia</string>
 	<string key="ui_store_unavailable">Siamo spiacenti, in questo momento il negozio è chiuso per un po' di manutenzione. Riprova più tardi.</string>
 	<string key="fenrirsfury_name" rel_version="New_World_Launch">Furia di Fenrir</string>
 	<string key="fenrirsfury_description" rel_version="New_World_Launch">"Un giusto omaggio alla bestia massacratrice." Skin per ascia grande</string>
 	<string key="EntitlementSkin_Light_Demon_name" rel_version="AngelsDemonsWeapons">Guscio del mezzo demone</string>
-	<string key="twitch_pirate_itemskin_name" rel_version="New_World_Launch">Spadaccino</string>
+	<string key="twitch_pirate_itemskin_name" rel_version="Apparel_Pirate">Spadaccino</string>
 	<string key="EntitlementSkin_Heavy_Angel_name" rel_version="AngelsDemonsWeapons">Guardiano virtuoso</string>
-	<string key="twitch_robinhood_itemskin_name" rel_version="New_World_Launch">Robin Hood</string>
+	<string key="twitch_robinhood_itemskin_name" rel_version="Apparel_Robin_Hood">Robin Hood</string>
 	<string key="runic_bear_name" rel_version="Apparel_RunicBear">Orso runico</string>
 	<string key="runic_fox_name" rel_version="Apparel_RunicFox">Volpe runica</string>
 	<string key="EntitlementSkin_SpecialCorruptedVar1_name" rel_version="New_World_Launch">Rabbia dorata</string>
@@ -178,18 +182,24 @@
 	<string key="Icon_Crest_Pack_Gesture_name" rel_version="New_World_Launch">Pacchetto emblema gesto</string>
 	<string key="twitch_pirate_crestpack_name" rel_version="New_World_Launch">Pacchetto emblema pirata</string>
 	<string key="Icon_Crest_Pack_RobinHood_name" rel_version="New_World_Launch">Pacchetto emblema di Robin Hood</string>
+	<string key="Icon_Crest_Pack_Thespain_name" rel_version="Apparel_Thespian">Pacchetto emblema da teatrante</string>
 	<string key="Icon_Crest_Pack_WeaponMaster_name" rel_version="New_World_Launch">Pacchetto emblema da maestro d'armi</string>
-	<string key="primeblue_dye_name" rel_version="New_World_Launch">Blu Prime Gaming</string>
-	<string key="amazonorange_dye_name" rel_version="New_World_Launch">Arancione Amazon</string>
-	<string key="bleached_cofee_dye_name" rel_version="New_World_Launch">Caffè sbiancato</string>
-	<string key="blood_dye_name" rel_version="New_World_Launch">Sangue</string>
-	<string key="viola_dye_name" rel_version="New_World_Launch">Viola</string>
-	<string key="burntsienna_dye_name" rel_version="New_World_Launch">Terra di Siena bruciata</string>
-	<string key="forestgreen_dye_name" rel_version="New_World_Launch">Verde foresta</string>
-	<string key="tradewind_dye_name" rel_version="New_World_Launch">Aliseo</string>
-	<string key="bluedsteel_dye_name" rel_version="New_World_Launch">Blu acciaio</string>
-	<string key="springgrape_dye_name" rel_version="New_World_Launch">Uva primaverile</string>
-	<string key="lavender_dye_name" rel_version="New_World_Launch">Lavanda</string>
+	<string key="primeblue_dye_name" rel_version="Dyes_Launch">Blu Prime Gaming</string>
+	<string key="amazonorange_dye_name" rel_version="Dyes_Launch">Arancione Amazon</string>
+	<string key="twitchpurple_dye_name" rel_version="Entitlements_November">Viola Twitch</string>
+	<string key="shipgray_dye_name" rel_version="Entitlements_November">Grigio nave</string>
+	<string key="bleached_cofee_dye_name" rel_version="Dyes_Launch">Caffè sbiancato</string>
+	<string key="blood_dye_name" rel_version="MTX_October_Skins">Sangue</string>
+	<string key="viola_dye_name" rel_version="Dyes_Launch">Viola</string>
+	<string key="burntsienna_dye_name" rel_version="MTX_October_Skins">Terra di Siena bruciata</string>
+	<string key="silt_dye_name" rel_version="Entitlements_November">Limo</string>
+	<string key="keylime_dye_name" rel_version="Entitlements_November">Limetta</string>
+	<string key="forestgreen_dye_name" rel_version="Dyes_Launch">Verde foresta</string>
+	<string key="tradewind_dye_name" rel_version="Dyes_Launch">Aliseo</string>
+	<string key="bluedsteel_dye_name" rel_version="MTX_October_Skins">Blu acciaio</string>
+	<string key="springgrape_dye_name" rel_version="MTX_October_Skins">Uva primaverile</string>
+	<string key="deepvelvet_dye_name" rel_version="Entitlements_November">Velluto intenso</string>
+	<string key="lavender_dye_name" rel_version="Dyes_Launch">Lavanda</string>
 	<string key="twitch_robinhood_emote_blowkiss_name" rel_version="New_World_Launch">Lancia un bacio</string>
 	<string key="coin_toss_name" rel_version="New_World_Launch">Testa o croce</string>
 	<string key="applause_name" rel_version="New_World_Launch">Applauso cortese</string>
@@ -204,6 +214,7 @@
 	<string key="EntitlementSkin_AnglesDemon_LifeStaff_name" rel_version="AngelsDemonsWeapons">Rigenerazione armonica</string>
 	<string key="howl_at_dawn_name" rel_version="Weapon_HowlAtDawn">Ululato all'alba</string>
 	<string key="twin_wolves_name" rel_version="Weapon_TwinWolves">Lupi gemelli</string>
+	<string key="silver_dye_name" rel_version="Entitlements_November">Argento affilato</string>
 	<string key="Bundle_Decor_Pirate_name" rel_version="New_World_Launch">Pacchetto decorazioni casa pirata</string>
 	<string key="EntitlementSkin_Light_Demon_description" rel_version="AngelsDemonsWeapons">"Ricavato dall'unione infernale tra un essere umano e un demone." Set di skin per armatura</string>
 	<string key="twitch_pirate_itemskin_description" rel_version="New_World_Launch">"Se i morti non parlano, chi racconterà la tua gloria?" Set di skin per vestiario</string>
@@ -217,25 +228,30 @@
 	<string key="Icon_Crest_Pack_Gesture_description" rel_version="New_World_Launch">"Dici tanto, quando non dici niente." Pacchetto emblema della compagnia</string>
 	<string key="twitch_pirate_crestpack_description" rel_version="New_World_Launch">"Alzate l'ancora, brutte canaglie!" Pacchetto emblema della compagnia</string>
 	<string key="Icon_Crest_Pack_RobinHood_description" rel_version="New_World_Launch">"La foresta appartiene alla tua banda." Pacchetto emblema della compagnia</string>
+	<string key="Icon_Crest_Pack_Thespain_description" rel_version="Apparel_Thespian">Emblemi da teatrante</string>
 	<string key="Icon_Crest_Pack_WeaponMaster_description" rel_version="New_World_Launch">"Lama o arco, ascia o moschetto? L'artigiano sopravvive, il maestro prospera." Pacchetto emblema della compagnia</string>
 	<string key="primeblue_dye_description" rel_version="New_World_Launch">Pacchetto tinta consumabile</string>
 	<string key="amazonorange_dye_description" rel_version="New_World_Launch">Pacchetto tinta consumabile</string>
-	<string key="bleached_cofee_dye_description" rel_version="New_World_Launch">Pacchetto tinta consumabile</string>
-	<string key="blood_dye_description" rel_version="New_World_Launch">Pacchetto tinta consumabile</string>
-	<string key="viola_dye_description" rel_version="New_World_Launch">Pacchetto tinta consumabile</string>
-	<string key="burntsienna_dye_description" rel_version="New_World_Launch">Pacchetto tinta consumabile</string>
-	<string key="forestgreen_dye_description" rel_version="New_World_Launch">Pacchetto tinta consumabile</string>
-	<string key="tradewind_dye_description" rel_version="New_World_Launch">Pacchetto tinta consumabile</string>
-	<string key="bluedsteel_dye_description" rel_version="New_World_Launch">Pacchetto tinta consumabile</string>
-	<string key="springgrape_dye_description" rel_version="New_World_Launch">Pacchetto tinta consumabile</string>
-	<string key="lavender_dye_description" rel_version="New_World_Launch">Pacchetto tinta consumabile</string>
+	<string key="twitchpurple_dye_description" rel_version="Apparel_Thespian">Pacchetto tinta consumabile</string>
+	<string key="bleached_cofee_dye_description" rel_version="Dyes_Launch">Pacchetto tinta consumabile</string>
+	<string key="blood_dye_description" rel_version="MTX_October_Skins">Pacchetto tinta consumabile</string>
+	<string key="viola_dye_description" rel_version="Dyes_Launch">Pacchetto tinta consumabile</string>
+	<string key="burntsienna_dye_description" rel_version="MTX_October_Skins">Pacchetto tinta consumabile</string>
+	<string key="silt_dye_description" rel_version="Entitlements_November">Pacchetto tinta consumabile</string>
+	<string key="keylime_dye_description" rel_version="Entitlements_November">Pacchetto tinta consumabile</string>
+	<string key="forestgreen_dye_description" rel_version="Dyes_Launch">Pacchetto tinta consumabile</string>
+	<string key="tradewind_dye_description" rel_version="Dyes_Launch">Pacchetto tinta consumabile</string>
+	<string key="bluedsteel_dye_description" rel_version="MTX_October_Skins">Pacchetto tinta consumabile</string>
+	<string key="springgrape_dye_description" rel_version="MTX_October_Skins">Pacchetto tinta consumabile</string>
+	<string key="deepvelvet_dye_description" rel_version="Entitlements_November">Pacchetto tinta consumabile</string>
+	<string key="lavender_dye_description" rel_version="Dyes_Launch">Pacchetto tinta consumabile</string>
 	<string key="twitch_robinhood_emote_blowkiss_description" rel_version="New_World_Launch">"Un gesto di amor cortese." Emote</string>
 	<string key="coin_toss_description" rel_version="New_World_Launch">"Un lancio della moneta." Emote</string>
 	<string key="applause_description" rel_version="New_World_Launch">"Un lavoro ben fatto!" Emote</string>
 	<string key="twitch_robinhood_emote_fingerwag_description" rel_version="New_World_Launch">"No, no, no, oggi no!" Emote</string>
 	<string key="twitch_pirate_emote_piratestance_description" rel_version="New_World_Launch">"Ben presto le tue ricche flotte saranno mie." Emote</string>
 	<string key="twitch_pirate_emote_throat_description" rel_version="New_World_Launch">"Il marchio del brigante." Emote</string>
-	<string key="thumbs_description" rel_version="New_World_Launch">"Approvazione, disapprovazione, assenza di giudizio." Emote</string>
+	<string key="thumbs_description" rel_version="New_World_Launch">"Approvazione, disapprovazione, assenza di giudizio." Include tre diverse emote: pollice su, giù e di lato. Emote</string>
 	<string key="dragons_coil_description" rel_version="Weapon_DragonsCoil">"I serpenti del passato, con squame d'acciaio, strisciano in eterno." Skin per scudo</string>
 	<string key="EntitlementSkin_AnglesDemon_Spear_description" rel_version="AngelsDemonsWeapons">"Una lancia benedetta per preservare l'equilibrio tra luce e oscurità." Skin per lancia</string>
 	<string key="EntitlementSkin_AnglesDemon_FireStaff_description" rel_version="AngelsDemonsWeapons">"Al suo interno arde il tormentato fuoco dell'inferno." Skin per bastone infuocato</string>
@@ -243,6 +259,7 @@
 	<string key="EntitlementSkin_AnglesDemon_LifeStaff_description" rel_version="AngelsDemonsWeapons">"Un bastone impregnato di forze rigeneranti primordiali." Skin per bastone della vita</string>
 	<string key="howl_at_dawn_description" rel_version="Weapon_HowlAtDawn">"Un urlo nell'ora delle streghe." Skin per spada</string>
 	<string key="twin_wolves_description" rel_version="Weapon_TwinWolves">"Il loro ululato si fa sempre più vicino." Skin per martello da guerra</string>
+	<string key="silver_dye_description" rel_version="Entitlements_November">Pacchetto tinta consumabile</string>
 	<string key="Bundle_Decor_Pirate_description" rel_version="New_World_Launch">"Le acque infide possono nascondere grandi tesori." Set di decorazioni casa pirata</string>
 	<string key="ui_no_featured_deal">Nessuna offerta speciale al momento.\n\n&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;&lt;font color="#ffffff"&gt;E S P L O R A  I L  N E G O Z I O&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_no_featured_deal_store">Non ci sono offerte speciali in questo momento.\nEsplora il negozio utilizzando le schede sulla sinistra!</string>
@@ -265,9 +282,9 @@
 	<string key="ui_crestforeground_55" rel_version="New_World_Launch">Fiori</string>
 	<string key="ui_crestforeground_56" rel_version="New_World_Launch">Quadri</string>
 	<string key="ui_crestforeground_90" rel_version="New_World_Launch">Pistole incrociate</string>
-	<string key="ui_crestforeground_96" rel_version="New_World_Launch">Stemma emblema</string>
-	<string key="ui_crestforeground_97" rel_version="New_World_Launch">Stemma emblema</string>
-	<string key="ui_crestforeground_98" rel_version="New_World_Launch">Stemma emblema</string>
+	<string key="ui_crestforeground_96" rel_version="Apparel_Thespian">Locandina</string>
+	<string key="ui_crestforeground_97" rel_version="Apparel_Thespian">Oggetti di scena</string>
+	<string key="ui_crestforeground_98" rel_version="Apparel_Thespian">La penna possente</string>
 	<string key="ui_crestforeground_99" rel_version="New_World_Launch">Tacchino arrosto</string>
 	<string key="ui_crestforeground_100" rel_version="New_World_Launch">Cappello da pellegrino</string>
 	<string key="ui_crestforeground_101" rel_version="New_World_Launch">Ascia x moschetto</string>
@@ -313,6 +330,8 @@
 	<string key="Monster_Musket_description" rel_version="New_World_Launch">"Un morso peggiore del suo latrato." Skin per moschetto</string>
 	<string key="Monster_Rapier_name" rel_version="New_World_Launch">Stocco scheletrico</string>
 	<string key="Monster_Rapier_description" rel_version="New_World_Launch">"La sua insidiosa lama è ricavata dalle ossa di una temibile bestia, ormai persa nella nebbia del tempo." Skin per stocco</string>
+	<string key="Monster_VoidGauntlet_name" rel_version="Weapon_Void_Gauntlet">Profondità torbide</string>
+	<string key="Monster_VoidGauntlet_description" rel_version="Weapon_Void_Gauntlet">Skin per guanto del Vuoto. "Le torbide profondità celano resti di tenebre primordiali."</string>
 	<string key="Mask_AngryEarth_name" rel_version="New_World_Launch">Maschera elementale</string>
 	<string key="Mask_AngryEarth_description" rel_version="New_World_Launch">"Le correnti di energia attraversano questa maschera, dando a chi la indossa un aspetto un po' più magico di quanto non sia in realità." Skin per maschera</string>
 	<string key="Mask_Demon_name" rel_version="New_World_Launch">Maschera del demone</string>
@@ -327,6 +346,26 @@
 	<string key="Apparel_Monster_Mummy_description" rel_version="New_World_Launch">"Non puzza molto per essere una reliquia ammuffita e conservata al chiuso per migliaia di anni." Set di skin per vestiario</string>
 	<string key="Apparel_Monster_Skeleton_name" rel_version="New_World_Launch">Cavaliere scheletrico</string>
 	<string key="Apparel_Monster_Skeleton_description" rel_version="New_World_Launch">Sinistro e sepolcrale, comanda eserciti di ossa. Set di skin per vestiario</string>
+	<string key="Emote_Whistle_name" rel_version="Emote_Whistle">Fischiare</string>
+	<string key="Emote_Whistle_description" rel_version="Emote_Whistle">"Per chiamare cani, assistenti o entrambi." Emote</string>
+	<string key="Weapon_Golden_Colt_name" rel_version="RoyalCourtSkins">Puledro d'oro</string>
+	<string key="Weapon_Golden_Colt_description" rel_version="RoyalCourtSkins">"Colpisce con la forza di un cavallo da guerra al galoppo... e in fiamme." Skin per bastone infuocato</string>
+	<string key="Weapon_Wicked_Tyrant_name" rel_version="RoyalCourtSkins">Tiranno malvagio</string>
+	<string key="Weapon_Wicked_Tyrant_description" rel_version="RoyalCourtSkins">"Il potere corrompe. Il tipo di potere che solo il Tiranno malvagio può conferirti." Skin per ascia grande</string>
+	<string key="Weapon_Crest_of_the_Allsight_name" rel_version="RoyalCourtSkins">Emblema dell'onnisciente</string>
+	<string key="Weapon_Crest_of_the_Allsight_description" rel_version="RoyalCourtSkins">"Mostra loro la tua fedeltà, ostentalo quando combatti e di tanto in tanto sbattilo in faccia ai nemici, se necessario. Fai sapere a tutti che sei un nemico da temere." Skin per scudo</string>
+	<string key="Weapon_Gallantry_name" rel_version="RoyalCourtSkins">Prodezza</string>
+	<string key="Weapon_Gallantry_description" rel_version="RoyalCourtSkins">"Una spada per il coraggioso, il raffinato, il più galante dei nostri cavalieri." Skin per spada</string>
+	<string key="Weapon_Monarchs_Might_name" rel_version="RoyalCourtSkins">Potenza del Monarca</string>
+	<string key="Weapon_Monarchs_Might_description" rel_version="RoyalCourtSkins">"Cos'è la vera forza? Saper prendere decisioni per governare altri? O semplicemente avere la forza necessaria per uccidere?" Skin per martello da guerra</string>
+	<string key="Weapon_RoyalCourt_IceGauntlet_name" rel_version="Weapon_IceGauntlet_RoyalCourt">Stretta della nobiltà</string>
+	<string key="Weapon_RoyalCourt_IceGauntlet_description" rel_version="Weapon_IceGauntlet_RoyalCourt">"Nessuno può mettere in dubbio chi sia il proprio sovrano, se non vuole che una mano gelida si chiuda attorno alla sua gola traditrice." Skin per guanto di ghiaccio</string>
+	<string key="Armor_Suncourt_Regalia_name" rel_version="RoyalCourtSkins">Uniforme del sole</string>
+	<string key="Armor_Suncourt_Regalia_description" rel_version="RoyalCourtSkins">"È consigliabile proteggersi gli occhi quando si guarda qualcosa di così fulgidamente glorioso." Skin per armatura</string>
+	<string key="Armor_Jesters_Delight_name" rel_version="RoyalCourtSkins">Gioia del giullare</string>
+	<string key="Armor_Jesters_Delight_description" rel_version="RoyalCourtSkins">"Se il buffone beffa il beffato, chi è il vero buffone?" Skin per armatura</string>
+	<string key="Armor_Deaths_Coronation_name" rel_version="RoyalCourtSkins">Incoronazione della morte</string>
+	<string key="Armor_Deaths_Coronation_description" rel_version="RoyalCourtSkins">"Il re dei morti è comunque, a tutti gli effetti, un re." Skin per armatura</string>
 	<string key="server_transfer_name" rel_version="Feature_Server_Transfer">Trasferimento di mondo (monouso)</string>
 	<string key="character_rename" rel_version="MTX_October_Skins">Rinomina personaggio (monouso)</string>
 	<string key="character_rename_description" rel_version="MTX_October_Skins">Ti permette di cambiare il nome del personaggio.\nSi può usare una volta sola.</string>
@@ -337,8 +376,8 @@
 	<string key="server_transfer_requirements" rel_version="Feature_Server_Transfer">REQUISITI</string>
 	<string key="server_transfer_not_transfer" rel_version="Feature_Server_Transfer">COSA NON SARÀ TRASFERITO</string>
 	<string key="server_transfer_requirements_detail1" rel_version="Feature_Server_Transfer">Non puoi fare parte di una compagnia prima del trasferimento</string>
-	<string key="server_transfer_requirements_detail2" rel_version="Feature_Server_Transfer">You cannot have active Trading Post Buy/Sell Orders before transferring</string>
-	<string key="server_transfer_requirements_detail3" rel_version="Feature_Server_Transfer">You must be in a Sanctuary (Settlement, Outpost, Spirit Shrine, or Watchtower) before transferring</string>
+	<string key="server_transfer_requirements_detail2" rel_version="Feature_Server_Transfer">Non puoi avere ordini di acquisto/vendita attivi all'emporio prima del trasferimento</string>
+	<string key="server_transfer_requirements_detail3" rel_version="Feature_Server_Transfer">Devi essere in un Santuario (insediamento, avamposto, santuario dello spirito o torre di guardia) prima del trasferimento</string>
 	<string key="server_transfer_not_transfer_detail1" rel_version="Feature_Server_Transfer">La tua lista amici verrà cancellata e non sarà trasferita</string>
 	<string key="server_transfer_not_transfer_detail2" rel_version="Feature_Server_Transfer">Le missioni del progetto cittadino attivo non saranno trasferite</string>
 	<string key="server_transfer_not_transfer_detail3" rel_version="Feature_Server_Transfer">Le missioni della fazione attiva non saranno trasferite</string>
@@ -349,8 +388,8 @@
 	<string key="server_transfer_unavailable_outpost_rush" rel_version="Feature_Server_Transfer">Non puoi trasferire mondi mentre sei in una Carica all'avamposto.</string>
 	<string key="server_transfer_unavailable_outpost_rush_queue" rel_version="Feature_Server_Transfer">Non puoi trasferire mondi mentre sei in coda per una Carica all'avamposto.</string>
 	<string key="server_transfer_more_details" rel_version="Feature_Server_Transfer">Per maggiori informazioni, consulta</string>
-	<string key="server_transfer_transfer_faq" rel_version="Feature_Server_Transfer">&lt;font color="#70d2e4"&gt;Domande frequenti sul trasferimento di mondo del personaggio&lt;/font&gt;</string>
-	<string key="server_transfer_final_details" rel_version="Feature_Server_Transfer">Confermando il trasferimento tornerai al menu principale di selezione del personaggio. I trasferimenti non sono reversibili.</string>
+	<string key="server_transfer_transfer_faq" rel_version="Feature_Server_Transfer">Domande frequenti sul trasferimento di mondo del personaggio</string>
+	<string key="server_transfer_final_details" rel_version="Feature_Server_Transfer">Confermando il trasferimento tornerai al menu principale di selezione del personaggio.</string>
 	<string key="server_transfer_final_details_purchase" rel_version="Feature_Server_Transfer">Dopo l'acquisto, verrai disconnesso dal menu principale di selezione del personaggio. Non potrai trasferire di nuovo questo personaggio per 7 giorni, a meno che non si verifichi una fusione tra mondi. I trasferimenti non sono reversibili.</string>
 	<string key="server_transfer_change_world" rel_version="Feature_Server_Transfer">Cambia mondo</string>
 	<string key="server_transfer_select_world" rel_version="Feature_Server_Transfer">Seleziona mondo</string>
@@ -358,8 +397,8 @@
 	<string key="server_transfer_region_hint" rel_version="Feature_Server_Transfer">È possibile trasferire personaggi solo in un altro mondo all'interno della stessa regione. Per poter giocare in una regione diversa, devi creare un nuovo personaggio in quella regione.</string>
 	<string key="server_transfer_maintenance" rel_version="Feature_Server_Transfer">Non puoi effettuare il trasferimento in un mondo mentre è in corso la manutenzione.</string>
 	<string key="server_transfer_requirements_company" rel_version="Feature_Server_Transfer">Non puoi fare parte di una compagnia prima del trasferimento.</string>
-	<string key="server_transfer_requirements_tradingPost" rel_version="Feature_Server_Transfer">You cannot have active Trading Post Buy/Sell Orders before transferring.</string>
-	<string key="server_transfer_requirements_sanctuary" rel_version="Feature_Server_Transfer">You must be in a Sanctuary (Settlement, Outpost, Spirit Shrine, or Watchtower) before transferring.</string>
+	<string key="server_transfer_requirements_tradingPost" rel_version="Feature_Server_Transfer">Non puoi avere ordini di acquisto/vendita attivi all'emporio prima del trasferimento.</string>
+	<string key="server_transfer_requirements_sanctuary" rel_version="Feature_Server_Transfer">Devi essere in un Santuario (insediamento, avamposto, santuario dello spirito o torre di guardia) prima del trasferimento.</string>
 	<string key="server_transfer_requirements_tradingPost_unknown" rel_version="Feature_Server_Transfer">Verifica stato dell'emporio...</string>
 	<string key="server_transfer_confirm" rel_version="Feature_Server_Transfer">CONFERMA TRASFERIMENTO DI MONDO</string>
 	<string key="server_transfer_confirm_button" rel_version="Feature_Server_Transfer">Conferma trasferimento</string>
@@ -374,7 +413,81 @@
 	<string key="rename_extra_detail" rel_version="MTX_October_Skins">Sul tuo account è disponibile 1 cambio di nome. Una volta rivendicato, non potrai usarlo su altri personaggi.</string>
 	<string key="Housing_Happy_Pumpkin_description" rel_version="MTX_October_Skins">"L'incapace disgraziato era felicemente dannato e dannatamente felice. Sorrideresti anche tu se avessi ingannato il diavolo in persona!" Decorazione della casa</string>
 	<string key="Housing_Happy_Pumpkin_name" rel_version="MTX_October_Skins">Lanterna di Jack lo Scapestrato</string>
+	<string key="Tool_AzothStaff_Monster_name" rel_version="Tool_AzothStaff_Monster">L'Occhio</string>
+	<string key="Tool_AzothStaff_Monster_description" rel_version="Tool_AzothStaff_Monster">"Riesce ad avvistare una breccia a 10 passi di distanza. Forse avrebbe bisogno di un paio di occhiali..." Skin per strumento Bastone di Azoth</string>
+	<string key="Tool_FishingPole_Monster_name" rel_version="Tool_FishingPole_Monster">Sguardo del serpente</string>
+	<string key="Tool_FishingPole_Monster_description" rel_version="Tool_FishingPole_Monster">"Attira i pesci leggendari e sottomettili brandendo una canna che assomiglia ai loro alleati sottomarini." Skin per strumento canna da pesca</string>
+	<string key="Tool_LoggingAxe_Monster_name" rel_version="Tool_LoggingAxe_Monster">Ascia di kraken</string>
+	<string key="Tool_LoggingAxe_Monster_description" rel_version="Tool_LoggingAxe_Monster">"Giureresti che con quest'ascia lo scricchiolio dell'albero che cade assomigli a un'onda che si increspa." Skin per strumento Ascia spaccalegna</string>
+	<string key="Tool_PickAxe_Monster_name" rel_version="Tool_PickAxe_Monster">Piccone del gargoyle</string>
+	<string key="Tool_PickAxe_Monster_description" rel_version="Tool_PickAxe_Monster">"Proteggi subito il tuo piccone dagli spiriti maligni!" Skin per strumento piccone</string>
+	<string key="Tool_Sickle_Monster_name" rel_version="Tool_Sickle_Monster">Il doloroso artiglio</string>
+	<string key="Tool_Sickle_Monster_description" rel_version="Tool_Sickle_Monster">"Un uccello gigantesco arrivato dal mare. Non so cosa fosse, ma i suoi artigli erano incredibilmente affilati." Skin per strumento Falcetto</string>
+	<string key="Tool_SkinningKnife_Monster_name" rel_version="Tool_SkinningKnife_Monster">Coltello da scuoiatura demoniaco</string>
+	<string key="Tool_SkinningKnife_Monster_description" rel_version="Tool_SkinningKnife_Monster">"Perché sembra così... affamato?" Skin per strumento Coltello da scuoiatura</string>
+	<string key="Tool_AzothStaff_LegendaryAzoth_name" rel_version="Tool_AzothStaff_LegendaryAzoth">Bastone di Azoth in lega di Azoth</string>
+	<string key="Tool_AzothStaff_LegendaryAzoth_description" rel_version="Tool_AzothStaff_LegendaryAzoth">"Rinforzato dalle molte brecce che ha chiuso." Skin per strumento Bastone di Azoth</string>
+	<string key="Tool_FishingPole_LegendaryAzoth_name" rel_version="Tool_FishingPole_LegendaryAzoth">Canna da pesca in lega di Azoth</string>
+	<string key="Tool_FishingPole_LegendaryAzoth_description" rel_version="Tool_FishingPole_LegendaryAzoth">"Utilizza la magia solo per scuotere un po' l'amo. I pesci sembrano apprezzare." Skin per strumento canna da pesca</string>
+	<string key="Tool_LoggingAxe_LegendaryAzoth_name" rel_version="Tool_LoggingAxe_LegendaryAzoth">Ascia spaccalegna in lega di Azoth</string>
+	<string key="Tool_LoggingAxe_LegendaryAzoth_description" rel_version="Tool_LoggingAxe_LegendaryAzoth">"Mai creata una lega usando l'Azoth ma ci proverò, puoi scommetterci." Skin per strumento Ascia spaccalegna</string>
+	<string key="Tool_PickAxe_LegendaryAzoth_name" rel_version="Tool_PickAxe_LegendaryAzoth">Piccone in lega di Azoth</string>
+	<string key="Tool_PickAxe_LegendaryAzoth_description" rel_version="Tool_PickAxe_LegendaryAzoth">"Può non sembrare, ma questo attrezzo è pervaso dalla magia." Skin per strumento piccone</string>
+	<string key="Tool_Sickle_LegendaryAzoth_name" rel_version="Tool_Sickle_LegendaryAzoth">Falcetto in lega di Azoth</string>
+	<string key="Tool_Sickle_LegendaryAzoth_description" rel_version="Tool_Sickle_LegendaryAzoth">"Il tenue bagliore blu ti farebbe sentire a tuo agio in una foresta magica." Skin per strumento Falcetto</string>
+	<string key="Tool_SkinningKnife_LegendaryAzoth_name" rel_version="Tool_SkinningKnife_LegendaryAzoth">Coltello da scuoiatura in lega di Azoth</string>
+	<string key="Tool_SkinningKnife_LegendaryAzoth_description" rel_version="Tool_SkinningKnife_LegendaryAzoth">"Ti avevo chiesto un coltello da scuoiatura, non uno da assassino." Skin per strumento Coltello da scuoiatura</string>
+	<string key="Tool_AzothStaff_LegendaryStrength_name" rel_version="Tool_AzothStaff_LegendaryStrength">Bastone di Azoth in acciaio al carbonio</string>
+	<string key="Tool_AzothStaff_LegendaryStrength_description" rel_version="Tool_AzothStaff_LegendaryStrength">"Abbastanza robusto da affrontare anche le brecce più pericolose." Skin per strumento Bastone di Azoth</string>
+	<string key="Tool_FishingPole_LegendaryStrength_name" rel_version="Tool_FishingPole_LegendaryStrength">Canna da pesca in acciaio al carbonio</string>
+	<string key="Tool_FishingPole_LegendaryStrength_description" rel_version="Tool_FishingPole_LegendaryStrength">"Grazie al rinforzo aggiuntivo, non dovrai mai preoccuparti che si possa spezzare." Skin per strumento canna da pesca</string>
+	<string key="Tool_LoggingAxe_LegendaryStrength_name" rel_version="Tool_LoggingAxe_LegendaryStrength">Ascia spaccalegna in acciaio al carbonio</string>
+	<string key="Tool_LoggingAxe_LegendaryStrength_description" rel_version="Tool_LoggingAxe_LegendaryStrength">"Di un attrezzo occorre prendersi cura, ma se è fatto del materiale giusto, non dovrai farlo per parecchio tempo." Skin per strumento Ascia spaccalegna</string>
+	<string key="Tool_PickAxe_LegendaryStrength_name" rel_version="Tool_PickAxe_LegendaryStrength">Piccone in acciaio al carbonio</string>
+	<string key="Tool_PickAxe_LegendaryStrength_description" rel_version="Tool_PickAxe_LegendaryStrength">"Abbastanza robusto da estrarre ogni cosa di cui potresti aver bisogno su Aeternum." Skin per strumento piccone</string>
+	<string key="Tool_Sickle_LegendaryStrength_name" rel_version="Tool_Sickle_LegendaryStrength">Falcetto in acciaio al carbonio</string>
+	<string key="Tool_Sickle_LegendaryStrength_description" rel_version="Tool_Sickle_LegendaryStrength">"Un falcetto estremamente pratico grazie alla lama che resta affilata molto a lungo." Skin per strumento Falcetto</string>
+	<string key="Tool_SkinningKnife_LegendaryStrength_name" rel_version="Tool_SkinningKnife_LegendaryStrength">Coltello da scuoiatura di carbonio</string>
+	<string key="Tool_SkinningKnife_LegendaryStrength_description" rel_version="Tool_SkinningKnife_LegendaryStrength">"Abbastanza robusto da tagliare perfino la pelle di yeti." Skin per strumento Coltello da scuoiatura</string>
+	<string key="Emote_ChestPound_name" rel_version="Emote_ChestPound">Pugni sul petto</string>
 	<string key="Emote_Impatient_name" rel_version="Emote_Impatient">In attesa</string>
+	<string key="Emote_Cry_name" rel_version="Emote_Cry">Pianto</string>
+	<string key="Emote_ChestPound_description" rel_version="Emote_ChestPound">"Una dimostrazione di superiorità". Emote</string>
 	<string key="Emote_Impatient_description" rel_version="Emote_Impatient">"Non abbiamo mica tutta l'eternità... o forse sì? Emote</string>
+	<string key="Emote_Cry_description" rel_version="Emote_Cry">"Innaffia la terra con le tue lacrime." Emote</string>
+	<string key="Apparel_WarSpecial_name" rel_version="Apparel_War_Special">Macabro guerriero </string>
+	<string key="Apparel_RoyalCourt_Crown_name" rel_version="Apparel_Helmet_Crown">Corona dell'ascensione</string>
+	<string key="Apparel_RoyalCourt_Tiara_name" rel_version="Apparel_Helmet_Tiara">Tiara dell'ascensione </string>
+	<string key="Apparel_WarSpecial_description" rel_version="Apparel_War_Special">"La risplendente uniforme della morte stessa, che si dice perseguiti ogni campo di battaglia di Aeternum maledicendo le resurrezioni dell'isola." Skin per vestiario</string>
+	<string key="Apparel_RoyalCourt_Crown_description" rel_version="Apparel_Helmet_Crown">"Aeternum porge una corona sulla testa di ogni viandante, devono solo alzarsi per raggiungerla." Skin per elmo</string>
+	<string key="Apparel_RoyalCourt_Tiara_description" rel_version="Apparel_Helmet_Tiara">"Nemmeno le aspre lande selvagge di Aeternum possono impedire a un sovrano di apparire al meglio." Skin per elmo</string>
+	<string key="Weapon_Bow_RoyalCourt_name" rel_version="Weapon_Bow_RoyalCourt">Filigrana dell'arciere</string>
+	<string key="Tool_AzothStaff_RoyalCourt_name" rel_version="Tool_AzothStaff_RoyalCourt">Mistero del margravio</string>
+	<string key="Tool_FishingPole_RoyalCourt_name" rel_version="Tool_FishingPole_RoyalCourt">Lenza dorata</string>
+	<string key="Tool_LoggingAxe_RoyalCourt_name" rel_version="Tool_LoggingAxe_RoyalCourt">Maestà dell'albero</string>
+	<string key="Tool_PickAxe_RoyalCourt_name" rel_version="Tool_PickAxe_RoyalCourt">Piccozza imperiale</string>
+	<string key="Tool_Sickle_RoyalCourt_name" rel_version="Tool_Sickle_RoyalCourt">L'eminenza fulva</string>
+	<string key="Tool_SkinningKnife_RoyalCourt_name" rel_version="Tool_SkinningKnife_RoyalCourt">Lama del nobile</string>
+	<string key="Weapon_Bow_RoyalCourt_description" rel_version="Weapon_Bow_RoyalCourt">"Una freccia intagliata scoccata da un arco tempestato di oro e smeraldi di qualità superiore ferisce l'ego oltre che il corpo." Skin per arco</string>
+	<string key="Tool_AzothStaff_RoyalCourt_description" rel_version="Tool_AzothStaff_RoyalCourt">"L'avventuriero si avvicina al portale corrotto e colpisce il terreno con lo scettro, ordinandone la distruzione." Skin per bastone di Azoth</string>
+	<string key="Tool_FishingPole_RoyalCourt_description" rel_version="Tool_FishingPole_RoyalCourt">"Da sott'acqua, questa canna sembra luminosa e innocua come il sole sopra la superficie. I pesci impareranno presto che non è così." Skin per canna da pesca</string>
+	<string key="Tool_LoggingAxe_RoyalCourt_description" rel_version="Tool_LoggingAxe_RoyalCourt">"In un'abbagliante fiorire di luce, la foresta si inchina ai tuoi piedi." Skin per ascia spaccalegna</string>
+	<string key="Tool_PickAxe_RoyalCourt_description" rel_version="Tool_PickAxe_RoyalCourt">"Ordina a rocce e minerali senza distinzione di sgretolarsi." Skin per piccone</string>
+	<string key="Tool_Sickle_RoyalCourt_description" rel_version="Tool_Sickle_RoyalCourt">"Quando viene usato nelle terre selvagge, il luccichio di questo strumento attira gli sguardi di molti avventurieri invidiosi." Skin per falcetto</string>
+	<string key="Tool_SkinningKnife_RoyalCourt_description" rel_version="Tool_SkinningKnife_RoyalCourt">"Funge anche da tagliacarte per tutte le tue missive regali." Skin per coltello da scuoiatura</string>
+	<string key="Bundle_Decor_RoyalCourt_name" rel_version="Housing_Royal_MTX_Pack_2021">Pacchetto decorazioni corte reale</string>
+	<string key="Bundle_Decor_RoyalCourt_description" rel_version="Housing_Royal_MTX_Pack_2021">"Lo splendore reale adatto a chi è nobile di nascita, che sia vivo o corrotto." Set di decorazioni casa</string>
+	<string key="Bundle_Tool_LegendaryAzoth_name" rel_version="MTX_Tool_Skins_LegendaryAzoth">Strumenti leggendari di Azoth</string>
+	<string key="Bundle_Tool_LegendaryStrength_name" rel_version="MTX_Tool_Skins_LegendaryStrength">Strumenti leggendari di Forza</string>
+	<string key="Bundle_Tool_ClassicMonster_name" rel_version="MTX_Tool_Skins_Monster">Strumenti mostruosi</string>
+	<string key="Bundle_Tool_RoyalCourt_name" rel_version="MTX_Tool_Skins_RoyalCourt">Opulenza regale</string>
+	<string key="Bundle_Tool_LegendaryAzoth_description" rel_version="MTX_Tool_Skins_LegendaryAzoth">"Un tocco di magia si abbina bene a qualsiasi compito, inclusa la raccolta di ciò che è necessario per sopravvivere." Pacchetto skin per strumento</string>
+	<string key="Bundle_Tool_LegendaryStrength_description" rel_version="MTX_Tool_Skins_LegendaryStrength">"La forza del braccio può essere il modo migliore per trasformare le risorse di Aeternum negli elementi che le compongono." Pacchetto skin per strumento</string>
+	<string key="Bundle_Tool_ClassicMonster_description" rel_version="MTX_Tool_Skins_Monster">"Una raccolta di strumenti spaventosi e maledetti che traggono potere dalla psiche di chi li utilizza." Pacchetto skin per strumento</string>
+	<string key="Bundle_Tool_RoyalCourt_description" rel_version="MTX_Tool_Skins_RoyalCourt">"Questi strumenti brillano per dimostrare a tutti chi esercita il potere dell'oro ad Aeternum." Pacchetto skin per strumento</string>
+	<string key="Apparel_AutumnKing_name" rel_version="Apparel_AutumnKing">Signore autunnale</string>
+	<string key="Apparel_AutumnKing_description" rel_version="Apparel_AutumnKing">"Il ciclo della vita continua." Skin per vestiario</string>
+	<string key="Bundle_WarSpecial_Promo_name" rel_version="Bundle_Promo_BlackFriday">Pacchetto Macabro guerriero</string>
+	<string key="Bundle_WarSpecial_Promo_description" rel_version="Bundle_Promo_BlackFriday">"Indossa la risplendente uniforme della morte stessa, che si dice infesti ogni campo di battaglia di Aeternum. Accompagnala con una tinta grigio scuro per rimuovere ancora più luce dal mondo." Pacchetto skin e tinta</string>
 </resources>
 

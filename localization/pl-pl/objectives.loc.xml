@@ -42,6 +42,8 @@
 	<string key="objective_buySell_spendGoldSingleTransaction" speaker="UI">Wydaj {amountCount} monet w jednej transakcji</string>
 	<string key="objective_completed" speaker="UI">Cel osiągnięty</string>
 	<string key="dynamic_poi_objective_completed" speaker="UI">Zbadano punkt orientacyjny</string>
+	<string key="objective_quest_encounter">Potyczka z zadania</string>
+	<string key="objective_quest_encounter_description">Ukończ potyczkę, by posunąć naprzód wykonanie zadania.</string>
 	<string key="objective_craft" speaker="UI">Stwórz przedmiot {itemName}</string>
 	<string key="objective_craft_p" speaker="UI">Stwórz przedmiot {itemName} w liczbie {itemAmount}</string>
 	<string key="objective_crafthealingdrops" speaker="UI">Wytwórz przedmiot: {itemName} w swoim obozie (domyślnie: [Y])</string>
@@ -67,7 +69,7 @@
 	<string key="objective_experience" speaker="UI">PD</string>
 	<string key="objective_failed" speaker="UI">Nie udało się osiągnąć celu</string>
 	<string key="objective_gather_herbs" speaker="UI">Zbierz przedmioty: {itemName} w kolorze niebieskim z terenów przybrzeżnych</string>
-	<string key="objective_gatherironore" speaker="UI">Weź rudę żelaza z ciężkiej torby w swoim ekwipunku</string>
+	<string key="objective_gatherironore" speaker="UI">Weź rudę żelaza z ciężkiej torby w swoim ekwipunku LUB</string>
 	<string key="objective_gatherrawhide" speaker="UI">Oskóruj dziki i wilki, by zdobyć {itemName}</string>
 	<string key="objective_gatherstone" speaker="UI">Wydobądź z głazów {itemName}</string>
 	<string key="objective_gatherwood" speaker="UI">Zbierz z drzew i krzaków {itemName}</string>
@@ -76,6 +78,7 @@
 	<string key="objective_have_level" speaker="UI">Osiągnij poziom {level}</string>
 	<string key="objective_have" speaker="UI">Otrzymaj przedmiot {itemName}</string>
 	<string key="objective_have_p" speaker="UI">Otrzymaj przedmiot {itemName} w liczbie {itemAmount}</string>
+	<string key="@objective_house_score" speaker="UI">Zdobądź punkty dekoracji domu: {score}</string>
 	<string key="objective_ingredients" speaker="UI">SKŁADNIKI</string>
 	<string key="objective_journal" speaker="UI">Dziennik</string>
 	<string key="objective_journey" speaker="UI">Wątki poboczne</string>
@@ -140,8 +143,8 @@
 	<string key="objective_msq" speaker="UI">Wątek główny</string>
 	<string key="objective_msq_desc" speaker="UI">Cele wątku głównego</string>
 	<string key="M_procurer_craft_workorder_items" speaker="UI">Misja – wytwarzanie</string>
-	<string key="objective_name_template" comment="Obsolete - Used to show above rewards on the conversation screen. {title} is the quest title." speaker="UI">Zadanie: „{title}”</string>
-	<string key="objective_name_and_rewards_template" comment="Shows above rewards on the conversation screen. {title} is the quest title" speaker="UI">Nagrody za: „{title}”</string>
+	<string key="objective_name_template" comment="Obsolete - Used to show above rewards on the conversation screen. {title} is the quest title." speaker="UI">Zadanie: "{title}"</string>
+	<string key="objective_name_and_rewards_template" comment="Shows above rewards on the conversation screen. {title} is the quest title" speaker="UI">"{title}" – nagrody</string>
 	<string key="objective_rewards_completion" comment="Rewards label when completing a quest" speaker="UI">Nagrody za ukończenie</string>
 	<string key="objective_rewards_proposal" comment="Rewards label when accepting a quest" speaker="UI">Ukończ zadanie, aby otrzymać</string>
 	<string key="objective_objective" speaker="UI">Cel</string>
@@ -157,6 +160,8 @@
 	<string key="objective_has_location" speaker="UI">Z określonym miejscem</string>
 	<string key="objective_no_location" speaker="UI">Bez określonego miejsca</string>
 	<string key="objective_side_quests" speaker="UI">Zadania poboczne</string>
+	<string key="objective_event" speaker="UI">Zadania z wydarzeń</string>
+	<string key="objective_event_desc" speaker="UI">Cele dostępne podczas wydarzenia</string>
 	<string key="objective_faction_missions" speaker="UI">Misje frakcyjne</string>
 	<string key="objective_community_goal" speaker="UI">Projekty miasteczka</string>
 	<string key="objective_POI" speaker="UI">Punkt orientacyjny</string>
@@ -201,7 +206,7 @@
 	<string key="objective_story_task_getoffthebeach" speaker="UI">Znajdź posterunek</string>
 	<string key="objective_story_task_search_containers" speaker="UI">Przeszukaj skrzynie w pobliżu: {POITags}</string>
 	<string key="objective_tasks" speaker="UI">ZADANIA</string>
-	<string key="objective_townproject" speaker="UI">Projekt miasteczka</string>
+	<string key="objective_townproject" speaker="UI">Projekty miasteczka</string>
 	<string key="objective_townproject_desc" speaker="UI">Na tablicach projektowych miasteczka</string>
 	<string key="objective_unpin" speaker="UI">Odepnij</string>
 	<string key="objective_use" speaker="UI">Użyj przedmiotu {itemName}</string>
@@ -226,6 +231,7 @@
 	<string key="objective_mission_task_patrol_windsward" speaker="UI">Patrol</string>
 	<string key="patrol_task_container_description" speaker="UI">Broń pozycji i postaraj się przeżyć.</string>
 	<string key="objective_mission_task_patrol_timer" speaker="UI">Utrzymaj: {POITags} przez {timeRemaining}</string>
+	<string key="objective_mission_task_control_point" speaker="UI">Zajmij fort w: {TerritoryID} dla maruderów</string>
 	<string key="task_choose_faction" speaker="UI">Wybierz frakcję: {destinationName}</string>
 	<string key="complete_available_prompt_DEFAULT" comment="male" speaker="UI - Button">Ukończ zadanie</string>
 	<string key="prompt_DEFAULT" speaker="UI - Button">Zaakceptuj zadanie</string>
@@ -262,5 +268,24 @@
 	<string key="objective_destroy_and_collect" speaker="UI">Pokonaj: {targetName} i zabierz: {itemName} w: {POITags}</string>
 	<string key="commander">Dowódca</string>
 	<string key="objective_mission_destroy_generic_at_POI">Zgładź: {targetName} w: {POITags}</string>
+	<string key="objective_mission_task_PVP_kill_and_acquire_X_items_anywhere">Pokonaj członków wrogiej frakcji, aby odebrać przedmiot: {itemName}</string>
+	<string key="objective_mission_kill_generic">Pokonaj: {targetName}</string>
+	<string key="objective_mission_loot_chests_generic">Poszukaj w skrzyniach przedmiotu: {itemName}.</string>
+	<string key="objective_mission_hunt_generic">Upoluj: {targetName}</string>
+	<string key="objective_mission_loot_chests_at_Warcamp">Poszukaj w skrzyniach przedmiotu: {itemName} w obozie wojennym w: {TerritoryID}</string>
+	<string key="objective_mission_kill_with_weapon">Pokonaj: {targetName}, używając: {WeaponClassId}</string>
+	<string key="objective_mission_kill_with_sword">Pokonaj: {targetName}, używając miecza i tarczy</string>
+	<string key="objective_mission_kill_with_rapier">Pokonaj: {targetName}, używając rapiera</string>
+	<string key="objective_mission_kill_with_hatchet">Pokonaj: {targetName}, używając siekierki</string>
+	<string key="objective_mission_kill_with_greataxe">Pokonaj: {targetName}, używając topora dwuręcznego</string>
+	<string key="objective_mission_kill_with_warhammer">Pokonaj: {targetName}, używając młota bojowego</string>
+	<string key="objective_mission_kill_with_spear">Pokonaj: {targetName}, używając włóczni</string>
+	<string key="objective_mission_kill_with_bow">Pokonaj: {targetName}, używając łuku</string>
+	<string key="objective_mission_kill_with_musket">Pokonaj: {targetName}, używając muszkietu</string>
+	<string key="objective_mission_kill_with_firestaff">Pokonaj: {targetName}, używając ognistej laski</string>
+	<string key="objective_mission_kill_with_lifestaff">Pokonaj: {targetName}, używając laski życia</string>
+	<string key="objective_mission_kill_with_icegauntlet">Pokonaj: {targetName}, używając lodowej rękawicy</string>
+	<string key="objective_mission_task_control_point_S">Zajmij fort w: {TerritoryID} dla syndykatu</string>
+	<string key="objective_mission_task_control_point_C">Zajmij fort w: {TerritoryID} dla przymierza</string>
 </resources>
 

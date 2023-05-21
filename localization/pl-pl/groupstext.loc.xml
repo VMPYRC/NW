@@ -52,10 +52,11 @@
 	<string key="ui_cannotinviteinraid" comment="">Nie możesz wysłać zaproszenia podczas wojny.</string>
 	<string key="ui_cannotinvitein_pvp_wrong_faction" comment="">Gracze muszą należeć do tej samej frakcji, by mogli utworzyć grupę PvP.</string>
 	<string key="ui_cannotleavegroup_in_arena" comment="">Nie możesz opuścić swojej grupy, gdy przebywasz na arenie.</string>
+	<string key="ui_cannotleavegroup_in_war" comment="">Nie możesz opuścić swojej grupy, gdy bierzesz udział w wojnie.</string>
 	<string key="ui_cannotleavegroup_in_dungeon" comment="">Nie możesz opuścić swojej grupy, gdy przebywasz na ekspedycji.</string>
 	<string key="ui_cannotjoingroup_in_arena" comment="">Nie możesz dołączyć do innej grupy, gdy przebywasz na arenie.</string>
 	<string key="ui_cannotjoingroup_in_dungeon" comment="">Nie możesz dołączyć do innej grupy, gdy przebywasz na ekspedycji.</string>
-	<string key="ui_pvp_group" comment="">Grupa\nPvP</string>
+	<string key="ui_pvp_group" comment="">Grupa PvP</string>
 	<string key="ui_groupedalreadyerrormessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; należy już do grupy.</string>
 	<string key="ui_groupalreadyinvitederrortitle" comment="">Już wysłano zaproszenie</string>
 	<string key="ui_groupalreadyinvitederrormessage" comment="">Gracz &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; otrzymał już od ciebie zaproszenie.</string>
@@ -73,6 +74,7 @@
 	<string key="ui_fromplayerjoinedgrouperrormessage" comment="">Zaproszenie usunięte – gracz {playerName} dołączył do innej grupy.</string>
 	<string key="ui_toplayerjoinedgrouperrormessage" comment="">Błąd zaproszenia – gracz {playerName} dołączył do innej grupy</string>
 	<string key="ui_grouptoplayerisinftueerrormessage" comment="">{playerName} nie może teraz otrzymać zaproszenia.</string>
+	<string key="ui_grouptoplayerisinstreamermodeerrormessage" comment="">{playerName} ma włączony tryb "Nie przeszkadzać".</string>
 	<string key="ui_groupinvitetimedouterrormessage" comment="">Zaproszenie do grupy gracza {playerName} zdezaktualizowało się.</string>
 	<string key="ui_groupinvitetimedoutraid" comment="">Zaproszenie do grupy się zdezaktualizowało.</string>
 	<string key="ui_invitetogroup" comment="">Zaproś do grupy</string>
@@ -149,8 +151,8 @@
 	<string key="ui_ping_type_notification_NeedHelp" comment="">Alarm armii – Potrzebna pomoc</string>
 	<string key="ui_ping_type_notification_NeedHealing" comment="">Alarm armii – Potrzebne leczenie</string>
 	<string key="ui_pingTypeDistance" comment="">{pingType} {distance}</string>
-	<string key="ui_raid_war_header" comment="">Armia na wojnę.</string>
-	<string key="ui_raid_invasion_header" comment="">Armia na inwazję.</string>
+	<string key="ui_raid_war_header" comment="">Armia na wojnę</string>
+	<string key="ui_raid_invasion_header" comment="">Armia na inwazję</string>
 	<string key="ui_raid_standby_header" comment="">Lista oczekujących</string>
 	<string key="ui_raid_armygroups" comment="">Grupy armii.</string>
 	<string key="ui_raid_backfill" comment="">Uzupełnienie</string>

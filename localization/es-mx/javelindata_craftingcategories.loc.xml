@@ -1,8 +1,10 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="FoodComponents_GroupName">Ingredientes del compuesto</string>
 	<string key="GemstoneT1_GroupName">Gemas imperfectas</string>
 	<string key="GemstoneT2_GroupName">Gemas estándar</string>
 	<string key="GemstoneT3_GroupName">Gemas brillantes</string>
 	<string key="GemstoneT4_GroupName">Gemas prístinas</string>
+	<string key="CraftingPatterns_GroupName">Patrones de artesanía</string>
 	<string key="ShieldB_GroupName" comment="A heavy shield that provides excellent protection from attacks.">Escudos oblongos</string>
 	<string key="ShieldA_GroupName" comment="A relatively lightweight shield that provides good protection from attacks.">Escudos redondos</string>
 	<string key="AlchemyBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Trofeos que te brindan una bonificación arcana (cuando los colocas en tu casa).</string>
@@ -558,8 +560,8 @@
 	<string key="CarnelianCut_GroupName">Cornalina cortada</string>
 	<string key="Cartridges_GroupName">Cartuchos de armas de fuego</string>
 	<string key="catalyst_GroupName">Catalizadores</string>
-	<string key="CategoryData_1Handed">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;Armas&lt;/font&gt; a una mano</string>
-	<string key="CategoryData_2Handed">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;Armas&lt;/font&gt; a dos manos</string>
+	<string key="CategoryData_1Handed">Armas a una mano</string>
+	<string key="CategoryData_2Handed">Armas a dos manos</string>
 	<string key="CategoryData_AfflictionResistance">Resistencia a la aflicción</string>
 	<string key="CategoryData_alchemyresources">Reactivos de pociones</string>
 	<string key="CategoryData_Ammo">Munición</string>
@@ -634,7 +636,7 @@
 	<string key="CategoryData_Potion">Pociones</string>
 	<string key="CategoryData_PotionDesc">Las pociones son objetos que mejoran el rendimiento de forma temporaria.</string>
 	<string key="CategoryData_Alkahest">Alkahest</string>
-	<string key="CategoryData_AlkahestDesc"/>
+	<string key="CategoryData_AlkahestDesc">Los alkahest son objetos necesarios para fabricar pociones.</string>
 	<string key="CategoryData_RangedWeapons">Armas de ataque a distancia</string>
 	<string key="CategoryData_rawresources">Materias primas</string>
 	<string key="CategoryData_RefinedMaterial">Refinados</string>
@@ -696,7 +698,7 @@
 	<string key="CategoryData_TinctureDesc">Las tinturas son objetos que se utilizan para recuperarse de lesiones, agotamiento o aflicción.</string>
 	<string key="CategoryData_Tools">Herramientas</string>
 	<string key="CategoryData_Trophies">Trofeos</string>
-	<string key="CategoryData_Utilities">Consumibles.</string>
+	<string key="CategoryData_Utilities">Consumibles</string>
 	<string key="CategoryData_Warhammers">Martillos de guerra</string>
 	<string key="CategoryData_WeaponCoatings">Revestimientos de armas</string>
 	<string key="CategoryData_Weapons">Armas</string>
@@ -1053,6 +1055,8 @@
 	<string key="GatheringFood_GroupName">Comida de recolección</string>
 	<string key="GauntletIce_GroupDesc">La manopla consume maná para invocar los gélidos poderes de los hechizos de hielo. Ideal para causar daño persistente al invocar tormentas elementales, invocar hielo y utilizar ataques congelantes que estorban y dañan a los enemigos.\n\n•Ataque ligero: Causa un {[DamageTable.IceMagic_Primary.DmgCoef * 100]} % de daño de hielo.\n•Ataque pesado: Causa un {[DamageTable.IceMagic_Primary.DmgCoef * 100]} % de daño de hielo.</string>
 	<string key="GauntletIce_GroupName">Manoplas de hielo</string>
+	<string key="GauntletVoid_GroupDesc" rel_version="Weapon_Void_Gauntlet">Manopla que consume maná para debilitar a los enemigos y fortalecer a los aliados. La manopla de vacío, especializada en potenciadores de corto alcance e infligir daño con el tiempo o en despotenciaciones de medio alcance y curación, es especialmente peligrosa si se usa en un grupo.\n\n•Ataque ligero: Causa un {[DamageTable.VoidGauntlet_Primary.DmgCoef * 100]} % de daño de vacío.\n•Ataque pesado: Causa un {[DamageTable.VoidGauntlet_Heavy.DmgCoef * 100]} % de daño de vacío y cura a quien lo usa un {[VoidGauntletAbilityTable.Passive_VoidGauntlet_HealOnHeavy.DmgPctToHealth * 100]} % del daño infligido.\n•Esencia de cosecha (mantener pulsado "Bloquear"): Convierte tu salud en maná a lo largo del tiempo. La velocidad aumenta con el daño de arma.</string>
+	<string key="GauntletVoid_GroupName" rel_version="Weapon_Void_Gauntlet">Manoplas de vacío</string>
 	<string key="GemAmbe_CategoryName">Gemas de ámbar</string>
 	<string key="GemAmet_CategoryName">Gemas de amatista</string>
 	<string key="GemAqua_CategoryName">Gemas de aguamarina</string>
@@ -1087,7 +1091,7 @@
 	<string key="GrainT3_GroupName">Granos de nivel 3</string>
 	<string key="GrainT4_GroupName">Granos de nivel 4</string>
 	<string key="GrainT5_GroupName">Granos de nivel 5</string>
-	<string key="Greataxe_GroupDesc">Un arma de ataque cuerpo a cuerpo con amplios golpes en arco y potentes cortes. Es ideal para causar daño de área de efecto a varios enemigos o para causar mucho daño a objetivos individuales.\n\n•Ataque ligero: Causa un {[DamageTable.GreatAxe_PrimaryAttack.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado: Causa un {[DamageTable.GreatAxe_HeavyAttack.DmgCoef * 100]} % de daño de corte.\n•Ataque cargado: Causa un {[DamageTable.GreatAxe_HeavyAttack_Charged.DmgCoef * 100]} % de daño de corte.</string>
+	<string key="Greataxe_GroupDesc">Un arma de ataque cuerpo a cuerpo con amplios golpes en arco y potentes cortes. Es ideal para causar daño de área de efecto a varios enemigos o para causar mucho daño a objetivos individuales.\n\n•Ataque ligero: Causa un {[DamageTable.GreatAxe_PrimaryAttack.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado: Causa un {[DamageTable.GreatAxe_HeavyAttack.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado cargado: Causa un {[DamageTable.GreatAxe_HeavyAttack_Charged.DmgCoef * 100]} % de daño de corte.</string>
 	<string key="GreatAxe_GroupName">Gran hacha</string>
 	<string key="GreatAxes_GroupName">Hachas grandes</string>
 	<string key="GunPowder_GroupDesc">Se usa para crear munición de armas de fuego.</string>
@@ -1685,7 +1689,7 @@
 	<string key="STRTrinkets_GroupDesc">Accesorios que aumentan el atributo de fuerza.</string>
 	<string key="STRTrinkets_GroupName">Accesorios de fuerza</string>
 	<string key="SurvivalTools_GroupName">Herramientas de supervivencia</string>
-	<string key="SwordA_GroupDesc">Un par de armas para ataques cuerpo a cuerpo que, cuando se combinan, ofrecen sólidas capacidades ofensivas y defensivas. Utiliza una combinación de golpes en arco y estocadas para lograr ataques cuerpo a cuerpo, junto con un escudo para aumentar la defensa.\n\n•Ataque ligero: Causa un {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]} % de daño de corte.\n•Golpe final ligero: Causa un {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado: Causa un {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]} % de daño de empuje.\n•Ataque cargado: Causa un {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]} % de daño de empuje.</string>
+	<string key="SwordA_GroupDesc">Un par de armas para ataques cuerpo a cuerpo que, cuando se combinan, ofrecen sólidas capacidades ofensivas y defensivas. Utiliza una combinación de golpes en arco y estocadas para lograr ataques cuerpo a cuerpo, junto con un escudo para aumentar la defensa.\n\n•Ataque ligero: Causa un {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]} % de daño de corte.\n•Golpe final ligero: Causa un {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado: Causa un {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]} % de daño de empuje.\n•Ataque pesado cargado: Causa un {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]} % de daño de empuje.</string>
 	<string key="SwordA_GroupName">Espada recta</string>
 	<string key="SwordB_GroupDesc">Un veloz arma de ataque cuerpo a cuerpo con una variedad de ataques de estocadas rápidas. Ideal para superar a los oponentes con una sincronización excelente, mientras provoca heridas sangrantes que gradualmente reducen la salud del objetivo.\n\n•Ataque ligero: Causa un {[DamageTable.1H_Rapier_PrimaryAttack.DmgCoef * 100]} % de daño de empuje.\n•Golpes al medio ligeros: Causa un {[DamageTable.1H_Rapier_PrimaryTwoThirdsAttack.DmgCoef * 100]} % de daño de empuje.\n•Ataque pesado: Causa un {[DamageTable.1H_Rapier_HeavyAttack.DmgCoef * 100]} % de daño de empuje.</string>
 	<string key="SwordB_GroupName">Espada ropera</string>
@@ -1704,6 +1708,7 @@
 	<string key="TimberT5_GroupName">Madera de construcción de nivel 5</string>
 	<string key="TinctureBlight_GroupName">Tinturas de plaga</string>
 	<string key="TinctureCorruption_GroupName">Tinturas de corrupción</string>
+	<string key="TokenConversion_GroupName">Conversión</string>
 	<string key="ToolHatchet_GroupDesc">A una mano. Recolecta madera.</string>
 	<string key="ToolHatchet_GroupName">Hachuela</string>
 	<string key="ToolsGathering_GroupName">Herramientas de recolección</string>
@@ -1773,5 +1778,8 @@
 	<string key="WoodAny_CategoryName">Cualquier tipo de madera</string>
 	<string key="WorkOrder_GroupName">Pedidos de trabajo</string>
 	<string key="CategoryData_CookingRecipes">Receta de cocina</string>
+	<string key="Pattern">Patrones</string>
+	<string key="PatternRecipes">Recetas de patrones</string>
+	<string key="Lodestone">Calamita</string>
 </resources>
 

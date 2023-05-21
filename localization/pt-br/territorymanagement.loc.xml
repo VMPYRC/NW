@@ -62,8 +62,8 @@
 	<string key="ui_territory_manage_tribute_description">Taxa de impostos por colher recursos em seu território.</string>
 	<string key="ui_territory_manage_tribute_button">Em Breve</string>
 	<string key="ui_territory_settlement_upgrade_tier_1">Vilarejo</string>
-	<string key="ui_territory_settlement_upgrade_tier_2">Vila</string>
-	<string key="ui_territory_settlement_upgrade_tier_3">Povoado</string>
+	<string key="ui_territory_settlement_upgrade_tier_2">Povoado</string>
+	<string key="ui_territory_settlement_upgrade_tier_3">Vila</string>
 	<string key="ui_territory_settlement_upgrade_tier_4">Cidade</string>
 	<string key="ui_territory_settlement_upgrade_tier_5">Capital</string>
 	<string key="ui_available_buffs">Buffs Disponíveis</string>
@@ -101,6 +101,8 @@
 	<string key="ui_leaving_settlement_no_inn">Não Deu Entrada</string>
 	<string key="ui_leaving_settlement_inn_elsewhere">Você está saindo sem dar entrada na estalagem, a estalagem atual está em {territoryName} {distance}</string>
 	<string key="ui_cancel_town_project">Cancelar este projeto da vila</string>
+	<string key="ui_cancel_on_cooldown">É possível cancelar em {time}</string>
+	<string key="ui_start_on_cooldown">É possível iniciar novo projeto em {time}</string>
 	<string key="ui_cancel_project_title">Tem certeza?</string>
 	<string key="ui_cancel_project_desc">Tem certeza de que deseja cancelar este projeto? O progresso realizado até agora será perdido.</string>
 	<string key="ui_replace_project_desc">Aviso: Tem certeza de que deseja substituir o projeto ativo? O progresso será perdido para o projeto ativo deste tipo.</string>
@@ -138,7 +140,7 @@
 	<string key="ui_amount_due">Valor Devido</string>
 	<string key="ui_paid">Pago</string>
 	<string key="ui_due_in">Vencimento em</string>
-	<string key="ui_payment_successful">Pagamento Efetuado com Sucesso!</string>
+	<string key="ui_payment_successful">Pagamento Efetuado!</string>
 	<string key="ui_successfully_paid_message">Você pagou com êxito a manutenção deste território</string>
 	<string key="ui_next_payment">PRÓXIMO PAGAMENTO</string>
 	<string key="ui_since_date">Desde {date}</string>
@@ -180,6 +182,7 @@
 	<string key="ui_encounter_signupbutton_war">Inscreva-se em um quadro de guerra</string>
 	<string key="ui_encounter_signupDesc_war">Inscreva-se nesta Guerra em um \n&lt;font color='#f1ede2'&gt;Quadro de Guerra&lt;/font&gt; nesta vila.</string>
 	<string key="ui_encounter_signupDesc_invasion">Inscreva-se nesta Invasão em um \n&lt;font color='#f1ede2'&gt;Quadro de Guerra&lt;/font&gt; nesta vila.</string>
+	<string key="ui_encounter_signupDesc_invasion_minlevel">&lt;font color="#ff6363"&gt;Nível mínimo: {level}&lt;/font&gt;</string>
 	<string key="ui_encounter_signupbutton_invasion">Inscreva-se em um quadro de guerra</string>
 	<string key="ui_encounter_viewstatusbutton_war">Exibir Exército</string>
 	<string key="ui_encounter_viewstatusbutton_invasion">Exibir Exército</string>
@@ -230,7 +233,7 @@
 	<string key="ui_fortressinfo_defenderlabel">(defensor)</string>
 	<string key="ui_fortressinfo_invasionattackername">Os Corrompidos</string>
 	<string key="ui_fortressinfo_timetodeclare">Tempo para Declarar Guerra:</string>
-	<string key="ui_fortressinfo_timetodeclare_paused_invasion">Paused (Invasion)</string>
+	<string key="ui_fortressinfo_timetodeclare_paused_invasion">Pausado (Invasão)</string>
 	<string key="ui_fortressinfo_conflictdescription">Você &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;não receberá mais Influência&lt;/font&gt; neste território até a Guerra terminar. (Todas as outras recompensas de Missões da Facção, como EXP e Moedas, ainda estão disponíveis.)\n\nSe mais de uma Companhia que contribuiu com influência declarar Guerra, uma delas será selecionada aleatoriamente.</string>
 	<string key="ui_fortressinfo_noconflict">Território Fora de Conflito</string>
 	<string key="ui_fortressinfo_contributionnotrequired">Nenhuma companhia contribuiu com influência o suficiente até o momento, então qualquer uma é elegível a declarar guerra.</string>
@@ -250,7 +253,7 @@
 	<string key="ui_governing_company">Governado por &lt;font color='#e1ddd4'&gt;{name}&lt;/font&gt;</string>
 	<string key="ui_controlling_faction">Controlado por &lt;font color='#e1ddd4'&gt;{name}&lt;/font&gt;</string>
 	<string key="ui_territory_ownership_benefits">Benefícios de possuir um território</string>
-	<string key="ui_how_to_run_a_town">Como gerenciar um povoado?</string>
+	<string key="ui_how_to_run_a_town">Como gerenciar uma vila?</string>
 	<string key="ui_community_points">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;+ {amount}&lt;/font&gt;</string>
 	<string key="ui_community_points_detail">{amount}&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt; Ponto(s) de Projeto&lt;/font&gt;</string>
 	<string key="ui_project_points_label">Pontos de Projeto</string>
@@ -504,6 +507,7 @@
 	<string key="ui_project_in_progress">O projeto da vila está em andamento.</string>
 	<string key="ui_project_nopermission">Somente os membros da companhia governante com permissão podem iniciar e alterar um projeto da vila.</string>
 	<string key="ui_project_button_upkeep_overdue">A manutenção do território está atrasada</string>
+	<string key="ui_project_button_upkeep_unclaimed">Território Não Conquistado</string>
 	<string key="ui_project_tooltip_upkeep_overdue">Um projeto de vila não pode ser iniciado se a manutenção do território estiver atrasada.</string>
 	<string key="ui_notavailable">N/A</string>
 	<string key="ui_timelimit">TEMPO LIMITE</string>
@@ -532,14 +536,14 @@
 	<string key="ui_no_project_active">Não há projeto de vila ativo.\n&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;A companhia governante precisa iniciar um novo projeto de vila!&lt;/font&gt;</string>
 	<string key="ui_view_current_goal">Exibir Meta Atual</string>
 	<string key="ui_governorsdesk">Mesa do Governador</string>
-	<string key="ui_governorsdesk_desc">A companhia governante pode definir taxas de imposto para este território e pagar manutenção aqui.</string>
+	<string key="ui_governorsdesk_desc">A companhia governante pode definir taxas de imposto para este território e pagar a manutenção aqui.</string>
 	<string key="ui_upkeep_tooltip">Se a companhia governante não pagar a manutenção a tempo, &lt;font color="#e8a015"&gt;uma parte qualquer do território será degradada.&lt;/font&gt;</string>
 	<string key="ui_payroll_title">Declaração de pagamentos da Companhia</string>
 	<string key="ui_payroll_tooltip">A companhia governante ganha moedas com impostos e taxas.</string>
 	<string key="ui_firstdayofcycle">Primeiro dia do ciclo</string>
 	<string key="ui_nextupkeepdue">Manutenção Seguinte Em</string>
 	<string key="ui_overdue_penalty">PENALIDADE DE ATRASADO</string>
-	<string key="ui_town_project">Projeto de Vila</string>
+	<string key="ui_town_project">Projetos de Vila</string>
 	<string key="ui_tax_management">Taxa de Gerenciamento</string>
 	<string key="ui_territorylevel">Nível do Território</string>
 	<string key="ui_next_penalty">PRÓXIMA DEGRADAÇÃO EM</string>
@@ -573,11 +577,12 @@
 	<string key="ui_town_project_allCompleted">100% &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Concluído&lt;/font&gt;</string>
 	<string key="ui_territory_standing_no_bonuses">Você não tem bônus em {territory}.</string>
 	<string key="ui_territory_standing_upgrade_description_generic">Obtenha ALGUMA HABILIDADE em {territory}.</string>
-	<string key="ui_territory_standing_upgrade_description_increase_stat">Aumentar &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; em &lt;font color='#e1ddd4'&gt;{value}&lt;/font&gt; em {territory}.</string>
-	<string key="ui_territory_standing_upgrade_description_increase_rate">Ganha mais &lt;font color='#e1ddd4'&gt;{value}&lt;/font&gt; de &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; enquanto estiver em {territory}.</string>
-	<string key="ui_territory_standing_upgrade_description_increase_stat_no_territory">Aumentar &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; em &lt;font color='#e1ddd4'&gt;{value}&lt;/font&gt;.</string>
-	<string key="ui_territory_standing_upgrade_description_decrease_stat">Diminuir &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; em &lt;font color='#e1ddd4'&gt;{value}&lt;/font&gt; em {territory}.</string>
+	<string key="ui_territory_standing_upgrade_description_increase_stat">Aumenta &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; em {territory}.</string>
+	<string key="ui_territory_standing_upgrade_description_increase_rate">Ganha mais &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; enquanto estiver em {territory}.</string>
+	<string key="ui_territory_standing_upgrade_description_increase_stat_no_territory">Aumenta &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt;.</string>
+	<string key="ui_territory_standing_upgrade_description_decrease_stat">Diminui &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; em {territory}.</string>
 	<string key="ui_territory_standing_upgrade_description_own_house">Você pode ter uma casa em {territory}.</string>
+	<string key="ui_territory_standing_upgrade_value">&lt;font color='#e1ddd4'&gt; ({current}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/arrow_right" xPadding="8" scale="0.8" yOffset="-0.4"&gt;&lt;/img&gt;&lt;font color='#e1ddd4'&gt;{value})&lt;/font&gt;</string>
 	<string key="ui_territory_standing_upgrade_category_generic">Alguma Categoria</string>
 	<string key="ui_territory_standing_upgrade_category_reputation">Tokens de Facção</string>
 	<string key="ui_territory_standing_upgrade_category_housepoint">Itens de Casa</string>
@@ -635,6 +640,7 @@
 	<string key="ui_new_mission">Uma nova missão ficará\ndisponível em breve</string>
 	<string key="ui_mission_canceled">Missão cancelada</string>
 	<string key="ui_territory_influence">Influência de Território</string>
+	<string key="ui_territory_governed_by_label">Este Território é governado por</string>
 	<string key="ui_AlwaysAvailableProjectId">Manutenção da vila</string>
 	<string key="lifestyle_title_LumberJackSpiritProjectId">Ativar Espírito do Lenhador</string>
 	<string key="lifestyle_title_MinersResolveProjectId">Ativar Determinação do Minerador</string>

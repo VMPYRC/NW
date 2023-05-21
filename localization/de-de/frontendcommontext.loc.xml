@@ -165,7 +165,7 @@
 	<string key="mm_rejected_Client_Kicked_AFK">Du wurdest vom Spiel getrennt, weil du zu lange inaktiv warst.</string>
 	<string key="mm_rejected_Client_Kicked_DuplicateSession">Auf dein Konto wird schon von einer anderen Spielsitzung aus zugegriffen.</string>
 	<string key="mm_rejected_Client_Kicked_CharacterDeactivated">Dein Charakter wurde entfernt.</string>
-	<string key="mm_rejected_Client_Kicked_Maintenance">Wartungsarbeiten sind im Gang. Die Welt ist nicht verfügbar, solange die Wartungsarbeiten durchgeführt werden. Klicke „OK“, um ins Hauptmenü zurückkehren.</string>
+	<string key="mm_rejected_Client_Kicked_Maintenance">Wartungsarbeiten sind im Gang. Die Welt ist nicht verfügbar, solange die Wartungsarbeiten durchgeführt werden. Klicke "OK", um ins Hauptmenü zurückkehren.</string>
 	<string key="mm_rejected_Client_Kicked_Abuse">Du wurdest wegen schlechtem Verhalten aus dem Spiel geworfen. Schäm dich!</string>
 	<string key="mm_rejected_Client_Kicked_Banned">Du wurdest gesperrt.</string>
 	<string key="mm_rejected_Client_Kicked_BannedHacking">Hacking</string>
@@ -186,7 +186,7 @@
 	<string key="mm_rejected_Client_Kicked_Unknown">Du wurdest aus dem Spiel geworfen.</string>
 	<string key="mm_authresult_Authorized">Erfolg</string>
 	<string key="mm_characterCreateDisabled">Die Charaktererstellung ist vorübergehend deaktiviert. Die Welt ist zu voll. Bitte versuche, den Charakter auf einer anderen Welt zu erstellen.</string>
-	<string key="mm_charactertransferdisabled">Die Charakterübertragung ist für diese Welt vorübergehend deaktiviert. Bitte versuche es auf einer anderen Welt.</string>
+	<string key="mm_charactertransferdisabled">Der Charaktertransfer ist für diese Welt vorübergehend deaktiviert. Bitte versuche es auf einer anderen Welt. Bitte versuche es auf einer anderen Welt.</string>
 	<string key="mm_authresult_Denied_ClaimConnectionTicketFailed">Verbindungsticket konnte nicht beansprucht werden.</string>
 	<string key="mm_authresult_Denied_HubNotReady">Server noch nicht spielbereit. Erneuter Versuch …</string>
 	<string key="mm_authresult_Denied_CapacityLimitReached">Die Server sind gerade beschäftigt. Versuche es bitte später erneut.</string>
@@ -200,6 +200,7 @@
 	<string key="mm_authresult_Denied_LoginTokenEndpointInvalid">Die eingegebenen Anmeldedaten sind nicht für diese Welt bestimmt.</string>
 	<string key="mm_authresult_Denied_LoginTokenCapabilitiesInvalid">Die aufgeführten Client-Ressourcen sind ungültig.</string>
 	<string key="mm_authresult_Denied_LoginTicketInvalid">Das Anmelde-Ticket ist ungültig oder abgelaufen. Versuche bitte erneut, dich anzumelden.</string>
+	<string key="mm_authresult_Denied_LoginTokenWrongHost">Du bist zum falschen Server weitergeleitet worden. Versuche es bitte erneut.</string>
 	<string key="mm_authresult_Denied_EasyAntiCheatFailure">EAC-Konfigurationsfehler. Bitte besuche die Community-Seite für New World, um weitere Informationen zu erhalten: https://forums.newworld.com</string>
 	<string key="mm_authresult_Error_InvalidSetup">Ungültige Authentifizierungseinstellungen.</string>
 	<string key="mm_authresult_Error_Persona">Fehler bei der Authentifizierung mit Persona.</string>
@@ -324,6 +325,7 @@
 	<string key="ui_repairing">Reparatur</string>
 	<string key="ui_gathering">Sammeln</string>
 	<string key="ui_refining">Veredeln</string>
+	<string key="ui_taxes">Steuern</string>
 	<string key="ui_survival">Persönliche Fähigk.</string>
 	<string key="ui_weaponsmithing">Waffenschmiedekunst</string>
 	<string key="ui_armoring">Rüstungsschmiedekunst</string>
@@ -345,6 +347,7 @@
 	<string key="crafting_repair_requires_kit">Reparatur erfordert: {quantityRequired} x {itemRequired} Rang {tierNumber}.</string>
 	<string key="crafting_cannot_repair">Reparatur nicht möglich</string>
 	<string key="crafting_requires_station">Das geht nur an der richtigen Werkstelle.</string>
+	<string key="crafting_repair_no_requirements">Für die Reparatur dieses Gegenstands gelten keine Voraussetzungen.</string>
 	<string key="inv_salvage_tooltip" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {numItems} {itemName}.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {numItems} {itemName} und {numRepairParts} Ersatzteile.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_onlyrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {numRepairParts} Ersatzteile.{gemMessage}</string>
@@ -354,6 +357,7 @@
 	<string key="inv_salvage_tooltip_gemmessage" comment="this will come after a previous sentence and should have a space in front"> Es besteht eine geringe Wahrscheinlichkeit, den eingesetzten Edelstein zurückzuerhalten.</string>
 	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items.">Zusätzliche Gegenstände wie {itemName} können ebenfalls erworben werden.</string>
 	<string key="inv_salvage_tooltip_recipe">Durch das Zerlegen dieses Gegenstands lernst du den Plan: {recipeName}.</string>
+	<string key="inv_salvage_tooltip_recipe_known">Du kennst die Rezeptur "{recipeName}" bereits.</string>
 	<string key="inv_salvage_tertiary_recipe">Plan: {recipeName}</string>
 	<string key="minspec_warning_requirements_title">Mindestanf.-Warnung</string>
 	<string key="minspec_failed_requirements_title">Mindestvoraussetzung nicht erfüllt</string>
@@ -415,5 +419,7 @@
 	<string key="error_perm_ban">Endgültige Sperre</string>
 	<string key="error_temp_ban">Vorübergehende Sperrung</string>
 	<string key="error_world_select_server_down">Während der Wartung einer Welt, kannst du diese nicht auswählen.</string>
+	<string key="error_loading_assets_title">Fehler beim Laden von Spielobjekten</string>
+	<string key="error_loading_assets_message">Spielobjekte konnten nicht geladen werden! Bitte überprüfe deine Installation.</string>
 </resources>
 

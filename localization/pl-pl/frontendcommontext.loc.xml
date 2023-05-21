@@ -200,6 +200,7 @@
 	<string key="mm_authresult_Denied_LoginTokenEndpointInvalid">Podany login nie pasuje do tego świata.</string>
 	<string key="mm_authresult_Denied_LoginTokenCapabilitiesInvalid">Wymienione funkcje klienta są nieprawidłowe.</string>
 	<string key="mm_authresult_Denied_LoginTicketInvalid">Zgłoszenie próby logowania jest nieprawidłowe lub nieważne. Spróbuj zalogować się ponownie.</string>
+	<string key="mm_authresult_Denied_LoginTokenWrongHost">Nastąpiło przekierowanie do niewłaściwego serwera. Spróbuj ponownie.</string>
 	<string key="mm_authresult_Denied_EasyAntiCheatFailure">Błąd konfiguracji EAC. Aby uzyskać dodatkowe informacje, przejdź na stronę społeczności New World: https://forums.newworld.com</string>
 	<string key="mm_authresult_Error_InvalidSetup">Niewłaściwe ustawienia uwierzytelnienia.</string>
 	<string key="mm_authresult_Error_Persona">Nie udało się uwierzytelnić za pomocą Persony.</string>
@@ -324,6 +325,7 @@
 	<string key="ui_repairing">Naprawa</string>
 	<string key="ui_gathering">Zbieranie</string>
 	<string key="ui_refining">Przetwarzanie</string>
+	<string key="ui_taxes">Podatki</string>
 	<string key="ui_survival">Umiejętności osobiste</string>
 	<string key="ui_weaponsmithing">Kucie broni</string>
 	<string key="ui_armoring">Płatnerstwo</string>
@@ -345,6 +347,7 @@
 	<string key="crafting_repair_requires_kit">Naprawa wymaga: {quantityRequired} x {itemRequired} klasy {tierNumber}.</string>
 	<string key="crafting_cannot_repair">Nie można naprawić</string>
 	<string key="crafting_requires_station">Musisz znajdować się przy odpowiednim stanowisku.</string>
+	<string key="crafting_repair_no_requirements">Naprawa tego przedmiotu nie ma wymagań.</string>
 	<string key="inv_salvage_tooltip" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz: {numItems} {itemName}.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz {itemName} w liczbie {numItems} oraz części zamienne w liczbie {numRepairParts}.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_onlyrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Po odzyskaniu tego przedmiotu otrzymasz części zamienne w liczbie {numRepairParts}.{gemMessage}</string>
@@ -354,6 +357,7 @@
 	<string key="inv_salvage_tooltip_gemmessage" comment="this will come after a previous sentence and should have a space in front"> Istnieje mała szansa na odzyskanie osadzonego klejnotu.</string>
 	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items.">Można uzyskać też dodatkowe przedmioty, takie jak: {itemName}.</string>
 	<string key="inv_salvage_tooltip_recipe">Po użyciu tego przedmiotu poznasz schemat: {recipeName}.</string>
+	<string key="inv_salvage_tooltip_recipe_known">Znasz już schemat: {recipeName}.</string>
 	<string key="inv_salvage_tertiary_recipe">Schemat: {recipeName}</string>
 	<string key="minspec_warning_requirements_title">Ostrzeżenie o konf. min.</string>
 	<string key="minspec_failed_requirements_title">Błąd konf. min.</string>
@@ -415,5 +419,7 @@
 	<string key="error_perm_ban">Stała blokada</string>
 	<string key="error_temp_ban">Tymczasowa blokada</string>
 	<string key="error_world_select_server_down">Nie można wybrać świata, który podlega pracom konserwacyjnym.</string>
+	<string key="error_loading_assets_title">Błąd wczytywania obiektu gry</string>
+	<string key="error_loading_assets_message">Błąd podczas wczytywania obiektów gry! Sprawdź poprawność instalacji.</string>
 </resources>
 

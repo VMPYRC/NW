@@ -1,4 +1,26 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="IngotT2_Down_Name">Bajar de categoría de metal a hierro</string>
+	<string key="IngotT3_Down_Name">Bajar de categoría de metal de estrellas a metal</string>
+	<string key="IngotT4_Down_Name">Bajar de categoría de oricalco a metal de estrellas</string>
+	<string key="IngotPreciousT1_Down_Name">Bajar de categoría de oro a plata</string>
+	<string key="IngotPreciousT2_Down_Name">Bajar de categoría de platino a oro</string>
+	<string key="IngotPreciousT3_Down_Name">Bajar de categoría de oricalco a platino</string>
+	<string key="LeatherT2_Down_Name">Bajar de categoría de cuero arrugado a cuero burdo</string>
+	<string key="LeatherT3_Down_Name">Bajar de categoría de cuero en capas a cuero arrugado</string>
+	<string key="LeatherT4_Down_Name">Bajar de categoría de cuero imbuido a cuero en capas</string>
+	<string key="ClothT2_Down_Name">Bajar de categoría de satén a lino</string>
+	<string key="ClothT3_Down_Name">Bajar de categoría de seda a satén</string>
+	<string key="ClothT4_Down_Name">Bajar de categoría de seda imbuida a seda</string>
+	<string key="TimberT2_Down_Name">Bajar de categoría de madero a madera de construcción</string>
+	<string key="TimberT3_Down_Name">Bajar de categoría de madera rara a madero</string>
+	<string key="TimberT4_Down_Name">Bajar de categoría de madera férrea a madera rara</string>
+	<string key="BlockT2_Down_Name">Bajar de categoría de ladrillo de piedra a bloque de piedra</string>
+	<string key="BlockT3_Down_Name">Bajar de categoría de ladrillo de magnetita a ladrillo de piedra</string>
+	<string key="BlockT4_Down_Name">Bajar de categoría de piedra de vacío de obsidiana a ladrillo de magnetita</string>
+	<string key="Procedural_GauntletVoidT2" rel_version="Weapon_Void_Gauntlet">Manopla de vacío de hierro</string>
+	<string key="Procedural_GauntletVoidT3" rel_version="Weapon_Void_Gauntlet">Manopla de vacío de acero</string>
+	<string key="Procedural_GauntletVoidT4" rel_version="Weapon_Void_Gauntlet">Manopla de vacío de metal de estrellas</string>
+	<string key="Procedural_GauntletVoidT5" rel_version="Weapon_Void_Gauntlet">Manopla de vacío de oricalco</string>
 	<string key="Procedural_LightHead_DressT2">Cofia de tela de lino</string>
 	<string key="Procedural_LightHead_DressT3">Sombrero de satén</string>
 	<string key="Procedural_LightHead_DressT4">Tocado de seda</string>
@@ -36,8 +58,8 @@
 	<string key="LightFeet_ShadewalkerT5">Zapatos de caminante de sombras</string>
 	<string key="Procedural_GauntletIceT2">Manopla de hielo de hierro</string>
 	<string key="Procedural_GauntletIceT3">Manopla de hielo de acero</string>
-	<string key="Procedural_GauntletIceT4">Manoplas de hielo de metal de estrellas</string>
-	<string key="Procedural_GauntletIceT5">Manoplas de hielo de oricalco</string>
+	<string key="Procedural_GauntletIceT4">Manopla de hielo de metal de estrellas</string>
+	<string key="Procedural_GauntletIceT5">Manopla de hielo de oricalco</string>
 	<string key="PotionFamilyWardLostT3">Poción de protección contra los perdidos fuerte</string>
 	<string key="PotionFamilyWardLostT4">Poción de protección contra los perdidos poderosa</string>
 	<string key="PotionFamilyWardLostT5">Poción de protección contra los perdidos imbuida</string>
@@ -249,10 +271,10 @@
 	<string key="Procedural_2hGreatAxeT3">De gran hacha de acero</string>
 	<string key="Procedural_2hGreatAxeT4">Gran hacha de metal de estrellas</string>
 	<string key="Procedural_2hGreatAxeT5">Gran hacha de oricalco</string>
-	<string key="Procedural_SpearT2">Lanza de hierro</string>
-	<string key="Procedural_SpearT3">Lanza de acero</string>
-	<string key="Procedural_SpearT4">Lanza de metal de estrellas</string>
-	<string key="Procedural_SpearT5">Lanza de oricalco</string>
+	<string key="Procedural_SpearT2">Lanza de madera tratada</string>
+	<string key="Procedural_SpearT3">Lanza de madera laqueada</string>
+	<string key="Procedural_SpearT4">Lanza de madera rara</string>
+	<string key="Procedural_SpearT5">Lanza de madera férrea</string>
 	<string key="Procedural_HatchetT2">Hachuela de hierro</string>
 	<string key="Procedural_HatchetT3">Hachuela de acero</string>
 	<string key="Procedural_HatchetT4">Hachuela de acero de estrellas</string>
@@ -399,10 +421,10 @@
 	<string key="Procedural_RobeFeetT3">Zapatos de bata de satén</string>
 	<string key="Procedural_RobeFeetT4">Zapatos de bata de seda</string>
 	<string key="Procedural_RobeFeetT5">Zapatos de bata de seda imbuida</string>
-	<string key="Procedural_BagAT2">Bolsa de cuero burdo</string>
-	<string key="Procedural_BagAT3">Bolsa de cuero arrugado</string>
-	<string key="Procedural_BagAT4">Bolsa de cuero en capas</string>
-	<string key="Procedural_BagAT5">Bolsa de cuero imbuido</string>
+	<string key="Procedural_BagAT2">Morral de aventurero de cuero burdo</string>
+	<string key="Procedural_BagAT3">Morral de aventurero de cuero arrugado</string>
+	<string key="Procedural_BagAT4">Morral de aventurero de cuero en capas</string>
+	<string key="Procedural_BagAT5">Morral de aventurero de cuero imbuido</string>
 	<string key="Procedural_StaffFireT2">Bastón ígneo de hierro</string>
 	<string key="Procedural_StaffFireT3">Bastón ígneo de acero</string>
 	<string key="Procedural_StaffFireT4">Bastón ígneo de metal de estrellas</string>
@@ -783,16 +805,6 @@
 	<string key="2hGreatAxeT3_CraftName">Gran hacha\nde acero</string>
 	<string key="2hGreatAxeT4_CraftName">Gran hacha\nde metal de estrellas</string>
 	<string key="2hGreatAxeT5_CraftName">Gran hacha\nde oricalco</string>
-	<string key="1hClubT1_CraftName">Garrote de madera</string>
-	<string key="1hClubT2_CraftName">Maza\nde hierro</string>
-	<string key="1hClubT3_CraftName">Maza\nde acero</string>
-	<string key="1hClubT4_CraftName">Maza\nde metal de estrellas</string>
-	<string key="1hClubT5_CraftName">Maza\nde oricalco</string>
-	<string key="2hClubT1_CraftName">Gran garrote\nde sílex.</string>
-	<string key="2hClubT2_CraftName">Gran martillo\nde hierro</string>
-	<string key="2hClubT3_CraftName">Gran martillo\nde acero</string>
-	<string key="2hClubT4_CraftName">Gran martillo\nde metal de estrellas</string>
-	<string key="2hClubT5_CraftName">Gran martillo\nde oricalco</string>
 	<string key="2hSpearT1_CraftName">Lanza\nde sílex</string>
 	<string key="2hSpearT2_CraftName">Lanza\nde hierro</string>
 	<string key="2hSpearBT2_CraftName">Lanza\nde hierro\nforjada en frío</string>
@@ -1370,10 +1382,6 @@
 	<string key="CombatDummyT1_CraftName">Muñeco de entrenamiento</string>
 	<string key="WindMillT2_CraftName">Molino de granos 2</string>
 	<string key="FeedT1_CraftName">Fuente</string>
-	<string key="1hCelestialGauntlet_HealT2_CraftName">Manopla\ncelestial\nde hierro</string>
-	<string key="1hCelestialGauntlet_HealT3_CraftName">Manopla\ncelestial\nde acero</string>
-	<string key="1hCelestialGauntlet_HealT4_CraftName">Manopla\ncelestial\nde metal de estrellas</string>
-	<string key="1hCelestialGauntlet_HealT5_CraftName">Manopla\ncelestial\nde oricalco</string>
 	<string key="FoodHealthRecoveryT1_CraftName">Ración\nliviana</string>
 	<string key="FoodCorruptedT1_CraftName">Carne\ncocinada</string>
 	<string key="FoodLostT1_CraftName">Pescado\ncocinado</string>

@@ -1,4 +1,26 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="IngotT2_Down_Name">Zdegraduj stal na żelazo</string>
+	<string key="IngotT3_Down_Name">Zdegraduj gwiezdny metal na stal</string>
+	<string key="IngotT4_Down_Name">Zdegraduj orichalcum na gwiezdny metal</string>
+	<string key="IngotPreciousT1_Down_Name">Zdegraduj złoto na srebro</string>
+	<string key="IngotPreciousT2_Down_Name">Zdegraduj platynę na złoto</string>
+	<string key="IngotPreciousT3_Down_Name">Zdegraduj orichalcum na platynę</string>
+	<string key="LeatherT2_Down_Name">Zdegraduj twardą skórę na surową skórę</string>
+	<string key="LeatherT3_Down_Name">Zdegraduj zbitą skórę na twardą skórę</string>
+	<string key="LeatherT4_Down_Name">Zdegraduj nasyconą skórę na zbitą skórę</string>
+	<string key="ClothT2_Down_Name">Zdegraduj satynę na płótno</string>
+	<string key="ClothT3_Down_Name">Zdegraduj jedwab na satynę</string>
+	<string key="ClothT4_Down_Name">Zdegraduj nasycony jedwab na jedwab</string>
+	<string key="TimberT2_Down_Name">Zdegraduj tarcicę na surowiec drzewny</string>
+	<string key="TimberT3_Down_Name">Zdegraduj cieniodrzewo na tarcicę</string>
+	<string key="TimberT4_Down_Name">Zdegraduj żelazodrzewo na cieniodrzewo</string>
+	<string key="BlockT2_Down_Name">Zdegraduj blok kamienny na bryłę kamienia</string>
+	<string key="BlockT3_Down_Name">Zdegraduj blok magnetytowy na blok kamienny</string>
+	<string key="BlockT4_Down_Name">Zdegraduj obsydianowy kamień próżni na blok magnetytowy</string>
+	<string key="Procedural_GauntletVoidT2" rel_version="Weapon_Void_Gauntlet">Żelazna rękawica próżni</string>
+	<string key="Procedural_GauntletVoidT3" rel_version="Weapon_Void_Gauntlet">Stalowa rękawica próżni</string>
+	<string key="Procedural_GauntletVoidT4" rel_version="Weapon_Void_Gauntlet">Rękawica próżni z gwiezdnego metalu</string>
+	<string key="Procedural_GauntletVoidT5" rel_version="Weapon_Void_Gauntlet">Rękawica próżni z orichalcum</string>
 	<string key="Procedural_LightHead_DressT2">Lniany czepek</string>
 	<string key="Procedural_LightHead_DressT3">Satynowy kapelusz</string>
 	<string key="Procedural_LightHead_DressT4">Jedwabny fascynator</string>
@@ -36,8 +58,8 @@
 	<string key="LightFeet_ShadewalkerT5">Buty cienistego</string>
 	<string key="Procedural_GauntletIceT2">Żelazna lodowa rękawica</string>
 	<string key="Procedural_GauntletIceT3">Stalowa lodowa rękawica</string>
-	<string key="Procedural_GauntletIceT4">Lodowe rękawice z gwiezdnego metalu</string>
-	<string key="Procedural_GauntletIceT5">Lodowa rękawice z orichalcum</string>
+	<string key="Procedural_GauntletIceT4">Lodowa rękawica z gwiezdnego metalu</string>
+	<string key="Procedural_GauntletIceT5">Lodowa rękawica z orichalcum</string>
 	<string key="PotionFamilyWardLostT3">Silny eliksir ochrony przed zagubionymi</string>
 	<string key="PotionFamilyWardLostT4">Potężny eliksir ochrony przed zagubionymi</string>
 	<string key="PotionFamilyWardLostT5">Nasycony eliksir ochrony przed zagubionymi</string>
@@ -249,10 +271,10 @@
 	<string key="Procedural_2hGreatAxeT3">Stalowy topór dwuręczny</string>
 	<string key="Procedural_2hGreatAxeT4">Topór dwuręczny z gwiezdnego metalu</string>
 	<string key="Procedural_2hGreatAxeT5">Topór dwuręczny z orichalcum</string>
-	<string key="Procedural_SpearT2">Żelazna włócznia</string>
-	<string key="Procedural_SpearT3">Stalowa włócznia</string>
-	<string key="Procedural_SpearT4">Włócznia z gwiezdnego metalu</string>
-	<string key="Procedural_SpearT5">Włócznia z orichalcum</string>
+	<string key="Procedural_SpearT2">Włócznia z hartowanego drewna</string>
+	<string key="Procedural_SpearT3">Włócznia z lakierowanego drewna</string>
+	<string key="Procedural_SpearT4">Włócznia z cieniodrzewa</string>
+	<string key="Procedural_SpearT5">Włócznia z żelazodrzewa</string>
 	<string key="Procedural_HatchetT2">Żelazna siekierka</string>
 	<string key="Procedural_HatchetT3">Stalowa siekierka</string>
 	<string key="Procedural_HatchetT4">Siekierka z gwiezdnego metalu</string>
@@ -399,15 +421,15 @@
 	<string key="Procedural_RobeFeetT3">Satynowe buty od szaty</string>
 	<string key="Procedural_RobeFeetT4">Jedwabne buty od szaty</string>
 	<string key="Procedural_RobeFeetT5">Buty od szaty z nasyconego jedwabiu</string>
-	<string key="Procedural_BagAT2">Torba z surowej skóry</string>
-	<string key="Procedural_BagAT3">Torba z twardej skóry</string>
-	<string key="Procedural_BagAT4">Torba ze zbitej skóry</string>
-	<string key="Procedural_BagAT5">Torba z nasyconej skóry</string>
+	<string key="Procedural_BagAT2">Torba podróżnika z surowej skóry</string>
+	<string key="Procedural_BagAT3">Torba podróżnika z twardej skóry</string>
+	<string key="Procedural_BagAT4">Torba podróżnika ze zbitej skóry</string>
+	<string key="Procedural_BagAT5">Torba podróżnika z nasyconej skóry</string>
 	<string key="Procedural_StaffFireT2">Żelazna ognista laska</string>
 	<string key="Procedural_StaffFireT3">Stalowa ognista laska</string>
 	<string key="Procedural_StaffFireT4">Ognista laska z gwiezdnego metalu</string>
 	<string key="Procedural_StaffFireT5">Ognista laska z orichalcum</string>
-	<string key="Procedural_StaffLifeT2">Żelaza laska życia</string>
+	<string key="Procedural_StaffLifeT2">Żelazna laska życia</string>
 	<string key="Procedural_StaffLifeT3">Stalowa laska życia</string>
 	<string key="Procedural_StaffLifeT4">Laska życia z gwiezdnego metalu</string>
 	<string key="Procedural_StaffLifeT5">Laska życia z orichalcum</string>
@@ -783,16 +805,6 @@
 	<string key="2hGreatAxeT3_CraftName">Stalowy\ntopór dwuręczny</string>
 	<string key="2hGreatAxeT4_CraftName">Topór dwuręczny\nz gwiezdnego metalu</string>
 	<string key="2hGreatAxeT5_CraftName">Topór dwuręczny\nz orichalcum</string>
-	<string key="1hClubT1_CraftName">Drewniana maczuga</string>
-	<string key="1hClubT2_CraftName">Żelazna\nmaczuga</string>
-	<string key="1hClubT3_CraftName">Stalowa\nmaczuga</string>
-	<string key="1hClubT4_CraftName">Maczuga\nz gwiezdnego metalu</string>
-	<string key="1hClubT5_CraftName">Maczuga\nz orichalcum</string>
-	<string key="2hClubT1_CraftName">Krzemienna\npałka dwuręczna</string>
-	<string key="2hClubT2_CraftName">Żelazny\nmłot dwuręczny</string>
-	<string key="2hClubT3_CraftName">Stalowy\nmłot dwuręczny</string>
-	<string key="2hClubT4_CraftName">Młot dwuręczny\nz gwiezdnego metalu</string>
-	<string key="2hClubT5_CraftName">Młot dwuręczny\nz orichalcum</string>
 	<string key="2hSpearT1_CraftName">Krzemienna\nwłócznia</string>
 	<string key="2hSpearT2_CraftName">Żelazna\nwłócznia</string>
 	<string key="2hSpearBT2_CraftName">\nŻelazna\nwłócznia kuta na zimno</string>
@@ -1370,10 +1382,6 @@
 	<string key="CombatDummyT1_CraftName">Manekin ćwiczebny</string>
 	<string key="WindMillT2_CraftName">Młyn P2</string>
 	<string key="FeedT1_CraftName">Pasza</string>
-	<string key="1hCelestialGauntlet_HealT2_CraftName">Żelazna\nniebiańska\nrękawica</string>
-	<string key="1hCelestialGauntlet_HealT3_CraftName">Stalowa\nniebiańska\nrękawica</string>
-	<string key="1hCelestialGauntlet_HealT4_CraftName">\nNiebiańska\nrękawica z gwiezdnego metalu</string>
-	<string key="1hCelestialGauntlet_HealT5_CraftName">\nNiebiańska\nrękawica z orichalcum</string>
 	<string key="FoodHealthRecoveryT1_CraftName">Lekka\nracja</string>
 	<string key="FoodCorruptedT1_CraftName">Gotowane\nmięso</string>
 	<string key="FoodLostT1_CraftName">Gotowana\nryba</string>

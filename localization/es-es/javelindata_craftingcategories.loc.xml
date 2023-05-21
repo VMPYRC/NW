@@ -1,8 +1,10 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="FoodComponents_GroupName">Ingredientes del compuesto</string>
 	<string key="GemstoneT1_GroupName">Gemas imperfectas</string>
 	<string key="GemstoneT2_GroupName">Gemas estándar</string>
 	<string key="GemstoneT3_GroupName">Gemas brillantes</string>
 	<string key="GemstoneT4_GroupName">Gemas impecables</string>
+	<string key="CraftingPatterns_GroupName">Patrones de artesanía</string>
 	<string key="ShieldB_GroupName" comment="A heavy shield that provides excellent protection from attacks.">Escudos de lágrima</string>
 	<string key="ShieldA_GroupName" comment="A relatively lightweight shield that provides good protection from attacks.">Rodelas</string>
 	<string key="AlchemyBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Trofeos que te dan una bonificación arcana (cuando los colocas en tu casa).</string>
@@ -192,7 +194,7 @@
 	<string key="HousingTrdG_Cabinets_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Armarios para casas</string>
 	<string key="HousingTrdG_Cabinets_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Armarios para casas</string>
 	<string key="HousingTrdG_Veg_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Plantas para casas</string>
-	<string key="1hHatchet_GroupDesc">Armas variables con ataques arrojadizos y para combates cara a cara rápidos. Son ideales tanto en escaramuzas cuerpo a cuerpo como en combates estratégicos y de media distancia.\n\n•Ataque ligero: Infligen {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]} % de daño de corte.\n•Remate ligero: Infligen {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado: Infligen {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado cargado: Infligen {[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]} % de daño de corte.</string>
+	<string key="1hHatchet_GroupDesc">Armas variables con ataques arrojadizos y para combates cara a cara rápidos. Son ideales tanto en escaramuzas cuerpo a cuerpo como en combates estratégicos y de media distancia.\n\n•Ataque ligero: Inflige {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]} % de daño de corte.\n•Remate ligero: Inflige {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado: Inflige {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado cargado: Inflige {[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]} % de daño de corte.</string>
 	<string key="1hHatchet_GroupName">Destrales fabricados</string>
 	<string key="1hHatchetAngryEarth_GroupName">Destrales primitivos</string>
 	<string key="1hHatchetB_GroupName">Destrales de hierro frío</string>
@@ -535,7 +537,7 @@
 	<string key="BoostVoidAbs_GroupName">Pociones de defensa de vacío</string>
 	<string key="bounty_GroupName">Talismanes</string>
 	<string key="bountymagic_GroupName">Ánimas vacías</string>
-	<string key="BowA_GroupDesc">Armas a distancia versátiles que pueden disparar ráfagas de flechas rápidamente o lograr el máximo daño tensándolas completamente. Son ideales para mantener al enemigo a raya aprovechando una variedad de ataques con los que entorpecerlo y dañarlo.\n\n•Poca tensión: Infligen {[DamageTable.BowAttack1.DmgCoef * 100]} % de daño de estocada.\n•Mucha tensión: Infligen {[DamageTable.BowAttack2.DmgCoef * 100]} % de daño de estocada.</string>
+	<string key="BowA_GroupDesc">Armas a distancia versátiles que pueden disparar ráfagas de flechas rápidamente o lograr el máximo daño tensándolas completamente. Son ideales para mantener al enemigo a raya aprovechando una variedad de ataques con los que entorpecerlo y dañarlo.\n\n•Poca tensión: Inflige {[DamageTable.BowAttack1.DmgCoef * 100]} % de daño de estocada.\n•Mucha tensión: Inflige {[DamageTable.BowAttack2.DmgCoef * 100]} % de daño de estocada.</string>
 	<string key="BowA_GroupName">Arcos</string>
 	<string key="BowA2_GroupName">Arcos</string>
 	<string key="BowB_GroupDesc">A dos manos. Armas a distancia que utilizan flechas. Las flechas tienen que estar completamente tensadas antes de disparar para lograr el daño máximo.</string>
@@ -558,8 +560,8 @@
 	<string key="CarnelianCut_GroupName">Cornalina tallada</string>
 	<string key="Cartridges_GroupName">Cartuchos de armas de fuego</string>
 	<string key="catalyst_GroupName">Catalizadores</string>
-	<string key="CategoryData_1Handed">Armas a &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;una&lt;/font&gt; mano</string>
-	<string key="CategoryData_2Handed">Armas a &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;dos&lt;/font&gt; manos</string>
+	<string key="CategoryData_1Handed">Armas a una mano</string>
+	<string key="CategoryData_2Handed">Armas a dos manos</string>
 	<string key="CategoryData_AfflictionResistance">Resistencia a efecto negativo</string>
 	<string key="CategoryData_alchemyresources">Reactivos de pociones</string>
 	<string key="CategoryData_Ammo">Munición</string>
@@ -634,7 +636,7 @@
 	<string key="CategoryData_Potion">Pociones</string>
 	<string key="CategoryData_PotionDesc">Las pociones son artículos que mejoran el rendimiento de forma temporaria.</string>
 	<string key="CategoryData_Alkahest">Alkahest</string>
-	<string key="CategoryData_AlkahestDesc"/>
+	<string key="CategoryData_AlkahestDesc">Los alkahest son objetos necesarios para fabricar pociones.</string>
 	<string key="CategoryData_RangedWeapons">Armas a distancia</string>
 	<string key="CategoryData_rawresources">Recursos en bruto</string>
 	<string key="CategoryData_RefinedMaterial">Materiales refinados</string>
@@ -1051,8 +1053,10 @@
 	<string key="GarnetCut_GroupDesc">Gemas de granate talladas y pulidas.</string>
 	<string key="GarnetCut_GroupName">Granate tallado</string>
 	<string key="GatheringFood_GroupName">Viandas de recolección</string>
-	<string key="GauntletIce_GroupDesc">Unas manoplas que consumen maná para invocar los poderes gélidos de los hechizos de hielo. Con ellas, se puede infligir un daño constante conjurando tormentas elementales, invocando hielo y desatando ataques gélidos que entorpecen y dañan al enemigo.\n\n•Ataque ligero: Infligen {[DamageTable.IceMagic_Primary.DmgCoef * 100]} % de daño de hielo.\n•Ataque pesado: Infligen {[DamageTable.IceMagic_Heavy.DmgCoef * 100]} % de daño de hielo.</string>
+	<string key="GauntletIce_GroupDesc">Unas manoplas que consumen maná para invocar los poderes gélidos de los hechizos de hielo. Con ellas, se puede infligir un daño constante conjurando tormentas elementales, invocando hielo y desatando ataques gélidos que entorpecen y dañan al enemigo.\n\n•Ataque ligero: Inflige {[DamageTable.IceMagic_Primary.DmgCoef * 100]} % de daño de hielo.\n•Ataque pesado: Inflige {[DamageTable.IceMagic_Heavy.DmgCoef * 100]} % de daño de hielo.</string>
 	<string key="GauntletIce_GroupName">Manoplas de hielo</string>
+	<string key="GauntletVoid_GroupDesc" rel_version="Weapon_Void_Gauntlet">Manopla que consume maná para debilitar a los enemigos y fortalecer a los aliados. La manopla de vacío, especializada en potenciadores de corto alcance y en infligir daño con el tiempo, o estados negativos de medio alcance y curación, es especialmente peligrosa si se usa en un grupo.\n\n•Ataque ligero: Inflige un {[DamageTable.VoidGauntlet_Primary.DmgCoef * 100]} % de daño de vacío.\n•Ataque pesado: Inflige un {[DamageTable.VoidGauntlet_Heavy.DmgCoef * 100]} % de daño de vacío y cura a quien lo usa un {[VoidGauntletAbilityTable.Passive_VoidGauntlet_HealOnHeavy.DmgPctToHealth * 100]} % del daño infligido.\n•Cosechar esencia (mantener pulsado «Bloquear»): Convierte tu salud en maná a lo largo del tiempo. La velocidad aumenta con el daño de arma.</string>
+	<string key="GauntletVoid_GroupName" rel_version="Weapon_Void_Gauntlet">Manopla de vacío</string>
 	<string key="GemAmbe_CategoryName">Gemas ámbares</string>
 	<string key="GemAmet_CategoryName">Gemas de amatista</string>
 	<string key="GemAqua_CategoryName">Gemas de aguamarina</string>
@@ -1087,7 +1091,7 @@
 	<string key="GrainT3_GroupName">Cereales de clase 3</string>
 	<string key="GrainT4_GroupName">Cereales de clase 4</string>
 	<string key="GrainT5_GroupName">Cereales de clase 5</string>
-	<string key="Greataxe_GroupDesc">Armas cuerpo a cuerpo grandes con giros amplios en arco y ataques de tajos poderosos. Son ideales ante hordas de enemigos gracias a sus ataques de área de efecto y para infligirles muchísimo daño a objetivos solitarios.\n\n•Ataque ligero: Infligen {[DamageTable.GreatAxe_PrimaryAttack.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado: Infligen {[DamageTable.GreatAxe_HeavyAttack.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado cargado: Infligen {[DamageTable.GreatAxe_HeavyAttack_Charged.DmgCoef * 100]} % de daño de corte.</string>
+	<string key="Greataxe_GroupDesc">Armas cuerpo a cuerpo grandes con giros amplios en arco y ataques de tajos poderosos. Son ideales ante hordas de enemigos gracias a sus ataques de área de efecto y para infligirles muchísimo daño a objetivos solitarios.\n\n•Ataque ligero: Inflige {[DamageTable.GreatAxe_PrimaryAttack.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado: Inflige {[DamageTable.GreatAxe_HeavyAttack.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado cargado: Inflige {[DamageTable.GreatAxe_HeavyAttack_Charged.DmgCoef * 100]} % de daño de corte.</string>
 	<string key="GreatAxe_GroupName">Grandes hachas</string>
 	<string key="GreatAxes_GroupName">Grandes hachas</string>
 	<string key="GunPowder_GroupDesc">Se usa en la fabricación de munición para armas de fuego.</string>
@@ -1360,7 +1364,7 @@
 	<string key="MoonstoneCut_GroupDesc">Gemas de piedra de luna talladas y pulidas. Sirven para fabricar joyas que aumentan la fuerza y la concentración. También se pueden engarzar en el equipo para obtener las ventajas Revancha y Protección contra cortes.</string>
 	<string key="MoonstoneCut_GroupName">Piedra de luna tallada</string>
 	<string key="Musical_GroupName">Instrumentos musicales</string>
-	<string key="MusketA_GroupDesc">Armas a distancia que disparan cartuchos e infligen mucho daño. Son ideales para mantener al enemigo a raya y en combates de larga distancia, y recompensan la precisión.\n\n•Ataque estándar: Infligen {[DamageTable.MusketAttack1.DmgCoef * 100]} % de daño de estocada.</string>
+	<string key="MusketA_GroupDesc">Armas a distancia que disparan cartuchos e infligen mucho daño. Son ideales para mantener al enemigo a raya y en combates de larga distancia, y recompensan la precisión.\n\n•Ataque estándar: Inflige {[DamageTable.MusketAttack1.DmgCoef * 100]} % de daño de estocada.</string>
 	<string key="MusketA_GroupName">Mosquetes</string>
 	<string key="Muskets_GroupName">Mosquetes</string>
 	<string key="nut_GroupName">Frutos secos</string>
@@ -1644,15 +1648,15 @@
 	<string key="SkinningKnives_GroupName">Cuchillos de desuello</string>
 	<string key="SmallVines_GroupName">Enredaderas pequeñas</string>
 	<string key="Solvent_GroupName">Disolventes</string>
-	<string key="SpearA_GroupDesc">Unas armas cuerpo a cuerpo cuyo largo alcance permite asestar agresivas estocadas. Se usan para mantener las distancias con el enemigo, conservar posiciones estratégicas y presionar constantemente al objetivo.\n\n•Ataque ligero: Infligen {[DamageTable.2H_Spear_PrimaryAttack.DmgCoef * 100]} % de daño de estocada.\n•Ataque pesado: Infligen {[DamageTable.2H_Spear_HeavyAttack.DmgCoef * 100]} % de daño de estocada.\n•Ataque pesado cargado: Infligen {[DamageTable.2H_Spear_HeavyAttack_Charged.DmgCoef * 100]} % de daño de estocada.</string>
+	<string key="SpearA_GroupDesc">Unas armas cuerpo a cuerpo cuyo largo alcance permite asestar agresivas estocadas. Se usan para mantener las distancias con el enemigo, conservar posiciones estratégicas y presionar constantemente al objetivo.\n\n•Ataque ligero: Inflige {[DamageTable.2H_Spear_PrimaryAttack.DmgCoef * 100]} % de daño de estocada.\n•Ataque pesado: Inflige {[DamageTable.2H_Spear_HeavyAttack.DmgCoef * 100]} % de daño de estocada.\n•Ataque pesado cargado: Inflige {[DamageTable.2H_Spear_HeavyAttack_Charged.DmgCoef * 100]} % de daño de estocada.</string>
 	<string key="SpearA_GroupName">Lanzas</string>
 	<string key="SpearB_GroupDesc">A dos manos. Armas cuerpo a cuerpo con bastante alcance que se centran en el daño de estocada.</string>
 	<string key="SpearB_GroupName">Lanzas</string>
 	<string key="Spears_GroupName">Lanzas</string>
 	<string key="SprigganKey_GroupName">Llaves de arenas</string>
-	<string key="StaffFire_GroupDesc">Unos báculos mágicos que consumen maná para despertar el poder ardiente de los hechizos de fuego. Se utilizan para negar terreno, infligir daño de fuego durante mucho tiempo y quemar al objetivo.\n\n•Ataque ligero: Infligen {[DamageTable.Firestaff_PrimaryAttackC1.DmgCoef * 100]} % de daño de fuego.\n•Ataque pesado: Infligen {[DamageTable.Firestaff_PrimaryAttackC2.DmgCoef * 100]} % de daño de fuego.</string>
+	<string key="StaffFire_GroupDesc">Unos báculos mágicos que consumen maná para despertar el poder ardiente de los hechizos de fuego. Se utilizan para negar terreno, infligir daño de fuego durante mucho tiempo y quemar al objetivo.\n\n•Ataque ligero: Inflige {[DamageTable.Firestaff_PrimaryAttackC1.DmgCoef * 100]} % de daño de fuego.\n•Ataque pesado: Inflige {[DamageTable.Firestaff_PrimaryAttackC2.DmgCoef * 100]} % de daño de fuego.</string>
 	<string key="StaffFire_GroupName">Báculos ígneos</string>
-	<string key="StaffLife_GroupDesc">Unos báculos mágicos que consumen maná para usar el poder restaurador de los hechizos de naturaleza. Son ideales para apoyar a los aliados en combate con habilidades curativas poderosas y de potenciación.\n\n•Ataque ligero: Infligen {[DamageTable.LifeStaff_PrimaryAttackC1.DmgCoef * 100]} % de daño de naturaleza.\n•Ataque pesado: Infligen {[DamageTable.LifeStaff_PrimaryAttackC2.DmgCoef * 100]} % de daño de naturaleza.</string>
+	<string key="StaffLife_GroupDesc">Unos báculos mágicos que consumen maná para usar el poder restaurador de los hechizos de naturaleza. Son ideales para apoyar a los aliados en combate con habilidades curativas poderosas y de potenciación.\n\n•Ataque ligero: Inflige {[DamageTable.LifeStaff_PrimaryAttackC1.DmgCoef * 100]} % de daño de naturaleza.\n•Ataque pesado: Inflige {[DamageTable.LifeStaff_PrimaryAttackC2.DmgCoef * 100]} % de daño de naturaleza.</string>
 	<string key="StaffLife_GroupName">Báculos de vida</string>
 	<string key="StavesFire_GroupName">Báculos ígneos</string>
 	<string key="StavesLife_GroupName">Báculos de vida</string>
@@ -1685,9 +1689,9 @@
 	<string key="STRTrinkets_GroupDesc">Accesorios que aumentan el atributo de fuerza.</string>
 	<string key="STRTrinkets_GroupName">Accesorios de fuerza</string>
 	<string key="SurvivalTools_GroupName">Herramientas de supervivencia</string>
-	<string key="SwordA_GroupDesc">Unas armas para ataques cuerpo a cuerpo que, al combinarse, ofrecen capacidades ofensivas y defensivas óptimas. Utilizan una mezcla de cortes en arco y arremetidas como ofensiva y un escudo para potenciar la defensa.\n\n•Ataque ligero: Infligen {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]} % de daño de corte.\n•Remate ligero: Infligen {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado: Infligen {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]} % de daño de estocada.\n•Ataque pesado cargado: Infligen {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]} % de daño de estocada.</string>
+	<string key="SwordA_GroupDesc">Unas armas para ataques cuerpo a cuerpo que, al combinarse, ofrecen capacidades ofensivas y defensivas óptimas. Utilizan una mezcla de cortes en arco y arremetidas como ofensiva y un escudo para potenciar la defensa.\n\n•Ataque ligero: Inflige {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]} % de daño de corte.\n•Remate ligero: Inflige {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado: Inflige {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]} % de daño de estocada.\n•Ataque pesado cargado: Inflige {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]} % de daño de estocada.</string>
 	<string key="SwordA_GroupName">Espadas rectas</string>
-	<string key="SwordB_GroupDesc">Unas armas cuerpo a cuerpo que se centran en la velocidad y en los ataques rápidos. Destacan en combates precisos donde se domina al enemigo y aplican sangrados que drenan la salud del objetivo con el tiempo.\n\n•Ataque ligero: Infligen {[DamageTable.1H_Rapier_PrimaryAttack.DmgCoef * 100]} % de daño de estocada.\n•Tajos medios ligeros: Infligen {[DamageTable.1H_Rapier_PrimaryTwoThirdsAttack.DmgCoef * 100]} % de daño de estocada.\n•Ataque pesado: Infligen {[DamageTable.1H_Rapier_HeavyAttack.DmgCoef * 100]} % de daño de estocada.</string>
+	<string key="SwordB_GroupDesc">Unas armas cuerpo a cuerpo que se centran en la velocidad y en los ataques rápidos. Destacan en combates precisos donde se domina al enemigo y aplican sangrados que drenan la salud del objetivo con el tiempo.\n\n•Ataque ligero: Inflige {[DamageTable.1H_Rapier_PrimaryAttack.DmgCoef * 100]} % de daño de estocada.\n•Tajos medios ligeros: Inflige {[DamageTable.1H_Rapier_PrimaryTwoThirdsAttack.DmgCoef * 100]} % de daño de estocada.\n•Ataque pesado: Inflige {[DamageTable.1H_Rapier_HeavyAttack.DmgCoef * 100]} % de daño de estocada.</string>
 	<string key="SwordB_GroupName">Estoques</string>
 	<string key="SwordC_GroupDesc">A una mano.</string>
 	<string key="SwordC_GroupName">Sables</string>
@@ -1704,6 +1708,7 @@
 	<string key="TimberT5_GroupName">Maderos de clase 5</string>
 	<string key="TinctureBlight_GroupName">Pócimas contra la infección</string>
 	<string key="TinctureCorruption_GroupName">Pócimas contra la corrupción</string>
+	<string key="TokenConversion_GroupName">Conversión de blasones</string>
 	<string key="ToolHatchet_GroupDesc">A una mano. Para recolectar madera.</string>
 	<string key="ToolHatchet_GroupName">Destrales</string>
 	<string key="ToolsGathering_GroupName">Herramientas de recolección</string>
@@ -1760,7 +1765,7 @@
 	<string key="VegetableT5_GroupName">Verduras de clase 5</string>
 	<string key="vessel_GroupName">Vasijas</string>
 	<string key="vialPouch_GroupName">Bolsas de viales</string>
-	<string key="Warhammer_GroupDesc">Unos martillos de combate imponentes que sacuden la tierra con sus golpes aplastantes. Son ideales para obstaculizar al enemigo con temblores o infligir golpes devastadores contra el objetivo.\n\n•Ataque ligero: Infligen {[DamageTable.Warhammer_PrimaryAttack.DmgCoef * 100]} % de daño de impacto.\n•Ataque pesado: Infligen {[DamageTable.Warhammer_HeavyAttack.DmgCoef * 100]} % de daño de impacto.\n•Ataque pesado cargado: Infligen {[DamageTable.Warhammer_HeavyAttack_Charged.DmgCoef * 100]} % de daño de impacto.</string>
+	<string key="Warhammer_GroupDesc">Unos martillos de combate imponentes que sacuden la tierra con sus golpes aplastantes. Son ideales para obstaculizar al enemigo con temblores o infligir golpes devastadores contra el objetivo.\n\n•Ataque ligero: Inflige {[DamageTable.Warhammer_PrimaryAttack.DmgCoef * 100]} % de daño de impacto.\n•Ataque pesado: Inflige {[DamageTable.Warhammer_HeavyAttack.DmgCoef * 100]} % de daño de impacto.\n•Ataque pesado cargado: Inflige {[DamageTable.Warhammer_HeavyAttack_Charged.DmgCoef * 100]} % de daño de impacto.</string>
 	<string key="Warhammer_GroupName">Martillos de guerra</string>
 	<string key="WarHammers_GroupName">Martillos de guerra</string>
 	<string key="water_GroupName">Agua</string>
@@ -1773,5 +1778,8 @@
 	<string key="WoodAny_CategoryName">Cualquier madera</string>
 	<string key="WorkOrder_GroupName">Pedidos de trabajo</string>
 	<string key="CategoryData_CookingRecipes">Recetas de cocina</string>
+	<string key="Pattern">Patrones</string>
+	<string key="PatternRecipes">Recetas de patrones</string>
+	<string key="Lodestone">Calamita</string>
 </resources>
 

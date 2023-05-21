@@ -12,8 +12,8 @@
 	<string key="ui_deleteinvitesconfirm">Möchtest du wirklich alle Kompanieeinladungen löschen?</string>
 	<string key="ui_deleteinvitestooltip">Alle deine Kompanieeinladungen löschen.</string>
 	<string key="ui_deleterank">Rang löschen</string>
-	<string key="ui_deleterankconfirm">Rang „{rankName}“ löschen?</string>
-	<string key="ui_deleterankwithmembersconfirm">Möchtest du den Rang „{rankName}“ löschen? \n\nMitglieder mit diesem Rang erhalten dann den Rang „{newRankName}“.</string>
+	<string key="ui_deleterankconfirm">Rang "{rankName}" löschen?</string>
+	<string key="ui_deleterankwithmembersconfirm">Möchtest du den Rang "{rankName}" löschen? \n\nMitglieder mit diesem Rang erhalten dann den Rang "{newRankName}".</string>
 	<string key="ui_demote">Degradieren</string>
 	<string key="ui_enterrankname">Rangnamen eingeben</string>
 	<string key="ui_currentrank">Aktueller Rang: {rankName}</string>
@@ -83,7 +83,7 @@
 	<string key="ui_guildnamechangemessage">Der Kompaniename wurde zu &lt;font color="#9e947e"&gt;{guildName}&lt;/font&gt; geändert.</string>
 	<string key="ui_guildnamechangetitle">Kompaniename geändert</string>
 	<string key="ui_guildnamehere">Kompaniename hier</string>
-	<string key="ui_guildnameinusemessage">Der Kompaniename „{guildName}“ wird bereits verwendet.</string>
+	<string key="ui_guildnameinusemessage">Der Kompaniename "{guildName}" wird bereits verwendet.</string>
 	<string key="ui_guildmessageofthedayhere">Die Nachricht des Tages der Kompanie steht hier.</string>
 	<string key="ui_guildmessageofthedaytitle">Nachricht des Tages</string>
 	<string key="ui_guildofficer">Konsul</string>
@@ -187,7 +187,8 @@
 	<string key="ui_kickfromcompany">Aus Kompanie werfen</string>
 	<string key="ui_kickguildmember_confirm">Möchtest du {playerName} wirklich aus der Kompanie werfen?</string>
 	<string key="ui_leaveguild">Kompanie verlassen</string>
-	<string key="ui_leaveguild_confirm">Möchtest du die Kompanie wirklich verlassen?\n\nDann wird ein anderes Mitglied zum Gouverneur befördert und sämtlicher Besitz der Kompanie verbleibt innerhalb der Kompanie mit dem neuen Gouverneur.</string>
+	<string key="ui_leaveguild_confirm">Möchtest du die Kompanie wirklich verlassen?</string>
+	<string key="ui_leaveguild_governor_confirm">Möchtest du die Kompanie wirklich verlassen?\n\nDann wird ein anderes Mitglied zum Gouverneur befördert und sämtlicher Besitz der Kompanie verbleibt innerhalb der Kompanie mit dem neuen Gouverneur.</string>
 	<string key="ui_leaveguild_alone_confirm">Möchtest du die Kompanie wirklich verlassen?\n\nDu bist das einzige Mitglied, und wenn du die Kompanie verlässt, geht sämtlicher Besitz der Kompanie verloren.</string>
 	<string key="ui_leftguildmessage">Die Kompanie wurde verlassen.</string>
 	<string key="ui_modifycrest">Wappen bearbeiten</string>
@@ -225,7 +226,8 @@
 	<string key="ui_permission_demolish_territories">{allowed} Kompaniegebiete aufheben.</string>
 	<string key="ui_permission_declare_war">{allowed} Kriegserklärungen und das Belagerungszeitfenster einrichten.</string>
 	<string key="ui_permission_treasury_deposit">{allowed} in Kompanie-Schatzkammer einzahlen.</string>
-	<string key="ui_permission_treasury_withdraw">{allowed} aus Kompanie-Schatzkammer entnehmen.</string>
+	<string key="ui_permission_treasury_withdraw">{allowed} bis zum Tageshöchstbetrag aus der Kompanie-Schatzkammer abheben.</string>
+	<string key="ui_permission_treasury_withdraw_unlimited">{allowed} beliebigen Betrag aus der Kompanie-Schatzkammer abheben.</string>
 	<string key="ui_permission_treasury_set_daily_limit">{allowed} tägliches Abhebungslimit der Schatzkammer festlegen.</string>
 	<string key="ui_permission_territory_project_management">{allowed} Gebietsaufrüstungen beginnen oder abbrechen.</string>
 	<string key="ui_permission_territory_taxation">{allowed} Gebietssteuern festlegen.</string>
@@ -236,7 +238,7 @@
 	<string key="ui_promote">Befördern</string>
 	<string key="ui_promote_transfer_owner">Eigentum übertragen</string>
 	<string key="ui_promotetoguildmaster_confirm_title">Kompanie übertragen?</string>
-	<string key="ui_promotetoguildmaster_confirm">Möchtest du das Eigentumsrecht der Kompanie wirklich an {memberName} übertragen? \n\nAlle Mitglieder, Ansprüche, Schatzkammerbestände und Gebäude von {guildName} gehen in den Besitz der Kompanie von {memberName} über. Das Wappen und der Name ändern sich zum Wappen und Namen der Kompanie von {memberName}. Du wirst um einen Rang degradiert und {guildName} verliert alle Mitglieder und Besitztümer. \n\nDiese Aktion kannst du nicht rückgängig machen und die Änderung wird sofort wirksam.</string>
+	<string key="ui_promotetoguildmaster_confirm">Möchtest du das Amt des Kompanie-Gouverneurs wirklich auf {memberName} übertragen?\n\nAlle Mitglieder, Ansprüche, Gebäude und Gelder von {guildName} fallen unter die Kontrolle von {memberName} als neuer Gouverneur von {guildName}. Kompaniename und -wappen bleiben unverändert. Du wirst um einen Rang degradiert.\n\nDiese Aktion kann nicht rückgängig gemacht werden und die Änderung tritt sofort in Kraft.</string>
 	<string key="ui_rank">Rang</string>
 	<string key="ui_rankmovedowndisabled">Das ist der niedrigste Rang.</string>
 	<string key="ui_rankmoveupdisabled">Ein höherer Rang als {gmRankName} ist nicht möglich.</string>
@@ -420,8 +422,10 @@
 	<string key="ui_guildclaimsowned">Gebiete beansprucht</string>
 	<string key="ui_guildoneclaimowned">Gebiet beansprucht</string>
 	<string key="ui_acceptguildinvitepopuptitle">Neuer Kompanie beitreten?</string>
+	<string key="ui_acceptguildinvitepopupmessage_noguild">Möchtest du dich wirklich einer neuen Kompanie anschließen?</string>
 	<string key="ui_acceptguildinvitepopupmessage_hasclaims">Es werden keine in deinem Besitz befindlichen Gebiete auf die neue Kompanie übertragen. Sie bleiben im Besitz deiner alten Kompanie. Kompanien müssen eine Kriegserklärung abgeben, um diese Gebiete zu beanspruchen.</string>
-	<string key="ui_acceptguildinvitepopupmessage_noclaims">Möchtest du deine aktuelle Kompanie wirklich verlassen und der neuen Kompanie beitreten?\nDu kannst dieser Kompanie für {rejoinTime} nicht wieder beitreten und musst {switchTime} warten, bis du einer neuen Kompanie beitreten kannst.</string>
+	<string key="ui_acceptguildinvitepopupmessage_noclaims_time_remaining">Möchtest du deine aktuelle Kompanie wirklich verlassen und der neuen Kompanie beitreten?\nDu kannst dieser Kompanie für {rejoinTime} nicht wieder beitreten und musst {switchTime} warten, bis du einer neuen Kompanie beitreten kannst.</string>
+	<string key="ui_acceptguildinvitepopupmessage_noclaims">Möchtest du die Kompanie wirklich verlassen und dich einer neuen Kompanie anschließen?</string>
 	<string key="ui_cantchangerank_iscurrentrank">Das Mitglied hat den Rang bereits inne.</string>
 	<string key="ui_cantpromote_maxrank">Bereits höchster Rang</string>
 	<string key="ui_cantpromote_leaderatwar">Die Kompanieleitung kann im Krieg nicht übertragen werden.</string>
@@ -441,8 +445,8 @@
 	<string key="ui_can">Kann</string>
 	<string key="ui_cannot">Kann nicht</string>
 	<string key="ui_guildnamewithrank">{guildName} ({rankName})</string>
-	<string key="ui_guildnamewithrankandtitle">{guildName} ({rankName}) | „{playerTitle}“</string>
-	<string key="ui_noguildonlytitle">„{playerTitle}“</string>
+	<string key="ui_guildnamewithrankandtitle">{guildName} ({rankName}) | "{playerTitle}"</string>
+	<string key="ui_noguildonlytitle">"{playerTitle}"</string>
 	<string key="ui_refreshpage">Seite aktualisieren</string>
 	<string key="ui_setconquest">Belagerungszeitfenster festlegen</string>
 	<string key="ui_setconquestwindowtitle">Zeitfenster für Belagerung vorschlagen</string>
@@ -541,7 +545,7 @@
 	<string key="ui_siege_set_backfill_failed_not_permitted_invasion">Für Invasionen kann der Auffüllungsstatus nicht geändert werden</string>
 	<string key="ui_siege_set_backfill_failed">Bei der Auffüllungsänderung gab es ein Problem.</string>
 	<string key="ui_siege_standby_page_text">Seite {currentPage} von {totalPages}</string>
-	<string key="ui_treasury_governor">Der Gouverneur der Kompanie kann beliebige Münzbeträge aus der Schatzkammer entnehmen.</string>
+	<string key="ui_treasury_withdrawal_desc">Der Gouverneur und die Konsuln der Kompanie können beliebige Münzbeträge aus der Schatzkammer entnehmen. Offiziere können Beträge bis zum vom Gouverneur festgelegten Tageshöchstbetrag entnehmen.</string>
 	<string key="ui_companylog_checkbox_selectAll">Alle auswählen</string>
 	<string key="ui_companylog_checkbox_invites">Einlad.</string>
 	<string key="ui_companylog_checkbox_rankChange">Rangänderung</string>

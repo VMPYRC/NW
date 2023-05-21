@@ -101,6 +101,8 @@
 	<string key="ui_leaving_settlement_no_inn">Nicht angemeldet</string>
 	<string key="ui_leaving_settlement_inn_elsewhere">Du gehst, ohne dich im Gasthof angemeldet zu haben. Derzeitiger Gasthof befindet sich in {territoryName} {distance}.</string>
 	<string key="ui_cancel_town_project">Brich das Stadtprojekt ab</string>
+	<string key="ui_cancel_on_cooldown">Kann abgebrochen werden in {time}</string>
+	<string key="ui_start_on_cooldown">Neues Projekt kann in {time} begonnen werden</string>
 	<string key="ui_cancel_project_title">Möchtest du fortfahren?</string>
 	<string key="ui_cancel_project_desc">Möchtest du das Projekt wirklich abbrechen? Sämtlicher Fortschritt geht dabei verloren.</string>
 	<string key="ui_replace_project_desc">Achtung: Möchtest du das aktive Projekt wirklich ersetzen? Sämtlicher Fortschritt für das aktive Projekt dieser Art geht dabei verloren.</string>
@@ -180,6 +182,7 @@
 	<string key="ui_encounter_signupbutton_war">An Übersicht eintragen</string>
 	<string key="ui_encounter_signupDesc_war">Trage dich für diesen Krieg an einer\n&lt;font color='#f1ede2'&gt;Kriegsübersicht&lt;/font&gt; in dieser Stadt ein.</string>
 	<string key="ui_encounter_signupDesc_invasion">Trage dich für diese Invasion an einer\n&lt;font color='#f1ede2'&gt;Kriegsübersicht&lt;/font&gt; in dieser Stadt ein.</string>
+	<string key="ui_encounter_signupDesc_invasion_minlevel">&lt;font color="#ff6363"&gt;Mindeststufe: {level}&lt;/font&gt;</string>
 	<string key="ui_encounter_signupbutton_invasion">An Übersicht eintragen</string>
 	<string key="ui_encounter_viewstatusbutton_war">Armee ansehen</string>
 	<string key="ui_encounter_viewstatusbutton_invasion">Armee ansehen</string>
@@ -230,7 +233,7 @@
 	<string key="ui_fortressinfo_defenderlabel">(verteidigt)</string>
 	<string key="ui_fortressinfo_invasionattackername">Verderbte</string>
 	<string key="ui_fortressinfo_timetodeclare">Zeit zur Kriegserklärung:</string>
-	<string key="ui_fortressinfo_timetodeclare_paused_invasion">Paused (Invasion)</string>
+	<string key="ui_fortressinfo_timetodeclare_paused_invasion">Angehalten (Invasion)</string>
 	<string key="ui_fortressinfo_conflictdescription">Du erlangst in diesem Gebiet &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;keinen Einfluss&lt;/font&gt; mehr, bis der Krieg beendet ist. (Alle anderen Fraktionsmissions-Belohnungen wie EP und Taler sind weiterhin erhältlich.)\n\nWenn mehrere Kompanien Einfluss beigesteuert haben, um den Krieg zu erklären, wird eine zufällig ausgewählt.</string>
 	<string key="ui_fortressinfo_noconflict">Gebiet nicht im Krieg</string>
 	<string key="ui_fortressinfo_contributionnotrequired">Bisher hat noch keine Kompanie genug Einfluss beigesteuert. Jede Kompanie kann den Krieg erklären.</string>
@@ -504,6 +507,7 @@
 	<string key="ui_project_in_progress">Das Stadtprojekt läuft gerade.</string>
 	<string key="ui_project_nopermission">Nur Mitglieder der herrschenden Kompanie mit den nötigen Berechtigungen können ein Stadtprojekt beginnen oder ändern.</string>
 	<string key="ui_project_button_upkeep_overdue">Die Gebietsunterhaltungskosten sind überfällig.</string>
+	<string key="ui_project_button_upkeep_unclaimed">Unbeanspruchtes Gebiet</string>
 	<string key="ui_project_tooltip_upkeep_overdue">Solange die Gebietsunterhaltungskosten überfällig sind, kann kein Stadtprojekt begonnen werden.</string>
 	<string key="ui_notavailable">N/A</string>
 	<string key="ui_timelimit">ZEITLIMIT</string>
@@ -532,14 +536,14 @@
 	<string key="ui_no_project_active">Es gibt kein aktives Stadtprojekt.\n&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Die herrschende Kompanie muss ein neues Stadtprojekt beginnen.&lt;/font&gt;</string>
 	<string key="ui_view_current_goal">Aktuelles Ziel ansehen</string>
 	<string key="ui_governorsdesk">Büro des Gouverneurs</string>
-	<string key="ui_governorsdesk_desc">Hier legt die herrschende Kompanie die Höhe der Steuern für das Gebiet fest und entrichtet die Gebietsunterhaltungskosten.</string>
+	<string key="ui_governorsdesk_desc">Die herrschende Kompanie legt hier für dieses Gebiet die Höhe der Steuern fest und entrichtet die Gebietsunterhaltungskosten.</string>
 	<string key="ui_upkeep_tooltip">Sollte die herrschende Kompanie die Unterhaltungskosten nicht rechtzeitig entrichten, &lt;font color="#e8a015"&gt;wird ein zufälliger Teil des Gebiets herabgestuft.&lt;/font&gt;</string>
 	<string key="ui_payroll_title">Kompaniegehaltsangabe</string>
 	<string key="ui_payroll_tooltip">Die herrschende Kompanie erhält Einnahmen aus Steuern und Gebühren.</string>
 	<string key="ui_firstdayofcycle">Erster Tag des Zyklus</string>
 	<string key="ui_nextupkeepdue">Nächste Unterhaltungskosten fällig</string>
 	<string key="ui_overdue_penalty">STRAFE FÜR ZAHLUNGSVERSÄUMNIS</string>
-	<string key="ui_town_project">Stadtprojekt</string>
+	<string key="ui_town_project">Stadtprojekte</string>
 	<string key="ui_tax_management">Steuerverwaltung</string>
 	<string key="ui_territorylevel">Gebietsstufe</string>
 	<string key="ui_next_penalty">NÄCHSTE HERABSTUFUNG IN</string>
@@ -573,11 +577,12 @@
 	<string key="ui_town_project_allCompleted">Vollständig &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;abgeschlossen&lt;/font&gt;</string>
 	<string key="ui_territory_standing_no_bonuses">Du hast keine Boni in {territory}.</string>
 	<string key="ui_territory_standing_upgrade_description_generic">Erhalte EINIGE FÄHIGKEITEN in {territory}.</string>
-	<string key="ui_territory_standing_upgrade_description_increase_stat">Erhöht &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; um &lt;font color='#e1ddd4'&gt;{value}&lt;/font&gt; in {territory}.</string>
-	<string key="ui_territory_standing_upgrade_description_increase_rate">Du erhältst &lt;font color='#e1ddd4'&gt;{value}&lt;/font&gt; mehr &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt;, solange du in {territory} bist.</string>
-	<string key="ui_territory_standing_upgrade_description_increase_stat_no_territory">Erhöht &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; um &lt;font color='#e1ddd4'&gt;{value}&lt;/font&gt;.</string>
-	<string key="ui_territory_standing_upgrade_description_decrease_stat">Verringert &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; um &lt;font color='#e1ddd4'&gt;{value}&lt;/font&gt; in {territory}.</string>
+	<string key="ui_territory_standing_upgrade_description_increase_stat">Erhöht &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; in {territory}.</string>
+	<string key="ui_territory_standing_upgrade_description_increase_rate">&lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; wird weiter erhöht, solange du in {territory} bist.</string>
+	<string key="ui_territory_standing_upgrade_description_increase_stat_no_territory">Erhöht &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt;.</string>
+	<string key="ui_territory_standing_upgrade_description_decrease_stat">&lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; in {territory} wird verringert.</string>
 	<string key="ui_territory_standing_upgrade_description_own_house">Du kannst in {territory} ein Haus besitzen.</string>
+	<string key="ui_territory_standing_upgrade_value">&lt;font color='#e1ddd4'&gt; ({current}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/arrow_right" xPadding="8" scale="0.8" yOffset="-0.4"&gt;&lt;/img&gt;&lt;font color='#e1ddd4'&gt;{value})&lt;/font&gt;</string>
 	<string key="ui_territory_standing_upgrade_category_generic">Eine Kategorie</string>
 	<string key="ui_territory_standing_upgrade_category_reputation">Fraktionsmarken</string>
 	<string key="ui_territory_standing_upgrade_category_housepoint">Hausgegenstände</string>
@@ -635,6 +640,7 @@
 	<string key="ui_new_mission">Eine neue Mission\nist bald verfügbar.</string>
 	<string key="ui_mission_canceled">Mission abgebrochen</string>
 	<string key="ui_territory_influence">Gebietseinfluss</string>
+	<string key="ui_territory_governed_by_label">Gebiet wird kontrolliert von:</string>
 	<string key="ui_AlwaysAvailableProjectId">Stadtunterhaltungskosten</string>
 	<string key="lifestyle_title_LumberJackSpiritProjectId">Geist der Holzfäller aktivieren</string>
 	<string key="lifestyle_title_MinersResolveProjectId">Entschlossenheit der Bergleute aktivieren</string>

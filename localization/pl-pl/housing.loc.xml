@@ -35,11 +35,11 @@
 	<string key="ui_house_abandon_notification">Twój dom ({houseName}) został porzucony.</string>
 	<string key="ui_house_abandon_popup_desc">Masz już 1 dom w tym mieście.\nCzy chcesz porzucić {houseName}, by zakupić ten dom?\nWszystkie trofea i meble z porzuconego domu zostaną przeniesione do magazynu miejskiego.</string>
 	<string key="ui_house_abandon_popup_title">Możesz mieć tylko jeden dom w mieście.</string>
-	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;Purchase cost and taxes will not be refunded if this house is abandoned.&lt;/font&gt;\nAll trophies &amp; furniture in the abandoned house will be moved into Town Storage.\n\nTo continue, type {territoryName} below.</string>
-	<string key="ui_house_abandon_this_house_desc">Koszt zakupu i podatki nie zostaną zwrócone po porzuceniu tego domu. Wszystkie trofea i meble z domu zostaną przeniesione do magazynu miejskiego.</string>
+	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;W razie porzucenia tego domu nie nastąpi zwrot kosztu zakupu i podatków.&lt;/font&gt;\nWszystkie trofea i meble z porzuconego domu zostaną przeniesione do magazynu miejskiego.\n\nBy kontynuować, wpisz poniżej nazwę terytorium ({territoryName}).</string>
+	<string key="ui_house_abandon_this_house_desc">W razie porzucenia tego domu nie nastąpi zwrot kosztu zakupu i podatków. Wszystkie trofea i meble z domu zostaną przeniesione do magazynu miejskiego.</string>
 	<string key="ui_house_abandon_this_popup_title">Porzucić dom?</string>
-	<string key="ui_house_abandon_confirm_placeholder_text">Type the territory name.</string>
-	<string key="ui_house_abandon_confirm_button">Abandon House</string>
+	<string key="ui_house_abandon_confirm_placeholder_text">Wpisz nazwę terytorium</string>
+	<string key="ui_house_abandon_confirm_button">Porzuć dom</string>
 	<string key="ui_house_already_owned">Już posiadane</string>
 	<string key="ui_house_hint_decorate">Dekoruj</string>
 	<string key="ui_house_hint_exit">Wyjdź</string>
@@ -63,7 +63,7 @@
 	<string key="ui_home_purchase_error_level_first">Musisz być na {level}. poziomie, by kupić dom</string>
 	<string key="ui_home_purchase_error_level">Musisz być na {level}. poziomie, by kupić następny dom</string>
 	<string key="ui_house_purchase_error_territory_bonus">Potrzebujesz prawa własności domu z: {standingName}</string>
-	<string key="ui_house_purchase_error_territory_bonus_desc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#F25D5D"&gt;You don't have&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt; House Ownership Bonus &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#F25D5D"&gt;in this territory to purchase a house.&lt;/font&gt;\n &lt;font color="#AAAAAA"&gt;Prawo własności domu jest dostępne od&lt;/font&gt; &lt;font color="#EEEEEE"&gt; {standingRank}. rangi terytorium.&lt;/font&gt;</string>
+	<string key="ui_house_purchase_error_territory_bonus_desc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#F25D5D"&gt;Nie dysponujesz&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt; prawem własności domu&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#F25D5D"&gt; na tym terytorium, by móc kupić dom.&lt;/font&gt;\n &lt;font color="#AAAAAA"&gt;Prawo własności domu jest dostępne od&lt;/font&gt; &lt;font color="#EEEEEE"&gt; {standingRank}. rangi terytorium.&lt;/font&gt;</string>
 	<string key="ui_house_purchase_standing_requirement">Poziom rangi terytorium: {standingValue} {standingName}</string>
 	<string key="ui_house_purchase_standing_bonus_requirement">Prawo własności domu: {standingName}</string>
 	<string key="ui_house_purchased">Dom zakupiony!</string>
@@ -86,7 +86,7 @@
 	<string key="ui_housing_enabled">Aktywny</string>
 	<string key="ui_housing_fast_travel">Szybka podróż</string>
 	<string key="ui_housing_fast_travel_desc">Z dowolnego miejsca do twojego domu</string>
-	<string key="ui_housing_decorations">Decoration Mode</string>
+	<string key="ui_housing_decorations">Tryb ozdabiania</string>
 	<string key="ui_housing_features">Funkcje domu</string>
 	<string key="ui_housing_grid_snap_hint">Rozmieszczenie siatki</string>
 	<string key="ui_housing_hide_ui">Ukryj interfejs</string>
@@ -99,22 +99,22 @@
 	<string key="ui_housing_no_items_found">Brak przedmiotów</string>
 	<string key="ui_housing_object">Obiekt domowy</string>
 	<string key="ui_housing_point_tooltip">Na tej liście aktualizowanej co dwa dni figuruje 20 domów o najwyższej punktacji.\n\nPunkty mieszkaniowe oblicza się na podstawie zdobytej przez gracza rangi terytorium oraz mebli na terenie nieruchomości.</string>
-	<string key="ui_housing_purchase_house">Kup ten dom.</string>
+	<string key="ui_housing_purchase_house">Kup ten dom</string>
 	<string key="ui_housing_rotate_camera_hint">&lt;img src="lyshineui/images/icons/misc/Icon_RightMouseButton" xPadding="0" scale="2.2" yOffset="8"&gt;&lt;/img&gt; Obróć kamerę</string>
 	<string key="ui_housing_rotate_object_hint">Obróć obiekt</string>
 	<string key="ui_housing_select_house">Wybierz dom, który chcesz zobaczyć.</string>
 	<string key="ui_housing_time_calculating">Obliczanie…</string>
 	<string key="ui_housing_time_to_recompute">Ta lista zostanie zaktualizowana za: &lt;font color="#ffffff"&gt;{time}&lt;/font&gt;.</string>
-	<string key="ui_housing_trophy_buff">Trophy Buff</string>
+	<string key="ui_housing_trophy_buff">Premie trofeów</string>
 	<string key="ui_housing_trophy_buffs">Premie trofeów</string>
 	<string key="ui_housing_trophy_buffs_disabled">Premie trofeów (wyłączone)</string>
-	<string key="ui_housing_trophy_buff_desc">Place trophies that give you buffs</string>
+	<string key="ui_housing_trophy_buff_desc">Umieść trofea zapewniające ci premie</string>
 	<string key="ui_housing_trophy_buff_desc_tooltip">Gdy umieścisz to trofeum w swoim domu, będzie źródłem inspiracji.</string>
 	<string key="ui_housing_trophy_empty_slot">Puste miejsce na trofeum</string>
 	<string key="ui_housing_update_time">Ta lista zostanie zaktualizowana za: {time}.</string>
 	<string key="ui_lighting">Oświetlenie</string>
 	<string key="ui_max_homes_owned">Maks. liczba posiadanych domów</string>
-	<string key="ui_max_homes_owned_territory">Maks. liczba posiadanych domów na terytorium</string>
+	<string key="ui_max_homes_owned_territory">Maks. liczba domów posiadanych na terytorium</string>
 	<string key="ui_misc">Pozostałe</string>
 	<string key="ui_my_house_map_desc">{location} dom {number}</string>
 	<string key="ui_my_house_map_desc_disabled">{location} dom {number} (wyłączone)</string>
@@ -208,7 +208,7 @@
 	<string key="@ui_house_items_refunded_single_message">W związku ze zmianami w osadzie: {settlement} przedmiot domowy wrócił do twojego ekwipunku.</string>
 	<string key="@ui_house_items_refunded_multiple_message">W związku ze zmianami w osadzie: {settlement} przedmioty domowe ({count}) wróciły do twojego ekwipunku.</string>
 	<string key="ui_house_compensation_title">Rekompensata za dom</string>
-	<string key="ui_house_compensation_message_JAV141577">Z powodu nieprawidłowego opisu podatków dla nabywców pierwszych domów, przyznano ci {amount} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; jako osobie, która zakupiła dom. Mamy nadzieję, że będziesz czerpać wiele radości z New World i twojego domu.</string>
+	<string key="ui_house_compensation_message_JAV141577">Z powodu nieprawidłowego opisu podatków dla nabywców pierwszych domów przyznano ci {amount} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; jako osobie, która zakupiła dom. Mamy nadzieję, że będziesz czerpać wiele radości z New World i swojego domu.</string>
 	<string key="ui_house_type_items">Przedmioty</string>
 	<string key="ui_house_placed_items">Umieszczone</string>
 	<string key="ui_house_type_items_limits">{petPluralOrSingle}: maks. {numPets}. {lightPluralOrSingle}: maks. {numLights}. {storagePluralOrSingle}: maks. {numStorage}.</string>
@@ -227,5 +227,9 @@
 	<string key="ui_housing_no_placed_items_found">Brak umieszczonych przedmiotów</string>
 	<string key="ui_locate_item">Zlokalizuj przedmiot</string>
 	<string key="ui_return_to_storage">Przenieś do składziku</string>
+	<string key="ui_house_lost_restored_message">Zauważyliśmy, że twój dom został utracony z powodu problemu z grą. Twój dom w {settlement} został przywrócony.</string>
+	<string key="ui_house_lost_restored_title">Dom przywrócony</string>
+	<string key="ui_house_lost_refunded_message">Zauważyliśmy, że twój dom został utracony z powodu problemu z grą. Dokonaliśmy refundacji Twojego domu w {settlement} i przywróciliśmy wyposażenie przestrzeni magazynowej.</string>
+	<string key="ui_house_lost_refunded_title">Zwrot pieniędzy za dom</string>
 </resources>
 

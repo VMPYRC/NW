@@ -1,8 +1,10 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="FoodComponents_GroupName">Ingredienti composti</string>
 	<string key="GemstoneT1_GroupName">Pietre preziose imperfette</string>
 	<string key="GemstoneT2_GroupName">Pietre preziose standard</string>
 	<string key="GemstoneT3_GroupName">Pietre preziose brillanti</string>
 	<string key="GemstoneT4_GroupName">Pietre preziose pure</string>
+	<string key="CraftingPatterns_GroupName">Schemi di produzione</string>
 	<string key="ShieldB_GroupName" comment="A heavy shield that provides excellent protection from attacks.">Scudo a goccia</string>
 	<string key="ShieldA_GroupName" comment="A relatively lightweight shield that provides good protection from attacks.">Scudo rotondo</string>
 	<string key="AlchemyBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Trofei che danno un bonus Arcana (se posizionati nella tua casa).</string>
@@ -192,7 +194,7 @@
 	<string key="HousingTrdG_Cabinets_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Armadietti della casa</string>
 	<string key="HousingTrdG_Cabinets_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Armadietti della casa</string>
 	<string key="HousingTrdG_Veg_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Piante della casa</string>
-	<string key="1hHatchet_GroupDesc">Un'arma polivalente che permette di effettuare sia attacchi con lancio dalla distanza, sia rapidi attacchi in mischia. È perfetta per scontri impegnativi in corpo a corpo e combattimenti tattici a media distanza.\n\n•Attacco leggero: infligge un {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]}% di danni da fendente.\n•Colpo finale leggero: infligge un {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]}% di danni da fendente.\n•Attacco pesante: infligge un {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]}% di danni da fendente.\n•Attacco pesante caricato: infligge un{[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]}% di danni da fendente.</string>
+	<string key="1hHatchet_GroupDesc">Un'arma polivalente che permette di effettuare sia attacchi con lancio dalla distanza, sia rapidi attacchi in mischia. È perfetta per scontri impegnativi in corpo a corpo e combattimenti tattici a media distanza.\n\n•Attacco leggero: Infligge un {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]}% di danni da fendente.\n•Colpo finale leggero: Infligge un {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]}% di danni da fendente.\n•Attacco pesante: Infligge un {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]}% di danni da fendente.\n•Attacco pesante caricato: Infligge un {[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]}% di danni da fendente.</string>
 	<string key="1hHatchet_GroupName">Accette prodotte</string>
 	<string key="1hHatchetAngryEarth_GroupName">Accette primitive</string>
 	<string key="1hHatchetB_GroupName">Accette di ferro freddo</string>
@@ -535,7 +537,7 @@
 	<string key="BoostVoidAbs_GroupName">Pozioni di difesa dal Vuoto</string>
 	<string key="bounty_GroupName">Talismano</string>
 	<string key="bountymagic_GroupName">Animus vacuo</string>
-	<string key="BowA_GroupDesc">Una versatile arma a distanza capace di scoccare frecce in rapida successione o essere tesa completamente per infliggere il massimo dei danni. Ottimo per sferrare diversi attacchi in grado di ostacolare o infliggere danni ai nemici mantenendo la distanza.\n\n•Tensione breve: infligge un {[DamageTable.BowAttack1.DmgCoef * 100]}% di danni da affondo.\n•Tensione lunga: infligge un {[DamageTable.BowAttack2.DmgCoef * 100]}% di danni da affondo.</string>
+	<string key="BowA_GroupDesc">Una versatile arma a distanza capace di scoccare frecce in rapida successione o essere tesa completamente per infliggere il massimo dei danni. Ottimo per sferrare diversi attacchi in grado di ostacolare o infliggere danni ai nemici mantenendo la distanza.\n\n•Tensione breve: Infligge un {[DamageTable.BowAttack1.DmgCoef * 100]}% di danni da affondo.\n•Tensione lunga: Infligge un {[DamageTable.BowAttack2.DmgCoef * 100]}% di danni da affondo.</string>
 	<string key="BowA_GroupName">Archi</string>
 	<string key="BowA2_GroupName">Archi</string>
 	<string key="BowB_GroupDesc">A 2 mani. Un'arma a distanza che usa le frecce. Per ottenere il massimo dei danni, l'arco deve essere teso completamente prima di scoccare la freccia..</string>
@@ -558,8 +560,8 @@
 	<string key="CarnelianCut_GroupName">Corniola tagliata</string>
 	<string key="Cartridges_GroupName">Proiettili per armi da fuoco</string>
 	<string key="catalyst_GroupName">Catalizzatori</string>
-	<string key="CategoryData_1Handed">Armi a &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt; mano</string>
-	<string key="CategoryData_2Handed">Armi a &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt; mani</string>
+	<string key="CategoryData_1Handed">Armi a 1 mano</string>
+	<string key="CategoryData_2Handed">Armi a 2 mani</string>
 	<string key="CategoryData_AfflictionResistance">Resistenza alle afflizioni</string>
 	<string key="CategoryData_alchemyresources">Reagenti per pozioni</string>
 	<string key="CategoryData_Ammo">Munizioni</string>
@@ -1051,8 +1053,10 @@
 	<string key="GarnetCut_GroupDesc">Pietre di granato tagliate e levigate</string>
 	<string key="GarnetCut_GroupName">Granato tagliato</string>
 	<string key="GatheringFood_GroupName">Cibi di raccolta</string>
-	<string key="GauntletIce_GroupDesc">Un guanto che consuma mana per scatenare i poteri congelanti degli incantesimi di ghiaccio. Fenomenale per infliggere danni persistenti con tempeste elementali, evocare ghiaccio e sferrare attacchi congelanti che ostacolano e infliggono danni ai nemici.\n\n•Attacco leggero: infligge un {[DamageTable.IceMagic_Primary.DmgCoef * 100]}% di danni da ghiaccio.\n•Attacco pesante: infligge un {[DamageTable.IceMagic_Heavy.DmgCoef * 100]}% di danni da ghiaccio.</string>
+	<string key="GauntletIce_GroupDesc">Un guanto che consuma mana per scatenare i poteri congelanti degli incantesimi di ghiaccio. Fenomenale per infliggere danni persistenti con tempeste elementali, evocare ghiaccio e sferrare attacchi congelanti che ostacolano e infliggono danni ai nemici.\n\n•Attacco leggero: Infligge un {[DamageTable.IceMagic_Primary.DmgCoef * 100]}% di danni da ghiaccio.\n•Attacco pesante: Infligge un {[DamageTable.IceMagic_Heavy.DmgCoef * 100]}% di danni da ghiaccio.</string>
 	<string key="GauntletIce_GroupName">Guanti di ghiaccio</string>
+	<string key="GauntletVoid_GroupDesc" rel_version="Weapon_Void_Gauntlet">Guanto che consuma mana per indebolire i nemici e rafforzare gli alleati. Specializzato nei danni nel tempo e nei potenziamenti a distanza ravvicinata, oppure nelle cure e nei depotenziamenti a distanza media, il Guanto del Vuoto è particolarmente pericoloso se usato in gruppo.\n\n• Attacco leggero: Infligge un {[DamageTable.VoidGauntlet_Primary.DmgCoef * 100]}% di danni da Vuoto.\n•Attacco pesante: Infligge un {[DamageTable.VoidGauntlet_Heavy.DmgCoef * 100]}% di danni da Vuoto e curi te stesso per un {[VoidGauntletAbilityTable.Passive_VoidGauntlet_HealOnHeavy.DmgPctToHealth * 100]}% dei danni inflitti.\n•Essenza del raccolto (tieni premuto "Blocco"): Converte gradualmente la tua salute in mana. La velocità aumenta in base ai danni da arma.</string>
+	<string key="GauntletVoid_GroupName" rel_version="Weapon_Void_Gauntlet">Guanti del Vuoto</string>
 	<string key="GemAmbe_CategoryName">Pietre d'ambra</string>
 	<string key="GemAmet_CategoryName">Pietre di ametista</string>
 	<string key="GemAqua_CategoryName">Pietre di acquamarina</string>
@@ -1087,7 +1091,7 @@
 	<string key="GrainT3_GroupName">Cereali livello 3</string>
 	<string key="GrainT4_GroupName">Cereali livello 4</string>
 	<string key="GrainT5_GroupName">Cereali livello 5</string>
-	<string key="Greataxe_GroupDesc">Una grande arma da mischia con cui sferrare ampi fendenti e potenti attacchi taglienti. Ideale per affrontare nemici multipli con danni ad area di effetto o per infliggere danni estremi a bersagli singoli.\n\n•Attacco leggero: infligge un {[DamageTable.GreatAxe_PrimaryAttack.DmgCoef * 100]}% di danni da fendente.\n•Attacco pesante: infligge un {[DamageTable.GreatAxe_HeavyAttack.DmgCoef * 100]}% di danni da fendente.\n•Attacco pesante caricato: infligge un {[DamageTable.GreatAxe_HeavyAttack_Charged.DmgCoef * 100]}% di danni da fendente.</string>
+	<string key="Greataxe_GroupDesc">Una grande arma da mischia con cui sferrare ampi fendenti e potenti attacchi taglienti. Ideale per affrontare nemici multipli con danni ad area di effetto o per infliggere danni estremi a bersagli singoli.\n\n•Attacco leggero: Infligge un {[DamageTable.GreatAxe_PrimaryAttack.DmgCoef * 100]}% di danni da fendente.\n•Attacco pesante: Infligge un {[DamageTable.GreatAxe_HeavyAttack.DmgCoef * 100]}% di danni da fendente.\n•Attacco pesante caricato: Infligge un {[DamageTable.GreatAxe_HeavyAttack_Charged.DmgCoef * 100]}% di danni da fendente.</string>
 	<string key="GreatAxe_GroupName">Ascia grande</string>
 	<string key="GreatAxes_GroupName">Asce grandi</string>
 	<string key="GunPowder_GroupDesc">Utile per produrre munizioni per armi da fuoco.</string>
@@ -1360,7 +1364,7 @@
 	<string key="MoonstoneCut_GroupDesc">Pietre di luna tagliate e levigate. Si possono usare per produrre gioielli che aumentano la Forza e la Concentrazione, oppure si possono incastonare nell'equipaggiamento per fornire i vantaggi Euforia e Protezione contro fendente.</string>
 	<string key="MoonstoneCut_GroupName">Pietra di luna\ntagliata</string>
 	<string key="Musical_GroupName">Strumenti musicali</string>
-	<string key="MusketA_GroupDesc">Un'arma a distanza che spara proiettili in grado di infliggere notevoli danni. Ideale per tenere i nemici a distanza e nei combattimenti a lunga distanza in cui sono richiesti tiri di precisione.\n\n•Attacco standard: infligge un {[DamageTable.MusketAttack1.DmgCoef * 100]}% di danni da affondo.</string>
+	<string key="MusketA_GroupDesc">Un'arma a distanza che spara proiettili in grado di infliggere notevoli danni. Ideale per tenere i nemici a distanza e nei combattimenti a lunga distanza in cui sono richiesti tiri di precisione.\n\n•Attacco standard: Infligge un {[DamageTable.MusketAttack1.DmgCoef * 100]}% di danni da affondo.</string>
 	<string key="MusketA_GroupName">Moschetto</string>
 	<string key="Muskets_GroupName">Moschetti</string>
 	<string key="nut_GroupName">Noce</string>
@@ -1644,15 +1648,15 @@
 	<string key="SkinningKnives_GroupName">Coltelli da scuoiatura</string>
 	<string key="SmallVines_GroupName">Rampicanti piccoli</string>
 	<string key="Solvent_GroupName">Solvente</string>
-	<string key="SpearA_GroupDesc">Un'arma da mischia che utilizza la propria lunga portata per aggressivi attacchi in affondo. Perfetta per mantenere i bersagli a distanza, per posizionarsi strategicamente e per tenere i nemici sotto pressione.\n\n•Attacco leggero: infligge un {[DamageTable.2H_Spear_PrimaryAttack.DmgCoef * 100]}% di danni da affondo.\n•Attacco pesante: infligge un {[DamageTable.2H_Spear_HeavyAttack.DmgCoef * 100]}% di danni da affondo.\n•Attacco pesante caricato: infligge un {[DamageTable.2H_Spear_HeavyAttack_Charged.DmgCoef * 100]}% di danni da affondo.</string>
+	<string key="SpearA_GroupDesc">Un'arma da mischia che utilizza la propria lunga portata per aggressivi attacchi in affondo. Perfetta per mantenere i bersagli a distanza, per posizionarsi strategicamente e per tenere i nemici sotto pressione.\n\n•Attacco leggero: Infligge un {[DamageTable.2H_Spear_PrimaryAttack.DmgCoef * 100]}% di danni da affondo.\n•Attacco pesante: Infligge un {[DamageTable.2H_Spear_HeavyAttack.DmgCoef * 100]}% di danni da affondo.\n•Attacco pesante caricato: Infligge un {[DamageTable.2H_Spear_HeavyAttack_Charged.DmgCoef * 100]}% di danni da affondo.</string>
 	<string key="SpearA_GroupName">Lancia</string>
 	<string key="SpearB_GroupDesc">A 2 mani. Un'arma da mischia con portata notevole specializzata in danni da affondo.</string>
 	<string key="SpearB_GroupName">Lancia</string>
 	<string key="Spears_GroupName">Lance</string>
 	<string key="SprigganKey_GroupName">Chiavi arena</string>
-	<string key="StaffFire_GroupDesc">Un bastone magico che consuma mana per attivare il potere incendiario degli incantesimi di fuoco. Ottimo per impedire l'accesso a una determinata zona, infliggere danni da fuoco in aree ampie e incendiare i bersagli.\n\n•Attacco leggero: infligge un {[DamageTable.Firestaff_PrimaryAttackC1.DmgCoef * 100]}% di danni da fuoco.\n•Attacco pesante: infligge un {[DamageTable.Firestaff_PrimaryAttackC2.DmgCoef * 100]}% di danni da fuoco.</string>
+	<string key="StaffFire_GroupDesc">Un bastone magico che consuma mana per attivare il potere incendiario degli incantesimi di fuoco. Ottimo per impedire l'accesso a una determinata zona, infliggere danni da fuoco in aree ampie e incendiare i bersagli.\n\n•Attacco leggero: Infligge un {[DamageTable.Firestaff_PrimaryAttackC1.DmgCoef * 100]}% di danni da fuoco.\n•Attacco pesante: Infligge un {[DamageTable.Firestaff_PrimaryAttackC2.DmgCoef * 100]}% di danni da fuoco.</string>
 	<string key="StaffFire_GroupName">Bastoni infuocati</string>
-	<string key="StaffLife_GroupDesc">Un bastone magico che consuma mana per applicare il potere curativo degli incantesimi della natura. Ideale per fornire supporto agli alleati in combattimento grazie ai suoi potenti effetti curativi e potenzianti.\n\n•Attacco leggero: infligge un {[DamageTable.LifeStaff_PrimaryAttackC1.DmgCoef * 100]}% di danni da natura.\n•Attacco pesante: infligge un {[DamageTable.LifeStaff_PrimaryAttackC2.DmgCoef * 100]}% di danni da natura.</string>
+	<string key="StaffLife_GroupDesc">Un bastone magico che consuma mana per applicare il potere curativo degli incantesimi della natura. Ideale per fornire supporto agli alleati in combattimento grazie ai suoi potenti effetti curativi e potenzianti.\n\n•Attacco leggero: Infligge un {[DamageTable.LifeStaff_PrimaryAttackC1.DmgCoef * 100]}% di danni da natura.\n•Attacco pesante: Infligge un {[DamageTable.LifeStaff_PrimaryAttackC2.DmgCoef * 100]}% di danni da natura.</string>
 	<string key="StaffLife_GroupName">Bastoni della vita</string>
 	<string key="StavesFire_GroupName">Bastoni infuocati</string>
 	<string key="StavesLife_GroupName">Bastoni della vita</string>
@@ -1685,9 +1689,9 @@
 	<string key="STRTrinkets_GroupDesc">Accessori che aumentano l'attributo Forza.</string>
 	<string key="STRTrinkets_GroupName">Accessori per Forza</string>
 	<string key="SurvivalTools_GroupName">Strumenti da survivalista</string>
-	<string key="SwordA_GroupDesc">Una coppia di armi incentrate sulla mischia che, se usate insieme, sono molto efficaci sia attacco, sia in difesa. Utilizza una combinazione di ampi fendenti e balzi in avanti per gli attacchi in mischia, mentre uno scudo consente di massimizzare le difese.\n\n•Attacco leggero: infligge un {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]}% di danni da fendente.\n•Colpo finale leggero: infligge un {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]}% di danni da fendente.\n•Attacco pesante: infligge un {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]}% di danni da affondo.\n•Attacco pesante caricato: infligge un {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]}% di danni da affondo.</string>
+	<string key="SwordA_GroupDesc">Una coppia di armi incentrate sulla mischia che, se usate insieme, sono molto efficaci sia attacco, sia in difesa. Utilizza una combinazione di ampi fendenti e balzi in avanti per gli attacchi in mischia, mentre uno scudo consente di massimizzare le difese.\n\n•Attacco leggero: Infligge un {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]}% di danni da fendente.\n•Colpo finale leggero: Infligge un {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]}% di danni da fendente.\n•Attacco pesante: Infligge un {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]}% di danni da affondo.\n•Attacco pesante caricato: Infligge un {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]}% di danni da affondo.</string>
 	<string key="SwordA_GroupName">Spada dritta</string>
-	<string key="SwordB_GroupDesc">Un'arma da mischia incentrata sulla rapidità, che consente di sferrare molteplici attacchi basati su affondi rapidi. Eccellente per calibrare gli attacchi al momento giusto e spiazzare gli avversari. Infligge inoltre sanguinamenti che consumano gradualmente la salute del bersaglio.\n\n•Attacco leggero: infligge un{[DamageTable.1H_Rapier_PrimaryAttack.DmgCoef * 100]}% di danni da affondo.\n•Fendenti centrali leggeri: infligge un {[DamageTable.1H_Rapier_PrimaryTwoThirdsAttack.DmgCoef * 100]}% di danni da affondo.\n•Attacco pesante: infligge un {[DamageTable.1H_Rapier_HeavyAttack.DmgCoef * 100]}% di danni da affondo.</string>
+	<string key="SwordB_GroupDesc">Un'arma da mischia incentrata sulla rapidità, che consente di sferrare molteplici attacchi basati su affondi rapidi. Eccellente per calibrare gli attacchi al momento giusto e spiazzare gli avversari. Infligge inoltre sanguinamenti che consumano gradualmente la salute del bersaglio.\n\n•Attacco leggero: Infligge un {[DamageTable.1H_Rapier_PrimaryAttack.DmgCoef * 100]}% di danni da affondo.\n•Fendenti centrali leggeri: Infligge un {[DamageTable.1H_Rapier_PrimaryTwoThirdsAttack.DmgCoef * 100]}% di danni da affondo.\n•Attacco pesante: Infligge un {[DamageTable.1H_Rapier_HeavyAttack.DmgCoef * 100]}% di danni da affondo.</string>
 	<string key="SwordB_GroupName">Stocco</string>
 	<string key="SwordC_GroupDesc">A 1 mano.</string>
 	<string key="SwordC_GroupName">Sciabola</string>
@@ -1704,6 +1708,7 @@
 	<string key="TimberT5_GroupName">Tavole di legno livello 5</string>
 	<string key="TinctureBlight_GroupName">Tinture anti-logoramento</string>
 	<string key="TinctureCorruption_GroupName">Tinture anti-corruzione</string>
+	<string key="TokenConversion_GroupName">Conversione gettoni</string>
 	<string key="ToolHatchet_GroupDesc">A 1 mano. Utile per raccogliere legno</string>
 	<string key="ToolHatchet_GroupName">Accetta</string>
 	<string key="ToolsGathering_GroupName">Strumenti di raccolta</string>
@@ -1760,7 +1765,7 @@
 	<string key="VegetableT5_GroupName">Verdura livello 5</string>
 	<string key="vessel_GroupName">Contenitore</string>
 	<string key="vialPouch_GroupName">Borselli per fiale</string>
-	<string key="Warhammer_GroupDesc">Un possente martello da combattimento, capace di scuotere il terreno con colpi devastanti. Perfetto per ostacolare i nemici grazie ai tremori del terreno o per infliggere colpi devastanti direttamente al bersaglio.\n\n•Light Attack: infligge un {[DamageTable.Warhammer_PrimaryAttack.DmgCoef * 100]}% di danni da colpo.\n•Attacco pesante: infligge un {[DamageTable.Warhammer_HeavyAttack.DmgCoef * 100]}% di danni da colpo.\n•Attacco pesante caricato: infligge un {[DamageTable.Warhammer_HeavyAttack_Charged.DmgCoef * 100]}% di danni da colpo.</string>
+	<string key="Warhammer_GroupDesc">Un possente martello da combattimento, capace di scuotere il terreno con colpi devastanti. Perfetto per ostacolare i nemici grazie ai tremori del terreno o per infliggere colpi devastanti direttamente al bersaglio.\n\n•Light Attack: Infligge un {[DamageTable.Warhammer_PrimaryAttack.DmgCoef * 100]}% di danni da colpo.\n•Attacco pesante: Infligge un {[DamageTable.Warhammer_HeavyAttack.DmgCoef * 100]}% di danni da colpo.\n•Attacco pesante caricato: Infligge un {[DamageTable.Warhammer_HeavyAttack_Charged.DmgCoef * 100]}% di danni da colpo.</string>
 	<string key="Warhammer_GroupName">Martelli da guerra</string>
 	<string key="WarHammers_GroupName">Martelli da guerra</string>
 	<string key="water_GroupName">Acqua</string>
@@ -1773,5 +1778,8 @@
 	<string key="WoodAny_CategoryName">Qualsiasi legno</string>
 	<string key="WorkOrder_GroupName">Ordini di lavoro</string>
 	<string key="CategoryData_CookingRecipes">Ricette di cucina</string>
+	<string key="Pattern">Schemi</string>
+	<string key="PatternRecipes">Ricette di schemi</string>
+	<string key="Lodestone">Magnetite</string>
 </resources>
 

@@ -52,10 +52,11 @@
 	<string key="ui_cannotinviteinraid" comment="">Você não pode convidar alguém durante a Guerra.</string>
 	<string key="ui_cannotinvitein_pvp_wrong_faction" comment="">É preciso estar na mesma facção para entrar no grupo PvP.</string>
 	<string key="ui_cannotleavegroup_in_arena" comment="">Você não pode deixar seu grupo enquanto estiver em uma Arena.</string>
+	<string key="ui_cannotleavegroup_in_war" comment="">Você não pode sair do seu grupo durante uma Guerra.</string>
 	<string key="ui_cannotleavegroup_in_dungeon" comment="">Você não pode deixar seu grupo enquanto estiver em uma Expedição.</string>
 	<string key="ui_cannotjoingroup_in_arena" comment="">Você não pode entrar em um grupo diferente enquanto estiver em uma Arena.</string>
 	<string key="ui_cannotjoingroup_in_dungeon" comment="">Você não pode entrar em um grupo diferente enquanto estiver em uma Expedição.</string>
-	<string key="ui_pvp_group" comment="">Grupo\nPvP</string>
+	<string key="ui_pvp_group" comment="">Grupo PvP</string>
 	<string key="ui_groupedalreadyerrormessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; já está em um grupo.</string>
 	<string key="ui_groupalreadyinvitederrortitle" comment="">Convite Já Enviado</string>
 	<string key="ui_groupalreadyinvitederrormessage" comment="">Você já convidou &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt;.</string>
@@ -73,6 +74,7 @@
 	<string key="ui_fromplayerjoinedgrouperrormessage" comment="">Convite removido: {playerName} entrou em outro grupo</string>
 	<string key="ui_toplayerjoinedgrouperrormessage" comment="">Convite falhou: {playerName} entrou em outro grupo</string>
 	<string key="ui_grouptoplayerisinftueerrormessage" comment="">{playerName} não pode receber convites no momento.</string>
+	<string key="ui_grouptoplayerisinstreamermodeerrormessage" comment="">{playerName} ativou o modo Não Perturbe.</string>
 	<string key="ui_groupinvitetimedouterrormessage" comment="">O convite para o grupo de {playerName} expirou.</string>
 	<string key="ui_groupinvitetimedoutraid" comment="">O convite para o grupo expirou.</string>
 	<string key="ui_invitetogroup" comment="">Convidar para o Grupo</string>
@@ -149,8 +151,8 @@
 	<string key="ui_ping_type_notification_NeedHelp" comment="">Alerta de Exército — Precisa de Ajuda Aqui</string>
 	<string key="ui_ping_type_notification_NeedHealing" comment="">Alerta de Exército — Precisa de Cura Aqui</string>
 	<string key="ui_pingTypeDistance" comment="">{pingType} {distance}</string>
-	<string key="ui_raid_war_header" comment="">Exército para Guerra.</string>
-	<string key="ui_raid_invasion_header" comment="">Exército para Invasão.</string>
+	<string key="ui_raid_war_header" comment="">Exército para guerra</string>
+	<string key="ui_raid_invasion_header" comment="">Exército para invasão</string>
 	<string key="ui_raid_standby_header" comment="">Lista de ESPERA</string>
 	<string key="ui_raid_armygroups" comment="">Grupos de exército.</string>
 	<string key="ui_raid_backfill" comment="">Reserva</string>

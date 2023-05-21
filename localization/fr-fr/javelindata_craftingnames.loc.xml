@@ -1,4 +1,26 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="IngotT2_Down_Name">Transformer de l'acier en fer</string>
+	<string key="IngotT3_Down_Name">Transformer du métal stellaire en acier</string>
+	<string key="IngotT4_Down_Name">Transformer de l'orichalque en métal stellaire</string>
+	<string key="IngotPreciousT1_Down_Name">Transformer de l'or en argent</string>
+	<string key="IngotPreciousT2_Down_Name">Transformer du platine en or</string>
+	<string key="IngotPreciousT3_Down_Name">Transformer de l'orichalque en platine</string>
+	<string key="LeatherT2_Down_Name">Transformer du cuir corroyé en cuir brut</string>
+	<string key="LeatherT3_Down_Name">Transformer du cuir épais en cuir corroyé</string>
+	<string key="LeatherT4_Down_Name">Transformer du cuir imprégné en cuir épais</string>
+	<string key="ClothT2_Down_Name">Transformer du satin en lin</string>
+	<string key="ClothT3_Down_Name">Transformer de la soie en satin</string>
+	<string key="ClothT4_Down_Name">Transformer de la soie imprégnée en soie</string>
+	<string key="TimberT2_Down_Name">Transformer du bois débité en bois d'œuvre</string>
+	<string key="TimberT3_Down_Name">Transformer du bois d'aléa en bois débité</string>
+	<string key="TimberT4_Down_Name">Transformer du bois de fer en bois d'aléa</string>
+	<string key="BlockT2_Down_Name">Transformer de la pierre taillée en bloc de pierre</string>
+	<string key="BlockT3_Down_Name">Transformer de la magnétite taillée en pierre taillée</string>
+	<string key="BlockT4_Down_Name">Transformer de l'obsidienne du néant en magnétite taillée</string>
+	<string key="Procedural_GauntletVoidT2" rel_version="Weapon_Void_Gauntlet">Gantelets du néant en fer</string>
+	<string key="Procedural_GauntletVoidT3" rel_version="Weapon_Void_Gauntlet">Gantelets du néant en acier</string>
+	<string key="Procedural_GauntletVoidT4" rel_version="Weapon_Void_Gauntlet">Gantelets du néant en métal stellaire</string>
+	<string key="Procedural_GauntletVoidT5" rel_version="Weapon_Void_Gauntlet">Gantelets du néant en orichalque</string>
 	<string key="Procedural_LightHead_DressT2">Bonnet en lin</string>
 	<string key="Procedural_LightHead_DressT3">Chapeau en satin</string>
 	<string key="Procedural_LightHead_DressT4">Coiffe en soie</string>
@@ -249,10 +271,10 @@
 	<string key="Procedural_2hGreatAxeT3">Hache double en acier</string>
 	<string key="Procedural_2hGreatAxeT4">Hache double en métal stellaire</string>
 	<string key="Procedural_2hGreatAxeT5">Hache double en orichalque</string>
-	<string key="Procedural_SpearT2">Lance en fer</string>
-	<string key="Procedural_SpearT3">Lance en acier</string>
-	<string key="Procedural_SpearT4">Lance en métal stellaire</string>
-	<string key="Procedural_SpearT5">Lance en orichalque</string>
+	<string key="Procedural_SpearT2">Lance en bois traité</string>
+	<string key="Procedural_SpearT3">Lance en bois laqué</string>
+	<string key="Procedural_SpearT4">Lance d'aléa</string>
+	<string key="Procedural_SpearT5">Lance en bois de fer</string>
 	<string key="Procedural_HatchetT2">Hachette en fer</string>
 	<string key="Procedural_HatchetT3">Hachette en acier</string>
 	<string key="Procedural_HatchetT4">Hachette en métal stellaire</string>
@@ -399,10 +421,10 @@
 	<string key="Procedural_RobeFeetT3">Chaussures de robe en satin</string>
 	<string key="Procedural_RobeFeetT4">Chaussures de robe en soie</string>
 	<string key="Procedural_RobeFeetT5">Chaussures de robe en soie imprégnée</string>
-	<string key="Procedural_BagAT2">Sac en cuir brut</string>
-	<string key="Procedural_BagAT3">Sac en cuir corroyé</string>
-	<string key="Procedural_BagAT4">Sac en cuir épais</string>
-	<string key="Procedural_BagAT5">Sac en cuir imprégné</string>
+	<string key="Procedural_BagAT2">Sacoche d'aventurier en cuir brut</string>
+	<string key="Procedural_BagAT3">Sacoche d'aventurier en cuir corroyé</string>
+	<string key="Procedural_BagAT4">Sacoche d'aventurier en cuir épais</string>
+	<string key="Procedural_BagAT5">Sacoche d'aventurier en cuir imprégné</string>
 	<string key="Procedural_StaffFireT2">Bâton de feu en fer</string>
 	<string key="Procedural_StaffFireT3">Bâton de feu en acier</string>
 	<string key="Procedural_StaffFireT4">Bâton de feu en métal stellaire</string>
@@ -783,16 +805,6 @@
 	<string key="2hGreatAxeT3_CraftName">Hache double\nen acier</string>
 	<string key="2hGreatAxeT4_CraftName">Hache double\nen métal stellaire</string>
 	<string key="2hGreatAxeT5_CraftName">Hache double\nen orichalque</string>
-	<string key="1hClubT1_CraftName">Gourdin en bois</string>
-	<string key="1hClubT2_CraftName">Masse\nen fer</string>
-	<string key="1hClubT3_CraftName">Masse\nen acier</string>
-	<string key="1hClubT4_CraftName">Masse\nen métal stellaire</string>
-	<string key="1hClubT5_CraftName">Masse\nen orichalque</string>
-	<string key="2hClubT1_CraftName">Massue\nen silex</string>
-	<string key="2hClubT2_CraftName">Masse d'armes\nen fer</string>
-	<string key="2hClubT3_CraftName">Masse d'armes\nen acier</string>
-	<string key="2hClubT4_CraftName">Masse d'armes\nen métal stellaire</string>
-	<string key="2hClubT5_CraftName">Masse d'armes\nen orichalque</string>
 	<string key="2hSpearT1_CraftName">Lance\nen silex</string>
 	<string key="2hSpearT2_CraftName">Lance\nen fer</string>
 	<string key="2hSpearBT2_CraftName">Lance\nen fer\nforgée à froid</string>
@@ -1370,10 +1382,6 @@
 	<string key="CombatDummyT1_CraftName">Mannequin d'entraînement</string>
 	<string key="WindMillT2_CraftName">Moulin à céréales II</string>
 	<string key="FeedT1_CraftName">Nourriture pour animaux</string>
-	<string key="1hCelestialGauntlet_HealT2_CraftName">Gantelets\ncélestes\nen fer</string>
-	<string key="1hCelestialGauntlet_HealT3_CraftName">Gantelets\ncélestes\nen acier</string>
-	<string key="1hCelestialGauntlet_HealT4_CraftName">Gantelets\ncélestes\nen métal stellaire</string>
-	<string key="1hCelestialGauntlet_HealT5_CraftName">Gantelets\ncélestes\nen orichalque</string>
 	<string key="FoodHealthRecoveryT1_CraftName">Petite\nration</string>
 	<string key="FoodCorruptedT1_CraftName">Viande\ncuisinée</string>
 	<string key="FoodLostT1_CraftName">Poisson\ncuisiné</string>

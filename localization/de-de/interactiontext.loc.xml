@@ -22,8 +22,8 @@
 	<string key="ui_lowskillmining" comment="the required skill level will be shown in a circle immediately to the right of this string">Erfordert die Fähigkeit Bergbau.</string>
 	<string key="ui_notoolazothstaff">Kein/e Rang-{tier}-{itemName} ausgerüstet</string>
 	<string key="ui_nopermission">Kein öffentlicher Zugang.</string>
-	<string key="ui_nopermissionrank">Der Rang „{rank}“ hat nicht die nötige Berechtigung für die Aktion „{action}“.</string>
-	<string key="ui_nopermissionpublic">Die Aktion „{action}“ ist in öffentlichen Gebäuden nicht gestattet.</string>
+	<string key="ui_nopermissionrank">Der Rang "{rank}" hat nicht die nötige Berechtigung für die Aktion "{action}".</string>
+	<string key="ui_nopermissionpublic">Die Aktion "{action}" ist in öffentlichen Gebäuden nicht gestattet.</string>
 	<string key="ui_nopermissionatwar">Kriegsziel</string>
 	<string key="ui_nopermissionhover">Rang {rank} nicht erlaubt</string>
 	<string key="ui_nopermission_warparty">&lt;font color="#ff858d"&gt;Gebiet kann erst in der Auflösungsphase beansprucht werden.&lt;/font&gt;</string>
@@ -59,7 +59,7 @@
 	<string key="ui_view_town_projects">Stadtprojekte betrachten</string>
 	<string key="ui_view_raid_information">Armeeinfo ansehen</string>
 	<string key="ui_talk">Reden</string>
-	<string key="ui_interact_pet" comment="Reserving ui_pet for if we get a more generic interact for that down the line">Begleiter</string>
+	<string key="ui_interact_pet" comment="Reserving ui_pet for if we get a more generic interact for that down the line">Streicheln</string>
 	<string key="ui_interact_territory_functionality_down">SERVERFEHLER: Bitte in einigen Minuten erneut versuchen.</string>
 	<string key="ui_interact_with_item_cost">{interactionName} ({amount} {itemName})</string>
 	<string key="ui_interact_with_item_cost_sufficient">{interactionName} ({have}/{need} &lt;img src="lyshineui/images/icons/items/{itemType}/{itemName}" xPadding="2" scale="1.25" yOffset="0.5"&gt;&lt;/img&gt;)</string>
@@ -83,5 +83,6 @@
 	<string key="ui_open_arena_menu">Arenainfo ansehen</string>
 	<string key="ui_notification_summoning_stone_placed">BESCHWÖRUNGSSTEIN PLATZIERT</string>
 	<string key="ui_watcherscampfire">Lagerfeuer des Wächters</string>
+	<string key="ui_hunterscampfire">Lagerfeuer des Jägers</string>
 </resources>
 

@@ -61,8 +61,8 @@
 	<string key="inv_equipLoadSlow">Pesado</string>
 	<string key="inv_equipLoadOverburdened">Exceso de equipamiento</string>
 	<string key="inv_equipLoadTooltip">El peso combinado de la armadura y el escudo que llevas equipados determina tu carga de equipo. Cada carga de equipo ofrece una capacidad de esquivar diferente y otras bonificaciones.</string>
-	<string key="inv_equipLoadFastTooltip">Al usar una armadura liviana, ruedas rápidamente para esquivar y cubres grandes distancias. Infliges un 20 % de daño adicional.</string>
-	<string key="inv_equipLoadNormalTooltip">Si usas una armadura de peso mediano, saltas rápidamente para esquivar. Infliges un 10 % de daño adicional y los estados negativos de control de multitudes que aplicas duran un 10 % más.</string>
+	<string key="inv_equipLoadFastTooltip">Al usar una armadura liviana, ruedas rápidamente para esquivar y cubres grandes distancias. Infliges un 20 % de daño adicional y curas un{[Type_StatusEffectData.EquipLoad_HealingBonus_Light.HealScalingValueMultiplier * 100]} % adicional.</string>
+	<string key="inv_equipLoadNormalTooltip">Si usas una armadura de peso mediano, saltas rápidamente para esquivar. Infliges un 10 % de daño adicional y curas un 15 % adicional. Las despotenciaciones de control de multitudes que aplicas duran un 10 % más.</string>
 	<string key="inv_equipLoadSlowTooltip">Al usar una armadura pesada, te mueves lentamente para esquivar. La estabilidad de tu bloqueo aumenta en un 15 % y las despotenciaciones de control de multitudes que aplicas duran un 20 % más.</string>
 	<string key="inv_equipLoadOverburdenedTooltip">Si superas la carga de equipo máxima, no podrás esquivar, correr ni usar habilidades. Debes desequipar algunos objetos.</string>
 	<string key="inv_equipLoadEncumberedTooltip">Llevas demasiadas cosas en el inventario. Cuando tengas carga excesiva, no importa cuál sea tu carga de equipamiento. No puedes correr ni esquivar y perderás más resistencia al bloquear. Debes quitar algunos objetos de tu bolso.</string>
@@ -78,6 +78,7 @@
 	<string key="inv_does_not_meet_weapon_requirements">Atributos insuficientes</string>
 	<string key="inv_encumbranceAttackNotification">Demasiada carga para atacar</string>
 	<string key="inv_insufficientManaNotification">Maná insuficiente</string>
+	<string key="inv_OutOfRangeNotification">El objetivo está fuera de tu alcance</string>
 	<string key="inv_compareTo">Comparar con {location}</string>
 	<string key="inv_additionalItems">{count} objetos adicionales</string>
 	<string key="inv_repairparts_quantity">{count} piezas de repuesto</string>
@@ -124,6 +125,8 @@
 	<string key="ui_currency_totreasury">Al tesoro de la compañía</string>
 	<string key="ui_new_primary_tool_set">Nuevo conjunto de herramientas principales {gatheringType}</string>
 	<string key="ui_storage_is_full">El almacenamiento está lleno</string>
+	<string key="ui_storage_is_empty">El almacenamiento está vacío</string>
+	<string key="ui_retrieving_storage">Recuperando los datos de almacenamiento</string>
 	<string key="ui_split_stack">Dividir pila</string>
 	<string key="ui_set_quantity">Establecer cantidad</string>
 	<string key="ui_drag_new_stack">Arrastrar pila nueva</string>
@@ -159,5 +162,6 @@
 	<string key="ui_Constitution_short">CONST</string>
 	<string key="ui_loot_bag_1_item">1 objeto</string>
 	<string key="ui_loot_bag_items">{amount} objetos</string>
+	<string key="tutorial_salvage_items">Aprovecha las armas, armaduras y herramientas viejas para conseguir &lt;font color="#ffea00"&gt;piezas de reparación&lt;/font&gt;.</string>
 </resources>
 

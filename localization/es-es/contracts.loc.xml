@@ -110,7 +110,7 @@
 	<string key="ui_contract_failure_insufficient_items">Objetos insuficientes.</string>
 	<string key="ui_contract_failure_outpost_storage_full">Almacenamiento del asentamiento lleno.</string>
 	<string key="ui_contract_failure_server_error">Error del servidor.</string>
-	<string key="ui_contract_failure_creator_cannot_complete">No puedes completar la oferta que has creado.</string>
+	<string key="ui_contract_failure_creator_cannot_complete">No puedes completar una oferta creada por ti.</string>
 	<string key="ui_contract_failure_invalid_request">No se ha admitido la solicitud de la oferta.</string>
 	<string key="ui_contract_failure_inventory_full">Inventario lleno.</string>
 	<string key="ui_contract_failure_throttled">La solicitud se ha detenido. Espera un poco e inténtalo de nuevo.</string>
@@ -136,9 +136,11 @@
 	<string key="ui_view_details">Ver detalles</string>
 	<string key="ui_cancelorder_confirmation">¿Seguro que quieres cancelar esta oferta?</string>
 	<string key="ui_returnorder_buyconfirmation">Se devolverá la cantidad restante de &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{priceTotal}&lt;/font&gt;&lt;/font&gt; &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; a tu monedero.</string>
-	<string key="ui_returnorder_sellconfirmation">El/los &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{count} objeto(s)&lt;/font&gt;&lt;/font&gt; restante(s) se guardará(n) en tu &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;inventario&lt;/font&gt;&lt;/font&gt;.</string>
+	<string key="ui_returnorder_inventory_sellconfirmation">El/los &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{count} objeto(s)&lt;/font&gt;&lt;/font&gt; restante(s) se guardará(n) en tu &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;inventario&lt;/font&gt;&lt;/font&gt;.</string>
+	<string key="ui_returnorder_outpost_sellconfirmation">El/los &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{count} objeto(s)&lt;/font&gt;&lt;/font&gt; restantes se guardarán en &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{outpostName}&lt;/font&gt;&lt;/font&gt;.</string>
 	<string key="ui_returnorder_sell_title">Oferta cancelada</string>
-	<string key="ui_returnorder_sell_desc">¡La compra de &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} x{quantity}&lt;/font&gt;&lt;/font&gt; se ha cancelado con éxito! Ahora el objeto está disponible en tu &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;inventario&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_returnorder_inventory_sell_desc">¡La compra de &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} x{quantity}&lt;/font&gt;&lt;/font&gt; se ha cancelado con éxito! Ahora el objeto está disponible en tu &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;inventario&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_returnorder_outpost_sell_desc">¡La compra de &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} x{quantity}&lt;/font&gt;&lt;/font&gt; se ha cancelado con éxito! Ahora el objeto está disponible en &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_returnorder_failed">No se ha podido cancelar la oferta.</string>
 	<string key="ui_contract_no_longer_available">La oferta ya no está disponible.</string>
 	<string key="ui_numbuyandsellorders">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{numBuyOrders}&lt;/font&gt;&lt;/font&gt; ofertas de compra, &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{numSellOrders}&lt;/font&gt;&lt;/font&gt; ofertas de venta</string>

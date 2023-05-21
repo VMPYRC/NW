@@ -28,6 +28,7 @@
 	<string key="ui_duel_failmessage_fasttravelchanneling">Você não pode enviar convites de Duelo enquanto um participante estiver canalizando uma viagem rápida.</string>
 	<string key="ui_duel_failmessage_generic">Você não pode enviar convites de Duelo no momento.</string>
 	<string key="ui_duel_failmessage_eligibility_failed">Você não está mais elegível para aceitar este convite.</string>
+	<string key="ui_duel_failmessage_throttled">Você não pode enviar um convite de Duelo no momento. Aguarde e tente novamente.</string>
 	<string key="ui_duel_failmessage_system_error">Falha no convite de duelo.</string>
 	<string key="ui_duel_failmessage_target_pendinginvite">{playerName} tem um convite de Duelo pendente.</string>
 	<string key="ui_duel_failmessage_target_notaccepting">{playerName} não aceita convites de Duelo.</string>
@@ -68,13 +69,16 @@
 	<string key="ui_duel_accepted">Duelo Aceito</string>
 	<string key="ui_duel_starts_in">O duelo começa em...</string>
 	<string key="ui_duel_start">LUTEM!</string>
+	<string key="ui_duel_start_message">Seu duelo começou.</string>
 	<string key="ui_duel_victory">Vitória!</string>
 	<string key="ui_duel_victory_message">Você venceu o duelo.</string>
 	<string key="ui_duel_defeat">Derrota!</string>
 	<string key="ui_duel_defeat_message">Você perdeu o duelo.</string>
 	<string key="ui_duel_ended">Duelo Encerrado</string>
 	<string key="ui_duel_resolution_draw">Empate</string>
+	<string key="ui_duel_resolution_draw_message">Seu duelo acabou em empate.</string>
 	<string key="ui_duel_resolution_interference">Interferência</string>
+	<string key="ui_duel_resolution_interference_message">Interferiram em seu duelo.</string>
 	<string key="ui_outpost_rush_title">Investida do Posto Avançado</string>
 	<string key="ui_outpost_rush_invite_status">Aceite para se juntar à batalha!</string>
 	<string key="ui_outpost_rush_signup_title">INVESTIDA DO POSTO AVANÇADO</string>
@@ -132,7 +136,9 @@
 	<string key="ui_outpost_rush_match_started_desc">Capture Postos Avançados para marcar {value}</string>
 	<string key="ui_outpost_rush_score_to_win">{value} para vencer</string>
 	<string key="ui_outpost_rush_leave">Sair da Investida do Posto Avançado</string>
-	<string key="ui_outpost_rush_leave_title">Sair da Investida do Posto Avançado?</string>
+	<string key="ui_outpost_rush_leave_queue_title">Deseja sair da fila?</string>
+	<string key="ui_outpost_rush_leave_queue_desc">Tem certeza que deseja sair da fila da Investida do Posto Avançado?</string>
+	<string key="ui_outpost_rush_leave_title">Deseja sair da fila?</string>
 	<string key="ui_outpost_rush_leave_desc">Tem certeza que deseja sair da Investida do Posto Avançado?</string>
 	<string key="ui_outpost_rush_leave_desc_time">Tem certeza que deseja sair da Investida do Posto Avançado?\nVocê não poderá entrar de novo na fila da Investida do Posto Avançado por {time}.</string>
 	<string key="ui_outpost_rush_leave_group_desc_time">Tem certeza de que deseja entrar em outro grupo?\nDeixar seu grupo fará com que você saia da Investida do Posto Avançado.\nVocê não poderá entrar de novo na fila da Investida do Posto Avançado por {time}.</string>

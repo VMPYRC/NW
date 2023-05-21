@@ -7,7 +7,7 @@
 	<string key="ui_dungeon_screen_header">Entrada de la expedición</string>
 	<string key="ui_dungeon_requirements">&lt;img src="LyShineUI/Images/icons/misc/icon_level_simple" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; Nivel recomendado: {level} &lt;img src="LyShineUI/Images/icons/misc/icon_character" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; Número mínimo de jugadores: {players}</string>
 	<string key="ui_dungeon_requirements_groupsize">Número mínimo de jugadores: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{players}&lt;/font&gt;</string>
-	<string key="ui_dungeon_requirements_gearscore">Nivel recomendado: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{level}&lt;/font&gt;</string>
+	<string key="ui_dungeon_requirements_gearscore">Nivel recomendado: {level}</string>
 	<string key="ui_flyout_recommended_groupsize">Jugadores recomendados: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{players}&lt;/font&gt;</string>
 	<string key="ui_dungeon_requirements_equipment_warning">Para completar esta expedición, tu grupo debe tener al menos &lt;font color="#ffffff"&gt;{item}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_reward_level">Los objetos que encuentres pueden diferir de los de la lista, según su puntuación de equipo.</string>
@@ -42,7 +42,7 @@
 	<string key="dungeon_started">Expedición activada</string>
 	<string key="dungeon_teleport_title">Prepárate para la teletransportación</string>
 	<string key="dungeon_teleport_desc">Se teletransportará a tu grupo a la expedición</string>
-	<string key="dungeon_enter">Entrar en la expedición</string>
+	<string key="dungeon_enter">Entrar a la expedición</string>
 	<string key="dungeon_flyout">Expedición</string>
 	<string key="dungeon_success">Misión completada</string>
 	<string key="dungeon_fail">Misión fallida</string>
@@ -50,11 +50,12 @@
 	<string key="ui_dungeon_opened_pvpwarning_title">Abandona JcJ para entrar</string>
 	<string key="ui_dungeon_enter_pvpwarning_info">Al entrar en una expedición, &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;abandonarás todas las misiones JcJ&lt;/font&gt;. ¿Quieres continuar?</string>
 	<string key="ui_dungeon_full_header">La expedición se encuentra llena. Únete a la cola para entrar en la expedición.</string>
-	<string key="ui_dungeon_player_average_gear_score">Puntuación de equipo media: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{gearscore}&lt;/font&gt;</string>
+	<string key="ui_dungeon_player_average_gear_score">&lt;font color="#c3b79f"&gt;Puntuación del equipo media: &lt;/font&gt; &lt;font color="#ffffff" face="lyshineui/fonts/CaslonAnt.font"&gt;{gearscore}&lt;/font&gt;</string>
 	<string key="ui_dungeon_queued_blocked">No se puede abrir la expedición</string>
 	<string key="ui_dungeon_outpost_rush">Ya estás en una cola para el Avance a puesto de avanzada</string>
 	<string key="ui_dungeon_expiring">Abandonando expedición en</string>
 	<string key="ui_dungeon_cooldown">Se puede abrir en &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{timeRemaining}&lt;/font&gt;</string>
 	<string key="ui_dungeon_cooldown_flyout">Puedes abrir esta expedición en {timeRemaining}</string>
+	<string key="ui_dungeon_next_unlock_requirement">Para desbloquear la &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;próxima dificultad&lt;/font&gt;, debes completar esta expedición con &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Rango de Plata&lt;/font&gt;.</string>
 </resources>
 

@@ -16,12 +16,12 @@
 	<string key="ui_chairs">Sedie</string>
 	<string key="ui_context_menu_hint">Opzioni</string>
 	<string key="ui_currently_displaying">Attualmente visibile al pubblico</string>
-	<string key="ui_decoration_mode_unpaid">Taxes must be paid to decorate your home.</string>
-	<string key="ui_decorations">Decorations</string>
+	<string key="ui_decoration_mode_unpaid">Per arredare la tua casa devi pagare le tasse di proprietà.</string>
+	<string key="ui_decorations">Arredi</string>
 	<string key="ui_spirit_shrine">Santuario dello spirito</string>
 	<string key="ui_spirit_shrine_desc">Usa il viaggio veloce per raggiungere un insediamento, avamposto o santuario dello spirito già visitato.</string>
 	<string key="ui_fast_travel">Viaggio veloce</string>
-	<string key="ui_fast_travel_channel">Fast traveling...</string>
+	<string key="ui_fast_travel_channel">Viaggio veloce in corso...</string>
 	<string key="ui_fast_travel_popup_confirm">Vuoi usare il viaggio veloce per raggiungere questo luogo?</string>
 	<string key="ui_inn_recall_popup_confirm">Vuoi fare ritorno a questa locanda?</string>
 	<string key="ui_inn_recall_from_esc_popup_confirm">Vuoi fare ritorno alla locanda presso {territoryName}?</string>
@@ -35,13 +35,13 @@
 	<string key="ui_house_abandon_notification">La tua casa {houseName} è stata abbandonata.</string>
 	<string key="ui_house_abandon_popup_desc">Hai già 1 casa in questa città.\n Vuoi abbandonare {houseName} per comprare questa casa?\nTutti i trofei e l'arredamento nella casa abbandonata saranno trasferiti al deposito cittadino.</string>
 	<string key="ui_house_abandon_popup_title">Puoi avere solo una casa in una città.</string>
-	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;Purchase cost and taxes will not be refunded if this house is abandoned.&lt;/font&gt;\nAll trophies &amp; furniture in the abandoned house will be moved into Town Storage.\n\nTo continue, type {territoryName} below.</string>
-	<string key="ui_house_abandon_this_house_desc">Se abbandoni questa casa le tasse e il costo d'acquisto non ti verranno rimborsati. Tutti i trofei e l'arredamento della casa saranno trasferiti al deposito cittadino.</string>
+	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;Se abbandoni la casa, le tasse e il costo d'acquisto non ti verranno rimborsati.&lt;/font&gt;\nTutti i trofei e l'arredamento nella casa abbandonata saranno trasferiti al deposito cittadino.\n\nPer continuare, digita {territoryName} qui sotto.</string>
+	<string key="ui_house_abandon_this_house_desc">Se abbandoni questa casa, le tasse e il costo d'acquisto non ti saranno rimborsati. Tutti i trofei e l'arredamento della casa saranno trasferiti al deposito cittadino.</string>
 	<string key="ui_house_abandon_this_popup_title">Abbandonare la casa?</string>
-	<string key="ui_house_abandon_confirm_placeholder_text">Type the territory name.</string>
-	<string key="ui_house_abandon_confirm_button">Abandon House</string>
+	<string key="ui_house_abandon_confirm_placeholder_text">Digita il nome del territorio.</string>
+	<string key="ui_house_abandon_confirm_button">Abbandona la casa</string>
 	<string key="ui_house_already_owned">Possiedi già</string>
-	<string key="ui_house_hint_decorate">Decorate</string>
+	<string key="ui_house_hint_decorate">Arreda</string>
 	<string key="ui_house_hint_exit">Esci</string>
 	<string key="ui_house_hint_menu">Menu</string>
 	<string key="ui_house_hint_tips">Consigli</string>
@@ -74,24 +74,24 @@
 	<string key="ui_house_unpaid_taxes">Importo arretrato</string>
 	<string key="ui_house_unpaid_taxes_string">La tua casa (Disattivata)</string>
 	<string key="ui_house_tax">Tassa di proprietà</string>
-	<string key="ui_house_unpaid_taxes_due_soon">Tassa di proprietà dovuta presso {territoryName} tra: {time}. Pay the property tax to continue using Fast-travel and decoration</string>
-	<string key="ui_house_overdue_at">Tasse di proprietà arretrate presso {territoryName}. Pay the property tax to continue using Fast-travel and decoration</string>
+	<string key="ui_house_unpaid_taxes_due_soon">Tassa di proprietà dovuta presso {territoryName} tra: {time}. Paga la tassa di proprietà per continuare a utilizzare il viaggio veloce e l'arredamento</string>
+	<string key="ui_house_overdue_at">Tasse di proprietà arretrate presso {territoryName}. Paga la tassa di proprietà per continuare a utilizzare il viaggio veloce e l'arredamento</string>
 	<string key="ui_house_overdue_label">Tasse di proprietà arretrate</string>
 	<string key="ui_house_overdue_desc">Hai tasse di proprietà arretrate. Paga la tassa di proprietà per abilitare le funzionalità della casa.</string>
 	<string key="ui_housing_cant_afford">Ti servono più monete per comprare questa casa.</string>
-	<string key="ui_housing_decorate">Decorate</string>
+	<string key="ui_housing_decorate">Arreda</string>
 	<string key="ui_housing_decorate_desc">Aggiungi mobili e animali</string>
 	<string key="ui_housing_disabled">Disabilitata</string>
 	<string key="ui_housing_disabled_tooltip">La tua casa è disabilitata. Paga subito la tassa per riabilitarla!</string>
 	<string key="ui_housing_enabled">Abilitata</string>
 	<string key="ui_housing_fast_travel">Viaggio veloce</string>
 	<string key="ui_housing_fast_travel_desc">Da qualsiasi luogo a casa tua</string>
-	<string key="ui_housing_decorations">Decoration Mode</string>
+	<string key="ui_housing_decorations">Modalità arredamento</string>
 	<string key="ui_housing_features">Funzionalità della casa</string>
 	<string key="ui_housing_grid_snap_hint">Posizionamento della griglia</string>
 	<string key="ui_housing_hide_ui">Nascondi IU</string>
-	<string key="ui_housing_item_count">Decorations Placed</string>
-	<string key="ui_housing_item_score">Decoration Score</string>
+	<string key="ui_housing_item_count">Arredi posizionati</string>
+	<string key="ui_housing_item_score">Punteggio arredamento</string>
 	<string key="ui_housing_next_due_in">Da pagare entro</string>
 	<string key="ui_housing_surface_lock_hint">Blocca sulla superficie</string>
 	<string key="ui_housing_owned_filter">Mostra solo oggetti posseduti</string>
@@ -99,7 +99,7 @@
 	<string key="ui_housing_no_items_found">Nessun oggetto trovato</string>
 	<string key="ui_housing_object">Oggetto della casa</string>
 	<string key="ui_housing_point_tooltip">La lista delle 20 case con il punteggio più alto viene aggiornata ogni 2 giorni.\n\nI punti sono calcolati in base alla reputazione del territorio e all'arredamento della casa.</string>
-	<string key="ui_housing_purchase_house">Compra questa casa.</string>
+	<string key="ui_housing_purchase_house">Compra questa casa</string>
 	<string key="ui_housing_rotate_camera_hint">&lt;img src="lyshineui/images/icons/misc/Icon_RightMouseButton" xPadding="0" scale="2.2" yOffset="8"&gt;&lt;/img&gt; Ruota visuale</string>
 	<string key="ui_housing_rotate_object_hint">Ruota oggetto</string>
 	<string key="ui_housing_select_house">Seleziona una casa da visualizzare</string>
@@ -120,14 +120,14 @@
 	<string key="ui_my_house_map_desc_disabled">Casa {number} presso {location} (Disabilitata)</string>
 	<string key="ui_my_house_map_title">La tua casa</string>
 	<string key="ui_my_houses_map_title">Le tue case</string>
-	<string key="ui_pay_property_tax_desc">Paga la tassa di proprietà nella mappa per rigenerarti a casa tua.</string>
+	<string key="ui_pay_property_tax_desc">Paga la tassa di proprietà dalla mappa o a casa tua.</string>
 	<string key="ui_no_home_owners">Casa vuota</string>
 	<string key="ui_num_housing_points">{points} punti</string>
 	<string key="ui_owner_list">Elenco dei proprietari</string>
 	<string key="ui_pay_house_tax_fail">Errore nel pagamento delle tasse sulla casa, riprova.</string>
 	<string key="ui_pay_property_tax">Paga tassa di proprietà</string>
 	<string key="ui_pay_property_tax_popup_desc">Per arredare la tua casa, per farvi ritorno o per rigenerartici devi pagare le tasse di proprietà.\nLe tasse vanno pagate {firstCycle} dopo l'acquisto di una casa e, successivamente, ogni {otherCycle}.</string>
-	<string key="ui_property_tax">Property Tax</string>
+	<string key="ui_property_tax">Tassa di proprietà</string>
 	<string key="ui_property_tax_amount_desc">Importo tassa di proprietà periodica</string>
 	<string key="ui_property_tax_desc">Paga la tassa di proprietà periodica per continuare a usare le funzionalità della casa.</string>
 	<string key="ui_property_tax_due">Importo dovuto</string>
@@ -161,7 +161,7 @@
 	<string key="ui_inn_checked_in">{territoryName} è ora il tuo nuovo punto di ritorno.</string>
 	<string key="ui_active_home_point_fail">Impossibile registrarsi</string>
 	<string key="ui_inn_fast_travel">Fai ritorno alla Locanda</string>
-	<string key="ui_watchtower_fast_travel">Fai ritorno ala torre di guardia</string>
+	<string key="ui_watchtower_fast_travel">Fai ritorno alla torre di guardia</string>
 	<string key="ui_inn_fast_travel_notavailable">Potrai ritornare tra: {time}</string>
 	<string key="ui_inn">Locanda</string>
 	<string key="ui_inn_header"> Locanda di {territoryName}.</string>
@@ -208,7 +208,7 @@
 	<string key="@ui_house_items_refunded_single_message">A causa di cambiamenti nell'insediamento di {settlement}, un oggetto della casa è tornato nel tuo inventario.</string>
 	<string key="@ui_house_items_refunded_multiple_message">A causa di cambiamenti nell'insediamento di {settlement}, {count} oggetti della casa sono tornati nel tuo inventario.</string>
 	<string key="ui_house_compensation_title">Risarcimento per la casa</string>
-	<string key="ui_house_compensation_message_JAV141577">A causa di alcune comunicazioni erronee riguardanti le tasse per chi acquista una casa per la prima volta, hai diritto a un risarcimento consistente in: {amount} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;. Ti auguriamo buon divertimento in New World e nella tua casa.</string>
+	<string key="ui_house_compensation_message_JAV141577">A causa di alcune comunicazioni erronee riguardanti le tasse per chi acquista una casa per la prima volta, come proprietario hai diritto a un risarcimento consistente in: {amount} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;. Ti auguriamo buon divertimento in New World e nella tua casa.</string>
 	<string key="ui_house_type_items">Oggetti</string>
 	<string key="ui_house_placed_items">Posizionati</string>
 	<string key="ui_house_type_items_limits">Fino a {numPets} {petPluralOrSingle}, {numLights} {lightPluralOrSingle} e {numStorage} {storagePluralOrSingle}.</string>
@@ -227,5 +227,9 @@
 	<string key="ui_housing_no_placed_items_found">Nessun oggetto posizionato</string>
 	<string key="ui_locate_item">Trova oggetto</string>
 	<string key="ui_return_to_storage">Riponi nel deposito</string>
+	<string key="ui_house_lost_restored_message">Abbiamo rilevato che è stata persa la tua casa a causa di un problema con il gioco. La tua casa a {settlement} è stata recuperata.</string>
+	<string key="ui_house_lost_restored_title">Casa ripristinata</string>
+	<string key="ui_house_lost_refunded_message">Abbiamo rilevato che è stata persa la tua casa a causa di un problema con il gioco. La tua casa a {settlement} è stata rimborsata e gli arredi sono stati restituiti al tuo magazzino.</string>
+	<string key="ui_house_lost_refunded_title">Casa rimborsata</string>
 </resources>
 

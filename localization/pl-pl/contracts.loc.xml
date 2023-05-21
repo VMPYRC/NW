@@ -117,8 +117,8 @@
 	<string key="ui_contract_failure_coin_transferal_disabled">Przekazywanie monet wyłączone.</string>
 	<string key="ui_contract_failure_trading_post_disabled">Faktoria wyłączona.</string>
 	<string key="ui_contract_failure_generic">Coś poszło nie tak. Spróbuj ponownie.</string>
-	<string key="ui_sell_instant_price">Cena „sprzedaj teraz”</string>
-	<string key="ui_buy_instant_price">Cena „kup teraz”</string>
+	<string key="ui_sell_instant_price">Cena "sprzedaj teraz"</string>
+	<string key="ui_buy_instant_price">Cena "kup teraz"</string>
 	<string key="ui_sell_instant_quantity">Sprzedaj od razu {quantity}</string>
 	<string key="ui_buy_instant_quantity">Kup od razu {quantity}</string>
 	<string key="ui_cancel_buy">Anuluj ofertę kupna</string>
@@ -136,9 +136,11 @@
 	<string key="ui_view_details">Wyświetl szczegóły</string>
 	<string key="ui_cancelorder_confirmation">Czy na pewno chcesz anulować tę ofertę?</string>
 	<string key="ui_returnorder_buyconfirmation">Pozostałe &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{priceTotal}&lt;/font&gt;&lt;/font&gt; &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; zostaną zwrócone do twojego portfela.</string>
-	<string key="ui_returnorder_sellconfirmation">Pozostałe &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;przedmioty w liczbie {count}&lt;/font&gt;&lt;/font&gt; trafią do twojego &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;ekwipunku&lt;/font&gt;&lt;/font&gt;.</string>
+	<string key="ui_returnorder_inventory_sellconfirmation">Pozostałe &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;przedmioty w liczbie {count}&lt;/font&gt;&lt;/font&gt; trafią do twojego &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;ekwipunku&lt;/font&gt;&lt;/font&gt;.</string>
+	<string key="ui_returnorder_outpost_sellconfirmation">Pozostałe &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;przedmioty w liczbie {count}&lt;/font&gt;&lt;/font&gt; trafią do: &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{outpostName}&lt;/font&gt;&lt;/font&gt;.</string>
 	<string key="ui_returnorder_sell_title">Oferta anulowana</string>
-	<string key="ui_returnorder_sell_desc">Anulowano kontrakt na &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{quantity} szt. przedmiotu {itemName}&lt;/font&gt;&lt;/font&gt;! Przedmiot jest dostępny w twoim &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;ekwipunku&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_returnorder_inventory_sell_desc">Anulowano kontrakt na &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{quantity} szt. przedmiotu {itemName}&lt;/font&gt;&lt;/font&gt;! Przedmiot jest dostępny w twoim &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;ekwipunku&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_returnorder_outpost_sell_desc">Anulowano kontrakt na &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{quantity} szt. przedmiotu {itemName}&lt;/font&gt;&lt;/font&gt;! Przedmiot jest dostępny w: &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_returnorder_failed">Nie udało się anulować oferty.</string>
 	<string key="ui_contract_no_longer_available">Oferta nie jest już dostępna.</string>
 	<string key="ui_numbuyandsellorders">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{numBuyOrders}&lt;/font&gt;&lt;/font&gt; Dostępne oferty kupna, &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{numSellOrders}&lt;/font&gt;&lt;/font&gt; dostępne oferty sprzedaży</string>
@@ -179,7 +181,7 @@
 	<string key="ui_sellAll">Sprzedaj wszystkie</string>
 	<string key="ui_cantsellall">Sprzedaj wszystkie</string>
 	<string key="ui_buyClaim">Kup kartę przejęć</string>
-	<string key="ui_NPCItemInstruction">Kliknij „sprzedaj wszystkie dowody eliminacji",\naby sprzedać ten przedmiot.</string>
+	<string key="ui_NPCItemInstruction">Kliknij "sprzedaj wszystkie dowody eliminacji",\naby sprzedać ten przedmiot.</string>
 	<string key="ui_buy_icon">&lt;img src="lyshineui/images/icons/contracts/contracts_iconBuy" xPadding="0" scale="1.5" yOffset="5.6"&gt;&lt;/img&gt; KUP</string>
 	<string key="ui_sell_icon">&lt;img src="lyshineui/images/icons/contracts/contracts_iconSell" xPadding="0" scale="1.5" yOffset="5.6"&gt;&lt;/img&gt; SPRZEDAJ</string>
 	<string key="ui_invalid_outpost_markup">&lt;font color="#b45353"&gt;{outpostName}&lt;/font&gt;</string>

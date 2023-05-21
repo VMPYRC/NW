@@ -58,7 +58,7 @@
 	<string key="ui_war_claimdestroyed_detail">Tiempo restante</string>
 	<string key="ui_war_in_warzone">Zona de guerra {time}</string>
 	<string key="ui_war_claim_destroyed">Destruido: {claimName}</string>
-	<string key="ui_war_claim_taken">¡{claimName} ha sido conquistado por {guildName}!</string>
+	<string key="ui_war_claim_taken">¡{guildName} ha conquistado {claimName}!</string>
 	<string key="ui_war_enemy_claim_marker_destroyed">¡Tu compañía ha destruido un marcador de reclamo enemigo!</string>
 	<string key="ui_war_neutral_claim_marker_destroyed">Tu compañía ha destruido una conquista de una compañía neutral.</string>
 	<string key="ui_warDeclared_message_attack">¡Prepárate para la guerra!\nLa batalla comienza en 24 horas.</string>
@@ -94,7 +94,7 @@
 	<string key="ui_town_project_expired_chat">El proyecto de pueblo «{title}» ha caducado en el territorio {territory}.</string>
 	<string key="ui_town_project_cancelled_chat">El proyecto de pueblo «{title}» se ha cancelado en {territory}.</string>
 	<string key="ui_town_project_completed_chat">El proyecto de pueblo «{title}» se ha completado en {territory}.</string>
-	<string key="ui_territory_downgraded_chat">Bajada de categoría: {structure} en {territoryName}.</string>
+	<string key="ui_territory_downgraded_chat">Bajada de categoría de {structure} en {territoryName}.</string>
 	<string key="ui_territory_downgraded_banner">{territoryName}:\nbajada de categoría ({structure}).</string>
 	<string key="ui_trade_skill_level">¡El nivel de {name} ha aumentado a {level}!</string>
 	<string key="ui_war_declared_on_territory">Se ha declarado la guerra en {territory}.\nAhora tu compañía tiene {time} para declarar también la guerra.</string>

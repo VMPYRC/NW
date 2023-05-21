@@ -7,9 +7,10 @@
 	<string key="ui_dungeon_screen_header">Entrada da Expedição</string>
 	<string key="ui_dungeon_requirements">&lt;img src="LyShineUI/Images/icons/misc/icon_level_simple" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; Nível Recomendado: {level} &lt;img src="LyShineUI/Images/icons/misc/icon_character" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; Mínimo de Jogadores: {players}</string>
 	<string key="ui_dungeon_requirements_groupsize">Mínimo de Jogadores: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{players}&lt;/font&gt;</string>
-	<string key="ui_dungeon_requirements_gearscore">Nível Recomendado: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{level}&lt;/font&gt;</string>
+	<string key="ui_dungeon_requirements_gearscore">Nível Recomendado: {level}</string>
 	<string key="ui_flyout_recommended_groupsize">Jogadores Recomendados: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{players}&lt;/font&gt;</string>
 	<string key="ui_dungeon_requirements_equipment_warning">Para completar esta Expedição, seu grupo precisa ter pelo menos &lt;font color="#ffffff"&gt;{item}&lt;/font&gt;.</string>
+	<string key="ui_dungeon_reward_level">Os itens que você encontrar podem variar em relação aos listados, com base na Pontuação do Equipamento deles.</string>
 	<string key="ui_dungeon_level_requirement">Nível Necessário: {level}</string>
 	<string key="ui_dungeon_elapsed_time">Tempo Transcorrido:</string>
 	<string key="ui_dungeon_estimated_time_remaining">Tempo de espera estimado:</string>
@@ -49,11 +50,12 @@
 	<string key="ui_dungeon_opened_pvpwarning_title">Abandone o PvP para Entrar</string>
 	<string key="ui_dungeon_enter_pvpwarning_info">Entrar em uma Expedição &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;abandonará todas as missões PvP&lt;/font&gt;. Continuar?</string>
 	<string key="ui_dungeon_full_header">A Expedição está cheia no momento. Junte-se à fila para entrar na expedição.</string>
-	<string key="ui_dungeon_player_average_gear_score">Pontuação Média do Equipamento: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{gearscore}&lt;/font&gt;</string>
+	<string key="ui_dungeon_player_average_gear_score">&lt;font color="#c3b79f"&gt;Pontuação Média do Equipamento: &lt;/font&gt; &lt;font color="#ffffff" face="lyshineui/fonts/CaslonAnt.font"&gt;{gearscore}&lt;/font&gt;</string>
 	<string key="ui_dungeon_queued_blocked">Não É Possível Abrir a Expedição</string>
 	<string key="ui_dungeon_outpost_rush">Você já está em uma fila para Investida do Posto Avançado</string>
 	<string key="ui_dungeon_expiring">Deixando expedição em</string>
 	<string key="ui_dungeon_cooldown">Pode Abrir em &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{timeRemaining}&lt;/font&gt;</string>
 	<string key="ui_dungeon_cooldown_flyout">Você pode abrir esta Expedição em {timeRemaining}</string>
+	<string key="ui_dungeon_next_unlock_requirement">Para desbloquear a &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;próxima dificuldade&lt;/font&gt;, é necessário concluir esta Expedição com &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Ranque Prata&lt;/font&gt;.</string>
 </resources>
 

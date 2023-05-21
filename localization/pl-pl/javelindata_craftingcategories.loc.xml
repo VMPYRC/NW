@@ -1,8 +1,10 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="FoodComponents_GroupName">Składniki złożone</string>
 	<string key="GemstoneT1_GroupName">Klejnoty ze skazą</string>
 	<string key="GemstoneT2_GroupName">Zwykłe klejnoty</string>
 	<string key="GemstoneT3_GroupName">Doskonałe klejnoty</string>
 	<string key="GemstoneT4_GroupName">Nieskazitelne klejnoty</string>
+	<string key="CraftingPatterns_GroupName">Schematy rzemieślnicze</string>
 	<string key="ShieldB_GroupName" comment="A heavy shield that provides excellent protection from attacks.">Tarcze normandzkie</string>
 	<string key="ShieldA_GroupName" comment="A relatively lightweight shield that provides good protection from attacks.">Tarcze okrągłe</string>
 	<string key="AlchemyBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Trofea zapewniające premię arkanistyczną (gdy zostaną umieszczone w twoim domu).</string>
@@ -192,10 +194,7 @@
 	<string key="HousingTrdG_Cabinets_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Szafki do domu</string>
 	<string key="HousingTrdG_Cabinets_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Szafki do domu</string>
 	<string key="HousingTrdG_Veg_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Rośliny do domu</string>
-	<string key="1hCelestialGauntlet_Heal_GroupName">Niebiańskie rękawice</string>
-	<string key="1hClub_GroupDesc">1-ręczna. Krótka obuchowa broń biała, która pozwala zasypać wroga gradem ciosów.</string>
-	<string key="1hClub_GroupName">Maczugi</string>
-	<string key="1hHatchet_GroupDesc">Wszechstronna broń, którą można wyprowadzać szybkie ataki w walce wręcz lub rzucać z dystansu. Idealna do agresywnej walki wręcz lub taktycznej walki na średnim dystansie.\n\n•Atak lekki: zadaje {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]}% obrażeń od cięć.\n•Lekki cios kończący serię: zadaje {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]}% obrażeń od cięć.\n•Atak ciężki: zadaje {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]}% obrażeń od cięć.\n•Naładowany atak ciężki: zadaje {[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]}% obrażeń od cięć.</string>
+	<string key="1hHatchet_GroupDesc">Wszechstronna broń, którą można wyprowadzać szybkie ataki w walce wręcz lub rzucać z dystansu. Idealna do agresywnej walki wręcz lub taktycznej walki na średnim dystansie.\n\n•Atak lekki: Zadaje {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]}% obrażeń od cięć.\n•Lekki cios kończący serię: Zadaje {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]}% obrażeń od cięć.\n•Atak ciężki: Zadaje {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]}% obrażeń od cięć.\n•Naładowany atak ciężki: Zadaje {[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]}% obrażeń od cięć.</string>
 	<string key="1hHatchet_GroupName">Wytworzone siekierki</string>
 	<string key="1hHatchetAngryEarth_GroupName">Pierwotne siekierki</string>
 	<string key="1hHatchetB_GroupName">Siekierki z zimnego żelaza</string>
@@ -266,8 +265,6 @@
 	<string key="2hBowNamed4_GroupName">Cierpliwość</string>
 	<string key="2hBowNamed5_GroupName">Czyste uderzenie</string>
 	<string key="2hBowNamed6_GroupName">Dalekosiężność</string>
-	<string key="2hClub_GroupDesc">2-ręczny</string>
-	<string key="2hClub_GroupName">Młot dwuręczny</string>
 	<string key="2hDemoHammer_GroupDesc">2-ręczny. Wspaniały do burzenia konstrukcji, a nawet lepszy do roztrzaskiwania bram. Niezbyt dobry do walki.</string>
 	<string key="2hDemohammer_GroupName">Młoty oblężnicze</string>
 	<string key="2hElementalStaff_Fire_GroupName">Wytworzone ogniste laski</string>
@@ -401,7 +398,7 @@
 	<string key="AlchemyWaterT5_GroupName">Odczynniki wody klasy 5</string>
 	<string key="AmberCut_GroupDesc">Szlifowane i polerowane bursztyny</string>
 	<string key="AmberCut_GroupName">Szlifowany bursztyn</string>
-	<string key="AmethystCut_GroupDesc">Szlifowane i polerowane ametysty. Można z nich wytworzyć biżuterię, która zwiększa inteligencję i skupienie, albo umieścić w gnieździe przedmiotu, by zyskać profity „Otchłań” i „Ochrona przed otchłanią”.</string>
+	<string key="AmethystCut_GroupDesc">Szlifowane i polerowane ametysty. Można z nich wytworzyć biżuterię, która zwiększa inteligencję i skupienie, albo umieścić w gnieździe przedmiotu, by zyskać profity "Otchłań" i "Ochrona przed otchłanią".</string>
 	<string key="AmethystCut_GroupName">Szlifowany ametyst</string>
 	<string key="Ammo_GroupName">Amunicja</string>
 	<string key="Amulets_GroupName">Amulety</string>
@@ -409,7 +406,7 @@
 	<string key="AmuletsT3_GroupName">Złote amulety</string>
 	<string key="AmuletsT4_GroupName">Platynowe amulety</string>
 	<string key="AmuletsT5_GroupName">Amulety z orichalcum</string>
-	<string key="AquamarineCut_GroupDesc">Szlifowane i polerowane akwamaryny. Można z nich wytworzyć biżuterię, która zwiększa zręczność, albo umieścić w gnieździe przedmiotu, by zyskać profity „Nasączenie mocą” i „Ochrona przed żywiołami”.</string>
+	<string key="AquamarineCut_GroupDesc">Szlifowane i polerowane akwamaryny. Można z nich wytworzyć biżuterię, która zwiększa zręczność, albo umieścić w gnieździe przedmiotu, by zyskać profity "Nasączenie mocą" i "Ochrona przed żywiołami".</string>
 	<string key="AquamarineCut_GroupName">Szlifowany akwamaryn</string>
 	<string key="ArcanaAir_GroupName">Arkana powietrza</string>
 	<string key="ArcanaAirT2_GroupName">Arkana powietrza klasy 2</string>
@@ -540,7 +537,7 @@
 	<string key="BoostVoidAbs_GroupName">Eliksiry obrony przed próżnią</string>
 	<string key="bounty_GroupName">Talizman</string>
 	<string key="bountymagic_GroupName">Pusty animus</string>
-	<string key="BowA_GroupDesc">Znakomita broń dystansowa, z której można szybko strzelać lub mocniej naciągnąć cięciwę, by zadać większe obrażenia. Idealnie nadaje się do przeszkadzania wrogom i zadawania im obrażeń za pomocą różnorodnych ataków z dystansu.\n\n•Krótki naciąg: zadaje {[DamageTable.BowAttack1.DmgCoef * 100]}% obrażeń od pchnięć.\n•Długi naciąg: zadaje {[DamageTable.BowAttack2.DmgCoef * 100]}% obrażeń od pchnięć.</string>
+	<string key="BowA_GroupDesc">Znakomita broń dystansowa, z której można szybko strzelać lub mocniej naciągnąć cięciwę, by zadać większe obrażenia. Idealnie nadaje się do przeszkadzania wrogom i zadawania im obrażeń za pomocą różnorodnych ataków z dystansu.\n\n•Krótki naciąg: Zadaje {[DamageTable.BowAttack1.DmgCoef * 100]}% obrażeń od pchnięć.\n•Długi naciąg: Zadaje {[DamageTable.BowAttack2.DmgCoef * 100]}% obrażeń od pchnięć.</string>
 	<string key="BowA_GroupName">Łuki</string>
 	<string key="BowA2_GroupName">Łuki</string>
 	<string key="BowB_GroupDesc">2-ręczny. Broń dystansowa wykorzystująca strzały. Aby strzała zadała największe obrażenia, należy maksymalnie naciągnąć cięciwę przed oddaniem strzału.</string>
@@ -563,8 +560,8 @@
 	<string key="CarnelianCut_GroupName">Szlifowany karneol</string>
 	<string key="Cartridges_GroupName">Naboje do broni palnej</string>
 	<string key="catalyst_GroupName">Katalizatory</string>
-	<string key="CategoryData_1Handed">Broń &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt;-ręczna</string>
-	<string key="CategoryData_2Handed">Broń &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;-ręczna</string>
+	<string key="CategoryData_1Handed">Broń jednoręczna</string>
+	<string key="CategoryData_2Handed">Broń dwuręczna</string>
 	<string key="CategoryData_AfflictionResistance">Odporność na dolegliwości</string>
 	<string key="CategoryData_alchemyresources">Odczynniki do eliksirów</string>
 	<string key="CategoryData_Ammo">Amunicja</string>
@@ -638,8 +635,10 @@
 	<string key="CategoryData_Pigments">Pigmenty</string>
 	<string key="CategoryData_Potion">Eliksiry</string>
 	<string key="CategoryData_PotionDesc">Eliksiry to przedmioty tymczasowo zwiększające twoją sprawność.</string>
+	<string key="CategoryData_Alkahest">Alkahesty</string>
+	<string key="CategoryData_AlkahestDesc">Alkahesty to przedmioty służące do wytwarzania eliksirów.</string>
 	<string key="CategoryData_RangedWeapons">Broń dystansowa</string>
-	<string key="CategoryData_rawresources">Surowce</string>
+	<string key="CategoryData_rawresources">Pozyskane surowce</string>
 	<string key="CategoryData_RefinedMaterial">Inne materiały</string>
 	<string key="CategoryData_refinedresources">Przetwarzanie surowców</string>
 	<string key="CategoryData_Resources">Surowce</string>
@@ -705,8 +704,6 @@
 	<string key="CategoryData_Weapons">Broń</string>
 	<string key="CategoryData_WeaponsAmmo">Broń i amunicja</string>
 	<string key="CategoryData_WearableTrinkets">Akcesoria</string>
-	<string key="CelestialGauntlet_GroupDesc">Rękawice, które umożliwiają przywoływanie magicznych sił odnawiających.</string>
-	<string key="CelestialGauntlet_GroupName">Niebiańskie rękawice</string>
 	<string key="Charcoal_GroupDesc">Elementy składowe.</string>
 	<string key="Charcoal_GroupName">Węgiel drzewny</string>
 	<string key="ChefChest_GroupName">Koszula szefa kuchni</string>
@@ -789,8 +786,6 @@
 	<string key="CutGemsT3_GroupName">Doskonałe klejnoty</string>
 	<string key="CutGemsT4_GroupName">Nieskazitelne klejnoty</string>
 	<string key="CutStone_GroupName">Ciosane kamienie</string>
-	<string key="Dagger_GroupDesc">Dwie bronie jednoręczne do walki wręcz i rzucania na krótkim dystansie.</string>
-	<string key="Dagger_GroupName">Sztylety</string>
 	<string key="DefenseFood_GroupName">Jedzenie ochronne</string>
 	<string key="Defensive_GroupName">Modyfikatory obrony</string>
 	<string key="Demijohn_GroupName">Gąsiory</string>
@@ -821,7 +816,7 @@
 	<string key="DEXRings_GroupName">Pierścienie pionierskie</string>
 	<string key="DEXTrinkets_GroupDesc">Akcesoria zwiększające zręczność.</string>
 	<string key="DEXTrinkets_GroupName">Akcesoria zręczności</string>
-	<string key="DiamondCut_GroupDesc">Szlifowane i polerowane diamenty. Można z nich wytworzyć biżuterię, która zwiększa kondycję i skupienie, albo umieścić w gnieździe przedmiotu, by zyskać profity „Mobilizacja” i „Ochrona przed dziczą”.</string>
+	<string key="DiamondCut_GroupDesc">Szlifowane i polerowane diamenty. Można z nich wytworzyć biżuterię, która zwiększa kondycję i skupienie, albo umieścić w gnieździe przedmiotu, by zyskać profity "Mobilizacja" i "Ochrona przed dziczą".</string>
 	<string key="DiamondCut_GroupName">Szlifowany diament</string>
 	<string key="Drink1_GroupDesc">Zapewnia regenerację energii przez 30 minut.</string>
 	<string key="Drink1_GroupName">Wywary</string>
@@ -925,7 +920,7 @@
 	<string key="ElementalEssence_GroupName">Esencje żywiołów</string>
 	<string key="ElementalQuintessence_GroupName">Kwintesencje żywiołów</string>
 	<string key="ElementalWisp_GroupName">Duszki żywiołów</string>
-	<string key="EmeraldCut_GroupDesc">Szlifowane i polerowane szmaragdy. Można z nich wytworzyć biżuterię, która zwiększa zręczność i kondycję, albo umieścić w gnieździe przedmiotu, by zyskać profity „Oportunizm” i „Ochrona przed pchnięciami”.</string>
+	<string key="EmeraldCut_GroupDesc">Szlifowane i polerowane szmaragdy. Można z nich wytworzyć biżuterię, która zwiększa zręczność i kondycję, albo umieścić w gnieździe przedmiotu, by zyskać profity "Oportunizm" i "Ochrona przed pchnięciami".</string>
 	<string key="EmeraldCut_GroupName">Szlifowany szmaragd</string>
 	<string key="Encumbrance_GroupName">Obciążenie</string>
 	<string key="EngineerChest_GroupName">Koszula inżyniera</string>
@@ -1058,10 +1053,10 @@
 	<string key="GarnetCut_GroupDesc">Szlifowane i polerowane granaty</string>
 	<string key="GarnetCut_GroupName">Szlifowany granat</string>
 	<string key="GatheringFood_GroupName">Jedzenie zbierania</string>
-	<string key="GauntletIce_GroupDesc">Rękawica zużywająca manę do rzucania potężnych lodowych zaklęć. Idealnie nadaje się do nieustannego zadawania obrażeń przeciwnikom. Umożliwia wzywanie żywiołowych burz i lodu oraz wyprowadzanie zamrażających ataków, które osłabiają zdolności przeciwników i zadają im obrażenia.\n\n•Atak lekki: zadaje {[DamageTable.IceMagic_Primary.DmgCoef * 100]}% obrażeń od lodu.\n•Atak ciężki: zadaje {[DamageTable.IceMagic_Heavy.DmgCoef * 100]}% obrażeń od lodu.</string>
+	<string key="GauntletIce_GroupDesc">Rękawica zużywająca manę do rzucania potężnych lodowych zaklęć. Idealnie nadaje się do nieustannego zadawania obrażeń przeciwnikom. Umożliwia wzywanie żywiołowych burz i lodu oraz wyprowadzanie zamrażających ataków, które osłabiają zdolności przeciwników i zadają im obrażenia.\n\n•Atak lekki: Zadaje {[DamageTable.IceMagic_Primary.DmgCoef * 100]}% obrażeń od lodu.\n•Atak ciężki: Zadaje {[DamageTable.IceMagic_Heavy.DmgCoef * 100]}% obrażeń od lodu.</string>
 	<string key="GauntletIce_GroupName">Lodowe rękawice</string>
-	<string key="GauntletVoid_GroupDesc">Rękawica zużywająca manę, by osłabiać wrogów i wzmacniać sojuszników. Rękawica próżni idealnie nadaje się do nakładania premii i obrażeń periodycznych na krótkim dystansie lub nakładania negatywnych efektów i leczenia na średnim dystansie. Jest groźna zwłaszcza wtedy, gdy walczysz w grupie.\n\n•Atak lekki: Zadaje {[DamageTable.VoidGauntlet_Primary.DmgCoef * 100]}% obrażeń od próżni.\n•Atak ciężki: Zadaje {[DamageTable.VoidGauntlet_Heavy.DmgCoef * 100]}% obrażeń od próżni. Ponadto zyskasz zdrowie w wysokości {[VoidGauntletAbilityTable.Passive_VoidGauntlet_HealOnHeavy.DmgPctToHealth * 100]}% zadanych obrażeń.\n•Żniwa (przytrzymaj blok): Zamienia twoje zdrowie na manę z upływem czasu. Skaluje się z obrażeniami od broni.</string>
-	<string key="GauntletVoid_GroupName">Rękawice próżni</string>
+	<string key="GauntletVoid_GroupDesc" rel_version="Weapon_Void_Gauntlet">Rękawica zużywająca manę, by osłabiać wrogów i wzmacniać sojuszników. Rękawica próżni idealnie nadaje się do nakładania premii i obrażeń periodycznych na krótkim dystansie lub nakładania negatywnych efektów i leczenia na średnim dystansie. Jest groźna zwłaszcza wtedy, gdy walczysz w grupie.\n\n•Atak lekki: Zadaje {[DamageTable.VoidGauntlet_Primary.DmgCoef * 100]}% obrażeń od próżni.\n•Atak ciężki: Zadaje {[DamageTable.VoidGauntlet_Heavy.DmgCoef * 100]}% obrażeń od próżni. Ponadto zyskasz zdrowie w wysokości {[VoidGauntletAbilityTable.Passive_VoidGauntlet_HealOnHeavy.DmgPctToHealth * 100]}% zadanych obrażeń.\n• Zbierz esencję (przytrzymaj blok): Zamienia twoje zdrowie na manę z upływem czasu. Skaluje się z obrażeniami od broni.</string>
+	<string key="GauntletVoid_GroupName" rel_version="Weapon_Void_Gauntlet">Rękawice próżni</string>
 	<string key="GemAmbe_CategoryName">Bursztyny</string>
 	<string key="GemAmet_CategoryName">Ametysty</string>
 	<string key="GemAqua_CategoryName">Akwamaryny</string>
@@ -1096,7 +1091,7 @@
 	<string key="GrainT3_GroupName">Zboża klasy 3</string>
 	<string key="GrainT4_GroupName">Zboża klasy 4</string>
 	<string key="GrainT5_GroupName">Zboża klasy 5</string>
-	<string key="Greataxe_GroupDesc">Duża broń biała używana do szerokich wymachów oraz potężnych rąbnięć. Idealnie nadaje się do walki z wieloma przeciwnikami z powodu swoich ataków obszarowych. Można też zadawać nią ogromne obrażenia pojedynczemu celowi.\n\n•Atak lekki: zadaje {[DamageTable.GreatAxe_PrimaryAttack.DmgCoef * 100]}% obrażeń od cięć.\n•Atak ciężki: zadaje {[DamageTable.GreatAxe_HeavyAttack.DmgCoef * 100]}% obrażeń od cięć.\n•Naładowany atak ciężki: zadaje {[DamageTable.GreatAxe_HeavyAttack_Charged.DmgCoef * 100]}% obrażeń od cięć.</string>
+	<string key="Greataxe_GroupDesc">Duża broń biała używana do szerokich wymachów oraz potężnych rąbnięć. Idealnie nadaje się do walki z wieloma przeciwnikami z powodu swoich ataków obszarowych. Można też zadawać nią ogromne obrażenia pojedynczemu celowi.\n\n•Atak lekki: Zadaje {[DamageTable.GreatAxe_PrimaryAttack.DmgCoef * 100]}% obrażeń od cięć.\n•Atak ciężki: Zadaje {[DamageTable.GreatAxe_HeavyAttack.DmgCoef * 100]}% obrażeń od cięć.\n•Naładowany atak ciężki: Zadaje {[DamageTable.GreatAxe_HeavyAttack_Charged.DmgCoef * 100]}% obrażeń od cięć.</string>
 	<string key="GreatAxe_GroupName">Topór dwuręczny</string>
 	<string key="GreatAxes_GroupName">Topory dwuręczne</string>
 	<string key="GunPowder_GroupDesc">Służy do wyrobu amunicji do broni palnej.</string>
@@ -1213,7 +1208,7 @@
 	<string key="JadeCut_GroupDesc">Szlifowane i polerowane jadeity</string>
 	<string key="JadeCut_GroupName">Szlifowany jadeit</string>
 	<string key="Jars_GroupName">Słoiki</string>
-	<string key="JasperCut_GroupDesc">Szlifowane i polerowane jaspisy. Można z nich wytworzyć biżuterię, która zwiększa siłę i kondycję, albo umieścić w gnieździe przedmiotu, by zyskać profity „Odwet” i „Ochrona przed ciosami”.</string>
+	<string key="JasperCut_GroupDesc">Szlifowane i polerowane jaspisy. Można z nich wytworzyć biżuterię, która zwiększa siłę i kondycję, albo umieścić w gnieździe przedmiotu, by zyskać profity "Odwet" i "Ochrona przed ciosami".</string>
 	<string key="JasperCut_GroupName">Szlifowany jaspis</string>
 	<string key="KeyParts_GroupName">Części kul strojących</string>
 	<string key="Keys_GroupName">Klucze</string>
@@ -1282,7 +1277,7 @@
 	<string key="MagicStaffLife_GroupName">Laski życia</string>
 	<string key="MagicStaves_GroupDesc">Potężne przedmioty używane do przetworzenia surowej energii magicznej lub many na zaklęcia bitewne lub wspomagające.</string>
 	<string key="MagicStaves_GroupName">Broń magiczna</string>
-	<string key="MalachiteCut_GroupDesc">Szlifowane i polerowane malachity. Można z nich wytworzyć biżuterię, która zwiększa inteligencję i kondycję, albo umieścić w gnieździe przedmiotu, by zyskać profity „Okrucieństwo” i „Ochrona przed widmami”.</string>
+	<string key="MalachiteCut_GroupDesc">Szlifowane i polerowane malachity. Można z nich wytworzyć biżuterię, która zwiększa inteligencję i kondycję, albo umieścić w gnieździe przedmiotu, by zyskać profity "Okrucieństwo" i "Ochrona przed widmami".</string>
 	<string key="MalachiteCut_GroupName">Szlifowany malachit</string>
 	<string key="ManaCooking_CategoryName">Składniki regeneracji many</string>
 	<string key="MaterialConversion_GroupName">Konwersja materiałów</string>
@@ -1366,18 +1361,18 @@
 	<string key="ModsEpic_GroupName">Epickie modyfikatory</string>
 	<string key="ModsRare_GroupName">Rzadkie modyfikatory</string>
 	<string key="ModsUncommon_GroupName">Niezwykłe modyfikatory</string>
-	<string key="MoonstoneCut_GroupDesc">Szlifowane i polerowane kamienie księżycowe. Można z nich wytworzyć biżuterię, która zwiększa siłę i skupienie, albo umieścić w gnieździe przedmiotu, by zyskać profity „Radość” i „Ochrona przed cięciami”.</string>
+	<string key="MoonstoneCut_GroupDesc">Szlifowane i polerowane kamienie księżycowe. Można z nich wytworzyć biżuterię, która zwiększa siłę i skupienie, albo umieścić w gnieździe przedmiotu, by zyskać profity "Radość" i "Ochrona przed cięciami".</string>
 	<string key="MoonstoneCut_GroupName">Szlifowany kamień księżycowy</string>
 	<string key="Musical_GroupName">Instrumenty muzyczne</string>
-	<string key="MusketA_GroupDesc">Broń dystansowa wykorzystująca naboje zadające duże obrażenia. Idealna do trzymania wrogów na dystans i ostrzeliwania ich z dużej odległości. Premiuje precyzję.\n\n•Standardowy atak: zadaje {[DamageTable.MusketAttack1.DmgCoef * 100]}% obrażeń od pchnięć.</string>
+	<string key="MusketA_GroupDesc">Broń dystansowa wykorzystująca naboje zadające duże obrażenia. Idealna do trzymania wrogów na dystans i ostrzeliwania ich z dużej odległości. Premiuje precyzję.\n\n•Standardowy atak: Zadaje {[DamageTable.MusketAttack1.DmgCoef * 100]}% obrażeń od pchnięć.</string>
 	<string key="MusketA_GroupName">Muszkiety</string>
 	<string key="Muskets_GroupName">Muszkiety</string>
 	<string key="nut_GroupName">Orzechy</string>
 	<string key="Offensive_GroupName">Modyfikatory ataku</string>
 	<string key="oil_GroupName">Ropa naftowa</string>
-	<string key="OnyxCut_GroupDesc">Szlifowane i polerowane onyksy. Można z nich wytworzyć biżuterię, która zwiększa kondycję, albo umieścić w gnieździe przedmiotu, by zyskać profity „Zuchwałość” i „Ochrona fizyczna”.</string>
+	<string key="OnyxCut_GroupDesc">Szlifowane i polerowane onyksy. Można z nich wytworzyć biżuterię, która zwiększa kondycję, albo umieścić w gnieździe przedmiotu, by zyskać profity "Zuchwałość" i "Ochrona fizyczna".</string>
 	<string key="OnyxCut_GroupName">Szlifowany onyks</string>
-	<string key="OpalCut_GroupDesc">Szlifowane i polerowane opale. Można z nich wytworzyć biżuterię, która zwiększa skupienie, albo umieścić w gnieździe przedmiotu, by zyskać profity „Gambit” i „Ochrona przed żywiołami”.</string>
+	<string key="OpalCut_GroupDesc">Szlifowane i polerowane opale. Można z nich wytworzyć biżuterię, która zwiększa skupienie, albo umieścić w gnieździe przedmiotu, by zyskać profity "Gambit" i "Ochrona przed żywiołami".</string>
 	<string key="OpalCut_GroupName">Szlifowany opal</string>
 	<string key="ore_GroupName">Rudy</string>
 	<string key="oreprecious_GroupName">Drogocenne rudy</string>
@@ -1472,11 +1467,11 @@
 	<string key="RingsT4_GroupName">Platynowe pierścienie</string>
 	<string key="RingsT5_GroupName">Pierścienie z orichalcum</string>
 	<string key="rivets_GroupName">Nity</string>
-	<string key="RubyCut_GroupDesc">Szlifowane i polerowane rubiny. Można z nich wytworzyć biżuterię, która zwiększa siłę, albo umieścić w gnieździe przedmiotu, by zyskać profity „Podpalenie” i „Ochrona przed ogniem”.</string>
+	<string key="RubyCut_GroupDesc">Szlifowane i polerowane rubiny. Można z nich wytworzyć biżuterię, która zwiększa siłę, albo umieścić w gnieździe przedmiotu, by zyskać profity "Podpalenie" i "Ochrona przed ogniem".</string>
 	<string key="RubyCut_GroupName">Szlifowany rubin</string>
 	<string key="saltpeter_GroupName">Saletry</string>
 	<string key="Sandpaper_GroupName">Papiery ścierne</string>
-	<string key="SapphireCut_GroupDesc">Szlifowane i polerowane szafiry. Można z nich wytworzyć biżuterię, która zwiększa inteligencję, albo umieścić w gnieździe przedmiotu, by zyskać profity „Nasączenie mocą” i „Ochrona przed magią”.</string>
+	<string key="SapphireCut_GroupDesc">Szlifowane i polerowane szafiry. Można z nich wytworzyć biżuterię, która zwiększa inteligencję, albo umieścić w gnieździe przedmiotu, by zyskać profity "Nasączenie mocą" i "Ochrona przed magią".</string>
 	<string key="SapphireCut_GroupName">Szlifowany szafir</string>
 	<string key="Seals_GroupName">Pieczęcie</string>
 	<string key="Seasoning_CategoryName">Przyprawy</string>
@@ -1653,15 +1648,15 @@
 	<string key="SkinningKnives_GroupName">Noże do skórowania</string>
 	<string key="SmallVines_GroupName">Małe pnącza</string>
 	<string key="Solvent_GroupName">Rozpuszczalnik</string>
-	<string key="SpearA_GroupDesc">Broń biała o dużym zasięgu bazująca głównie na pchnięciach. Idealnie nadaje się do trzymania wrogów na dystans – wystarczy zająć strategiczną pozycję i wywierać na nich nieustanną presję.\n\n•Atak lekki: zadaje {[DamageTable.2H_Spear_PrimaryAttack.DmgCoef * 100]}% obrażeń od pchnięć.\n•Atak ciężki: zadaje {[DamageTable.2H_Spear_HeavyAttack.DmgCoef * 100]}% obrażeń od pchnięć.\n•Naładowany atak ciężki: zadaje {[DamageTable.2H_Spear_HeavyAttack_Charged.DmgCoef * 100]}% obrażeń od pchnięć.</string>
+	<string key="SpearA_GroupDesc">Broń biała o dużym zasięgu bazująca głównie na pchnięciach. Idealnie nadaje się do trzymania wrogów na dystans – wystarczy zająć strategiczną pozycję i wywierać na nich nieustanną presję.\n\n•Atak lekki: Zadają {[DamageTable.2H_Spear_PrimaryAttack.DmgCoef * 100]}% obrażeń od pchnięć.\n•Atak ciężki: Zadaje {[DamageTable.2H_Spear_HeavyAttack.DmgCoef * 100]}% obrażeń od pchnięć.\n•Naładowany atak ciężki: Zadaje {[DamageTable.2H_Spear_HeavyAttack_Charged.DmgCoef * 100]}% obrażeń od pchnięć.</string>
 	<string key="SpearA_GroupName">Włócznie</string>
 	<string key="SpearB_GroupDesc">2-ręczna. Broń biała o sporym zasięgu zadająca znaczne obrażenia od pchnięcia.</string>
 	<string key="SpearB_GroupName">Włócznie</string>
 	<string key="Spears_GroupName">Włócznie</string>
 	<string key="SprigganKey_GroupName">Klucze do aren</string>
-	<string key="StaffFire_GroupDesc">Magiczna laska zużywająca manę do rzucania potężnych zaklęć ognia. Idealnie nadaje się do blokowania obszaru, zadawania obrażeń od ognia na dużych połaciach i podpalania celów.\n\n•Atak lekki: zadaje {[DamageTable.Firestaff_PrimaryAttackC1.DmgCoef * 100]}% obrażeń od ognia.\n•Atak ciężki: zadaje {[DamageTable.Firestaff_PrimaryAttackC2.DmgCoef * 100]}% obrażeń od ognia.</string>
+	<string key="StaffFire_GroupDesc">Magiczna laska zużywająca manę do rzucania potężnych zaklęć ognia. Idealnie nadaje się do blokowania obszaru, zadawania obrażeń od ognia na dużych połaciach i podpalania celów.\n\n•Atak lekki: Zadaje {[DamageTable.Firestaff_PrimaryAttackC1.DmgCoef * 100]}% obrażeń od ognia.\n•Atak ciężki: Zadaje {[DamageTable.Firestaff_PrimaryAttackC2.DmgCoef * 100]}% obrażeń od ognia.</string>
 	<string key="StaffFire_GroupName">Ogniste laski</string>
-	<string key="StaffLife_GroupDesc">Magiczna laska zużywająca manę do rzucania wzmacniających zaklęć natury. Idealnie nadaje się do wspierania sojuszników podczas walki za pomocą leczenia i premii, które zapewnia.\n\n•Atak lekki: zadaje {[DamageTable.LifeStaff_PrimaryAttackC1.DmgCoef * 100]}% obrażeń od natury.\n•Atak ciężki: zadaje {[DamageTable.LifeStaff_PrimaryAttackC2.DmgCoef * 100]}% obrażeń od natury.</string>
+	<string key="StaffLife_GroupDesc">Magiczna laska zużywająca manę do rzucania wzmacniających zaklęć natury. Idealnie nadaje się do wspierania sojuszników podczas walki za pomocą leczenia i premii, które zapewnia.\n\n•Atak lekki: Zadaje {[DamageTable.LifeStaff_PrimaryAttackC1.DmgCoef * 100]}% obrażeń od natury.\n•Atak ciężki: Zadaje {[DamageTable.LifeStaff_PrimaryAttackC2.DmgCoef * 100]}% obrażeń od natury.</string>
 	<string key="StaffLife_GroupName">Laski życia</string>
 	<string key="StavesFire_GroupName">Ogniste laski</string>
 	<string key="StavesLife_GroupName">Laski życia</string>
@@ -1694,9 +1689,9 @@
 	<string key="STRTrinkets_GroupDesc">Akcesoria zwiększające siłę.</string>
 	<string key="STRTrinkets_GroupName">Akcesoria siły</string>
 	<string key="SurvivalTools_GroupName">Narzędzia traperskie</string>
-	<string key="SwordA_GroupDesc">Nierozłączna para, świetnie sprawdzająca się w walce wręcz. Zapewnia szereg zdolności ofensywnych i defensywnych. Ataki bazują na cięciach i pchnięciach, a tarcza służy do obrony.\n\n•Atak lekki: zadaje {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]}% obrażeń od cięć.\n•Lekki cios kończący serię: zadaje {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]}% obrażeń od cięć.\n•Atak ciężki: zadaje {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]}% obrażeń od pchnięć.\n•Naładowany atak ciężki: zadaje {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]}% obrażeń od pchnięć.</string>
+	<string key="SwordA_GroupDesc">Nierozłączna para, świetnie sprawdzająca się w walce wręcz. Zapewnia szereg zdolności ofensywnych i defensywnych. Ataki bazują na cięciach i pchnięciach, a tarcza służy do obrony.\n\n•Atak lekki: Zadaje {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]}% obrażeń od cięć.\n•Lekki cios kończący serię: Zadaje {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]}% obrażeń od cięć.\n•Atak ciężki: Zadaje {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]}% obrażeń od pchnięć.\n•Naładowany atak ciężki: Zadaje {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]}% obrażeń od pchnięć.</string>
 	<string key="SwordA_GroupName">Miecze proste</string>
-	<string key="SwordB_GroupDesc">Broń biała używana do wyprowadzania szybkich pchnięć. Premiuje koordynację i wyczucie czasu. Nadaje się idealnie do wyprowadzania w pole przeciwników, u których wywołuje krwawienie stopniowo odbierające im życie.\n\n•Atak lekki: zadaje {[DamageTable.1H_Rapier_PrimaryAttack.DmgCoef * 100]}% obrażeń od pchnięć.\n•Środkowe ataki lekkie: zadają {[DamageTable.1H_Rapier_PrimaryTwoThirdsAttack.DmgCoef * 100]}% obrażeń od pchnięć.\n•Atak ciężki: zadaje {[DamageTable.1H_Rapier_HeavyAttack.DmgCoef * 100]}% obrażeń od pchnięć.</string>
+	<string key="SwordB_GroupDesc">Broń biała używana do wyprowadzania szybkich pchnięć. Premiuje koordynację i wyczucie czasu. Nadaje się idealnie do wyprowadzania w pole przeciwników, u których wywołuje krwawienie stopniowo odbierające im życie.\n\n•Atak lekki: Zadaje {[DamageTable.1H_Rapier_PrimaryAttack.DmgCoef * 100]}% obrażeń od pchnięć.\n•Środkowe ataki lekkie: Zadają {[DamageTable.1H_Rapier_PrimaryTwoThirdsAttack.DmgCoef * 100]}% obrażeń od pchnięć.\n•Atak ciężki: Zadaje {[DamageTable.1H_Rapier_HeavyAttack.DmgCoef * 100]}% obrażeń od pchnięć.</string>
 	<string key="SwordB_GroupName">Rapier</string>
 	<string key="SwordC_GroupDesc">1-ręczny.</string>
 	<string key="SwordC_GroupName">Szabla</string>
@@ -1713,10 +1708,11 @@
 	<string key="TimberT5_GroupName">Surowiec drzewny klasy 5</string>
 	<string key="TinctureBlight_GroupName">Nalewki zarazy</string>
 	<string key="TinctureCorruption_GroupName">Nalewki skażenia</string>
+	<string key="TokenConversion_GroupName">Konwersja żetonów</string>
 	<string key="ToolHatchet_GroupDesc">1-ręczna. Do ścinania drzew.</string>
 	<string key="ToolHatchet_GroupName">Siekierki</string>
 	<string key="ToolsGathering_GroupName">Narzędzia zbierackie</string>
-	<string key="TopazCut_GroupDesc">Szlifowane i polerowane topazy. Można z nich wytworzyć biżuterię, która zwiększa zręczność i skupienie, albo umieścić w gnieździe przedmiotu, by zyskać profity „Napięcie” i „Ochrona przed błyskawicami”.</string>
+	<string key="TopazCut_GroupDesc">Szlifowane i polerowane topazy. Można z nich wytworzyć biżuterię, która zwiększa zręczność i skupienie, albo umieścić w gnieździe przedmiotu, by zyskać profity "Napięcie" i "Ochrona przed błyskawicami".</string>
 	<string key="TopazCut_GroupName">Szlifowany topaz</string>
 	<string key="TrinketA_GroupName">Pierścień pomyślności zbieracza</string>
 	<string key="TrinketB_GroupName">Pierścień berserkera</string>
@@ -1769,7 +1765,7 @@
 	<string key="VegetableT5_GroupName">Warzywa klasy 5</string>
 	<string key="vessel_GroupName">Naczynia</string>
 	<string key="vialPouch_GroupName">Sakiewki na fiolki</string>
-	<string key="Warhammer_GroupDesc">Potężny młot bojowy, od którego uderzeń trzęsie się ziemia. Idealnie nadaje się do utrudniania życia przeciwnikom za pomocą wstrząsów lub do zadawania miażdżących ciosów pojedynczemu celowi.\n\n•Atak lekki: zadaje {[DamageTable.Warhammer_PrimaryAttack.DmgCoef * 100]}% obrażeń od uderzeń.\n•Atak ciężki: zadaje {[DamageTable.Warhammer_HeavyAttack.DmgCoef * 100]}% obrażeń od uderzeń.\n•Naładowany atak ciężki: zadaje {[DamageTable.Warhammer_HeavyAttack_Charged.DmgCoef * 100]}% obrażeń od uderzeń.</string>
+	<string key="Warhammer_GroupDesc">Potężny młot bojowy, od którego uderzeń trzęsie się ziemia. Idealnie nadaje się do utrudniania życia przeciwnikom za pomocą wstrząsów lub do zadawania miażdżących ciosów pojedynczemu celowi.\n\n•Atak lekki: Zadaje {[DamageTable.Warhammer_PrimaryAttack.DmgCoef * 100]}% obrażeń od uderzeń.\n•Atak ciężki: Zadaje {[DamageTable.Warhammer_HeavyAttack.DmgCoef * 100]}% obrażeń od uderzeń.\n•Naładowany atak ciężki: Zadaje {[DamageTable.Warhammer_HeavyAttack_Charged.DmgCoef * 100]}% obrażeń od uderzeń.</string>
 	<string key="Warhammer_GroupName">Młoty bojowe</string>
 	<string key="WarHammers_GroupName">Młoty bojowe</string>
 	<string key="water_GroupName">Woda</string>
@@ -1782,5 +1778,8 @@
 	<string key="WoodAny_CategoryName">Dowolne drewno</string>
 	<string key="WorkOrder_GroupName">Oferty pracy</string>
 	<string key="CategoryData_CookingRecipes">Przepisy kucharskie</string>
+	<string key="Pattern">Wzory</string>
+	<string key="PatternRecipes">Schematy wzorów</string>
+	<string key="Lodestone">Magnetyt</string>
 </resources>
 

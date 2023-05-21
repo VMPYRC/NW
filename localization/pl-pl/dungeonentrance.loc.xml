@@ -7,9 +7,10 @@
 	<string key="ui_dungeon_screen_header">Wejście na teren ekspedycji</string>
 	<string key="ui_dungeon_requirements">&lt;img src="LyShineUI/Images/icons/misc/icon_level_simple" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; Zalecany poziom: {level} &lt;img src="LyShineUI/Images/icons/misc/icon_character" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; Minimalna liczba graczy: {players}</string>
 	<string key="ui_dungeon_requirements_groupsize">Minimalna liczba graczy: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{players}&lt;/font&gt;</string>
-	<string key="ui_dungeon_requirements_gearscore">Zalecany poziom: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{level}&lt;/font&gt;</string>
+	<string key="ui_dungeon_requirements_gearscore">Zalecany poziom: {level}</string>
 	<string key="ui_flyout_recommended_groupsize">Zalecana liczba graczy: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{players}&lt;/font&gt;</string>
 	<string key="ui_dungeon_requirements_equipment_warning">Aby ukończyć tę ekspedycję, twoja grupa musi mieć co najmniej: &lt;font color="#ffffff"&gt;{item}&lt;/font&gt;.</string>
+	<string key="ui_dungeon_reward_level">Znalezione przedmioty mogą się różnić od przedmiotów z listy ze względu na ich liczbę punktów wyposażenia.</string>
 	<string key="ui_dungeon_level_requirement">Wymagany poziom: {level}</string>
 	<string key="ui_dungeon_elapsed_time">Minęło:</string>
 	<string key="ui_dungeon_estimated_time_remaining">Szacowany czas oczekiwania:</string>
@@ -41,7 +42,7 @@
 	<string key="dungeon_started">Ekspedycja aktywna</string>
 	<string key="dungeon_teleport_title">Przygotowanie do teleportacji</string>
 	<string key="dungeon_teleport_desc">Twoja grupa zostanie teleportowana na teren ekspedycji.</string>
-	<string key="dungeon_enter">Wejdź na teren ekspedycji</string>
+	<string key="dungeon_enter">Wejdź</string>
 	<string key="dungeon_flyout">Ekspedycja</string>
 	<string key="dungeon_success">Misja ukończona</string>
 	<string key="dungeon_fail">Misja zakończona porażką</string>
@@ -49,11 +50,12 @@
 	<string key="ui_dungeon_opened_pvpwarning_title">Wyjdź z trybu PvP, by wejść</string>
 	<string key="ui_dungeon_enter_pvpwarning_info">Wejście na teren ekspedycji sprawi, że &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;wszystkie misje PvP zostaną porzucone&lt;/font&gt;. Kontynuować?</string>
 	<string key="ui_dungeon_full_header">Ekspedycja jest obecnie pełna. Dołącz do kolejki, by wejść na teren ekspedycji.</string>
-	<string key="ui_dungeon_player_average_gear_score">Przeciętna liczba pkt wyposażenia: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{gearscore}&lt;/font&gt;</string>
+	<string key="ui_dungeon_player_average_gear_score">Przeciętna liczba pkt wyposażenia: &lt;/font&gt;&lt;font color="#ffffff" face="lyshineui/fonts/CaslonAnt.font"&gt;{gearscore}&lt;/font&gt;</string>
 	<string key="ui_dungeon_queued_blocked">Nie można otworzyć ekspedycji</string>
 	<string key="ui_dungeon_outpost_rush">Czekasz w kolejce do napadu na posterunek</string>
 	<string key="ui_dungeon_expiring">Opuścisz ekspedycję za:</string>
 	<string key="ui_dungeon_cooldown">Można otworzyć za: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{timeRemaining}&lt;/font&gt;</string>
 	<string key="ui_dungeon_cooldown_flyout">Możesz otworzyć tę ekspedycję za: {timeRemaining}</string>
+	<string key="ui_dungeon_next_unlock_requirement">Aby odblokować kolejny &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;poziom trudności&lt;/font&gt;, musisz ukończyć tę ekspedycję i zdobyć &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;srebro&lt;/font&gt;.</string>
 </resources>
 

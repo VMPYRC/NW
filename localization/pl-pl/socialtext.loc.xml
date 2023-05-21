@@ -45,6 +45,7 @@
 	<string key="ui_enter_recipient">Wpisz imię gracza</string>
 	<string key="ui_error_whisper_block">Odblokuj lub anuluj wyciszenie adresata, aby mu coś wyszeptać</string>
 	<string key="ui_error_whisper_no_recipient">Nie można odnaleźć adresata szeptu.</string>
+	<string key="ui_error_whisper_streamermodeblock" comment="Sent whisper to a player with streamer mode enabled">Nie wysłano wiadomości. {playerName} ma aktywny tryb "Nie przeszkadzać".</string>
 	<string key="ui_invalidguildname">Nieprawidłowa nazwa kompanii</string>
 	<string key="ui_guildname_invalid_characters">Nie można zmienić nazwy kompanii – zawiera nieprawidłowe znaki.</string>
 	<string key="ui_guildname_too_long">Nie można zmienić nazwy kompanii – nieprawidłowa długość.</string>
@@ -69,6 +70,7 @@
 	<string key="ui_voip_input_device_failed">Błąd urządzenia wejścia VOIP</string>
 	<string key="ui_voip_output_device_failed">Błąd urządzenia wyjścia VOIP</string>
 	<string key="ui_voip_channel_joined">Dołączono do kanału VOIP</string>
+	<string key="ui_voip_registration_restricted">VOIP zbliżeniowy wyłączony – konto istnieje zbyt krótko lub jest zablokowane</string>
 	<string key="trade_quantity">Liczba</string>
 	<string key="trade_title">Dostępne dla handlu</string>
 	<string key="trade_total">Łącznie:</string>
@@ -113,6 +115,8 @@
 	<string key="ui_friend_invites">Zaproszenia do znajomych</string>
 	<string key="ui_guild_invites">Zaproszenia do kompanii</string>
 	<string key="ui_event_invites">Zaproszenia na wydarzenia</string>
+	<string key="ui_leave_group">Opuść grupę</string>
+	<string key="ui_voice_chat">Czat głosowy</string>
 	<string key="ui_blocked">Blokowani</string>
 	<string key="ui_blocked_player">Gracz został zablokowany</string>
 	<string key="ui_unblocked_player">Gracz został odblokowany</string>
@@ -146,6 +150,7 @@
 	<string key="ui_p2ptrading_failmessage_target_event">{playerName} bierze udział w wojnie/inwazji lub walczy z bossem.</string>
 	<string key="ui_p2ptrading_failmessage_target_level">{playerName} nie ma poziomu {level}.</string>
 	<string key="ui_p2ptrading_failmessage_target_generic">{playerName} obecnie nie może otrzymać zaproszenia do handlu.</string>
+	<string key="ui_p2ptrading_failmessage_throttled">Teraz nie możesz wysłać zaproszenia do handlu. Odczekaj chwilę i spróbuj ponownie.</string>
 	<string key="ui_p2ptrading_failmessage_additem_maximum">Limit przedmiotów został przekroczony.</string>
 	<string key="ui_p2ptrading_failmessage_additem_restricted">Nie możesz handlować tym przedmiotem.</string>
 	<string key="ui_p2ptrading_failmessage_additem_bound">Ten przedmiot jest do ciebie przypisany. Nie możesz nim handlować.</string>
@@ -154,6 +159,7 @@
 	<string key="ui_p2ptrading_failmessage_offerupdate_maxitemsexceeded">Limit przedmiotów został przekroczony.</string>
 	<string key="ui_p2ptrading_failmessage_offerupdate_invalidcoinamount">Nieprawidłowa kwota.</string>
 	<string key="ui_p2ptrading_failmessage_offerupdate_tradealreadyconfirmed">Wymiana została już potwierdzona.</string>
+	<string key="ui_p2ptrading_failmessage_offerupdate_cannotreceiveitems">Ekwipunek pełny – nie możesz otrzymać przedmiotów.</string>
 	<string key="ui_p2ptrading_failmessage_tradeconfirmation_bothplayersnotlockedin">Obaj gracze nie zatwierdzili jeszcze swojej oferty.</string>
 	<string key="ui_p2ptrading_failmessage_tradeconfirmation_confirmedtoosoon">Wymiana została potwierdzona zbyt szybko.</string>
 	<string key="ui_p2ptrading_failmessage_transactionfailure_bothplayersnotconfirmed">Obaj gracze nie potwierdzili jeszcze wymiany.</string>
@@ -161,8 +167,14 @@
 	<string key="ui_p2ptrading_failmessage_transactionfailure_failedtoremoveitemsorcoin">Nie udało się usunąć przedmiotów lub monet.</string>
 	<string key="ui_p2ptrading_failmessage_transactionfailure_transactionaborted">Transakcja przerwana.</string>
 	<string key="ui_p2ptrading_failmessage_transactionfailure_tradecanceled">Wymiana anulowana.</string>
+	<string key="ui_p2ptrading_failmessage_playersoutofrange">Gracz poza zasięgiem.</string>
 	<string key="ui_p2ptrading_failmessage_somethingwentwrong">Coś poszło nie tak.</string>
+	<string key="ui_p2ptrading_failmessage_atmaxcurrency">Co najmniej jeden gracz przekroczy limit monet.</string>
+	<string key="ui_p2ptrading_failmessage_dont_meet_requirements">Aby wymieniać przedmioty, musisz mieć 10. poziom i konto istniejące dłużej niż 3 dni.</string>
 	<string key="ui_p2ptrading_trade_completed">Wymiana zakończona.</string>
+	<string key="ui_p2ptrading_overflow_title">Ekwipunek pełny</string>
+	<string key="ui_p2ptrading_overflow_message">Niektóre z otrzymanych przedmiotów nie zmieściły się w ekwipunku i zostały upuszczone na ziemię.</string>
+	<string key="ui_p2ptrading_inventory_full_warning">Twój ekwipunek jest pełny lub prawie pełny.\nMożesz nie być w stanie przyjąć przedmiotów.</string>
 	<string key="ui_invite_to_group">Zaproś do grupy</string>
 	<string key="ui_invite_to_guild">Zaproś do kompanii</string>
 	<string key="ui_acceptfriendinvite">Przyjmij zaproszenie</string>
@@ -180,6 +192,7 @@
 	<string key="ui_friends_confirm_invite_title">Przyjmij zaproszenie do znajomych</string>
 	<string key="ui_friends_invite_blocked_player">Czy na pewno chcesz odblokować tego gracza i wysłać mu zaproszenie do znajomych?</string>
 	<string key="ui_maxfriendsreached">Maksymalna dopuszczalna liczba znajomych wynosi {maxFriends}.</string>
+	<string key="ui_invalidfriend">Wskazany gracz jest już niedostępny.</string>
 	<string key="ui_sendguildinvite">Zaproś do kompanii</string>
 	<string key="ui_guild">Kompania</string>
 	<string key="ui_war_declared_chat_notification">Kompania {guild1} wypowiada wojnę kompanii {guild2} o kontrolę nad: {territoryName}!</string>
@@ -233,12 +246,14 @@
 	<string key="ui_twitch_logoutfailed_popup_message">Wystąpił problem podczas wylogowywania się z konta Twitch.</string>
 	<string key="ui_twitch_validation_failed_title">Błąd logowania na Twitcha</string>
 	<string key="ui_twitch_validation_failed_message">Nie udało się zweryfikować twojego konta na Twitchu. Funkcje Twitcha nie będą działać. Spróbuj ponownie.</string>
-	<string key="ui_spotlight_viewers">&lt;img src="LyShineUI/Images/Icons/Twitch/iconViewers" scale="2.5" yOffset="4.5"&gt;&lt;/img&gt;{viewers}</string>
-	<string key="ui_spotlight_notconnected">Niepowodzenie Spotlight</string>
-	<string key="ui_spotlight_connecting">Rozpoczynam Spotlight</string>
+	<string key="ui_spotlight_viewer">1 widz</string>
+	<string key="ui_spotlight_viewers">{viewers} widzów</string>
+	<string key="ui_spotlight_failed">&lt;font color="#835acd"&gt;W centrum uwagi:&lt;/font&gt; &lt;font color="#f25d5d"&gt; Nieudany&lt;/font&gt;</string>
+	<string key="ui_spotlight_notconnected">&lt;font color="#835acd"&gt;W centrum uwagi:&lt;/font&gt; &lt;font color="#f25d5d"&gt; Brak połączenia&lt;/font&gt;</string>
+	<string key="ui_spotlight_connecting">&lt;font color="#835acd"&gt;W centrum uwagi:&lt;/font&gt; &lt;font color="#ffffff"&gt; Rozpoczynanie&lt;/font&gt;</string>
 	<string key="ui_spotlight_failed_notification_title">Błąd połączenia</string>
 	<string key="ui_spotlight_failed_notification_message">Nie można uaktywnić wyróżniania streamera na Twitchu. Sprawdź, czy twój stream działa, i spróbuj ponownie.</string>
-	<string key="ui_spotlight_error">Błąd Spotlight</string>
+	<string key="ui_spotlight_error">&lt;font color="#835acd"&gt;W centrum uwagi:&lt;/font&gt; &lt;font color="#f25d5d"&gt; Błąd&lt;/font&gt;</string>
 	<string key="ui_subarmy_title">Armia subskrybentów Twitch</string>
 	<string key="ui_subarmy_join_desc">Dołącz do sesji dla armii subskrybentów innych streamerów.</string>
 	<string key="ui_subarmy_subtitle_sessions">Dostępne sesje: {number}</string>
@@ -349,8 +364,8 @@
 	<string key="ui_request_friend_failed">Nie udało się wysłać zaproszenia do znajomych.</string>
 	<string key="ui_request_unfriend_failed">Nie udało się usunąć gracza z listy znajomych.</string>
 	<string key="ui_social">Funkcje społeczności</string>
-	<string key="ui_streamermode_enabled">Tryb „Nie przeszkadzać” aktywny</string>
-	<string key="ui_streamermode_disabled">Tryb „Nie przeszkadzać” nieaktywny</string>
+	<string key="ui_streamermode_enabled">Tryb "Nie przeszkadzać" aktywny</string>
+	<string key="ui_streamermode_disabled">Tryb "Nie przeszkadzać" nieaktywny</string>
 	<string key="ui_moderation">Moderacja</string>
 	<string key="ui_group_moderation">Moderacja grupy</string>
 	<string key="ui_subarmy_join_tooltip">Wyślij do streamera prośbę o możliwość dołączenia do jego armii subskrybentów.</string>

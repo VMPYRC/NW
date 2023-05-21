@@ -1,4 +1,26 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="IngotT2_Down_Name">Stahl zu Eisen abwerten</string>
+	<string key="IngotT3_Down_Name">Sternenmetall zu Stahl abwerten</string>
+	<string key="IngotT4_Down_Name">Orichalcum zu Sternenmetall abwerten</string>
+	<string key="IngotPreciousT1_Down_Name">Gold zu Silber abwerten</string>
+	<string key="IngotPreciousT2_Down_Name">Platin zu Gold abwerten</string>
+	<string key="IngotPreciousT3_Down_Name">Orichalcum zu Platin abwerten</string>
+	<string key="LeatherT2_Down_Name">Grobes Leder zu Rauem Leder abwerten</string>
+	<string key="LeatherT3_Down_Name">Schichtleder zu Grobem Leder abwerten</string>
+	<string key="LeatherT4_Down_Name">Behandeltes Leder zu Schichtleder abwerten</string>
+	<string key="ClothT2_Down_Name">Satin zu Leinen abwerten</string>
+	<string key="ClothT3_Down_Name">Seide zu Satin abwerten</string>
+	<string key="ClothT4_Down_Name">Behandelte Seide zu Seide abwerten</string>
+	<string key="TimberT2_Down_Name">Rohholz zu Bauholz abwerten</string>
+	<string key="TimberT3_Down_Name">Wyrdholz zu Rohholz abwerten</string>
+	<string key="TimberT4_Down_Name">Tropenholz zu Wyrdholz abwerten</string>
+	<string key="BlockT2_Down_Name">Steinziegel zu Steinblock abwerten</string>
+	<string key="BlockT3_Down_Name">Magnetitziegel zu Steinziegel abwerten</string>
+	<string key="BlockT4_Down_Name">Unheilsstein (Obsidian) zu Magnetitziegel abwerten</string>
+	<string key="Procedural_GauntletVoidT2" rel_version="Weapon_Void_Gauntlet">Unheilsstulpen (Eisen)</string>
+	<string key="Procedural_GauntletVoidT3" rel_version="Weapon_Void_Gauntlet">Unheilsstulpen (Stahl)</string>
+	<string key="Procedural_GauntletVoidT4" rel_version="Weapon_Void_Gauntlet">Unheilsstulpen (Sternenmetall)</string>
+	<string key="Procedural_GauntletVoidT5" rel_version="Weapon_Void_Gauntlet">Unheilsstulpen (Orichalcum)</string>
 	<string key="Procedural_LightHead_DressT2">Haube (Leinen)</string>
 	<string key="Procedural_LightHead_DressT3">Hut (Satin)</string>
 	<string key="Procedural_LightHead_DressT4">Faszinator (Seide)</string>
@@ -249,10 +271,10 @@
 	<string key="Procedural_2hGreatAxeT3">Streitaxt (Stahl)</string>
 	<string key="Procedural_2hGreatAxeT4">Streitaxt (Sternenmetall)</string>
 	<string key="Procedural_2hGreatAxeT5">Streitaxt (Orichalcum)</string>
-	<string key="Procedural_SpearT2">Speer (Eisen)</string>
-	<string key="Procedural_SpearT3">Speer (Stahl)</string>
-	<string key="Procedural_SpearT4">Speer (Sternenmetall)</string>
-	<string key="Procedural_SpearT5">Speer (Orichalcum)</string>
+	<string key="Procedural_SpearT2">Speer (behandeltes Holz)</string>
+	<string key="Procedural_SpearT3">Speer (lackiertes Holz)</string>
+	<string key="Procedural_SpearT4">Speer (Wyrdholz)</string>
+	<string key="Procedural_SpearT5">Speer (Tropenholz)</string>
 	<string key="Procedural_HatchetT2">Beil (Eisen)</string>
 	<string key="Procedural_HatchetT3">Beil (Stahl)</string>
 	<string key="Procedural_HatchetT4">Beil (Sternenmetall)</string>
@@ -399,10 +421,10 @@
 	<string key="Procedural_RobeFeetT3">Robenschuhe (Satin)</string>
 	<string key="Procedural_RobeFeetT4">Robenschuhe (Seide)</string>
 	<string key="Procedural_RobeFeetT5">Robenschuhe (Behandelte Seide)</string>
-	<string key="Procedural_BagAT2">Tasche (Raues Leder)</string>
-	<string key="Procedural_BagAT3">Tasche (Grobes Leder)</string>
-	<string key="Procedural_BagAT4">Tasche (Schichtleder)</string>
-	<string key="Procedural_BagAT5">Tasche (Behandeltes Leder)</string>
+	<string key="Procedural_BagAT2">Abenteurer-Umhängetasche (raues Leder)</string>
+	<string key="Procedural_BagAT3">Abenteurer-Umhängetasche (grobes Leder)</string>
+	<string key="Procedural_BagAT4">Abenteurer-Umhängetasche (Schichtleder)</string>
+	<string key="Procedural_BagAT5">Abenteurer-Umhängetasche (behandeltes Leder)</string>
 	<string key="Procedural_StaffFireT2">Feuerstab (Eisen)</string>
 	<string key="Procedural_StaffFireT3">Feuerstab (Stahl)</string>
 	<string key="Procedural_StaffFireT4">Feuerstab (Sternenmetall)</string>
@@ -783,16 +805,6 @@
 	<string key="2hGreatAxeT3_CraftName">Streitaxt\n(Stahl)</string>
 	<string key="2hGreatAxeT4_CraftName">Streitaxt\n(Sternenmetall)</string>
 	<string key="2hGreatAxeT5_CraftName">Streitaxt\n(Orichalcum)</string>
-	<string key="1hClubT1_CraftName">Holzkeule</string>
-	<string key="1hClubT2_CraftName">Streitkolben\n(Eisen)</string>
-	<string key="1hClubT3_CraftName">Streitkolben\n(Stahl)</string>
-	<string key="1hClubT4_CraftName">Streitkolben\n(Sternenmetall)</string>
-	<string key="1hClubT5_CraftName">Streitkolben\n(Orichalcum)</string>
-	<string key="2hClubT1_CraftName">Große Keule\n(Feuerstein)</string>
-	<string key="2hClubT2_CraftName">Großer Kriegshammer\n(Eisen)</string>
-	<string key="2hClubT3_CraftName">Großer Kriegshammer\n(Stahl)</string>
-	<string key="2hClubT4_CraftName">Großer Kriegshammer\n(Sternenmetall)</string>
-	<string key="2hClubT5_CraftName">Großer Kriegshammer\n(Orichalcum)</string>
 	<string key="2hSpearT1_CraftName">Speer\n(Feuerstein)</string>
 	<string key="2hSpearT2_CraftName">Speer\n(Eisen)</string>
 	<string key="2hSpearBT2_CraftName">Kaltgeschmiedeter\nSpeer\n(Eisen)</string>
@@ -1370,10 +1382,6 @@
 	<string key="CombatDummyT1_CraftName">Übungsattrappe</string>
 	<string key="WindMillT2_CraftName">Getreidemühle R2</string>
 	<string key="FeedT1_CraftName">Futter</string>
-	<string key="1hCelestialGauntlet_HealT2_CraftName">Himmlische\nStulpen\n(Eisen)</string>
-	<string key="1hCelestialGauntlet_HealT3_CraftName">Himmlische\nStulpen\n(Stahl)</string>
-	<string key="1hCelestialGauntlet_HealT4_CraftName">Himmlische\nStulpen\n(Sternenmetall)</string>
-	<string key="1hCelestialGauntlet_HealT5_CraftName">Himmlische\nStulpen\n(Orichalcum)</string>
 	<string key="FoodHealthRecoveryT1_CraftName">Kleine\nRation</string>
 	<string key="FoodCorruptedT1_CraftName">Gekochtes \nFleisch</string>
 	<string key="FoodLostT1_CraftName">Gekochter\nFisch</string>

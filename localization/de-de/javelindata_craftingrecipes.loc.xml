@@ -435,11 +435,6 @@
 	<string key="2hWarhammerT3_RecipeName">Kriegshammer (Stahl)</string>
 	<string key="2hWarhammerT4_RecipeName">Kriegshammer (Sternenmetall)</string>
 	<string key="2hWarhammerT5_RecipeName">Kriegshammer (Orichalcum)</string>
-	<string key="1hClubT1_RecipeName">Keule (Holz)</string>
-	<string key="1hClubT2_RecipeName">Streitkolben (Eisen)</string>
-	<string key="1hClubT3_RecipeName">Streitkolben (Stahl)</string>
-	<string key="1hClubT4_RecipeName">Streitkolben (Sternenmetall)</string>
-	<string key="1hClubT5_RecipeName">Streitkolben (Orichalcum)</string>
 	<string key="2hClubT1_RecipeName">Große Keule (Feuerstein)</string>
 	<string key="2hClubT2_RecipeName">Großer Kriegshammer (Eisen)</string>
 	<string key="2hClubT3_RecipeName">Großer Kriegshammer (Stahl)</string>
@@ -488,10 +483,6 @@
 	<string key="2hFishingPoleT4_RecipeName">Angel (Tropenholz)</string>
 	<string key="2hFishingPoleT5_RecipeName">Angel (Wyrdholz)</string>
 	<string key="OhTorchT1_RecipeName">Fackel</string>
-	<string key="1hCelestialGauntlet_HealT2_RecipeName">Himmlische Stulpen (Eisen)</string>
-	<string key="1hCelestialGauntlet_HealT3_RecipeName">Himmlische Stulpen (Stahl)</string>
-	<string key="1hCelestialGauntlet_HealT4_RecipeName">Himmlische Stulpen (Sternenmetall)</string>
-	<string key="1hCelestialGauntlet_HealT5_RecipeName">Himmlische Stulpen (Orichalcum)</string>
 	<string key="2hElementalStaff_FireT2_RecipeName">Feuerstab (Eisen)</string>
 	<string key="2hElementalStaff_FireT3_RecipeName">Feuerstab (Stahl)</string>
 	<string key="2hElementalStaff_FireT4_RecipeName">Feuerstab (Sternenmetall)</string>
@@ -1287,11 +1278,9 @@
 	<string key="House_Settler_Table02_C_RecipeName">Großer Eichen-Tisch</string>
 	<string key="House_Settler_Table02_D_RecipeName">Großer Mahagoni-Tisch</string>
 	<string key="Dye1_RecipeName">Farbe: Waldgrün</string>
-	<string key="Dye2_RecipeName">Farbe: Grasgrün</string>
-	<string key="Dye3_RecipeName">Farbe: Limettengrün</string>
+	<string key="Dye3_RecipeName" rel_version="Entitlements_November">Farbe: Limettengrün</string>
 	<string key="Dye4_RecipeName">Farbe: Königsblau</string>
 	<string key="Dye5_RecipeName">Farbe: Himmelblau</string>
-	<string key="Dye6_RecipeName">Farbe: Gold</string>
 	<string key="Dye7_RecipeName">Farbe: Senfgelb</string>
 	<string key="Dye8_RecipeName">Farbe: Blassgelb</string>
 	<string key="Dye9_RecipeName">Farbe: Ocker</string>
@@ -1308,11 +1297,11 @@
 	<string key="Dye20_RecipeName">Kriegsblau</string>
 	<string key="Dye21_RecipeName">Kriegsrot</string>
 	<string key="Dye22_RecipeName">Amazon-Orange</string>
-	<string key="Dye23_RecipeName">Twitch-Lila</string>
+	<string key="Dye23_RecipeName" rel_version="Entitlements_November">Twitch-Lila</string>
 	<string key="Dye24_RecipeName">Schwarz</string>
 	<string key="Dye25_RecipeName">Weiß</string>
 	<string key="Dye26_RecipeName">Rot</string>
-	<string key="Dye27_RecipeName">Schiffsgrau</string>
+	<string key="Dye27_RecipeName" rel_version="Entitlements_November">Schiffsgrau</string>
 	<string key="Dye28_RecipeName">Frostiger Basalt</string>
 	<string key="Dye29_RecipeName">Steinkohlebrösel</string>
 	<string key="Dye30_RecipeName">Scarpa-Fluss</string>
@@ -1321,13 +1310,11 @@
 	<string key="Dye33_RecipeName">Trüb</string>
 	<string key="Dye34_RecipeName">Natürliches Grau</string>
 	<string key="Dye35_RecipeName">Pistolenrauch</string>
-	<string key="Dye36_RecipeName">Unreine Perle</string>
 	<string key="Dye37_RecipeName">Edles Bein</string>
 	<string key="Dye38_RecipeName">Detritus</string>
 	<string key="Dye39_RecipeName">Sattelbraun</string>
 	<string key="Dye40_RecipeName">Angelaufener Obsidian</string>
 	<string key="Dye41_RecipeName">Dunkle Bräune</string>
-	<string key="Dye42_RecipeName">Sandelholz</string>
 	<string key="Dye43_RecipeName">Waldflechte</string>
 	<string key="Dye44_RecipeName">Rostbraun</string>
 	<string key="Dye45_RecipeName">Staub</string>
@@ -1340,8 +1327,7 @@
 	<string key="Dye52_RecipeName">Korallgrell</string>
 	<string key="Dye53_RecipeName">Paradies-Zinnober</string>
 	<string key="Dye54_RecipeName">Amaranth</string>
-	<string key="Dye55_RecipeName">Rouge</string>
-	<string key="Dye56_RecipeName">Viola</string>
+	<string key="Dye56_RecipeName">Veilchen</string>
 	<string key="Dye57_RecipeName">Rosenstein</string>
 	<string key="Dye58_RecipeName">Steppenläufer</string>
 	<string key="Dye59_RecipeName">Meeresmuschel</string>
@@ -1359,37 +1345,32 @@
 	<string key="Dye71_RecipeName">Zimtbraun</string>
 	<string key="Dye72_RecipeName">Schattenmoos</string>
 	<string key="Dye73_RecipeName">Butterrum</string>
-	<string key="Dye74_RecipeName">Lehm</string>
+	<string key="Dye74_RecipeName" rel_version="Entitlements_November">Lehm</string>
 	<string key="Dye75_RecipeName">Natürliche Siena</string>
 	<string key="Dye76_RecipeName">Feiner Sand</string>
 	<string key="Dye77_RecipeName">Erntegerste</string>
 	<string key="Dye78_RecipeName">Splitt</string>
-	<string key="Dye79_RecipeName">Blond</string>
 	<string key="Dye80_RecipeName">Zwirn</string>
 	<string key="Dye81_RecipeName">Verdun-Grün</string>
 	<string key="Dye82_RecipeName">Sumpfgras</string>
 	<string key="Dye83_RecipeName">Herbstmoos</string>
 	<string key="Dye84_RecipeName">Warmer Schleim</string>
-	<string key="Dye85_RecipeName">Sushi-Grün</string>
 	<string key="Dye86_RecipeName">Avocado</string>
 	<string key="Dye87_RecipeName">Tropennebel</string>
-	<string key="Dye88_RecipeName">Saure Limette</string>
+	<string key="Dye88_RecipeName" rel_version="Entitlements_November">Saure Limette</string>
 	<string key="Dye89_RecipeName">Waldgrün</string>
-	<string key="Dye90_RecipeName">Grasgrün</string>
 	<string key="Dye91_RecipeName">Angelaufener Jade</string>
 	<string key="Dye92_RecipeName">Pesto</string>
 	<string key="Dye93_RecipeName">Keilholz</string>
-	<string key="Dye94_RecipeName">Fangschrecke</string>
 	<string key="Dye95_RecipeName">Rauchiger Malachit</string>
 	<string key="Dye96_RecipeName">Viridian-Grün</string>
 	<string key="Dye97_RecipeName">Ruhige Weide</string>
 	<string key="Dye98_RecipeName">Tiefsee-Grün</string>
 	<string key="Dye99_RecipeName">Mineralgrün</string>
-	<string key="Dye100_RecipeName">Engelssatin</string>
 	<string key="Dye101_RecipeName">Schloss-Aquamarin</string>
 	<string key="Dye102_RecipeName">Zartes Cyan</string>
 	<string key="Dye103_RecipeName">Passatwind</string>
-	<string key="Dye104_RecipeName">Verborgener Strom</string>
+	<string key="Dye104_RecipeName" rel_version="Entitlements_November">Verborgener Strom</string>
 	<string key="Dye105_RecipeName">Fahles Kobalt</string>
 	<string key="Dye106_RecipeName">Wacholder</string>
 	<string key="Dye107_RecipeName">Sternenlicht</string>
@@ -1397,8 +1378,6 @@
 	<string key="Dye109_RecipeName">Gebläuter Stahl</string>
 	<string key="Dye110_RecipeName">Komet</string>
 	<string key="Dye111_RecipeName">Aurorablau</string>
-	<string key="Dye112_RecipeName">Brillanter Saphir</string>
-	<string key="Dye113_RecipeName">Wildes Kobalt</string>
 	<string key="Dye114_RecipeName">Hollunderbeere</string>
 	<string key="Dye115_RecipeName">Beerenkern</string>
 	<string key="Dye116_RecipeName">Rauer Amethyst</string>
@@ -1406,10 +1385,8 @@
 	<string key="Dye118_RecipeName">Schmetterlingsflügel</string>
 	<string key="Dye119_RecipeName">Souveränes Lila</string>
 	<string key="Dye120_RecipeName">Kaltes Violett</string>
-	<string key="Dye121_RecipeName">Ruhige Blüte</string>
 	<string key="Dye122_RecipeName">Gebranntes Lila</string>
-	<string key="Dye123_RecipeName">Dunkler Samt</string>
-	<string key="Dye124_RecipeName">Zerdrückte Beere</string>
+	<string key="Dye123_RecipeName" rel_version="Entitlements_November">Dunkler Samt</string>
 	<string key="Dye125_RecipeName">Herbes Violett</string>
 	<string key="Dye126_RecipeName">Faule Pflaume</string>
 	<string key="Dye127_RecipeName">Gänseblümchenrosa</string>

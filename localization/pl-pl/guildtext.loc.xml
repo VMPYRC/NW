@@ -21,7 +21,7 @@
 	<string key="ui_friendleftmessage">Gracz &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; opuszcza grę!</string>
 	<string key="ui_friendremovedmessage">{playerName} nie jest już twoim znajomym.</string>
 	<string key="ui_friendremovedtitle">Znajomy usunięty</string>
-	<string key="ui_friendrequestrecipientmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; chce dołączyć do twoich znajomych. Naciśnij „Esc”, aby otworzyć menu społecznościowe.</string>
+	<string key="ui_friendrequestrecipientmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; chce dołączyć do twoich znajomych. Naciśnij "Esc", aby otworzyć menu społecznościowe.</string>
 	<string key="ui_friendrequestsendermessage">Poproszono gracza {playerName} o dodanie do znajomych.</string>
 	<string key="ui_friendrequesttitle">Zaproszenie do znajomych</string>
 	<string key="ui_friendshipacceptedmessage">Należysz teraz do znajomych gracza &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
@@ -83,7 +83,7 @@
 	<string key="ui_guildnamechangemessage">Zmieniono nazwę kompanii na &lt;font color="#9e947e"&gt;{guildName}&lt;/font&gt;.</string>
 	<string key="ui_guildnamechangetitle">Zmiana nazwy kompanii</string>
 	<string key="ui_guildnamehere">Tu nazwa kompanii</string>
-	<string key="ui_guildnameinusemessage">Nazwa „{guildName}” jest zajęta.</string>
+	<string key="ui_guildnameinusemessage">Nazwa "{guildName}" jest zajęta.</string>
 	<string key="ui_guildmessageofthedayhere">Tu kompanijna wiadomość dnia</string>
 	<string key="ui_guildmessageofthedaytitle">Wiadomość dnia</string>
 	<string key="ui_guildofficer">Konsul</string>
@@ -187,7 +187,8 @@
 	<string key="ui_kickfromcompany">Usuń z kompanii</string>
 	<string key="ui_kickguildmember_confirm">Czy na pewno chcesz usunąć gracza {playerName} z kompanii?</string>
 	<string key="ui_leaveguild">Opuść kompanię</string>
-	<string key="ui_leaveguild_confirm">Czy na pewno chcesz opuścić kompanię?\n\nJeśli to zrobisz, inny członek kompanii zostanie mianowany zarządcą, a kompania zachowa wszystkie swoje aktywa, którymi będzie rozporządzał nowy zarządca.</string>
+	<string key="ui_leaveguild_confirm">Czy na pewno chcesz opuścić kompanię?</string>
+	<string key="ui_leaveguild_governor_confirm">Czy na pewno chcesz opuścić kompanię?\n\nJeśli to zrobisz, inny członek kompanii zostanie mianowany zarządcą, a kompania zachowa wszystkie swoje aktywa, którymi będzie rozporządzał nowy zarządca.</string>
 	<string key="ui_leaveguild_alone_confirm">Czy na pewno chcesz opuścić kompanię?\n\nTylko ty należysz do tej kompanii. Jeśli ją opuścisz, przepadną wszystkie jej aktywa.</string>
 	<string key="ui_leftguildmessage">Opuszczono kompanię.</string>
 	<string key="ui_modifycrest">Zmień herb</string>
@@ -225,7 +226,8 @@
 	<string key="ui_permission_demolish_territories">Likwidowanie terytoriów kompanii: {allowed}</string>
 	<string key="ui_permission_declare_war">Wypowiadanie wojen i ustalanie okresu oblężenia: {allowed}</string>
 	<string key="ui_permission_treasury_deposit">Wpłaty do skarbca kompanii: {allowed}</string>
-	<string key="ui_permission_treasury_withdraw">Wypłaty ze skarbca kompanii: {allowed}</string>
+	<string key="ui_permission_treasury_withdraw">Wypłaty ze skarbca kompanii w ramach limitu dziennego: {allowed}</string>
+	<string key="ui_permission_treasury_withdraw_unlimited">Wypłaty ze skarbca kompanii w dowolnej kwocie: {allowed}</string>
 	<string key="ui_permission_treasury_set_daily_limit">Ustawianie dziennego limitu wypłat ze skarbca: {allowed}</string>
 	<string key="ui_permission_territory_project_management">Rozpoczynanie i anulowanie ulepszeń terytorium: {allowed}</string>
 	<string key="ui_permission_territory_taxation">Zmienianie opodatkowania terytorium: {allowed}</string>
@@ -236,7 +238,7 @@
 	<string key="ui_promote">Awansuj</string>
 	<string key="ui_promote_transfer_owner">Przekaż prawo własności</string>
 	<string key="ui_promotetoguildmaster_confirm_title">Przekazać kompanię?</string>
-	<string key="ui_promotetoguildmaster_confirm">Czy na pewno chcesz przenieść prawo własności kompanii na gracza {memberName}?\n\nWszyscy członkowie, ziemie, obiekty i fundusze kompanii {guildName} staną się własnością kompanii gracza {memberName}. Herb i nazwa zmienią się na herb kompanii i nazwę kompanii gracza {memberName}. Twoja postać zostanie zdegradowana o jeden stopień i {guildName} będzie mieć 0 członków i posiadanych elementów.\n\nTej czynności nie można cofnąć, a zmiana zostanie wprowadzona w życie natychmiast.</string>
+	<string key="ui_promotetoguildmaster_confirm">Czy na pewno chcesz przekazać zarządzanie kompanią graczowi {memberName}?\n\nWszyscy członkowie, ziemie, obiekty i fundusze kompanii {guildName} znajdą się pod nadzorem gracza {memberName} jako nowego zarządcy kompanii {guildName}. Nazwa i herb kompanii pozostaną bez zmian. Twoja postać zostanie zdegradowana o jeden stopień.\n\nTej czynności nie można cofnąć, a zmiana zostanie wprowadzona w życie natychmiast.</string>
 	<string key="ui_rank">Stopień</string>
 	<string key="ui_rankmovedowndisabled">To jest najniższy stopień.</string>
 	<string key="ui_rankmoveupdisabled">Nie można przenieść powyżej stopnia {gmRankName}.</string>
@@ -420,8 +422,10 @@
 	<string key="ui_guildclaimsowned">Posiadane terytoria</string>
 	<string key="ui_guildoneclaimowned">Posiadane terytorium</string>
 	<string key="ui_acceptguildinvitepopuptitle">Wstąpić do nowej kompanii?</string>
+	<string key="ui_acceptguildinvitepopupmessage_noguild">Czy na pewno chcesz wstąpić do nowej kompanii?</string>
 	<string key="ui_acceptguildinvitepopupmessage_hasclaims">Posiadane przez ciebie terytoria nie zostaną przeniesione do nowej kompanii. Kompania, którą opuszczasz, utrzyma nad nimi kontrolę. Kompanie, które zechcą przejąć kontrolę nad tymi terytoriami, będą musiały przejść przez proces wypowiedzenia wojny.</string>
-	<string key="ui_acceptguildinvitepopupmessage_noclaims">Czy na pewno chcesz opuścić swoją aktualną kompanię i wstąpić do nowej?\nPonowne dołączenie do tej kompanii nie będzie możliwe przez {rejoinTime}. Dołączenie do nowej kompanii nie będzie możliwe przez {switchTime}.</string>
+	<string key="ui_acceptguildinvitepopupmessage_noclaims_time_remaining">Czy na pewno chcesz opuścić swoją aktualną kompanię i wstąpić do nowej?\nPonowne dołączenie do tej kompanii nie będzie możliwe przez {rejoinTime}. Dołączenie do nowej kompanii nie będzie możliwe przez {switchTime}.</string>
+	<string key="ui_acceptguildinvitepopupmessage_noclaims">Czy na pewno chcesz opuścić swoją obecną kompanię i wstąpić do nowej?</string>
 	<string key="ui_cantchangerank_iscurrentrank">To obecny stopień członka</string>
 	<string key="ui_cantpromote_maxrank">Gracz ma już najwyższy możliwy stopień</string>
 	<string key="ui_cantpromote_leaderatwar">Nie można zmienić kapitana kompanii w trakcie wojny.</string>
@@ -441,8 +445,8 @@
 	<string key="ui_can">dozwolone</string>
 	<string key="ui_cannot">niedozwolone</string>
 	<string key="ui_guildnamewithrank">{guildName} ({rankName})</string>
-	<string key="ui_guildnamewithrankandtitle">{guildName} ({rankName}) | „{playerTitle}”</string>
-	<string key="ui_noguildonlytitle">„{playerTitle}”</string>
+	<string key="ui_guildnamewithrankandtitle">{guildName} ({rankName}) | "{playerTitle}"</string>
+	<string key="ui_noguildonlytitle">"{playerTitle}"</string>
 	<string key="ui_refreshpage">Odśwież stronę</string>
 	<string key="ui_setconquest">Ustaw okres oblężenia</string>
 	<string key="ui_setconquestwindowtitle">Zaproponuj długość trwania okresu oblężenia</string>
@@ -541,7 +545,7 @@
 	<string key="ui_siege_set_backfill_failed_not_permitted_invasion">Stanu listy nie można zmienić na czas inwazji</string>
 	<string key="ui_siege_set_backfill_failed">Wystąpił problem podczas zmiany stanu listy.</string>
 	<string key="ui_siege_standby_page_text">Strona {currentPage}/{totalPages}</string>
-	<string key="ui_treasury_governor">Zarządca kompanii może wypłacić dowolną liczbę monet ze skarbca.</string>
+	<string key="ui_treasury_withdrawal_desc">Zarządca kompanii i konsulowie mogą pobrać ze skarbca dowolną kwotę. Oficerowie nie mogą przekroczyć dziennego limitu ustalonego przez zarządcę.</string>
 	<string key="ui_companylog_checkbox_selectAll">Zaznacz wszystko</string>
 	<string key="ui_companylog_checkbox_invites">Zaproszenia</string>
 	<string key="ui_companylog_checkbox_rankChange">Zmiana stopnia</string>
@@ -555,7 +559,7 @@
 	<string key="ui_war_invite_name">Wojna/inwazja</string>
 	<string key="ui_invasion_invite_name">Inwazja</string>
 	<string key="ui_invasion">Inwazja</string>
-	<string key="ui_armory">Zbrojownia.</string>
+	<string key="ui_armory">Zbrojownia</string>
 	<string key="ui_war_time_dec_remaining">Czas pozostały na wypowiedzenie wojny: {time}</string>
 	<string key="ui_in_conflict">W trakcie konfliktu</string>
 	<string key="ui_war_refund_tooltip">Monety wydane na wypowiedzenie wojny zostaną odzyskane, jeśli twoja kompania nie zostanie do niej wybrana.</string>

@@ -45,6 +45,7 @@
 	<string key="ui_enter_recipient">Spielernamen eingeben</string>
 	<string key="ui_error_whisper_block">Zum Flüstern musst du die Blockierung/Stummschaltung aufheben</string>
 	<string key="ui_error_whisper_no_recipient">Der gewünschte Empfänger der Flüsternachricht wurde nicht gefunden.</string>
+	<string key="ui_error_whisper_streamermodeblock" comment="Sent whisper to a player with streamer mode enabled">Nachricht nicht versendet. {playerName} hat den Bitte-nicht-stören-Modus aktiviert.</string>
 	<string key="ui_invalidguildname">Ungültiger Kompaniename</string>
 	<string key="ui_guildname_invalid_characters">Der Kompaniename kann nicht geändert werden, da ungültige Zeichen enthalten sind.</string>
 	<string key="ui_guildname_too_long">Der Kompaniename kann nicht geändert werden, da die Länge ungültig ist.</string>
@@ -69,6 +70,7 @@
 	<string key="ui_voip_input_device_failed">VOIP-Mikrofon funktioniert nicht</string>
 	<string key="ui_voip_output_device_failed">VOIP-Lautsprecher funktioniert nicht</string>
 	<string key="ui_voip_channel_joined">VOIP-Kanal beigetreten</string>
+	<string key="ui_voip_registration_restricted">VOIP bei Nähe deaktiviert – Konto zu neu oder gesperrt</string>
 	<string key="trade_quantity">Menge</string>
 	<string key="trade_title">Zum Handeln verfügbar</string>
 	<string key="trade_total">Insgesamt</string>
@@ -113,6 +115,8 @@
 	<string key="ui_friend_invites">Freundschaftseinladungen</string>
 	<string key="ui_guild_invites">Kompanieeinladungen</string>
 	<string key="ui_event_invites">Einladungen zu Ereignissen</string>
+	<string key="ui_leave_group">Gruppe verlassen</string>
+	<string key="ui_voice_chat">Sprachchat</string>
 	<string key="ui_blocked">Ignoriert</string>
 	<string key="ui_blocked_player">Spieler erfolgreich blockiert</string>
 	<string key="ui_unblocked_player">Blockierung des Spielers erfolgreich aufgehoben</string>
@@ -146,6 +150,7 @@
 	<string key="ui_p2ptrading_failmessage_target_event">{playerName} befindet sich in einem Krieg, einer Invasion oder einem Bosskampf.</string>
 	<string key="ui_p2ptrading_failmessage_target_level">{playerName} ist nicht auf Stufe {level}.</string>
 	<string key="ui_p2ptrading_failmessage_target_generic">{playerName} kann zurzeit keine Handelseinladungen empfangen.</string>
+	<string key="ui_p2ptrading_failmessage_throttled">Du kannst zurzeit keine Handelseinladungen verschicken. Bitte warte einen Moment und versuche es später erneut.</string>
 	<string key="ui_p2ptrading_failmessage_additem_maximum">Höchstmenge an Gegenständen überschritten.</string>
 	<string key="ui_p2ptrading_failmessage_additem_restricted">Dieser Gegenstand kann nicht gehandelt werden.</string>
 	<string key="ui_p2ptrading_failmessage_additem_bound">Dieser Gegenstand ist an dich gebunden und kann nicht gehandelt werden.</string>
@@ -154,6 +159,7 @@
 	<string key="ui_p2ptrading_failmessage_offerupdate_maxitemsexceeded">Höchstmenge an Gegenständen überschritten.</string>
 	<string key="ui_p2ptrading_failmessage_offerupdate_invalidcoinamount">Ungültige Talermenge.</string>
 	<string key="ui_p2ptrading_failmessage_offerupdate_tradealreadyconfirmed">Der Handel wurde bereits bestätigt.</string>
+	<string key="ui_p2ptrading_failmessage_offerupdate_cannotreceiveitems">Inventar ist voll – angebotene Gegenstände können derzeit nicht aufgenommen werden.</string>
 	<string key="ui_p2ptrading_failmessage_tradeconfirmation_bothplayersnotlockedin">Kein Spieler hat die Auswahl festgelegt.</string>
 	<string key="ui_p2ptrading_failmessage_tradeconfirmation_confirmedtoosoon">Der Handel wurde zu früh bestätigt.</string>
 	<string key="ui_p2ptrading_failmessage_transactionfailure_bothplayersnotconfirmed">Kein Spieler hat den Handel bestätigt.</string>
@@ -161,8 +167,14 @@
 	<string key="ui_p2ptrading_failmessage_transactionfailure_failedtoremoveitemsorcoin">Entfernen von Gegenständen oder Talern fehlgeschlagen.</string>
 	<string key="ui_p2ptrading_failmessage_transactionfailure_transactionaborted">Transaktion abgebrochen.</string>
 	<string key="ui_p2ptrading_failmessage_transactionfailure_tradecanceled">Handel abgebrochen.</string>
+	<string key="ui_p2ptrading_failmessage_playersoutofrange">Spieler nicht mehr in Reichweite.</string>
 	<string key="ui_p2ptrading_failmessage_somethingwentwrong">Es ist etwas schiefgegangen.</string>
+	<string key="ui_p2ptrading_failmessage_atmaxcurrency">Ein oder mehr Spieler werden die Talerkapazität überschreiten.</string>
+	<string key="ui_p2ptrading_failmessage_dont_meet_requirements">Du musst mindestens Stufe 10 erreicht haben und dein Konto muss mindestens 3 Tage alt sein, um handeln zu können.</string>
 	<string key="ui_p2ptrading_trade_completed">Handel abgeschlossen.</string>
+	<string key="ui_p2ptrading_overflow_title">Inventar voll</string>
+	<string key="ui_p2ptrading_overflow_message">Einige erhaltene Gegenstände passen nicht mehr in dein Inventar und wurden auf dem Boden abgelegt.</string>
+	<string key="ui_p2ptrading_inventory_full_warning">Dein Inventar ist (fast) voll.\nMöglicherweise können keine weiteren Gegenstände aufgenommen werden.</string>
 	<string key="ui_invite_to_group">In Gruppe einladen</string>
 	<string key="ui_invite_to_guild">In Kompanie einladen</string>
 	<string key="ui_acceptfriendinvite">Einladung annehmen</string>
@@ -180,6 +192,7 @@
 	<string key="ui_friends_confirm_invite_title">Einladung bestätigen</string>
 	<string key="ui_friends_invite_blocked_player">Möchtest du den Spieler wirklich nicht mehr blockieren und eine Freundschaftseinladung schicken?</string>
 	<string key="ui_maxfriendsreached">Du kannst maximal {maxFriends} Freunde haben.</string>
+	<string key="ui_invalidfriend">Der angegebene Spieler ist nicht mehr gültig.</string>
 	<string key="ui_sendguildinvite">Kompanieeinladung senden</string>
 	<string key="ui_guild">Kompanie</string>
 	<string key="ui_war_declared_chat_notification">{guild1} hat {guild2} den Krieg um die Kontrolle über {territoryName} erklärt!</string>
@@ -233,12 +246,14 @@
 	<string key="ui_twitch_logoutfailed_popup_message">Bei der Abmeldung von deinem Twitch-Konto gab es ein Problem.</string>
 	<string key="ui_twitch_validation_failed_title">Twitch-Anmeldung fehlgeschlagen</string>
 	<string key="ui_twitch_validation_failed_message">Die Verifizierung deines Twitch-Kontos ist fehlgeschlagen. Twitch-Funktionen werden nicht aktiviert. Bitte melde dich erneut an.</string>
-	<string key="ui_spotlight_viewers">&lt;img src="LyShineUI/Images/Icons/Twitch/iconViewers" scale="2.5" yOffset="4.5"&gt;&lt;/img&gt;{viewers}</string>
-	<string key="ui_spotlight_notconnected">Spotlight fehlgeschlagen</string>
-	<string key="ui_spotlight_connecting">Spotlight wird gestartet</string>
+	<string key="ui_spotlight_viewer">1 Zuschauer</string>
+	<string key="ui_spotlight_viewers">{viewers} Zuschauer</string>
+	<string key="ui_spotlight_failed">&lt;font color="#835acd"&gt;Wichtiges:&lt;/font&gt; &lt;font color="#f25d5d"&gt; Fehlgeschlagen&lt;/font&gt;</string>
+	<string key="ui_spotlight_notconnected">&lt;font color="#835acd"&gt;Wichtiges:&lt;/font&gt; &lt;font color="#f25d5d"&gt; Nicht verbunden&lt;/font&gt;</string>
+	<string key="ui_spotlight_connecting">&lt;font color="#835acd"&gt;Wichtiges:&lt;/font&gt; &lt;font color="#ffffff"&gt; Startet&lt;/font&gt;</string>
 	<string key="ui_spotlight_failed_notification_title">Verbindungsfehler</string>
 	<string key="ui_spotlight_failed_notification_message">Das Twitch-Streamer-Spotlight konnte nicht gestartet werden. Stelle sicher, dass dein Stream online ist, und versuche es erneut.</string>
-	<string key="ui_spotlight_error">Spotlight-Fehler</string>
+	<string key="ui_spotlight_error">&lt;font color="#835acd"&gt;Wichtiges:&lt;/font&gt; &lt;font color="#f25d5d"&gt; Fehler&lt;/font&gt;</string>
 	<string key="ui_subarmy_title">Twitch-Abonnentenarmee</string>
 	<string key="ui_subarmy_join_desc">Tritt der Abonnementsarmeesitzung anderer Streamer bei.</string>
 	<string key="ui_subarmy_subtitle_sessions">{number} Sitzungen verfügbar</string>
@@ -324,7 +339,7 @@
 	<string key="ui_faction_bonus_gaathering">Sammelbonus</string>
 	<string key="ui_faction_fast_travel_discount">Schnellreiserabatt</string>
 	<string key="ui_trade_window_title">HANDELN MIT {playerName}</string>
-	<string key="ui_trade_lock_in">Einsperren</string>
+	<string key="ui_trade_lock_in">Angebot festlegen</string>
 	<string key="ui_trade_waiting_for_lock_in">Warten</string>
 	<string key="ui_trade_confirm_countdown">{remaining}</string>
 	<string key="ui_trade_confirm">Handel</string>

@@ -45,6 +45,7 @@
 	<string key="ui_enter_recipient">Insira o Nome do Jogador</string>
 	<string key="ui_error_whisper_block">Desbloquear/Reativar som de destinatário para enviar sussurro</string>
 	<string key="ui_error_whisper_no_recipient">Não foi possível encontrar o destinatário</string>
+	<string key="ui_error_whisper_streamermodeblock" comment="Sent whisper to a player with streamer mode enabled">Mensagem não enviada. {playerName} ativou o modo Não Perturbe.</string>
 	<string key="ui_invalidguildname">Nome de Companhia Inválido</string>
 	<string key="ui_guildname_invalid_characters">Não foi possível alterar o nome da companhia - contém caracteres inválidos</string>
 	<string key="ui_guildname_too_long">Não foi possível alterar o nome da companhia - tamanho inválido</string>
@@ -69,6 +70,7 @@
 	<string key="ui_voip_input_device_failed">Falha no Dispositivo de Entrada do VoIP</string>
 	<string key="ui_voip_output_device_failed">Falha no Dispositivo de Saída do VoIP</string>
 	<string key="ui_voip_channel_joined">Entrou no Canal de VoIP</string>
+	<string key="ui_voip_registration_restricted">VoIP de Proximidade Desativado - Conta Recente Demais ou Bloqueada</string>
 	<string key="trade_quantity">Quantidade</string>
 	<string key="trade_title">Disponível para Negociação</string>
 	<string key="trade_total">Preço</string>
@@ -113,6 +115,8 @@
 	<string key="ui_friend_invites">Convites de Amizade</string>
 	<string key="ui_guild_invites">Convites de Companhia</string>
 	<string key="ui_event_invites">Convites de Eventos</string>
+	<string key="ui_leave_group">Sair do Grupo</string>
+	<string key="ui_voice_chat">Chat de Voz</string>
 	<string key="ui_blocked">Bloqueados</string>
 	<string key="ui_blocked_player">Jogador bloqueado com sucesso</string>
 	<string key="ui_unblocked_player">Jogador desbloqueado com sucesso</string>
@@ -146,6 +150,7 @@
 	<string key="ui_p2ptrading_failmessage_target_event">{playerName} está em uma guerra/invasão/batalha de chefão.</string>
 	<string key="ui_p2ptrading_failmessage_target_level">{playerName} não está no nível {level}.</string>
 	<string key="ui_p2ptrading_failmessage_target_generic">{playerName} não pode receber convites de Negociação no momento.</string>
+	<string key="ui_p2ptrading_failmessage_throttled">Você não pode enviar um convite de Negociação no momento. Aguarde e tente novamente.</string>
 	<string key="ui_p2ptrading_failmessage_additem_maximum">O número máximo de itens foi excedido.</string>
 	<string key="ui_p2ptrading_failmessage_additem_restricted">Este item não é negociável.</string>
 	<string key="ui_p2ptrading_failmessage_additem_bound">Este item está vinculado a você e não pode ser negociado.</string>
@@ -154,6 +159,7 @@
 	<string key="ui_p2ptrading_failmessage_offerupdate_maxitemsexceeded">O número máximo de itens foi excedido.</string>
 	<string key="ui_p2ptrading_failmessage_offerupdate_invalidcoinamount">Quantia de moedas inválida.</string>
 	<string key="ui_p2ptrading_failmessage_offerupdate_tradealreadyconfirmed">A negociação já foi confirmada.</string>
+	<string key="ui_p2ptrading_failmessage_offerupdate_cannotreceiveitems">Inventário cheio: você não pode receber os itens oferecidos no momento.</string>
 	<string key="ui_p2ptrading_failmessage_tradeconfirmation_bothplayersnotlockedin">Nenhum dos jogadores travou os itens para negociação.</string>
 	<string key="ui_p2ptrading_failmessage_tradeconfirmation_confirmedtoosoon">A negociação foi confirmada cedo demais.</string>
 	<string key="ui_p2ptrading_failmessage_transactionfailure_bothplayersnotconfirmed">Nenhum dos jogadores confirmou a negociação.</string>
@@ -161,8 +167,14 @@
 	<string key="ui_p2ptrading_failmessage_transactionfailure_failedtoremoveitemsorcoin">Falha ao remover itens ou moedas.</string>
 	<string key="ui_p2ptrading_failmessage_transactionfailure_transactionaborted">Transação abortada.</string>
 	<string key="ui_p2ptrading_failmessage_transactionfailure_tradecanceled">Negociação cancelada.</string>
+	<string key="ui_p2ptrading_failmessage_playersoutofrange">Jogador fora do alcance.</string>
 	<string key="ui_p2ptrading_failmessage_somethingwentwrong">Algo deu errado.</string>
+	<string key="ui_p2ptrading_failmessage_atmaxcurrency">Um ou mais jogadores excederão o máximo de moedas.</string>
+	<string key="ui_p2ptrading_failmessage_dont_meet_requirements">Você deve estar no nível 10 e ter uma conta com mais de 3 dias para negociar.</string>
 	<string key="ui_p2ptrading_trade_completed">Negociação concluída.</string>
+	<string key="ui_p2ptrading_overflow_title">Inventário Cheio</string>
+	<string key="ui_p2ptrading_overflow_message">Alguns dos itens que você recebeu não couberam em seu inventário e foram largados no chão.</string>
+	<string key="ui_p2ptrading_inventory_full_warning">Seu inventário está cheio ou quase cheio.\nTalvez você não possa aceitar itens recebidos.</string>
 	<string key="ui_invite_to_group">Convidar para Grupo</string>
 	<string key="ui_invite_to_guild">Convidar para Companhia</string>
 	<string key="ui_acceptfriendinvite">Aceitar Amizade</string>
@@ -180,6 +192,7 @@
 	<string key="ui_friends_confirm_invite_title">Confirmar Amizade</string>
 	<string key="ui_friends_invite_blocked_player">Tem certeza de que deseja desbloquear este jogador e enviar um convite de amizade a ele?</string>
 	<string key="ui_maxfriendsreached">Você só pode ter {maxFriends} amigos.</string>
+	<string key="ui_invalidfriend">O jogador especificado não é mais válido.</string>
 	<string key="ui_sendguildinvite">Enviar Convite de Companhia</string>
 	<string key="ui_guild">Companhia</string>
 	<string key="ui_war_declared_chat_notification">{guild1} declarou guerra contra {guild2} pelo domínio de {territoryName}!</string>
@@ -233,12 +246,14 @@
 	<string key="ui_twitch_logoutfailed_popup_message">Ocorreu um problema ao se conectar em sua conta na Twitch.</string>
 	<string key="ui_twitch_validation_failed_title">Falha ao Conectar à Twitch</string>
 	<string key="ui_twitch_validation_failed_message">Falha ao validar sua conta da Twitch. Os recursos da Twitch não funcionarão. Por favor, tente conectar-se novamente.</string>
-	<string key="ui_spotlight_viewers">&lt;img src="LyShineUI/Images/Icons/Twitch/iconViewers" scale="2.5" yOffset="4.5"&gt;&lt;/img&gt;{viewers}</string>
-	<string key="ui_spotlight_notconnected">Falha ao Iniciar Destaque</string>
-	<string key="ui_spotlight_connecting">Iniciando Destaque</string>
+	<string key="ui_spotlight_viewer">1 espectador</string>
+	<string key="ui_spotlight_viewers">{viewers} espectadores</string>
+	<string key="ui_spotlight_failed">&lt;font color="#835acd"&gt;Destaque:&lt;/font&gt; &lt;font color="#f25d5d"&gt; Falhou&lt;/font&gt;</string>
+	<string key="ui_spotlight_notconnected">&lt;font color="#835acd"&gt;Destaque:&lt;/font&gt; &lt;font color="#f25d5d"&gt; Não Conectado&lt;/font&gt;</string>
+	<string key="ui_spotlight_connecting">&lt;font color="#835acd"&gt;Destaque:&lt;/font&gt; &lt;font color="#ffffff"&gt; Iniciando&lt;/font&gt;</string>
 	<string key="ui_spotlight_failed_notification_title">A Conexão Falhou</string>
 	<string key="ui_spotlight_failed_notification_message">Não foi possível iniciar o Destaque de Streamers da Twitch. Certifique-se de que sua transmissão esteja ao vivo e tente novamente.</string>
-	<string key="ui_spotlight_error">Erro ao Iniciar Destaque</string>
+	<string key="ui_spotlight_error">&lt;font color="#835acd"&gt;Destaque:&lt;/font&gt; &lt;font color="#f25d5d"&gt; Erro&lt;/font&gt;</string>
 	<string key="ui_subarmy_title">Tropa de Inscritos na Twitch</string>
 	<string key="ui_subarmy_join_desc">Entre na sessão da tropa de inscritos de outros streamers.</string>
 	<string key="ui_subarmy_subtitle_sessions">{number} sessões disponíveis</string>

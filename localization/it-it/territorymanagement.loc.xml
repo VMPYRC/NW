@@ -101,6 +101,8 @@
 	<string key="ui_leaving_settlement_no_inn">Non registrato</string>
 	<string key="ui_leaving_settlement_inn_elsewhere">Stai partendo senza registrarti alla locanda, la locanda attuale si trova a {territoryName} {distance}</string>
 	<string key="ui_cancel_town_project">Annulla questo progetto cittadino</string>
+	<string key="ui_cancel_on_cooldown">Potrai annullare tra {time}</string>
+	<string key="ui_start_on_cooldown">Potrai iniziare un nuovo progetto tra {time}</string>
 	<string key="ui_cancel_project_title">Vuoi procedere?</string>
 	<string key="ui_cancel_project_desc">Vuoi davvero annullare questo progetto? I progressi compiuti finora andranno persi.</string>
 	<string key="ui_replace_project_desc">Avvertimento: Vuoi davvero sostituire il progetto attivo? I progressi per il progetto attivo di questo tipo andranno persi.</string>
@@ -231,7 +233,7 @@
 	<string key="ui_fortressinfo_defenderlabel">(in difesa)</string>
 	<string key="ui_fortressinfo_invasionattackername">I Corrotti</string>
 	<string key="ui_fortressinfo_timetodeclare">Tempo per dichiarare guerra:</string>
-	<string key="ui_fortressinfo_timetodeclare_paused_invasion">Paused (Invasion)</string>
+	<string key="ui_fortressinfo_timetodeclare_paused_invasion">In pausa (invasione)</string>
 	<string key="ui_fortressinfo_conflictdescription">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;Non otterrai più influenza&lt;/font&gt; in questo territorio fino a quando l'esito della guerra non sarà stato determinato. (Tutte le altre ricompense delle missioni della fazione, come PE e monete, sono disponibili.)\n\nSe più compagnie che hanno contribuito all'influenza dichiarano guerra, ne verrà selezionata una casualmente.</string>
 	<string key="ui_fortressinfo_noconflict">Territorio non in conflitto</string>
 	<string key="ui_fortressinfo_contributionnotrequired">Nessuna compagnia ha contribuito abbastanza influenza, quindi qualsiasi compagnia può dichiarare guerra.</string>
@@ -505,6 +507,7 @@
 	<string key="ui_project_in_progress">Questo progetto cittadino è attualmente in corso.</string>
 	<string key="ui_project_nopermission">Solo i membri della compagnia governante in possesso degli idonei permessi possono avviare e cambiare un progetto cittadino.</string>
 	<string key="ui_project_button_upkeep_overdue">La manutenzione del territorio è arretrata</string>
+	<string key="ui_project_button_upkeep_unclaimed">Territorio non rivendicato</string>
 	<string key="ui_project_tooltip_upkeep_overdue">Non si può avviare un progetto cittadino se la manutenzione del territorio è arretrata</string>
 	<string key="ui_notavailable">NON DISPONIBILE</string>
 	<string key="ui_timelimit">LIMITE DI TEMPO</string>
@@ -540,7 +543,7 @@
 	<string key="ui_firstdayofcycle">Primo giorno della fase</string>
 	<string key="ui_nextupkeepdue">Prossimo mantenimento entro</string>
 	<string key="ui_overdue_penalty">PENALITÀ PER MANUTENZIONE ARRETRATA</string>
-	<string key="ui_town_project">Progetto cittadino</string>
+	<string key="ui_town_project">Progetti cittadini</string>
 	<string key="ui_tax_management">Gestione delle tasse</string>
 	<string key="ui_territorylevel">Livello del territorio</string>
 	<string key="ui_next_penalty">PROSSIMO DECLASSAMENTO TRA</string>

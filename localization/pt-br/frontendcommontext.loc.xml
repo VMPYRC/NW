@@ -200,6 +200,7 @@
 	<string key="mm_authresult_Denied_LoginTokenEndpointInvalid">A autenticação fornecida não é para este mundo.</string>
 	<string key="mm_authresult_Denied_LoginTokenCapabilitiesInvalid">As capacidades listadas do cliente são inválidas.</string>
 	<string key="mm_authresult_Denied_LoginTicketInvalid">O ticket de autenticação utilizado é inválido ou expirou. Tente iniciar a sessão novamente.</string>
+	<string key="mm_authresult_Denied_LoginTokenWrongHost">Você foi roteado para o servidor errado. Tente novamente.</string>
 	<string key="mm_authresult_Denied_EasyAntiCheatFailure">Erro de Configuração de EAC. Confira o site da comunidade de New World para mais informações, https://forums.newworld.com</string>
 	<string key="mm_authresult_Error_InvalidSetup">Autenticação inválida.</string>
 	<string key="mm_authresult_Error_Persona">Falha ao autenticar com o Persona.</string>
@@ -324,6 +325,7 @@
 	<string key="ui_repairing">Reparação</string>
 	<string key="ui_gathering">Coleta</string>
 	<string key="ui_refining">Refinamento</string>
+	<string key="ui_taxes">Impostos</string>
 	<string key="ui_survival">Habilidades Pessoais</string>
 	<string key="ui_weaponsmithing">Forjamento de Armas</string>
 	<string key="ui_armoring">Forjamento de Armaduras</string>
@@ -345,6 +347,7 @@
 	<string key="crafting_repair_requires_kit">Reparo requer {quantityRequired} {itemRequired} de Escala {tierNumber}.</string>
 	<string key="crafting_cannot_repair">Irreparável</string>
 	<string key="crafting_requires_station">É preciso estar na estação adequada.</string>
+	<string key="crafting_repair_no_requirements">Não há requisitos para reparar este item.</string>
 	<string key="inv_salvage_tooltip" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Sucatear este item fornecerá {numItems} {itemName}.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Sucatear este item fornecerá {numItems} {itemName} e {numRepairParts} Peças de Reparos.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_onlyrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Sucatear este item fornecerá {numRepairParts} Peças de Reparos.{gemMessage}</string>
@@ -354,6 +357,7 @@
 	<string key="inv_salvage_tooltip_gemmessage" comment="this will come after a previous sentence and should have a space in front">Há uma pequena chance de recuperar a gema acoplada.</string>
 	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items.">Também é possível adquirir itens adicionais como {itemName}.</string>
 	<string key="inv_salvage_tooltip_recipe">Sucatear este item ensinará a você a receita {recipeName}.</string>
+	<string key="inv_salvage_tooltip_recipe_known">Você já sabe a receita {recipeName}.</string>
 	<string key="inv_salvage_tertiary_recipe">Receita {recipeName}</string>
 	<string key="minspec_warning_requirements_title">Aviso de ReqMín</string>
 	<string key="minspec_failed_requirements_title">Falha de ReqMin</string>
@@ -415,5 +419,7 @@
 	<string key="error_perm_ban">Banimento Permanente</string>
 	<string key="error_temp_ban">Banimento Temporário</string>
 	<string key="error_world_select_server_down">Você não pode selecionar um mundo em manutenção.</string>
+	<string key="error_loading_assets_title">Erro de carregamento de ativo do jogo</string>
+	<string key="error_loading_assets_message">Erro ao carregar ativos do jogo! Verifique a instalação.</string>
 </resources>
 

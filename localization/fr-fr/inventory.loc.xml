@@ -20,7 +20,7 @@
 	<string key="inv_cooking">Cuisine</string>
 	<string key="inv_furniture">Meubles</string>
 	<string key="inv_outpostrush">Déferlante</string>
-	<string key="inv_crafting_modifiers">Modificateurs de fabrication</string>
+	<string key="inv_crafting_modifiers">Mods</string>
 	<string key="inv_repair_kit_count">{count} nécessaire(s) de réparation</string>
 	<string key="inv_repair_kits">Nécessaires de réparation</string>
 	<string key="inv_baits">Pêche</string>
@@ -61,8 +61,8 @@
 	<string key="inv_equipLoadSlow">Lourd</string>
 	<string key="inv_equipLoadOverburdened">Suréquipé</string>
 	<string key="inv_equipLoadTooltip">La charge combinée de l'armure et du bouclier que vous portez détermine votre poids d'équipement. Du poids d'équipement dépendent vos capacités d'esquive ainsi que d'autres bonus.</string>
-	<string key="inv_equipLoadFastTooltip">Avec une armure légère, votre esquive consiste en une roulade rapide sur une grande distance. Vous infligez 20 % de dégâts supplémentaires.</string>
-	<string key="inv_equipLoadNormalTooltip">Avec une armure de poids moyen, votre esquive consiste en un bond rapide. Vous infligez 10 % de dégâts supplémentaires et la durée des effets de contrôle de foule que vous appliquez augmente de 10 %.</string>
+	<string key="inv_equipLoadFastTooltip">Avec une armure légère, votre esquive consiste en une roulade rapide sur une grande distance. Vous bénéficiez d'un bonus de dégâts de 20 % et d'un bonus de soin de {[Type_StatusEffectData.EquipLoad_HealingBonus_Light.HealScalingValueMultiplier * 100]} %.</string>
+	<string key="inv_equipLoadNormalTooltip">Avec une armure de poids moyen, votre esquive consiste en un bond rapide. Vous bénéficiez d'un bonus de dégâts de 10 % et d'un bonus de soin de 15 %. La durée des effets de contrôle de foule que vous appliquez augmente de 10 %.</string>
 	<string key="inv_equipLoadSlowTooltip">Avec une armure lourde, votre esquive consiste en un pas chassé lent. Vous infligez 15 % de dégâts supplémentaires et la durée des effets de contrôle de foule que vous appliquez augmente de 20 %.</string>
 	<string key="inv_equipLoadOverburdenedTooltip">Lorsque vous dépassez le poids d'équipement maximal, vous ne pouvez plus esquiver, sprinter ou utiliser de capacités. Vous devriez déséquiper quelques objets.</string>
 	<string key="inv_equipLoadEncumberedTooltip">Vous avez trop d'objets dans votre inventaire. Lorsque l'inventaire est encombré, les effets subis sont indépendants de votre poids d'équipement. Vous ne pouvez ni sprinter ni esquiver et vous perdez davantage de vitalité en parant. Retirez quelques objets de votre havresac.</string>
@@ -78,6 +78,7 @@
 	<string key="inv_does_not_meet_weapon_requirements">Caractéristiques insuffisantes</string>
 	<string key="inv_encumbranceAttackNotification">Encombré : impossible d'attaquer</string>
 	<string key="inv_insufficientManaNotification">Mana insuffisant</string>
+	<string key="inv_OutOfRangeNotification">Cible hors de portée</string>
 	<string key="inv_compareTo">Comparer avec {location}</string>
 	<string key="inv_additionalItems">{count} objets supplémentaires</string>
 	<string key="inv_repairparts_quantity">{count} pièce(s) de réparation</string>
@@ -121,9 +122,11 @@
 	<string key="ui_currency_send_failed_title">Échec de l'envoi de pièces</string>
 	<string key="ui_currency_send_failed_message">Échec de l'envoi de pièces à {playerName}</string>
 	<string key="ui_currency_toplayer">Au joueur</string>
-	<string key="ui_currency_totreasury">Dans la trésorerie de votre compagnie</string>
+	<string key="ui_currency_totreasury">À la trésorerie de la compagnie</string>
 	<string key="ui_new_primary_tool_set">Nouvel outil principal – {gatheringType}</string>
 	<string key="ui_storage_is_full">Rangement rempli</string>
+	<string key="ui_storage_is_empty">Rangement vide</string>
+	<string key="ui_retrieving_storage">Récupération des données de l'espace de rangement</string>
 	<string key="ui_split_stack">Diviser la pile</string>
 	<string key="ui_set_quantity">Définir la quantité</string>
 	<string key="ui_drag_new_stack">Faire glisser une nouvelle pile</string>
@@ -159,5 +162,6 @@
 	<string key="ui_Constitution_short">FME</string>
 	<string key="ui_loot_bag_1_item">1 objet</string>
 	<string key="ui_loot_bag_items">{amount} objets</string>
+	<string key="tutorial_salvage_items">Recycler vos armes, armures et outils pour obtenir des &lt;font color="#ffea00"&gt;pièces de réparation&lt;/font&gt;.</string>
 </resources>
 

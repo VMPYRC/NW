@@ -47,7 +47,7 @@
 	<string key="owg_faction_select_title">Dołączyć do tej frakcji?</string>
 	<string key="owg_faction_select_warning">Tej decyzji nie można cofnąć.</string>
 	<string key="owg_faction_select_yes">Tak, sprzymierz się z frakcją: {faction}.</string>
-	<string key="owg_faction_select_confirm">Kompanię mogą tworzyć tylko gracze należący do tej samej frakcji. Gracze oznaczeni do PvP mogą formować grupy tylko z graczami należącymi do tej samej frakcji. Zanim dołączysz do wybranej frakcji, warto sprawdzić, jaką frakcję wybrali twoi znajomi w New World.\n\nWybór ten nie jest nieodwracalny – możesz jednorazowo zmienić frakcję na ekranie biografii. Następnie będzie można zmienić frakcję co &lt;font color="#FFD45F"&gt;120 dni&lt;/font&gt;.</string>
+	<string key="owg_faction_select_confirm">Kompanię mogą tworzyć tylko gracze należący do tej samej frakcji. Gracze oznaczeni do PvP mogą formować grupy tylko z graczami należącymi do tej samej frakcji. Zanim dołączysz do wybranej frakcji, warto sprawdzić, jaką frakcję wybrali twoi znajomi w New World.\n\nWybór ten nie jest nieodwracalny – możesz jednorazowo zmienić frakcję na ekranie biografii. Następnie będzie można zmienić frakcję co &lt;font color="#FFD45F"&gt;60 dni&lt;/font&gt;.</string>
 	<string key="owg_factionwarinfo_desc_1">Dołącz do 1 z 3 zwalczających się frakcji, by doświadczyć wszystkiego, co Aeternum ma do zaoferowania. Zdobywaj potężne nagrody, konkurując z innymi frakcjami i zdobywając przewagę wpływów na każdym terytorium.</string>
 	<string key="owg_factionwarinfo_desc_2">By walczyć z innymi graczami, musisz należeć do którejś z frakcji, a następnie oznaczyć się do PvP podczas przebywania w osadzie. Gdy to zrobisz, zyskasz możliwość zadawania obrażeń graczom z wrogich frakcji, którzy również są oznaczeni do PvP. (Zobaczysz herb frakcji na tabliczkach z imieniem graczy).</string>
 	<string key="owg_factionwarinfo_desc_3">Już wkrótce: Wykonywanie misji frakcyjnych zlecanych przez przedstawiciela frakcji przebywającego w osadzie zapewni twojej frakcji punkty wpływów na określonym terytorium. Dzięki wpływowi frakcja może bronić swoich terytoriów albo wypowiadać wojnę wrogom.</string>
@@ -108,17 +108,17 @@
 	<string key="owg_newshopitems">Nowe przedmioty w sklepie: {numItems}</string>
 	<string key="owg_hunter_guildname">Misje z wyłomu skażenia</string>
 	<string key="owg_explorer_desc">Uduchowieni czempioni, żarliwie walczący o prawość i sprawiedliwość</string>
-	<string key="owg_explorer_sub_desc">„Obrona Iskry nadziei jest naszym świętym obowiązkiem…”</string>
+	<string key="owg_explorer_sub_desc">"Obrona Iskry nadziei jest naszym świętym obowiązkiem…"</string>
 	<string key="owg_explorer_guildname">Przymierze</string>
 	<string key="owg_merchant_desc">Sprytni badacze, używający swego intelektu do walki o wiedzę i postęp</string>
-	<string key="owg_merchant_sub_desc">„Poznamy prawdę. Za wszelką cenę…”</string>
+	<string key="owg_merchant_sub_desc">"Poznamy prawdę. Za wszelką cenę…"</string>
 	<string key="owg_merchant_guildname">Syndykat</string>
 	<string key="owg_procurer_desc">Dumni, nieustannie samodoskonalący się wojownicy, walczący z honorem o chwałę</string>
-	<string key="owg_procurer_sub_desc">„Walka uszlachetnia. Walka rozwija siłę i umiejętności…”</string>
+	<string key="owg_procurer_sub_desc">"Walka uszlachetnia. Walka rozwija siłę i umiejętności…"</string>
 	<string key="owg_procurer_guildname">Maruderzy</string>
 	<string key="owg_mission_item">Przedmiot fabularny</string>
 	<string key="owg_missionlist_title">Dostępne misje</string>
-	<string key="owg_missions_header">Misje gildii: {guildName}.</string>
+	<string key="owg_missions_header">Misje gildii: {guildName}</string>
 	<string key="owg_multiple_items_purchased">Kupiono {itemName}x{amount}!</string>
 	<string key="owg_rank">Stopień</string>
 	<string key="owg_rank_bounty_1" xsi:nil="true"/>
@@ -275,7 +275,7 @@
 	<string key="CMissionAcquireRawhide_Name">Potrzebni łowcy</string>
 	<string key="CMissionAcquireLeather_Name">Potrzebni garbarze</string>
 	<string key="CMissionAcquireFish_Name">Potrzebny rybak</string>
-	<string key="CMissionHuntCreature_Name">Upoluj: {enemyName}</string>
+	<string key="CMissionHuntCreature_Name">{enemyName} – potrzebni łowcy</string>
 	<string key="CMissionHuntCreature_Desc">Upoluj: &lt;font color="#eaeaea"&gt;{enemyName} ({killAmount})&lt;/font&gt;</string>
 	<string key="CMissionAcquire1_Desc">Zdobądź i dostarcz: &lt;font color="#eaeaea"&gt;{itemName} ({itemAmount})&lt;/font&gt;.</string>
 	<string key="M_fetch_title">Rozejrzyj się i znajdź</string>
@@ -311,11 +311,11 @@
 	<string key="owg_target_Withered_Brute_Named_05">Aberracja</string>
 	<string key="owg_target_Withered_Brute_Named_10WS07">Nieposkromiony Benjamin</string>
 	<string key="owg_target_Alligator_Strange_10WS03">Pstre aligatory</string>
-	<string key="FactionMission_weaponsmith_title">Kucie broni</string>
+	<string key="FactionMission_weaponsmith_title">Potrzebni zbrojmistrzowie</string>
 	<string key="FactionMission_weaponsmith_desc">Wykuj i dostarcz: &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.</string>
-	<string key="FactionMission_armorsmith_title">Płatnerstwo</string>
+	<string key="FactionMission_armorsmith_title">Potrzebni płatnerze</string>
 	<string key="FactionMission_armorsmith_desc">Wykuj i dostarcz: &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.</string>
-	<string key="FactionMission_cooking_title">Gotowanie</string>
+	<string key="FactionMission_cooking_title">Potrzebni kucharze</string>
 	<string key="FactionMission_cooking_desc">Ugotuj i dostarcz: &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.</string>
 	<string key="FactionMission_RAID_title">Zaatakuj: {POITags}</string>
 	<string key="FactionMission_RAID_desc">Interesy maruderów w tym regionie są zagrożone.\n\nUdaj się do: {POITags} i pokonaj: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;. Nie dawaj pardonu!</string>
@@ -323,7 +323,7 @@
 	<string key="FactionMission_EXPLORE_desc">Przeprowadź rekonesans, by zapewnić maruderom przewagę. \n\nTwój raport jest niezbędny do ustalenia naszej strategii.</string>
 	<string key="FactionMission_LOOT_title">Złup: {POITags}</string>
 	<string key="FactionMission_LOOT_desc">W: {POITags} znajdują się przedmioty, które mogą wspomóc kampanię maruderów. \n\n&lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; – zdobądź to za wszelką cenę.</string>
-	<string key="FactionMission_HUNT_title">Zapoluj w: {POITags}</string>
+	<string key="FactionMission_HUNT_title">Poluj w: {POITags}</string>
 	<string key="FactionMission_HUNT_desc">Potrzebujemy zapasów dla naszych oddziałów. \n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – to twój cel. {POITags} – zapoluj na tym terenie i przynieś nam zdobycz.</string>
 	<string key="FactionMission_S_RAID_title">Pozbądź się: {POITags}</string>
 	<string key="FactionMission_S_RAID_desc">Nieopisane koszmary, które mogą zagrozić dobru syndykatu, zalęgły się w: {POITags}. \n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zniszcz ten cel. Nie rób wyjątków.</string>
@@ -331,7 +331,7 @@
 	<string key="FactionMission_S_EXPLORE_desc">Potrzebujemy danych, by wprowadzić nasze plany w życie. \n\nUdaj się do: {POITags} i wróć z raportem.</string>
 	<string key="FactionMission_S_LOOT_title">Zdobądź: {POITags}</string>
 	<string key="FactionMission_S_LOOT_desc">Syndykat dowiedział się, że w: {POITags} znajduje się skrytka z cennymi przedmiotami. \n\nUdaj się tam, zanim ktoś nas uprzedzi. &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; – szukaj tego.</string>
-	<string key="FactionMission_S_HUNT_title">Zapoluj w: {POITags}</string>
+	<string key="FactionMission_S_HUNT_title">Poluj w: {POITags}</string>
 	<string key="FactionMission_S_HUNT_desc">Agenci syndykatu potrzebują żywności, by efektywnie pracować. \n\n{POITags} – zapoluj na tym terenie.&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – to twój cel. Przynieś wszystko, co uda ci się pozyskać.</string>
 	<string key="FactionMission_C_RAID_title">Krucjata: {POITags}</string>
 	<string key="FactionMission_C_RAID_desc">W: {POITags} wzbiera fala ciemności. Przymierze musi ją odeprzeć! \n\nWypleń zło, które się tam zalęgło (&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;). Dla dobra ludzkości.</string>
@@ -339,35 +339,35 @@
 	<string key="FactionMission_C_EXPLORE_desc">Spływają do nas sprzeczne sygnały na temat sytuacji w: {POITags}. \n\nMoże być za późno. Sprawdź to miejsce i wróć z raportem.</string>
 	<string key="FactionMission_C_LOOT_title">Odzyskaj: {POITags}</string>
 	<string key="FactionMission_C_LOOT_desc">Odkryliśmy, że w: {POITags} znajdują się cenne przedmioty. \n\n&lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; – to własność przymierza. Odzyskaj ją.</string>
-	<string key="FactionMission_C_HUNT_title">Zapoluj w: {POITags}</string>
+	<string key="FactionMission_C_HUNT_title">Poluj w: {POITags}</string>
 	<string key="FactionMission_C_HUNT_desc">Potrzebujemy zapasów, by realizować naszą sprawę.\n\n{POITags} – zapoluj na tym terenie. &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – to twój cel. Przynieś nam zdobycz.</string>
 	<string key="FactionMission_PILLAGE_title">Sabotaż</string>
 	<string key="FactionMission_PILLAGE_desc">Osłab naszych wrogów, pozbawiając ich zasobów.</string>
-	<string key="FactionMission_SHOWOFSTRENGTH_title">Pokaz siły</string>
+	<string key="FactionMission_SHOWOFSTRENGTH_title">Pokaz siły (PvP)</string>
 	<string key="FactionMission_SHOWOFSTRENGTH_desc">Aeternum należy do nas. Dowiedź tego.</string>
-	<string key="FactionMission_INFILTRATE_title">Infiltracja</string>
+	<string key="FactionMission_INFILTRATE_title">Infiltracja (PvP)</string>
 	<string key="FactionMission_INFILTRATE_desc">Zdobądź obiekt maruderów i czekaj na dalsze instrukcje.</string>
-	<string key="FactionMission_DISRUPT_title">Zakłócenie</string>
+	<string key="FactionMission_DISRUPT_title">Zakłócenie (PvP)</string>
 	<string key="FactionMission_DISRUPT_desc">Przejmij lub zniszcz zasoby, zanim zostaną użyte przeciwko nam.</string>
-	<string key="FactionMission_STABILIZE_title">Stabilizacja</string>
+	<string key="FactionMission_STABILIZE_title">Stabilizacja (PvP)</string>
 	<string key="FactionMission_STABILIZE_desc">To miejsce ma strategiczne znaczenie. Nie pozwól, by wróg przejął nad nim kontrolę.</string>
-	<string key="FactionMission_GATHERINTEL_title">Działalność wywiadowcza</string>
+	<string key="FactionMission_GATHERINTEL_title">Działalność wywiadowcza (PvP)</string>
 	<string key="FactionMission_GATHERINTEL_desc">Przejmij wyniki ważnego eksperymentu i czekaj na dalsze instrukcje.</string>
-	<string key="FactionMission_TITHE_title">Dziesięcina</string>
+	<string key="FactionMission_TITHE_title">Dziesięcina (PvP)</string>
 	<string key="FactionMission_TITHE_desc">Zagłodź wroga, nakarm Iskrę.</string>
-	<string key="FactionMission_SANCTIFY_title">Uświęcenie</string>
+	<string key="FactionMission_SANCTIFY_title">Uświęcenie (PvP)</string>
 	<string key="FactionMission_SANCTIFY_desc">Wyzwól ten teren. Niech prowadzi cię światłość.</string>
-	<string key="FactionMission_PRESERVE_title">Ocalenie</string>
+	<string key="FactionMission_PRESERVE_title">Ocalenie (PvP)</string>
 	<string key="FactionMission_PRESERVE_desc">Dostarcz dobrą nowinę o Iskrze.</string>
 	<string key="FactionMission_EXPEDITIONRAID_title">Zaatakuj: {POITags}</string>
 	<string key="FactionMission_EXPEDITIONRAID_desc">{POITags} – udaj się do tego miejsca. &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – to twój cel. Pokonaj wszystkich wrogów maruderów, których znajdziesz. \n\n &lt;font color="#eaeaea"&gt;(Ekspedycja)&lt;/font&gt;</string>
 	<string key="FactionMission_EXPEDITIONLOOT_title">Złup: {POITags}</string>
 	<string key="FactionMission_EXPEDITIONLOOT_desc">{POITags} – udaj się do tego miejsca. &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; – to twój cel. Zbierz dla maruderów wszystkie cenne przedmioty, które znajdziesz. \n\n&lt;font color="#eaeaea"&gt;(Ekspedycja)&lt;/font&gt;</string>
-	<string key="FactionMission_INTERCEPT_title">Podbij</string>
+	<string key="FactionMission_INTERCEPT_title">Dominacja (PvP)</string>
 	<string key="FactionMission_INTERCEPT_desc">Pokonaj członków &lt;font color="#eaeaea"&gt;syndykatu&lt;/font&gt; lub &lt;font color="#eaeaea"&gt;przymierza&lt;/font&gt;. Ku chwale maruderów!</string>
-	<string key="FactionMission_S_INTERCEPT_title">Pokonaj</string>
+	<string key="FactionMission_S_INTERCEPT_title">Likwidacja (PvP)</string>
 	<string key="FactionMission_S_INTERCEPT_desc">Pokonaj &lt;font color="#eaeaea"&gt;maruderów&lt;/font&gt; lub członków &lt;font color="#eaeaea"&gt;przymierza&lt;/font&gt;, aby zademonstrować naszą wyższość.</string>
-	<string key="FactionMission_C_INTERCEPT_title">Rozgrom</string>
+	<string key="FactionMission_C_INTERCEPT_title">Rozgromienie (PvP)</string>
 	<string key="FactionMission_C_INTERCEPT_desc">Pokonaj członków &lt;font color="#eaeaea"&gt;syndykatu&lt;/font&gt; lub &lt;font color="#eaeaea"&gt;maruderów&lt;/font&gt;, aby oczyścić ich dusze.</string>
 	<string key="FactionMission_S_EXPEDITIONRAID_title">Pozbądź się: {POITags}</string>
 	<string key="FactionMission_S_EXPEDITIONRAID_desc">{POITags} – udaj się do tego miejsca. &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – to twój cel. Pokonaj wszystkich wrogów syndykatu, których znajdziesz. \n\n &lt;font color="#eaeaea"&gt;(Ekspedycja)&lt;/font&gt;</string>
@@ -413,17 +413,79 @@
 	<string key="FactionMission_S_Windsward_Rare1_desc">Musimy przyciągnąć uwagę konstabla Dautiego.\n\nMoże dasz radę przynieść mi pradawny papirus? Ma go guwerner Laocon z Saircora.\n\n &lt;font color="#eaeaea"&gt;(elitarne)&lt;/font&gt;</string>
 	<string key="ui_pvp">PvP.</string>
 	<string key="ui_pve">PvE.</string>
-	<string key="FactionMission_TROPHYHUNT_title">{POITags} – polowanie na trofea</string>
+	<string key="FactionMission_TROPHYHUNT_title">Polowanie na trofea: {POITags}</string>
 	<string key="FactionMission_TROPHYHUNT_desc">Udowodnij, że potrafisz polować.\n\n{POITags} – udaj się do tego miejsca. &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – upoluj ten cel i przynieś nam dowód swoich umiejętności.</string>
-	<string key="FactionMission_S_TROPHYHUNT_title">{POITags} – polowanie na okazy</string>
+	<string key="FactionMission_S_TROPHYHUNT_title">Polowanie na okazy: {POITags}</string>
 	<string key="FactionMission_S_TROPHYHUNT_desc">Zidentyfikowaliśmy okaz, który należy zbadać.\n\n{POITags} – udaj się do tego miejsca i zapoluj. &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – to twój cel. Po wszystkim przynieś nam próbkę tkanek.</string>
-	<string key="FactionMission_C_TROPHYHUNT_title">{POITags} – święte łowy</string>
+	<string key="FactionMission_C_TROPHYHUNT_title">Święte łowy: {POITags}</string>
 	<string key="FactionMission_C_TROPHYHUNT_desc">Iskra sprezentowała nam niepowtarzalną okazję. Wykorzystaj ją.\n\n{POITags} – udaj się do tego miejsca. &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – to twój cel. Wróć do nas ze zdobyczą.</string>
-	<string key="FactionMission_TROPHYHUNT_ELITE_title">{POITags} – polowanie na trofea (elitarne)</string>
+	<string key="FactionMission_TROPHYHUNT_ELITE_title">Polowanie na trofea: {POITags} (elitarne)</string>
 	<string key="FactionMission_TROPHYHUNT_ELITE_desc">Udowodnij, że potrafisz polować.\n\n{POITags} – udaj się do tego miejsca. &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – upoluj ten cel i przynieś nam dowód swoich umiejętności.\n &lt;font color="#eaeaea"&gt;(elitarne)&lt;/font&gt;</string>
-	<string key="FactionMission_S_TROPHYHUNT_ELITE_title">{POITags} – polowanie na okazy (elitarne)</string>
+	<string key="FactionMission_S_TROPHYHUNT_ELITE_title">Polowanie na okazy: {POITags} (elitarne)</string>
 	<string key="FactionMission_S_TROPHYHUNT_ELITE_desc">Zidentyfikowaliśmy okaz, który należy zbadać.\n\n{POITags} – udaj się do tego miejsca i zapoluj. &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – to twój cel. Po wszystkim przynieś nam próbkę tkanek.\n &lt;font color="#eaeaea"&gt;(elitarne)&lt;/font&gt;</string>
-	<string key="FactionMission_C_TROPHYHUNT_ELITE_title">{POITags} – święte łowy (elitarne)</string>
+	<string key="FactionMission_C_TROPHYHUNT_ELITE_title">Święte łowy: {POITags} (elitarne)</string>
 	<string key="FactionMission_C_TROPHYHUNT_ELITE_desc">Iskra sprezentowała nam niepowtarzalną okazję. Wykorzystaj ją.\n\n{POITags} – udaj się do tego miejsca. &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – to twój cel. Wróć do nas ze zdobyczą.\n &lt;font color="#eaeaea"&gt;(elitarne)&lt;/font&gt;</string>
+	<string key="FactionMission_WARCAMP_LOOT_title">Działania wywiadowcze (PvP)</string>
+	<string key="FactionMission_WARCAMP_LOOT_desc">Zakradnij się do &lt;font color="#eaeaea"&gt;obozu wojennego&lt;/font&gt; w pobliżu &lt;font color="#eaeaea"&gt;fortu w: {territoryID}&lt;/font&gt; i poszukaj cennych informacji.</string>
+	<string key="FactionMission_CONTROL_POINT_title">Podbój (PvP)</string>
+	<string key="FactionMission_CONTROL_POINT_desc">Chwyć za broń i pomóż maruderom zająć &lt;font color="#eaeaea"&gt;fort&lt;/font&gt; w: &lt;font color="#eaeaea"&gt;{territoryID}&lt;/font&gt;.\n\n(Ta misja nie zawsze jest możliwa do wykonania)</string>
+	<string key="FactionMission_S_WARCAMP_LOOT_title">Rekonesans (PvP)</string>
+	<string key="FactionMission_S_WARCAMP_LOOT_desc">Zakradnij się do &lt;font color="#eaeaea"&gt;obozu wojennego&lt;/font&gt; w pobliżu &lt;font color="#eaeaea"&gt;fortu w: {territoryID}&lt;/font&gt; i poszukaj cennych informacji.</string>
+	<string key="FactionMission_S_CONTROL_POINT_title">Przejęcie (PvP)</string>
+	<string key="FactionMission_S_CONTROL_POINT_desc">Chwyć za broń i pomóż syndykatowi zająć &lt;font color="#eaeaea"&gt;fort&lt;/font&gt; w: &lt;font color="#eaeaea"&gt;{territoryID}&lt;/font&gt;.\n\n(Ta misja nie zawsze jest możliwa do wykonania)</string>
+	<string key="FactionMission_C_WARCAMP_LOOT_title">Działania wywiadowcze (PvP)</string>
+	<string key="FactionMission_C_WARCAMP_LOOT_desc">Zakradnij się do &lt;font color="#eaeaea"&gt;obozu wojennego&lt;/font&gt; w pobliżu &lt;font color="#eaeaea"&gt;fortu w: {territoryID}&lt;/font&gt; i poszukaj cennych informacji.</string>
+	<string key="FactionMission_C_CONTROL_POINT_title">Triumf (PvP)</string>
+	<string key="FactionMission_C_CONTROL_POINT_desc">Chwyć za broń i pomóż przymierzu zająć &lt;font color="#eaeaea"&gt;fort&lt;/font&gt; w: &lt;font color="#eaeaea"&gt;{territoryID}&lt;/font&gt;.\n\n(Ta misja nie zawsze jest możliwa do wykonania)</string>
+	<string key="FactionMission_WARCAMP_SPECIAL_desc">Zakradnij się do twierdzy w: &lt;font color="#eaeaea"&gt;{POITags}&lt;/font&gt; i poszukaj cennych informacji.</string>
+	<string key="FactionMission_S_WARCAMP_SPECIAL_desc">Zakradnij się do twierdzy w: &lt;font color="#eaeaea"&gt;{POITags}&lt;/font&gt; i poszukaj cennych informacji.</string>
+	<string key="FactionMission_C_WARCAMP_SPECIAL_desc">Zakradnij się do twierdzy w: &lt;font color="#eaeaea"&gt;{POITags}&lt;/font&gt; i poszukaj cennych informacji.</string>
+	<string key="FactionMission_WEAPON_SWORD_title">Próba broni: miecz i tarcza</string>
+	<string key="FactionMission_WEAPON_SWORD_desc">Maruderzy biegle władają każdą bronią.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel i tym samym udowodnij, że walka &lt;font color="#eaeaea"&gt;mieczem&lt;/font&gt; nie ma przed tobą tajemnic.</string>
+	<string key="FactionMission_WEAPON_RAPIER_title">Próba broni: rapier</string>
+	<string key="FactionMission_WEAPON_RAPIER_desc">Maruderzy biegle władają każdą bronią.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel i tym samym udowodnij, że walka &lt;font color="#eaeaea"&gt;rapierem&lt;/font&gt; nie ma przed tobą tajemnic.</string>
+	<string key="FactionMission_WEAPON_HATCHET_title">Próba broni: siekierka</string>
+	<string key="FactionMission_WEAPON_HATCHET_desc">Maruderzy biegle władają każdą bronią.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel i tym samym udowodnij, że walka &lt;font color="#eaeaea"&gt;siekierką&lt;/font&gt; nie ma przed tobą tajemnic.</string>
+	<string key="FactionMission_WEAPON_GREATAXE_title">Próba broni: topór dwuręczny</string>
+	<string key="FactionMission_WEAPON_GREATAXE_desc">Maruderzy biegle władają każdą bronią.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel i tym samym udowodnij, że walka &lt;font color="#eaeaea"&gt;toporem dwuręcznym&lt;/font&gt; nie ma przed tobą tajemnic.</string>
+	<string key="FactionMission_WEAPON_WARHAMMER_title">Próba broni: młot bojowy</string>
+	<string key="FactionMission_WEAPON_WARHAMMER_desc">Maruderzy biegle władają każdą bronią.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel i tym samym udowodnij, że walka &lt;font color="#eaeaea"&gt;młotem bojowym&lt;/font&gt; nie ma przed tobą tajemnic.</string>
+	<string key="FactionMission_WEAPON_SPEAR_title">Próba broni: włócznia</string>
+	<string key="FactionMission_WEAPON_SPEAR_desc">Maruderzy biegle władają każdą bronią.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel i tym samym udowodnij, że walka &lt;font color="#eaeaea"&gt;włócznią&lt;/font&gt; nie ma przed tobą tajemnic.</string>
+	<string key="FactionMission_WEAPON_BOW_title">Próba broni: łuk</string>
+	<string key="FactionMission_WEAPON_BOW_desc">Maruderzy biegle władają każdą bronią.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel i tym samym udowodnij, że walka &lt;font color="#eaeaea"&gt;łukiem&lt;/font&gt; nie ma przed tobą tajemnic.</string>
+	<string key="FactionMission_WEAPON_MUSKET_title">Próba broni: muszkiet</string>
+	<string key="FactionMission_WEAPON_MUSKET_desc">Maruderzy biegle władają każdą bronią.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel i tym samym udowodnij, że walka &lt;font color="#eaeaea"&gt;muszkietem&lt;/font&gt; nie ma przed tobą tajemnic.</string>
+	<string key="FactionMission_WEAPON_FIRESTAFF_title">Próba broni: ognista laska</string>
+	<string key="FactionMission_WEAPON_FIRESTAFF_desc">Maruderzy biegle władają każdą bronią.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel i tym samym udowodnij, że walka &lt;font color="#eaeaea"&gt;ognistą laską&lt;/font&gt; nie ma przed tobą tajemnic.</string>
+	<string key="FactionMission_WEAPON_LIFESTAFF_title">Próba broni: laska życia</string>
+	<string key="FactionMission_WEAPON_LIFESTAFF_desc">Maruderzy biegle władają każdą bronią.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel i tym samym udowodnij, że walka &lt;font color="#eaeaea"&gt;laską życia&lt;/font&gt; nie ma przed tobą tajemnic.</string>
+	<string key="FactionMission_WEAPON_ICEGAUNTLET_title">Próba broni: lodowa rękawica</string>
+	<string key="FactionMission_WEAPON_ICEGAUNTLET_desc">Maruderzy biegle władają każdą bronią.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel i tym samym udowodnij, że walka &lt;font color="#eaeaea"&gt;lodową rękawicą&lt;/font&gt; nie ma przed tobą tajemnic.</string>
+	<string key="FactionMission_S_WEAPON_SWORD_desc">Syndykat prowadzi badania nad efektywnością broni różnego rodzaju.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by przetestować &lt;font color="#eaeaea"&gt;miecz&lt;/font&gt; w warunkach bojowych.</string>
+	<string key="FactionMission_S_WEAPON_RAPIER_desc">Syndykat prowadzi badania nad efektywnością broni różnego rodzaju.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by przetestować &lt;font color="#eaeaea"&gt;rapier&lt;/font&gt; w warunkach bojowych.</string>
+	<string key="FactionMission_S_WEAPON_HATCHET_desc">Syndykat prowadzi badania nad efektywnością broni różnego rodzaju.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by przetestować &lt;font color="#eaeaea"&gt;siekierkę&lt;/font&gt; w warunkach bojowych.</string>
+	<string key="FactionMission_S_WEAPON_GREATAXE_desc">Syndykat prowadzi badania nad efektywnością broni różnego rodzaju.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by przetestować &lt;font color="#eaeaea"&gt;topór dwuręczny&lt;/font&gt; w warunkach bojowych.</string>
+	<string key="FactionMission_S_WEAPON_WARHAMMER_desc">Syndykat prowadzi badania nad efektywnością broni różnego rodzaju.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by przetestować &lt;font color="#eaeaea"&gt;młot bojowy&lt;/font&gt; w warunkach bojowych.</string>
+	<string key="FactionMission_S_WEAPON_SPEAR_desc">Syndykat prowadzi badania nad efektywnością broni różnego rodzaju.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by przetestować &lt;font color="#eaeaea"&gt;włócznię&lt;/font&gt; w warunkach bojowych.</string>
+	<string key="FactionMission_S_WEAPON_BOW_desc">Syndykat prowadzi badania nad efektywnością broni różnego rodzaju.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by przetestować &lt;font color="#eaeaea"&gt;łuk&lt;/font&gt; w warunkach bojowych.</string>
+	<string key="FactionMission_S_WEAPON_MUSKET_desc">Syndykat prowadzi badania nad efektywnością broni różnego rodzaju.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by przetestować &lt;font color="#eaeaea"&gt;muszkiet&lt;/font&gt; w warunkach bojowych.</string>
+	<string key="FactionMission_S_WEAPON_FIRESTAFF_desc">Syndykat prowadzi badania nad efektywnością broni różnego rodzaju.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by przetestować &lt;font color="#eaeaea"&gt;ognistą laskę&lt;/font&gt; w warunkach bojowych.</string>
+	<string key="FactionMission_S_WEAPON_LIFESTAFF_desc">Syndykat prowadzi badania nad efektywnością broni różnego rodzaju.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by przetestować &lt;font color="#eaeaea"&gt;laskę życia&lt;/font&gt; w warunkach bojowych.</string>
+	<string key="FactionMission_S_WEAPON_ICEGAUNTLET_desc">Syndykat prowadzi badania nad efektywnością broni różnego rodzaju.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by przetestować &lt;font color="#eaeaea"&gt;lodową rękawicę&lt;/font&gt; w warunkach bojowych.</string>
+	<string key="FactionMission_C_WEAPON_SWORD_desc">By kroczyć ścieżką pokoju, należy poznać naturę walki.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by zrozumieć, czym jest &lt;font color="#eaeaea"&gt;miecz&lt;/font&gt;.</string>
+	<string key="FactionMission_C_WEAPON_RAPIER_desc">By kroczyć ścieżką pokoju, należy poznać naturę walki.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by zrozumieć, czym jest &lt;font color="#eaeaea"&gt;rapier&lt;/font&gt;.</string>
+	<string key="FactionMission_C_WEAPON_HATCHET_desc">By kroczyć ścieżką pokoju, należy poznać naturę walki.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by zrozumieć, czym jest &lt;font color="#eaeaea"&gt;siekierka&lt;/font&gt;.</string>
+	<string key="FactionMission_C_WEAPON_GREATAXE_desc">By kroczyć ścieżką pokoju, należy poznać naturę walki.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by zrozumieć, czym jest &lt;font color="#eaeaea"&gt;topór dwuręczny&lt;/font&gt;.</string>
+	<string key="FactionMission_C_WEAPON_WARHAMMER_desc">By kroczyć ścieżką pokoju, należy poznać naturę walki.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by zrozumieć, czym jest &lt;font color="#eaeaea"&gt;młot bojowy&lt;/font&gt;.</string>
+	<string key="FactionMission_C_WEAPON_SPEAR_desc">By kroczyć ścieżką pokoju, należy poznać naturę walki.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by zrozumieć, czym jest &lt;font color="#eaeaea"&gt;włócznia&lt;/font&gt;.</string>
+	<string key="FactionMission_C_WEAPON_BOW_desc">By kroczyć ścieżką pokoju, należy poznać naturę walki.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by zrozumieć, czym jest &lt;font color="#eaeaea"&gt;łuk&lt;/font&gt;.</string>
+	<string key="FactionMission_C_WEAPON_MUSKET_desc">By kroczyć ścieżką pokoju, należy poznać naturę walki.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by zrozumieć, czym jest &lt;font color="#eaeaea"&gt;muszkiet&lt;/font&gt;.</string>
+	<string key="FactionMission_C_WEAPON_FIRESTAFF_desc">By kroczyć ścieżką pokoju, należy poznać naturę walki.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by zrozumieć, czym jest &lt;font color="#eaeaea"&gt;ognista laska&lt;/font&gt;.</string>
+	<string key="FactionMission_C_WEAPON_LIFESTAFF_desc">By kroczyć ścieżką pokoju, należy poznać naturę walki.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by zrozumieć, czym jest &lt;font color="#eaeaea"&gt;laska życia&lt;/font&gt;.</string>
+	<string key="FactionMission_C_WEAPON_ICEGAUNTLET_desc">By kroczyć ścieżką pokoju, należy poznać naturę walki.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by zrozumieć, czym jest &lt;font color="#eaeaea"&gt;lodowa rękawica&lt;/font&gt;.</string>
+	<string key="FactionMission_ASSASSINATE_ELITE_NIGHT_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – maruderzy chcą pozbyć się tego celu.\n\nDowiedź swej odwagi – wytrop cel w: {POITags} i się go pozbądź.\n&lt;font color="#eaeaea"&gt;(elitarny – wróg grasuje nocą)&lt;/font&gt;</string>
+	<string key="FactionMission_S_ASSASSINATE_ELITE_NIGHT_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – syndykat zidentyfikował cel, którego należy się pozbyć.\n\nWytrop cel w: {POITags} i się go pozbądź.\n&lt;font color="#eaeaea"&gt;(elitarny – wróg grasuje nocą)&lt;/font&gt;</string>
+	<string key="FactionMission_C_ASSASSINATE_ELITE_NIGHT_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – przymierze zidentyfikowało groźny cel, którego należy się pozbyć.\n\nDowiedź swego oddania – wytrop cel w: {POITags} i się go pozbądź.\n&lt;font color="#eaeaea"&gt;(elitarny – wróg grasuje nocą)&lt;/font&gt;</string>
 </resources>
 

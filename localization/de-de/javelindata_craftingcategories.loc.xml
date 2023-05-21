@@ -1,8 +1,10 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="FoodComponents_GroupName">Zusammengesetzte Zutaten</string>
 	<string key="GemstoneT1_GroupName">Beschädigte Edelsteinbrocken</string>
 	<string key="GemstoneT2_GroupName">Standard-Edelsteinbrocken</string>
 	<string key="GemstoneT3_GroupName">Brillante Edelsteinbrocken</string>
 	<string key="GemstoneT4_GroupName">Makellose Edelsteinbrocken</string>
+	<string key="CraftingPatterns_GroupName">Herstellungsschemas</string>
 	<string key="ShieldB_GroupName" comment="A heavy shield that provides excellent protection from attacks.">Langspitzschild</string>
 	<string key="ShieldA_GroupName" comment="A relatively lightweight shield that provides good protection from attacks.">Rundschild</string>
 	<string key="AlchemyBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Trophäen, die einen Arkanabonus gewähren (wenn sie in deinem Haus platziert wurden).</string>
@@ -192,10 +194,7 @@
 	<string key="HousingTrdG_Cabinets_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Behausung, Schränke</string>
 	<string key="HousingTrdG_Cabinets_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Behausung, Schränke</string>
 	<string key="HousingTrdG_Veg_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Behausung, Pflanzen</string>
-	<string key="1hCelestialGauntlet_Heal_GroupName">Himmlische Stulpen</string>
-	<string key="1hClub_GroupDesc">Einhändig zu führen. Eine Nahkampfwaffe mit kurzer Reichweite, mit der blitzschnelle Schlagabfolgen durchgeführt werden können.</string>
-	<string key="1hClub_GroupName">Streitkolben</string>
-	<string key="1hHatchet_GroupDesc">Eine vielseitige Waffe, die mit Wurfangriffen Ziele in der Ferne und mit schnellen Schlägen Ziele in der Nähe angreifen kann. Ideal für den aggressiven, wagemutigen Nahkampf oder taktische Angriffe auf mittlere Entfernungen.\n\n• Leichter Angriff: Verursacht {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]} % Schnittschaden.\n• Leichter Ender: Verursacht {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]} % Schnittschaden.\n• Schwerer Angriff: Verursacht {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]} % Schnittschaden.\n• Aufgeladener schwerer Angriff: Verursacht {[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]} % Schnittschaden.</string>
+	<string key="1hHatchet_GroupDesc">Eine vielseitige Waffe, die mit Wurfangriffen Ziele in der Ferne und mit schnellen Schlägen Ziele in der Nähe angreifen kann. Ideal für den aggressiven, wagemutigen Nahkampf oder taktische Angriffe auf mittlere Entfernungen.\n\n• Leichter Angriff: Verursacht {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]} % Schnittschaden.\n• Leichtes Ende: Verursacht {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]} % Schnittschaden.\n• Schwerer Angriff: Verursacht {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]} % Schnittschaden.\n• Aufgeladener schwerer Angriff: Verursacht {[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]} % Schnittschaden.</string>
 	<string key="1hHatchet_GroupName">Hergestellte Beile</string>
 	<string key="1hHatchetAngryEarth_GroupName">Beile der Verderbnis</string>
 	<string key="1hHatchetB_GroupName">Beile (kaltes Eisen)</string>
@@ -266,8 +265,6 @@
 	<string key="2hBowNamed4_GroupName">Geduld</string>
 	<string key="2hBowNamed5_GroupName">Zielsicherer Schuss</string>
 	<string key="2hBowNamed6_GroupName">Lange Sicht</string>
-	<string key="2hClub_GroupDesc">Zweihändig zu führen</string>
-	<string key="2hClub_GroupName">Großer Kriegshammer</string>
 	<string key="2hDemoHammer_GroupDesc">Zweihändig zu führen. Sehr gut zum Zertrümmern von Gebäuden. Funktioniert am besten an Toren. Weniger gut im Kampf.</string>
 	<string key="2hDemohammer_GroupName">Belagerungshämmer</string>
 	<string key="2hElementalStaff_Fire_GroupName">Hergestellte Feuerstäbe</string>
@@ -401,7 +398,7 @@
 	<string key="AlchemyWaterT5_GroupName">Wasserreagenzien Rang 5</string>
 	<string key="AmberCut_GroupDesc">Geschliffene und polierte Bernsteine.</string>
 	<string key="AmberCut_GroupName">Geschliffener Bernstein</string>
-	<string key="AmethystCut_GroupDesc">Geschliffene und polierte Amethyste. Kann zu Schmuck verarbeitet werden, der Intelligenz und Konzentration steigert, oder in Ausrüstung gesockelt werden, um die Effekte „Hölle“ und „Höllenschutz“ zu gewähren.</string>
+	<string key="AmethystCut_GroupDesc">Geschliffene und polierte Amethyste. Kann zu Schmuck verarbeitet werden, der Intelligenz und Konzentration steigert, oder in Ausrüstung gesockelt werden, um die Effekte "Hölle" und "Höllenschutz" zu gewähren.</string>
 	<string key="AmethystCut_GroupName">Geschliffener Amethyst</string>
 	<string key="Ammo_GroupName">Munition</string>
 	<string key="Amulets_GroupName">Amulette</string>
@@ -409,7 +406,7 @@
 	<string key="AmuletsT3_GroupName">Amulette (Gold)</string>
 	<string key="AmuletsT4_GroupName">Amulette (Platin)</string>
 	<string key="AmuletsT5_GroupName">Amulette (Orichalcum)</string>
-	<string key="AquamarineCut_GroupDesc">Geschliffene und polierte Aquamarine. Kann zu Schmuck verarbeitet werden, der Geschick steigert, oder in Ausrüstung gesockelt werden, um die Effekte „Ermächtigung“ und „Elementarschutz“ zu gewähren.</string>
+	<string key="AquamarineCut_GroupDesc">Geschliffene und polierte Aquamarine. Kann zu Schmuck verarbeitet werden, der Geschick steigert, oder in Ausrüstung gesockelt werden, um die Effekte "Ermächtigung" und "Elementarschutz" zu gewähren.</string>
 	<string key="AquamarineCut_GroupName">Geschliffener Aquamarin</string>
 	<string key="ArcanaAir_GroupName">Luftarkana</string>
 	<string key="ArcanaAirT2_GroupName">Luftarkana Rang 2</string>
@@ -563,8 +560,8 @@
 	<string key="CarnelianCut_GroupName">Geschliffener Karneol</string>
 	<string key="Cartridges_GroupName">Schusswaffenpatronen</string>
 	<string key="catalyst_GroupName">Katalysatoren</string>
-	<string key="CategoryData_1Handed">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt;-händige Waffen</string>
-	<string key="CategoryData_2Handed">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;-händige Waffen</string>
+	<string key="CategoryData_1Handed">Einhandwaffen</string>
+	<string key="CategoryData_2Handed">Zweihandwaffen</string>
 	<string key="CategoryData_AfflictionResistance">Leidenseffektresistenz</string>
 	<string key="CategoryData_alchemyresources">Trankreagenzien</string>
 	<string key="CategoryData_Ammo">Munition</string>
@@ -638,6 +635,8 @@
 	<string key="CategoryData_Pigments">Pigmente</string>
 	<string key="CategoryData_Potion">Tränke</string>
 	<string key="CategoryData_PotionDesc">Tränke sind Gegenstände, die deine Leistungsfähigkeit kurzzeitig steigern.</string>
+	<string key="CategoryData_Alkahest">Alkahest</string>
+	<string key="CategoryData_AlkahestDesc">Alkahest wird zur Herstellung von Tränken verwendet.</string>
 	<string key="CategoryData_RangedWeapons">Fernkampfwaffen</string>
 	<string key="CategoryData_rawresources">Unbehandelte Rohstoffe</string>
 	<string key="CategoryData_RefinedMaterial">Veredeltes</string>
@@ -705,8 +704,6 @@
 	<string key="CategoryData_Weapons">Waffen</string>
 	<string key="CategoryData_WeaponsAmmo">Waffen und Munition</string>
 	<string key="CategoryData_WearableTrinkets">Zubehör</string>
-	<string key="CelestialGauntlet_GroupDesc">Stulpen, die jedem Träger ermöglichen, magische Heilkräfte zu beschwören.</string>
-	<string key="CelestialGauntlet_GroupName">Himmlische Stulpen</string>
 	<string key="Charcoal_GroupDesc">Herstellungsmaterial.</string>
 	<string key="Charcoal_GroupName">Holzkohle</string>
 	<string key="ChefChest_GroupName">Hemd des Meisterkochs</string>
@@ -789,8 +786,6 @@
 	<string key="CutGemsT3_GroupName">Brillante Edelsteine</string>
 	<string key="CutGemsT4_GroupName">Makellose Edelsteine</string>
 	<string key="CutStone_GroupName">Geschliffener Stein</string>
-	<string key="Dagger_GroupDesc">Einhändig geführte Zwillingswaffe für den Nahkampf oder kurze Wurfangriffe.</string>
-	<string key="Dagger_GroupName">Dolche</string>
 	<string key="DefenseFood_GroupName">Essen mit\nschützenden Effekten</string>
 	<string key="Defensive_GroupName">Defensive Modifikatoren</string>
 	<string key="Demijohn_GroupName">Demions</string>
@@ -821,7 +816,7 @@
 	<string key="DEXRings_GroupName">Waldläufer-\nringe</string>
 	<string key="DEXTrinkets_GroupDesc">Die Schmuckstücke erhöhen das Geschicklichkeitsattribut.</string>
 	<string key="DEXTrinkets_GroupName">Geschicklichkeitsschmuckstücke</string>
-	<string key="DiamondCut_GroupDesc">Geschliffene und polierte Diamanten. Kann zu Schmuck verarbeitet werden, der Konstitution und Konzentration steigert, oder in Ausrüstung gesockelt werden, um die Effekte „Sammeln“ und „Wildnisschutz“ zu gewähren.</string>
+	<string key="DiamondCut_GroupDesc">Geschliffene und polierte Diamanten. Kann zu Schmuck verarbeitet werden, der Konstitution und Konzentration steigert, oder in Ausrüstung gesockelt werden, um die Effekte "Sammeln" und "Wildnisschutz" zu gewähren.</string>
 	<string key="DiamondCut_GroupName">Geschliffener Diamant</string>
 	<string key="Drink1_GroupDesc">Verleiht für 30 Minuten Ausdauerregeneration.</string>
 	<string key="Drink1_GroupName">Gebräue</string>
@@ -925,7 +920,7 @@
 	<string key="ElementalEssence_GroupName">Elementaressenzen</string>
 	<string key="ElementalQuintessence_GroupName">Elementarquintessenzen</string>
 	<string key="ElementalWisp_GroupName">Elementarirrlichte</string>
-	<string key="EmeraldCut_GroupDesc">Geschliffene und polierte Smaragde. Kann zu Schmuck verarbeitet werden, der Geschick und Konstitution steigert, oder in Ausrüstung gesockelt werden, um die Effekte „Opportunist“ und „Stichschutz“ zu gewähren.</string>
+	<string key="EmeraldCut_GroupDesc">Geschliffene und polierte Smaragde. Kann zu Schmuck verarbeitet werden, der Geschick und Konstitution steigert, oder in Ausrüstung gesockelt werden, um die Effekte "Opportunist" und "Stichschutz" zu gewähren.</string>
 	<string key="EmeraldCut_GroupName">Geschliffener Smaragd</string>
 	<string key="Encumbrance_GroupName">Belastbarkeit</string>
 	<string key="EngineerChest_GroupName">Ingenieurshemd</string>
@@ -1060,8 +1055,8 @@
 	<string key="GatheringFood_GroupName">Nahrung sammeln</string>
 	<string key="GauntletIce_GroupDesc">Die Stulpen verbrauchen Mana, um mit Eiszaubern frostige Kräfte heraufzubeschwören. Großartig zum Verursachen von andauerndem Schaden, indem Elementarstürme und Eisflächen heraufbeschworen werden. Eisangriffen behindern Gegner zudem und fügen ihnen Schaden zu.\n\n• Leichter Angriff: Verursacht {[DamageTable.IceMagic_Primary.DmgCoef * 100]} % Eisschaden.\n• Schwerer Angriff: Verursacht {[DamageTable.IceMagic_Heavy.DmgCoef * 100]} % Eisschaden.</string>
 	<string key="GauntletIce_GroupName">Eisstulpen</string>
-	<string key="GauntletVoid_GroupDesc">Stulpen, die Mana verbrauchen, um Feinde zu schwächen und Verbündete zu stärken. Unheilsstulpen sind auf Nahkampf-Boni und Schaden über Zeit oder Schwächungen mit mittlerer Reichweite spezialisiert und in einer Gruppe besonders gefährlich.\n\n• Leichter Angriff: Verursacht {[DamageTable.VoidGauntlet_Primary.DmgCoef * 100]} % Unheilsschaden.\n• Schwerer Angriff: Verursacht {[DamageTable.VoidGauntlet_Heavy.DmgCoef * 100]} % Unheilsschaden und heilt dich um {[VoidGauntletAbilityTable.Passive_VoidGauntlet_HealOnHeavy.DmgPctToHealth * 100]} % des verursachten Schadens.\n• Ernten („Blocken“ gedrückt halten): Wandelt deine Gesundheit nach und nach in Mana um. Die Rate hängt vom Waffenschaden ab.</string>
-	<string key="GauntletVoid_GroupName">Unheilsstulpen</string>
+	<string key="GauntletVoid_GroupDesc" rel_version="Weapon_Void_Gauntlet">Stulpen, die Mana verbrauchen, um Feinde zu schwächen und Verbündete zu stärken. Unheilsstulpen sind auf Nahkampf-Boni und Schaden über Zeit oder Schwächungen mit mittlerer Reichweite spezialisiert und in einer Gruppe besonders gefährlich.\n\n• Leichter Angriff: Verursacht {[DamageTable.VoidGauntlet_Primary.DmgCoef * 100]} % Unheilsschaden.\n• Schwerer Angriff: Verursacht {[DamageTable.VoidGauntlet_Heavy.DmgCoef * 100]} % Unheilsschaden und heilt dich um {[VoidGauntletAbilityTable.Passive_VoidGauntlet_HealOnHeavy.DmgPctToHealth * 100]} % des verursachten Schadens.\n• Essenz-Ernte ("Blocken" gedrückt halten): Wandelt deine Gesundheit nach und nach in Mana um. Die Rate hängt vom Waffenschaden ab.</string>
+	<string key="GauntletVoid_GroupName" rel_version="Weapon_Void_Gauntlet">Unheilsstulpen</string>
 	<string key="GemAmbe_CategoryName">Bernsteinbrocken</string>
 	<string key="GemAmet_CategoryName">Amethystbrocken</string>
 	<string key="GemAqua_CategoryName">Aquamarine</string>
@@ -1213,7 +1208,7 @@
 	<string key="JadeCut_GroupDesc">Geschliffene und polierte Jadesteine.</string>
 	<string key="JadeCut_GroupName">Geschliffener Jade</string>
 	<string key="Jars_GroupName">Gefäße</string>
-	<string key="JasperCut_GroupDesc">Geschliffene und polierte Jaspisse. Kann zu Schmuck verarbeitet werden, der Stärke und Konstitution steigert, oder in Ausrüstung gesockelt werden, um die Effekte „Vergeltung“ und „Schlagschutz“ zu gewähren.</string>
+	<string key="JasperCut_GroupDesc">Geschliffene und polierte Jaspisse. Kann zu Schmuck verarbeitet werden, der Stärke und Konstitution steigert, oder in Ausrüstung gesockelt werden, um die Effekte "Vergeltung" und "Schlagschutz" zu gewähren.</string>
 	<string key="JasperCut_GroupName">Geschliffener Jaspis</string>
 	<string key="KeyParts_GroupName">Drechselkugelkomponenten</string>
 	<string key="Keys_GroupName">Schlüssel</string>
@@ -1282,7 +1277,7 @@
 	<string key="MagicStaffLife_GroupName">Lebensstäbe</string>
 	<string key="MagicStaves_GroupDesc">Mächtige Fokuselemente, die zur Kanalisierung roher Magieenergie oder von Mana in Zaubersprüche für den Kampf oder zur Unterstützung eingesetzt werden.</string>
 	<string key="MagicStaves_GroupName">Magische Waffen</string>
-	<string key="MalachiteCut_GroupDesc">Geschliffene und polierte Malachite. Kann zu Schmuck verarbeitet werden, der Intelligenz und Konstitution steigert, oder in Ausrüstung gesockelt werden, um die Effekte „Grausam“ und „Geisterschutz“ zu gewähren.</string>
+	<string key="MalachiteCut_GroupDesc">Geschliffene und polierte Malachite. Kann zu Schmuck verarbeitet werden, der Intelligenz und Konstitution steigert, oder in Ausrüstung gesockelt werden, um die Effekte "Grausam" und "Geisterschutz" zu gewähren.</string>
 	<string key="MalachiteCut_GroupName">Geschliffener Malachit</string>
 	<string key="ManaCooking_CategoryName">Manaerholungszutaten</string>
 	<string key="MaterialConversion_GroupName">Materialkonvertierung</string>
@@ -1365,8 +1360,8 @@
 	<string key="MiningPicks_GroupName">Bergbauhacken</string>
 	<string key="ModsEpic_GroupName">Epische Mods</string>
 	<string key="ModsRare_GroupName">Seltene Mods</string>
-	<string key="ModsUncommon_GroupName">Untypische Mods</string>
-	<string key="MoonstoneCut_GroupDesc">Geschliffene und polierte Mondsteine. Kann zu Schmuck verarbeitet werden, der Stärke und Konzentration steigert, oder in Ausrüstung gesockelt werden, um die Effekte „Erheitern“ und „Schnittschutz“ zu gewähren.</string>
+	<string key="ModsUncommon_GroupName">Ungewöhnliche Mods</string>
+	<string key="MoonstoneCut_GroupDesc">Geschliffene und polierte Mondsteine. Kann zu Schmuck verarbeitet werden, der Stärke und Konzentration steigert, oder in Ausrüstung gesockelt werden, um die Effekte "Erheitern" und "Schnittschutz" zu gewähren.</string>
 	<string key="MoonstoneCut_GroupName">Geschliffener Mondstein</string>
 	<string key="Musical_GroupName">Musikinstrumente</string>
 	<string key="MusketA_GroupDesc">Diese Fernkampfwaffe schießt Patronen, die hohen Schaden verursachen. Ideal, um Ziele auf Distanz zu halten und dank hoher Zielgenauigkeit auch für den Fernkampf bestens geeignet.\n\n• Standardangriff: Verursacht {[DamageTable.MusketAttack1.DmgCoef * 100]} % Stichschaden.</string>
@@ -1375,9 +1370,9 @@
 	<string key="nut_GroupName">Nuss</string>
 	<string key="Offensive_GroupName">Offensive Modifikatoren</string>
 	<string key="oil_GroupName">Öl</string>
-	<string key="OnyxCut_GroupDesc">Geschliffene und polierte Onyxe. Kann zu Schmuck verarbeitet werden, der Konstitution steigert, oder in Ausrüstung gesockelt werden, um die Effekte „Dreistheit“ und „Körperschutz“ zu gewähren.</string>
+	<string key="OnyxCut_GroupDesc">Geschliffene und polierte Onyxe. Kann zu Schmuck verarbeitet werden, der Konstitution steigert, oder in Ausrüstung gesockelt werden, um die Effekte "Dreistheit" und "Körperschutz" zu gewähren.</string>
 	<string key="OnyxCut_GroupName">Geschliffener Onyx</string>
-	<string key="OpalCut_GroupDesc">Geschliffene und polierte Opale. Kann zu Schmuck verarbeitet werden, der Konzentration steigert, oder in Ausrüstung gesockelt werden, um die Effekte „Eröffnung“ und „Elementarschutz“ zu gewähren.</string>
+	<string key="OpalCut_GroupDesc">Geschliffene und polierte Opale. Kann zu Schmuck verarbeitet werden, der Konzentration steigert, oder in Ausrüstung gesockelt werden, um die Effekte "Eröffnung" und "Elementarschutz" zu gewähren.</string>
 	<string key="OpalCut_GroupName">Geschliffener Opal</string>
 	<string key="ore_GroupName">Erze</string>
 	<string key="oreprecious_GroupName">Edelmetalle</string>
@@ -1472,11 +1467,11 @@
 	<string key="RingsT4_GroupName">Ringe (Platin)</string>
 	<string key="RingsT5_GroupName">Ringe (Orichalcum)</string>
 	<string key="rivets_GroupName">Nieten</string>
-	<string key="RubyCut_GroupDesc">Geschliffene und polierte Rubine. Kann zu Schmuck verarbeitet werden, der Stärke steigert, oder in Ausrüstung gesockelt werden, um die Effekte „Entzündet“ und „Feuerschutz“ zu gewähren.</string>
+	<string key="RubyCut_GroupDesc">Geschliffene und polierte Rubine. Kann zu Schmuck verarbeitet werden, der Stärke steigert, oder in Ausrüstung gesockelt werden, um die Effekte "Entzündet" und "Feuerschutz" zu gewähren.</string>
 	<string key="RubyCut_GroupName">Geschliffener Rubin</string>
 	<string key="saltpeter_GroupName">Salpeter</string>
 	<string key="Sandpaper_GroupName">Sandpapier</string>
-	<string key="SapphireCut_GroupDesc">Geschliffene und polierte Saphire. Kann zu Schmuck verarbeitet werden, der Intelligenz steigert, oder in Ausrüstung gesockelt werden, um die Effekte „Ermächtigung“ und „Magieschutz“ zu gewähren.</string>
+	<string key="SapphireCut_GroupDesc">Geschliffene und polierte Saphire. Kann zu Schmuck verarbeitet werden, der Intelligenz steigert, oder in Ausrüstung gesockelt werden, um die Effekte "Ermächtigung" und "Magieschutz" zu gewähren.</string>
 	<string key="SapphireCut_GroupName">Geschliffener Saphir</string>
 	<string key="Seals_GroupName">Siegel</string>
 	<string key="Seasoning_CategoryName">Gewürze</string>
@@ -1694,7 +1689,7 @@
 	<string key="STRTrinkets_GroupDesc">Die Schmuckstücke erhöhen das Stärkeattribut.</string>
 	<string key="STRTrinkets_GroupName">Stärkeschmuckstücke</string>
 	<string key="SurvivalTools_GroupName">Überlebenswerkzeuge</string>
-	<string key="SwordA_GroupDesc">Ein Paar Nahkampfwaffen, die zusammen sowohl exzellente Angriffs- wie auch Verteidigungsmöglichkeiten bieten. Nutzt eine Kombination von ausholenden Schwüngen und Ausfallschritten für aggressive Nahkampfangriffe und einen Schild zur besseren Verteidigung.\n\n• Leichter Angriff: Verursacht {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]} % Schnittschaden.\n• Leichter Ender: Verursacht {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]} % Schnittschaden.\n• Schwerer Angriff: Verursacht {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]} % Stichschaden.\n• Aufgeladener schwerer Angriff: Verursacht {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]} % Stichschaden.</string>
+	<string key="SwordA_GroupDesc">Ein Paar Nahkampfwaffen, die zusammen sowohl exzellente Angriffs- wie auch Verteidigungsmöglichkeiten bieten. Nutzt eine Kombination von ausholenden Schwüngen und Ausfallschritten für aggressive Nahkampfangriffe und einen Schild zur besseren Verteidigung.\n\n• Leichter Angriff: Verursacht {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]} % Schnittschaden.\n• Leichtes Ende: Verursacht {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]} % Schnittschaden.\n• Schwerer Angriff: Verursacht {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]} % Stichschaden.\n• Aufgeladener schwerer Angriff: Verursacht {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]} % Stichschaden.</string>
 	<string key="SwordA_GroupName">Gerades Schwert</string>
 	<string key="SwordB_GroupDesc">Eine auf Geschwindigkeit ausgelegte Nahkampfwaffe für eine Vielzahl schneller Ausfallschrittangriffe. Überragend für präzise abgestimmte Angriffe und zum Ausbooten von Gegnern geeignet, während Blutung ihnen beständig das Leben entzieht.\n\n• Leichter Angriff: Verursacht {[DamageTable.1H_Rapier_PrimaryAttack.DmgCoef * 100]} % Stichschaden.\n• Leichte mittlere Schwünge: Verursacht {[DamageTable.1H_Rapier_PrimaryTwoThirdsAttack.DmgCoef * 100]} % Stichschaden.\n• Schwerer Angriff: Verursacht {[DamageTable.1H_Rapier_HeavyAttack.DmgCoef * 100]} % Stichschaden.</string>
 	<string key="SwordB_GroupName">Rapier</string>
@@ -1713,10 +1708,11 @@
 	<string key="TimberT5_GroupName">Bauholz Rang 5</string>
 	<string key="TinctureBlight_GroupName">Fäulnistinkturen</string>
 	<string key="TinctureCorruption_GroupName">Verderbnistinkturen</string>
+	<string key="TokenConversion_GroupName">Markenumtausch</string>
 	<string key="ToolHatchet_GroupDesc">Einhändig zu führen. Zum Sammeln von Holz.</string>
 	<string key="ToolHatchet_GroupName">Beil</string>
 	<string key="ToolsGathering_GroupName">Sammlerwerkzeuge</string>
-	<string key="TopazCut_GroupDesc">Geschliffene und polierte Topase. Kann zu Schmuck verarbeitet werden, der Geschick und Konzentration steigert, oder in Ausrüstung gesockelt werden, um die Effekte „Elektrifiziert“ und „Blitzschutz“ zu gewähren.</string>
+	<string key="TopazCut_GroupDesc">Geschliffene und polierte Topase. Kann zu Schmuck verarbeitet werden, der Geschick und Konzentration steigert, oder in Ausrüstung gesockelt werden, um die Effekte "Elektrifiziert" und "Blitzschutz" zu gewähren.</string>
 	<string key="TopazCut_GroupName">Geschliffener Topas</string>
 	<string key="TrinketA_GroupName">Ring des Sammlerglücks</string>
 	<string key="TrinketB_GroupName">Ring der Berserker</string>
@@ -1782,5 +1778,8 @@
 	<string key="WoodAny_CategoryName">Beliebiges Holz</string>
 	<string key="WorkOrder_GroupName">Arbeitsbefehl</string>
 	<string key="CategoryData_CookingRecipes">Kochrezepte</string>
+	<string key="Pattern">Schemata</string>
+	<string key="PatternRecipes">Schemarezepturen</string>
+	<string key="Lodestone">Magnetit</string>
 </resources>
 

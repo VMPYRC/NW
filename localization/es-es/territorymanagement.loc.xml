@@ -101,6 +101,8 @@
 	<string key="ui_leaving_settlement_no_inn">No te has registrado</string>
 	<string key="ui_leaving_settlement_inn_elsewhere">Vas a salir sin haberte registrado. La posada actual está en {territoryName}, a una distancia de {distance}.</string>
 	<string key="ui_cancel_town_project">Cancelar este proyecto de pueblo</string>
+	<string key="ui_cancel_on_cooldown">Se podrá cancelar dentro de {time}</string>
+	<string key="ui_start_on_cooldown">Se podrá empezar un proyecto nuevo dentro de {time}</string>
 	<string key="ui_cancel_project_title">¿Seguro?</string>
 	<string key="ui_cancel_project_desc">¿Seguro que quieres cancelar este proyecto? Se perderá el progreso que hayas conseguido hasta ahora.</string>
 	<string key="ui_replace_project_desc">Aviso: ¿Seguro que quieres remplazar el proyecto activo? Se perderá el progreso que hayas conseguido en el proyecto activo de este tipo.</string>
@@ -231,7 +233,7 @@
 	<string key="ui_fortressinfo_defenderlabel">(defendiendo)</string>
 	<string key="ui_fortressinfo_invasionattackername">Los corruptos</string>
 	<string key="ui_fortressinfo_timetodeclare">Tiempo para declarar la guerra:</string>
-	<string key="ui_fortressinfo_timetodeclare_paused_invasion">Paused (Invasion)</string>
+	<string key="ui_fortressinfo_timetodeclare_paused_invasion">En pausa (Invasión)</string>
 	<string key="ui_fortressinfo_conflictdescription">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;No conseguirás influencia&lt;/font&gt; en este territorio hasta que la guerra se resuelva. (El resto de las recompensas de misión de facción, como la EXP y las monedas, seguirán estando disponibles).\n\nSi varias compañías que hayan aportado influencia declaran la guerra, se seleccionará una al azar.</string>
 	<string key="ui_fortressinfo_noconflict">Territorio libre de conflicto</string>
 	<string key="ui_fortressinfo_contributionnotrequired">Ninguna compañía ha aportado aún suficiente influencia, por lo que cualquiera podría declarar la guerra.</string>
@@ -505,6 +507,7 @@
 	<string key="ui_project_in_progress">Este proyecto de pueblo no está completado.</string>
 	<string key="ui_project_nopermission">Solo los miembros de la compañía gobernante que tengan permiso pueden iniciar o cambiar un proyecto de pueblo.</string>
 	<string key="ui_project_button_upkeep_overdue">Pago del mantenimiento del territorio atrasado</string>
+	<string key="ui_project_button_upkeep_unclaimed">Territorio sin conquistar</string>
 	<string key="ui_project_tooltip_upkeep_overdue">No se puede iniciar un proyecto de pueblo si hay un retraso en el pago del mantenimiento del territorio</string>
 	<string key="ui_notavailable">N/D</string>
 	<string key="ui_timelimit">LÍMITE DE TIEMPO</string>
@@ -540,7 +543,7 @@
 	<string key="ui_firstdayofcycle">Primer día del ciclo</string>
 	<string key="ui_nextupkeepdue">Siguiente mantenimiento:</string>
 	<string key="ui_overdue_penalty">PENALIZACIÓN POR RETRASO EN EL PAGO</string>
-	<string key="ui_town_project">Proyecto de pueblo</string>
+	<string key="ui_town_project">Proyectos de pueblo</string>
 	<string key="ui_tax_management">Administración de impuesto</string>
 	<string key="ui_territorylevel">Nivel del territorio</string>
 	<string key="ui_next_penalty">SIGUIENTE BAJADA DE CATEGORÍA EN</string>

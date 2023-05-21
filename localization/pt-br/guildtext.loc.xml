@@ -187,7 +187,8 @@
 	<string key="ui_kickfromcompany">Expulsar da Companhia</string>
 	<string key="ui_kickguildmember_confirm">Tem certeza que deseja remover {playerName} da Companhia?</string>
 	<string key="ui_leaveguild">Sair da Companhia</string>
-	<string key="ui_leaveguild_confirm">Tem certeza de que deseja sair da Companhia?\n\nOutro membro será promovido a Governador quando você sair, e quaisquer participações que a companhia possuir permanecerão com a companhia sob o novo governador.</string>
+	<string key="ui_leaveguild_confirm">Tem certeza de que deseja sair da Companhia?</string>
+	<string key="ui_leaveguild_governor_confirm">Tem certeza de que deseja sair da Companhia?\n\nOutro membro será promovido a Governador quando você sair, e quaisquer participações que a companhia possuir permanecerão com a companhia sob o novo governador.</string>
 	<string key="ui_leaveguild_alone_confirm">Tem certeza de que deseja sair da Companhia?\n\nVocê é o único membro e, ao sair, todas as participações da companhia serão perdidas.</string>
 	<string key="ui_leftguildmessage">Saiu da Companhia.</string>
 	<string key="ui_modifycrest">Editar Brasão</string>
@@ -225,7 +226,8 @@
 	<string key="ui_permission_demolish_territories">{allowed} demolir territórios da Companhia</string>
 	<string key="ui_permission_declare_war">{allowed} declarar guerras e definir a janela de cerco</string>
 	<string key="ui_permission_treasury_deposit">{allowed} fazer depósitos na Tesouraria da Companhia</string>
-	<string key="ui_permission_treasury_withdraw">{allowed} fazer saques na Tesouraria da Companhia</string>
+	<string key="ui_permission_treasury_withdraw">{allowed} sacar até o limite diário da Tesouraria da Companhia</string>
+	<string key="ui_permission_treasury_withdraw_unlimited">{allowed} sacar qualquer quantia da Tesouraria da Companhia</string>
 	<string key="ui_permission_treasury_set_daily_limit">{allowed} definir o limite de saque diário na Tesouraria</string>
 	<string key="ui_permission_territory_project_management">{allowed} iniciar e cancelar atualizações de território</string>
 	<string key="ui_permission_territory_taxation">{allowed} modificar valores de imposto do território</string>
@@ -236,7 +238,7 @@
 	<string key="ui_promote">Promover</string>
 	<string key="ui_promote_transfer_owner">Transferir Titularidade</string>
 	<string key="ui_promotetoguildmaster_confirm_title">Transferir Companhia?</string>
-	<string key="ui_promotetoguildmaster_confirm">Tem certeza de que deseja transferir a posse da Companhia para {memberName}?\n\nTodos os membros, conquistas, estruturas e fundos de tesouraria de {guildName} se tornarão propriedade da Companhia de {memberName}. O nome e brasão mudarão para o nome e brasão da Companhia de {memberName}. Seu ranque será rebaixado e {guildName} terá 0 membros e bens.\n\nEsta ação é definitiva e a mudança ocorrerá imediatamente.</string>
+	<string key="ui_promotetoguildmaster_confirm">Tem certeza de que deseja transferir o governo da Companhia para {memberName}?\n\nTodos os membros, conquistas, estruturas e fundos de tesouraria de {guildName} ficarão sob o controle de {memberName} como novo Governador de {guildName}. O brasão e o nome da Companhia permanecerão os mesmos. Seu ranque será rebaixado ao nível imediatamente inferior.\n\nEsta ação é definitiva e a mudança ocorrerá imediatamente.</string>
 	<string key="ui_rank">Ranque</string>
 	<string key="ui_rankmovedowndisabled">Este é o ranque mais baixo</string>
 	<string key="ui_rankmoveupdisabled">Não pode mover acima de {gmRankName}</string>
@@ -420,8 +422,10 @@
 	<string key="ui_guildclaimsowned">Conquistas Possuídas</string>
 	<string key="ui_guildoneclaimowned">Conquista Possuída</string>
 	<string key="ui_acceptguildinvitepopuptitle">Juntar-se à Nova Companhia?</string>
+	<string key="ui_acceptguildinvitepopupmessage_noguild">Tem certeza de que deseja entrar em uma Companhia nova?</string>
 	<string key="ui_acceptguildinvitepopupmessage_hasclaims">Quaisquer territórios que você possua não serão transferidos para a nova Companhia, e continuarão sendo reivindicados pela Companhia que você está deixando. As Companhias precisam passar pelo processo de Declaração de Guerra para reivindicar qualquer um destes Territórios.</string>
-	<string key="ui_acceptguildinvitepopupmessage_noclaims">Tem certeza de que deseja sair de sua Companhia atual e entrar em uma nova Companhia?\nVocê não poderá voltar para esta Companhia por {rejoinTime} e não poderá entrar em uma nova Companhia por {switchTime}.</string>
+	<string key="ui_acceptguildinvitepopupmessage_noclaims_time_remaining">Tem certeza de que deseja sair de sua Companhia atual e entrar em uma nova Companhia?\nVocê não poderá voltar para esta Companhia por {rejoinTime} e não poderá entrar em uma nova Companhia por {switchTime}.</string>
+	<string key="ui_acceptguildinvitepopupmessage_noclaims">Tem certeza de que deseja sair de sua Companhia atual e entrar em uma nova?</string>
 	<string key="ui_cantchangerank_iscurrentrank">Já está no ranque atual do membro</string>
 	<string key="ui_cantpromote_maxrank">Já está no ranque mais alto possível</string>
 	<string key="ui_cantpromote_leaderatwar">Não é possível transferir a titularidade da Companhia enquanto em guerra</string>
@@ -541,7 +545,7 @@
 	<string key="ui_siege_set_backfill_failed_not_permitted_invasion">O estado de aterramento não pode ser alterado para invasões</string>
 	<string key="ui_siege_set_backfill_failed">Houve um problema ao modificar o estado de aterramento.</string>
 	<string key="ui_siege_standby_page_text">Página {currentPage} de {totalPages}</string>
-	<string key="ui_treasury_governor">O governador da Companhia pode retirar qualquer quantia de moedas da tesouraria.</string>
+	<string key="ui_treasury_withdrawal_desc">O governador e os cônsules da Companhia podem sacar qualquer quantia de moedas da tesouraria. Oficiais podem fazer saques dentro do limite diário definido pelo governador.</string>
 	<string key="ui_companylog_checkbox_selectAll">Selecionar Tudo</string>
 	<string key="ui_companylog_checkbox_invites">Convites</string>
 	<string key="ui_companylog_checkbox_rankChange">Alteração de Ranque</string>
@@ -555,7 +559,7 @@
 	<string key="ui_war_invite_name">Guerra/Invasão</string>
 	<string key="ui_invasion_invite_name">Invasão</string>
 	<string key="ui_invasion">Invasão</string>
-	<string key="ui_armory">Armaria.</string>
+	<string key="ui_armory">Armaria</string>
 	<string key="ui_war_time_dec_remaining">Tempo restante para Declarar Guerra: {time}</string>
 	<string key="ui_in_conflict">Em Conflito</string>
 	<string key="ui_war_refund_tooltip">As moedas gastas para declarar guerra serão reembolsadas se a sua Companhia não for selecionada.</string>
@@ -570,7 +574,7 @@
 	<string key="ui_signup_restriction_tooltip">Você não pode se inscrever no oponente de sua facção.</string>
 	<string key="ui_signup_nofaction_tooltip">Você precisa estar em uma facção para inscrever-se em uma guerra.</string>
 	<string key="ui_signup_not_available">Inscrição não disponível</string>
-	<string key="ui_signup_level_requirement">O jogador precisa estar no &lt;font color="#ff6363"&gt;nível {level}&lt;/font&gt; &lt;font color="#c0c0c0"&gt; para inscrever-se.&lt;/font&gt;</string>
+	<string key="ui_signup_level_requirement">&lt;font color="#ff6363"&gt;Requer nível {level}&lt;/font&gt; &lt;font color="#c0c0c0"&gt; para inscrever-se.&lt;/font&gt;</string>
 	<string key="ui_signup_count">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{number}&lt;/font&gt;&lt;/font&gt; jogadores inscritos</string>
 	<string key="ui_signup_instruction_title_1">Aguarde.</string>
 	<string key="ui_signup_instruction_title_2">Esteja Online.</string>

@@ -200,6 +200,7 @@
 	<string key="mm_authresult_Denied_LoginTokenEndpointInvalid">El inicio de sesión proporcionado no corresponde a este mundo.</string>
 	<string key="mm_authresult_Denied_LoginTokenCapabilitiesInvalid">Las capacidades enumeradas del cliente son inválidas.</string>
 	<string key="mm_authresult_Denied_LoginTicketInvalid">El ticket de inicio de sesión caducó o no es válido. Inténtalo de nuevo.</string>
+	<string key="mm_authresult_Denied_LoginTokenWrongHost">Has sido dirigido al servidor incorrecto. Inténtalo nuevamente.</string>
 	<string key="mm_authresult_Denied_EasyAntiCheatFailure">Error de configuración de EAC Ingresa al sitio de la comunidad de New World para obtener más información: https://forums.newworld.com</string>
 	<string key="mm_authresult_Error_InvalidSetup">La configuración de autenticación no es válida.</string>
 	<string key="mm_authresult_Error_Persona">No se pudo realizar la autenticación con Persona.</string>
@@ -324,6 +325,7 @@
 	<string key="ui_repairing">Reparación</string>
 	<string key="ui_gathering">Recolección</string>
 	<string key="ui_refining">Refinamiento</string>
+	<string key="ui_taxes">Impuestos</string>
 	<string key="ui_survival">Habilidades personales</string>
 	<string key="ui_weaponsmithing">Forja de armas</string>
 	<string key="ui_armoring">Armamento</string>
@@ -345,6 +347,7 @@
 	<string key="crafting_repair_requires_kit">La reparación requiere {quantityRequired} {itemRequired} del nivel {tierNumber}.</string>
 	<string key="crafting_cannot_repair">No se puede reparar</string>
 	<string key="crafting_requires_station">Debes estar en la estación correcta.</string>
+	<string key="crafting_repair_no_requirements">No existen requisitos para reparar este objeto.</string>
 	<string key="inv_salvage_tooltip" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Si desarmas este objeto obtendrás {numItems} {itemName}.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Si desarmas este objeto obtendrás {numItems} {itemName} y {numRepairParts} piezas de repuesto.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_onlyrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Aprovechar este artículo te devolverá: {numRepairParts} piezas de reparación.{gemMessage}</string>
@@ -354,6 +357,7 @@
 	<string key="inv_salvage_tooltip_gemmessage" comment="this will come after a previous sentence and should have a space in front">Hay una pequeña posibilidad de recuperar la gema adosada.</string>
 	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items.">También podrías adquirir objetos adicionales como {itemName}.</string>
 	<string key="inv_salvage_tooltip_recipe">Si desarmas este objeto, aprenderás la receta {recipeName}.</string>
+	<string key="inv_salvage_tooltip_recipe_known">Ya conoces la receta {recipeName}.</string>
 	<string key="inv_salvage_tertiary_recipe">Receta {recipeName}</string>
 	<string key="minspec_warning_requirements_title">Aviso sobre los requisitos mínimos</string>
 	<string key="minspec_failed_requirements_title">La computadora no cumple con las especificaciones mínimas</string>
@@ -415,5 +419,7 @@
 	<string key="error_perm_ban">Suspensión permanente</string>
 	<string key="error_temp_ban">Prohibición temporal</string>
 	<string key="error_world_select_server_down">No puedes seleccionar un mundo cuando se están realizando tareas de mantenimiento.</string>
+	<string key="error_loading_assets_title">Error al cargar recurso del juego</string>
+	<string key="error_loading_assets_message">Hubo un error al cargar recursos del juego. Revisa tu instalación.</string>
 </resources>
 

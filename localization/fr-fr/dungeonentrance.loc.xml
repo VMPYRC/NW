@@ -7,7 +7,7 @@
 	<string key="ui_dungeon_screen_header">Entrée de l'expédition</string>
 	<string key="ui_dungeon_requirements">&lt;img src="LyShineUI/Images/icons/misc/icon_level_simple" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; Niveau recommandé : {level} &lt;img src="LyShineUI/Images/icons/misc/icon_character" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; Joueurs minimum : {players}</string>
 	<string key="ui_dungeon_requirements_groupsize">Joueurs minimum : &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{players}&lt;/font&gt;</string>
-	<string key="ui_dungeon_requirements_gearscore">Niveau recommandé : &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{level}&lt;/font&gt;</string>
+	<string key="ui_dungeon_requirements_gearscore">Niveau recommandé : {level}</string>
 	<string key="ui_flyout_recommended_groupsize">Joueurs recommandés : &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{players}&lt;/font&gt;</string>
 	<string key="ui_dungeon_requirements_equipment_warning">Pour accomplir cette expédition, il est nécessaire d'avoir dans votre groupe au moins : &lt;font color="#ffffff"&gt;{item}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_reward_level">Les objets que vous trouvez peuvent différer des objets listés en fonction de leur score d'équipement.</string>
@@ -50,11 +50,12 @@
 	<string key="ui_dungeon_opened_pvpwarning_title">Abandon du JcJ pour entrer</string>
 	<string key="ui_dungeon_enter_pvpwarning_info">Entrer dans une expédition vous fera &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;abandonner toutes les missions JcJ&lt;/font&gt;. Continuer ?</string>
 	<string key="ui_dungeon_full_header">L'expédition est actuellement pleine. Rejoignez la file d'attente pour pénétrer dans l'expédition.</string>
-	<string key="ui_dungeon_player_average_gear_score">Score d'équipement moyen : &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{gearscore}&lt;/font&gt;</string>
+	<string key="ui_dungeon_player_average_gear_score">&lt;font color="#c3b79f"&gt;Score d'équipement moyen : &lt;/font&gt; &lt;font color="#ffffff" face="lyshineui/fonts/CaslonAnt.font"&gt;{gearscore}&lt;/font&gt;</string>
 	<string key="ui_dungeon_queued_blocked">Ouverture de l'expédition impossible</string>
 	<string key="ui_dungeon_outpost_rush">Vous êtes déjà dans la file d'attente de la Déferlante</string>
 	<string key="ui_dungeon_expiring">Sortie de l'expédition dans</string>
 	<string key="ui_dungeon_cooldown">Peut ouvrir dans &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{timeRemaining}&lt;/font&gt;</string>
 	<string key="ui_dungeon_cooldown_flyout">Vous pouvez ouvrir cette expédition dans {timeRemaining}</string>
+	<string key="ui_dungeon_next_unlock_requirement">Obtenez le &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;rang Argent&lt;/font&gt; à l'issue de cette expédition pour déverrouiller le &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;niveau de difficulté suivant&lt;/font&gt;.</string>
 </resources>
 

@@ -1,8 +1,10 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="FoodComponents_GroupName">Ingrédients composés</string>
 	<string key="GemstoneT1_GroupName">Pierres précieuses impures</string>
 	<string key="GemstoneT2_GroupName">Pierres précieuses standard</string>
 	<string key="GemstoneT3_GroupName">Pierres précieuses éclatantes</string>
 	<string key="GemstoneT4_GroupName">Pierres précieuses immaculées</string>
+	<string key="CraftingPatterns_GroupName">Patrons de fabrication</string>
 	<string key="ShieldB_GroupName" comment="A heavy shield that provides excellent protection from attacks.">Bouclier normand</string>
 	<string key="ShieldA_GroupName" comment="A relatively lightweight shield that provides good protection from attacks.">Targe</string>
 	<string key="AlchemyBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Trophées octroyant un bonus d'arts obscurs (si placés dans votre maison).</string>
@@ -558,8 +560,8 @@
 	<string key="CarnelianCut_GroupName">Cornaline taillée</string>
 	<string key="Cartridges_GroupName">Cartouches d'arme à feu</string>
 	<string key="catalyst_GroupName">Catalyseurs</string>
-	<string key="CategoryData_1Handed">Armes à &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;une&lt;/font&gt; main</string>
-	<string key="CategoryData_2Handed">Armes à &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;deux&lt;/font&gt; mains</string>
+	<string key="CategoryData_1Handed">Armes à une main</string>
+	<string key="CategoryData_2Handed">Armes à deux mains</string>
 	<string key="CategoryData_AfflictionResistance">Résistance aux atteintes</string>
 	<string key="CategoryData_alchemyresources">Ingrédients de potion</string>
 	<string key="CategoryData_Ammo">Munitions</string>
@@ -634,7 +636,7 @@
 	<string key="CategoryData_Potion">Potions</string>
 	<string key="CategoryData_PotionDesc">Les potions permettent d'améliorer temporairement vos performances.</string>
 	<string key="CategoryData_Alkahest">Alkahest</string>
-	<string key="CategoryData_AlkahestDesc"/>
+	<string key="CategoryData_AlkahestDesc">Les alkahests sont utilisés pour fabriquer des potions.</string>
 	<string key="CategoryData_RangedWeapons">Armes à distance</string>
 	<string key="CategoryData_rawresources">Ressources brutes</string>
 	<string key="CategoryData_RefinedMaterial">Matériaux transf.</string>
@@ -1053,6 +1055,8 @@
 	<string key="GatheringFood_GroupName">Récupération de nourriture</string>
 	<string key="GauntletIce_GroupDesc">Un gantelet qui consomme du mana pour invoquer la puissance givrante des sortilèges de glace. Idéal pour infliger des dégâts persistants à l'aide de tempêtes élémentaires, de glace et d'attaques givrantes qui peuvent également entraver les ennemis.\n\n•Attaque légère : Inflige {[DamageTable.IceMagic_Primary.DmgCoef * 100]} % de dégâts de glace.\n•Attaque lourde : Inflige {[DamageTable.IceMagic_Heavy.DmgCoef * 100]} % de dégâts de glace.</string>
 	<string key="GauntletIce_GroupName">Gantel. de glace</string>
+	<string key="GauntletVoid_GroupDesc" rel_version="Weapon_Void_Gauntlet">Des gantelets qui consomment du mana pour affaiblir les ennemis et renforcer les alliés. Spécialisés dans les améliorations à faible portée et les dégâts sur la durée ou les affaiblissements à moyenne portée et les soins, les gantelets du néant sont particulièrement dangereux lorsqu'ils sont utilisés dans un groupe.\n\n•Attaque légère : Inflige {[DamageTable.VoidGauntlet_Primary.DmgCoef * 100]} % de dégâts de néant.\n•Attaque lourde : Inflige {[DamageTable.VoidGauntlet_Heavy.DmgCoef * 100]} % de dégâts de néant et vous soigne à hauteur de {[VoidGauntletAbilityTable.Passive_VoidGauntlet_HealOnHeavy.DmgPctToHealth * 100]} % des dégâts infligés.\n•Essence de récolte (maintenir la garde) : Convertit progressivement votre santé en mana. Le taux varie en fonction des dégâts de l'arme.</string>
+	<string key="GauntletVoid_GroupName" rel_version="Weapon_Void_Gauntlet">Gantel. du néant</string>
 	<string key="GemAmbe_CategoryName">Ambres</string>
 	<string key="GemAmet_CategoryName">Améthystes</string>
 	<string key="GemAqua_CategoryName">Aigues-marines</string>
@@ -1704,6 +1708,7 @@
 	<string key="TimberT5_GroupName">Bois d'œuvre – palier 5</string>
 	<string key="TinctureBlight_GroupName">Teintures mères de dépérissement</string>
 	<string key="TinctureCorruption_GroupName">Teintures mères d'altération</string>
+	<string key="TokenConversion_GroupName">Conversion de jetons</string>
 	<string key="ToolHatchet_GroupDesc">À une main. Pour obtenir du bois.</string>
 	<string key="ToolHatchet_GroupName">Hachette</string>
 	<string key="ToolsGathering_GroupName">Outils d'exploitation</string>
@@ -1773,5 +1778,8 @@
 	<string key="WoodAny_CategoryName">Tout bois</string>
 	<string key="WorkOrder_GroupName">Commandes</string>
 	<string key="CategoryData_CookingRecipes">Recettes de cuisine</string>
+	<string key="Pattern">Plans</string>
+	<string key="PatternRecipes">Recettes de plans</string>
+	<string key="Lodestone">Magnétite</string>
 </resources>
 

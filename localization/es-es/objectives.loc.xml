@@ -42,6 +42,8 @@
 	<string key="objective_buySell_spendGoldSingleTransaction" speaker="UI">Gasta {amountCount} monedas en una sola transacción</string>
 	<string key="objective_completed" speaker="UI">Objetivo completado</string>
 	<string key="dynamic_poi_objective_completed" speaker="UI">Punto de referencia explorado</string>
+	<string key="objective_quest_encounter">Combate de misión</string>
+	<string key="objective_quest_encounter_description">Enfréntate al objetivo para avanzar con la misión.</string>
 	<string key="objective_craft" speaker="UI">Fabrica: {itemName}</string>
 	<string key="objective_craft_p" speaker="UI">Fabrica: {itemName} ({itemAmount})</string>
 	<string key="objective_crafthealingdrops" speaker="UI">Fabrica en tu campamento: {itemName} (por defecto: [Y])</string>
@@ -67,7 +69,7 @@
 	<string key="objective_experience" speaker="UI">Exp.</string>
 	<string key="objective_failed" speaker="UI">Objetivo fallido</string>
 	<string key="objective_gather_herbs" speaker="UI">Recolecta en las zonas costeras: {itemName} de color azul</string>
-	<string key="objective_gatherironore" speaker="UI">Saca el mineral de hierro del saco pesado en tu inventario</string>
+	<string key="objective_gatherironore" speaker="UI">Saca el mineral de hierro del saco pesado en tu inventario O</string>
 	<string key="objective_gatherrawhide" speaker="UI">Desuella jabalíes y lobos para obtener {itemName}</string>
 	<string key="objective_gatherstone" speaker="UI">Extrae {itemName} de pedruscos</string>
 	<string key="objective_gatherwood" speaker="UI">Recolecta {itemName} de arbustos o árboles</string>
@@ -76,6 +78,7 @@
 	<string key="objective_have_level" speaker="UI">Alcanza el nivel {level}</string>
 	<string key="objective_have" speaker="UI">Obtén: {itemName}</string>
 	<string key="objective_have_p" speaker="UI">Obtén: {itemName} ({itemAmount})</string>
+	<string key="@objective_house_score" speaker="UI">Alcanza la puntuación de decoración {score} con tu casa</string>
 	<string key="objective_ingredients" speaker="UI">INGREDIENTES</string>
 	<string key="objective_journal" speaker="UI">Diario</string>
 	<string key="objective_journey" speaker="UI">Historias secundarias</string>
@@ -157,6 +160,8 @@
 	<string key="objective_has_location" speaker="UI">Con ubicaciones específicas</string>
 	<string key="objective_no_location" speaker="UI">Sin ubicaciones específicas</string>
 	<string key="objective_side_quests" speaker="UI">Misiones secundarias</string>
+	<string key="objective_event" speaker="UI">Misiones de evento</string>
+	<string key="objective_event_desc" speaker="UI">Objetivos disponibles durante un evento</string>
 	<string key="objective_faction_missions" speaker="UI">Misiones de facción</string>
 	<string key="objective_community_goal" speaker="UI">Proyectos de pueblo</string>
 	<string key="objective_POI" speaker="UI">Punto de referencia</string>
@@ -201,7 +206,7 @@
 	<string key="objective_story_task_getoffthebeach" speaker="UI">Encuentra el puesto remoto</string>
 	<string key="objective_story_task_search_containers" speaker="UI">Busca cajas cerca de: {POITags}</string>
 	<string key="objective_tasks" speaker="UI">TAREAS</string>
-	<string key="objective_townproject" speaker="UI">Proyecto de pueblo</string>
+	<string key="objective_townproject" speaker="UI">Proyectos de pueblo</string>
 	<string key="objective_townproject_desc" speaker="UI">Se encuentra en los tableros de proyectos de pueblo</string>
 	<string key="objective_unpin" speaker="UI">Quitar</string>
 	<string key="objective_use" speaker="UI">Usa: {itemName}</string>
@@ -226,6 +231,7 @@
 	<string key="objective_mission_task_patrol_windsward" speaker="UI">Patrulla el territorio</string>
 	<string key="patrol_task_container_description" speaker="UI">Defiende la zona y logra sobrevivir.</string>
 	<string key="objective_mission_task_patrol_timer" speaker="UI">Defiende {POITags} durante {timeRemaining}</string>
+	<string key="objective_mission_task_control_point" speaker="UI">Captura el fuerte {TerritoryID} para los Saqueadores</string>
 	<string key="task_choose_faction" speaker="UI">Elige una facción de {destinationName}</string>
 	<string key="complete_available_prompt_DEFAULT" comment="male" speaker="UI - Button">Completa la misión</string>
 	<string key="prompt_DEFAULT" speaker="UI - Button">Aceptar misión</string>
@@ -262,5 +268,24 @@
 	<string key="objective_destroy_and_collect" speaker="UI">Destruye {targetName} y recoge {itemName} en {POITags}</string>
 	<string key="commander">Comandante</string>
 	<string key="objective_mission_destroy_generic_at_POI">Destruye: {targetName} en {POITags}</string>
+	<string key="objective_mission_task_PVP_kill_and_acquire_X_items_anywhere">Derrota a miembros de facciones enemigas para obtener {itemName}</string>
+	<string key="objective_mission_kill_generic">Derrota a {targetName}</string>
+	<string key="objective_mission_loot_chests_generic">Busca {itemName} en cofres</string>
+	<string key="objective_mission_hunt_generic">Caza: {targetName}</string>
+	<string key="objective_mission_loot_chests_at_Warcamp">Busca {itemName} en los cofres que encontrarás en el campamento de guerra de {TerritoryID}</string>
+	<string key="objective_mission_kill_with_weapon">Derrota a {targetName} usando {WeaponClassId}</string>
+	<string key="objective_mission_kill_with_sword">Derrota a {targetName} usando la espada y el escudo</string>
+	<string key="objective_mission_kill_with_rapier">Derrota a {targetName} usando el estoque</string>
+	<string key="objective_mission_kill_with_hatchet">Derrota a {targetName} usando el destral</string>
+	<string key="objective_mission_kill_with_greataxe">Derrota a {targetName} usando la gran hacha</string>
+	<string key="objective_mission_kill_with_warhammer">Derrota a {targetName} usando el martillo de guerra</string>
+	<string key="objective_mission_kill_with_spear">Derrota a {targetName} usando la lanza</string>
+	<string key="objective_mission_kill_with_bow">Derrota a {targetName} usando el arco</string>
+	<string key="objective_mission_kill_with_musket">Derrota a {targetName} usando el mosquete</string>
+	<string key="objective_mission_kill_with_firestaff">Derrota a {targetName} usando el báculo ígneo</string>
+	<string key="objective_mission_kill_with_lifestaff">Derrota a {targetName} usando el báculo de vida</string>
+	<string key="objective_mission_kill_with_icegauntlet">Derrota a {targetName} usando la manopla de hielo</string>
+	<string key="objective_mission_task_control_point_S">Captura el fuerte {TerritoryID} para el Sindicato</string>
+	<string key="objective_mission_task_control_point_C">Captura el fuerte {TerritoryID} para la Alianza</string>
 </resources>
 

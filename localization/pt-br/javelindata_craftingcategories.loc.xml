@@ -1,8 +1,10 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="FoodComponents_GroupName">Ingredientes de Composto</string>
 	<string key="GemstoneT1_GroupName">Gemas Imperfeitas</string>
 	<string key="GemstoneT2_GroupName">Gemas Regulares</string>
 	<string key="GemstoneT3_GroupName">Gemas Brilhantes</string>
 	<string key="GemstoneT4_GroupName">Gemas Puras</string>
+	<string key="CraftingPatterns_GroupName">Padrões de Confecção</string>
 	<string key="ShieldB_GroupName" comment="A heavy shield that provides excellent protection from attacks.">Escudo Ogival</string>
 	<string key="ShieldA_GroupName" comment="A relatively lightweight shield that provides good protection from attacks.">Escudo Circular</string>
 	<string key="AlchemyBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Troféus que fornecem um Bônus Arcano (quando expostos na sua casa).</string>
@@ -192,9 +194,6 @@
 	<string key="HousingTrdG_Cabinets_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Gaveteiros de Alojamento</string>
 	<string key="HousingTrdG_Cabinets_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Gaveteiros de Alojamento</string>
 	<string key="HousingTrdG_Veg_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Vegetação de Alojamento</string>
-	<string key="1hCelestialGauntlet_Heal_GroupName">Manoplas Celestiais</string>
-	<string key="1hClub_GroupDesc">1 Mão. Uma arma corpo a corpo de curto alcance capaz de executar uma rajada de ataques contundentes.</string>
-	<string key="1hClub_GroupName">Maça</string>
 	<string key="1hHatchet_GroupDesc">Uma arma diversificada que permite ataques de arremesso a distância ou ataques rápidos de curto alcance. Ideal para combate corpo a corpo agressivo e de empenho total ou para combate tático a distância média.\n\n•Ataque Leve: Causa {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]}% de Dano Cortante.\n•Finalizador Leve: Causa {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]}% de Dano Cortante.\n•Ataque Pesado: Causa {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]}% de Dano Cortante.\n•Ataque Pesado Carregado: Causa {[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]}% de Dano Cortante.</string>
 	<string key="1hHatchet_GroupName">Machadinhas Confeccionadas</string>
 	<string key="1hHatchetAngryEarth_GroupName">Machadinhas Primitivas</string>
@@ -266,8 +265,6 @@
 	<string key="2hBowNamed4_GroupName">Perseverança</string>
 	<string key="2hBowNamed5_GroupName">Golpe Verdadeiro</string>
 	<string key="2hBowNamed6_GroupName">Mira Longa</string>
-	<string key="2hClub_GroupDesc">2 Mãos</string>
-	<string key="2hClub_GroupName">Marreta</string>
 	<string key="2hDemoHammer_GroupDesc">2 Mãos. Perfeito para arrebentar estruturas e ainda melhor para destroçar portões. Não tão bom para combate.</string>
 	<string key="2hDemohammer_GroupName">Martelos de Cerco</string>
 	<string key="2hElementalStaff_Fire_GroupName">Bastões Flamejantes Confeccionados</string>
@@ -563,18 +560,18 @@
 	<string key="CarnelianCut_GroupName">Cornalina Lapidada</string>
 	<string key="Cartridges_GroupName">Cartuchos de Arma de Fogo</string>
 	<string key="catalyst_GroupName">Catalizadores</string>
-	<string key="CategoryData_1Handed">Armas de &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt; Mão</string>
-	<string key="CategoryData_2Handed">Armas de &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt; Mãos</string>
+	<string key="CategoryData_1Handed">Armas de 1 Mão</string>
+	<string key="CategoryData_2Handed">Armas de 2 Mãos</string>
 	<string key="CategoryData_AfflictionResistance">Resistência a Aflição</string>
 	<string key="CategoryData_alchemyresources">Reagentes de Poção</string>
-	<string key="CategoryData_Ammo">Munição.</string>
+	<string key="CategoryData_Ammo">Munição</string>
 	<string key="CategoryData_AmmoIron">Munição de Ferro</string>
 	<string key="CategoryData_AmmoOrichalcum">Munição de Oricalco</string>
 	<string key="CategoryData_AmmoStarmetal">Munição de Estelaço</string>
 	<string key="CategoryData_AmmoSteel">Munição de Aço</string>
-	<string key="CategoryData_Ammunition">Munição.</string>
+	<string key="CategoryData_Ammunition">Munição</string>
 	<string key="CategoryData_Amulets">Amuletos</string>
-	<string key="CategoryData_Apparel">Vestimenta.</string>
+	<string key="CategoryData_Apparel">Vestimentas</string>
 	<string key="CategoryData_ArcanaResources">Arcana</string>
 	<string key="CategoryData_arrows">Flechas</string>
 	<string key="CategoryData_Azoth">Azoth</string>
@@ -638,6 +635,8 @@
 	<string key="CategoryData_Pigments">Pigmentos</string>
 	<string key="CategoryData_Potion">Poções</string>
 	<string key="CategoryData_PotionDesc">Poções são itens que melhoram o desempenho temporariamente.</string>
+	<string key="CategoryData_Alkahest">Alkahest</string>
+	<string key="CategoryData_AlkahestDesc">Alkahest são itens usados para confeccionar poções.</string>
 	<string key="CategoryData_RangedWeapons">Armas a Distância</string>
 	<string key="CategoryData_rawresources">Matérias-primas</string>
 	<string key="CategoryData_RefinedMaterial">Materiais Refinados</string>
@@ -699,14 +698,12 @@
 	<string key="CategoryData_TinctureDesc">Extratos são itens usados para se recuperar de lesões, exaustão ou aflições.</string>
 	<string key="CategoryData_Tools">Ferramentas</string>
 	<string key="CategoryData_Trophies">Troféus</string>
-	<string key="CategoryData_Utilities">Consumíveis.</string>
+	<string key="CategoryData_Utilities">Consumíveis</string>
 	<string key="CategoryData_Warhammers">Martelos de Guerra</string>
 	<string key="CategoryData_WeaponCoatings">Revestimentos de Arma</string>
 	<string key="CategoryData_Weapons">Armas</string>
 	<string key="CategoryData_WeaponsAmmo">Armas e Munições</string>
 	<string key="CategoryData_WearableTrinkets">Acessórios</string>
-	<string key="CelestialGauntlet_GroupDesc">Manoplas que permitem que seu usuário invoque forças mágicas restauradoras.</string>
-	<string key="CelestialGauntlet_GroupName">Manopla Celestial</string>
 	<string key="Charcoal_GroupDesc">Material de Confecção.</string>
 	<string key="Charcoal_GroupName">Carvão</string>
 	<string key="ChefChest_GroupName">Camisa do Chefe de Cozinha</string>
@@ -789,8 +786,6 @@
 	<string key="CutGemsT3_GroupName">Gemas Brilhantes</string>
 	<string key="CutGemsT4_GroupName">Gemas Puras</string>
 	<string key="CutStone_GroupName">Pedras Lapidadas</string>
-	<string key="Dagger_GroupDesc">Armas de uma mão para duelos de combate corpo a corpo a curta distância e de ataques de arremesso a curta distância.</string>
-	<string key="Dagger_GroupName">Adagas</string>
 	<string key="DefenseFood_GroupName">Alimentos de Proteção</string>
 	<string key="Defensive_GroupName">Modificadores Defensivos</string>
 	<string key="Demijohn_GroupName">Garrafões</string>
@@ -898,7 +893,7 @@
 	<string key="DyeBrown_GroupName">Tinturas Marrons</string>
 	<string key="DyeCyan_GroupName">Tinturas Ciano</string>
 	<string key="DyeGreen_GroupName">Tinturas Verdes</string>
-	<string key="DyeGrey_GroupName">Tinturas Cinza</string>
+	<string key="DyeGrey_GroupName">Tinturas Cinzas</string>
 	<string key="DyeMagenta_GroupName">Tinturas Magentas</string>
 	<string key="DyeOrange_GroupName">Tinturas Laranjas</string>
 	<string key="DyePurple_GroupName">Tinturas Roxas</string>
@@ -1060,8 +1055,8 @@
 	<string key="GatheringFood_GroupName">Coleta de Alimentos</string>
 	<string key="GauntletIce_GroupDesc">Manopla que consome Mana para invocar os poderes congelantes dos feitiços de Gelo. Ótima para causar dano persistente ao invocar tempestades elementais e gelo, e para utilizar ataques congelantes que atrasam e ferem os inimigos.\n\n•Ataque Leve: Causa {[DamageTable.IceMagic_Primary.DmgCoef * 100]}% de Dano de Gelo.\n•Ataque Pesado: Causa {[DamageTable.IceMagic_Heavy.DmgCoef * 100]}% de Dano de Gelo.</string>
 	<string key="GauntletIce_GroupName">Manoplas de Gelo</string>
-	<string key="GauntletVoid_GroupDesc">Manopla que consome Mana para debilitar inimigos e fortalecer aliados. Especializada em buffs de curto alcance e dano ao longo do tempo ou debuffs de médio alcance e cura, a Manopla Imaterial é especialmente perigosa quando usada contra um grupo.\n\n•Ataque Leve: Causa {[DamageTable.VoidGauntlet_Primary.DmgCoef * 100]}% de Dano Imaterial.\n•Ataque Pesado: Causa {[DamageTable.VoidGauntlet_Heavy.DmgCoef * 100]}% de Dano Imaterial e cura a si mesmo em {[VoidGauntletAbilityTable.Passive_VoidGauntlet_HealOnHeavy.DmgPctToHealth * 100]}% do dano causado.\n•Extração (Segurar “Bloquear”): Converte sua saúde em mana ao longo do tempo. A taxa de conversão é baseada no dano da arma.</string>
-	<string key="GauntletVoid_GroupName">Manoplas Imateriais</string>
+	<string key="GauntletVoid_GroupDesc" rel_version="Weapon_Void_Gauntlet">Manopla que consome Mana para debilitar inimigos e fortalecer aliados. Especializada em buffs de curto alcance e em causar dano ao longo do tempo ou debuffs de médio alcance e cura, a Manopla Imaterial é especialmente perigosa quando usada contra um grupo.\n\n•Ataque Leve: Causa {[DamageTable.VoidGauntlet_Primary.DmgCoef * 100]}% de Dano Imaterial.\n•Ataque Pesado: Causa {[DamageTable.VoidGauntlet_Heavy.DmgCoef * 100]}% de Dano Imaterial e cura a si mesmo em {[VoidGauntletAbilityTable.Passive_VoidGauntlet_HealOnHeavy.DmgPctToHealth * 100]}% do dano causado.\n•Colher Essência (Segurar “Bloquear”): Converte sua saúde em mana ao longo do tempo. A taxa de conversão é baseada no dano da arma.</string>
+	<string key="GauntletVoid_GroupName" rel_version="Weapon_Void_Gauntlet">Manoplas Imateriais</string>
 	<string key="GemAmbe_CategoryName">Gemas de Âmbar</string>
 	<string key="GemAmet_CategoryName">Gemas de Ametista</string>
 	<string key="GemAqua_CategoryName">Gemas de Água-marinha</string>
@@ -1713,6 +1708,7 @@
 	<string key="TimberT5_GroupName">Tábua de Escala 5</string>
 	<string key="TinctureBlight_GroupName">Extratos Maculados</string>
 	<string key="TinctureCorruption_GroupName">Extratos de Corrupção</string>
+	<string key="TokenConversion_GroupName">Conversão de Token</string>
 	<string key="ToolHatchet_GroupDesc">1 Mão. Coleta madeira.</string>
 	<string key="ToolHatchet_GroupName">Machadinha</string>
 	<string key="ToolsGathering_GroupName">Ferramentas de Coleta</string>
@@ -1782,5 +1778,8 @@
 	<string key="WoodAny_CategoryName">Qualquer Madeira</string>
 	<string key="WorkOrder_GroupName">Ordens de Trabalho</string>
 	<string key="CategoryData_CookingRecipes">Receitas Culinárias</string>
+	<string key="Pattern">Padrões</string>
+	<string key="PatternRecipes">Receitas de padrão</string>
+	<string key="Lodestone">Magnetita</string>
 </resources>
 

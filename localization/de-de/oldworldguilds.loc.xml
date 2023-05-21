@@ -47,7 +47,7 @@
 	<string key="owg_faction_select_title">Dieser Fraktion beitreten?</string>
 	<string key="owg_faction_select_warning">Die Entscheidung kannst du nicht rückgängig machen.</string>
 	<string key="owg_faction_select_yes">Ja, ich möchte mich der Fraktion {faction} anschließen.</string>
-	<string key="owg_faction_select_confirm">Du kannst nur einer Kompanie mit Spielern aus derselben Fraktion beitreten. Wenn du für PvP markiert bist, kannst du dich nur mit Spielern aus derselben Fraktion zu einer Gruppe zusammenschließen. Vor dem Beitritt solltest du dich vergewissern, für welche Fraktionen sich deine Freunde in New World entschieden haben.\n\nDeine Entscheidung ist dauerhaft – du kannst deine Fraktion einmalig im Bio-Bildschirm wechseln. Danach kannst du sie alle &lt;font color="#FFD45F"&gt;120&lt;/font&gt; Tage erneut wechseln.</string>
+	<string key="owg_faction_select_confirm">Du kannst nur einer Kompanie mit Spielern aus derselben Fraktion beitreten. Wenn du für PvP markiert bist, kannst du dich nur mit Spielern aus derselben Fraktion zu einer Gruppe zusammenschließen. Vor dem Beitritt solltest du dich vergewissern, für welche Fraktionen sich deine Freunde in New World entschieden haben.\n\nDeine Entscheidung ist dauerhaft – du kannst deine Fraktion einmalig im Bio-Bildschirm wechseln. Danach kannst du sie alle &lt;font color="#FFD45F"&gt;60 Tage&lt;/font&gt; erneut wechseln.</string>
 	<string key="owg_factionwarinfo_desc_1">Schließe dich einer der drei Krieg führenden Fraktionen an, um noch tiefer in die spannende Welt von Aeternum einzutauchen. Miss dich mit den anderen Fraktionen und erweitere deinen Einfluss in neuen Gebieten, um Belohnungen zu erhalten.</string>
 	<string key="owg_factionwarinfo_desc_2">Um gegen andere Spieler kämpfen zu können, musst du dich einer Fraktion anschließen und dich innerhalb einer Siedlung für PvP markieren. Sobald du markiert bist, kannst du gegen andere für PvP markierte Spieler der gegnerischen Fraktionen kämpfen. (Ihr Fraktionswappen wird in ihrem Namensschild angezeigt.)</string>
 	<string key="owg_factionwarinfo_desc_3">Demnächst verfügbar: Indem du Fraktionsmissionen von deinem Fraktionsvertreter in der Siedlung absolvierst, verdienst du dir Fraktionseinflusspunkte in diesem Gebiet. Der Fraktionseinfluss hilft dir, deine Gebiete zu schützen, oder erlaubt es dir, einen Krieg gegen Feinde zu erklären.</string>
@@ -96,9 +96,9 @@
 	<string key="owg_factionwarinfo_title_4_desc_1_bullet_1">Von jeder Siedlung oder jedem Außenposten aus für PvP markieren (Standardtaste: U). Aktivieren deiner PvP-Markierung bringt &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;zusätzliche EP&lt;/font&gt; ein.</string>
 	<string key="owg_factionwarinfo_title_4_desc_1_bullet_2">Wenn du eine Siedlung verlässt, erhältst du einen &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;30-Sekunden-Timer&lt;/font&gt;, bevor du markiert wirst. Sobald der Timer abgelaufen ist, kannst du markierte Mitglieder der gegnerischen Fraktionen angreifen.</string>
 	<string key="owg_factionwarinfo_title_4_desc_1_bullet_3">Nimm am &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Krieg um Einfluss&lt;/font&gt; teil, um mit deiner Fraktion die Kontrolle über ein Gebiet zu erlangen, indem du PvP-Fraktionsmissionen abschließt. Halte Ausschau nach markierten gegnerischen Spielern und verhindere, dass sie Einfluss für ihre Fraktion gewinnen, indem du sie ausschaltest.</string>
-	<string key="owg_failure_warning">Wenn du die Mission abbrichst oder du daran scheiterst, verlierst du {amount}x „{guildName}“-Marken.</string>
+	<string key="owg_failure_warning">Wenn du die Mission abbrichst oder du daran scheiterst, verlierst du {amount}x "{guildName}"-Marken.</string>
 	<string key="owg_guildreputation_name">{guildName}-Ansehen</string>
-	<string key="owg_guildcurrency_name">„{guildName}“-Marken</string>
+	<string key="owg_guildcurrency_name">"{guildName}"-Marken</string>
 	<string key="owg_guildcurrency">Marken</string>
 	<string key="owg_guildreputation">Ansehen</string>
 	<string key="owg_factiontokens_1">Syndikatsmarken</string>
@@ -108,13 +108,13 @@
 	<string key="owg_newshopitems">{numItems} neue Artikel im Shop</string>
 	<string key="owg_hunter_guildname">Missionen zu Verderbnisausbrüchen</string>
 	<string key="owg_explorer_desc">Göttliche Recken, die voller Überzeugung für Rechtschaffenheit und Gerechtigkeit eintreten.</string>
-	<string key="owg_explorer_sub_desc">„Den Funke der Hoffnung zu schützen, ist unsere heilige Pflicht ...“</string>
+	<string key="owg_explorer_sub_desc">"Den Funke der Hoffnung zu schützen, ist unsere heilige Pflicht ..."</string>
 	<string key="owg_explorer_guildname">Das Bündnis</string>
 	<string key="owg_merchant_desc">Schlaue Jünger, die gerissen für Wahrheit und Fortschritt kämpfen.</string>
-	<string key="owg_merchant_sub_desc">„Die bedingungslose Suche nach Wissen und Erkenntnis ...“</string>
+	<string key="owg_merchant_sub_desc">"Die bedingungslose Suche nach Wissen und Erkenntnis ..."</string>
 	<string key="owg_merchant_guildname">Das Syndikat</string>
 	<string key="owg_procurer_desc">Stolze Krieger, die ehrenhaft um Ruhm und Selbstverbesserung kämpfen.</string>
-	<string key="owg_procurer_sub_desc">„Der Kampf steigert Stärke und Können ...“</string>
+	<string key="owg_procurer_sub_desc">"Der Kampf steigert Stärke und Können ..."</string>
 	<string key="owg_procurer_guildname">Die Marodeure</string>
 	<string key="owg_mission_item">Missionsgegenstand</string>
 	<string key="owg_missionlist_title">Verfügbare Missionen</string>
@@ -275,7 +275,7 @@
 	<string key="CMissionAcquireRawhide_Name">Jäger benötigt</string>
 	<string key="CMissionAcquireLeather_Name">Gerber benötigt</string>
 	<string key="CMissionAcquireFish_Name">Fischer benötigt</string>
-	<string key="CMissionHuntCreature_Name">Jage: {enemyName}</string>
+	<string key="CMissionHuntCreature_Name">{enemyName}-Jäger gesucht</string>
 	<string key="CMissionHuntCreature_Desc">Jage: &lt;font color="#eaeaea"&gt;{killAmount} {enemyName}&lt;/font&gt;</string>
 	<string key="CMissionAcquire1_Desc">Erhalte und liefere &lt;font color="#eaeaea"&gt;{itemAmount}x {itemName}&lt;/font&gt;</string>
 	<string key="M_fetch_title">Erkunden und finden</string>
@@ -311,11 +311,11 @@
 	<string key="owg_target_Withered_Brute_Named_05">Das Monstrum</string>
 	<string key="owg_target_Withered_Brute_Named_10WS07">Benjamin der Gelöste</string>
 	<string key="owg_target_Alligator_Strange_10WS03">Gestreifte Alligatoren</string>
-	<string key="FactionMission_weaponsmith_title">Waffenschmiedekunst</string>
+	<string key="FactionMission_weaponsmith_title">Waffenschmiede benötigt</string>
 	<string key="FactionMission_weaponsmith_desc">Schmiede und liefere &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.</string>
-	<string key="FactionMission_armorsmith_title">Rüstungsschmiedekunst</string>
+	<string key="FactionMission_armorsmith_title">Rüstungsschmiede benötigt</string>
 	<string key="FactionMission_armorsmith_desc">Schmiede und liefere &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.</string>
-	<string key="FactionMission_cooking_title">Kochkunst</string>
+	<string key="FactionMission_cooking_title">Köche benötigt</string>
 	<string key="FactionMission_cooking_desc">Koche und liefere &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.</string>
 	<string key="FactionMission_RAID_title">Raubzug: {POITags}</string>
 	<string key="FactionMission_RAID_desc">Wir haben in dieser Region eine Gefahr für die Interessen der Marodeure ausgemacht.\n\nReise nach {POITags}, besiege jeden &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; und zeige keine Gnade.</string>
@@ -323,7 +323,7 @@
 	<string key="FactionMission_EXPLORE_desc">Betreibe hier Aufklärung, um den Marodeuren einen Vorteil zu verschaffen. \n\nDein Bericht ist entscheidend für unsere Strategie.</string>
 	<string key="FactionMission_LOOT_title">Plündere: {POITags}</string>
 	<string key="FactionMission_LOOT_desc">In {POITags} gibt es Dinge, die für den Feldzug der Marodeure von großem Wert sein könnten. \n\nBeschaffe alle &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; auf welche Art auch immer.</string>
-	<string key="FactionMission_HUNT_title">{POITags}-Jagd</string>
+	<string key="FactionMission_HUNT_title">Jage: {POITags}</string>
 	<string key="FactionMission_HUNT_desc">Wir benötigen Vorräte für die Marodeurstruppen. \n\nErlege &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; in {POITags} und bringe sie zu uns.</string>
 	<string key="FactionMission_S_RAID_title">Läutere: {POITags}</string>
 	<string key="FactionMission_S_RAID_desc">Unaussprechliche Schrecken, die das Syndikat gefährden könnten, breiten sich in {POITags} aus. \n\nVernichte alle &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – ohne Ausnahme.</string>
@@ -331,7 +331,7 @@
 	<string key="FactionMission_S_EXPLORE_desc">Wir benötigen weitere Informationen, um unsere Pläne vorantreiben zu können. \n\nReise nach {POITags} und erstatte mir Bericht.</string>
 	<string key="FactionMission_S_LOOT_title">Beschaffe: {POITags}</string>
 	<string key="FactionMission_S_LOOT_desc">Das Syndikat hat erfahren, dass es in {POITags} ein Versteck mit wertvollen Gegenständen gibt. \n\nReise schnell dorthin und birg alle &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;, bevor jemand anderes etwas davon mitbekommt.</string>
-	<string key="FactionMission_S_HUNT_title">{POITags}-Jagd</string>
+	<string key="FactionMission_S_HUNT_title">Jage: {POITags}</string>
 	<string key="FactionMission_S_HUNT_desc">Die Angehörigen des Syndikats benötigen Nahrung, um ihre Arbeit fortsetzen zu können. \n\nJage in {POITags} heimische &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; und bring deine Beute her.</string>
 	<string key="FactionMission_C_RAID_title">Kreuzzug: {POITags}</string>
 	<string key="FactionMission_C_RAID_desc">Das Bündnis muss gegen die Flut der Dunkelheit ankämpfen, die von {POITags} ausgeht. \n\nVernichte zu unser alle Wohle alle &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
@@ -339,36 +339,36 @@
 	<string key="FactionMission_C_EXPLORE_desc">Wir können die Lage in {POITags} nicht genau einschätzen. \n\nEs könnte bereits zu spät sein. Verschaffe dir einen Überblick und erstatte dann Bericht.</string>
 	<string key="FactionMission_C_LOOT_title">Birg: {POITags}</string>
 	<string key="FactionMission_C_LOOT_desc">Wir haben kostbare Gegenstände in {POITags} entdeckt. \n\nDiese &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; gehören dem Bündnis. Begib dich schnell dorthin und birg sie.</string>
-	<string key="FactionMission_C_HUNT_title">{POITags}-Jagd</string>
+	<string key="FactionMission_C_HUNT_title">Jage: {POITags}</string>
 	<string key="FactionMission_C_HUNT_desc">Wir benötigen Nahrung für die Sache des Bündnisses.\n\nJage in {POITags} heimische Tiere &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; und bring deine Beute her.</string>
 	<string key="FactionMission_PILLAGE_title">Sabotage</string>
 	<string key="FactionMission_PILLAGE_desc">Schwäche unseren Feind, indem du seine Rohstoffe zerstörst.</string>
-	<string key="FactionMission_SHOWOFSTRENGTH_title">Machtdemonstration</string>
+	<string key="FactionMission_SHOWOFSTRENGTH_title">Machtdemonstration (PvP)</string>
 	<string key="FactionMission_SHOWOFSTRENGTH_desc">Ganz Aeternum gehört uns. Beweise es unseren Feinden.</string>
-	<string key="FactionMission_INFILTRATE_title">Infiltration</string>
+	<string key="FactionMission_INFILTRATE_title">Infiltration (PvP)</string>
 	<string key="FactionMission_INFILTRATE_desc">Birg das Marodeursobjekt und warte dann auf weitere Anweisungen.</string>
-	<string key="FactionMission_DISRUPT_title">Störung</string>
+	<string key="FactionMission_DISRUPT_title">Störung (PvP)</string>
 	<string key="FactionMission_DISRUPT_desc">Erbeute oder vernichte Rohstoffe, bevor sie gegen uns verwendet werden können.</string>
-	<string key="FactionMission_STABILIZE_title">Stabilisation</string>
+	<string key="FactionMission_STABILIZE_title">Stabilisation (PvP)</string>
 	<string key="FactionMission_STABILIZE_desc">Dieser Ort ist von strategischer Bedeutung. Lass ihn nicht dem Feind in die Hände fallen.</string>
-	<string key="FactionMission_GATHERINTEL_title">Informationsbeschaffung</string>
+	<string key="FactionMission_GATHERINTEL_title">Informationsbeschaffung (PvP)</string>
 	<string key="FactionMission_GATHERINTEL_desc">Beschaffe wichtige Experimentdaten und warte dann auf weitere Anweisungen.</string>
-	<string key="FactionMission_TITHE_title">Zehnt</string>
+	<string key="FactionMission_TITHE_title">Zehnt (PvP)</string>
 	<string key="FactionMission_TITHE_desc">Hungere den Feind aus und nähre den Funken.</string>
-	<string key="FactionMission_SANCTIFY_title">Weihung</string>
+	<string key="FactionMission_SANCTIFY_title">Weihung (PvP)</string>
 	<string key="FactionMission_SANCTIFY_desc">Befreie dieses Gebiet. Sei stark und wandle im Licht.</string>
-	<string key="FactionMission_PRESERVE_title">Schutz</string>
+	<string key="FactionMission_PRESERVE_title">Schutz (PvP)</string>
 	<string key="FactionMission_PRESERVE_desc">Überbringe die frohe Botschaft des Funkens.</string>
 	<string key="FactionMission_EXPEDITIONRAID_title">Raubzug: {POITags}</string>
 	<string key="FactionMission_EXPEDITIONRAID_desc">Begib dich für die Marodeure nach {POITags} und bezwinge alle &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; dort. \n\n &lt;font color="#eaeaea"&gt;(Expedition)&lt;/font&gt;</string>
 	<string key="FactionMission_EXPEDITIONLOOT_title">Plündere: {POITags}</string>
 	<string key="FactionMission_EXPEDITIONLOOT_desc">Begib dich für die Marodeure nach {POITags} und sammle dort alle &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;. \n\n&lt;font color="#eaeaea"&gt;(Expedition)&lt;/font&gt;</string>
-	<string key="FactionMission_INTERCEPT_title">Erobern</string>
+	<string key="FactionMission_INTERCEPT_title">Dominieren (PvP)</string>
 	<string key="FactionMission_INTERCEPT_desc">Bezwinge zum Ruhme der Marodeure Mitglieder &lt;font color="#eaeaea"&gt;des Syndikats&lt;/font&gt; oder &lt;font color="#eaeaea"&gt;des Bündnisses&lt;/font&gt;.</string>
-	<string key="FactionMission_S_INTERCEPT_title">Überwältigen</string>
+	<string key="FactionMission_S_INTERCEPT_title">Ausmerzen (PvP)</string>
 	<string key="FactionMission_S_INTERCEPT_desc">Bezwinge &lt;font color="#eaeaea"&gt;Marodeure&lt;/font&gt; oder Mitglieder &lt;font color="#eaeaea"&gt;des Bündnisses&lt;/font&gt; um unsere Überlegenheit zu demonstrieren.</string>
-	<string key="FactionMission_C_INTERCEPT_title">Vernichten</string>
-	<string key="FactionMission_C_INTERCEPT_desc">Bezwinge Mitglieder des &lt;font color="#eaeaea"&gt;Syndikats&lt;/font&gt; oder &lt;font color="#eaeaea"&gt;Marodeure&lt;/font&gt;, um ihre Seelen zu reinigen.</string>
+	<string key="FactionMission_C_INTERCEPT_title">Vernichten (PvP)</string>
+	<string key="FactionMission_C_INTERCEPT_desc">Bezwinge Mitglieder des &lt;font color="#eaeaea"&gt;Syndikats&lt;/font&gt; oder der &lt;font color="#eaeaea"&gt;Marodeure&lt;/font&gt;, um ihre Seelen zu reinigen.</string>
 	<string key="FactionMission_S_EXPEDITIONRAID_title">Läutere: {POITags}</string>
 	<string key="FactionMission_S_EXPEDITIONRAID_desc">Begib dich für das Syndikat nach {POITags} und bezwinge alle &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;. \n\n &lt;font color="#eaeaea"&gt;(Expedition)&lt;/font&gt;</string>
 	<string key="FactionMission_S_EXPEDITIONLOOT_title">Beschaffe: {POITags}</string>
@@ -404,26 +404,88 @@
 	<string key="FactionMission_FirstLight_Rare1_title">Blasensalbe</string>
 	<string key="FactionMission_FirstLight_Rare1_desc">Die neuen Rekruten jammern, dass sie von der Ausbildung Blasen an den Händen kriegen!\n\nBesorge Blasensalbe von Bootsmann Ambrose in Nyharts Anker.\n\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
 	<string key="FactionMission_S_FirstLight_Rare1_title">Buchclub des Syndikats</string>
-	<string key="FactionMission_S_FirstLight_Rare1_desc">Wir haben in der Stadt einen kleinen Buchclub und benötigen neuen Lesestoff.\n\nVielleicht könntest du uns ja eine Schriftrolle der Ahnen von Laocon, dem Lehrmeister in Saircor, besorgen?\n\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
+	<string key="FactionMission_S_FirstLight_Rare1_desc">Wir haben in der Stadt einen kleinen Buchclub und benötigen neuen Lesestoff.\n\nVielleicht könntest du uns ja eine Schriftrolle der Ahnen von Laokon, dem Lehrmeister in Saircor, besorgen?\n\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
 	<string key="FactionMission_C_FirstLight_Rare1_title">Erlösendes Rezept</string>
 	<string key="FactionMission_C_FirstLight_Rare1_desc">Ich glaube, ich weiß, wie man die Seelen der Verlorenen erlösen kann.\n\nBesorg mir das Rezept für Seelen-Muffins vom Koch Paul Giroux im Hügelspitzenlager.\n\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
 	<string key="FactionMission_Windsward_Rare1_title">Straßensicherung</string>
 	<string key="FactionMission_Windsward_Rare1_desc">Ein verfluchter Verlorener Abtrünniger behindert unsere Truppenbewegungen zwischen hier und Erstes Licht!\n\nVernichte Emilio Rose in Freibeuterfall.\n\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
 	<string key="FactionMission_S_Windsward_Rare1_title">Gesprächseinstieg</string>
-	<string key="FactionMission_S_Windsward_Rare1_desc">Wir müssen die Aufmerksamkeit von Wachtmeister Dauti erregen.\n\nVielleicht könntest du uns ja eine Schriftrolle der Ahnen von Laocon, dem Lehrmeister in Saircor, besorgen?\n\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
+	<string key="FactionMission_S_Windsward_Rare1_desc">Wir müssen die Aufmerksamkeit von Wachtmeister Dauti erregen.\n\nVielleicht könntest du uns ja eine Schriftrolle der Ahnen von Laokon, dem Lehrmeister in Saircor, besorgen?\n\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
 	<string key="ui_pvp">PvP.</string>
 	<string key="ui_pve">PvE.</string>
-	<string key="FactionMission_TROPHYHUNT_title">{POITags} Trophäenjagd</string>
+	<string key="FactionMission_TROPHYHUNT_title">Trophäenjagd: {POITags}</string>
 	<string key="FactionMission_TROPHYHUNT_desc">Beweise, dass du ein fähiger Jäger bist.\n\nBesiege &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; in {POITags} und bringe einen Beweis für deinen Erfolg mit.</string>
-	<string key="FactionMission_S_TROPHYHUNT_title">{POITags} Jagd auf Kreaturen</string>
+	<string key="FactionMission_S_TROPHYHUNT_title">Jagd auf Kreaturen: {POITags}</string>
 	<string key="FactionMission_S_TROPHYHUNT_desc">Wir haben ein Objekt identifiziert, das näher untersucht werden sollte.\n\nGehe in {POITags} auf die Jagd nach &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; und bringe eine Gewebeprobe mit.</string>
-	<string key="FactionMission_C_TROPHYHUNT_title">{POITags} Erhabene Jagd</string>
+	<string key="FactionMission_C_TROPHYHUNT_title">Erhabene Jagd: {POITags}</string>
 	<string key="FactionMission_C_TROPHYHUNT_desc">Der Funke bietet eine großartige Möglichkeit.\n\nErgreife sie, besiege &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; in {POITags} und kehre mit reichlichem Ertrag zurück.</string>
-	<string key="FactionMission_TROPHYHUNT_ELITE_title">{POITags} Trophäenjagd (Elite)</string>
+	<string key="FactionMission_TROPHYHUNT_ELITE_title">Trophäenjagd: {POITags} (Elite)</string>
 	<string key="FactionMission_TROPHYHUNT_ELITE_desc">Beweise, dass du ein fähiger Jäger bist.\n\nBesiege &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; in {POITags} und bringe einen Beweis für deinen Erfolg mit.\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
-	<string key="FactionMission_S_TROPHYHUNT_ELITE_title">{POITags} Jagd auf Kreaturen (Elite)</string>
+	<string key="FactionMission_S_TROPHYHUNT_ELITE_title">Jagd auf Kreaturen: {POITags} (Elite)</string>
 	<string key="FactionMission_S_TROPHYHUNT_ELITE_desc">Wir haben ein Objekt identifiziert, das näher untersucht werden sollte.\n\nGehe in {POITags} auf die Jagd nach &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; und bringe eine Gewebeprobe mit.\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
-	<string key="FactionMission_C_TROPHYHUNT_ELITE_title">{POITags} Erhabene Jagd (Elite)</string>
+	<string key="FactionMission_C_TROPHYHUNT_ELITE_title">Erhabene Jagd: {POITags} (Elite)</string>
 	<string key="FactionMission_C_TROPHYHUNT_ELITE_desc">Der Funke bietet eine großartige Möglichkeit.\n\nErgreife sie, besiege &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; in {POITags} und kehre mit reichlichem Ertrag zurück.\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
+	<string key="FactionMission_WARCAMP_LOOT_title">Aufklärungsarbeit (PvP)</string>
+	<string key="FactionMission_WARCAMP_LOOT_desc">Infiltriere das &lt;font color="#eaeaea"&gt;Kriegslager&lt;/font&gt; neben dem &lt;font color="#eaeaea"&gt;Fort {territoryID}&lt;/font&gt; und suche nach wertvollen Informationen.</string>
+	<string key="FactionMission_CONTROL_POINT_title">Erobern (PvP)</string>
+	<string key="FactionMission_CONTROL_POINT_desc">Greif zu den Waffen und hilf den Marodeuren, das &lt;font color="#eaeaea"&gt;Fort&lt;/font&gt; in &lt;font color="#eaeaea"&gt;{territoryID}&lt;/font&gt; einzunehmen.\n\n(Diese Mission kann möglicherweise nicht zu jeder Zeit abgeschlossen werden.)</string>
+	<string key="FactionMission_S_WARCAMP_LOOT_title">Spionage (PvP)</string>
+	<string key="FactionMission_S_WARCAMP_LOOT_desc">Infiltriere das &lt;font color="#eaeaea"&gt;Kriegslager&lt;/font&gt; neben dem &lt;font color="#eaeaea"&gt;Fort {territoryID}&lt;/font&gt; und suche nach wertvollen Informationen.</string>
+	<string key="FactionMission_S_CONTROL_POINT_title">Einnehmen (PvP)</string>
+	<string key="FactionMission_S_CONTROL_POINT_desc">Greif zu den Waffen und hilf dem Syndikat, das &lt;font color="#eaeaea"&gt;Fort&lt;/font&gt; in &lt;font color="#eaeaea"&gt;{territoryID}&lt;/font&gt; einzunehmen.\n\n(Diese Mission kann möglicherweise nicht zu jeder Zeit abgeschlossen werden.)</string>
+	<string key="FactionMission_C_WARCAMP_LOOT_title">Aufklärungsarbeit (PvP)</string>
+	<string key="FactionMission_C_WARCAMP_LOOT_desc">Infiltriere das &lt;font color="#eaeaea"&gt;Kriegslager&lt;/font&gt; neben dem &lt;font color="#eaeaea"&gt;Fort {territoryID}&lt;/font&gt; und suche nach wertvollen Informationen.</string>
+	<string key="FactionMission_C_CONTROL_POINT_title">Triumphieren (PvP)</string>
+	<string key="FactionMission_C_CONTROL_POINT_desc">Greif zu den Waffen und hilf dem Bündnis, das &lt;font color="#eaeaea"&gt;Fort&lt;/font&gt; in &lt;font color="#eaeaea"&gt;{territoryID}&lt;/font&gt; einzunehmen.\n\n(Diese Mission kann möglicherweise nicht zu jeder Zeit abgeschlossen werden.)</string>
+	<string key="FactionMission_WARCAMP_SPECIAL_desc">Infiltriere das Bollwerk in &lt;font color="#eaeaea"&gt;{POITags}&lt;/font&gt; und suche nach wertvollen Informationen.</string>
+	<string key="FactionMission_S_WARCAMP_SPECIAL_desc">Infiltriere das Bollwerk in &lt;font color="#eaeaea"&gt;{POITags}&lt;/font&gt; und suche nach wertvollen Informationen.</string>
+	<string key="FactionMission_C_WARCAMP_SPECIAL_desc">Infiltriere das Bollwerk in &lt;font color="#eaeaea"&gt;{POITags}&lt;/font&gt; und suche nach wertvollen Informationen.</string>
+	<string key="FactionMission_WEAPON_SWORD_title">Waffenprüfung: Schwert und Schild</string>
+	<string key="FactionMission_WEAPON_SWORD_desc">Marodeure beherrschen alle Kriegswaffen meisterhaft.\n\nBeweise dein Können mit dem &lt;font color="#eaeaea"&gt;Schwert&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit deiner scharfen Klinge zur Strecke bringst.</string>
+	<string key="FactionMission_WEAPON_RAPIER_title">Waffenprüfung: Rapier</string>
+	<string key="FactionMission_WEAPON_RAPIER_desc">Marodeure beherrschen alle Kriegswaffen meisterhaft.\n\nBeweise dein Können mit dem &lt;font color="#eaeaea"&gt;Rapier&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; dank seiner Schnelligkeit durchbohrst.</string>
+	<string key="FactionMission_WEAPON_HATCHET_title">Waffenprüfung: Beil</string>
+	<string key="FactionMission_WEAPON_HATCHET_desc">Marodeure beherrschen alle Kriegswaffen meisterhaft.\n\nBeweise dein Können mit dem &lt;font color="#eaeaea"&gt;Beil&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit seiner wilden Durchschlagskraft zerhackst.</string>
+	<string key="FactionMission_WEAPON_GREATAXE_title">Waffenprüfung: Streitaxt</string>
+	<string key="FactionMission_WEAPON_GREATAXE_desc">Marodeure beherrschen alle Kriegswaffen meisterhaft.\n\nBeweise dein Können mit der &lt;font color="#eaeaea"&gt;Streitaxt&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit deiner furchterregenden Klinge entzweischlägst.</string>
+	<string key="FactionMission_WEAPON_WARHAMMER_title">Waffenprüfung: Kriegshammer</string>
+	<string key="FactionMission_WEAPON_WARHAMMER_desc">Marodeure beherrschen alle Kriegswaffen meisterhaft.\n\nBeweise dein Können mit dem &lt;font color="#eaeaea"&gt;Kriegshammer&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit seiner gewaltigen Kraft zermalmst.</string>
+	<string key="FactionMission_WEAPON_SPEAR_title">Waffenprüfung: Speer</string>
+	<string key="FactionMission_WEAPON_SPEAR_desc">Marodeure beherrschen alle Kriegswaffen meisterhaft.\n\nBeweise dein Können mit dem &lt;font color="#eaeaea"&gt;Speer&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; dank seiner unschlagbaren Reichweite aufspießt.</string>
+	<string key="FactionMission_WEAPON_BOW_title">Waffenprüfung: Bogen</string>
+	<string key="FactionMission_WEAPON_BOW_desc">Marodeure beherrschen alle Kriegswaffen meisterhaft.\n\nBeweise dein Können mit dem &lt;font color="#eaeaea"&gt;Bogen&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit tödlichen Pfeile spickst.</string>
+	<string key="FactionMission_WEAPON_MUSKET_title">Waffenprüfung: Muskete</string>
+	<string key="FactionMission_WEAPON_MUSKET_desc">Marodeure beherrschen alle Kriegswaffen meisterhaft.\n\nBeweise dein Können mit der &lt;font color="#eaeaea"&gt;Muskete&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit gnadenlosen Schüssen niederstreckst.</string>
+	<string key="FactionMission_WEAPON_FIRESTAFF_title">Waffenprüfung: Feuerstab</string>
+	<string key="FactionMission_WEAPON_FIRESTAFF_desc">Marodeure beherrschen alle Kriegswaffen meisterhaft.\n\nBeweise dein Können mit dem &lt;font color="#eaeaea"&gt;Feuerstab&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit seiner glühend heißen Flamme versengst.</string>
+	<string key="FactionMission_WEAPON_LIFESTAFF_title">Waffenprüfung: Lebensstab</string>
+	<string key="FactionMission_WEAPON_LIFESTAFF_desc">Marodeure beherrschen alle Kriegswaffen meisterhaft.\n\nBeweise dein Können mit dem &lt;font color="#eaeaea"&gt;Lebensstab&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit seiner lebensraubenden Kraft triffst.</string>
+	<string key="FactionMission_WEAPON_ICEGAUNTLET_title">Waffenprüfung: Eisstulpen</string>
+	<string key="FactionMission_WEAPON_ICEGAUNTLET_desc">Marodeure beherrschen alle Kriegswaffen meisterhaft.\n\nBeweise dein Können mit den &lt;font color="#eaeaea"&gt;Eisstulpen&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit ihrer eiskalten Berührung triffst.</string>
+	<string key="FactionMission_S_WEAPON_SWORD_desc">Das Syndikat will sich der Effektivität aller Waffen versichern.\n\nTeste das &lt;font color="#eaeaea"&gt;Schwert&lt;/font&gt; im Kampf, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit deiner scharfen Klinge niederschlägst.</string>
+	<string key="FactionMission_S_WEAPON_RAPIER_desc">Das Syndikat will sich der Effektivität aller Waffen versichern.\n\nTeste das &lt;font color="#eaeaea"&gt;Rapier&lt;/font&gt; im Kampf, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; dank seiner Schnelligkeit durchbohrst.</string>
+	<string key="FactionMission_S_WEAPON_HATCHET_desc">Das Syndikat will sich der Effektivität aller Waffen versichern.\n\nTeste das &lt;font color="#eaeaea"&gt;Beil&lt;/font&gt; im Kampf, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit seiner wilden Durchschlagskraft zerhackst.</string>
+	<string key="FactionMission_S_WEAPON_GREATAXE_desc">Das Syndikat will sich der Effektivität aller Waffen versichern.\n\nTeste die &lt;font color="#eaeaea"&gt;Streitaxt&lt;/font&gt; im Kampf, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit deiner furchterregenden Klinge entzweihaust.</string>
+	<string key="FactionMission_S_WEAPON_WARHAMMER_desc">Das Syndikat will sich der Effektivität aller Waffen versichern.\n\nTeste den &lt;font color="#eaeaea"&gt;Kriegshammer&lt;/font&gt; im Kampf, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit seiner gewaltigen Kraft zermalmst.</string>
+	<string key="FactionMission_S_WEAPON_SPEAR_desc">Das Syndikat will sich der Effektivität aller Waffen versichern.\n\nTeste den &lt;font color="#eaeaea"&gt;Speer&lt;/font&gt; im Kampf, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; dank seiner unschlagbaren Reichweite aufspießt.</string>
+	<string key="FactionMission_S_WEAPON_BOW_desc">Das Syndikat will sich der Effektivität aller Waffen versichern.\n\nTeste den &lt;font color="#eaeaea"&gt;Bogen&lt;/font&gt; im Kampf, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit tödlichen Pfeile spickst.</string>
+	<string key="FactionMission_S_WEAPON_MUSKET_desc">Das Syndikat will sich der Effektivität aller Waffen versichern.\n\nTeste die &lt;font color="#eaeaea"&gt;Muskete&lt;/font&gt; im Kampf, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit gnadenlosen Schüssen niederstreckst.</string>
+	<string key="FactionMission_S_WEAPON_FIRESTAFF_desc">Das Syndikat will sich der Effektivität aller Waffen versichern.\n\nTeste den &lt;font color="#eaeaea"&gt;Feuerstab&lt;/font&gt; im Kampf, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit seiner glühend heißen Flamme versengst.</string>
+	<string key="FactionMission_S_WEAPON_LIFESTAFF_desc">Das Syndikat will sich der Effektivität aller Waffen versichern.\n\nTeste den &lt;font color="#eaeaea"&gt;Lebensstab&lt;/font&gt; im Kampf, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit seiner lebensraubenden Kraft triffst.</string>
+	<string key="FactionMission_S_WEAPON_ICEGAUNTLET_desc">Das Syndikat will sich der Effektivität aller Waffen versichern.\n\nTeste die &lt;font color="#eaeaea"&gt;Eisstulpen&lt;/font&gt; im Feld, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit ihrer eiskalten Berührung triffst.</string>
+	<string key="FactionMission_C_WEAPON_SWORD_desc">Lerne den Kampf zu verstehen, um den Frieden zu sichern.\n\nErfahre mehr über das &lt;font color="#eaeaea"&gt;Schwert&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit deiner scharfen Klinge niederschlägst.</string>
+	<string key="FactionMission_C_WEAPON_RAPIER_desc">Lerne den Kampf zu verstehen, um den Frieden zu sichern.\n\nErfahre mehr über das &lt;font color="#eaeaea"&gt;Rapier&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; dank seiner Schnelligkeit durchbohrst.</string>
+	<string key="FactionMission_C_WEAPON_HATCHET_desc">Lerne den Kampf zu verstehen, um den Frieden zu sichern.\n\nErfahre mehr über das &lt;font color="#eaeaea"&gt;Beil&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit seiner wilden Durchschlagskraft zerhackst.</string>
+	<string key="FactionMission_C_WEAPON_GREATAXE_desc">Lerne den Kampf zu verstehen, um den Frieden zu sichern.\n\nErfahre mehr über die &lt;font color="#eaeaea"&gt;Streitaxt&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit deiner furchterregenden Klinge entzweihaust.</string>
+	<string key="FactionMission_C_WEAPON_WARHAMMER_desc">Lerne den Kampf zu verstehen, um den Frieden zu sichern.\n\nErfahre mehr über den &lt;font color="#eaeaea"&gt;Kriegshammer&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit seiner gewaltigen Kraft zermalmst.</string>
+	<string key="FactionMission_C_WEAPON_SPEAR_desc">Lerne den Kampf zu verstehen, um den Frieden zu sichern.\n\nErfahre mehr über den &lt;font color="#eaeaea"&gt;Speer&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; dank seiner unschlagbaren Reichweite aufspießt.</string>
+	<string key="FactionMission_C_WEAPON_BOW_desc">Lerne den Kampf zu verstehen, um den Frieden zu sichern.\n\nErfahre mehr über den &lt;font color="#eaeaea"&gt;Bogen&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit tödlichen Pfeile spickst.</string>
+	<string key="FactionMission_C_WEAPON_MUSKET_desc">Lerne den Kampf zu verstehen, um den Frieden zu sichern.\n\nErfahre mehr über die &lt;font color="#eaeaea"&gt;Muskete&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit gnadenlosen Schüssen niederstreckst.</string>
+	<string key="FactionMission_C_WEAPON_FIRESTAFF_desc">Lerne den Kampf zu verstehen, um den Frieden zu sichern.\n\nErfahre mehr über den &lt;font color="#eaeaea"&gt;Feuerstab&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit seiner glühend heißen Flamme versengst.</string>
+	<string key="FactionMission_C_WEAPON_LIFESTAFF_desc">Lerne den Kampf zu verstehen, um den Frieden zu sichern.\n\nErfahre mehr über den &lt;font color="#eaeaea"&gt;Lebensstab&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit seiner lebensraubenden Kraft triffst.</string>
+	<string key="FactionMission_C_WEAPON_ICEGAUNTLET_desc">Lerne den Kampf zu verstehen, um den Frieden zu sichern.\n\nErfahre mehr über die &lt;font color="#eaeaea"&gt;Eisstulpen&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit ihrer eiskalten Berührung triffst.</string>
+	<string key="FactionMission_ASSASSINATE_ELITE_NIGHT_desc">Der Gegner &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; muss für die Marodeure beseitigt werden.\n\nBeweise deine Tapferkeit, indem du ihn an folgendem Ort aufspürst und tötest: {POITags}.\n&lt;font color="#eaeaea"&gt;(Elite – Gegner ist nachtaktiv)&lt;/font&gt;</string>
+	<string key="FactionMission_S_ASSASSINATE_ELITE_NIGHT_desc">Der Gegner &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; muss für das Syndikat beseitigt werden.\n\nSpüre ihn an folgendem Ort auf und vernichte ihn: {POITags}.\n&lt;font color="#eaeaea"&gt;(Elite – Gegner ist nachtaktiv)&lt;/font&gt;</string>
+	<string key="FactionMission_C_ASSASSINATE_ELITE_NIGHT_desc">Der Gegner &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; muss für das Bündnis beseitigt werden.\n\nBeweise deine Hingabe, indem du ihn an folgendem Ort aufspürst und tötest: {POITags}.\n &lt;font color="#eaeaea"&gt;(Elite – Gegner ist nachtaktiv)&lt;/font&gt;</string>
 </resources>
 

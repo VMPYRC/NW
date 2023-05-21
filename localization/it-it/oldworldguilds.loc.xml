@@ -1,5 +1,5 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<string key="faction_shop_name">Armeria della fazione {faction}.</string>
+	<string key="faction_shop_name">Armeria {faction}</string>
 	<string key="owg_abandonpopup_body">Vuoi davvero abbandonare l'attuale missione?</string>
 	<string key="owg_action_abandon">ABBANDONA MISSIONE</string>
 	<string key="owg_action_complete">COMPLETA MISSIONE</string>
@@ -47,7 +47,7 @@
 	<string key="owg_faction_select_title">Vuoi unirti a questa fazione?</string>
 	<string key="owg_faction_select_warning">Questa decisione non può essere annullata.</string>
 	<string key="owg_faction_select_yes">Sì, associami alla fazione {faction}.</string>
-	<string key="owg_faction_select_confirm">Potrai entrare a far parte di una compagnia soltanto con giocatori della stessa fazione. Con PVP attivo, potrai unirti soltanto a giocatori della stessa fazione. Prima di unirti, controlla bene quale fazione hanno scelto i tuoi amici in New World.\n\nLa tua scelta non è permanente: potrai cambiare fazione una volta dalla schermata Biografia. Poi, se vuoi cambiarla di nuovo, dovrai aspettare &lt;font color="#FFD45F"&gt;120 giorni&lt;/font&gt;.</string>
+	<string key="owg_faction_select_confirm">Potrai entrare a far parte di una compagnia soltanto con giocatori della stessa fazione. Con PVP attivo, potrai unirti soltanto a giocatori della stessa fazione. Prima di unirti, controlla bene quale fazione hanno scelto i tuoi amici in New World.\n\nLa tua scelta non è permanente: potrai cambiare fazione una volta dalla schermata Biografia. Poi, se vuoi cambiarla di nuovo, dovrai aspettare &lt;font color="#FFD45F"&gt;60 giorni&lt;/font&gt;.</string>
 	<string key="owg_factionwarinfo_desc_1">Associati a una delle tre fazioni in guerra per vivere appieno la tua esperienza a Aeternum. Ottieni potenti ricompense affrontando le altre fazioni e aumentando i livelli di influenza in ciascun territorio.</string>
 	<string key="owg_factionwarinfo_desc_2">Per combattere contro altri giocatori, devi essere associato a una fazione, poi attivare il PvP all'interno di un insediamento. Una volta attivato, puoi infliggere danni ai giocatori di fazioni avversarie anch'essi con il PvP attivo. (Vedrai l'emblema della loro fazione sui nomi.)</string>
 	<string key="owg_factionwarinfo_desc_3">Prossimamente: Completando le missioni di fazione assegnate dal rappresentante della tua fazione all'interno di un insediamento si otterranno punti Influenza della fazione all'interno di quel territorio. L'Influenza della fazione è il mezzo per proteggere i tuoi territori o per dichiarare guerra al nemico.</string>
@@ -118,7 +118,7 @@
 	<string key="owg_procurer_guildname">Predoni</string>
 	<string key="owg_mission_item">Oggetto della missione</string>
 	<string key="owg_missionlist_title">Missioni disponibili</string>
-	<string key="owg_missions_header">Missioni {guildName}.</string>
+	<string key="owg_missions_header">Missioni {guildName}</string>
 	<string key="owg_multiple_items_purchased">Hai acquistato: {itemName} (quantità: {amount})</string>
 	<string key="owg_rank">Grado</string>
 	<string key="owg_rank_bounty_1" xsi:nil="true"/>
@@ -275,7 +275,7 @@
 	<string key="CMissionAcquireRawhide_Name">Necessari cacciatori</string>
 	<string key="CMissionAcquireLeather_Name">Necessari conciatori</string>
 	<string key="CMissionAcquireFish_Name">Necessari pescatori</string>
-	<string key="CMissionHuntCreature_Name">Dai la caccia a: {enemyName}</string>
+	<string key="CMissionHuntCreature_Name">Necessari cacciatori di: {enemyName}</string>
 	<string key="CMissionHuntCreature_Desc">Dai la caccia a: &lt;font color="#eaeaea"&gt; {enemyName} (x{killAmount})&lt;/font&gt;</string>
 	<string key="CMissionAcquire1_Desc">Procurati e consegna: &lt;font color="#eaeaea"&gt;{itemName} (x{itemAmount})&lt;/font&gt;.</string>
 	<string key="M_fetch_title">Esplora e trova</string>
@@ -311,11 +311,11 @@
 	<string key="owg_target_Withered_Brute_Named_05">L'Aberrazione</string>
 	<string key="owg_target_Withered_Brute_Named_10WS07">Benjamin lo sfrenato</string>
 	<string key="owg_target_Alligator_Strange_10WS03">Alligatori striati</string>
-	<string key="FactionMission_weaponsmith_title">Forgiatura di armi</string>
+	<string key="FactionMission_weaponsmith_title">Necessari armaioli</string>
 	<string key="FactionMission_weaponsmith_desc">Forgia e consegna: &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.</string>
-	<string key="FactionMission_armorsmith_title">Forgiatura di armature</string>
+	<string key="FactionMission_armorsmith_title">Necessari corazzai</string>
 	<string key="FactionMission_armorsmith_desc">Forgia e consegna: &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.</string>
-	<string key="FactionMission_cooking_title">Cucina</string>
+	<string key="FactionMission_cooking_title">Necessari cuochi</string>
 	<string key="FactionMission_cooking_desc">Cucina e consegna: &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.</string>
 	<string key="FactionMission_RAID_title">Fai un'incursione presso: {POITags}</string>
 	<string key="FactionMission_RAID_desc">Abbiamo identificato una minaccia agli interessi dei Predoni in questa regione.\n\nDirigiti presso {POITags} e sconfiggi ogni &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; senza mostrare alcuna pietà.</string>
@@ -323,7 +323,7 @@
 	<string key="FactionMission_EXPLORE_desc">Vai in ricognizione qui per dare un vantaggio ai Predoni. \n\nIl tuo resoconto sarà fondamentale per formulare la nostra strategia.</string>
 	<string key="FactionMission_LOOT_title">Saccheggia presso: {POITags}</string>
 	<string key="FactionMission_LOOT_desc">Presso {POITags} ci sono oggetti che potrebbero essere preziosi per la campagna dei Predoni. \n\nAcquisisci ogni &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; usando qualsiasi mezzo necessario.</string>
-	<string key="FactionMission_HUNT_title">Vai a caccia presso: {POITags}</string>
+	<string key="FactionMission_HUNT_title">Dai la caccia a: {POITags}</string>
 	<string key="FactionMission_HUNT_desc">Abbiamo bisogno di provviste per le truppe dei Predoni. \n\nRecati presso {POITags} e dai la caccia a: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;. Poi torna qui con il bottino.</string>
 	<string key="FactionMission_S_RAID_title">Purifica: {POITags}</string>
 	<string key="FactionMission_S_RAID_desc">Orrori indicibili che potrebbero compromettere l'Unione si stanno verificando presso {POITags}. \n\nDistruggi ogni &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; che sia necessario, senza fare eccezioni.</string>
@@ -331,7 +331,7 @@
 	<string key="FactionMission_S_EXPLORE_desc">Non possiamo procedere con i nostri piani finché non avremo maggiori informazioni. \n\nRecati presso {POITags} e torna a fare rapporto.</string>
 	<string key="FactionMission_S_LOOT_title">Fai incetta presso: {POITags}</string>
 	<string key="FactionMission_S_LOOT_desc">L'Unione ha scoperto la presenza di un nascondiglio di oggetti preziosi presso {POITags}. \n\nVai di corsa a recuperare ogni &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; prima che lo venga a sapere qualcun altro.</string>
-	<string key="FactionMission_S_HUNT_title">Vai a caccia presso: {POITags}</string>
+	<string key="FactionMission_S_HUNT_title">Dai la caccia a: {POITags}</string>
 	<string key="FactionMission_S_HUNT_desc">I membri dell'Unione hanno bisogno di sostentamento per andare avanti. \n\nVai a caccia di &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; presso {POITags} e riporta ciò che trovi.</string>
 	<string key="FactionMission_C_RAID_title">Fai una crociata presso: {POITags}</string>
 	<string key="FactionMission_C_RAID_desc">Il Patto deve affrontare l'ondata di oscurità emanata da {POITags}. \n\nDistruggi ogni &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; che sia necessario, per il bene di tutti noi.</string>
@@ -339,35 +339,35 @@
 	<string key="FactionMission_C_EXPLORE_desc">Non sappiamo bene com'è la situazione presso {POITags}. \n\nPotrebbe essere troppo tardi. Vai a controllare e torna a riferire.</string>
 	<string key="FactionMission_C_LOOT_title">Rivendica presso: {POITags}</string>
 	<string key="FactionMission_C_LOOT_desc">Abbiamo scoperto che ci sono oggetti preziosi presso {POITags}. \n\nOgni &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; appartiene al Patto, quindi corri e recupera tutto.</string>
-	<string key="FactionMission_C_HUNT_title">Vai a caccia presso: {POITags}</string>
+	<string key="FactionMission_C_HUNT_title">Dai la caccia a: {POITags}</string>
 	<string key="FactionMission_C_HUNT_desc">Abbiamo bisogno di provviste per sostenere la causa del Patto.\n\nVai a caccia di &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; presso {POITags} e riporta ciò che trovi.</string>
 	<string key="FactionMission_PILLAGE_title">Sabotaggio</string>
 	<string key="FactionMission_PILLAGE_desc">Indebolisci il nostro nemico distruggendone le risorse.</string>
-	<string key="FactionMission_SHOWOFSTRENGTH_title">Prova di forza</string>
+	<string key="FactionMission_SHOWOFSTRENGTH_title">Prova di forza (PvP)</string>
 	<string key="FactionMission_SHOWOFSTRENGTH_desc">Tutta Aeturnum ci appartiene. Dimostralo.</string>
-	<string key="FactionMission_INFILTRATE_title">Infiltrazione</string>
+	<string key="FactionMission_INFILTRATE_title">Infiltrazione (PvP)</string>
 	<string key="FactionMission_INFILTRATE_desc">Recupera le risorse dei Predoni e attendi ulteriori istruzioni.</string>
-	<string key="FactionMission_DISRUPT_title">Disturbo</string>
+	<string key="FactionMission_DISRUPT_title">Disturbo (PvP)</string>
 	<string key="FactionMission_DISRUPT_desc">Prendi o distruggi le risorse prima che possano essere usate contro di noi.</string>
-	<string key="FactionMission_STABILIZE_title">Rafforzamento</string>
+	<string key="FactionMission_STABILIZE_title">Rafforzamento (PvP)</string>
 	<string key="FactionMission_STABILIZE_desc">Questo posto è di importanza strategica. Non farlo cadere nelle mani del nemico.</string>
-	<string key="FactionMission_GATHERINTEL_title">Raccolta informazioni</string>
+	<string key="FactionMission_GATHERINTEL_title">Raccolta informazioni (PvP)</string>
 	<string key="FactionMission_GATHERINTEL_desc">Recupera dati sperimentali importanti e attendi istruzioni.</string>
-	<string key="FactionMission_TITHE_title">Imposte</string>
+	<string key="FactionMission_TITHE_title">Imposte (PvP)</string>
 	<string key="FactionMission_TITHE_desc">Affama il nemico, alimenta la Scintilla.</string>
-	<string key="FactionMission_SANCTIFY_title">Santificazione</string>
+	<string key="FactionMission_SANCTIFY_title">Santificazione (PvP)</string>
 	<string key="FactionMission_SANCTIFY_desc">Libera quest'area. Imponi la tua forza, cammina nella luce.</string>
-	<string key="FactionMission_PRESERVE_title">Conservazione</string>
+	<string key="FactionMission_PRESERVE_title">Conservazione (PvP)</string>
 	<string key="FactionMission_PRESERVE_desc">Aiuta a portare la buona novella della Scintilla.</string>
 	<string key="FactionMission_EXPEDITIONRAID_title">Fai un'incursione presso: {POITags}</string>
 	<string key="FactionMission_EXPEDITIONRAID_desc">Addentrati nel territorio di {POITags} per conto dei Predoni e sconfiggi ogni &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; che sia necessario. \n\n &lt;font color="#eaeaea"&gt;(Spedizione)&lt;/font&gt;</string>
 	<string key="FactionMission_EXPEDITIONLOOT_title">Saccheggia presso: {POITags}</string>
 	<string key="FactionMission_EXPEDITIONLOOT_desc">Addentrati nel territorio di {POITags} per conto dei Predoni e raccogli ogni &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; che trovi. \n\n&lt;font color="#eaeaea"&gt;(Spedizione)&lt;/font&gt;</string>
-	<string key="FactionMission_INTERCEPT_title">Conquistare</string>
+	<string key="FactionMission_INTERCEPT_title">Domina (PvP)</string>
 	<string key="FactionMission_INTERCEPT_desc">Sconfiggi i membri dell'&lt;font color="#eaeaea"&gt;Unione&lt;/font&gt; o del &lt;font color="#eaeaea"&gt;Patto&lt;/font&gt; per la gloria dei Predoni.</string>
-	<string key="FactionMission_S_INTERCEPT_title">Sopraffare</string>
+	<string key="FactionMission_S_INTERCEPT_title">Sradica (PvP)</string>
 	<string key="FactionMission_S_INTERCEPT_desc">Sconfiggi i membri dei &lt;font color="#eaeaea"&gt;Predoni&lt;/font&gt; o del &lt;font color="#eaeaea"&gt;Patto&lt;/font&gt; per dimostrare la tua superiorità.</string>
-	<string key="FactionMission_C_INTERCEPT_title">Sgominare</string>
+	<string key="FactionMission_C_INTERCEPT_title">Sgomina (PvP)</string>
 	<string key="FactionMission_C_INTERCEPT_desc">Sconfiggi i membri dell'&lt;font color="#eaeaea"&gt;Unione&lt;/font&gt; o dei &lt;font color="#eaeaea"&gt;Predoni&lt;/font&gt; per purificare le loro anime.</string>
 	<string key="FactionMission_S_EXPEDITIONRAID_title">Purifica: {POITags}</string>
 	<string key="FactionMission_S_EXPEDITIONRAID_desc">Addentrati nel territorio di {POITags} per conto dell'Unione e sconfiggi ogni &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; che sia necessario. \n\n &lt;font color="#eaeaea"&gt;(Spedizione)&lt;/font&gt;</string>
@@ -415,15 +415,77 @@
 	<string key="ui_pve">PvE.</string>
 	<string key="FactionMission_TROPHYHUNT_title">Dai la caccia al trofeo presso: {POITags}</string>
 	<string key="FactionMission_TROPHYHUNT_desc">Dimostra la tua abilità di caccia.\n\nAbbatti &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; presso {POITags} e riporta la prova della tua superiorità.</string>
-	<string key="FactionMission_S_TROPHYHUNT_title">Dai la caccia al campione presso: {POITags}</string>
+	<string key="FactionMission_S_TROPHYHUNT_title">Dai la caccia all'esemplare presso: {POITags}</string>
 	<string key="FactionMission_S_TROPHYHUNT_desc">Abbiamo identificato un argomento che merita uno studio più approfondito.\n\nCerca &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; presso {POITags} e ritorna con un campione di tessuto.</string>
 	<string key="FactionMission_C_TROPHYHUNT_title">Dai la caccia al venerabile presso: {POITags}</string>
 	<string key="FactionMission_C_TROPHYHUNT_desc">La Scintilla offre una grande opportunità.\n\nAfferrala sconfiggendo &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; presso {POITags} e ritorna con i suoi generosi frutti.</string>
 	<string key="FactionMission_TROPHYHUNT_ELITE_title">Dai la caccia al trofeo presso: {POITags} (Élite)</string>
 	<string key="FactionMission_TROPHYHUNT_ELITE_desc">Dimostra la tua abilità di caccia.\n\nAbbatti &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; presso {POITags} e riporta la prova della tua superiorità.\n &lt;font color="#eaeaea"&gt;(Élite)&lt;/font&gt;</string>
-	<string key="FactionMission_S_TROPHYHUNT_ELITE_title">Dai la caccia al campione presso: {POITags} (Élite)</string>
+	<string key="FactionMission_S_TROPHYHUNT_ELITE_title">Dai la caccia all'esemplare presso: {POITags} (Élite)</string>
 	<string key="FactionMission_S_TROPHYHUNT_ELITE_desc">Abbiamo identificato un argomento che merita uno studio più approfondito.\n\nCerca &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; presso {POITags} e ritorna con un campione di tessuto.\n &lt;font color="#eaeaea"&gt;(Élite)&lt;/font&gt;</string>
 	<string key="FactionMission_C_TROPHYHUNT_ELITE_title">Dai la caccia al venerabile presso: {POITags} (Élite)</string>
 	<string key="FactionMission_C_TROPHYHUNT_ELITE_desc">La Scintilla offre una grande opportunità.\n\nAfferrala sconfiggendo &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; presso {POITags} e ritorna con i suoi generosi frutti.\n &lt;font color="#eaeaea"&gt;(Élite)&lt;/font&gt;</string>
+	<string key="FactionMission_WARCAMP_LOOT_title">Informazioni nemiche (PvP)</string>
+	<string key="FactionMission_WARCAMP_LOOT_desc">Infiltrati nell'&lt;font color="#eaeaea"&gt;accampamento di guerra&lt;/font&gt; presso il &lt;font color="#eaeaea"&gt;forte di {territoryID}&lt;/font&gt; e cerca preziose informazioni.</string>
+	<string key="FactionMission_CONTROL_POINT_title">Conquista (PvP)</string>
+	<string key="FactionMission_CONTROL_POINT_desc">Scendi in battaglia per aiutare i Predoni a prendere il controllo del &lt;font color="#eaeaea"&gt;forte&lt;/font&gt; presso &lt;font color="#eaeaea"&gt;{territoryID}&lt;/font&gt;.\n\n(Questa missione potrebbe non essere sempre disponibile)</string>
+	<string key="FactionMission_S_WARCAMP_LOOT_title">Ricognizione nemica (PvP)</string>
+	<string key="FactionMission_S_WARCAMP_LOOT_desc">Infiltrati nell'&lt;font color="#eaeaea"&gt;accampamento di guerra&lt;/font&gt; presso il &lt;font color="#eaeaea"&gt;forte di {territoryID}&lt;/font&gt; e cerca preziose informazioni.</string>
+	<string key="FactionMission_S_CONTROL_POINT_title">Acquisisci (PvP)</string>
+	<string key="FactionMission_S_CONTROL_POINT_desc">Scendi in battaglia per aiutare l'Unione a prendere il controllo del &lt;font color="#eaeaea"&gt;forte&lt;/font&gt; presso &lt;font color="#eaeaea"&gt;{territoryID}&lt;/font&gt;.\n\n(Questa missione potrebbe non essere sempre disponibile)</string>
+	<string key="FactionMission_C_WARCAMP_LOOT_title">Informazioni nemiche (PvP)</string>
+	<string key="FactionMission_C_WARCAMP_LOOT_desc">Infiltrati nell'&lt;font color="#eaeaea"&gt;accampamento di guerra&lt;/font&gt; presso il &lt;font color="#eaeaea"&gt;forte di {territoryID}&lt;/font&gt; e cerca preziose informazioni.</string>
+	<string key="FactionMission_C_CONTROL_POINT_title">Trionfo (PvP)</string>
+	<string key="FactionMission_C_CONTROL_POINT_desc">Scendi in battaglia per aiutare il Patto a prendere il controllo del &lt;font color="#eaeaea"&gt;forte&lt;/font&gt; presso &lt;font color="#eaeaea"&gt;{territoryID}&lt;/font&gt;.\n\n(Questa missione potrebbe non essere sempre disponibile)</string>
+	<string key="FactionMission_WARCAMP_SPECIAL_desc">Infiltrati nella roccaforte presso &lt;font color="#eaeaea"&gt;{POITags}&lt;/font&gt; e cerca preziose informazioni.</string>
+	<string key="FactionMission_S_WARCAMP_SPECIAL_desc">Infiltrati nella roccaforte presso &lt;font color="#eaeaea"&gt;{POITags}&lt;/font&gt; e cerca preziose informazioni.</string>
+	<string key="FactionMission_C_WARCAMP_SPECIAL_desc">Infiltrati nella roccaforte presso &lt;font color="#eaeaea"&gt;{POITags}&lt;/font&gt; e cerca preziose informazioni.</string>
+	<string key="FactionMission_WEAPON_SWORD_title">Prova armi: spada e scudo</string>
+	<string key="FactionMission_WEAPON_SWORD_desc">I Predoni padroneggiano tutti gli strumenti di guerra.\n\nDimostra la tua abilità con la &lt;font color="#eaeaea"&gt;spada&lt;/font&gt; abbattendo con la sua lama affilata: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_WEAPON_RAPIER_title">Prova armi: stocco</string>
+	<string key="FactionMission_WEAPON_RAPIER_desc">I Predoni padroneggiano tutti gli strumenti di guerra.\n\nDimostra la tua abilità con lo &lt;font color="#eaeaea"&gt;stocco&lt;/font&gt; perforando con velocità fulminea: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_WEAPON_HATCHET_title">Prova armi: accetta</string>
+	<string key="FactionMission_WEAPON_HATCHET_desc">I Predoni padroneggiano tutti gli strumenti di guerra.\n\nDimostra la tua abilità con l'&lt;font color="#eaeaea"&gt;accetta&lt;/font&gt; abbattendo con rabbia feroce: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_WEAPON_GREATAXE_title">Prova armi: ascia grande</string>
+	<string key="FactionMission_WEAPON_GREATAXE_desc">I Predoni padroneggiano tutti gli strumenti di guerra.\n\nDimostra la tua abilità con l'&lt;font color="#eaeaea"&gt;ascia grande&lt;/font&gt; squarciando con la sua temibile lama: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_WEAPON_WARHAMMER_title">Prova armi: martello da guerra</string>
+	<string key="FactionMission_WEAPON_WARHAMMER_desc">I Predoni padroneggiano tutti gli strumenti di guerra.\n\nDimostra la tua abilità con il &lt;font color="#eaeaea"&gt;martello da guerra&lt;/font&gt; dilaniando con il suo potere schiacciante: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_WEAPON_SPEAR_title">Prova armi: lancia</string>
+	<string key="FactionMission_WEAPON_SPEAR_desc">I Predoni padroneggiano tutti gli strumenti di guerra.\n\nDimostra la tua abilità con la &lt;font color="#eaeaea"&gt;lancia&lt;/font&gt; infilzando con la sua impareggiabile portata: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_WEAPON_BOW_title">Prova armi: arco</string>
+	<string key="FactionMission_WEAPON_BOW_desc">I Predoni padroneggiano tutti gli strumenti di guerra.\n\nDimostra la tua abilità con l'&lt;font color="#eaeaea"&gt;arco&lt;/font&gt; trapassando con le sue frecce letali: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_WEAPON_MUSKET_title">Prova armi: moschetto</string>
+	<string key="FactionMission_WEAPON_MUSKET_desc">I Predoni padroneggiano tutti gli strumenti di guerra.\n\nDimostra la tua abilità con il &lt;font color="#eaeaea"&gt;moschetto&lt;/font&gt; abbattendo con le sue pallottole esplosive: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_WEAPON_FIRESTAFF_title">Prova armi: bastone infuocato</string>
+	<string key="FactionMission_WEAPON_FIRESTAFF_desc">I Predoni padroneggiano tutti gli strumenti di guerra.\n\nDimostra la tua abilità con il &lt;font color="#eaeaea"&gt;bastone infuocato&lt;/font&gt; immolando con la sua fiamma incandescente: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_WEAPON_LIFESTAFF_title">Prova armi: bastone della vita</string>
+	<string key="FactionMission_WEAPON_LIFESTAFF_desc">I Predoni padroneggiano tutti gli strumenti di guerra.\n\nDimostra la tua abilità con il &lt;font color="#eaeaea"&gt;bastone della vita&lt;/font&gt; colpendo con il suo potere mortale: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_WEAPON_ICEGAUNTLET_title">Prova armi: guanto di ghiaccio</string>
+	<string key="FactionMission_WEAPON_ICEGAUNTLET_desc">I Predoni padroneggiano tutti gli strumenti di guerra.\n\nDimostra la tua abilità con il &lt;font color="#eaeaea"&gt;guanto di ghiaccio&lt;/font&gt; congelando con il suo tocco gelido: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_S_WEAPON_SWORD_desc">L'Unione si sforza di misurare l'efficacia di tutte le armi.\n\nMetti alla prova la &lt;font color="#eaeaea"&gt;spada&lt;/font&gt; abbattendo con la sua lama affilata: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_S_WEAPON_RAPIER_desc">L'Unione si sforza di misurare l'efficacia di tutte le armi.\n\nMetti alla prova lo &lt;font color="#eaeaea"&gt;stocco&lt;/font&gt; perforando con velocità fulminea: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_S_WEAPON_HATCHET_desc">L'Unione si sforza di misurare l'efficacia di tutte le armi.\n\nMetti alla prova l'&lt;font color="#eaeaea"&gt;accetta&lt;/font&gt; abbattendo con rabbia feroce: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_S_WEAPON_GREATAXE_desc">L'Unione si sforza di misurare l'efficacia di tutte le armi.\n\nMetti alla prova l'&lt;font color="#eaeaea"&gt;ascia grande&lt;/font&gt; squarciando con la sua temibile lama: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_S_WEAPON_WARHAMMER_desc">L'Unione si sforza di misurare l'efficacia di tutte le armi.\n\nMetti alla prova il &lt;font color="#eaeaea"&gt;martello da guerra&lt;/font&gt; dilaniando con il suo potere schiacciante: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_S_WEAPON_SPEAR_desc">L'Unione si sforza di misurare l'efficacia di tutte le armi.\n\nMetti alla prova la &lt;font color="#eaeaea"&gt;lancia&lt;/font&gt; infilzando con la sua impareggiabile portata: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_S_WEAPON_BOW_desc">L'Unione si sforza di misurare l'efficacia di tutte le armi.\n\nMetti alla prova l'&lt;font color="#eaeaea"&gt;arco&lt;/font&gt; trapassando con le sue frecce letali: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_S_WEAPON_MUSKET_desc">L'Unione si sforza di misurare l'efficacia di tutte le armi.\n\nMetti alla prova il &lt;font color="#eaeaea"&gt;moschetto&lt;/font&gt; abbattendo con le sue pallottole esplosive: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_S_WEAPON_FIRESTAFF_desc">L'Unione si sforza di misurare l'efficacia di tutte le armi.\n\nMetti alla prova il &lt;font color="#eaeaea"&gt;bastone infuocato&lt;/font&gt; immolando con la sua fiamma incandescente: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_S_WEAPON_LIFESTAFF_desc">L'Unione si sforza di misurare l'efficacia di tutte le armi.\n\nMetti alla prova il &lt;font color="#eaeaea"&gt;bastone della vita&lt;/font&gt; colpendo con il suo potere mortale: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_S_WEAPON_ICEGAUNTLET_desc">L'Unione si sforza di misurare l'efficacia di tutte le armi.\n\nMetti alla prova il &lt;font color="#eaeaea"&gt;guanto di ghiaccio&lt;/font&gt; congelando con il suo tocco gelido: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_C_WEAPON_SWORD_desc">Comprendi il combattimento per manifestare la pace.\n\nStudia la &lt;font color="#eaeaea"&gt;spada&lt;/font&gt; abbattendo con la sua lama affilata: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_C_WEAPON_RAPIER_desc">Comprendi il combattimento per manifestare la pace.\n\nStudia lo &lt;font color="#eaeaea"&gt;stocco&lt;/font&gt; perforando con velocità fulminea: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_C_WEAPON_HATCHET_desc">Comprendi il combattimento per manifestare la pace.\n\nStudia l'&lt;font color="#eaeaea"&gt;accetta&lt;/font&gt; abbattendo con rabbia feroce: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_C_WEAPON_GREATAXE_desc">Comprendi il combattimento per manifestare la pace.\n\nStudia l'&lt;font color="#eaeaea"&gt;ascia grande&lt;/font&gt; squarciando con la sua temibile lama: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_C_WEAPON_WARHAMMER_desc">Comprendi il combattimento per manifestare la pace.\n\nStudia il &lt;font color="#eaeaea"&gt;martello da guerra&lt;/font&gt; dilaniando con il suo potere schiacciante: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_C_WEAPON_SPEAR_desc">Comprendi il combattimento per manifestare la pace.\n\nStudia la &lt;font color="#eaeaea"&gt;lancia&lt;/font&gt; infilzando con la sua impareggiabile portata: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_C_WEAPON_BOW_desc">Comprendi il combattimento per manifestare la pace.\n\nStudia l'&lt;font color="#eaeaea"&gt;arco&lt;/font&gt; trapassando con le sue frecce letali: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_C_WEAPON_MUSKET_desc">Comprendi il combattimento per manifestare la pace.\n\nStudia il &lt;font color="#eaeaea"&gt;moschetto&lt;/font&gt; abbattendo con le sue pallottole esplosive: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_C_WEAPON_FIRESTAFF_desc">Comprendi il combattimento per manifestare la pace.\n\nStudia il &lt;font color="#eaeaea"&gt;bastone infuocato&lt;/font&gt; immolando con la sua fiamma incandescente: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_C_WEAPON_LIFESTAFF_desc">Comprendi il combattimento per manifestare la pace.\n\nStudia il &lt;font color="#eaeaea"&gt;bastone della vita&lt;/font&gt; colpendo con il suo potere mortale: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_C_WEAPON_ICEGAUNTLET_desc">Comprendi il combattimento per manifestare la pace.\n\nStudia il &lt;font color="#eaeaea"&gt;guanto di ghiaccio&lt;/font&gt; congelando con il suo tocco gelido: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.</string>
+	<string key="FactionMission_ASSASSINATE_ELITE_NIGHT_desc">I Predoni vogliono che tu tolga di mezzo: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nDimostra il tuo valore rintracciando il bersaglio presso {POITags} e distruggendolo.\n&lt;font color="#eaeaea"&gt;(Élite - Il nemico è notturno)&lt;/font&gt;</string>
+	<string key="FactionMission_S_ASSASSINATE_ELITE_NIGHT_desc">L'Unione ha individuato un bersaglio da eliminare: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nRintraccialo presso {POITags} e distruggilo.\n&lt;font color="#eaeaea"&gt;(Élite - Il nemico è notturno)&lt;/font&gt;</string>
+	<string key="FactionMission_C_ASSASSINATE_ELITE_NIGHT_desc">Il Patto ha individuato una minaccia da eliminare: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nDimostra la tua devozione rintracciandola presso {POITags} e distruggendola.\n &lt;font color="#eaeaea"&gt;(Élite - Il nemico è notturno)&lt;/font&gt;</string>
 </resources>
 

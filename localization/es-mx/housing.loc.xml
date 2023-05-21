@@ -35,11 +35,11 @@
 	<string key="ui_house_abandon_notification">Abandonaste la casa {houseName}.</string>
 	<string key="ui_house_abandon_popup_desc">Ya tienes 1 casa en este pueblo.\n ¿Quieres abandonar {houseName} para comprar esta casa?\nTodos los trofeos y los muebles de la casa que abandones se trasladarán al almacenamiento del pueblo.</string>
 	<string key="ui_house_abandon_popup_title">Solo puedes tener una casa por pueblo.</string>
-	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;Purchase cost and taxes will not be refunded if this house is abandoned.&lt;/font&gt;\nAll trophies &amp; furniture in the abandoned house will be moved into Town Storage.\n\nTo continue, type {territoryName} below.</string>
+	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;El costo de la compra y los impuestos no se reembolsarán si esta casa se abandona.&lt;/font&gt;\nTodos los trofeos y muebles en la casa abandonada se trasladarán al almacenamiento del pueblo.\n\nPara continuar, escribe {territoryName} abajo.</string>
 	<string key="ui_house_abandon_this_house_desc">El costo de la compra y los impuestos no se reembolsarán si esta casa se abandona. Todos los trofeos y muebles de la casa se trasladarán al almacenamiento del pueblo.</string>
 	<string key="ui_house_abandon_this_popup_title">¿Quieres abandonar la casa?</string>
-	<string key="ui_house_abandon_confirm_placeholder_text">Type the territory name.</string>
-	<string key="ui_house_abandon_confirm_button">Abandon House</string>
+	<string key="ui_house_abandon_confirm_placeholder_text">Escribe el nombre del territorio.</string>
+	<string key="ui_house_abandon_confirm_button">Abandonar la casa</string>
 	<string key="ui_house_already_owned">Esta casa ya es tuya</string>
 	<string key="ui_house_hint_decorate">Decorar</string>
 	<string key="ui_house_hint_exit">Salir</string>
@@ -47,7 +47,7 @@
 	<string key="ui_house_hint_tips">Consejos</string>
 	<string key="ui_house_hud_hint">Eres invisible para otros jugadores</string>
 	<string key="ui_house_max_home_owned_on_territory">Alcanzaste la cantidad máxima de casas que puedes poseer en el territorio</string>
-	<string key="ui_house_menu">Administrar tu casa.</string>
+	<string key="ui_house_menu">Administrar tu casa</string>
 	<string key="ui_house_preview">Previsualizar esta casa</string>
 	<string key="ui_house_price">Precio de la casa</string>
 	<string key="ui_house_property_tax_desc">El mantenimiento de esta casa requiere de {coin} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
@@ -99,7 +99,7 @@
 	<string key="ui_housing_no_items_found">Sin objetos</string>
 	<string key="ui_housing_object">Objeto residencial</string>
 	<string key="ui_housing_point_tooltip">Cada 2 días, se actualiza esta lista para mostrar las 20 casas con la puntuación residencial más alta.\n\nLa puntuación residencial se calcula según la posición del territorio que haya ganado el jugador y los muebles que haya colocado en la propiedad.</string>
-	<string key="ui_housing_purchase_house">Comprar esta casa.</string>
+	<string key="ui_housing_purchase_house">Comprar esta casa</string>
 	<string key="ui_housing_rotate_camera_hint">&lt;img src="lyshineui/images/icons/misc/Icon_RightMouseButton" xPadding="0" scale="2.2" yOffset="8"&gt;&lt;/img&gt; Girar cámara</string>
 	<string key="ui_housing_rotate_object_hint">Girar objeto</string>
 	<string key="ui_housing_select_house">Seleccionar una casa para ver</string>
@@ -120,14 +120,14 @@
 	<string key="ui_my_house_map_desc_disabled">Casa n.º {number} en {location} (inhabilitada)</string>
 	<string key="ui_my_house_map_title">Tu casa</string>
 	<string key="ui_my_houses_map_title">Tus casas</string>
-	<string key="ui_pay_property_tax_desc">Pay Property tax via the map or at your house.</string>
+	<string key="ui_pay_property_tax_desc">Paga los impuestos inmobiliarios a través del mapa o en tu casa.</string>
 	<string key="ui_no_home_owners">Casa vacía</string>
 	<string key="ui_num_housing_points">{points} puntos</string>
 	<string key="ui_owner_list">Lista de propietarios</string>
 	<string key="ui_pay_house_tax_fail">Se produjo un error al pagar los impuestos en la casa. Vuelve a intentarlo.</string>
 	<string key="ui_pay_property_tax">Pagar los impuestos</string>
 	<string key="ui_pay_property_tax_popup_desc">Si quieres regresar a tu casa, renacer en ella y decorarla, debes pagar los impuestos inmobiliarios.\nLos impuestos se pagan de forma {firstCycle} después de que compres la casa y cada {otherCycle} después.</string>
-	<string key="ui_property_tax">Impuestos\ninmobiliarios</string>
+	<string key="ui_property_tax">Impuesto inmobiliario</string>
 	<string key="ui_property_tax_amount_desc">Monto del impuesto inmobiliario recurrente</string>
 	<string key="ui_property_tax_desc">Paga el impuesto inmobiliario recurrente para poder seguir usando las funciones residenciales.</string>
 	<string key="ui_property_tax_due">Monto adeudado</string>
@@ -161,7 +161,7 @@
 	<string key="ui_inn_checked_in">{territoryName} ahora es tu nuevo punto de regreso.</string>
 	<string key="ui_active_home_point_fail">No se pudo realizar el registro</string>
 	<string key="ui_inn_fast_travel">Regresar a la posada</string>
-	<string key="ui_watchtower_fast_travel">Recall to Watchtower</string>
+	<string key="ui_watchtower_fast_travel">Regresar a la torre de observación</string>
 	<string key="ui_inn_fast_travel_notavailable">Se puede regresar en: {time}</string>
 	<string key="ui_inn">Posada</string>
 	<string key="ui_inn_header">Posada de {territoryName}.</string>
@@ -207,8 +207,8 @@
 	<string key="@ui_house_items_refunded_title">Se han reembolsado los objetos de la casa</string>
 	<string key="@ui_house_items_refunded_single_message">Debido a los cambios en {settlement}, se ha devuelto un objeto de la casa a tu inventario.</string>
 	<string key="@ui_house_items_refunded_multiple_message">Debido a los cambios en {settlement}, se han devuelto {count} objetos a tu inventario.</string>
-	<string key="ui_house_compensation_title">Housing Compensation</string>
-	<string key="ui_house_compensation_message_JAV141577">Due to incorrect messaging around taxes for first time homebuyers, you have been granted {amount} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; as a homebuyer. We hope you continue to enjoy New World and your house.</string>
+	<string key="ui_house_compensation_title">Compensación de vivienda</string>
+	<string key="ui_house_compensation_message_JAV141577">Debido a comunicaciones erróneas sobre impuestos para compradores de casas primerizos, se te han dado {amount}&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; por ser comprador. Esperamos que sigas disfrutando de New World y tu casa.</string>
 	<string key="ui_house_type_items"> Objetos</string>
 	<string key="ui_house_placed_items">Colocados</string>
 	<string key="ui_house_type_items_limits">Hasta {numPets} {petPluralOrSingle}, {numLights} {lightPluralOrSingle} y {numStorage} {storagePluralOrSingle}.</string>
@@ -227,5 +227,9 @@
 	<string key="ui_housing_no_placed_items_found">Sin objetos colocados</string>
 	<string key="ui_locate_item">Encontrar objeto</string>
 	<string key="ui_return_to_storage">Regresar al almacenamiento</string>
+	<string key="ui_house_lost_restored_message">Identificamos que su casa se perdió debido a un problema con el juego. Tu casa en {settlement} fue restaurada.</string>
+	<string key="ui_house_lost_restored_title">Casa restaurada</string>
+	<string key="ui_house_lost_refunded_message">Identificamos que su casa se perdió debido a un problema con el juego. Tu casa en {settlement} fue reembolsada y el mobiliario se devolvió a tu almacén.</string>
+	<string key="ui_house_lost_refunded_title">Casa reembolsada</string>
 </resources>
 

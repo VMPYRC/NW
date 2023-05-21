@@ -26,24 +26,26 @@
 	<string key="mission_failed" speaker="UI">Mission fehlgeschlagen</string>
 	<string key="mission_replaced" speaker="UI">Mission ersetzt</string>
 	<string key="objective_abandon" speaker="UI">Aufgeben</string>
-	<string key="objective_activate" speaker="UI">Aktiviere „{itemName}“</string>
+	<string key="objective_activate" speaker="UI">Aktiviere "{itemName}"</string>
 	<string key="objective_archive" speaker="UI">Archiv</string>
 	<string key="objective_BoarProblem_1" speaker="UI">Untersuche das auf der Karte markierte Gebiet</string>
 	<string key="objective_BoarProblem_2" speaker="UI">Jage: {targetName}</string>
 	<string key="objective_BoarProblem_3" speaker="UI">Erbeute von Wildschweinen: {itemAmount}x {itemName}</string>
 	<string key="objective_BoarProblem_4" speaker="UI">Koche am Lagerfeuer: Gesundheitserholung</string>
 	<string key="objective_bringsword" speaker="UI">Stelle beim Waffenschmied Folgendes her: {itemName}</string>
-	<string key="objective_build" speaker="UI">Errichte „{structureName}“</string>
-	<string key="objective_buySell_buyItem" speaker="UI">Kaufe {itemAmount}x „{itemName}“</string>
-	<string key="objective_buySell_earnGoldFromItem" speaker="UI">Verdiene {amountCount} Taler durch den Verkauf von „{itemName}“</string>
+	<string key="objective_build" speaker="UI">Errichte "{structureName}"</string>
+	<string key="objective_buySell_buyItem" speaker="UI">Kaufe {itemAmount}x "{itemName}"</string>
+	<string key="objective_buySell_earnGoldFromItem" speaker="UI">Verdiene {amountCount} Taler durch den Verkauf von "{itemName}"</string>
 	<string key="objective_buySell_earnGoldSingleTransaction" speaker="UI">Verdiene {amountCount} Taler bei einer einzelnen Transaktion</string>
-	<string key="objective_buySell_sellItem" speaker="UI">Verkaufe {itemAmount}x „{itemName}“</string>
-	<string key="objective_buySell_spendGoldOnItem" speaker="UI">Gib {amountCount} Taler für den Kauf von „{itemName}“ aus</string>
+	<string key="objective_buySell_sellItem" speaker="UI">Verkaufe {itemAmount}x "{itemName}"</string>
+	<string key="objective_buySell_spendGoldOnItem" speaker="UI">Gib {amountCount} Taler für den Kauf von "{itemName}" aus</string>
 	<string key="objective_buySell_spendGoldSingleTransaction" speaker="UI">Gib bei einer einzelnen Transaktion {amountCount} Taler aus</string>
 	<string key="objective_completed" speaker="UI">Ziel erfüllt</string>
 	<string key="dynamic_poi_objective_completed" speaker="UI">Landmarke erkundet</string>
-	<string key="objective_craft" speaker="UI">Stelle „{itemName}“ her</string>
-	<string key="objective_craft_p" speaker="UI">Stelle {itemAmount}x „{itemName}“ her</string>
+	<string key="objective_quest_encounter">Kampfaufgabe</string>
+	<string key="objective_quest_encounter_description">Schließe den Kampf ab, um in der Quest voranzukommen.</string>
+	<string key="objective_craft" speaker="UI">Stelle "{itemName}" her</string>
+	<string key="objective_craft_p" speaker="UI">Stelle {itemAmount}x "{itemName}" her</string>
 	<string key="objective_crafthealingdrops" speaker="UI">Stelle in deinem Lager Folgendes her: {itemName} (Standardtaste [Y])</string>
 	<string key="objective_crafthealthfood" speaker="UI">Koche am Lagerfeuer des Wächters: Gesundheitserholung</string>
 	<string key="objective_crafting" speaker="UI">Herstellung</string>
@@ -63,29 +65,30 @@
 	<string key="objective_difficulty_label" speaker="UI">Schwierigkeit:</string>
 	<string key="ui_viewinmap" speaker="UI">Auf der Karte ansehen</string>
 	<string key="objective_empty" speaker="UI">Keine Ziele vorhanden</string>
-	<string key="objective_equip" speaker="UI">Rüste „{itemName}“ aus</string>
+	<string key="objective_equip" speaker="UI">Rüste "{itemName}" aus</string>
 	<string key="objective_experience" speaker="UI">EP</string>
 	<string key="objective_failed" speaker="UI">Ziel nicht erreicht</string>
 	<string key="objective_gather_herbs" speaker="UI">Sammle {itemName} (blau) in Küstengebieten</string>
-	<string key="objective_gatherironore" speaker="UI">Nimm das Eisenerz aus der schweren Umhängetasche in deinem Inventar.</string>
+	<string key="objective_gatherironore" speaker="UI">Nimm das Eisenerz aus der schweren Umhängetasche in deinem Inventar ODER</string>
 	<string key="objective_gatherrawhide" speaker="UI">Häute Wildschweine und Wölfe und sammle: {itemName}</string>
 	<string key="objective_gatherstone" speaker="UI">Baue Felsbrocken ab und erhalte: {itemName}</string>
 	<string key="objective_gatherwood" speaker="UI">Sammle Folgendes von Büschen und Bäumen: {itemName}</string>
 	<string key="objective_guild" speaker="UI">Tritt einer Kompanie bei</string>
 	<string key="objective_hand_in_destination" speaker="UI">Sprich mit: {npcName}</string>
 	<string key="objective_have_level" speaker="UI">Erreiche Stufe {level}</string>
-	<string key="objective_have" speaker="UI">Erhalte „{itemName}“</string>
-	<string key="objective_have_p" speaker="UI">Erhalte {itemAmount}x „{itemName}“</string>
+	<string key="objective_have" speaker="UI">Erhalte "{itemName}"</string>
+	<string key="objective_have_p" speaker="UI">Erhalte {itemAmount}x "{itemName}"</string>
+	<string key="@objective_house_score" speaker="UI">Erreiche Hausdekorationspunktzahl {score}</string>
 	<string key="objective_ingredients" speaker="UI">ZUTATEN</string>
 	<string key="objective_journal" speaker="UI">Tagebuch</string>
 	<string key="objective_journey" speaker="UI">Nebengeschichten</string>
 	<string key="objective_journey_desc" speaker="UI">Zusätzliche Aufgaben</string>
 	<string key="objective_journey_empty" speaker="UI">Keine Reisen vorhanden</string>
-	<string key="objective_kill" speaker="UI">Töte „{enemy}“</string>
-	<string key="objective_kill_p" speaker="UI">Töte {amountCount}x „{enemy}“</string>
+	<string key="objective_kill" speaker="UI">Töte "{enemy}"</string>
+	<string key="objective_kill_p" speaker="UI">Töte {amountCount}x "{enemy}"</string>
 	<string key="objective_location" speaker="UI">Ort</string>
 	<string key="objective_location_desc" speaker="UI">Zu bestimmten Gebieten hinzugefügt</string>
-	<string key="objective_loot" speaker="UI">Erbeute „{itemName}“</string>
+	<string key="objective_loot" speaker="UI">Erbeute "{itemName}"</string>
 	<string key="objective_mission" speaker="UI">Fraktionsmission</string>
 	<string key="objective_mission_desc" speaker="UI">Erhalten von einem Fraktionsvertreter</string>
 	<string key="objective_mission_desc_bounty_hunter_kill" speaker="UI">Erkunde die Umgebung und töte gefährliche Feinde</string>
@@ -140,8 +143,8 @@
 	<string key="objective_msq" speaker="UI">Haupthandlung</string>
 	<string key="objective_msq_desc" speaker="UI">Ziele der Haupthandlung</string>
 	<string key="M_procurer_craft_workorder_items" speaker="UI">Herstellungsmission</string>
-	<string key="objective_name_template" comment="Obsolete - Used to show above rewards on the conversation screen. {title} is the quest title." speaker="UI">Aufgabe: „{title}“</string>
-	<string key="objective_name_and_rewards_template" comment="Shows above rewards on the conversation screen. {title} is the quest title" speaker="UI">„{title}“ – Belohnungen</string>
+	<string key="objective_name_template" comment="Obsolete - Used to show above rewards on the conversation screen. {title} is the quest title." speaker="UI">Aufgabe: "{title}"</string>
+	<string key="objective_name_and_rewards_template" comment="Shows above rewards on the conversation screen. {title} is the quest title" speaker="UI">"{title}" – Belohnungen</string>
 	<string key="objective_rewards_completion" comment="Rewards label when completing a quest" speaker="UI">Belohnungen für Abschluss</string>
 	<string key="objective_rewards_proposal" comment="Rewards label when accepting a quest" speaker="UI">Schließe die Aufgabe ab, um Folgendes zu erhalten:</string>
 	<string key="objective_objective" speaker="UI">Ziel</string>
@@ -157,6 +160,8 @@
 	<string key="objective_has_location" speaker="UI">Mit bestimmten Orten</string>
 	<string key="objective_no_location" speaker="UI">Ohne bestimmte Orte</string>
 	<string key="objective_side_quests" speaker="UI">Nebenaufgaben</string>
+	<string key="objective_event" speaker="UI">Event-Aufgaben</string>
+	<string key="objective_event_desc" speaker="UI">Während eines Events verfügbare Ziele</string>
 	<string key="objective_faction_missions" speaker="UI">Fraktionsmissionen</string>
 	<string key="objective_community_goal" speaker="UI">Stadtprojekte</string>
 	<string key="objective_POI" speaker="UI">Landmarke</string>
@@ -189,23 +194,23 @@
 	<string key="objective_refine_leather" speaker="UI">Stelle in einer Gerberei Folgendes her: {itemName}</string>
 	<string key="objective_refine_stone" speaker="UI">Stelle bei einem Steinmetz Folgendes her: {itemName}</string>
 	<string key="objective_refine_wood" speaker="UI">Stelle in einer Holzwerkstatt Folgendes her: {itemName}</string>
-	<string key="objective_repair" speaker="UI">Repariere „{itemName}“</string>
+	<string key="objective_repair" speaker="UI">Repariere "{itemName}"</string>
 	<string key="objective_requiresitem" speaker="UI">Erfordert {itemName} Rang {tier}</string>
 	<string key="objective_reward" speaker="UI">Belohnung</string>
 	<string key="objective_rewards" speaker="UI">Belohnungen</string>
 	<string key="objective_norewards" speaker="UI">An der Schlacht teilnehmen, um Belohnungen zu erhalten</string>
-	<string key="objective_salvage" speaker="UI">Zerlege „{itemName}“</string>
+	<string key="objective_salvage" speaker="UI">Zerlege "{itemName}"</string>
 	<string key="objective_started" speaker="UI">Ziel begonnen</string>
 	<string key="objective_task_pvp" speaker="UI">PvP-Mission</string>
 	<string key="objective_task_survive" speaker="UI">Überlebe – Mission scheitert bei Tod</string>
 	<string key="objective_story_task_getoffthebeach" speaker="UI">Finde den Außenposten</string>
 	<string key="objective_story_task_search_containers" speaker="UI">Suche nach Kisten in der Nähe von: {POITags}</string>
 	<string key="objective_tasks" speaker="UI">AUFGABEN</string>
-	<string key="objective_townproject" speaker="UI">Stadtprojekt</string>
+	<string key="objective_townproject" speaker="UI">Stadtprojekte</string>
 	<string key="objective_townproject_desc" speaker="UI">Findest du an Stadtplanungstafeln</string>
 	<string key="objective_unpin" speaker="UI">Abheften</string>
-	<string key="objective_use" speaker="UI">Verwende „{itemName}“</string>
-	<string key="objective_use_p" speaker="UI">Verwende {itemAmount}x „{itemName}“</string>
+	<string key="objective_use" speaker="UI">Verwende "{itemName}"</string>
+	<string key="objective_use_p" speaker="UI">Verwende {itemAmount}x "{itemName}"</string>
 	<string key="ui_projectpoints" speaker="UI">Projektpunkte</string>
 	<string key="ui_available_objectives" speaker="UI">{num} verfügbare Ziele</string>
 	<string key="ui_num_ready_objectives" speaker="UI">{num} einlösbare Ziele</string>
@@ -226,6 +231,7 @@
 	<string key="objective_mission_task_patrol_windsward" speaker="UI">Patrouilliere das Gebiet</string>
 	<string key="patrol_task_container_description" speaker="UI">Halte die Stellung und bleib am Leben.</string>
 	<string key="objective_mission_task_patrol_timer" speaker="UI">Halte {POITags} für {timeRemaining}</string>
+	<string key="objective_mission_task_control_point" speaker="UI">Erobere das Fort {TerritoryID} für die Marodeure.</string>
 	<string key="task_choose_faction" speaker="UI">Wähle eine Fraktion (via {destinationName})</string>
 	<string key="complete_available_prompt_DEFAULT" comment="male" speaker="UI - Button">Schließe folgende Aufgabe ab:</string>
 	<string key="prompt_DEFAULT" speaker="UI - Button">Nimm folgende Aufgabe an:</string>
@@ -262,5 +268,24 @@
 	<string key="objective_destroy_and_collect" speaker="UI">Vernichte {targetName} und sammle: {itemName} (Gebiet: {POITags})</string>
 	<string key="commander">Kommandant</string>
 	<string key="objective_mission_destroy_generic_at_POI">Vernichte {targetName} (Gebiet: {POITags})</string>
+	<string key="objective_mission_task_PVP_kill_and_acquire_X_items_anywhere">Besiege gegnerische Fraktionsmitglieder und sammle: {itemName}</string>
+	<string key="objective_mission_kill_generic">Besiege: {targetName}</string>
+	<string key="objective_mission_loot_chests_generic">Durchsuche Truhen nach: {itemName}.</string>
+	<string key="objective_mission_hunt_generic">Jage: {targetName}</string>
+	<string key="objective_mission_loot_chests_at_Warcamp">Suche in Truhen nach: {itemName} (Gebiet: Kriegslager in {TerritoryID})</string>
+	<string key="objective_mission_kill_with_weapon">Besiege {targetName} mit: {WeaponClassId}</string>
+	<string key="objective_mission_kill_with_sword">Besiege {targetName} mit Schwert und Schild</string>
+	<string key="objective_mission_kill_with_rapier">Besiege {targetName} mit dem Rapier</string>
+	<string key="objective_mission_kill_with_hatchet">Besiege {targetName} mit dem Beil</string>
+	<string key="objective_mission_kill_with_greataxe">Besiege {targetName} mit der Streitaxt</string>
+	<string key="objective_mission_kill_with_warhammer">Besiege {targetName} mit dem Kriegshammer</string>
+	<string key="objective_mission_kill_with_spear">Besiege {targetName} mit dem Speer</string>
+	<string key="objective_mission_kill_with_bow">Besiege {targetName} mit dem Bogen</string>
+	<string key="objective_mission_kill_with_musket">Besiege {targetName} mit der Muskete</string>
+	<string key="objective_mission_kill_with_firestaff">Besiege {targetName} mit dem Feuerstab</string>
+	<string key="objective_mission_kill_with_lifestaff">Besiege {targetName} mit dem Lebensstab</string>
+	<string key="objective_mission_kill_with_icegauntlet">Besiege {targetName} mit den Eisstulpen</string>
+	<string key="objective_mission_task_control_point_S">Erobere das Fort {TerritoryID} für das Syndikat.</string>
+	<string key="objective_mission_task_control_point_C">Erobere das Fort {TerritoryID} für das Bündnis.</string>
 </resources>
 

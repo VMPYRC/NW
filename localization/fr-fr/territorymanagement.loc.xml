@@ -101,6 +101,8 @@
 	<string key="ui_leaving_settlement_no_inn">Non enregistré(e)</string>
 	<string key="ui_leaving_settlement_inn_elsewhere">Vous partez sans vous être enregistré(e) à l'auberge. L'auberge active se trouve à : {territoryName} {distance}.</string>
 	<string key="ui_cancel_town_project">Annuler ce projet urbain</string>
+	<string key="ui_cancel_on_cooldown">Annulation possible dans {time}</string>
+	<string key="ui_start_on_cooldown">Nouveau projet possible dans {time}</string>
 	<string key="ui_cancel_project_title">Voulez-vous continuer ?</string>
 	<string key="ui_cancel_project_desc">Voulez-vous vraiment annuler ce projet ? La progression sera perdue.</string>
 	<string key="ui_replace_project_desc">Attention : voulez-vous vraiment remplacer le projet en cours ? La progression du projet en cours de ce type sera perdue.</string>
@@ -180,6 +182,7 @@
 	<string key="ui_encounter_signupbutton_war">S'enregistrer</string>
 	<string key="ui_encounter_signupDesc_war">Inscrivez-vous pour cette guerre à un\n&lt;font color='#f1ede2'&gt;tableau de guerre&lt;/font&gt; dans cette ville.</string>
 	<string key="ui_encounter_signupDesc_invasion">Inscrivez-vous pour cette invasion à un\n&lt;font color='#f1ede2'&gt;tableau de guerre&lt;/font&gt; dans cette ville.</string>
+	<string key="ui_encounter_signupDesc_invasion_minlevel">&lt;font color="#ff6363"&gt;Niveau minimum : {level}&lt;/font&gt;</string>
 	<string key="ui_encounter_signupbutton_invasion">S'enregistrer</string>
 	<string key="ui_encounter_viewstatusbutton_war">Voir armée</string>
 	<string key="ui_encounter_viewstatusbutton_invasion">Voir armée</string>
@@ -230,7 +233,7 @@
 	<string key="ui_fortressinfo_defenderlabel">(en défense)</string>
 	<string key="ui_fortressinfo_invasionattackername">Les altérés</string>
 	<string key="ui_fortressinfo_timetodeclare">Temps pour déclarer la guerre :</string>
-	<string key="ui_fortressinfo_timetodeclare_paused_invasion">Paused (Invasion)</string>
+	<string key="ui_fortressinfo_timetodeclare_paused_invasion">Interrompu (invasion)</string>
 	<string key="ui_fortressinfo_conflictdescription">Vous ne &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;gagnerez plus d'influence&lt;/font&gt; sur ce territoire tant que la guerre fait rage. (Toutes les autres récompenses de missions de faction telles que l'EXP et les pièces restent disponibles.)\n\nSi plusieurs compagnies qui ont contribué par leur influence déclarent la guerre, une compagnie sera choisie aléatoirement.</string>
 	<string key="ui_fortressinfo_noconflict">Territoire sans conflit</string>
 	<string key="ui_fortressinfo_contributionnotrequired">Aucune compagnie n'a contribué suffisamment par son influence, donc aucune n'est qualifiée pour déclarer la guerre.</string>
@@ -504,6 +507,7 @@
 	<string key="ui_project_in_progress">Ce projet urbain est actuellement en cours.</string>
 	<string key="ui_project_nopermission">Seuls les membres de la compagnie dirigeante dotés de l'autorisation adéquate peuvent lancer un projet urbain ou en changer.</string>
 	<string key="ui_project_button_upkeep_overdue">Retard de paiement des frais d'entretien du territoire</string>
+	<string key="ui_project_button_upkeep_unclaimed">Territoire non revendiqué</string>
 	<string key="ui_project_tooltip_upkeep_overdue">Impossible de lancer un projet urbain en cas de retard de paiement des frais d'entretien du territoire.</string>
 	<string key="ui_notavailable">N/A</string>
 	<string key="ui_timelimit">LIMITE DE TEMPS</string>
@@ -539,7 +543,7 @@
 	<string key="ui_firstdayofcycle">Premier jour du cycle</string>
 	<string key="ui_nextupkeepdue">Prochain paiement des frais d'entretien</string>
 	<string key="ui_overdue_penalty">PÉNALITÉ DE RETARD</string>
-	<string key="ui_town_project">Projet urbain</string>
+	<string key="ui_town_project">Projets urbains</string>
 	<string key="ui_tax_management">Gestion des impôts</string>
 	<string key="ui_territorylevel">Niveau du territoire</string>
 	<string key="ui_next_penalty">PROCHAIN DÉCLASSEMENT DANS</string>
@@ -573,11 +577,12 @@
 	<string key="ui_town_project_allCompleted">&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Terminé&lt;/font&gt; à 100 %</string>
 	<string key="ui_territory_standing_no_bonuses">Aucun bonus dans {territory}.</string>
 	<string key="ui_territory_standing_upgrade_description_generic">Obtenez des CAPACITÉS dans {territory}.</string>
-	<string key="ui_territory_standing_upgrade_description_increase_stat">Augmentez &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; de &lt;font color='#e1ddd4'&gt;{value}&lt;/font&gt; dans : {territory}.</string>
-	<string key="ui_territory_standing_upgrade_description_increase_rate">Obtenez &lt;font color='#e1ddd4'&gt;{value}&lt;/font&gt; &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; de plus dans : {territory}.</string>
-	<string key="ui_territory_standing_upgrade_description_increase_stat_no_territory">Augmentez &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; de &lt;font color='#e1ddd4'&gt;{value}&lt;/font&gt;.</string>
-	<string key="ui_territory_standing_upgrade_description_decrease_stat">Réduisez &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; de &lt;font color='#e1ddd4'&gt;{value}&lt;/font&gt; dans : {territory}.</string>
+	<string key="ui_territory_standing_upgrade_description_increase_stat">Augmente &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; dans : {territory}.</string>
+	<string key="ui_territory_standing_upgrade_description_increase_rate">Obtenez &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; de plus dans : {territory}.</string>
+	<string key="ui_territory_standing_upgrade_description_increase_stat_no_territory">Augmente &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt;.</string>
+	<string key="ui_territory_standing_upgrade_description_decrease_stat">Réduit &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; dans : {territory}.</string>
 	<string key="ui_territory_standing_upgrade_description_own_house">Vous pouvez acquérir une maison dans {territory}.</string>
+	<string key="ui_territory_standing_upgrade_value">&lt;font color='#e1ddd4'&gt; ({current}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/arrow_right" xPadding="8" scale="0.8" yOffset="-0.4"&gt;&lt;/img&gt;&lt;font color='#e1ddd4'&gt;{value})&lt;/font&gt;</string>
 	<string key="ui_territory_standing_upgrade_category_generic">Catégories</string>
 	<string key="ui_territory_standing_upgrade_category_reputation">Jetons de faction</string>
 	<string key="ui_territory_standing_upgrade_category_housepoint">Objets de logement</string>
@@ -634,7 +639,8 @@
 	<string key="ui_active_buffs">Actives</string>
 	<string key="ui_new_mission">Une nouvelle mission sera\nbientôt disponible.</string>
 	<string key="ui_mission_canceled">Mission annulée</string>
-	<string key="ui_territory_influence">Influence de territoire</string>
+	<string key="ui_territory_influence">Influence de territoire </string>
+	<string key="ui_territory_governed_by_label">Ce territoire est régi par :</string>
 	<string key="ui_AlwaysAvailableProjectId">Entretien de la ville</string>
 	<string key="lifestyle_title_LumberJackSpiritProjectId">Activer Esprit du bûcheron</string>
 	<string key="lifestyle_title_MinersResolveProjectId">Activer Détermination du mineur</string>

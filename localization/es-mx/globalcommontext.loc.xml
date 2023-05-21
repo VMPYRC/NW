@@ -69,8 +69,9 @@
 	<string key="ui_salvage_icon">&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_salvage" scale="1.75" yOffset="3.5"&gt;&lt;/img&gt; Desarmar</string>
 	<string key="ui_salvage_icon_noconfirm">&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_salvage" scale="1.75" yOffset="3.5"&gt;&lt;/img&gt; Desarmar rápidamente</string>
 	<string key="ui_salvage_lock_icon">&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_salvage" scale="1.75" yOffset="3.5"&gt;&lt;/img&gt; Bloquear el desarmado</string>
-	<string key="ui_inv_noNeedRepair">&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_repair_disabled" scale="1.75" yOffset="3.5"&gt;&lt;/img&gt; No se necesita reparación</string>
+	<string key="ui_inv_noNeedRepair">&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_repair" scale="1.75" yOffset="3.5"&gt;&lt;/img&gt; No se necesita reparación</string>
 	<string key="inv_salvage_confirm">¿Confirmas que quieres desarmar este objeto?</string>
+	<string key="inv_rarity_salvage_confirm">Estás por desarmar un objeto poderoso. ¿Confirmas la acción?</string>
 	<string key="inv_cannotsalvage_equipped">No puedes desarmar objetos equipados.</string>
 	<string key="inv_cannotsalvage_full">No puedes desarmar. Tu inventario está lleno.</string>
 	<string key="ui_move_hint">Mover</string>
@@ -112,7 +113,11 @@
 	<string key="ui_affliction_drowning">aliento</string>
 	<string key="ui_affliction_drowning_tooltip">Si te quedas sin aliento, te sofocarás y morirás</string>
 	<string key="ui_affliction_blight">resistencia a la plaga</string>
-	<string key="ui_affliction_blight_tooltip">Si te quedas sin resistencia a la plaga, estarás en estado salvaje y tendrás un {[Type_StatusEffectData.Blight.DMGStandard * 100]} % de daño reducido y {[Type_StatusEffectData.Blight.HealMod * 100]} % de sanación reducida, y perderás un {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]} % de tu salud base cada {[Type_StatusEffectData.Blight.TickRate]} segundos durante {[Afflictions.AfflictionBlight.AfflictedDrainTime]} segundos.</string>
+	<string key="ui_affliction_blight_tooltip">Si te quedas sin resistencia a la plaga, estarás en estado salvaje y tendrás un {[Type_StatusEffectData.Blight.DMGStandard * 100]} % de daño reducido y un {[Type_StatusEffectData.Blight.HealMod * 100]} % de sanación reducida, y perderás un {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]} % de tu salud base cada {[Type_StatusEffectData.Blight.TickRate]} segundos durante {[Afflictions.AfflictionBlight.AfflictedDrainTime]} segundos.</string>
+	<string key="ui_affliction_mutcurse3minor">contador maldito</string>
+	<string key="ui_affliction_mutcurse3minor_tooltip">Contador de combustible.</string>
+	<string key="ui_affliction_mutcurse4major">resistencia al retroceso</string>
+	<string key="ui_affliction_mutcurse4major_tooltip">Si te quedas sin resistencia, se te lanzará una zona de silencio. La zona explotará después de un tiempo, infligiendo daño a jugadores y criatura. La resistencia se comparte entre todos los miembros de tu grupo.</string>
 	<string key="ui_afflicted_bleeding">herida</string>
 	<string key="ui_afflicted_bleeding_tooltip">Mientras estás herido, tardas mucho más en recuperar resistencia</string>
 	<string key="ui_afflicted_burn">quemadura</string>
@@ -132,7 +137,11 @@
 	<string key="ui_afflicted_drowning">ahogamiento</string>
 	<string key="ui_afflicted_drowning_tooltip">Te ahogaste hasta morir</string>
 	<string key="ui_afflicted_blight">salvaje</string>
-	<string key="ui_afflicted_blight_tooltip">Mientras estés en estado salvaje, tienes {[Type_StatusEffectData.Blight.DMGStandard * 100]} % de daño reducido y {[Type_StatusEffectData.Blight.HealMod * 100]} % de sanación reducida, y pierdes {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]} % de tu salud base cada {[Type_StatusEffectData.Blight.TickRate]} segundos.</string>
+	<string key="ui_afflicted_blight_tooltip">Mientras estés en estado salvaje, tienes un {[Type_StatusEffectData.Blight.DMGStandard * 100]} % de daño reducido y un {[Type_StatusEffectData.Blight.HealMod * 100]} % de sanación reducida, y pierdes un {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]} % de tu salud base cada {[Type_StatusEffectData.Blight.TickRate]} segundos.</string>
+	<string key="ui_afflicted_mutcurse3minor">combustión</string>
+	<string key="ui_afflicted_mutcurse3minor_tooltip">Cuando el contador finalice, los dos jugadores con menos salud lanzarán una cadena elemental desde ellos hacia los aliados cercanos.</string>
+	<string key="ui_afflicted_mutcurse4major">malditos</string>
+	<string key="ui_afflicted_mutcurse4major_tooltip">Cuando se agote el tiempo de este temporizador, la zona de silencio explotará.</string>
 	<string key="ui_agreement">Si continuas, aceptas</string>
 	<string key="ui_ahhhhh">¡¡AHHHHH!!</string>
 	<string key="ui_aimsensitivity">Sensibilidad del objetivo</string>
@@ -188,6 +197,7 @@
 	<string key="ui_leave_arena_coming_soon">Pronto estará disponible la función para salir de la arena</string>
 	<string key="ui_equipfishingpole">[{value}] para pescar</string>
 	<string key="ui_castfishingline">: Lanzar sedal</string>
+	<string key="ui_fishing_hotspot_nearby">¡Encuentra la zona de pesca en un área cercana!</string>
 	<string key="ui_changekey">Cambiar clave</string>
 	<string key="ui_changeweapon">cambiar arma</string>
 	<string key="ui_create_character_title_main_menu">Crea un personaje.</string>
@@ -222,6 +232,7 @@
 	<string key="ui_no_points_spent">Puntos sin asignar</string>
 	<string key="ui_commit_1_point">Usar &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt; 1 &lt;/font&gt; punto</string>
 	<string key="ui_commit_points">Usar &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt; {points} &lt;/font&gt; puntos</string>
+	<string key="ui_abilities_on_cooldown">Habilidades en tiempo de reutilización</string>
 	<string key="ui_componentname">Nombre del componente</string>
 	<string key="ui_confirm">Confirmar</string>
 	<string key="ui_confirm_delete_character_placeholder">Escribir el nombre del personaje</string>
@@ -238,6 +249,7 @@
 	<string key="ui_craft_fee">{territoryName} IMPUESTO: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{fee} &lt;/font&gt; &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="0.9" yOffset="0.7"&gt;&lt;/img&gt;</string>
 	<string key="ui_crafting_carried">Tienes &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt;</string>
 	<string key="ui_crafting_none">Los objetos fabricados sin un recurso especial pueden tener beneficios, pero es menos probable que tengan un tipo específico.</string>
+	<string key="ui_crafting_item_perks">Beneficios de objetos</string>
 	<string key="ui_purchase_slot_hint_1">La ranura de personaje adicional se aplica a todas las regiones</string>
 	<string key="ui_purchase_slot_hint_2">Se puede crear un máximo de 4 personajes por región</string>
 	<string key="ui_createcharacter">Crear personaje</string>
@@ -281,7 +293,8 @@
 	<string key="ui_hoursago">Hace {time} horas</string>
 	<string key="ui_dayago">Hace 1 día</string>
 	<string key="ui_daysago">Hace {time} días</string>
-	<string key="ui_morethanoneyear">Hace más de 1 año</string>
+	<string key="ui_morethanoneyear">Más de 1 año</string>
+	<string key="ui_morethanoneyearago">Hace más de 1 año</string>
 	<string key="ui_morethanoneyear_short">Más de 1 año</string>
 	<string key="ui_daysAndHours">{days} días y {hours} h</string>
 	<string key="ui_dayAndHours">1 día y {hours} h</string>
@@ -355,8 +368,6 @@
 	<string key="ui_none">Ninguno</string>
 	<string key="ui_playertitle_alpha_tester">Platija</string>
 	<string key="ui_playertitle_preorder">Primera expedición</string>
-	<string key="ui_emote">Emoticono</string>
-	<string key="ui_emotes">Emoticonos</string>
 	<string key="ui_enablepushtotalksound">Habilitar sonido de presionar para hablar</string>
 	<string key="ui_enablevoicechat">Habilitar chat de voz</string>
 	<string key="ui_end">Fin</string>
@@ -370,6 +381,9 @@
 	<string key="ui_quittodesktop">Salir al escritorio</string>
 	<string key="ui_expatriate">Expatriar</string>
 	<string key="ui_expertise">Experiencia</string>
+	<string key="ui_expertise_tooltip_warning">No puedes ganar más niveles de pericia hasta que alcances el nuevo límite de nivel de habilidad de oficio.</string>
+	<string key="ui_expertise_tooltip_explanation">Después de alcanzar el nivel máximo, podrás seguir ganando experiencia y niveles de pericia.</string>
+	<string key="ui_expertise_tooltip_reward">En cada punto marcado, obtendrás una caja de recompensas. Las cajas que obtienes más adelante en cada nivel ofrecen mayores recompensas.</string>
 	<string key="ui_explorer">Explorador</string>
 	<string key="ui_f">f</string>
 	<string key="ui_face">CARA</string>
@@ -517,6 +531,7 @@
 	<string key="ui_return_hide_ui">Volver al juego para ocultar IU</string>
 	<string key="ui_return_to_game">Volver al juego</string>
 	<string key="ui_photomode">Ocultar IU</string>
+	<string key="ui_take_screenshot">Captura de pantalla</string>
 	<string key="ui_ownership:">Propiedad:</string>
 	<string key="ui_p">p</string>
 	<string key="ui_pitch">LANZAMIENTO</string>
@@ -616,7 +631,7 @@
 	<string key="ui_options_gamma_desc">Ajusta la gamma.</string>
 	<string key="ui_options_basic_settings">Configuración básica</string>
 	<string key="ui_options_brightness_setting">Configuración de brillo</string>
-	<string key="ui_options_brightness_setting_desc">Ajusta la configuración del brillo hasta que el logotipo de New World apena se vea.\nPodrás cambiar el ajuste más adelante en la pantalla de configuración si lo necesitas.</string>
+	<string key="ui_options_brightness_setting_desc">Ajusta la configuración del brillo hasta que el logotipo de New World apenas se vea.\nPodrás cambiar el ajuste más adelante en la pantalla de configuración si lo necesitas.</string>
 	<string key="ui_options_brightness">Brillo</string>
 	<string key="ui_options_brightness_desc">Ajusta el brillo.</string>
 	<string key="ui_options_contrast">Contraste</string>
@@ -838,9 +853,12 @@
 	<string key="ui_world_select_more_options">Mostrar más opciones</string>
 	<string key="ui_world_select_hide_options">Ocultar más opciones</string>
 	<string key="ui_world_select_view_worlds">Ver mundos</string>
-	<string key="ui_world_select_refresh">Revitalización</string>
+	<string key="ui_world_select_refresh">Actualizar</string>
 	<string key="ui_resolution_popup_title">Confirmar resolución</string>
 	<string key="ui_resolution_popup_title_message">¿Está bien esta resolución?</string>
+	<string key="ui_monitor_popup_title">Confirmar cambio de monitor</string>
+	<string key="ui_monitor_popup_title_message">¿Está bien este monitor?</string>
+	<string key="ui_monitor_name">Monitor</string>
 	<string key="ui_short_level">Nv.</string>
 	<string key="ui_factioncurrency">Tokens de {faction}</string>
 	<string key="ui_factionreputation">Reputación de {faction}</string>
@@ -879,14 +897,14 @@
 	<string key="ui_killfeed_standing_val">+ {amount}</string>
 	<string key="ui_killfeed_tradeskill_val">+ {amount}</string>
 	<string key="ui_navmenu_friends">AMIGOS</string>
-	<string key="ui_navmenu_guild">COMPAÑÍA</string>
-	<string key="ui_navmenu_map">MAPA</string>
-	<string key="ui_navmenu_journal">DIARIO</string>
-	<string key="ui_navmenu_settings">CONFIGURACIÓN</string>
+	<string key="ui_navmenu_guild">Compañía</string>
+	<string key="ui_navmenu_map">Mapa</string>
+	<string key="ui_navmenu_journal">Diario</string>
+	<string key="ui_navmenu_settings">Configuración</string>
 	<string key="ui_navmenu_exit">SALIR/OPCIONES</string>
-	<string key="ui_navmenu_game_menu">MENÚ DE JUEGO</string>
+	<string key="ui_navmenu_game_menu">Menú</string>
 	<string key="ui_navmenu_benchmark">RENDIMIENTO</string>
-	<string key="ui_navmenu_store">TIENDA</string>
+	<string key="ui_navmenu_store">Tienda</string>
 	<string key="ui_navmenu_quit">SALIR</string>
 	<string key="ui_escapemenu_submit_feedback">Enviar comentarios</string>
 	<string key="ui_escapemenu_respawn">Renacer</string>
@@ -899,7 +917,7 @@
 	<string key="ui_escapemenu_help">Página de ayuda de New World</string>
 	<string key="ui_escapemenu_support">Ayuda</string>
 	<string key="ui_escapemenu_leave_game">Salir del juego</string>
-	<string key="ui_navmenu_support">AYUDA</string>
+	<string key="ui_navmenu_support">Ayuda</string>
 	<string key="ui_navmenu_submit_feedback_desc">Comenta regularmente para aprovechar al máximo tu contribución de prueba.</string>
 	<string key="ui_navmenu_visit_forums">Visita los foros</string>
 	<string key="ui_navmenu_visit_forums_desc">Habla directamente con los desarrolladores y conéctate con otros jugadores.</string>
@@ -907,12 +925,12 @@
 	<string key="ui_navmenu_get_help">Obtener ayuda</string>
 	<string key="ui_navmenu_get_help_desc">Visita la página de New World para ver preguntas frecuentes, obtener soporte técnico y otros recursos útiles.</string>
 	<string key="ui_quitpopup_title">CONFIRMAR SALIDA</string>
-	<string key="ui_quitpopup_incombat_title">SALIR EN COMBATE</string>
+	<string key="ui_quitpopup_incombat_title">SALIR DEL COMBATE RECIENTE</string>
 	<string key="ui_quitpopup_criminal_title">SALIR COMO CRIMINAL</string>
 	<string key="ui_quitpopup_murderer_title">SALIR COMO ASESINO</string>
 	<string key="ui_quitdesktoppopup_message">¿Confirmas que quieres salir al escritorio?</string>
 	<string key="ui_quitmainmenupopup_message">¿Confirmas que quieres salir al menú principal?</string>
-	<string key="ui_quitpopup_incombat_message" comment="Player is still in a combat situation and tries to log-out">Si sales mientras estás en un combate,\ntu cuerpo continuará durante [{timeremaining}] en el mundo.\n\n¿Quieres continuar?</string>
+	<string key="ui_quitpopup_incombat_message" comment="Player is still in a combat situation and tries to log-out">Si sales luego de un combate reciente,\ntu cuerpo continuará durante &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt; en el mundo.\n\n¿Quieres continuar?</string>
 	<string key="ui_quitpopup_criminal_message">Si sales mientras eres un criminal,\ntu cuerpo continuará durante [{timeremaining}] en el mundo.\n\n¿Quieres continuar?</string>
 	<string key="ui_quitpopup_murderer_message">Si sales mientras eres un asesino,\ntu cuerpo continuará durante [{timeremaining}] en el mundo.\n\n¿Quieres continuar?</string>
 	<string key="ui_crime_notification_title">ACCIÓN CRIMINAL</string>
@@ -936,6 +954,7 @@
 	<string key="ui_whisper_to_someone">{playerName} PARA {recipient}</string>
 	<string key="ui_focus">Concentración</string>
 	<string key="ui_points_to_level">{points} para llegar al nivel {level}</string>
+	<string key="ui_points_to_expertise">{points} para el rango de pericia {level}</string>
 	<string key="ui_spirit">Fe</string>
 	<string key="ui_vitality">Físico</string>
 	<string key="ui_strength">Fuerza</string>
@@ -1046,7 +1065,7 @@
 	<string key="ui_hide_filters">OCULTAR FILTROS</string>
 	<string key="ui_path">Camino</string>
 	<string key="ui_show_filters">MOSTRAR FILTROS</string>
-	<string key="ui_filters">FILTROS.</string>
+	<string key="ui_filters">FILTROS</string>
 	<string key="ui_add_filter">Agregar filtro</string>
 	<string key="ui_filter">Filtrar</string>
 	<string key="ui_remove_filters">Quitar filtros</string>
@@ -1184,6 +1203,7 @@
 	<string key="ui_buildmode_error_not_in_line_of_sight">La construcción no está dentro de la línea de visión</string>
 	<string key="ui_buildmode_error_camping_restricted">No se puede acampar cerca de puntos de referencia</string>
 	<string key="ui_buildmode_error_war_attackers_restricted">Los atacantes bélicos no pueden construir aquí</string>
+	<string key="ui_camp_unlock_skins_tooltip">Desbloquea Campamento (nivel 1)\nSi armas un campamento de nivel 1, podrás fabricar varios objetos de nivel 1, curar a tu personaje y renacer en el campamento.\nPara desbloquearlo, debes ser de nivel 5 y haber completado la misión inicial de sobreviviente.\nNota: Debes completar las misiones iniciales precedentes de asentamiento y playa antes de embarcarte en esta misión.</string>
 	<string key="ui_buildmode_error_outside_of_war">No se puede construir esto fuera de la guerra</string>
 	<string key="ui_buildmode_error_war_attackers_only">Estructura restringida a los atacantes únicamente</string>
 	<string key="ui_camping_error_not_unlocked">Campamento aún sin desbloquear</string>
@@ -1276,8 +1296,6 @@
 	<string key="AugustEmoteBundle">Conjunto de pulgares oponibles</string>
 	<string key="ThumbsEmotes_EntName">Pulgares</string>
 	<string key="FlexEmotes_EntName">Flexión de brazo</string>
-	<string key="SillyArmDanceEmote_EntName">Ir en busca de una aventura</string>
-	<string key="GolfClapEmote_EntName">Aplauso cortés</string>
 	<string key="Bobcat_EntName">Gato montés</string>
 	<string key="Hare_EntName">Liebre</string>
 	<string key="AlphaTitle_EntName">Platija</string>
@@ -1292,8 +1310,6 @@
 	<string key="WoodsmanThrowingAxe_EntDes">Equipar en hachuela; «Claramente, la intención no era solo separar cuerdas de madera».</string>
 	<string key="ThumbsEmotes_EntDes">Las opiniones no son para todo el mundo</string>
 	<string key="FlexEmotes_EntDes">¿Tienes boletos? ¿Para la exhibición de mosquetes?</string>
-	<string key="SillyArmDanceEmote_EntDes">Aeternum es un lugar serio, pero incluso los más exhaustos necesitan divertirse de vez en cuando.</string>
-	<string key="GolfClapEmote_EntDes">Demuestra que algo te causa algo de gracia.</string>
 	<string key="Bobcat_EntDes">Haz de tu casa un hogar con el gato montés como mascota. Es la compañía perrrfecta.</string>
 	<string key="Hare_EntDes">Haz de tu casa un hogar con la liebre como mascota. Te garantizamos que disfrutarás de una experiencia que te pondrá los pelos de punta.</string>
 	<string key="AlphaTitle_EntDes">Descripción del título de jugador de prueba de la versión alfa</string>
@@ -1309,8 +1325,6 @@
 	<string key="AugustEmoteBundle_EntInfo">Conjunto de pulgares oponibles</string>
 	<string key="ThumbsEmotes_EntInfo">Pulgares</string>
 	<string key="FlexEmotes_EntInfo">Flexión de brazo</string>
-	<string key="SillyArmDanceEmote_EntInfo">Ir en busca de una aventura</string>
-	<string key="GolfClapEmote_EntInfo">Aplauso cortés</string>
 	<string key="Bobcat_EntInfo">Gato montés</string>
 	<string key="Hare_EntInfo">Liebre</string>
 	<string key="AlphaTitle_EntInfo">Jugador de prueba de la versión alfa</string>
@@ -1458,9 +1472,13 @@
 	<string key="ui_repair_item_confirmation">¿Usar un kit de reparación para reparar este objeto?</string>
 	<string key="ui_repair_better_kit_warning">Tienes un kit de reparación de nivel inferior para preparar este objeto. ¿Reparar objeto con ese kit de reparación?</string>
 	<string key="ui_repair_all">Reparar todo</string>
-	<string key="ui_repair_all_disabled">No tienes kits de reparación o piezas de repuesto suficientes para reparar todos los objetos.</string>
-	<string key="ui_repair_all_category_disabled">No tienes kits de reparación o piezas de repuesto suficientes para reparar todos los objetos de esta categoría.</string>
-	<string key="ui_repair_all_equipment_disabled">No tienes kits de reparación o piezas de repuesto suficientes para reparar todos los objetos o tu equipo.</string>
+	<string key="ui_repair_all_armor">Tu armadura está dañada. Repárala con piezas de repuesto o kits de reparación.</string>
+	<string key="ui_repair_all_tutorial">Haz clic aquí para reparar todos los objetos equipados a la vez.</string>
+	<string key="ui_repair_all_disabled">No tienes monedas, kits de reparación o piezas de repuesto suficientes para reparar todos los objetos.</string>
+	<string key="ui_repair_all_disabled_tutorial">&lt;font color="#f25d5d"&gt;No tienes monedas, kits de reparación o piezas de repuesto suficientes para reparar todos los objetos.&lt;/font&gt;</string>
+	<string key="ui_repair_all_disabled_salvage">Desarma equipos sin usar para obtener piezas de repuesto.</string>
+	<string key="ui_repair_all_category_disabled">No tienes monedas, kits de reparación o piezas de repuesto suficientes para reparar todos los objetos de esta categoría.</string>
+	<string key="ui_repair_all_equipment_disabled">No tienes monedas, kits de reparación o piezas de repuesto suficientes para reparar todo tu equipo.</string>
 	<string key="ui_repair_all_not_needed">Ningún objeto de esta categoría necesita reparación.</string>
 	<string key="ui_repair_all_not_needed_equipment">Tu equipo no necesita reparación.</string>
 	<string key="ui_repair_all_confirmation">¿Reparar todos los objetos de esta categoría?\nSe requiere:</string>
@@ -1514,106 +1532,10 @@
 	<string key="ui_submit_feedback_type">Ingresar comentarios aquí.</string>
 	<string key="ui_submit_feedback_question">¿Cómo fue tu experiencia?</string>
 	<string key="ui_loading">Cargando</string>
-	<string key="ui_emote_sit">Sentarse</string>
-	<string key="ui_emote_flex">Flexión</string>
-	<string key="ui_emote_flex2">Flexión</string>
-	<string key="ui_emote_go">Anda</string>
-	<string key="ui_emote_here">Aquí</string>
-	<string key="ui_emote_wave">Saludar</string>
-	<string key="ui_emote_nono">Nono</string>
-	<string key="ui_emote_cheer">Animar</string>
-	<string key="ui_emote_Dice">Dados</string>
-	<string key="ui_emote_thumbs">Pulgares</string>
-	<string key="ui_emote_dance1">Bailar</string>
-	<string key="ui_emote_kill">Cortar el gaznate</string>
-	<string key="ui_emote_Bow">Arco</string>
-	<string key="ui_emote_Watching">Te estoy mirando</string>
-	<string key="ui_emote_No">No</string>
-	<string key="ui_emote_Clap">Aplaudir</string>
-	<string key="ui_emote_shrug">Encoger los hombros</string>
-	<string key="ui_emote_surrender">Darse por vencido</string>
-	<string key="ui_emote_pray">Rezar</string>
-	<string key="ui_emote_shhh">Chito</string>
-	<string key="ui_emote_nope">Nop</string>
-	<string key="ui_emote_Beckon">Llamar con un gesto</string>
-	<string key="ui_emote_Noseblow">Soplarse la nariz</string>
-	<string key="ui_emote_RockPaperScissors">Piedra, papel o tijera</string>
-	<string key="ui_emote_FistBump">Choque de puños</string>
-	<string key="ui_emote_Revel">Diversión</string>
-	<string key="ui_emote_Whistle">Silbar</string>
-	<string key="ui_emote_Hi">Hola</string>
-	<string key="ui_emote_GoodBye">Adiós</string>
-	<string key="ui_emote_Apologize">Disculparse</string>
-	<string key="ui_emote_Thumbs_Sideways">Pulgares a los costados</string>
-	<string key="ui_emote_Thumbs_Up">Pulgares hacia arriba</string>
-	<string key="ui_emote_Thumbs_Down">Pulgares hacia abajo</string>
-	<string key="ui_emote_High_Five">Chocar los cinco</string>
-	<string key="ui_emote_Slow_Clap">Aplauso lento</string>
-	<string key="ui_emote_Laugh_1">Risa 1</string>
-	<string key="ui_emote_Laugh_2">Risa 2</string>
-	<string key="ui_emote_Cry_1">Llanto 1</string>
-	<string key="ui_emote_Cry_3">Llanto 3</string>
-	<string key="ui_emote_Coin_Toss">Tirar la moneda</string>
-	<string key="ui_emote_Chest_Pound">Golpe en el pecho</string>
-	<string key="ui_emote_Fist_Shake">Golpe de puño</string>
-	<string key="ui_emote_Chin_Scrape">Rascarse el mentón</string>
-	<string key="ui_emote_Push_Ups">Flexiones de brazo</string>
-	<string key="ui_emote_Flex_3">Flexión de brazo</string>
-	<string key="ui_emote_Golf_Clap">Aplauso lento</string>
-	<string key="ui_emote_sillywalk1">Caminata a lo tonto</string>
-	<string key="ui_emote_sit_description">Descripción del emoticono de sentarse</string>
-	<string key="ui_emote_flex_description">Descripción del emoticono de flexión</string>
-	<string key="ui_emote_flex2_description">Descripción del emoticono de flexión</string>
-	<string key="ui_emote_go_description">Descripción del emoticono de ir</string>
-	<string key="ui_emote_here_description">Descripción del emoticono de aquí</string>
-	<string key="ui_emote_wave_description">Descripción del emoticono de saludar</string>
-	<string key="ui_emote_nono_description">Descripción del emoticono de no, no</string>
-	<string key="ui_emote_cheer_description">Descripción del emoticono de animar</string>
-	<string key="ui_emote_Dice_description">Descripción del emoticono de dados</string>
-	<string key="ui_emote_thumbs_description">Descripción del emoticono de pulgares</string>
-	<string key="ui_emote_dance1_description">Descripción del emoticono de bailar</string>
-	<string key="ui_emote_kill_description">"La marca del forajido".</string>
-	<string key="ui_emote_Bow_description">Descripción del emoticono de reverencia</string>
-	<string key="ui_emote_Watching_description">Descripción del emoticono de Te estoy mirando</string>
-	<string key="ui_emote_No_description">Descripción del emoticono de no</string>
-	<string key="ui_emote_Clap_description">Descripción del emoticono de aplaudir</string>
-	<string key="ui_emote_shrug_description">Descripción del emoticono de encoger los hombros</string>
-	<string key="ui_emote_surrender_description">Descripción del emoticono de darse por vencido</string>
-	<string key="ui_emote_pray_description">Descripción del emoticono de rezar</string>
-	<string key="ui_emote_shhh_description">Descripción del emoticono de chito</string>
-	<string key="ui_emote_nope_description">Descripción del emoticono de nop</string>
-	<string key="ui_emote_Beckon_description">Descripción del emoticono de llamar con un gesto</string>
-	<string key="ui_emote_Noseblow_description">Descripción del emoticono de soplarse la nariz</string>
-	<string key="ui_emote_RockPaperScissors_description">Descripción del emoticono de piedra, papel o tijera</string>
-	<string key="ui_emote_FistBump_description">Descripción del emoticono de choque de puños</string>
-	<string key="ui_emote_Revel_description">Descripción del emoticono de diversión</string>
-	<string key="ui_emote_Whistle_description">Descripción del emoticono de silbar</string>
-	<string key="ui_emote_Hi_description">Descripción del emoticono de saludo</string>
-	<string key="ui_emote_GoodBye_description">Descripción del emoticono de adiós</string>
-	<string key="ui_emote_Apologize_description">Descripción del emoticono de disculparse</string>
-	<string key="ui_emote_Thumbs_Sideways_description">Descripción del emoticono de pulgares a los costados</string>
-	<string key="ui_emote_Thumbs_Up_description">Descripción del emoticono de pulgares hacia arriba</string>
-	<string key="ui_emote_Thumbs_Down_description">Descripción del emoticono de pulgares hacia abajo</string>
-	<string key="ui_emote_High_Five_description">Descripción del emoticono de chocar los cinco</string>
-	<string key="ui_emote_Slow_Clap_description">Descripción del emoticono de aplauso lento</string>
-	<string key="ui_emote_Laugh_1_description">Descripción del emoticono de risa 1</string>
-	<string key="ui_emote_Laugh_2_description">Descripción del emoticono de risa 2</string>
-	<string key="ui_emote_Cry_1_description">Descripción del emoticono de llanto 1</string>
-	<string key="ui_emote_Cry_3_description">Descripción del emoticono de llanto 3</string>
-	<string key="ui_emote_Coin_Toss_description">Descripción del emoticono de tirar la moneda</string>
-	<string key="ui_emote_Chest_Pound_description">Descripción del emoticono de golpe en el pecho</string>
-	<string key="ui_emote_Fist_Shake_description">Descripción del emoticono de golpe de puño</string>
-	<string key="ui_emote_Chin_Scrape_description">Descripción del emoticono de rascarse el mentón</string>
-	<string key="ui_emote_Push_Ups_description">Descripción del emoticono de flexiones de brazo</string>
-	<string key="ui_emote_Flex_3_description">Descripción del emoticono de flexión de brazo</string>
-	<string key="ui_emote_Golf_Clap_description">Descripción del emoticono de aplauso lento</string>
-	<string key="ui_emote_sillywalk1_description">Descripción del emoticono de caminata a lo tonto</string>
 	<string key="ui_digital_deluxe">Deluxe digital</string>
 	<string key="ui_twitch_prime_members">Twitch Prime</string>
 	<string key="ui_remote_house_payment_need_coin">No se pueden pagar los impuestos; no hay dinero suficiente.</string>
 	<string key="ui_remote_house_payment_unavailable">No se pueden pagar impuestos en este momento. Vuelve a intentarlo.</string>
-	<string key="ui_emote_unavailable_reason">Este emoticono solo está disponible para {entitlementRequirements}</string>
-	<string key="ui_emote_unavailable">&lt;font color="#f25d5d"&gt;Este emoticono no está disponible.&lt;/font&gt;</string>
 	<string key="ui_available_entitlements">&lt;font color="#979081"&gt;{num} pieles disponibles&lt;/font&gt;</string>
 	<string key="ui_entitlements_new_items">Objetos nuevos.</string>
 	<string key="ui_entitlements">Derechos</string>
@@ -1622,7 +1544,7 @@
 	<string key="ui_war_declare_fail_alreadyAtWar">No se puede declarar la guerra; ya estás en guerra con esta compañía por el control de otro territorio.</string>
 	<string key="ui_war_declare_fail_alreadyInLottery">No se puede declarar la guerra; tu compañía tiene una declaración de guerra pendiente.</string>
 	<string key="ui_war_declare_fail_conflictResolving">No se puede declarar la guerra hasta que se resuelva la batalla actual.</string>
-	<string key="ui_war_declare_fail_invasionScheduled">No se puede declarar la guerra; habrá una invasión inminente en este territorio.</string>
+	<string key="ui_war_declare_fail_invasionScheduled">No se puede declarar la guerra; habrá una invasión inminente en este territorio.\n\nLa influencia de facción está congelada en el valor que tenía antes de que se declare la invasión y regresará a ese valor de inmediato después de la invasión.</string>
 	<string key="ui_war_declare_fail_noPlayerComponent">No se puede declarar la guerra; no hay jugadores.</string>
 	<string key="ui_war_declare_fail_NoCurrency">No se puede declarar la guerra; no hay dinero suficiente.</string>
 	<string key="ui_war_declare_fail_NoFaction">No se puede declarar la guerra; tu compañía no tiene facción.</string>
@@ -1650,7 +1572,7 @@
 	<string key="ui_remotetransferbyclassbody">¿Confirmas que quieres transferir todos los objetos de la categoría {itemClassName} desde {territoryName} a tu inventario?\nTransferir todos los objetos de la categoría {itemClassName} costará {amount} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_remotetransferalltitle">Transferir todos los objetos</string>
 	<string key="ui_remotetransferallbody">¿Confirmas que quieres transferir todos los objetos desde {territoryName} a tu inventario?\nTransferir todos los objetos costará {amount} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
-	<string key="ui_remotetransfererror_coin">No tienes suficientes monedas para transferir este objeto</string>
+	<string key="ui_remotetransfererror_coin">No tienes monedas suficientes para transferir este objeto</string>
 	<string key="ui_remotetransfer_storage_location">Ubicación del almacenamiento</string>
 	<string key="ui_characters_created">Personajes creados</string>
 	<string key="ui_characters_count">Personajes:</string>
@@ -1707,9 +1629,9 @@
 	<string key="ui_qb_no_skill_bonus">Sin bonificación de habilidad</string>
 	<string key="ui_qb_no_material_bonus">Sin bonificación de material</string>
 	<string key="ui_resource_quantity">{resourceName} {qtyHave}/{qtyNeeded}</string>
-	<string key="ui_escapemenu_proceed_to_new_world">Ir directamente a New World</string>
-	<string key="ui_proceed_to_new_world_popup_title">Ir directamente a New World</string>
-	<string key="ui_proceed_to_new_world_popup_message">¿Confirmas que quieres ir directamente a New World?\nPerderás todo el dinero, los objetos o la experiencia que hayas adquirido.</string>
+	<string key="ui_escapemenu_proceed_to_new_world">Omitir tutorial</string>
+	<string key="ui_proceed_to_new_world_popup_title">Omitir tutorial</string>
+	<string key="ui_proceed_to_new_world_popup_message">¿Confirmas que quieres omitir el tutorial?\nPerderás todo el dinero, los objetos o la experiencia que hayas adquirido.</string>
 	<string key="ui_additional_items">+{count} objetos</string>
 	<string key="ui_retest">Reintentar</string>
 	<string key="ui_details">Detalles</string>
@@ -1770,7 +1692,7 @@
 	<string key="ui_arena_time_remaining">Tiempo restante para ingresar a la arena</string>
 	<string key="ui_arena_occupied">Ya hay un grupo luchando en la arena.</string>
 	<string key="ui_arena_description">Reúne a un grupo cerca de la entrada para entrar en la arena.&lt;font color="#ffffff"&gt; Solo puede haber un grupo a la vez en la arena.&lt;/font&gt;\n\nNo puedes renacer en la arena. Si te derriban, entrarás en el estado Inmovilizado.</string>
-	<string key="ui_arena_objective">Este será tu enemigo: {monstername}. Trata de derrotarlo en menos de &lt;font color="#ffffff"&gt;15 minutos.&lt;/font&gt;</string>
+	<string key="ui_arena_objective">Desafía y derrota a {monstername} en &lt;font color="#ffffff"&gt;15 minutos.&lt;/font&gt;</string>
 	<string key="ui_arena_item_reward">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt; {itemname}&lt;/font&gt;</string>
 	<string key="AwardAngryEarthEvent_MasterName">Depósito de equipo de las criaturas terrestres enojadas</string>
 	<string key="ui_arena_rewardtype_currency">&lt;img src="lyshineui/images/icons/objectives/reward_coin" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Monedas&lt;/font&gt;</string>
@@ -1778,12 +1700,12 @@
 	<string key="ui_arena_group_proximity">El miembro del grupo está demasiado alejado</string>
 	<string key="ui_arena_group_dead">El miembro del grupo está muerto</string>
 	<string key="ui_arena_activating">Activación en progreso</string>
-	<string key="spriggan_name">Arboleda de Zygoramet</string>
+	<string key="spriggan_name">Zygoramet</string>
 	<string key="ui_exit_dungeon_title">¿Quieres salir de la expedición?</string>
 	<string key="ui_dungeon_exit">Portal de salida de la expedición</string>
 	<string key="ui_exit_dungeon_desc">Te teletransportarás al exterior de la expedición.\nPodrás volver a entrar hasta que se cierre.</string>
 	<string key="ui_exit_dungeon_will_close_desc">Te teletransportarás al exterior de la expedición.\nSi todos los miembros del grupo salen de la expedición, se cerrará.\n</string>
-	<string key="ui_exit_dungeon_incombat">No puedes abandonar una expedición mientras estás en combate. \nPodrás abandonar dentro de &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt;</string>
+	<string key="ui_exit_dungeon_incombat">No puedes abandonar una expedición si hace poco estuviste en combate. \nPodrás abandonar dentro de &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt;</string>
 	<string key="ui_enable_newDamageNumbers">Números de daño flotantes</string>
 	<string key="ui_enable_newDamageNumbers_description">Cuando estén desactivados, los números de daño se fijarán en la barra de salud del enemigo</string>
 	<string key="ui_accept_duel_invites">Aceptar las invitaciones a batirse en duelo</string>
@@ -1793,7 +1715,7 @@
 	<string key="ui_chat_compact_view">Vista compacta</string>
 	<string key="ui_chat_enable_alerts">Habilitar alertas</string>
 	<string key="ui_chat_enable_alerts_options">Activar alertas del chat</string>
-	<string key="ui_chat_enable_alerts_tooltip">Permite que las alertas se muestren en menús que, de otra manera, ocultarían el chat. Controla cuáles son los canales que pueden mostrar alertas en el selector de canales a la izquierda.</string>
+	<string key="ui_chat_enable_alerts_tooltip">Permite que las alertas se muestren en menús que, de otra manera, ocultarían el chat. Controla qué canales pueden mostrar alertas en el selector de canales a la izquierda.</string>
 	<string key="ui_chat_enable_close_after_send">Cerrar después de enviar</string>
 	<string key="ui_chat_enable_close_after_send_options">Cerrar el chat después de enviar</string>
 	<string key="ui_chat_enable_close_after_send_tooltip">Al seleccionar esta opción, el chat se cerrará cuando envíes un mensaje, y volverás a la tarea que estabas realizando. Al no seleccionar esta opción, el chat permanecerá abierto para que puedas enviar mensajes adicionales con mayor rapidez.</string>
@@ -1820,8 +1742,10 @@
 	<string key="ui_server_utc_1">Europa central</string>
 	<string key="ui_server_utc_dst_1">Hora de verano de Europa central</string>
 	<string key="ui_server_utc_10">Hora estándar del este de Australia</string>
+	<string key="ui_server_utc_dst_10">AEDT</string>
 	<string key="ui_date_format" comment="{dayOfWeek} is abbreviated day text ('Mon', 'Tues'). {month} will be abbreviated month text ('Jan', 'Feb', etc.). {date} is the number of day of the month. The English format might be 'Mon, Oct 29'">{dayOfWeek} {date}, {month}</string>
 	<string key="ui_long_date_format" comment="Similar to ui_date_format but with full day and month names">{dayOfWeek} {date}, {month}</string>
+	<string key="ui_numeric_date_format" comment="Similar to ui_date_format but using numbers for month day and year (10/13/21)">{day}/{month}/{year}</string>
 	<string key="ui_date_time_format">{date}, {time}</string>
 	<string key="ui_timezone_format">({timezone})</string>
 	<string key="ui_time_interval_format">{startTime} - {endTime}</string>
@@ -1849,7 +1773,7 @@
 	<string key="ui_ability2">Habilidad de arma 2</string>
 	<string key="ui_ability3">Habilidad de arma 3</string>
 	<string key="ui_pending_afk_disconnect">¿Todavía sigues jugando?</string>
-	<string key="ui_pending_afk_disconnect_description">Has sido detectado como inactivo y serás expulsado automáticamente del juego. Si todavía estás jugando, presiona cualquier tecla.</string>
+	<string key="ui_pending_afk_disconnect_description">Has sido detectado como inactivo y serás expulsado automáticamente del juego. Si todavía estás jugando, mueve tu personaje.</string>
 	<string key="ui_structure_name_too_long">Nombre de estructura muy largo. Inténtalo de nuevo.</string>
 	<string key="ui_structure_name_invalid_characters">El nombre de la estructura contiene caracteres no válidos. Inténtalo de nuevo.</string>
 	<string key="ui_structure_name_profanity">El nombre de la estructura contiene lenguaje inadecuado. Inténtalo de nuevo.</string>
@@ -1923,6 +1847,11 @@
 	<string key="ui_camping_reward_tier_3">Clase 3</string>
 	<string key="ui_camping_reward_tier_4">Clase 4</string>
 	<string key="ui_camping_reward_tier_5">Clase 5</string>
+	<string key="ui_camping_tooltip_tier_1">Campamento (nivel 1)\n\nSi armas un campamento de nivel 1, podrás fabricar varios objetos de nivel 1, curar a tu personaje y renacer en el campamento.\n\nPara mejorar el campamento a nivel 2, debes ser de nivel 15 y haber completado la misión "Sobreviviente: Amigos de moda".</string>
+	<string key="ui_camping_tooltip_tier_2">Campamento (nivel 2)\n\nSi armas un campamento de nivel 2, podrás fabricar varios objetos de nivel 2, curar a tu personaje y renacer en el campamento.\n\nPara mejorar el campamento a nivel 3, debes ser de nivel 25 y haber completado la misión "Instintos animales".</string>
+	<string key="ui_camping_tooltip_tier_3">Campamento (nivel 3)\n\nSi armas un campamento de nivel 3, podrás fabricar varios objetos de nivel 3, curar a tu personaje y renacer en el campamento.\n\nPara mejorar el campamento a nivel 4, debes ser de nivel 40 y haber completado la misión "Sobreviviente: Observaciones lupinas".</string>
+	<string key="ui_camping_tooltip_tier_4">Campamento (nivel 4)\n\nSi armas un campamento de nivel 4, podrás fabricar varios objetos de nivel 4, curar a tu personaje y renacer en el campamento.\n\nPara mejorar el campamento a nivel 5, debes ser de nivel 55 y haber completado la misión "Sobreviviente: Luces que se desvanecen".</string>
+	<string key="ui_camping_tooltip_tier_5">Campamento (nivel 5)\n\nSi armas un campamento de nivel 5, podrás fabricar varios objetos de nivel 5, curar a tu personaje y renacer en el campamento.</string>
 	<string key="ui_all_level_milestones">Todas las recompensas por subir de nivel</string>
 	<string key="ui_unlock_token_slot">Ranura para pendientes</string>
 	<string key="ui_unlock_ring_slot">Ranura para anillos</string>
@@ -1999,6 +1928,10 @@
 	<string key="ui_icemagic_mastery">Dominio de manopla de hielo</string>
 	<string key="ui_icemagic_tree1">Tempestad de hielo</string>
 	<string key="ui_icemagic_tree2">Constructor</string>
+	<string key="ui_voidmagic" rel_version="Weapon_Void_Gauntlet">Manopla de vacío</string>
+	<string key="ui_voidmagic_mastery" rel_version="Weapon_Void_Gauntlet">Dominio de manopla de vacío</string>
+	<string key="ui_voidmagic_tree1" rel_version="Weapon_Void_Gauntlet">Aniquilación</string>
+	<string key="ui_voidmagic_tree2" rel_version="Weapon_Void_Gauntlet">Decadencia</string>
 	<string key="ui_hatchet">Hachuela</string>
 	<string key="ui_hatchet_mastery">Dominio de la hachuela</string>
 	<string key="ui_spear_mastery">Dominio de la lanza</string>
@@ -2039,6 +1972,7 @@
 	<string key="ui_weapon_mastery_respec_warning">¿Confirmas que quieres reasignar esta arma?\n\n Costo: {azoth}&lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_weapon_mastery_insufficient_azoth">No tienes suficiente azoth.</string>
 	<string key="ui_you_have_unlocked">Has desbloqueado</string>
+	<string key="ui_you_have_earned">Obtuviste</string>
 	<string key="ui_now_craft">Ahora puedes fabricar</string>
 	<string key="ui_now_track">Ahora puedes rastrear</string>
 	<string key="ui_now_track_banner">{resourceName} ahora se puede rastrear</string>
@@ -2113,7 +2047,7 @@
 	<string key="ui_governing_propertytax">La compañía gobernante puede recaudar impuestos inmobiliarios por las viviendas del asentamiento.</string>
 	<string key="ui_nameplate_slider">Cantidad de placas de identificación del jugador</string>
 	<string key="ui_nameplate_slider_desc">Aumenta o reduce la cantidad de placas de identificación que se muestran en pantalla. ADVERTENCIA: Una gran cantidad de placas de identificación puede afectar gravemente la velocidad de fotogramas.</string>
-	<string key="ui_stat_bonus_tooltip">+ {amount} &lt;/font&gt;{attribute}</string>
+	<string key="ui_stat_bonus_tooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt; + {amount}&lt;/font&gt; {attribute}</string>
 	<string key="ui_stat_bonus">+ {amount} {attribute}</string>
 	<string key="ui_maker_status_effects_single">{effect1}</string>
 	<string key="ui_maker_status_effects_double">{effect1} · {effect2}</string>
@@ -2160,6 +2094,7 @@
 	<string key="ui_fishing_hook_line_broke">¡Fallaste! ¡Se rompió el sedal!</string>
 	<string key="ui_fishing_hook_fish_swam_away">¡Fallaste! ¡El pez se escapó nadando!</string>
 	<string key="ui_fishing_cast_missed_water">¡El lanzamiento no llegó al agua!</string>
+	<string key="ui_fishing_tension" comment="The fishing line is in tension.">Tensión</string>
 	<string key="ui_change_faction_azoth">&lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; {amount}</string>
 	<string key="ui_change_faction_azoth_required">Requiere &lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; {amount}</string>
 	<string key="ui_faction_cant_pvp">No puedes cambiar de facción si tienes el modo JcJ activado</string>
@@ -2168,19 +2103,19 @@
 	<string key="ui_faction_cant_war">No puedes cambiar de facción si te has registrado para una guerra o estás en una guerra o invasión.</string>
 	<string key="ui_faction_cant_territory">No puedes unirte a la facción que actualmente controla la mayor parte de los territorios.</string>
 	<string key="ui_faction_cant_cooldown">No puedes cambiar de facción si estás usando el tiempo de reutilización.\n{cooldown}</string>
-	<string key="ui_change_faction_warning">Una vez que cambies de facción, no podrás volver a cambiarla por 120 días. Al cambiar de facción, se restablece el rango de facción y los tokens.</string>
+	<string key="ui_change_faction_warning">Una vez que cambies de facción, no podrás volver a cambiarla por 60 días. Al cambiar de facción, se restablece el rango de facción y los tokens.</string>
 	<string key="ui_change_faction">Cambiar de facción</string>
 	<string key="ui_change_faction_cooldown">Cambiar de facción\n{cooldown}</string>
 	<string key="ui_change_faction_azoth_cost">Cambiar de facción {azothcost}</string>
-	<string key="ui_change_faction_desc">¿Confirmas que quieres cambiar a la facción {factionname}?\nAl cambiar de facción, se restablecerá tu rango de facción y tus tokens.\n\nUna vez que cambies de facción, no podrás volver a cambiarla por 120 días.</string>
+	<string key="ui_change_faction_desc">¿Confirmas que quieres cambiar a la facción {factionname}?\nAl cambiar de facción, se restablecerá tu rango de facción y tus tokens.\n\nUna vez que cambies de facción, no podrás volver a cambiarla por 60 días.</string>
 	<string key="ui_current_faction">Tu facción actual: {factionname}</string>
 	<string key="ui_dropconfirm_title">Confirmación para soltar</string>
 	<string key="ui_dropconfirm_msg">¿Quieres soltar estos objetos y dejarlos en el suelo?</string>
 	<string key="reward_new_recipe">Receta nueva: {name}</string>
 	<string key="tradeskill_required_level">Nv. {skillLevel}</string>
 	<string key="ui_add_summoning_stone">Agregar piedra de invocación</string>
-	<string key="Siren_Name">Capitel de Melpomene</string>
-	<string key="Protector_Name">Estanque eterno</string>
+	<string key="Siren_Name">la reina sirena</string>
+	<string key="Protector_Name">Avaricia</string>
 	<string key="ui_gather_faction_mismatch">No puedes recolectar esto porque no eres de la facción indicada ({factionName}).</string>
 	<string key="ui_gather_faction_upkeep_unpaid">No puedes recolectar esto porque la facción ({factionName}) no ha pagado el mantenimiento del territorio.</string>
 	<string key="ui_gather_no_faction">El territorio debe estar controlado por una facción.</string>
@@ -2304,6 +2239,7 @@
 	<string key="ui_Enable_Viewport_Scale">Escala de resolución dinámica</string>
 	<string key="ui_Enable_Viewport_Scale_desc">Cuando activado, automáticamente ajusta internamente la resolución para mantener el rendimiento de fotogramas.</string>
 	<string key="ui_gathering_disabled">La recolección está deshabilitada en este momento</string>
+	<string key="ui_linktochat_disabled">Actualmente, el enlace al chat está desactivado.</string>
 	<string key="ui_autopinObjectivesMain">Fijar automáticamente las misiones de la historia principal</string>
 	<string key="ui_autopinobjectivesMain_desc">Fija automáticamente las misiones de la historia principal en el HUD cuando las aceptas.</string>
 	<string key="ui_autopinObjectivesSide">Fijar automáticamente las misiones secundarias</string>
@@ -2313,12 +2249,14 @@
 	<string key="ui_autopinObjectivesComm">Fijar automáticamente el proyecto de pueblo</string>
 	<string key="ui_autopinobjectivesComm_desc">Fija automáticamente los proyectos de pueblo en el HUD cuando los aceptas.</string>
 	<string key="ui_autopinObjectivesCrafting">Fijar automáticamente las recetas</string>
-	<string key="ui_autopinobjectivesCrafting_desc">Fija automáticamente las recetas en el HUD cuando las aceptas.</string>
+	<string key="ui_autopinobjectivesCrafting_desc">Fija automáticamente las recetas en el HUD cuando se fija una receta en la estación de fabricación.</string>
 	<string key="ui_auto_pin_toggle_on">Activar la fijación automática</string>
 	<string key="ui_auto_pin_toggle_off">Desactivar la fijación automática</string>
 	<string key="ui_auto_pin_toggle_label">Fijación automática</string>
 	<string key="ui_number_range">{lowNumber} - {highNumber}</string>
-	<string key="ui_recommended_level_range">Nivel recomendado: {highNumber}</string>
-	<string key="ui_cannot_chat_global_blocked">Can't chat in this channel until your account is older than {hoursNeeded} hours</string>
+	<string key="ui_recommended_level_range">Nivel recomendado: {lowNumber} - {highNumber}</string>
+	<string key="ui_cannot_trade_currency_blocked">No puedes intercambiar moneda hasta que alcances el nivel {level} y tu cuenta tenga más de {hoursNeeded} horas de antigüedad</string>
+	<string key="ui_cannot_chat_global_blocked">No puedes chatear en este canal hasta que tu cuenta tenga más de {hoursNeeded} horas de antigüedad</string>
+	<string key="ui_complete_quests_to_unlock">Completa misiones en el asentamiento para desbloquear</string>
 </resources>
 

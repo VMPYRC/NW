@@ -52,10 +52,11 @@
 	<string key="ui_cannotinviteinraid" comment="">Während eines Krieges kannst du niemanden einladen.</string>
 	<string key="ui_cannotinvitein_pvp_wrong_faction" comment="">Muss für eine PvP-Gruppe der gleichen Fraktion angehören.</string>
 	<string key="ui_cannotleavegroup_in_arena" comment="">Du kannst deine Gruppe nicht verlassen, während du in einer Arena bist.</string>
+	<string key="ui_cannotleavegroup_in_war" comment="">Du kannst deine Gruppe nicht verlassen, während du dich im Krieg befindest.</string>
 	<string key="ui_cannotleavegroup_in_dungeon" comment="">Du kannst deine Gruppe nicht verlassen, während du auf einer Expedition bist.</string>
 	<string key="ui_cannotjoingroup_in_arena" comment="">Du kannst keiner anderen Gruppe beitreten, während du in einer Arena bist.</string>
 	<string key="ui_cannotjoingroup_in_dungeon" comment="">Du kannst keiner anderen Gruppe beitreten, während du auf einer Expedition bist.</string>
-	<string key="ui_pvp_group" comment="">PvP-\nGruppe</string>
+	<string key="ui_pvp_group" comment="">PvP-Gruppe</string>
 	<string key="ui_groupedalreadyerrormessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; ist bereits in einer Gruppe.</string>
 	<string key="ui_groupalreadyinvitederrortitle" comment="">Einladung bereits verschickt</string>
 	<string key="ui_groupalreadyinvitederrormessage" comment="">Du hast &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; bereits eingeladen.</string>
@@ -73,6 +74,7 @@
 	<string key="ui_fromplayerjoinedgrouperrormessage" comment="">Einladung abgebrochen: {playerName} hat sich einer anderen Gruppe angeschlossen.</string>
 	<string key="ui_toplayerjoinedgrouperrormessage" comment="">Einladung fehlgeschlagen: {playerName} hat sich einer anderen Gruppe angeschlossen.</string>
 	<string key="ui_grouptoplayerisinftueerrormessage" comment="">{playerName} kann zurzeit keine Einladungen verschicken.</string>
+	<string key="ui_grouptoplayerisinstreamermodeerrormessage" comment="">{playerName} ist im Bitte-nicht-stören-Modus.</string>
 	<string key="ui_groupinvitetimedouterrormessage" comment="">Die Gruppeneinladung von {playerName} ist abgelaufen.</string>
 	<string key="ui_groupinvitetimedoutraid" comment="">Gruppeneinladung verfallen.</string>
 	<string key="ui_invitetogroup" comment="">In Gruppe einladen</string>
@@ -149,8 +151,8 @@
 	<string key="ui_ping_type_notification_NeedHelp" comment="">Armeenachricht: Hilfe erforderlich</string>
 	<string key="ui_ping_type_notification_NeedHealing" comment="">Armeenachricht: Heilung erforderlich</string>
 	<string key="ui_pingTypeDistance" comment="">{pingType} {distance}</string>
-	<string key="ui_raid_war_header" comment="">Armee für den Krieg.</string>
-	<string key="ui_raid_invasion_header" comment="">Armee für die Invasion.</string>
+	<string key="ui_raid_war_header" comment="">Armee für den Krieg</string>
+	<string key="ui_raid_invasion_header" comment="">Armee für die Invasion</string>
 	<string key="ui_raid_standby_header" comment="">Bereitschaftsliste</string>
 	<string key="ui_raid_armygroups" comment="">Armeegruppen</string>
 	<string key="ui_raid_backfill" comment="">Reserve</string>

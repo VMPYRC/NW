@@ -1,4 +1,26 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="IngotT2_Down_Name">Declassa l'acciaio in ferro</string>
+	<string key="IngotT3_Down_Name">Declassa il metallo stellare in acciaio</string>
+	<string key="IngotT4_Down_Name">Declassa l'oricalco in metallo stellare</string>
+	<string key="IngotPreciousT1_Down_Name">Declassa l'oro in argento</string>
+	<string key="IngotPreciousT2_Down_Name">Declassa il platino in oro</string>
+	<string key="IngotPreciousT3_Down_Name">Declassa l'oricalco in platino</string>
+	<string key="LeatherT2_Down_Name">Declassa il cuoio robusto in cuoio grezzo</string>
+	<string key="LeatherT3_Down_Name">Declassa il cuoio multistrato in cuoio robusto</string>
+	<string key="LeatherT4_Down_Name">Declassa il cuoio impregnato in cuoio multistrato</string>
+	<string key="ClothT2_Down_Name">Declassa il raso in lino</string>
+	<string key="ClothT3_Down_Name">Declassa la seta in raso</string>
+	<string key="ClothT4_Down_Name">Declassa la seta impregnata in seta</string>
+	<string key="TimberT2_Down_Name">Declassa il legname in tavole di legno</string>
+	<string key="TimberT3_Down_Name">Declassa il legno di Wyrd in legname</string>
+	<string key="TimberT4_Down_Name">Declassa il legnoferro in legno di Wyrd</string>
+	<string key="BlockT2_Down_Name">Declassa il mattone di pietra in blocco di pietra</string>
+	<string key="BlockT3_Down_Name">Declassa il mattone di magnetite in mattone di pietra</string>
+	<string key="BlockT4_Down_Name">Declassa la pietra del Vuoto di ossidiana in mattone di magnetite</string>
+	<string key="Procedural_GauntletVoidT2" rel_version="Weapon_Void_Gauntlet">Guanto di ferro del Vuoto</string>
+	<string key="Procedural_GauntletVoidT3" rel_version="Weapon_Void_Gauntlet">Guanto d'acciaio del Vuoto</string>
+	<string key="Procedural_GauntletVoidT4" rel_version="Weapon_Void_Gauntlet">Guanto di metallo stellare del Vuoto</string>
+	<string key="Procedural_GauntletVoidT5" rel_version="Weapon_Void_Gauntlet">Guanto del Vuoto di oricalco</string>
 	<string key="Procedural_LightHead_DressT2">Berretto di lino</string>
 	<string key="Procedural_LightHead_DressT3">Cappello di raso</string>
 	<string key="Procedural_LightHead_DressT4">Fascinator di seta</string>
@@ -36,8 +58,8 @@
 	<string key="LightFeet_ShadewalkerT5">Scarpe da Calcaombra</string>
 	<string key="Procedural_GauntletIceT2">Guanto di ghiaccio di ferro</string>
 	<string key="Procedural_GauntletIceT3">Guanto di ghiaccio di acciaio</string>
-	<string key="Procedural_GauntletIceT4">Guanti di ghiaccio di metallo stellare</string>
-	<string key="Procedural_GauntletIceT5">Guanti di ghiaccio di oricalco</string>
+	<string key="Procedural_GauntletIceT4">Guanto di ghiaccio di metallo stellare</string>
+	<string key="Procedural_GauntletIceT5">Guanto di ghiaccio di oricalco</string>
 	<string key="PotionFamilyWardLostT3">Pozione di protezione dai Perduti potente</string>
 	<string key="PotionFamilyWardLostT4">Pozione di protezione dai Perduti formidabile</string>
 	<string key="PotionFamilyWardLostT5">Pozione di protezione dai Perduti impregnata</string>
@@ -249,10 +271,10 @@
 	<string key="Procedural_2hGreatAxeT3">Ascia grande di acciaio</string>
 	<string key="Procedural_2hGreatAxeT4">Ascia grande di metallo stellare</string>
 	<string key="Procedural_2hGreatAxeT5">Ascia grande di oricalco</string>
-	<string key="Procedural_SpearT2">Lancia di ferro</string>
-	<string key="Procedural_SpearT3">Lancia di acciaio</string>
-	<string key="Procedural_SpearT4">Lancia di metallo stellare</string>
-	<string key="Procedural_SpearT5">Lancia di oricalco</string>
+	<string key="Procedural_SpearT2">Lancia di legno lavorato</string>
+	<string key="Procedural_SpearT3">Lancia di legno laccato</string>
+	<string key="Procedural_SpearT4">Lancia di legno di Wyrd</string>
+	<string key="Procedural_SpearT5">Lancia di legnoferro</string>
 	<string key="Procedural_HatchetT2">Accetta di ferro</string>
 	<string key="Procedural_HatchetT3">Accetta di acciaio</string>
 	<string key="Procedural_HatchetT4">Accetta di metallo stellare</string>
@@ -399,10 +421,10 @@
 	<string key="Procedural_RobeFeetT3">Scarpe per veste di raso</string>
 	<string key="Procedural_RobeFeetT4">Scarpe per veste di seta</string>
 	<string key="Procedural_RobeFeetT5">Scarpe per veste di seta impregnata</string>
-	<string key="Procedural_BagAT2">Borsa di cuoio grezzo</string>
-	<string key="Procedural_BagAT3">Borsa di cuoio robusto</string>
-	<string key="Procedural_BagAT4">Borsa di cuoio multistrato</string>
-	<string key="Procedural_BagAT5">Borsa di cuoio impregnato</string>
+	<string key="Procedural_BagAT2">Tracolla da avventuriero di cuoio grezzo</string>
+	<string key="Procedural_BagAT3">Tracolla da avventuriero di cuoio robusto</string>
+	<string key="Procedural_BagAT4">Tracolla da avventuriero di cuoio multistrato</string>
+	<string key="Procedural_BagAT5">Tracolla da avventuriero di cuoio impregnato</string>
 	<string key="Procedural_StaffFireT2">Bastone infuocato di ferro</string>
 	<string key="Procedural_StaffFireT3">Bastone infuocato di acciaio</string>
 	<string key="Procedural_StaffFireT4">Bastone infuocato di metallo stellare</string>
@@ -783,16 +805,6 @@
 	<string key="2hGreatAxeT3_CraftName">Ascia grande\ndi acciaio</string>
 	<string key="2hGreatAxeT4_CraftName">Ascia grande\ndi metallo stellare</string>
 	<string key="2hGreatAxeT5_CraftName">Ascia grande\ndi oricalco</string>
-	<string key="1hClubT1_CraftName">Clava\ndi legno</string>
-	<string key="1hClubT2_CraftName">Mazza\ndi ferro</string>
-	<string key="1hClubT3_CraftName">Mazza\ndi acciaio</string>
-	<string key="1hClubT4_CraftName">Mazza\ndi metallo stellare</string>
-	<string key="1hClubT5_CraftName">Mazza\ndi oricalco</string>
-	<string key="2hClubT1_CraftName">Grossa clava\ndi selce</string>
-	<string key="2hClubT2_CraftName">Grosso martello\ndi ferro</string>
-	<string key="2hClubT3_CraftName">Grosso martello\ndi acciaio</string>
-	<string key="2hClubT4_CraftName">Grosso martello\ndi metallo stellare</string>
-	<string key="2hClubT5_CraftName">Grosso martello\ndi oricalco</string>
 	<string key="2hSpearT1_CraftName">Lancia\ndi selce</string>
 	<string key="2hSpearT2_CraftName">Lancia\ndi ferro</string>
 	<string key="2hSpearBT2_CraftName">Lancia\ndi ferro\nforgiata a freddo</string>
@@ -1370,10 +1382,6 @@
 	<string key="CombatDummyT1_CraftName">Fantoccio da allenamento</string>
 	<string key="WindMillT2_CraftName">Mulino per cereali L2</string>
 	<string key="FeedT1_CraftName">Foraggio</string>
-	<string key="1hCelestialGauntlet_HealT2_CraftName">Guanto\ncelestiale\ndi ferro</string>
-	<string key="1hCelestialGauntlet_HealT3_CraftName">Guanto\ncelestiale\ndi acciaio</string>
-	<string key="1hCelestialGauntlet_HealT4_CraftName">Guanto\ncelestiale\ndi metallo stellare</string>
-	<string key="1hCelestialGauntlet_HealT5_CraftName">Guanto\ncelestiale\ndi oricalco</string>
 	<string key="FoodHealthRecoveryT1_CraftName">Razione\nleggera</string>
 	<string key="FoodCorruptedT1_CraftName">Carne\ncotta</string>
 	<string key="FoodLostT1_CraftName">Pesce\ncotto</string>
