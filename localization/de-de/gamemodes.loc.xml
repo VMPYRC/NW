@@ -81,7 +81,7 @@
 	<string key="ui_duel_resolution_interference_message">Das Duell wurde unterbrochen.</string>
 	<string key="ui_outpost_rush_title">Außenpostensturm</string>
 	<string key="ui_outpost_rush_invite_status">Akzeptiere, um dem Kampf beizutreten!</string>
-	<string key="ui_outpost_rush_signup_title">AUẞENPOSTENSTURM</string>
+	<string key="ui_outpost_rush_signup_title">AUSSENPOSTENSTURM</string>
 	<string key="ui_outpost_rush_signup_desc">Der &lt;font color="#ffe940"&gt;Außenpostensturm&lt;/font&gt; ist ein Spiel, in dem Spieler in 2 Teams à 20 Spieler auf einer großen Insel mit drei Außenposten gegeneinander antreten.\nSpieler müssen die Außenposten erobern und solange wie möglich halten, um so viele Punkte wie möglich für ihr Team zu erringen.</string>
 	<string key="ui_outpost_rush_signup_goal1">Werden Außenposten erobert und gehalten, erhält dein Team Punkte.</string>
 	<string key="ui_outpost_rush_signup_goal2">Es gewinnt das Team, das zuerst 1.000 Punkte erreicht.</string>
@@ -125,7 +125,7 @@
 	<string key="ui_outpost_rush_boss_killed">PUNKTE EINGEFROREN</string>
 	<string key="ui_outpost_rush_ally_buff">Der Punktestand des gegnerischen Teams wurden für &lt;font color="#ffea00"&gt;3 Minuten&lt;/font&gt; eingefroren.</string>
 	<string key="ui_outpost_rush_enemy_buff">Der Punktestand deines Teams wurden für &lt;font color="#ffea00"&gt;3 Minuten&lt;/font&gt; eingefroren.</string>
-	<string key="ui_outpost_rush_armory_built">Waffenkammer in {value} wurde fertiggestellt.</string>
+	<string key="ui_outpost_rush_armory_built">Rüstungsschmiede in {value} wurde fertiggestellt.</string>
 	<string key="ui_outpost_rush_command_post_built">Kommandoposten in {value} wurde fertiggestellt.</string>
 	<string key="ui_outpost_rush_command_post_upgrade">Kommandoposten in {value} wurde auf Rang {tier} aufgewertet.</string>
 	<string key="ui_outpost_rush_outpost_captured">{value} erobert</string>
@@ -155,7 +155,7 @@
 	<string key="ui_outpost_rush_tutorial_title4">Töte den Boss</string>
 	<string key="ui_outpost_rush_tutorial_desc1">Erobere Außenposten und besiege Gegner, um Punkte zu sammeln. Es gewinnt das Team, das zuerst 1.000 Punkte erreicht.</string>
 	<string key="ui_outpost_rush_tutorial_desc2">Sammle behandeltes Holz, Erz und Tierhäute und baue damit Tore und Belagerungswaffen, um deinen Außenposten aufzuwerten. Baue einen Kommandoposten, um mächtige Offensiv- und Defensivboni für dein Team zu erhalten.</string>
-	<string key="ui_outpost_rush_tutorial_desc3">Nutze Beschwörungssteine, um in Beschwörungszirkeln mächtige Verbündete zu herbeizurufen. Beschwöre einen Bären, indem du einen Stein in der Waffenkammer kaufst, oder erhalte einen ultrastarken Wüstling, indem du dem verderbten Portal etwas Azoth opferst.</string>
+	<string key="ui_outpost_rush_tutorial_desc3">Nutze Beschwörungssteine, um in Beschwörungszirkeln mächtige Verbündete zu herbeizurufen. Beschwöre einen Bären, indem du einen Stein in der Rüstungsschmiede kaufst, oder erhalte einen ultrastarken Wüstling, indem du dem verderbten Portal etwas Azoth opferst.</string>
 	<string key="ui_outpost_rush_tutorial_desc4">Baronin Hain ist ein Geist einer vor langer Zeit verstorbenen Adligen, die auf der Insel ihr Unwesen treibt. Besiege sie, um einen mächtigen Bonus zu erhalten, der die Verteidigung deines Teams verstärkt und den Punktestand der Gegner einfriert.</string>
 	<string key="ui_outpost_rush_tutorial_level_requirement">Die &lt;font color="#ffe294"&gt;Spielerstufe {level}&lt;/font&gt; ist erforderlich für die Teilnahme am Außenpostensturm.</string>
 	<string key="ui_outpost_rush_locked">Gesperrt</string>
@@ -198,20 +198,20 @@
 	<string key="or_tutorial_outpost_commandpost_body">Sammle behandeltes Holz und Erz und interagiere dann mit dem Kommandoposten, um ihn zu bauen oder aufzuwerten.</string>
 	<string key="or_tutorial_outpost_contribute_title">DU BRAUCHST MEHR BEHANDELTE ROHSTOFFE</string>
 	<string key="or_tutorial_outpost_contribute_body">Sammle behandeltes Holz, Erz und Tierhäute von mit Azoth durchdrungenen Bäumen, Felsen und Wölfen, die du auf der ganzen Karte findest, um das Gebäude zu bauen.</string>
-	<string key="or_tutorial_armory_purpose_title">HOLE DIR AUSRÜSTUNG AUS DER WAFFENKAMMER</string>
-	<string key="or_tutorial_armory_purpose_body">Interagiere mit der Waffenkammer, um dein Azoth gegen verschiedene nützliche Gegenstände einzutauschen.</string>
+	<string key="or_tutorial_armory_purpose_title">HOLE DIR AUSRÜSTUNG AUS DER RÜSTUNGSSCHMIEDE</string>
+	<string key="or_tutorial_armory_purpose_body">Interagiere mit der Rüstungsschmiede, um dein Azoth gegen verschiedene nützliche Gegenstände einzutauschen.</string>
 	<string key="or_tutorial_armory_aboutessence_title">BESCHAFFE AZOTH-ESSENZ, INDEM DU MONSTER TÖTEST</string>
-	<string key="or_tutorial_armory_aboutessence_body">Sammle Azoth-Essenz und interagiere dann mit der Waffenkammer, um sie auszugeben.</string>
+	<string key="or_tutorial_armory_aboutessence_body">Sammle Azoth-Essenz und interagiere dann mit der Rüstungsschmiede, um sie auszugeben.</string>
 	<string key="or_tutorial_armory_spendessence_title">DU HAST EINE MENGE AZOTH-ESSENZ</string>
-	<string key="or_tutorial_armory_spendessence_body">Gehe zu einem vom Gegner kontrollierten Außenposten und rüste dich in der Waffenkammer aus.</string>
+	<string key="or_tutorial_armory_spendessence_body">Gehe zu einem von deinem Team kontrollierten Außenposten und rüste dich in der Rüstungsschmiede aus.</string>
 	<string key="or_tutorial_summoning_howto_title">DU HAST EINEN BESCHWÖRUNGSSTEIN</string>
 	<string key="or_tutorial_summoning_howto_body">Interagiere mit dem Obelisken im Beschwörungszirkel, um einen mächtigen Verbündeten zu rufen.</string>
 	<string key="or_tutorial_summoning_reminder_title">VERWENDE DEINEN BESCHWÖRUNGSSTEIN</string>
 	<string key="or_tutorial_summoning_reminder_body">Gehe zu einem ungenutzten Beschwörungszirkel, um einen mächtigen Verbündeten zu rufen.</string>
 	<string key="or_tutorial_summoning_findstone_title">DU BRAUCHST EINEN BESCHWÖRUNGSSTEIN</string>
-	<string key="or_tutorial_summoning_findstone_body">Kaufe einen in der Waffenkammer, besiege Ug oder Dug in den Minen oder opfere 500 Azoth-Essenz im verderbten Portal.</string>
+	<string key="or_tutorial_summoning_findstone_body">Kaufe einen in der Rüstungsschmiede, besiege Ug oder Dug in den Minen oder opfere 500 Azoth-Essenz im verderbten Portal.</string>
 	<string key="or_tutorial_summoning_nostone_title">BESORGE EINEN BESCHWÖRUNGSSTEIN UND VERSUCHE ES ERNEUT</string>
-	<string key="or_tutorial_summoning_nostone_body">Kaufe einen in der Waffenkammer, besiege Ug oder Dug in den Minen oder opfere 500 Azoth-Essenz im verderbten Portal.</string>
+	<string key="or_tutorial_summoning_nostone_body">Kaufe einen in der Rüstungsschmiede, besiege Ug oder Dug in den Minen oder opfere 500 Azoth-Essenz im verderbten Portal.</string>
 	<string key="or_tutorial_summoning_creature_title">DER BESCHWÖRUNGSZIRKEL KANN NOCH NICHT WIEDER VERWENDET WERDEN</string>
 	<string key="or_tutorial_summoning_creature_body">Probiere einen anderen Zirkel aus oder warte, bis dieser wieder nutzbar ist.</string>
 	<string key="emote_unable_to_use_emote">In dem Spielmodus kannst du keine Emotes einsetzen.</string>

@@ -175,6 +175,8 @@
 	<string key="ui_p2ptrading_overflow_title">Ekwipunek pełny</string>
 	<string key="ui_p2ptrading_overflow_message">Niektóre z otrzymanych przedmiotów nie zmieściły się w ekwipunku i zostały upuszczone na ziemię.</string>
 	<string key="ui_p2ptrading_inventory_full_warning">Twój ekwipunek jest pełny lub prawie pełny.\nMożesz nie być w stanie przyjąć przedmiotów.</string>
+	<string key="ui_failmessage_economylocked">Twoje konto zostało ograniczone. Nie możesz obecnie handlować.</string>
+	<string key="ui_failmessage_othereconomylocked">Ten gracz nie może obecnie otrzymywać przedmiotów lub monet.</string>
 	<string key="ui_invite_to_group">Zaproś do grupy</string>
 	<string key="ui_invite_to_guild">Zaproś do kompanii</string>
 	<string key="ui_acceptfriendinvite">Przyjmij zaproszenie</string>
@@ -211,7 +213,8 @@
 	<string key="ui_reply">Odpowiedz</string>
 	<string key="ui_report_header">Zgłoś: {playerName}</string>
 	<string key="ui_report_player_type">Napisz, w jaki sposób gracz naruszył zasady (wymagane)</string>
-	<string key="ui_reportreason_abusive_chat">Napastliwe wypowiedzi</string>
+	<string key="ui_reportreason_abusive_chat">Napastliwe wypowiedzi tekstowe</string>
+	<string key="ui_reportreason_abusive_voice_chat">Napastliwe wypowiedzi głosowe</string>
 	<string key="ui_reportreason_cheating">Oszustwa</string>
 	<string key="ui_reportreason_griefing">Nękanie</string>
 	<string key="ui_reportreason_offensive_name">Imię gracza</string>
@@ -219,6 +222,7 @@
 	<string key="ui_reportreason_coinselling">Sprzedawanie monet</string>
 	<string key="ui_reportreason_botbehavior">Używanie botów</string>
 	<string key="ui_reportreason_abusive_chat_description">Mowa nienawiści, obelgi lub znęcanie się nad innym graczem/innymi graczami.</string>
+	<string key="ui_reportreason_abusive_voice_chat_description">Mowa nienawiści, obelgi lub znęcanie się nad innym graczem/innymi graczami.</string>
 	<string key="ui_reportreason_cheating_description">Wykorzystywanie błędów lub luk w celu osiągnięcia korzyści.</string>
 	<string key="ui_reportreason_griefing_description">Dręczenie innych, utrudnianie im gry lub niestosowne zachowanie.</string>
 	<string key="ui_reportreason_offensive_name_description">Niestosowna lub obraźliwa nazwa.</string>
@@ -228,6 +232,8 @@
 	<string key="ui_reportreason_select">Wybierz powód...</string>
 	<string key="ui_reportreason_offensive_guild_name">Nazwa kompanii</string>
 	<string key="ui_reportreason_offensive_guild_description">Niestosowna lub obraźliwa nazwa kompanii.</string>
+	<string key="ui_reportreason_offensive_guild_description_no_guild">Ten gracz nie należy do kompanii.</string>
+	<string key="ui_reportreason_offensive_guild_description_error">Nie znaleziono kompanii.</string>
 	<string key="ui_report_thanks">Dziękujemy za przesłanie zgłoszenia</string>
 	<string key="ui_missing_reason_and_description">Podaj powód i opis</string>
 	<string key="ui_missing_reason">Wybierz powód</string>
@@ -248,12 +254,12 @@
 	<string key="ui_twitch_validation_failed_message">Nie udało się zweryfikować twojego konta na Twitchu. Funkcje Twitcha nie będą działać. Spróbuj ponownie.</string>
 	<string key="ui_spotlight_viewer">1 widz</string>
 	<string key="ui_spotlight_viewers">{viewers} widzów</string>
-	<string key="ui_spotlight_failed">&lt;font color="#835acd"&gt;W centrum uwagi:&lt;/font&gt; &lt;font color="#f25d5d"&gt; Nieudany&lt;/font&gt;</string>
-	<string key="ui_spotlight_notconnected">&lt;font color="#835acd"&gt;W centrum uwagi:&lt;/font&gt; &lt;font color="#f25d5d"&gt; Brak połączenia&lt;/font&gt;</string>
-	<string key="ui_spotlight_connecting">&lt;font color="#835acd"&gt;W centrum uwagi:&lt;/font&gt; &lt;font color="#ffffff"&gt; Rozpoczynanie&lt;/font&gt;</string>
+	<string key="ui_spotlight_failed">&lt;font color="#835acd"&gt;Wyróżnianie:&lt;/font&gt; &lt;font color="#f25d5d"&gt; niepowodzenie&lt;/font&gt;</string>
+	<string key="ui_spotlight_notconnected">&lt;font color="#835acd"&gt;Wyróżnianie:&lt;/font&gt; &lt;font color="#f25d5d"&gt; brak połączenia&lt;/font&gt;</string>
+	<string key="ui_spotlight_connecting">&lt;font color="#835acd"&gt;Wyróżnianie:&lt;/font&gt; &lt;font color="#ffffff"&gt; rozpoczynanie&lt;/font&gt;</string>
 	<string key="ui_spotlight_failed_notification_title">Błąd połączenia</string>
 	<string key="ui_spotlight_failed_notification_message">Nie można uaktywnić wyróżniania streamera na Twitchu. Sprawdź, czy twój stream działa, i spróbuj ponownie.</string>
-	<string key="ui_spotlight_error">&lt;font color="#835acd"&gt;W centrum uwagi:&lt;/font&gt; &lt;font color="#f25d5d"&gt; Błąd&lt;/font&gt;</string>
+	<string key="ui_spotlight_error">&lt;font color="#835acd"&gt;Wyróżnianie:&lt;/font&gt; &lt;font color="#f25d5d"&gt; błąd&lt;/font&gt;</string>
 	<string key="ui_subarmy_title">Armia subskrybentów Twitch</string>
 	<string key="ui_subarmy_join_desc">Dołącz do sesji dla armii subskrybentów innych streamerów.</string>
 	<string key="ui_subarmy_subtitle_sessions">Dostępne sesje: {number}</string>
@@ -284,6 +290,7 @@
 	<string key="ui_subarmy_join_requests">PROŚBY O DOŁĄCZENIE</string>
 	<string key="ui_subarmy_time_remaining">POZOSTAŁY CZAS</string>
 	<string key="ui_subarmy_continue_to_selection">Przejdź do wyboru</string>
+	<string key="ui_subarmy_invite_header">Wybierz graczy, których chcesz zaprosić</string>
 	<string key="ui_subarmy_invite_to_group_enabled">&lt;img src="LyShineUI/Images/icons/twitch/twitch_iconAddGroup" scale="1.5" yOffset="5.5"&gt;&lt;/img&gt; Zaproś do grupy</string>
 	<string key="ui_subarmy_invite_to_company_enabled">&lt;img src="LyShineUI/Images/icons/twitch/twitch_iconAddGuild" scale="1.5" yOffset="6.5"&gt;&lt;/img&gt; Zaproś do kompanii</string>
 	<string key="ui_subarmy_invite_to_group">&lt;img src="LyShineUI/Images/socialpane/social_iconAddGroup" scale="1.5" yOffset="5.5"&gt;&lt;/img&gt; Zaproś do grupy</string>
@@ -299,6 +306,9 @@
 	<string key="ui_subarmy_joined_company">Dołącza do twojej kompanii</string>
 	<string key="ui_subarmy_joined_group">Dołącza do twojej grupy</string>
 	<string key="ui_subarmy_joined_company_and_group">Dołącza do twojej kompanii i grupy</string>
+	<string key="ui_subarmy_button_disabled_no_selection">Nie wybrano gracza.</string>
+	<string key="ui_subarmy_button_disabled_different_faction_group">Ten gracz musi należeć do tej samej frakcji, co ty, by mógł dołączyć do twojej grupy PvP.</string>
+	<string key="ui_subarmy_button_disabled_different_faction_guild">Ten gracz musi należeć do tej samej frakcji, co ty, by mógł dołączyć do twojej kompanii.</string>
 	<string key="ui_waypoint_set_to_ping">Punkt nawigacyjny przypisany do komendy</string>
 	<string key="ui_chat_name_raid">Armia</string>
 	<string key="ui_chat_name_raid_upper">ARMIA</string>

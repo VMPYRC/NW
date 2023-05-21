@@ -364,11 +364,11 @@
 	<string key="FactionMission_EXPEDITIONLOOT_title">Rapine : {POITags}</string>
 	<string key="FactionMission_EXPEDITIONLOOT_desc">Allez à : {POITags} pour le compte des Maraudeurs et récupérez : &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;. \n\n&lt;font color="#eaeaea"&gt;(Expédition)&lt;/font&gt;</string>
 	<string key="FactionMission_INTERCEPT_title">Domination (JcJ)</string>
-	<string key="FactionMission_INTERCEPT_desc">Éliminez des membres de l'&lt;font color="#eaeaea"&gt;Ombre&lt;/font&gt; ou des &lt;font color="#eaeaea"&gt;Engagés&lt;/font&gt; pour la gloire des Maraudeurs.</string>
+	<string key="FactionMission_INTERCEPT_desc">Éliminez des membres de l'&lt;font color="#eaeaea"&gt;Ombre&lt;/font&gt; ou des &lt;font color="#eaeaea"&gt;Engagés&lt;/font&gt; pour la gloire des Maraudeurs.\n\n(Votre progression est conservée dans cette mission, même si vous mourez.)</string>
 	<string key="FactionMission_S_INTERCEPT_title">Éradication (JcJ)</string>
-	<string key="FactionMission_S_INTERCEPT_desc">Éliminez des membres des &lt;font color="#eaeaea"&gt;Maraudeurs&lt;/font&gt; ou des &lt;font color="#eaeaea"&gt;Engagés&lt;/font&gt; pour démontrer notre supériorité.</string>
+	<string key="FactionMission_S_INTERCEPT_desc">Éliminez des membres des &lt;font color="#eaeaea"&gt;Maraudeurs&lt;/font&gt; ou des &lt;font color="#eaeaea"&gt;Engagés&lt;/font&gt; pour démontrer notre supériorité.\n\n(Votre progression est conservée dans cette mission, même si vous mourez.)</string>
 	<string key="FactionMission_C_INTERCEPT_title">Triomphe (JcJ)</string>
-	<string key="FactionMission_C_INTERCEPT_desc">Éliminez des membres de l'&lt;font color="#eaeaea"&gt;Ombre&lt;/font&gt; ou des &lt;font color="#eaeaea"&gt;Maraudeurs&lt;/font&gt; pour purifier leurs âmes.</string>
+	<string key="FactionMission_C_INTERCEPT_desc">Éliminez des membres de l'&lt;font color="#eaeaea"&gt;Ombre&lt;/font&gt; ou des &lt;font color="#eaeaea"&gt;Maraudeurs&lt;/font&gt; pour purifier leurs âmes.\n\n(Votre progression est conservée dans cette mission, même si vous mourez.)</string>
 	<string key="FactionMission_S_EXPEDITIONRAID_title">Purger : {POITags}</string>
 	<string key="FactionMission_S_EXPEDITIONRAID_desc">Allez à : {POITags} pour le compte de l'Ombre et venez à bout du moindre &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; qui y rôde. \n\n &lt;font color="#eaeaea"&gt;(Expédition)&lt;/font&gt;</string>
 	<string key="FactionMission_S_EXPEDITIONLOOT_title">Approvisionnement : {POITags}</string>
@@ -487,5 +487,20 @@
 	<string key="FactionMission_ASSASSINATE_ELITE_NIGHT_desc">Les Maraudeurs ont besoin d'éliminer cette cible : &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nProuvez votre valeur en la pourchassant puis en l'éliminant à : {POITags}.\n&lt;font color="#eaeaea"&gt;(Élite - Ennemi nocturne)&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_NIGHT_desc">L'Ombre a identifié une cible à éliminer : &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nPourchassez-la puis éliminez-la à : {POITags}.\n&lt;font color="#eaeaea"&gt;(Élite - Ennemi nocturne)&lt;/font&gt;</string>
 	<string key="FactionMission_C_ASSASSINATE_ELITE_NIGHT_desc">Les Engagés ont identifié une menace spécifique à éliminer : &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nProuvez votre dévotion en la pourchassant et en l'éliminant à : {POITags}.\n &lt;font color="#eaeaea"&gt;(Élite - Ennemi nocturne)&lt;/font&gt;</string>
+	<string key="CMissionAcquireStoneworker" rel_version="Event_WinterConvergence_Temp">Depuis un poste de tailleur de pierre, obtenir et apporter : &lt;font color="#eaeaea"&gt;{itemName} x {itemAmount}&lt;/font&gt;.</string>
+	<string key="CMissionAcquireWoodWorker" rel_version="Event_WinterConvergence_Temp">Depuis un poste de menuiserie, obtenir et apporter : &lt;font color="#eaeaea"&gt;{itemName} x {itemAmount}&lt;/font&gt;.</string>
+	<string key="CMissionAcquireOutfitter" rel_version="Event_WinterConvergence_Temp">Depuis un poste d'équipement, obtenir et apporter : &lt;font color="#eaeaea"&gt;{itemName} x {itemAmount}&lt;/font&gt;.</string>
+	<string key="CMissionAcquireEngineer" rel_version="Event_WinterConvergence_Temp">Depuis un atelier, obtenir et apporter &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt;</string>
+	<string key="CMissionAcquireBlock_Name_WC" rel_version="Event_WinterConvergence_Temp">Tailleurs de pierre festifs requis</string>
+	<string key="CMissionAcquireTimber_Name_WC" rel_version="Event_WinterConvergence_Temp">Charpentiers festifs requis</string>
+	<string key="CMissionAcquireCloth_Name_WC" rel_version="Event_WinterConvergence_Temp">Tisseurs festifs requis</string>
+	<string key="CMissionAcquireMetal_Name_WC" rel_version="Event_WinterConvergence_Temp">Forgerons festifs requis</string>
+	<string key="CMissionAcquireFibers_Name_WC" rel_version="Event_WinterConvergence_Temp">Cueilleurs festifs requis</string>
+	<string key="CMissionAcquireFood_Name_WC" rel_version="Event_WinterConvergence_Temp">Cuisiniers festifs requis</string>
+	<string key="CMissionAcquirePotions_Name_WC" rel_version="Event_WinterConvergence_Temp">Alchimistes festifs requis</string>
+	<string key="CMissionAcquireGeneric_Name_WC" rel_version="Event_WinterConvergence_Temp">Matériel festif requis</string>
+	<string key="CMissionAcquireWood_Name_WC" rel_version="Event_WinterConvergence_Temp">Bûcherons festifs requis</string>
+	<string key="CMissionAcquireRawhide_Name_WC" rel_version="Event_WinterConvergence_Temp">Chasseurs festifs requis</string>
+	<string key="CMissionAcquireLeather_Name_WC" rel_version="Event_WinterConvergence_Temp">Tanneurs festifs requis</string>
 </resources>
 

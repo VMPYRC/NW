@@ -9,7 +9,7 @@
 	<string key="cc_mwheel_up">Mausrad hoch</string>
 	<string key="cc_mwheel_down">Mausrad runter</string>
 	<string key="cc_tab">Tab</string>
-	<string key="cc_lshift">LUMSCH</string>
+	<string key="cc_lshift">Shift links</string>
 	<string key="cc_rshift">Shift rechts</string>
 	<string key="cc_equals">=</string>
 	<string key="cc_lctrl">LSTRG</string>
@@ -114,10 +114,6 @@
 	<string key="ui_affliction_drowning_tooltip">Wenn dir der Atem ausgeht, erstickst du.</string>
 	<string key="ui_affliction_blight">Fäulnisresistenz</string>
 	<string key="ui_affliction_blight_tooltip">Wenn du keine Fäulnisresistenz mehr hast, wirst du zum Verfaulten, fügst {[Type_StatusEffectData.Blight.DMGStandard * 100]} % weniger Schaden zu, heilst um {[Type_StatusEffectData.Blight.HealMod * 100]} % weniger und verlierst alle {[Type_StatusEffectData.Blight.TickRate]} Sekunden {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]} % von deinem Gesundheitsgrundwert für {[Afflictions.AfflictionBlight.AfflictedDrainTime]} Sekunden insgesamt.</string>
-	<string key="ui_affliction_mutcurse3">Fluch-Timer</string>
-	<string key="ui_affliction_mutcurse3_tooltip">Brennbar-Timer</string>
-	<string key="ui_affliction_mutcurse4">Rückstoßresistenz</string>
-	<string key="ui_affliction_mutcurse4_tooltip">Sinkt die Resistenz auf null, wird eine Stille-Zone auf dich gewirkt. Die Zone detoniert nach einer Weile und fügt Spielern und Kreaturen Schaden zu. Resistenz wird zwischen allen Mitgliedern der Gruppe geteilt.</string>
 	<string key="ui_afflicted_bleeding">verwundet</string>
 	<string key="ui_afflicted_bleeding_tooltip">Wenn du verwundet bist, erholt sich deine Ausdauer deutlich langsamer.</string>
 	<string key="ui_afflicted_burn">brennend</string>
@@ -138,10 +134,6 @@
 	<string key="ui_afflicted_drowning_tooltip">Du bist ertrunken.</string>
 	<string key="ui_afflicted_blight">verfaulter</string>
 	<string key="ui_afflicted_blight_tooltip">Wenn du zum Verfaulten wirst, fügst du {[Type_StatusEffectData.Blight.DMGStandard * 100]} % weniger Schaden zu, heilst um {[Type_StatusEffectData.Blight.HealMod * 100]} % weniger und verlierst alle {[Type_StatusEffectData.Blight.TickRate]} Sekunden {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]} % von deinem Gesundheitsgrundwert.</string>
-	<string key="ui_afflicted_mutcurse3">Brennbar</string>
-	<string key="ui_afflicted_mutcurse3_tooltip">Wenn dieser Timer abläuft, wirken die beiden Spieler mit der geringsten Gesundheit einen Elementarkettenzauber auf Verbündete in der Nähe.</string>
-	<string key="ui_afflicted_mutcurse4">Verflucht</string>
-	<string key="ui_afflicted_mutcurse4_tooltip">Nach Ablauf des Timers wird die Stille-Zone detonieren.</string>
 	<string key="ui_agreement">Indem du fortfährst, stimmst du Folgendem zu:</string>
 	<string key="ui_ahhhhh">AHHHHH!!!</string>
 	<string key="ui_aimsensitivity">Zielempfindlichkeit</string>
@@ -201,7 +193,7 @@
 	<string key="ui_changekey">Taste ändern</string>
 	<string key="ui_changeweapon">Waffe wechseln</string>
 	<string key="ui_create_character_title_main_menu">Erstelle einen Charakter.</string>
-	<string key="ui_create_character_message_main_menu">Klicke auf „Spielen“, um einen Charakter in dieser Welt zu erstellen.</string>
+	<string key="ui_create_character_message_main_menu">Klicke auf "Spielen", um einen Charakter in dieser Welt zu erstellen.</string>
 	<string key="ui_character_main_menu">Charakter.</string>
 	<string key="ui_world_main_menu">Welt.</string>
 	<string key="ui_charactername">Charaktername</string>
@@ -380,9 +372,9 @@
 	<string key="ui_exitnewworld">Zurück zum Hauptmenü</string>
 	<string key="ui_quittodesktop">Spiel verlassen</string>
 	<string key="ui_expatriate">Verbannen</string>
-	<string key="ui_expertise">Kompetenz</string>
-	<string key="ui_expertise_tooltip_warning">Du kannst keine weiteren Kompetenzstufen aufsteigen, bis du das neue Stufenlimit der Fähigkeit erreicht hast.</string>
-	<string key="ui_expertise_tooltip_explanation">Wenn du die höchste Stufe erreicht hast, kannst du weiterhin Erfahrung sammeln und weitere Kompetenzstufen aufsteigen.</string>
+	<string key="ui_expertise">Begabung</string>
+	<string key="ui_expertise_tooltip_warning">Du kannst keine weiteren Begabungsstufen aufsteigen, bis du das neue Stufenlimit der Handwerksfähigkeit erreicht hast.</string>
+	<string key="ui_expertise_tooltip_explanation">Wenn du die höchste Stufe erreicht hast, kannst du weiterhin Erfahrung sammeln und Begabungsstufen aufsteigen.</string>
 	<string key="ui_expertise_tooltip_reward">Bei jedem markierten Punkt erhältst du eine Belohnungskiste. Kisten, die im späteren Stufenfortschritt erhalten werden, bieten größere Belohnungen.</string>
 	<string key="ui_explorer">Entdecker</string>
 	<string key="ui_f">F</string>
@@ -441,6 +433,8 @@
 	<string key="ui_inventoryslotsremaining">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{count}&lt;/font&gt; Inventarplätze übrig.</string>
 	<string key="ui_inventoryweightremaining">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{Weight}&lt;/font&gt; Pfund verbleibend.</string>
 	<string key="ui_inventoryMaxWeight">Maximales Tragegewicht erreicht.</string>
+	<string key="ui_inventoryweight">GEWICHT</string>
+	<string key="ui_inventoryslots">EINZIGARTIGE GEGENSTÄNDE</string>
 	<string key="ui_filtereditems">{filtered} Gegenstände durch Filter verborgen.</string>
 	<string key="ui_inventory_tooltip">Drücke zum Öffnen und Schließe deines Inventars [{keyName}]. Die Radialanzeige gibt an, wie viel deiner Belastungsgrenze verwendet wurde.</string>
 	<string key="ui_equipped">Ausrüstung</string>
@@ -462,6 +456,8 @@
 	<string key="ui_level_unspent_points_tradeskill">{tradeskillPointsText}</string>
 	<string key="ui_level_unspent_points_both">{attributePointsText} {tradeskillPointsText}</string>
 	<string key="ui_level">Stufe</string>
+	<string key="ui_expertise_level" rel_version="Feature_PostCapTradeSkills">Begabungsstufe</string>
+	<string key="ui_expertise_reward" rel_version="Feature_PostCapTradeSkills">Begabungsbelohnung erhalten</string>
 	<string key="ui_light">Licht</string>
 	<string key="ui_lmb">LMT</string>
 	<string key="ui_lmbrmb">LMT/RMT</string>
@@ -618,7 +614,7 @@
 	<string key="ui_buildmode_grid">Baumodusgitter</string>
 	<string key="ui_wave">Winken</string>
 	<string key="ui_inspect_player">Soziale Interaktionen</string>
-	<string key="ui_inspect_player_notarget">Drücke [{keyName}], wenn du Spieler anschaust, um das Menü „Soziale Interaktionen“ aufzurufen.</string>
+	<string key="ui_inspect_player_notarget">Drücke [{keyName}], wenn du Spieler anschaust, um das Menü "Soziale Interaktionen" aufzurufen.</string>
 	<string key="ui_q">Q</string>
 	<string key="ui_quality">Qualität</string>
 	<string key="ui_quickslot">Schnellleiste 1-6</string>
@@ -817,6 +813,7 @@
 	<string key="ui_ghost_structure_count_exceeded_warning">Bauplanlimit erreicht (%d/%d)</string>
 	<string key="ui_ghost_structure_count_warning">Bauplanlimit %d/%d</string>
 	<string key="ui_escape_build_mode">Drücke ESC, um den Baumodus zu verlassen.</string>
+	<string key="ui_escape_cinematic_skip">ESC zum Überspringen</string>
 	<string key="ui_feedback_format">RÜCKMELDUNG GEBEN</string>
 	<string key="ui_feedback_general">Allgemein</string>
 	<string key="ui_in_game_survey_header">Gefällt dir New World?</string>
@@ -914,7 +911,7 @@
 	<string key="ui_escapemenu_exit_to_desktop">Spiel verlassen</string>
 	<string key="ui_escapemenu_game">Spiel</string>
 	<string key="ui_escapemenu_shop">Shop</string>
-	<string key="ui_escapemenu_help">„New World“-Hilfeseite</string>
+	<string key="ui_escapemenu_help">"New World"-Hilfeseite</string>
 	<string key="ui_escapemenu_support">Hilfe</string>
 	<string key="ui_escapemenu_leave_game">Spiel verlassen</string>
 	<string key="ui_navmenu_support">Hilfe</string>
@@ -954,7 +951,7 @@
 	<string key="ui_whisper_to_someone">{playerName} AN {recipient}</string>
 	<string key="ui_focus">Konzentration</string>
 	<string key="ui_points_to_level">{points} bis St. {level}</string>
-	<string key="ui_points_to_expertise">{points} bis zum Kompetenzrang {level}</string>
+	<string key="ui_points_to_expertise">{points} bis zum Begabungsrang {level}</string>
 	<string key="ui_spirit">Glaube</string>
 	<string key="ui_vitality">Körperbau</string>
 	<string key="ui_strength">Stärke</string>
@@ -1020,8 +1017,8 @@
 	<string key="ui_constitution_tooltip">Primärattribut für die Gesamtgesundheit.</string>
 	<string key="ui_strength_tooltip">Primärattribut für Kriegshammer, Streitaxt, Schwert und Beil.\n\nSekundärattribut für Speer.</string>
 	<string key="ui_dexterity_tooltip">Primärattribut für Bogen, Rapier, Speer und Muskete.\n\nSekundärattribut für Schwert und Beil.</string>
-	<string key="ui_intelligence_tooltip">Primärattribut für Feuerstab und Eisstulpen.\n\nSekundärattribut für Rapier und Muskete.</string>
-	<string key="ui_focus_tooltip">Primärattribut für Lebensstab.</string>
+	<string key="ui_intelligence_tooltip">Primärattribut für Feuerstab, Eisstulpen und Unheilsstulpen.\n\nSekundärattribut für Rapier und Muskete.</string>
+	<string key="ui_focus_tooltip">Primärattribut für Lebensstab.\n\nSekundärattribut für Unheilsstulpen.</string>
 	<string key="ui_spirit_tooltip">GLAUBE\n\nIn Glaube investierte Punkte erhöhen:\n\n-- Gesamtwert an Mana\n-- Verteidigung gegen Unheilsschaden\n-- Verderbnisresistenz\n\n-- Zauberstärke der Himmlischen Zauberstulpen\n</string>
 	<string key="ui_vitality_tooltip">KÖRPERBAU\n\nIn Körperbau investierte Punkte erhöhen:\n\n-- Verteidigung gegen physischen Schaden\n-- Giftresistenz\n-- Maximales Ausrüstungsgewicht\n</string>
 	<string key="ui_endurance_tooltip">ZÄHIGKEIT\n\nIn Zähigkeit investierte Punkte erhöhen: \n\n-- Ausdauer \n-- Verteidigung gegen Blitzschaden \n-- Verwundungsresistenz \n</string>
@@ -1857,6 +1854,9 @@
 	<string key="ui_camping_tooltip_tier_3">Zeltlager (Rang 3)\n\nDie Errichtung eines Rang-3-Zeltlagers ermöglicht dir die Herstellung verschiedener Rang-3-Gegenstände, die Heilung deines Charakters und das Respawnen im Zeltlager.\n\nUm dein Zeltlager auf Rang 4 aufrüsten zu können, musst du Stufe 40 erreicht und die Aufgabe "Überlebenskünstler: Wolfsbeobachtungen" abgeschlossen haben.</string>
 	<string key="ui_camping_tooltip_tier_4">Zeltlager (Rang 4)\n\nDie Errichtung eines Rang-4-Zeltlagers ermöglicht dir die Herstellung verschiedener Rang-4-Gegenstände, die Heilung deines Charakters und das Respawnen im Zeltlager.\n\nUm dein Zeltlager auf Rang 5 aufrüsten zu können, musst du Stufe 55 erreicht und die Aufgabe "Überlebenskünstler: Verblassendes Licht" erreicht haben.</string>
 	<string key="ui_camping_tooltip_tier_5">Zeltlager (Rang 5)\n\nDie Errichtung eines Rang-5-Zeltlagers ermöglicht dir die Herstellung verschiedener Rang-5-Gegenstände, die Heilung deines Charakters und das Respawnen im Zeltlager.</string>
+	<string key="ui_campskins" rel_version="Feature_Camp_Skins">Zeltlager-Skins</string>
+	<string key="ui_campskin" rel_version="Feature_Camp_Skins">Zeltlager-Skin</string>
+	<string key="ui_campskin_applied_hint" rel_version="Feature_Camp_Skins">Skin wird auf dein nächstes Zeltlager angewendet.</string>
 	<string key="ui_all_level_milestones">Alle Stufenbelohnungen</string>
 	<string key="ui_unlock_token_slot">Ohrringplatz</string>
 	<string key="ui_unlock_ring_slot">Ring-Slot</string>
@@ -1882,6 +1882,7 @@
 	<string key="ui_from_strength_and_dexterity">Stärke und Geschick</string>
 	<string key="ui_from_dexterity_and_strength">Geschick und Stärke</string>
 	<string key="ui_from_dexterity_and_intelligence">Geschick und Intelligenz</string>
+	<string key="ui_from_strength_and_intelligence">Stärke und Intelligenz</string>
 	<string key="ui_from_intelligence">Intelligenz</string>
 	<string key="ui_from_focus">Konzentration</string>
 	<string key="ui_from_intelligence_and_focus">Intelligenz und Konzentration</string>
@@ -2003,14 +2004,14 @@
 	<string key="ui_yes_colored">&lt;font color="#30e5ab"&gt;Ja.&lt;/font&gt;</string>
 	<string key="ui_no_colored">&lt;font color="#ff7171"&gt;Nein.&lt;/font&gt;</string>
 	<string key="ui_mergewarning_short">&lt;font color="#e2a438"&gt;Weltenzusammenführung in {timeRemaining}&lt;/font&gt;</string>
-	<string key="ui_mergewarning_long">Die Bevölkerung dieser Welt wird mit {worldName} zusammengeführt. Datum: {time}.</string>
+	<string key="ui_mergewarning_long">Die Charakterliste dieser Welt wird mit {worldName} zusammengeführt werden. Datum: {time}.</string>
 	<string key="ui_world_message">Weltnachricht</string>
 	<string key="ui_mergefaq_question_1">Behalte ich meinen Charakterfortschritt, mein Inventar und mein Haus?</string>
 	<string key="ui_mergefaq_question_2">Behält meine Kompanie ihre beanspruchten Gebiete?</string>
 	<string key="ui_mergefaq_question_3">Behalte ich meine Kompanie?</string>
 	<string key="ui_mergefaq_question_4">Kann meine Kompanie weiterhin einen Krieg gegen andere Kompanien erklären?</string>
 	<string key="ui_mergefaq_answer_1">Du behältst deine Charakterstufe, Attributspunkte, Meisterschaftspunkte, deinen Gebietsruf, dein Haus, dein Inventar und deinen Siedlungsspeicher.</string>
-	<string key="ui_mergefaq_answer_2">Gebiete in der neuen Welt werden von den Kompanien dieser Welt beansprucht. Ist deine Kompanie nicht von dieser Welt, verlierst du sämtliche Gebiete und Verbesserungen und deine Kompanie erhält 50.000 Taler.</string>
+	<string key="ui_mergefaq_answer_2">Gebiete in der neuen Welt werden von den Kompanien dieser Welt beansprucht. Ist deine Kompanie nicht von der Ziel-Welt, verlierst du sämtliche Gebiete und Verbesserungen und deine Kompanie erhält 50.000 Taler.</string>
 	<string key="ui_mergefaq_answer_3">Die Spieler werden bei einer Weltenzusammenführung nicht voneinander getrennt und die Kompaniemitgliedschaft sowie die Geldbörse bleiben erhalten.</string>
 	<string key="ui_mergefaq_answer_4">Spieler werden 72 Stunden vor einer Weltenzusammenführung darüber benachrichtigt. Während dieser Zeit können Kompanien keinen Krieg erklären. Ausstehende Kriege werden abgebrochen und das für die Kriegserklärung ausgegebene Gold wird vollständig erstattet.</string>
 	<string key="ui_mergewarning_title">BALDIGE WELTENZUSAMMENFÜHRUNG</string>
@@ -2023,7 +2024,7 @@
 	<string key="ui_mergecomplete_question_3">Habe ich meine Kompanie behalten?</string>
 	<string key="ui_mergecomplete_question_4">Sind meine Kauf-/Verkaufsaufträge noch ausgeschrieben?</string>
 	<string key="ui_mergecomplete_answer_1">Du hast deine Charakterstufe, Attributspunkte, Meisterschaftspunkte, deinen Gebietsruf, dein Haus, dein Inventar und deinen Siedlungsspeicher behalten.</string>
-	<string key="ui_mergecomplete_answer_2">Gebiete in der neuen Welt werden von den Kompanien dieser Welt beansprucht. Ist deine Kompanie nicht von dieser Welt, verlierst du sämtliche Gebiete und Verbesserungen und deine Kompanie erhält 50.000 Taler.</string>
+	<string key="ui_mergecomplete_answer_2">Gebiete in der neuen Welt werden von den Kompanien dieser Welt beansprucht. Ist deine Kompanie nicht von der Ziel-Welt, verlierst du sämtliche Gebiete und Verbesserungen und deine Kompanie erhält 50.000 Taler.</string>
 	<string key="ui_mergecomplete_answer_3">Die Spieler werden bei einer Zusammenführung nicht voneinander getrennt und die Kompaniemitgliedschaft sowie die Geldbörse sind weiter vorhanden. 3 Tage vor der Zusammenführung können keine Kriege mehr erklärt werden.</string>
 	<string key="ui_mergecomplete_answer_4">Du erhältst deine zum Verkauf angebotenen Gegenstände zurück und behältst das Geld für Teilverkäufe. Gezahlte Taler für Steuern oder Angebotsgebühren werden nicht erstattet.</string>
 	<string key="ui_merge_region">Region</string>
@@ -2100,6 +2101,9 @@
 	<string key="ui_fishing_hook_fish_swam_away">Schade – der Fisch ist weggeschwommen!</string>
 	<string key="ui_fishing_cast_missed_water">Wasser verfehlt!</string>
 	<string key="ui_fishing_tension" comment="The fishing line is in tension.">Spannung</string>
+	<string key="ui_fishing_divert_level_green">Fischbestand: Normal</string>
+	<string key="ui_fishing_divert_level_yellow">Fischbestand: Schwindend!</string>
+	<string key="ui_fishing_divert_level_red">Fischbestand: Kritisch!</string>
 	<string key="ui_change_faction_azoth">&lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; {amount}</string>
 	<string key="ui_change_faction_azoth_required">Erfordert &lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; {amount}</string>
 	<string key="ui_faction_cant_pvp">Während du dich für PvP angemeldet hast, ist kein Fraktionswechsel möglich.</string>
@@ -2247,11 +2251,17 @@
 	<string key="ui_linktochat_disabled">Im Chat verlinken derzeit deaktiviert</string>
 	<string key="ui_autopinObjectivesMain">Haupthandlungsaufgaben automatisch anheften</string>
 	<string key="ui_autopinobjectivesMain_desc">Haupthandlungsaufgaben werden beim Annehmen automatisch an den HUD angeheftet</string>
+	<string key="ui_autopinObjectivesSkillProgression">Fähigkeitsfortschritt-Aufgaben autom. anheften</string>
+	<string key="ui_autopinobjectivesSkillProgression_desc">Fähigkeitsfortschritt-Aufgaben werden beim Annehmen automatisch am HUD angeheftet.</string>
+	<string key="ui_autopinObjectivesEpicEquipment">Aufgaben für Epische Waffen/Rüstung autom. anheften</string>
+	<string key="ui_autopinobjectivesEpicEquipment_desc">Aufgaben für Epische Waffen/Rüstung werden beim Annehmen automatisch am HUD angeheftet.</string>
 	<string key="ui_autopinObjectivesSide">Nebenaufgaben automatisch anheften</string>
 	<string key="ui_autopinobjectivesSide_desc">Nebenaufgaben werden beim Annehmen automatisch an den HUD angeheftet</string>
 	<string key="ui_autopinObjectivesFaction">Fraktionsmissionen automatisch anheften</string>
 	<string key="ui_autopinobjectivesFaction_desc">Fraktionsmissionen werden beim Annehmen automatisch an den HUD angeheftet</string>
-	<string key="ui_autopinObjectivesComm">Stadtprojekt automatisch anheften</string>
+	<string key="ui_autopinobjectivesEvent">Eventaufgaben autom. anheften</string>
+	<string key="ui_autopinobjectivesEvent_desc">Eventaufgaben werden beim Annehmen automatisch am HUD angeheftet.</string>
+	<string key="ui_autopinObjectivesComm">Stadtprojekte autom. anheften</string>
 	<string key="ui_autopinobjectivesComm_desc">Stadtprojekte werden beim Annehmen automatisch an den HUD angeheftet</string>
 	<string key="ui_autopinObjectivesCrafting">Pläne automatisch anheften</string>
 	<string key="ui_autopinobjectivesCrafting_desc">Pläne werden automatisch an den HUD geheftet, wenn ein Plan an einer Herstellungsstation angeheftet wurde.</string>
@@ -2263,5 +2273,9 @@
 	<string key="ui_cannot_trade_currency_blocked">Handel mit Währung erst ab Stufe {level} mit einem mindestens {hoursNeeded} Stunden alten Konto möglich</string>
 	<string key="ui_cannot_chat_global_blocked">Chat in diesem Kanal ist nur mit einem mindestens {hoursNeeded} Stunden alten Konto möglich</string>
 	<string key="ui_complete_quests_to_unlock">Schließe zum Freischalten Aufgaben in der Siedlung ab</string>
+	<string key="ui_averageexpertise">Durchschnittliche\nKompetenz</string>
+	<string key="ui_averageexpertisetooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;Kompetenz&lt;/font&gt;\nKompetenz ist ein Maßstab dafür, welche Qualität von dir erbeutete Gegenstände haben können. Beute von Kreaturen und aus Gebieten mit Stufe 60+ kann diesen Wert zusätzlich steigern. Wenn deine Kompetenzstufe steigt, musst du gegen mächtigere Kreaturen in schwierigeren Gebieten kämpfen, um eine zusätzliche Wertsteigerung zu erreichen.</string>
+	<string key="ui_itemtypedescription_shield_only">Schild</string>
+	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_expertise_small" scale="1" yOffset="3.5"&gt;&lt;/img&gt;{value}</string>
 </resources>
 

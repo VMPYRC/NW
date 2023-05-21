@@ -62,7 +62,7 @@
 	<string key="inv_equipLoadOverburdened">Nadmiar ekwipunku</string>
 	<string key="inv_equipLoadTooltip">Łączna waga noszonego pancerza i tarczy określa ciężar twojego wyposażenia. W zależności od ciężaru wyposażenia różnią się uniki i inne premie.</string>
 	<string key="inv_equipLoadFastTooltip">Nosząc lekki pancerz, możesz wykonać szybki przewrót o sporym zasięgu. Masz premię 20% do zadawanych obrażeń i {[Type_StatusEffectData.EquipLoad_HealingBonus_Light.HealScalingValueMultiplier * 100]}% do leczenia.</string>
-	<string key="inv_equipLoadNormalTooltip">Nosząc pancerz o średnim ciężarze, możesz wykonać szybki odskok. Masz premię 10% do zadawanych obrażeń i 15% do leczenia. Czas trwania negatywnych efektów obezwładniających, które nakładasz, zostaje wydłużony o 10%.</string>
+	<string key="inv_equipLoadNormalTooltip">Nosząc pancerz o średnim ciężarze, możesz wykonać szybki odskok. Masz premię 10% do zadawanych obrażeń i {[Type_StatusEffectData.EquipLoad_HealingBonus_Medium.HealScalingValueMultiplier * 100]}% do leczenia. Czas trwania negatywnych efektów obezwładniających, które nakładasz, zostaje wydłużony o 10%.</string>
 	<string key="inv_equipLoadSlowTooltip">Nosząc ciężki pancerz, możesz wykonać powolny zwód. Zwiększa twoją stabilność blokowania o 15%. Czas trwania negatywnych efektów obezwładniających, które nakładasz, zostaje wydłużony o 20%.</string>
 	<string key="inv_equipLoadOverburdenedTooltip">Po przekroczeniu maksymalnego ciężaru wyposażenia nie możesz wykonywać uników, poruszać się sprintem i używać umiejętności. Odłóż część przedmiotów.</string>
 	<string key="inv_equipLoadEncumberedTooltip">Masz za dużo przedmiotów w ekwipunku. W przypadku przeciążenia ciężar wyposażenia nie ma znaczenia. Nie możesz biegać sprintem ani wykonywać uników, a blokowanie zużywa więcej wytrzymałości. Usuń część przedmiotów ze swojego plecaka.</string>
@@ -125,8 +125,8 @@
 	<string key="ui_currency_totreasury">Do skarbca kompanii</string>
 	<string key="ui_new_primary_tool_set">Nowy główny zestaw narzędzi ({gatheringType})</string>
 	<string key="ui_storage_is_full">Magazyn jest pełny.</string>
-	<string key="ui_storage_is_empty">Magazyn jest pusty.</string>
-	<string key="ui_retrieving_storage">Pobieranie danych magazynu.</string>
+	<string key="ui_storage_is_empty">Magazyn jest pusty</string>
+	<string key="ui_retrieving_storage">Pobieranie danych magazynu</string>
 	<string key="ui_split_stack">Podziel stos</string>
 	<string key="ui_set_quantity">Podaj liczbę</string>
 	<string key="ui_drag_new_stack">Przeciągnij na nowy stos</string>

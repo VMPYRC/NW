@@ -81,6 +81,8 @@
 	<string key="mm_loginservices_warning_Abusive">Você foi denunciado por comportamento abusivo</string>
 	<string key="mm_loginservices_warning_Leaking">Você foi denunciado por vazar conteúdo confidencial</string>
 	<string key="mm_loginservices_warning_Disruptive">Você foi denunciado por comportamento desordeiro</string>
+	<string key="mm_loginservices_CreateCharacterFailed">Falha na Criação de Personagem</string>
+	<string key="mm_loginservices_CreateCharacterRateLimit">Você criou personagens demais recentemente. Tente novamente depois de &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{duration}&lt;/font&gt; (&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{dateandtime}&lt;/font&gt;).</string>
 	<string key="mm_loginservices_UnknownCharacter">Autenticação negada: O personagem não existe.</string>
 	<string key="mm_loginservices_InactiveCharacter">Autenticação negada: O personagem foi excluído.</string>
 	<string key="mm_loginservices_MustRenameCharacter">Autenticação negada: O personagem deve ser renomeado.</string>
@@ -130,12 +132,13 @@
 	<string key="mm_csdkerr_nil_send">Erro de conexão no jogo.</string>
 	<string key="mm_csdkerr_invalid_endpoint">Endereço de servidor inválido</string>
 	<string key="mm_csdkerr_connection_failed">Falha na conexão com o servidor.</string>
+	<string key="mm_csdkerr_transport_version_mismatch">O servidor está usando uma versão de rede incompatível. Atualize o jogo e tente novamente.</string>
 	<string key="mm_csdkerr_registration_failed">Não foi possível conectar ao servidor</string>
 	<string key="mm_csdkerr_registration_unmarshal_error">Erro nos dados do servidor, verifique por atualizações.</string>
 	<string key="mm_csdkerr_disconnect">Desconectado inesperadamente do servidor. Reconectando...</string>
 	<string key="mm_csdkerr_replicate_timeout">A conexão expirou enquanto aguardava pela sincronização de estado.</string>
 	<string key="mm_csdkerr_registration_failed_retry">Falha ao se conectar ao servidor.</string>
-	<string key="mm_connerr_rep_registration_timeout">Não foi possível estabelecer conexão com o servidor.</string>
+	<string key="mm_connerr_rep_registration_timeout">Não foi possível conectar ao servidor. Confirme seu acesso à Internet e tente novamente.</string>
 	<string key="mm_connerr_game_timeout">A conexão expirou enquanto aguardava por início de jogo no servidor.</string>
 	<string key="mm_connerr_spawn_point_timeout">A conexão expirou enquanto aguardava pelo ponto de nascimento.</string>
 	<string key="mm_connerr_aoi_timeout">A conexão expirou enquanto aguardava o servidor descrever o mundo.</string>
@@ -192,8 +195,8 @@
 	<string key="mm_authresult_Denied_CapacityLimitReached">Os servidores estão ocupados no momento. Tente novamente mais tarde.</string>
 	<string key="mm_authresult_Denied_SoftTTLExceeded">O TTL do servidor foi excedido. Tente novamente mais tarde.</string>
 	<string key="mm_authresult_Denied_HardTTLExceeded">O TTL do servidor foi excedido. Tente novamente mais tarde.</string>
-	<string key="mm_authresult_Denied_VersionCheckFailed">As versões do servidor e cliente divergem. Atualize o seu cliente pelo inicializador.</string>
-	<string key="mm_authresult_Denied_TypeIndexMismatch">A versão do cliente é incompatível. Atualize o seu cliente pelo inicializador.</string>
+	<string key="mm_authresult_Denied_VersionCheckFailed">O servidor está executando uma versão diferente do jogo. Atualize e tente novamente.</string>
+	<string key="mm_authresult_Denied_TypeIndexMismatch">O servidor está executando uma versão incompatível do jogo. Atualize e tente novamente.</string>
 	<string key="mm_authresult_Denied_LoginTokenSignatureInvalid">Assinatura inválida de token de autenticação.</string>
 	<string key="mm_authresult_Denied_LoginTokenExpired">A sessão expirou. Tente novamente.</string>
 	<string key="mm_authresult_Denied_LoginTokenWorldIdInvalid">O token de autenticação não é válido para o mundo selecionado.</string>
@@ -334,8 +337,27 @@
 	<string key="ui_cooking">Culinária</string>
 	<string key="ui_engineering">Engenharia</string>
 	<string key="ui_engineering_desc">Confeccione armas a distância e móveis para casa.</string>
+	<string key="ui_kiln">Forno de Gipsita</string>
+	<string key="ui_kiln_desc">Refine e confeccione Gipsita aqui.</string>
 	<string key="ui_furnishing">Mobília</string>
 	<string key="ui_wildernesssurvival" comment="wilderness survival is not a trainable skill and is always equal to the character's level, so just tell users it's their character level for simplicity">Personagem</string>
+	<string key="ui_weaponsmithing_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Capacidade do Posto de Forjamento de Armas</string>
+	<string key="ui_armoring_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Capacidade do Posto de Forjamento de Armaduras</string>
+	<string key="ui_jewelcrafting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Capacidade do Posto de Joalheria</string>
+	<string key="ui_arcana_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Capacidade do Posto de Arcana</string>
+	<string key="ui_cooking_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Capacidade do Posto de Culinária</string>
+	<string key="ui_fishing_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Capacidade do Posto de Pesca</string>
+	<string key="ui_furnishing_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Capacidade do Posto de Mobília</string>
+	<string key="ui_engineering_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Capacidade do Posto de Engenharia</string>
+	<string key="ui_smelting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Capacidade do Posto de Fundição</string>
+	<string key="ui_woodworking_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Capacidade do Posto de Marcenaria</string>
+	<string key="ui_leatherworking_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Capacidade do Posto de Trabalho em Couro</string>
+	<string key="ui_weaving_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Capacidade do Posto de Tecelagem</string>
+	<string key="ui_stonecutting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Capacidade do Posto de Cantaria</string>
+	<string key="ui_skinning_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Capacidade do Posto de Esfolamento</string>
+	<string key="ui_mining_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Capacidade do Posto de Mineração</string>
+	<string key="ui_logging_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Capacidade do Posto de Extração de Madeira</string>
+	<string key="ui_harvesting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Capacidade do Posto de Colheita</string>
 	<string key="ui_decline">Recusar</string>
 	<string key="ui_name_your_avatar">Nomeie Seu Personagem</string>
 	<string key="ui_portrait_title">Meu Retrato</string>

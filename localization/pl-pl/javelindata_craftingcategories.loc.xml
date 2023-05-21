@@ -1,6 +1,12 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="GypsumAttunement_GroupName">Gipsowe zestrojenie</string>
+	<string key="CategoryData_CraftingPatterns">Wzory rzemieślnicze</string>
 	<string key="FoodComponents_GroupName">Składniki złożone</string>
 	<string key="GemstoneT1_GroupName">Klejnoty ze skazą</string>
+	<string key="GypsumRefining_GroupName">Przetwarzanie gipsu</string>
+	<string key="GypsumCasting_GroupName">Odlewanie gipsu</string>
+	<string key="GypsumRaw_GroupName">Kule gipsowe</string>
+	<string key="GypsumCasts_GroupName">Odlewy gipsowe</string>
 	<string key="GemstoneT2_GroupName">Zwykłe klejnoty</string>
 	<string key="GemstoneT3_GroupName">Doskonałe klejnoty</string>
 	<string key="GemstoneT4_GroupName">Nieskazitelne klejnoty</string>
@@ -1363,8 +1369,8 @@
 	<string key="ModsUncommon_GroupName">Niezwykłe modyfikatory</string>
 	<string key="MoonstoneCut_GroupDesc">Szlifowane i polerowane kamienie księżycowe. Można z nich wytworzyć biżuterię, która zwiększa siłę i skupienie, albo umieścić w gnieździe przedmiotu, by zyskać profity "Radość" i "Ochrona przed cięciami".</string>
 	<string key="MoonstoneCut_GroupName">Szlifowany kamień księżycowy</string>
-	<string key="Musical_GroupName">Instrumenty muzyczne</string>
 	<string key="MusketA_GroupDesc">Broń dystansowa wykorzystująca naboje zadające duże obrażenia. Idealna do trzymania wrogów na dystans i ostrzeliwania ich z dużej odległości. Premiuje precyzję.\n\n•Standardowy atak: Zadaje {[DamageTable.MusketAttack1.DmgCoef * 100]}% obrażeń od pchnięć.</string>
+	<string key="Blunderbuss_GroupDesc">Broń dystansowa do walki na niewielką odległość, strzelająca 6 śrucinami naraz. Doskonała do wywierania presji na cele w walce wręcz i przybliżania się do przeciwników walczących na dystans.\n\n•Standardowy atak: Zadaje {[DamageTable.Blunderbuss_Primary_Attack.DmgCoef * 100]}% obrażeń od pchnięć na śrucinę.</string>
 	<string key="MusketA_GroupName">Muszkiety</string>
 	<string key="Muskets_GroupName">Muszkiety</string>
 	<string key="nut_GroupName">Orzechy</string>
@@ -1708,6 +1714,8 @@
 	<string key="TimberT5_GroupName">Surowiec drzewny klasy 5</string>
 	<string key="TinctureBlight_GroupName">Nalewki zarazy</string>
 	<string key="TinctureCorruption_GroupName">Nalewki skażenia</string>
+	<string key="Tokens_GroupName">Żetony Zimowej Konwergencji</string>
+	<string key="TokenCreation_GroupName">Tworzenie żetonów</string>
 	<string key="TokenConversion_GroupName">Konwersja żetonów</string>
 	<string key="ToolHatchet_GroupDesc">1-ręczna. Do ścinania drzew.</string>
 	<string key="ToolHatchet_GroupName">Siekierki</string>
@@ -1781,5 +1789,17 @@
 	<string key="Pattern">Wzory</string>
 	<string key="PatternRecipes">Schematy wzorów</string>
 	<string key="Lodestone">Magnetyt</string>
+	<string key="AttributeStr">Siła</string>
+	<string key="AttributeDex">Zręczność</string>
+	<string key="AttributeInt">Inteligencja</string>
+	<string key="AttributeFoc">Skupienie</string>
+	<string key="AttributeCon">Kondycja</string>
+	<string key="TimelessShardsStr">Wieczne odłamki – siła</string>
+	<string key="TimelessShardsDex">Wieczne odłamki – zręczność</string>
+	<string key="TimelessShardsInt">Wieczne odłamki – inteligencja</string>
+	<string key="TimelessShardsFoc">Wieczne odłamki – skupienie</string>
+	<string key="TimelessShardsCon">Wieczne odłamki – kondycja</string>
+	<string key="ArmorShadow_GroupName">Cienisty</string>
+	<string key="ArmorBeast_GroupName">Łowczy</string>
 </resources>
 

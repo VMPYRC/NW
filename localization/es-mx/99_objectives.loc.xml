@@ -50,13 +50,13 @@
 	<string key="9901_9908_oldstoneremembers_traveltoSpire2" speaker="UI - Tracker Text">Investiga las ruinas cercanas y averigua más sobre el juramento de los guardianes del alma</string>
 	<string key="9901_9908_oldstoneremembers_traveltoSpire3" speaker="UI - Tracker Text">Investiga más a fondo las ruinas en busca de la parte final del juramento de los guardianes del alma</string>
 	<string key="9901_0008_oldstoneremembers_v2_GoTo_01">Ve a las ruinas de {POITags} en busca de pistas sobre el pasado del ermitaño</string>
-	<string key="9901_0008_oldstoneremembers_v2_clearvines_01">Retira las enredaderas en busca de escritos que puedan ofrecer pistas sobre el pasado del ermitaño</string>
+	<string key="9901_0008_oldstoneremembers_v2_clearvines_01">Usa tu arma para retirar las enredaderas en busca de escritos que puedan ofrecer pistas sobre el pasado del ermitaño</string>
 	<string key="9901_0008_oldstoneremembers_v2_plaque_01">Lee el grabado</string>
 	<string key="9901_0008_oldstoneremembers_v2_GoTo_02">Busca la siguiente entrada del juramento de los guardianes del alma</string>
-	<string key="9901_0008_oldstoneremembers_v2_clearvines_02">Retira las enredaderas para encontrar la siguiente entrada del juramento de los guardianes del alma</string>
+	<string key="9901_0008_oldstoneremembers_v2_clearvines_02">Usa tu arma para retirar las enredaderas en busca de la siguiente entrada del juramento de los guardianes de almas</string>
 	<string key="9901_0008_oldstoneremembers_v2_plaque_02">Lee el grabado</string>
 	<string key="9901_0008_oldstoneremembers_v2_GoTo_03">Registra {POITags} para encontrar la última entrada del juramento de los guardianes del alma</string>
-	<string key="9901_0008_oldstoneremembers_v2_clearvines_03">Retira las enredaderas para encontrar la última entrada del juramento de los guardianes del alma</string>
+	<string key="9901_0008_oldstoneremembers_v2_clearvines_03">Usa tu arma para retirar las enredaderas en busca de la última entrada del juramento de los guardianes de almas</string>
 	<string key="9901_0008_oldstoneremembers_v2_plaque_03">Lee el grabado</string>
 	<string key="9901_0008_oldstoneoption" speaker="UI - Tracker Text">(Opcional) Visita el santuario espiritual en Windsward</string>
 	<string key="9901_0009_thetower_objective_title" speaker="UI  - Quest Title">Una causa perdida</string>
@@ -137,11 +137,11 @@
 	<string key="9902_0015_itmustflow_complete_available_response" speaker="Adiana Theron" name="AdianaTheron" gender="F" VO="MSQAdiana_9902_0015_itmustflow_AvailResponse" VO_Status="Recorded" dialogue-next="@9902_0015_itmustflow_complete_available_response_next">Bueno, la fuente ha vuelto a funcionar, así que has sido bendecido con buena fortuna, o bien realmente has cumplido con tu palabra.\n\nSeré curioso. ¿Qué causó el bloqueo?</string>
 	<string key="9902_0015_itmustflow_complete_available_response_prompt" speaker="UI - Player Prompt">"Corrupción en las minas".</string>
 	<string key="9902_0015_itmustflow_complete_available_response_next" speaker="Adiana Theron" name="AdianaTheron" gender="F" VO="MSQAdiana_9902_0015_itmustflow_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@9902_0015_itmustflow_complete_available_response_prompt">¿Corrupción, bloqueando el flujo de azoth a través de pasos terrenales? Imposible.\n\nDebe haber otra explicación, pero me ocuparé yo mismo de investigar el asunto.</string>
-	<string key="9901_0015_itmustflow_travelto" speaker="UI  - Quest Description">Investiga {POITags} en busca de la obstrucción del flujo de azoth</string>
-	<string key="9901_0015_itmustflow_destroytendrils" speaker="UI  - Quest Description">Corta {targetName} que brota cerca de {POITags}</string>
-	<string key="9901_0015_itmustflow_destroyclots" speaker="UI  - Quest Description">Destruye los caparazones coagulados que bloquean el azoth subterráneo</string>
-	<string key="9902_0015_itmustflow_objective_desc" speaker="UI  - Quest Description">Explora las minas y purga lo que esté bloqueando el flujo a la fuente de azoth de Adiana.</string>
-	<string key="9902_0016_corruptiontincture_objective_title" speaker="UI  - Quest Title">La debilidad del ego</string>
+	<string key="9901_0015_itmustflow_travelto" speaker="UI - Quest Description">Investiga la Mina del canario en busca de la obstrucción del flujo de azoth</string>
+	<string key="9901_0015_itmustflow_destroytendrils" speaker="UI - Quest Description">Corta los zarcillos de la corrupción que brotan cerca de la Mina del canario</string>
+	<string key="9901_0015_itmustflow_destroyclots" speaker="UI - Quest Description">Destruye los caparazones coagulados que bloquean el azoth subterráneo</string>
+	<string key="9902_0015_itmustflow_objective_desc" speaker="UI - Quest Description">Explora las minas y purga lo que esté bloqueando el flujo a la fuente de azoth de Adiana.</string>
+	<string key="9902_0016_corruptiontincture_objective_title" speaker="UI - Quest Title">La debilidad del ego</string>
 	<string key="9902_0016_corruptiontincture_start_prompt" speaker="UI - Player Prompt">"Necesito una semilla de las criaturas terrestres enojadas".</string>
 	<string key="9902_0016_corruptiontincture_proposal" speaker="Adiana Theron" name="AdianaTheron" gender="F" VO="MSQAdiana_9902_0016_corruptiontincture_ProposalResponse" VO_Status="Recorded" dialogue-next="@9902_0016_corruptiontincture_proposal_next">Ah. ¿Acaso te das cuenta de cuánto pides? ¿De cuánto ya han tomado los de tu calaña? \n\nLas criaturas terrestres enojadas querrán saber la verdad: ¿planeas usar esta semilla para luchar contra la corrupción?</string>
 	<string key="9902_0016_corruptiontincture_proposal_prompt" speaker="UI - Player Prompt">"Sí, así es".</string>
@@ -215,7 +215,7 @@
 	<string key="9901_0020_healtherift_destroy_target_IO" speaker="UI - Tracker Text">Destruye los nodos corrompidos con tu bastón de azoth</string>
 	<string key="9901_0020_healtherift_completeDarknessEvent">Ayuda a destruir las invasiones de corrupción en cualquier lugar de Aeternum</string>
 	<string key="9901_0021_destinyunearthed_objective_title" speaker="UI  - Quest Title">Destino desenterrado</string>
-	<string key="9901_0021_destinyunearthed_objective_desc" speaker="UI  - Quest Description">Para unirte a los guardianes del alma, necesitas una gema en forma de corazón. Adéntrate en las profundidades de la excavación Amrine y encuentra una.</string>
+	<string key="9901_0021_destinyunearthed_objective_desc" speaker="UI  - Quest Description">Para unirte a los guardianes del alma, necesitas una gema en forma de corazón. Adéntrate en las profundidades de la excavación Amrine y encuentra una (necesitarás un grupo), o reúne los componentes necesarios y forja una por tu cuenta (opción individual).</string>
 	<string key="9901_0021_destinyunearthed_start_prompt" speaker="UI - Player Prompt">"¿Qué es eso?"</string>
 	<string key="9901_0021_destinyunearthed_proposal" speaker="Yonas Alazar" name="YonasAlazar" gender="M" VO="MSQYonas_9901_0021_destinyunearthed_ProposalResponse" VO_Status="Recorded" dialogue-next="@9901_0021_destinyunearthed_proposal_next">Una gema con forma de corazón, un recipiente que utilizarás para encerrar tu alma y protegerla, una fría bóveda dentro de tu pecho.\n\nY el lugar adonde tendrás que ir para conseguir una es una fría bóveda en la tierra, debajo del templo Amrine.</string>
 	<string key="9901_0021_destinyunearthed_proposal_prompt" speaker="UI - Player Prompt">"¿Por qué ahí abajo?"</string>
@@ -223,6 +223,21 @@
 	<string key="9901_0021_destinyunearthed_incomplete" speaker="Yonas Alazar" name="YonasAlazar" gender="M" VO="MSQYonas_9901_0021_destinyunearthed_InProgResponse" VO_Status="Recorded">Deberías poder abrir la puerta del templo Amrine con ese bastón que tienes. \n\nRegresa con la gema en forma de corazón y finalmente podremos comenzar con el ritual.</string>
 	<string key="9901_0021_destinyunearthed_complete_available_response" speaker="Yonas Alazar" name="YonasAlazar" gender="M" VO="MSQYonas_9901_0021_destinyunearthed_AvailResponse" VO_Status="Recorded">Mira eso, una gema con forma de corazón vacía. Casi me hace brotar una lágrima.\n\nMírala bien, porque esta cosa pasará a formar parte de ti para siempre.</string>
 	<string key="9900_task_InvestigateAmrine" speaker="UI">Busca una gema en forma de corazón en la excavación Amrine</string>
+	<string key="9901_DungeonAmrine" speaker="UI">Entrar a la excavación Amrine (opción grupal)</string>
+	<string key="9901_0021_d_01_container_partial_SoloQuest">Para conseguir una gema con forma de corazón:</string>
+	<string key="9901_0021_d_01a_01_Task_TalktoYonas">Hablar con Yonas para analizar las opciones [opción individual]</string>
+	<string key="9901_0021_d_01a_03_Task_CompleteSoloQuest">Completar la misión: Forjar una gema con forma de corazón [opción individual]</string>
+	<string key="9901_0021_d_02_container_partial_Expedition">O:</string>
+	<string key="9901_0021_destinyunearthed_solo_objective_title" speaker="UI">Forjar una gema con forma de corazón</string>
+	<string key="9901_0021_destinyunearthed_solo_objective_desc" speaker="UI">Como alternativa a conseguir una gema con forma de corazón de la expedición de la excavación Amrine, puedes reunir componentes de las ruinas antiguas y forjar una gema con forma de corazón en un depósito arcano.</string>
+	<string key="9901_0021_d_solo_01a_GoToPOI_Pyrgo" comment="bright gem or flame or mote">Busca un faro de Pyrgo en {POITags}</string>
+	<string key="9901_0021_d_solo_01b_Task_KillToken">Derrota a {targetName} para obtener un {itemName} raro</string>
+	<string key="9901_0021_d_solo_02a_GoToPOI_Seaview" comment="jewelry item">Busca un engarce de forja marítima en {POITags}</string>
+	<string key="9901_0021_d_solo_02b_Task_KillToken">Derrota a {targetName} para obtener {itemName}</string>
+	<string key="9901_0021_d_solo_03a_GoToPOI_ShatteredObelisk" comment="dust or pouch icon">Consigue polvo de obelisco en {POITags}</string>
+	<string key="9901_0021_d_solo_03b_Task_KillToken">Derrota a {targetName} para obtener {itemName}</string>
+	<string key="9901_0021_d_solo_01c_01_InteractAlchemyStation">Busca un depósito arcano para forjar tu gema con forma de corazón</string>
+	<string key="9901_0021_d_solo_01c_02_GetHeartgem">Forja tu gema con forma de corazón en cualquier depósito arcano</string>
 	<string key="9901_0022_theritual_objective_title" speaker="UI  - Quest Title">El ritual</string>
 	<string key="9901_0022_theritual_start_prompt" speaker="UI - Player Prompt">"Entonces, ¿seré inmune a la corrupción?"</string>
 	<string key="9901_0022_theritual_proposal" speaker="Yonas Alazar" name="YonasAlazar" gender="M" VO="MSQYonas_9901_0022_theritual_ProposalResponse" VO_Status="Recorded" dialogue-next="@9901_0022_theritual_proposal_next">No del todo. Aún puedes sucumbir a la tentación o la ira, pero tendrás protección, algo que lo amortigüe.\n\nLamentablemente, también amortigua el sabor de la comida, la calidez de la luz del sol… el amor de otra persona. ¿Seguro que estás listo?</string>
@@ -432,7 +447,15 @@
 	<string key="9901_0035_herewestand_complete_available_response" comment="9901_0035_herewestand_incomplete" speaker="Warden Scout Titus" name="WardenScoutTitus" gender="M" VO="9901_0035_herewestand_complete_available_response" VO_Status="Recorded">¡Baja la voz! Thorpe tiene ojos y oídos por todo Costa agitada.\n\nSoy el último vigilante explorador que queda; los demás bajaron la guardia. Thorpe los encontró.</string>
 	<string key="9901_0035_GoTo1" speaker="UI">Encuentra la escalinata al Faro de Tirla</string>
 	<string key="9901_0035_GoTo2" speaker="UI">Usa las escaleras para subir hasta el Faro de Tirla</string>
-	<string key="9901_MSQ_TravelToPOI_Depths" speaker="UI">Adéntrate en las profundidades (expedición) y enfréntate al comandante Thorpe</string>
+	<string key="9901_MSQ_Depths2" speaker="UI">Encuentra al comandante Thorpe en Las Profundidades</string>
+	<string key="9901_0036_d_02_Do_Solo" speaker="UI">Hostiga a los partidarios de Thorpe en el Gran surco</string>
+	<string key="9901_0036_d_00_container_partial_Expedition" speaker="UI">O:</string>
+	<string key="9901_0036_masterofthetempest_objective_solo_title" speaker="UI">Rastreando al maestro</string>
+	<string key="9901_0036_masterofthetempest_solo_objective_desc" speaker="UI">Como alternativa a desafiar a Thorpe en la expedición a Las Profundidades, trabaja con Titus para hacer que el tirano salga y puedas pelear contra él a tu manera.</string>
+	<string key="9901_MSQ_TravelToPOI_Depths" speaker="UI">Entra en la expedición a Las Profundidades y enfréntate al comandante Thorpe [opción grupal]</string>
+	<string key="9901_0036_d_00_container_partial_SoloQuest">Desafía y derrota al comandante Thorpe:</string>
+	<string key="9901_0036_d_00_TalkToTitus">Habla con Titus para ver otra opción [opción individual]</string>
+	<string key="9901_0036_d_00_CompleteSolo">Completar la misión: Rastreando al maestro [opción individual]</string>
 	<string key="9901_0036_masterofthetempest_objective_title" speaker="UI - Quest Title">En las profundidades</string>
 	<string key="9901_0036_masterofthetempest_objective_desc" speaker="UI - Quest Description">Por fin empieza la batalla contra el comandante Thorpe. Ábrete paso por las profundidades y acaba con él.</string>
 	<string key="9901_0036_masterofthetempest_start_prompt" speaker="UI - Player Prompt">"Entonces, ¿todos los demás están muertos?"</string>
@@ -649,7 +672,7 @@
 	<string key="9902_0052_saboteur_complete_available_response_prompt2" speaker="UI - Player Prompt">"La venceré".</string>
 	<string key="9902_0052_saboteur_complete_available_response_next2" speaker="Adiana Theron" name="AdianaTheron" gender="F" VO="9902_0052_saboteur_complete_available_response_prompt2" VO_Status="Recorded" dialogue-prompt="@9902_0052_saboteur_complete_available_response_prompt2">La confianza que pides es demasiada. Las criaturas terrestres enojadas nunca antes han depositado semejante confianza en un humano. \n\nSin embargo, hasta ahora, has demostrado que eres digno de confianza...</string>
 	<string key="9902_0052_TravelTo_Empress" speaker="UI">Viaja al astillero de la dinastía</string>
-	<string key="9902_0052_TravelTo_Empress2" speaker="UI">Entra en el astillero de la dinastía</string>
+	<string key="9902_0052_TravelTo_Empress2" speaker="UI">Aventúrate en la expedición al astillero de la dinastía</string>
 	<string key="9902_0052_interactship1" speaker="UI">Sabotea la primera nave</string>
 	<string key="9902_0052_interactship2" speaker="UI">Sabotea la segunda nave</string>
 	<string key="9902_0052_interactship3" speaker="UI">Sabotea la tercera nave</string>
@@ -725,18 +748,18 @@
 	<string key="9902_0055_shatteredmountain_complete_available_response" speaker="Gristle the Bear" name="GristleTheBear" gender="M" VO="9902_0055_shatteredmountain_incomplete" VO_Status="Recorded" dialogue-next="@9902_0055_shatteredmountain_complete_available_response_next">Chist. Tú debes ser {playerName}. Adiana dijo que vendrías. \n\nSoy Gristle, el explorador. ¿Es la primera vez que hablas con un oso?</string>
 	<string key="9902_0055_shatteredmountain_complete_available_response_prompt" speaker="UI - Player Prompt">"No, conocí a uno en el santuario".</string>
 	<string key="9902_0055_shatteredmountain_complete_available_response_next" speaker="Gristle the Bear" name="GristleTheBear" gender="M" VO="9902_0055_shatteredmountain_complete_available_response_prompt" VO_Status="Recorded" dialogue-prompt="@9902_0055_shatteredmountain_complete_available_response_prompt">Esa es mi hermana mayor, Juice. Le gusta el pescado. \n\nA mí también me gusta el pescado. Bueno, es un rasgo común entre los osos.</string>
-	<string key="9910_0056_thetempestsheart_objective_title" speaker="UI - Quest Title">El corazón de la tempestad</string>
+	<string key="9910_0056_thetempestsheart_objective_title" speaker="UI - Quest Title">Fortaleza en el umbral</string>
 	<string key="9910_0056_thetempestsheart_objective_desc" speaker="UI - Quest Description">Encuentra a los guardianes de almas en el puesto de avanzada de Inicio de montaña y ofréceles tu ayuda.</string>
 	<string key="9910_0056_thetempestsheart_start_prompt" speaker="UI - Player Prompt">"Fue cuando el alma de la tempestad llegó a la costa".</string>
-	<string key="9910_0056_thetempestsheart_proposal" speaker="Gristle the Bear" name="GristleTheBear" gender="M" VO="9910_0056_thetempestsheart_start_prompt" VO_Status="Recorded" dialogue-next="@9910_0056_thetempestsheart_proposal_next">¿Ah, sí? Apuesto a que la corrupción lo sintió. \n\nLas almas humanas suelen ser bastante bulliciosas.</string>
+	<string key="9910_0056_thetempestsheart_proposal" speaker="Gristle the Bear" name="GristleTheBear" gender="M" VO="9901_0056_thetempestsheart_start_prompt" VO_Status="Recorded" dialogue-next="@9910_0056_thetempestsheart_proposal_next">¿Ah, sí? Apuesto a que la corrupción lo sintió. \n\nLas almas humanas suelen ser bastante bulliciosas.</string>
 	<string key="9910_0056_thetempestsheart_proposal_prompt" speaker="UI - Player Prompt">"Muy bien, ¿adónde voy?"</string>
-	<string key="9910_0056_thetempestsheart_proposal_next" speaker="Gristle the Bear" name="GristleTheBear" gender="M" VO="9910_0056_thetempestsheart_proposal_prompt" VO_Status="Recorded" dialogue-prompt="@9910_0056_thetempestsheart_proposal_prompt">Al lugar que los humanos llaman Inicio de montaña… lo cual es una extraña coincidencia, porque yo llamaba así a mi cueva.\n\nPero sí, es allí donde tu gente lucha contra la corrupción. Ve con ellos. Te necesitan.</string>
-	<string key="9910_0056_thetempestsheart_incomplete" speaker="Gristle the Bear" name="GristleTheBear" gender="M" VO="9910_0056_thetempestsheart_proposal_next" VO_Status="Recorded">Si por casualidad vuelves por aquí, no dudes en traer algo de pescado.\n\nHay poco para elegir por estos lados.</string>
-	<string key="9910_0056_thetempestsheart_complete_available_response" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9910_0056_thetempestsheart_incomplete" VO_Status="Recorded">Me preguntaba si alguna vez te unirías a nosotros en el frente. Aunque tal vez sea demasiado tarde. \n\nNo sé si ya te enteraste de que podríamos estar a punto de abandonar esta posición.</string>
+	<string key="9910_0056_thetempestsheart_proposal_next" speaker="Gristle the Bear" name="GristleTheBear" gender="M" VO="9901_0056_thetempestsheart_proposal_prompt" VO_Status="Recorded" dialogue-prompt="@9910_0056_thetempestsheart_proposal_prompt">Al lugar que los humanos llaman Inicio de montaña… lo cual es una extraña coincidencia, porque yo llamaba así a mi cueva.\n\nPero sí, es allí donde tu gente lucha contra la corrupción. Ve con ellos. Te necesitan.</string>
+	<string key="9910_0056_thetempestsheart_incomplete" speaker="Gristle the Bear" name="GristleTheBear" gender="M" VO="9901_0056_thetempestsheart_proposal_next" VO_Status="Recorded">Si por casualidad vuelves por aquí, no dudes en traer algo de pescado.\n\nHay poco para elegir por estos lados.</string>
+	<string key="9910_0056_thetempestsheart_complete_available_response" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9901_0056_thetempestsheart_incomplete" VO_Status="Recorded">Me preguntaba si alguna vez te unirías a nosotros en el frente. Aunque tal vez sea demasiado tarde. \n\nNo sé si ya te enteraste de que podríamos estar a punto de abandonar esta posición.</string>
 	<string key="9910_0056_thetempestsheart_complete_available_response_alt" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9909_0044_thetempestsheart_complete_available_response_alt" VO_Status="Recorded" dialogue-next="@9910_0056_thetempestsheart_complete_available_response_next_alt">Me preguntaba cuándo aparecerías. Para nosotros, los guardianes de almas, todos los caminos conducen a Montaña destruida.</string>
 	<string key="9910_0056_thetempestsheart_complete_available_response_prompt_alt" speaker="UI - Player Prompt">"Estoy aquí para vencer a la tempestad".</string>
 	<string key="9910_0056_thetempestsheart_complete_available_response_next_alt" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9909_0044_thetempestsheart_complete_available_response_next_alt" VO_Status="Recorded" dialogue-prompt="@9910_0056_thetempestsheart_complete_available_response_prompt_alt">La cosa es que hay una barrera que bloquea la entrada a Montaña destruida. Hasta que descubramos cómo disiparla, no podemos llegar a la tempestad. \n\nTe prometo que encontraremos la forma. Hasta entonces, hay mucho para hacer aquí.</string>
-	<string key="9901_0057_insoulinstone_objective_title" speaker="UI - Quest Title">En alma, en piedra</string>
+	<string key="9910_0057_insoulinstone_objective_title" speaker="UI - Quest Title">El Corazón de la Tempestad</string>
 	<string key="9901_0057_SealTheBreaches" speaker="UI">Ingresa a la Montaña destruida</string>
 	<string key="9910_0057_insoulinstone_objective_desc" speaker="UI - Quest Description">Encuentra a la Tempestad y derrótala</string>
 	<string key="9910_0057_insoulinstone_start_prompt" speaker="UI - Player Prompt">"En serio, voy a entrar".</string>
@@ -744,18 +767,21 @@
 	<string key="9910_0057_insoulinstone_proposal_prompt" speaker="UI - Player Prompt">"No. Me voy a la montaña".</string>
 	<string key="9910_0057_insoulinstone_proposal_next" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9910_0057_insoulinstone_proposal_prompt" VO_Status="Recorded" dialogue-next="@9910_0057_insoulinstone_proposal_next2" dialogue-prompt="@9910_0057_insoulinstone_proposal_prompt">Bueno… Supongo que te has ganado ese derecho. Aunque debo decir que sería devastador para la moral si caes en manos de la corrupción.\n\nY además, tan solo llegar hasta allí será increíblemente difícil.</string>
 	<string key="9910_0057_insoulinstone_proposal_prompt2" speaker="UI - Player Prompt">"¿Qué debo hacer?"</string>
-	<string key="9910_0057_insoulinstone_proposal_next2" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9910_0057_insoulinstone_proposal_prompt2" VO_Status="Recorded" dialogue-prompt="@9910_0057_insoulinstone_proposal_prompt2">La entrada está en Myrkgard, en donde reina la corrupción.\n\nPuedo darte algo que te permitirá entrar, pero solo una vez.\n\nSi sabes con certeza que quieres hacerlo, te deseo buena suerte.</string>
+	<string key="9910_0057_insoulinstone_proposal_next2" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9910_0057_insoulinstone_proposal_prompt2" VO_Status="Recorded" dialogue-prompt="@9910_0057_insoulinstone_proposal_prompt2">La entrada está en Myrkgard, en donde reina la corrupción.\n\nPuedo darte una llave que te permitirá entrar, pero solo una vez.\n\nSi sabes con certeza que quieres hacerlo, te deseo buena suerte.</string>
 	<string key="9910_0057_insoulinstone_incomplete" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9910_0057_insoulinstone_proposal_next2" VO_Status="Recorded">Solo diré esto: tienes arena.\n\nAdelante, ve a patearle el trasero a la Tempestad. Los guardianes de almas, los que quedamos, te apoyamos en todo.</string>
 	<string key="9910_0057_insoulinstone_complete_available_response" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9910_0057_insoulinstone_incomplete" VO_Status="Recorded" dialogue-next="@9910_0057_insoulinstone_complete_available_response_next">Vaya, tienes un aspecto terrible. Debe haber sido una lucha para la posteridad. Vimos el cambio en la montaña.\n\n¿Eso significa…? No puedo creer que estoy diciendo esto, ¿significa que destruiste a la Tempestad?</string>
 	<string key="9910_0057_insoulinstone_complete_available_response_prompt" speaker="UI - Player Prompt">"Sí, y la principal invasión ha desaparecido".</string>
-	<string key="9901_Enter_Tempest" speaker="UI">Ingresa al Corazón de la tempestad</string>
+	<string key="9901_Enter_Tempest" speaker="UI">Busca a Isabella en el Corazón de la Tempestad</string>
+	<string key="9900_KillQuest_Isabella1" speaker="UI">Encuentra a Isabella y derrótala.</string>
+	<string key="9900_KillQuest_Isabella2" speaker="UI">Encuentra a Isabella y derrótala de una vez por todas.</string>
+	<string key="9900_marabook" speaker="UI">Lee el libro de Isabella</string>
 	<string key="9910_0057_insoulinstone_complete_available_response_next" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9910_0057_insoulinstone_complete_available_response_prompt" VO_Status="Recorded" dialogue-prompt="@9910_0057_insoulinstone_complete_available_response_prompt">¿Ya no… existe? ¿Ganamos…? \n\nNo sé qué decir. Hacía tanto tiempo que no teníamos buenas noticias por aquí que no llego a captarlo. \n\nDebo contarles a los demás. ¡Esto renovará nuestro espíritu de lucha!</string>
 	<string key="9910_0058_finallyexhale_objective_title" speaker="UI - Quest Title">Exhalar al fin</string>
 	<string key="9910_0058_finallyexhale_objective_desc" speaker="UI - Quest Description">Informa a tus amigos de las buenas noticias.</string>
 	<string key="9910_0058_finallyexhale_start_prompt" speaker="UI - Player Prompt">"Lo espero con ansias."</string>
 	<string key="9910_0058_finallyexhale_proposal" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="Warden_9910_0058_finallyexhale_ProposalResponse" VO_Status="Recorded">Seguramente hay otras personas alrededor de Aeternum que se alegrarán con la noticia.\n\nDejaré que seas tú quien comparta la novedad. Gracias, {playerName}. Nunca pensé que este día llegaría.</string>
 	<string key="9910_0058_finallyexhale_incomplete" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="Warden_9910_0058_finallyexhale_InProgResponse" VO_Status="Recorded">Creo que necesitaré tiempo para asimilar este giro de los acontecimientos.</string>
-	<string key="9910_0058_finallyexhale_complete_available_response" speaker="n/a" gender="M">...</string>
+	<string key="9910_0058_finallyexhale_complete_available_response" speaker="n/a" gender="M">Si perdemos la esperanza, ¿qué nos queda?</string>
 	<string key="9902_FutureDays" speaker="UI">Consigue un blasón de recuerdo de Rima.</string>
 	<string key="9902_FutureDays2" speaker="UI">Consigue un blasón de recuerdo de Émile.</string>
 	<string key="9902_FutureDays3" speaker="UI">Consigue un blasón de recuerdo del Dr. Theo.</string>
@@ -787,5 +813,13 @@
 	<string key="9927_0102_VisionsOfInvaders_complete_available_response_prompt" speaker="UI - Player Prompt" rel_version="AI_Evil_Knights_P1">"¿Qué deberíamos hacer?"</string>
 	<string key="9927_0102_VisionsOfInvaders_complete_available_response_next" speaker="Survivalist Riches - First Light" name="SurvivalistRiches" VO="9927_0102_VisionsOfInvaders_complete_available_response_next" VO_Status="Needs Recording" dialogue-prompt="@9927_0102_VisionsOfInvaders_complete_available_response_prompt" rel_version="AI_Evil_Knights_P1">De momento no se puede hacer mucho. La amenaza de la corrupción es más apremiante, así que debemos concentrar nuestros esfuerzos en ella.\n\nPero no te preocupes: muy pronto tendré otra visión sobre esos varegos y, entonces, nuestro rumbo estará claro.</string>
 	<string key="9927_VK_ScoutsNote_Examine">Examinar</string>
+	<string key="9905_0059_InMemoriam_objective_title" speaker="UI - Quest Title" rel_version="AI_Evil_Knights_P1">In memoriam</string>
+	<string key="9905_0059_InMemoriam_objective_desc" speaker="UI - Quest Description" rel_version="AI_Evil_Knights_P1">Reúne blasones de recuerdo de tus compañeros y colócalos en un monumento a Yonas en Recodo del Pescador.</string>
+	<string key="9905_0059_InMemoriam_start_prompt" speaker="UI - Player Prompt" rel_version="AI_Evil_Knights_P1">Si perdemos la esperanza, ¿qué nos queda?</string>
+	<string key="9905_0059_InMemoriam_proposal" speaker="Rima Bahar" name="RimaBahar" gender="F" VO_Status="Needs Recording" rel_version="AI_Evil_Knights_P1">He oído que algunos guardianes de almas han construido un monumento a Yonas en su antiguo hogar, junto al río.\n\nAquí tienes un blasón que me pertenece. ¿Crees que podrías buscar a Émile y a Theo y pedirles que te den los suyos?\n\nCreo que lo mejor sería que vayas tú en representación de todos nosotros y que le lleves esos blasones de regreso a su hogar.</string>
+	<string key="9905_0059_InMemoriam_incomplete" speaker="Rima Bahar" name="RimaBahar" gender="F" VO_Status="Needs Recording" dialogue-prompt="@9905_0059_InMemoriam_start_prompt" rel_version="AI_Evil_Knights_P1">No sé con certeza si alguna vez podremos lograr que el viejo Yonas descanse en paz, pero lo que podemos hacer es recordar su sacrificio y su valor.</string>
+	<string key="9905_0059_InMemoriam_complete_available_response" speaker="Yonas Memorial" name="YonasMemorial" VO_Status="Needs Recording" dialogue-next="@9905_0059_InMemoriam_complete_available_response_next" rel_version="AI_Evil_Knights_P1">(La piedra fría yace inmóvil, inerte y silenciosa).</string>
+	<string key="9905_0059_InMemoriam_complete_available_response_prompt" speaker="UI - Player Prompt" rel_version="AI_Evil_Knights_P1">Coloca los recuerdos en la piedra.</string>
+	<string key="9905_0059_InMemoriam_complete_available_response_next" speaker="Rima Bahar" name="YonasMemorial" VO_Status="Needs Recording" dialogue-prompt="@9905_0059_InMemoriam_complete_available_response_prompt" rel_version="AI_Evil_Knights_P1">(Recuerdas a tu amigo Yonas y buscas darle cierre al duelo por su pérdida).</string>
 </resources>
 

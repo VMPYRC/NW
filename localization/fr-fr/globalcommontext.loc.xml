@@ -114,10 +114,6 @@
 	<string key="ui_affliction_drowning_tooltip">Si vous manquez de souffle, vous vous étouffez puis mourez.</string>
 	<string key="ui_affliction_blight">résistance au dépérissement</string>
 	<string key="ui_affliction_blight_tooltip">Si votre résistance au dépérissement est épuisée, vous serez vicié et infligerez {[Type_StatusEffectData.Blight.DMGStandard * 100]} % de dégâts en moins, guérirez {[Type_StatusEffectData.Blight.HealMod * 100]} % moins et perdrez {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]} % de votre santé de base toutes les {[Type_StatusEffectData.Blight.TickRate]} secondes pendant {[Afflictions.AfflictionBlight.AfflictedDrainTime]} secondes.</string>
-	<string key="ui_affliction_mutcurse3minor">décompte de malédiction</string>
-	<string key="ui_affliction_mutcurse3minor_tooltip">Décompte combustible.</string>
-	<string key="ui_affliction_mutcurse4major">résistance vengeresse</string>
-	<string key="ui_affliction_mutcurse4major_tooltip">Une fois que vous n'avez plus de résistance, une zone de silence est lancée sur vous. La zone finit par exploser et infliger des dégâts aux joueurs et aux créatures. La résistance est partagée entre tous les membres de votre groupe.</string>
 	<string key="ui_afflicted_bleeding">blessé</string>
 	<string key="ui_afflicted_bleeding_tooltip">Si vous êtes blessé, votre vitalité remonte bien plus lentement.</string>
 	<string key="ui_afflicted_burn">brûlure</string>
@@ -138,10 +134,6 @@
 	<string key="ui_afflicted_drowning_tooltip">Vous vous êtes noyé.</string>
 	<string key="ui_afflicted_blight">dépérissement</string>
 	<string key="ui_afflicted_blight_tooltip">Lorsque vous êtes vicié, vous infligez {[Type_StatusEffectData.Blight.DMGStandard * 100]} % de dégâts en moins, guérissez {[Type_StatusEffectData.Blight.HealMod * 100]} % moins et perdez {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]} % de votre santé de base toutes les {[Type_StatusEffectData.Blight.TickRate]} secondes.</string>
-	<string key="ui_afflicted_mutcurse3minor">combustion</string>
-	<string key="ui_afflicted_mutcurse3minor_tooltip">Lorsque le décompte prend fin, les deux joueurs ayant le moins de santé jettent une chaîne élémentaire les reliant aux alliés à proximité.</string>
-	<string key="ui_afflicted_mutcurse4major">malédiction</string>
-	<string key="ui_afflicted_mutcurse4major_tooltip">La zone de silence explose à la fin du compte à rebours.</string>
 	<string key="ui_agreement">En continuant, vous acceptez ce(s) document(s) :</string>
 	<string key="ui_ahhhhh">AHHHHH !</string>
 	<string key="ui_aimsensitivity">Sensibilité de la visée</string>
@@ -352,7 +344,7 @@
 	<string key="ui_charlevel">Niveau {levelNum} {current}</string>
 	<string key="ui_territory_upgrades">Améliorations de territoire {upgradeCount}</string>
 	<string key="ui_dealcard">distribuer carte</string>
-	<string key="ui_deletecharacter">Supprimer personnage</string>
+	<string key="ui_deletecharacter">Suppr. personnage</string>
 	<string key="ui_demolishstructure">Détruire la structure</string>
 	<string key="ui_designcrest">Concevoir armoiries</string>
 	<string key="ui_destination">Destination</string>
@@ -380,9 +372,9 @@
 	<string key="ui_exitnewworld">Retour au menu principal</string>
 	<string key="ui_quittodesktop">Retour au bureau</string>
 	<string key="ui_expatriate">Exiler</string>
-	<string key="ui_expertise">Expertiser</string>
-	<string key="ui_expertise_tooltip_warning">Vous devez atteindre la nouvelle limite de niveau de compétence de métier pour augmenter vos niveaux d'expertise.</string>
-	<string key="ui_expertise_tooltip_explanation">Vous pourrez continuer à gagner de l'expérience et des niveaux d'expertise après avoir atteint le niveau maximum.</string>
+	<string key="ui_expertise">Aptitude</string>
+	<string key="ui_expertise_tooltip_warning">Vous devez atteindre la nouvelle limite de niveau de compétence de métier pour augmenter vos niveaux d'aptitude.</string>
+	<string key="ui_expertise_tooltip_explanation">Vous pourrez continuer à gagner de l'expérience et des niveaux d'aptitude après avoir atteint le niveau maximum.</string>
 	<string key="ui_expertise_tooltip_reward">Vous obtiendrez une caisse de récompense à chaque point marqué. Les caisses que vous obtiendrez plus tard dans chaque niveau contiennent de meilleures récompenses.</string>
 	<string key="ui_explorer">Explorer</string>
 	<string key="ui_f">f</string>
@@ -441,6 +433,8 @@
 	<string key="ui_inventoryslotsremaining">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{count}&lt;/font&gt; emplacements d'inventaire restants</string>
 	<string key="ui_inventoryweightremaining">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{Weight}&lt;/font&gt; livres restantes</string>
 	<string key="ui_inventoryMaxWeight">Limite de poids transportable atteinte</string>
+	<string key="ui_inventoryweight">POIDS</string>
+	<string key="ui_inventoryslots">OBJETS UNIQUES</string>
 	<string key="ui_filtereditems">{filtered} éléments masqués par le filtre.</string>
 	<string key="ui_inventory_tooltip">Ouvrez et fermez votre inventaire avec [{keyName}]. La jauge indique votre encombrement.</string>
 	<string key="ui_equipped">Équipé</string>
@@ -462,6 +456,8 @@
 	<string key="ui_level_unspent_points_tradeskill">{tradeskillPointsText}</string>
 	<string key="ui_level_unspent_points_both">{attributePointsText} {tradeskillPointsText}</string>
 	<string key="ui_level">Niveau</string>
+	<string key="ui_expertise_level" rel_version="Feature_PostCapTradeSkills">Niveau d'aptitude</string>
+	<string key="ui_expertise_reward" rel_version="Feature_PostCapTradeSkills">Récompense d'aptitude obtenue</string>
 	<string key="ui_light">Léger</string>
 	<string key="ui_lmb">bgs</string>
 	<string key="ui_lmbrmb">BGS/BDS</string>
@@ -637,7 +633,7 @@
 	<string key="ui_options_contrast">Contraste</string>
 	<string key="ui_options_contrast_desc">Régler le contraste</string>
 	<string key="ui_quit">Quitter</string>
-	<string key="ui_randomize">Aléatoiriser</string>
+	<string key="ui_randomize">Aléatoire</string>
 	<string key="ui_receivevolume">Volume de réception</string>
 	<string key="ui_reelinwhenyoufeelabite">Enroulez lorsque ça mord...</string>
 	<string key="ui_refinedoutput">PRODUCTION AMÉLIORÉE</string>
@@ -817,6 +813,7 @@
 	<string key="ui_ghost_structure_count_exceeded_warning">Sur la limite du plan (%d/%d)</string>
 	<string key="ui_ghost_structure_count_warning">Limite du plan %d/%d</string>
 	<string key="ui_escape_build_mode">Appuyez sur Échap pour quitter le mode construction.</string>
+	<string key="ui_escape_cinematic_skip">Échap pour passer</string>
 	<string key="ui_feedback_format">ENVOYER RETOUR</string>
 	<string key="ui_feedback_general">Général</string>
 	<string key="ui_in_game_survey_header">Appréciez-vous le Nouveau Monde ?</string>
@@ -954,7 +951,7 @@
 	<string key="ui_whisper_to_someone">{playerName} À {recipient}</string>
 	<string key="ui_focus">Concentration</string>
 	<string key="ui_points_to_level">{points} avant niveau {level}</string>
-	<string key="ui_points_to_expertise">{points} avant rang d'expertise {level}</string>
+	<string key="ui_points_to_expertise">{points} avant le rang d'aptitude {level}</string>
 	<string key="ui_spirit">Foi</string>
 	<string key="ui_vitality">Physique</string>
 	<string key="ui_strength">Force</string>
@@ -1020,8 +1017,8 @@
 	<string key="ui_constitution_tooltip">Attribut primaire pour l'état de santé général.</string>
 	<string key="ui_strength_tooltip">Attribut primaire pour le marteau d'armes, la hache double, l'épée et la hachette.\n\nAttribut secondaire pour la lance.</string>
 	<string key="ui_dexterity_tooltip">Attribut primaire pour l'arc, la rapière, la lance et le mousquet.\n\nAttribut secondaire pour l'épée et la hachette.</string>
-	<string key="ui_intelligence_tooltip">Attribut primaire pour le bâton de feu et les gantelets de glace.\n\nAttribut secondaire pour la rapière et mousquet.</string>
-	<string key="ui_focus_tooltip">Attribut primaire pour le bâton de vie.</string>
+	<string key="ui_intelligence_tooltip">Attribut primaire pour le bâton de feu, les gantelets de glace et les gantelets du néant.\n\nAttribut secondaire pour la rapière et mousquet.</string>
+	<string key="ui_focus_tooltip">Attribut primaire pour le bâton de vie.\n\nAttribut secondaire pour les gantelets du néant.</string>
 	<string key="ui_spirit_tooltip">FOI\n\nLes points de Foi améliorent :\n\n-- le Mana total\n-- la Défense contre les dégâts de Néant\n-- la Résistance aux Altérations\n\n-- la puissance des sorts des gantelets célestes\n</string>
 	<string key="ui_vitality_tooltip">PHYSIQUE\n\nLes points de Physique améliorent :\n\n-- la Défense contre les dégâts Physiques\n-- la Résistance aux Empoisonnements\n-- la limite de Poids d'équipement\n</string>
 	<string key="ui_endurance_tooltip">ENDURANCE\n\nLes points d'Endurance améliorent :\n\n-- la Vitalité\n-- la Défense face aux dégâts d'Éclair\n-- la Résistance aux Blessures\n</string>
@@ -1172,7 +1169,7 @@
 	<string key="ui_buildmode_snapHint">Désact. plac. auto.</string>
 	<string key="ui_buildmode_rotateHint">Rotation plan</string>
 	<string key="ui_planningmodeavailable">Mode de construction disponible</string>
-	<string key="cc_escape">ÉCHAP</string>
+	<string key="cc_escape">ÉCH</string>
 	<string key="cc_slash">Taille</string>
 	<string key="cc_backslash">Contre-taille</string>
 	<string key="ui_buildmode_lighting">ÉCLAIRAGE</string>
@@ -1436,6 +1433,7 @@
 	<string key="ui_tooltip_read">Lire</string>
 	<string key="ui_tooltip_store">Stocker</string>
 	<string key="ui_purchase_skins">Acheter apparences</string>
+	<string key="ui_tooltip_upgrade">Améliorer</string>
 	<string key="ui_tooltip_take">Prendre</string>
 	<string key="ui_tooltip_split">Diviser</string>
 	<string key="ui_tooltip_weight">Poids : &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{value}&lt;/font&gt;</string>
@@ -1457,6 +1455,10 @@
 	<string key="ui_attach_gem_tooltip">Sertit une gemme taillée depuis votre inventaire.</string>
 	<string key="ui_replace_gem">Remplacer une gemme</string>
 	<string key="ui_replace_gem_tooltip">Remplace la gemme sertie par une autre depuis votre inventaire. La gemme actuelle sera perdue.</string>
+	<string key="ui_upgrade_warning_title">Améliorer l'objet</string>
+	<string key="ui_upgrade_warning_body">Faire passer le score d'équipement de l'objet : {itemName} de {baseGearScore} à {targetGearScore} nécessitera {itemCount} {upgradeItemName}.\n\nVoulez-vous améliorer cet objet ?</string>
+	<string key="ui_upgrade_tooltip_enabled">Appliquez : {itemName} pour augmenter le score d'équipement de cet objet.</string>
+	<string key="ui_upgrade_tooltip_disabled">Il vous faut plus de : {itemName} pour augmenter le score d'équipement de cet objet.</string>
 	<string key="ui_cannot_replace_gem_tooltip">Impossible de remplacer cette gemme.</string>
 	<string key="ui_no_gems_tooltip">Aucune gemme disponible</string>
 	<string key="ui_gem_select_popup_available">Gemmes disponibles</string>
@@ -1852,6 +1854,9 @@
 	<string key="ui_camping_tooltip_tier_3">Bivouac III\n\nPlacez un bivouac de palier 3 pour fabriquer des objets de palier 3, soigner votre personnage et réapparaître au bivouac.\n\nPour faire passer votre bivouac au palier 4, vous devez avoir atteint le niveau 40 et avoir terminé la quête « Argonaute : Loup y es-tu ? ».</string>
 	<string key="ui_camping_tooltip_tier_4">Bivouac IV\n\nPlacez un bivouac de palier 4 pour fabriquer des objets de palier 4, soigner votre personnage et réapparaître au bivouac.\n\nPour faire passer votre bivouac au palier 5, vous devez avoir atteint le niveau 55 et avoir terminé la quête « Argonaute : Lumières vacillantes ».</string>
 	<string key="ui_camping_tooltip_tier_5">Bivouac V\n\nPlacez un bivouac de palier 5 pour fabriquer des objets de palier 5, soigner votre personnage et réapparaître au bivouac.</string>
+	<string key="ui_campskins" rel_version="Feature_Camp_Skins">Apparences de bivouac</string>
+	<string key="ui_campskin" rel_version="Feature_Camp_Skins">Apparence de bivouac</string>
+	<string key="ui_campskin_applied_hint" rel_version="Feature_Camp_Skins">L'apparence sera appliquée sur votre prochain bivouac.</string>
 	<string key="ui_all_level_milestones">Toutes les récompenses de progression</string>
 	<string key="ui_unlock_token_slot">Emplacement de boucle d'oreille</string>
 	<string key="ui_unlock_ring_slot">Emplacement d'anneau</string>
@@ -1877,6 +1882,7 @@
 	<string key="ui_from_strength_and_dexterity">Force et Dextérité</string>
 	<string key="ui_from_dexterity_and_strength">Dextérité et force</string>
 	<string key="ui_from_dexterity_and_intelligence">Dextérité et intelligence</string>
+	<string key="ui_from_strength_and_intelligence">Force et intelligence</string>
 	<string key="ui_from_intelligence">Intelligence</string>
 	<string key="ui_from_focus">Concentration</string>
 	<string key="ui_from_intelligence_and_focus">Intelligence et concentration</string>
@@ -1998,14 +2004,14 @@
 	<string key="ui_yes_colored">&lt;font color="#30e5ab"&gt;Oui.&lt;/font&gt;</string>
 	<string key="ui_no_colored">&lt;font color="#ff7171"&gt;Non.&lt;/font&gt;</string>
 	<string key="ui_mergewarning_short">&lt;font color="#e2a438"&gt;Fusion des mondes dans : {timeRemaining}&lt;/font&gt;</string>
-	<string key="ui_mergewarning_long">La population de ce monde sera fusionnée avec celle de {worldName} à {time}.</string>
+	<string key="ui_mergewarning_long">La population de ce monde sera fusionnée avec {worldName} à {time}.</string>
 	<string key="ui_world_message">Message du monde</string>
 	<string key="ui_mergefaq_question_1">La progression de mon personnage, ma maison et mon inventaire seront-ils conservés ?</string>
 	<string key="ui_mergefaq_question_2">Ma compagnie conservera-t-elle les territoires qu'elle a revendiqués ?</string>
 	<string key="ui_mergefaq_question_3">Conserverai-je ma compagnie ?</string>
 	<string key="ui_mergefaq_question_4">Ma compagnie peut-elle encore déclarer la guerre à d'autres compagnies ?</string>
 	<string key="ui_mergefaq_answer_1">Le niveau, les points de caractéristiques et les points de maîtrise de votre personnage seront conservés, ainsi que votre réputation de territoire, votre maison, votre inventaire et vos rangements de colonie.</string>
-	<string key="ui_mergefaq_answer_2">Les territoires de ce Nouveau Monde seront revendiqués par les compagnies de ce monde. Si votre compagnie n'est pas de ce monde, vous perdez tous vos territoires, toutes les améliorations, et votre compagnie recevra 50 000 pièces.</string>
+	<string key="ui_mergefaq_answer_2">Les territoires de ce Nouveau Monde seront revendiqués par les compagnies de ce monde. Si votre compagnie n'est pas de ce monde, vous perdrez tous vos territoires, toutes les améliorations, et votre compagnie recevra 50 000 pièces.</string>
 	<string key="ui_mergefaq_answer_3">Les joueurs ne seront jamais séparés à la suite d'une fusion de Mondes, et l'appartenance à une compagnie ainsi que la bourse seront conservées.</string>
 	<string key="ui_mergefaq_answer_4">Les joueurs seront avertis 72 heures avant une fusion. Les compagnies ne peuvent pas déclarer de guerre dans ce laps de temps. Les guerres en attente seront annulées et l'or dépensé pour les déclarer entièrement remboursé.</string>
 	<string key="ui_mergewarning_title">FUSION DES MONDES IMMINENTE</string>
@@ -2018,7 +2024,7 @@
 	<string key="ui_mergecomplete_question_3">Ai-je perdu ma compagnie ?</string>
 	<string key="ui_mergecomplete_question_4">Mes ordres de vente et d'achat sont-ils restés affichés ?</string>
 	<string key="ui_mergecomplete_answer_1">Le niveau, les points de caractéristiques et les points de maîtrise de votre personnage ont été conservés, ainsi que votre réputation de territoire, votre maison, votre inventaire et vos rangements de colonie.</string>
-	<string key="ui_mergecomplete_answer_2">Les territoires du nouveau monde seront revendiqués par les compagnies de ce monde. Si votre compagnie n'est pas de ce monde, vous perdrez vos territoires et leurs éventuelles améliorations, et votre compagnie recevra 50 000 pièces en compensation.</string>
+	<string key="ui_mergecomplete_answer_2">Les territoires du nouveau monde seront revendiqués par les compagnies de ce monde. Si votre compagnie n'est pas de ce monde, vous perdrez tous vos territoires, toutes les améliorations, et votre compagnie recevra 50 000 pièces.</string>
 	<string key="ui_mergecomplete_answer_3">La fusion n'a pas séparé les joueurs, et chaque compagnie conserve ses membres et sa bourse. Aucune guerre ne peut être déclarée dans les trois jours précédant la fusion.</string>
 	<string key="ui_mergecomplete_answer_4">Les objets mis en vente vous seront retournés et vous conserverez le montant reçu pour vos ventes partielles. Les montants acquittés pour les taxes ou les frais d'inscription ne seront pas remboursés.</string>
 	<string key="ui_merge_region">Région</string>
@@ -2095,6 +2101,9 @@
 	<string key="ui_fishing_hook_fish_swam_away">Raté... Le poisson a filé !</string>
 	<string key="ui_fishing_cast_missed_water">Votre lancer n'a pas atteint l'eau !</string>
 	<string key="ui_fishing_tension" comment="The fishing line is in tension.">Tension</string>
+	<string key="ui_fishing_divert_level_green">Population de poissons normale</string>
+	<string key="ui_fishing_divert_level_yellow">Population de poissons en baisse !</string>
+	<string key="ui_fishing_divert_level_red">Population de poissons critique !</string>
 	<string key="ui_change_faction_azoth">&lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; {amount}</string>
 	<string key="ui_change_faction_azoth_required">Nécessite &lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; {amount}</string>
 	<string key="ui_faction_cant_pvp">Impossible de changer de faction tant que le mode JcJ est activé.</string>
@@ -2242,10 +2251,16 @@
 	<string key="ui_linktochat_disabled">Le lien vers la discussion est actuellement désactivé.</string>
 	<string key="ui_autopinObjectivesMain">Auto-marquage des quêtes de l'histoire principale</string>
 	<string key="ui_autopinobjectivesMain_desc">Marque automatiquement les quêtes de l'histoire principale à l'interface quand vous les acceptez.</string>
+	<string key="ui_autopinObjectivesSkillProgression">Auto-marquage des quêtes de progression des capacités</string>
+	<string key="ui_autopinobjectivesSkillProgression_desc">Marque automatiquement les quêtes de capacité sur l'interface quand vous les acceptez.</string>
+	<string key="ui_autopinObjectivesEpicEquipment">Auto-marquage des quêtes d'arme et d'armure</string>
+	<string key="ui_autopinobjectivesEpicEquipment_desc">Marque automatiquement les quêtes d'arme et d'armure sur l'interface quand vous les acceptez.</string>
 	<string key="ui_autopinObjectivesSide">Auto-marquage des quêtes annexes</string>
 	<string key="ui_autopinobjectivesSide_desc">Marque automatiquement les quêtes annexes à l'interface quand vous les acceptez.</string>
 	<string key="ui_autopinObjectivesFaction">Auto-marquage des missions de faction</string>
 	<string key="ui_autopinobjectivesFaction_desc">Marque automatiquement les missions de faction à l'interface quand vous les acceptez.</string>
+	<string key="ui_autopinobjectivesEvent">Auto-marquage des quêtes d'événement</string>
+	<string key="ui_autopinobjectivesEvent_desc">Marque automatiquement les quêtes d'événement sur l'interface quand vous les acceptez.</string>
 	<string key="ui_autopinObjectivesComm">Auto-marquage des projets urbains</string>
 	<string key="ui_autopinobjectivesComm_desc">Marque automatiquement les projets urbains à l'interface quand vous les acceptez.</string>
 	<string key="ui_autopinObjectivesCrafting">Auto-marquage des recettes</string>
@@ -2258,5 +2273,9 @@
 	<string key="ui_cannot_trade_currency_blocked">Impossible d'échanger de la monnaie avant d'atteindre le niveau {level} et un compte de plus de {hoursNeeded} heures.</string>
 	<string key="ui_cannot_chat_global_blocked">Impossible de discuter dans ce canal avec un compte de moins de {hoursNeeded} heures.</string>
 	<string key="ui_complete_quests_to_unlock">Déverrouillé en terminant des quêtes dans la colonie.</string>
+	<string key="ui_averageexpertise">Expertise\nmoyenne</string>
+	<string key="ui_averageexpertisetooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;Expertise&lt;/font&gt;\nL'expertise mesure la puissance potentielle des objets lâchés. Les objets lâchés des créatures et dans les zones dont le niveau est supérieur à 60 ont une chance d'augmenter cette valeur. Plus votre niveau d'expertise augmente, plus vous devrez affronter des créatures et des zones puissantes pour voir des augmentations supplémentaires.</string>
+	<string key="ui_itemtypedescription_shield_only">Bouclier</string>
+	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_expertise_small" scale="1" yOffset="3.5"&gt;&lt;/img&gt;{value}</string>
 </resources>
 

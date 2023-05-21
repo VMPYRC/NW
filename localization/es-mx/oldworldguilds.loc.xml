@@ -364,11 +364,11 @@
 	<string key="FactionMission_EXPEDITIONLOOT_title">Saquea {POITags}</string>
 	<string key="FactionMission_EXPEDITIONLOOT_desc">Adéntrate en {POITags} en nombre de los saqueadores y recoge todas las unidades de &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; que haya allí. \n\n&lt;font color="#eaeaea"&gt;(Expedición)&lt;/font&gt;</string>
 	<string key="FactionMission_INTERCEPT_title">Dominar (JcJ)</string>
-	<string key="FactionMission_INTERCEPT_desc">Derrota a miembros del &lt;font color="#eaeaea"&gt;sindicato&lt;/font&gt; o del &lt;font color="#eaeaea"&gt;pacto&lt;/font&gt; por la gloria de los saqueadores.</string>
+	<string key="FactionMission_INTERCEPT_desc">Derrota a miembros del &lt;font color="#eaeaea"&gt;sindicato&lt;/font&gt; o del &lt;font color="#eaeaea"&gt;pacto&lt;/font&gt; por la gloria de los saqueadores.\n\n (Esta misión mantiene tu progreso incluso si mueres)</string>
 	<string key="FactionMission_S_INTERCEPT_title">Erradicar (JcJ)</string>
-	<string key="FactionMission_S_INTERCEPT_desc">Derrota a miembros de los &lt;font color="#eaeaea"&gt;saqueadores&lt;/font&gt; o del &lt;font color="#eaeaea"&gt;pacto&lt;/font&gt; para demostrar nuestra superioridad.</string>
+	<string key="FactionMission_S_INTERCEPT_desc">Derrota a miembros de los &lt;font color="#eaeaea"&gt;saqueadores&lt;/font&gt; o del &lt;font color="#eaeaea"&gt;pacto&lt;/font&gt; para demostrar nuestra superioridad.\n\n (Esta misión mantiene tu progreso incluso si mueres)</string>
 	<string key="FactionMission_C_INTERCEPT_title">Aniquilar (JcJ)</string>
-	<string key="FactionMission_C_INTERCEPT_desc">Derrota a miembros del &lt;font color="#eaeaea"&gt;sindicato&lt;/font&gt; o de los &lt;font color="#eaeaea"&gt;saqueadores&lt;/font&gt; para purificar sus almas.</string>
+	<string key="FactionMission_C_INTERCEPT_desc">Derrota a miembros del &lt;font color="#eaeaea"&gt;sindicato&lt;/font&gt; o de los &lt;font color="#eaeaea"&gt;saqueadores&lt;/font&gt; para purificar sus almas.\n\n (Esta misión mantiene tu progreso incluso si mueres)</string>
 	<string key="FactionMission_S_EXPEDITIONRAID_title">Purga {POITags}</string>
 	<string key="FactionMission_S_EXPEDITIONRAID_desc">Adéntrate en {POITags} en nombre del sindicato y derrota a todos los ejemplares de &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; necesarios. \n\n &lt;font color="#eaeaea"&gt;(Expedición)&lt;/font&gt;</string>
 	<string key="FactionMission_S_EXPEDITIONLOOT_title">Consigue {POITags}</string>
@@ -487,5 +487,20 @@
 	<string key="FactionMission_ASSASSINATE_ELITE_NIGHT_desc">Los saqueadores necesitan eliminar a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; del tablero.\n\nRastréalo en {POITags} y destrúyelo para demostrar tu valor.\n&lt;font color="#eaeaea"&gt;(Élite: el enemigo es nocturno).&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_NIGHT_desc">El sindicato ha identificado a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; como objetivo a eliminar.\n\nRastréalo en {POITags} y destrúyelo.\n&lt;font color="#eaeaea"&gt;(Élite: el enemigo es nocturno).&lt;/font&gt;</string>
 	<string key="FactionMission_C_ASSASSINATE_ELITE_NIGHT_desc">El pacto ha identificado a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; para su eliminación.\n\nDemuestra tu devoción rastreándolo en {POITags} y destruyéndolo.\n &lt;font color="#eaeaea"&gt;(Élite: el enemigo es nocturno).&lt;/font&gt;</string>
+	<string key="CMissionAcquireStoneworker" rel_version="Event_WinterConvergence_Temp">Adquiere y entrega &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; de una estación de cantería.</string>
+	<string key="CMissionAcquireWoodWorker" rel_version="Event_WinterConvergence_Temp">Adquiere y entrega &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; de una estación de carpintería.</string>
+	<string key="CMissionAcquireOutfitter" rel_version="Event_WinterConvergence_Temp">Adquiere y entrega &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; de una estación de equipamiento.</string>
+	<string key="CMissionAcquireEngineer" rel_version="Event_WinterConvergence_Temp">Adquiere y entrega &lt;font color="#eaeaea"&gt;{itemAmount} {itemName}&lt;/font&gt; de un taller.</string>
+	<string key="CMissionAcquireBlock_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan canteros festivos</string>
+	<string key="CMissionAcquireTimber_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan carpinteros festivos</string>
+	<string key="CMissionAcquireCloth_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan tejedores festivos</string>
+	<string key="CMissionAcquireMetal_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan metalurgistas festivos</string>
+	<string key="CMissionAcquireFibers_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan cosechadores festivos</string>
+	<string key="CMissionAcquireFood_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan cocineros festivos</string>
+	<string key="CMissionAcquirePotions_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan alquimistas festivos</string>
+	<string key="CMissionAcquireGeneric_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan suministros festivos</string>
+	<string key="CMissionAcquireWood_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan leñadores festivos</string>
+	<string key="CMissionAcquireRawhide_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan cazadores festivos</string>
+	<string key="CMissionAcquireLeather_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan curtidores festivos</string>
 </resources>
 

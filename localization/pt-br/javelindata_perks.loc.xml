@@ -1513,7 +1513,7 @@
 	<string key="PerkID_Armor_ResistBlight_Name">Resistência a Mácula</string>
 	<string key="PerkID_Armor_ResistBlight_Description">+{[AffixStatDataTable.Affix_Armor_ResistBlight.RESBlight * {perkMultiplier}]} de Resistência a Mácula.</string>
 	<string key="PerkID_Armor_DefCritDmg_Name">Resiliente</string>
-	<string key="PerkID_Armor_DefCritDmg_Description">Acertos críticos causam {[GlobalAbilityTable.Global_Armor_DefCritDmg.BaseDamageReduction * 100 * {perkMultiplier}]}% de dano a menos em você.</string>
+	<string key="PerkID_Armor_DefCritDmg_Description">Acertos críticos causam {[GlobalAbilityTable.Global_Armor_DefCritDmg.CritDamageReduction * 100 * {perkMultiplier}]}% de dano a menos em você.</string>
 	<string key="PerkID_Armor_Durability_Name">Reforçado</string>
 	<string key="PerkID_Armor_Durability_Description">+{[AffixStatDataTable.Affix_Armor_Durability.DurabilityMod * 100 * {perkMultiplier}]}% de aumento de Durabilidade.</string>
 	<string key="PerkID_Armor_DurCC_Name">Liberdade</string>
@@ -1673,7 +1673,7 @@
 	<string key="PerkID_Weapon_DmgBasic_Name">Encantado</string>
 	<string key="PerkID_Weapon_DmgBasic_Description">Ataques Leves e Pesados causam {[GlobalAbilityTable.Global_Weapon_DmgBasic.BaseDamage * 100 * {perkMultiplier}]}% mais dano.</string>
 	<string key="PerkID_WeaponMelee_DmgBack_Name">Ladino</string>
-	<string key="PerkID_WeaponMelee_DmgBack_Description">+{[GlobalAbilityTable.Global_WeaponMelee_DmgBack.CritDamage * 100 * {perkMultiplier}]}% de dano pelas costas.</string>
+	<string key="PerkID_WeaponMelee_DmgBack_Description">+{[GlobalAbilityTable.Global_WeaponMelee_DmgBack.HitFromBehindDamage * 100 * {perkMultiplier}]}% de dano pelas costas.</string>
 	<string key="PerkID_Weapon_CritChance_Name">Afiado</string>
 	<string key="PerkID_Weapon_CritChance_Description">+{[GlobalAbilityTable.Global_Weapon_CritChance.CritChance * 100 * {perkMultiplier}]}% de chance de acerto crítico.</string>
 	<string key="PerkID_WeaponLife_HealOutgoing_Name">Abençoado</string>
@@ -1778,5 +1778,33 @@
 	<string key="PerkID_Gem_Luck3_Description">Você tem +{[Type_StatusEffectData.Status_Perk_Gem_Lucky3.GlobalRollMod * 0.01]}% de chance de conseguir itens raros de baús e monstros.</string>
 	<string key="PerkID_Gem_Luck4_Name">Sortudo IV</string>
 	<string key="PerkID_Gem_Luck4_Description">Você tem +{[Type_StatusEffectData.Status_Perk_Gem_Lucky4.GlobalRollMod * 0.01]}% de chance de conseguir itens raros de baús e monstros.</string>
+	<string key="PerkID_Tools_Efficiency_Logging_Name" rel_version="MorePerksV1">Eficiência de Extração de Madeira</string>
+	<string key="PerkID_Tools_Efficiency_Logging_Description" rel_version="MorePerksV1">Sua velocidade de extração de madeira é aumentada em {[Type_StatusEffectData.Status_Perk_Tools_Efficiency_Logging.EFFLogging * 100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Tools_Efficiency_Mining_Name" rel_version="MorePerksV1">Eficiência de Mineração</string>
+	<string key="PerkID_Tools_Efficiency_Mining_Description" rel_version="MorePerksV1">Sua velocidade de mineração é aumentada em {[Type_StatusEffectData.Status_Perk_Tools_Efficiency_Mining.EFFMining * 100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Tools_Efficiency_Skinning_Name" rel_version="MorePerksV1">Eficiência de Esfolamento</string>
+	<string key="PerkID_Tools_Efficiency_Skinning_Description" rel_version="MorePerksV1">Sua velocidade de esfolamento é aumentada em {[Type_StatusEffectData.Status_Perk_Tools_Efficiency_Skinning.EFFSkinning * 100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Tools_Efficiency_Harvesting_Name" rel_version="MorePerksV1">Eficiência de Colheita</string>
+	<string key="PerkID_Tools_Efficiency_Harvesting_Description" rel_version="MorePerksV1">Sua velocidade de colheita é aumentada em {[Type_StatusEffectData.Status_Perk_Tools_Efficiency_Harvesting.EFFHarvesting * 100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Weapon_Disease_OnLowHP_Crit_Name" rel_version="MorePerksV1">Crítico Flagelado</string>
+	<string key="PerkID_Weapon_Disease_OnLowHP_Crit_Description" rel_version="MorePerksV1">Acertos críticos em alvos abaixo de {[GlobalAbilityTable.Global_Weapon_Disease_OnLowHP_Crit.TargetHealthPercent]}% de saúde infligem enfermidade por {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.BaseDuration]} s, reduzindo a eficácia de cura no alvo em {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.HealMod * -100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Weapon_Disease_OnLowHP_Heavy_Name" rel_version="MorePerksV1">Golpes Flagelados</string>
+	<string key="PerkID_Weapon_Disease_OnLowHP_Heavy_Description" rel_version="MorePerksV1">Ataques pesados em alvos saúde infligem enfermidade por {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.BaseDuration]} s, reduzindo a eficácia de cura no alvo em {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.HealMod * -100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Weapon_DmgAgainstGrit_Name" rel_version="MorePerksV1">Contra-ataque Anulante</string>
+	<string key="PerkID_Weapon_DmgAgainstGrit_Description" rel_version="MorePerksV1">Causa {[GlobalAbilityTable.Global_Weapon_DmgAgainstGrit.BaseDamage * 100 * {perkMultiplier}]}% de dano adicional contra alvos com Afinco ativo.</string>
+	<string key="PerkID_Weapon_DmgWithGrit_Name" rel_version="MorePerksV1">Golpes Anulantes</string>
+	<string key="PerkID_Weapon_DmgWithGrit_Description" rel_version="MorePerksV1">Causa {[GlobalAbilityTable.Global_Weapon_DmgWithGrit.BaseDamage * 100 * {perkMultiplier}]}% de dano adicional enquanto você está com Afinco ativo.</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_DMG_Name" rel_version="MorePerksV1">Golpes Incisivos</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_DMG_Description" rel_version="MorePerksV1">Ataques pesados totalmente carregados causam {[GlobalAbilityTable.Global_Weapon_Melee_ChargedHeavy_DMG.BaseDamage * 100 * {perkMultiplier}]}% de dano adicional.</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_Crit_Name" rel_version="MorePerksV1">Crítico Incisivo</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_Crit_Description" rel_version="MorePerksV1">Ataques pesados totalmente carregados causam {[GlobalAbilityTable.Global_Weapon_Melee_ChargedHeavy_Crit.CritDamage * 100 * {perkMultiplier}]}% de dano crítico adicional.</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_Rend_Name" rel_version="MorePerksV1">Rasgo Incisivo</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_Rend_Description" rel_version="MorePerksV1">Ataques pesados totalmente carregados aplicam vulnerável por {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.BaseDuration]} s, reduzindo a absorção do alvo em {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.ABSStandard * -100]}%. (tempo de recarga de {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend_Timer.BaseDuration]} s)</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_Heal_Name" rel_version="MorePerksV1">Recuperação Incisiva</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_Heal_Description" rel_version="MorePerksV1">Ataques pesados totalmente carregados curam o jogador por {[GlobalAbilityTable.Global_Weapon_Melee_ChargedHeavy_Heal.DmgPctToHealth * 100 * {perkMultiplier}]}% do dano causado.</string>
+	<string key="PerkID_Armor_RangeDefense_Physical_Name" rel_version="MorePerksV1">Aversão Física</string>
+	<string key="PerkID_Armor_RangeDefense_Physical_Description" rel_version="MorePerksV1">Você sofre {[GlobalAbilityTable.Global_Armor_RangeDefense_Physical.BaseDamageReduction * 100 * {perkMultiplier}]}% a menos de dano de ataques padrão físicos a distância.</string>
+	<string key="PerkID_Armor_RangeDefense_Elemental_Name" rel_version="MorePerksV1">Aversão Elemental</string>
+	<string key="PerkID_Armor_RangeDefense_Elemental_Description" rel_version="MorePerksV1">Você sofre {[GlobalAbilityTable.Global_Armor_RangeDefense_Elemental.BaseDamageReduction * 100 * {perkMultiplier}]}% a menos de dano de ataques padrão elementais a distância.</string>
 </resources>
 

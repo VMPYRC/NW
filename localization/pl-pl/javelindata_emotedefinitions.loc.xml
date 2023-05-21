@@ -1,6 +1,7 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="emote_2fingers">{playerName} unosi dwa palce</string>
 	<string key="emote_2thumbsup">{playerName} pokazuje kciuk w górę</string>
+	<string key="emote_bow" rel_version="Emote_Bow">{playerName} kłania się</string>
 	<string key="emote_cheer">{playerName} wiwatuje</string>
 	<string key="emote_chestpound" rel_version="Emote_ChestPound">{playerName} uderza się w klatkę piersiową, by okazać dominację</string>
 	<string key="emote_coin_heads" comment="The top side of a coin">orzeł</string>
@@ -23,6 +24,7 @@
 	<string key="emote_nodeal">{playerName} nie lubi tego</string>
 	<string key="emote_overhere">{playerName} pokazuje ci, że masz tam przyjść</string>
 	<string key="emote_rockpaperscissors" rel_version="New_World_Launch">{playerName} gra w kamień, papier, nożyce</string>
+	<string key="emote_shhh" rel_version="Emote_Shhh">{playerName} ucisza cię</string>
 	<string key="emote_sit" comment="comment">{playerName} siada</string>
 	<string key="emote_throatslit" rel_version="New_World_Launch">{playerName} wykonuje groźny gest</string>
 	<string key="emote_thumbsdown" rel_version="New_World_Launch">{playerName} pokazuje kciuk w dół</string>
@@ -38,6 +40,7 @@
 	<string key="emote_blowkiss" rel_version="New_World_Launch">{playerName} posyła całusa</string>
 	<string key="emote_ahoy" rel_version="New_World_Launch">{playerName} przybiera pozę</string>
 	<string key="emote_fingerwag" rel_version="New_World_Launch">{playerName} mówi "nie, nie, nie"</string>
+	<string key="emote_RussianDance" rel_version="Emote_Leg_Kick_Dance">{playerName} rozpoczyna tradycyjny taniec</string>
 	<string key="ui_emote">Gest</string>
 	<string key="ui_emotes">Gesty</string>
 	<string key="ui_emote_unavailable_reason">Ten gest jest dostępny tylko w przypadku, gdy {entitlementRequirements}.</string>
@@ -60,6 +63,10 @@
 	<string key="ui_emote_Noseblow_description" rel_version="Emote_Noseblow">"Pozbądź się nadmiaru flegmy".</string>
 	<string key="ui_emote_Fist_Shake" rel_version="Emote_Fistshake">Potrząśnięcie pięścią</string>
 	<string key="ui_emote_Fist_Shake_description" rel_version="Emote_Fistshake">"Szlag twe oczy, szelmo!"</string>
+	<string key="ui_emote_Bow" rel_version="Emote_Bow">Ukłon</string>
+	<string key="ui_emote_Bow_description" rel_version="Emote_Bow">"Okaż szacunek w uprzejmy sposób".</string>
+	<string key="ui_emote_shhh" rel_version="Emote_Shhh">Ciiiii</string>
+	<string key="ui_emote_shhh_description" rel_version="Emote_Shhh">"Proszę o ciszę!"</string>
 	<string key="ui_emote_sit">Usiądź</string>
 	<string key="ui_emote_flex">Pręż się</string>
 	<string key="ui_emote_flex2">Pręż się</string>
@@ -144,6 +151,17 @@
 	<string key="ui_emote_Firework4_description" rel_version="Feature_Premium_Emotes">Wystrzeliwuje rakietę w powietrze. Wybucha feerią barw pradawnych.</string>
 	<string key="ui_emote_Firework5_description" rel_version="Feature_Premium_Emotes">Wystrzeliwuje rakietę w powietrze. Na niebie pojawiają się spadające gwiazdy.</string>
 	<string key="ui_emote_Firework6_description" rel_version="Feature_Premium_Emotes">Wystrzeliwuje rakietę w powietrze. Wybucha fontanną iskier.</string>
+	<string key="UI_emote_RussianDance_name" rel_version="Emote_Leg_Kick_Dance">Taniec kozak</string>
+	<string key="UI_emote_RussianDance_description" rel_version="Emote_Leg_Kick_Dance">"Tradycyjny taniec".</string>
+	<string key="emote_Shiver" rel_version="Emote_Shiver">{playerName} dygocze. Brrr!</string>
+	<string key="ui_emote_Shiver_name" rel_version="Emote_Shiver">Dygot</string>
+	<string key="ui_emote_Shiver_description" rel_version="Emote_Shiver">"Skoro już jest mi tak zimno, to nie wiem, co by się działo podczas Wiecznej Zimy!"</string>
+	<string key="emote_BellyLaugh" rel_version="Emote_BellyLaugh">{playerName} wybucha głośnym, serdecznym śmiechem.</string>
+	<string key="ui_emote_BellyLaugh_name" rel_version="Emote_BellyLaugh">Serdeczny śmiech</string>
+	<string key="ui_emote_GivePresent_name" rel_version="Emote_GivePresent">Podaruj prezent</string>
+	<string key="ui_emote_BellyLaugh_description" rel_version="Emote_BellyLaugh">"Głośny, serdeczny śmiech!"</string>
+	<string key="ui_emote_GivePresent_description" rel_version="Emote_GivePresent">"Prezent, który wciąż przynosi coś nowego".</string>
+	<string key="emote_GivePresent" rel_version="Emote_GivePresent">{playerName} wręcza prezent.</string>
 	<string key="ui_emote_SnowAngel_name">Śnieżny anioł</string>
 	<string key="ui_emote_SnowAngel_description">"Aniołów nie ma za dużo na Aeternum. Zwiększ ich liczbę. Tylko uważaj, by sobie czegoś nie odmrozić".</string>
 	<string key="emote_SnowAngel">{playerName} robi anioła w śniegu.</string>

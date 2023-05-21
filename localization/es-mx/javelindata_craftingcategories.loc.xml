@@ -1,6 +1,12 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="GypsumAttunement_GroupName">Afinidad de aljez</string>
+	<string key="CategoryData_CraftingPatterns">Patrones de artesanía</string>
 	<string key="FoodComponents_GroupName">Ingredientes del compuesto</string>
 	<string key="GemstoneT1_GroupName">Gemas imperfectas</string>
+	<string key="GypsumRefining_GroupName">Refinamiento de aljez</string>
+	<string key="GypsumCasting_GroupName">Lanzamiento de aljez</string>
+	<string key="GypsumRaw_GroupName">Orbes de aljez</string>
+	<string key="GypsumCasts_GroupName">Lanzamientos de aljez</string>
 	<string key="GemstoneT2_GroupName">Gemas estándar</string>
 	<string key="GemstoneT3_GroupName">Gemas brillantes</string>
 	<string key="GemstoneT4_GroupName">Gemas prístinas</string>
@@ -1363,8 +1369,8 @@
 	<string key="ModsUncommon_GroupName">Mods poco comunes</string>
 	<string key="MoonstoneCut_GroupDesc">Gemas de piedra de luna cortadas y pulidas. Se pueden usar para elaborar una joya para aumentar la fuerza y la concentración, o se pueden engarzar en una pieza de equipamiento para obtener los beneficios de revancha y de protección contra los cortes.</string>
 	<string key="MoonstoneCut_GroupName">Piedra de luna cortada</string>
-	<string key="Musical_GroupName">Instrumentos musicales</string>
 	<string key="MusketA_GroupDesc">Un arma de ataque a distancia que dispara cartuchos que causan mucho daño. Es ideal para mantener la distancia con los objetivos y el combate de largo alcance, dado que es muy eficaz con una puntería precisa.\n\n•Ataque común: Causa un {[DamageTable.MusketAttack1.DmgCoef * 100]} % de daño de empuje.</string>
+	<string key="Blunderbuss_GroupDesc">Un arma de ataque a distancia en ambientes cerrados que lanza 6 perdigones en un mismo disparo. Es ideal para mantener la presión sobre los objetivos en luchas cuerpo a cuerpo y para tener bien cerca a los objetivos a distancia.\n\n•Ataque estándar: Causa un {[DamageTable.Blunderbuss_Primary_Attack.DmgCoef * 100]} % de daño de empuje por perdigón.</string>
 	<string key="MusketA_GroupName">Mosquete</string>
 	<string key="Muskets_GroupName">Mosquetes</string>
 	<string key="nut_GroupName">Nueces</string>
@@ -1708,6 +1714,8 @@
 	<string key="TimberT5_GroupName">Madera de construcción de nivel 5</string>
 	<string key="TinctureBlight_GroupName">Tinturas de plaga</string>
 	<string key="TinctureCorruption_GroupName">Tinturas de corrupción</string>
+	<string key="Tokens_GroupName">Tokens de Convergencia invernal</string>
+	<string key="TokenCreation_GroupName">Creación de tokens</string>
 	<string key="TokenConversion_GroupName">Conversión</string>
 	<string key="ToolHatchet_GroupDesc">A una mano. Recolecta madera.</string>
 	<string key="ToolHatchet_GroupName">Hachuela</string>
@@ -1781,5 +1789,17 @@
 	<string key="Pattern">Patrones</string>
 	<string key="PatternRecipes">Recetas de patrones</string>
 	<string key="Lodestone">Calamita</string>
+	<string key="AttributeStr">Fuerza</string>
+	<string key="AttributeDex">Destreza</string>
+	<string key="AttributeInt">Inteligencia</string>
+	<string key="AttributeFoc">Concentración</string>
+	<string key="AttributeCon">Constitución</string>
+	<string key="TimelessShardsStr">Fragmento atemporal – Fuerza</string>
+	<string key="TimelessShardsDex">Fragmento atemporal – Destreza</string>
+	<string key="TimelessShardsInt">Fragmento atemporal – Inteligencia</string>
+	<string key="TimelessShardsFoc">Fragmento atemporal – Concentración</string>
+	<string key="TimelessShardsCon">Fragmento atemporal – Constitución</string>
+	<string key="ArmorShadow_GroupName">Caminante de sombras</string>
+	<string key="ArmorBeast_GroupName">Cazador de bestias</string>
 </resources>
 

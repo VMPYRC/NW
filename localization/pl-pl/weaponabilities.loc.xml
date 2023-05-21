@@ -385,7 +385,7 @@
 	<string key="Upgrade_Sword_LeapingStrike_Extra_description" comment="SWORD + MOD">Jeśli trafisz wroga mającego mniej niż 30% zdrowia, zadasz mu o {[SwordAbilityTable.Upgrade_Sword_LeapingStrike_Extra.BaseDamage * 100]}% więcej obrażeń.</string>
 	<string key="Upgrade_Sword_LeapingStrike_Slow" comment="SWORD + MOD">Kara za tchórzostwo</string>
 	<string key="Upgrade_Sword_LeapingStrike_Slow_description" comment="SWORD + MOD">Jeśli doskok i cios trafi cel od tyłu, spowolni go o {[Type_StatusEffectData.Status_Upgrade_Sword_LeapingStrike_Slow.MoveSpeedMod * -100]}% na {[Type_StatusEffectData.Status_Upgrade_Sword_LeapingStrike_Slow.BaseDuration]} s (spowolnienie zmniejsza szybkość ruchu celu).</string>
-	<string key="Passive_Sword_Swordmaster_DmgOnHeavy" comment="SWORD + PASSIVE">Wzmocnione pchnięcie</string>
+	<string key="Passive_Sword_Swordmaster_DmgOnHeavy" comment="SWORD + PASSIVE">Nasączone mocą pchnięcie</string>
 	<string key="Passive_Sword_Swordmaster_DmgOnHeavy_description" comment="SWORD + PASSIVE">Trafienia atakiem ciężkim dają ci {[Type_StatusEffectData.Status_Passive_Sword_Swordmaster_DmgOnHeavy.DMGStandard * 100]}% do nasączenia mocą na {[Type_StatusEffectData.Status_Passive_Sword_Swordmaster_DmgOnHeavy.BaseDuration]} s (nasączenie mocą zwiększa zadawane obrażenia).</string>
 	<string key="Passive_Sword_Swordmaster_SlowOnFinal" comment="SWORD + PASSIVE">Pięta achillesowa</string>
 	<string key="Passive_Sword_Swordmaster_SlowOnFinal_description" comment="SWORD + PASSIVE">Ostatni atak w serii ataków lekkich powoduje spowolnienie o {[Type_StatusEffectData.Status_Passive_Sword_Swordmaster_SlowOnFinal.MoveSpeedMod * -100]}% na {[Type_StatusEffectData.Status_Passive_Sword_Swordmaster_SlowOnFinal.BaseDuration]} s (spowolnienie zmniejsza szybkość ruchu celu).</string>
@@ -622,7 +622,7 @@
 	<string key="SharpshooterTree0Passive2_description" comment="MUSKET  +  PASSIVE">Obrażenia zadawane muszkietem zwiększają się o {[MusketAbilityTable.Passive_Musket_Sharpshooter_DMGIfAim2Sec.BaseDamage * 100]}% po celowaniu przez przyrządy dłuższym niż {[MusketAbilityTable.Passive_Musket_Sharpshooter_DMGIfAim2Sec.InActionTime]} s.</string>
 	<string key="SharpshooterTree0Passive3" comment="MUSKET  +  PASSIVE">Lepsza celność</string>
 	<string key="SharpshooterTree0Passive3_description" comment="MUSKET  +  PASSIVE">Usuwa karę do celności podczas ostrzału z biodra</string>
-	<string key="SharpshooterTree0Passive4" comment="MUSKET  +  PASSIVE">Wzmacniający strzał w głowę</string>
+	<string key="SharpshooterTree0Passive4" comment="MUSKET  +  PASSIVE">Nasączający mocą strzał w głowę</string>
 	<string key="SharpshooterTree0Passive4_description" comment="MUSKET  +  PASSIVE">Gdy trafisz w głowę, zyskasz nasączenie mocą zwiększające zadawane obrażenia o {[Type_StatusEffectData.Musket_Pass_EmpowerOnHeadshot.DMGStandard * 100]}% na {[Type_StatusEffectData.Musket_Pass_EmpowerOnHeadshot.BaseDuration]} s.</string>
 	<string key="SharpshooterTree0Passive5" comment="MUSKET  +  PASSIVE">Balistyczna przewaga</string>
 	<string key="SharpshooterTree0Passive5_description" comment="MUSKET  +  PASSIVE">Usuwa zmniejszenie obrażeń standardowych strzałów muszkietu oddanych do celów znajdujących się powyżej 50 m od ciebie.</string>
@@ -660,7 +660,7 @@
 	<string key="TrapperTree1Passive2_description" comment="MUSKET  +  PASSIVE">Zwiększa szybkość chodu i ruchu przy strzelaniu o {[Type_StatusEffectData.Musket_Pass_WalkSpeedWhileNearEnemy.MoveSpeedMod * 100]}%, gdy wróg znajduje się w promieniu 8 m od ciebie.</string>
 	<string key="TrapperTree1Passive3" comment="MUSKET  +  PASSIVE">Osłabienie obrony</string>
 	<string key="TrapperTree1Passive3_description" comment="MUSKET  +  PASSIVE">Zwiększa utratę wytrzymałości wywoływaną przez standardowe strzały u wrogów blokujących za pomocą tarczy o {[MusketAbilityTable.Passive_Musket_Trapper_StamDMGPenetrate.BlockDamage * 100]}%. Zwiększa penetrację pancerza u celów nieblokujących za pomocą tarczy o {[MusketAbilityTable.Passive_Musket_Trapper_StamDMGPenetrate.ArmorPenetration * 100]}%.</string>
-	<string key="TrapperTree1Passive4" comment="MUSKET  +  PASSIVE">Wzmacniające osłabienie</string>
+	<string key="TrapperTree1Passive4" comment="MUSKET  +  PASSIVE">Nasączające mocą osłabienie</string>
 	<string key="TrapperTree1Passive4_description" comment="MUSKET  +  PASSIVE">Trafienie wroga będącego pod działaniem negatywnego efektu daje nasączenie mocą zwiększające zadawane obrażenia o {[Type_StatusEffectData.Musket_Pass_EmpowerOnDebuffHit.DMGStandard * 100]}% na {[Type_StatusEffectData.Musket_Pass_EmpowerOnDebuffHit.BaseDuration]} s.</string>
 	<string key="TrapperTree1Passive5" comment="MUSKET  +  PASSIVE">Krzątanina</string>
 	<string key="TrapperTree1Passive5_description" comment="MUSKET  +  PASSIVE">Unik daje {[Type_StatusEffectData.Musket_Pass_HasteOnDodge.MovespeedMod * 100]}% przyspieszenia na {[Type_StatusEffectData.Musket_Pass_HasteOnDodge.BaseDuration]} s (przyspieszenie zwiększa szybkość ruchu).</string>
@@ -695,7 +695,7 @@
 	<string key="WreckingBall_Mod1" comment="WARHAMMER + MOD">Przezorny zawsze ubezpieczony</string>
 	<string key="WreckingBall_Mod1_description" comment="WARHAMMER + MOD">Po trafieniu zyskujesz umocnienie zapewniające {[Type_StatusEffectData.WarHammer_WreckingBall_Fortify.ABSStandard * 100]}% odporności na obrażenia na {[Type_StatusEffectData.WarHammer_WreckingBall_Fortify.BaseDuration]} s.</string>
 	<string key="WreckingBall_Mod2" comment="WARHAMMER + MOD">Przestrzeń osobista</string>
-	<string key="WreckingBall_Mod2_description" comment="WARHAMMER + MOD">Powala wszystkie cele znajdujące się w promieniu 1,5 m od celu.</string>
+	<string key="WreckingBall_Mod2_description" comment="WARHAMMER + MOD">Powala wszystkie cele znajdujące się w promieniu 1,5 m od miejsca uderzenia.</string>
 	<string key="JuggernautTree0Passive1" comment="WARHAMMER  +  PASSIVE">Przyspieszona zagłada</string>
 	<string key="JuggernautTree0Passive1_description" comment="WARHAMMER  +  PASSIVE">Zwiększa o {[WarHammerAbilityTable.Passive_WarHammer_Juggernaut_LightHeavyPenetrate.ArmorPenetration * 100]}% penetrację pancerza wszystkich ataków lekkich i ciężkich młota bojowego.</string>
 	<string key="JuggernautTree0Passive2" comment="WARHAMMER  +  PASSIVE">Młoty w dłoń</string>
@@ -904,7 +904,7 @@
 	<string key="IceSpikes_description" comment="ICEMAGIC + ACTIVE">Tworzy szereg kolców, który ciągnie się od gracza w linii prostej przez 8 m, zadając {[DamageTable.IceMagic_Spikes.DmgCoef * 100]}% obrażeń od broni. Kończy się on potężnym kolcem zadającym {[DamageTable.IceMagic_Spikes_End.DmgCoef * 100]}% obrażeń od broni i odpychającym cele. Wykonanie ataku lekkiego w trakcie wywoła potężny kolec wcześniej.\n\nKoszt: 15 many.</string>
 	<string key="RefreshingSpikes" comment="ICEMAGIC + MOD">Odświeżające kolce</string>
 	<string key="RefreshingSpikes_description" comment="ICEMAGIC + MOD">Czas odnowienia tej umiejętności jest skracany o 10%, gdy wróg zostanie trafiony potężnym kolcem.</string>
-	<string key="EmpoweredSpikes" comment="ICEMAGIC + MOD">Wzmocnione kolce</string>
+	<string key="EmpoweredSpikes" comment="ICEMAGIC + MOD">Nasączone mocą kolce</string>
 	<string key="EmpoweredSpikes_description" comment="ICEMAGIC + MOD">Potężny kolec zadaje o 20% więcej obrażeń, gdy trafi wroga mającego mniej niż 30% zdrowia.</string>
 	<string key="DeadlyPath" comment="ICEMAGIC + MOD">Ścieżka śmierci</string>
 	<string key="DeadlyPath_description" comment="ICEMAGIC + MOD">Szereg kolców zadaje o 10% więcej obrażeń i wywołuje zachwianie u celów. Nie zwiększa obrażeń zadawanych przez potężny kolec.</string>
@@ -966,7 +966,7 @@
 	<string key="IceConjurorPass1_description" comment="ICEMAGIC + PASSIVE">Blokowanie ataku lodową rękawicą przekształca manę w wytrzymałość. Zamienia 3 punkty many na 15 punktów wytrzymałości.</string>
 	<string key="IceConjurorPass2" comment="ICEMAGIC + PASSIVE">Mroźny pęd</string>
 	<string key="IceConjurorPass2_description" comment="ICEMAGIC + PASSIVE">Zwiększa szybkość ruchu o 10%, gdy przebywasz na zamrożonym obszarze.</string>
-	<string key="IceConjurorPass3" comment="ICEMAGIC + PASSIVE">Wzmacniający mróz</string>
+	<string key="IceConjurorPass3" comment="ICEMAGIC + PASSIVE">Nasączony mocą mróz</string>
 	<string key="IceConjurorPass3_description" comment="ICEMAGIC + PASSIVE">Przebywając na zamrożonym obszarze, zyskasz 3 punkty many za każde rzucone zaklęcie.</string>
 	<string key="IceConjurorPass4" comment="ICEMAGIC + PASSIVE">Mroźny dotyk</string>
 	<string key="IceConjurorPass4_description" comment="ICEMAGIC + PASSIVE">Gdy masz pełne zdrowie i wróg trafi cię atakiem wręcz, spowolnisz go o 25% na 2 s (spowolnienie zmniejsza szybkość ruchu celu).</string>
@@ -975,6 +975,6 @@
 	<string key="IceConjurorPass6" comment="ICEMAGIC + PASSIVE">Lodowa bariera</string>
 	<string key="IceConjurorPass6_description" comment="ICEMAGIC + PASSIVE">Aktywowanie zdolności lodowej rękawicy stworzy lodową barierę zapewniającą 20% do umocnienia na 2 s (umocnienie zmniejsza otrzymywane obrażenia).</string>
 	<string key="IceConjurorUltimate" comment="ICEMAGIC + PASSIVE">Ostateczny mróz</string>
-	<string key="IceConjurorUltimate_description" comment="ICEMAGIC + PASSIVE">Podwaja zdrowie lodowego pylonu i powiększa promień zamrożonego obszaru wokół pylonu do 5 m. W tej strefie premie mroźnego pędu i wzmacniającego mrozu są podwojone.</string>
+	<string key="IceConjurorUltimate_description" comment="ICEMAGIC + PASSIVE">Podwaja zdrowie lodowego pylonu i powiększa promień zamrożonego obszaru wokół pylonu do 5 m. W tej strefie premie mroźnego pędu i nasączonego mocą mrozu są podwojone.</string>
 </resources>
 

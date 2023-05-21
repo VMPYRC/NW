@@ -54,6 +54,10 @@
 	<string key="cr_add_quickslot">In die &lt;font color="#c0c0c0"&gt;Schnellleiste&lt;/font&gt; gelegt.</string>
 	<string key="cr_add_equipment">Zur &lt;font color="#c0c0c0"&gt;Ausrüstung&lt;/font&gt; gelegt.</string>
 	<string key="cr_cantcraft">Nicht möglich</string>
+	<string key="cr_alreadycrafted" rel_version="Feature_Camp_Skins">Bereits hergestellt</string>
+	<string key="cr_unlockrecipe_info" rel_version="Feature_Camp_Skins">Dies ist ein einmalig herstellbarer und charaktergebundener Skin. Sobald du ihn hergestellt hast, ist er im Menü "Zeltlager-Skins" verfügbar.</string>
+	<string key="cr_campskin_title" rel_version="Feature_Camp_Skins">Verwendung:</string>
+	<string key="cr_campskin_desc" rel_version="Feature_Camp_Skins">Klicke im Inventar auf dein Zeltlager, um den Skin zu ändern.\nZeltlageraufbau muss freigeschaltet sein, wenn du diesen Skin verwenden willst.</string>
 	<string key="cr_tier1">Rang &lt;img src="lyshineui/images/crafting/crafting_tier_1" scale="0.6" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="cr_tier2">Rang &lt;img src="lyshineui/images/crafting/crafting_tier_2" scale="0.6" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="cr_tier3">Rang &lt;img src="lyshineui/images/crafting/crafting_tier_3" scale="0.6" yOffset="2"&gt;&lt;/img&gt;</string>
@@ -150,7 +154,7 @@
 	<string key="crafting_azothadded">Azoth hinzugefügt</string>
 	<string key="crafting_carried">Im Inventar</string>
 	<string key="crafting_noitem">Kein Gegenstand</string>
-	<string key="crafting_showowned">Besessene Gegenstände</string>
+	<string key="crafting_showowned">Gegenstände in Besitz</string>
 	<string key="crafting_primary_ingredient">(PRIMÄR)</string>
 	<string key="crafting_perkselectiontitle">BESONDEREN ROHSTOFF AUSWÄHLEN</string>
 	<string key="crafting_perkselectiondesc">Durch das Hinzufügen eines Spezialrohstoffs erhält dieser Gegenstand einen bestimmten Effekt. Es kann nur ein besonderer Rohstoff hinzugefügt werden.</string>
@@ -218,5 +222,6 @@
 	<string key="crafting_filter_placeholder">Nach Name filtern ...</string>
 	<string key="crafting_category_select_title">{type} AUSWÄHLEN</string>
 	<string key="crafting_discount_base">Grundgebühr</string>
+	<string key="ui_crafting_resource_origin_message">Hinweis: Verwendete Rohstoffe werden erst deinem Inventar und dann dem Siedlungslager entnommen.</string>
 </resources>
 

@@ -1,6 +1,12 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="GypsumAttunement_GroupName">Harmonização de Gipsita</string>
+	<string key="CategoryData_CraftingPatterns">Padrões de Confecção</string>
 	<string key="FoodComponents_GroupName">Ingredientes de Composto</string>
 	<string key="GemstoneT1_GroupName">Gemas Imperfeitas</string>
+	<string key="GypsumRefining_GroupName">Refinamento de Gipsita</string>
+	<string key="GypsumCasting_GroupName">Fundição de Gipsita</string>
+	<string key="GypsumRaw_GroupName">Orbes de Gipsita</string>
+	<string key="GypsumCasts_GroupName">Moldes de Gipsita</string>
 	<string key="GemstoneT2_GroupName">Gemas Regulares</string>
 	<string key="GemstoneT3_GroupName">Gemas Brilhantes</string>
 	<string key="GemstoneT4_GroupName">Gemas Puras</string>
@@ -1363,8 +1369,8 @@
 	<string key="ModsUncommon_GroupName">Mods Incomuns</string>
 	<string key="MoonstoneCut_GroupDesc">Gemas de Pedra Lunar Lapidadas e Polidas. Podem ser transformadas em joias para aumentar Força e Foco ou fixadas em equipamentos para fornecer as vantagens Exultante e Proteção de Corte.</string>
 	<string key="MoonstoneCut_GroupName">Pedra Lunar Lapidada</string>
-	<string key="Musical_GroupName">Instrumentos Musicais</string>
 	<string key="MusketA_GroupDesc">Uma arma a distância que dispara cartuchos de dano alto. Ideal para manter alvos distantes e para combater a distância com um benefício alto para uma mira precisa.\n\n•Ataque Padrão: Causa {[DamageTable.MusketAttack1.DmgCoef * 100]}% de Dano Perfurante.</string>
+	<string key="Blunderbuss_GroupDesc">Uma arma a distância que dispara 6 projéteis em uma única explosão. Ideal para manter a pressão sobre alvos corpo a corpo e chegar com tudo para cima de alvos a distância.\n\n•Ataque Padrão: Causa {[DamageTable.Blunderbuss_Primary_Attack.DmgCoef * 100]}% de Dano Perfurante por projétil.</string>
 	<string key="MusketA_GroupName">Mosquete</string>
 	<string key="Muskets_GroupName">Mosquetes</string>
 	<string key="nut_GroupName">Castanhas</string>
@@ -1708,6 +1714,8 @@
 	<string key="TimberT5_GroupName">Tábua de Escala 5</string>
 	<string key="TinctureBlight_GroupName">Extratos Maculados</string>
 	<string key="TinctureCorruption_GroupName">Extratos de Corrupção</string>
+	<string key="Tokens_GroupName">Tokens da Convergência de Inverno</string>
+	<string key="TokenCreation_GroupName">Criação de Token</string>
 	<string key="TokenConversion_GroupName">Conversão de Token</string>
 	<string key="ToolHatchet_GroupDesc">1 Mão. Coleta madeira.</string>
 	<string key="ToolHatchet_GroupName">Machadinha</string>
@@ -1781,5 +1789,17 @@
 	<string key="Pattern">Padrões</string>
 	<string key="PatternRecipes">Receitas de padrão</string>
 	<string key="Lodestone">Magnetita</string>
+	<string key="AttributeStr">Força</string>
+	<string key="AttributeDex">Destreza</string>
+	<string key="AttributeInt">Inteligência</string>
+	<string key="AttributeFoc">Foco</string>
+	<string key="AttributeCon">Constituição</string>
+	<string key="TimelessShardsStr">Fragmentos Atemporais — Força</string>
+	<string key="TimelessShardsDex">Fragmentos Atemporais — Destreza</string>
+	<string key="TimelessShardsInt">Fragmentos Atemporais — Inteligência</string>
+	<string key="TimelessShardsFoc">Fragmentos Atemporais — Foco</string>
+	<string key="TimelessShardsCon">Fragmentos Atemporais — Constituição</string>
+	<string key="ArmorShadow_GroupName">Andarilho das Sombras</string>
+	<string key="ArmorBeast_GroupName">Caçador de Feras</string>
 </resources>
 

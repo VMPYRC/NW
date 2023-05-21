@@ -1,6 +1,12 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="GypsumAttunement_GroupName">Afinidad de aljez</string>
+	<string key="CategoryData_CraftingPatterns">Patrones de artesanía</string>
 	<string key="FoodComponents_GroupName">Ingredientes del compuesto</string>
 	<string key="GemstoneT1_GroupName">Gemas imperfectas</string>
+	<string key="GypsumRefining_GroupName">Refinado de aljez</string>
+	<string key="GypsumCasting_GroupName">Moldeado de aljez</string>
+	<string key="GypsumRaw_GroupName">Orbes de aljez</string>
+	<string key="GypsumCasts_GroupName">Moldes de aljez</string>
 	<string key="GemstoneT2_GroupName">Gemas estándar</string>
 	<string key="GemstoneT3_GroupName">Gemas brillantes</string>
 	<string key="GemstoneT4_GroupName">Gemas impecables</string>
@@ -1363,8 +1369,8 @@
 	<string key="ModsUncommon_GroupName">Modificadores poco comunes</string>
 	<string key="MoonstoneCut_GroupDesc">Gemas de piedra de luna talladas y pulidas. Sirven para fabricar joyas que aumentan la fuerza y la concentración. También se pueden engarzar en el equipo para obtener las ventajas Revancha y Protección contra cortes.</string>
 	<string key="MoonstoneCut_GroupName">Piedra de luna tallada</string>
-	<string key="Musical_GroupName">Instrumentos musicales</string>
 	<string key="MusketA_GroupDesc">Armas a distancia que disparan cartuchos e infligen mucho daño. Son ideales para mantener al enemigo a raya y en combates de larga distancia, y recompensan la precisión.\n\n•Ataque estándar: Inflige {[DamageTable.MusketAttack1.DmgCoef * 100]} % de daño de estocada.</string>
+	<string key="Blunderbuss_GroupDesc">Un arma a distancia de corto alcance que dispara 6 perdigones en un solo disparo. Ideal para mantener la presión sobre objetivos cuerpo a cuerpo y acercarse a objetivos a distancia.\n\n•Ataque estándar: Inflige un {[DamageTable.Blunderbuss_Primary_Attack.DmgCoef * 100]} % de daño de estocada por perdigón.</string>
 	<string key="MusketA_GroupName">Mosquetes</string>
 	<string key="Muskets_GroupName">Mosquetes</string>
 	<string key="nut_GroupName">Frutos secos</string>
@@ -1708,6 +1714,8 @@
 	<string key="TimberT5_GroupName">Maderos de clase 5</string>
 	<string key="TinctureBlight_GroupName">Pócimas contra la infección</string>
 	<string key="TinctureCorruption_GroupName">Pócimas contra la corrupción</string>
+	<string key="Tokens_GroupName">Blasones de Convergencia Invernal</string>
+	<string key="TokenCreation_GroupName">Creación de blasones</string>
 	<string key="TokenConversion_GroupName">Conversión de blasones</string>
 	<string key="ToolHatchet_GroupDesc">A una mano. Para recolectar madera.</string>
 	<string key="ToolHatchet_GroupName">Destrales</string>
@@ -1781,5 +1789,17 @@
 	<string key="Pattern">Patrones</string>
 	<string key="PatternRecipes">Recetas de patrones</string>
 	<string key="Lodestone">Calamita</string>
+	<string key="AttributeStr">Fuerza</string>
+	<string key="AttributeDex">Destreza</string>
+	<string key="AttributeInt">Inteligencia</string>
+	<string key="AttributeFoc">Concentración</string>
+	<string key="AttributeCon">Constitución</string>
+	<string key="TimelessShardsStr">Fragmentos intemporales: fuerza</string>
+	<string key="TimelessShardsDex">Fragmentos intemporales: destreza</string>
+	<string key="TimelessShardsInt">Fragmentos intemporales: inteligencia</string>
+	<string key="TimelessShardsFoc">Fragmentos intemporales: concentración</string>
+	<string key="TimelessShardsCon">Fragmentos intemporales: constitución</string>
+	<string key="ArmorShadow_GroupName">Caminasombras</string>
+	<string key="ArmorBeast_GroupName">Cazabestias</string>
 </resources>
 

@@ -1,6 +1,12 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="GypsumAttunement_GroupName">Harmonisation de gypse</string>
+	<string key="CategoryData_CraftingPatterns">Patrons de fabrication</string>
 	<string key="FoodComponents_GroupName">Ingrédients composés</string>
 	<string key="GemstoneT1_GroupName">Pierres précieuses impures</string>
+	<string key="GypsumRefining_GroupName">Transformation de gypse</string>
+	<string key="GypsumCasting_GroupName">Moulage en gypse</string>
+	<string key="GypsumRaw_GroupName">Orbes de gypse</string>
+	<string key="GypsumCasts_GroupName">Moules en gypse</string>
 	<string key="GemstoneT2_GroupName">Pierres précieuses standard</string>
 	<string key="GemstoneT3_GroupName">Pierres précieuses éclatantes</string>
 	<string key="GemstoneT4_GroupName">Pierres précieuses immaculées</string>
@@ -1363,8 +1369,8 @@
 	<string key="ModsUncommon_GroupName">Modificateurs insolites</string>
 	<string key="MoonstoneCut_GroupDesc">Pierres précieuses taillées et polies : pierre de lune. Peuvent être transformées en bijoux pour augmenter la force et la concentration, ou serties sur de l'équipement pour lui conférer les atouts Euphorique et Protection anti-taille.</string>
 	<string key="MoonstoneCut_GroupName">Pierre de lune taillée</string>
-	<string key="Musical_GroupName">Instruments de musique</string>
 	<string key="MusketA_GroupDesc">Une arme à distance qui tire de puissantes cartouches. Idéale pour se battre à distance sans laisser ses cibles approcher. À manier avec précision pour infliger de lourds dégâts.\n\n•Attaque standard : Inflige {[DamageTable.MusketAttack1.DmgCoef * 100]} % de dégâts d'estoc.</string>
+	<string key="Blunderbuss_GroupDesc">Une arme à courte distance qui tiret 6 plombs par détonation. Parfait pour maintenir la pression sur des cibles luttant au corps à corps et pour en découdre avec des cibles tirant à distance.\n\n•Attaque standard : inflige {[DamageTable.Blunderbuss_Primary_Attack.DmgCoef * 100]} % de dégâts d'estoc par plomb.</string>
 	<string key="MusketA_GroupName">Mousquet</string>
 	<string key="Muskets_GroupName">Mousquets</string>
 	<string key="nut_GroupName">Noix</string>
@@ -1708,6 +1714,8 @@
 	<string key="TimberT5_GroupName">Bois d'œuvre – palier 5</string>
 	<string key="TinctureBlight_GroupName">Teintures mères de dépérissement</string>
 	<string key="TinctureCorruption_GroupName">Teintures mères d'altération</string>
+	<string key="Tokens_GroupName">Marques de la Convergence hivernale</string>
+	<string key="TokenCreation_GroupName">Création de marques</string>
 	<string key="TokenConversion_GroupName">Conversion de jetons</string>
 	<string key="ToolHatchet_GroupDesc">À une main. Pour obtenir du bois.</string>
 	<string key="ToolHatchet_GroupName">Hachette</string>
@@ -1781,5 +1789,17 @@
 	<string key="Pattern">Plans</string>
 	<string key="PatternRecipes">Recettes de plans</string>
 	<string key="Lodestone">Magnétite</string>
+	<string key="AttributeStr">Force</string>
+	<string key="AttributeDex">Dextérité</string>
+	<string key="AttributeInt">Intelligence</string>
+	<string key="AttributeFoc">Concentration</string>
+	<string key="AttributeCon">Forme</string>
+	<string key="TimelessShardsStr">Éclats intemporels – Force</string>
+	<string key="TimelessShardsDex">Éclats intemporels – Dextérité</string>
+	<string key="TimelessShardsInt">Éclats intemporels – Intelligence</string>
+	<string key="TimelessShardsFoc">Éclats intemporels – Concentration</string>
+	<string key="TimelessShardsCon">Éclats intemporels – Forme</string>
+	<string key="ArmorShadow_GroupName">Marcheur de l'ombre</string>
+	<string key="ArmorBeast_GroupName">Chasseur de monstres</string>
 </resources>
 

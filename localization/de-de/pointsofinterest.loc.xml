@@ -219,7 +219,7 @@
 	<string key="ui_poi_abandoned_village_40307">Verworrene Gemeinde</string>
 	<string key="ui_poi_crater_brutalthicket_50310">Dornenbuschklippe</string>
 	<string key="ui_poi_corrupted_fort_alchemy_00_40315">Ausbrecherfort</string>
-	<string key="ui_poi_ancient_buttress_40120">Wellenbrecherschutzwehr</string>
+	<string key="ui_poi_ancient_buttress_40120">Wellenbrecherfeste</string>
 	<string key="ui_poi_undeadbastion_30127">Brigantenbastion</string>
 	<string key="ui_poi_wolf_den_30006">Hellaugenbau</string>
 	<string key="ui_poi_outpost_brightwood_a">Lichtmark</string>
@@ -1510,6 +1510,8 @@
 	<string key="ui_poi_devworld_cave_description">Eine Höhle mit Spawn-skalierenden Wölfen.</string>
 	<string key="ui_poi_devworld_spawns">Dev-Welt-Spawns</string>
 	<string key="ui_poi_devworld_spawns_description">Spawnende Technikdemos.</string>
+	<string key="ui_poi_devworld_dummies">Entwickler-Welt-Zielattrappengebiet</string>
+	<string key="ui_poi_devworld_dummies_description">Ein Testgebiet mit zahlreichen Zielattrappen.</string>
 	<string key="ui_poi_fish_hotspot_broad">Gewöhnliche Angelstelle</string>
 	<string key="ui_poi_fish_hotspot_broad_description">Die Fische springen aus dem Wasser!</string>
 	<string key="ui_poi_fish_hotspot_rare">Seltene Angelstelle</string>
@@ -1704,6 +1706,10 @@
 	<string key="ui_poi_spiritshrine_01_30251_description">Geisterschrein</string>
 	<string key="ui_poi_spiritshrine_02_30314">Schrein des Verliebten</string>
 	<string key="ui_poi_spiritshrine_02_30314_description">Geisterschrein</string>
+	<string key="ui_poi_spiritshrine_20208">Kaiserlicher Schrein</string>
+	<string key="ui_poi_spiritshrine_20208_description">Geisterschrein</string>
+	<string key="ui_poi_spiritshrine_20209">@ui_poi_spiritshrine_20209</string>
+	<string key="ui_poi_spiritshrine_20209_description">Geisterschrein</string>
 	<string key="ui_poi_vikingshipwreck_40039">Vigrid</string>
 	<string key="ui_poi_vikingshipwreck_40039_description">Schiffe aus dem Norden und auf ihnen Geister der verfluchten Crews.</string>
 	<string key="ui_poi_Tauros_06SW09">Tauros</string>
@@ -1716,14 +1722,38 @@
 	<string key="ui_poi_keep_40283_description" rel_version="AI_Evil_Knights_P1">Verfallene Ruinen, ein neues Leben beginnt,\nbis der Schleier der Zuflucht auch hier bald zerrinnt.</string>
 	<string key="ui_poi_camp_40040" rel_version="AI_Evil_Knights_P1">Kriegslager "Las Torres"</string>
 	<string key="ui_poi_camp_40040_description" rel_version="AI_Evil_Knights_P1">Silbern glitzert das Rasiermesserband.\nEin Fußabdruck, geritzt in gelben Sand.</string>
+	<string key="ui_poi_yeti_30144" rel_version="Event_WinterConvergence_Perm">Haris Schlucht</string>
+	<string key="ui_poi_yeti_30144_description" rel_version="Event_WinterConvergence_Perm">Landmarke</string>
+	<string key="ui_poi_yeti_30252" rel_version="Event_WinterConvergence_Perm">Zufluchtsstätte der Ruhe</string>
+	<string key="ui_poi_yeti_30252_description" rel_version="Event_WinterConvergence_Perm">Landmarke</string>
+	<string key="ui_poi_yeti_40041" rel_version="Event_WinterConvergence_Perm">Unterschlupf der Krone des Lichts</string>
+	<string key="ui_poi_yeti_40041_description" rel_version="Event_WinterConvergence_Perm">Landmarke</string>
+	<string key="ui_poi_yeti_40172" rel_version="Event_WinterConvergence_Perm">Kaskadenhöhle</string>
+	<string key="ui_poi_yeti_40172_description" rel_version="Event_WinterConvergence_Perm">Landmarke</string>
+	<string key="ui_poi_yeti_40173" rel_version="Event_WinterConvergence_Perm">Rames' Refugium</string>
+	<string key="ui_poi_yeti_40173_description" rel_version="Event_WinterConvergence_Perm">Landmarke</string>
 	<string key="ui_poi_yeti_40346">Grauschleier-Grotte</string>
 	<string key="ui_poi_yeti_40346_description">Landmarke</string>
 	<string key="ui_poi_yeti_40347">Eisige Schnelligkeit</string>
 	<string key="ui_poi_yeti_40347_description">Landmarke</string>
 	<string key="ui_poi_yeti_40426">Reifwolfs Rückzug</string>
 	<string key="ui_poi_yeti_40426_description">Landmarke</string>
+	<string key="ui_poi_yeti_40427" rel_version="Event_WinterConvergence_Perm">Höhlenforschers Untergang</string>
+	<string key="ui_poi_yeti_40427_description" rel_version="Event_WinterConvergence_Perm">Landmarke</string>
+	<string key="ui_poi_yeti_50399" rel_version="Event_WinterConvergence_Perm">Profane Aussicht</string>
+	<string key="ui_poi_yeti_50399_description" rel_version="Event_WinterConvergence_Perm">Landmarke</string>
+	<string key="ui_poi_yeti_50424" rel_version="Event_WinterConvergence_Perm">Isvaris Isolation</string>
+	<string key="ui_poi_yeti_50424_description" rel_version="Event_WinterConvergence_Perm">Landmarke</string>
 	<string key="ui_poi_yeti_60352">Hochpass-Schlupfwinkel</string>
 	<string key="ui_poi_yeti_60352_description">Landmarke</string>
+	<string key="ui_poi_40348_wintervillage" rel_version="Event_WinterConvergence_Temp">Winterdorf</string>
+	<string key="ui_poi_40348_wintervillage_description" rel_version="Event_WinterConvergence_Temp">Ein geheimnisvolles Dorf, so schneebedeckt wie heiter, ist auf Aeternum erschienen. Willkommen zur Winterkonvergenz!</string>
+	<string key="ui_poi_wintervillage_50151" rel_version="Event_WinterConvergence_Temp">Winterdorf</string>
+	<string key="ui_poi_wintervillage_50151_description" rel_version="Event_WinterConvergence_Temp">Ein geheimnisvolles Dorf, so schneebedeckt wie heiter, ist auf Aeternum erschienen. Willkommen zur Winterkonvergenz!</string>
+	<string key="ui_poi_50300_wintervillage" rel_version="Event_WinterConvergence_Temp">Winterdorf</string>
+	<string key="ui_poi_50300_wintervillage_description" rel_version="Event_WinterConvergence_Temp">Ein geheimnisvolles Dorf, so schneebedeckt wie heiter, ist auf Aeternum erschienen. Willkommen zur Winterkonvergenz!</string>
+	<string key="ui_poi_wintervillage_30145" rel_version="Event_WinterConvergence_Temp">Winterdorf</string>
+	<string key="ui_poi_wintervillage_30145_description" rel_version="Event_WinterConvergence_Temp">Ein geheimnisvolles Dorf, so schneebedeckt wie heiter, ist auf Aeternum erschienen. Willkommen zur Winterkonvergenz!</string>
 	<string key="ui_poi_factionarea_40284">Rabenklippe-Grasland</string>
 	<string key="ui_poi_factionarea_40285">Westlich vom Weidensee</string>
 	<string key="ui_poi_factionarea_40286">Kreuzung des Glaubens</string>

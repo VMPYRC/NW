@@ -1513,7 +1513,7 @@
 	<string key="PerkID_Armor_ResistBlight_Name">Resistencia a la plaga</string>
 	<string key="PerkID_Armor_ResistBlight_Description">+{[AffixStatDataTable.Affix_Armor_ResistBlight.RESBlight * {perkMultiplier}]} de resistencia a la plaga</string>
 	<string key="PerkID_Armor_DefCritDmg_Name">Resiliencia</string>
-	<string key="PerkID_Armor_DefCritDmg_Description">Los impactos críticos te infligen un {[GlobalAbilityTable.Global_Armor_DefCritDmg.BaseDamageReduction * 100 * {perkMultiplier}]} % menos de daño.</string>
+	<string key="PerkID_Armor_DefCritDmg_Description">Los impactos críticos te infligen un {[GlobalAbilityTable.Global_Armor_DefCritDmg.CritDamageReduction * 100 * {perkMultiplier}]} % menos de daño.</string>
 	<string key="PerkID_Armor_Durability_Name">Reforzado</string>
 	<string key="PerkID_Armor_Durability_Description">+{[AffixStatDataTable.Affix_Armor_Durability.DurabilityMod * 100 * {perkMultiplier}]} % de durabilidad.</string>
 	<string key="PerkID_Armor_DurCC_Name">Libertad</string>
@@ -1673,7 +1673,7 @@
 	<string key="PerkID_Weapon_DmgBasic_Name">Encantamiento</string>
 	<string key="PerkID_Weapon_DmgBasic_Description">Los ataques ligeros y pesados infligen un {[GlobalAbilityTable.Global_Weapon_DmgBasic.BaseDamage * 100 * {perkMultiplier}]} % más de daño.</string>
 	<string key="PerkID_WeaponMelee_DmgBack_Name">Sigilo</string>
-	<string key="PerkID_WeaponMelee_DmgBack_Description">+{[GlobalAbilityTable.Global_WeaponMelee_DmgBack.CritDamage * 100 * {perkMultiplier}]} % de daño por la espalda.</string>
+	<string key="PerkID_WeaponMelee_DmgBack_Description">+{[GlobalAbilityTable.Global_WeaponMelee_DmgBack.HitFromBehindDamage * 100 * {perkMultiplier}]} % de daño por la espalda.</string>
 	<string key="PerkID_Weapon_CritChance_Name">Avidez</string>
 	<string key="PerkID_Weapon_CritChance_Description">+{[GlobalAbilityTable.Global_Weapon_CritChance.CritChance * 100 * {perkMultiplier}]} % de probabilidad de impacto crítico.</string>
 	<string key="PerkID_WeaponLife_HealOutgoing_Name">Bendición</string>
@@ -1778,5 +1778,33 @@
 	<string key="PerkID_Gem_Luck3_Description">Tienes +{[Type_StatusEffectData.Status_Perk_Gem_Lucky3.GlobalRollMod * 0.01]} % de probabilidad de encontrar objetos poco frecuentes en los cofres y tras derrotar a monstruos.</string>
 	<string key="PerkID_Gem_Luck4_Name">Fortuna IV</string>
 	<string key="PerkID_Gem_Luck4_Description">Tienes +{[Type_StatusEffectData.Status_Perk_Gem_Lucky4.GlobalRollMod * 0.01]} % de probabilidad de encontrar objetos poco frecuentes en los cofres y tras derrotar a monstruos.</string>
+	<string key="PerkID_Tools_Efficiency_Logging_Name" rel_version="MorePerksV1">Eficiencia de tala</string>
+	<string key="PerkID_Tools_Efficiency_Logging_Description" rel_version="MorePerksV1">Tu velocidad de tala aumenta en un {[Type_StatusEffectData.Status_Perk_Tools_Efficiency_Logging.EFFLogging * 100 * {perkMultiplier}]} %.</string>
+	<string key="PerkID_Tools_Efficiency_Mining_Name" rel_version="MorePerksV1">Eficiencia minera</string>
+	<string key="PerkID_Tools_Efficiency_Mining_Description" rel_version="MorePerksV1">Tu velocidad de minería aumenta en un {[Type_StatusEffectData.Status_Perk_Tools_Efficiency_Mining.EFFMining * 100 * {perkMultiplier}]} %.</string>
+	<string key="PerkID_Tools_Efficiency_Skinning_Name" rel_version="MorePerksV1">Eficiencia desolladora</string>
+	<string key="PerkID_Tools_Efficiency_Skinning_Description" rel_version="MorePerksV1">Tu velocidad de desuello aumenta en un {[Type_StatusEffectData.Status_Perk_Tools_Efficiency_Skinning.EFFSkinning * 100 * {perkMultiplier}]} %.</string>
+	<string key="PerkID_Tools_Efficiency_Harvesting_Name" rel_version="MorePerksV1">Eficiencia cosechadora</string>
+	<string key="PerkID_Tools_Efficiency_Harvesting_Description" rel_version="MorePerksV1">Tu velocidad de cosecha aumenta en un {[Type_StatusEffectData.Status_Perk_Tools_Efficiency_Harvesting.EFFHarvesting * 100 * {perkMultiplier}]} %.</string>
+	<string key="PerkID_Weapon_Disease_OnLowHP_Crit_Name" rel_version="MorePerksV1">Críticos de la plaga</string>
+	<string key="PerkID_Weapon_Disease_OnLowHP_Crit_Description" rel_version="MorePerksV1">Los impactos críticos contra objetivos con menos del {[GlobalAbilityTable.Global_Weapon_Disease_OnLowHP_Crit.TargetHealthPercent]} % de salud infligen Enfermedad durante {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.BaseDuration]} segundos, lo que reduce la efectividad de las curas al objetivo en un {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.HealMod * -100 * {perkMultiplier}]} %.</string>
+	<string key="PerkID_Weapon_Disease_OnLowHP_Heavy_Name" rel_version="MorePerksV1">Golpes de la plaga</string>
+	<string key="PerkID_Weapon_Disease_OnLowHP_Heavy_Description" rel_version="MorePerksV1">Los ataques pesados infligen Enfermedad durante {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.BaseDuration]} segundos, lo que reduce la efectividad de las curas al objetivo en un {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.HealMod * -100 * {perkMultiplier}]} %.</string>
+	<string key="PerkID_Weapon_DmgAgainstGrit_Name" rel_version="MorePerksV1">Contraataque boicoteador</string>
+	<string key="PerkID_Weapon_DmgAgainstGrit_Description" rel_version="MorePerksV1">Hace un {[GlobalAbilityTable.Global_Weapon_DmgAgainstGrit.BaseDamage * 100 * {perkMultiplier}]} % de daño adicional contra objetivos con coraje activo.</string>
+	<string key="PerkID_Weapon_DmgWithGrit_Name" rel_version="MorePerksV1">Golpes boicoteadores</string>
+	<string key="PerkID_Weapon_DmgWithGrit_Description" rel_version="MorePerksV1">Hace un {[GlobalAbilityTable.Global_Weapon_DmgWithGrit.BaseDamage * 100 * {perkMultiplier}]} % de daño adicional cuando tienes coraje activo.</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_DMG_Name" rel_version="MorePerksV1">Golpes agudos</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_DMG_Description" rel_version="MorePerksV1">Los ataques pesados completamente cargados hacen un {[GlobalAbilityTable.Global_Weapon_Melee_ChargedHeavy_DMG.BaseDamage * 100 * {perkMultiplier}]} % de daño adicional.</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_Crit_Name" rel_version="MorePerksV1">Críticos agudos</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_Crit_Description" rel_version="MorePerksV1">Los ataques pesados completamente cargados hacen un {[GlobalAbilityTable.Global_Weapon_Melee_ChargedHeavy_Crit.CritDamage * 100 * {perkMultiplier}]} % de daño crítico adicional.</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_Rend_Name" rel_version="MorePerksV1">Desgarro agudo</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_Rend_Description" rel_version="MorePerksV1">Los ataques pesados completamente cargados infligen el efecto Desgarro durante {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.BaseDuration]} segundos, lo que reduce la absorción del objetivo en un {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.ABSStandard * -100]} %. ({[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend_Timer.BaseDuration]} segundos de tiempo de recarga).</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_Heal_Name" rel_version="MorePerksV1">Recuperación aguda</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_Heal_Description" rel_version="MorePerksV1">Recuperas una cantidad de salud igual al {[GlobalAbilityTable.Global_Weapon_Melee_ChargedHeavy_Heal.DmgPctToHealth * 100 * {perkMultiplier}]} % del daño infligido con ataques pesados completamente cargados.</string>
+	<string key="PerkID_Armor_RangeDefense_Physical_Name" rel_version="MorePerksV1">Aversión física</string>
+	<string key="PerkID_Armor_RangeDefense_Physical_Description" rel_version="MorePerksV1">Recibes un {[GlobalAbilityTable.Global_Armor_RangeDefense_Physical.BaseDamageReduction * 100 * {perkMultiplier}]} % menos de daño de los ataques físicos estándar a distancia.</string>
+	<string key="PerkID_Armor_RangeDefense_Elemental_Name" rel_version="MorePerksV1">Aversión elemental</string>
+	<string key="PerkID_Armor_RangeDefense_Elemental_Description" rel_version="MorePerksV1">Recibes un {[GlobalAbilityTable.Global_Armor_RangeDefense_Elemental.BaseDamageReduction * 100 * {perkMultiplier}]} % menos de daño de los ataques elementales estándar a distancia.</string>
 </resources>
 

@@ -1513,7 +1513,7 @@
 	<string key="PerkID_Armor_ResistBlight_Name">Odporność na zarazę</string>
 	<string key="PerkID_Armor_ResistBlight_Description">+{[AffixStatDataTable.Affix_Armor_ResistBlight.RESBlight * {perkMultiplier}]} do odporności na zarazę.</string>
 	<string key="PerkID_Armor_DefCritDmg_Name">Nieustępliwość</string>
-	<string key="PerkID_Armor_DefCritDmg_Description">Otrzymujesz {[GlobalAbilityTable.Global_Armor_DefCritDmg.BaseDamageReduction * 100 * {perkMultiplier}]}% mniej obrażeń krytycznych.</string>
+	<string key="PerkID_Armor_DefCritDmg_Description">Otrzymujesz {[GlobalAbilityTable.Global_Armor_DefCritDmg.CritDamageReduction * 100 * {perkMultiplier}]}% mniej obrażeń krytycznych.</string>
 	<string key="PerkID_Armor_Durability_Name">Zbrojenie</string>
 	<string key="PerkID_Armor_Durability_Description">Zwiększa trwałość o {[AffixStatDataTable.Affix_Armor_Durability.DurabilityMod * 100 * {perkMultiplier}]}%.</string>
 	<string key="PerkID_Armor_DurCC_Name">Wolność</string>
@@ -1673,7 +1673,7 @@
 	<string key="PerkID_Weapon_DmgBasic_Name">Zaklinanie</string>
 	<string key="PerkID_Weapon_DmgBasic_Description">Ataki lekkie i ciężkie zadają {[GlobalAbilityTable.Global_Weapon_DmgBasic.BaseDamage * 100 * {perkMultiplier}]}% więcej obrażeń.</string>
 	<string key="PerkID_WeaponMelee_DmgBack_Name">Łotrzyk</string>
-	<string key="PerkID_WeaponMelee_DmgBack_Description">+{[GlobalAbilityTable.Global_WeaponMelee_DmgBack.CritDamage * 100 * {perkMultiplier}]}% do obrażeń od dźgnięć w plecy.</string>
+	<string key="PerkID_WeaponMelee_DmgBack_Description">+{[GlobalAbilityTable.Global_WeaponMelee_DmgBack.HitFromBehindDamage * 100 * {perkMultiplier}]}% do obrażeń od dźgnięć w plecy.</string>
 	<string key="PerkID_Weapon_CritChance_Name">Ostrość</string>
 	<string key="PerkID_Weapon_CritChance_Description">+{[GlobalAbilityTable.Global_Weapon_CritChance.CritChance * 100 * {perkMultiplier}]}% szansy na trafienie krytyczne.</string>
 	<string key="PerkID_WeaponLife_HealOutgoing_Name">Błogosławieństwo</string>
@@ -1778,5 +1778,33 @@
 	<string key="PerkID_Gem_Luck3_Description">+{[Type_StatusEffectData.Status_Perk_Gem_Lucky3.GlobalRollMod * 0.01]}% do szansy na uzyskanie rzadkich przedmiotów ze skrzyń i potworów.</string>
 	<string key="PerkID_Gem_Luck4_Name">Szczęście IV</string>
 	<string key="PerkID_Gem_Luck4_Description">+{[Type_StatusEffectData.Status_Perk_Gem_Lucky4.GlobalRollMod * 0.01]}% do szansy na uzyskanie rzadkich przedmiotów ze skrzyń i potworów.</string>
+	<string key="PerkID_Tools_Efficiency_Logging_Name" rel_version="MorePerksV1">Skuteczność drwala</string>
+	<string key="PerkID_Tools_Efficiency_Logging_Description" rel_version="MorePerksV1">Zwiększa szybkość wyrębu o {[Type_StatusEffectData.Status_Perk_Tools_Efficiency_Logging.EFFLogging * 100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Tools_Efficiency_Mining_Name" rel_version="MorePerksV1">Skuteczność górnicza</string>
+	<string key="PerkID_Tools_Efficiency_Mining_Description" rel_version="MorePerksV1">Zwiększa szybkość górnictwa o {[Type_StatusEffectData.Status_Perk_Tools_Efficiency_Mining.EFFMining * 100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Tools_Efficiency_Skinning_Name" rel_version="MorePerksV1">Skuteczność skórowania</string>
+	<string key="PerkID_Tools_Efficiency_Skinning_Description" rel_version="MorePerksV1">Zwiększa szybkość skórowania o {[Type_StatusEffectData.Status_Perk_Tools_Efficiency_Skinning.EFFSkinning * 100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Tools_Efficiency_Harvesting_Name" rel_version="MorePerksV1">Skuteczność żniwiarska</string>
+	<string key="PerkID_Tools_Efficiency_Harvesting_Description" rel_version="MorePerksV1">Zwiększa szybkość żniw o {[Type_StatusEffectData.Status_Perk_Tools_Efficiency_Harvesting.EFFHarvesting * 100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Weapon_Disease_OnLowHP_Crit_Name" rel_version="MorePerksV1">Krytyczna zaraza</string>
+	<string key="PerkID_Weapon_Disease_OnLowHP_Crit_Description" rel_version="MorePerksV1">Trafienie krytyczne celu, który ma mniej niż {[GlobalAbilityTable.Global_Weapon_Disease_OnLowHP_Crit.TargetHealthPercent]}% zdrowia, na {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.BaseDuration]} s nałoży na niego chorobę zmniejszającą jego skuteczność leczenia o {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.HealMod * -100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Weapon_Disease_OnLowHP_Heavy_Name" rel_version="MorePerksV1">Zaraźliwe ciosy</string>
+	<string key="PerkID_Weapon_Disease_OnLowHP_Heavy_Description" rel_version="MorePerksV1">Gdy trafisz cel atakiem ciężkim, na {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.BaseDuration]} s nałożysz na niego chorobę zmniejszającą jego skuteczność leczenia o {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.HealMod * -100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Weapon_DmgAgainstGrit_Name" rel_version="MorePerksV1">Zniechęcająca kontra</string>
+	<string key="PerkID_Weapon_DmgAgainstGrit_Description" rel_version="MorePerksV1">Zadajesz {[GlobalAbilityTable.Global_Weapon_DmgAgainstGrit.BaseDamage * 100 * {perkMultiplier}]}% dodatkowych obrażeń celom z aktywną determinacją.</string>
+	<string key="PerkID_Weapon_DmgWithGrit_Name" rel_version="MorePerksV1">Zniechęcające ciosy</string>
+	<string key="PerkID_Weapon_DmgWithGrit_Description" rel_version="MorePerksV1">Zadajesz {[GlobalAbilityTable.Global_Weapon_DmgWithGrit.BaseDamage * 100 * {perkMultiplier}]}% dodatkowych obrażeń, gdy masz aktywną determinację.</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_DMG_Name" rel_version="MorePerksV1">Stanowcze ciosy</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_DMG_Description" rel_version="MorePerksV1">W pełni naładowany atak ciężki zadaje {[GlobalAbilityTable.Global_Weapon_Melee_ChargedHeavy_DMG.BaseDamage * 100 * {perkMultiplier}]}% dodatkowych obrażeń.</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_Crit_Name" rel_version="MorePerksV1">Stanowcze trafienia krytyczne</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_Crit_Description" rel_version="MorePerksV1">W pełni naładowany atak ciężki zadaje {[GlobalAbilityTable.Global_Weapon_Melee_ChargedHeavy_Crit.CritDamage * 100 * {perkMultiplier}]}% dodatkowych obrażeń krytycznych.</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_Rend_Name" rel_version="MorePerksV1">Stanowcze rozdarcie</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_Rend_Description" rel_version="MorePerksV1">W pełni naładowany atak ciężki nakłada na cel rozdarcie trwające {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.BaseDuration]} s i zmniejszające jego zdolność do pochłaniania obrażeń o {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.ABSStandard * -100]}% (czas odnowienia: {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend_Timer.BaseDuration]} s).</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_Heal_Name" rel_version="MorePerksV1">Stanowcze uzdrowienie</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_Heal_Description" rel_version="MorePerksV1">W pełni naładowany atak ciężki przywraca zdrowie w wysokości {[GlobalAbilityTable.Global_Weapon_Melee_ChargedHeavy_Heal.DmgPctToHealth * 100 * {perkMultiplier}]}% zadanych obrażeń.</string>
+	<string key="PerkID_Armor_RangeDefense_Physical_Name" rel_version="MorePerksV1">Awersja fizyczna</string>
+	<string key="PerkID_Armor_RangeDefense_Physical_Description" rel_version="MorePerksV1">Otrzymujesz {[GlobalAbilityTable.Global_Armor_RangeDefense_Physical.BaseDamageReduction * 100 * {perkMultiplier}]}% mniej obrażeń od zwykłych fizycznych ataków dystansowych.</string>
+	<string key="PerkID_Armor_RangeDefense_Elemental_Name" rel_version="MorePerksV1">Awersja na żywioły</string>
+	<string key="PerkID_Armor_RangeDefense_Elemental_Description" rel_version="MorePerksV1">Otrzymujesz {[GlobalAbilityTable.Global_Armor_RangeDefense_Elemental.BaseDamageReduction * 100 * {perkMultiplier}]}% mniej obrażeń od zwykłych żywiołowych ataków dystansowych.</string>
 </resources>
 

@@ -81,6 +81,8 @@
 	<string key="mm_loginservices_warning_Abusive">Du wurdest gemeldet. Grund: Anstößiges Verhalten.</string>
 	<string key="mm_loginservices_warning_Leaking">Du wurdest gemeldet. Grund: Veröffentlichen/Verbreiten geschützter Inhalte</string>
 	<string key="mm_loginservices_warning_Disruptive">Du wurdest gemeldet. Grund: Störendes Verhalten</string>
+	<string key="mm_loginservices_CreateCharacterFailed">Charaktererstellung fehlgeschlagen</string>
+	<string key="mm_loginservices_CreateCharacterRateLimit">Du hast in letzter Zeit zu viele Charaktere erstellt. Bitte versuche es nochmal nach &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{duration}&lt;/font&gt; (&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{dateandtime}&lt;/font&gt;).</string>
 	<string key="mm_loginservices_UnknownCharacter">Anmeldung verweigert: Der Charakter existiert nicht.</string>
 	<string key="mm_loginservices_InactiveCharacter">Anmeldung verweigert: Der Charakter wurde gelöscht.</string>
 	<string key="mm_loginservices_MustRenameCharacter">Anmeldung verweigert: Der Charakter muss umbenannt werden.</string>
@@ -130,12 +132,13 @@
 	<string key="mm_csdkerr_nil_send">Spielverbindungsfehler.</string>
 	<string key="mm_csdkerr_invalid_endpoint">Ungültige Serververbindung.</string>
 	<string key="mm_csdkerr_connection_failed">Verbindung zum Server fehlgeschlagen.</string>
+	<string key="mm_csdkerr_transport_version_mismatch">Der Server verwendet eine inkompatible Netzwerkversion. Bitte aktualisiere das Spiel und versuche es erneut.</string>
 	<string key="mm_csdkerr_registration_failed">Keine Verbindung zum Server möglich.</string>
 	<string key="mm_csdkerr_registration_unmarshal_error">Datenfehler auf dem Server, suche bitte nach einem aktuellen Patch.</string>
 	<string key="mm_csdkerr_disconnect">Unerwartete Servertrennnung. Verbindungsaufbau ...</string>
 	<string key="mm_csdkerr_replicate_timeout">Zeitüberschreitung während der Statussynchronisierung.</string>
 	<string key="mm_csdkerr_registration_failed_retry">Serververbindung fehlgeschlagen</string>
-	<string key="mm_connerr_rep_registration_timeout">Es konnte keine Verbindung zum Server hergestellt werden.</string>
+	<string key="mm_connerr_rep_registration_timeout">Verbindung zum Server nicht möglich. Bitte überprüfe deine Internetverbindung und versuche es erneut.</string>
 	<string key="mm_connerr_game_timeout">Zeitüberschreitung, während auf Spielgeschehen auf dem Server gewartet wurde.</string>
 	<string key="mm_connerr_spawn_point_timeout">Zeitüberschreitung bei Warten auf Spawnpunkt.</string>
 	<string key="mm_connerr_aoi_timeout">Zeitüberschreitung, während der Server die Welt wiedergab.</string>
@@ -192,8 +195,8 @@
 	<string key="mm_authresult_Denied_CapacityLimitReached">Die Server sind gerade beschäftigt. Versuche es bitte später erneut.</string>
 	<string key="mm_authresult_Denied_SoftTTLExceeded">Server-TTL überschritten. Versuche es bitte später erneut.</string>
 	<string key="mm_authresult_Denied_HardTTLExceeded">Server-TTL überschritten. Versuche es bitte später erneut.</string>
-	<string key="mm_authresult_Denied_VersionCheckFailed">Unterschied zwischen Server- und Client-Version. Bitte aktualisiere den Client über den Launcher.</string>
-	<string key="mm_authresult_Denied_TypeIndexMismatch">Client-Version nicht kompatibel. Bitte update deinen Client über unseren Launcher.</string>
+	<string key="mm_authresult_Denied_VersionCheckFailed">Der Server verwendet eine andere Version des Spiels. Bitte aktualisiere das Spiel und versuche es dann erneut.</string>
+	<string key="mm_authresult_Denied_TypeIndexMismatch">Der Server verwendet eine inkompatible Version des Spiels. Bitte aktualisiere das Spiel und versuche es dann erneut.</string>
 	<string key="mm_authresult_Denied_LoginTokenSignatureInvalid">Ungültige Anmelde-Token-Signatur.</string>
 	<string key="mm_authresult_Denied_LoginTokenExpired">Anmeldung ist abgelaufen. Versuche es bitte erneut.</string>
 	<string key="mm_authresult_Denied_LoginTokenWorldIdInvalid">Das Anmelde-Token ist für die ausgewählte Welt nicht gültig.</string>
@@ -334,8 +337,27 @@
 	<string key="ui_cooking">Kochkunst</string>
 	<string key="ui_engineering">Ingenieurskunst</string>
 	<string key="ui_engineering_desc">Stelle Fernkampfwaffen und Möbel her.</string>
+	<string key="ui_kiln">Gips-Ofen</string>
+	<string key="ui_kiln_desc">Gips kann hier hergestellt und veredelt werden.</string>
 	<string key="ui_furnishing">Tischlerei</string>
 	<string key="ui_wildernesssurvival" comment="wilderness survival is not a trainable skill and is always equal to the character's level, so just tell users it's their character level for simplicity">Charakter</string>
+	<string key="ui_weaponsmithing_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Weaponsmithing Post Cap</string>
+	<string key="ui_armoring_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Armoring Post Cap</string>
+	<string key="ui_jewelcrafting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Jewelcrafting Post Cap</string>
+	<string key="ui_arcana_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Arcana Post Cap</string>
+	<string key="ui_cooking_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Cooking Post Cap</string>
+	<string key="ui_fishing_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Fishing Post Cap</string>
+	<string key="ui_furnishing_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Furnishing Post Cap</string>
+	<string key="ui_engineering_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Engineering Post Cap</string>
+	<string key="ui_smelting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Smelting Post Cap</string>
+	<string key="ui_woodworking_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Woodworking Post Cap</string>
+	<string key="ui_leatherworking_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Leatherworking Post Cap</string>
+	<string key="ui_weaving_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Weaving Post Cap</string>
+	<string key="ui_stonecutting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Stonecutting Post Cap</string>
+	<string key="ui_skinning_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Skinning Post Cap</string>
+	<string key="ui_mining_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Mining Post Cap</string>
+	<string key="ui_logging_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Logging Post Cap</string>
+	<string key="ui_harvesting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Harvesting Post Cap</string>
 	<string key="ui_decline">Ablehnen</string>
 	<string key="ui_name_your_avatar">Gib deinem Charakter einen Namen</string>
 	<string key="ui_portrait_title">Mein Porträt</string>

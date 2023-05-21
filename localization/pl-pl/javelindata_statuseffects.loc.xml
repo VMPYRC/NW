@@ -70,7 +70,7 @@
 	<string key="drinking_DisplayName">Pije</string>
 	<string key="feasting_DisplayName">Posila się</string>
 	<string key="ResetAI_DisplayName">Ucieczka</string>
-	<string key="VillagerFrenzy_DisplayName">Wzmocniony eliksir skażenia</string>
+	<string key="VillagerFrenzy_DisplayName">Nasączony mocą eliksir skażenia</string>
 	<string key="MinorFoodMagicAbsorption_DisplayName">Niewielkie pochłanianie obrażeń arkanistycznych</string>
 	<string key="MinorFoodMagicAbsorption_Tooltip">Zwiększa pochłanianie obrażeń arkanistycznych o 2,0.</string>
 	<string key="MinorFoodFireAbsorption_DisplayName">Niewielkie pochłanianie obrażeń od ognia</string>
@@ -418,7 +418,7 @@
 	<string key="UndeadBrute_Consume_Description">Regeneruje {[Type_StatusEffectData.UndeadBrute_Consume.HealthModifierPercent * 100]}% podstawowego zdrowia co {[Type_StatusEffectData.UndeadBrute_Consume.TickRate]} s i zwiększa podstawowe obrażenia o {[Type_StatusEffectData.UndeadBrute_Consume.DMGStandard]} na {[Type_StatusEffectData.UndeadBrute_Consume.BaseDuration]} s.</string>
 	<string key="WitheredMinionFrenzy_DisplayName">Szał</string>
 	<string key="WitheredMinionFrenzy_Description">Zwiększa podstawowe obrażenia o {[Type_StatusEffectData.WitheredMinionFrenzy.DMGStandard]} na {[Type_StatusEffectData.WitheredMinionFrenzy.BaseDuration]} s.</string>
-	<string key="BogMonsterPowerSpore_DisplayName">Wzmacniające zarodniki</string>
+	<string key="BogMonsterPowerSpore_DisplayName">Nasączające mocą zarodniki</string>
 	<string key="BogMonsterPowerSpore_Description">Zwiększa podstawowe obrażenia o {[Type_StatusEffectData.Bog_Monster_Power_Spore.DMGStandard * 100]}% na {[Type_StatusEffectData.Bog_Monster_Power_Spore.BaseDuration]} s. Oddziałuje na pobliskich sojuszników.</string>
 	<string key="AI_FireDamage_Buff_DisplayName">Podpalenie</string>
 	<string key="AI_CorruptionDamage_Buff_DisplayName">Otchłanność</string>
@@ -519,6 +519,14 @@
 	<string key="AI_Isabella_Phase2_TouchOfCorruption_Tooltip">Cierpisz wskutek skażenia, którego efekty działają na ciebie co {[Type_StatusEffectData.AI_Isabella_Phase2_TouchOfCorruption.TickRate]} przez {[Type_StatusEffectData.AI_Isabella_Phase2_TouchOfCorruption.BaseDuration]} s.</string>
 	<string key="AI_Mage_Miniboss_Orbs_StatusEffect_DisplayName">Arkanistyczna esencja</string>
 	<string key="AI_Mage_Miniboss_Orbs_StatusEffect_Tooltip">Magiczka wysysa z ciebie esencję, by się uleczyć.</string>
+	<string key="AI_IceDryad_Frostgrip_IceVein_Root_DisplayName" rel_version="Event_WinterConvergence_Perm">Uziemienie</string>
+	<string key="AI_IceDryad_Frostgrip_IceVein_Root_Tooltip" rel_version="Event_WinterConvergence_Perm">Uziemienie i brak możliwości ruchu przez {[Type_StatusEffectData.AI_IceDryad_Frostgrip_IceVein_Root.BaseDuration]} s.</string>
+	<string key="AI_IceDryad_Frostgrip_IceField_Slow_DisplayName" rel_version="Event_WinterConvergence_Perm">Spowolnienie</string>
+	<string key="AI_IceDryad_Frostgrip_IceField_Slow_Tooltip" rel_version="Event_WinterConvergence_Perm">Szybkość ruchu ulega zmniejszeniu o {[Type_StatusEffectData.AI_IceDryad_Frostgrip_IceField_Slow.MoveSpeedMod * -100]}% na {[Type_StatusEffectData.AI_IceDryad_Frostgrip_IceField_Slow.BaseDuration]} s.</string>
+	<string key="AI_IceDryad_Frostfang_Buff_Empower_DisplayName" rel_version="Event_WinterConvergence_Perm">Nasączenie mocą</string>
+	<string key="AI_IceDryad_Frostfang_Buff_Empower_Tooltip" rel_version="Event_WinterConvergence_Perm">Zwiększa zadawane obrażenia określonego rodzaju przez {[Type_StatusEffectData.Type_StatusEffectData.AI_IceDryad_Frostfang_Buff_Empower.BaseDuration * 100]} s.</string>
+	<string key="AI_IceDryad_Frostfang_Debuff_Weaken_DisplayName" rel_version="Event_WinterConvergence_Perm">Osłabienie</string>
+	<string key="AI_IceDryad_Frostfang_Debuff_Weaken_Tooltip" rel_version="Event_WinterConvergence_Perm">Zmniejsza zadawane obrażenia większości rodzajów przez {[Type_StatusEffectData.AI_IceDryad_Frostfang_Debuff_Weaken.BaseDuration]} s.</string>
 	<string key="godModeThirst_DisplayName">Tryb boga</string>
 	<string key="godModeHealth_DisplayName">Tryb boga</string>
 	<string key="godModeAll_DisplayName">Tryb boga</string>
@@ -839,7 +847,7 @@
 	<string key="IceMagic_Freeze_DisplayName">Zamrożenie</string>
 	<string key="IceMagic_Freeze_Description">Zamraża na 1 sekundę.</string>
 	<string key="IceMagic_UltimateChill_DisplayName">Ostateczny chłód</string>
-	<string key="IceMagic_UltimateChill_Description">Zwiększa otrzymywane obrażenia od lodu o 35%.</string>
+	<string key="IceMagic_UltimateChill_Description">Zwiększa otrzymywane obrażenia od lodu o {[Type_StatusEffectData.IceMagic_UltimateChill.WKNIce * 100]}%.</string>
 	<string key="IceMagic_StrengthenedTomb_DisplayName">Wzmocniony sarkofag</string>
 	<string key="IceMagic_StrengthenedTomb_Description">Zwiększa liczbę pkt pancerza o 25%.</string>
 	<string key="IceMagic_IceStorm_Weaken_DisplayName">Osłabiający podmuch</string>
@@ -1028,8 +1036,8 @@
 	<string key="RiposteRendPerk2_Description">Otrzymujesz {[Type_StatusEffectData.RiposteRendPerk2.ABSStrike * 100]}% więcej obrażeń każdego rodzaju przez {[Type_StatusEffectData.RiposteRendPerk2.BaseDuration]} s.</string>
 	<string key="RiposteRendPerk3_Description">Otrzymujesz {[Type_StatusEffectData.RiposteRendPerk3.ABSStrike * 100]}% więcej obrażeń każdego rodzaju przez {[Type_StatusEffectData.RiposteRendPerk3.BaseDuration]} s.</string>
 	<string key="OR_Boss_Buff">Upiorna potęga</string>
-	<string key="OR_Boss_Buff_Description">Zapewnia ochronę i regenerację zdrowia</string>
-	<string key="Status_Empower">Wzmocnienie</string>
+	<string key="OR_Boss_Buff_Description">+{[Type_StatusEffectData.OutpostRush_Boss_Buff.ABSStandard * 100]}% do pochłaniania obrażeń i +{[Type_StatusEffectData.OutpostRush_Boss_Buff.Health * 4]} do regeneracji zdrowia na sekundę.</string>
+	<string key="Status_Empower">Nasączenie mocą</string>
 	<string key="Status_Fortify">Umocnienie</string>
 	<string key="Status_Haste">Przyspieszenie</string>
 	<string key="Status_Slow">Spowolnienie</string>
@@ -1218,12 +1226,12 @@
 	<string key="Status_Perk_Weapon_OnCritBleed_Timer_Description">Gdy czas upłynie, będzie można ponownie skorzystać z profitu wywołującego krwawienia przy trafieniu krytycznym.</string>
 	<string key="Status_Perk_Weapon_OnCritHaste_Timer_description">Gdy czas upłynie, będzie można ponownie skorzystać z profitu zapewniającego przyspieszenie przy trafieniu krytycznym.</string>
 	<string key="Status_Perk_Weapon_OnCritFortify_Timer_Description">Gdy czas upłynie, będzie można ponownie skorzystać z profitu zapewniającego umocnienie przy trafieniu krytycznym.</string>
-	<string key="Status_Perk_Weapon_OnCritEmpower_Timer_Description">Gdy czas upłynie, będzie można ponownie skorzystać z profitu zapewniającego wzmocnienie przy trafieniu krytycznym.</string>
+	<string key="Status_Perk_Weapon_OnCritEmpower_Timer_Description">Gdy czas upłynie, będzie można ponownie skorzystać z profitu zapewniającego nasączenie mocą przy trafieniu krytycznym.</string>
 	<string key="Status_Perk_Weapon_OnKillMana_Timer_Description">Gdy czas upłynie, będzie można ponownie skorzystać z profitu zapewniającego manę po zabójstwie.</string>
 	<string key="Status_Perk_Weapon_OnKillHeal_Timer_Description">Gdy czas upłynie, będzie można ponownie skorzystać z profitu zapewniającego zdrowie po zabójstwie.</string>
 	<string key="Status_Perk_Weapon_OnKillStamina_Timer_Description">Gdy czas upłynie, będzie można ponownie skorzystać z profitu zapewniającego wytrzymałość po zabójstwie.</string>
 	<string key="Status_Perk_Weapon_OnKillFortify_Timer_description">Gdy czas upłynie, będzie można ponownie skorzystać z profitu zapewniającego umocnienie po zabójstwie.</string>
-	<string key="Status_Perk_Weapon_OnKillEmpower_Timer_Description">Gdy czas upłynie, będzie można ponownie skorzystać z profitu zapewniającego wzmocnienie po zabójstwie.</string>
+	<string key="Status_Perk_Weapon_OnKillEmpower_Timer_Description">Gdy czas upłynie, będzie można ponownie skorzystać z profitu zapewniającego nasączenie mocą po zabójstwie.</string>
 	<string key="Status_Perk_Weapon_OnKillCDR_Timer_Description">Gdy czas upłynie, będzie można ponownie skorzystać z profitu skracającego czas odnowienia po zabójstwie.</string>
 	<string key="Dungeon_ArcaneBarrierProtection">Osłona przed arkanami</string>
 	<string key="Dungeon_ArcaneBarrierProtection_Description">Osłona chroniąca cię przed obrażeniami arkanistycznymi.</string>
@@ -1241,8 +1249,15 @@
 	<string key="Musket_DodgeReload_Description">Gdy czas upłynie, będzie można ponownie skorzystać z taktycznego przeładowania.</string>
 	<string key="MeteorShowerDamage_DisplayName">Deszcz meteorów</string>
 	<string key="MeteorShowerDamage_Description">Deszcz meteorów zadaje ci obrażenia periodyczne.</string>
+	<string key="ArcticBreath_Tooltip" rel_version="Event_WinterConvergence_Perm">Otrzymujesz {[Type_StatusEffectData.Yeti_Arctic_Breath_Slow_6sec.HealthModifierPercent * -100]}% obrażeń co {[Type_StatusEffectData.Yeti_Arctic_Breath_Slow_6sec.TickRate]} s, a twoje ruchy są spowolnione o {[Type_StatusEffectData.Yeti_Arctic_Breath_Slow_6sec.MoveSpeedMod * -100]}% na {[Type_StatusEffectData.Yeti_Arctic_Breath_Slow_6sec.BaseDuration]} s.</string>
+	<string key="ArcticBreath_DisplayName" rel_version="Event_WinterConvergence_Perm">Arktyczny oddech</string>
 	<string key="AI_EvilKnight_Rally_DisplayName" rel_version="AI_Evil_Knights_P1">Wareski okrzyk bojowy</string>
 	<string key="RoadTravel_SprintBoost">Przyspieszenie na drogach</string>
 	<string key="RoadTravel_SprintBoost_Description">Zwiększa szybkość biegu o {[Type_StatusEffectData.Traversal_RoadSprintBoost_Haste.SprintSpeedMod * 100]}% na drogach.</string>
+	<string key="Status_Weapon_DiseaseOnCrit_Description" rel_version="MorePerksV1">Zmniejsza skuteczność leczenia o {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.HealMod * -100]}%.</string>
+	<string key="Status_Weapon_DiseaseOnHeavy_Description" rel_version="MorePerksV1">Zmniejsza skuteczność leczenia o {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.HealMod * -100]}%.</string>
+	<string key="Status_Weapon_ChargedHeavyRend_Description" rel_version="MorePerksV1">Otrzymujesz {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.ABSStandard * -100]}% więcej obrażeń każdego rodzaju.</string>
+	<string key="Status_Timer_ChargedHeavyRend_Description" rel_version="MorePerksV1">Gdy czas upłynie, będzie można znów użyć mroźnego zestrojenia.</string>
+	<string key="Blunderbuss_LastChance_Desc">Otrzymujesz o {[Type_StatusEffectData.Blunderbuss_LastChance.ABSStandard * 100]}% mniej obrażeń.</string>
 </resources>
 

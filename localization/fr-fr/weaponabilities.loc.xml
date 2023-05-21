@@ -579,7 +579,7 @@
 	<string key="InfectedThrow_Mod2" comment="HATCHET + MOD">Transmission aérienne</string>
 	<string key="InfectedThrow_Mod2_description" comment="HATCHET + MOD">À l'impact, crée un nuage de maladie de {[SpellDataTable_Hatchet.Hatchet_Spell_InfectedThrowAOE.Radius]} m de rayon qui reste sur place pendant 6s.</string>
 	<string key="AimedThrow" comment="HATCHET  +  PASSIVE">Lancer précis</string>
-	<string key="AimedThrow_description" comment="HATCHET  +  PASSIVE">Remplace la parade par un lancer visé qui inflige {[DamageTable.Hatchet_Damage_AimedThrow.DmgCoef * 100]} % des dégâts de l'arme. Maintenez la garde pour adopter une position de visée et effectuez une attaque légère pour lancer.\n\nCoûte {[StaminaCosts_Player.ThrowingAxe_AimedThrow.StaminaCost]} points de vitalité par lancer.</string>
+	<string key="AimedThrow_description" comment="HATCHET  +  PASSIVE">Remplace la parade par un lancer visé infligeant {[DamageTable.Hatchet_Damage_AimedThrow.DmgCoef * 100]} % des dégâts de l'arme. Maintenez la garde pour adopter une position de visée et effectuez une attaque légère pour lancer.\n\nCoûte {[StaminaCosts_Player.ThrowingAxe_AimedThrow.StaminaCost]} points de vitalité par lancer.</string>
 	<string key="ThrowingAxeTree1Passive1" comment="HATCHET  +  PASSIVE">Lancer critique</string>
 	<string key="ThrowingAxeTree1Passive1_description" comment="HATCHET  +  PASSIVE">Les hachettes de jet sont aléatoirement capables de toucher à la tête et de faire des coups critiques.\n\nAugmente également de 5 % les chances de coup critique de toutes les attaques.</string>
 	<string key="ThrowingAxeTree1Passive2" comment="HATCHET  +  PASSIVE">Exploitation</string>
@@ -695,7 +695,7 @@
 	<string key="WreckingBall_Mod1" comment="WARHAMMER + MOD">Mesures de sécurité</string>
 	<string key="WreckingBall_Mod1_description" comment="WARHAMMER + MOD">Si l'attaque est réussie, confère fortification et {[Type_StatusEffectData.WarHammer_WreckingBall_Fortify.ABSStandard * 100]} % de résistance aux dégâts pendant {[Type_StatusEffectData.WarHammer_WreckingBall_Fortify.BaseDuration]}s.</string>
 	<string key="WreckingBall_Mod2" comment="WARHAMMER + MOD">Besoin d'air</string>
-	<string key="WreckingBall_Mod2_description" comment="WARHAMMER + MOD">Toutes les cibles dans un rayon de 1,50 m sont aussi aplaties.</string>
+	<string key="WreckingBall_Mod2_description" comment="WARHAMMER + MOD">Toutes les cibles dans un rayon de 1,50 m du point d'impact sont aussi aplaties.</string>
 	<string key="JuggernautTree0Passive1" comment="WARHAMMER  +  PASSIVE">Martèlement</string>
 	<string key="JuggernautTree0Passive1_description" comment="WARHAMMER  +  PASSIVE">Augmente la pénétration d'armure de {[WarHammerAbilityTable.Passive_WarHammer_Juggernaut_LightHeavyPenetrate.ArmorPenetration * 100]} % pour toutes les attaques lourdes et légères du marteau d'armes.</string>
 	<string key="JuggernautTree0Passive2" comment="WARHAMMER  +  PASSIVE">Coup de marteau</string>

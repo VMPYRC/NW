@@ -54,6 +54,10 @@
 	<string key="cr_add_quickslot">Dodano do &lt;font color="#c0c0c0"&gt;paska skrótów&lt;/font&gt;</string>
 	<string key="cr_add_equipment">Dodano do &lt;font color="#c0c0c0"&gt;wyposażenia&lt;/font&gt;</string>
 	<string key="cr_cantcraft">Nie można wytworzyć</string>
+	<string key="cr_alreadycrafted" rel_version="Feature_Camp_Skins">Już wytworzone</string>
+	<string key="cr_unlockrecipe_info" rel_version="Feature_Camp_Skins">To jednorazowa skórka do wytworzenia, przypisana do twojej postaci. Po wytworzeniu będzie dostępna w menu skórek obozu.</string>
+	<string key="cr_campskin_title" rel_version="Feature_Camp_Skins">Sposób użycia:</string>
+	<string key="cr_campskin_desc" rel_version="Feature_Camp_Skins">Kliknij obóz w ekwipunku, by zmienić skórkę.\nBy móc użyć tej skórki, musisz mieć odblokowane biwakowanie.</string>
 	<string key="cr_tier1">Klasa &lt;img src="lyshineui/images/crafting/crafting_tier_1" scale="0.6" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="cr_tier2">Klasa &lt;img src="lyshineui/images/crafting/crafting_tier_2" scale="0.6" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="cr_tier3">Klasa &lt;img src="lyshineui/images/crafting/crafting_tier_3" scale="0.6" yOffset="2"&gt;&lt;/img&gt;</string>
@@ -218,5 +222,6 @@
 	<string key="crafting_filter_placeholder">Filtruj według nazw...</string>
 	<string key="crafting_category_select_title">WYBIERZ {type}</string>
 	<string key="crafting_discount_base">Opłata bazowa</string>
+	<string key="ui_crafting_resource_origin_message">Uwaga: potrzebne zasoby zostaną w pierwszej kolejności pobrane z twojego ekwipunku, a dopiero potem z magazynu osady.</string>
 </resources>
 

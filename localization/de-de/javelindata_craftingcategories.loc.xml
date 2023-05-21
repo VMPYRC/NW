@@ -1,6 +1,12 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="GypsumAttunement_GroupName">Gips-Einstimmung</string>
+	<string key="CategoryData_CraftingPatterns">Herstellungsschemas</string>
 	<string key="FoodComponents_GroupName">Zusammengesetzte Zutaten</string>
 	<string key="GemstoneT1_GroupName">Beschädigte Edelsteinbrocken</string>
+	<string key="GypsumRefining_GroupName">Gips-Veredelung</string>
+	<string key="GypsumCasting_GroupName">Gipsguss</string>
+	<string key="GypsumRaw_GroupName">Gipskugeln</string>
+	<string key="GypsumCasts_GroupName">Gipsabgüsse</string>
 	<string key="GemstoneT2_GroupName">Standard-Edelsteinbrocken</string>
 	<string key="GemstoneT3_GroupName">Brillante Edelsteinbrocken</string>
 	<string key="GemstoneT4_GroupName">Makellose Edelsteinbrocken</string>
@@ -1363,8 +1369,8 @@
 	<string key="ModsUncommon_GroupName">Ungewöhnliche Mods</string>
 	<string key="MoonstoneCut_GroupDesc">Geschliffene und polierte Mondsteine. Kann zu Schmuck verarbeitet werden, der Stärke und Konzentration steigert, oder in Ausrüstung gesockelt werden, um die Effekte "Erheitern" und "Schnittschutz" zu gewähren.</string>
 	<string key="MoonstoneCut_GroupName">Geschliffener Mondstein</string>
-	<string key="Musical_GroupName">Musikinstrumente</string>
 	<string key="MusketA_GroupDesc">Diese Fernkampfwaffe schießt Patronen, die hohen Schaden verursachen. Ideal, um Ziele auf Distanz zu halten und dank hoher Zielgenauigkeit auch für den Fernkampf bestens geeignet.\n\n• Standardangriff: Verursacht {[DamageTable.MusketAttack1.DmgCoef * 100]} % Stichschaden.</string>
+	<string key="Blunderbuss_GroupDesc">Eine Fernkampfwaffe für den Nahkampf, die in einer Salve 6 Kugeln verschießt. Ideal, um Nahkampfziele unter Druck zu setzen und mit entfernten Zielen in den Nahkampf zu gelangen.\n\n• Standardangriff: Verursacht {[DamageTable.Blunderbuss_Primary_Attack.DmgCoef * 100]} % Stichschaden pro Kugel.</string>
 	<string key="MusketA_GroupName">Muskete</string>
 	<string key="Muskets_GroupName">Musketen</string>
 	<string key="nut_GroupName">Nuss</string>
@@ -1708,6 +1714,8 @@
 	<string key="TimberT5_GroupName">Bauholz Rang 5</string>
 	<string key="TinctureBlight_GroupName">Fäulnistinkturen</string>
 	<string key="TinctureCorruption_GroupName">Verderbnistinkturen</string>
+	<string key="Tokens_GroupName">Winterkonvergenz-Marken</string>
+	<string key="TokenCreation_GroupName">Markenerstellung</string>
 	<string key="TokenConversion_GroupName">Markenumtausch</string>
 	<string key="ToolHatchet_GroupDesc">Einhändig zu führen. Zum Sammeln von Holz.</string>
 	<string key="ToolHatchet_GroupName">Beil</string>
@@ -1781,5 +1789,17 @@
 	<string key="Pattern">Schemata</string>
 	<string key="PatternRecipes">Schemarezepturen</string>
 	<string key="Lodestone">Magnetit</string>
+	<string key="AttributeStr">Stärke</string>
+	<string key="AttributeDex">Geschick</string>
+	<string key="AttributeInt">Intelligenz</string>
+	<string key="AttributeFoc">Konzentration</string>
+	<string key="AttributeCon">Konstitution</string>
+	<string key="TimelessShardsStr">Zeitlose Splitter - Stärke</string>
+	<string key="TimelessShardsDex">Zeitlose Splitter - Geschick</string>
+	<string key="TimelessShardsInt">Zeitlose Splitter - Intelligenz</string>
+	<string key="TimelessShardsFoc">Zeitlose Splitter - Konzentration</string>
+	<string key="TimelessShardsCon">Zeitlose Splitter - Konstitution</string>
+	<string key="ArmorShadow_GroupName">Schattengänger</string>
+	<string key="ArmorBeast_GroupName">Bestienjäger</string>
 </resources>
 

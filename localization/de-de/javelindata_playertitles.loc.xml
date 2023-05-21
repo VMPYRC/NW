@@ -1,5 +1,9 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<string key="ui_playertitle_placeholder" note="DO NOT TRANSLATE">FEHLER PLATZHALTER</string>
+	<string key="ui_playertitle_special_TurkeyTerror">Kehlsack-Krieger</string>
+	<string key="ui_playertitle_special_TurkeyTerror_SHE">Kehlsack-Krieger</string>
+	<string key="ui_playertitle_special_TurkeyTerror_THEY">Kehlsack-Krieger</string>
+	<string key="ui_playertitle_TurkeyTerror_description">Du hast den monströsen Truthahn gezwungen, der dieses Land plagte! Du bist nun ein*e KEHLSACK-KRIEGER*IN!</string>
+	<string key="ui_playertitle_placeholder">FEHLER PLATZHALTER</string>
 	<string key="ui_playertitle_select">Titel auswählen</string>
 	<string key="ui_playertitle_current">Derzeit ausgewählt:</string>
 	<string key="ui_playertitle_showtitle">Titel oben anzeigen</string>
@@ -17,7 +21,7 @@
 	<string key="ui_playertitle_achievementscount5" rel_version="Pri3_MetaAchievements">Legendäre Spitzenkraft</string>
 	<string key="ui_playertitle_achievementscount5_SHE" rel_version="Pri3_MetaAchievements">Legendäre Spitzenkraft</string>
 	<string key="ui_playertitle_achievementscount5_THEY" rel_version="Pri3_MetaAchievements">Legendäre Spitzenkraft</string>
-	<string key="ui_playertitle_repairinventorycount1" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Allgemeiner Tüftler</string>
+	<string key="ui_playertitle_repairinventorycount1" rel_version="P2_MetaAchievements">Allgemeiner Tüftler</string>
 	<string key="ui_playertitle_repairinventorycount1_SHE" rel_version="P2_MetaAchievements">Allgemeine Tüftlerin</string>
 	<string key="ui_playertitle_repairinventorycount1_THEY" rel_version="P2_MetaAchievements">Allgemeine*r Tüftler*in</string>
 	<string key="ui_playertitle_repairinventorycount4" rel_version="P2_MetaAchievements">Reparaturinnovator</string>
@@ -143,105 +147,105 @@
 	<string key="ui_playertitle_totaltimeplayed5" rel_version="Feature_MetaAchievements">Der Große Pooh-bah</string>
 	<string key="ui_playertitle_totaltimeplayed5_SHE" rel_version="Feature_MetaAchievements">Die Große Pooh-bah</string>
 	<string key="ui_playertitle_totaltimeplayed5_THEY" rel_version="Feature_MetaAchievements">Xier Große Pooh-bah</string>
-	<string key="ui_playertitle_skill_arcana4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Arkanistenexperte </string>
-	<string key="ui_playertitle_skill_arcana4_SHE" rel_version="P2_MetaAchievements">Arkanistenexpertin </string>
-	<string key="ui_playertitle_skill_arcana4_THEY" rel_version="P2_MetaAchievements">Arkanistenexpert*in </string>
+	<string key="ui_playertitle_skill_arcana4" rel_version="P2_MetaAchievements">Arkanistenexperte</string>
+	<string key="ui_playertitle_skill_arcana4_SHE" rel_version="P2_MetaAchievements">Arkanistenexpertin</string>
+	<string key="ui_playertitle_skill_arcana4_THEY" rel_version="P2_MetaAchievements">Arkanistenexpert*in</string>
 	<string key="ui_playertitle_skill_arcana5" rel_version="P2_MetaAchievements">Arkanistenmeister</string>
 	<string key="ui_playertitle_skill_arcana5_SHE" rel_version="P2_MetaAchievements">Arkanistenmeisterin</string>
 	<string key="ui_playertitle_skill_arcana5_THEY" rel_version="P2_MetaAchievements">Arkanistenmeister*in</string>
-	<string key="ui_playertitle_skill_armory4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Rüstungsschmiedeexperte</string>
+	<string key="ui_playertitle_skill_armory4" rel_version="P2_MetaAchievements">Rüstungsschmiedeexperte</string>
 	<string key="ui_playertitle_skill_armory4_SHE" rel_version="P2_MetaAchievements">Rüstungsschmiedeexpertin</string>
 	<string key="ui_playertitle_skill_armory4_THEY" rel_version="P2_MetaAchievements">Rüstungsschmiedeexperte*in</string>
 	<string key="ui_playertitle_skill_armory5" rel_version="P2_MetaAchievements">Meisterrüstungsschmied</string>
 	<string key="ui_playertitle_skill_armory5_SHE" rel_version="P2_MetaAchievements">Meisterrüstungsschmiedin</string>
 	<string key="ui_playertitle_skill_armory5_THEY" rel_version="P2_MetaAchievements">Meisterrüstungsschmied*in</string>
-	<string key="ui_playertitle_skill_cooking4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Kochexperte</string>
+	<string key="ui_playertitle_skill_cooking4" rel_version="P2_MetaAchievements">Kochexperte</string>
 	<string key="ui_playertitle_skill_cooking4_SHE" rel_version="P2_MetaAchievements">Kochexpertin</string>
 	<string key="ui_playertitle_skill_cooking4_THEY" rel_version="P2_MetaAchievements">Kochexperte*in</string>
 	<string key="ui_playertitle_skill_cooking5" rel_version="P2_MetaAchievements">Kochmeister</string>
 	<string key="ui_playertitle_skill_cooking5_SHE" rel_version="P2_MetaAchievements">Kochmeisterin</string>
 	<string key="ui_playertitle_skill_cooking5_THEY" rel_version="P2_MetaAchievements">Kochmeister*in</string>
-	<string key="ui_playertitle_skill_engineering4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Ingenieursexperte</string>
+	<string key="ui_playertitle_skill_engineering4" rel_version="P2_MetaAchievements">Ingenieursexperte</string>
 	<string key="ui_playertitle_skill_engineering4_SHE" rel_version="P2_MetaAchievements">Ingenieursexpertin</string>
 	<string key="ui_playertitle_skill_engineering4_THEY" rel_version="P2_MetaAchievements">Ingenieursexperte*in</string>
 	<string key="ui_playertitle_skill_engineering5" rel_version="P2_MetaAchievements">Ingenieursmeister</string>
 	<string key="ui_playertitle_skill_engineering5_SHE" rel_version="P2_MetaAchievements">Ingenieursmeisterin</string>
 	<string key="ui_playertitle_skill_engineering5_THEY" rel_version="P2_MetaAchievements">Ingenieursmeister*in</string>
-	<string key="ui_playertitle_skill_furnishing4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Handwerkerexperte</string>
+	<string key="ui_playertitle_skill_furnishing4" rel_version="P2_MetaAchievements">Handwerkerexperte</string>
 	<string key="ui_playertitle_skill_furnishing4_SHE" rel_version="P2_MetaAchievements">Handwerkerexpertin</string>
 	<string key="ui_playertitle_skill_furnishing4_THEY" rel_version="P2_MetaAchievements">Handwerkerexperte*in</string>
 	<string key="ui_playertitle_skill_furnishing5" rel_version="P2_MetaAchievements">Meisterhandwerker</string>
 	<string key="ui_playertitle_skill_furnishing5_SHE" rel_version="P2_MetaAchievements">Meisterhandwerkerin</string>
 	<string key="ui_playertitle_skill_furnishing5_THEY" rel_version="P2_MetaAchievements">Meisterhandwerker*in</string>
-	<string key="ui_playertitle_skill_jewelcrafting4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Juwelierexperte</string>
+	<string key="ui_playertitle_skill_jewelcrafting4" rel_version="P2_MetaAchievements">Juwelierexperte</string>
 	<string key="ui_playertitle_skill_jewelcrafting4_SHE" rel_version="P2_MetaAchievements">Juwelierexpertin</string>
 	<string key="ui_playertitle_skill_jewelcrafting4_THEY" rel_version="P2_MetaAchievements">Juwelierexperte*in</string>
 	<string key="ui_playertitle_skill_jewelcrafting5" rel_version="P2_MetaAchievements">Juweliermeister</string>
 	<string key="ui_playertitle_skill_jewelcrafting5_SHE" rel_version="P2_MetaAchievements">Juweliermeisterin</string>
 	<string key="ui_playertitle_skill_jewelcrafting5_THEY" rel_version="P2_MetaAchievements">Juweliermeister*in</string>
-	<string key="ui_playertitle_skill_weaponsmithing4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Waffenschmiedexperte</string>
+	<string key="ui_playertitle_skill_weaponsmithing4" rel_version="P2_MetaAchievements">Waffenschmiedexperte</string>
 	<string key="ui_playertitle_skill_weaponsmithing4_SHE" rel_version="P2_MetaAchievements">Waffenschmiedexpertin</string>
 	<string key="ui_playertitle_skill_weaponsmithing4_THEY" rel_version="P2_MetaAchievements">Waffenschmiedexperte*in</string>
 	<string key="ui_playertitle_skill_weaponsmithing5" rel_version="P2_MetaAchievements">Waffenschmiedmeister</string>
 	<string key="ui_playertitle_skill_weaponsmithing5_SHE" rel_version="P2_MetaAchievements">Waffenschmiedmeisterin</string>
 	<string key="ui_playertitle_skill_weaponsmithing5_THEY" rel_version="P2_MetaAchievements">Waffenschmiedmeister*in</string>
-	<string key="ui_playertitle_skill_leatherworking4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Gerberexperte</string>
+	<string key="ui_playertitle_skill_leatherworking4" rel_version="P2_MetaAchievements">Gerberexperte</string>
 	<string key="ui_playertitle_skill_leatherworking4_SHE" rel_version="P2_MetaAchievements">Gerberexpertin</string>
 	<string key="ui_playertitle_skill_leatherworking4_THEY" rel_version="P2_MetaAchievements">Gerberexperte*in</string>
 	<string key="ui_playertitle_skill_leatherworking5" rel_version="P2_MetaAchievements">Gerbermeister</string>
 	<string key="ui_playertitle_skill_leatherworking5_SHE" rel_version="P2_MetaAchievements">Gerbermeisterin</string>
 	<string key="ui_playertitle_skill_leatherworking5_THEY" rel_version="P2_MetaAchievements">Gerbermeister*in</string>
-	<string key="ui_playertitle_skill_smelting4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Schmelzerexperte</string>
+	<string key="ui_playertitle_skill_smelting4" rel_version="P2_MetaAchievements">Schmelzerexperte</string>
 	<string key="ui_playertitle_skill_smelting4_SHE" rel_version="P2_MetaAchievements">Schmelzerexpertin</string>
 	<string key="ui_playertitle_skill_smelting4_THEY" rel_version="P2_MetaAchievements">Schmelzerexperte*in</string>
 	<string key="ui_playertitle_skill_smelting5" rel_version="P2_MetaAchievements">Meisterschmelzer</string>
 	<string key="ui_playertitle_skill_smelting5_SHE" rel_version="P2_MetaAchievements">Meisterschmelzerin</string>
 	<string key="ui_playertitle_skill_smelting5_THEY" rel_version="P2_MetaAchievements">Meisterschmelzer*in</string>
-	<string key="ui_playertitle_skill_stonecutting4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Steinmetzexperte</string>
+	<string key="ui_playertitle_skill_stonecutting4" rel_version="P2_MetaAchievements">Steinmetzexperte</string>
 	<string key="ui_playertitle_skill_stonecutting4_SHE" rel_version="P2_MetaAchievements">Steinmetzexpertin</string>
 	<string key="ui_playertitle_skill_stonecutting4_THEY" rel_version="P2_MetaAchievements">Steinmetzexperte*in</string>
 	<string key="ui_playertitle_skill_stonecutting5" rel_version="P2_MetaAchievements">Steinmetzmeister</string>
 	<string key="ui_playertitle_skill_stonecutting5_SHE" rel_version="P2_MetaAchievements">Steinmetzmeisterin</string>
 	<string key="ui_playertitle_skill_stonecutting5_THEY" rel_version="P2_MetaAchievements">Steinmetzmeister*in</string>
-	<string key="ui_playertitle_skill_weaving4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Weberexperte</string>
+	<string key="ui_playertitle_skill_weaving4" rel_version="P2_MetaAchievements">Weberexperte</string>
 	<string key="ui_playertitle_skill_weaving4_SHE" rel_version="P2_MetaAchievements">Weberexpertin</string>
 	<string key="ui_playertitle_skill_weaving4_THEY" rel_version="P2_MetaAchievements">Weberexperte*in</string>
 	<string key="ui_playertitle_skill_weaving5" rel_version="P2_MetaAchievements">Webermeister</string>
 	<string key="ui_playertitle_skill_weaving5_SHE" rel_version="P2_MetaAchievements">Webermeisterin</string>
 	<string key="ui_playertitle_skill_weaving5_THEY" rel_version="P2_MetaAchievements">Webermeister*in</string>
-	<string key="ui_playertitle_skill_woodworking4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Holzverarbeitungsexperte</string>
+	<string key="ui_playertitle_skill_woodworking4" rel_version="P2_MetaAchievements">Holzverarbeitungsexperte</string>
 	<string key="ui_playertitle_skill_woodworking4_SHE" rel_version="P2_MetaAchievements">Holzverarbeitungsexpertin</string>
 	<string key="ui_playertitle_skill_woodworking4_THEY" rel_version="P2_MetaAchievements">Holzverarbeitungsexperte*in</string>
 	<string key="ui_playertitle_skill_woodworking5" rel_version="P2_MetaAchievements">Holzverarbeitungsmeister</string>
 	<string key="ui_playertitle_skill_woodworking5_SHE" rel_version="P2_MetaAchievements">Holzverarbeitungsmeisterin</string>
 	<string key="ui_playertitle_skill_woodworking5_THEY" rel_version="P2_MetaAchievements">Holzverarbeitungsmeister*in</string>
-	<string key="ui_playertitle_skill_harvesting4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Erntearbeiterexperte</string>
+	<string key="ui_playertitle_skill_harvesting4" rel_version="P2_MetaAchievements">Erntearbeiterexperte</string>
 	<string key="ui_playertitle_skill_harvesting4_SHE" rel_version="P2_MetaAchievements">Erntearbeiterexpertin</string>
 	<string key="ui_playertitle_skill_harvesting4_THEY" rel_version="P2_MetaAchievements">Erntearbeiterexperte*in</string>
 	<string key="ui_playertitle_skill_harvesting5" rel_version="P2_MetaAchievements">Meistererntearbeiter</string>
 	<string key="ui_playertitle_skill_harvesting5_SHE" rel_version="P2_MetaAchievements">Meistererntearbeiterin</string>
 	<string key="ui_playertitle_skill_harvesting5_THEY" rel_version="P2_MetaAchievements">Meistererntearbeiter*in</string>
-	<string key="ui_playertitle_skill_logging4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Holzfällerexperte</string>
+	<string key="ui_playertitle_skill_logging4" rel_version="P2_MetaAchievements">Holzfällerexperte</string>
 	<string key="ui_playertitle_skill_logging4_SHE" rel_version="P2_MetaAchievements">Holzfällerexpertin</string>
 	<string key="ui_playertitle_skill_logging4_THEY" rel_version="P2_MetaAchievements">Holzfällerexperte*in</string>
 	<string key="ui_playertitle_skill_logging5" rel_version="P2_MetaAchievements">Holzfällermeister</string>
 	<string key="ui_playertitle_skill_logging5_SHE" rel_version="P2_MetaAchievements">Holzfällermeisterin</string>
 	<string key="ui_playertitle_skill_logging5_THEY" rel_version="P2_MetaAchievements">Holzfällermeister*in</string>
-	<string key="ui_playertitle_skill_mining4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Grubenarbeiterexperte</string>
+	<string key="ui_playertitle_skill_mining4" rel_version="P2_MetaAchievements">Grubenarbeiterexperte</string>
 	<string key="ui_playertitle_skill_mining4_SHE" rel_version="P2_MetaAchievements">Grubenarbeiterexpertin</string>
 	<string key="ui_playertitle_skill_mining4_THEY" rel_version="P2_MetaAchievements">Grubenarbeiterexperte*in</string>
 	<string key="ui_playertitle_skill_mining5" rel_version="P2_MetaAchievements">Grubenarbeitermeister</string>
 	<string key="ui_playertitle_skill_mining5_SHE" rel_version="P2_MetaAchievements">Grubenarbeitermeisterin</string>
 	<string key="ui_playertitle_skill_mining5_THEY" rel_version="P2_MetaAchievements">Grubenarbeitermeister*in</string>
-	<string key="ui_playertitle_skill_skinning4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Jägerexperte</string>
+	<string key="ui_playertitle_skill_skinning4" rel_version="P2_MetaAchievements">Jägerexperte</string>
 	<string key="ui_playertitle_skill_skinning4_SHE" rel_version="P2_MetaAchievements">Jägerexpertin</string>
 	<string key="ui_playertitle_skill_skinning4_THEY" rel_version="P2_MetaAchievements">Jägerexperte*in</string>
 	<string key="ui_playertitle_skill_skinning5" rel_version="P2_MetaAchievements">Jägermeister</string>
 	<string key="ui_playertitle_skill_skinning5_SHE" rel_version="P2_MetaAchievements">Jägermeisterin</string>
 	<string key="ui_playertitle_skill_skinning5_THEY" rel_version="P2_MetaAchievements">Jägermeister*in</string>
-	<string key="ui_playertitle_skill_fishing4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Anglerexperte </string>
-	<string key="ui_playertitle_skill_fishing4_SHE" rel_version="P2_MetaAchievements">Anglerexpertin </string>
-	<string key="ui_playertitle_skill_fishing4_THEY" rel_version="P2_MetaAchievements">Anglerexperte*in </string>
+	<string key="ui_playertitle_skill_fishing4" rel_version="P2_MetaAchievements">Anglerexperte</string>
+	<string key="ui_playertitle_skill_fishing4_SHE" rel_version="P2_MetaAchievements">Anglerexpertin</string>
+	<string key="ui_playertitle_skill_fishing4_THEY" rel_version="P2_MetaAchievements">Anglerexperte*in</string>
 	<string key="ui_playertitle_skill_fishing5" rel_version="P2_MetaAchievements">Anglermeister</string>
 	<string key="ui_playertitle_skill_fishing5_SHE" rel_version="P2_MetaAchievements">Anglermeisterin</string>
 	<string key="ui_playertitle_skill_fishing5_THEY" rel_version="P2_MetaAchievements">Anglermeister*in</string>
@@ -326,31 +330,31 @@
 	<string key="ui_playertitle_territorystanding_windsward4" rel_version="P2_MetaAchievements">Legende von Windkreis</string>
 	<string key="ui_playertitle_territorystanding_windsward4_SHE" rel_version="P2_MetaAchievements">Legende von Windkreis</string>
 	<string key="ui_playertitle_territorystanding_windsward4_THEY" rel_version="P2_MetaAchievements">Legende von Windkreis</string>
-	<string key="ui_playertitle_factionrank_covenant5" rel_version="P2_MetaAchievements">Bündnisrichter </string>
-	<string key="ui_playertitle_factionrank_covenant5_SHE" rel_version="P2_MetaAchievements">Bündnisrichterin </string>
-	<string key="ui_playertitle_factionrank_covenant5_THEY" rel_version="P2_MetaAchievements">Bündnisrichter*in </string>
-	<string key="ui_playertitle_factionrank_marauder5" rel_version="P2_MetaAchievements">Marodeurskommandant </string>
-	<string key="ui_playertitle_factionrank_marauder5_SHE" rel_version="P2_MetaAchievements">Marodeurskommandantin </string>
-	<string key="ui_playertitle_factionrank_marauder5_THEY" rel_version="P2_MetaAchievements">Marodeurskommandant*in </string>
+	<string key="ui_playertitle_factionrank_covenant5" rel_version="P2_MetaAchievements">Bündnisrichter</string>
+	<string key="ui_playertitle_factionrank_covenant5_SHE" rel_version="P2_MetaAchievements">Bündnisrichterin</string>
+	<string key="ui_playertitle_factionrank_covenant5_THEY" rel_version="P2_MetaAchievements">Bündnisrichter*in</string>
+	<string key="ui_playertitle_factionrank_marauder5" rel_version="P2_MetaAchievements">Marodeurskommandant</string>
+	<string key="ui_playertitle_factionrank_marauder5_SHE" rel_version="P2_MetaAchievements">Marodeurskommandantin</string>
+	<string key="ui_playertitle_factionrank_marauder5_THEY" rel_version="P2_MetaAchievements">Marodeurskommandant*in</string>
 	<string key="ui_playertitle_factionrank_syndicate5" rel_version="P2_MetaAchievements">Alchemist des Syndikats</string>
 	<string key="ui_playertitle_factionrank_syndicate5_SHE" rel_version="P2_MetaAchievements">Alchemistin des Syndikats</string>
 	<string key="ui_playertitle_factionrank_syndicate5_THEY" rel_version="P2_MetaAchievements">Alchemist*in des Syndikats</string>
 	<string key="ui_playertitle_weaponmaster_hammer2" rel_version="P2_MetaAchievements">Kriegshammerexperte</string>
 	<string key="ui_playertitle_weaponmaster_hammer2_SHE" rel_version="P2_MetaAchievements">Kriegshammerexpertin</string>
 	<string key="ui_playertitle_weaponmaster_hammer2_THEY" rel_version="P2_MetaAchievements">Kriegshammerexperte*in</string>
-	<string key="ui_playertitle_weaponmaster_hammer3" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Bodenstampfer</string>
+	<string key="ui_playertitle_weaponmaster_hammer3" rel_version="P2_MetaAchievements">Bodenstampfer</string>
 	<string key="ui_playertitle_weaponmaster_hammer3_SHE" rel_version="P2_MetaAchievements">Bodenstampferin</string>
 	<string key="ui_playertitle_weaponmaster_hammer3_THEY" rel_version="P2_MetaAchievements">Bodenstampfer*in</string>
 	<string key="ui_playertitle_weaponmaster_bow2" rel_version="P2_MetaAchievements">Bogenschießexperte</string>
 	<string key="ui_playertitle_weaponmaster_bow2_SHE" rel_version="P2_MetaAchievements">Bogenschießexpertin</string>
 	<string key="ui_playertitle_weaponmaster_bow2_THEY" rel_version="P2_MetaAchievements">Bogenschießexperte*in</string>
-	<string key="ui_playertitle_weaponmaster_bow3" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Bogenmeister</string>
+	<string key="ui_playertitle_weaponmaster_bow3" rel_version="P2_MetaAchievements">Bogenmeister</string>
 	<string key="ui_playertitle_weaponmaster_bow3_SHE" rel_version="P2_MetaAchievements">Bogenmeisterin</string>
 	<string key="ui_playertitle_weaponmaster_bow3_THEY" rel_version="P2_MetaAchievements">Bogenmeister*in</string>
 	<string key="ui_playertitle_weaponmaster_firestaff2" rel_version="P2_MetaAchievements">Feuerstabexperte</string>
 	<string key="ui_playertitle_weaponmaster_firestaff2_SHE" rel_version="P2_MetaAchievements">Feuerstabexpertin</string>
 	<string key="ui_playertitle_weaponmaster_firestaff2_THEY" rel_version="P2_MetaAchievements">Feuerstabexperte*in</string>
-	<string key="ui_playertitle_weaponmaster_firestaff3" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Brandstifter</string>
+	<string key="ui_playertitle_weaponmaster_firestaff3" rel_version="P2_MetaAchievements">Brandstifter</string>
 	<string key="ui_playertitle_weaponmaster_firestaff3_SHE" rel_version="P2_MetaAchievements">Brandstifterin</string>
 	<string key="ui_playertitle_weaponmaster_firestaff3_THEY" rel_version="P2_MetaAchievements">Brandstifter*in</string>
 	<string key="ui_playertitle_weaponmaster_greataxe2" rel_version="P2_MetaAchievements">Streitaxtexperte</string>
@@ -359,19 +363,19 @@
 	<string key="ui_playertitle_weaponmaster_greataxe3" rel_version="P2_MetaAchievements">Axtmeister</string>
 	<string key="ui_playertitle_weaponmaster_greataxe3_SHE" rel_version="P2_MetaAchievements">Axtmeisterin</string>
 	<string key="ui_playertitle_weaponmaster_greataxe3_THEY" rel_version="P2_MetaAchievements">Axtmeister*in</string>
-	<string key="ui_playertitle_weaponmaster_hatchet2" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Beilexperte</string>
+	<string key="ui_playertitle_weaponmaster_hatchet2" rel_version="P2_MetaAchievements">Beilexperte</string>
 	<string key="ui_playertitle_weaponmaster_hatchet2_SHE" rel_version="P2_MetaAchievements">Beilexpertin</string>
 	<string key="ui_playertitle_weaponmaster_hatchet2_THEY" rel_version="P2_MetaAchievements">Beilexperte*in</string>
 	<string key="ui_playertitle_weaponmaster_hatchet3" rel_version="P2_MetaAchievements">Beilmeister</string>
 	<string key="ui_playertitle_weaponmaster_hatchet3_SHE" rel_version="P2_MetaAchievements">Beilmeisterin</string>
 	<string key="ui_playertitle_weaponmaster_hatchet3_THEY" rel_version="P2_MetaAchievements">Beilmeister*in</string>
-	<string key="ui_playertitle_weaponmaster_lifestaff2" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Lebensstabexperte</string>
+	<string key="ui_playertitle_weaponmaster_lifestaff2" rel_version="P2_MetaAchievements">Lebensstabexperte</string>
 	<string key="ui_playertitle_weaponmaster_lifestaff2_SHE" rel_version="P2_MetaAchievements">Lebensstabexpertin</string>
 	<string key="ui_playertitle_weaponmaster_lifestaff2_THEY" rel_version="P2_MetaAchievements">Lebensstabexperte*in</string>
 	<string key="ui_playertitle_weaponmaster_lifestaff3" rel_version="P2_MetaAchievements">Lebensspender</string>
 	<string key="ui_playertitle_weaponmaster_lifestaff3_SHE" rel_version="P2_MetaAchievements">Lebensspenderin</string>
 	<string key="ui_playertitle_weaponmaster_lifestaff3_THEY" rel_version="P2_MetaAchievements">Lebensspender*in</string>
-	<string key="ui_playertitle_weaponmaster_musket2" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Musketenexperte</string>
+	<string key="ui_playertitle_weaponmaster_musket2" rel_version="P2_MetaAchievements">Musketenexperte</string>
 	<string key="ui_playertitle_weaponmaster_musket2_SHE" rel_version="P2_MetaAchievements">Musketenexperte</string>
 	<string key="ui_playertitle_weaponmaster_musket2_THEY" rel_version="P2_MetaAchievements">Musketenexperte</string>
 	<string key="ui_playertitle_weaponmaster_musket3" rel_version="P2_MetaAchievements">Scharfrichter-Kanonier</string>
@@ -416,7 +420,7 @@
 	<string key="ui_playertitle_factionmissions_completed5" rel_version="P2_MetaAchievements">Fraktionslegende</string>
 	<string key="ui_playertitle_factionmissions_completed5_SHE" rel_version="P2_MetaAchievements">Fraktionslegende</string>
 	<string key="ui_playertitle_factionmissions_completed5_THEY" rel_version="P2_MetaAchievements">Fraktionslegende</string>
-	<string key="ui_playertitle_questarc_fishingtraining" rel_version="P2_MetaAchievements" note="Updated - renamed from ui_playertitle_quest_fishingcount">Anglerlegende</string>
+	<string key="ui_playertitle_questarc_fishingtraining" rel_version="P2_MetaAchievements">Anglerlegende</string>
 	<string key="ui_playertitle_questarc_fishingtraining_SHE" rel_version="P2_MetaAchievements">Anglerlegende</string>
 	<string key="ui_playertitle_questarc_fishingtraining_THEY" rel_version="P2_MetaAchievements">Anglerlegende</string>
 	<string key="ui_playertitle_quest_counttotals1" rel_version="Feature_MetaAchievements">Aufgabensucher</string>
@@ -473,12 +477,12 @@
 	<string key="ui_playertitle_pvp_outputrushwins6" rel_version="P2_MetaAchievements">Hast-Taktiker</string>
 	<string key="ui_playertitle_pvp_outputrushwins6_SHE" rel_version="P2_MetaAchievements">Hast-Taktikerin</string>
 	<string key="ui_playertitle_pvp_outputrushwins6_THEY" rel_version="P2_MetaAchievements">Hast-Taktiker*in</string>
-	<string key="ui_playertitle_pvp_controlpoint4" rel_version="August_2021_pt2">In verdecktem Einsatz</string>
-	<string key="ui_playertitle_pvp_controlpoint4_SHE" rel_version="August_2021_pt2">In verdecktem Einsatz</string>
-	<string key="ui_playertitle_pvp_controlpoint4_THEY" rel_version="August_2021_pt2">In verdecktem Einsatz</string>
-	<string key="ui_playertitle_pvp_controlpoint5" rel_version="August_2021_pt2">Infiltrator</string>
-	<string key="ui_playertitle_pvp_controlpoint5_SHE" rel_version="August_2021_pt2">Infiltratorin</string>
-	<string key="ui_playertitle_pvp_controlpoint5_THEY" rel_version="August_2021_pt2">Infiltrator*in</string>
+	<string key="ui_playertitle_pvp_controlpoint4" rel_version="DEPRECATED_August_2021_pt2">In verdecktem Einsatz</string>
+	<string key="ui_playertitle_pvp_controlpoint4_SHE" rel_version="DEPRECATED_August_2021_pt2">In verdecktem Einsatz</string>
+	<string key="ui_playertitle_pvp_controlpoint4_THEY" rel_version="DEPRECATED_August_2021_pt2">In verdecktem Einsatz</string>
+	<string key="ui_playertitle_pvp_controlpoint5" rel_version="DEPRECATED_August_2021_pt2">Infiltrator</string>
+	<string key="ui_playertitle_pvp_controlpoint5_SHE" rel_version="DEPRECATED_August_2021_pt2">Infiltratorin</string>
+	<string key="ui_playertitle_pvp_controlpoint5_THEY" rel_version="DEPRECATED_August_2021_pt2">Infiltrator*in</string>
 	<string key="ui_playertitle_pve_killsbyfamily_corrupted1" rel_version="Feature_MetaAchievements">Plünderer der Verderbnis</string>
 	<string key="ui_playertitle_pve_killsbyfamily_corrupted1_SHE" rel_version="Feature_MetaAchievements">Plünderin der Verderbnis</string>
 	<string key="ui_playertitle_pve_killsbyfamily_corrupted1_THEY" rel_version="Feature_MetaAchievements">Plünderer*in der Verderbnis</string>
@@ -542,13 +546,13 @@
 	<string key="ui_playertitle_pve_invasionswonmilestone" rel_version="Feature_MetaAchievements">Invasionsrecke</string>
 	<string key="ui_playertitle_pve_invasionswonmilestone_SHE" rel_version="Feature_MetaAchievements">Invasionsreckin</string>
 	<string key="ui_playertitle_pve_invasionswonmilestone_THEY" rel_version="Feature_MetaAchievements">Invasionsrecke*in</string>
-	<string key="ui_playertitle_pve_killswhilehroupedmilestone1" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Mannschaftsspieler</string>
+	<string key="ui_playertitle_pve_killswhilehroupedmilestone1" rel_version="P2_MetaAchievements">Mannschaftsspieler</string>
 	<string key="ui_playertitle_pve_killswhilehroupedmilestone1_SHE" rel_version="P2_MetaAchievements">Mannschaftsspielerin</string>
 	<string key="ui_playertitle_pve_killswhilehroupedmilestone1_THEY" rel_version="P2_MetaAchievements">Mannschaftsspieler*in</string>
 	<string key="ui_playertitle_pve_killswhilehroupedmilestone5" rel_version="P2_MetaAchievements">Partylöwe</string>
 	<string key="ui_playertitle_pve_killswhilehroupedmilestone5_SHE" rel_version="P2_MetaAchievements">Partylöwin</string>
 	<string key="ui_playertitle_pve_killswhilehroupedmilestone5_THEY" rel_version="P2_MetaAchievements">Partylöwe*in</string>
-	<string key="ui_playertitle_pve_corruptionbreachmilestone1" rel_version="Feature_MetaAchievements" note="Same as before, only change is Colon to Comma">Durchbruchschlächter</string>
+	<string key="ui_playertitle_pve_corruptionbreachmilestone1" rel_version="Feature_MetaAchievements">Durchbruchschlächter</string>
 	<string key="ui_playertitle_pve_corruptionbreachmilestone1_SHE" rel_version="Feature_MetaAchievements">Durchbruchschlächterin</string>
 	<string key="ui_playertitle_pve_corruptionbreachmilestone1_THEY" rel_version="Feature_MetaAchievements">Durchbruchschlächter*in</string>
 	<string key="ui_playertitle_pve_corruptionbreachmilestone5" rel_version="Feature_MetaAchievements">Durchbruchrecke</string>
@@ -560,7 +564,7 @@
 	<string key="ui_playertitle_gatherskinningmilestone5" rel_version="Feature_MetaAchievements">Meisterjäger</string>
 	<string key="ui_playertitle_gatherskinningmilestone5_SHE" rel_version="Feature_MetaAchievements">Meisterjägerin</string>
 	<string key="ui_playertitle_gatherskinningmilestone5_THEY" rel_version="Feature_MetaAchievements">Meisterjäger*in</string>
-	<string key="ui_playertitle_gatherloggingmilestone1" rel_version="Feature_MetaAchievements" note="only change is dash to Comma, and space after dash removed">Hacker</string>
+	<string key="ui_playertitle_gatherloggingmilestone1" rel_version="Feature_MetaAchievements">Hacker</string>
 	<string key="ui_playertitle_gatherloggingmilestone1_SHE" rel_version="Feature_MetaAchievements">Hackerin</string>
 	<string key="ui_playertitle_gatherloggingmilestone1_THEY" rel_version="Feature_MetaAchievements">Hacker*in</string>
 	<string key="ui_playertitle_gatherloggingmilestone5" rel_version="Feature_MetaAchievements">Holzfällermeister</string>
@@ -608,13 +612,13 @@
 	<string key="ui_playertitle_special_askforhelp" rel_version="Feature_Titles">Hilfe benötigt!</string>
 	<string key="ui_playertitle_special_askforhelp_SHE" rel_version="Feature_Titles">Hilfe benötigt!</string>
 	<string key="ui_playertitle_special_askforhelp_THEY" rel_version="Feature_Titles">Hilfe benötigt!</string>
-	<string key="ui_playertitle_special_onlysolo" rel_version="Feature_Titles" note="Updated so each word is capitalized">Spielt nur solo</string>
+	<string key="ui_playertitle_special_onlysolo" rel_version="Feature_Titles">Spielt nur solo</string>
 	<string key="ui_playertitle_special_onlysolo_SHE" rel_version="Feature_Titles">Spielt nur solo</string>
 	<string key="ui_playertitle_special_onlysolo_THEY" rel_version="Feature_Titles">Spielt nur solo</string>
-	<string key="ui_playertitle_special_noduels" rel_version="Feature_Titles" note="Updated so each word is capitalized">Duelliert sich nicht</string>
+	<string key="ui_playertitle_special_noduels" rel_version="Feature_Titles">Duelliert sich nicht</string>
 	<string key="ui_playertitle_special_noduels_SHE" rel_version="Feature_Titles">Duelliert sich nicht</string>
 	<string key="ui_playertitle_special_noduels_THEY" rel_version="Feature_Titles">Duelliert sich nicht</string>
-	<string key="ui_playertitle_special_novoice" rel_version="Feature_Titles" note="Updated so each word is capitalized">Kein Sprachchat</string>
+	<string key="ui_playertitle_special_novoice" rel_version="Feature_Titles">Kein Sprachchat</string>
 	<string key="ui_playertitle_special_novoice_SHE" rel_version="Feature_Titles">Kein Sprachchat</string>
 	<string key="ui_playertitle_special_novoice_THEY" rel_version="Feature_Titles">Kein Sprachchat</string>
 	<string key="ui_playertitle_special_alpha_tester" rel_version="Feature_Titles">Entdecker Aeternums</string>
@@ -658,29 +662,29 @@
 	<string key="ui_playertitle_territory_permanent_owner_15_THEY" rel_version="Feature_Titles">Hausbesitzer*in der Unsteten Küste</string>
 	<string key="ui_playertitle_territory_permanent_owner_desc" rel_version="Feature_Titles">Deine Kompanie hat dieses Gebiet gerade erobert.</string>
 	<string key="ui_player_titles_territory_ownership_label">Gebietseigentümerschaft</string>
-	<string key="ui_player_titles_section_label_special" note="UI Label">Spezial</string>
-	<string key="ui_player_titles_section_label_totalkills" note="UI Label">Tötungen insgesamt</string>
-	<string key="ui_player_titles_section_label_test_only" note="UI Label - DO NOT TRANSLATE"/>
-	<string key="ui_title_section_title" note="UI Label">Titel</string>
-	<string key="ui_title_section_pick_title" note="UI Label">Anzuzeigenden Titel auswählen</string>
-	<string key="ui_title_section_no_title" note="UI Label">Kein Titel</string>
-	<string key="ui_title_section_current_title" note="UI Label">Derzeit ausgewählt:</string>
-	<string key="ui_title_section_new" note="UI Label">NEU</string>
-	<string key="ui_title_section_current_title_tag" note="UI Label">Aktueller Titel</string>
-	<string key="ui_title_section_apply" note="UI Label">Anwenden</string>
-	<string key="ui_playertitle_notification_title" note="UI Label">Titel freigeschaltet!</string>
-	<string key="ui_playertitle_notification_desc" note="UI Label">Du hast den Titel&lt;font color={color}&gt; {title} &lt;/font&gt;freigeschaltet.</string>
+	<string key="ui_player_titles_section_label_special">Spezial</string>
+	<string key="ui_player_titles_section_label_totalkills">Tötungen insgesamt</string>
+	<string key="ui_player_titles_section_label_test_only">Nur zu Testzwecken (NICHT FÜR DIE VERÖFFENTLICHUNG BESTIMMT)</string>
+	<string key="ui_title_section_title">Titel</string>
+	<string key="ui_title_section_pick_title">Anzuzeigenden Titel auswählen</string>
+	<string key="ui_title_section_no_title">Kein Titel</string>
+	<string key="ui_title_section_current_title">Derzeit ausgewählt:</string>
+	<string key="ui_title_section_new">NEU</string>
+	<string key="ui_title_section_current_title_tag">Aktueller Titel</string>
+	<string key="ui_title_section_apply">Anwenden</string>
+	<string key="ui_playertitle_notification_title">Titel freigeschaltet!</string>
+	<string key="ui_playertitle_notification_desc">Du hast den Titel&lt;font color={color}&gt; {title} &lt;/font&gt;freigeschaltet.</string>
 	<string key="ui_playertitle_notification_expired_title">Dein Titel ist verfallen!</string>
 	<string key="ui_playertitle_notification_expired_desc">Dein Titel &lt;font color={color}&gt;{title}&lt;/font&gt; ist verfallen! Klicke auf "Details ansehen", um einen neuen Titel auszuwählen.</string>
-	<string key="ui_playertitle_meta_achievement_description" note="UI Label">Du hast den Erfolg {title} ({description}) erlangt.</string>
-	<string key="ui_playertitle_meta_helper_help_description" rel_version="Feature_Titles" note="UI Label">Gefunden im Inneren einer Vorratskiste.</string>
-	<string key="ui_playertitle_meta_helper_factions_description" rel_version="Feature_Titles" note="UI Label">Wird freigeschaltet, wenn du einer Fraktion beigetreten bist.</string>
-	<string key="ui_playertitle_meta_alphatester_description" rel_version="Feature_Titles" note="UI Label">Erhalten für den Alpha-Test von &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;New World&lt;/font&gt;.</string>
-	<string key="ui_playertitle_meta_preorder_description" rel_version="Feature_Titles" note="UI Label">Erhalten für die Vorbestellung von &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;New World&lt;/font&gt;.</string>
-	<string key="ui_playertitle_generic_description" note="UI Label">Erhalten fürs Spielen.</string>
-	<string key="ui_playertitle_no_title_description" note="UI Label">Anwenden, um keine Titel anzuzeigen.</string>
-	<string key="ui_playertitle_addendum_accounttype" note="UI Label">\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular.font" color = "#ffffff"&gt;Dieser Titel kann von allen Charakteren auf deinem Konto verwendet werden.&lt;/font&gt;</string>
-	<string key="ui_playertitle_addendum_charactertype" note="UI Label">\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular.font" color = "#ffffff"&gt;Dieser Titel kann nicht von anderen Charakteren auf deinem Konto verwendet werden.&lt;/font&gt;</string>
+	<string key="ui_playertitle_meta_achievement_description">Du hast den Erfolg {title} ({description}) erlangt.</string>
+	<string key="ui_playertitle_meta_helper_help_description" rel_version="Feature_Titles">Gefunden im Inneren einer Vorratskiste.</string>
+	<string key="ui_playertitle_meta_helper_factions_description" rel_version="Feature_Titles">Wird freigeschaltet, wenn du einer Fraktion beigetreten bist.</string>
+	<string key="ui_playertitle_meta_alphatester_description" rel_version="Feature_Titles">Erhalten für den Alpha-Test von &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;New World&lt;/font&gt;.</string>
+	<string key="ui_playertitle_meta_preorder_description" rel_version="Feature_Titles">Erhalten für die Vorbestellung von &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;New World&lt;/font&gt;.</string>
+	<string key="ui_playertitle_generic_description">Erhalten fürs Spielen.</string>
+	<string key="ui_playertitle_no_title_description">Anwenden, um keine Titel anzuzeigen.</string>
+	<string key="ui_playertitle_addendum_accounttype">\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular.font" color = "#ffffff"&gt;Dieser Titel kann von allen Charakteren auf deinem Konto verwendet werden.&lt;/font&gt;</string>
+	<string key="ui_playertitle_addendum_charactertype">\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular.font" color = "#ffffff"&gt;Dieser Titel kann nicht von anderen Charakteren auf deinem Konto verwendet werden.&lt;/font&gt;</string>
 	<string key="ui_playertitle_special_stoic" rel_version="Feature_Titles">Stoiker</string>
 	<string key="ui_playertitle_special_stoic_SHE" rel_version="Feature_Titles">Stoikerin</string>
 	<string key="ui_playertitle_special_stoic_THEY" rel_version="Feature_Titles">Stoiker*in</string>

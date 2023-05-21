@@ -71,7 +71,7 @@
 	<string key="ui_poi_banner_07SM06_Basilica">Basílica</string>
 	<string key="ui_poi_banner_07SM06_Quarry">Pedreira</string>
 	<string key="ui_poi_banner_10WS09_Court">Corte de Caveira de Pedra</string>
-	<string key="ui_poi_banner_16BS10_Khepri">Solarium Khepri</string>
+	<string key="ui_poi_banner_16BS10_Khepri">Solário Khepri</string>
 	<string key="ui_poi_bear_den_40225">Caverna da Jarra de Calhaus</string>
 	<string key="ui_poi_bear_den_ramshead_60404">Caverna de Aríete</string>
 	<string key="ui_poi_blightcave_50417">Casebre do Apodrecido</string>
@@ -968,7 +968,7 @@
 	<string key="ui_poi_crater_mysticbridge_50367_description">Boa parte da ponte, erguida acima das árvores imponentes, foi consertada.</string>
 	<string key="ui_poi_crater_mysticbridge_50369_description">Marco</string>
 	<string key="ui_poi_crater_mysticbridge_description">Marco</string>
-	<string key="ui_poi_crater_mysticbridgetower_50368_description">Aicnêlovleam a iacer, Nedé od Euqsob od ohlepse on.</string>
+	<string key="ui_poi_crater_mysticbridgetower_50368_description">Aicnêlovelam a iacer, Nedé od Euqsob od ohlepse on.</string>
 	<string key="ui_poi_crater_mysticbridgetower_description">Marco</string>
 	<string key="ui_poi_crater_mysticfen_50317_description">Quem vê o verde luxuriante pode se enganar e crer que o Mosto Vesical é uma clareira tranquila, mas a repulsiva Mácula mancha cada folha e raiz.</string>
 	<string key="ui_poi_crater_mysticfen_description">Marco</string>
@@ -1510,6 +1510,8 @@
 	<string key="ui_poi_devworld_cave_description">Uma caverna que gera lobos em escala.</string>
 	<string key="ui_poi_devworld_spawns">Gerações do Mundo dos Desenvolvedores</string>
 	<string key="ui_poi_devworld_spawns_description">Algumas demonstrações de tecnologia de geração.</string>
+	<string key="ui_poi_devworld_dummies">Área de Boneco-Alvo do Mundo dos Desenvolvedores</string>
+	<string key="ui_poi_devworld_dummies_description">Uma área de testes com vários bonecos-alvo.</string>
 	<string key="ui_poi_fish_hotspot_broad">Local de Pesca Amplo</string>
 	<string key="ui_poi_fish_hotspot_broad_description">Os peixes estão saltando para fora da água!</string>
 	<string key="ui_poi_fish_hotspot_rare">Local de Pesca Raro</string>
@@ -1704,6 +1706,10 @@
 	<string key="ui_poi_spiritshrine_01_30251_description">Santuário Espiritual</string>
 	<string key="ui_poi_spiritshrine_02_30314">Santuário do Amante</string>
 	<string key="ui_poi_spiritshrine_02_30314_description">Santuário Espiritual</string>
+	<string key="ui_poi_spiritshrine_20208">Santuário Imperial</string>
+	<string key="ui_poi_spiritshrine_20208_description">Santuário Espiritual</string>
+	<string key="ui_poi_spiritshrine_20209">@ui_poi_spiritshrine_20209</string>
+	<string key="ui_poi_spiritshrine_20209_description">Santuário Espiritual</string>
 	<string key="ui_poi_vikingshipwreck_40039">Vigrid</string>
 	<string key="ui_poi_vikingshipwreck_40039_description">Navios do norte e, com eles, os fantasmas de sua tripulação amaldiçoada.</string>
 	<string key="ui_poi_Tauros_06SW09">Tauros</string>
@@ -1716,14 +1722,38 @@
 	<string key="ui_poi_keep_40283_description" rel_version="AI_Evil_Knights_P1">Ruínas desmoronadas, uma vida recomeçada\nA barreira do santuário é rapidamente quebrada</string>
 	<string key="ui_poi_camp_40040" rel_version="AI_Evil_Knights_P1">Acampamento de Guerra das Torres</string>
 	<string key="ui_poi_camp_40040_description" rel_version="AI_Evil_Knights_P1">A lâmina da navalha é de cintilante e prateada\nUm apoio para os pés esculpido na areia dourada.</string>
+	<string key="ui_poi_yeti_30144" rel_version="Event_WinterConvergence_Perm">Cova de Hari</string>
+	<string key="ui_poi_yeti_30144_description" rel_version="Event_WinterConvergence_Perm">Marco</string>
+	<string key="ui_poi_yeti_30252" rel_version="Event_WinterConvergence_Perm">Santuário de Serenidade</string>
+	<string key="ui_poi_yeti_30252_description" rel_version="Event_WinterConvergence_Perm">Marco</string>
+	<string key="ui_poi_yeti_40041" rel_version="Event_WinterConvergence_Perm">Covil de Coroa Iluminada</string>
+	<string key="ui_poi_yeti_40041_description" rel_version="Event_WinterConvergence_Perm">Marco</string>
+	<string key="ui_poi_yeti_40172" rel_version="Event_WinterConvergence_Perm">Caverna da Cascata</string>
+	<string key="ui_poi_yeti_40172_description" rel_version="Event_WinterConvergence_Perm">Marco</string>
+	<string key="ui_poi_yeti_40173" rel_version="Event_WinterConvergence_Perm">Refúgio de Rames</string>
+	<string key="ui_poi_yeti_40173_description" rel_version="Event_WinterConvergence_Perm">Marco</string>
 	<string key="ui_poi_yeti_40346">Gruta do Vale Cinzento</string>
 	<string key="ui_poi_yeti_40346_description">Marco</string>
 	<string key="ui_poi_yeti_40347">Refúgio Congelado</string>
 	<string key="ui_poi_yeti_40347_description">Marco</string>
 	<string key="ui_poi_yeti_40426">Retiro de Lobos da Neve</string>
 	<string key="ui_poi_yeti_40426_description">Marco</string>
+	<string key="ui_poi_yeti_40427" rel_version="Event_WinterConvergence_Perm">Morte de Espeleólogo</string>
+	<string key="ui_poi_yeti_40427_description" rel_version="Event_WinterConvergence_Perm">Marco</string>
+	<string key="ui_poi_yeti_50399" rel_version="Event_WinterConvergence_Perm">Prospecto Profano</string>
+	<string key="ui_poi_yeti_50399_description" rel_version="Event_WinterConvergence_Perm">Marco</string>
+	<string key="ui_poi_yeti_50424" rel_version="Event_WinterConvergence_Perm">Isolamento de Isvari</string>
+	<string key="ui_poi_yeti_50424_description" rel_version="Event_WinterConvergence_Perm">Marco</string>
 	<string key="ui_poi_yeti_60352">Esconderijo da Passagem Alta</string>
 	<string key="ui_poi_yeti_60352_description">Marco</string>
+	<string key="ui_poi_40348_wintervillage" rel_version="Event_WinterConvergence_Temp">Vila Invernal</string>
+	<string key="ui_poi_40348_wintervillage_description" rel_version="Event_WinterConvergence_Temp">Um povoado misterioso, tão cheio de neve quanto de jovialidade, apareceu em Aeternum. A Convergência de Inverno te dá as boas-vindas!</string>
+	<string key="ui_poi_wintervillage_50151" rel_version="Event_WinterConvergence_Temp">Vila Invernal</string>
+	<string key="ui_poi_wintervillage_50151_description" rel_version="Event_WinterConvergence_Temp">Um povoado misterioso, tão cheio de neve quanto de jovialidade, apareceu em Aeternum. A Convergência de Inverno te dá as boas-vindas!</string>
+	<string key="ui_poi_50300_wintervillage" rel_version="Event_WinterConvergence_Temp">Vila Invernal</string>
+	<string key="ui_poi_50300_wintervillage_description" rel_version="Event_WinterConvergence_Temp">Um povoado misterioso, tão cheio de neve quanto de jovialidade, apareceu em Aeternum. A Convergência de Inverno te dá as boas-vindas!</string>
+	<string key="ui_poi_wintervillage_30145" rel_version="Event_WinterConvergence_Temp">Vila Invernal</string>
+	<string key="ui_poi_wintervillage_30145_description" rel_version="Event_WinterConvergence_Temp">Um povoado misterioso, tão cheio de neve quanto de jovialidade, apareceu em Aeternum. A Convergência de Inverno te dá as boas-vindas!</string>
 	<string key="ui_poi_factionarea_40284">Pastagens do Cume do Corvo</string>
 	<string key="ui_poi_factionarea_40285">Oeste de Lago Prado</string>
 	<string key="ui_poi_factionarea_40286">Encruzilhada da Fé</string>

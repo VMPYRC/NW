@@ -175,6 +175,8 @@
 	<string key="ui_p2ptrading_overflow_title">Inventario lleno</string>
 	<string key="ui_p2ptrading_overflow_message">Algunos de los objetos que has recibido no cabían en tu inventario y se han dejado en el suelo.</string>
 	<string key="ui_p2ptrading_inventory_full_warning">Tu inventario está lleno o casi lleno.\nEs posible que no puedas aceptar los objetos entrantes.</string>
+	<string key="ui_failmessage_economylocked">Tu cuenta ha sido restringida, y en este momento no puedes hacer un intercambio.</string>
+	<string key="ui_failmessage_othereconomylocked">Este jugador no puede recibir objetos ni monedas en este momento.</string>
 	<string key="ui_invite_to_group">Invitar al grupo</string>
 	<string key="ui_invite_to_guild">Invitar a la compañía</string>
 	<string key="ui_acceptfriendinvite">Aceptar invitación</string>
@@ -211,7 +213,8 @@
 	<string key="ui_reply">Responder</string>
 	<string key="ui_report_header">Denunciar: {playerName}</string>
 	<string key="ui_report_player_type">Proporciona una breve descripción de la violación (requerido)</string>
-	<string key="ui_reportreason_abusive_chat">Chat abusivo</string>
+	<string key="ui_reportreason_abusive_chat">Chat de texto abusivo</string>
+	<string key="ui_reportreason_abusive_voice_chat">Chat de voz abusivo</string>
 	<string key="ui_reportreason_cheating">Hacer trampas</string>
 	<string key="ui_reportreason_griefing">Acoso</string>
 	<string key="ui_reportreason_offensive_name">Nombre del jugador</string>
@@ -219,6 +222,7 @@
 	<string key="ui_reportreason_coinselling">Vender monedas</string>
 	<string key="ui_reportreason_botbehavior">Comportamiento de bots</string>
 	<string key="ui_reportreason_abusive_chat_description">Discurso de odio, insultos o crueldad dirigida a uno o más jugadores.</string>
+	<string key="ui_reportreason_abusive_voice_chat_description">Discurso de odio, insultos o crueldad dirigida a uno o más jugadores.</string>
 	<string key="ui_reportreason_cheating_description">Virus o vulnerabilidades usadas para obtener ventaja.</string>
 	<string key="ui_reportreason_griefing_description">Sabotaje o comportamiento inadecuado.</string>
 	<string key="ui_reportreason_offensive_name_description">Nombre inapropiado u ofensivo.</string>
@@ -228,6 +232,8 @@
 	<string key="ui_reportreason_select">Seleccionar un motivo…</string>
 	<string key="ui_reportreason_offensive_guild_name">Nombre de la compañía</string>
 	<string key="ui_reportreason_offensive_guild_description">El nombre de la compañía es ofensivo o poco apropiado.</string>
+	<string key="ui_reportreason_offensive_guild_description_no_guild">Este jugador no pertenece a una compañía.</string>
+	<string key="ui_reportreason_offensive_guild_description_error">No se pudo encontrar la compañía.</string>
 	<string key="ui_report_thanks">Gracias por presentar la denuncia</string>
 	<string key="ui_missing_reason_and_description">Proporciona un motivo y la descripción</string>
 	<string key="ui_missing_reason">Seleccionar un motivo</string>
@@ -284,6 +290,7 @@
 	<string key="ui_subarmy_join_requests">SOLICITUDES DE UNIÓN</string>
 	<string key="ui_subarmy_time_remaining">TIEMPO RESTANTE</string>
 	<string key="ui_subarmy_continue_to_selection">Continuar a selección</string>
+	<string key="ui_subarmy_invite_header">Seleccionar jugadores para invitar</string>
 	<string key="ui_subarmy_invite_to_group_enabled">&lt;img src="LyShineUI/Images/icons/twitch/twitch_iconAddGroup" scale="1.5" yOffset="5.5"&gt;&lt;/img&gt; Invitar al grupo</string>
 	<string key="ui_subarmy_invite_to_company_enabled">&lt;img src="LyShineUI/Images/icons/twitch/twitch_iconAddGuild" scale="1.5" yOffset="6.5"&gt;&lt;/img&gt; Invitar a la compañía</string>
 	<string key="ui_subarmy_invite_to_group">&lt;img src="LyShineUI/Images/socialpane/social_iconAddGroup" scale="1.5" yOffset="5.5"&gt;&lt;/img&gt; Invitar al grupo</string>
@@ -299,6 +306,9 @@
 	<string key="ui_subarmy_joined_company">Se ha unido a tu compañía</string>
 	<string key="ui_subarmy_joined_group">Se ha unido a tu grupo</string>
 	<string key="ui_subarmy_joined_company_and_group">Se ha unido a tu compañía y a tu grupo</string>
+	<string key="ui_subarmy_button_disabled_no_selection">En este momento no hay ningún jugador seleccionado.</string>
+	<string key="ui_subarmy_button_disabled_different_faction_group">El jugador seleccionado debe ser miembro de tu facción para poder unirse a tu grupo JcJ.</string>
+	<string key="ui_subarmy_button_disabled_different_faction_guild">El jugador seleccionado debe ser miembro de tu facción para poder unirse a tu compañía.</string>
 	<string key="ui_waypoint_set_to_ping">Se configuró el marcador para marcar</string>
 	<string key="ui_chat_name_raid">Ejército</string>
 	<string key="ui_chat_name_raid_upper">EJÉRCITO</string>

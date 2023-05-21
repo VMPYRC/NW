@@ -114,10 +114,6 @@
 	<string key="ui_affliction_drowning_tooltip">Gdy postaci skończy się powietrze, udusi się</string>
 	<string key="ui_affliction_blight">odporność na zarazę</string>
 	<string key="ui_affliction_blight_tooltip">Jeśli stracisz odporność na zarazę, dopadnie cię zaraza i będziesz zadawać o {[Type_StatusEffectData.Blight.DMGStandard * 100]}% mniej obrażeń, otrzymywać o {[Type_StatusEffectData.Blight.HealMod * 100]}% mniej zdrowia podczas leczenia i tracić {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]}% zdrowia podstawowego co {[Type_StatusEffectData.Blight.TickRate]} s przez {[Afflictions.AfflictionBlight.AfflictedDrainTime]} s.</string>
-	<string key="ui_affliction_mutcurse3minor">licznik klątwy</string>
-	<string key="ui_affliction_mutcurse3minor_tooltip">Licznik wybuchowości.</string>
-	<string key="ui_affliction_mutcurse4major">odporność na rykoszet</string>
-	<string key="ui_affliction_mutcurse4major_tooltip">Jeżeli zabraknie ci odporności, zostanie na ciebie rzucona strefa wyciszenia. Strefa wybuchnie po pewnym czasie, zadając obrażenia zarówno wrogom, jak i innym graczom. Odporność jest współdzielona przez wszystkich członków twojej grupy.</string>
 	<string key="ui_afflicted_bleeding">zranienie</string>
 	<string key="ui_afflicted_bleeding_tooltip">Zraniona postać znacznie wolniej odzyskuje energię</string>
 	<string key="ui_afflicted_burn">oparzenie</string>
@@ -138,10 +134,6 @@
 	<string key="ui_afflicted_drowning_tooltip">Postać utopiła się</string>
 	<string key="ui_afflicted_blight">zaraza</string>
 	<string key="ui_afflicted_blight_tooltip">Gdy dopadnie cię zaraza, będziesz zadawać o {[Type_StatusEffectData.Blight.DMGStandard * 100]}% mniej obrażeń, otrzymywać o {[Type_StatusEffectData.Blight.HealMod * 100]}% mniej zdrowia podczas leczenia i tracić {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]}% zdrowia podstawowego co {[Type_StatusEffectData.Blight.TickRate]} s.</string>
-	<string key="ui_afflicted_mutcurse3minor">wybuchowość</string>
-	<string key="ui_afflicted_mutcurse3minor_tooltip">Po upływie czasu dwóch graczy z najniższym zdrowiem wyzwoli łańcuch żywiołów, zaczynający się od nich i przechodzący na innych sojuszników.</string>
-	<string key="ui_afflicted_mutcurse4major">"Przeklęta?"</string>
-	<string key="ui_afflicted_mutcurse4major_tooltip">Po upływie czasu strefa wyciszenia wybuchnie.</string>
 	<string key="ui_agreement">Kontynuując, akceptujesz poniższe warunki:</string>
 	<string key="ui_ahhhhh">Aaaaa!!!</string>
 	<string key="ui_aimsensitivity">Czułość celowania</string>
@@ -380,9 +372,9 @@
 	<string key="ui_exitnewworld">Wyjście do menu głównego</string>
 	<string key="ui_quittodesktop">Wyjście do pulpitu</string>
 	<string key="ui_expatriate">Wygnaniec</string>
-	<string key="ui_expertise">Biegłość</string>
-	<string key="ui_expertise_tooltip_warning">Musisz osiągnąć nowy limit poziomu profesji, by zdobyć kolejne poziomy biegłości.</string>
-	<string key="ui_expertise_tooltip_explanation">Po osiągnięciu maksymalnego poziomu możesz wciąż zdobywać doświadczenie i kolejne poziomy biegłości.</string>
+	<string key="ui_expertise">Smykałka</string>
+	<string key="ui_expertise_tooltip_warning">Musisz osiągnąć nowy limit poziomu profesji, by zdobyć kolejne poziomy smykałki.</string>
+	<string key="ui_expertise_tooltip_explanation">Po osiągnięciu maksymalnego poziomu możesz wciąż zdobywać doświadczenie i kolejne poziomy smykałki.</string>
 	<string key="ui_expertise_tooltip_reward">Po osiągnięciu każdego wskazanego progu zdobędziesz skrzynkę z nagrodą. Skrzynki zdobywane na wyższych poziomach zawierają lepsze nagrody.</string>
 	<string key="ui_explorer">Odkrywca</string>
 	<string key="ui_f">f</string>
@@ -441,6 +433,8 @@
 	<string key="ui_inventoryslotsremaining">Liczba wolnych miejsc w ekwipunku: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{count}&lt;/font&gt;</string>
 	<string key="ui_inventoryweightremaining">Pozostało &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{Weight}&lt;/font&gt; funtów.</string>
 	<string key="ui_inventoryMaxWeight">Maksymalny udźwig ekwipunku</string>
+	<string key="ui_inventoryweight">WAGA</string>
+	<string key="ui_inventoryslots">UNIKALNE PRZEDMIOTY</string>
 	<string key="ui_filtereditems">{filtered} przedmiotów ukrytych przez filtr.</string>
 	<string key="ui_inventory_tooltip">Naciśnij [{keyName}], by otworzyć lub zamknąć ekwipunek. Okrągły wskaźnik pokazuje, ile jeszcze możesz unieść, nim osiągniesz maksymalne obciążenie.</string>
 	<string key="ui_equipped">W użyciu</string>
@@ -462,6 +456,8 @@
 	<string key="ui_level_unspent_points_tradeskill">{tradeskillPointsText}</string>
 	<string key="ui_level_unspent_points_both">{attributePointsText} {tradeskillPointsText}</string>
 	<string key="ui_level">Poziom</string>
+	<string key="ui_expertise_level" rel_version="Feature_PostCapTradeSkills">Poziom smykałki</string>
+	<string key="ui_expertise_reward" rel_version="Feature_PostCapTradeSkills">Zdobyto nagrodę za smykałkę</string>
 	<string key="ui_light">Lekki</string>
 	<string key="ui_lmb">lpm</string>
 	<string key="ui_lmbrmb">LPM / PPM</string>
@@ -817,6 +813,7 @@
 	<string key="ui_ghost_structure_count_exceeded_warning">Na limicie planu budowy (%d / %d)</string>
 	<string key="ui_ghost_structure_count_warning">Limit planu budowy %d / %d</string>
 	<string key="ui_escape_build_mode">Naciśnij Escape, aby wyjść z trybu budowy</string>
+	<string key="ui_escape_cinematic_skip">Naciśnij Escape, by pominąć</string>
 	<string key="ui_feedback_format">PRZEŚLIJ OPINIĘ</string>
 	<string key="ui_feedback_general">Ogólne</string>
 	<string key="ui_in_game_survey_header">Podoba ci się New World?</string>
@@ -954,7 +951,7 @@
 	<string key="ui_whisper_to_someone">{playerName} DO {recipient}</string>
 	<string key="ui_focus">Skupienie</string>
 	<string key="ui_points_to_level">{points} do poz. {level}</string>
-	<string key="ui_points_to_expertise">{points} pkt do następnego poz. biegłości: {level}</string>
+	<string key="ui_points_to_expertise">{points} pkt do następnego poz. smykałki: {level}</string>
 	<string key="ui_spirit">Wiara</string>
 	<string key="ui_vitality">Postura</string>
 	<string key="ui_strength">Siła</string>
@@ -1020,8 +1017,8 @@
 	<string key="ui_constitution_tooltip">Główna cecha wpływająca na ogólny poziom zdrowia.</string>
 	<string key="ui_strength_tooltip">Główna cecha dla młota bojowego, topora dwuręcznego, miecza i siekierki.\n\nDrugorzędna cecha dla włóczni.</string>
 	<string key="ui_dexterity_tooltip">Główna cecha dla łuku, rapiera, włóczni i muszkietu.\n\nDrugorzędna cecha dla miecza i siekierki.</string>
-	<string key="ui_intelligence_tooltip">Główna cecha dla ognistej laski i lodowej rękawicy.\n\nDrugorzędna cecha dla rapiera i muszkietu.</string>
-	<string key="ui_focus_tooltip">Główna cecha dla laski życia.</string>
+	<string key="ui_intelligence_tooltip">Główna cecha dla ognistej laski, lodowej rękawicy i rękawicy próżni.\n\nDrugorzędna cecha dla rapiera i muszkietu.</string>
+	<string key="ui_focus_tooltip">Główna cecha dla laski życia.\n\nDrugorzędna cecha dla rękawicy próżni.</string>
 	<string key="ui_spirit_tooltip">WIARA\n\nDodawanie punktów do wiary zwiększa:\n\n– całkowitą manę,\n– obronę przed obrażeniami od próżni,\n– odporność na skażenie,\n\n– potęgę zaklęć rzucanych za pomocą niebiańskich rękawic.\n</string>
 	<string key="ui_vitality_tooltip">POSTURA\n\nDodawanie punktów do postury zwiększa:\n\n– obronę przed obrażeniami fizycznymi,\n– odporność na zatrucie,\n– maksymalny ciężar wyposażenia.\n</string>
 	<string key="ui_endurance_tooltip">WYTRZYMAŁOŚĆ\n\nDodawanie punktów do wytrzymałości zwiększa:\n\n- całkowitą energię,\n- obronę przed obrażeniami od błyskawic,\n- odporność na zranienia.\n</string>
@@ -1436,6 +1433,7 @@
 	<string key="ui_tooltip_read">Przeczytaj</string>
 	<string key="ui_tooltip_store">Przechowaj</string>
 	<string key="ui_purchase_skins">Kup skórki</string>
+	<string key="ui_tooltip_upgrade">Ulepszenie</string>
 	<string key="ui_tooltip_take">Weź</string>
 	<string key="ui_tooltip_split">Rozdziel</string>
 	<string key="ui_tooltip_weight">Waga: &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{value}&lt;/font&gt;</string>
@@ -1457,6 +1455,10 @@
 	<string key="ui_attach_gem_tooltip">Osadź szlifowany klejnot ze swojego ekwipunku.</string>
 	<string key="ui_replace_gem">Zamień klejnot</string>
 	<string key="ui_replace_gem_tooltip">Zamień obecnie osadzony klejnot na inny klejnot z twojego ekwipunku. Obecnie używany klejnot zostanie utracony.</string>
+	<string key="ui_upgrade_warning_title">Ulepszenie przedmiotu</string>
+	<string key="ui_upgrade_warning_body">Do ulepszenia przedmiotu: {itemName} z {baseGearScore} do {targetGearScore} pkt wyposażenia potrzeba: {itemCount} x {upgradeItemName}.\n\nCzy chcesz ulepszyć ten przedmiot?</string>
+	<string key="ui_upgrade_tooltip_enabled">Zastosuj: {itemName}, by zwiększyć liczbę punktów wyposażenia tego przedmiotu.</string>
+	<string key="ui_upgrade_tooltip_disabled">Do zwiększenia liczby punktów wyposażenia tego przedmiotu potrzeba więcej: {itemName}.</string>
 	<string key="ui_cannot_replace_gem_tooltip">Nie można zamienić tego klejnotu.</string>
 	<string key="ui_no_gems_tooltip">Brak dostępnych klejnotów</string>
 	<string key="ui_gem_select_popup_available">Dostępne klejnoty</string>
@@ -1631,7 +1633,7 @@
 	<string key="ui_resource_quantity">{resourceName} {qtyHave} / {qtyNeeded}</string>
 	<string key="ui_escapemenu_proceed_to_new_world">Pomiń samouczek</string>
 	<string key="ui_proceed_to_new_world_popup_title">Pomiń samouczek</string>
-	<string key="ui_proceed_to_new_world_popup_message">Czy na pewno chcesz pominąć samouczek?\nWszystkie monety, przedmioty oraz całe doświadczenie przepadną.</string>
+	<string key="ui_proceed_to_new_world_popup_message">Czy na pewno chcesz pominąć samouczek?\nWszystkie monety i przedmioty oraz całe doświadczenie przepadną.</string>
 	<string key="ui_additional_items">+{count} dodatkowych przedmiotów</string>
 	<string key="ui_retest">Testuj ponownie</string>
 	<string key="ui_details">Szczegóły</string>
@@ -1852,6 +1854,9 @@
 	<string key="ui_camping_tooltip_tier_3">Obóz klasy 3\n\nW obozie klasy 3 możesz wytwarzać różne przedmioty klasy 3, leczyć postać i odradzać się.\n\nBy ulepszyć obóz do klasy 4, musisz mieć postać na 40. poziomie i ukończyć zadanie "Traper: Wilcze obserwacje".</string>
 	<string key="ui_camping_tooltip_tier_4">Obóz klasy 4\n\nW obozie klasy 4 możesz wytwarzać różne przedmioty klasy 4, leczyć postać i odradzać się.\n\nBy ulepszyć obóz do klasy 5, musisz mieć postać na 55. poziomie i ukończyć zadanie "Traper: Gasnące światła".</string>
 	<string key="ui_camping_tooltip_tier_5">Obóz klasy 5\n\nW obozie klasy 5 możesz wytwarzać różne przedmioty klasy 5, leczyć postać i odradzać się.</string>
+	<string key="ui_campskins" rel_version="Feature_Camp_Skins">Skórki obozu</string>
+	<string key="ui_campskin" rel_version="Feature_Camp_Skins">Skórka obozu</string>
+	<string key="ui_campskin_applied_hint" rel_version="Feature_Camp_Skins">Skórka zostanie zastosowana dla twojego następnego obozu.</string>
 	<string key="ui_all_level_milestones">Wszystkie nagrody za awans</string>
 	<string key="ui_unlock_token_slot">Miejsce na kolczyk</string>
 	<string key="ui_unlock_ring_slot">Miejsce na pierścień</string>
@@ -1877,6 +1882,7 @@
 	<string key="ui_from_strength_and_dexterity">Siłą i zręcznością</string>
 	<string key="ui_from_dexterity_and_strength">Zręcznością i siłą</string>
 	<string key="ui_from_dexterity_and_intelligence">Zręcznością i inteligencją</string>
+	<string key="ui_from_strength_and_intelligence">Siłą i inteligencją</string>
 	<string key="ui_from_intelligence">Inteligencją</string>
 	<string key="ui_from_focus">Skupieniem</string>
 	<string key="ui_from_intelligence_and_focus">Inteligencja i skupienie</string>
@@ -2095,6 +2101,9 @@
 	<string key="ui_fishing_hook_fish_swam_away">Porażka – ryba odpłynęła!</string>
 	<string key="ui_fishing_cast_missed_water">Nie udało się trafić w wodę!</string>
 	<string key="ui_fishing_tension" comment="The fishing line is in tension.">Naprężenie</string>
+	<string key="ui_fishing_divert_level_green">Poziom zarybienia normalny</string>
+	<string key="ui_fishing_divert_level_yellow">Poziom zarybienia zmniejsza się!</string>
+	<string key="ui_fishing_divert_level_red">Poziom zarybienia krytyczny!</string>
 	<string key="ui_change_faction_azoth">&lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; {amount}</string>
 	<string key="ui_change_faction_azoth_required">Wymaga &lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; {amount}</string>
 	<string key="ui_faction_cant_pvp">Nie możesz zmienić frakcji, gdy oznaczysz się do PvP</string>
@@ -2239,13 +2248,19 @@
 	<string key="ui_Enable_Viewport_Scale">Dynamiczne skalowanie rozdzielczości</string>
 	<string key="ui_Enable_Viewport_Scale_desc">Gdy włączone, dostosowuje automatycznie rozdzielczość wewnątrz gry by utrzymac ilość FPS.</string>
 	<string key="ui_gathering_disabled">Zbieranie jest obecnie niemożliwe</string>
-	<string key="ui_linktochat_disabled">Link do czatu jest aktualnie nieaktywny.</string>
+	<string key="ui_linktochat_disabled">Link do czatu jest teraz nieaktywny</string>
 	<string key="ui_autopinObjectivesMain">Automatycznie przypinaj zadania główne</string>
 	<string key="ui_autopinobjectivesMain_desc">Automatycznie przypina do interfejsu zadania z wątku głównego po tym, jak je przyjmiesz</string>
+	<string key="ui_autopinObjectivesSkillProgression">Automatycznie przypinaj zadania dotyczące rozwoju umiejętności</string>
+	<string key="ui_autopinobjectivesSkillProgression_desc">Automatycznie przypina do interfejsu zadania związane z rozwojem umiejętności po tym, jak je przyjmiesz</string>
+	<string key="ui_autopinObjectivesEpicEquipment">Automatycznie przypinaj zadania dotyczące epickich pancerzy i broni</string>
+	<string key="ui_autopinobjectivesEpicEquipment_desc">Automatycznie przypina do interfejsu zadania związane z epickimi pancerzami i bronią po tym, jak je przyjmiesz</string>
 	<string key="ui_autopinObjectivesSide">Automatycznie przypinaj zadania poboczne</string>
 	<string key="ui_autopinobjectivesSide_desc">Automatycznie przypina do interfejsu zadania poboczne po tym, jak je przyjmiesz</string>
 	<string key="ui_autopinObjectivesFaction">Automatycznie przypinaj misje frakcyjne</string>
 	<string key="ui_autopinobjectivesFaction_desc">Automatycznie przypina do interfejsu misje frakcyjne po tym, jak je przyjmiesz</string>
+	<string key="ui_autopinobjectivesEvent">Automatycznie przypinaj zadania z wydarzeń</string>
+	<string key="ui_autopinobjectivesEvent_desc">Automatycznie przypina do interfejsu zadania z wydarzeń po tym, jak je przyjmiesz</string>
 	<string key="ui_autopinObjectivesComm">Automatycznie przypinaj projekty miasteczka</string>
 	<string key="ui_autopinobjectivesComm_desc">Automatycznie przypina do interfejsu projekty miasteczka po tym, jak je przyjmiesz</string>
 	<string key="ui_autopinObjectivesCrafting">Automatycznie przypinaj schematy</string>
@@ -2256,7 +2271,11 @@
 	<string key="ui_number_range">{lowNumber}–{highNumber}</string>
 	<string key="ui_recommended_level_range">Zalecany poziom: {lowNumber}–{highNumber}</string>
 	<string key="ui_cannot_trade_currency_blocked">Możesz handlować walutą dopiero po osiągnięciu {level}. poziomu, a twoje konto musi być starsze niż {hoursNeeded} godz.</string>
-	<string key="ui_cannot_chat_global_blocked">Możesz rozmawiać na tym kanale dopiero kiedy twoje konto będzie starsze niż {hoursNeeded} godz.</string>
+	<string key="ui_cannot_chat_global_blocked">Nie możesz rozmawiać na tym kanale, dopóki twoje konto nie będzie starsze niż {hoursNeeded} godz.</string>
 	<string key="ui_complete_quests_to_unlock">Ukończ zadania w osadzie, by odblokować</string>
+	<string key="ui_averageexpertise">Przeciętna\nbiegłość</string>
+	<string key="ui_averageexpertisetooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;Biegłość&lt;/font&gt;\nBiegłość określa potencjalną moc przedmiotów pochodzących z łupów. Łupy upuszczane przez wrogów i znajdowane w strefach powyżej 60. poziomu mają szansę na zwiększenie tej wartości. Jeśli chcesz zwiększać biegłość, musisz w miarę jej rozwoju walczyć z coraz potężniejszymi wrogami i odwiedzać coraz potężniejsze strefy.</string>
+	<string key="ui_itemtypedescription_shield_only">Tarcza</string>
+	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_expertise_small" scale="1" yOffset="3.5"&gt;&lt;/img&gt;{value}</string>
 </resources>
 

@@ -114,10 +114,6 @@
 	<string key="ui_affliction_drowning_tooltip">Si te quedas sin aliento, te sofocarás y morirás</string>
 	<string key="ui_affliction_blight">resistencia a la plaga</string>
 	<string key="ui_affliction_blight_tooltip">Si te quedas sin resistencia a la plaga, estarás en estado salvaje y tendrás un {[Type_StatusEffectData.Blight.DMGStandard * 100]} % de daño reducido y un {[Type_StatusEffectData.Blight.HealMod * 100]} % de sanación reducida, y perderás un {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]} % de tu salud base cada {[Type_StatusEffectData.Blight.TickRate]} segundos durante {[Afflictions.AfflictionBlight.AfflictedDrainTime]} segundos.</string>
-	<string key="ui_affliction_mutcurse3minor">contador maldito</string>
-	<string key="ui_affliction_mutcurse3minor_tooltip">Contador de combustible.</string>
-	<string key="ui_affliction_mutcurse4major">resistencia al retroceso</string>
-	<string key="ui_affliction_mutcurse4major_tooltip">Si te quedas sin resistencia, se te lanzará una zona de silencio. La zona explotará después de un tiempo, infligiendo daño a jugadores y criatura. La resistencia se comparte entre todos los miembros de tu grupo.</string>
 	<string key="ui_afflicted_bleeding">herida</string>
 	<string key="ui_afflicted_bleeding_tooltip">Mientras estás herido, tardas mucho más en recuperar resistencia</string>
 	<string key="ui_afflicted_burn">quemadura</string>
@@ -138,10 +134,6 @@
 	<string key="ui_afflicted_drowning_tooltip">Te ahogaste hasta morir</string>
 	<string key="ui_afflicted_blight">salvaje</string>
 	<string key="ui_afflicted_blight_tooltip">Mientras estés en estado salvaje, tienes un {[Type_StatusEffectData.Blight.DMGStandard * 100]} % de daño reducido y un {[Type_StatusEffectData.Blight.HealMod * 100]} % de sanación reducida, y pierdes un {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]} % de tu salud base cada {[Type_StatusEffectData.Blight.TickRate]} segundos.</string>
-	<string key="ui_afflicted_mutcurse3minor">combustión</string>
-	<string key="ui_afflicted_mutcurse3minor_tooltip">Cuando el contador finalice, los dos jugadores con menos salud lanzarán una cadena elemental desde ellos hacia los aliados cercanos.</string>
-	<string key="ui_afflicted_mutcurse4major">malditos</string>
-	<string key="ui_afflicted_mutcurse4major_tooltip">Cuando se agote el tiempo de este temporizador, la zona de silencio explotará.</string>
 	<string key="ui_agreement">Si continuas, aceptas</string>
 	<string key="ui_ahhhhh">¡¡AHHHHH!!</string>
 	<string key="ui_aimsensitivity">Sensibilidad del objetivo</string>
@@ -380,9 +372,9 @@
 	<string key="ui_exitnewworld">Salir al menú principal</string>
 	<string key="ui_quittodesktop">Salir al escritorio</string>
 	<string key="ui_expatriate">Expatriar</string>
-	<string key="ui_expertise">Experiencia</string>
-	<string key="ui_expertise_tooltip_warning">No puedes ganar más niveles de pericia hasta que alcances el nuevo límite de nivel de habilidad de oficio.</string>
-	<string key="ui_expertise_tooltip_explanation">Después de alcanzar el nivel máximo, podrás seguir ganando experiencia y niveles de pericia.</string>
+	<string key="ui_expertise">Aptitud</string>
+	<string key="ui_expertise_tooltip_warning">No puedes ganar más niveles de aptitud hasta que alcances el nuevo límite de nivel de habilidad de oficio.</string>
+	<string key="ui_expertise_tooltip_explanation">Después de alcanzar el nivel máximo, podrás seguir ganando experiencia y niveles de aptitud.</string>
 	<string key="ui_expertise_tooltip_reward">En cada punto marcado, obtendrás una caja de recompensas. Las cajas que obtienes más adelante en cada nivel ofrecen mayores recompensas.</string>
 	<string key="ui_explorer">Explorador</string>
 	<string key="ui_f">f</string>
@@ -441,6 +433,8 @@
 	<string key="ui_inventoryslotsremaining">Quedan &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{count}&lt;/font&gt; ranuras en el inventario</string>
 	<string key="ui_inventoryweightremaining">Quedan &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{Weight}&lt;/font&gt; libras</string>
 	<string key="ui_inventoryMaxWeight">Llevas el peso máximo</string>
+	<string key="ui_inventoryweight">PESO</string>
+	<string key="ui_inventoryslots">OBJETOS ÚNICOS</string>
 	<string key="ui_filtereditems">{filtered} objetos ocultos por el filtro.</string>
 	<string key="ui_inventory_tooltip">Presiona [{keyName}] para abrir y cerrar tu inventario. El medidor radial muestra la cantidad de tu límite de carga que utilizaste.</string>
 	<string key="ui_equipped">Equipado</string>
@@ -462,6 +456,8 @@
 	<string key="ui_level_unspent_points_tradeskill">{tradeskillPointsText}</string>
 	<string key="ui_level_unspent_points_both">{attributePointsText} {tradeskillPointsText}</string>
 	<string key="ui_level">Nivel</string>
+	<string key="ui_expertise_level" rel_version="Feature_PostCapTradeSkills">Nivel de aptitud</string>
+	<string key="ui_expertise_reward" rel_version="Feature_PostCapTradeSkills">Recompensa de aptitud obtenida</string>
 	<string key="ui_light">Ligero</string>
 	<string key="ui_lmb">bim</string>
 	<string key="ui_lmbrmb">BIM/BDM</string>
@@ -817,6 +813,7 @@
 	<string key="ui_ghost_structure_count_exceeded_warning">En límite de plan de construcción (%d/%d)</string>
 	<string key="ui_ghost_structure_count_warning">Límite de plan de construcción %d/%d</string>
 	<string key="ui_escape_build_mode">Presiona Escape para salir del modo de construcción</string>
+	<string key="ui_escape_cinematic_skip">Escape para omitir</string>
 	<string key="ui_feedback_format">ENVIAR COMENTARIOS</string>
 	<string key="ui_feedback_general">General</string>
 	<string key="ui_in_game_survey_header">¿Estás disfrutando New World?</string>
@@ -954,7 +951,7 @@
 	<string key="ui_whisper_to_someone">{playerName} PARA {recipient}</string>
 	<string key="ui_focus">Concentración</string>
 	<string key="ui_points_to_level">{points} para llegar al nivel {level}</string>
-	<string key="ui_points_to_expertise">{points} para el rango de pericia {level}</string>
+	<string key="ui_points_to_expertise">{points} para el rango de aptitud {level}</string>
 	<string key="ui_spirit">Fe</string>
 	<string key="ui_vitality">Físico</string>
 	<string key="ui_strength">Fuerza</string>
@@ -1020,8 +1017,8 @@
 	<string key="ui_constitution_tooltip">Atributo principal para la salud.</string>
 	<string key="ui_strength_tooltip">Atributo principal para martillos de guerra, grandes hachas, espadas y hachuelas.\n\nAtributo secundario para lanzas.</string>
 	<string key="ui_dexterity_tooltip">Atributo principal para arcos, espadas roperas, lanzas y mosquetes.\n\nAtributo secundario para espadas y hachuelas.</string>
-	<string key="ui_intelligence_tooltip">Atributo principal para bastones ígneos y manoplas de hielo.\n\nAtributo secundario para espadas roperas y mosquetes.</string>
-	<string key="ui_focus_tooltip">Atributo principal de bastones vitales.</string>
+	<string key="ui_intelligence_tooltip">Atributo principal para bastones ígneos, manoplas de hielo y manoplas de vacío.\n\nAtributo secundario para espadas roperas y mosquetes.</string>
+	<string key="ui_focus_tooltip">Atributo principal para bastones vitales.\n\nAtributo secundario para manoplas de vacío.</string>
 	<string key="ui_spirit_tooltip">FE\n\nColocar puntos en la Fe aumenta:\n\n-- Maná total\n-- Defensa contra daño de vacío\n-- Resistencia a la corrupción\n\n-- Potencia de los hechizos con las manoplas celestiales\n</string>
 	<string key="ui_vitality_tooltip">FÍSICO\n\nColocar puntos en el Físico aumenta:\n\n-- La defensa contra el daño físico\n-- Resistencia al veneno\n-- Carga de equipamiento máxima\n</string>
 	<string key="ui_endurance_tooltip">AGUANTE\n\nColocar los puntos en el Aguante aumenta:\n\n-- Resistencia\n-- Defensa contra daño de rayo\n-- Resistencia a heridas\n</string>
@@ -1436,6 +1433,7 @@
 	<string key="ui_tooltip_read">Leer</string>
 	<string key="ui_tooltip_store">Almacenar</string>
 	<string key="ui_purchase_skins">Comprar pieles</string>
+	<string key="ui_tooltip_upgrade">Mejorar</string>
 	<string key="ui_tooltip_take">Tomar</string>
 	<string key="ui_tooltip_split">Dividir</string>
 	<string key="ui_tooltip_weight">Peso: &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{value}&lt;/font&gt;</string>
@@ -1457,6 +1455,10 @@
 	<string key="ui_attach_gem_tooltip">Adjuntar una gema cortada de tu inventario.</string>
 	<string key="ui_replace_gem">Reemplazar gema</string>
 	<string key="ui_replace_gem_tooltip">Reemplazar la gema adjunta actualmente por otra de tu inventario. La gema actual se perderá.</string>
+	<string key="ui_upgrade_warning_title">Mejorar objeto</string>
+	<string key="ui_upgrade_warning_body">Para mejorar tu {itemName} de {baseGearScore} a {targetGearScore} de puntuación del equipo necesitas {itemCount} {upgradeItemName}.\n\n¿Quieres mejorar este objeto?</string>
+	<string key="ui_upgrade_tooltip_enabled">Aplica {itemName} para aumentar la puntuación del equipo de este objeto.</string>
+	<string key="ui_upgrade_tooltip_disabled">Necesitas más {itemName} para aumentar la puntuación del equipo de este objeto.</string>
 	<string key="ui_cannot_replace_gem_tooltip">No se puede reemplazar esta gema.</string>
 	<string key="ui_no_gems_tooltip">No hay gemas disponibles</string>
 	<string key="ui_gem_select_popup_available">Gemas disponibles</string>
@@ -1852,6 +1854,9 @@
 	<string key="ui_camping_tooltip_tier_3">Campamento (nivel 3)\n\nSi armas un campamento de nivel 3, podrás fabricar varios objetos de nivel 3, curar a tu personaje y renacer en el campamento.\n\nPara mejorar el campamento a nivel 4, debes ser de nivel 40 y haber completado la misión "Sobreviviente: Observaciones lupinas".</string>
 	<string key="ui_camping_tooltip_tier_4">Campamento (nivel 4)\n\nSi armas un campamento de nivel 4, podrás fabricar varios objetos de nivel 4, curar a tu personaje y renacer en el campamento.\n\nPara mejorar el campamento a nivel 5, debes ser de nivel 55 y haber completado la misión "Sobreviviente: Luces que se desvanecen".</string>
 	<string key="ui_camping_tooltip_tier_5">Campamento (nivel 5)\n\nSi armas un campamento de nivel 5, podrás fabricar varios objetos de nivel 5, curar a tu personaje y renacer en el campamento.</string>
+	<string key="ui_campskins" rel_version="Feature_Camp_Skins">Diseños de campamento</string>
+	<string key="ui_campskin" rel_version="Feature_Camp_Skins">Diseño de campamento</string>
+	<string key="ui_campskin_applied_hint" rel_version="Feature_Camp_Skins">El diseño se aplicará en tu próximo campamento</string>
 	<string key="ui_all_level_milestones">Todas las recompensas por subir de nivel</string>
 	<string key="ui_unlock_token_slot">Ranura para pendientes</string>
 	<string key="ui_unlock_ring_slot">Ranura para anillos</string>
@@ -1877,6 +1882,7 @@
 	<string key="ui_from_strength_and_dexterity">Fuerza y destreza</string>
 	<string key="ui_from_dexterity_and_strength">Destreza y fuerza</string>
 	<string key="ui_from_dexterity_and_intelligence">Destreza e inteligencia</string>
+	<string key="ui_from_strength_and_intelligence">Fuerza e inteligencia</string>
 	<string key="ui_from_intelligence">Inteligencia</string>
 	<string key="ui_from_focus">Concentración</string>
 	<string key="ui_from_intelligence_and_focus">Inteligencia y concentración</string>
@@ -2005,7 +2011,7 @@
 	<string key="ui_mergefaq_question_3">¿Podré conservar mi compañía?</string>
 	<string key="ui_mergefaq_question_4">¿Mi compañía puede declararle la guerra a otras compañías todavía?</string>
 	<string key="ui_mergefaq_answer_1">Podrás conservar el nivel de tu personaje, los puntos de atributo, los puntos de dominio, la posición del territorio, la casa, el inventario y el almacenamiento del asentamiento.</string>
-	<string key="ui_mergefaq_answer_2">En el nuevo mundo, los territorios serán conquistados por las compañías de allí. Si tu compañía no es de ese mundo, perderás todos tus territorios y actualizaciones, y tu compañía recibirá una suma de dinero por un valor de 50 000.</string>
+	<string key="ui_mergefaq_answer_2">En el nuevo mundo, los territorios serán conquistados por las compañías de allí. Si tu compañía no es de ese mundo, perderás todos tus territorios y actualizaciones, y tu compañía recibirá una suma de dinero por un valor de 50.000.</string>
 	<string key="ui_mergefaq_answer_3">Los jugadores nunca quedarán separados debido a una unión de mundos. Se conservarán tanto los miembros como el monedero de la compañía.</string>
 	<string key="ui_mergefaq_answer_4">Se avisará a los jugadores con 72 horas de antelación antes de una unión de mundos. Las compañías no pueden declarar guerras durante ese tiempo. Las guerras pendientes se cancelarán y el oro invertido en ellas se devolverá.</string>
 	<string key="ui_mergewarning_title">PRÓXIMAMENTE HABRÁ UNA FUSIÓN DE MUNDOS</string>
@@ -2018,7 +2024,7 @@
 	<string key="ui_mergecomplete_question_3">¿Pude conservar mi compañía?</string>
 	<string key="ui_mergecomplete_question_4">¿Mis contratos de compra/venta abiertos siguen publicados?</string>
 	<string key="ui_mergecomplete_answer_1">Pudiste conservar el nivel de tu personaje, los puntos de atributo, los puntos de dominio, la posición del territorio, la casa, el inventario y el almacenamiento del asentamiento.</string>
-	<string key="ui_mergecomplete_answer_2">En el nuevo mundo, los territorios serán conquistados por las compañías de allí. Si tu compañía no es de ese mundo, perderás todos tus territorios y mejoras, y tu compañía recibirá una suma de dinero por un valor de 50 000.</string>
+	<string key="ui_mergecomplete_answer_2">En el nuevo mundo, los territorios serán conquistados por las compañías de allí. Si tu compañía no es de ese mundo, perderás todos tus territorios y actualizaciones, y tu compañía recibirá una suma de dinero por un valor de 50.000.</string>
 	<string key="ui_mergecomplete_answer_3">En ningún caso se separará a los jugadores debido a una fusión, y se han conservado tanto la afiliación como la billetera de la compañía. No se puede declarar una guerra 3 días antes de la fusión.</string>
 	<string key="ui_mergecomplete_answer_4">Los objetos publicados para su venta te serán devueltos, y podrás conservar el dinero obtenido a partir de ventas parciales. Las monedas que se gasten en impuestos o los cargos de publicación no se devolverán.</string>
 	<string key="ui_merge_region">Región</string>
@@ -2095,6 +2101,9 @@
 	<string key="ui_fishing_hook_fish_swam_away">¡Fallaste! ¡El pez se escapó nadando!</string>
 	<string key="ui_fishing_cast_missed_water">¡El lanzamiento no llegó al agua!</string>
 	<string key="ui_fishing_tension" comment="The fishing line is in tension.">Tensión</string>
+	<string key="ui_fishing_divert_level_green">Población de peces normal</string>
+	<string key="ui_fishing_divert_level_yellow">¡Población de peces menguante!</string>
+	<string key="ui_fishing_divert_level_red">¡Población de peces crítica!</string>
 	<string key="ui_change_faction_azoth">&lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; {amount}</string>
 	<string key="ui_change_faction_azoth_required">Requiere &lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; {amount}</string>
 	<string key="ui_faction_cant_pvp">No puedes cambiar de facción si tienes el modo JcJ activado</string>
@@ -2242,11 +2251,17 @@
 	<string key="ui_linktochat_disabled">Actualmente, el enlace al chat está desactivado.</string>
 	<string key="ui_autopinObjectivesMain">Fijar automáticamente las misiones de la historia principal</string>
 	<string key="ui_autopinobjectivesMain_desc">Fija automáticamente las misiones de la historia principal en el HUD cuando las aceptas.</string>
+	<string key="ui_autopinObjectivesSkillProgression">Fijar automáticamente las misiones de progreso de habilidad</string>
+	<string key="ui_autopinobjectivesSkillProgression_desc">Fija automáticamente las misiones de progreso de habilidad en el HUD cuando las aceptas</string>
+	<string key="ui_autopinObjectivesEpicEquipment">Fijar automáticamente misiones de armas y armaduras épicas</string>
+	<string key="ui_autopinobjectivesEpicEquipment_desc">Fija automáticamente las misiones de armas y armaduras épicas en el HUD cuando las aceptas</string>
 	<string key="ui_autopinObjectivesSide">Fijar automáticamente las misiones secundarias</string>
 	<string key="ui_autopinobjectivesSide_desc">Fija automáticamente las misiones secundarias en el HUD cuando las aceptas.</string>
 	<string key="ui_autopinObjectivesFaction">Fijar automáticamente las misiones de la facción</string>
 	<string key="ui_autopinobjectivesFaction_desc">Fija automáticamente las misiones de la facción en el HUD cuando las aceptas.</string>
-	<string key="ui_autopinObjectivesComm">Fijar automáticamente el proyecto de pueblo</string>
+	<string key="ui_autopinobjectivesEvent">Fijar automáticamente las misiones del evento</string>
+	<string key="ui_autopinobjectivesEvent_desc">Fija automáticamente las misiones del evento en el HUD cuando las aceptas.</string>
+	<string key="ui_autopinObjectivesComm">Fijar automáticamente los proyectos de pueblo</string>
 	<string key="ui_autopinobjectivesComm_desc">Fija automáticamente los proyectos de pueblo en el HUD cuando los aceptas.</string>
 	<string key="ui_autopinObjectivesCrafting">Fijar automáticamente las recetas</string>
 	<string key="ui_autopinobjectivesCrafting_desc">Fija automáticamente las recetas en el HUD cuando se fija una receta en la estación de fabricación.</string>
@@ -2258,5 +2273,9 @@
 	<string key="ui_cannot_trade_currency_blocked">No puedes intercambiar moneda hasta que alcances el nivel {level} y tu cuenta tenga más de {hoursNeeded} horas de antigüedad</string>
 	<string key="ui_cannot_chat_global_blocked">No puedes chatear en este canal hasta que tu cuenta tenga más de {hoursNeeded} horas de antigüedad</string>
 	<string key="ui_complete_quests_to_unlock">Completa misiones en el asentamiento para desbloquear</string>
+	<string key="ui_averageexpertise">Pericia\npromedio</string>
+	<string key="ui_averageexpertisetooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;Pericia&lt;/font&gt;\nLa pericia es una medición del poder potencial de tus objetos soltados. Los que sueltan criaturas y zonas que se encuentran en un nivel superior a 60 tienen la posibilidad de aumentar este valor. A medida que tu nivel de pericia aumenta, debes luchar contra las criaturas y zonas más poderosas para ver aumentos adicionales.</string>
+	<string key="ui_itemtypedescription_shield_only">Escudo</string>
+	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_expertise_small" scale="1" yOffset="3.5"&gt;&lt;/img&gt;{value}</string>
 </resources>
 

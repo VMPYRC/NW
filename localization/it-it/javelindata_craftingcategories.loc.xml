@@ -1,6 +1,12 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="GypsumAttunement_GroupName">Sintonia del gesso</string>
+	<string key="CategoryData_CraftingPatterns">Schemi di produzione</string>
 	<string key="FoodComponents_GroupName">Ingredienti composti</string>
 	<string key="GemstoneT1_GroupName">Pietre preziose imperfette</string>
+	<string key="GypsumRefining_GroupName">Lavorazione del gesso</string>
+	<string key="GypsumCasting_GroupName">Creare calchi di gesso</string>
+	<string key="GypsumRaw_GroupName">Sfere di gesso</string>
+	<string key="GypsumCasts_GroupName">Calchi di gesso</string>
 	<string key="GemstoneT2_GroupName">Pietre preziose standard</string>
 	<string key="GemstoneT3_GroupName">Pietre preziose brillanti</string>
 	<string key="GemstoneT4_GroupName">Pietre preziose pure</string>
@@ -715,7 +721,7 @@
 	<string key="CitrineCut_GroupName">Citrino tagliato</string>
 	<string key="claimcharter_GroupName">Atti di rivendicazione</string>
 	<string key="claw_GroupName">Artigli</string>
-	<string key="Cloth_CategoryName">Tessuto</string>
+	<string key="Cloth_CategoryName">Tessuti</string>
 	<string key="Cloth_GroupDesc">Materiale da produzione.</string>
 	<string key="Cloth_GroupName">Tessuti</string>
 	<string key="ClothT2_GroupName">Tessuto livello 2</string>
@@ -1363,8 +1369,8 @@
 	<string key="ModsUncommon_GroupName">Modificatori non comuni</string>
 	<string key="MoonstoneCut_GroupDesc">Pietre di luna tagliate e levigate. Si possono usare per produrre gioielli che aumentano la Forza e la Concentrazione, oppure si possono incastonare nell'equipaggiamento per fornire i vantaggi Euforia e Protezione contro fendente.</string>
 	<string key="MoonstoneCut_GroupName">Pietra di luna\ntagliata</string>
-	<string key="Musical_GroupName">Strumenti musicali</string>
 	<string key="MusketA_GroupDesc">Un'arma a distanza che spara proiettili in grado di infliggere notevoli danni. Ideale per tenere i nemici a distanza e nei combattimenti a lunga distanza in cui sono richiesti tiri di precisione.\n\n•Attacco standard: Infligge un {[DamageTable.MusketAttack1.DmgCoef * 100]}% di danni da affondo.</string>
+	<string key="Blunderbuss_GroupDesc">Un'arma a distanza per scontri ravvicinati, capace di sparare 6 pallottole con un solo colpo. Ideale per tenere sotto pressione bersagli in mischia e dare una bella lezione ai bersagli a distanza.\n\n•Attacco standard: Infligge un {[DamageTable.Blunderbuss_Primary_Attack.DmgCoef * 100]}% di danni da affondo per pallottola.</string>
 	<string key="MusketA_GroupName">Moschetto</string>
 	<string key="Muskets_GroupName">Moschetti</string>
 	<string key="nut_GroupName">Noce</string>
@@ -1708,6 +1714,8 @@
 	<string key="TimberT5_GroupName">Tavole di legno livello 5</string>
 	<string key="TinctureBlight_GroupName">Tinture anti-logoramento</string>
 	<string key="TinctureCorruption_GroupName">Tinture anti-corruzione</string>
+	<string key="Tokens_GroupName">Gettoni della Convergenza invernale</string>
+	<string key="TokenCreation_GroupName">Creazione gettoni</string>
 	<string key="TokenConversion_GroupName">Conversione gettoni</string>
 	<string key="ToolHatchet_GroupDesc">A 1 mano. Utile per raccogliere legno</string>
 	<string key="ToolHatchet_GroupName">Accetta</string>
@@ -1781,5 +1789,17 @@
 	<string key="Pattern">Schemi</string>
 	<string key="PatternRecipes">Ricette di schemi</string>
 	<string key="Lodestone">Magnetite</string>
+	<string key="AttributeStr">Forza</string>
+	<string key="AttributeDex">Destrezza</string>
+	<string key="AttributeInt">Intelligenza</string>
+	<string key="AttributeFoc">Concentrazione</string>
+	<string key="AttributeCon">Costituzione</string>
+	<string key="TimelessShardsStr">Schegge senza tempo - Forza</string>
+	<string key="TimelessShardsDex">Schegge senza tempo - Destrezza</string>
+	<string key="TimelessShardsInt">Schegge senza tempo - Intelligenza</string>
+	<string key="TimelessShardsFoc">Schegge senza tempo - Concentrazione</string>
+	<string key="TimelessShardsCon">Schegge senza tempo - Costituzione</string>
+	<string key="ArmorShadow_GroupName">Calcaombra</string>
+	<string key="ArmorBeast_GroupName">Cacciatore di bestie</string>
 </resources>
 

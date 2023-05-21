@@ -54,6 +54,10 @@
 	<string key="cr_add_quickslot">Añadido a la &lt;font color="#c0c0c0"&gt;ranura rápida&lt;/font&gt;</string>
 	<string key="cr_add_equipment">Añadido al &lt;font color="#c0c0c0"&gt;equipo&lt;/font&gt;</string>
 	<string key="cr_cantcraft">No fabricable</string>
+	<string key="cr_alreadycrafted" rel_version="Feature_Camp_Skins">Ya fabricado</string>
+	<string key="cr_unlockrecipe_info" rel_version="Feature_Camp_Skins">Este es un diseño vinculado a tu personaje que se puede fabricar una sola vez. Una vez fabricado, el diseño estará disponible en el menú de diseños del campamento.</string>
+	<string key="cr_campskin_title" rel_version="Feature_Camp_Skins">Cómo se usa:</string>
+	<string key="cr_campskin_desc" rel_version="Feature_Camp_Skins">Haz clic en el Inventario estando en el campamento para cambiar de diseño.\nDebes tener el campamento desbloqueado para utilizar este diseño.</string>
 	<string key="cr_tier1">Clase &lt;img src="lyshineui/images/crafting/crafting_tier_1" scale="0.6" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="cr_tier2">Clase &lt;img src="lyshineui/images/crafting/crafting_tier_2" scale="0.6" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="cr_tier3">Clase &lt;img src="lyshineui/images/crafting/crafting_tier_3" scale="0.6" yOffset="2"&gt;&lt;/img&gt;</string>
@@ -218,5 +222,6 @@
 	<string key="crafting_filter_placeholder">Filtrar por nombre...</string>
 	<string key="crafting_category_select_title">ELEGIR {type}</string>
 	<string key="crafting_discount_base">Tarifa base</string>
+	<string key="ui_crafting_resource_origin_message">Nota: Los recursos utilizados se cogen en primer lugar de tu inventario y después del almacenamiento de tu asentamiento.</string>
 </resources>
 

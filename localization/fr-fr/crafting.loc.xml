@@ -54,6 +54,10 @@
 	<string key="cr_add_quickslot">Ajout à la &lt;font color="#c0c0c0"&gt;barre d'accès&lt;/font&gt;</string>
 	<string key="cr_add_equipment">Ajout comme &lt;font color="#c0c0c0"&gt;équipement&lt;/font&gt;</string>
 	<string key="cr_cantcraft">Impossible à faire</string>
+	<string key="cr_alreadycrafted" rel_version="Feature_Camp_Skins">Déjà fabriqué</string>
+	<string key="cr_unlockrecipe_info" rel_version="Feature_Camp_Skins">Cette apparence est liée à votre personnage et ne peut être fabriquée qu'une fois. Une fois fabriquée, elle sera disponible dans le menu Apparences de bivouac.</string>
+	<string key="cr_campskin_title" rel_version="Feature_Camp_Skins">Guide d'utilisation</string>
+	<string key="cr_campskin_desc" rel_version="Feature_Camp_Skins">Rendez-vous dans l'inventaire et cliquez sur votre bivouac pour en modifier l'apparence.\nVous devez être en mesure de bivouaquer pour utiliser cette apparence.</string>
 	<string key="cr_tier1">Palier &lt;img src="lyshineui/images/crafting/crafting_tier_1" scale="0.6" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="cr_tier2">Palier &lt;img src="lyshineui/images/crafting/crafting_tier_2" scale="0.6" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="cr_tier3">Palier &lt;img src="lyshineui/images/crafting/crafting_tier_3" scale="0.6" yOffset="2"&gt;&lt;/img&gt;</string>
@@ -105,7 +109,7 @@
 	<string key="crafting_quality_desc">Cette barre indique le score d'équipement approximatif dont l'objet pourra bénéficier. Votre niveau de compétence en détermine la base. Vous pouvez également jouer sur le palier et la rareté de vos ressources pour ajuster le score potentiel de votre objet.</string>
 	<string key="crafting_quest_recipes">Recettes des quêtes</string>
 	<string key="crafting_select_resources">Sélectionner des ressources</string>
-	<string key="new_recipe_unlocked">NOUVELLE RECETTE DÉVERROUILLÉÉ</string>
+	<string key="new_recipe_unlocked">NOUVELLE RECETTE DÉVERROUILLÉE</string>
 	<string key="dyeing_equipped_armor_title">Teindre l'armure équipée</string>
 	<string key="dyeing_unequipped_armor_title_inventory">Teindre l'armure</string>
 	<string key="dyeing_unequipped_armor_title">Appliquer la teinture sur : {itemName}</string>
@@ -218,5 +222,6 @@
 	<string key="crafting_filter_placeholder">Filtrer par nom...</string>
 	<string key="crafting_category_select_title">SÉLECTIONNER {type}</string>
 	<string key="crafting_discount_base">Frais de base</string>
+	<string key="ui_crafting_resource_origin_message">Remarque : Les ressources utilisées sont d'abord prises dans votre inventaire, puis dans le rangement de votre colonie.</string>
 </resources>
 

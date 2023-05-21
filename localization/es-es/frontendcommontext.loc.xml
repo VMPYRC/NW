@@ -81,6 +81,8 @@
 	<string key="mm_loginservices_warning_Abusive">Se te ha identificado por comportamiento abusivo.</string>
 	<string key="mm_loginservices_warning_Leaking">Se te ha identificado por filtrar contenido protegido.</string>
 	<string key="mm_loginservices_warning_Disruptive">Se te ha identificado por mala conducta.</string>
+	<string key="mm_loginservices_CreateCharacterFailed">Error al crear el personaje</string>
+	<string key="mm_loginservices_CreateCharacterRateLimit">Has creado demasiados personajes recientemente. Inténtalo de nuevo tras &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{duration}&lt;/font&gt; (&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{dateandtime}&lt;/font&gt;).</string>
 	<string key="mm_loginservices_UnknownCharacter">Inicio de sesión denegado: El personaje no existe.</string>
 	<string key="mm_loginservices_InactiveCharacter">Inicio de sesión denegado: El personaje se ha eliminado.</string>
 	<string key="mm_loginservices_MustRenameCharacter">Inicio de sesión denegado: Debe cambiarse el nombre del personaje.</string>
@@ -130,12 +132,13 @@
 	<string key="mm_csdkerr_nil_send">Error de conexión de jugabilidad.</string>
 	<string key="mm_csdkerr_invalid_endpoint">Dirección del servidor no válida</string>
 	<string key="mm_csdkerr_connection_failed">La conexión del servidor ha fallado.</string>
+	<string key="mm_csdkerr_transport_version_mismatch">El servidor está usando una versión de la red incompatible. Actualiza el juego y vuelve a intentarlo.</string>
 	<string key="mm_csdkerr_registration_failed">No se ha podido conectar con el servidor</string>
 	<string key="mm_csdkerr_registration_unmarshal_error">Error de datos del servidor. Busca un parche.</string>
 	<string key="mm_csdkerr_disconnect">Desconexión inesperada del servidor. Reconectando...</string>
 	<string key="mm_csdkerr_replicate_timeout">Se acabó el tiempo de espera mientras se sincronizaba el estado.</string>
 	<string key="mm_csdkerr_registration_failed_retry">No se ha podido conectar con el servidor</string>
-	<string key="mm_connerr_rep_registration_timeout">No se puede establecer conexión con el servidor.</string>
+	<string key="mm_connerr_rep_registration_timeout">No se puede conectar con el servidor. Comprueba que tienes acceso a internet y vuelve a intentarlo.</string>
 	<string key="mm_connerr_game_timeout">Se acabó el tiempo de espera de la partida en el servidor.</string>
 	<string key="mm_connerr_spawn_point_timeout">Se acabó el tiempo de espera mientras se esperaba un punto de reaparición.</string>
 	<string key="mm_connerr_aoi_timeout">Se acabó el tiempo de espera de la descripción del mundo en el servidor.</string>
@@ -192,8 +195,8 @@
 	<string key="mm_authresult_Denied_CapacityLimitReached">Actualmente, los servidores están ocupados. Inténtalo de nuevo más adelante.</string>
 	<string key="mm_authresult_Denied_SoftTTLExceeded">Se excedió el TTL del servidor. Inténtalo de nuevo más adelante.</string>
 	<string key="mm_authresult_Denied_HardTTLExceeded">Se excedió el TTL del servidor. Inténtalo de nuevo más adelante.</string>
-	<string key="mm_authresult_Denied_VersionCheckFailed">La versión del servidor y el cliente no coinciden. Actualiza el cliente desde el iniciador.</string>
-	<string key="mm_authresult_Denied_TypeIndexMismatch">Versión del cliente incompatible. Actualiza el cliente desde el iniciador.</string>
+	<string key="mm_authresult_Denied_VersionCheckFailed">El servidor está ejecutando una versión diferente del juego. Actualízalo y vuelve a intentarlo.</string>
+	<string key="mm_authresult_Denied_TypeIndexMismatch">El servidor está ejecutando una versión incompatible del juego. Actualízalo y vuelve a intentarlo.</string>
 	<string key="mm_authresult_Denied_LoginTokenSignatureInvalid">Firma del token de inicio de sesión inválida.</string>
 	<string key="mm_authresult_Denied_LoginTokenExpired">La sesión caducó. Inténtalo de nuevo.</string>
 	<string key="mm_authresult_Denied_LoginTokenWorldIdInvalid">El inicio de sesión no es válido para el mundo seleccionado.</string>
@@ -334,8 +337,27 @@
 	<string key="ui_cooking">Cocina</string>
 	<string key="ui_engineering">Ingeniería</string>
 	<string key="ui_engineering_desc">Fabrica armas a distancia y mobiliario doméstico.</string>
+	<string key="ui_kiln">Horno de aljez</string>
+	<string key="ui_kiln_desc">Aquí puedes refinar y crear aljez.</string>
 	<string key="ui_furnishing">Mobiliario</string>
 	<string key="ui_wildernesssurvival" comment="wilderness survival is not a trainable skill and is always equal to the character's level, so just tell users it's their character level for simplicity">Personaje</string>
+	<string key="ui_weaponsmithing_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Weaponsmithing Post Cap</string>
+	<string key="ui_armoring_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Armoring Post Cap</string>
+	<string key="ui_jewelcrafting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Jewelcrafting Post Cap</string>
+	<string key="ui_arcana_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Arcana Post Cap</string>
+	<string key="ui_cooking_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Cooking Post Cap</string>
+	<string key="ui_fishing_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Fishing Post Cap</string>
+	<string key="ui_furnishing_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Furnishing Post Cap</string>
+	<string key="ui_engineering_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Engineering Post Cap</string>
+	<string key="ui_smelting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Smelting Post Cap</string>
+	<string key="ui_woodworking_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Woodworking Post Cap</string>
+	<string key="ui_leatherworking_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Leatherworking Post Cap</string>
+	<string key="ui_weaving_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Weaving Post Cap</string>
+	<string key="ui_stonecutting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Stonecutting Post Cap</string>
+	<string key="ui_skinning_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Skinning Post Cap</string>
+	<string key="ui_mining_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Mining Post Cap</string>
+	<string key="ui_logging_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Logging Post Cap</string>
+	<string key="ui_harvesting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Harvesting Post Cap</string>
 	<string key="ui_decline">Rechazar</string>
 	<string key="ui_name_your_avatar">Ponle nombre a tu personaje</string>
 	<string key="ui_portrait_title">Mi retrato</string>

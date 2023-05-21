@@ -449,6 +449,7 @@
 	<string key="AI_Slime_Buff_DisplayName">Bave</string>
 	<string key="AI_Slime_Slow_DisplayName">Colle</string>
 	<string key="AI_Slime_Slow_Tooltip">Réduit la vitesse de déplacement de {[Type_StatusEffectData.AI_Slime_Slow.MoveSpeedMod * -100]} %.</string>
+	<string key="AI_SpiderBite_Tooltip">Empoisonnement à hauteur de {[Type_StatusEffectData.AI_SpiderBite.HealthModifierDamageBased * -100]} % des dégâts de nature de base toutes les {[Type_StatusEffectData.AI_SpiderBite.TickRate]} secondes pendant {[Type_StatusEffectData.AI_SpiderBite.BaseDuration]} secondes.</string>
 	<string key="AI_PoisonOnHit_Buff_DisplayName">Venimeux</string>
 	<string key="AI_PoisonOnHit_Damage_DisplayName">Poison</string>
 	<string key="AI_PoisonOnHit_Damage_Tooltip">Empoisonnement à hauteur de {[Type_StatusEffectData.AI_PoisonOnHit_Damage.HealthModifierDamageBased * -100]} % des dégâts de nature de base toutes les {[Type_StatusEffectData.AI_PoisonOnHit_Damage.TickRate]} secondes pendant {[Type_StatusEffectData.AI_PoisonOnHit_Damage.BaseDuration]} secondes.</string>
@@ -467,7 +468,7 @@
 	<string key="AI_Bleed_9_DisplayName">Saignement</string>
 	<string key="AI_Bleed_9_Tooltip">Saignement à hauteur de {[Type_StatusEffectData.AI_Bleed_9.HealthModifierDamageBased * -100]} % des dégâts de base, suivis de dégâts physiques supplémentaires à hauteur de {[Type_StatusEffectData.AI_Bleed_9.HealthModifierPercent * -100]} % de la santé de base toutes les {[Type_StatusEffectData.AI_Bleed_9.TickRate]} secondes pendant {[Type_StatusEffectData.AI_Bleed_9.BaseDuration]} secondes.</string>
 	<string key="AI_Burn_9_DisplayName">Brûlure</string>
-	<string key="AI_Burn_9_Tooltip">Brûlure à hauteur de {[Type_StatusEffectData.AI_Burn_9.HealthModifierDamageBased * -100]} % des dégâts de base, suivis de dégâts de feu de base supplémentaires à hauteur de {[Type_StatusEffectData.AI_Burn_9.HealthModifierPercent * -100]} % de la santé de base toutes les {[Type_StatusEffectData.AI_Burn_9.TickRate]} secondes pendant {[Type_StatusEffectData.AI_Burn_9.BaseDuration]} secondes.</string>
+	<string key="AI_Burn_9_Tooltip">Brûlure à hauteur de {[Type_StatusEffectData.AI_Burn_9.HealthModifierDamageBased * -100]} % des dégâts de feu de base toutes les {[Type_StatusEffectData.AI_Burn_9.TickRate]} secondes pendant {[Type_StatusEffectData.AI_Burn_9.BaseDuration]} secondes.</string>
 	<string key="AI_Thorpe_Burn_DisplayName">Sombre brûlure</string>
 	<string key="AI_Thorpe_Burn_Tooltip">Brûlure à hauteur de {[Type_StatusEffectData.AI_Thorpe_Burn.HealthModifierDamageBased * -100]} % des dégâts de base, suivis de dégâts de feu de base supplémentaires à hauteur de {[Type_StatusEffectData.AI_Thorpe_Burn.HealthModifierPercent * -100]} % de la santé de base toutes les {[Type_StatusEffectData.AI_Thorpe_Burn.TickRate]} secondes pendant {[Type_StatusEffectData.AI_Thorpe_Burn.BaseDuration]} secondes.</string>
 	<string key="AI_Thorpe_FTUE_Burn_DisplayName">Brûlure</string>
@@ -519,6 +520,14 @@
 	<string key="AI_Isabella_Phase2_TouchOfCorruption_Tooltip">Vous subissez l'atteinte d'altération toutes les {[Type_StatusEffectData.AI_Isabella_Phase2_TouchOfCorruption.TickRate]} secondes pendant {[Type_StatusEffectData.AI_Isabella_Phase2_TouchOfCorruption.BaseDuration]} secondes.</string>
 	<string key="AI_Mage_Miniboss_Orbs_StatusEffect_DisplayName">Essence occulte</string>
 	<string key="AI_Mage_Miniboss_Orbs_StatusEffect_Tooltip">Le mage puise son essence en vous pour se soigner.</string>
+	<string key="AI_IceDryad_Frostgrip_IceVein_Root_DisplayName" rel_version="Event_WinterConvergence_Perm">Enraciné</string>
+	<string key="AI_IceDryad_Frostgrip_IceVein_Root_Tooltip" rel_version="Event_WinterConvergence_Perm">Cloue sur place pendant {[Type_StatusEffectData.AI_IceDryad_Frostgrip_IceVein_Root.BaseDuration]} secondes.</string>
+	<string key="AI_IceDryad_Frostgrip_IceField_Slow_DisplayName" rel_version="Event_WinterConvergence_Perm">Ralentissement</string>
+	<string key="AI_IceDryad_Frostgrip_IceField_Slow_Tooltip" rel_version="Event_WinterConvergence_Perm">Réduit la vitesse de déplacement de {[Type_StatusEffectData.AI_IceDryad_Frostgrip_IceField_Slow.MoveSpeedMod * -100]} % pendant {[Type_StatusEffectData.AI_IceDryad_Frostgrip_IceField_Slow.BaseDuration]} secondes.</string>
+	<string key="AI_IceDryad_Frostfang_Buff_Empower_DisplayName" rel_version="Event_WinterConvergence_Perm">Renforcement</string>
+	<string key="AI_IceDryad_Frostfang_Buff_Empower_Tooltip" rel_version="Event_WinterConvergence_Perm">Augmente les dégâts de types spécifiques pendant {[Type_StatusEffectData.Type_StatusEffectData.AI_IceDryad_Frostfang_Buff_Empower.BaseDuration * 100]} secondes.</string>
+	<string key="AI_IceDryad_Frostfang_Debuff_Weaken_DisplayName" rel_version="Event_WinterConvergence_Perm">Affaiblissement</string>
+	<string key="AI_IceDryad_Frostfang_Debuff_Weaken_Tooltip" rel_version="Event_WinterConvergence_Perm">Dégâts infligés réduits pour la plupart des types pendant {[Type_StatusEffectData.AI_IceDryad_Frostfang_Debuff_Weaken.BaseDuration]} secondes.</string>
 	<string key="godModeThirst_DisplayName">Mode divin</string>
 	<string key="godModeHealth_DisplayName">Mode divin</string>
 	<string key="godModeAll_DisplayName">Mode divin</string>
@@ -839,7 +848,7 @@
 	<string key="IceMagic_Freeze_DisplayName">Gel</string>
 	<string key="IceMagic_Freeze_Description">Immobilisation pendant 1 seconde.</string>
 	<string key="IceMagic_UltimateChill_DisplayName">Froid ultime</string>
-	<string key="IceMagic_UltimateChill_Description">Les dégâts subis par la glace sont augmentés de 35 %.</string>
+	<string key="IceMagic_UltimateChill_Description">Les dégâts subis par la glace augmentent de {[Type_StatusEffectData.IceMagic_UltimateChill.WKNIce * 100]} %.</string>
 	<string key="IceMagic_StrengthenedTomb_DisplayName">Prison de glace renforcée</string>
 	<string key="IceMagic_StrengthenedTomb_Description">Augmente l'armure de 25 %.</string>
 	<string key="IceMagic_IceStorm_Weaken_DisplayName">Bourrasque affaiblissante</string>
@@ -964,6 +973,7 @@
 	<string key="Status_Spear_Skewer_Bleed_DisplayName">Brochette</string>
 	<string key="Status_Spear_Skewer_Bleed_Description">{[Type_StatusEffectData.Spear_Skewer_Bleed.HealthModifierDamageBased * -100]} % de saignement toutes les {[Type_StatusEffectData.Spear_Skewer_Bleed.TickRate]} secondes pendant {[Type_StatusEffectData.Spear_Skewer_Bleed.BaseDuration]} secondes.</string>
 	<string key="Status_Spear_Skewer_Bleed_Upgrade_Description">{[Type_StatusEffectData.Spear_Skewer_Bleed_Upgrade.HealthModifierDamageBased * -100]} % de saignement toutes les {[Type_StatusEffectData.Spear_Skewer_Bleed_Upgrade.TickRate]} secondes pendant {[Type_StatusEffectData.Spear_Skewer_Bleed_Upgrade.BaseDuration]} secondes.</string>
+	<string key="Status_Spear_Skewer_EmpowerOnCrit_Description">Les dégâts augmentent de {[Type_StatusEffectData.Spear_Skewer_EmpowerOnCrit.DMGStandard * 100]} %.</string>
 	<string key="Status_Spear_Perforate_Rend_DisplayName">Perforation</string>
 	<string key="Status_Spear_Perforate_Rend_Description">Augmente tous les types de dégâts subis de {[Type_StatusEffectData.Spear_Perforate_Rend.ABSThrust * -100]} % pendant {[Type_StatusEffectData.Spear_Perforate_Rend.BaseDuration]} secondes.</string>
 	<string key="Status_Spear_Perforate_Rend_Upgrade_DisplayName">Perforation</string>
@@ -1028,7 +1038,7 @@
 	<string key="RiposteRendPerk2_Description">Augmente tous les types de dégâts subis de {[Type_StatusEffectData.RiposteRendPerk2.ABSStrike * 100]} % pendant {[Type_StatusEffectData.RiposteRendPerk2.BaseDuration]} secondes.</string>
 	<string key="RiposteRendPerk3_Description">Augmente tous les types de dégâts subis de {[Type_StatusEffectData.RiposteRendPerk3.ABSStrike * 100]} % pendant {[Type_StatusEffectData.RiposteRendPerk3.BaseDuration]} secondes.</string>
 	<string key="OR_Boss_Buff">Puissance fantôme</string>
-	<string key="OR_Boss_Buff_Description">Augmente la protection et la régénération de la santé.</string>
+	<string key="OR_Boss_Buff_Description">+{[Type_StatusEffectData.OutpostRush_Boss_Buff.ABSStandard * 100]} % d'absorption des dégâts et +{[Type_StatusEffectData.OutpostRush_Boss_Buff.Health * 4]} de régénération de santé par seconde.</string>
 	<string key="Status_Empower">Renforcement</string>
 	<string key="Status_Fortify">Fortification</string>
 	<string key="Status_Haste">Célérité</string>
@@ -1115,8 +1125,8 @@
 	<string key="Hatchet_SocialDist_SlowBuff_Description">Réduit votre vitesse de déplacement de {[Type_StatusEffectData.Hatchet_SocialDist_SlowBuff.MoveSpeedMod * -100]} %.</string>
 	<string key="Hatchet_3AtkFortify_Description">Réduit les dégâts subis de {[Type_StatusEffectData.Hatchet_Pass_Fortify3Atk.ABSStandard * 100]} %.</string>
 	<string key="InfectedThrow_Disease_DisplayName">Maladie du lancer infecté</string>
-	<string key="InfectedThrow_Disease_Description">Réduit l'efficacité des soins de {[Type_StatusEffectData.Hatchet_Infected_DiseaseWeak.HealMod * -100]} % et les dégâts infligés de {[Type_StatusEffectData.Hatchet_Infected_DiseaseWeak.DMGStandard * -100]}.</string>
-	<string key="WarHammer_ArmorBreaker_Rend_Description">Augmente les dégâts subis de {[Type_StatusEffectData.WarHammer_ArmorBreaker_Rend.ABSStandard * 100]} %.</string>
+	<string key="InfectedThrow_Disease_Description">Réduit l'efficacité des soins de {[Type_StatusEffectData.Hatchet_Infected_DiseaseWeak.HealMod * -100]} % et les dégâts infligés de {[Type_StatusEffectData.Hatchet_Infected_DiseaseWeak.DMGStandard * -100]} %.</string>
+	<string key="WarHammer_ArmorBreaker_Rend_Description">Augmente les dégâts subis de {[Type_StatusEffectData.WarHammer_ArmorBreaker_Rend.ABSStandard * -100]} %.</string>
 	<string key="WarHammer_Gavel_Haste_Description">Augmente votre vitesse de déplacement de {[Type_StatusEffectData.WarHammer_Gavel_Haste.MoveSpeedMod * 100]} %.</string>
 	<string key="WarHammer_HasteOnDebuff_Description">Augmente votre vitesse de déplacement de {[Type_StatusEffectData.WarHammer_Pass_Haste.MoveSpeedMod * 100]} %.</string>
 	<string key="WarHammer_WreckingBall_Forify_Description">Réduit les dégâts subis de {[Type_StatusEffectData.WarHammer_WreckingBall_Fortify.ABSStandard * 100]} %.</string>
@@ -1241,8 +1251,15 @@
 	<string key="Musket_DodgeReload_Description">Une fois ce temps écoulé, vous pouvez de nouveau utiliser Rechargement tactique.</string>
 	<string key="MeteorShowerDamage_DisplayName">Pluie de météores</string>
 	<string key="MeteorShowerDamage_Description">Vous subissez des dégâts d'une Pluie de météores à intervalles réguliers.</string>
+	<string key="ArcticBreath_Tooltip" rel_version="Event_WinterConvergence_Perm">Augmente les dégâts que vous subissez de {[Type_StatusEffectData.Yeti_Arctic_Breath_Slow_6sec.HealthModifierPercent * -100]} % toutes les {[Type_StatusEffectData.Yeti_Arctic_Breath_Slow_6sec.TickRate]} secondes et vous ralentit de {[Type_StatusEffectData.Yeti_Arctic_Breath_Slow_6sec.MoveSpeedMod * -100]} % pendant {[Type_StatusEffectData.Yeti_Arctic_Breath_Slow_6sec.BaseDuration]} secondes.</string>
+	<string key="ArcticBreath_DisplayName" rel_version="Event_WinterConvergence_Perm">Souffle arctique</string>
 	<string key="AI_EvilKnight_Rally_DisplayName" rel_version="AI_Evil_Knights_P1">Cri de guerre varègue</string>
 	<string key="RoadTravel_SprintBoost">Vitesse sur les routes</string>
 	<string key="RoadTravel_SprintBoost_Description">Augmente votre vitesse de déplacement de {[Type_StatusEffectData.Traversal_RoadSprintBoost_Haste.SprintSpeedMod * 100]} % lorsque vous sprintez sur les routes.</string>
+	<string key="Status_Weapon_DiseaseOnCrit_Description" rel_version="MorePerksV1">Réduit l'efficacité des soins de {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.HealMod * -100]} %.</string>
+	<string key="Status_Weapon_DiseaseOnHeavy_Description" rel_version="MorePerksV1">Réduit l'efficacité des soins de {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.HealMod * -100]} %.</string>
+	<string key="Status_Weapon_ChargedHeavyRend_Description" rel_version="MorePerksV1">Augmente tous les types de dégâts subis de {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.ABSStandard * -100]} %.</string>
+	<string key="Status_Timer_ChargedHeavyRend_Description" rel_version="MorePerksV1">Quand l'effet se termine, vous pouvez de nouveau déclencher l'atout Harmonisation gélive.</string>
+	<string key="Blunderbuss_LastChance_Desc">Vous subissez {[Type_StatusEffectData.Blunderbuss_LastChance.ABSStandard * 100]} % de dégâts en moins.</string>
 </resources>
 

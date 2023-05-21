@@ -54,6 +54,10 @@
 	<string key="cr_add_quickslot">Adicionado(a) ao &lt;font color="#c0c0c0"&gt;Atalho Rápido&lt;/font&gt;</string>
 	<string key="cr_add_equipment">Adicionado(a) aos &lt;font color="#c0c0c0"&gt;Equipamentos&lt;/font&gt;</string>
 	<string key="cr_cantcraft">Não pode confeccionar</string>
+	<string key="cr_alreadycrafted" rel_version="Feature_Camp_Skins">Já confeccionado</string>
+	<string key="cr_unlockrecipe_info" rel_version="Feature_Camp_Skins">Esta aparência só pode ser confeccionada uma vez e é vinculada ao seu personagem. Depois de confeccionada, a aparência ficará disponível no menu de aparências de acampamento.</string>
+	<string key="cr_campskin_title" rel_version="Feature_Camp_Skins">Como utilizar:</string>
+	<string key="cr_campskin_desc" rel_version="Feature_Camp_Skins">Clique no seu acampamento no Inventário para alterar a aparência.\nVocê precisa ter desbloqueado o acampamento para poder usar esta aparência.</string>
 	<string key="cr_tier1">Escala &lt;img src="lyshineui/images/crafting/crafting_tier_1" scale="0.6" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="cr_tier2">Escala &lt;img src="lyshineui/images/crafting/crafting_tier_2" scale="0.6" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="cr_tier3">Escala &lt;img src="lyshineui/images/crafting/crafting_tier_3" scale="0.6" yOffset="2"&gt;&lt;/img&gt;</string>
@@ -218,5 +222,6 @@
 	<string key="crafting_filter_placeholder">Filtrar por Nome...</string>
 	<string key="crafting_category_select_title">SELECIONAR {type}</string>
 	<string key="crafting_discount_base">Taxa Base</string>
+	<string key="ui_crafting_resource_origin_message">Nota: Os recursos usados são tirados primeiro do seu inventário, depois do armazém do assentamento.</string>
 </resources>
 

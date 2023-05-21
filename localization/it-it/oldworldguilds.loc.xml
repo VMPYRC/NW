@@ -364,11 +364,11 @@
 	<string key="FactionMission_EXPEDITIONLOOT_title">Saccheggia presso: {POITags}</string>
 	<string key="FactionMission_EXPEDITIONLOOT_desc">Addentrati nel territorio di {POITags} per conto dei Predoni e raccogli ogni &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; che trovi. \n\n&lt;font color="#eaeaea"&gt;(Spedizione)&lt;/font&gt;</string>
 	<string key="FactionMission_INTERCEPT_title">Domina (PvP)</string>
-	<string key="FactionMission_INTERCEPT_desc">Sconfiggi i membri dell'&lt;font color="#eaeaea"&gt;Unione&lt;/font&gt; o del &lt;font color="#eaeaea"&gt;Patto&lt;/font&gt; per la gloria dei Predoni.</string>
+	<string key="FactionMission_INTERCEPT_desc">Sconfiggi i membri dell'&lt;font color="#eaeaea"&gt;Unione&lt;/font&gt; o del &lt;font color="#eaeaea"&gt;Patto&lt;/font&gt; per la gloria dei Predoni.\n\n (In questa missione, i progressi vengono mantenuti anche in caso di morte)</string>
 	<string key="FactionMission_S_INTERCEPT_title">Sradica (PvP)</string>
-	<string key="FactionMission_S_INTERCEPT_desc">Sconfiggi i membri dei &lt;font color="#eaeaea"&gt;Predoni&lt;/font&gt; o del &lt;font color="#eaeaea"&gt;Patto&lt;/font&gt; per dimostrare la tua superiorità.</string>
+	<string key="FactionMission_S_INTERCEPT_desc">Sconfiggi i membri dei &lt;font color="#eaeaea"&gt;Predoni&lt;/font&gt; o del &lt;font color="#eaeaea"&gt;Patto&lt;/font&gt; per dimostrare la tua superiorità.\n\n (In questa missione, i progressi vengono mantenuti anche in caso di morte)</string>
 	<string key="FactionMission_C_INTERCEPT_title">Sgomina (PvP)</string>
-	<string key="FactionMission_C_INTERCEPT_desc">Sconfiggi i membri dell'&lt;font color="#eaeaea"&gt;Unione&lt;/font&gt; o dei &lt;font color="#eaeaea"&gt;Predoni&lt;/font&gt; per purificare le loro anime.</string>
+	<string key="FactionMission_C_INTERCEPT_desc">Sconfiggi i membri dell'&lt;font color="#eaeaea"&gt;Unione&lt;/font&gt; o dei &lt;font color="#eaeaea"&gt;Predoni&lt;/font&gt; per purificare le loro anime.\n\n (In questa missione, i progressi vengono mantenuti anche in caso di morte)</string>
 	<string key="FactionMission_S_EXPEDITIONRAID_title">Purifica: {POITags}</string>
 	<string key="FactionMission_S_EXPEDITIONRAID_desc">Addentrati nel territorio di {POITags} per conto dell'Unione e sconfiggi ogni &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; che sia necessario. \n\n &lt;font color="#eaeaea"&gt;(Spedizione)&lt;/font&gt;</string>
 	<string key="FactionMission_S_EXPEDITIONLOOT_title">Fai incetta presso: {POITags}</string>
@@ -487,5 +487,20 @@
 	<string key="FactionMission_ASSASSINATE_ELITE_NIGHT_desc">I Predoni vogliono che tu tolga di mezzo: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nDimostra il tuo valore rintracciando il bersaglio presso {POITags} e distruggendolo.\n&lt;font color="#eaeaea"&gt;(Élite - Il nemico è notturno)&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_NIGHT_desc">L'Unione ha individuato un bersaglio da eliminare: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nRintraccialo presso {POITags} e distruggilo.\n&lt;font color="#eaeaea"&gt;(Élite - Il nemico è notturno)&lt;/font&gt;</string>
 	<string key="FactionMission_C_ASSASSINATE_ELITE_NIGHT_desc">Il Patto ha individuato una minaccia da eliminare: &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nDimostra la tua devozione rintracciandola presso {POITags} e distruggendola.\n &lt;font color="#eaeaea"&gt;(Élite - Il nemico è notturno)&lt;/font&gt;</string>
+	<string key="CMissionAcquireStoneworker" rel_version="Event_WinterConvergence_Temp">Procurati e consegna: &lt;font color="#eaeaea"&gt;{itemName} (x{itemAmount})&lt;/font&gt; presso una postazione di lavorazione della pietra.</string>
+	<string key="CMissionAcquireWoodWorker" rel_version="Event_WinterConvergence_Temp">Procurati e consegna: &lt;font color="#eaeaea"&gt;{itemName} (x{itemAmount})&lt;/font&gt; presso una postazione di falegnameria.</string>
+	<string key="CMissionAcquireOutfitter" rel_version="Event_WinterConvergence_Temp">Procurati e consegna: &lt;font color="#eaeaea"&gt;{itemName} (x{itemAmount})&lt;/font&gt; presso una postazione di accessoristica.</string>
+	<string key="CMissionAcquireEngineer" rel_version="Event_WinterConvergence_Temp">Procurati e consegna: &lt;font color="#eaeaea"&gt;{itemName} (x{itemAmount})&lt;/font&gt; presso un laboratorio.</string>
+	<string key="CMissionAcquireBlock_Name_WC" rel_version="Event_WinterConvergence_Temp">Necessari muratori festivi</string>
+	<string key="CMissionAcquireTimber_Name_WC" rel_version="Event_WinterConvergence_Temp">Necessari carpentieri festivi</string>
+	<string key="CMissionAcquireCloth_Name_WC" rel_version="Event_WinterConvergence_Temp">Necessari tessitori festivi</string>
+	<string key="CMissionAcquireMetal_Name_WC" rel_version="Event_WinterConvergence_Temp">Necessari fabbri festivi</string>
+	<string key="CMissionAcquireFibers_Name_WC" rel_version="Event_WinterConvergence_Temp">Necessari mietitori festivi</string>
+	<string key="CMissionAcquireFood_Name_WC" rel_version="Event_WinterConvergence_Temp">Necessari cuochi festivi</string>
+	<string key="CMissionAcquirePotions_Name_WC" rel_version="Event_WinterConvergence_Temp">Necessari alchimisti festivi</string>
+	<string key="CMissionAcquireGeneric_Name_WC" rel_version="Event_WinterConvergence_Temp">Necessarie provviste festive</string>
+	<string key="CMissionAcquireWood_Name_WC" rel_version="Event_WinterConvergence_Temp">Necessari taglialegna festivi</string>
+	<string key="CMissionAcquireRawhide_Name_WC" rel_version="Event_WinterConvergence_Temp">Necessari cacciatori festivi</string>
+	<string key="CMissionAcquireLeather_Name_WC" rel_version="Event_WinterConvergence_Temp">Necessari conciatori festivi</string>
 </resources>
 

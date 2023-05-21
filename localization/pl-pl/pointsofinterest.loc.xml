@@ -374,7 +374,7 @@
 	<string key="ui_poi_witheredfarm_2_30115">Tres Campos</string>
 	<string key="ui_poi_fishing_village_30015">Zaropiałe łowisko</string>
 	<string key="ui_poi_festeringflotsam_60212">Zaropiałe Szczątki</string>
-	<string key="ui_poi_crater_blightedvillage_50358">Zaropiałe bagna</string>
+	<string key="ui_poi_crater_blightedvillage_50358">Zaropiałe Bagna</string>
 	<string key="ui_poi_crater_feyburrow">Tajemnicze jamy</string>
 	<string key="ui_poi_crater_feycrossing">Tajemnicze przejście</string>
 	<string key="ui_poi_crater_feyoffering">Tajemnicza ofiara</string>
@@ -556,7 +556,7 @@
 	<string key="ui_poi_haunted_town_50201">Periville</string>
 	<string key="ui_poi_ancient_tower_40220">Perseusz</string>
 	<string key="ui_poi_abandoned_fishing_village_50205">Łowisko Piscarian</string>
-	<string key="ui_poi_shrine_60202">Pisces</string>
+	<string key="ui_poi_shrine_60202">Ryby</string>
 	<string key="ui_poi_abandoned_campsite_description">Punkt orientacyjny</string>
 	<string key="ui_poi_abandoned_farm_mill_50202_description">Kiedyś stały tu dwa młyny. Nikt nie pamięta, co się stało z drugim. To kolejna zagadka wieków przeszłych.</string>
 	<string key="ui_poi_abandoned_farm_mill_description">Punkt orientacyjny</string>
@@ -1138,7 +1138,7 @@
 	<string key="ui_poi_outpost_windsward_b_description">Punkt orientacyjny</string>
 	<string key="ui_poi_outpost_windsward_c_description">Punkt orientacyjny</string>
 	<string key="ui_poi_overlook_40152_description">Strażnica została tu założona nie ze względu na widok, lecz po to, by mieć oko na piratów.</string>
-	<string key="ui_poi_pirate_fort_30016_description">Elitarna twierdza\n\nNa mocy Morzowładnego Dekretu Czaszkoglistych region ten przechodzi pod panowanie Goldsteina Wyrównywacza.</string>
+	<string key="ui_poi_pirate_fort_30016_description">Elitarna twierdza\n\nNa mocy Morzowładnego Dekretu Czaszkoglistych region ten przechodzi pod panowanie Goldstein Wyrównywaczki.</string>
 	<string key="ui_poi_pirate_fort_30017_description">Nie tylko staw jest pełny szumowin.</string>
 	<string key="ui_poi_pirate_fort_40017_description">Nadzieja spadła z wysokich murów, podążając za wiarą do morza.</string>
 	<string key="ui_poi_pirate_town_40016_description">Zatoka jest dobrze chroniona przed sztormami, lecz nie przed tym, co grasuje po Aeternum.</string>
@@ -1510,6 +1510,8 @@
 	<string key="ui_poi_devworld_cave_description">Jaskinia, w której występują skalujące się wilki.</string>
 	<string key="ui_poi_devworld_spawns">Generatory DevWorld</string>
 	<string key="ui_poi_devworld_spawns_description">Demonstracje techniczne generowania postaci.</string>
+	<string key="ui_poi_devworld_dummies">Strefa manekinów ćwiczebnych (DevWorld)</string>
+	<string key="ui_poi_devworld_dummies_description">Miejsce z licznymi manekinami ćwiczebnymi służącymi do testów.</string>
 	<string key="ui_poi_fish_hotspot_broad">Rozległe łowisko</string>
 	<string key="ui_poi_fish_hotspot_broad_description">Ryby same wyskakują z wody!</string>
 	<string key="ui_poi_fish_hotspot_rare">Rzadkie łowisko</string>
@@ -1704,6 +1706,10 @@
 	<string key="ui_poi_spiritshrine_01_30251_description">Kapliczka ducha</string>
 	<string key="ui_poi_spiritshrine_02_30314">Kapliczka Kochanków</string>
 	<string key="ui_poi_spiritshrine_02_30314_description">Kapliczka ducha</string>
+	<string key="ui_poi_spiritshrine_20208">Cesarska kapliczka</string>
+	<string key="ui_poi_spiritshrine_20208_description">Kapliczka ducha</string>
+	<string key="ui_poi_spiritshrine_20209">@ui_poi_spiritshrine_20209</string>
+	<string key="ui_poi_spiritshrine_20209_description">Kapliczka ducha</string>
 	<string key="ui_poi_vikingshipwreck_40039">Vigrid</string>
 	<string key="ui_poi_vikingshipwreck_40039_description">Statki przybyły z północy, a wraz z nimi duchy ich przeklętych załóg.</string>
 	<string key="ui_poi_Tauros_06SW09">Tauros</string>
@@ -1716,18 +1722,42 @@
 	<string key="ui_poi_keep_40283_description" rel_version="AI_Evil_Knights_P1">Skruszone ruiny, życie na nowo\nCałun azylu unosi się miarowo</string>
 	<string key="ui_poi_camp_40040" rel_version="AI_Evil_Knights_P1">Obóz wojenny Las Torres</string>
 	<string key="ui_poi_camp_40040_description" rel_version="AI_Evil_Knights_P1">Srebro lśni ostro niczym brzytwa\nŻółte piaski opatulą cię niczym błoga cisza</string>
+	<string key="ui_poi_yeti_30144" rel_version="Event_WinterConvergence_Perm">Jama Hariego</string>
+	<string key="ui_poi_yeti_30144_description" rel_version="Event_WinterConvergence_Perm">Punkt orientacyjny</string>
+	<string key="ui_poi_yeti_30252" rel_version="Event_WinterConvergence_Perm">Azyl Spokój</string>
+	<string key="ui_poi_yeti_30252_description" rel_version="Event_WinterConvergence_Perm">Punkt orientacyjny</string>
+	<string key="ui_poi_yeti_40041" rel_version="Event_WinterConvergence_Perm">Leże w Koronie Światła</string>
+	<string key="ui_poi_yeti_40041_description" rel_version="Event_WinterConvergence_Perm">Punkt orientacyjny</string>
+	<string key="ui_poi_yeti_40172" rel_version="Event_WinterConvergence_Perm">Kaskadowa Jaskinia</string>
+	<string key="ui_poi_yeti_40172_description" rel_version="Event_WinterConvergence_Perm">Punkt orientacyjny</string>
+	<string key="ui_poi_yeti_40173" rel_version="Event_WinterConvergence_Perm">Kryjówka Ramesa</string>
+	<string key="ui_poi_yeti_40173_description" rel_version="Event_WinterConvergence_Perm">Punkt orientacyjny</string>
 	<string key="ui_poi_yeti_40346">Grota w Szarej Dolinie</string>
 	<string key="ui_poi_yeti_40346_description">Punkt orientacyjny</string>
 	<string key="ui_poi_yeti_40347">Mroźna Twierdza</string>
 	<string key="ui_poi_yeti_40347_description">Punkt orientacyjny</string>
 	<string key="ui_poi_yeti_40426">Kryjówka oszronionych wilków</string>
 	<string key="ui_poi_yeti_40426_description">Punkt orientacyjny</string>
+	<string key="ui_poi_yeti_40427" rel_version="Event_WinterConvergence_Perm">Zguba Grotołaza</string>
+	<string key="ui_poi_yeti_40427_description" rel_version="Event_WinterConvergence_Perm">Punkt orientacyjny</string>
+	<string key="ui_poi_yeti_50399" rel_version="Event_WinterConvergence_Perm">Bluźniercza Perspektywa</string>
+	<string key="ui_poi_yeti_50399_description" rel_version="Event_WinterConvergence_Perm">Punkt orientacyjny</string>
+	<string key="ui_poi_yeti_50424" rel_version="Event_WinterConvergence_Perm">Odosobnienie Isvariego</string>
+	<string key="ui_poi_yeti_50424_description" rel_version="Event_WinterConvergence_Perm">Punkt orientacyjny</string>
 	<string key="ui_poi_yeti_60352">Kryjówka wysokogórska</string>
 	<string key="ui_poi_yeti_60352_description">Punkt orientacyjny</string>
+	<string key="ui_poi_40348_wintervillage" rel_version="Event_WinterConvergence_Temp">Zimowa wioska</string>
+	<string key="ui_poi_40348_wintervillage_description" rel_version="Event_WinterConvergence_Temp">Na Aeternum pojawiła się tajemnicza, śnieżna i radosna wioska. Witaj w Zimowej Konwergencji!</string>
+	<string key="ui_poi_wintervillage_50151" rel_version="Event_WinterConvergence_Temp">Zimowa wioska</string>
+	<string key="ui_poi_wintervillage_50151_description" rel_version="Event_WinterConvergence_Temp">Na Aeternum pojawiła się tajemnicza, śnieżna i radosna wioska. Witaj w Zimowej Konwergencji!</string>
+	<string key="ui_poi_50300_wintervillage" rel_version="Event_WinterConvergence_Temp">Zimowa wioska</string>
+	<string key="ui_poi_50300_wintervillage_description" rel_version="Event_WinterConvergence_Temp">Na Aeternum pojawiła się tajemnicza, śnieżna i radosna wioska. Witaj w Zimowej Konwergencji!</string>
+	<string key="ui_poi_wintervillage_30145" rel_version="Event_WinterConvergence_Temp">Zimowa wioska</string>
+	<string key="ui_poi_wintervillage_30145_description" rel_version="Event_WinterConvergence_Temp">Na Aeternum pojawiła się tajemnicza, śnieżna i radosna wioska. Witaj w Zimowej Konwergencji!</string>
 	<string key="ui_poi_factionarea_40284">Pastwiska Kruczej Grani</string>
-	<string key="ui_poi_factionarea_40285">Na zachód od Łąkowego Jeziora</string>
+	<string key="ui_poi_factionarea_40285">Na zachód od Jeziora Łąkowego</string>
 	<string key="ui_poi_factionarea_40286">Rozstaje Wiary</string>
-	<string key="ui_poi_factionarea_30146">Wschodnia Plaża Werny</string>
+	<string key="ui_poi_factionarea_30146">Wschodnia plaża Werny</string>
 	<string key="ui_poi_factionarea_30147">Klucz do Werny</string>
 	<string key="ui_poi_factionarea_30148">Diabelski Łuk Nadmorski</string>
 </resources>

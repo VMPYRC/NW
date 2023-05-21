@@ -449,6 +449,7 @@
 	<string key="AI_Slime_Buff_DisplayName">Pringue</string>
 	<string key="AI_Slime_Slow_DisplayName">Adherencia</string>
 	<string key="AI_Slime_Slow_Tooltip">Reduce la velocidad de movimiento en un {[Type_StatusEffectData.AI_Slime_Slow.MoveSpeedMod * -100]} %.</string>
+	<string key="AI_SpiderBite_Tooltip">El veneno te causa un {[Type_StatusEffectData.AI_SpiderBite.HealthModifierDamageBased * -100]} % de daño de naturaleza cada {[Type_StatusEffectData.AI_SpiderBite.TickRate]} segundos durante {[Type_StatusEffectData.AI_SpiderBite.BaseDuration]} segundos.</string>
 	<string key="AI_PoisonOnHit_Buff_DisplayName">Venenoso</string>
 	<string key="AI_PoisonOnHit_Damage_DisplayName">Veneno</string>
 	<string key="AI_PoisonOnHit_Damage_Tooltip">El veneno te causa un {[Type_StatusEffectData.AI_PoisonOnHit_Damage.HealthModifierDamageBased * -100]} % de daño de naturaleza cada {[Type_StatusEffectData.AI_PoisonOnHit_Damage.TickRate]} segundos durante {[Type_StatusEffectData.AI_PoisonOnHit_Damage.BaseDuration]} segundos.</string>
@@ -467,7 +468,7 @@
 	<string key="AI_Bleed_9_DisplayName">Sangrado</string>
 	<string key="AI_Bleed_9_Tooltip">Al sangrar, recibes un {[Type_StatusEffectData.AI_Bleed_9.HealthModifierDamageBased * -100]} % de daño base y un {[Type_StatusEffectData.AI_Bleed_9.HealthModifierPercent * -100]} % de daño físico a la salud base cada {[Type_StatusEffectData.AI_Bleed_9.TickRate]} segundos durante {[Type_StatusEffectData.AI_Bleed_9.BaseDuration]} segundos.</string>
 	<string key="AI_Burn_9_DisplayName">Quemado</string>
-	<string key="AI_Burn_9_Tooltip">Las quemaduras te causan un {[Type_StatusEffectData.AI_Burn_9.HealthModifierDamageBased * -100]} % de daño base y un {[Type_StatusEffectData.AI_Burn_9.HealthModifierPercent * -100]} % de daño de fuego a la salud base cada {[Type_StatusEffectData.AI_Burn_9.TickRate]} segundos durante {[Type_StatusEffectData.AI_Burn_9.BaseDuration]} segundos.</string>
+	<string key="AI_Burn_9_Tooltip">Las quemaduras te causan un {[Type_StatusEffectData.AI_Burn_9.HealthModifierDamageBased * -100]} % de daño base de fuego cada {[Type_StatusEffectData.AI_Burn_9.TickRate]} segundos durante {[Type_StatusEffectData.AI_Burn_9.BaseDuration]} segundos.</string>
 	<string key="AI_Thorpe_Burn_DisplayName">Quemadura sombría</string>
 	<string key="AI_Thorpe_Burn_Tooltip">Las quemaduras te causan un {[Type_StatusEffectData.AI_Thorpe_Burn.HealthModifierDamageBased * -100]} % de daño base y un {[Type_StatusEffectData.AI_Thorpe_Burn.HealthModifierPercent * -100]} % de daño de fuego a la salud base cada {[Type_StatusEffectData.AI_Thorpe_Burn.TickRate]} segundos durante {[Type_StatusEffectData.AI_Thorpe_Burn.BaseDuration]} segundos.</string>
 	<string key="AI_Thorpe_FTUE_Burn_DisplayName">Quemadura</string>
@@ -519,6 +520,14 @@
 	<string key="AI_Isabella_Phase2_TouchOfCorruption_Tooltip">Sufres Corrupción cada {[Type_StatusEffectData.AI_Isabella_Phase2_TouchOfCorruption.TickRate]} durante {[Type_StatusEffectData.AI_Isabella_Phase2_TouchOfCorruption.BaseDuration]} segundos.</string>
 	<string key="AI_Mage_Miniboss_Orbs_StatusEffect_DisplayName">Esencia arcana</string>
 	<string key="AI_Mage_Miniboss_Orbs_StatusEffect_Tooltip">La maga extrae esencia de ti para curarse.</string>
+	<string key="AI_IceDryad_Frostgrip_IceVein_Root_DisplayName" rel_version="Event_WinterConvergence_Perm">Enraizado</string>
+	<string key="AI_IceDryad_Frostgrip_IceVein_Root_Tooltip" rel_version="Event_WinterConvergence_Perm">No puedes moverte durante {[Type_StatusEffectData.AI_IceDryad_Frostgrip_IceVein_Root.BaseDuration]} segundos.</string>
+	<string key="AI_IceDryad_Frostgrip_IceField_Slow_DisplayName" rel_version="Event_WinterConvergence_Perm">Lentitud</string>
+	<string key="AI_IceDryad_Frostgrip_IceField_Slow_Tooltip" rel_version="Event_WinterConvergence_Perm">Reduce la velocidad de movimiento en un {[Type_StatusEffectData.AI_IceDryad_Frostgrip_IceField_Slow.MoveSpeedMod * -100]} % durante {[Type_StatusEffectData.AI_IceDryad_Frostgrip_IceField_Slow.BaseDuration]} segundos.</string>
+	<string key="AI_IceDryad_Frostfang_Buff_Empower_DisplayName" rel_version="Event_WinterConvergence_Perm">Fortalecimiento</string>
+	<string key="AI_IceDryad_Frostfang_Buff_Empower_Tooltip" rel_version="Event_WinterConvergence_Perm">Daño aumentado de tipos específicos durante {[Type_StatusEffectData.Type_StatusEffectData.AI_IceDryad_Frostfang_Buff_Empower.BaseDuration * 100]} segundos.</string>
+	<string key="AI_IceDryad_Frostfang_Debuff_Weaken_DisplayName" rel_version="Event_WinterConvergence_Perm">Debilitamiento</string>
+	<string key="AI_IceDryad_Frostfang_Debuff_Weaken_Tooltip" rel_version="Event_WinterConvergence_Perm">Durante {[Type_StatusEffectData.AI_IceDryad_Frostfang_Debuff_Weaken.BaseDuration]} segundos, infliges menos daño con la mayoría de tipos de daño.</string>
 	<string key="godModeThirst_DisplayName">Modo Dios</string>
 	<string key="godModeHealth_DisplayName">Modo Dios</string>
 	<string key="godModeAll_DisplayName">Modo Dios</string>
@@ -839,7 +848,7 @@
 	<string key="IceMagic_Freeze_DisplayName">Congelación</string>
 	<string key="IceMagic_Freeze_Description">Te congelas durante 1 segundo.</string>
 	<string key="IceMagic_UltimateChill_DisplayName">Frialdad definitiva</string>
-	<string key="IceMagic_UltimateChill_Description">Aumenta en un 35 % el daño de hielo recibido.</string>
+	<string key="IceMagic_UltimateChill_Description">Disminuye un {[Type_StatusEffectData.IceMagic_UltimateChill.WKNIce * 100]} % el daño de hielo recibido.</string>
 	<string key="IceMagic_StrengthenedTomb_DisplayName">Sepultura reforzada</string>
 	<string key="IceMagic_StrengthenedTomb_Description">Aumento de la armadura del 25 %.</string>
 	<string key="IceMagic_IceStorm_Weaken_DisplayName">Ráfaga debilitadora</string>
@@ -964,6 +973,7 @@
 	<string key="Status_Spear_Skewer_Bleed_DisplayName">Brocheta</string>
 	<string key="Status_Spear_Skewer_Bleed_Description">Aplica un {[Type_StatusEffectData.Spear_Skewer_Bleed.HealthModifierDamageBased * -100]} % de sangrado cada {[Type_StatusEffectData.Spear_Skewer_Bleed.TickRate]} segundos durante {[Type_StatusEffectData.Spear_Skewer_Bleed.BaseDuration]} segundos.</string>
 	<string key="Status_Spear_Skewer_Bleed_Upgrade_Description">Aplica un {[Type_StatusEffectData.Spear_Skewer_Bleed_Upgrade.HealthModifierDamageBased * -100]} % de sangrado cada {[Type_StatusEffectData.Spear_Skewer_Bleed_Upgrade.TickRate]} segundos durante {[Type_StatusEffectData.Spear_Skewer_Bleed_Upgrade.BaseDuration]} segundos.</string>
+	<string key="Status_Spear_Skewer_EmpowerOnCrit_Description">El daño aumenta en un {[Type_StatusEffectData.Spear_Skewer_EmpowerOnCrit.DMGStandard * 100]} %.</string>
 	<string key="Status_Spear_Perforate_Rend_DisplayName">Perforar</string>
 	<string key="Status_Spear_Perforate_Rend_Description">Recibes un {[Type_StatusEffectData.Spear_Perforate_Rend.ABSThrust * -100]} % más de daño de todas las fuentes durante {[Type_StatusEffectData.Spear_Perforate_Rend.BaseDuration]} segundos.</string>
 	<string key="Status_Spear_Perforate_Rend_Upgrade_DisplayName">Perforar</string>
@@ -1028,7 +1038,7 @@
 	<string key="RiposteRendPerk2_Description">Recibes un {[Type_StatusEffectData.RiposteRendPerk2.ABSStrike * 100]} % más de daño de todas las fuentes durante {[Type_StatusEffectData.RiposteRendPerk2.BaseDuration]} segundos.</string>
 	<string key="RiposteRendPerk3_Description">Recibes un {[Type_StatusEffectData.RiposteRendPerk3.ABSStrike * 100]} % más de daño de todas las fuentes durante {[Type_StatusEffectData.RiposteRendPerk3.BaseDuration]} segundos.</string>
 	<string key="OR_Boss_Buff">Poder espectral</string>
-	<string key="OR_Boss_Buff_Description">Otorga protección y regeneración de salud.</string>
+	<string key="OR_Boss_Buff_Description">+{[Type_StatusEffectData.OutpostRush_Boss_Buff.ABSStandard * 100]} % de absorción de daño y +{[Type_StatusEffectData.OutpostRush_Boss_Buff.Health * 4]} de regeneración de salud por segundo.</string>
 	<string key="Status_Empower">Fortalecimiento</string>
 	<string key="Status_Fortify">Fortificación</string>
 	<string key="Status_Haste">Celeridad</string>
@@ -1115,8 +1125,8 @@
 	<string key="Hatchet_SocialDist_SlowBuff_Description">Reduce la velocidad de movimiento en un {[Type_StatusEffectData.Hatchet_SocialDist_SlowBuff.MoveSpeedMod * -100]} %.</string>
 	<string key="Hatchet_3AtkFortify_Description">Reduce el daño recibido en un {[Type_StatusEffectData.Hatchet_Pass_Fortify3Atk.ABSStandard * 100]} %.</string>
 	<string key="InfectedThrow_Disease_DisplayName">Enfermedad del lanzamiento infecto</string>
-	<string key="InfectedThrow_Disease_Description">Reduce la eficiencia de la curación en un {[Type_StatusEffectData.Hatchet_Infected_DiseaseWeak.HealMod * -100]} % y reduce el daño causado en {[Type_StatusEffectData.Hatchet_Infected_DiseaseWeak.DMGStandard * -100]}.</string>
-	<string key="WarHammer_ArmorBreaker_Rend_Description">Aumenta el daño recibido en un {[Type_StatusEffectData.WarHammer_ArmorBreaker_Rend.ABSStandard * 100]} %.</string>
+	<string key="InfectedThrow_Disease_Description">Reduce la eficiencia de la curación en un {[Type_StatusEffectData.Hatchet_Infected_DiseaseWeak.HealMod * -100]} % y reduce el daño causado en un {[Type_StatusEffectData.Hatchet_Infected_DiseaseWeak.DMGStandard * -100]} %.</string>
+	<string key="WarHammer_ArmorBreaker_Rend_Description">Aumenta el daño recibido en un {[Type_StatusEffectData.WarHammer_ArmorBreaker_Rend.ABSStandard * -100]} %.</string>
 	<string key="WarHammer_Gavel_Haste_Description">Aumenta la velocidad de movimiento en un {[Type_StatusEffectData.WarHammer_Gavel_Haste.MoveSpeedMod * 100]} %.</string>
 	<string key="WarHammer_HasteOnDebuff_Description">Aumenta la velocidad de movimiento en un {[Type_StatusEffectData.WarHammer_Pass_Haste.MoveSpeedMod * 100]} %.</string>
 	<string key="WarHammer_WreckingBall_Forify_Description">Reduce el daño recibido en un {[Type_StatusEffectData.WarHammer_WreckingBall_Fortify.ABSStandard * 100]} %.</string>
@@ -1241,8 +1251,15 @@
 	<string key="Musket_DodgeReload_Description">Cuando termine este contador, podrás volver a utilizar Recarga táctica.</string>
 	<string key="MeteorShowerDamage_DisplayName">Lluvia de meteoritos</string>
 	<string key="MeteorShowerDamage_Description">Recibes daños periódicos de una lluvia de meteoritos.</string>
+	<string key="ArcticBreath_Tooltip" rel_version="Event_WinterConvergence_Perm">Sufres un {[Type_StatusEffectData.Yeti_Arctic_Breath_Slow_6sec.HealthModifierPercent * -100]} % de daño cada {[Type_StatusEffectData.Yeti_Arctic_Breath_Slow_6sec.TickRate]} segundos y tu velocidad se reduce un {[Type_StatusEffectData.Yeti_Arctic_Breath_Slow_6sec.MoveSpeedMod * -100]} % durante {[Type_StatusEffectData.Yeti_Arctic_Breath_Slow_6sec.BaseDuration]} segundos.</string>
+	<string key="ArcticBreath_DisplayName" rel_version="Event_WinterConvergence_Perm">Hálito del Ártico</string>
 	<string key="AI_EvilKnight_Rally_DisplayName" rel_version="AI_Evil_Knights_P1">Grito de guerra varego</string>
 	<string key="RoadTravel_SprintBoost">Velocidad en los caminos</string>
 	<string key="RoadTravel_SprintBoost_Description">Tu velocidad en carrera aumenta en un {[Type_StatusEffectData.Traversal_RoadSprintBoost_Haste.SprintSpeedMod * 100]} % al correr por caminos.</string>
+	<string key="Status_Weapon_DiseaseOnCrit_Description" rel_version="MorePerksV1">Reduce la eficiencia de la curación en un {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.HealMod * -100]} %.</string>
+	<string key="Status_Weapon_DiseaseOnHeavy_Description" rel_version="MorePerksV1">Reduce la eficiencia de la curación en un {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.HealMod * -100]} %.</string>
+	<string key="Status_Weapon_ChargedHeavyRend_Description" rel_version="MorePerksV1">Recibes un {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.ABSStandard * -100]} % más de daño de todas las fuentes.</string>
+	<string key="Status_Timer_ChargedHeavyRend_Description" rel_version="MorePerksV1">Cuando termina, puedes volver a utilizar la ventaja de Afinidad helada.</string>
+	<string key="Blunderbuss_LastChance_Desc">Recibes un {[Type_StatusEffectData.Blunderbuss_LastChance.ABSStandard * 100]} % menos de daño.</string>
 </resources>
 

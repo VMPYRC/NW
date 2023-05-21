@@ -54,6 +54,10 @@
 	<string key="cr_add_quickslot">Aggiunto ai &lt;font color="#c0c0c0"&gt;comandi rapidi&lt;/font&gt;</string>
 	<string key="cr_add_equipment">Aggiunto all'&lt;font color="#c0c0c0"&gt;equipaggiamento&lt;/font&gt;</string>
 	<string key="cr_cantcraft">Impossibile\nprodurre</string>
+	<string key="cr_alreadycrafted" rel_version="Feature_Camp_Skins">Già prodotto</string>
+	<string key="cr_unlockrecipe_info" rel_version="Feature_Camp_Skins">Questa skin può essere prodotta una volta sola ed è vincolata al tuo personaggio. Una volta prodotta, la skin sarà disponibile nel menu delle skin all'accampamento.</string>
+	<string key="cr_campskin_title" rel_version="Feature_Camp_Skins">Come si usa:</string>
+	<string key="cr_campskin_desc" rel_version="Feature_Camp_Skins">Clicca sull'accampamento nel tuo inventario per cambiare skin.\nDevi aver sbloccato l'accampamento per usare questa skin.</string>
 	<string key="cr_tier1">Livello &lt;img src="lyshineui/images/crafting/crafting_tier_1" scale="0.6" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="cr_tier2">Livello &lt;img src="lyshineui/images/crafting/crafting_tier_2" scale="0.6" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="cr_tier3">Livello &lt;img src="lyshineui/images/crafting/crafting_tier_3" scale="0.6" yOffset="2"&gt;&lt;/img&gt;</string>
@@ -218,5 +222,6 @@
 	<string key="crafting_filter_placeholder">Filtra per nome...</string>
 	<string key="crafting_category_select_title">SELEZIONA {type}</string>
 	<string key="crafting_discount_base">Tariffa di base</string>
+	<string key="ui_crafting_resource_origin_message">Nota: le risorse usate vengono prelevate prima dall'inventario, poi dal deposito dell'insediamento.</string>
 </resources>
 
