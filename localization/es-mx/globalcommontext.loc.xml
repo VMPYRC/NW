@@ -114,6 +114,10 @@
 	<string key="ui_affliction_drowning_tooltip">Si te quedas sin aliento, te sofocarás y morirás</string>
 	<string key="ui_affliction_blight">resistencia a la plaga</string>
 	<string key="ui_affliction_blight_tooltip">Si te quedas sin resistencia a la plaga, estarás en estado salvaje y tendrás un {[Type_StatusEffectData.Blight.DMGStandard * 100]} % de daño reducido y un {[Type_StatusEffectData.Blight.HealMod * 100]} % de sanación reducida, y perderás un {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]} % de tu salud base cada {[Type_StatusEffectData.Blight.TickRate]} segundos durante {[Afflictions.AfflictionBlight.AfflictedDrainTime]} segundos.</string>
+	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">resistencia al combustible</string>
+	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">contador de combustible.</string>
+	<string key="ui_affliction_mutcurse4" rel_version="Feature_Dungeon_Mutators">resistencia al retroceso</string>
+	<string key="ui_affliction_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Si te quedas sin resistencia, se te lanzará una zona de silencio. La zona explotará después de un tiempo, infligiendo daño a jugadores y criatura. La resistencia se comparte entre todos los miembros de tu grupo.</string>
 	<string key="ui_afflicted_bleeding">herida</string>
 	<string key="ui_afflicted_bleeding_tooltip">Mientras estás herido, tardas mucho más en recuperar resistencia</string>
 	<string key="ui_afflicted_burn">quemadura</string>
@@ -134,6 +138,10 @@
 	<string key="ui_afflicted_drowning_tooltip">Te ahogaste hasta morir</string>
 	<string key="ui_afflicted_blight">salvaje</string>
 	<string key="ui_afflicted_blight_tooltip">Mientras estés en estado salvaje, tienes un {[Type_StatusEffectData.Blight.DMGStandard * 100]} % de daño reducido y un {[Type_StatusEffectData.Blight.HealMod * 100]} % de sanación reducida, y pierdes un {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]} % de tu salud base cada {[Type_StatusEffectData.Blight.TickRate]} segundos.</string>
+	<string key="ui_afflicted_mutcurse3" rel_version="Feature_Dungeon_Mutators">combustión</string>
+	<string key="ui_afflicted_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Cuando se agote el tiempo de este temporizador, el jugador con el mejor porcentaje de salud se volverá explosivo.</string>
+	<string key="ui_afflicted_mutcurse4" rel_version="Feature_Dungeon_Mutators">malditos</string>
+	<string key="ui_afflicted_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Usar habilidades llenará la barra. Cuando esté llena, se lanzará retroceso contra todos los jugadores.</string>
 	<string key="ui_agreement">Si continuas, aceptas</string>
 	<string key="ui_ahhhhh">¡¡AHHHHH!!</string>
 	<string key="ui_aimsensitivity">Sensibilidad del objetivo</string>
@@ -278,6 +286,8 @@
 	<string key="ui_hours_with_time_short">{time} h</string>
 	<string key="ui_minutes_with_time">{time} minutos</string>
 	<string key="ui_minutes_with_time_short">{time} m</string>
+	<string key="ui_seconds_with_time">{time} segundos</string>
+	<string key="ui_seconds_with_time_short">{time} s</string>
 	<string key="ui_lastplayed">Última sesión</string>
 	<string key="ui_minuteago">Hace 1 minuto</string>
 	<string key="ui_minutesago">Hace {time} minutos</string>
@@ -863,7 +873,7 @@
 	<string key="ui_faction_select">Selecciona tu facción.</string>
 	<string key="ui_character_Select_title">Seleccionar personaje</string>
 	<string key="ui_character_options">Opciones de personaje</string>
-	<string key="ui_character_merge_destination">El mundo ({worldName}) se unirá con {destinationWorldName} el {date}. ({mergeTime})</string>
+	<string key="ui_character_merge_destination">El mundo ({worldName}) se unirá con {destinationWorldName} el {date}.</string>
 	<string key="ui_xp">EXP</string>
 	<string key="world_landing_title">Hemos elegido un mundo óptimo para ti</string>
 	<string key="world_set">¿Conjunto de mundos?</string>
@@ -1456,9 +1466,13 @@
 	<string key="ui_replace_gem">Reemplazar gema</string>
 	<string key="ui_replace_gem_tooltip">Reemplazar la gema adjunta actualmente por otra de tu inventario. La gema actual se perderá.</string>
 	<string key="ui_upgrade_warning_title">Mejorar objeto</string>
-	<string key="ui_upgrade_warning_body">Para mejorar tu {itemName} de {baseGearScore} a {targetGearScore} de puntuación del equipo necesitas {itemCount} {upgradeItemName}.\n\n¿Quieres mejorar este objeto?</string>
-	<string key="ui_upgrade_tooltip_enabled">Aplica {itemName} para aumentar la puntuación del equipo de este objeto.</string>
-	<string key="ui_upgrade_tooltip_disabled">Necesitas más {itemName} para aumentar la puntuación del equipo de este objeto.</string>
+	<string key="ui_upgrade_warning_body">Para mejorar tu {itemName} de {baseGearScore} a {targetGearScore} de puntuación del equipo necesitas {itemCount} {upgradeItemName}.\n\nAl mejorar un objeto, este quedará vinculado contigo.\n\n¿Quieres mejorar este objeto?</string>
+	<string key="ui_upgrade_tooltip_enabled">Mejorar el objeto aplicando &lt;font color="#ffffff"&gt;{itemName}&lt;/font&gt;. Esto aumentará la &lt;font color="#ffffff"&gt;puntuación del equipo&lt;/font&gt; del objeto.</string>
+	<string key="ui_upgrade_tooltip_disabled_items">Necesitas al menos {quantity} {itemName} más para aumentar la puntuación del equipo de este objeto.</string>
+	<string key="ui_upgrade_tooltip_disabled_skill">Solo puedes mejorar los tipos de objetos para los que cuentes con &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.2" yOffset="1"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{neededValue} pericia&lt;/font&gt;.\n(Pericia {expertiseName} actual: &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.2" yOffset="1"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{currentValue}&lt;/font&gt;)</string>
+	<string key="ui_upgrade_tooltip_disabled_broken">No se pueden mejorar los objetos rotos.</string>
+	<string key="ui_upgrade_tooltip_disabled_gearscore">Solo puedes mejorar los objetos con una puntuación del equipo de{gearScore}+</string>
+	<string key="ui_upgrade_notification">La puntuación del equipo del objeto ha pasado a ser de &lt;font color="#fffd7a"&gt;{baseGearScore}&lt;/font&gt;.</string>
 	<string key="ui_cannot_replace_gem_tooltip">No se puede reemplazar esta gema.</string>
 	<string key="ui_no_gems_tooltip">No hay gemas disponibles</string>
 	<string key="ui_gem_select_popup_available">Gemas disponibles</string>
@@ -1834,6 +1848,7 @@
 	<string key="ui_coin_max_withdrawal_tooltip">Tu cartera puede tener hasta {amount} monedas.\nEs la cantidad más alta que puedes recibir sin exceder el límite.</string>
 	<string key="ui_coin_max_sellorder_tooltip">Tu cartera puede tener hasta {amount} monedas.\nPerderás las monedas que excedan el límite al vender algo.</string>
 	<string key="ui_coin_max_trade_tooltip">Tu cartera puede tener hasta {amount} monedas.\nEl otro jugador intenta darte más monedas de las que puedes llevar. Recibirán las monedas que haya de más.</string>
+	<string key="ui_listing_duration_tooltip">En el caso de publicaciones más extensas, los cargos serán más elevados.</string>
 	<string key="ui_groupsize_identifier">Tamaño del grupo recomendado: {groupSize}</string>
 	<string key="ui_level_identifier">Nivel recomendado: {level}</string>
 	<string key="ui_recommendedlevel">Nivel recomendado</string>
@@ -2171,6 +2186,7 @@
 	<string key="ui_notificationaccept">Aceptar notificación</string>
 	<string key="ui_notificationdecline">Rechazar notificación</string>
 	<string key="ui_banneraccept">Aceptar banner</string>
+	<string key="ui_togglepopupoption">Alternar opción de ventana emergente</string>
 	<string key="ui_dialogue">Diálogo</string>
 	<string key="ui_dialogueoption1">Opción 1</string>
 	<string key="ui_dialogueoption2">Opción 2</string>
@@ -2186,6 +2202,7 @@
 	<string key="ui_emotes_premium">Emoticonos exclusivos</string>
 	<string key="ui_locked_account_title">CUENTA BLOQUEADA</string>
 	<string key="ui_locked_account_description">Tu cuenta está bloqueada.\n\nAlgunas funciones en el juego, como la compra en la Tienda o el consumo de objetos de la Tienda, no estarán disponibles en este estado.</string>
+	<string key="ui_gearscore_modified">La puntuación del equipo se ajustó según el promedio de la pericia de {slot} y la puntuación del equipo del objeto</string>
 	<string key="ui_itemtypedescription_recipe">Receta</string>
 	<string key="ui_itemtypedescription_sword">Espadas</string>
 	<string key="ui_itemtypedescription_hatchet">Hachuela</string>
@@ -2274,8 +2291,16 @@
 	<string key="ui_cannot_chat_global_blocked">No puedes chatear en este canal hasta que tu cuenta tenga más de {hoursNeeded} horas de antigüedad</string>
 	<string key="ui_complete_quests_to_unlock">Completa misiones en el asentamiento para desbloquear</string>
 	<string key="ui_averageexpertise">Pericia\npromedio</string>
-	<string key="ui_averageexpertisetooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;Pericia&lt;/font&gt;\nLa pericia es una medición del poder potencial de tus objetos soltados. Los que sueltan criaturas y zonas que se encuentran en un nivel superior a 60 tienen la posibilidad de aumentar este valor. A medida que tu nivel de pericia aumenta, debes luchar contra las criaturas y zonas más poderosas para ver aumentos adicionales.</string>
+	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Pericia&lt;/font&gt;\nLa pericia se usa para medir la potencia máxima de un objeto cuando lo tienes equipado.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Nivel máximo de pericia que puedes alcanzar&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Cómo aumentar el nivel de pericia&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Puntos de interés y expediciones de élite&lt;/font&gt;\nLo que sueltan las criaturas o lo que contienen los cofres que se encuentran en un nivel superior a 60 tienen la posibilidad de aumentar este valor.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Fabricación&lt;/font&gt;\nLa fabricación de un objeto de 600 GS aumentará el nivel de pericia de este tipo de objeto.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Molde de aljez&lt;/font&gt;\nAbrir un molde de aljez aumentará el nivel de pericia.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Mejora de objetos (con fragmentos umbríos)&lt;/font&gt;\nDespués de alcanzar el nivel 600 de pericia, la única forma de seguir aumentando el nivel es por medio de la mejora de objetos con fragmentos umbríos.</string>
 	<string key="ui_itemtypedescription_shield_only">Escudo</string>
-	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_expertise_small" scale="1" yOffset="3.5"&gt;&lt;/img&gt;{value}</string>
+	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}</string>
+	<string key="ui_expertise_warning_with_icon">&lt;font color="#ff9393"&gt;&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_red" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}&lt;/font&gt;</string>
+	<string key="ui_expertise_increased">¡Aumento de pericia!</string>
+	<string key="ui_expertise_tooltip_header">Pericia {category} total</string>
+	<string key="ui_expertise_tooltip_breakdown">(&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{value} &lt;/font&gt; &lt;font color="#ffffff"&gt;+ {additional}&lt;/font&gt; por mejora con fragmentos umbríos)</string>
+	<string key="ui_expertise_tooltip_breakdown_multiple">(&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{value} &lt;/font&gt; &lt;font color="#ffffff"&gt;+ {additional}&lt;/font&gt; por mejoras con fragmentos umbríos)</string>
+	<string key="ui_expertise_tooltip_increase">El nivel &lt;font color="#ffffff"&gt;máximo&lt;/font&gt; de pericia que puedes obtener a partir de enemigos, cofres, moldes de aljez y fabricación es de &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt;.</string>
+	<string key="ui_expertise_tooltip_maximum">Para aumentar el nivel de pericia por encima de &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt;, mejora un objeto en esta ranura con &lt;font color="#ffffff"&gt;fragmentos umbríos&lt;/font&gt;.</string>
+	<string key="ui_expertise_crafting_gain">Pericia {category}</string>
 </resources>
 

@@ -2,6 +2,8 @@
 	<string key="ui_alignmentrequesttitle">Intenzioni amichevoli</string>
 	<string key="ui_alignmentacceptedmessage">Intenzioni amichevoli scambiate con: &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
 	<string key="ui_alignmentrequestrecipientmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; ha salutato. Per ricambiare il saluto, selezionalo come bersaglio e premi [{keybind}].</string>
+	<string key="ui_alignmentrequestrecipientmessage_SHE">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; ha salutato. Per ricambiare il saluto, selezionala come bersaglio e premi [{keybind}].</string>
+	<string key="ui_alignmentrequestrecipientmessage_THEY">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; ha salutato. Per ricambiare il saluto, selezionalo come bersaglio e premi [{keybind}].</string>
 	<string key="ui_alignmentrequestsendermessage">Intenzioni amichevoli mostrate a: &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
 	<string key="ui_alignmenttimedoutrecipientmessage">Saluto non ricambiato. &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; potrebbe ricordarselo.</string>
 	<string key="ui_alignmenttimedoutsendermessage">Il tuo saluto non è stato ricambiato.</string>
@@ -90,7 +92,9 @@
 	<string key="ui_guildownershipchangemessage">La proprietà della compagnia è stata trasferita a &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
 	<string key="ui_guildownershipchangetitle">Modifica proprietà compagnia</string>
 	<string key="ui_guildsetmemberrankfailednoconsultitle">Deve esserci un Console</string>
-	<string key="ui_guildsetmemberrankfailednoconsulmessage">Non è possibile modificare il grado di {playerName}, poiché non ci sono altri Consoli che possano sostituirlo.</string>
+	<string key="ui_guildsetmemberrankfailednoconsulmessage">Non è possibile modificare il grado di {playerName} poiché non ci sono altri Consoli che possano sostituirlo.</string>
+	<string key="ui_guildsetmemberrankfailednoconsulmessage_SHE">Non è possibile modificare il grado di {playerName} poiché non ci sono altri Consoli che possano sostituirla.</string>
+	<string key="ui_guildsetmemberrankfailednoconsulmessage_THEY">Non è possibile modificare il grado di {playerName}, poiché non ci sono altri Consoli che possano sostituirlo.</string>
 	<string key="ui_guildpermissionstab">Permessi</string>
 	<string key="ui_guildranknameinusemessage">Il nome di questo grado esiste già.</string>
 	<string key="ui_guildoverviewtab">Panoramica</string>

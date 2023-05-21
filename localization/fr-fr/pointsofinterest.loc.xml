@@ -71,7 +71,6 @@
 	<string key="ui_poi_banner_07SM06_Basilica">BASILIQUE</string>
 	<string key="ui_poi_banner_07SM06_Quarry">CARRIÈRE</string>
 	<string key="ui_poi_banner_10WS09_Court">COUR DU CRÂNE DE PIERRE</string>
-	<string key="ui_poi_banner_16BS10_Khepri">Solarium Khepri</string>
 	<string key="ui_poi_bear_den_40225">GROTTE DES CAILLOUX</string>
 	<string key="ui_poi_bear_den_ramshead_60404">GROTTE DE LA TÊTE DU BÉLIER</string>
 	<string key="ui_poi_blightcave_50417">TAUDIS DU PESTIFÉRÉ</string>
@@ -491,7 +490,7 @@
 	<string key="ui_poi_bear_den_30107">TANIÈRE DE MAGNÉTITE</string>
 	<string key="ui_poi_lumbermill">CAMP DE BÛCHERONS</string>
 	<string key="ui_poi_undeadbastion_40207">ENCLAVE GRANDOMBRE</string>
-	<string key="ui_poi_crater_corruptedminewest_50332">MINE SUINTANTE INFÉRIEURE</string>
+	<string key="ui_poi_crater_corruptedminewest_50332">MINE DE SCORIES INFÉRIEURE</string>
 	<string key="ui_poi_ancient_tower_40219">LOUP</string>
 	<string key="ui_poi_dryad_cavern_40248">REPAIRE LUXURIANT</string>
 	<string key="ui_poi_ancient_ruins_mainland">RUINES DES CHUTES</string>
@@ -518,7 +517,7 @@
 	<string key="ui_poi_outpost_shatteredmountain_b">HAUTMESNIL</string>
 	<string key="ui_poi_outpost_shatteredmountain_a">HAUTCOL</string>
 	<string key="ui_poi_outpost_54_1_50401">RAIDILLON MONTAGNEUX</string>
-	<string key="ui_poi_ancient_ruins_mourningbridge_60342">PONT ENDEUILLÉ</string>
+	<string key="ui_poi_ancient_ruins_mourningbridge_60342">PONT DES LARMES</string>
 	<string key="ui_poi_ancient_ruins_mourningbridge_60342_description">On dit que la rivière qui coule sous le pont charrie les tourments des Anciens.</string>
 	<string key="ui_poi_crater_corruptedminecamp_50341">SCIERIE DE LA GUEULE PIQUANTE</string>
 	<string key="ui_poi_drowned_cave_40021">CAVERNE DU RÉVOLTÉ</string>
@@ -1383,7 +1382,7 @@
 	<string key="ui_poi_brute_island_30024">ÎLE DÉCHAÎNÉE</string>
 	<string key="ui_poi_drownedcavern_30219">GROTTE CONTRE-COURANT</string>
 	<string key="ui_poi_myrkgardnorth_40411">HERSE SUPÉRIEURE</string>
-	<string key="ui_poi_crater_corruptedmineeast_50333">MINE SUINTANTE SUPÉRIEURE</string>
+	<string key="ui_poi_crater_corruptedmineeast_50333">MINE DE SCORIES SUPÉRIEURE</string>
 	<string key="ui_poi_ancient_lookout_40114">OURSE</string>
 	<string key="ui_poi_bearden_40416">GROTTE DES URSIDÉS</string>
 	<string key="ui_poi_ancient_ruins_40153">FORGE DU MIRADOR</string>
@@ -1510,6 +1509,8 @@
 	<string key="ui_poi_devworld_cave_description">Une grotte qui abrite des loups.</string>
 	<string key="ui_poi_devworld_spawns">INVOCATIONS DES DÉVELOPPEURS</string>
 	<string key="ui_poi_devworld_spawns_description">Quelques démonstrations de techniques d'invocation.</string>
+	<string key="ui_poi_devworld_dummies">ZONE DE MANNEQUINS-CIBLES DES DÉVELOPPEURS</string>
+	<string key="ui_poi_devworld_dummies_description">Une zone de test avec plusieurs mannequins-cibles</string>
 	<string key="ui_poi_fish_hotspot_broad">ZONE DE PÊCHE LARGE</string>
 	<string key="ui_poi_fish_hotspot_broad_description">Les poissons bondissent hors de l'eau !</string>
 	<string key="ui_poi_fish_hotspot_rare">ZONE DE PÊCHE RARE</string>
@@ -1704,6 +1705,10 @@
 	<string key="ui_poi_spiritshrine_01_30251_description">SANCTUAIRE SPIRITUEL</string>
 	<string key="ui_poi_spiritshrine_02_30314">SANCTUAIRE DE L'AMANT</string>
 	<string key="ui_poi_spiritshrine_02_30314_description">SANCTUAIRE SPIRITUEL</string>
+	<string key="ui_poi_spiritshrine_20208">SANCTUAIRE IMPÉRIAL</string>
+	<string key="ui_poi_spiritshrine_20208_description">SANCTUAIRE SPIRITUEL</string>
+	<string key="ui_poi_spiritshrine_20209">@ui_poi_spiritshrine_20209</string>
+	<string key="ui_poi_spiritshrine_20209_description">SANCTUAIRE SPIRITUEL</string>
 	<string key="ui_poi_vikingshipwreck_40039">VIGRID</string>
 	<string key="ui_poi_vikingshipwreck_40039_description">Des bateaux venus du Nord, accompagnés des fantômes de leurs équipages maudits.</string>
 	<string key="ui_poi_Tauros_06SW09">TAUROS</string>
@@ -1740,14 +1745,6 @@
 	<string key="ui_poi_yeti_50424_description" rel_version="Event_WinterConvergence_Perm">Repère</string>
 	<string key="ui_poi_yeti_60352">CACHE DU HAUT-COL</string>
 	<string key="ui_poi_yeti_60352_description">Repère</string>
-	<string key="ui_poi_40348_wintervillage" rel_version="Event_WinterConvergence_Temp">VILLAGE D'HIVER</string>
-	<string key="ui_poi_40348_wintervillage_description" rel_version="Event_WinterConvergence_Temp">Un mystérieux village, aussi gai qu'enneigé, est apparu en Aeternum. Bienvenue à la Convergence hivernale !</string>
-	<string key="ui_poi_wintervillage_50151" rel_version="Event_WinterConvergence_Temp">VILLAGE D'HIVER</string>
-	<string key="ui_poi_wintervillage_50151_description" rel_version="Event_WinterConvergence_Temp">Un mystérieux village, aussi gai qu'enneigé, est apparu en Aeternum. Bienvenue à la Convergence hivernale !</string>
-	<string key="ui_poi_50300_wintervillage" rel_version="Event_WinterConvergence_Temp">Village d'hiver</string>
-	<string key="ui_poi_50300_wintervillage_description" rel_version="Event_WinterConvergence_Temp">Un mystérieux village, aussi gai qu'enneigé, est apparu en Aeternum. Bienvenue à la Convergence hivernale !</string>
-	<string key="ui_poi_wintervillage_30145" rel_version="Event_WinterConvergence_Temp">VILLAGE D'HIVER</string>
-	<string key="ui_poi_wintervillage_30145_description" rel_version="Event_WinterConvergence_Temp">Un mystérieux village, aussi gai qu'enneigé, est apparu en Aeternum. Bienvenue à la Convergence hivernale !</string>
 	<string key="ui_poi_factionarea_40284">Pâturages de Crête du Corbeau</string>
 	<string key="ui_poi_factionarea_40285">Ouest du lac de la prairie</string>
 	<string key="ui_poi_factionarea_40286">Carrefour de la foi</string>

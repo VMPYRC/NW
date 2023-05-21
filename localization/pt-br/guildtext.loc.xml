@@ -1,7 +1,9 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="ui_alignmentrequesttitle">Intenções Amigáveis</string>
 	<string key="ui_alignmentacceptedmessage">Intenções amigáveis trocadas com: &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
-	<string key="ui_alignmentrequestrecipientmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; acenou. Para acenar de volta, mire na pessoa e pressione [{keybind}].</string>
+	<string key="ui_alignmentrequestrecipientmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; acenou. Para acenar de volta, mire nele e pressione [{keybind}].</string>
+	<string key="ui_alignmentrequestrecipientmessage_SHE">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; acenou. Para acenar de volta, mire nela e pressione [{keybind}].</string>
+	<string key="ui_alignmentrequestrecipientmessage_THEY">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; acenou. Para acenar de volta, mire na pessoa e pressione [{keybind}].</string>
 	<string key="ui_alignmentrequestsendermessage">Sinalizou intenções amigáveis para: &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
 	<string key="ui_alignmenttimedoutrecipientmessage">Não acenou de volta. &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; pode não se esquecer disso.</string>
 	<string key="ui_alignmenttimedoutsendermessage">Seu aceno não foi correspondido.</string>
@@ -90,7 +92,9 @@
 	<string key="ui_guildownershipchangemessage">A titularidade da Companhia foi transferida para &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
 	<string key="ui_guildownershipchangetitle">Alteração de Titularidade da Companhia</string>
 	<string key="ui_guildsetmemberrankfailednoconsultitle">É Preciso Ter um Cônsul</string>
-	<string key="ui_guildsetmemberrankfailednoconsulmessage">Não é possível mudar o ranque de {playerName}, pois não há outros Cônsules para assumir o lugar.</string>
+	<string key="ui_guildsetmemberrankfailednoconsulmessage">Não é possível mudar o ranque de {playerName}, pois não há outros Cônsules para assumir o lugar dele.</string>
+	<string key="ui_guildsetmemberrankfailednoconsulmessage_SHE">Não é possível mudar o ranque de {playerName}, pois não há outros Cônsules para assumir o lugar dela.</string>
+	<string key="ui_guildsetmemberrankfailednoconsulmessage_THEY">Não é possível mudar o ranque de {playerName}, pois não há outros Cônsules para assumir o lugar.</string>
 	<string key="ui_guildpermissionstab">Permissões</string>
 	<string key="ui_guildranknameinusemessage">Esse nome de ranque já existe.</string>
 	<string key="ui_guildoverviewtab">Visão Geral</string>

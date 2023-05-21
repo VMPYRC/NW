@@ -394,6 +394,74 @@
 	<string key="FoodHarvesterT5_Effect_DisplayName">Erntearbeitsglück V</string>
 	<string key="FoodHunterT5_Effect_DisplayName">Häuteglück V</string>
 	<string key="FoodLumberjackT5_Effect_DisplayName">Holzfällerglück V</string>
+	<string key="Mut_Disease_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Fäule I</string>
+	<string key="Mut_Disease_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Fäule II</string>
+	<string key="Mut_Disease_1_DisplayName" rel_version="Feature_Dungeon_Mutators">Geringe Krankheit</string>
+	<string key="Mut_Disease_1_Tooltip" rel_version="Feature_Dungeon_Mutators">Verringert die erhaltene Heilung um {[Type_StatusEffectData.Mut_Disease_1.HealMod * -100]} %. {[Type_StatusEffectData.Mut_Disease_1.StackMax]}-mal stapelbar.</string>
+	<string key="Mut_Disease_2_DisplayName" rel_version="Feature_Dungeon_Mutators">Krankheit</string>
+	<string key="Mut_Disease_2_Tooltip" rel_version="Feature_Dungeon_Mutators">Verringert die erhaltene Heilung um {[Type_StatusEffectData.Mut_Disease_2.HealMod * -100]} %. {[Type_StatusEffectData.Mut_Disease_2.StackMax]}-mal stapelbar.</string>
+	<string key="Mut_LifeSteal_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Vampirisch I</string>
+	<string key="Mut_LifeSteal_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Vampirisch II</string>
+	<string key="Mut_ProjectileShield_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Phalanx</string>
+	<string key="Mut_RotatingBeam_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Schlitzer</string>
+	<string key="Mut_Fir_Damage_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Entzündet</string>
+	<string key="Mut_Fir_Resist_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Feuerresistenz I</string>
+	<string key="Mut_Fir_Resist_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Feuerresistenz II</string>
+	<string key="Mut_Fir_Burn_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Feurig I</string>
+	<string key="Mut_Fir_Burn_1_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators">Versengte Verbrennung I</string>
+	<string key="Mut_Fir_Burn_1_Effect_ToolTip" rel_version="Feature_Dungeon_Mutators">Verursacht {[Type_StatusEffectData.Mut_Fir_Burn_1_Effect.BaseDuration]} Sekunden lang alle {[Type_StatusEffectData.Mut_Fir_Burn_1_Effect.TickRate]} Sekunden Feuerschaden in Höhe von {[Type_StatusEffectData.Mut_Fir_Burn_1_Effect.HealthModifierDamageBased * -100]} % des Basisschadens.</string>
+	<string key="Mut_Fir_Burn_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Feurig II</string>
+	<string key="Mut_Fir_Burn_2_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators">Versengte Verbrennung II</string>
+	<string key="Mut_Fir_Burn_2_Effect_ToolTip" rel_version="Feature_Dungeon_Mutators">Verursacht {[Type_StatusEffectData.Mut_Fir_Burn_2_Effect.BaseDuration]} Sekunden lang alle {[Type_StatusEffectData.Mut_Fir_Burn_2_Effect.TickRate]} Sekunden Feuerschaden in Höhe von {[Type_StatusEffectData.Mut_Fir_Burn_2_Effect.HealthModifierDamageBased * -100]} % des Basisschadens.</string>
+	<string key="Mut_Fir_AOE_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Entflammt I</string>
+	<string key="Mut_Fir_AOE_1_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Entflammte Verbrennung I</string>
+	<string key="Mut_Fir_AOE_1_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Verursacht alle {[Type_StatusEffectData.Mut_Fir_AOE_1_Damage.TickRate]} Sekunden Feuerschaden in Höhe von {[Type_StatusEffectData.Mut_Fir_AOE_1_Damage.HealthModifierDamageBased * -100]} % des Basisschadens.</string>
+	<string key="Mut_Fir_AOE_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Entflammt II</string>
+	<string key="Mut_Fir_AOE_2_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Entflammte Verbrennung II</string>
+	<string key="Mut_Fir_AOE_2_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Verursacht alle {[Type_StatusEffectData.Mut_Fir_AOE_2_Damage.TickRate]} Sekunden Feuerschaden in Höhe von {[Type_StatusEffectData.Mut_Fir_AOE_2_Damage.HealthModifierDamageBased * -100]} % des Basisschadens.</string>
+	<string key="Mut_Fir_Death_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Explosiv</string>
+	<string key="Mut_Voi_Damage_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Hölle</string>
+	<string key="Mut_Voi_Resist_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Unheilsresistenz I</string>
+	<string key="Mut_Voi_Resist_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Unheilsresistenz II</string>
+	<string key="Mut_Voi_Stacks_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoid I</string>
+	<string key="Mut_Voi_Stacks_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoid II</string>
+	<string key="Mut_Voi_Stacks_1_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoia I</string>
+	<string key="Mut_Voi_Stacks_1_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">{[Type_StatusEffectData.Mut_Lig_Stacks_1_Effect.BaseDuration]} Sekunden lang von schrecklicher Angst erfüllt. Bei 4 Stapeln wird an deinem Standort eine Unheilsexplosion erzeugt.</string>
+	<string key="Mut_Voi_Stacks_2_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoia II</string>
+	<string key="Mut_Voi_Stacks_2_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">{[Type_StatusEffectData.Mut_Lig_Stacks_2_Effect.BaseDuration]} Sekunden lang von schrecklicher Angst erfüllt. Bei 4 Stapeln wird an deinem Standort eine Unheilsexplosion erzeugt.</string>
+	<string key="Mut_Voi_Leech_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Leere I</string>
+	<string key="Mut_Voi_Leech_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Leere II</string>
+	<string key="Mut_Voi_Leech_1_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Leerensauger I</string>
+	<string key="Mut_Voi_Leech_2_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Leerensauger II</string>
+	<string key="Mut_Voi_Leech_1_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Fügt {[Type_StatusEffectData.Mut_Voi_Leech_1_Damage.HealthModifierDamageBased * -100]} % Basisunheilsschaden zu und heilt den Wirker jede Sekunde um {[Type_StatusEffectData.Mut_Voi_Leech_1_Damage.TickRate]} {[Type_AbilityData.Mut_Voi_Leech_1_Heal.DmgPctToHealth * 100]} % des Basisschadens.</string>
+	<string key="Mut_Voi_Leech_2_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Fügt {[Type_StatusEffectData.Mut_Voi_Leech_2_Damage.HealthModifierDamageBased * -100]} % Basisunheilsschaden zu und heilt den Wirker jede Sekunde um {[Type_StatusEffectData.Mut_Voi_Leech_2_Damage.TickRate]} {[Type_AbilityData.Mut_Voi_Leech_2_Heal.DmgPctToHealth * 100]} % des Basisschadens.</string>
+	<string key="Mut_Voi_Leech_1_Heal_DisplayName" rel_version="Feature_Dungeon_Mutators">Leerensauger I</string>
+	<string key="Mut_Voi_Leech_2_Heal_DisplayName" rel_version="Feature_Dungeon_Mutators">Leerensauger II</string>
+	<string key="Mut_Voi_Death_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Kriechend</string>
+	<string key="Mut_Voi_Death_Empower_DisplayName" rel_version="Feature_Dungeon_Mutators">Kriechende Macht</string>
+	<string key="Mut_Fir_Curse1_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Instabiles Feuer</string>
+	<string key="Mut_Fir_Curse1_Minor_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Instabiles Versengen</string>
+	<string key="Mut_Fir_Curse1_Minor_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Fügt für {[Type_StatusEffectData.Mut_Fir_Curse1_Minor_Damage.BaseDuration]} Sekunden alle {[Type_StatusEffectData.Mut_Fir_Curse1_Minore_Damage.TickRate]} Sekunden {[Type_StatusEffectData.Mut_Fir_Curse1_Minor_Damage.HealthModifierPercent * -100]} % Feuerschaden zu.</string>
+	<string key="Mut_Voi_Curse1_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Instabiles Unheil</string>
+	<string key="Mut_Voi_Curse1_Minor_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Instabile Strömung</string>
+	<string key="Mut_Voi_Curse1_Minor_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Fügt für {[Type_StatusEffectData.Mut_Voi_Curse1_Minor_Damage.BaseDuration]} Sekunden alle {[Type_StatusEffectData.Mut_Voi_Curse1_Minor_Damage.TickRate]} Sekunden {[Type_StatusEffectData.Mut_Voi_Curse1_Minor_Damage.HealthModifierPercent * -100]} % Unheilsschaden zu.</string>
+	<string key="Mut_Fir_Curse3_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Entzündliches Feuer</string>
+	<string key="Mut_Voi_Curse3_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Entzündliches Unheil</string>
+	<string key="Mut_Fir_Curse3_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Runzeliges Feuer</string>
+	<string key="Mut_Voi_Curse3_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Runzeliges Unheil</string>
+	<string key="Mut_Curse3_Weaken_DisplayName" rel_version="Feature_Dungeon_Mutators">Runzelig</string>
+	<string key="Mut_Curse3_Weaken_Tooltip" rel_version="Feature_Dungeon_Mutators">Sämtlicher verursachter Schaden wird um {[Type_StatusEffectData.Mut_Curse3_Weaken.DMGStandard * -100]} % und jegliche gewirkte Heilung um {[Type_StatusEffectData.Mut_Curse3_Weaken.HealScalingValueMultiplier * -100]} % verringert.</string>
+	<string key="Mut_Curse4_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Gekürzt</string>
+	<string key="Mut_Fir_Curse4_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Zurückstoßendes Feuer</string>
+	<string key="Mut_Voi_Curse4_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Zurückstoßendes Unheil</string>
+	<string key="Mut_Curse4_Major_Exhaust_DisplayName" rel_version="Feature_Dungeon_Mutators">Erschöpft</string>
+	<string key="Mut_Curse4_Major_Exhaust_ToolTip" rel_version="Feature_Dungeon_Mutators">Ausdauerregeneration wird um {[Type_StatusEffectData.Mut_Curse4_Major_Exhaust.StaminaRate * -100]} % verringert.</string>
+	<string key="Mut_Curse4_Major_ManaStop_DisplayName" rel_version="Feature_Dungeon_Mutators">Manadisruption</string>
+	<string key="Mut_Curse4_Major_ManaStop_ToolTip" rel_version="Feature_Dungeon_Mutators">Du kannst kein Mana auf natürlichem Wege regenerieren.</string>
+	<string key="Mut_Curse4_Major_ManaRegen_DisplayName" rel_version="Feature_Dungeon_Mutators">Manafluss</string>
+	<string key="Mut_Curse4_Major_ManaRegen_ToolTip" rel_version="Feature_Dungeon_Mutators">Regeneriert alle {[Type_StatusEffectData.Mut_Curse4_Major_Mana.TickRate]} Sekunden {[Type_StatusEffectData.Mut_Curse4_Major_ManaRegen.Mana]} Mana.</string>
+	<string key="Mut_Base_Curse4_Minor_Silence_DisplayName" rel_version="Feature_Dungeon_Mutators">Stille</string>
+	<string key="Mut_Base_Curse4_Minor_Silence_ToolTip" rel_version="Feature_Dungeon_Mutators">Innerhalb des Wirkungsbereichs können keine Fertigkeiten eingesetzt werden.</string>
 	<string key="GhostDisease_DisplayName">Krankheit</string>
 	<string key="GhostDisease_Description">Heilung wird für {[Type_StatusEffectData.PlaguedGhost_Disease.BaseDuration]} Sekunden um {[Type_StatusEffectData.PlaguedGhost_Disease.HealMod * -100]} % verringert. {[Type_StatusEffectData.PlaguedGhost_Disease.StackMax]}-mal stapelbar.</string>
 	<string key="GhostFrostAura_DisplayName">Frostaura</string>
@@ -483,6 +551,8 @@
 	<string key="AI_Snare_6sec_Tooltip">Bewegungstempo wird {[Type_StatusEffectData.AI_Snare_6sec.BaseDuration]} Sekunden lang um {[Type_StatusEffectData.AI_Snare_6sec.MoveSpeedMod * -100]} % verringert.</string>
 	<string key="AI_Snare_4sec_DisplayName">Gefangen</string>
 	<string key="AI_Snare_4sec_Tooltip">Bewegungstempo wird {[Type_StatusEffectData.AI_Snare_4sec.BaseDuration]} Sekunden lang um {[Type_StatusEffectData.AI_Snare_6sec.MoveSpeedMod * -100]} % verringert.</string>
+	<string key="AI_Snare_30percent_3sec_DisplayName">Gefangen</string>
+	<string key="AI_Snare_30percent_3sec_Tooltip">Bewegungstempo wird {[Type_StatusEffectData.AI_Snare_30percent_3sec.BaseDuration]} Sekunden lang um {[Type_StatusEffectData.AI_Snare_30percent_3sec.MoveSpeedMod * -100]} % verringert.</string>
 	<string key="AI_Stun_2sec_DisplayName">Betäubt</string>
 	<string key="AI_Stun_2sec_Tooltip">Betäubt für {[Type_StatusEffectData.AI_Stun_2sec.BaseDuration]} Sekunden.</string>
 	<string key="AI_Stun_4sec_DisplayName">Betäubt</string>
@@ -513,9 +583,9 @@
 	<string key="AI_CorruptedPriest_DoomRend_Tooltip">Du erleidest {[Type_StatusEffectData.AI_CorruptedPriest_DoomRend.BaseDuration]} Sekunden lang {[Type_StatusEffectData.AI_CorruptedPriest_DoomRend.WKNCorruption * 100]} % mehr Verderbnisschaden pro Stapel.</string>
 	<string key="AI_Joven_Oro_Death_Buff_DisplayName">Rächen</string>
 	<string key="AI_Oro_Rend_DisplayName">Oro-Aufreißen</string>
-	<string key="AI_Oro_Rend_Tooltip">Du erleidest {[Type_StatusEffectData.AI_Oro_Rend.BaseDuration]} Sekunden lang {[Type_StatusEffectData.AI_Oro_Rend.ABSStandard * -100]} % mehr Schaden von allen physischen Schadensquellen.</string>
+	<string key="AI_Oro_Rend_Tooltip">Du erleidest {[Type_StatusEffectData.AI_Oro_Rend.BaseDuration]} Sekunden lang {[Type_StatusEffectData.AI_Oro_Rend.ABSStandard * 100]} % mehr Schaden von allen physischen Schadensquellen.</string>
 	<string key="AI_Joven_Rend_DisplayName">Joven-Aufreißen</string>
-	<string key="AI_Joven_Rend_Tooltip">Du erleidest {[Type_StatusEffectData.AI_Joven_Rend.BaseDuration]} Sekunden lang {[Type_StatusEffectData.AI_Joven_Rend.WKNCorruption * -100]} % mehr Unheilsschaden.</string>
+	<string key="AI_Joven_Rend_Tooltip">Du erleidest {[Type_StatusEffectData.AI_Joven_Rend.BaseDuration]} Sekunden lang {[Type_StatusEffectData.AI_Joven_Rend.WKNCorruption * 100]} % mehr Unheilsschaden.</string>
 	<string key="AI_Isabella_Phase2_TouchOfCorruption_DisplayName">Berührung der Verderbnis</string>
 	<string key="AI_Isabella_Phase2_TouchOfCorruption_Tooltip">Du erleidest alle {[Type_StatusEffectData.AI_Isabella_Phase2_TouchOfCorruption.TickRate]} Sek. {[Type_StatusEffectData.AI_Isabella_Phase2_TouchOfCorruption.BaseDuration]} Sekunden lang den Leidenseffekt "Verderbnis".</string>
 	<string key="AI_Mage_Miniboss_Orbs_StatusEffect_DisplayName">Arkane Essenz</string>
@@ -1224,7 +1294,11 @@
 	<string key="Status_Ability_Lifestaff_Beacon_description">Du wirst um {[Type_StatusEffectData.Status_Ability_Lifestaff_Beacon.HealthModifierDamageBased * 100]} % des Waffenschadens des Zauberwirkers geheilt.</string>
 	<string key="Status_Timer_HealingCDROnLow_Description">Wenn dieser Timer abgelaufen ist, kann "Verzweifeltes Tempo" des Lebensstabs erneut aktiviert werden.</string>
 	<string key="Status_Perk_Amulet_StamOnLow_Timer_description">Wenn dies abläuft, kann die Ausdauererholung deines Amuletts erneut ausgelöst werden.</string>
+	<string key="Status_Perk_Amulet_ManaOnLow_Timer_description">Wenn dies abläuft, kann die Manaerholung deines Amuletts erneut ausgelöst werden.</string>
+	<string key="Status_Perk_Amulet_RemoveOnLow_Timer_description">Wenn dies abläuft, kann die Läuterung deines Amuletts erneut ausgelöst werden.</string>
+	<string key="Status_Perk_Amulet_FortifyOnLow_Timer_description">Wenn dies abläuft, kann die gefestigte Erholung deines Amuletts erneut ausgelöst werden.</string>
 	<string key="Status_Perk_Amulet_ManaOnHit_Timer_description">Wenn dies abläuft, kann der Effekt "Mana pro Treffer bei niedriger GES" deines Amuletts erneut ausgelöst werden.</string>
+	<string key="Status_Perk_Ring_ManaOnHit_Timer_description">Wenn dies abläuft, kann der Effekt "Mana pro Treffer bei niedriger GES" deines Ringes erneut ausgelöst werden.</string>
 	<string key="Status_Perk_Weapon_OnCritBleed_Timer_Description">Wenn dies abläuft, kann dein Effekt "Blutung bei kritischen Treffern" erneut ausgelöst werden.</string>
 	<string key="Status_Perk_Weapon_OnCritHaste_Timer_description">Wenn dies abläuft, kann dein Effekt "Eile bei kritischen Treffern" erneut ausgelöst werden.</string>
 	<string key="Status_Perk_Weapon_OnCritFortify_Timer_Description">Wenn dies abläuft, kann dein Effekt "Verstärkung bei kritischen Treffern" erneut ausgelöst werden.</string>
@@ -1243,6 +1317,10 @@
 	<string key="Status_Passive_Foc_300_Bonus_Timer">Abklingzeit-Timer aufgrund von 300 Konzentrations-Manaregenerationsbonus</string>
 	<string key="Dungeon_PurifyingFlame">Läuternde Flamme</string>
 	<string key="Dungeon_PurifyingFlame_Description">Läutert konzentrierte Fäulnis</string>
+	<string key="Dungeon_CursedTreasure_DisplayName" rel_version="Expedition_CutlassKeys_00">Verfluchter Schatz</string>
+	<string key="Dungeon_CursedTreasure_Description" rel_version="Expedition_CutlassKeys_00">Dein Bewegungstempo wird verringert und du erleidest regelmäßig Schaden.</string>
+	<string key="Dungeon_SirenOffering_DisplayName" rel_version="Expedition_CutlassKeys_00">Nereides Opfergabe</string>
+	<string key="Dungeon_SirenOffering_Description" rel_version="Expedition_CutlassKeys_00">Entbiete diese Opfergabe einer der nahegelegenen leeren Quellen.</string>
 	<string key="Immune_To_Damage">Immun</string>
 	<string key="TauntAI_DisplayName">Provoziert</string>
 	<string key="Block_Broken_DisplayName">Zerbrochenes Blocken</string>
@@ -1253,6 +1331,21 @@
 	<string key="MeteorShowerDamage_Description">Du erleidest regelmäßigen Schaden durch einen "Meteoritenschauer".</string>
 	<string key="ArcticBreath_Tooltip" rel_version="Event_WinterConvergence_Perm">Du erleidest {[Type_StatusEffectData.Yeti_Arctic_Breath_Slow_6sec.BaseDuration]} Sekunden lang alle {[Type_StatusEffectData.Yeti_Arctic_Breath_Slow_6sec.TickRate]} Sekunden Schaden in Höhe von {[Type_StatusEffectData.Yeti_Arctic_Breath_Slow_6sec.HealthModifierPercent * -100]} % und wirst um {[Type_StatusEffectData.Yeti_Arctic_Breath_Slow_6sec.MoveSpeedMod * -100]} % verlangsamt.</string>
 	<string key="ArcticBreath_DisplayName" rel_version="Event_WinterConvergence_Perm">Arktisodem</string>
+	<string key="Status_Timer_FireAttunement_Description" rel_version="Feature_Dungeon_Mutators">Sobald dies endet, kannst du den Effekt Flammeneinstimmung erneut auslösen.</string>
+	<string key="Status_Timer_IceAttunement_Description" rel_version="Feature_Dungeon_Mutators">Sobald dies endet, kannst du den Effekt Frosteinstimmung erneut auslösen.</string>
+	<string key="Status_Timer_LightningAttunement_Description" rel_version="Feature_Dungeon_Mutators">Sobald dies endet, kannst du den Effekt Schockeinstimmung erneut auslösen.</string>
+	<string key="Status_Timer_NatureAttunement_Description" rel_version="Feature_Dungeon_Mutators">Sobald dies endet, kannst du den Effekt Baumartige Einstimmung erneut auslösen.</string>
+	<string key="Status_Timer_VoidAttunement_Description" rel_version="Feature_Dungeon_Mutators">Sobald dies endet, kannst du den Effekt Hölleneinstimmung erneut auslösen.</string>
+	<string key="Status_FireConditioning" rel_version="Feature_Dungeon_Mutators">Flammenkonditionierung.</string>
+	<string key="Status_FireConditioning_Description" rel_version="Feature_Dungeon_Mutators">Solange dieser Effekt aktiv ist, erleidest du geringeren Feuerschaden.</string>
+	<string key="Status_IceConditioning" rel_version="Feature_Dungeon_Mutators">Frostkonditionierung.</string>
+	<string key="Status_IceConditioning_Description" rel_version="Feature_Dungeon_Mutators">Solange dieser Effekt aktiv ist, erleidest du geringeren Eisschaden.</string>
+	<string key="Status_LightningConditioning" rel_version="Feature_Dungeon_Mutators">Schockkonditionierung.</string>
+	<string key="Status_LightningConditioning_Description" rel_version="Feature_Dungeon_Mutators">Solange dieser Effekt aktiv ist, erleidest du geringeren Blitzschaden.</string>
+	<string key="Status_NatureConditioning" rel_version="Feature_Dungeon_Mutators">Baumartige Konditionierung.</string>
+	<string key="Status_NatureConditioning_Description" rel_version="Feature_Dungeon_Mutators">Solange dieser Effekt aktiv ist, erleidest du geringeren Naturschaden.</string>
+	<string key="Status_VoidConditioning" rel_version="Feature_Dungeon_Mutators">Höllenkonditionierung.</string>
+	<string key="Status_VoidConditioning_Description" rel_version="Feature_Dungeon_Mutators">Solange dieser Effekt aktiv ist, erleidest du geringeren Unheilsschaden.</string>
 	<string key="AI_EvilKnight_Rally_DisplayName" rel_version="AI_Evil_Knights_P1">Varangianischer Schlachtruf</string>
 	<string key="RoadTravel_SprintBoost">Eile auf Straßen</string>
 	<string key="RoadTravel_SprintBoost_Description">Die Renngeschwindigkeit wird beim Rennen auf Straßen um {[Type_StatusEffectData.Traversal_RoadSprintBoost_Haste.SprintSpeedMod * 100]} % erhöht.</string>

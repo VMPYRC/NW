@@ -4,6 +4,8 @@
 	<string key="emote_bow" rel_version="Emote_Bow">{playerName} s'incline.</string>
 	<string key="emote_cheer">{playerName} donne des encouragements.</string>
 	<string key="emote_chestpound" rel_version="Emote_ChestPound">{playerName} se frappe le torse pour montrer sa force.</string>
+	<string key="emote_chestpound_SHE" rel_version="Emote_ChestPound">{playerName} se frappe le torse pour montrer sa force.</string>
+	<string key="emote_chestpound_THEY" rel_version="Emote_ChestPound">{playerName} se frappe le torse pour montrer sa force.</string>
 	<string key="emote_coin_heads" comment="The top side of a coin">face</string>
 	<string key="emote_coin_tails" comment="The bottom side of a coin">pile</string>
 	<string key="emote_cointoss" comment="{coinResult} will be replaced with the tag emote_coin_heads or emote_coin_tails. They are also defined in this file." rel_version="MTX_October_Skins">{playerName} lance une pièce et obtient {coinResult}.</string>
@@ -17,12 +19,16 @@
 	<string key="emote_flex1">{playerName} fléchit les muscles.</string>
 	<string key="emote_flex2">{playerName} fléchit les muscles.</string>
 	<string key="emote_flex3" rel_version="New_World_Launch">{playerName} vous montre ses bras. Jolis muscles, non ?</string>
+	<string key="emote_flex3_SHE" rel_version="New_World_Launch">{playerName} vous montre ses bras. Jolis muscles, non ?</string>
+	<string key="emote_flex3_THEY" rel_version="New_World_Launch">{playerName} vous montre ses bras. Jolis muscles, non ?</string>
 	<string key="emote_forearmjerk">{playerName} exprime son mécontentement.</string>
 	<string key="emote_golfclap" rel_version="MTX_October_Skins">{playerName} applaudit courtoisement</string>
 	<string key="emote_impatient" rel_version="Emote_Impatient">{playerName} perd patience.</string>
 	<string key="emote_loudpoint">{playerName} montre quelque chose du doigt.</string>
 	<string key="emote_nodeal">{playerName} n'aime pas ça.</string>
 	<string key="emote_overhere">{playerName} veut que vous alliez là-bas.</string>
+	<string key="emote_pray" rel_version="Emote_Pray">{playerName} prie.</string>
+	<string key="emote_pushups" rel_version="Emote_Pushups">{playerName} se laisse choir et commence à faire des pompes.</string>
 	<string key="emote_rockpaperscissors" rel_version="New_World_Launch">{playerName} se lance dans une partie de chifoumi.</string>
 	<string key="emote_shhh" rel_version="Emote_Shhh">{playerName} fait signe de se taire.</string>
 	<string key="emote_sit" comment="comment">{playerName} s'assoit.</string>
@@ -83,6 +89,7 @@
 	<string key="ui_emote_No">Non</string>
 	<string key="ui_emote_Clap">Applaudissements</string>
 	<string key="ui_emote_surrender">Se rendre</string>
+	<string key="ui_emote_pray" rel_version="Emote_Pray">Prier</string>
 	<string key="ui_emote_nope">Nope</string>
 	<string key="ui_emote_Beckon">Appeler</string>
 	<string key="ui_emote_RockPaperScissors">Chifoumi</string>
@@ -101,6 +108,7 @@
 	<string key="ui_emote_Cry_3">Pleurer 3</string>
 	<string key="ui_emote_Coin_Toss">Lancer de pièce</string>
 	<string key="ui_emote_Chin_Scrape">Grattement de menton</string>
+	<string key="ui_emote_Push_Ups" rel_version="Emote_Pushups">Pompes</string>
 	<string key="ui_emote_Flex_3">Fléchissement</string>
 	<string key="ui_emote_Golf_Clap">Applaudissement courtois</string>
 	<string key="ui_emote_Firework1" rel_version="Feature_Premium_Emotes">Fusée de chrysanthème</string>
@@ -125,6 +133,7 @@
 	<string key="ui_emote_No_description">Description de l'émote Non</string>
 	<string key="ui_emote_Clap_description">Description de l'émote Applaudissements</string>
 	<string key="ui_emote_surrender_description">Description de l'émote Se rendre</string>
+	<string key="ui_emote_pray_description" rel_version="Emote_Pray">« Prosternez-vous devant une puissance supérieure. »</string>
 	<string key="ui_emote_nope_description">Description de l'émote Nope</string>
 	<string key="ui_emote_Beckon_description">Description de l'émote Appeler</string>
 	<string key="ui_emote_RockPaperScissors_description">« Un seul peut l'emporter. Sauf en cas d'égalité. »</string>
@@ -143,6 +152,7 @@
 	<string key="ui_emote_Cry_3_description">Description de l'émote Pleurer 3</string>
 	<string key="ui_emote_Coin_Toss_description">« Le lancer d'une pièce. »</string>
 	<string key="ui_emote_Chin_Scrape_description">Description de l'émote Grattement de menton</string>
+	<string key="ui_emote_Push_Ups_description" rel_version="Emote_Pushups">« Et est-ce que vous poussez de la fonte, aussi ? »</string>
 	<string key="ui_emote_Flex_3_description">« Montrez votre force. »</string>
 	<string key="ui_emote_Golf_Clap_description">« Un boulot rondement mené ! »</string>
 	<string key="ui_emote_Firework1_description" rel_version="Feature_Premium_Emotes">Tire une fusée dans les airs. Produit une explosion colorée.</string>
@@ -162,11 +172,23 @@
 	<string key="ui_emote_BellyLaugh_description" rel_version="Emote_BellyLaugh">« Un rire retentissant ! »</string>
 	<string key="ui_emote_GivePresent_description" rel_version="Emote_GivePresent">« Un cadeau pour la vie. »</string>
 	<string key="emote_GivePresent" rel_version="Emote_GivePresent">{playerName} offre un cadeau.</string>
-	<string key="ui_emote_SnowAngel_name">Ange de neige</string>
-	<string key="ui_emote_SnowAngel_description">« Les anges sont rares en Aeternum. Faites-en davantage, mais ne prenez pas froid ! »</string>
-	<string key="emote_SnowAngel">{playerName} fait un ange dans la neige.</string>
-	<string key="ui_emote_Autograph_name">Autographe</string>
-	<string key="ui_emote_Autograph_description">« Griffonnez un autographe. Nul doute que vos fans l'attendent désespérément. »</string>
-	<string key="emote_Autograph">{playerName} signe un autographe.</string>
+	<string key="emote_RoyalWave" rel_version="Emote_Queen_Wave">{playerName} salue de manière royale</string>
+	<string key="ui_emote_RoyalWave_name" rel_version="Emote_Queen_Wave">Salut de reine</string>
+	<string key="ui_emote_RoyalWave_description" rel_version="Emote_Queen_Wave">« Saluez à la manière d'une reine. »</string>
+	<string key="ui_emote_SnowAngel_name" rel_version="Emote_SnowAngel">Ange de neige</string>
+	<string key="ui_emote_SnowAngel_description" rel_version="Emote_SnowAngel">« Les anges sont rares en Aeternum. Faites-en davantage, mais ne prenez pas froid ! »</string>
+	<string key="emote_SnowAngel" rel_version="Emote_SnowAngel">{playerName} fait un ange dans la neige.</string>
+	<string key="ui_emote_Autograph_name" rel_version="Emote_Autograph">Autographe</string>
+	<string key="ui_emote_Autograph_description" rel_version="Emote_Autograph">« Griffonnez un autographe. Nul doute que vos fans l'attendent désespérément. »</string>
+	<string key="emote_Autograph" rel_version="Emote_Autograph">{playerName} signe un autographe.</string>
+	<string key="emote_Coconut_Horse" rel_version="Emote_Coconut_Horse">{playerName} monte à cheval.</string>
+	<string key="ui_emote_Coconut_Horse_name" rel_version="Emote_Coconut_Horse">Galop</string>
+	<string key="ui_emote_Coconut_Horse_description" rel_version="Emote_Coconut_Horse">« Chevauchez votre fidèle destrier. »</string>
+	<string key="ui_emote_Swoon_name" rel_version="Emote_Swoon">Pâmoison</string>
+	<string key="ui_emote_Swoon_description" rel_version="Emote_Swoon">« L'euphorie à couper le souffle d'un amour véritable et éternel. Littéralement éternel. »</string>
+	<string key="emote_Swoon" rel_version="Emote_Swoon">{playerName} tombe en pâmoison.</string>
+	<string key="ui_emote_GiveFlower_name" rel_version="Emote_GiveFlower">Donner une fleur</string>
+	<string key="ui_emote_GiveFlower_description" rel_version="Emote_GiveFlower">« Tout le monde aime se faire courtiser avec des pétales brillants et un doux parfum. »</string>
+	<string key="emote_GiveFlower" rel_version="Emote_GiveFlower">{playerName} offre une fleur.</string>
 </resources>
 

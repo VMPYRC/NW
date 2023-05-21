@@ -163,13 +163,13 @@
 	<string key="9902_0017_landcriesout_complete_available_response_prompt2" speaker="UI - Player Prompt">“E a semente viva?”</string>
 	<string key="9902_0017_landcriesout_complete_available_response_next2" speaker="Adiana Theron" name="AdianaTheron" gender="F" VO="MSQAdiana_9902_0017_landcriesout_CompleteNext3" VO_Status="Recorded" dialogue-prompt="@9902_0017_landcriesout_complete_available_response_prompt2">Seu pedido foi autorizado, humano. Saiba que isso exigiu um sacrifício, e não é o tipo de presente que seria concedido assim duas vezes.\n\nAinda assim, você é um bom exemplar da humanidade. Espero que a semente proteja você.</string>
 	<string key="9902_0017_landcriesout_objective_desc" speaker="UI  - Quest Description">Adiana quer saber o que os Corrompidos de Rocha de Ébano planejam. Ela pede que você viaje para a Caverna da Rocha de Ébano para desvendar as tramoias sujas deles. Destrua qualquer Corrompido que ficar em seu caminho.</string>
-	<string key="9901_0017_landcriesout_travelto" speaker="UI  - Quest Description">Confronte os Corrompidos em {POITags}</string>
-	<string key="9901_0017_landcriesout_destroycorrupted" speaker="UI  - Quest Description">Destrua {targetName} na Caverna da Rocha de Ébano</string>
-	<string key="9901_0017_landcriesout_findclues" speaker="UI  - Quest Description">Procure pistas das intenções dos Corrompidos na Caverna da Rocha de Ébano</string>
-	<string key="9901_0017_landcriesout_findweapons" speaker="UI  - Quest Description">Encontre a primeira pista</string>
-	<string key="9901_0017_landcriesout_findcorruption" speaker="UI  - Quest Description">Encontre a segunda pista</string>
-	<string key="9901_0017_landcriesout_findplans" speaker="UI  - Quest Description">Encontre a terceira pista</string>
-	<string key="9902_0018_returntoyonas_objective_title" speaker="UI  - Quest Title">Dádivas da Natureza</string>
+	<string key="9901_0017_landcriesout_travelto" speaker="UI - Quest Description">Confronte os Corrompidos em {POITags}</string>
+	<string key="9901_0017_landcriesout_destroycorrupted" speaker="UI - Quest Description">Destrua {targetName} na Caverna da Rocha de Ébano</string>
+	<string key="9901_0017_landcriesout_findclues" speaker="UI - Quest Description">Procure pistas das intenções dos Corrompidos na Caverna da Rocha de Ébano</string>
+	<string key="9901_0017_landcriesout_findweapons" speaker="UI - Quest Description">Encontre a primeira pista</string>
+	<string key="9901_0017_landcriesout_findcorruption" speaker="UI - Quest Description">Encontre a segunda pista</string>
+	<string key="9901_0017_landcriesout_findplans" speaker="UI - Quest Description">Encontre a terceira pista</string>
+	<string key="9902_0018_returntoyonas_objective_title" speaker="UI - Quest Title">Dádivas da Natureza</string>
 	<string key="9902_0018_returntoyonas_start_prompt" speaker="UI - Player Prompt">[VAZIO]</string>
 	<string key="9902_0018_returntoyonas_proposal" speaker="n/a" gender="F" VO="9902_0018_returntoyonas_proposal">[VAZIO]</string>
 	<string key="9902_0018_returntoyonas_incomplete" speaker="Adiana Theron" name="AdianaTheron" gender="F" VO="MSQAdiana_9902_0018_returntoyonas_InProgResponse" VO_Status="Recorded">Você tem o que precisa, então saia daqui.\n\nEste lugar não é mais para humanos.</string>
@@ -182,7 +182,7 @@
 	<string key="9901_0013_argentandaether_proposal" speaker="Yonas Alazar" name="YonasAlazar" gender="M" VO="MSQYonas_9901_0013_argentandaether_ProposalResponse" VO_Status="Recorded" dialogue-next="@9901_0013_argentandaether_proposal_next">Você não consegue. Tivemos que derreter tudo para fabricar armas durante a última guerra.\n\nA boa notícia é que você é forte e inteligente, capaz de fazer a sua própria!</string>
 	<string key="9901_0013_argentandaether_proposal_prompt" speaker="UI - Player Prompt">“Certo, então me diga do que eu preciso.”</string>
 	<string key="9901_0013_argentandaether_proposal_next" speaker="Yonas Alazar" name="YonasAlazar" gender="M" VO="MSQYonas_9901_0013_argentandaether_CompleteNext" VO_Status="Needs Re-recording" dialogue-prompt="@9901_0013_argentandaether_proposal_prompt">Prata. Uma quantidade razoável, por sinal. Depois, deve forjá-la na Forja do Mirante.\n\nÉ uma Forja Anciã que usávamos. Até me lembro do brilho ao entardecer e do mestre Ezra... Não tenho ideia do estado do lugar hoje.</string>
-	<string key="9901_0013_argentandaether_incomplete" speaker="Yonas Alazar" name="YonasAlazar" gender="M" VO="MSQYonas_9901_0013_argentandaether_InProgResponse" VO_Status="Needs Re-recording">Já forjou a travessa?\n\nEspero que a Forja do Mirante ainda guarde parte de sua antiga glória.\n\nNão deixe de trazer os lingotes de prata.</string>
+	<string key="9901_0013_argentandaether_incomplete" speaker="Yonas Alazar" name="YonasAlazar" gender="M" VO="MSQYonas_9901_0013_argentandaether_InProgResponse" VO_Status="Needs Re-recording">Ei, já forjou a travessa? \n\nEspero que a Forja do Mirante ainda guarde parte de sua antiga glória. \n\nNão deixe de trazer os lingotes de prata.</string>
 	<string key="9901_0013_argentandaether_complete_available_response" speaker="Yonas Alazar" name="YonasAlazar" gender="M" VO="MSQYonas_9901_0013_argentandaether_AvailResponse" VO_Status="Recorded">Ah, a criança pródiga voltou, e com sua travessa de prata reluzente! Isso vai servir.\n\nDiga-me... não... o velho Ezra estava lá? Ele odiava ver a forja parada. Quem sabe você libertou ele.</string>
 	<string key="9901_0013_argentandaether_objective_desc" speaker="UI  - Quest Description">Você precisará de prata para fazer sua travessa e uma forja de força sobrenatural. Obtenha lingotes de prata, depois viaje até a Forja do Mirante para fazer a travessa.</string>
 	<string key="9901_0013_argentandaether_acquiresilver" speaker="UI - Tracker Text">Adquira os Lingotes de Prata para a sua Travessa do Bastão de Azoth</string>
@@ -671,16 +671,27 @@
 	<string key="9902_0052_saboteur_complete_available_response_next" speaker="Adiana Theron" name="AdianaTheron" gender="F" VO="9902_0052_saboteur_complete_available_response_prompt" VO_Status="Recorded" dialogue-next="@9902_0052_saboteur_complete_available_response_next2" dialogue-prompt="@9902_0052_saboteur_complete_available_response_prompt">Seu plano de macular a Fonte Materna me parece muito arriscado. E se você não conseguir derrotar a Tempestade? \n\nSe a Corrupção persistir, perderemos a Fonte Materna para sempre...</string>
 	<string key="9902_0052_saboteur_complete_available_response_prompt2" speaker="UI - Player Prompt">“Não vou falhar.”</string>
 	<string key="9902_0052_saboteur_complete_available_response_next2" speaker="Adiana Theron" name="AdianaTheron" gender="F" VO="9902_0052_saboteur_complete_available_response_prompt2" VO_Status="Recorded" dialogue-prompt="@9902_0052_saboteur_complete_available_response_prompt2">Seu pedido exige uma confiança cega. Mais confiança que a Terra Indócil jamais depositou em um humano. \n\nMas, até agora, você fez por merecê-la...</string>
-	<string key="9902_0052_TravelTo_Empress" speaker="UI">Viaje até o Estaleiro da Dinastia</string>
-	<string key="9902_0052_TravelTo_Empress2" speaker="UI">Aventure-se na Expedição do Estaleiro da Dinastia</string>
+	<string key="9902_0052_d_00_container_partial_Expedition" speaker="UI">OU:</string>
+	<string key="9902_0052_SabotageTheEmpress" speaker="UI">Sabote a Frota na Expedição de Myrkgard</string>
+	<string key="9904_0052_deployblightbombs" speaker="UI">Coloque Bombas Maculadas em Pilhas de Carga destinadas à Frota</string>
+	<string key="9904_0052_deployblightbombs2" speaker="UI">Coloque uma Bomba Maculada na Pilha de Carga</string>
+	<string key="9904_0052_deployblightbombs3" speaker="UI">Coloque uma Bomba Maculada na Pilha de Carga</string>
+	<string key="9902_KillGenerals" speaker="UI">Derrote as forças da Imperatriz</string>
+	<string key="9902_0052_TravelTo_Empress" speaker="UI">Sabote a Frota no Estaleiro da Dinastia [Grupo]</string>
+	<string key="9902_0052_TravelTo_Empress2" speaker="UI">Aventure-se na Expedição do Estaleiro da Dinastia [Grupo]</string>
 	<string key="9902_0052_interactship1" speaker="UI">Sabote o Primeiro Navio</string>
 	<string key="9902_0052_interactship2" speaker="UI">Sabote o Segundo Navio</string>
 	<string key="9902_0052_interactship3" speaker="UI">Sabote o Terceiro Navio</string>
 	<string key="9902_0052_interactship4" speaker="UI">Sabote o Último Navio da Frota Corrompida</string>
 	<string key="9902_0052_ChallengeDynasty" speaker="UI">Desafie a Imperatriz diretamente</string>
+	<string key="9902_0052_d_00_container_partial_SoloQuest">Semeie a mácula e a desordem entre as forças da Imperatriz:</string>
+	<string key="9902_0052_d_00_task_TalkToAdiana">Fale com Adiana para saber suas Opções [Solo]</string>
+	<string key="9902_0052_d_00_CompleteSolo">Conclua a Jornada: Todos no Convés [Solo]</string>
+	<string key="9902_0052_saboteur_solo_objective_title" speaker="UI">Todos no Convés</string>
+	<string key="9902_0052_saboteur_solo_objective_desc" speaker="UI">Como uma alternativa para atacar a Imperatriz e sua frota na Expedição de Myrkgard, pegue as bombas maculadas e coloque-as na carga que está sendo trazida das docas para a frota. Enquanto estiver lá, derrote os Generais da frota para interromper sua liderança.</string>
 	<string key="9907_0053_blessingofearth_objective_title" speaker="UI - Quest Title">Aprovações da Terra</string>
 	<string key="9907_0053_BlessingsOfTheEarth" speaker="UI">Ganhe a estima dos habitantes da clareira</string>
-	<string key="9907_0053_blessingofearth_objective_desc" speaker="UI  - Quest Description">Faça oferendas aos aldeões para ganhar seu favor.</string>
+	<string key="9907_0053_blessingofearth_objective_desc" speaker="UI - Quest Description">Faça oferendas aos aldeões para ganhar seu favor.</string>
 	<string key="9907_0053_blessingofearth_start_prompt" speaker="UI - Player Prompt">“Para quem preciso perguntar?”</string>
 	<string key="9907_0053_blessingofearth_proposal" speaker="Adiana Theron" name="AdianaTheron" gender="F" VO="9907_0053_blessingofearth_start_prompt" VO_Status="Recorded">Você precisa fazer oferendas aos habitantes deste lugar.\n\nAssim, eles poderão conhecer as suas intenções. Se as oferendas forem aceitas, você terá a bênção da Terra Indócil para executar seu plano.</string>
 	<string key="9907_0053_blessingofearth_incomplete" speaker="Adiana Theron" name="AdianaTheron" gender="F" VO="9907_0053_blessingofearth_proposal" VO_Status="Recorded">Faça suas oferendas para obter aprovação.\n\nSugiro que você seja esbanje generosidade.</string>
@@ -813,13 +824,25 @@
 	<string key="9927_0102_VisionsOfInvaders_complete_available_response_prompt" speaker="UI - Player Prompt" rel_version="AI_Evil_Knights_P1">“O que devemos fazer?”</string>
 	<string key="9927_0102_VisionsOfInvaders_complete_available_response_next" speaker="Survivalist Riches - First Light" name="SurvivalistRiches" VO="9927_0102_VisionsOfInvaders_complete_available_response_next" VO_Status="Needs Recording" dialogue-prompt="@9927_0102_VisionsOfInvaders_complete_available_response_prompt" rel_version="AI_Evil_Knights_P1">Pouca coisa, por enquanto. Com a ameaça da Corrupção tão terrível, precisamos nos concentrar nela.\n\nMas não tema, logo receberei outra visão sobre esses Varangianos e então nosso caminho estará claro.</string>
 	<string key="9927_VK_ScoutsNote_Examine">Examinar</string>
-	<string key="9905_0059_InMemoriam_objective_title" speaker="UI - Quest Title" rel_version="AI_Evil_Knights_P1">Em Memória</string>
-	<string key="9905_0059_InMemoriam_objective_desc" speaker="UI - Quest Description" rel_version="AI_Evil_Knights_P1">Colete tokens de lembrança de seus companheiros e coloque-os em um memorial feito para Yonas na Dobra do Pescador.</string>
-	<string key="9905_0059_InMemoriam_start_prompt" speaker="UI - Player Prompt" rel_version="AI_Evil_Knights_P1">Se não temos esperança, o que vamos ter?</string>
-	<string key="9905_0059_InMemoriam_proposal" speaker="Rima Bahar" name="RimaBahar" gender="F" VO_Status="Needs Recording" rel_version="AI_Evil_Knights_P1">Ouvi dizer que alguns Guardas Espirituais construíram um memorial para Yonas em sua antiga casa perto do rio.\n\nAqui está um token do meu próprio favor, você acha que poderia ir até Emile e Theo e pedir os tokens deles?\n\nAcho que seria melhor se você representasse todos nós e os trouxesse até ele.</string>
-	<string key="9905_0059_InMemoriam_incomplete" speaker="Rima Bahar" name="RimaBahar" gender="F" VO_Status="Needs Recording" dialogue-prompt="@9905_0059_InMemoriam_start_prompt" rel_version="AI_Evil_Knights_P1">Não sei se algum dia conseguiremos colocar o Velho Yonas para descansar, mas podemos homenagear seu sacrifício e sua coragem.</string>
-	<string key="9905_0059_InMemoriam_complete_available_response" speaker="Yonas Memorial" name="YonasMemorial" VO_Status="Needs Recording" dialogue-next="@9905_0059_InMemoriam_complete_available_response_next" rel_version="AI_Evil_Knights_P1">(A pedra fria está parada, calmamente inerte)</string>
-	<string key="9905_0059_InMemoriam_complete_available_response_prompt" speaker="UI - Player Prompt" rel_version="AI_Evil_Knights_P1">Coloque as lembranças na pedra</string>
-	<string key="9905_0059_InMemoriam_complete_available_response_next" speaker="Rima Bahar" name="YonasMemorial" VO_Status="Needs Recording" dialogue-prompt="@9905_0059_InMemoriam_complete_available_response_prompt" rel_version="AI_Evil_Knights_P1">(Você se lembra do seu amigo Yonas, com um sentimento de desfecho.)</string>
+	<string key="9926_0103_LostScarecrow_objective_title" rel_version="AI_Evil_Knights_P1">O Espantalho Perdido</string>
+	<string key="9926_0103_LostScarecrow_objective_desc" rel_version="AI_Evil_Knights_P1">Descrição aqui</string>
+	<string key="9926_0103_LostScarecrow_start_prompt" rel_version="AI_Evil_Knights_P1">(Continuar lendo)</string>
+	<string key="9926_0103_LostScarecrow_proposal" rel_version="AI_Evil_Knights_P2">O Espantalho Perdido - Proposta</string>
+	<string key="9926_0103_LostScarecrow_incomplete" rel_version="AI_Evil_Knights_P2">O Espantalho Perdido - Não Concluído</string>
+	<string key="9926_0103_LostScarecrow_complete_available_response" rel_version="AI_Evil_Knights_P2">O Espantalho Perdido - Concluído</string>
+	<string key="9932_0104_RelicReclamation_objective_title" rel_version="AI_Evil_Knights_P1">Recuperação de Relíquia</string>
+	<string key="9932_0104_RelicReclamation_objective_desc" rel_version="AI_Evil_Knights_P1">Descrição aqui</string>
+	<string key="9932_0104_RelicReclamation_start_prompt" rel_version="AI_Evil_Knights_P1">(Continuar lendo)</string>
+	<string key="9932_0104_RelicReclamation_proposal" rel_version="AI_Evil_Knights_P2">Recuperação de Relíquia - Proposta</string>
+	<string key="9932_0104_RelicReclamation_incomplete" rel_version="AI_Evil_Knights_P2">[VAZIO]</string>
+	<string key="9932_0104_RelicReclamation_complete_available_response" rel_version="AI_Evil_Knights_P2">Recuperação de Relíquia - Concluído</string>
+	<string key="9905_0059_InMemoriam_objective_title" speaker="UI - Quest Title">Em Memória</string>
+	<string key="9905_0059_InMemoriam_objective_desc" speaker="UI - Quest Description">Colete tokens de lembrança de seus companheiros e coloque-os em um memorial feito para Yonas na Dobra do Pescador.</string>
+	<string key="9905_0059_InMemoriam_start_prompt" speaker="UI - Player Prompt">Se não temos esperança, o que vamos ter?</string>
+	<string key="9905_0059_InMemoriam_proposal" speaker="Rima Bahar" name="RimaBahar" gender="F" VO_Status="Needs Recording">Ouvi dizer que alguns Guardas Espirituais construíram um memorial para Yonas em sua antiga casa perto do rio.\n\nAqui está um token do meu próprio favor, você acha que poderia ir até Emile e Theo e pedir os tokens deles?\n\nAcho que seria melhor se você representasse todos nós e os trouxesse até ele.</string>
+	<string key="9905_0059_InMemoriam_incomplete" speaker="Rima Bahar" name="RimaBahar" gender="F" VO_Status="Needs Recording" dialogue-prompt="@9905_0059_InMemoriam_start_prompt">Não sei se algum dia conseguiremos colocar o Velho Yonas para descansar, mas podemos homenagear seu sacrifício e sua coragem.</string>
+	<string key="9905_0059_InMemoriam_complete_available_response" speaker="Yonas Memorial" name="YonasMemorial" VO_Status="Needs Recording" dialogue-next="@9905_0059_InMemoriam_complete_available_response_next">(A pedra fria está parada, calmamente inerte)</string>
+	<string key="9905_0059_InMemoriam_complete_available_response_prompt" speaker="UI - Player Prompt">Coloque as lembranças na pedra</string>
+	<string key="9905_0059_InMemoriam_complete_available_response_next" speaker="Rima Bahar" name="YonasMemorial" VO_Status="Needs Recording" dialogue-prompt="@9905_0059_InMemoriam_complete_available_response_prompt">(Você se lembra do seu amigo Yonas, com um sentimento de desfecho.)</string>
 </resources>
 

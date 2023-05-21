@@ -22,7 +22,9 @@
 	<string key="ui_groupinviteacceptraid" comment="">Gruppeneinladung angenommen</string>
 	<string key="ui_groupinvitedeclinesentmessage" comment="">Gruppeneinladung von &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; abgelehnt.</string>
 	<string key="ui_groupinvitedeclineraid" comment="">Gruppeneinladung abgelehnt</string>
-	<string key="ui_groupinvitewithdrawnreceivermessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; hat deine Gruppeneinladung zurückgenommen.</string>
+	<string key="ui_groupinvitewithdrawnreceivermessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; hat seine Gruppeneinladung zurückgenommen.</string>
+	<string key="ui_groupinvitewithdrawnreceivermessage_SHE" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; hat ihre Gruppeneinladung zurückgenommen.</string>
+	<string key="ui_groupinvitewithdrawnreceivermessage_THEY" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; hat deine Gruppeneinladung zurückgenommen.</string>
 	<string key="ui_groupinvitewithdrawnsendermessage" comment="">Gruppeneinladung an &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; zurückgenommen.</string>
 	<string key="ui_groupinvitewithdrawnraid" comment="">Gruppeneinladung zurückgenommen</string>
 	<string key="ui_leftgroupmessage" comment="">Gruppe verlassen</string>
@@ -64,7 +66,9 @@
 	<string key="ui_groupmaxinviteserrormessage" comment="">Du kannst {playerName} nicht einladen, da du die maximale Anzahl von Einladungen erreicht hast.</string>
 	<string key="ui_groupfromplayerofflineerrormessage" comment="">Gruppeneinladung abgebrochen: {playerName} ist offline.</string>
 	<string key="ui_groupinvitetoplayerofflineerrormessage" comment="">Gruppeneinladung fehlgeschlagen: {playerName} ist offline.</string>
-	<string key="ui_grouptoplayerofflineerrormessage" comment="">Du kannst {playerName} nicht einladen, da er oder sie nun offline ist.</string>
+	<string key="ui_grouptoplayerofflineerrormessage" comment="">{playerName} kann nicht eingeladen werden, er ist offline.</string>
+	<string key="ui_grouptoplayerofflineerrormessage_SHE" comment="">{playerName} kann nicht eingeladen werden, sie ist offline.</string>
+	<string key="ui_grouptoplayerofflineerrormessage_THEY" comment="">Du kannst {playerName} nicht einladen, da er oder sie nun offline ist.</string>
 	<string key="ui_groupinvitefailedgroupfullmessage" comment="">Gruppeneinladung fehlgeschlagen: Die Gruppe von {playerName} ist jetzt voll.</string>
 	<string key="ui_groupinvitefailederrormessage" comment="">Die Einladung zur Gruppe von {playerName} konnte nicht angenommen werden.</string>
 	<string key="ui_groupinvitefailedraid" comment="">Antwort auf Einladungsanfrage fehlgeschlagen</string>

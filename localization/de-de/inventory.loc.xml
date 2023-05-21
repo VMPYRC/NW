@@ -9,6 +9,8 @@
 	<string key="inv_discard_life_warning">Andere Spieler können diese Gegenstände weder sehen noch an sich nehmen. Wenn diese Tasche verschwindet (nach 3 Minuten), sind die Gegenstände für immer verloren.</string>
 	<string key="inv_encumbered">Ausgelastet</string>
 	<string key="inv_unencumbered">Nicht ausgelastet</string>
+	<string key="inv_slotsfull">Gegenstandlimit erreicht</string>
+	<string key="inv_encumbered_and_slotsfull">Ausgelastet und Gegenstandlimit erreicht</string>
 	<string key="ui_quantity_with_amount">x {amount}</string>
 	<string key="inv_weapons">Waffen</string>
 	<string key="inv_ammo">Munition</string>
@@ -68,7 +70,7 @@
 	<string key="inv_equipLoadEncumberedTooltip">Du trägst zu viele Gegenstände im Inventar herum. Wenn du belastet bist, ist es egal, wie hoch dein Ausrüstungsgewicht ist. Du kannst weder rennen noch ausweichen und verlierst beim Blocken mehr Ausdauer. Du solltest einige Gegenstände aus deinen Taschen entfernen.</string>
 	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Du hast mehr ausgerüstet, als dein maximales Ausrüstungsgewicht zulässt. Du kannst nicht ausweichen oder rennen und deine Ausdauerregeneration fällt deutlich niedriger aus. Du solltest einige Gegenstände ablegen.</string>
 	<string key="inv_equipLoadFastNotification">Ausrüstungsgewicht ist jetzt leicht</string>
-	<string key="inv_equipLoadNormalNotification">Ausrüstungsgewicht ist jetzt normal</string>
+	<string key="inv_equipLoadNormalNotification">Ausrüstungsgewicht ist jetzt Mittel</string>
 	<string key="inv_equipLoadSlowNotification">Ausrüstungsgewicht ist jetzt schwer</string>
 	<string key="inv_equipLoadOverburdenedNotification">Überlastet – Ausweichen und Rennen nicht möglich</string>
 	<string key="inv_equipLoadEncumberedNotification">Ausgelastet – Ausweichen, Sprinten und Rennen nicht möglich</string>

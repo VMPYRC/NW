@@ -9,7 +9,7 @@
 	<string key="ui_acceptsrarity">Dozwolona rzadkość</string>
 	<string key="ui_acceptscraftsmanship">Dozwolony rodzaj rzemiosła</string>
 	<string key="ui_howmany">LICZBA</string>
-	<string key="ui_postorderfor">Wystaw ofertę za:</string>
+	<string key="ui_postorderfor">Wystaw ofertę na:</string>
 	<string key="ui_unitprice">Cena za sztukę:</string>
 	<string key="ui_plusfee">({total} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; + {fee} prowizji)</string>
 	<string key="ui_buyOrderFee">({total} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; + {fee} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; prowizji)</string>
@@ -75,6 +75,7 @@
 	<string key="ui_selectallouposts">Wszystkie osady</string>
 	<string key="ui_currentsellers">Bieżące oferty sprzedaży</string>
 	<string key="ui_currentbuyers">Bieżące oferty kupna</string>
+	<string key="ui_store_item_cooldown_desc">&lt;font color="#ffdb7a"&gt;Po zakupieniu tego przedmiotu musisz odczekać {cooldownDuraction}, aby zakupić go ponownie.&lt;/font&gt;</string>
 	<string key="ui_postordererror_outpostfull">Nie możesz wystawić oferty kupna, ponieważ magazyn twojego posterunku jest pełny.</string>
 	<string key="ui_postordererror_outpostfull_button">MAGAZYN LOKALNY JEST PEŁNY</string>
 	<string key="ui_postordererror_buy_notenoughmoney">Nie masz wystarczającej liczby monet, aby wystawić ofertę kupna.</string>
@@ -116,6 +117,7 @@
 	<string key="ui_contract_failure_throttled">Prośba odrzucona w ramach ograniczania żądań. Odczekaj chwilę i spróbuj ponownie.</string>
 	<string key="ui_contract_failure_coin_transferal_disabled">Przekazywanie monet wyłączone.</string>
 	<string key="ui_contract_failure_trading_post_disabled">Faktoria wyłączona.</string>
+	<string key="ui_contract_failure_cooldown">Można kupić za: {cooldownTime} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" xPadding="0" scale="1.1" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="ui_contract_failure_generic">Coś poszło nie tak. Spróbuj ponownie.</string>
 	<string key="ui_sell_instant_price">Cena "sprzedaj teraz"</string>
 	<string key="ui_buy_instant_price">Cena "kup teraz"</string>
@@ -133,7 +135,7 @@
 	<string key="ui_infinite">&lt;img src="lyshineui/images/icons/misc/infinity_tan" xPadding="0" scale="1.8" yOffset="5.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_infiniteBigger">&lt;img src="lyshineui/images/icons/misc/infinity_tan" xPadding="0" scale="2.2" yOffset="5.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_new_balance">Nowe saldo:</string>
-	<string key="ui_view_details">Wyświetl szczegóły</string>
+	<string key="ui_view_details">Szczegóły</string>
 	<string key="ui_cancelorder_confirmation">Czy na pewno chcesz anulować tę ofertę?</string>
 	<string key="ui_returnorder_buyconfirmation">Pozostałe &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{priceTotal}&lt;/font&gt;&lt;/font&gt; &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; zostaną zwrócone do twojego portfela.</string>
 	<string key="ui_returnorder_inventory_sellconfirmation">Pozostałe &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;przedmioty w liczbie {count}&lt;/font&gt;&lt;/font&gt; trafią do twojego &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;ekwipunku&lt;/font&gt;&lt;/font&gt;.</string>

@@ -97,10 +97,25 @@
 	<string key="ui_metachievement_pve_bossKill_dungeon_amrine_title">Tu appelles ça de l'archéologie ?</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_obelisk_title">J'attendais plus d'un menhir</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_depths_title">Maître à bord</string>
-	<string key="ui_metachievement_pve_bossKill_dungeon_eradinus_title">Mécanisme de défense</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_genesis_title">Enfant terrible</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_lazarus_title">Dans le mille</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_shipyard_title">Dynastie démolie</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_amrine_title1" rel_version="Feature_Dungeon_Mutators">Exaltation de l'excavation</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_amrine_title2" rel_version="Feature_Dungeon_Mutators">De retour pour vous jouer un mauvais tour</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_obelisk_title1" rel_version="Feature_Dungeon_Mutators">Anciens éveillés</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_obelisk_title2" rel_version="Feature_Dungeon_Mutators">Surcharge de travail</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_depths_title1" rel_version="Feature_Dungeon_Mutators">Triomphes vertigineux</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_depths_title2" rel_version="Feature_Dungeon_Mutators">Un beau désordre</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_genesis_title1" rel_version="Feature_Dungeon_Mutators">Accroc à la crèche</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_genesis_title2" rel_version="Feature_Dungeon_Mutators">Ça explique l'odeur</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_lazarus_title1" rel_version="Feature_Dungeon_Mutators">Vocation discutable</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_lazarus_title2" rel_version="Feature_Dungeon_Mutators">Bassins de la ruine</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_shipyard_title1" rel_version="Feature_Dungeon_Mutators">Cycles dynastiques</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_shipyard_title2" rel_version="Feature_Dungeon_Mutators">Un navire échoué</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_isabellalair_title1" rel_version="Feature_Dungeon_Mutators">Encore une descente dans les ténèbres</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_isabellalair_title2" rel_version="Feature_Dungeon_Mutators">Le ventre de la bête</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_barnacles_title1" rel_version="Feature_Dungeon_Mutators">La caverne de l'altération</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_barnacles_title2" rel_version="Feature_Dungeon_Mutators">L'Île au trésor</string>
 	<string key="ui_metachievement_pve_arenascompleted_title">Arène de combat</string>
 	<string key="ui_metachievement_pvp_killbyfaction_covenant_title1">Une croyance préjudiciable</string>
 	<string key="ui_metachievement_pvp_killbyfaction_covenant_title2">S'opposer aux fanatiques</string>
@@ -899,10 +914,18 @@
 	<string key="ui_metachievement_pve_bossKill_dungeon_amrine_desc">Éliminez Simon Grey dans le site de fouilles amrine.</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_obelisk_desc">Éliminez Greundgul le régent aux carrières de pierre d'étoile.</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_depths_desc">Éliminez le commandant Thorpe dans les Profondeurs.</string>
-	<string key="ui_metachievement_pve_bossKill_dungeon_eradinus_desc">Éliminez Teceros dans les grottes d'Éridan.</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_genesis_desc">Éliminez le gardien des verdures vicié dans le Jardin de la Genèse.</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_lazarus_desc">Éliminez Chardis dans l'Instrument de Lazarus.</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_shipyard_desc">Éliminez l'impératrice Zhou dans le chantier naval de la dynastie.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_amrine_generic_desc" rel_version="Feature_Dungeon_Mutators">Terminez le site de fouilles amrine en difficulté {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_obelisk_generic_desc" rel_version="Feature_Dungeon_Mutators">Terminez les carrières de pierre d'étoile en difficulté {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_depths_generic_desc" rel_version="Feature_Dungeon_Mutators">Terminez les Profondeurs en difficulté {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_genesis_generic_desc" rel_version="Feature_Dungeon_Mutators">Terminez le Jardin de la Genèse en difficulté {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_lazarus_generic_desc" rel_version="Feature_Dungeon_Mutators">Terminez l'Instrument de Lazarus en difficulté {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_shipyard_generic_desc" rel_version="Feature_Dungeon_Mutators">Terminez le chantier naval de la dynastie en difficulté {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_isabellalair_generic_desc" rel_version="Feature_Dungeon_Mutators">Terminez : !undefined dungeon!, de difficulté {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_barnacle_generic_desc" rel_version="Feature_Dungeon_Mutators">Terminez Bernacles et Poudre noire en difficulté {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_ennead_generic_desc" rel_version="Feature_Dungeon_Mutators">Terminez l'Ennéade en difficulté {number}.</string>
 	<string key="ui_metachievement_pve_arenascompleted_desc">Terminez {number} combats en arène.</string>
 	<string key="ui_metachievement_pvp_killbyfaction_covenant_desc">Éliminez personnellement {number} joueurs des Engagés.</string>
 	<string key="ui_metachievement_pvp_killbyfaction_marauder_desc">Éliminez personnellement {number} joueurs des Maraudeurs.</string>

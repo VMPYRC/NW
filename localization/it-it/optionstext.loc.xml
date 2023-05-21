@@ -137,6 +137,8 @@
 	<string key="ui_uivolume_desc">Regola il volume degli effetti sonori dell'interfaccia utente</string>
 	<string key="ui_loudnesslevel">Amplifica suoni più deboli</string>
 	<string key="ui_loudnesslevel_desc">Riproduci i suoni più deboli a un volume più alto</string>
+	<string key="ui_audioquality">Qualità audio</string>
+	<string key="ui_audioquality_desc">Regola la qualità dell'audio. Valori bassi hanno un impatto minore sulle risorse di sistema. Valori alti forniscono un'esperienza audio più ricca, ma hanno un impatto maggiore sulle risorse di sistema.</string>
 	<string key="ui_max_fps">FPS massimi</string>
 	<string key="ui_max_fps_desc">Limita i fotogrammi al secondo di rendering (FPS)</string>
 	<string key="ui_options_graphics_30fps">30 fps</string>
@@ -229,5 +231,38 @@
 	<string key="ui_enable_camera_lock_manual_toggle_description">Attiva l'aggancio del bersaglio con il pulsante centrale del mouse senza un incantesimo di guarigione attivo</string>
 	<string key="ui_enable_camera_lock_group_mode">Guarigione mirata - Modalità gruppo</string>
 	<string key="ui_enable_camera_lock_group_mode_description">Abilita la modalità di gruppo che alterna i membri del gruppo usando la rotellina centrale del mouse</string>
+	<string key="ui_gena_escape" rel_version="Feature_GameEntryNarrationAssistance">Esc</string>
+	<string key="ui_gena" rel_version="Feature_GameEntryNarrationAssistance">Assistente vocale per l'ingresso in gioco</string>
+	<string key="ui_gena_title" rel_version="Feature_GameEntryNarrationAssistance">Assistente vocale per l'ingresso in gioco</string>
+	<string key="ui_gena_desc" rel_version="Feature_GameEntryNarrationAssistance">Attiva l'assistente vocale per entrare nel gioco</string>
+	<string key="ui_gena_restricted" rel_version="Feature_GameEntryNarrationAssistance">Chat vocale di prossimità disattivata. Account troppo recente o bloccato.</string>
+	<string key="ui_gena_instruction" rel_version="Feature_GameEntryNarrationAssistance">New World supporta l'assistente vocale (solo in inglese) per giocatori ipovedenti o non vedenti. Puoi attivare o disattivare questa funzionalità in qualsiasi momento nelle impostazioni.</string>
+	<string key="ui_genaprompt_genaison" rel_version="Feature_GameEntryNarrationAssistance">L'assistente vocale è stato attivato. Premi {toggleGENA} per disattivare. Premi {frontEndContinue} per continuare.</string>
+	<string key="ui_genaprompt_genaisoff" rel_version="Feature_GameEntryNarrationAssistance">L'assistente vocale è stato disattivato. Premi {toggleGENA} per attivare. Premi {frontEndContinue} per continuare.</string>
+	<string key="ui_genaprompt_genascreen" rel_version="Feature_GameEntryNarrationAssistance">Assistente vocale per l'ingresso in gioco. Premi {toggleGENA} per attivare. Premi {frontEndContinue} per continuare.</string>
+	<string key="ui_genaprompt_seizurescreen" rel_version="Feature_GameEntryNarrationAssistance">Avviso sull'epilessia fotosensibile. Se tu o qualcuno nella tua famiglia è affetto da epilessia, consulta il medico prima di giocare a New World. Premi {frontEndContinue} per continuare.</string>
+	<string key="ui_genaprompt_cocscreen" rel_version="Feature_GameEntryNarrationAssistance">Codice di condotta. Acconsenti a proteggere la community, giocare onestamente e rispettare gli altri. Premi {frontEndContinue} per accettare.</string>
+	<string key="ui_genaprompt_titlescreen" rel_version="Feature_GameEntryNarrationAssistance">Schermata iniziale New World. Premi {frontEndContinue} per continuare.</string>
+	<string key="ui_genaprompt_newsscreen" rel_version="Feature_GameEntryNarrationAssistance">Novità di New World. Premi {frontEndContinue} per continuare.</string>
+	<string key="ui_genaprompt_waitingpopup" rel_version="Feature_GameEntryNarrationAssistance">In attesa di accedere. Attendi.</string>
+	<string key="ui_genaprompt_loadingscreen" rel_version="Feature_GameEntryNarrationAssistance">Caricamento. Attendi.</string>
+	<string key="ui_genaprompt_characterselect" rel_version="Feature_GameEntryNarrationAssistance">Schermata di selezione del personaggio. Premi {frontEndContinue} per selezionare {characterName}. Premi {toggleMenuComponent} per tornare indietro.</string>
+	<string key="ui_genaprompt_worldselect" rel_version="Feature_GameEntryNarrationAssistance">Schermata di selezione del mondo. Premi {frontEndContinue} per selezionare {world} in {worldset}. Premi {toggleMenuComponent} per tornare indietro.</string>
+	<string key="ui_genaprompt_worldselectconfirm" rel_version="Feature_GameEntryNarrationAssistance">{warning}. Premi {frontEndContinue} per accettare. Premi {toggleMenuComponent} per scegliere un altro mondo.</string>
+	<string key="ui_genaprompt_basicsettings" rel_version="Feature_GameEntryNarrationAssistance">Impostazioni di base. Premi {frontEndContinue} per continuare. Premi {toggleMenuComponent} per tornare indietro.</string>
+	<string key="ui_genaprompt_brightnesssettings" rel_version="Feature_GameEntryNarrationAssistance">Impostazioni luminosità. Premi {frontEndContinue} per continuare. Premi {toggleMenuComponent} per tornare indietro.</string>
+	<string key="ui_genaprompt_introcutscene" rel_version="Feature_GameEntryNarrationAssistance">Video introduttivo. Tieni premuto un tasto qualsiasi per saltare.</string>
+	<string key="ui_genaprompt_characterappearance" rel_version="Feature_GameEntryNarrationAssistance">Creazione aspetto del personaggio. Premi {frontEndContinue} per continuare. Premi {toggleMenuComponent} per abbandonare.</string>
+	<string key="ui_genaprompt_charactername" rel_version="Feature_GameEntryNarrationAssistance">Nome personaggio. Digita il nome di un personaggio. Premi {toggleMenuComponent} per tornare indietro.</string>
+	<string key="ui_genaprompt_nameconfirm" rel_version="Feature_GameEntryNarrationAssistance">Premi {frontEndContinue} per creare il tuo personaggio di nome {characterName}. Premi {toggleMenuComponent} per tornare indietro.</string>
+	<string key="ui_genaprompt_nameerror" rel_version="Feature_GameEntryNarrationAssistance">{error}. Modifica il nome del personaggio.</string>
+	<string key="ui_genaprompt_skiptutorialtitle" rel_version="Feature_GameEntryNarrationAssistance">Salta tutorial</string>
+	<string key="ui_genaprompt_skiptutorial" rel_version="Feature_GameEntryNarrationAssistance">Il tutorial non è dotato di assistente vocale. Vuoi saltare e iniziare New World?</string>
+	<string key="ui_genaprompt_upcomingmerge" rel_version="Feature_GameEntryNarrationAssistance">Notifica fusione tra mondi imminente. Hai uno o più personaggi su dei mondi che stanno per fondersi. Premi {toggleMenuComponent} per chiudere.</string>
+	<string key="ui_genaprompt_mergecomplete" rel_version="Feature_GameEntryNarrationAssistance">Notifica fusione tra mondi. Hai uno o più personaggi che sono stati spostati a seguito di una fusione tra mondi. Premi {toggleMenuComponent} per chiudere.</string>
+	<string key="ui_genaprompt_ingame" rel_version="Feature_GameEntryNarrationAssistance">Per comunicare tramite chat con altri giocatori, premi {toggleChatComponent} per aprire la chat. Digita il messaggio, poi premi {toggleChatComponent} per inviarlo. Per usare la chat vocale di prossimità con altri giocatori, tieni premuto {toggleMicrophone} mentre parli.</string>
+	<string key="ui_genaprompt_popupyesno" rel_version="Feature_GameEntryNarrationAssistance">{title}. {message} Premi {toggleMenuComponent} per scegliere No. Premi {frontEndContinue} per scegliere Sì.</string>
+	<string key="ui_genaprompt_popupok" rel_version="Feature_GameEntryNarrationAssistance">{title}. {message} Premi {frontEndContinue} per chiudere.</string>
+	<string key="ui_genaprompt_popupokcancel" rel_version="Feature_GameEntryNarrationAssistance">{title}. {message} Premi {frontEndContinue} per confermare. Premi {toggleMenuComponent} per annullare.</string>
 </resources>
 

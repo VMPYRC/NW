@@ -97,10 +97,25 @@
 	<string key="ui_metachievement_pve_bossKill_dungeon_amrine_title">¿A esto le llamas arqueología?</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_obelisk_title">Esperaba más de un menhir</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_depths_title">Amo y señor</string>
-	<string key="ui_metachievement_pve_bossKill_dungeon_eradinus_title">Mecanismo de defensa</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_genesis_title">Niño problemático</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_lazarus_title">Justo en el blanco</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_shipyard_title">Demolición dinástica</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_amrine_title1" rel_version="Feature_Dungeon_Mutators">Emoción por la excavación</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_amrine_title2" rel_version="Feature_Dungeon_Mutators">De regreso en busca de más</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_obelisk_title1" rel_version="Feature_Dungeon_Mutators">El despertar de los antiguos</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_obelisk_title2" rel_version="Feature_Dungeon_Mutators">Bastón sobrecargado</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_depths_title1" rel_version="Feature_Dungeon_Mutators">Triunfos imponentes</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_depths_title2" rel_version="Feature_Dungeon_Mutators">Dejó todo hecho un desastre</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_genesis_title1" rel_version="Feature_Dungeon_Mutators">Destrucción de la guardería</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_genesis_title2" rel_version="Feature_Dungeon_Mutators">Eso explica el olor</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_lazarus_title1" rel_version="Feature_Dungeon_Mutators">No se trata simplemente de un objetivo profesional</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_lazarus_title2" rel_version="Feature_Dungeon_Mutators">Estanques de la ruina</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_shipyard_title1" rel_version="Feature_Dungeon_Mutators">Ciclos dinásticos</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_shipyard_title2" rel_version="Feature_Dungeon_Mutators">Un barco del fracaso</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_isabellalair_title1" rel_version="Feature_Dungeon_Mutators">Otro descenso a la oscuridad</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_isabellalair_title2" rel_version="Feature_Dungeon_Mutators">Las entrañas de la bestia</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_barnacles_title1" rel_version="Feature_Dungeon_Mutators">Cueva de la corrupción</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_barnacles_title2" rel_version="Feature_Dungeon_Mutators">La isla del tesoro</string>
 	<string key="ui_metachievement_pve_arenascompleted_title">Pelea en la arena</string>
 	<string key="ui_metachievement_pvp_killbyfaction_covenant_title1">Una creencia peligrosa</string>
 	<string key="ui_metachievement_pvp_killbyfaction_covenant_title2">Retrasar a los fanáticos</string>
@@ -899,10 +914,18 @@
 	<string key="ui_metachievement_pve_bossKill_dungeon_amrine_desc">Derrota a Simon Grey en la excavación Amrine.</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_obelisk_desc">Derrota a “Greundgul, el regente” en Carretillas de piedra de estrellas.</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_depths_desc">Derrota a Thorpe, el comandante, en Las profundidades.</string>
-	<string key="ui_metachievement_pve_bossKill_dungeon_eradinus_desc">Derrota a Teceros en las cavernas Eridanus.</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_genesis_desc">Derrota al guardián infectado en El Jardín del Génesis.</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_lazarus_desc">Derrota a Chardis en el Instrumento de Lázaro.</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_shipyard_desc">Derrota a Zhou, la emperatriz, en el astillero de la dinastía.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_amrine_generic_desc" rel_version="Feature_Dungeon_Mutators">Completa la excavación Amrine, dificultad {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_obelisk_generic_desc" rel_version="Feature_Dungeon_Mutators">Completa Carretillas de piedra de estrellas, dificultad {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_depths_generic_desc" rel_version="Feature_Dungeon_Mutators">Completa Las profundidades, dificultad {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_genesis_generic_desc" rel_version="Feature_Dungeon_Mutators">Completa El Jardín del Génesis, dificultad {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_lazarus_generic_desc" rel_version="Feature_Dungeon_Mutators">Completa el Instrumento de Lázaro, dificultad {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_shipyard_generic_desc" rel_version="Feature_Dungeon_Mutators">Completa el astillero de la dinastía, dificultad {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_isabellalair_generic_desc" rel_version="Feature_Dungeon_Mutators">Completa !undefined dungeon!, dificultad {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_barnacle_generic_desc" rel_version="Feature_Dungeon_Mutators">Completa percebe y pólvora negra, dificultad {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_ennead_generic_desc" rel_version="Feature_Dungeon_Mutators">Completa la Enéada, dificultad {number}.</string>
 	<string key="ui_metachievement_pve_arenascompleted_desc">Completa {number} batallas de arena.</string>
 	<string key="ui_metachievement_pvp_killbyfaction_covenant_desc">Derrota personalmente a {number} jugadores del pacto.</string>
 	<string key="ui_metachievement_pvp_killbyfaction_marauder_desc">Derrota personalmente a {number} jugadores de los saqueadores.</string>
@@ -975,9 +998,9 @@
 	<string key="ui_metachievement_pvefactionmissions_jewelcraft_generic_desc">Completa {number} misiones de la facción PvE de joyería.</string>
 	<string key="ui_metachievement_pvefactionmissions_outfit_generic_desc">Completa {number} misiones de la facción PvE de vestimenta.</string>
 	<string key="ui_metachievement_pvefactionmissions_weaponsmith_generic_desc">Completa {number} misiones de la facción PvE de forja de armas.</string>
-	<string key="ui_metachievement_pvefactionmissions_scout_generic_desc">Completa {number} misiones de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;estudio&lt;/font&gt; del pacto, o de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;exploración&lt;/font&gt; de los saqueadores, o de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;inspección&lt;/font&gt; del sindicato.</string>
-	<string key="ui_metachievement_pvefactionmissions_loot_generic_desc">Completa {number} misiones de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;recuperación&lt;/font&gt; del pacto, o de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;robo&lt;/font&gt; de los saqueadores, o de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;recolección&lt;/font&gt; del sindicato.</string>
-	<string key="ui_metachievement_pvefactionmissions_raid_generic_desc">Completa {number} misiones de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;cruzada&lt;/font&gt; del pacto, o de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;incursión&lt;/font&gt; de los saqueadores, o de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;purga&lt;/font&gt; del sindicato.</string>
+	<string key="ui_metachievement_pvefactionmissions_scout_generic_desc">Haz {number} misiones de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;estudio&lt;/font&gt; de pacto, de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;exploración&lt;/font&gt; de saqueadores, o de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;inspección&lt;/font&gt; de sindicato.</string>
+	<string key="ui_metachievement_pvefactionmissions_loot_generic_desc">Haz {number} misiones de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;recuperación&lt;/font&gt; de pacto, de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;robo&lt;/font&gt; de saqueadores, o de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;recolección&lt;/font&gt; de sindicato.</string>
+	<string key="ui_metachievement_pvefactionmissions_raid_generic_desc">Haz {number} misiones de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;cruzada&lt;/font&gt; de pacto, de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;incursión&lt;/font&gt; de saqueadores, o de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;purga&lt;/font&gt; de sindicato.</string>
 	<string key="ui_metachievement_pvefactionmissions_brightwood_generic_desc">Completa {number} misiones de la facción PvE en Brightwood.</string>
 	<string key="ui_metachievement_pvefactionmissions_cutlasskey_generic_desc">Completa {number} misiones de la facción PvE en Llaves de alfanje.</string>
 	<string key="ui_metachievement_pvefactionmissions_edengrove_generic_desc">Completa {number} misiones de la facción PvE en Edengrove.</string>
@@ -992,10 +1015,10 @@
 	<string key="ui_metachievement_pvefactionmissions_shatteredmtn_generic_desc">Completa {number} misiones de la facción PvE en Montaña destruida.</string>
 	<string key="ui_metachievement_pvefactionmissions_weaversfen_generic_desc">Completa {number} misiones de la facción PvE en Pantano del tejedor.</string>
 	<string key="ui_metachievement_pvefactionmissions_windsward_generic_desc">Completa {number} misiones de la facción PvE en Windsward.</string>
-	<string key="ui_metachievement_pvpfactionmissions_espionage_generic_desc">Completa {number} misiones de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;difusión&lt;/font&gt; del pacto, o de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;infiltración&lt;/font&gt; de los saqueadores, o de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;obtención de información&lt;/font&gt; del sindicato.</string>
-	<string key="ui_metachievement_pvpfactionmissions_Control_generic_desc">Completa {number} misiones de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;santificación&lt;/font&gt; del pacto, o de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;demostración de fuerza&lt;/font&gt; de los saqueadores, o de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;estabilización&lt;/font&gt; del sindicato.</string>
+	<string key="ui_metachievement_pvpfactionmissions_espionage_generic_desc">Haz {number} misiones de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;difusión&lt;/font&gt; de pacto, de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;infiltración&lt;/font&gt; de saqueadores, o de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;obtención de información&lt;/font&gt; de sindicato.</string>
+	<string key="ui_metachievement_pvpfactionmissions_Control_generic_desc">Haz {number} misiones de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;santificación&lt;/font&gt; de pacto, de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;demostración de fuerza&lt;/font&gt; de saqueadores, o de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;estabilización&lt;/font&gt; de sindicato.</string>
 	<string key="ui_metachievement_pvpfactionmissions_Intercept_generic_desc">Completa {number} misiones de la facción PvP de intercepción.</string>
-	<string key="ui_metachievement_pvpfactionmissions_Poach_generic_desc">Completa {number} misiones de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;diezmo&lt;/font&gt; del pacto, o de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;saqueo&lt;/font&gt; de los saqueadores, o de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;sabotaje&lt;/font&gt; del sindicato.</string>
+	<string key="ui_metachievement_pvpfactionmissions_Poach_generic_desc">Haz {number} misiones de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;diezmo&lt;/font&gt; del pacto, de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;saqueo&lt;/font&gt; de saqueadores, o de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;sabotaje&lt;/font&gt; de sindicato.</string>
 	<string key="ui_metachievement_pvpfactionmissions_brightwood_generic_desc">Completa {number} misiones de la facción PvP en Brightwood.</string>
 	<string key="ui_metachievement_pvpfactionmissions_cutlasskey_generic_desc">Completa {number} misiones de la facción PvP en Llaves de alfanje.</string>
 	<string key="ui_metachievement_pvpfactionmissions_edengrove_generic_desc">Completa {number} misiones de la facción PvP en Edengrove.</string>
@@ -1106,7 +1129,7 @@
 	<string key="ui_metachievement_poivisitedcount_generic_desc">Encuentra {number} sitios de interés con nombre.</string>
 	<string key="ui_metachievement_elitepoivisited_generic_desc">Visita {number} baluartes de élite.</string>
 	<string key="ui_metachievement_territorypoicount_generic_desc">Descubre {number} sitios de interés con nombre en este territorio.</string>
-	<string key="ui_metachievement_reached_generic_hamlet_desc">Encuentra este atractivo lugar vacacional que está muy de moda.</string>
+	<string key="ui_metachievement_reached_generic_hamlet_desc">Encuentra este atractivo lugar vacacional de moda.</string>
 	<string key="ui_metachievement_hidden_generic">Sigue jugando para completar este logro oculto.</string>
 	<string key="ui_metachievement_hidden_notavailableyet">¡Próximamente!</string>
 	<string key="ui_metachievement_hidden_pve_preykills_turkeys">¡Pensé que podían volar!</string>

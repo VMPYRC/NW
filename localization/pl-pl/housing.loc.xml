@@ -89,11 +89,16 @@
 	<string key="ui_housing_decorations">Tryb ozdabiania</string>
 	<string key="ui_housing_features">Funkcje domu</string>
 	<string key="ui_housing_grid_snap_hint">Rozmieszczenie siatki</string>
+	<string key="ui_housing_grid_snap_hint_colon">Rozmieszczenie siatki:</string>
 	<string key="ui_housing_hide_ui">Ukryj interfejs</string>
 	<string key="ui_housing_item_count">Umieszczone dekoracje</string>
 	<string key="ui_housing_item_score">Punkty dekoracji</string>
+	<string key="ui_housing_item_total">Łączna liczba dekoracji</string>
+	<string key="ui_housing_item_storage">Pojemniki</string>
+	<string key="ui_housing_item_animated">Animowane dekoracje</string>
 	<string key="ui_housing_next_due_in">Następna opłata:</string>
 	<string key="ui_housing_surface_lock_hint">Zablokuj na powierzchni</string>
+	<string key="ui_housing_surface_lock_hint_colon">Zablokuj na powierzchni:</string>
 	<string key="ui_housing_owned_filter">Pokaż tylko posiadane przedmioty</string>
 	<string key="ui_housing_pay_taxes">Zapłać podatek</string>
 	<string key="ui_housing_no_items_found">Brak przedmiotów</string>
@@ -157,6 +162,7 @@
 	<string key="ui_housingDecResult_TimeOut">Nie można umieścić. Czas minął</string>
 	<string key="ui_housingDecResult_ItemLimit">Nie można umieścić. Zbyt dużo przedmiotów</string>
 	<string key="ui_housingDecResult_TagLimit">Nie można umieścić. Zbyt dużo przedmiotów tego typu</string>
+	<string key="ui_buildmode_disabled">Tryb ozdabiania jest obecnie niedostępny. Trwają prace konserwacyjne</string>
 	<string key="ui_housingDecResult_entitlementLimit">Nie można umieścić. Zbyt dużo przedmiotów tego typu</string>
 	<string key="ui_inn_checked_in">Oto twój nowy punkt powrotu: {territoryName}.</string>
 	<string key="ui_active_home_point_fail">Nie udało się zameldować</string>
@@ -231,5 +237,13 @@
 	<string key="ui_house_lost_restored_title">Dom przywrócony</string>
 	<string key="ui_house_lost_refunded_message">Zauważyliśmy, że twój dom został utracony z powodu problemu z grą. Dokonaliśmy refundacji Twojego domu w {settlement} i przywróciliśmy wyposażenie przestrzeni magazynowej.</string>
 	<string key="ui_house_lost_refunded_title">Zwrot pieniędzy za dom</string>
+	<string key="ui_housing_tip_title1">Rozmieszczanie – sterowanie</string>
+	<string key="ui_housing_tip_description1">W &lt;font color={colorHex}&gt;trybie ozdabiania&lt;/font&gt; możesz &lt;font color={colorHex}&gt;obracać obiekt, przyciągać go do siatki&lt;/font&gt; lub &lt;font color={colorHex}&gt;zablokować na powierzchni&lt;/font&gt;, by ozdobić dom tak, jak chcesz.</string>
+	<string key="ui_housing_tip_title2">Rozmieszczenie wpływa na liczbę zdobytych punktów</string>
+	<string key="ui_housing_tip_description2">Rozmieszczanie obiektów w taki sposób, by nie przenikały przez inne, jest najlepszym sposobem na zwiększenie &lt;font color={colorHex}&gt;liczby punktów dekoracji&lt;/font&gt;.</string>
+	<string key="ui_housing_tip_title3">Premie od trofeów</string>
+	<string key="ui_housing_tip_description3">Umieść w swoim domu &lt;font color={colorHex}&gt;trofea&lt;/font&gt;, by aktywować &lt;font color={colorHex}&gt;premie pasywne&lt;/font&gt;.\n\nWskazówka: w każdym domu możesz umieścić maksymalnie 5 trofeów. Premie zapewniane przez trofea tego samego rodzaju mogą się ze sobą łączyć.</string>
+	<string key="ui_housing_tip_title4">Łączna liczba przedmiotów i punktacja</string>
+	<string key="ui_housing_tip_description4">W panelu po prawej stronie ekranu znajdziesz &lt;font color={colorHex}&gt;liczbę punktów dekoracji&lt;/font&gt; twojego domu oraz &lt;font color={colorHex}&gt;limit ozdób&lt;/font&gt;.\n\nWskazówka: umieszczenie w domu zbyt wielu sztuk tego samego przedmiotu zmniejszy liczbę punktów dekoracji.</string>
 </resources>
 

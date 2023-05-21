@@ -119,7 +119,7 @@
 	<string key="0204_0102_d_01_Task_Goto" speaker="UI" quest_id="0204_0102_OfOurOwnFleshandBlood">Cerca la vera origine della maledizione presso: {POITags}</string>
 	<string key="0204_0102_d_02_Task_Gather" speaker="UI" quest_id="0204_0102_OfOurOwnFleshandBlood">Disseppellisci: {itemName}</string>
 	<string key="0204_0103_IsleofMadness_title" speaker="UI - Journal - Quest  Title" quest_id="0204_0103_IsleofMadness">Cuore di tenebra (Riservato)</string>
-	<string key="0204_0103_IsleofMadness_start_prompt" speaker="UI - Player Prompt">"Perché l'avrebbero fatto?"</string>
+	<string key="0204_0103_IsleofMadness_start_prompt" speaker="UI - Player Prompt">"Perché in questo luogo sono state commesse tali atrocità?"</string>
 	<string key="0204_0103_IsleofMadness_proposal" speaker="Head Cleric Pennyfather" name="HeadClericPennyfather" gender="M" quest_id="0204_0103_IsleofMadness" VO="Overseer_0204_0103_IsleofMadness_ProposalResponse" VO_Status="Recorded" dialogue-next="@0204_0103_IsleofMadness_proposal_next">Azoth. Non capisci? Macinando le ossa dei Perduti e forse anche di altri, hanno disseminato Azoth nella terra.\n\nÈ servito per il raccolto, ma a che costo? Pensa alla sofferenza che ha causato. Ovvio che la terra è maledetta!</string>
 	<string key="0204_0103_IsleofMadness_proposal_prompt" speaker="UI - Player Prompt">"Posso fare qualcosa?"</string>
 	<string key="0204_0103_IsleofMadness_proposal_next" speaker="Head Cleric Pennyfather" name="HeadClericPennyfather" gender="M" quest_id="0204_0103_IsleofMadness" VO="Overseer_0204_0103_IsleofMadness_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0204_0103_IsleofMadness_proposal_prompt">I primi umani qui erano governati dall'Isola di Boscobrillante, da... un certo Arciministro Havelock.\n\nL'isola è un brutto posto, ma forse distruggendo Havelock e studiando le sue pergamene, Boscobrillante potrebbe trovare un po' di redenzione.</string>
@@ -196,7 +196,7 @@
 	<string key="0231_0201_locationscout_incomplete" speaker="Painter Pietr Wolcott - Brightwood" name="PietrWolcott" VO="0231_0201_locationscout_incomplete" VO_Status="Needs Recording">Mi serve ispirazione, qualcosa che spicchi dallo sfondo e salti dritto sulla tela! \n\nCoraggio, so che ce la puoi fare!</string>
 	<string key="0231_0201_locationscout_complete" speaker="Painter Pietr Wolcott - Brightwood" name="PietrWolcott" VO="0231_0201_locationscout_complete" VO_Status="Needs Recording" dialogue-next="@0231_0201_locationscout_complete_next">Meraviglioso! L'irruenza dell'acqua, il modo in cui la luce del sole trafigge gli alberi. Sì, sì! È il soggetto ideale.</string>
 	<string key="0231_0201_locationscout_complete_prompt" speaker="UI - Player Prompt">"Cosa farai ora?"</string>
-	<string key="0231_0201_locationscout_complete_next" speaker="Painter Pietr Wolcott - Brightwood" name="PietrWolcott" VO="0231_0201_locationscout_complete_next" VO_Status="Needs Recording" dialogue-prompt="@0231_0201_locationscout_complete_prompt">Ora che hai segnato questi luoghi sulla mia mappa, mi dedicherò a sistemare i colori. \n\nNon vorrei trovarmi a iniziare l'opera per poi accorgermi di non avere la sfumatura giusta di blu.</string>
+	<string key="0231_0201_locationscout_complete_next" speaker="Painter Pietr Wolcott - Brightwood" name="PietrWolcott" VO="0231_0201_locationscout_complete_next" VO_Status="Needs Recording" dialogue-prompt="@0231_0201_locationscout_complete_prompt">Ora che hai segnato questi luoghi sulla mia mappa, mi dedicherò a sistemare i colori. \n\nMa non vorrei trovarmi a iniziare l'opera per poi accorgermi di non avere la sfumatura giusta di blu.</string>
 	<string key="0231_0202_placeEasel1" speaker="UI - Tracker Text">Esplora la zona sud di Vallegrigia in cerca di una cascata</string>
 	<string key="0231_0202_placeEasel2" speaker="UI - Tracker Text">Esplora la zona nord di Vallegrigia in cerca di una cascata</string>
 	<string key="0231_0202_placeEasel3" speaker="UI - Tracker Text">Esplora la zona ovest di Vallegrigia in cerca di una cascata</string>
@@ -309,15 +309,15 @@
 	<string key="0234_0203_tildeathdouspart_title" speaker="UI - Quest Title">Finché morte non ci separi (Riservato)</string>
 	<string key="0234_0203_tildeathdouspart_description" speaker="UI - Quest Description">Megara Pantazis ha ammesso che l'amore della sua vita era Padre Walsham. Prima di unirsi a lui diventando una Perduta, ti ha chiesto di assicurarti che non sia rimasto niente della natura umana del religioso. Parla con lei a Boscobrillante dopo aver completato l'incarico.</string>
 	<string key="0234_0203_tildeathdouspart_start_prompt" speaker="UI - Player Prompt">"Quale verità è venuta a galla?"</string>
-	<string key="0234_0203_tildeathdouspart_proposal" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0203_tildeathdouspart_proposal" VO_Status="Needs Recording" dialogue-next="@0234_0203_tildeathdouspart_proposal_next">La verità sul mio amato. Finora non ti ho raccontato tutta la storia.\n\nTi ho detto che il mio matrimonio fu celebrato qui, ma in realtà non è qui che sposai l'uomo della mia vita: è dove lo incontrai.</string>
+	<string key="0234_0203_tildeathdouspart_proposal" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0203_tildeathdouspart_proposal" VO_Status="Needs Recording" dialogue-next="@0234_0203_tildeathdouspart_proposal_next">La verità sul mio amato. Non ti ho raccontato tutta la storia.\n\nIl mio matrimonio fu celebrato qui, ma in realtà questo non è il luogo in cui sposai l'uomo della mia vita, bensì quello in cui lo incontrai.</string>
 	<string key="0234_0203_tildeathdouspart_proposal_prompt" speaker="UI - Player Prompt">"Di chi era il matrimonio?"</string>
 	<string key="0234_0203_tildeathdouspart_proposal_next" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0203_tildeathdouspart_proposal_next" VO_Status="Needs Recording" dialogue-next="@0234_0203_tildeathdouspart_proposal_next2" dialogue-prompt="@0234_0203_tildeathdouspart_proposal_prompt">Oh, era il mio, ma l'uomo che sposai, Alus, era un buono a nulla. Veniva dalla Legione come me.\n\nPadre Walsham officiò la cerimonia, e poi divenne il mio vero e unico amore.</string>
 	<string key="0234_0203_tildeathdouspart_proposal_prompt2" speaker="UI - Player Prompt">"E vuoi diventare una Perduta per riunirti a lui?"</string>
-	<string key="0234_0203_tildeathdouspart_proposal_next2" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0203_tildeathdouspart_proposal_next2" VO_Status="Needs Recording" dialogue-prompt="@0234_0203_tildeathdouspart_proposal_prompt2">Esatto, ma temo che nemmeno questo diario basti.\n\nProviamo così: trova il mio amato, l'uomo della mia vita, Padre Walsham. Quando l'avrai trovato, sconfiggilo e portami qualcosa di suo. Mi spezzerà definitivamente il cuore.</string>
+	<string key="0234_0203_tildeathdouspart_proposal_next2" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0203_tildeathdouspart_proposal_next2" VO_Status="Needs Recording" dialogue-prompt="@0234_0203_tildeathdouspart_proposal_prompt2">Sì, esatto, ma temo che nemmeno questo diario basti.\n\nCi sono, proviamo così: trova il mio amato, l'uomo della mia vita, Padre Walsham. Quando l'avrai trovato, sconfiggilo e portami qualcosa di suo. Mi spezzerà definitivamente il cuore.</string>
 	<string key="0234_0203_tildeathdouspart_incomplete" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0203_tildeathdouspart_incomplete" VO_Status="Needs Recording">In vita, il mio amato era un uomo formidabile. Ho paura che sarà difficile da sconfiggere. Sii prudente.</string>
-	<string key="0234_0203_tildeathdouspart_complete" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0203_tildeathdouspart_complete" VO_Status="Needs Recording" dialogue-next="@0234_0203_tildeathdouspart_complete_next">L'hai incontrato? Ti è sembrato triste, come Perduto, oppure aveva un'aria serena?\n\nOh, come vorrei riunirmi a lui. Cos'hai trovato? Che cos'è?</string>
+	<string key="0234_0203_tildeathdouspart_complete" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0203_tildeathdouspart_complete" VO_Status="Needs Recording" dialogue-next="@0234_0203_tildeathdouspart_complete_next">Dimmi, l'hai incontrato? Ti è sembrato triste, come Perduto, oppure aveva un'aria serena? Cos'hai trovato? \n\nDi cosa si tratta?</string>
 	<string key="0234_0203_tildeathdouspart_complete_prompt" speaker="UI - Player Prompt">"Una lettera indirizzata a te."</string>
-	<string key="0234_0203_tildeathdouspart_complete_next" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0203_tildeathdouspart_complete_next" VO_Status="Needs Recording" dialogue-prompt="@0234_0203_tildeathdouspart_complete_prompt">Fammi vedere. Oh, dice che non ne poteva più. Ha deciso di diventare un Perduto per evitare di parlarmene.\n\nA quanto pare, voleva lasciarmi... Si vergognava, e così via. Che vigliacco! Beh, direi che mi hai convinta a vivere. Grazie.</string>
+	<string key="0234_0203_tildeathdouspart_complete_next" speaker="Megara Pantazis - Brightwood" name="MegaraPantazis" VO="0234_0203_tildeathdouspart_complete_next" VO_Status="Needs Recording" dialogue-prompt="@0234_0203_tildeathdouspart_complete_prompt">Fammi vedere... \n\nOh, dice che non ne poteva più. Ha deciso di diventare un Perduto per evitare di parlarmene. A quanto pare, voleva lasciarmi... Si vergognava, e così via. \n\nChe vigliacco! Beh, Padre, forse mi hai convinta a vivere! Grazie!</string>
 	<string key="0234_0203_goto" speaker="UI">Affronta Padre Walsham nella sua congregazione</string>
 	<string key="0234_0203_loot_goodbye" speaker="UI">Sconfiggi {targetName} e raccogli: {itemName}</string>
 	<string key="98_M_0001_RankUp_title" speaker="UI - Quest Title">Progresso nei Predoni: Gladiatore</string>
@@ -581,7 +581,7 @@
 	<string key="0205_0102_05_Helm_task_09" speaker="UI - Tracker Text">Produci: {itemName}</string>
 	<string key="0204_0104_Executioner_title" speaker="UI - Quest Title">Boia</string>
 	<string key="0204_0104_Executioner_description" speaker="UI - Quest Description">Acquisisci la passerella del bucaniere a Forte del teschio di pietra, i ceppi dell'impiccato a Colli ribelli, la lama dei bruti a Lo squalo predone e il coagulante infernale a Gru per produrre la famigerata ascia il "Boia". Parla con il Capo Chierico Pennyfather nell'insediamento di Boscobrillante dopo aver completato l'incarico.</string>
-	<string key="0204_0104_Executioner_start_prompt" speaker="UI - Player Prompt">"La cosa mi interesserebbe."</string>
+	<string key="0204_0104_Executioner_start_prompt" speaker="UI - Player Prompt">"Mi interesserebbe un'ascia leggendaria."</string>
 	<string key="0204_0104_Executioner_proposal" speaker="Head Cleric Pennyfather" gender="M" VO="Overseer_0204_0104_Executioner_Proposal" VO_Status="Recorded">Ah, sì. Anche a me interessa... Scusa, di cosa stavamo parlando? Oh, sì, il Boia.\n\nTi fornirò un elenco degli elementi necessari per riforgiare l'ascia. Non sarà facile trovarli, ma ne varrà la pena.</string>
 	<string key="0204_0104_Executioner_incomplete" speaker="Head Cleric Pennyfather" gender="M">Ah! Scusa... continuo a non ricordarmi come ti chiami, ma mi ricordo che... ah, sì, l'ascia, il Boia.\n\nBuona fortuna nel trovare tutto il necessario.</string>
 	<string key="0204_0104_Executioner_complete" speaker="Head Cleric Pennyfather" gender="M" VO="Overseer_0204_0104_Executioner_Complete" VO_Status="Recorded">Aspetta un attimo... ma... Hai trovato tutto quello che serve per riforgiare il Boia?\n\nStraordinario, davvero straordinario. È un'arma molto efficace se usata... correttamente. Brandiscila a dovere.</string>
@@ -638,5 +638,37 @@
 	<string key="0204_0104_02_container_Weapon_Executioner_questComplete_2" speaker="UI - Tracker Text">Completa la missione: Legami indissolubili</string>
 	<string key="0204_0104_03_container_Weapon_Executioner_questComplete_3" speaker="UI - Tracker Text">Completa la missione: Brutalità shakespeariana</string>
 	<string key="0204_0104_04_container_Weapon_Executioner_questComplete_4" speaker="UI - Tracker Text">Completa la missione: Più denso dell'acqua</string>
+	<string key="0240_0101_Curiosity_title" speaker="UI - Quest Title" quest_id="0240_0101_Curiosity" xsi:nil="true"/>
+	<string key="0240_0101_Curiosity_description" speaker="UI - Quest Description" quest_id="0240_0101_Curiosity" xsi:nil="true"/>
+	<string key="0240_0101_Curiosity_start_prompt" speaker="UI - Player Prompt" quest_id="0240_0101_Curiosity" xsi:nil="true"/>
+	<string key="0240_0101_Curiosity_proposal" speaker="Khione Kaszynski" quest_id="0240_0101_Curiosity" dialogue-next="@0240_0101_Curiosity_proposal_next" xsi:nil="true"/>
+	<string key="0240_0101_Curiosity_proposal_prompt" speaker="UI - Player Prompt" quest_id="0240_0101_Curiosity" xsi:nil="true"/>
+	<string key="0240_0101_Curiosity_proposal_next" speaker="Khione Kaszynski" quest_id="0240_0101_Curiosity" dialogue-prompt="@0240_0101_Curiosity_proposal_prompt" xsi:nil="true"/>
+	<string key="0240_0101_Curiosity_incomplete" speaker="Khione Kaszynski" quest_id="0240_0101_Curiosity" xsi:nil="true"/>
+	<string key="0240_0101_Curiosity_complete" speaker="Khione Kaszynski" quest_id="0240_0101_Curiosity" xsi:nil="true"/>
+	<string key="0240_0102_BurningHearts_title" speaker="UI - Quest Title" quest_id="0240_0102_BurningHearts" xsi:nil="true"/>
+	<string key="0240_0102_BurningHearts_description" speaker="UI - Quest Description" quest_id="0240_0102_BurningHearts" xsi:nil="true"/>
+	<string key="0240_0102_BurningHearts_start_prompt" speaker="UI - Player Prompt" quest_id="0240_0102_BurningHearts" xsi:nil="true"/>
+	<string key="0240_0102_BurningHearts_proposal" speaker="Khione Kaszynski" quest_id="0240_0102_BurningHearts" dialogue-next="@0240_0102_BurningHearts_proposal_next" xsi:nil="true"/>
+	<string key="0240_0102_BurningHearts_proposal_prompt" speaker="UI - Player Prompt" quest_id="0240_0102_BurningHearts" xsi:nil="true"/>
+	<string key="0240_0102_BurningHearts_proposal_next" speaker="Khione Kaszynski" quest_id="0240_0102_BurningHearts" dialogue-prompt="@0240_0102_BurningHearts_proposal_prompt" xsi:nil="true"/>
+	<string key="0240_0102_BurningHearts_incomplete" speaker="Khione Kaszynski" quest_id="0240_0102_BurningHearts" xsi:nil="true"/>
+	<string key="0240_0102_BurningHearts_complete" speaker="Khione Kaszynski" quest_id="0240_0102_BurningHearts" xsi:nil="true"/>
+	<string key="0240_0103_Fire_title" speaker="UI - Quest Title" quest_id="0240_0103_Fire" xsi:nil="true"/>
+	<string key="0240_0103_Fire_description" speaker="UI - Quest Description" quest_id="0240_0103_Fire" xsi:nil="true"/>
+	<string key="0240_0103_Fire_start_prompt" speaker="UI - Player Prompt" quest_id="0240_0103_Fire" xsi:nil="true"/>
+	<string key="0240_0103_Fire_proposal" speaker="Khione Kaszynski" quest_id="0240_0103_Fire" dialogue-next="@0240_0103_Fire_proposal_next" xsi:nil="true"/>
+	<string key="0240_0103_Fire_proposal_prompt" speaker="UI - Player Prompt" quest_id="0240_0103_Fire" xsi:nil="true"/>
+	<string key="0240_0103_Fire_proposal_next" speaker="Khione Kaszynski" quest_id="0240_0103_Fire" dialogue-prompt="@0240_0103_Fire_proposal_prompt" xsi:nil="true"/>
+	<string key="0240_0103_Fire_incomplete" speaker="Khione Kaszynski" quest_id="0240_0103_Fire" xsi:nil="true"/>
+	<string key="0240_0103_Fire_complete" speaker="Khione Kaszynski" quest_id="0240_0103_Fire" xsi:nil="true"/>
+	<string key="0240_0104_Heat_title" speaker="UI - Quest Title" quest_id="0240_0104_Heat" xsi:nil="true"/>
+	<string key="0240_0104_Heat_description" speaker="UI - Quest Description" quest_id="0240_0104_Heat" xsi:nil="true"/>
+	<string key="0240_0104_Heat_start_prompt" speaker="UI - Player Prompt" quest_id="0240_0104_Heat" xsi:nil="true"/>
+	<string key="0240_0104_Heat_proposal" speaker="Khione Kaszynski" quest_id="0240_0104_Heat" dialogue-next="@0240_0104_Heat_proposal_next" xsi:nil="true"/>
+	<string key="0240_0104_Heat_proposal_prompt" speaker="UI - Player Prompt" quest_id="0240_0104_Heat" xsi:nil="true"/>
+	<string key="0240_0104_Heat_proposal_next" speaker="Khione Kaszynski" quest_id="0240_0104_Heat" dialogue-prompt="@0240_0104_Heat_proposal_prompt" xsi:nil="true"/>
+	<string key="0240_0104_Heat_incomplete" speaker="Khione Kaszynski" quest_id="0240_0104_Heat" xsi:nil="true"/>
+	<string key="0240_0104_Heat_complete" speaker="Khione Kaszynski" quest_id="0240_0104_Heat" xsi:nil="true"/>
 </resources>
 

@@ -23,6 +23,8 @@
 	<string key="ui_groupinvitedeclinesentmessage" comment="">Invitation de groupe de &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; refusée</string>
 	<string key="ui_groupinvitedeclineraid" comment="">Invitation de groupe refusée</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; a retiré son invitation de groupe.</string>
+	<string key="ui_groupinvitewithdrawnreceivermessage_SHE" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; a retiré son invitation de groupe.</string>
+	<string key="ui_groupinvitewithdrawnreceivermessage_THEY" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; a retiré son invitation de groupe.</string>
 	<string key="ui_groupinvitewithdrawnsendermessage" comment="">Annuler l'invitation de groupe de : &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt;</string>
 	<string key="ui_groupinvitewithdrawnraid" comment="">Invitation de groupe annulée</string>
 	<string key="ui_leftgroupmessage" comment="">Groupe quitté</string>
@@ -64,7 +66,9 @@
 	<string key="ui_groupmaxinviteserrormessage" comment="">Impossible d'inviter {playerName}. Vous avez atteint le nombre maximal d'invitations.</string>
 	<string key="ui_groupfromplayerofflineerrormessage" comment="">Invitation de groupe annulée : {playerName} n'est plus en ligne.</string>
 	<string key="ui_groupinvitetoplayerofflineerrormessage" comment="">Échec de l'invitation de groupe : {playerName} n'est plus en ligne.</string>
-	<string key="ui_grouptoplayerofflineerrormessage" comment="">{playerName} est hors ligne. Impossible de l'inviter.</string>
+	<string key="ui_grouptoplayerofflineerrormessage" comment="">Impossible d'inviter {playerName}, il est hors ligne.</string>
+	<string key="ui_grouptoplayerofflineerrormessage_SHE" comment="">Impossible d'inviter {playerName}, elle est hors ligne.</string>
+	<string key="ui_grouptoplayerofflineerrormessage_THEY" comment="">{playerName} est hors ligne. Impossible de l'inviter.</string>
 	<string key="ui_groupinvitefailedgroupfullmessage" comment="">Échec de l'invitation de groupe : le groupe de {playerName} est déjà au complet.</string>
 	<string key="ui_groupinvitefailederrormessage" comment="">Échec de la réponse à l'invitation du groupe de : {playerName}</string>
 	<string key="ui_groupinvitefailedraid" comment="">Pas de réponse à l'invitation</string>

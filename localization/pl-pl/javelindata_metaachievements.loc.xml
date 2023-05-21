@@ -97,10 +97,25 @@
 	<string key="ui_metachievement_pve_bossKill_dungeon_amrine_title">I to ma być archeologia?</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_obelisk_title">Menhirów nie ma, ale i tak jest zajebiście</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_depths_title">Pan i władca</string>
-	<string key="ui_metachievement_pve_bossKill_dungeon_eradinus_title">Mechanizm obronny</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_genesis_title">Niesforne dziecko</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_lazarus_title">W dziesiątkę!</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_shipyard_title">Demolka w dynastii</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_amrine_title1" rel_version="Feature_Dungeon_Mutators">Szał na wykopaliskach</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_amrine_title2" rel_version="Feature_Dungeon_Mutators">Niedosyt</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_obelisk_title1" rel_version="Feature_Dungeon_Mutators">Przebudzenie pradawnych</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_obelisk_title2" rel_version="Feature_Dungeon_Mutators">Ciężki żywot laski</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_depths_title1" rel_version="Feature_Dungeon_Mutators">Wyjątkowe zwycięstwo</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_depths_title2" rel_version="Feature_Dungeon_Mutators">Ale bałagan</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_genesis_title1" rel_version="Feature_Dungeon_Mutators">Wpadówa do kolebki</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_genesis_title2" rel_version="Feature_Dungeon_Mutators">Już wiemy, skąd ten smród</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_lazarus_title1" rel_version="Feature_Dungeon_Mutators">Kiepskie priorytety</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_lazarus_title2" rel_version="Feature_Dungeon_Mutators">Ruiny</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_shipyard_title1" rel_version="Feature_Dungeon_Mutators">Cykl dynastii</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_shipyard_title2" rel_version="Feature_Dungeon_Mutators">Dostawa porażki</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_isabellalair_title1" rel_version="Feature_Dungeon_Mutators">Kolejne zejście do ciemności</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_isabellalair_title2" rel_version="Feature_Dungeon_Mutators">Paszcza lwa</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_barnacles_title1" rel_version="Feature_Dungeon_Mutators">Pieczara skażenia</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_barnacles_title2" rel_version="Feature_Dungeon_Mutators">Wyspa skarbów</string>
 	<string key="ui_metachievement_pve_arenascompleted_title">Walki na arenie</string>
 	<string key="ui_metachievement_pvp_killbyfaction_covenant_title1">Szkodliwe przekonania</string>
 	<string key="ui_metachievement_pvp_killbyfaction_covenant_title2">Nikt nie lubi fanatyków</string>
@@ -897,12 +912,20 @@
 	<string key="ui_metachievement_pve_gatherharvest_generic_desc">Zbierz przedmioty ({number}) za pomocą sierpa żniwiarskiego.</string>
 	<string key="ui_metachievement_pve_totalkills_generic_desc">Pokonaj wrogów na Aeternum: {number}.</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_amrine_desc">Pokonaj Simona Greya na wykopaliskach Amrine.</string>
-	<string key="ui_metachievement_pve_bossKill_dungeon_obelisk_desc">Pokonaj regenta Greundgula w Gwiezdnym Kurhanie.</string>
+	<string key="ui_metachievement_pve_bossKill_dungeon_obelisk_desc">Pokonaj regentkę Greundgul w Gwiezdnym Kurhanie.</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_depths_desc">Pokonaj dowódcę Thorpe'a w Głębinach.</string>
-	<string key="ui_metachievement_pve_bossKill_dungeon_eradinus_desc">Pokonaj Tecerosa w jaskiniach Erydanu.</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_genesis_desc">Pokonaj Zarażonego Zieleniarza w Ogrodzie Genezy.</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_lazarus_desc">Pokonaj Chardisa w Użyteczności Łazarza.</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_shipyard_desc">Pokonaj cesarzową Zhou w Stoczni Dynastii.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_amrine_generic_desc" rel_version="Feature_Dungeon_Mutators">Ukończ wykopaliska Amrine na poz. trudności: {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_obelisk_generic_desc" rel_version="Feature_Dungeon_Mutators">Ukończ Gwiezdny Kurhan na poz. trudności: {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_depths_generic_desc" rel_version="Feature_Dungeon_Mutators">Ukończ Głębiny na poz. trudności: {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_genesis_generic_desc" rel_version="Feature_Dungeon_Mutators">Ukończ Ogród Genezy na poz. trudności: {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_lazarus_generic_desc" rel_version="Feature_Dungeon_Mutators">Ukończ Użyteczność Łazarza na poz. trudności: {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_shipyard_generic_desc" rel_version="Feature_Dungeon_Mutators">Ukończ Stocznię Dynastii na poz. trudności: {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_isabellalair_generic_desc" rel_version="Feature_Dungeon_Mutators">Ukończ: !undefined dungeon!. Poziom trudności: {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_barnacle_generic_desc" rel_version="Feature_Dungeon_Mutators">Ukończ Pąkle i czarny proch na poz. trudności: {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_ennead_generic_desc" rel_version="Feature_Dungeon_Mutators">Ukończ Enneadę na poz. trudności: {number}.</string>
 	<string key="ui_metachievement_pve_arenascompleted_desc">Ukończ walki na arenie: {number}.</string>
 	<string key="ui_metachievement_pvp_killbyfaction_covenant_desc">Osobiście pokonaj graczy należących do przymierza: {number}.</string>
 	<string key="ui_metachievement_pvp_killbyfaction_marauder_desc">Osobiście pokonaj graczy należących do maruderów: {number}.</string>

@@ -78,7 +78,7 @@
 	<string key="Ability_Bow_RainofArrows" comment="BOW + ACTIVE">Pluie de flèches</string>
 	<string key="Ability_Bow_RainofArrows_description" comment="BOW + ACTIVE">Tire un barrage de flèches couvrant un rayon de {[SpellDataTable_Bow.Spell_Bow_Spell_RainOfArrows.Radius]} m et infligeant {[DamageTable.Bow_RainOfArrows_Attack.DmgCoef * 100]} % des dégâts de l'arme. Cette capacité ne peut pas infliger de dégâts à la tête.</string>
 	<string key="Upgrade_Bow_RainofArrows_Bleed" comment="BOW + MOD">Flèches barbelées</string>
-	<string key="Upgrade_Bow_RainofArrows_Bleed_description" comment="BOW + MOD">Pluie de flèches inflige saignement et 85 % des dégâts de l'arme pendant {[Type_StatusEffectData.Status_Passive_RainofArrows_Bleed.BaseDuration]}s.</string>
+	<string key="Upgrade_Bow_RainofArrows_Bleed_description" comment="BOW + MOD">Pluie de flèches inflige saignement et {[Type_StatusEffectData.Status_Passive_RainofArrows_Bleed.HealthModifierDamageBased * -100]} % des dégâts de l'arme par seconde pendant {[Type_StatusEffectData.Status_Passive_RainofArrows_Bleed.BaseDuration]}s.</string>
 	<string key="Upgrade_Bow_RainofArrows_Slow" comment="BOW + MOD">Flèches recourbées</string>
 	<string key="Upgrade_Bow_RainofArrows_Slow_description" comment="BOW + MOD">Pluie de flèches cause un ralentissement de {[Type_StatusEffectData.Status_Bow_RainOfArrows_Slow.MoveSpeedMod * -100]} % pendant {[Type_StatusEffectData.Status_Bow_RainOfArrows_Slow.BaseDuration]}s (ralentissement réduit la vitesse de déplacement de la cible).</string>
 	<string key="Passive_Bow_Skirmish_DodgeDmg" comment="BOW + PASSIVE">Stratégie de fuite</string>
@@ -130,7 +130,7 @@
 	<string key="Passive_Bow_Hunter_HeavyDmgVsFull" comment="BOW + PASSIVE">Coup inaugural</string>
 	<string key="Passive_Bow_Hunter_HeavyDmgVsFull_description" comment="BOW + PASSIVE">Augmente de {[BowAbilityTable.Passive_Bow_Hunter_DmgOnFirst.BaseDamage * 100]} % les dégâts des attaques lourdes contre les ennemis en pleine santé.</string>
 	<string key="Passive_Bow_Hunter_DmgOnFirst" comment="BOW + PASSIVE">Attaque surprise</string>
-	<string key="Passive_Bow_Hunter_DmgOnFirst_description" comment="BOW + PASSIVE">Infligez {[BowAbilityTable.Passive_Bow_Hunter_DmgOnFirst.BaseDamage * 100]} % de dégâts supplémentaires si vous n'avez pas touché d'ennemi pendant les {[Type_StatusEffectData.Status_Passive_Bow_Hunter_DmgOnFirst_Tracker.BaseDuration]} dernières secondes.</string>
+	<string key="Passive_Bow_Hunter_DmgOnFirst_description" comment="BOW + PASSIVE">Inflige {[BowAbilityTable.Passive_Bow_Hunter_DmgOnFirst.BaseDamage * 100]} % de dégâts supplémentaires à n'importe lesquels de vos ennemis tant que vous ne leur avez pas infligé de dégâts pendant {[Type_StatusEffectData.Status_Passive_Bow_Hunter_DmgOnFirst_Tracker.BaseDuration]}s.</string>
 	<string key="Passive_Bow_Hunter_Accuracy" comment="BOW + PASSIVE">Portée de flèche</string>
 	<string key="Passive_Bow_Hunter_Accuracy_description" comment="BOW + PASSIVE">Augmente de 100 % la distance parcourue par les flèches affectées par la gravité.</string>
 	<string key="Passive_Bow_Hunter_HealOnFive" comment="BOW + PASSIVE">Œil de faucon</string>
@@ -138,7 +138,7 @@
 	<string key="Passive_Bow_Hunter_Crit" comment="BOW + PASSIVE">Dans le mille</string>
 	<string key="Passive_Bow_Hunter_Crit_description" comment="BOW + PASSIVE">Augmente de {[BowAbilityTable.Passive_Bow_Hunter_Crit.CritChance * 100]} % les chances de coup critique à l'arc.</string>
 	<string key="Ultimate_Bow_Hunter" comment="BOW + PASSIVE">Commotion</string>
-	<string key="Ultimate_Bow_Hunter_description" comment="BOW + PASSIVE">Les tirs à la tête vous confèrent {[BowAbilityTable.Ultimate_Bow_Hunter.BaseDamage * 100]} % de dégâts supplémentaires et {[BowAbilityTable.Ultimate_Bow_Hunter.RefundAmmoPercentChance * 100]} % de chances de récupérer votre flèche.</string>
+	<string key="Ultimate_Bow_Hunter_description" comment="BOW + PASSIVE">Les tirs à la tête vous confèrent {[BowAbilityTable.Ultimate_Bow_Hunter.BaseDamage * 100]} % de dégâts supplémentaires et {[BowAbilityTable.Ultimate_Bow_Hunter_Refund.RefundAmmoPercentChance * 100]} % de chances de récupérer votre flèche.</string>
 	<string key="Ability_Greataxe_Charge" comment="GREATAXE + ACTIVE">Charge</string>
 	<string key="Ability_Greataxe_Charge_description" comment="GREATAXE + ACTIVE">Vous chargez sur 10 m et infligez {[DamageTable.GreatAxe_Engage1.DmgCoef * 100]} % des dégâts de l'arme lorsque vous atteignez une cible. Appuyez sur BGS pour interrompre la charge et attaquer plus tôt. \n\nCette capacité confère du courage (le courage vous empêche de chanceler face aux attaques).</string>
 	<string key="Upgrade_Greataxe_Charge_DmgPerDistance" comment="GREATAXE + MOD">Lancée frénétique</string>
@@ -176,7 +176,7 @@
 	<string key="Passive_Greataxe_Reaper_HealVsLowHP" comment="GREATAXE + PASSIVE">Repas</string>
 	<string key="Passive_Greataxe_Reaper_HealVsLowHP_description" comment="GREATAXE + PASSIVE">Les attaques avec la hache double contre les ennemis dont la santé est inférieure à {[GreatAxeAbilityTable.Passive_Greataxe_Reaper_HealVsLowHP.TargetHealthPercent]} % vous soignent à hauteur de {[GreatAxeAbilityTable.Passive_Greataxe_Reaper_HealVsLowHP.DmgPctToHealth * 100]} % des dégâts infligés.</string>
 	<string key="Ultimate_Greataxe_Reaper" comment="GREATAXE + PASSIVE">Soif de sang</string>
-	<string key="Ultimate_Greataxe_Reaper_description" comment="GREATAXE + PASSIVE">Lorsque vous observez un ennemi dans un rayon de {[SpellDataTable_GreatAxe.Spell_Ultimate_Greataxe_Reaper.Radius]} m, vous êtes {[Type_StatusEffectData.Status_Ultimate_Greataxe_Reaper.MoveSpeedMod * 100]} % plus rapide et infligez {[Type_StatusEffectData.Status_Ultimate_Greataxe_Reaper.DMGStandard * 100]} % de dégâts supplémentaires.</string>
+	<string key="Ultimate_Greataxe_Reaper_description" comment="GREATAXE + PASSIVE">Lorsque vous observez un ennemi dans un rayon de {[SpellDataTable_GreatAxe.Spell_Ultimate_Greataxe_Reaper.Length * 2]} m, vous êtes {[Type_StatusEffectData.Status_Ultimate_Greataxe_Reaper.MoveSpeedMod * 100]} % plus rapide et infligez {[Type_StatusEffectData.Status_Ultimate_Greataxe_Reaper.DMGStandard * 100]} % de dégâts supplémentaires.</string>
 	<string key="Ability_Greataxe_Whirlwind" comment="GREATAXE + ACTIVE">Tourbillon</string>
 	<string key="Ability_Greataxe_Whirlwind_description" comment="GREATAXE + ACTIVE">Une attaque tournoyante qui inflige {[DamageTable.GreatAxe_Whirlwind.DmgCoef * 100]} % des dégâts de l'arme à tous les ennemis à proximité. Si vous touchez un ennemi, elle tournoie à nouveau (jusqu'à 4 rotations). Vous pouvez vous déplacer en tournoyant. Cette attaque ne peut être sournoise. Cette attaque confère du courage. \n\n(Le courage vous empêche de chanceler face aux attaques).</string>
 	<string key="Upgrade_Greataxe_Whirlwind_MoreSpins" comment="GREATAXE + MOD">Rafales</string>
@@ -234,7 +234,7 @@
 	<string key="Upgrade_Lifestaff_SplashofLight_ManaOnLow" comment="LIFESTAFF + MOD">Récupération partagée</string>
 	<string key="Upgrade_Lifestaff_SplashofLight_ManaOnLow_description" comment="LIFESTAFF + MOD">Pour chaque allié soigné dont la santé est inférieure à 50 %, vous obtenez {[LifeMagicAbilityTable.Upgrade_Lifestaff_SplashofLight_ManaOnLow.Mana * 100]} % de votre mana max.</string>
 	<string key="Upgrade_Lifestaff_SplashofLight_RemoveDebuff" comment="LIFESTAFF + MOD">Purification</string>
-	<string key="Upgrade_Lifestaff_SplashofLight_RemoveDebuff_description" comment="LIFESTAFF + MOD">Rayon de lumière retire également 1 affaiblissement.</string>
+	<string key="Upgrade_Lifestaff_SplashofLight_RemoveDebuff_description" comment="LIFESTAFF + MOD">Rayon de lumière retire 1 affaiblissement lorsqu'il soigne un allié.</string>
 	<string key="Passive_Lifestaff_Healing_NoManaOnBasic" comment="LIFESTAFF + PASSIVE">Absolution</string>
 	<string key="Passive_Lifestaff_Healing_NoManaOnBasic_description" comment="LIFESTAFF + PASSIVE">Les attaques légères et lourdes du bâton de vie ne consomment plus de mana.</string>
 	<string key="Passive_Lifestaff_Healing_RemoveOnHeavy" comment="LIFESTAFF + PASSIVE">Toucher réparateur</string>
@@ -306,7 +306,7 @@
 	<string key="Upgrade_Firestaff_MeteorShower_More" comment="FIRESTAFF + MOD">Jugement d'Hélios</string>
 	<string key="Upgrade_Firestaff_MeteorShower_More_description" comment="FIRESTAFF + MOD">Tous les coups après le premier impact infligent {[Type_StatusEffectData.Status_FireStaff_MeteorShower_DamageUpgrade.HealthModifierDamageBased * -100]} % des dégâts de l'arme.</string>
 	<string key="Ability_Firestaff_Fireball" comment="FIRESTAFF + ACTIVE">Boule de feu</string>
-	<string key="Ability_Firestaff_Fireball_description" comment="FIRESTAFF + ACTIVE">Projette une grande boule de feu qui inflige {[DamageTable.Firestaff_Siege_AOE.DmgCoef * 100]} % des dégâts de l'arme et crée un champ enflammé de 3 m pendant 6s. Le champ enflammé inflige {[Type_StatusEffectData.Status_FireStaff_ScorchedEarth_DOT.HealthModifierDamageBased * -100]} % des dégâts de l'arme par seconde. Cette capacité ne peut pas faire de coup critique.\n\nCoûte {[ManaCosts_Player.48.ManaCost]} points de mana.</string>
+	<string key="Ability_Firestaff_Fireball_description" comment="FIRESTAFF + ACTIVE">Projette une grande boule de feu qui inflige {[DamageTable.Firestaff_Siege_AOE.DmgCoef * 100]} % des dégâts de l'arme et crée un champ enflammé de 3 m pendant 6s. Le champ enflammé inflige {[Type_StatusEffectData.Status_FireStaff_ScorchedEarth_DOT.HealthModifierDamageBased * -100]} % des dégâts de l'arme par seconde. \n\nCoûte {[ManaCosts_Player.48.ManaCost]} points de mana.</string>
 	<string key="Upgrade_Firestaff_Fireball_Dur" comment="FIRESTAFF + MOD">Terre brûlée</string>
 	<string key="Upgrade_Firestaff_Fireball_Dur_description" comment="FIRESTAFF + MOD">Le champ enflammé de Boule de feu dure 9s.</string>
 	<string key="Upgrade_Firestaff_Fireball_Mana" comment="FIRESTAFF + MOD">Saisie</string>
@@ -825,7 +825,7 @@
 	<string key="Spear_BonusDmgVsDebuff" comment="SPEAR + PASSIVE">Exploitation de faiblesse</string>
 	<string key="Spear_BonusDmgVsDebuff_description" comment="SPEAR + PASSIVE">Inflige un bonus de {[SpearAbilityTable.Ability_Spear_BonusDmgVsDebuff.BaseDamage * 100]} % de dégâts pour chaque affaiblissement sur votre cible (30 % max).</string>
 	<string key="Rapier_01" comment="RAPIER + ACTIVE">Tondo</string>
-	<string key="Rapier_01_description" comment="RAPIER + ACTIVE">Une frappe de taille si rapide qu'elle étend la portée de votre lame jusqu'à 5 m. En plus d'infliger {[DamageTable.1H_Rapier_Slash.DmgCoef * 100]} % des dégâts de l'arme, cette attaque entraîne un saignement qui inflige 85 % des dégâts de l'arme sur une durée de {[Type_StatusEffectData.Rapier_Bleed_DOT.BaseDuration]} secondes. Ce saignement peut être réinitialisé et cumulé jusqu'à 3 fois.</string>
+	<string key="Rapier_01_description" comment="RAPIER + ACTIVE">Une frappe de taille si rapide qu'elle étend la portée de votre lame jusqu'à 5 m. En plus d'infliger {[DamageTable.1H_Rapier_Slash.DmgCoef * 100]} % des dégâts de l'arme, cette attaque entraîne un saignement qui inflige {[Type_StatusEffectData.Rapier_Bleed_DOT.HealthModifierDamageBased * -100]} % des dégâts de l'arme supplémentaires par seconde pendant {[Type_StatusEffectData.Rapier_Bleed_DOT.BaseDuration]}s. Ce saignement peut être réinitialisé et cumulé jusqu'à 3 fois.</string>
 	<string key="Rapier_01_Mod1" comment="RAPIER + MOD">Soif de sang</string>
 	<string key="Rapier_01_Mod1_description" comment="RAPIER + MOD">Réduit le temps de recharge de Tondo de {[RapierAbilityTable.Rapier_Slash_Mod1.cooldownTimer * -100]} % lorsque l'attaque inflige un premier saignement à un ennemi.</string>
 	<string key="Rapier_01_Mod2" comment="RAPIER + MOD">Rebelote</string>
@@ -901,79 +901,79 @@
 	<string key="Rapier_BonusDMGAfterAbility" comment="RAPIER + PASSIVE">Lancée</string>
 	<string key="Rapier_BonusDMGAfterAbility_description" comment="RAPIER + PASSIVE">Augmente de {[RapierAbilityTable.Rapier_BonusDMGAfterAbility.BaseDamage * 100]} % les dégâts infligés par la prochaine attaque lourde ou légère, après avoir utilisé une capacité. Cet effet se dissipe au bout de {[Type_StatusEffectData.Rapier_BonusDMGAfterAbility.BaseDuration]}s ou lorsque vous faites mouche.</string>
 	<string key="IceSpikes" comment="ICEMAGIC + ACTIVE">Piques de glace</string>
-	<string key="IceSpikes_description" comment="ICEMAGIC + ACTIVE">Des piques de glace surgissent du sol en ligne droite sur 8 m à partir du joueur, infligeant {[DamageTable.IceMagic_Spikes.DmgCoef * 100]} % des dégâts de l'arme. La ligne se termine par une Pique puissante qui repousse les ennemis et inflige {[DamageTable.IceMagic_Spikes_End.DmgCoef * 100]} % des dégâts de l'arme. Effectuer une attaque légère avant la fin de la ligne fera apparaître la Pique puissante plus tôt.\n\nCoûte 15 points de mana.</string>
+	<string key="IceSpikes_description" comment="ICEMAGIC + ACTIVE">Des piques de glace surgissent du sol en ligne droite sur 8 m à partir du joueur, infligeant {[DamageTable.IceMagic_Spikes.DmgCoef * 100]} % des dégâts de l'arme. La ligne se termine par une Pique puissante qui repousse les ennemis et inflige {[DamageTable.IceMagic_Spikes_End.DmgCoef * 100]} % des dégâts de l'arme. Effectuer une attaque légère avant la fin de la ligne fera apparaître la Pique puissante plus tôt.\n\nCoûte {[ManaCosts_Player.60.ManaCost]} points de mana.</string>
 	<string key="RefreshingSpikes" comment="ICEMAGIC + MOD">Piques régénératrices</string>
-	<string key="RefreshingSpikes_description" comment="ICEMAGIC + MOD">Si l'ennemi est frappé par la Pique puissante, réduit de 10 % le temps de recharge de cette capacité.</string>
+	<string key="RefreshingSpikes_description" comment="ICEMAGIC + MOD">Si l'ennemi est frappé par la Pique puissante, réduit de {[IceMagicAbilityTable.SpikesRefreshingSpikes.CooldownTimer * -100]} % le temps de recharge de cette capacité.</string>
 	<string key="EmpoweredSpikes" comment="ICEMAGIC + MOD">Piques renforcées</string>
-	<string key="EmpoweredSpikes_description" comment="ICEMAGIC + MOD">Augmente de 20 % les dégâts de la Pique puissante infligés à un ennemi dont la santé est inférieure à 30 %.</string>
+	<string key="EmpoweredSpikes_description" comment="ICEMAGIC + MOD">Augmente de {[IceMagicAbilityTable.SpikesEmpoweredSpikes.BaseDamage * 100]} % les dégâts de la Pique puissante infligés à un ennemi dont la santé est inférieure à {[IceMagicAbilityTable.SpikesEmpoweredSpikes.TargetHealthPercent]} %.</string>
 	<string key="DeadlyPath" comment="ICEMAGIC + MOD">Rangée mortelle</string>
 	<string key="DeadlyPath_description" comment="ICEMAGIC + MOD">Augmente de 10 % les dégâts de la rangée de piques et applique un effet de chancellement. N'augmente pas les dégâts de la pique puissante.</string>
 	<string key="SpikyReach" comment="ICEMAGIC + MOD">Allonge de piques</string>
 	<string key="SpikyReach_description" comment="ICEMAGIC + MOD">Des éclats de glace jaillissent de chaque côté de la Pique puissante sur une distance plus grande. Chaque éclat possède une portée de 6 m et inflige {[DamageTable.IceMagic_Spike_Reach.DmgCoef * 100]} % des dégâts de l'arme.</string>
 	<string key="IceStorm" comment="ICEMAGIC + ACTIVE">Tempête de glace</string>
-	<string key="IceStorm_description" comment="ICEMAGIC + ACTIVE">Crée une tempête dans un rayon de 5 m sur la zone de la cible qui inflige {[DamageTable.IceMagic_IceStorm.DmgCoef * 100]} % des dégâts de l'arme pendant 5s toutes les 0,33s. La tempête crée également une zone gelée qui ralentit de 25 % les ennemis pris à l'intérieur (ralentissement réduit la vitesse de déplacement de la cible).\n\nCoûte 25 points de mana.</string>
+	<string key="IceStorm_description" comment="ICEMAGIC + ACTIVE">Crée une tempête dans un rayon de 5 m sur la zone de la cible qui inflige {[DamageTable.IceMagic_IceStorm.DmgCoef * 100]} % des dégâts de l'arme pendant 5s toutes les {[Type_StatusEffectData.IceMagic_IceStorm.TickRate]}s. La tempête crée également une zone gelée qui ralentit de {[Type_StatusEffectData.IceMagic_IceStorm.MoveSpeedMod * -100]} % les ennemis pris à l'intérieur (ralentissement réduit la vitesse de déplacement de la cible).\n\nCoûte {[ManaCosts_Player.61.ManaCost]} points de mana.</string>
 	<string key="WeakeningGust" comment="ICEMAGIC + MOD">Bourrasque affaiblissante</string>
-	<string key="WeakeningGust_description" comment="ICEMAGIC + MOD">Les dégâts subis par les ennemis pris dans Tempête de glace augmentent de 10 % pendant 3s si leur santé est inférieure à 50 %.</string>
+	<string key="WeakeningGust_description" comment="ICEMAGIC + MOD">Les dégâts subis par les ennemis pris dans Tempête de glace augmentent de {[Type_StatusEffectData.IceMagic_IceStorm_Weaken.WKNStandard * 100]} % pendant {[Type_StatusEffectData.IceMagic_IceStorm_Weaken.BaseDuration]}s si leur santé est inférieure à {[IceMagicAbilityTable.IceStormWeakeningGust.TargetHealthPercent]} %.</string>
 	<string key="StormSummoner" comment="ICEMAGIC + MOD">Invocation orageuse</string>
 	<string key="StormSummoner_description" comment="ICEMAGIC + MOD">Le coût en mana de Tempête de glace est réduit de 80 % si votre mana est plein.</string>
 	<string key="PunishingStorm" comment="ICEMAGIC + MOD">Orage punitif</string>
-	<string key="PunishingStorm_description" comment="ICEMAGIC + MOD">Augmente les dégâts de 10 % pour chaque ennemi pris dans Tempête de glace.</string>
+	<string key="PunishingStorm_description" comment="ICEMAGIC + MOD">Augmente les dégâts de {[IceMagicAbilityTable.IceStormPunishingStorm.BaseDamage * 100]} % pour chaque ennemi pris dans Tempête de glace.</string>
 	<string key="WindChill" comment="ICEMAGIC + ACTIVE">Vent mordant</string>
-	<string key="WindChill_description" comment="ICEMAGIC + ACTIVE">Projette vers l'avant une colonne de vents glaciaux qui repousse les ennemis de 5 m et inflige {[DamageTable.IceMagic_WindChill.DmgCoef * 100]} % des dégâts de l'arme à chaque coup. Vent mordant a une portée totale de 7 m, dont les 2 derniers mètres voient leurs dégâts augmenter de 20 % sans repousser les ennemis.\nLe joueur peut se déplacer pendant l'attaque.\n\nCoûte 20 points de mana.</string>
+	<string key="WindChill_description" comment="ICEMAGIC + ACTIVE">Projette vers l'avant une colonne de vents glaciaux qui repousse les ennemis de 5 m et inflige {[DamageTable.IceMagic_WindChill.DmgCoef * 100]} % des dégâts de l'arme à chaque coup. Vent mordant a une portée totale de 7 m, dont les 2 derniers mètres voient leurs dégâts augmenter de 20 % sans repousser les ennemis.\nLe joueur peut se déplacer pendant l'attaque.\n\nCoûte {[ManaCosts_Player.63.ManaCost]} points de mana.</string>
 	<string key="EnduringChill" comment="ICEMAGIC + MOD">Vent persistant</string>
 	<string key="EnduringChill_description" comment="ICEMAGIC + MOD">Prolonge d'1s la durée de Vent mordant.</string>
 	<string key="Shatter" comment="ICEMAGIC + MOD">Explosion glaçante</string>
-	<string key="Shatter_description" comment="ICEMAGIC + MOD">Augmente de 25 % les dégâts des 2 derniers mètres de portée de Vent mordant.</string>
+	<string key="Shatter_description" comment="ICEMAGIC + MOD">Augmente de {[IceMagicAbilityTable.WindChillShatter.BaseDamage * 100]} % les dégâts des 2 derniers mètres de portée de Vent mordant.</string>
 	<string key="IceTempestPass1" comment="ICEMAGIC + PASSIVE">Allonge glaciale</string>
-	<string key="IceTempestPass1_description" comment="ICEMAGIC + PASSIVE">Augmente de 15 % les dégâts des attaques lourdes et légères contre les cibles situées à plus de 15 m.</string>
+	<string key="IceTempestPass1_description" comment="ICEMAGIC + PASSIVE">Augmente de {[IceMagicAbilityTable.IceTempestPass1.BaseDamage * 100]} % les dégâts des attaques lourdes et légères contre les cibles situées à plus de {[IceMagicAbilityTable.IceTempestPass1.DistFromDefender]} m.</string>
 	<string key="IceTempestPass2" comment="ICEMAGIC + PASSIVE">Jouvence critique</string>
-	<string key="IceTempestPass2_description" comment="ICEMAGIC + PASSIVE">Confère 15 points de mana chaque fois que vous faites un coup critique sur une cible.</string>
+	<string key="IceTempestPass2_description" comment="ICEMAGIC + PASSIVE">Confère {[IceMagicAbilityTable.IceTempestPass2.Mana * 100]} points de mana chaque fois que vous faites un coup critique sur une cible.</string>
 	<string key="IceTempestPass3" comment="ICEMAGIC + PASSIVE">Survoltage critique</string>
 	<string key="IceTempestPass3_description" comment="ICEMAGIC + PASSIVE">Augmente de {[IceMagicAbilityTable.IceTempestPass3.CritDamage * 100]} % les dégâts critiques des capacités des gantelets de glace lorsque votre vitalité est pleine.</string>
 	<string key="IceTempestPass4" comment="ICEMAGIC + PASSIVE">Orage menaçant</string>
-	<string key="IceTempestPass4_description" comment="ICEMAGIC + PASSIVE">Confère 15 points de mana chaque fois que vous touchez avec 3 attaques légères consécutives.</string>
+	<string key="IceTempestPass4_description" comment="ICEMAGIC + PASSIVE">Confère {[IceMagicAbilityTable.IceTempestPass4.Mana * 100]} points de mana chaque fois que vous touchez avec {[IceMagicAbilityTable.IceTempestPass4.NumConsecutiveHits]} attaques légères consécutives.</string>
 	<string key="IceTempestPass5" comment="ICEMAGIC + PASSIVE">Engelure critique</string>
 	<string key="IceTempestPass5_description" comment="ICEMAGIC + PASSIVE">Augmente de 20 % les chances de coup critique si vous infligez engelure ou frappez un ennemi dans une zone gelée.</string>
 	<string key="IceTempestPass6" comment="ICEMAGIC + PASSIVE">Gel lourd</string>
-	<string key="IceTempestPass6_description" comment="ICEMAGIC + PASSIVE">Les attaques lourdes enracinent la cible si elle se trouve dans Tempête de glace ou souffre d'engelures. L'enracinement dure 1 seconde et a 5 secondes de temps de recharge.</string>
+	<string key="IceTempestPass6_description" comment="ICEMAGIC + PASSIVE">Les attaques lourdes enracinent la cible si elle se trouve dans Tempête de glace ou souffre d'engelures. Enracinement s'estompe au bout de {[Type_StatusEffectData.IceMagic_Freeze.BaseDuration]}s et a un temps de recharge de {[Type_StatusEffectData.IceMagic_Freeze_Cooldown.BaseDuration]}s une fois expiré.</string>
 	<string key="IceTempestUltimate" comment="ICEMAGIC + PASSIVE">Froid ultime</string>
-	<string key="IceTempestUltimate_description" comment="ICEMAGIC + PASSIVE">Les capacités des gantelets de glace refroidissent les cibles, augmentant les dégâts que vous leur infligez de {[Type_StatusEffectData.IceMagic_UltimateChill.WKNIce * 100]} % pendant 3s.</string>
+	<string key="IceTempestUltimate_description" comment="ICEMAGIC + PASSIVE">Les capacités des gantelets de glace refroidissent les cibles, augmentant les dégâts que vous leur infligez de {[Type_StatusEffectData.IceMagic_UltimateChill.WKNIce * 100]} % pendant {[Type_StatusEffectData.IceMagic_UltimateChill.BaseDuration]}s.</string>
 	<string key="IcePylon" comment="ICEMAGIC + ACTIVE">Pylône de glace</string>
-	<string key="IcePylon_description" comment="ICEMAGIC + ACTIVE">Place un pylône qui tire des projectiles de glace sur les ennemis situés dans les 20 m. Les projectiles infligent {[DamageTable.IceMagic_Pylon.DmgCoef * 100]} % des dégâts de l'arme. Pylône de glace crée une zone gelée de 1 m de rayon autour de lui qui dure 15s s'il n'est pas détruit.\n\nCoûte 15 points de mana.</string>
+	<string key="IcePylon_description" comment="ICEMAGIC + ACTIVE">Place un pylône qui tire des projectiles de glace sur les ennemis situés dans les 20 m. Les projectiles infligent {[DamageTable.IceMagic_Pylon.DmgCoef * 100]} % des dégâts de l'arme. Pylône de glace crée une zone gelée de 1 m de rayon autour de lui qui dure 15 s s'il n'est pas détruit.\n\nCoûte {[ManaCosts_Player.67.ManaCost]} points de mana.</string>
 	<string key="GreaterPylon" comment="ICEMAGIC + MOD">Pylône amélioré</string>
-	<string key="GreaterPylon_description" comment="ICEMAGIC + MOD">Augmente de 10 % les dégâts du Pylône de glace contre les cibles ralenties.</string>
+	<string key="GreaterPylon_description" comment="ICEMAGIC + MOD">Augmente de {[IceMagicAbilityTable.IcePylonGreaterPylon.BaseDamage * 100]} % les dégâts du Pylône de glace contre les cibles ralenties.</string>
 	<string key="PylonRegen" comment="ICEMAGIC + MOD">Pylône récupérateur</string>
-	<string key="PylonRegen_description" comment="ICEMAGIC + MOD">5s après les derniers dégâts subis, le Pylône de glace récupère la totalité de sa santé.</string>
+	<string key="PylonRegen_description" comment="ICEMAGIC + MOD">{[Type_StatusEffectData.IceMagic_PylonRefresh.BaseDuration]}s après les derniers dégâts subis, le Pylône de glace récupère la totalité de sa santé.</string>
 	<string key="PylonDodge" comment="ICEMAGIC + MOD">Esquive du pylône</string>
 	<string key="PylonDodge_description" comment="ICEMAGIC + MOD">Augmente de 3s la fréquence de tir du Pylône de glace si vous esquivez.</string>
 	<string key="PylonRefresh" comment="ICEMAGIC + PASSIVE">Régénération du pylône</string>
-	<string key="PylonRefresh_description" comment="ICEMAGIC + PASSIVE">Une attaque réussie avec le Pylône de glace augmente de 1s sa durée de vie (45s max).</string>
+	<string key="PylonRefresh_description" comment="ICEMAGIC + PASSIVE">Une attaque réussie avec le Pylône de glace augmente de 1s sa durée de vie ({[Type_StatusEffectData.IceMagic_PylonCooldownSafety.BaseDuration]}s maximum.)</string>
 	<string key="IceShower" comment="ICEMAGIC + ACTIVE">Tempête de grêle</string>
-	<string key="IceShower_description" comment="ICEMAGIC + ACTIVE">Génère une tempête de grêle dans une zone gelée d'environ 1 mètre sur 5 pendant 4 secondes. Les ennemis qui y pénètrent souffrent de sévères engelures. Engelure immobilise pendant 1s, bloque le sprint et l'esquive, ralentit la vitesse de déplacement de 50 % et reste sur la cible pendant 3s après sa sortie de Tempête de grêle.\n\nCoûte 25 points de mana.</string>
+	<string key="IceShower_description" comment="ICEMAGIC + ACTIVE">Génère une tempête de grêle dans une zone gelée d'environ 1 mètre sur 5 pendant 4 secondes. Les ennemis qui y pénètrent souffrent de sévères engelures. Engelure immobilise pendant {[Type_StatusEffectData.IceMagic_IceShower_Freeze.BaseDuration]}s, bloque le sprint et l'esquive, ralentit la vitesse de déplacement de {[Type_StatusEffectData.IceMagic_Frostbite.MoveSpeedMod * -100]} % et reste sur la cible pendant {[Type_StatusEffectData.IceMagic_Frostbite_Dur3.BaseDuration]}s après sa sortie de Tempête de grêle.\n\nCoûte {[ManaCosts_Player.66.ManaCost]} points de mana.</string>
 	<string key="EnduringShower" comment="ICEMAGIC + MOD">Grêle persistante</string>
 	<string key="EnduringShower_description" comment="ICEMAGIC + MOD">Étend la durée de Tempête de grêle à 7s.</string>
 	<string key="QuickShower" comment="ICEMAGIC + MOD">Grêle rapide</string>
-	<string key="QuickShower_description" comment="ICEMAGIC + MOD">Octroie un bonus de vitesse de déplacement de 25 % pendant 2s lorsqu'un allié, y compris vous-même, entre dans la Tempête de grêle.</string>
+	<string key="QuickShower_description" comment="ICEMAGIC + MOD">Octroie un bonus de vitesse de déplacement de {[Type_StatusEffectData.IceMagic_QuickShower_Dur2.MoveSpeedMod * 100]} % pendant {[Type_StatusEffectData.IceMagic_QuickShower_Dur2.BaseDuration]}s lorsqu'un allié, y compris vous-même, entre dans la Tempête de grêle.</string>
 	<string key="ShowerSlush" comment="ICEMAGIC + MOD">Douches glaciales</string>
-	<string key="ShowerSlush_description" comment="ICEMAGIC + MOD">Engelure applique lacération à la cible, réduisant sa défense de 10 %.</string>
+	<string key="ShowerSlush_description" comment="ICEMAGIC + MOD">Engelure applique lacération à la cible, réduisant sa défense de {[Type_StatusEffectData.IceMagic_Frostbite_Rend.ABSStandard * -100]} %.</string>
 	<string key="Entombed" comment="ICEMAGIC + ACTIVE">Prison de glace</string>
-	<string key="Entombed_description" comment="ICEMAGIC + ACTIVE">Recouvrez-vous de glace afin de devenir invulnérable et augmenter considérablement la régénération du mana. La prison dure 10s mais peut être détruite avant. Appuyez sur le bouton de parade pour sortir normalement de la prison ou effectuez une attaque légère pour sortir en infligeant un choc destructeur au prix de 20 points de mana.\n\nCoûte 0 point de mana.</string>
+	<string key="Entombed_description" comment="ICEMAGIC + ACTIVE">Recouvrez-vous de glace afin de devenir invulnérable et augmenter considérablement la régénération du mana. La prison dure 10s mais peut être détruite avant. Appuyez sur le bouton de parade pour sortir normalement de la prison ou effectuez une attaque légère pour sortir en infligeant un choc destructeur au prix de {[ManaCosts_Player.65.ManaCost]} points de mana.\n\nCoûte {[ManaCosts_Player.64.ManaCost]} points de mana.</string>
 	<string key="StrengthenedTomb" comment="ICEMAGIC + MOD">Prison de glace renforcée</string>
-	<string key="StrengthenedTomb_description" comment="ICEMAGIC + MOD">Augmente la défense de 25 % pendant 3s après la sortie de Prison de glace.</string>
+	<string key="StrengthenedTomb_description" comment="ICEMAGIC + MOD">Augmente la défense de {[Type_StatusEffectData.IceMagic_StrengthenedTomb.ABSStandard * 100]} % pendant {[Type_StatusEffectData.IceMagic_StrengthenedTomb.BaseDuration]}s après la sortie de Prison de glace.</string>
 	<string key="CleansingTomb" comment="ICEMAGIC + MOD">Prison de glace purificatrice</string>
 	<string key="CleansingTomb_description" comment="ICEMAGIC + MOD">À l'activation, Prison de glace dissipe tous les affaiblissements.</string>
 	<string key="IceConjurorPass1" comment="ICEMAGIC + PASSIVE">Vitalité bloquée</string>
-	<string key="IceConjurorPass1_description" comment="ICEMAGIC + PASSIVE">Parer une attaque avec les gantelets de glace convertit le mana en vitalité. Convertit 3 points de mana en 15 points de vitalité.</string>
+	<string key="IceConjurorPass1_description" comment="ICEMAGIC + PASSIVE">Parer une attaque avec les gantelets de glace convertit le mana en vitalité. Convertit {[Type_StatusEffectData.IceMagic_BlockingStamina.Mana * -1]} points de mana en {[Type_StatusEffectData.IceMagic_BlockingStamina.Stamina]} points de vitalité.</string>
 	<string key="IceConjurorPass2" comment="ICEMAGIC + PASSIVE">Engelure vive</string>
-	<string key="IceConjurorPass2_description" comment="ICEMAGIC + PASSIVE">Augmente de 10 % la vitesse de déplacement dans une zone gelée.</string>
+	<string key="IceConjurorPass2_description" comment="ICEMAGIC + PASSIVE">Augmente de {[Type_StatusEffectData.IceMagic_QuickFrost.MoveSpeedMod * 100]} % la vitesse de déplacement dans une zone gelée.</string>
 	<string key="IceConjurorPass3" comment="ICEMAGIC + PASSIVE">Engelure renforcée</string>
-	<string key="IceConjurorPass3_description" comment="ICEMAGIC + PASSIVE">Confère 3 points de mana pour chaque sort lancé lorsque vous vous trouvez dans une zone gelée.</string>
+	<string key="IceConjurorPass3_description" comment="ICEMAGIC + PASSIVE">Confère {[Type_StatusEffectData.IceMagic_EmpoweredFrost.Mana]} points de mana pour chaque sort lancé lorsque vous vous trouvez dans une zone gelée.</string>
 	<string key="IceConjurorPass4" comment="ICEMAGIC + PASSIVE">Toucher gelé</string>
-	<string key="IceConjurorPass4_description" comment="ICEMAGIC + PASSIVE">Ralentit les ennemis de 25 % pendant 2s lorsqu'ils vous attaquent au corps à corps et que vous êtes en pleine santé (ralentissement réduit la vitesse de déplacement de la cible).</string>
+	<string key="IceConjurorPass4_description" comment="ICEMAGIC + PASSIVE">Ralentit les ennemis de {[Type_StatusEffectData.IceMagic_FrozenTouch.MoveSpeedMod * -100]} % pendant {[Type_StatusEffectData.IceMagic_FrozenTouch.BaseDuration]}s lorsqu'ils vous attaquent au corps à corps et que votre santé est à {[IceMagicAbilityTable.IceConjurorPass4.MyHealthPercent]} %. (ralentissement réduit la vitesse de déplacement de la cible).</string>
 	<string key="IceConjurorPass5" comment="ICEMAGIC + PASSIVE">Engelure régénératrice</string>
-	<string key="IceConjurorPass5_description" comment="ICEMAGIC + PASSIVE">Réduit de 20 % les temps de recharge de toutes les capacités des gantelets de glace en lançant une capacité dans une zone gelée.</string>
+	<string key="IceConjurorPass5_description" comment="ICEMAGIC + PASSIVE">Réduit de {[IceMagicAbilityTable.IceConjurorPass5.CooldownTimer * -100]} % les temps de recharge de toutes les capacités des gantelets de glace en lançant une capacité dans une zone gelée.</string>
 	<string key="IceConjurorPass6" comment="ICEMAGIC + PASSIVE">Gel provocateur</string>
-	<string key="IceConjurorPass6_description" comment="ICEMAGIC + PASSIVE">Lancer une capacité de gantelets de glace crée une couche de glace épaisse, conférant 20 % de fortification pendant 2s (fortification réduit les dégâts subis).</string>
+	<string key="IceConjurorPass6_description" comment="ICEMAGIC + PASSIVE">Lancer une capacité de gantelets de glace crée une couche de glace épaisse, conférant {[Type_StatusEffectData.IceMagic_DefiantFreeze.ABSStandard * 100]} % de fortification pendant {[Type_StatusEffectData.IceMagic_DefiantFreeze.BaseDuration]}s. (fortification réduit les dégâts subis).</string>
 	<string key="IceConjurorUltimate" comment="ICEMAGIC + PASSIVE">Engelure ultime</string>
 	<string key="IceConjurorUltimate_description" comment="ICEMAGIC + PASSIVE">Double la santé du Pylône de glace et étend de 5 m sa zone gelée. Double tous les bonus relatifs à Engelure vive et à Engelure renforcée lorsque vous êtes dans cette zone gelée.</string>
 </resources>

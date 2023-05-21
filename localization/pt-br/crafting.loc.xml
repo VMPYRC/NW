@@ -131,7 +131,7 @@
 	<string key="dye_crafting_craft_button">Confeccionar</string>
 	<string key="dye_crafting_invalid">Combinação Inválida</string>
 	<string key="dye_crafting_not_at_station">É preciso estar em um Repositório Arcano.</string>
-	<string key="cooldown_threshold">Limite de Recarga: {count}</string>
+	<string key="cooldown_threshold">&lt;img src="lyshineui/images/icons/misc/icon_question_orange.dds" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; Tempo de recarga: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{time}&lt;/font&gt; | Limite de Recarga: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{count}&lt;/font&gt;</string>
 	<string key="cooldown_threshold_tooltip">Se você confeccionar {count} itens, terá de esperar {time} para confeccionar esse item de novo.</string>
 	<string key="cooldown_cancraftin">Possível Confeccionar em {time} &lt;img src="lyshineui/images/icons/misc/icon_hourglass" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="crafting_always_available">Sempre Disponível</string>
@@ -177,7 +177,7 @@
 	<string key="crafting_azothbonus_perk3">Vantagem 3</string>
 	<string key="crafting_azothbonus_perk4">Vantagem 4</string>
 	<string key="crafting_azothbonus_gemslot">Soquete de Gemas</string>
-	<string key="crafting_guaranteed_perk">&lt;img src="lyshineui/images/{perkImage}.dds" xPadding="2" scale="2" yOffset="8"&gt;&lt;/img&gt; {perkName}</string>
+	<string key="crafting_guaranteed_perk">&lt;img src="{perkImage}" xPadding="2" scale="2" yOffset="8"&gt;&lt;/img&gt; {perkName}</string>
 	<string key="crafting_lowchance">Chance &lt;font color="#f25d5d"&gt;Baixa&lt;/font&gt;</string>
 	<string key="crafting_medchance">Chance &lt;font color="#f67817"&gt;Média&lt;/font&gt;</string>
 	<string key="crafting_highchance">Chance &lt;font color="#17aa7b"&gt;Alta&lt;/font&gt;</string>

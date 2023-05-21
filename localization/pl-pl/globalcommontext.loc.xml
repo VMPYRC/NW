@@ -114,6 +114,10 @@
 	<string key="ui_affliction_drowning_tooltip">Gdy postaci skończy się powietrze, udusi się</string>
 	<string key="ui_affliction_blight">odporność na zarazę</string>
 	<string key="ui_affliction_blight_tooltip">Jeśli stracisz odporność na zarazę, dopadnie cię zaraza i będziesz zadawać o {[Type_StatusEffectData.Blight.DMGStandard * 100]}% mniej obrażeń, otrzymywać o {[Type_StatusEffectData.Blight.HealMod * 100]}% mniej zdrowia podczas leczenia i tracić {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]}% zdrowia podstawowego co {[Type_StatusEffectData.Blight.TickRate]} s przez {[Afflictions.AfflictionBlight.AfflictedDrainTime]} s.</string>
+	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">wybuchowa odporność</string>
+	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">licznik wybuchowości.</string>
+	<string key="ui_affliction_mutcurse4" rel_version="Feature_Dungeon_Mutators">odporność na rykoszet</string>
+	<string key="ui_affliction_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Jeżeli zabraknie ci odporności, zostanie na ciebie rzucona strefa wyciszenia. Wybuchnie ona po pewnym czasie, zadając obrażenia zarówno wrogom, jak i innym graczom. Odporność jest współdzielona przez wszystkich członków twojej grupy.</string>
 	<string key="ui_afflicted_bleeding">zranienie</string>
 	<string key="ui_afflicted_bleeding_tooltip">Zraniona postać znacznie wolniej odzyskuje energię</string>
 	<string key="ui_afflicted_burn">oparzenie</string>
@@ -134,6 +138,10 @@
 	<string key="ui_afflicted_drowning_tooltip">Postać utopiła się</string>
 	<string key="ui_afflicted_blight">zaraza</string>
 	<string key="ui_afflicted_blight_tooltip">Gdy dopadnie cię zaraza, będziesz zadawać o {[Type_StatusEffectData.Blight.DMGStandard * 100]}% mniej obrażeń, otrzymywać o {[Type_StatusEffectData.Blight.HealMod * 100]}% mniej zdrowia podczas leczenia i tracić {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]}% zdrowia podstawowego co {[Type_StatusEffectData.Blight.TickRate]} s.</string>
+	<string key="ui_afflicted_mutcurse3" rel_version="Feature_Dungeon_Mutators">wybuchowość</string>
+	<string key="ui_afflicted_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Po upływie czasu gracz z najmniejszą procentowo ilością zdrowia staje się wybuchowy.</string>
+	<string key="ui_afflicted_mutcurse4" rel_version="Feature_Dungeon_Mutators">klątwa</string>
+	<string key="ui_afflicted_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Używanie zdolności powoduje wypełnianie paska. Po wypełnieniu go na wszystkich graczy rzucany jest rykoszet.</string>
 	<string key="ui_agreement">Kontynuując, akceptujesz poniższe warunki:</string>
 	<string key="ui_ahhhhh">Aaaaa!!!</string>
 	<string key="ui_aimsensitivity">Czułość celowania</string>
@@ -278,6 +286,8 @@
 	<string key="ui_hours_with_time_short">{time}g</string>
 	<string key="ui_minutes_with_time">{time} min</string>
 	<string key="ui_minutes_with_time_short">{time}m</string>
+	<string key="ui_seconds_with_time">{time} sek.</string>
+	<string key="ui_seconds_with_time_short">{time}s</string>
 	<string key="ui_lastplayed">Ostatnia gra</string>
 	<string key="ui_minuteago">1 minutę temu</string>
 	<string key="ui_minutesago">{time} min temu</string>
@@ -536,7 +546,7 @@
 	<string key="ui_playername">Imię gracza</string>
 	<string key="ui_playernamehassentyouag">Gracz Playername zaprasza cię do grupy. Przytrzymaj [H], by dołączyć.</string>
 	<string key="ui_pressanykeytocontinue">Naciśnij dowolny klawisz, aby kontynuować</string>
-	<string key="ui_presskeytoassign">Naciśnij klawisz, do którego chcesz przypisać tę umiejętność.</string>
+	<string key="ui_presskeytoassign">Naciśnij klawisz do przypisania.</string>
 	<string key="ui_previous">Wstecz</string>
 	<string key="ui_progress">Postęp</string>
 	<string key="ui_pronetoggle">Przełączanie pozycji leżącej</string>
@@ -863,7 +873,7 @@
 	<string key="ui_faction_select">Wybierz frakcję.</string>
 	<string key="ui_character_Select_title">Wybierz postać</string>
 	<string key="ui_character_options">Opcje postaci</string>
-	<string key="ui_character_merge_destination">Ten świat ({worldName}) zostanie włączony do: {destinationWorldName} dnia: {date} ({mergeTime}).</string>
+	<string key="ui_character_merge_destination">Ten świat ({worldName}) zostanie włączony do: {destinationWorldName} dnia: {date}.</string>
 	<string key="ui_xp">PD</string>
 	<string key="world_landing_title">Wybrano dla ciebie optymalny ŚWIAT</string>
 	<string key="world_set">Zestaw światów?</string>
@@ -1456,9 +1466,13 @@
 	<string key="ui_replace_gem">Zamień klejnot</string>
 	<string key="ui_replace_gem_tooltip">Zamień obecnie osadzony klejnot na inny klejnot z twojego ekwipunku. Obecnie używany klejnot zostanie utracony.</string>
 	<string key="ui_upgrade_warning_title">Ulepszenie przedmiotu</string>
-	<string key="ui_upgrade_warning_body">Do ulepszenia przedmiotu: {itemName} z {baseGearScore} do {targetGearScore} pkt wyposażenia potrzeba: {itemCount} x {upgradeItemName}.\n\nCzy chcesz ulepszyć ten przedmiot?</string>
-	<string key="ui_upgrade_tooltip_enabled">Zastosuj: {itemName}, by zwiększyć liczbę punktów wyposażenia tego przedmiotu.</string>
-	<string key="ui_upgrade_tooltip_disabled">Do zwiększenia liczby punktów wyposażenia tego przedmiotu potrzeba więcej: {itemName}.</string>
+	<string key="ui_upgrade_warning_body">Do ulepszenia przedmiotu: {itemName} z {baseGearScore} do {targetGearScore} pkt wyposażenia potrzeba: {itemCount} x {upgradeItemName}.\n\nUlepszanie przedmiotów powoduje ich przypisanie do ciebie.\n\nCzy chcesz ulepszyć ten przedmiot?</string>
+	<string key="ui_upgrade_tooltip_enabled">Ulepsz przedmiot za pomocą: &lt;font color="#ffffff"&gt;{itemName}&lt;/font&gt;. To zwiększy liczbę &lt;font color="#ffffff"&gt;punktów wyposażenia&lt;/font&gt; tego przedmiotu.</string>
+	<string key="ui_upgrade_tooltip_disabled_items">Do zwiększenia liczby punktów wyposażenia tego przedmiotu potrzeba co najmniej {quantity} więcej: {itemName}.</string>
+	<string key="ui_upgrade_tooltip_disabled_skill">Możesz jedynie ulepszyć przedmioty, w których masz &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.2" yOffset="1"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;biegłość ({neededValue})&lt;/font&gt;.\n(Obecna biegłość ({expertiseName}): &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.2" yOffset="1"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{currentValue}&lt;/font&gt;)</string>
+	<string key="ui_upgrade_tooltip_disabled_broken">Zepsutych przedmiotów nie można ulepszyć.</string>
+	<string key="ui_upgrade_tooltip_disabled_gearscore">Możesz jedynie ulepszyć przedmioty mające co najmniej {gearScore} pkt wyposażenia.</string>
+	<string key="ui_upgrade_notification">Liczbę punktów wyposażenia przedmiotu zwiększono do &lt;font color="#fffd7a"&gt;{baseGearScore}&lt;/font&gt;.</string>
 	<string key="ui_cannot_replace_gem_tooltip">Nie można zamienić tego klejnotu.</string>
 	<string key="ui_no_gems_tooltip">Brak dostępnych klejnotów</string>
 	<string key="ui_gem_select_popup_available">Dostępne klejnoty</string>
@@ -1634,7 +1648,7 @@
 	<string key="ui_escapemenu_proceed_to_new_world">Pomiń samouczek</string>
 	<string key="ui_proceed_to_new_world_popup_title">Pomiń samouczek</string>
 	<string key="ui_proceed_to_new_world_popup_message">Czy na pewno chcesz pominąć samouczek?\nWszystkie monety i przedmioty oraz całe doświadczenie przepadną.</string>
-	<string key="ui_additional_items">+{count} dodatkowych przedmiotów</string>
+	<string key="ui_additional_items">+{count} przedmiotów</string>
 	<string key="ui_retest">Testuj ponownie</string>
 	<string key="ui_details">Szczegóły</string>
 	<string key="ui_averagefps">Średnie FPS</string>
@@ -1681,7 +1695,7 @@
 	<string key="ui_territory_tokens">Punkty rangi: {territory}</string>
 	<string key="ui_territory_standing_short" comment="one word version to show next to rewards in the banner">Ranga</string>
 	<string key="ui_territory_standing_with_icon">Ranga {territoryName}</string>
-	<string key="ui_redeem_a_reward">ODBIERZ NAGRODĘ</string>
+	<string key="ui_redeem_a_reward">ODBIERZ</string>
 	<string key="ui_not_enough_faction_standing">Nie masz wystarczającej ilości dostępnych punktów by odebrać tę nagrodę terytorialną.</string>
 	<string key="ui_exit_arena_title">Opuścić arenę?</string>
 	<string key="ui_exit_arena_desc">Gdy porzucisz arenę, nie będzie można na nią wrócić – stracisz też wszystkie nagrody. \n Nastąpi teleportacja poza arenę.</string>
@@ -1834,6 +1848,7 @@
 	<string key="ui_coin_max_withdrawal_tooltip">Limit twojego portfela wynosi {amount} monet.\nNie możesz pobrać większej kwoty, ponieważ limit zostałby przekroczony.</string>
 	<string key="ui_coin_max_sellorder_tooltip">Limit twojego portfela wynosi {amount} monet.\nStracisz wszystkie monety, które przekroczą ten limit wskutek sprzedaży.</string>
 	<string key="ui_coin_max_trade_tooltip">Limit twojego portfela wynosi {amount} monet.\nInny gracz próbuje przekazać ci więcej monet, niż jesteś w stanie przyjąć. Nadmiarowa kwota zostanie mu zwrócona.</string>
+	<string key="ui_listing_duration_tooltip">Wystawianie na dłuższy okres wiąże się z wyższymi prowizjami za wystawienie.</string>
 	<string key="ui_groupsize_identifier">Zalecany rozmiar grupy: {groupSize}</string>
 	<string key="ui_level_identifier">Zalecany poziom: {level}</string>
 	<string key="ui_recommendedlevel">Zalecany poziom</string>
@@ -2171,6 +2186,7 @@
 	<string key="ui_notificationaccept">Zaakceptuj powiadomienie</string>
 	<string key="ui_notificationdecline">Odrzuć powiadomienie</string>
 	<string key="ui_banneraccept">Zaakceptuj sztandar</string>
+	<string key="ui_togglepopupoption">Przełącz opcję wyskakującego okna</string>
 	<string key="ui_dialogue">Dialog</string>
 	<string key="ui_dialogueoption1">Opcja nr 1</string>
 	<string key="ui_dialogueoption2">Opcja nr 2</string>
@@ -2186,6 +2202,7 @@
 	<string key="ui_emotes_premium">Gesty premium</string>
 	<string key="ui_locked_account_title">KONTO ZABLOKOWANE</string>
 	<string key="ui_locked_account_description">Twoje konto zostało zablokowane.\n\nNie możesz korzystać z wybranych funkcji gry, takich jak dokonywanie zakupów w sklepie czy używanie przedmiotów nabytych w sklepie.</string>
+	<string key="ui_gearscore_modified">Liczba punktów wyposażenia dostosowana do średniej z sumy biegłości ({slot}) i punktów wyposażenia przedmiotu.</string>
 	<string key="ui_itemtypedescription_recipe">Schemat</string>
 	<string key="ui_itemtypedescription_sword">Miecz</string>
 	<string key="ui_itemtypedescription_hatchet">Siekierka</string>
@@ -2244,9 +2261,9 @@
 	<string key="ui_cannot_use_shield_abilities">Nie wyposażono się w tarczę</string>
 	<string key="ui_tooltip_effect_duration">Czas trwania efektu: &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{value}&lt;/font&gt;</string>
 	<string key="ui_cap_unfocused_fps">Limit FPS w tle</string>
-	<string key="ui_cap_unfocused_fps_desc">Gdy włączony, ogranicza ilość FPS przy minimalizacji czy braku ostrości.</string>
+	<string key="ui_cap_unfocused_fps_desc">Po włączeniu ogranicza liczbę klatek na sekundę przy minimalizacji lub zmianie aktywnego okna na inne</string>
 	<string key="ui_Enable_Viewport_Scale">Dynamiczne skalowanie rozdzielczości</string>
-	<string key="ui_Enable_Viewport_Scale_desc">Gdy włączone, dostosowuje automatycznie rozdzielczość wewnątrz gry by utrzymac ilość FPS.</string>
+	<string key="ui_Enable_Viewport_Scale_desc">Po włączeniu automatycznie dostosowuje rozdzielczość wewnątrz gry, by utrzymać liczbę klatek na sekundę</string>
 	<string key="ui_gathering_disabled">Zbieranie jest obecnie niemożliwe</string>
 	<string key="ui_linktochat_disabled">Link do czatu jest teraz nieaktywny</string>
 	<string key="ui_autopinObjectivesMain">Automatycznie przypinaj zadania główne</string>
@@ -2274,8 +2291,16 @@
 	<string key="ui_cannot_chat_global_blocked">Nie możesz rozmawiać na tym kanale, dopóki twoje konto nie będzie starsze niż {hoursNeeded} godz.</string>
 	<string key="ui_complete_quests_to_unlock">Ukończ zadania w osadzie, by odblokować</string>
 	<string key="ui_averageexpertise">Przeciętna\nbiegłość</string>
-	<string key="ui_averageexpertisetooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;Biegłość&lt;/font&gt;\nBiegłość określa potencjalną moc przedmiotów pochodzących z łupów. Łupy upuszczane przez wrogów i znajdowane w strefach powyżej 60. poziomu mają szansę na zwiększenie tej wartości. Jeśli chcesz zwiększać biegłość, musisz w miarę jej rozwoju walczyć z coraz potężniejszymi wrogami i odwiedzać coraz potężniejsze strefy.</string>
+	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Biegłość&lt;/font&gt;\nBiegłość służy do określania maksymalnej mocy używanego przedmiotu.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Maksymalna biegłość do osiągnięcia&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Zwiększanie biegłości&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Elitarne lokacje i ekspedycje&lt;/font&gt;\nŁupy upuszczane przez wrogów i znajdowane w skrzyniach w strefach powyżej 60. poziomu mają szansę na zwiększenie tej wartości.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Rzemiosło&lt;/font&gt;\nWytworzenie przedmiotu mającego 600 pkt wyposażenia zwiększy biegłość w tym rodzaju przedmiotu.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Odlew gipsowy&lt;/font&gt;\nOtwarcie odlewu gipsowego zwiększy biegłość.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ulepszenie przedmiotu (odłamkami umbralu)&lt;/font&gt;\nPo osiągnięciu 600 pkt biegłości jedynym sposobem na jej zwiększenie jest ulepszenie przedmiotów odłamkami umbralu.</string>
 	<string key="ui_itemtypedescription_shield_only">Tarcza</string>
-	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_expertise_small" scale="1" yOffset="3.5"&gt;&lt;/img&gt;{value}</string>
+	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}</string>
+	<string key="ui_expertise_warning_with_icon">&lt;font color="#ff9393"&gt;&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_red" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}&lt;/font&gt;</string>
+	<string key="ui_expertise_increased">Biegłość wzrosła!</string>
+	<string key="ui_expertise_tooltip_header">Łączna biegłość: {category}</string>
+	<string key="ui_expertise_tooltip_breakdown">(&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{value} &lt;/font&gt; &lt;font color="#ffffff"&gt;+ {additional}&lt;/font&gt; z ulepszenia umbralem)</string>
+	<string key="ui_expertise_tooltip_breakdown_multiple">(&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{value} &lt;/font&gt; &lt;font color="#ffffff"&gt;+ {additional}&lt;/font&gt; z ulepszeń umbralem)</string>
+	<string key="ui_expertise_tooltip_increase">&lt;font color="#ffffff"&gt;Maksymalna&lt;/font&gt; wartość biegłości możliwa do osiągnięcia dzięki wrogom, skrzyniom, odlewom gipsowym i rzemiosłu to &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt;.</string>
+	<string key="ui_expertise_tooltip_maximum">Aby zwiększyć biegłość powyżej &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt;, ulepsz przedmiot w tym miejscu za pomocą &lt;font color="#ffffff"&gt;odłamków umbralu&lt;/font&gt;.</string>
+	<string key="ui_expertise_crafting_gain">Biegłość: {category}</string>
 </resources>
 

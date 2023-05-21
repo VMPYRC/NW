@@ -75,6 +75,7 @@
 	<string key="ui_selectallouposts">Todos os Assentamentos</string>
 	<string key="ui_currentsellers">Pedidos de Venda Atuais</string>
 	<string key="ui_currentbuyers">Pedidos de Compra Atuais</string>
+	<string key="ui_store_item_cooldown_desc">&lt;font color="#ffdb7a"&gt;Depois que este item for comprado, você terá que aguardar {cooldownDuraction} para comprá-lo novamente.&lt;/font&gt;</string>
 	<string key="ui_postordererror_outpostfull">Você não pode fazer um pedido de compra, pois o armazém está cheio.</string>
 	<string key="ui_postordererror_outpostfull_button">O ARMAZÉM ESTÁ CHEIO</string>
 	<string key="ui_postordererror_buy_notenoughmoney">Você não tem dinheiro suficiente para fazer um pedido de compra.</string>
@@ -105,7 +106,7 @@
 	<string key="ui_contract_failure_maximum_contracts">O número máximo de pedidos já foi criado.</string>
 	<string key="ui_contract_failure_insufficient_gold">Fundos Insuficientes</string>
 	<string key="ui_contract_failure_insufficient_gold_desc">Você não tem dinheiro suficiente para completar a transação.</string>
-	<string key="ui_contract_failure_no_quantity_selected">Selecione a quantidade.</string>
+	<string key="ui_contract_failure_no_quantity_selected">Selecione a quantidade</string>
 	<string key="ui_contract_failure_already_has_item">Não é possível comprar mais deste tipo de item.</string>
 	<string key="ui_contract_failure_insufficient_items">Itens insuficientes.</string>
 	<string key="ui_contract_failure_outpost_storage_full">O armazenamento do Assentamento está cheio.</string>
@@ -116,6 +117,7 @@
 	<string key="ui_contract_failure_throttled">A solicitação foi interrompida. Aguarde e tente novamente.</string>
 	<string key="ui_contract_failure_coin_transferal_disabled">Transferência de moedas desativada.</string>
 	<string key="ui_contract_failure_trading_post_disabled">Entreposto Comercial desativado.</string>
+	<string key="ui_contract_failure_cooldown">Pode comprar em: {cooldownTime} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" xPadding="0" scale="1.1" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="ui_contract_failure_generic">Algo deu errado. Tente novamente.</string>
 	<string key="ui_sell_instant_price">Preço de Venda Instantânea</string>
 	<string key="ui_buy_instant_price">Preço de Compra Instantânea</string>

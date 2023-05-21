@@ -131,7 +131,7 @@
 	<string key="dye_crafting_craft_button">Stwórz</string>
 	<string key="dye_crafting_invalid">Nieprawidłowa kombinacja</string>
 	<string key="dye_crafting_not_at_station">Musisz znajdować się przy repozytorium arkanistycznym.</string>
-	<string key="cooldown_threshold">Próg czasu odnowienia: {count}</string>
+	<string key="cooldown_threshold">&lt;img src="lyshineui/images/icons/misc/icon_question_orange.dds" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; Czas odnowienia: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{time}&lt;/font&gt; | Próg czasu odnowienia: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{count}&lt;/font&gt;</string>
 	<string key="cooldown_threshold_tooltip">Po wytworzeniu {count} przedmiotów musisz odczekać {time} przed wytworzeniem kolejnego egzemplarza.</string>
 	<string key="cooldown_cancraftin">Można wytworzyć za {time} &lt;img src="lyshineui/images/icons/misc/icon_hourglass" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="crafting_always_available">Zawsze dostępne</string>
@@ -177,7 +177,7 @@
 	<string key="crafting_azothbonus_perk3">Profit 3</string>
 	<string key="crafting_azothbonus_perk4">Profit 4</string>
 	<string key="crafting_azothbonus_gemslot">Gniazdo na klejnot</string>
-	<string key="crafting_guaranteed_perk">&lt;img src="lyshineui/images/{perkImage}.dds" xPadding="2" scale="2" yOffset="8"&gt;&lt;/img&gt; {perkName}</string>
+	<string key="crafting_guaranteed_perk">&lt;img src="{perkImage}" xPadding="2" scale="2" yOffset="8"&gt;&lt;/img&gt; {perkName}</string>
 	<string key="crafting_lowchance">&lt;font color="#f25d5d"&gt;Mała&lt;/font&gt; szansa</string>
 	<string key="crafting_medchance">&lt;font color="#f67817"&gt;Średnia&lt;/font&gt; szansa</string>
 	<string key="crafting_highchance">&lt;font color="#17aa7b"&gt;Duża&lt;/font&gt; szansa</string>

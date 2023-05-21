@@ -23,6 +23,8 @@
 	<string key="ui_groupinvitedeclinesentmessage" comment="">Recusou o convite de grupo de &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt;.</string>
 	<string key="ui_groupinvitedeclineraid" comment="">Recusou o convite de grupo</string>
 	<string key="ui_groupinvitewithdrawnreceivermessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; cancelou o convite de grupo.</string>
+	<string key="ui_groupinvitewithdrawnreceivermessage_SHE" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; cancelou o convite de grupo.</string>
+	<string key="ui_groupinvitewithdrawnreceivermessage_THEY" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; cancelou o convite de grupo.</string>
 	<string key="ui_groupinvitewithdrawnsendermessage" comment="">Retirou o convite de grupo para &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt;.</string>
 	<string key="ui_groupinvitewithdrawnraid" comment="">Convite de Grupo retirado</string>
 	<string key="ui_leftgroupmessage" comment="">Saiu do Grupo</string>
@@ -64,7 +66,9 @@
 	<string key="ui_groupmaxinviteserrormessage" comment="">Não foi possível convidar {playerName}, o número máximo de convites foi atingido.</string>
 	<string key="ui_groupfromplayerofflineerrormessage" comment="">Convite de grupo removido: {playerName} ficou offline.</string>
 	<string key="ui_groupinvitetoplayerofflineerrormessage" comment="">Convite de grupo falhou: {playerName} ficou offline.</string>
-	<string key="ui_grouptoplayerofflineerrormessage" comment="">Não foi possível convidar {playerName}, pois está offline.</string>
+	<string key="ui_grouptoplayerofflineerrormessage" comment="">Não foi possível convidar {playerName}, pois ele está offline.</string>
+	<string key="ui_grouptoplayerofflineerrormessage_SHE" comment="">Não foi possível convidar {playerName}, pois ela está offline.</string>
+	<string key="ui_grouptoplayerofflineerrormessage_THEY" comment="">Não foi possível convidar {playerName}, pois está offline.</string>
 	<string key="ui_groupinvitefailedgroupfullmessage" comment="">Erro no convite de grupo: o grupo de {playerName} está cheio.</string>
 	<string key="ui_groupinvitefailederrormessage" comment="">Falha ao responder ao convite do grupo de {playerName}.</string>
 	<string key="ui_groupinvitefailedraid" comment="">Falha ao responder o convite</string>

@@ -131,7 +131,7 @@
 	<string key="dye_crafting_craft_button">Fabricar</string>
 	<string key="dye_crafting_invalid">Combinación no válida</string>
 	<string key="dye_crafting_not_at_station">Tienes que estar en un depósito arcano.</string>
-	<string key="cooldown_threshold">Umbral de tiempo de reutilización: {count}</string>
+	<string key="cooldown_threshold">&lt;img src="lyshineui/images/icons/misc/icon_question_orange.dds" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; Tiempo de reutilización: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{time}&lt;/font&gt; | Umbral de tiempo de reutilización: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{count}&lt;/font&gt;</string>
 	<string key="cooldown_threshold_tooltip">Si fabricas {count} unidades de este objeto, tendrás que esperar {time} para fabricarlo de nuevo.</string>
 	<string key="cooldown_cancraftin">Se puede fabricar en {time} &lt;img src="lyshineui/images/icons/misc/icon_hourglass" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="crafting_always_available">Siempre disponible</string>
@@ -177,7 +177,7 @@
 	<string key="crafting_azothbonus_perk3">Beneficio 3</string>
 	<string key="crafting_azothbonus_perk4">Beneficio 4</string>
 	<string key="crafting_azothbonus_gemslot">Ranura para gemas</string>
-	<string key="crafting_guaranteed_perk">&lt;img src="lyshineui/images/{perkImage}.dds" xPadding="2" scale="2" yOffset="8"&gt;&lt;/img&gt; {perkName}</string>
+	<string key="crafting_guaranteed_perk">&lt;img src="{perkImage}" xPadding="2" scale="2" yOffset="8"&gt;&lt;/img&gt; {perkName}</string>
 	<string key="crafting_lowchance">Probabilidad &lt;font color="#f25d5d"&gt;baja&lt;/font&gt;</string>
 	<string key="crafting_medchance">Probabilidad &lt;font color="#f67817"&gt;media&lt;/font&gt;</string>
 	<string key="crafting_highchance">Probabilidad &lt;font color="#17aa7b"&gt;alta&lt;/font&gt;</string>

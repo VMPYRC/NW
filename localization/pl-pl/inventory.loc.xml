@@ -9,6 +9,8 @@
 	<string key="inv_discard_life_warning">Inni gracze nie widzą i nie mogą zabrać tych przedmiotów. Gdy ta torba zniknie (po 3 minutach), przedmioty przepadną na zawsze.</string>
 	<string key="inv_encumbered">Przeciążenie</string>
 	<string key="inv_unencumbered">Brak przeciążenia</string>
+	<string key="inv_slotsfull">Osiągnięto limit przedmiotu</string>
+	<string key="inv_encumbered_and_slotsfull">Przeciążenie + osiągnięto limit przedmiotu</string>
 	<string key="ui_quantity_with_amount">x {amount}</string>
 	<string key="inv_weapons">Broń</string>
 	<string key="inv_ammo">Amunicja</string>
@@ -68,7 +70,7 @@
 	<string key="inv_equipLoadEncumberedTooltip">Masz za dużo przedmiotów w ekwipunku. W przypadku przeciążenia ciężar wyposażenia nie ma znaczenia. Nie możesz biegać sprintem ani wykonywać uników, a blokowanie zużywa więcej wytrzymałości. Usuń część przedmiotów ze swojego plecaka.</string>
 	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Waga przenoszonych przez ciebie przedmiotów przekracza maksymalny ciężar wyposażenia. Nie możesz wykonywać uników ani poruszać się sprintem i otrzymujesz karę do szybkości regeneracji energii. Odłóż część przedmiotów.</string>
 	<string key="inv_equipLoadFastNotification">Twoje aktualne wyposażenie jest lekkie</string>
-	<string key="inv_equipLoadNormalNotification">Twoje aktualne wyposażenie ma normalny ciężar</string>
+	<string key="inv_equipLoadNormalNotification">Twoje aktualne wyposażenie ma średni ciężar</string>
 	<string key="inv_equipLoadSlowNotification">Twoje aktualne wyposażenie jest ciężkie</string>
 	<string key="inv_equipLoadOverburdenedNotification">Nadmiar wyposażenia – nie możesz wykonywać uników ani biegać sprintem</string>
 	<string key="inv_equipLoadEncumberedNotification">Przeciążenie – nie możesz biegać sprintem, skakać ani wykonywać uników</string>
@@ -84,7 +86,7 @@
 	<string key="inv_repairparts_quantity">Części zamienne: {count}</string>
 	<string key="inv_repairparts_tooltip_name">CZĘŚCI ZAMIENNE</string>
 	<string key="ui_repairparts">Części zamienne</string>
-	<string key="inv_repairparts_tooltip_description">Części zamienne to wyjątkowe zasoby używane do naprawy przedmiotów.\n\nCzęści zamiennych nie można kupić, sprzedać ani nimi handlować. Aby zdobyć więcej części, rozbieraj na części broń i pancerz, których już nie potrzebujesz.</string>
+	<string key="inv_repairparts_tooltip_description">Części zamienne to zasoby używane do naprawy przedmiotów.\n\nCzęści zamiennych nie można kupić, sprzedać ani nimi handlować. By zdobyć więcej, rozbieraj na części niepotrzebne elementy pancerza i broń.</string>
 	<string key="inv_repairparts_tooltip_drivedfrom">Broń i pancerz</string>
 	<string key="inv_azoth_tooltip_drivedfrom">Wyłomy skażenia, zadania</string>
 	<string key="inv_repairparts_nearlimit">&lt;font color="#ff2e2e"&gt;Prawie osiągnięto limit części zamiennych.&lt;/font&gt;</string>
@@ -124,7 +126,7 @@
 	<string key="ui_currency_toplayer">Dla gracza</string>
 	<string key="ui_currency_totreasury">Do skarbca kompanii</string>
 	<string key="ui_new_primary_tool_set">Nowy główny zestaw narzędzi ({gatheringType})</string>
-	<string key="ui_storage_is_full">Magazyn jest pełny.</string>
+	<string key="ui_storage_is_full">Magazyn jest pełny</string>
 	<string key="ui_storage_is_empty">Magazyn jest pusty</string>
 	<string key="ui_retrieving_storage">Pobieranie danych magazynu</string>
 	<string key="ui_split_stack">Podziel stos</string>
@@ -154,7 +156,7 @@
 	<string key="ui_physical_defense_full">Odporność na obrażenia fizyczne</string>
 	<string key="ui_elemental_defense_short">ŻYW.</string>
 	<string key="ui_elemental_defense_full">Odporność na obrażenia od żywiołów</string>
-	<string key="ui_damage_resistance">Odporność na obrażenia</string>
+	<string key="ui_damage_resistance">Odp. na obrażenia</string>
 	<string key="ui_Strength_short">SIŁ.</string>
 	<string key="ui_Dexterity_short">ZR.</string>
 	<string key="ui_Intelligence_short">INT.</string>

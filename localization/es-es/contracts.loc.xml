@@ -75,6 +75,7 @@
 	<string key="ui_selectallouposts">Todos los asentamientos</string>
 	<string key="ui_currentsellers">Ofertas de venta actuales</string>
 	<string key="ui_currentbuyers">Ofertas de compra actuales</string>
+	<string key="ui_store_item_cooldown_desc">&lt;font color="#ffdb7a"&gt;Una vez comprado este artículo, tienes que esperar {cooldownDuraction} para volver a comprarlo.&lt;/font&gt;</string>
 	<string key="ui_postordererror_outpostfull">No puedes hacer la oferta de compra porque el almacenamiento de tu puesto remoto está lleno.</string>
 	<string key="ui_postordererror_outpostfull_button">ALMACENAMIENTO DEL PUESTO REMOTO LLENO</string>
 	<string key="ui_postordererror_buy_notenoughmoney">No tienes suficientes monedas para hacer la oferta de compra.</string>
@@ -116,6 +117,7 @@
 	<string key="ui_contract_failure_throttled">La solicitud se ha detenido. Espera un poco e inténtalo de nuevo.</string>
 	<string key="ui_contract_failure_coin_transferal_disabled">Transferencia de monedas desactivada.</string>
 	<string key="ui_contract_failure_trading_post_disabled">Puesto comercial desactivado.</string>
+	<string key="ui_contract_failure_cooldown">Se puede comprar en: {cooldownTime} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" xPadding="0" scale="1.1" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="ui_contract_failure_generic">Se ha producido un error. Inténtalo de nuevo.</string>
 	<string key="ui_sell_instant_price">Precio de venta instantáneo</string>
 	<string key="ui_buy_instant_price">Precio de compra instantáneo</string>

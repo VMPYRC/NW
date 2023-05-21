@@ -89,11 +89,16 @@
 	<string key="ui_housing_decorations">Modo de decoración</string>
 	<string key="ui_housing_features">Características de vivienda</string>
 	<string key="ui_housing_grid_snap_hint">Colocación de cuadrícula</string>
+	<string key="ui_housing_grid_snap_hint_colon">Colocación de cuadrícula:</string>
 	<string key="ui_housing_hide_ui">Sin IU</string>
 	<string key="ui_housing_item_count">Decoraciones colocadas</string>
 	<string key="ui_housing_item_score">Puntuación de decoración</string>
+	<string key="ui_housing_item_total">Decoraciones totales</string>
+	<string key="ui_housing_item_storage">Contenedores de almacenamiento</string>
+	<string key="ui_housing_item_animated">Decoraciones animadas</string>
 	<string key="ui_housing_next_due_in">Impuesto a pagar en</string>
 	<string key="ui_housing_surface_lock_hint">Anclar a la superficie</string>
+	<string key="ui_housing_surface_lock_hint_colon">Anclar a la superficie:</string>
 	<string key="ui_housing_owned_filter">Mostrar solo objetos en posesión</string>
 	<string key="ui_housing_pay_taxes">Pagar impuesto</string>
 	<string key="ui_housing_no_items_found">Ninguno</string>
@@ -157,6 +162,7 @@
 	<string key="ui_housingDecResult_TimeOut">No se puede colocar; se agotó el tiempo</string>
 	<string key="ui_housingDecResult_ItemLimit">No se puede colocar; demasiados objetos</string>
 	<string key="ui_housingDecResult_TagLimit">No se puede colocar; demasiados objetos de este tipo</string>
+	<string key="ui_buildmode_disabled">El modo de decoración está en mantenimiento y se ha deshabilitado temporalmente</string>
 	<string key="ui_housingDecResult_entitlementLimit">No se puede colocar; demasiados objetos de este tipo</string>
 	<string key="ui_inn_checked_in">{territoryName} es tu nuevo punto de regreso.</string>
 	<string key="ui_active_home_point_fail">Error al registrar</string>
@@ -201,7 +207,7 @@
 	<string key="ui_view_taxinfo">Detalles del asentamiento / Información sobre la guerra</string>
 	<string key="ui_view_personalstorage">Mi almacenamiento</string>
 	<string key="ui_more_info">Más información</string>
-	<string key="ui_company_discount">Descuento de compañía ({discountPercent} %):</string>
+	<string key="ui_company_discount">{discountPercent} % por tu compañía</string>
 	<string key="@ui_house_refunded_title">Casa reembolsada</string>
 	<string key="@ui_house_refunded_message">Debido a los cambios en {settlement}, se te ha reembolsado la casa. Has recuperado {cost}&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; y todos los objetos.</string>
 	<string key="@ui_house_items_refunded_title">Objetos de la casa reembolsados</string>
@@ -231,5 +237,13 @@
 	<string key="ui_house_lost_restored_title">Casa restaurada</string>
 	<string key="ui_house_lost_refunded_message">Hemos descubierto que tu casa se perdió debido a un problema con el juego. Se ha restaurado tu casa en {settlement} y se ha vuelto a poner el mobiliario en tu espacio de almacenamiento.</string>
 	<string key="ui_house_lost_refunded_title">Casa reembolsada</string>
+	<string key="ui_housing_tip_title1">Controles de colocación</string>
+	<string key="ui_housing_tip_description1">Estando en el &lt;font color={colorHex}&gt;modo de decoración&lt;/font&gt;, utiliza &lt;font color={colorHex}&gt;rotar, recorte de cuadrícula&lt;/font&gt; y «&lt;font color={colorHex}&gt;bloquear en la superficie&lt;/font&gt;» para decorar tu casa como quieras.</string>
+	<string key="ui_housing_tip_title2">La colocación afecta los puntos conseguidos.</string>
+	<string key="ui_housing_tip_description2">Colocar objetos que no se solapan con otros es la manera más óptima de aumentar tu &lt;font color={colorHex}&gt;puntuación de decoración&lt;/font&gt; por cada objeto colocado.</string>
+	<string key="ui_housing_tip_title3">Bonus trofeos</string>
+	<string key="ui_housing_tip_description3">Cuelga &lt;font color={colorHex}&gt;trofeos&lt;/font&gt; para activar &lt;font color={colorHex}&gt;potenciadores pasivos&lt;/font&gt;.\n\nConsejo: Solo se pueden colocar 5 trofeos en cada casa, pero los efectos de los trofeos duplicados se pueden acumular.</string>
+	<string key="ui_housing_tip_title4">Objetos y puntuación totales</string>
+	<string key="ui_housing_tip_description4">El panel en la parte derecha de tu pantalla te indica la &lt;font color={colorHex}&gt;puntuación de decoración&lt;/font&gt; y las &lt;font color={colorHex}&gt;limitaciones de decoración&lt;/font&gt; de tu casa.\n\nConsejo: Colocar demasiados objetos iguales restará puntos de tu puntuación de decoración.</string>
 </resources>
 

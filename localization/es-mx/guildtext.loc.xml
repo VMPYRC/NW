@@ -1,7 +1,9 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="ui_alignmentrequesttitle">Intenciones amistosas</string>
 	<string key="ui_alignmentacceptedmessage">Intenciones amistosas intercambiadas con: &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
-	<string key="ui_alignmentrequestrecipientmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; te ha saludado. Para responder el saludo, apunta hacia el jugador y presiona [{keybind}].</string>
+	<string key="ui_alignmentrequestrecipientmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; te ha saludado. Para responder el saludo, apunta hacia él y presiona [{keybind}].</string>
+	<string key="ui_alignmentrequestrecipientmessage_SHE">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; te ha saludado. Para responder el saludo, apunta hacia ella y presiona [{keybind}].</string>
+	<string key="ui_alignmentrequestrecipientmessage_THEY">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; te ha saludado. Para responder el saludo, apunta hacia el jugador y presiona [{keybind}].</string>
 	<string key="ui_alignmentrequestsendermessage">Enviaste intenciones amistosas a: &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
 	<string key="ui_alignmenttimedoutrecipientmessage">No se devolvió el saludo. &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; tal vez lo recuerde.</string>
 	<string key="ui_alignmenttimedoutsendermessage">No te devolvió el saludo.</string>
@@ -91,6 +93,8 @@
 	<string key="ui_guildownershipchangetitle">Cambio de propiedad de la compañía</string>
 	<string key="ui_guildsetmemberrankfailednoconsultitle">Debe haber un cónsul</string>
 	<string key="ui_guildsetmemberrankfailednoconsulmessage">No se puede cambiar el rango de {playerName}, ya que no hay ningún otro cónsul que pueda ocupar su lugar.</string>
+	<string key="ui_guildsetmemberrankfailednoconsulmessage_SHE">No se puede cambiar el rango de {playerName}, ya que no hay ningún otro cónsul que pueda ocupar su lugar.</string>
+	<string key="ui_guildsetmemberrankfailednoconsulmessage_THEY">No se puede cambiar el rango de {playerName}, ya que no hay ningún otro cónsul que pueda ocupar su lugar.</string>
 	<string key="ui_guildpermissionstab">Permisos</string>
 	<string key="ui_guildranknameinusemessage">El nombre de rango ya existe.</string>
 	<string key="ui_guildoverviewtab">Vista general</string>

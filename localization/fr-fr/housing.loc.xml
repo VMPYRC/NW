@@ -89,11 +89,16 @@
 	<string key="ui_housing_decorations">Mode Décoration</string>
 	<string key="ui_housing_features">Fonctionnalités de logement</string>
 	<string key="ui_housing_grid_snap_hint">Placement</string>
+	<string key="ui_housing_grid_snap_hint_colon">Placement :</string>
 	<string key="ui_housing_hide_ui">Masquer</string>
 	<string key="ui_housing_item_count">Décorations placées</string>
 	<string key="ui_housing_item_score">Score de décoration</string>
+	<string key="ui_housing_item_total">Décorations totales</string>
+	<string key="ui_housing_item_storage">Caisses de rangement</string>
+	<string key="ui_housing_item_animated">Décor animé</string>
 	<string key="ui_housing_next_due_in">Prochain paiement dans</string>
 	<string key="ui_housing_surface_lock_hint">Verrouiller à la surface</string>
+	<string key="ui_housing_surface_lock_hint_colon">Verrouiller à la surface :</string>
 	<string key="ui_housing_owned_filter">N'afficher que les objets possédés</string>
 	<string key="ui_housing_pay_taxes">Payer les impôts</string>
 	<string key="ui_housing_no_items_found">Aucun</string>
@@ -157,6 +162,7 @@
 	<string key="ui_housingDecResult_TimeOut">Placement impossible, délai dépassé</string>
 	<string key="ui_housingDecResult_ItemLimit">Placement impossible, trop d'objets</string>
 	<string key="ui_housingDecResult_TagLimit">Placement impossible, trop d'objets de ce type</string>
+	<string key="ui_buildmode_disabled">Le mode Décoration est en maintenance et actuellement désactivé.</string>
 	<string key="ui_housingDecResult_entitlementLimit">Placement impossible, trop d'objets de ce type</string>
 	<string key="ui_inn_checked_in">{territoryName} est enregistré en tant que nouveau point de retour.</string>
 	<string key="ui_active_home_point_fail">Échec de l'enregistrement</string>
@@ -231,5 +237,13 @@
 	<string key="ui_house_lost_restored_title">Maison restaurée</string>
 	<string key="ui_house_lost_refunded_message">Votre maison a été perdue à cause d'un problème en jeu. Votre maison à {settlement} a été remboursée et ses meubles ont été remis dans votre espace de rangement.</string>
 	<string key="ui_house_lost_refunded_title">Maison remboursée</string>
+	<string key="ui_housing_tip_title1">Commandes de placement</string>
+	<string key="ui_housing_tip_description1">En &lt;font color={colorHex}&gt;mode Décoration&lt;/font&gt;, utilisez les fonctionnalités de &lt;font color={colorHex}&gt;rotation, d'alignement avec la grille&lt;/font&gt; et « &lt;font color={colorHex}&gt;Verrouiller à la surface&lt;/font&gt; » pour décorer votre maison comme vous l'entendez.</string>
+	<string key="ui_housing_tip_title2">Le placement affecte le nombre de points obtenus</string>
+	<string key="ui_housing_tip_description2">Placer des objets en ne les faisant pas chevaucher d'autres est le meilleur moyen d'augmenter le &lt;font color={colorHex}&gt;score de décoration&lt;/font&gt; avec chaque objet placé.</string>
+	<string key="ui_housing_tip_title3">Bonus de trophées</string>
+	<string key="ui_housing_tip_description3">Accrochez des &lt;font color={colorHex}&gt;trophées&lt;/font&gt; pour activer des &lt;font color={colorHex}&gt;bonus passifs&lt;/font&gt;.\n\nConseil : une maison ne peut contenir que 5 trophées, mais les effets des trophées en double s'additionnent.</string>
+	<string key="ui_housing_tip_title4">Objets et score totaux</string>
+	<string key="ui_housing_tip_description4">La fenêtre à droite de l'écran vous indique le &lt;font color={colorHex}&gt;score de décoration&lt;/font&gt; et les &lt;font color={colorHex}&gt;limites de décoration&lt;/font&gt; de votre maison.\n\nConseil : placer trop d'exemplaires du même objet réduira votre score de décoration.</string>
 </resources>
 

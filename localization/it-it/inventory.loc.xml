@@ -9,6 +9,8 @@
 	<string key="inv_discard_life_warning">Gli altri giocatori non possono vedere né prendere questi oggetti. Quando questa borsa scompare (dopo 3 minuti), gli oggetti saranno spariti per sempre.</string>
 	<string key="inv_encumbered">Troppo peso</string>
 	<string key="inv_unencumbered">Peso adeguato</string>
+	<string key="inv_slotsfull">Limite di oggetti raggiunto</string>
+	<string key="inv_encumbered_and_slotsfull">Limite di oggetti e di peso raggiunti</string>
 	<string key="ui_quantity_with_amount">{amount} x</string>
 	<string key="inv_weapons">Armi</string>
 	<string key="inv_ammo">Munizioni</string>
@@ -68,7 +70,7 @@
 	<string key="inv_equipLoadEncumberedTooltip">Stai trasportando troppi oggetti nell'inventario. Quando hai troppo peso, non importa qual è il tuo carico equipaggiato. Non puoi scattare o schivare e perderai più energia durante la parata. Dovresti rimuovere qualche oggetto dalla borsa.</string>
 	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Hai superato il carico massimo equipaggiabile. Non puoi schivare né scattare e la tua rigenerazione di energia è molto ridotta. Dovresti rimuovere qualche oggetto.</string>
 	<string key="inv_equipLoadFastNotification">Il carico equipaggiato ora è leggero.</string>
-	<string key="inv_equipLoadNormalNotification">Il carico equipaggiato ora è normale.</string>
+	<string key="inv_equipLoadNormalNotification">Il carico equipaggiato ora è medio.</string>
 	<string key="inv_equipLoadSlowNotification">Il carico equipaggiato ora è pesante.</string>
 	<string key="inv_equipLoadOverburdenedNotification">Sovraccarico - Non puoi schivare né scattare</string>
 	<string key="inv_equipLoadEncumberedNotification">Troppo peso - Non puoi schivare, né saltare, né scattare</string>

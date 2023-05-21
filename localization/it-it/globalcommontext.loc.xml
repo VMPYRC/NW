@@ -114,6 +114,10 @@
 	<string key="ui_affliction_drowning_tooltip">Se esaurisci il fiato, soffocherai e morirai</string>
 	<string key="ui_affliction_blight">resistenza al logoramento</string>
 	<string key="ui_affliction_blight_tooltip">Se esaurisci la resistenza al logoramento, diventerai logorato e infliggerai danni ridotti di un {[Type_StatusEffectData.Blight.DMGStandard * 100]}%, riceverai guarigione ridotta di un {[Type_StatusEffectData.Blight.HealMod * 100]}% e perderai un {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]}% della salute di base ogni {[Type_StatusEffectData.Blight.TickRate]} secondi per {[Afflictions.AfflictionBlight.AfflictedDrainTime]} secondi.</string>
+	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">resistenza combustibile</string>
+	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">timer combustibile.</string>
+	<string key="ui_affliction_mutcurse4" rel_version="Feature_Dungeon_Mutators">resistenza di ritorno</string>
+	<string key="ui_affliction_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Se rimani senza resistenza, attorno a te si attiverà un'area di Silenzio. L'area esploderà dopo un certo tempo, infliggendo danni a giocatori e creature. La resistenza è condivisa da tutti i membri del tuo gruppo.</string>
 	<string key="ui_afflicted_bleeding">sanguinamento</string>
 	<string key="ui_afflicted_bleeding_tooltip">Quando sanguini, rigeneri energia molto più lentamente</string>
 	<string key="ui_afflicted_burn">rovente</string>
@@ -134,6 +138,10 @@
 	<string key="ui_afflicted_drowning_tooltip">Sei annegato</string>
 	<string key="ui_afflicted_blight">logorato</string>
 	<string key="ui_afflicted_blight_tooltip">Mentre sei logorato, infliggi danni ridotti di un {[Type_StatusEffectData.Blight.DMGStandard * 100]}%, ricevi guarigione ridotta di un {[Type_StatusEffectData.Blight.HealMod * 100]}% e perdi un {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]}% della salute di base ogni {[Type_StatusEffectData.Blight.TickRate]} secondi.</string>
+	<string key="ui_afflicted_mutcurse3" rel_version="Feature_Dungeon_Mutators">combustione</string>
+	<string key="ui_afflicted_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Allo scadere del tempo, il giocatore con la percentuale minore di salute diventa Combustibile.</string>
+	<string key="ui_afflicted_mutcurse4" rel_version="Feature_Dungeon_Mutators">maledetto</string>
+	<string key="ui_afflicted_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Usa le abilità per riempire la barra. Quando sarà piena, tutti i giocatori riceveranno Di ritorno.</string>
 	<string key="ui_agreement">Continuando, accetti le</string>
 	<string key="ui_ahhhhh">AHHHHH!!!!</string>
 	<string key="ui_aimsensitivity">Sensibilità mira</string>
@@ -278,6 +286,8 @@
 	<string key="ui_hours_with_time_short">{time} h</string>
 	<string key="ui_minutes_with_time">{time} minuti</string>
 	<string key="ui_minutes_with_time_short">{time} m</string>
+	<string key="ui_seconds_with_time">{time} secondi</string>
+	<string key="ui_seconds_with_time_short">{time} s</string>
 	<string key="ui_lastplayed">Ultima partita</string>
 	<string key="ui_minuteago">1 minuto fa</string>
 	<string key="ui_minutesago">{time} minuti fa</string>
@@ -863,7 +873,7 @@
 	<string key="ui_faction_select">Seleziona la tua fazione.</string>
 	<string key="ui_character_Select_title">Seleziona personaggio</string>
 	<string key="ui_character_options">Opzioni personaggio</string>
-	<string key="ui_character_merge_destination">Questo mondo ({worldName}) verrà fuso con {destinationWorldName} in data {date}. ({mergeTime})</string>
+	<string key="ui_character_merge_destination">Questo mondo ({worldName}) verrà fuso con {destinationWorldName} in data {date}.</string>
 	<string key="ui_xp">PE</string>
 	<string key="world_landing_title">Abbiamo selezionato per te il MONDO ottimale</string>
 	<string key="world_set">Set di mondi?</string>
@@ -1456,9 +1466,13 @@
 	<string key="ui_replace_gem">Sostituisci gemma</string>
 	<string key="ui_replace_gem_tooltip">Sostituisci la gemma attualmente incastonata con un'altra del tuo inventario. La gemma attuale andrà persa.</string>
 	<string key="ui_upgrade_warning_title">Migliora oggetto</string>
-	<string key="ui_upgrade_warning_body">Migliorare il punteggio attrezzatura dell'oggetto {itemName} da {baseGearScore} a {targetGearScore} richiede {itemCount} {upgradeItemName}.\n\nVuoi migliorare questo oggetto?</string>
-	<string key="ui_upgrade_tooltip_enabled">Per aumentare il punteggio attrezzatura di questo oggetto applica: {itemName}.</string>
-	<string key="ui_upgrade_tooltip_disabled">Per aumentare il punteggio attrezzatura di questo oggetto occorrono elementi aggiuntivi: {itemName}.</string>
+	<string key="ui_upgrade_warning_body">Migliorare il punteggio attrezzatura dell'oggetto {itemName} da {baseGearScore} a {targetGearScore} richiede {itemCount} {upgradeItemName}.\n\nIl miglioramento degli oggetti li vincolerà a te.\n\nVuoi migliorare questo oggetto?</string>
+	<string key="ui_upgrade_tooltip_enabled">Migliora l'oggetto applicando &lt;font color="#ffffff"&gt;{itemName}&lt;/font&gt;. Il &lt;font color="#ffffff"&gt;punteggio attrezzatura&lt;/font&gt; dell'oggetto aumenterà.</string>
+	<string key="ui_upgrade_tooltip_disabled_items">Per aumentare il punteggio attrezzatura di questo oggetto occorrono elementi aggiuntivi: almeno {quantity} {itemName}.</string>
+	<string key="ui_upgrade_tooltip_disabled_skill">Puoi migliorare solo le tipologie di oggetti per i quali possiedi una &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.2" yOffset="1"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;competenza di {neededValue}&lt;/font&gt;.\n({expertiseName} Competenza attuale: &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.2" yOffset="1"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{currentValue}&lt;/font&gt;)</string>
+	<string key="ui_upgrade_tooltip_disabled_broken">Gli oggetti rotti non possono essere migliorati.</string>
+	<string key="ui_upgrade_tooltip_disabled_gearscore">Puoi migliorare solo oggetti con un punteggio attrezzatura di almeno {gearScore}</string>
+	<string key="ui_upgrade_notification">Il punteggio attrezzatura dell'oggetto è aumentato a &lt;font color="#fffd7a"&gt;{baseGearScore}&lt;/font&gt;.</string>
 	<string key="ui_cannot_replace_gem_tooltip">Non puoi sostituire questa gemma.</string>
 	<string key="ui_no_gems_tooltip">Nessuna gemma disponibile</string>
 	<string key="ui_gem_select_popup_available">Gemme disponibili</string>
@@ -1834,6 +1848,7 @@
 	<string key="ui_coin_max_withdrawal_tooltip">Il limite massimo del tuo portafoglio è di {amount} monete.\nQuesto è l'importo massimo che puoi ricevere senza superare il limite.</string>
 	<string key="ui_coin_max_sellorder_tooltip">Il limite massimo del tuo portafoglio è di {amount} monete.\nLe monete in eccesso al momento della vendita andranno perse.</string>
 	<string key="ui_coin_max_trade_tooltip">Il limite massimo del tuo portafoglio è di {amount} monete.\nL'altro giocatore sta cercando di fornirti più monete di quante tu ne possa trasportare. Le monete in eccesso verranno rimborsate.</string>
+	<string key="ui_listing_duration_tooltip">I listini più lunghi comporteranno commissioni più alte.</string>
 	<string key="ui_groupsize_identifier">Dimensione gruppo consigliata: {groupSize}</string>
 	<string key="ui_level_identifier">Livello consigliato: {level}</string>
 	<string key="ui_recommendedlevel">Livello consigliato</string>
@@ -2171,6 +2186,7 @@
 	<string key="ui_notificationaccept">Notifica di accettazione</string>
 	<string key="ui_notificationdecline">Notifica di rifiuto</string>
 	<string key="ui_banneraccept">Banner di accettazione</string>
+	<string key="ui_togglepopupoption">Attiva opzione popup</string>
 	<string key="ui_dialogue">Dialogo</string>
 	<string key="ui_dialogueoption1">Opzione 1</string>
 	<string key="ui_dialogueoption2">Opzione 2</string>
@@ -2186,6 +2202,7 @@
 	<string key="ui_emotes_premium">Emote premium</string>
 	<string key="ui_locked_account_title">ACCOUNT BLOCCATO</string>
 	<string key="ui_locked_account_description">Il tuo account è attualmente bloccato.\n\nFinché non verrà sbloccato, alcune funzionalità di gioco non saranno disponibili, ad esempio gli acquisti nel negozio e la possibilità di consumare oggetti del negozio.</string>
+	<string key="ui_gearscore_modified">Punteggio attrezzatura definito in base al punteggio attrezzatura dell'oggetto e alla competenza media di: {slot}</string>
 	<string key="ui_itemtypedescription_recipe">Ricetta</string>
 	<string key="ui_itemtypedescription_sword">Spada</string>
 	<string key="ui_itemtypedescription_hatchet">Accetta</string>
@@ -2274,8 +2291,16 @@
 	<string key="ui_cannot_chat_global_blocked">Per poter chattare in questo canale devi avere un account da più {hoursNeeded} ore</string>
 	<string key="ui_complete_quests_to_unlock">Completa missioni nell'insediamento per sbloccare</string>
 	<string key="ui_averageexpertise">Competenza\nmedia</string>
-	<string key="ui_averageexpertisetooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;Competenza&lt;/font&gt;\nLa competenza è un indicatore della possibile potenza degli oggetti lasciati. Gli oggetti lasciati in aree o da creature di livello 60 o superiore hanno la probabilità di far crescere questo valore. Con l'aumentare del livello di competenza, dovrai affrontare aree o creature più potenti per vedere ulteriori incrementi.</string>
+	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Competenza&lt;/font&gt;\nLa competenza consente di quantificare la potenza massima di un oggetto equipaggiato.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Competenza massima raggiungibile&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Come aumentare la competenza&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Spedizioni e punti d'interesse élite&lt;/font&gt;\nGli oggetti trovati nei forzieri o lasciati dalle creature in aree di livello 60 o superiore possono aumentare questo valore.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Produzione&lt;/font&gt;\nProdurre un oggetto con punteggio attrezzatura 600 aumenterà la competenza di questa tipologia di oggetti.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Calco di gesso&lt;/font&gt;\nAprire un calco di gesso aumenterà la competenza.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Miglioramento di oggetti (con schegge dell'ombra)&lt;/font&gt;Una volta raggiunta una competenza di 600, l'unico modo per aumentarla ulteriormente consiste nel migliorare gli oggetti usando le schegge dell'ombra.\n</string>
 	<string key="ui_itemtypedescription_shield_only">Scudo</string>
-	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_expertise_small" scale="1" yOffset="3.5"&gt;&lt;/img&gt;{value}</string>
+	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}</string>
+	<string key="ui_expertise_warning_with_icon">&lt;font color="#ff9393"&gt;&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_red" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}&lt;/font&gt;</string>
+	<string key="ui_expertise_increased">Competenza aumentata!</string>
+	<string key="ui_expertise_tooltip_header">Competenza totale {category}</string>
+	<string key="ui_expertise_tooltip_breakdown">(&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{value} &lt;/font&gt; &lt;font color="#ffffff"&gt;+ {additional}&lt;/font&gt; da miglioramento con ombra)</string>
+	<string key="ui_expertise_tooltip_breakdown_multiple">(&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{value} &lt;/font&gt; &lt;font color="#ffffff"&gt;+ {additional}&lt;/font&gt; da miglioramenti con ombra)</string>
+	<string key="ui_expertise_tooltip_increase">La competenza &lt;font color="#ffffff"&gt;massima&lt;/font&gt; ottenibile da nemici, forzieri, calchi di gesso e produzione è &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt;.</string>
+	<string key="ui_expertise_tooltip_maximum">Per aumentare la competenza oltre &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt;, migliora un oggetto in questo slot usando &lt;font color="#ffffff"&gt;schegge dell'ombra&lt;/font&gt;.</string>
+	<string key="ui_expertise_crafting_gain">Competenza {category}</string>
 </resources>
 

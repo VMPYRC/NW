@@ -89,11 +89,16 @@
 	<string key="ui_housing_decorations">Modalità arredamento</string>
 	<string key="ui_housing_features">Funzionalità della casa</string>
 	<string key="ui_housing_grid_snap_hint">Posizionamento della griglia</string>
+	<string key="ui_housing_grid_snap_hint_colon">Posizionamento della griglia:</string>
 	<string key="ui_housing_hide_ui">Nascondi IU</string>
 	<string key="ui_housing_item_count">Arredi posizionati</string>
 	<string key="ui_housing_item_score">Punteggio arredamento</string>
+	<string key="ui_housing_item_total">Arredi totali</string>
+	<string key="ui_housing_item_storage">Contenitori di deposito</string>
+	<string key="ui_housing_item_animated">Decorazioni animate</string>
 	<string key="ui_housing_next_due_in">Da pagare entro</string>
 	<string key="ui_housing_surface_lock_hint">Blocca sulla superficie</string>
+	<string key="ui_housing_surface_lock_hint_colon">Blocca sulla superficie:</string>
 	<string key="ui_housing_owned_filter">Mostra solo oggetti posseduti</string>
 	<string key="ui_housing_pay_taxes">Paga tassa</string>
 	<string key="ui_housing_no_items_found">Nessun oggetto trovato</string>
@@ -157,6 +162,7 @@
 	<string key="ui_housingDecResult_TimeOut">Non puoi posizionare: tempo scaduto.</string>
 	<string key="ui_housingDecResult_ItemLimit">Non puoi posizionare: troppi oggetti.</string>
 	<string key="ui_housingDecResult_TagLimit">Non puoi posizionare: troppi oggetti di questo tipo.</string>
+	<string key="ui_buildmode_disabled">Al momento la modalità arredamento è disabilitata perché in manutenzione</string>
 	<string key="ui_housingDecResult_entitlementLimit">Non puoi posizionare: troppi oggetti di questo tipo.</string>
 	<string key="ui_inn_checked_in">{territoryName} è ora il tuo nuovo punto di ritorno.</string>
 	<string key="ui_active_home_point_fail">Impossibile registrarsi</string>
@@ -231,5 +237,13 @@
 	<string key="ui_house_lost_restored_title">Casa ripristinata</string>
 	<string key="ui_house_lost_refunded_message">Abbiamo rilevato che è stata persa la tua casa a causa di un problema con il gioco. La tua casa a {settlement} è stata rimborsata e gli arredi sono stati restituiti al tuo magazzino.</string>
 	<string key="ui_house_lost_refunded_title">Casa rimborsata</string>
+	<string key="ui_housing_tip_title1">Comandi di posizionamento</string>
+	<string key="ui_housing_tip_description1">In &lt;font color={colorHex}&gt;modalità arredamento&lt;/font&gt;, usa le funzioni &lt;font color={colorHex}&gt;ruota, allinea alla griglia&lt;/font&gt; e &lt;font color={colorHex}&gt;blocca sulla superficie&lt;/font&gt; per arredare la casa esattamente come vuoi tu.</string>
+	<string key="ui_housing_tip_title2">Il posizionamento influisce sui punti ottenuti</string>
+	<string key="ui_housing_tip_description2">Posizionare gli oggetti senza intersecarne altri è il modo ideale per aumentare il &lt;font color={colorHex}&gt;punteggio arredamento&lt;/font&gt; per ogni oggetti posizionato.</string>
+	<string key="ui_housing_tip_title3">Potenziamenti trofei</string>
+	<string key="ui_housing_tip_description3">Appendi i &lt;font color={colorHex}&gt;trofei&lt;/font&gt; per attivare &lt;font color={colorHex}&gt;bonus passivi&lt;/font&gt;.\n\nSuggerimento: è possibile posizionare solo 5 trofei per casa, ma gli effetti di trofei doppioni sono cumulabili.</string>
+	<string key="ui_housing_tip_title4">Punteggio e oggetti totali</string>
+	<string key="ui_housing_tip_description4">Il pannello sulla destra dello schermo mostra il &lt;font color={colorHex}&gt;punteggio arredamento&lt;/font&gt; e i &lt;font color={colorHex}&gt;limiti di arredi&lt;/font&gt; della casa.\n\nSuggerimento: piazzare troppi oggetti dello stesso tipo comporterà una riduzione del punteggio arredamento.</string>
 </resources>
 

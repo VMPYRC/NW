@@ -23,7 +23,7 @@
 | [v1.2.0](https://www.newworld.com/en-us/news/articles/winter-convergence-festival-december-update) |    2021-12-16     | 8569381666148956766 |   2   |
 |           [v1.2.1](https://www.newworld.com/en-us/news/articles/new-world-update-1-2-1)            |    2021-12-22     | 8793701253768941953 |   2   |
 |           [v1.2.2](https://www.newworld.com/en-us/news/articles/new-world-update-1-2-2)            |    2022-01-12     | 5053787297631899628 |   2   |
-|           [v1.3.0](https://www.newworld.com/en-us/game/releases/january-update-mutators)           |    2022-01-25     | 1003187854538586339 |       |
+|           [v1.3.0](https://www.newworld.com/en-us/game/releases/january-update-mutators)           |    2022-01-25     | 1003187854538586339 |   2   |
 |           [v1.3.1](https://www.newworld.com/en-us/news/articles/new-world-update-1-3-1)            |    2022-02-03     | 7412876783710780419 |       |
 |           [v1.3.2](https://www.newworld.com/en-us/news/articles/new-world-update-1-3-2)            |    2022-02-10     | 3219946713811191063 |       |
 |       [v1.3.3](https://www.newworld.com/en-us/news/articles/new-world-february-2022-update)        |    2022-02-28     | 5673036503735452785 |       |

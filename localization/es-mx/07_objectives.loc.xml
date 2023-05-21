@@ -120,7 +120,7 @@
 	<string key="0718_0102_humble_interact_gather_item" comment="itemName = &quot;Cystic Blight Sample&quot;" speaker="UI">Recolecta {itemName} de un nódulo de plaga</string>
 	<string key="0718_0101_guardian_objective_title" speaker="UI - Journal - Quest  Title">Resistencia a la plaga</string>
 	<string key="0718_0101_guardian_start_prompt" speaker="UI – Player Prompt">"¿Hay algo que resista la plaga?</string>
-	<string key="0718_0101_guardian_proposal" comment="male referring to male (Survivalist Ellwood), male referring to male (Fay the Last Protector)" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0101_guardian_ProposalResponse" VO_Status="Recorded" dialogue-next="@0718_0101_guardian_proposal_next">Ah, ahora que lo mencionas, noté que algunas criaturas terrestres enojadas en la región parecen ser inmunes.\n\nSu líder es un dríade particularmente feroz conocido como Fay. Sospecho que será un problema, incluso para ti.</string>
+	<string key="0718_0101_guardian_proposal" comment="male referring to male (Survivalist Ellwood), male referring to male (Fay the Last Protector)" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0101_guardian_ProposalResponse" VO_Status="Recorded" dialogue-next="@0718_0101_guardian_proposal_next">Ah, ahora que lo mencionas, noté que algunas criaturas terrestres enojadas en la región parecen ser inmunes.\n\nSu líder es una dríade particularmente feroz conocido como Fay. Sospecho que será un problema, incluso para ti.</string>
 	<string key="0718_0101_guardian_proposal_prompt" speaker="UI – Player Prompt">"Lo intentaré de todos modos".</string>
 	<string key="0718_0101_guardian_proposal_next" comment="male referring to male (Survivalist Ellwood), male referring to male (Fay the Last Protector)" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0101_guardian_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0718_0101_guardian_proposal_prompt">Muy bien. Necesitaré otra muestra de plaga de un lugar más cercano a la montaña.\n\nY luego tráeme algo del mismo Fay. Así quizás podamos descubrir el secreto de su resistencia.</string>
 	<string key="0718_0101_guardian_incomplete" comment="male referring to male (Fay the Last Protector)" speaker="Ranger Herath - Mountainrise">Fay y su banda de dríades son una fuerza en sí mismos.\n\nTen mucho cuidado. Mi esperanza te acompaña.</string>
@@ -181,7 +181,7 @@
 	<string key="0721_0101_d_02_container_TF_questComplete_3" speaker="UI">Completar la misión: Materiales perdidos</string>
 	<string key="0721_0101_d_02_container_TF_questComplete_4" speaker="UI">Completar Tejido del tejedor</string>
 	<string key="0721_0102_TF_task_01_TaskGoToPOITag" comment="POI=Malevolence" speaker="UI">Aventúrate en {POITags} y busca corteza encantada</string>
-	<string key="0721_0102_TF_task_02a_TaskKillContribution" comment="target= Alcazarian" speaker="UI">Derrota a los dríades {targetName}</string>
+	<string key="0721_0102_TF_task_02a_TaskKillContribution" comment="target= Alcazarian" speaker="UI">Derrota a {targetName} dríades</string>
 	<string key="0721_0102_TF_task_02b_TaskHaveAndReturnItems" comment="item = Enchanted Bark">Busca {itemName} dentro de los cofres</string>
 	<string key="0721_0103_TF_task_01_TaskGoToPOITag" comment="POI= Balebane Maw" speaker="UI">Recupera la fuente de energía de las fauces en {POITags}</string>
 	<string key="0721_0103_TF_task_02_TaskHaveAndReturnItems" comment="target= Mozrul the Herald, item=Heart of the Maw" speaker="UI">Derrota a {targetName} para obtener un {itemName}</string>
@@ -191,8 +191,8 @@
 	<string key="0721_0105_TF_task_01_TaskGoToPOITag" speaker="UI">Viaja a Caminus en busca de lingotes y una piedra de afilar</string>
 	<string key="0721_0105_TF_task_02a_TaskHaveAndReturnItems" comment="target=Bloodforged, item= Distilled Orichalcum Ingot" speaker="UI">Derrota a los {targetName} corrompidos para obtener {itemName}s</string>
 	<string key="0721_0105_TF_task_02b_TaskHaveAndReturnItems" comment="target= Caminus Gate Lord, item= Runic Whetstone" speaker="UI">Derrota a {targetName} para obtener {itemName}</string>
-	<string key="0721_0106_TF_task_01_TaskGoToPOITag" speaker="UI">Viaja a Eridanus para conseguir envoltorios de armas de los dríades</string>
-	<string key="0721_0106_TF_task_02a_TaskKillContribution" comment="target=Eridanite" speaker="UI">Derrota a los dríades {targetName}</string>
+	<string key="0721_0106_TF_task_01_TaskGoToPOITag" speaker="UI">Viaja a Eridanus para conseguir envoltorios de armas de las dríades</string>
+	<string key="0721_0106_TF_task_02a_TaskKillContribution" comment="target=Eridanite" speaker="UI">Derrota a {targetName} dríades</string>
 	<string key="0721_0106_TF_task_02b_TaskHaveAndReturnItems" comment="item=Imbued Vine Wrappings">Derrota a la peridermis de eridanita para conseguir {itemName}</string>
 	<string key="0721_0107_TF_task_01_TaskGoToPOITag" speaker="UI">Adéntrate en la torre antigua Scorpius para conseguir sangre corrompida</string>
 	<string key="0721_0107_TF_task_02a_TaskKillContribution">Derrota a Scorpii Pluto</string>
@@ -213,11 +213,11 @@
 	<string key="0721_0108_TF_07_objective_title" speaker="UI - Journal - Quest  Title">Materiales perdidos</string>
 	<string key="0721_0109_TF_08_objective_title" speaker="UI - Journal - Quest  Title">Tejido del tejedor</string>
 	<string key="0721_0101_TF_00_objective_desc" speaker="UI - Journal - Quest  Description">Recupera los componentes necesarios para forjar Caída del crepúsculo y llévaselos a Madaki, la arquera, en Inicio de montaña.</string>
-	<string key="0721_0102_TF_01_objective_desc" speaker="UI - Journal - Quest  Description">Viaja a Edengrove y recupera un poderoso componente de los dríades de Malevolencia.</string>
+	<string key="0721_0102_TF_01_objective_desc" speaker="UI - Journal - Quest  Description">Viaja a Edengrove y recupera un poderoso componente de las dríades de Malevolencia.</string>
 	<string key="0721_0103_TF_02_objective_desc" speaker="UI - Journal - Quest  Description">Viaja al lado occidental de Gran surco y recupera la fuente de poder de las fauces.</string>
 	<string key="0721_0104_TF_03_objective_desc" speaker="UI - Journal - Quest  Description">Viaja a Cumbres destrozadas en Gran surco y consigue carne corrompida. Después de que se caliente en la forja, permitirá que la espada dañe hasta al más protegido de todos los enemigos corrompidos.</string>
 	<string key="0721_0105_TF_04_objective_desc" speaker="UI - Journal - Quest  Description">Viaja a Caminus para recuperar lingotes de los corrompidos forjados con sangre. Se dice que el guardián de la puerta también posee una piedra de afilar mística que ayudará a afilar la espada.</string>
-	<string key="0721_0106_TF_05_objective_desc" speaker="UI - Journal - Quest  Description">Viaja a Eridanus en Costa agitada y reclama envoltorios de armas de los dríades.</string>
+	<string key="0721_0106_TF_05_objective_desc" speaker="UI - Journal - Quest  Description">Viaja a Eridanus en Costa agitada y reclama envoltorios de armas de las dríades.</string>
 	<string key="0721_0107_TF_06_objective_desc" speaker="UI - Journal - Quest  Description">Mourningdale es el próximo tramo de tu viaje. Enfrenta a sus espadachines y reclama sangre corrompida de los viles enjambres que contaminan el lugar.</string>
 	<string key="0721_0108_TF_07_objective_desc" speaker="UI - Journal - Quest  Description">Viaja a la Isla de Brightwood y busca petróleo de azoth para preservar la espada.</string>
 	<string key="0721_0109_TF_08_objective_desc" speaker="UI - Journal - Quest  Description">Viaja al Pantano del tejedor y reclama cuero de los muertos vivientes de Periville.</string>
@@ -269,9 +269,9 @@
 	<string key="0720_0103_HS_02_objective_desc" speaker="UI">Al comenzar mi viaje, me encontré primero a mí mismo buscando en los cayos al pie de la isla. Luego alcancé la cima de una magnífica torre, y reflexioné sobre cómo nuestro anhelo por el cielo nos lleva a construir estas torres. Le confié mi puesto a Holm y visité las cavernas al sur.</string>
 	<string key="0720_0104_HS_03_objective_desc" speaker="UI">Las estrellas sobre las cavernas me dirigieron al noreste. Allí encontré una isla que estaba más cerca del Inframundo que cualquier otro lugar que haya visto jamás. Descendí a un reino donde mi alma fue despedazada por el mismísimo Hades. Allí, luché contra su cerbero, y robé de sus fauces espumosas una gema azul como el cielo. Supe que era una señal.</string>
 	<string key="0720_0105_HS_04_objective_desc" speaker="UI">Mientras exploraba el Inframundo, me encontré con sus pantanos. El coro de voces sollozantes resonó a través de la neblina. Podía sentir las almas de quienes me rodeaban, pero no había nada que yo pudiera hacer. Los espectros me llamaban con su canción, igual que en el Cocito. Supe que debía transportar esta gema como una prueba, y triunfar donde otros habían fracasado.</string>
-	<string key="0720_0106_HS_05_objective_desc" speaker="UI">Me abrí paso por los pantanos y, como en la canción de una sirena, aparecí en otra torre. Vi a los seres de la tierra, los dríades, patrullando Eridanus, que se les había encomendado. En su humilde base, compartí la gema con estos protectores primordiales. La ungieron con una gota de azoth de una pureza inigualable. Qué espectáculo maravilloso.</string>
+	<string key="0720_0106_HS_05_objective_desc" speaker="UI">Me abrí paso por los pantanos y, como en la canción de una sirena, aparecí en otra torre. Vi a los seres de la tierra, las dríades, patrullando Eridanus, que se les había encomendado. En su humilde base, compartí la gema con estos protectores primordiales. La ungieron con una gota de azoth de una pureza inigualable. Qué espectáculo maravilloso.</string>
 	<string key="0720_0107_HS_06_objective_desc" speaker="UI">Mi viaje estaba cobrando más sentido para mí. Para perforar los cielos, el destino me llevaba a las numerosas torres que salpican la isla. Me dirigió luego a una torre en el valle de luto. La torre se erguía como un solemne observador. Me encontré con el soldado en la cúspide y le conté mi historia. Es raro encontrar un soldado con un espíritu afín en esta isla.</string>
-	<string key="0720_0108_HS_07_objective_desc" speaker="UI">La última torre a la que me llevó el destino fue a una gobernada por la tierra, y los dríades que la protegen. En una tierra que engendró la vida en esta isla, ascendí por la torre en busca de una guía. Los guardianes pusieron a prueba mi fuerza y recompensaron mi espíritu con un asta de lanza hecha de una madera antigua bendecida.</string>
+	<string key="0720_0108_HS_07_objective_desc" speaker="UI">La última torre a la que me llevó el destino fue a una gobernada por la tierra, y alos dríades que la protegen. En una tierra que engendró la vida en esta isla, ascendí por la torre en busca de una guía. Los guardianes pusieron a prueba mi fuerza y recompensaron mi espíritu con un asta de lanza hecha de una madera antigua bendecida.</string>
 	<string key="0720_0109_HS_08_objective_desc" speaker="UI">Mi viaje estaba llegando a su fin, mi última prueba fue encontrar las tierras yermas impregnadas de rojo: las Cumbres destrozadas. Me paré en la cumbre. Amarré afilados zarcillos al asta de lanza y sujeté la gema azul cielo para purificar mi lanza. Tomé mi lanza y salté a los cielos, rompiéndolos en pedazos. El día se hizo añicos, alumbrando el cielo nocturno con su luz fracturada, y yo descansé entre las estrellas.</string>
 	<string key="0720_0101_HS_00_start_prompt" speaker="UI – Player Prompt">"Eso suena interesante".</string>
 	<string key="0720_0101_HS_00_proposal" speaker="Ranger Rochford - Shattered Mountain" VO="Ranger_0720_0101_HS_00_ProposalResponse" VO_Status="Recorded">Ciertamente, es la historia de un guardián ancestral que emprendió una odisea para encontrar esta arma… \n\nSigue el poema adonde te lleve, y tráele lo que encuentres a Madaki, así te ganarás una lanza que perforará el cielo.</string>
@@ -298,13 +298,13 @@
 	<string key="0720_0105_HS_task_02a_TaskKillContribution" comment="Periville" speaker="UI">Derrota a los {targetName} muertos vivientes</string>
 	<string key="0720_0105_HS_task_02b_TaskHaveAndReturnItems" comment="item=Intact Spear Haft" speaker="UI">Derrota a la guardia de Periville para conseguir un {itemName}</string>
 	<string key="0720_0106_HS_task_01_TaskGoToPOITag" comment="Eridanus" speaker="UI">Busca una gota de azoth purificado de Eridanus</string>
-	<string key="0720_0106_HS_task_02a_TaskKillContribution" comment="Eridanite" speaker="UI">Derrota a los dríades {targetName}</string>
+	<string key="0720_0106_HS_task_02a_TaskKillContribution" comment="Eridanite" speaker="UI">Derrota a {targetName} dríades</string>
 	<string key="0720_0106_HS_task_02b_TaskHaveAndReturnItems" comment="Parthenocissus, Purified Azoth Tear">Derrota a {targetName} para obtener un elemento {itemName}</string>
 	<string key="0720_0107_HS_task_01_TaskGoToPOITag" comment="Vela" speaker="UI">Sube a la torre Vela en busca de envoltorios para tu lanza</string>
 	<string key="0720_0107_HS_task_02a_TaskKillContribution" comment="Boneshatter" speaker="UI">Derrota a {targetName}</string>
 	<string key="0720_0107_HS_task_02b_TaskHaveAndReturnItems" comment="Fineseer, item=Divine Wrappings" speaker="UI">Derrota a los antiguos de {targetName} para obtener {itemName}</string>
 	<string key="0720_0108_HS_task_01_TaskGoToPOITag" comment="Malevolence" speaker="UI">Adquiere madera de dríade bendecida de {POITags}</string>
-	<string key="0720_0108_HS_task_02a_TaskKillContribution" comment="Alcazarian" speaker="UI">Derrota a los dríades {targetName}</string>
+	<string key="0720_0108_HS_task_02a_TaskKillContribution" comment="Alcazarian" speaker="UI">Derrota a {targetName} dríades</string>
 	<string key="0720_0108_HS_task_02b_TaskGatherAndReturnItems" comment="Blessed Dryad Wood">Recolecta {itemName} de vides encantadas</string>
 	<string key="0720_0109_HS_task_01_TaskGoToPOITag" comment="the Mangled Heights" speaker="UI">Adéntrate en {POITags} para conseguir zarcillos infernales</string>
 	<string key="0720_0109_HS_task_02a_TaskKillContribution" comment="High Priest Oseguera" speaker="UI">Derrota a {targetName}</string>
@@ -321,7 +321,7 @@
 	<string key="0722_0102_FL_task_02a_TaskKillContribution" speaker="UI">Derrota a los {targetName} corrompidos</string>
 	<string key="0722_0102_FL_task_02b_TaskHaveAndReturnItems" speaker="UI">Busca en cofres dentro de {POITags} para encontrar {itemName}s</string>
 	<string key="0722_0103_FL_task_01_TaskGoToPOITag" speaker="UI">Busca un mango dentro de {POITags}</string>
-	<string key="0722_0103_FL_task_02a_TaskKillContribution">Derrota a los dríades {targetName}</string>
+	<string key="0722_0103_FL_task_02a_TaskKillContribution">Derrota a {targetName} dríades</string>
 	<string key="0722_0103_FL_task_02b_TaskHaveAndReturnItems" speaker="UI">Derrota a un {targetName}, una criatura enorme parecida a un oso, para conseguir una {itemName}</string>
 	<string key="0722_0104_FL_task_01_TaskGoToPOITag" speaker="UI">Adéntrate en {POITags} en busca de Anillo de hierro</string>
 	<string key="0722_0104_FL_task_02a_TaskKillContribution">Derrota a {targetName} de Guardia sur</string>
@@ -337,7 +337,7 @@
 	<string key="0722_0107_FL_task_02a_TaskKillContribution" speaker="UI">Derrota a los piratas de {targetName}</string>
 	<string key="0722_0107_FL_task_02b_TaskHaveAndReturnItems" speaker="UI">Derrota a los piratas de {targetName} para obtener {itemName}</string>
 	<string key="0722_0108_FL_task_01_TaskGoToPOITag" speaker="UI">Adéntrate en {POITags} en busca de una espada templada</string>
-	<string key="0722_0108_FL_task_02a_TaskKillContribution">Derrota a los dríades {targetName}</string>
+	<string key="0722_0108_FL_task_02a_TaskKillContribution">Derrota a {targetName} dríades</string>
 	<string key="0722_0108_FL_task_02b_TaskHaveAndReturnItems" speaker="UI">Derrota a {targetName} para obtener {itemName}</string>
 	<string key="0722_0109_FL_task_01_TaskGoToPOITag" speaker="UI">Busca un bloque de arriaz gélido dentro de {POITags}</string>
 	<string key="0722_0109_FL_task_02a_TaskHaveAndReturnItems" speaker="UI">Derrota a los {targetName} corrompidos para obtener {itemName}</string>

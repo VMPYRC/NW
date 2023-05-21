@@ -8,7 +8,7 @@
 	<string key="06_task_transport_generic" speaker="UI">Gegenstand für den Transport wird gehalten</string>
 	<string key="06_task_travelto_POITag_generic" speaker="UI">Reise nach: {POITags}</string>
 	<string key="0600_0101_getoffbeach_complete_availaible_response" speaker="Watcher Fayed - Windsward" name="WatcherFayed" VO="Watcher_0600_0101_getoffbeach_complete_availaible_response" VO_Status="Recorded" dialogue-next="@0600_0101_getoffbeach_complete_availaible_response_next">Nein, du siehst mir nicht nach einem Ertrunkenen aus. Aber in dir steckt noch Leben.\n\nDu warst bei dem Sturm an Bord eines Schiffes, oder? Du hast großes Glück, mit dem Leben davongekommen zu sein, aber so ist die Magie hier nun einmal – auf Aeternum.</string>
-	<string key="0600_0101_getoffbeach_complete_availaible_response_prompt" speaker="UI - Player Prompt">„Aeternum? Heißt dieser Ort so?"</string>
+	<string key="0600_0101_getoffbeach_complete_availaible_response_prompt" speaker="UI - Player Prompt">"Aeternum? Heißt dieser Ort so?"</string>
 	<string key="0600_0101_getoffbeach_complete_availaible_response_next" speaker="Watcher Fayed - Windsward" name="WatcherFayed" VO="Watcher_0600_0101_getoffbeach_complete_availaible_response_next" VO_Status="Recorded" dialogue-next="@0600_0101_getoffbeach_complete_availaible_response_next_2" dialogue-prompt="@0600_0101_getoffbeach_complete_availaible_response_prompt">Allerdings, und hier werden wir auch bleiben. Auf dieser Insel ist der Tod fast machtlos, aber man kann sie eigentlich nicht verlassen. \n\nIch bin Wächter Tahir Fayed aus der nahegelegenen Siedlung Windkreis. Und du bist ...?</string>
 	<string key="0600_0101_getoffbeach_complete_availaible_response_prompt_2" speaker="UI - Player Prompt">"Ich bin {playerName}."</string>
 	<string key="0600_0101_getoffbeach_complete_availaible_response_next_2" speaker="Watcher Fayed - Windsward" name="WatcherFayed" VO="Watcher_0600_0101_getoffbeach_complete_availaible_response_next_2" VO_Status="Recorded" dialogue-prompt="@0600_0101_getoffbeach_complete_availaible_response_prompt_2">Schön, dich kennenzulernen, {PlayerName}. \n\nDeine Not mag zwar groß sein, aber so ist es uns bei unserer Ankunft fast allen ergangen.</string>
@@ -178,7 +178,7 @@
 	<string key="0603_0201_V2_Enc_Stage_02_Intermission" speaker="UI">Unterbrechung</string>
 	<string key="0603_0201_V2_Enc_Stage_03" speaker="UI">Besiege den Nasspelz-Patriarchen</string>
 	<string key="0603_0202_returntomagistrate_objective_title" speaker="UI - Journal - Quest  Title">Offizielle Angelegenheiten</string>
-	<string key="0603_0202_returntomagistrate_start_prompt" speaker="UI - Player Prompt">„Klingt schlau. Danke."</string>
+	<string key="0603_0202_returntomagistrate_start_prompt" speaker="UI - Player Prompt">"Klingt schlau. Danke."</string>
 	<string key="0603_0202_returntomagistrate_proposal" speaker="Survivalist Karsattin - Windsward" name="SurvivalistKarsattin" VO="Survivalist_0603_0202_returntomagistrate_ProposalResponse" VO_Status="Recorded" comment="female referring to female (Magistrate Korrapati)">Also, ich habe mehr als genug davon. Vielleicht gebe ich dir etwas ab, wenn ich dir etwas mehr vertraue.\n\nBis dahin, solltest du zu Magistratin Korrapati gehen – sie sucht dich. Ach, und hey – pass da draußen gut auf dich auf.</string>
 	<string key="0603_0202_returntomagistrate_incomplete" speaker="Survivalist Karsattin - Windsward" name="SurvivalistKarsattin" VO="Survivalist_0603_0202_returntomagistrate_InProgResponse" VO_Status="Recorded" comment="female referring to female (Magistrate Korrapati)">Huhu. Wenn du Korrapati siehst, richte ihr bitte aus, dass ich nicht ihr Bote bin, ja?</string>
 	<string key="0603_0202_returntomagistrate_objective_desc" speaker="UI - Journal - Quest  Description" comment="female">Sprich mit Magistratin Korrapati in der Siedlung in Windkreis.</string>
@@ -186,7 +186,7 @@
 	<string key="0602_0202_introtoallfactions_objective_title" speaker="UI - Journal - Quest  Title">Neue Allianzen</string>
 	<string key="0602_0202_introtoallfactions_start_prompt" speaker="UI - Player Prompt">"Warum stellt er deine Geduld auf die Probe?"</string>
 	<string key="0602_0202_introtoallfactions_proposal" speaker="Magistrate Korrapati - Windsward" name="MagistrateKorrapati" VO="Magistrate_0602_0202_introtoallfactions_ProposalResponse" VO_Status="Recorded" dialogue-next="@0602_0202_introtoallfactions_proposal_next" comment="female">Miklos lebt erst seit ein paar Jahren hier. Er hat immer noch diese nonchalante Art der Alten Welt, Dinge zu betrachten.\n\nDu wirkst allerdings vernünftiger. Du könntest mir da bei etwas behilflich sein.</string>
-	<string key="0602_0202_introtoallfactions_proposal_prompt" speaker="UI - Player Prompt">„Sicherlich. Was brauchst du?"</string>
+	<string key="0602_0202_introtoallfactions_proposal_prompt" speaker="UI - Player Prompt">"Sicherlich. Was brauchst du?"</string>
 	<string key="0602_0202_introtoallfactions_proposal_next" speaker="Magistrate Korrapati - Windsward" name="MagistrateKorrapati" VO="Magistrate_0602_0202_introtoallfactions_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0602_0202_introtoallfactions_proposal_prompt" comment="female">Zum Schutz der Siedlung sind wir auf die Fraktionen angewiesen. Du solltest dich einer anschließen.\n\nSprich mit den Marodeuren, dem Bündnis und dem Syndikat und entscheide dann, welcher Fraktion du beitreten möchtest.</string>
 	<string key="0602_0202_introtoallfactions_speak_marauders" speaker="UI - Tracker Text">Sprich mit den Marodeuren</string>
 	<string key="0602_0202_introtoallfactions_speak_syndicate" speaker="UI - Tracker Text">Sprich mit dem Syndikat</string>
@@ -398,7 +398,7 @@
 	<string key="0603_0204_bearscratchrock_incomplete" speaker="Survivalist Karsattin - Windsward" name="SurvivalistKarsattin" VO="Survivalist_0603_0204_bearscratchrock_InProgResponse" VO_Status="Recorded">Deine Angst ist nicht unbegründet ... Darum schicke ich dich dort hinunter und gehe nicht selber!</string>
 	<string key="0603_0204_bearscratchrock_objective_desc" speaker="UI - Journal - Quest  Description">Erlege den Bären der Kratzfelshöhle. Sprich mit Überlebenskünstler Karsattin in der Siedlung in Windkreis, wenn die Aufgabe abgeschlossen ist.</string>
 	<string key="0605_0401_jarofblackbile_objective_title" speaker="UI - Journal - Quest  Title">Verderbter Schlamm</string>
-	<string key="0605_0401_jarofblackbile_start_prompt" speaker="UI - Player Prompt">„Schon in Ordnung. Was brauchst du?"</string>
+	<string key="0605_0401_jarofblackbile_start_prompt" speaker="UI - Player Prompt">"Schon in Ordnung. Was brauchst du?"</string>
 	<string key="0605_0401_jarofblackbile_proposal" speaker="Artificer Cotheran - Windsward" name="ArtificerCotheran" VO="Artificer_0605_0401_jarofblackbile_ProposalResponse" VO_Status="Recorded" comment="male">Das Harplass-Gehöft ist vor Kurzem der Verderbnis anheimgefallen ... wahrscheinlich kam sie von Westen her.\n\nDie Verderbten dort sollen mit irgendeinem Schlamm bedeckt sein. Besorge mir die Proben, dann werden wir ja sehen, was wir herausfinden.</string>
 	<string key="0605_0401_jarofblackbile_goto_harplass" speaker="UI">Reise zum Harplass-Gehöft und hol dir den Schlamm der Verderbnis</string>
 	<string key="0605_0401_jarofblackbile_gather_item_from_target_corrupted_at_POI" speaker="UI" comment="itemName = &quot;Sludge of Corruption&quot; , targetName = &quot;Plainsblot&quot;">Erbeute Folgendes von {targetName}-Verderbten: {itemName}</string>
@@ -421,7 +421,7 @@
 	<string key="0605_0501_azothfulminate_objective_title" speaker="UI - Journal - Quest  Title">Azoth-Explosion</string>
 	<string key="0605_0501_azothfulminate_start_prompt" speaker="UI - Player Prompt">"Eine Art neuer Waffe?"</string>
 	<string key="0605_0501_azothfulminate_proposal" speaker="Artificer Cotheran - Windsward" name="ArtificerCotheran" VO="Artificer_0605_0501_azothfulminate_ProposalResponse" VO_Status="Recorded" dialogue-next="@0605_0501_azothfulminate_proposal_next" comment="male">Eine Knallsubstanz! Nicht aus Quecksilber oder Gold, sondern Azoth. Sehr explosiv und mit gehörig Bumms.\n\nWer sich in der Alchemie nicht auskennt, für den wäre es wohl eine Art Sprengstoff.</string>
-	<string key="0605_0501_azothfulminate_proposal_prompt" speaker="UI - Player Prompt">„Interessant. Wie kann ich behilflich sein?"</string>
+	<string key="0605_0501_azothfulminate_proposal_prompt" speaker="UI - Player Prompt">"Interessant. Wie kann ich behilflich sein?"</string>
 	<string key="0605_0501_azothfulminate_proposal_next" speaker="Artificer Cotheran - Windsward" name="ArtificerCotheran" VO="Artificer_0605_0501_azothfulminate_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0605_0501_azothfulminate_proposal_prompt" comment="female">Ich habe einige dieser Geräte angefertigt, aber sie müssen getestet werden.\n\nKannst du sie beim Harplass-Gehöft detonieren? Ich muss wissen, wie die Verderbnis darauf reagiert.</string>
 	<string key="0605_0501_azothfulminate_goto_POI" speaker="UI">Kehre in folgendes Gebiet zurück, um Prototypen der Azothbomben zu platzieren: {POITags}</string>
 	<string key="0605_0501_azothfulminate_interact_with_IO" speaker="UI">Platziere die Prototypen der Azothbomben</string>
@@ -490,7 +490,7 @@
 	<string key="0610_0201_shotacrossbow_p1_objective_title" speaker="UI - Journal - Quest  Title">Kein bloßer Warnschuss vor den Bug (Teil 1)</string>
 	<string key="0610_0201_shotacrossbow_start_prompt" speaker="UI - Player Prompt">"Was schwebt dir vor?"</string>
 	<string key="0610_0201_shotacrossbow_p1_proposal" speaker="Barkeep Cormack - Windsward" name="BarkeepCormack" VO="Barkeep_0610_0201_shotacrossbow_p1_ProposalResponse" VO_Status="Recorded" dialogue-next="@0610_0201_shotacrossbow_p1_proposal_next">Ich würde sagen, wir jagen die Mistkerle in die Luft! Und nicht nur das, wir sollten es ihnen mit gleicher Münze heimzahlen.\n\nSie haben ein paar hübsche Schusswaffen, die wir bestimmt gut für unsere Waffenkammer gebrauchen könnten.</string>
-	<string key="0610_0201_shotacrossbow_p1_proposal_prompt" speaker="UI - Player Prompt">„In Ordnung. Ich bin dabei."</string>
+	<string key="0610_0201_shotacrossbow_p1_proposal_prompt" speaker="UI - Player Prompt">"In Ordnung. Ich bin dabei."</string>
 	<string key="0610_0201_shotacrossbow_p1_proposal_next" speaker="Barkeep Cormack - Windsward" name="BarkeepCormack" VO="Barkeep_0610_0201_shotacrossbow_p1_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0610_0201_shotacrossbow_p1_proposal_prompt">Ausgezeichnet. Die Piratenfestung liegt östlich von hier und der Erste Offizier Misher leitet sie.\n\nBezwinge die Piraten, nimm alle Musketenteile und sämtliche Munition mit, und zerstöre so viel wie möglich. Schalte auch Misher selbst aus.</string>
 	<string key="0610_0201_shotacrossbow_p1_goto_prideofpuckett" speaker="UI">Reise in folgendes Gebiet, um mit dem Angriff auf das Bollwerk der Piraten zu beginnen: {POITags}</string>
 	<string key="0610_0201_shotacrossbow_p1_interact_with_IO" speaker="UI">Sabotiere Kanonen in der Festung</string>
@@ -547,7 +547,7 @@
 	<string key="0623_0102_d_04_TaskFishingReel" speaker="UI">Hole deinen Fang ein</string>
 	<string key="0423_0101_FQ03_objective_title" speaker="UI _ Quest Title">Geködert</string>
 	<string key="0423_0101_FQ03_objective_desc" speaker="UI - Quest Description">Fange eine Schnecke im Süßwasser, eine Muschel im Salzwasser, zerlege sie als Köder für Anglermeisterin Rubin und bringe sie dann zu Anglermeisterin Clemenson in Erstes Licht.</string>
-	<string key="0423_0101_FQ03_prompt" speaker="UI - Player Prompt">„Ja. Anglermeister Shields hat mich zu dir geschickt."</string>
+	<string key="0423_0101_FQ03_prompt" speaker="UI - Player Prompt">"Ja. Anglermeister Shields hat mich zu dir geschickt."</string>
 	<string key="0423_0101_FQ03_proposal" speaker="Master Fisher Ruby - Everfall" name="MasterFisherRuby" VO="Fisher_0423_0101_FQ03_ProposalResponse" VO_Status="Recorded" dialogue-next="@0423_0101_FQ03_proposal_next">Die häufigste Köderart im Süßwasser sind Schnecken und im Meer Muscheln. \n\nMeine Kollegin in Erstes Licht, Anglermeisterin Clemenson, würde sich sehr über diesen Meerwasserköder freuen. </string>
 	<string key="0423_0101_FQ03_proposal_prompt" speaker="UI - Player Prompt">"Warum angle ich für einen Anglermeister?"</string>
 	<string key="0423_0101_FQ03_proposal_next" speaker="Master Fisher Ruby - Everfall" name="MasterFisherRuby" VO="Fisher_0423_0101_FQ03_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0423_0101_FQ03_proposal_prompt">Bitte sag ihr das nicht, aber sie fängt in letzter Zeit kaum noch etwas.</string>
@@ -699,7 +699,7 @@
 	<string key="0699_0102_Barkimedes2_proposal_next" speaker="Barkimedes - Windsward" name="Barkimedes" VO="0699_0102_Barkimedes2_proposal_next" VO_Status="Needs Recording" dialogue-prompt="@0699_0102_Barkimedes2_proposal_prompt">(Schnarchimedes heult aufgeregt auf.)</string>
 	<string key="0699_0102_Barkimedes2_incomplete" speaker="Barkimedes - Windsward" name="Barkimedes" VO="0699_0102_Barkimedes2_incomplete" VO_Status="Needs Recording">(Schnarchimedes hechelt in Erwartung der besonderen Knochen aufgeregt.)</string>
 	<string key="0699_0102_Barkimedes2_complete" speaker="Barkimedes - Windsward" name="Barkimedes" VO="0699_0102_Barkimedes2_complete" VO_Status="Needs Recording">Wuff, wuff! (Schnarchimedes fällt ausgehungert über die Knochen her.)</string>
-	<string key="0699_0102_d_01_TaskGoToPOI" speaker="UI">Reise nach: {POITags}</string>
+	<string key="0699_0102_d_01_TaskGoToPOI" speaker="UI">Erkunde: {POITags}</string>
 	<string key="0699_0102_d_02_TaskGatherEnchantedBones" speaker="UI">Besiege {targetName} und erbeute Folgendes: {itemName}</string>
 </resources>
 

@@ -78,7 +78,7 @@
 	<string key="Ability_Bow_RainofArrows" comment="BOW + ACTIVE">Pioggia di frecce</string>
 	<string key="Ability_Bow_RainofArrows_description" comment="BOW + ACTIVE">Scocca una raffica di frecce che copre un'area di {[SpellDataTable_Bow.Spell_Bow_Spell_RainOfArrows.Radius]} m di raggio e infligge un {[DamageTable.Bow_RainOfArrows_Attack.DmgCoef * 100]}% dei danni da arma. Questa abilità non può infliggere colpi critici.</string>
 	<string key="Upgrade_Bow_RainofArrows_Bleed" comment="BOW + MOD">Frecce spinate</string>
-	<string key="Upgrade_Bow_RainofArrows_Bleed_description" comment="BOW + MOD">Pioggia di frecce causa Sanguinamento e infligge l'85% dei danni da arma per {[Type_StatusEffectData.Status_Passive_RainofArrows_Bleed.BaseDuration]} s.</string>
+	<string key="Upgrade_Bow_RainofArrows_Bleed_description" comment="BOW + MOD">Pioggia di frecce causa Sanguinamento e infligge un {[Type_StatusEffectData.Status_Passive_RainofArrows_Bleed.HealthModifierDamageBased * -100]}% dei danni da arma al secondo per {[Type_StatusEffectData.Status_Passive_RainofArrows_Bleed.BaseDuration]} s.</string>
 	<string key="Upgrade_Bow_RainofArrows_Slow" comment="BOW + MOD">Frecce uncinate</string>
 	<string key="Upgrade_Bow_RainofArrows_Slow_description" comment="BOW + MOD">Pioggia di frecce causa un {[Type_StatusEffectData.Status_Bow_RainOfArrows_Slow.MoveSpeedMod * -100]}% di Rallentamento per {[Type_StatusEffectData.Status_Bow_RainOfArrows_Slow.BaseDuration]} s. (Rallentamento riduce la velocità di movimento del bersaglio.)</string>
 	<string key="Passive_Bow_Skirmish_DodgeDmg" comment="BOW + PASSIVE">Tattiche evasive</string>
@@ -130,7 +130,7 @@
 	<string key="Passive_Bow_Hunter_HeavyDmgVsFull" comment="BOW + PASSIVE">Colpo di apertura</string>
 	<string key="Passive_Bow_Hunter_HeavyDmgVsFull_description" comment="BOW + PASSIVE">Gli attacchi pesanti infliggono un{[BowAbilityTable.Passive_Bow_Hunter_DmgOnFirst.BaseDamage * 100]}% di danni aggiuntivi ai nemici con il 100% di salute.</string>
 	<string key="Passive_Bow_Hunter_DmgOnFirst" comment="BOW + PASSIVE">Attacco a sorpresa</string>
-	<string key="Passive_Bow_Hunter_DmgOnFirst_description" comment="BOW + PASSIVE">Infliggi un {[BowAbilityTable.Passive_Bow_Hunter_DmgOnFirst.BaseDamage * 100]}% di danni extra se non hai danneggiato un nemico negli ultimi {[Type_StatusEffectData.Status_Passive_Bow_Hunter_DmgOnFirst_Tracker.BaseDuration]} s.</string>
+	<string key="Passive_Bow_Hunter_DmgOnFirst_description" comment="BOW + PASSIVE">Infliggi un {[BowAbilityTable.Passive_Bow_Hunter_DmgOnFirst.BaseDamage * 100]}% di danni extra a qualsiasi avversario se non hai inflitto loro danni negli ultimi {[Type_StatusEffectData.Status_Passive_Bow_Hunter_DmgOnFirst_Tracker.BaseDuration]} secondi.</string>
 	<string key="Passive_Bow_Hunter_Accuracy" comment="BOW + PASSIVE">Gittata della freccia</string>
 	<string key="Passive_Bow_Hunter_Accuracy_description" comment="BOW + PASSIVE">Aumenta del 100% la distanza che le frecce percorrono prima di subire gli effetti della gravità.</string>
 	<string key="Passive_Bow_Hunter_HealOnFive" comment="BOW + PASSIVE">Occhio di falco</string>
@@ -138,7 +138,7 @@
 	<string key="Passive_Bow_Hunter_Crit" comment="BOW + PASSIVE">Bersaglio centrato</string>
 	<string key="Passive_Bow_Hunter_Crit_description" comment="BOW + PASSIVE">La probabilità di colpo critico per i tiri con l'arco aumenta di un {[BowAbilityTable.Passive_Bow_Hunter_Crit.CritChance * 100]}%.</string>
 	<string key="Ultimate_Bow_Hunter" comment="BOW + PASSIVE">Trauma</string>
-	<string key="Ultimate_Bow_Hunter_description" comment="BOW + PASSIVE">Quando realizzi un colpo alla testa, infliggi un {[BowAbilityTable.Ultimate_Bow_Hunter.BaseDamage * 100]}% di danni in più e hai un {[BowAbilityTable.Ultimate_Bow_Hunter.RefundAmmoPercentChance * 100]}% di probabilità di riottenere la tua freccia.</string>
+	<string key="Ultimate_Bow_Hunter_description" comment="BOW + PASSIVE">Quando realizzi un colpo alla testa, infliggi un {[BowAbilityTable.Ultimate_Bow_Hunter.BaseDamage * 100]}% di danni in più e hai un {[BowAbilityTable.Ultimate_Bow_Hunter_Refund.RefundAmmoPercentChance * 100]}% di probabilità di riottenere la tua freccia.</string>
 	<string key="Ability_Greataxe_Charge" comment="GREATAXE + ACTIVE">Carica</string>
 	<string key="Ability_Greataxe_Charge_description" comment="GREATAXE + ACTIVE">Carica per 10 m e infliggi un {[DamageTable.GreatAxe_Engage1.DmgCoef * 100]}% dei danni da arma quando raggiungi un bersaglio. Premi PSM per interrompere la carica e attaccare prima. \n\nQuesta abilità ha Grinta. (La Grinta impedisce che gli attacchi subiti ti facciano vacillare).</string>
 	<string key="Upgrade_Greataxe_Charge_DmgPerDistance" comment="GREATAXE + MOD">Impeto frenetico</string>
@@ -176,7 +176,7 @@
 	<string key="Passive_Greataxe_Reaper_HealVsLowHP" comment="GREATAXE + PASSIVE">Foraggio</string>
 	<string key="Passive_Greataxe_Reaper_HealVsLowHP_description" comment="GREATAXE + PASSIVE">Gli attacchi con ascia grande contro nemici con salute inferiore a {[GreatAxeAbilityTable.Passive_Greataxe_Reaper_HealVsLowHP.TargetHealthPercent]}% curano te stesso di un {[GreatAxeAbilityTable.Passive_Greataxe_Reaper_HealVsLowHP.DmgPctToHealth * 100]}% dei danni inflitti.</string>
 	<string key="Ultimate_Greataxe_Reaper" comment="GREATAXE + PASSIVE">Brama di sangue</string>
-	<string key="Ultimate_Greataxe_Reaper_description" comment="GREATAXE + PASSIVE">Ti muovi un {[Type_StatusEffectData.Status_Ultimate_Greataxe_Reaper.MoveSpeedMod * 100]}% più velocemente e infliggi un {[Type_StatusEffectData.Status_Ultimate_Greataxe_Reaper.DMGStandard * 100]}% di danni in più quando affronti un nemico a meno di {[SpellDataTable_GreatAxe.Spell_Ultimate_Greataxe_Reaper.Radius]} metri.</string>
+	<string key="Ultimate_Greataxe_Reaper_description" comment="GREATAXE + PASSIVE">Ti muovi un {[Type_StatusEffectData.Status_Ultimate_Greataxe_Reaper.MoveSpeedMod * 100]}% più velocemente e infliggi un {[Type_StatusEffectData.Status_Ultimate_Greataxe_Reaper.DMGStandard * 100]}% di danni in più quando affronti un nemico a meno di {[SpellDataTable_GreatAxe.Spell_Ultimate_Greataxe_Reaper.Length * 2]} metri.</string>
 	<string key="Ability_Greataxe_Whirlwind" comment="GREATAXE + ACTIVE">Mulinello</string>
 	<string key="Ability_Greataxe_Whirlwind_description" comment="GREATAXE + ACTIVE">Ruoti e attacchi tutti i nemici vicini, infliggendo un {[DamageTable.GreatAxe_Whirlwind.DmgCoef * 100]}% dei danni da arma. Se colpisci un nemico, ruoti ancora. (Massimo 4 rotazioni). Puoi muoverti mentre stai girando. Questo attacco non può pugnalare alle spalle. Questo attacco ha Grinta. \n\n(Grinta impedisce che gli attacchi subiti ti facciano vacillare.)</string>
 	<string key="Upgrade_Greataxe_Whirlwind_MoreSpins" comment="GREATAXE + MOD">Folate di vento</string>
@@ -234,7 +234,7 @@
 	<string key="Upgrade_Lifestaff_SplashofLight_ManaOnLow" comment="LIFESTAFF + MOD">Guarigione condivisa</string>
 	<string key="Upgrade_Lifestaff_SplashofLight_ManaOnLow_description" comment="LIFESTAFF + MOD">Per ogni alleato curato con salute inferiore al 50%, ricevi un {[LifeMagicAbilityTable.Upgrade_Lifestaff_SplashofLight_ManaOnLow.Mana * 100]}% del tuo mana massimo.</string>
 	<string key="Upgrade_Lifestaff_SplashofLight_RemoveDebuff" comment="LIFESTAFF + MOD">Purifica</string>
-	<string key="Upgrade_Lifestaff_SplashofLight_RemoveDebuff_description" comment="LIFESTAFF + MOD">Schizzo di luce rimuove anche 1 depotenziamento.</string>
+	<string key="Upgrade_Lifestaff_SplashofLight_RemoveDebuff_description" comment="LIFESTAFF + MOD">Schizzo di luce rimuove 1 depotenziamento quando guarisce un alleato.</string>
 	<string key="Passive_Lifestaff_Healing_NoManaOnBasic" comment="LIFESTAFF + PASSIVE">Assoluzione</string>
 	<string key="Passive_Lifestaff_Healing_NoManaOnBasic_description" comment="LIFESTAFF + PASSIVE">Gli attacchi pesanti e leggeri del bastone della vita non consumano più mana.</string>
 	<string key="Passive_Lifestaff_Healing_RemoveOnHeavy" comment="LIFESTAFF + PASSIVE">Tocco riparatore</string>
@@ -306,7 +306,7 @@
 	<string key="Upgrade_Firestaff_MeteorShower_More" comment="FIRESTAFF + MOD">Giudizio di Elio</string>
 	<string key="Upgrade_Firestaff_MeteorShower_More_description" comment="FIRESTAFF + MOD">Tutti i colpi dopo l'impatto iniziale ora infliggono un {[Type_StatusEffectData.Status_FireStaff_MeteorShower_DamageUpgrade.HealthModifierDamageBased * -100]}% dei danni da arma.</string>
 	<string key="Ability_Firestaff_Fireball" comment="FIRESTAFF + ACTIVE">Palla di fuoco</string>
-	<string key="Ability_Firestaff_Fireball_description" comment="FIRESTAFF + ACTIVE">Spara una pesante palla di fuoco che infligge un {[DamageTable.Firestaff_Siege_AOE.DmgCoef * 100]}% dei danni da arma all'impatto e si lascia dietro una zona di Bruciatura di 3 m che dura 6 s. La zona di Bruciatura infligge un {[Type_StatusEffectData.Status_FireStaff_ScorchedEarth_DOT.HealthModifierDamageBased * -100]}% dei danni da arma al secondo. Questa abilità non può infliggere colpi critici.\n\nConsuma {[ManaCosts_Player.48.ManaCost]} punti mana.</string>
+	<string key="Ability_Firestaff_Fireball_description" comment="FIRESTAFF + ACTIVE">Spara una pesante palla di fuoco che infligge un {[DamageTable.Firestaff_Siege_AOE.DmgCoef * 100]}% dei danni da arma all'impatto e si lascia dietro una zona di Bruciatura di 3 m che dura 6 s. La zona di Bruciatura infligge un {[Type_StatusEffectData.Status_FireStaff_ScorchedEarth_DOT.HealthModifierDamageBased * -100]}% dei danni da arma al secondo. \n\nConsuma {[ManaCosts_Player.48.ManaCost]} punti mana.</string>
 	<string key="Upgrade_Firestaff_Fireball_Dur" comment="FIRESTAFF + MOD">Terra bruciata</string>
 	<string key="Upgrade_Firestaff_Fireball_Dur_description" comment="FIRESTAFF + MOD">La zona di Bruciatura di Palla di fuoco dura 9 secondi.</string>
 	<string key="Upgrade_Firestaff_Fireball_Mana" comment="FIRESTAFF + MOD">Prendi</string>
@@ -825,7 +825,7 @@
 	<string key="Spear_BonusDmgVsDebuff" comment="SPEAR + PASSIVE">Debolezza sfruttata</string>
 	<string key="Spear_BonusDmgVsDebuff_description" comment="SPEAR + PASSIVE">Infliggi un {[SpearAbilityTable.Ability_Spear_BonusDmgVsDebuff.BaseDamage * 100]}% di danni bonus per ogni depotenziamento attivo sul tuo bersaglio. (Massimo 30%).</string>
 	<string key="Rapier_01" comment="RAPIER + ACTIVE">Tondo</string>
-	<string key="Rapier_01_description" comment="RAPIER + ACTIVE">Colpisce così rapidamente da estendere la portata della tua lama fino a 5 metri. Questo colpo infligge un {[DamageTable.1H_Rapier_Slash.DmgCoef * 100]}% dei danni da arma e applica Sanguinamento, provocando l'85% dei danni da arma in più per {[Type_StatusEffectData.Rapier_Bleed_DOT.BaseDuration]} s. Questo sanguinamento si può accumulare fino a 3 volte ripristinando le applicazioni precedenti.</string>
+	<string key="Rapier_01_description" comment="RAPIER + ACTIVE">Colpisce così rapidamente da estendere la portata della tua lama fino a 5 metri. Questo colpo infligge un {[DamageTable.1H_Rapier_Slash.DmgCoef * 100]}% dei danni da arma e applica Sanguinamento, provocando un {[Type_StatusEffectData.Rapier_Bleed_DOT.HealthModifierDamageBased * -100]}% dei danni da arma in più al secondo per {[Type_StatusEffectData.Rapier_Bleed_DOT.BaseDuration]} s. Questo sanguinamento si può accumulare fino a 3 volte ripristinando le applicazioni precedenti.</string>
 	<string key="Rapier_01_Mod1" comment="RAPIER + MOD">Sete di sangue</string>
 	<string key="Rapier_01_Mod1_description" comment="RAPIER + MOD">Quando si applica il primo Sanguinamento accumulato su un avversario, il tempo di ricarica di Tondo si riduce di un {[RapierAbilityTable.Rapier_Slash_Mod1.cooldownTimer * -100]}%.</string>
 	<string key="Rapier_01_Mod2" comment="RAPIER + MOD">Ancora una volta</string>
@@ -901,79 +901,79 @@
 	<string key="Rapier_BonusDMGAfterAbility" comment="RAPIER + PASSIVE">Impeto</string>
 	<string key="Rapier_BonusDMGAfterAbility_description" comment="RAPIER + PASSIVE">Infliggi un {[RapierAbilityTable.Rapier_BonusDMGAfterAbility.BaseDamage * 100]}% di danni in più sul successivo attacco leggero o pesante dopo aver attivato un'abilità. Termina quando si colpisce o dopo {[Type_StatusEffectData.Rapier_BonusDMGAfterAbility.BaseDuration]} s.</string>
 	<string key="IceSpikes" comment="ICEMAGIC + ACTIVE">Spuntoni di ghiaccio</string>
-	<string key="IceSpikes_description" comment="ICEMAGIC + ACTIVE">Crea una scia di spuntoni che parte dal giocatore e si estende in linea retta per 8 m infliggendo un {[DamageTable.IceMagic_Spikes.DmgCoef * 100]}% dei danni da arma. L'ultimo è uno Spuntone possente che infliggerà un {[DamageTable.IceMagic_Spikes_End.DmgCoef * 100]}% dei danni da arma e respingerà all'indietro. Premendo Attacco leggero prima che il sentiero si formi completamente, si anticiperà la generazione dello Spuntone possente.\n\nConsuma 15 punti mana.</string>
+	<string key="IceSpikes_description" comment="ICEMAGIC + ACTIVE">Crea una scia di spuntoni che parte dal giocatore e si estende in linea retta per 8 m infliggendo un {[DamageTable.IceMagic_Spikes.DmgCoef * 100]}% dei danni da arma. L'ultimo è uno Spuntone possente che infliggerà un {[DamageTable.IceMagic_Spikes_End.DmgCoef * 100]}% dei danni da arma e respingerà all'indietro. Premendo Attacco leggero prima che il sentiero si formi completamente, si anticiperà la generazione dello Spuntone possente.\n\nConsuma {[ManaCosts_Player.60.ManaCost]} punti mana.</string>
 	<string key="RefreshingSpikes" comment="ICEMAGIC + MOD">Spuntoni ricaricanti</string>
-	<string key="RefreshingSpikes_description" comment="ICEMAGIC + MOD">Riduzione della ricarica di questa abilità del 10% se il nemico viene colpito dallo Spuntone possente.</string>
+	<string key="RefreshingSpikes_description" comment="ICEMAGIC + MOD">Riduzione della ricarica di questa abilità di un {[IceMagicAbilityTable.SpikesRefreshingSpikes.CooldownTimer * -100]}% se il nemico viene colpito dallo Spuntone possente.</string>
 	<string key="EmpoweredSpikes" comment="ICEMAGIC + MOD">Spuntoni prodigiosi</string>
-	<string key="EmpoweredSpikes_description" comment="ICEMAGIC + MOD">I danni dello Spuntone possente aumentano del 20% quando colpisce un nemico con salute inferiore al 30%.</string>
+	<string key="EmpoweredSpikes_description" comment="ICEMAGIC + MOD">I danni dello Spuntone possente aumentano di un {[IceMagicAbilityTable.SpikesEmpoweredSpikes.BaseDamage * 100]}% quando colpisce un nemico con salute inferiore a {[IceMagicAbilityTable.SpikesEmpoweredSpikes.TargetHealthPercent]}%.</string>
 	<string key="DeadlyPath" comment="ICEMAGIC + MOD">Sentiero letale</string>
 	<string key="DeadlyPath_description" comment="ICEMAGIC + MOD">Aumenta i danni del 10% e aggiunge vacillamento al sentiero di spuntoni. Non aumenta i danni dello Spuntone possente.</string>
 	<string key="SpikyReach" comment="ICEMAGIC + MOD">Portata appuntita</string>
 	<string key="SpikyReach_description" comment="ICEMAGIC + MOD">Frammenti di ghiaccio vengono sparati dai lati dello Spuntone possente per colpire un'area più estesa. Ogni frammento ha una portata di 6 m e infligge un {[DamageTable.IceMagic_Spike_Reach.DmgCoef * 100]}% dei danni da arma.</string>
 	<string key="IceStorm" comment="ICEMAGIC + ACTIVE">Tempesta di ghiaccio</string>
-	<string key="IceStorm_description" comment="ICEMAGIC + ACTIVE">Crea una tempesta del raggio di 5 m nell'area selezionata che infligge un {[DamageTable.IceMagic_IceStorm.DmgCoef * 100]}% dei danni da arma ogni 0,33 s per 5 s. La tempesta crea anche un'area ghiacciata che rallenta i nemici al suo interno del 25%. (Rallentamento riduce la velocità di movimento del bersaglio.)\n\nConsuma 25 punti mana.</string>
+	<string key="IceStorm_description" comment="ICEMAGIC + ACTIVE">Crea una tempesta del raggio di 5 m nell'area selezionata che infligge un {[DamageTable.IceMagic_IceStorm.DmgCoef * 100]}% dei danni da arma ogni {[Type_StatusEffectData.IceMagic_IceStorm.TickRate]} s per 5 s. La tempesta crea anche un'area ghiacciata che rallenta i nemici al suo interno del {[Type_StatusEffectData.IceMagic_IceStorm.MoveSpeedMod * -100]}%. (Rallentamento riduce la velocità di movimento del bersaglio.)\n\nConsuma {[ManaCosts_Player.61.ManaCost]} punti mana.</string>
 	<string key="WeakeningGust" comment="ICEMAGIC + MOD">Folata indebolente</string>
-	<string key="WeakeningGust_description" comment="ICEMAGIC + MOD">I danni subiti aumentano del 10% per 3 s per i nemici nella Tempesta di ghiaccio se hanno salute inferiore al 50%.</string>
+	<string key="WeakeningGust_description" comment="ICEMAGIC + MOD">I danni subiti aumentano di un {[Type_StatusEffectData.IceMagic_IceStorm_Weaken.WKNStandard * 100]}% per {[Type_StatusEffectData.IceMagic_IceStorm_Weaken.BaseDuration]} s per i nemici nella Tempesta di ghiaccio se hanno salute inferiore al {[IceMagicAbilityTable.IceStormWeakeningGust.TargetHealthPercent]}%.</string>
 	<string key="StormSummoner" comment="ICEMAGIC + MOD">Evocatore di tempeste</string>
 	<string key="StormSummoner_description" comment="ICEMAGIC + MOD">Il consumo di mana della Tempesta di ghiaccio diminuisce dell'80% quando il mana è al massimo.</string>
 	<string key="PunishingStorm" comment="ICEMAGIC + MOD">Tempesta devastante</string>
-	<string key="PunishingStorm_description" comment="ICEMAGIC + MOD">Aumenta i danni del 10% per ogni nemico nella Tempesta di ghiaccio.</string>
+	<string key="PunishingStorm_description" comment="ICEMAGIC + MOD">Aumenta i danni di un {[IceMagicAbilityTable.IceStormPunishingStorm.BaseDamage * 100]}% per ogni nemico nella Tempesta di ghiaccio.</string>
 	<string key="WindChill" comment="ICEMAGIC + ACTIVE">Vento gelido</string>
-	<string key="WindChill_description" comment="ICEMAGIC + ACTIVE">Lancia in avanti una colonna di venti congelanti in grado di respingere i nemici di 5 m, infliggendo anche un {[DamageTable.IceMagic_WindChill.DmgCoef * 100]}% dei danni da arma a ogni colpo. Vento gelido ha un raggio totale di 7 m e gli ultimi 2 m aumentano i danni del 20% senza spingere i nemici.\nIl giocatore può muoversi durante l'attacco.\n\nConsuma 20 punti mana.</string>
+	<string key="WindChill_description" comment="ICEMAGIC + ACTIVE">Lancia in avanti una colonna di venti congelanti in grado di respingere i nemici di 5 m, infliggendo anche un {[DamageTable.IceMagic_WindChill.DmgCoef * 100]}% dei danni da arma a ogni colpo. Vento gelido ha un raggio totale di 7 m e gli ultimi 2 m aumentano i danni del 20% senza spingere i nemici.\nIl giocatore può muoversi durante l'attacco.\n\nConsuma {[ManaCosts_Player.63.ManaCost]} punti mana.</string>
 	<string key="EnduringChill" comment="ICEMAGIC + MOD">Gelo tenace</string>
 	<string key="EnduringChill_description" comment="ICEMAGIC + MOD">Aumenta la durata di Vento gelido di 1 s.</string>
 	<string key="Shatter" comment="ICEMAGIC + MOD">Esplosione gelida</string>
-	<string key="Shatter_description" comment="ICEMAGIC + MOD">Aumenta del 25% i danni degli ultimi 2 m del Vento gelido.</string>
+	<string key="Shatter_description" comment="ICEMAGIC + MOD">Aumenta del {[IceMagicAbilityTable.WindChillShatter.BaseDamage * 100]}% i danni degli ultimi 2 m del Vento gelido.</string>
 	<string key="IceTempestPass1" comment="ICEMAGIC + PASSIVE">Portata fredda</string>
-	<string key="IceTempestPass1_description" comment="ICEMAGIC + PASSIVE">Aumenta i danni di attacchi pesanti e leggeri del 15% per bersagli più lontani di 15 m.</string>
+	<string key="IceTempestPass1_description" comment="ICEMAGIC + PASSIVE">Aumenta i danni di attacchi pesanti e leggeri di un {[IceMagicAbilityTable.IceTempestPass1.BaseDamage * 100]}% per bersagli più lontani di {[IceMagicAbilityTable.IceTempestPass1.DistFromDefender]} m.</string>
 	<string key="IceTempestPass2" comment="ICEMAGIC + PASSIVE">Rinforzo critico</string>
-	<string key="IceTempestPass2_description" comment="ICEMAGIC + PASSIVE">Ottieni 15 punti mana ogni volta che infliggi un colpo critico a un bersaglio.</string>
+	<string key="IceTempestPass2_description" comment="ICEMAGIC + PASSIVE">Ottieni {[IceMagicAbilityTable.IceTempestPass2.Mana * 100]} punti mana ogni volta che infliggi un colpo critico a un bersaglio.</string>
 	<string key="IceTempestPass3" comment="ICEMAGIC + PASSIVE">Critico di energia</string>
 	<string key="IceTempestPass3_description" comment="ICEMAGIC + PASSIVE">Aumenta i danni critici delle abilità del guanto di ghiaccio di un {[IceMagicAbilityTable.IceTempestPass3.CritDamage * 100]}% con energia al massimo.</string>
 	<string key="IceTempestPass4" comment="ICEMAGIC + PASSIVE">Tempesta imminente</string>
-	<string key="IceTempestPass4_description" comment="ICEMAGIC + PASSIVE">Ottieni 15 punti mana ogni volta che infliggi 3 attacchi leggeri consecutivi.</string>
+	<string key="IceTempestPass4_description" comment="ICEMAGIC + PASSIVE">Ottieni {[IceMagicAbilityTable.IceTempestPass4.Mana * 100]} punti mana ogni volta che infliggi {[IceMagicAbilityTable.IceTempestPass4.NumConsecutiveHits]} attacchi leggeri consecutivi.</string>
 	<string key="IceTempestPass5" comment="ICEMAGIC + PASSIVE">Gelo critico</string>
 	<string key="IceTempestPass5_description" comment="ICEMAGIC + PASSIVE">Aumenta di un {[IceMagicAbilityTable.IceTempestPass5.CritChance * 100]}% la probabilità di colpo critico se colpisci un nemico che si trova in un'area ghiacciata o è colpito da Assideramento.</string>
 	<string key="IceTempestPass6" comment="ICEMAGIC + PASSIVE">Congelamento intenso</string>
-	<string key="IceTempestPass6_description" comment="ICEMAGIC + PASSIVE">Un attacco pesante applicherà Radicamento a un bersaglio se si trova nella Tempesta di ghiaccio o è colpito da Assideramento. Radicamento dura 1 secondo e ha un tempo di ricarica di 5 secondi.</string>
+	<string key="IceTempestPass6_description" comment="ICEMAGIC + PASSIVE">Un attacco pesante applicherà Radicamento a un bersaglio se si trova nella Tempesta di ghiaccio o è colpito da Assideramento. Radicamento dura {[Type_StatusEffectData.IceMagic_Freeze.BaseDuration]} s e ha un tempo di ricarica di {[Type_StatusEffectData.IceMagic_Freeze_Cooldown.BaseDuration]} s allo scadere.</string>
 	<string key="IceTempestUltimate" comment="ICEMAGIC + PASSIVE">Gelo definitivo</string>
-	<string key="IceTempestUltimate_description" comment="ICEMAGIC + PASSIVE">Le abilità del guanto di ghiaccio raffreddano i bersagli aumentando i danni da ghiaccio di un {[Type_StatusEffectData.IceMagic_UltimateChill.WKNIce * 100]} per 3 s.</string>
+	<string key="IceTempestUltimate_description" comment="ICEMAGIC + PASSIVE">Le abilità del guanto di ghiaccio raffreddano i bersagli aumentando i danni da ghiaccio di un {[Type_StatusEffectData.IceMagic_UltimateChill.WKNIce * 100]}% per {[Type_StatusEffectData.IceMagic_UltimateChill.BaseDuration]} s.</string>
 	<string key="IcePylon" comment="ICEMAGIC + ACTIVE">Pilastro di ghiaccio</string>
-	<string key="IcePylon_description" comment="ICEMAGIC + ACTIVE">Posiziona un pilastro che lancia proiettili ghiacciati contro i nemici entro 20 metri. I proiettili andati a segno infliggono un {[DamageTable.IceMagic_Pylon.DmgCoef * 100]}% dei danni da arma. Il Pilastro di ghiaccio crea attorno a sé un'area ghiacciata del raggio di 1 m che dura per 15 s a meno che non venga distrutta prima.\n\nConsuma 15 punti mana.</string>
+	<string key="IcePylon_description" comment="ICEMAGIC + ACTIVE">Posiziona un pilastro che lancia proiettili ghiacciati contro i nemici entro 20 metri. I proiettili andati a segno infliggono un {[DamageTable.IceMagic_Pylon.DmgCoef * 100]}% dei danni da arma. Il Pilastro di ghiaccio crea attorno a sé un'area ghiacciata del raggio di 1 m che dura per 15 s a meno che non venga distrutta prima.\n\nConsuma {[ManaCosts_Player.67.ManaCost]} punti mana.</string>
 	<string key="GreaterPylon" comment="ICEMAGIC + MOD">Pilastro maggiore</string>
-	<string key="GreaterPylon_description" comment="ICEMAGIC + MOD">Aumenta i danni del Pilastro di ghiaccio del 10% per i bersagli rallentati.</string>
+	<string key="GreaterPylon_description" comment="ICEMAGIC + MOD">Aumenta i danni del Pilastro di ghiaccio di un {[IceMagicAbilityTable.IcePylonGreaterPylon.BaseDamage * 100]}% per i bersagli rallentati.</string>
 	<string key="PylonRegen" comment="ICEMAGIC + MOD">Rigenerazione del pilastro</string>
-	<string key="PylonRegen_description" comment="ICEMAGIC + MOD">Il Pilastro di ghiaccio rigenera la salute completa 5 s dopo l'ultimo danno subito.</string>
+	<string key="PylonRegen_description" comment="ICEMAGIC + MOD">Il Pilastro di ghiaccio rigenera la salute completa {[Type_StatusEffectData.IceMagic_PylonRefresh.BaseDuration]} s dopo l'ultimo danno subito.</string>
 	<string key="PylonDodge" comment="ICEMAGIC + MOD">Schivata del pilastro</string>
 	<string key="PylonDodge_description" comment="ICEMAGIC + MOD">Schivare aumenta la cadenza di tiro del Pilastro di ghiaccio per 3 s.</string>
 	<string key="PylonRefresh" comment="ICEMAGIC + PASSIVE">Ricarica del pilastro</string>
-	<string key="PylonRefresh_description" comment="ICEMAGIC + PASSIVE">Un colpo messo a segno dal Pilastro di ghiaccio estende la sua durata di 1 s. (Massimo 45 s.)</string>
+	<string key="PylonRefresh_description" comment="ICEMAGIC + PASSIVE">Un colpo messo a segno dal Pilastro di ghiaccio estende la sua durata di 1 s. (Massimo {[Type_StatusEffectData.IceMagic_PylonCooldownSafety.BaseDuration]} s.)</string>
 	<string key="IceShower" comment="ICEMAGIC + ACTIVE">Pioggia di ghiaccio</string>
-	<string key="IceShower_description" comment="ICEMAGIC + ACTIVE">Evoca una pioggia di ghiaccio che crea un'area ghiacciata di circa 1x5 metri che dura 4 s. I nemici che entrano a contatto con Pioggia di ghiaccio saranno colpiti da un potente Assideramento. Assideramento radica per 1 s, impedisce di scattare e schivare, rallenta la velocità di movimento del 50% e rimane sul bersaglio per 3 s dopo aver lasciato la Pioggia di ghiaccio.\n\nConsuma 25 punti mana.</string>
+	<string key="IceShower_description" comment="ICEMAGIC + ACTIVE">Evoca una pioggia di ghiaccio che crea un'area ghiacciata di circa 1x5 metri che dura 4 s. I nemici che entrano a contatto con Pioggia di ghiaccio saranno colpiti da un potente Assideramento. Assideramento radica per {[Type_StatusEffectData.IceMagic_IceShower_Freeze.BaseDuration]} s, impedisce di scattare e schivare, rallenta la velocità di movimento di un {[Type_StatusEffectData.IceMagic_Frostbite.MoveSpeedMod * -100]}% e rimane sul bersaglio per {[Type_StatusEffectData.IceMagic_Frostbite_Dur3.BaseDuration]} s dopo aver lasciato la Pioggia di ghiaccio.\n\nConsuma {[ManaCosts_Player.66.ManaCost]} punti mana.</string>
 	<string key="EnduringShower" comment="ICEMAGIC + MOD">Pioggia tenace</string>
 	<string key="EnduringShower_description" comment="ICEMAGIC + MOD">Aumenta la durata di Pioggia di ghiaccio a 7 s.</string>
 	<string key="QuickShower" comment="ICEMAGIC + MOD">Pioggia rapida</string>
-	<string key="QuickShower_description" comment="ICEMAGIC + MOD">Ogni alleato, incluso te stesso, ottiene un incremento della velocità di movimento del 25% per 2 s quando entra nella Pioggia di ghiaccio.</string>
+	<string key="QuickShower_description" comment="ICEMAGIC + MOD">Ogni alleato, incluso te stesso, ottiene un incremento della velocità di movimento di un {[Type_StatusEffectData.IceMagic_QuickShower_Dur2.MoveSpeedMod * 100]}% per {[Type_StatusEffectData.IceMagic_QuickShower_Dur2.BaseDuration]} s quando entra nella Pioggia di ghiaccio.</string>
 	<string key="ShowerSlush" comment="ICEMAGIC + MOD">Scroscio glaciale</string>
-	<string key="ShowerSlush_description" comment="ICEMAGIC + MOD">Assideramento applica Lacerato al bersaglio riducendo le difese del 10%.</string>
+	<string key="ShowerSlush_description" comment="ICEMAGIC + MOD">Assideramento applica Lacerato al bersaglio riducendo le difese di un {[Type_StatusEffectData.IceMagic_Frostbite_Rend.ABSStandard * -100]}%.</string>
 	<string key="Entombed" comment="ICEMAGIC + ACTIVE">Sepoltura</string>
-	<string key="Entombed_description" comment="ICEMAGIC + ACTIVE">Seppellisciti nel ghiaccio per diventare invulnerabile e aumentare notevolmente la rigenerazione del mana. La tomba dura 10 s ma può essere distrutta prima. Premi "Blocco" per uscire normalmente dalla tomba o premi "Attacco leggero" per uscire causando un contraccolpo che infligge danni e consuma 20 punti mana.\n\nConsuma 0 punti mana.</string>
+	<string key="Entombed_description" comment="ICEMAGIC + ACTIVE">Seppellisciti nel ghiaccio per diventare invulnerabile e aumentare notevolmente la rigenerazione del mana. La tomba dura 10 s ma può essere distrutta prima. Premi "Blocco" per uscire normalmente dalla tomba o premi "Attacco leggero" per uscire causando un contraccolpo che infligge danni e consuma {[ManaCosts_Player.65.ManaCost]} punti mana.\n\nConsuma {[ManaCosts_Player.64.ManaCost]} punti mana.</string>
 	<string key="StrengthenedTomb" comment="ICEMAGIC + MOD">Tomba rinforzata</string>
-	<string key="StrengthenedTomb_description" comment="ICEMAGIC + MOD">Aumenta la difesa del 25% per 3 s dopo aver interrotto Sepoltura.</string>
+	<string key="StrengthenedTomb_description" comment="ICEMAGIC + MOD">Aumenta la difesa di un {[Type_StatusEffectData.IceMagic_StrengthenedTomb.ABSStandard * 100]}% per {[Type_StatusEffectData.IceMagic_StrengthenedTomb.BaseDuration]} s dopo aver interrotto Sepoltura.</string>
 	<string key="CleansingTomb" comment="ICEMAGIC + MOD">Tomba purificante</string>
 	<string key="CleansingTomb_description" comment="ICEMAGIC + MOD">Elimina tutti i depotenziamenti mentre Sepoltura è attiva.</string>
 	<string key="IceConjurorPass1" comment="ICEMAGIC + PASSIVE">Energia parata</string>
-	<string key="IceConjurorPass1_description" comment="ICEMAGIC + PASSIVE">Parare un attacco con il guanto di ghiaccio converte punti mana in energia. Converte 3 punti mana in 15 di energia.</string>
+	<string key="IceConjurorPass1_description" comment="ICEMAGIC + PASSIVE">Parare un attacco con il guanto di ghiaccio converte punti mana in energia. Converte {[Type_StatusEffectData.IceMagic_BlockingStamina.Mana * -1]} punti mana in {[Type_StatusEffectData.IceMagic_BlockingStamina.Stamina]} di energia.</string>
 	<string key="IceConjurorPass2" comment="ICEMAGIC + PASSIVE">Gelo rapido</string>
-	<string key="IceConjurorPass2_description" comment="ICEMAGIC + PASSIVE">Aumenta la velocità di movimento del 10% in un'area ghiacciata.</string>
+	<string key="IceConjurorPass2_description" comment="ICEMAGIC + PASSIVE">Aumenta la velocità di movimento di un {[Type_StatusEffectData.IceMagic_QuickFrost.MoveSpeedMod * 100]}% in un'area ghiacciata.</string>
 	<string key="IceConjurorPass3" comment="ICEMAGIC + PASSIVE">Gelo prodigioso</string>
-	<string key="IceConjurorPass3_description" comment="ICEMAGIC + PASSIVE">Ottieni 3 punti mana per ogni lancio di incantesimi quando sei in un'area ghiacciata.</string>
+	<string key="IceConjurorPass3_description" comment="ICEMAGIC + PASSIVE">Ottieni {[Type_StatusEffectData.IceMagic_EmpoweredFrost.Mana]} punti mana per ogni lancio di incantesimi quando sei in un'area ghiacciata.</string>
 	<string key="IceConjurorPass4" comment="ICEMAGIC + PASSIVE">Tocco ghiacciato</string>
-	<string key="IceConjurorPass4_description" comment="ICEMAGIC + PASSIVE">Rallenta i nemici del 25% per 2 s se ti colpiscono con attacchi in mischia quando hai la salute al 100%. (Rallentamento riduce la velocità di movimento del bersaglio.)</string>
+	<string key="IceConjurorPass4_description" comment="ICEMAGIC + PASSIVE">Rallenta i nemici di un {[Type_StatusEffectData.IceMagic_FrozenTouch.MoveSpeedMod * -100]}% per {[Type_StatusEffectData.IceMagic_FrozenTouch.BaseDuration]} s se ti colpiscono con attacchi in mischia quando hai la salute a {[IceMagicAbilityTable.IceConjurorPass4.MyHealthPercent]}%. (Rallentamento riduce la velocità di movimento del bersaglio.)</string>
 	<string key="IceConjurorPass5" comment="ICEMAGIC + PASSIVE">Gelo ricaricante</string>
-	<string key="IceConjurorPass5_description" comment="ICEMAGIC + PASSIVE">Riduce del 20% i tempi di ricarica delle abilità del guanto di ghiaccio quando lanci un'abilità in un'area ghiacciata.</string>
+	<string key="IceConjurorPass5_description" comment="ICEMAGIC + PASSIVE">Riduce di un {[IceMagicAbilityTable.IceConjurorPass5.CooldownTimer * -100]}% i tempi di ricarica delle abilità del guanto di ghiaccio quando lanci un'abilità in un'area ghiacciata.</string>
 	<string key="IceConjurorPass6" comment="ICEMAGIC + PASSIVE">Congelamento sprezzante</string>
-	<string key="IceConjurorPass6_description" comment="ICEMAGIC + PASSIVE">Lanciare un'abilità del guanto di ghiaccio crea uno strato indurito dal ghiaccio che fornisce un 20% di Fortificazione per 2 s. (Fortificazione riduce i danni subiti.)</string>
+	<string key="IceConjurorPass6_description" comment="ICEMAGIC + PASSIVE">Lanciare un'abilità del guanto di ghiaccio crea uno strato indurito dal ghiaccio che fornisce un {[Type_StatusEffectData.IceMagic_DefiantFreeze.ABSStandard * 100]}% di Fortificazione per {[Type_StatusEffectData.IceMagic_DefiantFreeze.BaseDuration]} s. (Fortificazione riduce i danni subiti.)</string>
 	<string key="IceConjurorUltimate" comment="ICEMAGIC + PASSIVE">Freddo definitivo</string>
 	<string key="IceConjurorUltimate_description" comment="ICEMAGIC + PASSIVE">Raddoppia la salute del Pilastro di ghiaccio ed estende il raggio dell'area ghiacciata a 5 m. Stare in quest'area ghiacciata raddoppia i bonus Gelo rapido e Gelo prodigioso.</string>
 </resources>

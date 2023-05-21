@@ -10,7 +10,7 @@
 	<string key="ui_dungeon_requirements_gearscore">Livello consigliato: {level}</string>
 	<string key="ui_flyout_recommended_groupsize">Giocatori consigliati: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{players}&lt;/font&gt;</string>
 	<string key="ui_dungeon_requirements_equipment_warning">Per completare questa Spedizione, il tuo gruppo deve avere almeno: &lt;font color="#ffffff"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_reward_level">Gli oggetti che trovi possono variare rispetto a quelli elencati in base al proprio punteggio attrezzatura.</string>
+	<string key="ui_dungeon_reward_level"/>
 	<string key="ui_dungeon_level_requirement">Livello richiesto: {level}</string>
 	<string key="ui_dungeon_elapsed_time">Tempo trascorso:</string>
 	<string key="ui_dungeon_estimated_time_remaining">Tempo di attesa previsto:</string>
@@ -56,5 +56,122 @@
 	<string key="ui_dungeon_expiring">Abbandona la Spedizione tra</string>
 	<string key="ui_dungeon_cooldown">Si apre tra &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{timeRemaining}&lt;/font&gt;</string>
 	<string key="ui_dungeon_cooldown_flyout">Puoi avviare questa Spedizione tra {timeRemaining}</string>
+	<string key="ui_dungeon_mutation_flyout_tooltip" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Mutazione settimanale&lt;/font&gt;\nMutazioni elementali, promozioni e maledizioni vengono selezionate casualmente ogni settimana per le Spedizioni mutate.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Mutazione&lt;/font&gt;\nAffronta le mutazioni elementali\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Promozione&lt;/font&gt;\nPromozioni élite per i nemici\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Maledizioni&lt;/font&gt;\nEffetti in tutta la Spedizione</string>
+	<string key="ui_dungeon_mutation_elemental" rel_version="Feature_Dungeon_Mutators">Mutazione</string>
+	<string key="ui_dungeon_mutation_promotion" rel_version="Feature_Dungeon_Mutators">Promozione</string>
+	<string key="ui_dungeon_mutation_curse" rel_version="Feature_Dungeon_Mutators">Maledizione</string>
+	<string key="ui_dungeon_mutation_elemental_description" rel_version="Feature_Dungeon_Mutators">I &lt;font color="#ff9393" face="lyshineui/fonts/Nimbus_Bold.font"&gt;nemici&lt;/font&gt; potrebbero avere i seguenti &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;vantaggi:&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutation_promotion_description" rel_version="Feature_Dungeon_Mutators">I &lt;font color="#ff9393" face="lyshineui/fonts/Nimbus_Bold.font"&gt;nemici&lt;/font&gt; potrebbero avere i seguenti &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;potenziamenti:&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutation_curse_description" rel_version="Feature_Dungeon_Mutators">I &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;giocatori&lt;/font&gt; ricevono i seguenti &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;depotenziamenti:&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutator_expiration_text" rel_version="Feature_Dungeon_Mutators">Cambia tra: </string>
+	<string key="ui_dungeon_mutator_recommended_gearscore" rel_version="Feature_Dungeon_Mutators"/>
+	<string key="ui_dungeon_mutator_codex" rel_version="Feature_Dungeon_Mutators">Codice</string>
+	<string key="ui_dungeon_mutator_difficulty_default" rel_version="Feature_Dungeon_Mutators">Normale</string>
+	<string key="ui_dungeon_mutator_difficulty_1" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt; (Normale)</string>
+	<string key="ui_dungeon_mutator_difficulty_2" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt; (Normale)</string>
+	<string key="ui_dungeon_mutator_difficulty_3" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt; (Intermedio)</string>
+	<string key="ui_dungeon_mutator_difficulty_4" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt; (Intermedio)</string>
+	<string key="ui_dungeon_mutator_difficulty_5" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt; (Intermedio)</string>
+	<string key="ui_dungeon_mutator_difficulty_6" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;6&lt;/font&gt; (Difficile)</string>
+	<string key="ui_dungeon_mutator_difficulty_7" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;7&lt;/font&gt; (Difficile)</string>
+	<string key="ui_dungeon_mutator_difficulty_8" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;8&lt;/font&gt; (Difficile)</string>
+	<string key="ui_dungeon_mutator_difficulty_9" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;9&lt;/font&gt; (Élite)</string>
+	<string key="ui_dungeon_mutator_difficulty_10" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;10&lt;/font&gt; (Élite)</string>
+	<string key="ui_dungeon_mutator_string" rel_version="Feature_Dungeon_Mutators">Mutazione settimanale</string>
+	<string key="ui_dungeon_mutator_multiplier_description" rel_version="Feature_Dungeon_Mutators">Moltiplica il &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;punteggio totale&lt;/font&gt; per il &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;numero di requisiti&lt;/font&gt; che risultano soddisfatti qui sotto.</string>
+	<string key="ui_dungeon_mutator_clear_time" rel_version="Feature_Dungeon_Mutators">Tempo di completamento:</string>
+	<string key="ui_dungeon_mutator_normal_enemies_killed" rel_version="Feature_Dungeon_Mutators">Nemici uccisi:</string>
+	<string key="ui_dungeon_mutator_named_enemies_killed" rel_version="Feature_Dungeon_Mutators">Nemici famosi uccisi:</string>
+	<string key="ui_dungeon_mutator_team_wipes" rel_version="Feature_Dungeon_Mutators">Squadre annientate:</string>
+	<string key="ui_dungeon_mutator_respawns" rel_version="Feature_Dungeon_Mutators">Rigenerazioni:</string>
+	<string key="ui_dungeon_mutator_time_penalty" rel_version="Feature_Dungeon_Mutators">Penalità di tempo:</string>
+	<string key="ui_dungeon_mutator_normal_enemies_killed_banner" rel_version="Feature_Dungeon_Mutators">Nemici normali uccisi:</string>
+	<string key="ui_dungeon_mutator_multiplier" rel_version="Feature_Dungeon_Mutators">Moltiplicatore:</string>
+	<string key="ui_dungeon_mutator_overall_score" rel_version="Feature_Dungeon_Mutators">Punteggio totale:</string>
+	<string key="ui_dungeon_mutator_next_rank" rel_version="Feature_Dungeon_Mutators">Prossimo grado a {threshold} punti</string>
+	<string key="ui_dungeon_mutator_bronze" rel_version="Feature_Dungeon_Mutators">Bronzo</string>
+	<string key="ui_dungeon_mutator_silver" rel_version="Feature_Dungeon_Mutators">Argento</string>
+	<string key="ui_dungeon_mutator_gold" rel_version="Feature_Dungeon_Mutators">Oro</string>
+	<string key="ui_dungeon_mutator_dungeon_progression" rel_version="Feature_Dungeon_Mutators">Avanzamento spedizione</string>
+	<string key="ui_dungeon_mutator_difficulty_codex" rel_version="Feature_Dungeon_Mutators">Codice di difficoltà</string>
+	<string key="ui_dungeon_mutator_difficulty_points" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{val}&lt;/font&gt; p.ti</string>
+	<string key="SavageTitle" rel_version="Feature_Dungeon_Mutators">Incivile</string>
+	<string key="SavageDescription" rel_version="Feature_Dungeon_Mutators">Descrizione incivile</string>
+	<string key="BarbaricTitle" rel_version="Feature_Dungeon_Mutators">Barbaro</string>
+	<string key="BarbaricDescription" rel_version="Feature_Dungeon_Mutators">Descrizione barbaro</string>
+	<string key="OppressiveTitle" rel_version="Feature_Dungeon_Mutators">Oppressivo</string>
+	<string key="OppressiveDescription" rel_version="Feature_Dungeon_Mutators">Descrizione oppressivo</string>
+	<string key="IndomitableTitle" rel_version="Feature_Dungeon_Mutators">Indomabile</string>
+	<string key="IndomitableDescription" rel_version="Feature_Dungeon_Mutators">Descrizione indomabile</string>
+	<string key="FirTitle" rel_version="Feature_Dungeon_Mutators">Fuoco infernale</string>
+	<string key="FirDescription" rel_version="Feature_Dungeon_Mutators">Descrizione fuoco infernale</string>
+	<string key="IceTitle" rel_version="Feature_Dungeon_Mutators">Trappola di ghiaccio</string>
+	<string key="IceDescription" rel_version="Feature_Dungeon_Mutators">Descrizione trappola di ghiaccio</string>
+	<string key="NatTitle" rel_version="Feature_Dungeon_Mutators">Infestazione</string>
+	<string key="NatDescription" rel_version="Feature_Dungeon_Mutators">Descrizione infestazione</string>
+	<string key="VoiTitle" rel_version="Feature_Dungeon_Mutators">Eterno</string>
+	<string key="VoiDescription" rel_version="Feature_Dungeon_Mutators">Descrizione eterno</string>
+	<string key="LigTitle" rel_version="Feature_Dungeon_Mutators">Tempesta</string>
+	<string key="LigDescription" rel_version="Feature_Dungeon_Mutators">Descrizione tempesta</string>
+	<string key="FrenziedTitle" rel_version="Feature_Dungeon_Mutators">Frenesia</string>
+	<string key="FrenziedDescription" rel_version="Feature_Dungeon_Mutators">Descrizione frenesia</string>
+	<string key="FiendishTitle" rel_version="Feature_Dungeon_Mutators">Diabolico</string>
+	<string key="FiendishDescription" rel_version="Feature_Dungeon_Mutators">Descrizione diabolico</string>
+	<string key="DesiccatedTitle" rel_version="Feature_Dungeon_Mutators">Essiccato</string>
+	<string key="DesiccatedDescription" rel_version="Feature_Dungeon_Mutators">Descrizione essiccato</string>
+	<string key="CensoredTitle" rel_version="Feature_Dungeon_Mutators">Censurato</string>
+	<string key="CensoredDescription" rel_version="Feature_Dungeon_Mutators">Descrizione censurato</string>
+	<string key="ui_dungeon_mutator_difficulty_header_none" rel_version="Feature_Dungeon_Mutators">Normale</string>
+	<string key="ui_dungeon_mutator_difficulty_header_mutated" rel_version="Feature_Dungeon_Mutators">Mutato</string>
+	<string key="ui_dungeon_mutator_difficulty_plain" rel_version="Feature_Dungeon_Mutators">Difficoltà&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutator_appended_difficulty" rel_version="Feature_Dungeon_Mutators">Difficoltà &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{difficulty}&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutator_appended_difficulty_bold" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Difficoltà {difficulty}&lt;/font&gt;</string>
+	<string key="ui_dungeon_next_unlock_requirement" rel_version="Feature_Dungeon_Mutators">Per sbloccare il &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;prossimo livello di difficoltà&lt;/font&gt;, devi completare questa Spedizione con &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;grado Argento&lt;/font&gt;.</string>
+	<string key="ui_dungeon_mutator_unlock_requirement" rel_version="Feature_Dungeon_Mutators">Per sbloccare il &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;prossimo livello di difficoltà&lt;/font&gt;, devi completare questa Spedizione.</string>
+	<string key="ui_dungeon_mutator_active" rel_version="Feature_Dungeon_Mutators">&lt;font color="#00ffa8"&gt;Attivo &lt;img src="LyShineUI/Images/icons/misc/icon_question_orange" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; &lt;/font&gt;</string>
+	<string key="ui_dungeon_mutator_inactive" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ff9393"&gt;Inattivo &lt;img src="LyShineUI/Images/icons/misc/icon_question_orange" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; &lt;/font&gt;</string>
+	<string key="ui_dungeon_mutator_rotation_notice" rel_version="Feature_Dungeon_Mutators">Ogni settimana sarà selezionata casualmente una Spedizione per la mutazione. Solo la Spedizione selezionata può essere affrontata a un livello di difficoltà aumentato.</string>
+	<string key="ui_dungeon_mutation_rewards_description" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Gli oggetti&lt;/font&gt; lasciati potrebbero presentare questi &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;vantaggi:&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutator_standard_reward_count" rel_version="Feature_Dungeon_Mutators">Oggetti spedizione: &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{count}&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutator_difficulty_reward_count" rel_version="Feature_Dungeon_Mutators">Oggetti difficoltà: &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{count}&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutator_special_reward_tooltip" rel_version="Feature_Dungeon_Mutators">Oltre agli oggetti che ottieni come ricompensa, completando Spedizioni riceverai fino a {value} schegge dell'ombra, a seconda del grado.\n\n Se ottieni il grado Argento alla fine della Spedizione, sbloccherai il livello di difficoltà successivo.</string>
+	<string key="ui_dungeon_mutator_hud_points_shorthand" rel_version="Feature_Dungeon_Mutators"> &lt;font color="#aaaaaa" &gt;p.ti&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutator_difficulty_not_unlocked" rel_version="Feature_Dungeon_Mutators">Questo livello di difficoltà non è ancora stato sbloccato.</string>
+	<string key="Mut_Disease_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici applicano afflizione da malattia cumulabile quando colpiscono.</string>
+	<string key="Mut_Disease_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici applicano afflizione da malattia cumulabile quando colpiscono.</string>
+	<string key="Mut_RotatingBeam_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici emettono raggi taglienti che infliggono danni da Vuoto quando vengono toccati.</string>
+	<string key="Mut_Lifesteal_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici si curano di una percentuale dei danni inflitti.</string>
+	<string key="Mut_Lifesteal_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici si curano di una percentuale dei danni inflitti.</string>
+	<string key="Mut_ProjectileShield_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici usano uno scudo che para i proiettili dei giocatori.</string>
+	<string key="Mut_Fir_Damage_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici infliggono una percentuale dei danni totali come danni da fuoco.</string>
+	<string key="Mut_Fir_Resist_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici dispongono di assorbimento del fuoco.</string>
+	<string key="Mut_Fir_Resist_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici dispongono di assorbimento del fuoco.</string>
+	<string key="Mut_Fir_Burn_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici applicano Bruciatura quando colpiscono, infliggendo danni da fuoco nel tempo.</string>
+	<string key="Mut_Fir_Burn_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici applicano Bruciatura quando colpiscono, infliggendo danni da fuoco nel tempo.</string>
+	<string key="Mut_Fir_AOE_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici attivano un'area di Bruciatura attorno ai giocatori che attaccano, infliggendo danni da fuoco nel tempo.</string>
+	<string key="Mut_Fir_AOE_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici attivano un'area di Bruciatura attorno ai giocatori che attaccano, infliggendo danni da fuoco nel tempo.</string>
+	<string key="Mut_Fir_Death_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici esplodono quando muoiono, infliggendo danni da fuoco in una piccola area.</string>
+	<string key="Mut_Voi_Damage_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici infliggono una percentuale dei danni totali come danni da Vuoto.</string>
+	<string key="Mut_Voi_Resist_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici dispongono di assorbimento del Vuoto.</string>
+	<string key="Mut_Voi_Resist_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici dispongono di assorbimento del Vuoto.</string>
+	<string key="Mut_Voi_Leech_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici applicano Risucchiavita quando colpiscono, infliggendo danni da Vuoto e curando i nemici nel tempo.</string>
+	<string key="Mut_Voi_Leech_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici applicano Risucchiavita quando colpiscono, infliggendo danni da Vuoto e curando i nemici nel tempo.</string>
+	<string key="Mut_Voi_Stacks_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici applicano accumuli di Paranoia quando vengono colpiti. Dopo {[Type_StatusEffectData.Mut_Voi_Stacks_1_Effect.AddOnStackSize]} accumuli, fa apparire una scarica di Vuoto nella tua posizione.</string>
+	<string key="Mut_Voi_Stacks_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici applicano accumuli di Paranoia quando vengono colpiti. Dopo {[Type_StatusEffectData.Mut_Voi_Stacks_2_Effect.AddOnStackSize]} accumuli, fa apparire una scarica di Vuoto nella tua posizione.</string>
+	<string key="Mut_Voi_Death_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Quando muoiono, i nemici lanciano un incantesimo che conferisce un potenziamento del Vuoto agli altri nemici in zona.</string>
+	<string key="Mut_Fir_Curse3_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Seleziona periodicamente il giocatore con la percentuale minore di salute. Dopo alcuni secondi, il giocatore selezionato lancia Fuoco a catena, danneggiando i giocatori e i personaggi non giocabili vicini.</string>
+	<string key="Mut_Voi_Curse3_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Seleziona periodicamente il giocatore con la percentuale minore di salute. Dopo alcuni secondi, il giocatore selezionato lancia Vuoto a catena, danneggiando i giocatori e i personaggi non giocabili vicini.</string>
+	<string key="Mut_Fir_Curse3_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Quando si seleziona il giocatore con la percentuale minore di salute, tutti gli altri giocatori subiscono Indebolito inaridito. Il giocatore selezionato ottiene un'aura che elimina Indebolito inaridito.</string>
+	<string key="Mut_Voi_Curse3_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Quando si seleziona il giocatore con la percentuale minore di salute, tutti gli altri giocatori subiscono Indebolito inaridito. Il giocatore selezionato ottiene un'aura che elimina Indebolito inaridito.</string>
+	<string key="Mut_Curse4_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Mentre sono attive le aree di Silenzio, tutti i giocatori perdono la normale rigenerazione del mana. Restare nell'area di Silenzio conferisce una grande quantità di rigenerazione del mana.</string>
+	<string key="Mut_Fir_Curse4_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">L'uso delle abilità attiva un'afflizione globale. Quando l'afflizione viene applicata, viene generata un'area che silenzia tutti i giocatori al proprio interno. Quando l'afflizione si esaurisce, le aree esplodono infliggendo danni da fuoco ai giocatori al proprio interno.</string>
+	<string key="Mut_Voi_Curse4_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">L'uso delle abilità attiva un'afflizione globale. Quando l'afflizione viene applicata, viene generata un'area che silenzia tutti i giocatori al proprio interno. Quando l'afflizione si esaurisce, le aree esplodono infliggendo danni da Vuoto ai giocatori al proprio interno.</string>
+	<string key="ui_dungeon_mutator_highest_rank_tooltip" rel_version="Feature_Dungeon_Mutators">Il grado più alto che hai raggiunto a questo livello di difficoltà: &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{rank}&lt;/font&gt;</string>
+	<string key="ui_dungeon_survive_for">Sopravvivi per</string>
+	<string key="ui_dungeon_possible_rewards_header" rel_version="Feature_Dungeon_Mutators">Possibili ricompense</string>
+	<string key="ui_dungeon_no_possible_rewards" rel_version="Feature_Dungeon_Mutators">Nessuna ricompensa possibile</string>
+	<string key="ui_dungeon_orb_explanation" rel_version="Feature_Dungeon_Mutators">Ricompensa una tantum. Le sfere di sintonia per le spedizioni mutate sono disponibili anche nel negozio della fazione.</string>
+	<string key="ui_dungeon_gearscore_recommendation_tooltip" rel_version="Feature_Dungeon_Mutators"/>
+	<string key="ui_dungeon_gearscore_underlevel_warning" rel_version="Feature_Dungeon_Mutators">ATTENZIONE: Il tuo Punteggio attrezzatura medio è troppo basso per affrontare adeguatamente questa Spedizione.</string>
 </resources>
 

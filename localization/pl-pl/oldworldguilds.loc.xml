@@ -79,9 +79,9 @@
 	<string key="owg_factionwarinfo_title_2_desc_2_bullet_4">Gdy twoja frakcja zdobędzie dość wpływów, może stanąć do walki o kontrolę nad terytorium poprzez wypowiedzenie wojny</string>
 	<string key="owg_factionwarinfo_title_2_desc_3">Wojna frakcji</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_1">Oblężenie fortecy terytorium. &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;50 na 50 graczy&lt;/font&gt;</string>
-	<string key="owg_factionwarinfo_title_2_desc_3_bullet_2">Używaj różnorodnych &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;broni oblężniczych&lt;/font&gt;, by zyskać przewagę nad wrogiem.</string>
-	<string key="owg_factionwarinfo_title_2_desc_3_bullet_3">Zadaniem atakujących jest przejęcie punktu kontrolnego w &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;sercu fortecy&lt;/font&gt;.</string>
-	<string key="owg_factionwarinfo_title_2_desc_3_bullet_4">Zadaniem obrońców jest &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;odpieranie atakujących przez 30 minut&lt;/font&gt;.</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_2">Używaj różnorodnych &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;broni oblężniczych&lt;/font&gt;, by zyskać przewagę nad wrogiem</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_3">Zadaniem atakujących jest przejęcie punktu kontrolnego w &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;sercu fortecy&lt;/font&gt;</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_4">Zadaniem obrońców jest &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;odpieranie atakujących przez 30 minut&lt;/font&gt;</string>
 	<string key="owg_factionwarinfo_title_3">Kontrola nad terytorium</string>
 	<string key="owg_factionwarinfo_title_3_desc_1">Wpływy na terytorium</string>
 	<string key="owg_factionwarinfo_title_3_desc_1_bullet_1">Wpływy na terytorium określają skalę kontroli danej frakcji nad terytorium</string>
@@ -487,20 +487,5 @@
 	<string key="FactionMission_ASSASSINATE_ELITE_NIGHT_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – maruderzy chcą pozbyć się tego celu.\n\nDowiedź swej odwagi – wytrop cel w: {POITags} i się go pozbądź.\n&lt;font color="#eaeaea"&gt;(elitarny – wróg grasuje nocą)&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_NIGHT_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – syndykat zidentyfikował cel, którego należy się pozbyć.\n\nWytrop cel w: {POITags} i się go pozbądź.\n&lt;font color="#eaeaea"&gt;(elitarny – wróg grasuje nocą)&lt;/font&gt;</string>
 	<string key="FactionMission_C_ASSASSINATE_ELITE_NIGHT_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – przymierze zidentyfikowało groźny cel, którego należy się pozbyć.\n\nDowiedź swego oddania – wytrop cel w: {POITags} i się go pozbądź.\n&lt;font color="#eaeaea"&gt;(elitarny – wróg grasuje nocą)&lt;/font&gt;</string>
-	<string key="CMissionAcquireStoneworker" rel_version="Event_WinterConvergence_Temp">Zdobądź i dostarcz: &lt;font color="#eaeaea"&gt;{itemName} ({itemAmount})&lt;/font&gt; ze stanowiska kamieniarskiego.</string>
-	<string key="CMissionAcquireWoodWorker" rel_version="Event_WinterConvergence_Temp">Zdobądź i dostarcz: &lt;font color="#eaeaea"&gt;{itemName} ({itemAmount})&lt;/font&gt; ze stanowiska stolarskiego.</string>
-	<string key="CMissionAcquireOutfitter" rel_version="Event_WinterConvergence_Temp">Zdobądź i dostarcz: &lt;font color="#eaeaea"&gt;{itemName} ({itemAmount})&lt;/font&gt; ze stanowiska krawieckiego.</string>
-	<string key="CMissionAcquireEngineer" rel_version="Event_WinterConvergence_Temp">Zdobądź i dostarcz: &lt;font color="#eaeaea"&gt;{itemName} ({itemAmount})&lt;/font&gt; z warsztatu.</string>
-	<string key="CMissionAcquireBlock_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni kamieniarze</string>
-	<string key="CMissionAcquireTimber_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni cieśle</string>
-	<string key="CMissionAcquireCloth_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni tkacze</string>
-	<string key="CMissionAcquireMetal_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni hutnicy</string>
-	<string key="CMissionAcquireFibers_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni żniwiarze</string>
-	<string key="CMissionAcquireFood_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni kucharze</string>
-	<string key="CMissionAcquirePotions_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni alchemicy</string>
-	<string key="CMissionAcquireGeneric_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebne świąteczne zapasy</string>
-	<string key="CMissionAcquireWood_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni drwale</string>
-	<string key="CMissionAcquireRawhide_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni łowcy</string>
-	<string key="CMissionAcquireLeather_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni garbarze</string>
 </resources>
 

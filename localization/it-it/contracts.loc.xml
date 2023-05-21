@@ -75,6 +75,7 @@
 	<string key="ui_selectallouposts">Tutti gli insediamenti</string>
 	<string key="ui_currentsellers">Ordini di vendita in corso</string>
 	<string key="ui_currentbuyers">Ordini d'acquisto in corso</string>
+	<string key="ui_store_item_cooldown_desc">&lt;font color="#ffdb7a"&gt;Dopo aver acquistato questo articolo, dovrai attendere {cooldownDuraction} per poterlo acquistare di nuovo.&lt;/font&gt;</string>
 	<string key="ui_postordererror_outpostfull">Non puoi inserire un ordine d'acquisto in quanto il deposito dell'avamposto è pieno.</string>
 	<string key="ui_postordererror_outpostfull_button">DEPOSITO DELL'AVAMPOSTO PIENO</string>
 	<string key="ui_postordererror_buy_notenoughmoney">Non hai abbastanza monete per inserire un ordine d'acquisto.</string>
@@ -116,6 +117,7 @@
 	<string key="ui_contract_failure_throttled">Richiesta limitata. Attendi e riprova.</string>
 	<string key="ui_contract_failure_coin_transferal_disabled">Trasferimento di monete disabilitato.</string>
 	<string key="ui_contract_failure_trading_post_disabled">Emporio disabilitato.</string>
+	<string key="ui_contract_failure_cooldown">Potrai effettuare l'acquisto tra: {cooldownTime} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" xPadding="0" scale="1.1" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="ui_contract_failure_generic">Si è verificato un errore. Riprova.</string>
 	<string key="ui_sell_instant_price">Prezzo di vendita istantanea</string>
 	<string key="ui_buy_instant_price">Prezzo d'acquisto istantaneo</string>

@@ -75,6 +75,7 @@
 	<string key="ui_selectallouposts">Todos los asentamientos</string>
 	<string key="ui_currentsellers">Pedidos de venta actuales</string>
 	<string key="ui_currentbuyers">Pedidos de compra actuales</string>
+	<string key="ui_store_item_cooldown_desc">&lt;font color="#ffdb7a"&gt;Cuando compres este artículo, tendrás que esperar {cooldownDuraction} para comprarlo de nuevo.&lt;/font&gt;</string>
 	<string key="ui_postordererror_outpostfull">No puedes hacer el pedido de compra. El almacenamiento está completo.</string>
 	<string key="ui_postordererror_outpostfull_button">ALMACENAMIENTO DE PUESTO LLENO</string>
 	<string key="ui_postordererror_buy_notenoughmoney">No tienes dinero suficiente para realizar un pedido de compra.</string>
@@ -116,6 +117,7 @@
 	<string key="ui_contract_failure_throttled">Se interrumpió la solicitud. Espera un momento y vuelve a intentarlo.</string>
 	<string key="ui_contract_failure_coin_transferal_disabled">Se inhabilitó la transferencia de dinero.</string>
 	<string key="ui_contract_failure_trading_post_disabled">Se inhabilitó la tienda de intercambio.</string>
+	<string key="ui_contract_failure_cooldown">Se puede comprar en {cooldownTime} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" xPadding="0" scale="1.1" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="ui_contract_failure_generic">Se produjo un error. Vuelve a intentarlo.</string>
 	<string key="ui_sell_instant_price">Precio de venta instantáneo</string>
 	<string key="ui_buy_instant_price">Precio de compra instantáneo</string>

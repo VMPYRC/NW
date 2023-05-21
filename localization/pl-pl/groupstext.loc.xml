@@ -22,7 +22,9 @@
 	<string key="ui_groupinviteacceptraid" comment="">Przyjęto zaproszenie do grupy</string>
 	<string key="ui_groupinvitedeclinesentmessage" comment="">Odrzucono zaproszenie do grupy od gracza &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt;.</string>
 	<string key="ui_groupinvitedeclineraid" comment="">Odrzucono zaproszenie do grupy</string>
-	<string key="ui_groupinvitewithdrawnreceivermessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; wycofuje zaproszenie do grupy.</string>
+	<string key="ui_groupinvitewithdrawnreceivermessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; wycofał zaproszenie do grupy.</string>
+	<string key="ui_groupinvitewithdrawnreceivermessage_SHE" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; wycofała zaproszenie do grupy.</string>
+	<string key="ui_groupinvitewithdrawnreceivermessage_THEY" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; wycofuje zaproszenie do grupy.</string>
 	<string key="ui_groupinvitewithdrawnsendermessage" comment="">Wycofano zaproszenie do grupy zaadresowane do: &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt;</string>
 	<string key="ui_groupinvitewithdrawnraid" comment="">Wycofano zaproszenie do grupy</string>
 	<string key="ui_leftgroupmessage" comment="">Opuszczono grupę</string>
@@ -65,6 +67,8 @@
 	<string key="ui_groupfromplayerofflineerrormessage" comment="">Usunięto zaproszenie do grupy – gracz {playerName} rozłączył się.</string>
 	<string key="ui_groupinvitetoplayerofflineerrormessage" comment="">Błąd zaproszenia do grupy – gracz {playerName} rozłączył się.</string>
 	<string key="ui_grouptoplayerofflineerrormessage" comment="">Nie można zaprosić gracza {playerName}, jest offline.</string>
+	<string key="ui_grouptoplayerofflineerrormessage_SHE" comment="">Nie można zaprosić gracza {playerName}, jest offline.</string>
+	<string key="ui_grouptoplayerofflineerrormessage_THEY" comment="">Nie można zaprosić gracza {playerName}, jest offline.</string>
 	<string key="ui_groupinvitefailedgroupfullmessage" comment="">Zaproszenie do grupy nie powiodło się. Grupa gracza {playerName} jest już pełna.</string>
 	<string key="ui_groupinvitefailederrormessage" comment="">Nie udało się odpowiedzieć na zaproszenie od grupy gracza: {playerName}.</string>
 	<string key="ui_groupinvitefailedraid" comment="">Nie udało się odpowiedzieć na zaproszenie</string>

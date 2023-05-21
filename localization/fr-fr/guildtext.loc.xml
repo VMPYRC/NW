@@ -1,7 +1,9 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="ui_alignmentrequesttitle">Intentions amicales</string>
 	<string key="ui_alignmentacceptedmessage">Intentions amicales réciproques avec &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
-	<string key="ui_alignmentrequestrecipientmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; a salué. Pour lui faire signe à votre tour, visez &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; et appuyez sur [{keybind}].</string>
+	<string key="ui_alignmentrequestrecipientmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; a salué. Pour lui faire signe à votre tour, visez-le et appuyez sur [{keybind}].</string>
+	<string key="ui_alignmentrequestrecipientmessage_SHE">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; saluée. Pour lui faire signe à votre tour, visez-la et appuyez sur [{keybind}].</string>
+	<string key="ui_alignmentrequestrecipientmessage_THEY">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; salué. Pour lui faire signe à votre tour, visez &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; et appuyez sur [{keybind}].</string>
 	<string key="ui_alignmentrequestsendermessage">Intentions amicales indiquées à &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
 	<string key="ui_alignmenttimedoutrecipientmessage">Vous n'avez pas salué. &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; s'en souviendra peut-être.</string>
 	<string key="ui_alignmenttimedoutsendermessage">Vos salutations n'ont pas reçu de réponse.</string>
@@ -90,7 +92,9 @@
 	<string key="ui_guildownershipchangemessage">La compagnie est à présent gérée par &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
 	<string key="ui_guildownershipchangetitle">Transfert de propriété de la compagnie</string>
 	<string key="ui_guildsetmemberrankfailednoconsultitle">Doit avoir un consul</string>
-	<string key="ui_guildsetmemberrankfailednoconsulmessage">Impossible de changer le rang de {playerName}, car il n'y a pas d'autres consuls pour prendre sa place.</string>
+	<string key="ui_guildsetmemberrankfailednoconsulmessage">Impossible de changer le rang de {playerName}, car il n'y a pas d'autre consul pour prendre sa place.</string>
+	<string key="ui_guildsetmemberrankfailednoconsulmessage_SHE">Impossible de changer le rang de {playerName}, car il n'y a pas d'autre consul pour prendre sa place.</string>
+	<string key="ui_guildsetmemberrankfailednoconsulmessage_THEY">Impossible de changer le rang de {playerName}, car il n'y a pas d'autres consuls pour prendre sa place.</string>
 	<string key="ui_guildpermissionstab">Autorisations</string>
 	<string key="ui_guildranknameinusemessage">Ce nom de rang existe déjà.</string>
 	<string key="ui_guildoverviewtab">Synthèse</string>

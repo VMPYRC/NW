@@ -10,7 +10,7 @@
 	<string key="ui_dungeon_requirements_gearscore">Nível Recomendado: {level}</string>
 	<string key="ui_flyout_recommended_groupsize">Jogadores Recomendados: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{players}&lt;/font&gt;</string>
 	<string key="ui_dungeon_requirements_equipment_warning">Para completar esta Expedição, seu grupo precisa ter pelo menos &lt;font color="#ffffff"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_reward_level">Os itens que você encontrar podem variar em relação aos listados, com base na Pontuação do Equipamento deles.</string>
+	<string key="ui_dungeon_reward_level"/>
 	<string key="ui_dungeon_level_requirement">Nível Necessário: {level}</string>
 	<string key="ui_dungeon_elapsed_time">Tempo Transcorrido:</string>
 	<string key="ui_dungeon_estimated_time_remaining">Tempo de espera estimado:</string>
@@ -56,5 +56,122 @@
 	<string key="ui_dungeon_expiring">Deixando expedição em</string>
 	<string key="ui_dungeon_cooldown">Pode Abrir em &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{timeRemaining}&lt;/font&gt;</string>
 	<string key="ui_dungeon_cooldown_flyout">Você pode abrir esta Expedição em {timeRemaining}</string>
+	<string key="ui_dungeon_mutation_flyout_tooltip" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Mutação semanal&lt;/font&gt;\nToda semana, as mutações, promoções e maldições elementais serão atribuídas aleatoriamente às Expedições com Mutação.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Mutação&lt;/font&gt;\nEnfrente mutações elementais\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Promoção&lt;/font&gt;\nInimigos são promovidos para Elite\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Maldições&lt;/font&gt;\nEfeitos em toda a Expedição</string>
+	<string key="ui_dungeon_mutation_elemental" rel_version="Feature_Dungeon_Mutators">Mutação</string>
+	<string key="ui_dungeon_mutation_promotion" rel_version="Feature_Dungeon_Mutators">Promoção</string>
+	<string key="ui_dungeon_mutation_curse" rel_version="Feature_Dungeon_Mutators">Maldição</string>
+	<string key="ui_dungeon_mutation_elemental_description" rel_version="Feature_Dungeon_Mutators">Os &lt;font color="#ff9393" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Inimigos&lt;/font&gt; podem ter as seguintes &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Vantagens:&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutation_promotion_description" rel_version="Feature_Dungeon_Mutators">Os &lt;font color="#ff9393" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Inimigos&lt;/font&gt; podem ter os seguintes &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Buffs:&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutation_curse_description" rel_version="Feature_Dungeon_Mutators">Os &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Jogadores&lt;/font&gt; recebem os seguintes &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Debuffs:&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutator_expiration_text" rel_version="Feature_Dungeon_Mutators">Muda em: </string>
+	<string key="ui_dungeon_mutator_recommended_gearscore" rel_version="Feature_Dungeon_Mutators"/>
+	<string key="ui_dungeon_mutator_codex" rel_version="Feature_Dungeon_Mutators">Códice</string>
+	<string key="ui_dungeon_mutator_difficulty_default" rel_version="Feature_Dungeon_Mutators">Comum</string>
+	<string key="ui_dungeon_mutator_difficulty_1" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt; (Normal)</string>
+	<string key="ui_dungeon_mutator_difficulty_2" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt; (Normal)</string>
+	<string key="ui_dungeon_mutator_difficulty_3" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt; (Intermediário)</string>
+	<string key="ui_dungeon_mutator_difficulty_4" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt; (Intermediário)</string>
+	<string key="ui_dungeon_mutator_difficulty_5" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt; (Intermediário)</string>
+	<string key="ui_dungeon_mutator_difficulty_6" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;6&lt;/font&gt; (Difícil)</string>
+	<string key="ui_dungeon_mutator_difficulty_7" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;7&lt;/font&gt; (Difícil)</string>
+	<string key="ui_dungeon_mutator_difficulty_8" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;8&lt;/font&gt; (Difícil)</string>
+	<string key="ui_dungeon_mutator_difficulty_9" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;9&lt;/font&gt; (Elite)</string>
+	<string key="ui_dungeon_mutator_difficulty_10" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;10&lt;/font&gt; (Elite)</string>
+	<string key="ui_dungeon_mutator_string" rel_version="Feature_Dungeon_Mutators">Mutação semanal</string>
+	<string key="ui_dungeon_mutator_multiplier_description" rel_version="Feature_Dungeon_Mutators">Multiplica a &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;pontuação total&lt;/font&gt; pelo &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;número de requisitos&lt;/font&gt; atendidos abaixo.</string>
+	<string key="ui_dungeon_mutator_clear_time" rel_version="Feature_Dungeon_Mutators">Tempo para Concluir:</string>
+	<string key="ui_dungeon_mutator_normal_enemies_killed" rel_version="Feature_Dungeon_Mutators">Inimigos derrotados:</string>
+	<string key="ui_dungeon_mutator_named_enemies_killed" rel_version="Feature_Dungeon_Mutators">Inimigos nomeados derrotados:</string>
+	<string key="ui_dungeon_mutator_team_wipes" rel_version="Feature_Dungeon_Mutators">Derrotas da equipe toda:</string>
+	<string key="ui_dungeon_mutator_respawns" rel_version="Feature_Dungeon_Mutators">Renascimentos:</string>
+	<string key="ui_dungeon_mutator_time_penalty" rel_version="Feature_Dungeon_Mutators">Penalidade de tempo:</string>
+	<string key="ui_dungeon_mutator_normal_enemies_killed_banner" rel_version="Feature_Dungeon_Mutators">Inimigos normais derrotados:</string>
+	<string key="ui_dungeon_mutator_multiplier" rel_version="Feature_Dungeon_Mutators">Multiplicador:</string>
+	<string key="ui_dungeon_mutator_overall_score" rel_version="Feature_Dungeon_Mutators">Pontuação geral:</string>
+	<string key="ui_dungeon_mutator_next_rank" rel_version="Feature_Dungeon_Mutators">Próximo ranque com {threshold} pontos</string>
+	<string key="ui_dungeon_mutator_bronze" rel_version="Feature_Dungeon_Mutators">Bronze</string>
+	<string key="ui_dungeon_mutator_silver" rel_version="Feature_Dungeon_Mutators">Prata</string>
+	<string key="ui_dungeon_mutator_gold" rel_version="Feature_Dungeon_Mutators">Ouro</string>
+	<string key="ui_dungeon_mutator_dungeon_progression" rel_version="Feature_Dungeon_Mutators">Progressão da Expedição</string>
+	<string key="ui_dungeon_mutator_difficulty_codex" rel_version="Feature_Dungeon_Mutators">Códice de dificuldade</string>
+	<string key="ui_dungeon_mutator_difficulty_points" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{val}&lt;/font&gt; pontos</string>
+	<string key="SavageTitle" rel_version="Feature_Dungeon_Mutators">Selvagem</string>
+	<string key="SavageDescription" rel_version="Feature_Dungeon_Mutators">Descrição de Selvagem</string>
+	<string key="BarbaricTitle" rel_version="Feature_Dungeon_Mutators">Bárbaro</string>
+	<string key="BarbaricDescription" rel_version="Feature_Dungeon_Mutators">Descrição de Bárbaro</string>
+	<string key="OppressiveTitle" rel_version="Feature_Dungeon_Mutators">Opressor</string>
+	<string key="OppressiveDescription" rel_version="Feature_Dungeon_Mutators">Descrição de Opressor</string>
+	<string key="IndomitableTitle" rel_version="Feature_Dungeon_Mutators">Indomável</string>
+	<string key="IndomitableDescription" rel_version="Feature_Dungeon_Mutators">Descrição de Indomável</string>
+	<string key="FirTitle" rel_version="Feature_Dungeon_Mutators">Infernal</string>
+	<string key="FirDescription" rel_version="Feature_Dungeon_Mutators">Descrição de Infernal</string>
+	<string key="IceTitle" rel_version="Feature_Dungeon_Mutators">Gélido</string>
+	<string key="IceDescription" rel_version="Feature_Dungeon_Mutators">Descrição de Gélido</string>
+	<string key="NatTitle" rel_version="Feature_Dungeon_Mutators">Encoberto</string>
+	<string key="NatDescription" rel_version="Feature_Dungeon_Mutators">Descrição de Encoberto</string>
+	<string key="VoiTitle" rel_version="Feature_Dungeon_Mutators">Eterno</string>
+	<string key="VoiDescription" rel_version="Feature_Dungeon_Mutators">Descrição de Eterno</string>
+	<string key="LigTitle" rel_version="Feature_Dungeon_Mutators">Tempestuoso</string>
+	<string key="LigDescription" rel_version="Feature_Dungeon_Mutators">Descrição de Tempestuoso</string>
+	<string key="FrenziedTitle" rel_version="Feature_Dungeon_Mutators">Enfurecido</string>
+	<string key="FrenziedDescription" rel_version="Feature_Dungeon_Mutators">Descrição de Enfurecido</string>
+	<string key="FiendishTitle" rel_version="Feature_Dungeon_Mutators">Diabólico</string>
+	<string key="FiendishDescription" rel_version="Feature_Dungeon_Mutators">Descrição de Diabólico</string>
+	<string key="DesiccatedTitle" rel_version="Feature_Dungeon_Mutators">Ressecado</string>
+	<string key="DesiccatedDescription" rel_version="Feature_Dungeon_Mutators">Descrição de Ressecado</string>
+	<string key="CensoredTitle" rel_version="Feature_Dungeon_Mutators">Censurado</string>
+	<string key="CensoredDescription" rel_version="Feature_Dungeon_Mutators">Descrição de Censurado</string>
+	<string key="ui_dungeon_mutator_difficulty_header_none" rel_version="Feature_Dungeon_Mutators">Normal</string>
+	<string key="ui_dungeon_mutator_difficulty_header_mutated" rel_version="Feature_Dungeon_Mutators">Mutação</string>
+	<string key="ui_dungeon_mutator_difficulty_plain" rel_version="Feature_Dungeon_Mutators">Dificuldade&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutator_appended_difficulty" rel_version="Feature_Dungeon_Mutators">Dificuldade &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{difficulty}&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutator_appended_difficulty_bold" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Dificuldade {difficulty}&lt;/font&gt;</string>
+	<string key="ui_dungeon_next_unlock_requirement" rel_version="Feature_Dungeon_Mutators">Para desbloquear a &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;próxima dificuldade&lt;/font&gt;, é necessário concluir esta Expedição com &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Ranque Prata&lt;/font&gt;.</string>
+	<string key="ui_dungeon_mutator_unlock_requirement" rel_version="Feature_Dungeon_Mutators">Para desbloquear a &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;próxima dificuldade&lt;/font&gt;, é necessário concluir esta Expedição.</string>
+	<string key="ui_dungeon_mutator_active" rel_version="Feature_Dungeon_Mutators">&lt;font color="#00ffa8"&gt;Ativo &lt;img src="LyShineUI/Images/icons/misc/icon_question_orange" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; &lt;/font&gt;</string>
+	<string key="ui_dungeon_mutator_inactive" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ff9393"&gt;Inativo &lt;img src="LyShineUI/Images/icons/misc/icon_question_orange" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; &lt;/font&gt;</string>
+	<string key="ui_dungeon_mutator_rotation_notice" rel_version="Feature_Dungeon_Mutators">Uma expedição será escolhida aleatoriamente toda semana para sofrer a mutação. Somente a expedição escolhida poderá ser realizada nas dificuldades aumentadas.</string>
+	<string key="ui_dungeon_mutation_rewards_description" rel_version="Feature_Dungeon_Mutators">Chance de obter &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Itens&lt;/font&gt; com estas &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Vantagens:&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutator_standard_reward_count" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{count}&lt;/font&gt; Itens de Expedição</string>
+	<string key="ui_dungeon_mutator_difficulty_reward_count" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{count}&lt;/font&gt; Itens de Dificuldade</string>
+	<string key="ui_dungeon_mutator_special_reward_tooltip" rel_version="Feature_Dungeon_Mutators">Além dos itens de recompensa, concluir as expedições fornecerá até {value} Lascas de Umbral dependendo do ranque.\n\n Ao obter o ranque Prata no fim da expedição, você desbloqueará a próxima dificuldade da expedição.</string>
+	<string key="ui_dungeon_mutator_hud_points_shorthand" rel_version="Feature_Dungeon_Mutators"> &lt;font color="#aaaaaa" &gt;pontos&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutator_difficulty_not_unlocked" rel_version="Feature_Dungeon_Mutators">Esta dificuldade ainda não foi desbloqueada.</string>
+	<string key="Mut_Disease_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Os ataques dos inimigos aplicam uma Enfermidade cumulativa.</string>
+	<string key="Mut_Disease_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Os ataques dos inimigos aplicam uma Enfermidade cumulativa.</string>
+	<string key="Mut_RotatingBeam_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Quando atingidos, os inimigos lançam feixes cortantes que causam dano imaterial.</string>
+	<string key="Mut_Lifesteal_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Os inimigos se curam em uma porcentagem do dano causado.</string>
+	<string key="Mut_Lifesteal_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Os inimigos se curam em uma porcentagem do dano causado.</string>
+	<string key="Mut_ProjectileShield_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Os inimigos conjuram um escudo que bloqueia projéteis dos jogadores.</string>
+	<string key="Mut_Fir_Damage_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Os inimigos causam uma porcentagem de todo o dano como dano flamejante.</string>
+	<string key="Mut_Fir_Resist_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Os inimigos têm absorção de fogo.</string>
+	<string key="Mut_Fir_Resist_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Os inimigos têm absorção de fogo.</string>
+	<string key="Mut_Fir_Burn_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Os ataques dos inimigos aplicam Queimadura, que causa dano flamejante contínuo.</string>
+	<string key="Mut_Fir_Burn_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Os ataques dos inimigos aplicam Queimadura, que causa dano flamejante contínuo.</string>
+	<string key="Mut_Fir_AOE_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Os inimigos conjuram uma zona de Queimadura nos jogadores que os atacam, causando dano flamejante contínuo.</string>
+	<string key="Mut_Fir_AOE_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Os inimigos conjuram uma zona de Queimadura nos jogadores que os atacam, causando dano flamejante contínuo.</string>
+	<string key="Mut_Fir_Death_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Os inimigos explodem ao ser derrotados, causando dano flamejante em uma área pequena.</string>
+	<string key="Mut_Voi_Damage_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Os inimigos causam uma porcentagem de todo o dano como dano imaterial.</string>
+	<string key="Mut_Voi_Resist_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Os inimigos têm absorção de dano imaterial.</string>
+	<string key="Mut_Voi_Resist_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Os inimigos têm absorção de dano imaterial.</string>
+	<string key="Mut_Voi_Leech_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Os ataques dos inimigos aplicam Sanguessuga, que os curam e causam dano imaterial aos jogadores continuamente.</string>
+	<string key="Mut_Voi_Leech_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Os ataques dos inimigos aplicam Sanguessuga, que os curam e causam dano imaterial aos jogadores continuamente.</string>
+	<string key="Mut_Voi_Stacks_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Quando atingidos, os inimigos aplicam acúmulos de Paranoia. Ao chegar em {[Type_StatusEffectData.Mut_Voi_Stacks_1_Effect.AddOnStackSize]} acúmulos, faz uma explosão imaterial aparecer na sua localização.</string>
+	<string key="Mut_Voi_Stacks_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Quando atingidos, os inimigos aplicam acúmulos de Paranoia. Ao chegar em {[Type_StatusEffectData.Mut_Voi_Stacks_2_Effect.AddOnStackSize]} acúmulos, faz uma explosão imaterial aparecer na sua localização.</string>
+	<string key="Mut_Voi_Death_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Ao serem abatidos, os inimigos lançam um feitiço que concede Energizado Imaterial a outros inimigos na área.</string>
+	<string key="Mut_Fir_Curse3_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Seleciona periodicamente o jogador com a menor porcentagem de saúde. Após vários segundos, o jogador selecionado lança Chama Encadeada, causando dano aos jogadores e IAs próximos.</string>
+	<string key="Mut_Voi_Curse3_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Seleciona periodicamente o jogador com a menor porcentagem de saúde. Após vários segundos, o jogador selecionado lança Imaterial Encadeado, causando dano aos jogadores e IAs próximos.</string>
+	<string key="Mut_Fir_Curse3_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Ao selecionar o jogador com a porcentagem de saúde mais baixa, todos os outros jogadores recebem Enfraquecido Frágil. O jogador selecionado ganha uma aura que elimina o Enfraquecido Frágil.</string>
+	<string key="Mut_Voi_Curse3_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Ao selecionar o jogador com a porcentagem de saúde mais baixa, todos os outros jogadores recebem Enfraquecido Frágil. O jogador selecionado ganha uma aura que elimina o Enfraquecido Frágil.</string>
+	<string key="Mut_Curse4_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Enquanto as zonas de silêncio estão ativas, todos os jogadores perdem a regeneração natural de mana. Ficar na zona de silêncio concede uma grande quantidade de regeneração de mana.</string>
+	<string key="Mut_Fir_Curse4_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Usar habilidades causa uma aflição global. Quando a aflição é aplicada, uma zona é conjurada em cada jogador, silenciando todos os outros na área. Quando a aflição acaba, as zonas detonam e causam Dano Flamejante aos jogadores na área.</string>
+	<string key="Mut_Voi_Curse4_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Usar habilidades causa uma aflição global. Quando a aflição é aplicada, uma zona é conjurada em cada jogador, silenciando todos os outros na área. Quando a aflição acaba, as zonas detonam e causam Dano Imaterial aos jogadores na área.</string>
+	<string key="ui_dungeon_mutator_highest_rank_tooltip" rel_version="Feature_Dungeon_Mutators">O ranque mais alto que você atingiu nesta dificuldade: &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{rank}&lt;/font&gt;</string>
+	<string key="ui_dungeon_survive_for">Sobreviva durante</string>
+	<string key="ui_dungeon_possible_rewards_header" rel_version="Feature_Dungeon_Mutators">Possíveis Recompensas</string>
+	<string key="ui_dungeon_no_possible_rewards" rel_version="Feature_Dungeon_Mutators">Sem Possíveis Recompensas</string>
+	<string key="ui_dungeon_orb_explanation" rel_version="Feature_Dungeon_Mutators">Uma recompensa única. Orbes de Afinação de Expedição Transmutada também estão disponíveis na Loja da Facção.</string>
+	<string key="ui_dungeon_gearscore_recommendation_tooltip" rel_version="Feature_Dungeon_Mutators"/>
+	<string key="ui_dungeon_gearscore_underlevel_warning" rel_version="Feature_Dungeon_Mutators">AVISO: A Pontuação Média do seu Equipamento é muito baixa para ter um bom desempenho nesta Expedição.</string>
 </resources>
 

@@ -250,7 +250,7 @@
 	<string key="ui_twitch_logout_popup_message">Deseja desconectar sua conta da Twitch?</string>
 	<string key="ui_twitch_logoutfailed_popup_title">Falha ao Desconectar à Twitch</string>
 	<string key="ui_twitch_logoutfailed_popup_message">Ocorreu um problema ao se conectar em sua conta na Twitch.</string>
-	<string key="ui_twitch_validation_failed_title">Falha ao Conectar à Twitch</string>
+	<string key="ui_twitch_validation_failed_title">Conexão à Twitch Falhou</string>
 	<string key="ui_twitch_validation_failed_message">Falha ao validar sua conta da Twitch. Os recursos da Twitch não funcionarão. Por favor, tente conectar-se novamente.</string>
 	<string key="ui_spotlight_viewer">1 espectador</string>
 	<string key="ui_spotlight_viewers">{viewers} espectadores</string>
@@ -260,7 +260,7 @@
 	<string key="ui_spotlight_failed_notification_title">A Conexão Falhou</string>
 	<string key="ui_spotlight_failed_notification_message">Não foi possível iniciar o Destaque de Streamers da Twitch. Certifique-se de que sua transmissão esteja ao vivo e tente novamente.</string>
 	<string key="ui_spotlight_error">&lt;font color="#835acd"&gt;Destaque:&lt;/font&gt; &lt;font color="#f25d5d"&gt; Erro&lt;/font&gt;</string>
-	<string key="ui_subarmy_title">Tropa de Inscritos na Twitch</string>
+	<string key="ui_subarmy_title">Tropa Inscrita na Twitch</string>
 	<string key="ui_subarmy_join_desc">Entre na sessão da tropa de inscritos de outros streamers.</string>
 	<string key="ui_subarmy_subtitle_sessions">{number} sessões disponíveis</string>
 	<string key="ui_subarmy_subtitle_requests">{number} entraram</string>
@@ -291,10 +291,10 @@
 	<string key="ui_subarmy_time_remaining">TEMPO RESTANTE</string>
 	<string key="ui_subarmy_continue_to_selection">Continue para a Seleção</string>
 	<string key="ui_subarmy_invite_header">Escolher Jogadores para Convidar</string>
-	<string key="ui_subarmy_invite_to_group_enabled">&lt;img src="LyShineUI/Images/icons/twitch/twitch_iconAddGroup" scale="1.5" yOffset="5.5"&gt;&lt;/img&gt; Convidar para o Grupo</string>
-	<string key="ui_subarmy_invite_to_company_enabled">&lt;img src="LyShineUI/Images/icons/twitch/twitch_iconAddGuild" scale="1.5" yOffset="6.5"&gt;&lt;/img&gt; Convidar para a Companhia</string>
-	<string key="ui_subarmy_invite_to_group">&lt;img src="LyShineUI/Images/socialpane/social_iconAddGroup" scale="1.5" yOffset="5.5"&gt;&lt;/img&gt; Convidar para o Grupo</string>
-	<string key="ui_subarmy_invite_to_company">&lt;img src="LyShineUI/Images/socialpane/social_iconAddGuild" scale="1.5" yOffset="6.5"&gt;&lt;/img&gt; Convidar para a Companhia</string>
+	<string key="ui_subarmy_invite_to_group_enabled">&lt;img src="LyShineUI/Images/icons/twitch/twitch_iconAddGroup" scale="1.5" yOffset="5.5"&gt;&lt;/img&gt; Convidar ao Grupo</string>
+	<string key="ui_subarmy_invite_to_company_enabled">&lt;img src="LyShineUI/Images/icons/twitch/twitch_iconAddGuild" scale="1.5" yOffset="6.5"&gt;&lt;/img&gt; Convidar à Companhia</string>
+	<string key="ui_subarmy_invite_to_group">&lt;img src="LyShineUI/Images/socialpane/social_iconAddGroup" scale="1.5" yOffset="5.5"&gt;&lt;/img&gt; Convidar ao Grupo</string>
+	<string key="ui_subarmy_invite_to_company">&lt;img src="LyShineUI/Images/socialpane/social_iconAddGuild" scale="1.5" yOffset="6.5"&gt;&lt;/img&gt; Convidar à Companhia</string>
 	<string key="ui_subarmy_invite_to_company_no_company">Você precisa estar em uma companhia para convidar um jogador.</string>
 	<string key="ui_subarmy_decline">Recusar</string>
 	<string key="ui_subarmy_stop_session">Finalizar Sessão</string>
@@ -384,5 +384,27 @@
 	<string key="ui_subarmy_decline_tooltip">Sua solicitação para entrar na Tropa de Inscritos do streamer foi recusada.</string>
 	<string key="ui_subarmy_waiting">Aguardando a aprovação do streamer...</string>
 	<string key="ui_subarmy_pending">Pendente...</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_screen_header">Buscador de Grupo de Expedição</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_requiredearscore">Pontuação do Equipamento Necessária: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{level}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voippreference">Chat de Voz: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{preference}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_size">Mínimo de Jogadores: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{amount}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_recommendedgearscore">Pontuação do Equipamento Recomendada: &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;600 - {score}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_recommendedlevel">Nível Recomendado: &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{level}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group">Não há nenhum grupo para esta masmorra no momento.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group_at_level">Não há nenhum grupo para o nível de dificuldade {level} desta masmorra no momento.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_your_group">Seu Grupo de Expedição</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty">Dificuldade {level}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_only_accept">Aceitar Apenas</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_currentmembers">Membros Atuais</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_requeststojoin">Pedidos para Entrar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_gearscore_short">P.E.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_stats">Estatísticas</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_group_title">Criar um novo grupo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred">Preferível</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_not_required">Não é Necessário</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level">Nível Mínimo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score">Pontuação Mínima de Equipamento</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted_roles_label">Aceitar Apenas</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_select_role_label">Selecione sua Função</string>
 </resources>
 

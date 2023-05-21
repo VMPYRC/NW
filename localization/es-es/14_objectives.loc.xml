@@ -126,11 +126,11 @@
 	<string key="1413_0201_spriggan_Start_Prompt" speaker="UI - Player Prompt">«¿Por qué dices eso?».</string>
 	<string key="1413_0201_spriggan_c_Proposal" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-next="@1413_0201_spriggan_c_Proposal_next">Hubo una naturalista aquí hace unas cuantas décadas que desapareció tras sucumbir a la peste.\n\nHabía descubierto que hay un espécimen de los tierramarga por aquí capaz de replicarse un número infinito de veces... ¡en un abrir y cerrar de ojos!</string>
 	<string key="1413_0201_spriggan_c_Proposal_prompt" speaker="UI - Player Prompt">«¿En la Arboleda del Edén?».</string>
-	<string key="1413_0201_spriggan_c_Proposal_next" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-prompt="@1413_0201_spriggan_c_Proposal_prompt">Sí. En cuanto la corrupción amaine, esta criatura se multiplicará hasta haber conquistado todo Aetérnum.\n\nLa criatura mora en la Arboleda de Zygorameth, al sur. Explora las ruinas cercanas en busca de una llave, entra en la grieta y destrúyela. Por favor..., tienes que creerme.</string>
+	<string key="1413_0201_spriggan_c_Proposal_next" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-prompt="@1413_0201_spriggan_c_Proposal_prompt">Sí. En cuanto la corrupción amaine, esta criatura se multiplicará hasta haber conquistado todo Aetérnum. \n\nLa criatura mora en la Arboleda de Zygoramet, al sur. Explora las ruinas en busca de una llave, entra en la grieta y destrúyela. Por favor..., tienes que creerme.</string>
 	<string key="1413_0201_spriggan_e_Incomplete" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording">No estoy exagerando. La criatura que hay en el interior de la Arboleda de Zygorameth nos consumirá a todos.\n\nDebes obtener una llave para entrar en ella y destruirla.</string>
-	<string key="1413_0201_spriggan_f_Complete" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-next="@1413_0201_spriggan_f_Complete_next">¿Has vuelto? ¿Has acabado con la criatura, entonces? Maldita sea, nadie me había creído antes que tú.\n\nPuede que la gente no se dé cuenta, pero ahora estamos mucho más a salvo.</string>
+	<string key="1413_0201_spriggan_f_Complete" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-next="@1413_0201_spriggan_f_Complete_next">Oh, ¿has vuelto? ¿Has acabado con la criatura, entonces? Maldita sea, nadie me había creído antes que tú. \n\nPuede que la gente no se dé cuenta, pero ahora estamos mucho más a salvo.</string>
 	<string key="1413_0201_spriggan_f_Complete_prompt" speaker="UI - Player Prompt">«¿Estás segura de que no va a volver?».</string>
-	<string key="1413_0201_spriggan_f_Complete_next" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-prompt="@1413_0201_spriggan_f_Complete_prompt">La verdad es que no. De hecho, sospecho que volverá, dado lo que dijo la naturalista.\n\nSin embargo, si la vil criatura regresa, debemos prepararnos para acabar con ella de nuevo. Todas las veces que haga falta.</string>
+	<string key="1413_0201_spriggan_f_Complete_next" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-prompt="@1413_0201_spriggan_f_Complete_prompt">La verdad es que no. De hecho, sospecho que volverá, dado lo que dijo la naturalista. \n\nSin embargo, si la vil criatura regresa, debemos prepararnos para acabar con ella de nuevo. Todas las veces que haga falta.</string>
 	<string key="1413_0201_key_goto" speaker="UI - Tracker Text">Explora las ruinas de {POITags} en busca de una llave para entrar en la Arboleda de Zygorameth</string>
 	<string key="1413_0201_spriggan_getkey" speaker="UI - Tracker Text">Derrota {targetName} para conseguir: {itemName}</string>
 	<string key="1413_0201_spriggan_goto" speaker="UI - Tracker Text">Entra en la Arboleda de Zygorameth</string>
@@ -147,6 +147,10 @@
 	<string key="1403A_0301_f_Complete_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403A_0301_GKW_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1403A_0301_f_Complete_Pt2Prompt">Un ciclo mucho más vasto que cualquiera de nosotros, vivamos lo que vivamos. \n\nHemos desempeñado nuestro papel en la restauración del Jardín, y ahora la isla puede comenzar su proceso de curación. Me llenas de orgullo, adalid.</string>
 	<string key="1416_0301_d_01_Task" speaker="UI">1416_0301_d_01_Task</string>
 	<string key="1416_0301_d_02_Task" speaker="UI">1416_0301_d_02_Task</string>
+	<string key="1434_Pyre_Enc_Title">Lágrimas de amor</string>
+	<string key="1434_Pyre_Enc_Stage_02_Title">Lágrimas de amor: Etapa 1/3</string>
+	<string key="1434_Pyre_Enc_Stage_03_Title">Lágrimas de amor: Etapa 2/3</string>
+	<string key="1434_Pyre_Enc_Stage_04_Title">Lágrimas de amor: Etapa 3/3</string>
 	<string key="1420_0501_d_00_Containter_weaponwrapperquest" speaker="UI">Voz clamorosa</string>
 	<string key="1420_0501_d_01_Containter_weaponwrapperquest_sub_01" speaker="UI">En busca de suministros</string>
 	<string key="1420_0501_d_02_Containter_weaponwrapperquest_sub_02" speaker="UI">En busca de suministros</string>

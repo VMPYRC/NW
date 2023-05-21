@@ -78,7 +78,7 @@
 	<string key="Ability_Bow_RainofArrows" comment="BOW + ACTIVE">Pfeilhagel</string>
 	<string key="Ability_Bow_RainofArrows_description" comment="BOW + ACTIVE">Verschieße eine Vielzahl von Pfeilen, die einen Bereich von {[SpellDataTable_Bow.Spell_Bow_Spell_RainOfArrows.Radius]} m abdecken und {[DamageTable.Bow_RainOfArrows_Attack.DmgCoef * 100]} % Waffenschaden zufügen. Diese Fertigkeit kann keine Kopfschüsse zufügen.</string>
 	<string key="Upgrade_Bow_RainofArrows_Bleed" comment="BOW + MOD">Widerhakenpfeile</string>
-	<string key="Upgrade_Bow_RainofArrows_Bleed_description" comment="BOW + MOD">Pfeilhagel verursacht Blutung, die über {[Type_StatusEffectData.Status_Passive_RainofArrows_Bleed.BaseDuration]} Sek. hinweg 85 % Waffenschaden verursacht.</string>
+	<string key="Upgrade_Bow_RainofArrows_Bleed_description" comment="BOW + MOD">Pfeilhagel verursacht Blutung, die über {[Type_StatusEffectData.Status_Passive_RainofArrows_Bleed.BaseDuration]}Sek. hinweg {[Type_StatusEffectData.Status_Passive_RainofArrows_Bleed.HealthModifierDamageBased * -100]} % Waffenschaden pro Sekunde verursacht.</string>
 	<string key="Upgrade_Bow_RainofArrows_Slow" comment="BOW + MOD">Hakenpfeile</string>
 	<string key="Upgrade_Bow_RainofArrows_Slow_description" comment="BOW + MOD">Pfeilhagel verlangsamt für {[Type_StatusEffectData.Status_Bow_RainOfArrows_Slow.BaseDuration]} Sek. um {[Type_StatusEffectData.Status_Bow_RainOfArrows_Slow.MoveSpeedMod * -100]} %. (Verlangsamung verringert das Bewegungstempo des Ziels.)</string>
 	<string key="Passive_Bow_Skirmish_DodgeDmg" comment="BOW + PASSIVE">Ausweichtaktiken</string>
@@ -130,7 +130,7 @@
 	<string key="Passive_Bow_Hunter_HeavyDmgVsFull" comment="BOW + PASSIVE">Eröffnungsschuss</string>
 	<string key="Passive_Bow_Hunter_HeavyDmgVsFull_description" comment="BOW + PASSIVE">Schwere Angriffe verursachen {[BowAbilityTable.Passive_Bow_Hunter_DmgOnFirst.BaseDamage * 100]} % erhöhten Schaden bei Gegnern mit 100 % Gesundheit.</string>
 	<string key="Passive_Bow_Hunter_DmgOnFirst" comment="BOW + PASSIVE">Überraschungsangriff</string>
-	<string key="Passive_Bow_Hunter_DmgOnFirst_description" comment="BOW + PASSIVE">Du verursachst {[BowAbilityTable.Passive_Bow_Hunter_DmgOnFirst.BaseDamage * 100]} % zusätzlichen Schaden, wenn du seit {[Type_StatusEffectData.Status_Passive_Bow_Hunter_DmgOnFirst_Tracker.BaseDuration]} Sek. bei keinem Gegner Schaden verursacht hast.</string>
+	<string key="Passive_Bow_Hunter_DmgOnFirst_description" comment="BOW + PASSIVE">Füge einem Gegner, den du in den letzten {[Type_StatusEffectData.Status_Passive_Bow_Hunter_DmgOnFirst_Tracker.BaseDuration]} Sek. nicht getroffen hast, {[BowAbilityTable.Passive_Bow_Hunter_DmgOnFirst.BaseDamage * 100]} % zusätzlichen Schaden zu.</string>
 	<string key="Passive_Bow_Hunter_Accuracy" comment="BOW + PASSIVE">Pfeilreichweite</string>
 	<string key="Passive_Bow_Hunter_Accuracy_description" comment="BOW + PASSIVE">Erhöht die Flugweite von Pfeilen um 100 %.</string>
 	<string key="Passive_Bow_Hunter_HealOnFive" comment="BOW + PASSIVE">Adlerauge</string>
@@ -138,7 +138,7 @@
 	<string key="Passive_Bow_Hunter_Crit" comment="BOW + PASSIVE">Ins Schwarze getroffen</string>
 	<string key="Passive_Bow_Hunter_Crit_description" comment="BOW + PASSIVE">Erhöht die kritische Trefferchance von Pfeilen um {[BowAbilityTable.Passive_Bow_Hunter_Crit.CritChance * 100]} %.</string>
 	<string key="Ultimate_Bow_Hunter" comment="BOW + PASSIVE">Gehirnerschütterung</string>
-	<string key="Ultimate_Bow_Hunter_description" comment="BOW + PASSIVE">Landest du einen Kopfschusstreffer, verursachst du {[BowAbilityTable.Ultimate_Bow_Hunter.BaseDamage * 100]} % mehr Schaden und erhältst zu {[BowAbilityTable.Ultimate_Bow_Hunter.RefundAmmoPercentChance * 100]} % den verschossenen Pfeil zurück.</string>
+	<string key="Ultimate_Bow_Hunter_description" comment="BOW + PASSIVE">Landest du einen Kopfschusstreffer, verursachst du {[BowAbilityTable.Ultimate_Bow_Hunter.BaseDamage * 100]} % mehr Schaden und erhältst zu {[BowAbilityTable.Ultimate_Bow_Hunter_Refund.RefundAmmoPercentChance * 100]} % den verschossenen Pfeil zurück.</string>
 	<string key="Ability_Greataxe_Charge" comment="GREATAXE + ACTIVE">Ansturm</string>
 	<string key="Ability_Greataxe_Charge_description" comment="GREATAXE + ACTIVE">Stürme 10 m voran und verursache {[DamageTable.GreatAxe_Engage1.DmgCoef * 100]} % Waffenschaden, wenn du das Ziel erreichst. Drücke LMT, um stehenzubleiben und früher anzugreifen. \n\nDiese Fertigkeit generiert Mut. (Mut verhindert, durch Angriffe ins Taumeln zu geraten.)</string>
 	<string key="Upgrade_Greataxe_Charge_DmgPerDistance" comment="GREATAXE + MOD">Rasende Dynamik</string>
@@ -176,7 +176,7 @@
 	<string key="Passive_Greataxe_Reaper_HealVsLowHP" comment="GREATAXE + PASSIVE">Futtern</string>
 	<string key="Passive_Greataxe_Reaper_HealVsLowHP_description" comment="GREATAXE + PASSIVE">Angriffe mit der Streitaxt gegen Gegner mit weniger als {[GreatAxeAbilityTable.Passive_Greataxe_Reaper_HealVsLowHP.TargetHealthPercent]} % Gesundheit heilen dich um {[GreatAxeAbilityTable.Passive_Greataxe_Reaper_HealVsLowHP.DmgPctToHealth * 100]} % des verursachten Schadens.</string>
 	<string key="Ultimate_Greataxe_Reaper" comment="GREATAXE + PASSIVE">Blutrausch</string>
-	<string key="Ultimate_Greataxe_Reaper_description" comment="GREATAXE + PASSIVE">Du bewegst dich {[Type_StatusEffectData.Status_Ultimate_Greataxe_Reaper.MoveSpeedMod * 100]} % schneller und verursachst {[Type_StatusEffectData.Status_Ultimate_Greataxe_Reaper.DMGStandard * 100]} % mehr Schaden, wenn du Gegner im Umkreis von {[SpellDataTable_GreatAxe.Spell_Ultimate_Greataxe_Reaper.Radius]} m angreifst.</string>
+	<string key="Ultimate_Greataxe_Reaper_description" comment="GREATAXE + PASSIVE">Du bewegst dich {[Type_StatusEffectData.Status_Ultimate_Greataxe_Reaper.MoveSpeedMod * 100]} % schneller und verursachst {[Type_StatusEffectData.Status_Ultimate_Greataxe_Reaper.DMGStandard * 100]} % mehr Schaden, wenn du Gegner im Umkreis von {[SpellDataTable_GreatAxe.Spell_Ultimate_Greataxe_Reaper.Length * 2]} m angreifst.</string>
 	<string key="Ability_Greataxe_Whirlwind" comment="GREATAXE + ACTIVE">Wirbelwind</string>
 	<string key="Ability_Greataxe_Whirlwind_description" comment="GREATAXE + ACTIVE">Du drehst dich, greifst alle Gegner in der Nähe an und verursachst {[DamageTable.GreatAxe_Whirlwind.DmgCoef * 100]} % Waffenschaden. Wenn du einen Gegner triffst, drehst du dich erneut. (Bis zu 4 Drehungen.) Du kannst dich beim Drehen bewegen. Der Angriff verursacht keine Angriffe aus dem Hinterhalt. Dieser Angriff generiert Mut. \n\n(Mut verhindert, durch Angriffe ins Taumeln zu geraten.)</string>
 	<string key="Upgrade_Greataxe_Whirlwind_MoreSpins" comment="GREATAXE + MOD">Tosende Winde</string>
@@ -306,7 +306,7 @@
 	<string key="Upgrade_Firestaff_MeteorShower_More" comment="FIRESTAFF + MOD">Urteilsspruch des Helios</string>
 	<string key="Upgrade_Firestaff_MeteorShower_More_description" comment="FIRESTAFF + MOD">Alle Treffer nach dem ersten Aufschlag verursachen nun {[Type_StatusEffectData.Status_FireStaff_MeteorShower_DamageUpgrade.HealthModifierDamageBased * -100]} % Waffenschaden.</string>
 	<string key="Ability_Firestaff_Fireball" comment="FIRESTAFF + ACTIVE">Feuerball</string>
-	<string key="Ability_Firestaff_Fireball_description" comment="FIRESTAFF + ACTIVE">Schleudere einen großen Feuerball, der beim Aufschlag {[DamageTable.Firestaff_Siege_AOE.DmgCoef * 100]} % Waffenschaden verursacht und ein 3 m breites brennendes Feld erzeugt, das 6 Sek. anhält. Das brennende Feld verursacht {[Type_StatusEffectData.Status_FireStaff_ScorchedEarth_DOT.HealthModifierDamageBased * -100]} % Waffenschaden pro Sekunde. Diese Fertigkeit kann keine krit. Treffer zufügen.\n\nKostet {[ManaCosts_Player.48.ManaCost]} Mana.</string>
+	<string key="Ability_Firestaff_Fireball_description" comment="FIRESTAFF + ACTIVE">Schleudere einen großen Feuerball, der beim Aufschlag {[DamageTable.Firestaff_Siege_AOE.DmgCoef * 100]} % Waffenschaden verursacht und ein 3 m breites brennendes Feld erzeugt, das 6 Sek. anhält. Das brennende Feld verursacht {[Type_StatusEffectData.Status_FireStaff_ScorchedEarth_DOT.HealthModifierDamageBased * -100]} % Waffenschaden pro Sekunde. \n\nKostet {[ManaCosts_Player.48.ManaCost]} Mana.</string>
 	<string key="Upgrade_Firestaff_Fireball_Dur" comment="FIRESTAFF + MOD">Verbrannte Erde</string>
 	<string key="Upgrade_Firestaff_Fireball_Dur_description" comment="FIRESTAFF + MOD">Das brennende Feld von Feuerball hält 9 Sek. an.</string>
 	<string key="Upgrade_Firestaff_Fireball_Mana" comment="FIRESTAFF + MOD">Feuerfangen</string>
@@ -825,7 +825,7 @@
 	<string key="Spear_BonusDmgVsDebuff" comment="SPEAR + PASSIVE">Ausgenutzte Schwäche</string>
 	<string key="Spear_BonusDmgVsDebuff_description" comment="SPEAR + PASSIVE">Für jede Schwächung erleidet dein Ziel {[SpearAbilityTable.Ability_Spear_BonusDmgVsDebuff.BaseDamage * 100]} % Bonusschaden. (Maximal 30 %.)</string>
 	<string key="Rapier_01" comment="RAPIER + ACTIVE">Rundbild</string>
-	<string key="Rapier_01_description" comment="RAPIER + ACTIVE">Du vollführst einen derart rasanten Schnitt, dass sich die Reichweite deiner Klinge um bis zu 5 m vergrößert. Dieser Schlag fügt {[DamageTable.1H_Rapier_Slash.DmgCoef * 100]} % direkten Waffenschaden sowie eine Blutung zu, die innerhalb von {[Type_StatusEffectData.Rapier_Bleed_DOT.BaseDuration]} Sek. zusätzlich 85 % des Waffenschadens verursacht. Die Blutung ist bis zu 3-mal stapelbar zur Auffrischung vorheriger Anwendungen.</string>
+	<string key="Rapier_01_description" comment="RAPIER + ACTIVE">Du vollführst einen derart rasanten Schnitt, dass sich die Reichweite deiner Klinge um bis zu 5 m vergrößert. Dieser Schlag fügt {[DamageTable.1H_Rapier_Slash.DmgCoef * 100]} % direkten Waffenschaden sowie eine Blutung zu, die innerhalb von {[Type_StatusEffectData.Rapier_Bleed_DOT.BaseDuration]} Sek. zusätzlich {[Type_StatusEffectData.Rapier_Bleed_DOT.HealthModifierDamageBased * -100]} % des Waffenschadens pro Sekunde verursacht. Die Blutung ist bis zu 3-mal stapelbar zur Auffrischung vorheriger Anwendungen.</string>
 	<string key="Rapier_01_Mod1" comment="RAPIER + MOD">Blutdurst</string>
 	<string key="Rapier_01_Mod1_description" comment="RAPIER + MOD">Nachdem ein Gegner den ersten Blutungsstapel erlitten hat, wird Tondos Abklingzeit um {[RapierAbilityTable.Rapier_Slash_Mod1.cooldownTimer * -100]} % verringert.</string>
 	<string key="Rapier_01_Mod2" comment="RAPIER + MOD">Und noch mal</string>
@@ -901,79 +901,79 @@
 	<string key="Rapier_BonusDMGAfterAbility" comment="RAPIER + PASSIVE">Dynamik</string>
 	<string key="Rapier_BonusDMGAfterAbility_description" comment="RAPIER + PASSIVE">Nach dem Ausführen einer Fertigkeit erhöht sich der Schaden deines nächsten leichten oder schweren Angriffs um {[RapierAbilityTable.Rapier_BonusDMGAfterAbility.BaseDamage * 100]} %. Endet bei einem Treffer oder nach {[Type_StatusEffectData.Rapier_BonusDMGAfterAbility.BaseDuration]} Sek.</string>
 	<string key="IceSpikes" comment="ICEMAGIC + ACTIVE">Eisstacheln</string>
-	<string key="IceSpikes_description" comment="ICEMAGIC + ACTIVE">Vom Spieler ausgehend wachsen Stacheln in einer 8 m langen geraden Linie empor und verursachen {[DamageTable.IceMagic_Spikes.DmgCoef * 100]} % Waffenschaden. Der letzte Stachel ist ein "Mächtiger Dorn", der {[DamageTable.IceMagic_Spikes_End.DmgCoef * 100]} % Waffenschaden verursacht und Gegner nach hinten stößt. Drücke auf leichter Angriff, bevor die Stachelspur endet, um "Mächtiger Dorn" vorzeitig auszulösen.\n\nKostet 15 Mana.</string>
+	<string key="IceSpikes_description" comment="ICEMAGIC + ACTIVE">Vom Spieler ausgehend wachsen Stacheln in einer 8 m langen geraden Linie empor und verursachen {[DamageTable.IceMagic_Spikes.DmgCoef * 100]} % Waffenschaden. Der letzte Stachel ist ein "Mächtiger Dorn", der {[DamageTable.IceMagic_Spikes_End.DmgCoef * 100]} % Waffenschaden verursacht und Gegner nach hinten stößt. Drücke auf leichter Angriff, bevor die Stachelspur vervollständigt wird, um "Mächtiger Dorn" vorzeitig auszulösen.\n\nKostet {[ManaCosts_Player.60.ManaCost]} Mana.</string>
 	<string key="RefreshingSpikes" comment="ICEMAGIC + MOD">Revitalisierende Stacheln</string>
-	<string key="RefreshingSpikes_description" comment="ICEMAGIC + MOD">Trifft "Mächtiger Dorn" einen Gegner, verringert sich die Abklingzeit der Fertigkeit um 10 %.</string>
+	<string key="RefreshingSpikes_description" comment="ICEMAGIC + MOD">Trifft "Mächtiger Dorn" einen Gegner, verringert sich die Abklingzeit der Fertigkeit um {[IceMagicAbilityTable.SpikesRefreshingSpikes.CooldownTimer * -100]} %.</string>
 	<string key="EmpoweredSpikes" comment="ICEMAGIC + MOD">Ermächtigte Stacheln</string>
-	<string key="EmpoweredSpikes_description" comment="ICEMAGIC + MOD">Der Schaden von "Mächtiger Dorn" steigt um 20 %, wenn er Gegner mit weniger als 30 % Gesundheit trifft.</string>
+	<string key="EmpoweredSpikes_description" comment="ICEMAGIC + MOD">Der Schaden von "Mächtiger Dorn" steigt um {[IceMagicAbilityTable.SpikesEmpoweredSpikes.BaseDamage * 100]} %, wenn er Gegner mit weniger als {[IceMagicAbilityTable.SpikesEmpoweredSpikes.TargetHealthPercent]} % Gesundheit trifft.</string>
 	<string key="DeadlyPath" comment="ICEMAGIC + MOD">Tödliche Spur</string>
 	<string key="DeadlyPath_description" comment="ICEMAGIC + MOD">Erhöht den Schaden um 10 % und die Stachelspur bewirkt "Taumeln". Erhöht nicht den Schaden von "Mächtiger Dorn".</string>
 	<string key="SpikyReach" comment="ICEMAGIC + MOD">Stachelstoß</string>
 	<string key="SpikyReach_description" comment="ICEMAGIC + MOD">Aus der Seite von "Mächtiger Dorn" schießen Eissplitter hervor, die einen großen Bereich treffen. Jeder Splitter hat eine Reichweite von 6 m und verursacht {[DamageTable.IceMagic_Spike_Reach.DmgCoef * 100]} % Waffenschaden.</string>
 	<string key="IceStorm" comment="ICEMAGIC + ACTIVE">Eissturm</string>
-	<string key="IceStorm_description" comment="ICEMAGIC + ACTIVE">Erzeugt einen Sturm im Zielbereich mit einem Radius von 5 m, der alle 0,33 Sek. für 5 Sek. {[DamageTable.IceMagic_IceStorm.DmgCoef * 100]} % Waffenschaden verursacht. Der Sturm erzeugt ebenfalls einen vereisten Bereich, der Gegner um 25 % verlangsamt. (Verlangsamung verringert das Bewegungstempo des Ziels.)\n\nKostet 25 Mana.</string>
+	<string key="IceStorm_description" comment="ICEMAGIC + ACTIVE">Erzeugt einen Sturm im Zielbereich mit einem Radius von 5 m, der alle {[Type_StatusEffectData.IceMagic_IceStorm.TickRate]} Sek. für 5 Sek. {[DamageTable.IceMagic_IceStorm.DmgCoef * 100]} % Waffenschaden verursacht. Der Sturm erzeugt außerdem einen vereisten Bereich, der Gegner um {[Type_StatusEffectData.IceMagic_IceStorm.MoveSpeedMod * -100]} % verlangsamt. (Verlangsamung verringert das Bewegungstempo des Ziels.)\n\nKostet {[ManaCosts_Player.61.ManaCost]} Mana.</string>
 	<string key="WeakeningGust" comment="ICEMAGIC + MOD">Schwächende Böe</string>
-	<string key="WeakeningGust_description" comment="ICEMAGIC + MOD">Der verursachte Schaden bei Gegnern in "Eissturm" steigt für 3 Sek. um 10 %, wenn sie weniger als 50 % Gesundheit haben.</string>
+	<string key="WeakeningGust_description" comment="ICEMAGIC + MOD">Erlittener Schaden von Feinden im Eissturm wird für {[Type_StatusEffectData.IceMagic_IceStorm_Weaken.BaseDuration]} Sek. um {[Type_StatusEffectData.IceMagic_IceStorm_Weaken.WKNStandard * 100]} % erhöht, wenn sie weniger als {[IceMagicAbilityTable.IceStormWeakeningGust.TargetHealthPercent]} % Gesundheit haben.</string>
 	<string key="StormSummoner" comment="ICEMAGIC + MOD">Sturmbeschwörer</string>
 	<string key="StormSummoner_description" comment="ICEMAGIC + MOD">Die Manakosten von "Eissturm" sinken um 80 %, wenn du volles Mana hast.</string>
 	<string key="PunishingStorm" comment="ICEMAGIC + MOD">Heftiger Sturm</string>
-	<string key="PunishingStorm_description" comment="ICEMAGIC + MOD">Der Schaden steigt um 10 % für jeden Gegner in "Eissturm".</string>
+	<string key="PunishingStorm_description" comment="ICEMAGIC + MOD">Der Schaden steigt um {[IceMagicAbilityTable.IceStormPunishingStorm.BaseDamage * 100]} % für jeden Gegner in "Eissturm".</string>
 	<string key="WindChill" comment="ICEMAGIC + ACTIVE">Eiswind</string>
-	<string key="WindChill_description" comment="ICEMAGIC + ACTIVE">Eine Eiswindsäule schießt vorwärts und stößt Gegner 5 m zurück, verursacht bei jedem Treffer {[DamageTable.IceMagic_WindChill.DmgCoef * 100]} % Waffenschaden. "Eiswind" besitzt eine Gesamtreichweite von 7 m, wobei der Schaden auf den letzten 2 m um 20 % erhöht wird und Gegner nicht zurückstößt.\nDer Spieler kann sich während des Angriffs bewegen.\n\nKostet 20 Mana.</string>
+	<string key="WindChill_description" comment="ICEMAGIC + ACTIVE">Eine Eiswindsäule schießt vorwärts und stößt Gegner 5 m zurück, verursacht bei jedem Treffer {[DamageTable.IceMagic_WindChill.DmgCoef * 100]} % Waffenschaden. "Eiswind" besitzt eine Gesamtreichweite von 7 m, wobei der Schaden auf den letzten 2 m um 20 % erhöht wird und Gegner nicht zurückstößt.\nDer Spieler kann sich während des Angriffs bewegen.\n\nKostet {[ManaCosts_Player.63.ManaCost]} Mana.</string>
 	<string key="EnduringChill" comment="ICEMAGIC + MOD">Anhaltende Kälte</string>
 	<string key="EnduringChill_description" comment="ICEMAGIC + MOD">Verlängert die Dauer von "Eiswind" um 1 Sek.</string>
 	<string key="Shatter" comment="ICEMAGIC + MOD">Eiskalte Explosion</string>
-	<string key="Shatter_description" comment="ICEMAGIC + MOD">Erhöht den Schaden der letzten 2 m der "Eiswind"-Reichweite um 25 %.</string>
+	<string key="Shatter_description" comment="ICEMAGIC + MOD">Erhöht den Schaden der letzten 2 m der "Eiswind"-Reichweite um {[IceMagicAbilityTable.WindChillShatter.BaseDamage * 100]} %.</string>
 	<string key="IceTempestPass1" comment="ICEMAGIC + PASSIVE">Kältebereich</string>
-	<string key="IceTempestPass1_description" comment="ICEMAGIC + PASSIVE">Erhöht Schaden von leichten und schweren Angriffen um 15 % gegen Ziele, die weiter als 15 m entfernt sind.</string>
+	<string key="IceTempestPass1_description" comment="ICEMAGIC + PASSIVE">Erhöht Schaden von leichten und schweren Angriffen um {[IceMagicAbilityTable.IceTempestPass1.BaseDamage * 100]} % gegen Ziele, die weiter als {[IceMagicAbilityTable.IceTempestPass1.DistFromDefender]} m entfernt sind.</string>
 	<string key="IceTempestPass2" comment="ICEMAGIC + PASSIVE">Kritische Verjüngung</string>
-	<string key="IceTempestPass2_description" comment="ICEMAGIC + PASSIVE">Bei einem kritischen Treffer erhältst du 15 Mana.</string>
+	<string key="IceTempestPass2_description" comment="ICEMAGIC + PASSIVE">Immer wenn du einem Ziel einen kritischen Treffer zufügst, erhältst du {[IceMagicAbilityTable.IceTempestPass2.Mana * 100]} Mana.</string>
 	<string key="IceTempestPass3" comment="ICEMAGIC + PASSIVE">Energetischer kritischer Treffer</string>
 	<string key="IceTempestPass3_description" comment="ICEMAGIC + PASSIVE">Erhöht den kritischen Schaden von Eisstulpen-Fertigkeiten um {[IceMagicAbilityTable.IceTempestPass3.CritDamage * 100]} %, wenn die Ausdauer voll ist.</string>
 	<string key="IceTempestPass4" comment="ICEMAGIC + PASSIVE">Aufziehender Sturm</string>
-	<string key="IceTempestPass4_description" comment="ICEMAGIC + PASSIVE">Bei 3 Treffern durch leichte Angriffe in Folge erhältst du 15 Mana.</string>
+	<string key="IceTempestPass4_description" comment="ICEMAGIC + PASSIVE">Immer wenn du mit {[IceMagicAbilityTable.IceTempestPass4.NumConsecutiveHits]} aufeinander folgenden leichten Angriffen triffst, erhältst du {[IceMagicAbilityTable.IceTempestPass4.Mana * 100]} Mana.</string>
 	<string key="IceTempestPass5" comment="ICEMAGIC + PASSIVE">Kritischer Frost</string>
 	<string key="IceTempestPass5_description" comment="ICEMAGIC + PASSIVE">Erhöht die kritische Trefferchance um {[IceMagicAbilityTable.IceTempestPass5.CritChance * 100]} %, wenn du Gegner triffst, die in einem vereisten Bereich sind oder unter "Erfrierung" leiden.</string>
 	<string key="IceTempestPass6" comment="ICEMAGIC + PASSIVE">Schwere Erfrierung</string>
-	<string key="IceTempestPass6_description" comment="ICEMAGIC + PASSIVE">Schwerer Angriffe verwurzeln ein Ziel, wenn es von "Eissturm" getroffen wird oder "Erfrierung" erleidet. "Verwurzeln" dauert 1 Sek. und hat eine Abklingzeit von 5 Sek.</string>
+	<string key="IceTempestPass6_description" comment="ICEMAGIC + PASSIVE">Schwerer Angriffe verwurzeln ein Ziel, wenn es von "Eissturm" getroffen wird oder "Erfrierung" erleidet. Die Verwurzelung hält {[Type_StatusEffectData.IceMagic_Freeze.BaseDuration]} Sek. und hat nach dem Ende des Effekts eine Abklingzeit von {[Type_StatusEffectData.IceMagic_Freeze_Cooldown.BaseDuration]} Sek.</string>
 	<string key="IceTempestUltimate" comment="ICEMAGIC + PASSIVE">Ultimative Abkühlung</string>
-	<string key="IceTempestUltimate_description" comment="ICEMAGIC + PASSIVE">Eisstulpfen-Fertigkeiten vereisen Ziele, wodurch der Eisschaden für 3 Sekunden um {[Type_StatusEffectData.IceMagic_UltimateChill.WKNIce * 100]} % steigt.</string>
+	<string key="IceTempestUltimate_description" comment="ICEMAGIC + PASSIVE">Eisstulpen-Fertigkeiten vereisen Ziele, wodurch der Eisschaden für {[Type_StatusEffectData.IceMagic_UltimateChill.BaseDuration]} Sekunden um {[Type_StatusEffectData.IceMagic_UltimateChill.WKNIce * 100]} % steigt.</string>
 	<string key="IcePylon" comment="ICEMAGIC + ACTIVE">Eissäule</string>
-	<string key="IcePylon_description" comment="ICEMAGIC + ACTIVE">Platziere eine Säule, die Eisprojektile auf Gegner innerhalb von 20 m verschießt. Projektile verursachen bei Treffer {[DamageTable.IceMagic_Pylon.DmgCoef * 100]} % Waffenschaden. "Eissäule" erzeugt um sich einen vereisten Bereich von 1 m und hält für 15 Sek., solange sie nicht zerstört wird.\n\nKostet 15 Mana.</string>
+	<string key="IcePylon_description" comment="ICEMAGIC + ACTIVE">Platziere eine Säule, die Eisprojektile auf Gegner innerhalb von 20 m verschießt. Projektile verursachen bei Treffer {[DamageTable.IceMagic_Pylon.DmgCoef * 100]} % Waffenschaden. "Eissäule" erzeugt um sich herum einen vereisten Bereich mit einem Radius von 1 m und hält für 15 Sek., solange sie nicht zerstört wird.\n\nKostet {[ManaCosts_Player.67.ManaCost]} Mana.</string>
 	<string key="GreaterPylon" comment="ICEMAGIC + MOD">Größere Säule</string>
-	<string key="GreaterPylon_description" comment="ICEMAGIC + MOD">Erhöht den Schaden von "Eissäule" bei verlangsamten Gegnern um 10 %.</string>
+	<string key="GreaterPylon_description" comment="ICEMAGIC + MOD">Erhöht den Schaden von "Eissäule" bei verlangsamten Gegnern um {[IceMagicAbilityTable.IcePylonGreaterPylon.BaseDamage * 100]} %.</string>
 	<string key="PylonRegen" comment="ICEMAGIC + MOD">Säulenregeneration</string>
-	<string key="PylonRegen_description" comment="ICEMAGIC + MOD">"Eissäule" regeneriert 5 Sek. nach dem letzten erlittenen Schaden die volle Gesundheit.</string>
+	<string key="PylonRegen_description" comment="ICEMAGIC + MOD">"Eissäule" regeneriert {[Type_StatusEffectData.IceMagic_PylonRefresh.BaseDuration]} Sek. nach dem letzten erlittenen Schaden die volle Gesundheit.</string>
 	<string key="PylonDodge" comment="ICEMAGIC + MOD">Säulenausweichen</string>
 	<string key="PylonDodge_description" comment="ICEMAGIC + MOD">Ausweichen erhöht die Feuerrate von "Eissäule" für 3 Sek.</string>
 	<string key="PylonRefresh" comment="ICEMAGIC + PASSIVE">Säulenauffrischung</string>
-	<string key="PylonRefresh_description" comment="ICEMAGIC + PASSIVE">Jeder Treffer von "Eissäule" verlängert deren Dauer um 1 Sek. (Max. 45 Sek.)</string>
+	<string key="PylonRefresh_description" comment="ICEMAGIC + PASSIVE">Jeder Treffer von "Eissäule" verlängert deren Dauer um 1 Sek. (Maximal {[Type_StatusEffectData.IceMagic_PylonCooldownSafety.BaseDuration]} Sek.)</string>
 	<string key="IceShower" comment="ICEMAGIC + ACTIVE">Eisregen</string>
-	<string key="IceShower_description" comment="ICEMAGIC + ACTIVE">Erzeugt einen Eisregen, der einen vereisten Bereich von circa 1 Meter mal 5 Meter für 4 Sek. vereist. Gegner in "Eisregen" werden durch starke "Erfrierung" enorm geschwächt. "Erfrierung" verwurzelt für 1 Sekunde, verhindert Springen und Ausweichen, verlangsamt das Bewegungstempo um 50 % und verbleibt für 3 Sekunden, nachdem das Ziel "Eisregen" verlassen hat.\n\nKostet 25 Mana.</string>
+	<string key="IceShower_description" comment="ICEMAGIC + ACTIVE">Erzeugt einen Eisregen, der einen vereisten Bereich von circa 1 Meter mal 5 Meter für 4 Sek. vereist. Gegner in "Eisregen" werden durch starke "Erfrierung" enorm geschwächt. "Erfrierung" verwurzelt für {[Type_StatusEffectData.IceMagic_IceShower_Freeze.BaseDuration]} Sekunde, verhindert Sprinten und Ausweichen, verlangsamt das Bewegungstempo um {[Type_StatusEffectData.IceMagic_Frostbite.MoveSpeedMod * -100]} % und verbleibt für {[Type_StatusEffectData.IceMagic_Frostbite_Dur3.BaseDuration]} Sekunden, nachdem das Ziel "Eisregen" verlassen hat.\n\nKostet {[ManaCosts_Player.66.ManaCost]} Mana.</string>
 	<string key="EnduringShower" comment="ICEMAGIC + MOD">Dauerregen</string>
 	<string key="EnduringShower_description" comment="ICEMAGIC + MOD">Verlängert die Dauer von "Eisregen" auf 7 Sek.</string>
 	<string key="QuickShower" comment="ICEMAGIC + MOD">Rascher Regen</string>
-	<string key="QuickShower_description" comment="ICEMAGIC + MOD">Alle Verbündeten, einschließlich dir selbst, die in "Eisregen" geraten, erhalten für 2 Sek. einen Tempobonus von 25 %.</string>
+	<string key="QuickShower_description" comment="ICEMAGIC + MOD">Alle Verbündeten, einschließlich dir selbst, die von "Eisregen" getroffen werden, erhalten für {[Type_StatusEffectData.IceMagic_QuickShower_Dur2.BaseDuration]} Sek. einen Tempobonus von {[Type_StatusEffectData.IceMagic_QuickShower_Dur2.MoveSpeedMod * 100]} %.</string>
 	<string key="ShowerSlush" comment="ICEMAGIC + MOD">Eisiger Schauer</string>
-	<string key="ShowerSlush_description" comment="ICEMAGIC + MOD">"Erfrierung" fügt dem Ziel "Aufgerissen" zu, was dessen Verteidigung um 10 % verringert.</string>
+	<string key="ShowerSlush_description" comment="ICEMAGIC + MOD">"Erfrierung" fügt dem Ziel "Aufgerissen" zu, was dessen Verteidigung um {[Type_StatusEffectData.IceMagic_Frostbite_Rend.ABSStandard * -100]} % verringert.</string>
 	<string key="Entombed" comment="ICEMAGIC + ACTIVE">Eisgrab</string>
-	<string key="Entombed_description" comment="ICEMAGIC + ACTIVE">Hülle dich in Eis, um unangreifbar zu werden und die Manaregeneration enorm zu erhöhen. Die Hülle hält 10 Sek. an, aber ist zerstörbar. Blocke, um die Hülle auf normale Weise zu verlassen oder führe mit leichter Angriff einen Rückstoß aus, der Schaden verursacht und 20 Mana kostet.\n\nKostet 0 Mana.</string>
+	<string key="Entombed_description" comment="ICEMAGIC + ACTIVE">Hülle dich in Eis, um unangreifbar zu werden und die Manaregeneration enorm zu erhöhen. Die Hülle hält 10 Sek. an, aber ist zerstörbar. Blocke, um die Hülle auf normale Weise zu verlassen oder führe mit leichter Angriff einen Rückstoß aus, der Schaden verursacht und {[ManaCosts_Player.65.ManaCost]} Mana kostet.\n\nKostet {[ManaCosts_Player.64.ManaCost]} Mana.</string>
 	<string key="StrengthenedTomb" comment="ICEMAGIC + MOD">Verstärktes Grab</string>
-	<string key="StrengthenedTomb_description" comment="ICEMAGIC + MOD">Erhöht die Verteidigung nach dem Ausbruch aus "Eisgrab" für 3 Sek. um 25 %.</string>
+	<string key="StrengthenedTomb_description" comment="ICEMAGIC + MOD">Erhöht die Verteidigung nach dem Ausbruch aus "Eisgrab" für {[Type_StatusEffectData.IceMagic_StrengthenedTomb.BaseDuration]} Sek. um {[Type_StatusEffectData.IceMagic_StrengthenedTomb.ABSStandard * 100]} %.</string>
 	<string key="CleansingTomb" comment="ICEMAGIC + MOD">Läuternde Gruft</string>
 	<string key="CleansingTomb_description" comment="ICEMAGIC + MOD">Entferne alle Schwächungen, wenn "Eisgrab" aktiv ist.</string>
 	<string key="IceConjurorPass1" comment="ICEMAGIC + PASSIVE">Blockierende Ausdauer</string>
-	<string key="IceConjurorPass1_description" comment="ICEMAGIC + PASSIVE">Blocke einen Angriff mit "Eisstulpen", um Mana in Ausdauer umzuwandeln. Wandelt 3 Mana in 15 Ausdauer um.</string>
+	<string key="IceConjurorPass1_description" comment="ICEMAGIC + PASSIVE">Blocke einen Angriff mit "Eisstulpen", um Mana in Ausdauer umzuwandeln. Verwandelt {[Type_StatusEffectData.IceMagic_BlockingStamina.Mana * -1]} Mana in {[Type_StatusEffectData.IceMagic_BlockingStamina.Stamina]} Ausdauer.</string>
 	<string key="IceConjurorPass2" comment="ICEMAGIC + PASSIVE">Schnellfrosten</string>
-	<string key="IceConjurorPass2_description" comment="ICEMAGIC + PASSIVE">Erhöht das Bewegungstempo im vereisten Gebiet um 10 %.</string>
+	<string key="IceConjurorPass2_description" comment="ICEMAGIC + PASSIVE">Erhöht das Bewegungstempo im vereisten Gebiet um {[Type_StatusEffectData.IceMagic_QuickFrost.MoveSpeedMod * 100]} %.</string>
 	<string key="IceConjurorPass3" comment="ICEMAGIC + PASSIVE">Ermächtigender Frost</string>
-	<string key="IceConjurorPass3_description" comment="ICEMAGIC + PASSIVE">Du erhältst 3 Mana für jeden Zauberspruch, den du aus dem vereisten Bereich heraus einsetzt.</string>
+	<string key="IceConjurorPass3_description" comment="ICEMAGIC + PASSIVE">Erhalte für jeden in vereistem Gebiet gewirkten Zauber {[Type_StatusEffectData.IceMagic_EmpoweredFrost.Mana]} %.</string>
 	<string key="IceConjurorPass4" comment="ICEMAGIC + PASSIVE">Kalte Berührung</string>
-	<string key="IceConjurorPass4_description" comment="ICEMAGIC + PASSIVE">Verlangsamt Gegner für 2 Sek. um 25 %, wenn du von ihrem Nahkampfangriff getroffen wirst und du 100 % Gesundheit hast. (Verlangsamung verringert das Bewegungstempo des Ziels.)</string>
+	<string key="IceConjurorPass4_description" comment="ICEMAGIC + PASSIVE">Verlangsamt Gegner für {[Type_StatusEffectData.IceMagic_FrozenTouch.BaseDuration]} Sek. um {[Type_StatusEffectData.IceMagic_FrozenTouch.MoveSpeedMod * -100]} %, wenn du von ihrem Nahkampfangriff getroffen wirst und du {[IceMagicAbilityTable.IceConjurorPass4.MyHealthPercent]} % Gesundheit hast. (Verlangsamung verringert das Bewegungstempo des Ziels.)</string>
 	<string key="IceConjurorPass5" comment="ICEMAGIC + PASSIVE">Erfrischender Frost</string>
-	<string key="IceConjurorPass5_description" comment="ICEMAGIC + PASSIVE">Verringert die Abklingzeit für Eisstulpen-Fertigkeiten um 20 %, wenn du eine Fertigkeit im vereisten Bereich einsetzt.</string>
+	<string key="IceConjurorPass5_description" comment="ICEMAGIC + PASSIVE">Verringert die Abklingzeit für Eisstulpen-Fertigkeiten um {[IceMagicAbilityTable.IceConjurorPass5.CooldownTimer * -100]} %, wenn du eine Fertigkeit im vereisten Bereich einsetzt.</string>
 	<string key="IceConjurorPass6" comment="ICEMAGIC + PASSIVE">Widerstrebender Frost</string>
-	<string key="IceConjurorPass6_description" comment="ICEMAGIC + PASSIVE">Der Einsatz einer Eisstulpen-Fertigkeit erzeugt eine eisgehärtete Schicht, die dir für 2 Sek. 20 % Verstärkung gewährt. (Verstärkung verringert erlittenen Schaden.)</string>
+	<string key="IceConjurorPass6_description" comment="ICEMAGIC + PASSIVE">Der Einsatz einer Eisstulpen-Fertigkeit erzeugt eine eisgehärtete Schicht, die dir für {[Type_StatusEffectData.IceMagic_DefiantFreeze.BaseDuration]} Sek. {[Type_StatusEffectData.IceMagic_DefiantFreeze.ABSStandard * 100]} % Verstärkung gewährt. (Verstärkung verringert erlittenen Schaden.)</string>
 	<string key="IceConjurorUltimate" comment="ICEMAGIC + PASSIVE">Ultimativer Frost</string>
 	<string key="IceConjurorUltimate_description" comment="ICEMAGIC + PASSIVE">Verdoppelt die Gesundheit von "Eissäule" und vergrößert den Radius des vereisten Bereichs auf 5 m. Der Aufenthalt im vereisten Bereich verdoppelt die Boni von "Schnellfrosten" und "Ermächtigender Frost".</string>
 </resources>

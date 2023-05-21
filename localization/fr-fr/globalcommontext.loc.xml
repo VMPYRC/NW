@@ -114,6 +114,10 @@
 	<string key="ui_affliction_drowning_tooltip">Si vous manquez de souffle, vous vous étouffez puis mourez.</string>
 	<string key="ui_affliction_blight">résistance au dépérissement</string>
 	<string key="ui_affliction_blight_tooltip">Si votre résistance au dépérissement est épuisée, vous serez vicié et infligerez {[Type_StatusEffectData.Blight.DMGStandard * 100]} % de dégâts en moins, guérirez {[Type_StatusEffectData.Blight.HealMod * 100]} % moins et perdrez {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]} % de votre santé de base toutes les {[Type_StatusEffectData.Blight.TickRate]} secondes pendant {[Afflictions.AfflictionBlight.AfflictedDrainTime]} secondes.</string>
+	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">résistance combustible</string>
+	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">décompte combustible.</string>
+	<string key="ui_affliction_mutcurse4" rel_version="Feature_Dungeon_Mutators">résistance vengeresse</string>
+	<string key="ui_affliction_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Une fois que vous n'avez plus de résistance, une zone de silence est lancée sur vous. La zone finit par exploser et infliger des dégâts aux joueurs et aux créatures. La résistance est partagée entre tous les membres de votre groupe.</string>
 	<string key="ui_afflicted_bleeding">blessé</string>
 	<string key="ui_afflicted_bleeding_tooltip">Si vous êtes blessé, votre vitalité remonte bien plus lentement.</string>
 	<string key="ui_afflicted_burn">brûlure</string>
@@ -134,6 +138,10 @@
 	<string key="ui_afflicted_drowning_tooltip">Vous vous êtes noyé.</string>
 	<string key="ui_afflicted_blight">dépérissement</string>
 	<string key="ui_afflicted_blight_tooltip">Lorsque vous êtes vicié, vous infligez {[Type_StatusEffectData.Blight.DMGStandard * 100]} % de dégâts en moins, guérissez {[Type_StatusEffectData.Blight.HealMod * 100]} % moins et perdez {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]} % de votre santé de base toutes les {[Type_StatusEffectData.Blight.TickRate]} secondes.</string>
+	<string key="ui_afflicted_mutcurse3" rel_version="Feature_Dungeon_Mutators">combustion</string>
+	<string key="ui_afflicted_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Une fois le délai écoulé, le joueur possédant le pourcentage de santé le plus bas devient combustible.</string>
+	<string key="ui_afflicted_mutcurse4" rel_version="Feature_Dungeon_Mutators">malédiction</string>
+	<string key="ui_afflicted_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">L'utilisation de capacités remplit la jauge. Vengeance est lancée sur tous les joueurs une fois celle-ci remplie.</string>
 	<string key="ui_agreement">En continuant, vous acceptez ce(s) document(s) :</string>
 	<string key="ui_ahhhhh">AHHHHH !</string>
 	<string key="ui_aimsensitivity">Sensibilité de la visée</string>
@@ -278,6 +286,8 @@
 	<string key="ui_hours_with_time_short">{time}h</string>
 	<string key="ui_minutes_with_time">{time} minutes</string>
 	<string key="ui_minutes_with_time_short">{time}m</string>
+	<string key="ui_seconds_with_time">{time} secondes</string>
+	<string key="ui_seconds_with_time_short">{time}s</string>
 	<string key="ui_lastplayed">Dernier jeu </string>
 	<string key="ui_minuteago">une minute</string>
 	<string key="ui_minutesago">{time} minutes</string>
@@ -519,7 +529,7 @@
 	<string key="ui_openjournal">Ouvrir le journal</string>
 	<string key="ui_openmap">Ouvrir la carte</string>
 	<string key="ui_openui">Ouvrir l'interface</string>
-	<string key="ui_open">Ouverte</string>
+	<string key="ui_open">Ouvrir</string>
 	<string key="ui_options">Options</string>
 	<string key="ui_otherplayername">Nom de l'autre joueur</string>
 	<string key="ui_output">Sortie</string>
@@ -622,16 +632,16 @@
 	<string key="ui_quillsquillshelloworld">plumes (plumes) : Bonjour à tous. Si vous souhaitez rejoindre ma compagnie, cela vous coûtera 50 deniers.</string>
 	<string key="ui_quillsrocket">plumes (Fusée)</string>
 	<string key="ui_options_fov">Champ de vision (vertical)</string>
-	<string key="ui_options_fov_desc">Régler le champ de vision de la caméra</string>
+	<string key="ui_options_fov_desc">Régler le champ de vision de la caméra.</string>
 	<string key="ui_options_gamma">Correction gamma</string>
 	<string key="ui_options_gamma_desc">Régler la correction gamma</string>
 	<string key="ui_options_basic_settings">Paramètres de base</string>
 	<string key="ui_options_brightness_setting">Luminosité</string>
 	<string key="ui_options_brightness_setting_desc">Ajustez la luminosité du jeu jusqu'à ce que le logo de New World soit à peine visible.\nVous pourrez si nécessaire modifier ce paramètre ultérieurement via l'écran des paramètres.</string>
 	<string key="ui_options_brightness">Luminosité</string>
-	<string key="ui_options_brightness_desc">Régler la luminosité</string>
+	<string key="ui_options_brightness_desc">Régler la luminosité.</string>
 	<string key="ui_options_contrast">Contraste</string>
-	<string key="ui_options_contrast_desc">Régler le contraste</string>
+	<string key="ui_options_contrast_desc">Régler le contraste.</string>
 	<string key="ui_quit">Quitter</string>
 	<string key="ui_randomize">Aléatoire</string>
 	<string key="ui_receivevolume">Volume de réception</string>
@@ -785,7 +795,7 @@
 	<string key="ui_continue">Continuer</string>
 	<string key="ui_legalterms">Conditions d'utilisation d'Amazon Games</string>
 	<string key="ui_code_of_conduct">Code de conduite d'Amazon Games</string>
-	<string key="ui_code_of_conduct_desc">Visualiser le code de conduite Amazon Games dans une fenêtre de navigateur</string>
+	<string key="ui_code_of_conduct_desc">Visualiser le code de conduite Amazon Games dans une fenêtre de navigateur.</string>
 	<string key="ui_region_warning_text">La connexion à cette région est mauvaise, ce qui pourrait entraver votre expérience. Veuillez choisir une région plus proche de votre emplacement.</string>
 	<string key="ui_landing_all_slots_full">Vos emplacements de personnages sont complets dans toutes les régions. Veuillez supprimer un personnage existant pour en créer un autre.</string>
 	<string key="ui_landing_no_good_regions">Vous n'avez plus d'emplacements de personnages disponibles dans les régions disposant d'une bonne connexion. Continuer ?</string>
@@ -801,7 +811,7 @@
 	<string key="ui_landing_tile_default_description5">Consultez les forums.</string>
 	<string key="ui_region_warning_text_all">Toutes les connexions aux régions disponibles sont mauvaises et pourraient entraver votre expérience.</string>
 	<string key="ui_anti-cheat">Informations concernant le logiciel antitriche</string>
-	<string key="ui_anti-cheat_desc">Afficher les conditions du logiciel anti-triche dans une fenêtre de navigateur</string>
+	<string key="ui_anti-cheat_desc">Afficher les conditions du logiciel anti-triche dans une fenêtre de navigateur.</string>
 	<string key="ui_legalprivacy">Veuillez consulter notre politique de confidentialité.</string>
 	<string key="ui_prealphatag">Version de test - CONFIDENTIEL</string>
 	<string key="ui_buildtag">Bêta</string>
@@ -853,7 +863,7 @@
 	<string key="ui_world_select_refresh">Rafraîchir</string>
 	<string key="ui_resolution_popup_title">Confirmer résolution</string>
 	<string key="ui_resolution_popup_title_message">Cette résolution vous convient-elle ?</string>
-	<string key="ui_monitor_popup_title">Confirmer le chang. d'écran</string>
+	<string key="ui_monitor_popup_title">Confirmer le changement</string>
 	<string key="ui_monitor_popup_title_message">Cet écran vous convient ?</string>
 	<string key="ui_monitor_name">Écran</string>
 	<string key="ui_short_level">Niv.</string>
@@ -863,7 +873,7 @@
 	<string key="ui_faction_select">Sélectionnez votre faction</string>
 	<string key="ui_character_Select_title">Sélectionner personnage</string>
 	<string key="ui_character_options">Options du personnage</string>
-	<string key="ui_character_merge_destination">Ce monde ({worldName}) sera fusionné avec {destinationWorldName} le {date}. ({mergeTime})</string>
+	<string key="ui_character_merge_destination">Ce monde ({worldName}) sera fusionné avec {destinationWorldName} le {date}.</string>
 	<string key="ui_xp">EXP</string>
 	<string key="world_landing_title">Le MONDE optimal a été sélectionné pour vous.</string>
 	<string key="world_set">Ensemble de mondes</string>
@@ -1347,7 +1357,7 @@
 	<string key="ui_seizure_description1">Certaines personnes sont susceptibles de faire des crises d'épilepsie à la vue de certains motifs lumineux, images et lumières clignotantes pouvant apparaître dans les jeux vidéo et autres images télévisées. L'exposition à certains motifs ou arrière-plans sur un écran d'ordinateur ou en jeu peut, chez ces personnes, provoquer des crises d'épilepsie. Dans certaines conditions, des symptômes épileptiques peuvent apparaître même chez des personnes n'ayant aucun antécédent médical ou n'ayant jamais subi de crise d'épilepsie.</string>
 	<string key="ui_seizure_description2">Si vous présentez l'un des symptômes suivants en jouant : vertige, trouble de la vision, contraction des yeux ou des muscles, perte de conscience, trouble de l'orientation, mouvements involontaires ou convulsions, veuillez cesser de jouer immédiatement et consulter votre médecin avant de relancer New World.</string>
 	<string key="ui_landingscreen_dei1">New World est une œuvre de fiction surnaturelle sur les cultures du monde entier qui s'unissent pour le destin de l'humanité.</string>
-	<string key="ui_landingscreen_dei2">L'équipe de New World continuera de consulter ses experts et son groupe de représentations culturelles différentes, et dont elle s'est inspirée, pour ajouter du contenu dans le futur.</string>
+	<string key="ui_landingscreen_dei2">L'équipe de New World a consulté des experts et ses effectifs issus de la diversité sur les questions de représentation des cultures, s'en est inspirée, et continuera de faire de même dans le futur.</string>
 	<string key="ui_landingscreen_photosensitive_title">Avertissement concernant l'épilepsie photosensible</string>
 	<string key="ui_landingscreen_photosensitive_message">Si vous-même ou un membre de votre famille souffrez de troubles épileptiques, veuillez consulter votre médecin avant de jouer.</string>
 	<string key="ui_viewtwitchstream">Voir le stream Twitch</string>
@@ -1456,9 +1466,13 @@
 	<string key="ui_replace_gem">Remplacer une gemme</string>
 	<string key="ui_replace_gem_tooltip">Remplace la gemme sertie par une autre depuis votre inventaire. La gemme actuelle sera perdue.</string>
 	<string key="ui_upgrade_warning_title">Améliorer l'objet</string>
-	<string key="ui_upgrade_warning_body">Faire passer le score d'équipement de l'objet : {itemName} de {baseGearScore} à {targetGearScore} nécessitera {itemCount} {upgradeItemName}.\n\nVoulez-vous améliorer cet objet ?</string>
-	<string key="ui_upgrade_tooltip_enabled">Appliquez : {itemName} pour augmenter le score d'équipement de cet objet.</string>
-	<string key="ui_upgrade_tooltip_disabled">Il vous faut plus de : {itemName} pour augmenter le score d'équipement de cet objet.</string>
+	<string key="ui_upgrade_warning_body">Faire passer le score d'équipement de l'objet : {itemName} de {baseGearScore} à {targetGearScore} nécessitera {itemCount} {upgradeItemName}.\n\nAméliorer des objets les lie à vous.\n\nVoulez-vous améliorer cet objet ?</string>
+	<string key="ui_upgrade_tooltip_enabled">Améliorer l'objet en appliquant : &lt;font color="#ffffff"&gt;{itemName}&lt;/font&gt;. Cela augmentera le &lt;font color="#ffffff"&gt;score d'équipement&lt;/font&gt; de l'objet.</string>
+	<string key="ui_upgrade_tooltip_disabled_items">Il vous faut au moins {quantity} {itemName} de plus pour augmenter le score d'équipement de cet objet.</string>
+	<string key="ui_upgrade_tooltip_disabled_skill">Vous ne pouvez améliorer que des types d'objet avec lesquels vous avez &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.2" yOffset="1"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{neededValue} d'expertise&lt;/font&gt;.\n(Expertise actuelle de {expertiseName} : &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.2" yOffset="1"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{currentValue}&lt;/font&gt;)</string>
+	<string key="ui_upgrade_tooltip_disabled_broken">Les objets brisés ne peuvent pas être améliorés.</string>
+	<string key="ui_upgrade_tooltip_disabled_gearscore">Vous ne pouvez améliorer des objets qu'avec au moins {gearScore} de score d'équipement</string>
+	<string key="ui_upgrade_notification">Le score d'équipement de l'objet est passé à &lt;font color="#fffd7a"&gt;{baseGearScore}&lt;/font&gt;.</string>
 	<string key="ui_cannot_replace_gem_tooltip">Impossible de remplacer cette gemme.</string>
 	<string key="ui_no_gems_tooltip">Aucune gemme disponible</string>
 	<string key="ui_gem_select_popup_available">Gemmes disponibles</string>
@@ -1713,7 +1727,7 @@
 	<string key="ui_accept_duel_invites">Accepter les invitations aux escarmouches</string>
 	<string key="ui_accept_duel_invites_description">Les autres joueurs pourront vous défier à une escarmouche.</string>
 	<string key="ui_auto_traverse">Traversée automatique</string>
-	<string key="ui_auto_traverse_description">Grimper et sauter automatiquement par-dessus les obstacles</string>
+	<string key="ui_auto_traverse_description">Grimper et sauter automatiquement par-dessus les obstacles.</string>
 	<string key="ui_chat_compact_view">Vue compacte</string>
 	<string key="ui_chat_enable_alerts">Activer les alertes</string>
 	<string key="ui_chat_enable_alerts_options">Activer les alertes de discussions</string>
@@ -1834,6 +1848,7 @@
 	<string key="ui_coin_max_withdrawal_tooltip">Votre bourse est limitée à {amount} pièces.\nC'est le maximum que vous pouvez recevoir sans dépasser cette limite.</string>
 	<string key="ui_coin_max_sellorder_tooltip">Votre bourse est limitée à {amount} pièces.\nToute pièce en excès au moment de la vente sera perdue.</string>
 	<string key="ui_coin_max_trade_tooltip">Votre bourse est limitée à {amount} pièces.\nCe joueur essaie de vous donner plus de pièces que vous ne pouvez en porter. Toute pièce en excès lui sera rendue.</string>
+	<string key="ui_listing_duration_tooltip">Des listes plus longues entraîneront des frais d'inscription plus élevés.</string>
 	<string key="ui_groupsize_identifier">Taille de groupe recommandée : {groupSize}</string>
 	<string key="ui_level_identifier">Niveau recommandé : {level}</string>
 	<string key="ui_recommendedlevel">Niveau recommandé</string>
@@ -2171,6 +2186,7 @@
 	<string key="ui_notificationaccept">Accepter les notifications</string>
 	<string key="ui_notificationdecline">Refuser les notifications</string>
 	<string key="ui_banneraccept">Accepter les étendards</string>
+	<string key="ui_togglepopupoption">Option d'activation de fenêtre</string>
 	<string key="ui_dialogue">Dialogue</string>
 	<string key="ui_dialogueoption1">Option n° 1</string>
 	<string key="ui_dialogueoption2">Option n° 2</string>
@@ -2186,6 +2202,7 @@
 	<string key="ui_emotes_premium">Émotes premium</string>
 	<string key="ui_locked_account_title">COMPTE VERROUILLÉ</string>
 	<string key="ui_locked_account_description">Votre compte est actuellement verrouillé.\n\nCe statut coupe l'accès à certaines fonctionnalités en jeu telles que les achats dans la boutique ou l'utilisation d'objets issus de la boutique.</string>
+	<string key="ui_gearscore_modified">Score d'équipement ajusté à la moyenne de l'expertise de {slot} et du score d'équipement de l'objet.</string>
 	<string key="ui_itemtypedescription_recipe">Recette</string>
 	<string key="ui_itemtypedescription_sword">Épée</string>
 	<string key="ui_itemtypedescription_hatchet">Hachette</string>
@@ -2274,8 +2291,16 @@
 	<string key="ui_cannot_chat_global_blocked">Impossible de discuter dans ce canal avec un compte de moins de {hoursNeeded} heures.</string>
 	<string key="ui_complete_quests_to_unlock">Déverrouillé en terminant des quêtes dans la colonie.</string>
 	<string key="ui_averageexpertise">Expertise\nmoyenne</string>
-	<string key="ui_averageexpertisetooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;Expertise&lt;/font&gt;\nL'expertise mesure la puissance potentielle des objets lâchés. Les objets lâchés des créatures et dans les zones dont le niveau est supérieur à 60 ont une chance d'augmenter cette valeur. Plus votre niveau d'expertise augmente, plus vous devrez affronter des créatures et des zones puissantes pour voir des augmentations supplémentaires.</string>
+	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Expertise&lt;/font&gt;\nL'expertise permet de mesurer la puissance maximum d'un objet lorsque vous vous en équipez.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Expertise max que vous pouvez atteindre&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Comment améliorer l'expertise&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Des lieux remarquables et des expéditions d'élite&lt;/font&gt;\nDes objets lâchés par des créatures ou trouvés dans des coffres dans les zones de niveau 60 et plus ont une probabilité d'augmenter cette valeur.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Fabrication&lt;/font&gt;\nFabriquer un objet dont le score d'équipement est de 600 augmentera l'expertise de ce type d'objet.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Moule en gypse&lt;/font&gt;\nOuvrir un moule en gypse augmente l'expertise.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Amélioration d'objets (avec des éclats sombres)&lt;/font&gt;\nAprès avoir atteint une expertise de 600, le seul moyen d'augmenter davantage celle-ci est d'améliorer des objets avec des éclats sombres.</string>
 	<string key="ui_itemtypedescription_shield_only">Bouclier</string>
-	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_expertise_small" scale="1" yOffset="3.5"&gt;&lt;/img&gt;{value}</string>
+	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}</string>
+	<string key="ui_expertise_warning_with_icon">&lt;font color="#ff9393"&gt;&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_red" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}&lt;/font&gt;</string>
+	<string key="ui_expertise_increased">Expertise augmentée !</string>
+	<string key="ui_expertise_tooltip_header">Expertise totale de {category}</string>
+	<string key="ui_expertise_tooltip_breakdown">(&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{value} &lt;/font&gt; &lt;font color="#ffffff"&gt;+ {additional}&lt;/font&gt; de l'amélioration sombre)</string>
+	<string key="ui_expertise_tooltip_breakdown_multiple">(&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{value} &lt;/font&gt; &lt;font color="#ffffff"&gt;+ {additional}&lt;/font&gt; des améliorations sombres)</string>
+	<string key="ui_expertise_tooltip_increase">L'expertise &lt;font color="#ffffff"&gt;maximum&lt;/font&gt; que vous pouvez obtenir des ennemis, des coffres, des moules en gypse et de la fabrication est de &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt;.</string>
+	<string key="ui_expertise_tooltip_maximum">Pour augmenter l'expertise au-delà de &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt;, améliorez un objet dans cet emplacement avec des &lt;font color="#ffffff"&gt;éclats sombres&lt;/font&gt;.</string>
+	<string key="ui_expertise_crafting_gain">Expertise de {category}</string>
 </resources>
 

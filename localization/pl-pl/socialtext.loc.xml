@@ -88,7 +88,7 @@
 	<string key="trade_column_price">Cena</string>
 	<string key="trade_column_available">Dostępne</string>
 	<string key="trade_column_expiresin">Wygasa za</string>
-	<string key="trade_column_location">Posterunek</string>
+	<string key="trade_column_location">Położenie</string>
 	<string key="trade_column_status">Stan</string>
 	<string key="trade_column_rarity">Rzadkość</string>
 	<string key="trade_column_craftsmanship">Rzemiosło</string>
@@ -373,7 +373,7 @@
 	<string key="ui_clear_mute_failed">Nie udało się anulować wyciszenia gracza.</string>
 	<string key="ui_request_friend_failed">Nie udało się wysłać zaproszenia do znajomych.</string>
 	<string key="ui_request_unfriend_failed">Nie udało się usunąć gracza z listy znajomych.</string>
-	<string key="ui_social">Funkcje społeczności</string>
+	<string key="ui_social">Społeczność</string>
 	<string key="ui_streamermode_enabled">Tryb "Nie przeszkadzać" aktywny</string>
 	<string key="ui_streamermode_disabled">Tryb "Nie przeszkadzać" nieaktywny</string>
 	<string key="ui_moderation">Moderacja</string>
@@ -384,5 +384,27 @@
 	<string key="ui_subarmy_decline_tooltip">Prośba o możliwość dołączenia do armii subskrybentów streamera została odrzucona.</string>
 	<string key="ui_subarmy_waiting">Oczekiwanie na decyzję streamera…</string>
 	<string key="ui_subarmy_pending">Oczekiwanie…</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_screen_header">Wyszukiwanie grupy na ekspedycję</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_requiredearscore">Wymagane punkty wyposażenia: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{level}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voippreference">Czat głosowy: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{preference}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_size">Minimalna liczba graczy: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{amount}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_recommendedgearscore">Zalecana liczba pkt wyposażenia: &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;600 – {score}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_recommendedlevel">Zalecany poziom: &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{level}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group">Nie znaleziono grupy dla tego lochu.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group_at_level">Nie znaleziono grupy dla poziomu trudności {level} tego lochu.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_your_group">Twoja grupa ekspedycyjna</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty">Poziom trudności: {level}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_only_accept">Akceptuj tylko</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_currentmembers">Obecni członkowie</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_requeststojoin">Prośby o dołączenie</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_gearscore_short">Pkt wyposaż.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_stats">Statystyki</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_group_title">Stwórz nową grupę</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred">Preferowane</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_not_required">Niewymagane</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level">Min. poziom</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score">Min. pkt wyposażenia</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted_roles_label">Akceptuj tylko</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_select_role_label">Wybierz rolę</string>
 </resources>
 

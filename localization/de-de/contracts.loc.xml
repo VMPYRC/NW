@@ -75,6 +75,7 @@
 	<string key="ui_selectallouposts">Alle Siedlungen</string>
 	<string key="ui_currentsellers">Aktuelle Verkaufsaufträge</string>
 	<string key="ui_currentbuyers">Aktuelle Kaufaufträge</string>
+	<string key="ui_store_item_cooldown_desc">&lt;font color="#ffdb7a"&gt;Nach dem Kauf des Gegenstands musst du {cooldownDuraction} abwarten, bevor er erneut gekauft werden kann.&lt;/font&gt;</string>
 	<string key="ui_postordererror_outpostfull">Da dein Außenpostenlager voll ist, kannst du keinen Kaufauftrag erteilen.</string>
 	<string key="ui_postordererror_outpostfull_button">AUßENPOSTENLAGER VOLL</string>
 	<string key="ui_postordererror_buy_notenoughmoney">Du hast nicht genug Taler, um einen Kaufauftrag zu erteilen.</string>
@@ -116,6 +117,7 @@
 	<string key="ui_contract_failure_throttled">Anfrage wurde abgebrochen. Bitte warte einen Moment und versuche es später erneut.</string>
 	<string key="ui_contract_failure_coin_transferal_disabled">Talertransfer deaktiviert.</string>
 	<string key="ui_contract_failure_trading_post_disabled">Handelsposten deaktiviert.</string>
+	<string key="ui_contract_failure_cooldown">Kann gekauft werden in: {cooldownTime} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" xPadding="0" scale="1.1" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="ui_contract_failure_generic">Irgendwas ist schiefgelaufen. Versuche es bitte erneut.</string>
 	<string key="ui_sell_instant_price">Sofortverkaufspreis</string>
 	<string key="ui_buy_instant_price">Soforteinkaufspreis</string>

@@ -97,10 +97,25 @@
 	<string key="ui_metachievement_pve_bossKill_dungeon_amrine_title">¿A esto lo llamas arqueología?</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_obelisk_title">Esperaba más bien un menhir</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_depths_title">Master and Cuevander</string>
-	<string key="ui_metachievement_pve_bossKill_dungeon_eradinus_title">Mecanismo defensivo</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_genesis_title">Un niño problemático</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_lazarus_title">Diana</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_shipyard_title">Demolición dinástica</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_amrine_title1" rel_version="Feature_Dungeon_Mutators">Emoción en la excavación</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_amrine_title2" rel_version="Feature_Dungeon_Mutators">Volver a por más</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_obelisk_title1" rel_version="Feature_Dungeon_Mutators">El despertar de los antiguos</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_obelisk_title2" rel_version="Feature_Dungeon_Mutators">Explotar el báculo</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_depths_title1" rel_version="Feature_Dungeon_Mutators">Triunfos amontonados</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_depths_title2" rel_version="Feature_Dungeon_Mutators">Menudo desastre</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_genesis_title1" rel_version="Feature_Dungeon_Mutators">Aplastando el pesebre</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_genesis_title2" rel_version="Feature_Dungeon_Mutators">Por eso huele así</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_lazarus_title1" rel_version="Feature_Dungeon_Mutators">No es un buen plan profesional</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_lazarus_title2" rel_version="Feature_Dungeon_Mutators">Charcos de ruina</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_shipyard_title1" rel_version="Feature_Dungeon_Mutators">Ciclos dinásticos</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_shipyard_title2" rel_version="Feature_Dungeon_Mutators">La nave del fracaso</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_isabellalair_title1" rel_version="Feature_Dungeon_Mutators">Otro descenso a la oscuridad</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_isabellalair_title2" rel_version="Feature_Dungeon_Mutators">El vientre de la bestia</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_barnacles_title1" rel_version="Feature_Dungeon_Mutators">Caverna de corrupción</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_barnacles_title2" rel_version="Feature_Dungeon_Mutators">Isla del tesoro</string>
 	<string key="ui_metachievement_pve_arenascompleted_title">Luchador de la arena</string>
 	<string key="ui_metachievement_pvp_killbyfaction_covenant_title1">Una creencia dañina</string>
 	<string key="ui_metachievement_pvp_killbyfaction_covenant_title2">Frenar a los fanáticos</string>
@@ -899,10 +914,18 @@
 	<string key="ui_metachievement_pve_bossKill_dungeon_amrine_desc">Derrota a Simon Grey en la excavación de Amrine.</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_obelisk_desc">Derrota a Greundgul el Regente en el Puesto Piedraestelar.</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_depths_desc">Derrota al comandante Thorpe en las Profundidades.</string>
-	<string key="ui_metachievement_pve_bossKill_dungeon_eradinus_desc">Derrota a Teceros en las cavernas de Eridanus.</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_genesis_desc">Derrota al Guardaverdes Infecto en el Jardín del Génesis.</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_lazarus_desc">Derrota a Chardis en la instrumentalidad de Lazarus.</string>
 	<string key="ui_metachievement_pve_bossKill_dungeon_shipyard_desc">Derrota a la emperatriz Zhou en el astillero de la Dinastía.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_amrine_generic_desc" rel_version="Feature_Dungeon_Mutators">Completa la excavación de Amrine en dificultad {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_obelisk_generic_desc" rel_version="Feature_Dungeon_Mutators">Completa el Puesto Piedraestelar en dificultad {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_depths_generic_desc" rel_version="Feature_Dungeon_Mutators">Completa las Profundidades en dificultad {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_genesis_generic_desc" rel_version="Feature_Dungeon_Mutators">Completa el Jardín del Génesis en dificultad {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_lazarus_generic_desc" rel_version="Feature_Dungeon_Mutators">Completa la instrumentalidad de Lazarus en dificultad {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_shipyard_generic_desc" rel_version="Feature_Dungeon_Mutators">Completa el astillero de la Dinastía en dificultad {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_isabellalair_generic_desc" rel_version="Feature_Dungeon_Mutators">Complete !undefined dungeon!, difficulty {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_barnacle_generic_desc" rel_version="Feature_Dungeon_Mutators">Completa Percebes y pólvora negra en dificultad {number}.</string>
+	<string key="ui_metachievement_pve_mutate_dungeon_ennead_generic_desc" rel_version="Feature_Dungeon_Mutators">Completa La Enéada en dificultad {number}.</string>
 	<string key="ui_metachievement_pve_arenascompleted_desc">Completa {number} batallas en la arena.</string>
 	<string key="ui_metachievement_pvp_killbyfaction_covenant_desc">Derrota personalmente a otros {number} jugadores de la Alianza.</string>
 	<string key="ui_metachievement_pvp_killbyfaction_marauder_desc">Derrota personalmente a otros {number} jugadores de los Saqueadores.</string>

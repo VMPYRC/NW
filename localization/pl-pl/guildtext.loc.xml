@@ -1,7 +1,9 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="ui_alignmentrequesttitle">Przyjazne zamiary</string>
 	<string key="ui_alignmentacceptedmessage">Wymieniono gest przyjaznych zamiarów z graczem &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
-	<string key="ui_alignmentrequestrecipientmessage">Gracz &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; pomachał. Aby mu odmachać, wyceluj w niego i naciśnij [{keybind}].</string>
+	<string key="ui_alignmentrequestrecipientmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; pomachał. Aby odmachać, wyceluj w niego i naciśnij [{keybind}].</string>
+	<string key="ui_alignmentrequestrecipientmessage_SHE">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; pomachał. Aby odmachać, wyceluj w nią i naciśnij [{keybind}].</string>
+	<string key="ui_alignmentrequestrecipientmessage_THEY">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; pomachał. Aby mu odmachać, wyceluj w tę postać i naciśnij [{keybind}].</string>
 	<string key="ui_alignmentrequestsendermessage">Okazano przyjazne zamiary wobec gracza &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
 	<string key="ui_alignmenttimedoutrecipientmessage">Nie odmachano. Gracz &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; może to sobie zapamiętać.</string>
 	<string key="ui_alignmenttimedoutsendermessage">Gracz nie odmachał.</string>
@@ -90,7 +92,9 @@
 	<string key="ui_guildownershipchangemessage">Przeniesiono prawa właściciela kompanii na gracza &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
 	<string key="ui_guildownershipchangetitle">Zmiana właściciela kompanii</string>
 	<string key="ui_guildsetmemberrankfailednoconsultitle">Musi mieć konsula</string>
-	<string key="ui_guildsetmemberrankfailednoconsulmessage">Nie można zmienić stopnia gracza ({playerName}), ponieważ nie ma innych konsulów, którzy mogliby zająć jego miejsce.</string>
+	<string key="ui_guildsetmemberrankfailednoconsulmessage">Nie można zmienić stopnia gracza {playerName} – nie ma innych konsulów, którzy mogliby zająć jego miejsce.</string>
+	<string key="ui_guildsetmemberrankfailednoconsulmessage_SHE">Nie można zmienić stopnia gracza {playerName} – nie ma innych konsulów, którzy mogliby zająć jej miejsce.</string>
+	<string key="ui_guildsetmemberrankfailednoconsulmessage_THEY">Nie można zmienić stopnia gracza ({playerName}), ponieważ nie ma innych konsulów, którzy mogliby zająć jego miejsce.</string>
 	<string key="ui_guildpermissionstab">Pozwolenia</string>
 	<string key="ui_guildranknameinusemessage">Stopień o takiej nazwie już istnieje.</string>
 	<string key="ui_guildoverviewtab">Informacje ogólne</string>
@@ -478,7 +482,7 @@
 	<string key="ui_siege_phase_capture_fort_defender">Broń fortu</string>
 	<string key="ui_siege_hud_battle_tokens">Żetony bitewne</string>
 	<string key="ui_siege_hud_siege_weapons">Broń oblężnicza</string>
-	<string key="ui_siege_hud_deployables">Małe struktury rozstawiane</string>
+	<string key="ui_siege_hud_deployables">Struktury rozstawiane</string>
 	<string key="ui_siege_hud_siege_parts">Części oblężenia</string>
 	<string key="ui_siege_hud_inventory">Ekwipunek</string>
 	<string key="ui_siege_hud_camp">Obóz</string>
@@ -574,7 +578,7 @@
 	<string key="ui_signup_restriction_tooltip">Nie możesz zapisać się do wroga twojej frakcji.</string>
 	<string key="ui_signup_nofaction_tooltip">Musisz mieć frakcję, by móc zapisać się na wojnę.</string>
 	<string key="ui_signup_not_available">Zapis niedostępny</string>
-	<string key="ui_signup_level_requirement">&lt;font color="#c0c0c0"&gt;By móc się zapisać, wymagany jest&lt;/font&gt; &lt;font color="#ff6363"&gt;{level}. poziom gracza.&lt;/font&gt;</string>
+	<string key="ui_signup_level_requirement">&lt;font color="#c0c0c0"&gt;Do zapisu wymagany jest &lt;/font&gt; &lt;font color="#ff6363"&gt;{level}. poziom gracza&lt;/font&gt;</string>
 	<string key="ui_signup_count">Zapisani gracze: &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{number}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_signup_instruction_title_1">Czekaj.</string>
 	<string key="ui_signup_instruction_title_2">Bądź online.</string>

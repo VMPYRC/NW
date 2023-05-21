@@ -114,6 +114,10 @@
 	<string key="ui_affliction_drowning_tooltip">Se seu fôlego se esgotar, você sufocará e morrerá</string>
 	<string key="ui_affliction_blight">resistência a mácula</string>
 	<string key="ui_affliction_blight_tooltip">Se sua resistência a mácula se esgotar, você ficará maculado e causará {[Type_StatusEffectData.Blight.DMGStandard * 100]}% a menos de dano, receberá {[Type_StatusEffectData.Blight.HealMod * 100]}% a menos de cura e perderá {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]}% de sua saúde base a cada {[Type_StatusEffectData.Blight.TickRate]} segundos durante {[Afflictions.AfflictionBlight.AfflictedDrainTime]} segundos.</string>
+	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">resistência a combustível</string>
+	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">temporizador de combustível</string>
+	<string key="ui_affliction_mutcurse4" rel_version="Feature_Dungeon_Mutators">resistência a contragolpe</string>
+	<string key="ui_affliction_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Se a sua resistência se esgotar, uma zona de Silêncio será conjurada em você. A zona detonará depois de um tempo, causando dano a jogadores e criaturas. A resistência é compartilhada entre todos os membros do grupo.</string>
 	<string key="ui_afflicted_bleeding">ferido</string>
 	<string key="ui_afflicted_bleeding_tooltip">Quando se está ferido, o vigor regenera numa frequência muito menor</string>
 	<string key="ui_afflicted_burn">queimando</string>
@@ -134,6 +138,10 @@
 	<string key="ui_afflicted_drowning_tooltip">Você morreu por afogamento</string>
 	<string key="ui_afflicted_blight">maculado</string>
 	<string key="ui_afflicted_blight_tooltip">Quando estiver maculado, você causará {[Type_StatusEffectData.Blight.DMGStandard * 100]}% a menos de dano, receberá {[Type_StatusEffectData.Blight.HealMod * 100]}% a menos de cura e perderá {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]}% de sua saúde base a cada {[Type_StatusEffectData.Blight.TickRate]} segundos.</string>
+	<string key="ui_afflicted_mutcurse3" rel_version="Feature_Dungeon_Mutators">combustão</string>
+	<string key="ui_afflicted_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Quando este temporizador expira, o jogador com a menor porcentagem de saúde torna-se Combustível.</string>
+	<string key="ui_afflicted_mutcurse4" rel_version="Feature_Dungeon_Mutators">maldição</string>
+	<string key="ui_afflicted_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Usar habilidades preencherá a barra. Ao ficar completa, o Contragolpe é lançado em todos os jogadores.</string>
 	<string key="ui_agreement">Ao continuar, você concorda com o</string>
 	<string key="ui_ahhhhh">AHHHHH!!!!</string>
 	<string key="ui_aimsensitivity">Sensibilidade de Mira</string>
@@ -278,6 +286,8 @@
 	<string key="ui_hours_with_time_short">{time} h</string>
 	<string key="ui_minutes_with_time">{time} minutos</string>
 	<string key="ui_minutes_with_time_short">{time} min</string>
+	<string key="ui_seconds_with_time">{time} segundos</string>
+	<string key="ui_seconds_with_time_short">{time} s</string>
 	<string key="ui_lastplayed">Último Acesso</string>
 	<string key="ui_minuteago">há 1 minuto</string>
 	<string key="ui_minutesago">há {time} minutos</string>
@@ -853,7 +863,7 @@
 	<string key="ui_world_select_refresh">Atualizar</string>
 	<string key="ui_resolution_popup_title">Confirmar Resolução</string>
 	<string key="ui_resolution_popup_title_message">Esta resolução é aceitável?</string>
-	<string key="ui_monitor_popup_title">Confirmar Alteração do Monitor</string>
+	<string key="ui_monitor_popup_title">Mudança de Monitor</string>
 	<string key="ui_monitor_popup_title_message">Alterar para este monitor?</string>
 	<string key="ui_monitor_name">Monitor</string>
 	<string key="ui_short_level">Nv.</string>
@@ -863,7 +873,7 @@
 	<string key="ui_faction_select">Selecione a Sua Facção.</string>
 	<string key="ui_character_Select_title">Selecionar Personagem</string>
 	<string key="ui_character_options">Opções de Personagem</string>
-	<string key="ui_character_merge_destination">Este mundo ({worldName}) será mesclado ao {destinationWorldName} em {date}. ({mergeTime})</string>
+	<string key="ui_character_merge_destination">Este mundo ({worldName}) será fundido ao {destinationWorldName} em {date}.</string>
 	<string key="ui_xp">EXP</string>
 	<string key="world_landing_title">O MUNDO ideal foi selecionado para você.</string>
 	<string key="world_set">Conjunto de Mundos?</string>
@@ -1456,9 +1466,13 @@
 	<string key="ui_replace_gem">Substituir Gema</string>
 	<string key="ui_replace_gem_tooltip">Substitui a gema acoplada por outra em seu inventário. A gema acoplada anteriormente será perdida.</string>
 	<string key="ui_upgrade_warning_title">Aprimorar Item</string>
-	<string key="ui_upgrade_warning_body">Aprimorar {itemName} da Pontuação do Equipamento {baseGearScore} para {targetGearScore} requer {itemCount} {upgradeItemName}.\n\nDeseja aprimorar este item?</string>
-	<string key="ui_upgrade_tooltip_enabled">Aplique {itemName} para aumentar a Pontuação do Equipamento deste item.</string>
-	<string key="ui_upgrade_tooltip_disabled">Você precisa de mais {itemName} para aumentar a Pontuação do Equipamento deste item.</string>
+	<string key="ui_upgrade_warning_body">É necessário usar {itemCount} {upgradeItemName} para aprimorar {itemName} da Pontuação do Equipamento {baseGearScore} para {targetGearScore}.\n\nAprimorar itens vinculará eles a você.\n\nDeseja aprimorar este item?</string>
+	<string key="ui_upgrade_tooltip_enabled">Aplique &lt;font color="#ffffff"&gt;{itemName}&lt;/font&gt; para aprimorar o item. Isso aumentará a &lt;font color="#ffffff"&gt;Pontuação do Equipamento&lt;/font&gt; dele.</string>
+	<string key="ui_upgrade_tooltip_disabled_items">Você precisa de, no mínimo, mais {quantity} {itemName} para aumentar a Pontuação do Equipamento deste item.</string>
+	<string key="ui_upgrade_tooltip_disabled_skill">Você só pode aprimorar os tipos de item com os quais possui &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.2" yOffset="1"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{neededValue} de Proficiência&lt;/font&gt;.\n(Proficiência de {expertiseName} atual: &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.2" yOffset="1"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{currentValue}&lt;/font&gt;)</string>
+	<string key="ui_upgrade_tooltip_disabled_broken">Não é possível aprimorar itens quebrados.</string>
+	<string key="ui_upgrade_tooltip_disabled_gearscore">Você só pode aprimorar itens com Pontuação do Equipamento acima de {gearScore}</string>
+	<string key="ui_upgrade_notification">A Pontuação do Equipamento deste item foi aprimorada para &lt;font color="#fffd7a"&gt;{baseGearScore}&lt;/font&gt;.</string>
 	<string key="ui_cannot_replace_gem_tooltip">Não é possível substituir esta gema.</string>
 	<string key="ui_no_gems_tooltip">Não há gemas disponíveis</string>
 	<string key="ui_gem_select_popup_available">Gemas Disponíveis</string>
@@ -1834,6 +1848,7 @@
 	<string key="ui_coin_max_withdrawal_tooltip">Sua carteira tem o limite de {amount} Moedas.\nEssa quantidade é o máximo que você pode pegar sem exceder o limite.</string>
 	<string key="ui_coin_max_sellorder_tooltip">Sua carteira tem o limite de {amount} Moedas.\nVocê perderá quaisquer moedas que excederem o limite no momento da venda.</string>
 	<string key="ui_coin_max_trade_tooltip">Sua carteira tem o limite de {amount} Moedas.\nO outro jogador está tentando te dar mais moedas que você pode carregar. Ele reembolsará qualquer excesso de Moedas.</string>
+	<string key="ui_listing_duration_tooltip">Listagens mais longas resultarão em taxas de listagem mais altas.</string>
 	<string key="ui_groupsize_identifier">Tamanho Recomendado do Grupo: {groupSize}</string>
 	<string key="ui_level_identifier">Nível Recomendado: {level}</string>
 	<string key="ui_recommendedlevel">Nível Recomendado</string>
@@ -2171,6 +2186,7 @@
 	<string key="ui_notificationaccept">Aceitar Notificação</string>
 	<string key="ui_notificationdecline">Recusar Notificação</string>
 	<string key="ui_banneraccept">Aceitar Bandeira</string>
+	<string key="ui_togglepopupoption">Ativar opção de pop-up</string>
 	<string key="ui_dialogue">Diálogo</string>
 	<string key="ui_dialogueoption1">Opção 1</string>
 	<string key="ui_dialogueoption2">Opção 2</string>
@@ -2186,6 +2202,7 @@
 	<string key="ui_emotes_premium">Gestos Premium</string>
 	<string key="ui_locked_account_title">CONTA BLOQUEADA</string>
 	<string key="ui_locked_account_description">No momento, sua conta está bloqueada.\n\nAlgumas funções de jogo, como compras na Loja e consumo de itens da Loja, ficarão desativadas enquanto você estiver nesse estado.</string>
+	<string key="ui_gearscore_modified">Pontuação do Equipamento ajustada para a média da Proficiência de {slot} e da Pontuação do Equipamento do item</string>
 	<string key="ui_itemtypedescription_recipe">Receita:</string>
 	<string key="ui_itemtypedescription_sword">Espada</string>
 	<string key="ui_itemtypedescription_hatchet">Machadinha</string>
@@ -2274,8 +2291,16 @@
 	<string key="ui_cannot_chat_global_blocked">Não é possível conversar neste canal até sua conta ter mais de {hoursNeeded} horas</string>
 	<string key="ui_complete_quests_to_unlock">Conclua jornadas no assentamento para desbloquear</string>
 	<string key="ui_averageexpertise">Proficiência\nMédia</string>
-	<string key="ui_averageexpertisetooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;Proficiência&lt;/font&gt;\nA Proficiência é uma medida do poder potencial dos itens obtidos. Itens obtidos de criaturas e áreas de nível 60 ou maior têm uma chance de aumentar esse valor. Conforme seu nível de Proficiência aumentar, você terá de combater criaturas ou áreas mais poderosas para conseguir aumentos adicionais.</string>
+	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Proficiência&lt;/font&gt;\nA Proficiência é usada para medir a potência máxima de um item quando você o tem equipado.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Proficiência máxima que você pode alcançar&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Como aumentar a Proficiência&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;PDI de Elite e Expedições&lt;/font&gt;\nItens obtidos de criaturas ou baús em áreas de nível acima de 60 têm uma chance de aumentar esse valor.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Confecção&lt;/font&gt;\nConfeccionar um item com uma Pontuação do Equipamento de 600 aumentará a Proficiência desse tipo de item.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Molde de Gipsita&lt;/font&gt;\nAbrir um Molde de Gipsita aumentará a Proficiência.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Aprimorar Item (com Lascas de Umbral)&lt;/font&gt;\nApós atingir 600 de Proficiência, a única maneira de aumentá-la é aprimorando itens com Lascas de Umbral.</string>
 	<string key="ui_itemtypedescription_shield_only">Escudo</string>
-	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_expertise_small" scale="1" yOffset="3.5"&gt;&lt;/img&gt;{value}</string>
+	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}</string>
+	<string key="ui_expertise_warning_with_icon">&lt;font color="#ff9393"&gt;&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_red" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}&lt;/font&gt;</string>
+	<string key="ui_expertise_increased">A Proficiência aumentou!</string>
+	<string key="ui_expertise_tooltip_header">Proficiência de {category} total</string>
+	<string key="ui_expertise_tooltip_breakdown">(&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{value} &lt;/font&gt; &lt;font color="#ffffff"&gt;+ {additional}&lt;/font&gt; de Aprimoramento de Umbral)</string>
+	<string key="ui_expertise_tooltip_breakdown_multiple">(&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{value} &lt;/font&gt; &lt;font color="#ffffff"&gt;+ {additional}&lt;/font&gt; de Aprimoramentos de Umbral)</string>
+	<string key="ui_expertise_tooltip_increase">A Proficiência &lt;font color="#ffffff"&gt;máxima&lt;/font&gt; que você pode obter de inimigos, baús, Moldes de Gipsita e confecção é de &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt;.</string>
+	<string key="ui_expertise_tooltip_maximum">Para aumentar a Proficiência além de &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt;, aprimore um item neste espaço com &lt;font color="#ffffff"&gt;Lascas de Umbral&lt;/font&gt;.</string>
+	<string key="ui_expertise_crafting_gain">Proficiência de {category}</string>
 </resources>
 

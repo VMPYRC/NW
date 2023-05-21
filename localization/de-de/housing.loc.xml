@@ -89,11 +89,16 @@
 	<string key="ui_housing_decorations">Dekorierungsmodus</string>
 	<string key="ui_housing_features">Behausungsfunktionen</string>
 	<string key="ui_housing_grid_snap_hint">Rasterplatzierung</string>
+	<string key="ui_housing_grid_snap_hint_colon">Rasterplatzierung:</string>
 	<string key="ui_housing_hide_ui">Benutzeroberfläche ausblenden</string>
 	<string key="ui_housing_item_count">Dekorationen platziert</string>
 	<string key="ui_housing_item_score">Dekorationspunktzahl</string>
+	<string key="ui_housing_item_total">Dekorationen insgesamt</string>
+	<string key="ui_housing_item_storage">Aufbewahrungsbehälter</string>
+	<string key="ui_housing_item_animated">Animierte Dekorationen</string>
 	<string key="ui_housing_next_due_in">Fällig in</string>
-	<string key="ui_housing_surface_lock_hint">Im Vordergrund fixieren</string>
+	<string key="ui_housing_surface_lock_hint">An Oberfläche fixieren</string>
+	<string key="ui_housing_surface_lock_hint_colon">An Oberfläche fixieren:</string>
 	<string key="ui_housing_owned_filter">Gegenstände im Besitz</string>
 	<string key="ui_housing_pay_taxes">Steuer zahlen</string>
 	<string key="ui_housing_no_items_found">Keine Gegenstände\ngefunden</string>
@@ -157,6 +162,7 @@
 	<string key="ui_housingDecResult_TimeOut">Kann nicht platziert werden. Grund: Zeitüberschreitung</string>
 	<string key="ui_housingDecResult_ItemLimit">Kann nicht platziert werden. Grund: zu viele Gegenstände</string>
 	<string key="ui_housingDecResult_TagLimit">Kann nicht platziert werden. Grund: zu viele Gegenstände dieses Typs</string>
+	<string key="ui_buildmode_disabled">Der Dekorierungsmodus wird momentan gewartet und ist vorübergehend nicht verfügbar.</string>
 	<string key="ui_housingDecResult_entitlementLimit">Kann nicht platziert werden. Grund: zu viele Gegenstände dieses Typs</string>
 	<string key="ui_inn_checked_in">{territoryName} ist jetzt dein Rückrufpunkt.</string>
 	<string key="ui_active_home_point_fail">Anmeldung fehlgeschlagen</string>
@@ -231,5 +237,13 @@
 	<string key="ui_house_lost_restored_title">Haus wiederhergestellt</string>
 	<string key="ui_house_lost_refunded_message">Wir haben herausgefunden, dass dein Haus aufgrund eines Problems mit dem Spiel verloren gegangen ist. Dein Haus in {settlement} wurde zurückerstattet und die Ausstattung in dein Lager zurückgegeben.</string>
 	<string key="ui_house_lost_refunded_title">Hauspreis erstattet</string>
+	<string key="ui_housing_tip_title1">Steuerung für Platzierung</string>
+	<string key="ui_housing_tip_description1">Benutze im &lt;font color={colorHex}&gt;Dekorierungsmodus&lt;/font&gt; die Funktionen &lt;font color={colorHex}&gt;"Rotieren", "Einrasten"&lt;/font&gt; und &lt;font color={colorHex}&gt;"An Oberfläche fixieren"&lt;/font&gt;, um dein Haus genau nach deinen Vorstellungen zu gestalten.</string>
+	<string key="ui_housing_tip_title2">Erhaltene Punkte hängen der Platzierung ab</string>
+	<string key="ui_housing_tip_description2">Platziere Gegenstände so, dass sie sich nicht mit anderen Gegenständen überlappen. Das ist der beste Weg um deine &lt;font color={colorHex}&gt;Dekorationspunktzahl&lt;/font&gt; für jeden platzierten Gegenstand zu erhöhen.</string>
+	<string key="ui_housing_tip_title3">Trophäenboni</string>
+	<string key="ui_housing_tip_description3">Stelle &lt;font color={colorHex}&gt;Trophäen&lt;/font&gt; auf, um &lt;font color={colorHex}&gt;passive Boni&lt;/font&gt; zu aktivieren.\n\nTipp: Pro Haus können nur maximal 5 Trophäen platziert werden, aber die Effekte von gleichen Trophäen können gestapelt werden.</string>
+	<string key="ui_housing_tip_title4">Alle Gegenstände und Punktzahl</string>
+	<string key="ui_housing_tip_description4">Die Fläche auf der rechten Bildschirmseite zeigt deine &lt;font color={colorHex}&gt;Dekorationspunktzahl&lt;/font&gt; und &lt;font color={colorHex}&gt;Dekorationsgrenzen&lt;/font&gt;.\n\nTipp: Zu viele identische Gegenstände zu platzieren führt zu Abzügen bei deiner Dekorationspunktzahl.</string>
 </resources>
 

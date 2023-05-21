@@ -89,11 +89,16 @@
 	<string key="ui_housing_decorations">Modo Decoração</string>
 	<string key="ui_housing_features">Recursos de Alojamento</string>
 	<string key="ui_housing_grid_snap_hint">Posicionamento na Grade</string>
+	<string key="ui_housing_grid_snap_hint_colon">Posicionamento na Grade:</string>
 	<string key="ui_housing_hide_ui">Ocultar</string>
 	<string key="ui_housing_item_count">Decorações Colocadas</string>
 	<string key="ui_housing_item_score">Pontuação de Decoração</string>
+	<string key="ui_housing_item_total">Total de Decorações</string>
+	<string key="ui_housing_item_storage">Recipientes</string>
+	<string key="ui_housing_item_animated">Decoração Animada</string>
 	<string key="ui_housing_next_due_in">Próximo Pagamento em</string>
 	<string key="ui_housing_surface_lock_hint">Fixar na Superfície</string>
+	<string key="ui_housing_surface_lock_hint_colon">Fixar na Superfície:</string>
 	<string key="ui_housing_owned_filter">Mostrar somente os itens adquiridos</string>
 	<string key="ui_housing_pay_taxes">Pagar Imposto</string>
 	<string key="ui_housing_no_items_found">Nenhum</string>
@@ -157,6 +162,7 @@
 	<string key="ui_housingDecResult_TimeOut">Não é possível posicionar, tempo limite esgotado</string>
 	<string key="ui_housingDecResult_ItemLimit">Não é possível posicionar, muitos itens</string>
 	<string key="ui_housingDecResult_TagLimit">Não é possível posicionar, muitos itens deste tipo</string>
+	<string key="ui_buildmode_disabled">O modo Decoração está em manutenção e desativado no momento</string>
 	<string key="ui_housingDecResult_entitlementLimit">Não é possível posicionar, muitos itens deste tipo</string>
 	<string key="ui_inn_checked_in">{territoryName} é o seu novo ponto de retorno.</string>
 	<string key="ui_active_home_point_fail">Falha ao dar entrada</string>
@@ -231,5 +237,13 @@
 	<string key="ui_house_lost_restored_title">Casa restaurada</string>
 	<string key="ui_house_lost_refunded_message">Identificamos que sua casa foi perdida devido a um problema como o jogo. Sua casa em {settlement} foi restituída e os móveis foram devolvidos ao seu depósito.</string>
 	<string key="ui_house_lost_refunded_title">Casa reembolsada</string>
+	<string key="ui_housing_tip_title1">Controles de Posicionamento</string>
+	<string key="ui_housing_tip_description1">No &lt;font color={colorHex}&gt;Modo Decoração&lt;/font&gt;, use os recursos de &lt;font color={colorHex}&gt;rotacionar, fixar na grade&lt;/font&gt; e &lt;font color={colorHex}&gt;fixar na superfície&lt;/font&gt; para decorar sua casa exatamente do jeito que quiser.</string>
+	<string key="ui_housing_tip_title2">Pontos de Efeitos de Posicionamento Ganhos</string>
+	<string key="ui_housing_tip_description2">Posicionar itens que não cortem outros itens é a melhor maneira de aumentar sua &lt;font color={colorHex}&gt;Pontuação de Decoração&lt;/font&gt; para cada item posicionado.</string>
+	<string key="ui_housing_tip_title3">Buffs de Troféus</string>
+	<string key="ui_housing_tip_description3">Exponha &lt;font color={colorHex}&gt;Troféus&lt;/font&gt; para ativar &lt;font color={colorHex}&gt;bônus passivos&lt;/font&gt;.\n\nDica: Só é possível colocar 5 Troféus em cada casa, mas os efeitos de troféus duplicados podem se acumular.</string>
+	<string key="ui_housing_tip_title4">Total de Itens e Pontuação</string>
+	<string key="ui_housing_tip_description4">O painel à direita da tela mostra a &lt;font color={colorHex}&gt;Pontuação de Decoração&lt;/font&gt; da sua casa e os &lt;font color={colorHex}&gt;Limites de Decoração&lt;/font&gt;.\n\nDica: Colocar exemplares demais do mesmo item reduzirá a Pontuação de Decoração.</string>
 </resources>
 

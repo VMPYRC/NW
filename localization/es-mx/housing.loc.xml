@@ -50,7 +50,7 @@
 	<string key="ui_house_menu">Administrar tu casa</string>
 	<string key="ui_house_preview">Previsualizar esta casa</string>
 	<string key="ui_house_price">Precio de la casa</string>
-	<string key="ui_house_property_tax_desc">El mantenimiento de esta casa requiere de {coin} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_house_property_tax_desc">Mantenimiento requerido de {coin} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_house_property_tax_sub_desc">por período de pago.</string>
 	<string key="ui_house_purchase">Comprar esta casa {coinText}</string>
 	<string key="ui_house_purchase_confirm_popup_title">Comprar casa</string>
@@ -89,11 +89,16 @@
 	<string key="ui_housing_decorations">Modo de decoración</string>
 	<string key="ui_housing_features">Funciones residenciales</string>
 	<string key="ui_housing_grid_snap_hint">Ubicación en la grilla</string>
+	<string key="ui_housing_grid_snap_hint_colon">Ubicación en la grilla:</string>
 	<string key="ui_housing_hide_ui">Ocultar IU</string>
 	<string key="ui_housing_item_count">Decoraciones ubicadas</string>
 	<string key="ui_housing_item_score">Puntuación de decoración</string>
+	<string key="ui_housing_item_total">Decoraciones totales</string>
+	<string key="ui_housing_item_storage">Contenedores de almacenamiento</string>
+	<string key="ui_housing_item_animated">Decoraciones animadas</string>
 	<string key="ui_housing_next_due_in">Próximo vencimiento en</string>
 	<string key="ui_housing_surface_lock_hint">Bloquear a la superficie</string>
+	<string key="ui_housing_surface_lock_hint_colon">Bloquear a la superficie:</string>
 	<string key="ui_housing_owned_filter">Mostrar solo lo que posees</string>
 	<string key="ui_housing_pay_taxes">Pagar impuesto</string>
 	<string key="ui_housing_no_items_found">Sin objetos</string>
@@ -157,6 +162,7 @@
 	<string key="ui_housingDecResult_TimeOut">No se puede ubicar; se agotó el tiempo de espera</string>
 	<string key="ui_housingDecResult_ItemLimit">No se puede ubicar; hay demasiados objetos</string>
 	<string key="ui_housingDecResult_TagLimit">No se puede ubicar; hay demasiados objetos de este tipo</string>
+	<string key="ui_buildmode_disabled">El modo de decoración no está disponible ahora mismo por tareas de mantenimiento</string>
 	<string key="ui_housingDecResult_entitlementLimit">No se puede ubicar; hay demasiados objetos de este tipo</string>
 	<string key="ui_inn_checked_in">{territoryName} ahora es tu nuevo punto de regreso.</string>
 	<string key="ui_active_home_point_fail">No se pudo realizar el registro</string>
@@ -198,7 +204,7 @@
 	<string key="ui_travel">Viajar</string>
 	<string key="ui_your_house_desc">Siempre y cuando el impuesto esté pago, podrás regresar a tu casa y renacer en ella.</string>
 	<string key="ui_view_warinfo">Ver la información de la guerra</string>
-	<string key="ui_view_taxinfo">Detalles de asentamiento y guerra</string>
+	<string key="ui_view_taxinfo">Detalles del asentamiento y guerra</string>
 	<string key="ui_view_personalstorage">Mi almacenamiento</string>
 	<string key="ui_more_info">Más información</string>
 	<string key="ui_company_discount">{discountPercent} % por tu compañía</string>
@@ -231,5 +237,13 @@
 	<string key="ui_house_lost_restored_title">Casa restaurada</string>
 	<string key="ui_house_lost_refunded_message">Identificamos que su casa se perdió debido a un problema con el juego. Tu casa en {settlement} fue reembolsada y el mobiliario se devolvió a tu almacén.</string>
 	<string key="ui_house_lost_refunded_title">Casa reembolsada</string>
+	<string key="ui_housing_tip_title1">Controles de ubicación</string>
+	<string key="ui_housing_tip_description1">Mientras estás en el &lt;font color={colorHex}&gt;modo de decoración&lt;/font&gt;, usa las funciones "&lt;font color={colorHex}&gt;rotar, acoplar en grilla&lt;/font&gt;" y "&lt;font color={colorHex}&gt;bloquear a la superficie&lt;/font&gt;" para decorar tu casa exactamente como desees.</string>
+	<string key="ui_housing_tip_title2">La ubicación afecta los puntos obtenidos</string>
+	<string key="ui_housing_tip_description2">Ubicar objetos que no se sujetan a través de otros objetos es la forma óptima de aumentar tu &lt;font color={colorHex}&gt;puntuación de decoración&lt;/font&gt; por cada objeto ubicado.</string>
+	<string key="ui_housing_tip_title3">Potenciaciones de trofeos</string>
+	<string key="ui_housing_tip_description3">Apila &lt;font color={colorHex}&gt;trofeos&lt;/font&gt; para activar &lt;font color={colorHex}&gt;bonificaciones pasivas&lt;/font&gt;.\n\nDato: Solo se pueden ubicar 5 trofeos por casa, pero los efectos de los trofeos duplicados se pueden acumular.</string>
+	<string key="ui_housing_tip_title4">Objetos totales y puntuación</string>
+	<string key="ui_housing_tip_description4">El panel a la derecha de tu pantalla te muestra la &lt;font color={colorHex}&gt;puntuación de decoración&lt;/font&gt; de tu casa y los &lt;font color={colorHex}&gt;límites de decoración&lt;/font&gt;.\n\nDato: Si ubicas demasiadas unidades del mismo objeto, se reduce la puntuación de decoración.</string>
 </resources>
 

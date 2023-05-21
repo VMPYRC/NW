@@ -9,6 +9,8 @@
 	<string key="inv_discard_life_warning">Los demás jugadores no podrán ver ni coger estos objetos. Cuando esta bolsa desaparezca (en 3 minutos), los objetos dejarán de estar disponibles para siempre.</string>
 	<string key="inv_encumbered">Carga excesiva</string>
 	<string key="inv_unencumbered">Sin carga excesiva</string>
+	<string key="inv_slotsfull">Límite de objetos alcanzado</string>
+	<string key="inv_encumbered_and_slotsfull">Límite de objetos y carga excesiva alcanzado</string>
 	<string key="ui_quantity_with_amount">x {amount}</string>
 	<string key="inv_weapons">Armas</string>
 	<string key="inv_ammo">Munición</string>
@@ -68,7 +70,7 @@
 	<string key="inv_equipLoadEncumberedTooltip">Llevas demasiadas cosas en tu inventario. Cuando tengas una carga excesiva, no importa cuál sea tu carga de equipo. No puedes correr ni esquivar y perderás más vitalidad al bloquear. Debes quitar algunos artículos de tu bolsa.</string>
 	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Has equipado más de lo permitido por la carga de equipo máxima. No podrás esquivar ni correr, y la velocidad de recarga de vitalidad se verá penalizada significativamente. Debes desequipar algunos objetos.</string>
 	<string key="inv_equipLoadFastNotification">Ahora la carga de equipo es ligera</string>
-	<string key="inv_equipLoadNormalNotification">Ahora la carga de equipo es normal</string>
+	<string key="inv_equipLoadNormalNotification">Ahora la carga de equipo es media</string>
 	<string key="inv_equipLoadSlowNotification">Ahora la carga de equipo es pesada</string>
 	<string key="inv_equipLoadOverburdenedNotification">Exceso de equipamiento - No puedes esquivar ni esprintar.</string>
 	<string key="inv_equipLoadEncumberedNotification">Carga excesiva - No puedes esquivar, saltar ni esprintar.</string>

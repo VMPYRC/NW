@@ -95,7 +95,7 @@
 	<string key="ui_mtx_dye_description_default" rel_version="Feature_MTX">Permet de teindre des éléments de tenues et d'armures.</string>
 	<string key="ui_bundle_tooltip" rel_version="Feature_MTX">Ce produit est un pack.</string>
 	<string key="reward_type_tooltip_emote" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;ÉMOTES&lt;/font&gt; : le menu Émotes permet d'utiliser une émote. Appuyez sur [{hintText}] pour ouvrir le menu Émote.</string>
-	<string key="reward_type_tooltip_itemskin" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;APPARENCES D'OBJETS&lt;/font&gt; : Pour appliquer une apparence, cliquez sur votre armure ou arme dans l'inventaire, puis sur « Changer l'apparence ».</string>
+	<string key="reward_type_tooltip_itemskin" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;APPARENCES D'OBJETS&lt;/font&gt; : Pour appliquer une apparence, cliquez sur votre armure, vos outils ou vos armes dans l'inventaire, puis sur « Changer l'apparence ».</string>
 	<string key="reward_type_tooltip_campskin" rel_version="Feature_Camp_Skins">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;APPARENCES DE BIVOUAC&lt;/font&gt; : Pour appliquer une apparence, cliquez sur votre bivouac dans l'inventaire, puis sur « Changer l'apparence ».</string>
 	<string key="reward_type_tooltip_itemdye" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;TEINTURES&lt;/font&gt; : Pour utiliser une teinture, cliquez sur votre armure dans l'inventaire, puis sur « Teindre l'armure ».</string>
 	<string key="reward_type_tooltip_guildcrest" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;ARMOIRIES&lt;/font&gt; : pour appliquer des armoiries, allez sur l'écran de la compagnie.</string>
@@ -161,6 +161,7 @@
 	<string key="rouge_dye_name" rel_version="Entitlements_December">Rouge à lèvres</string>
 	<string key="hiddenstream_dye_name" rel_version="Entitlements_November">Ruisseau secret</string>
 	<string key="Icon_Crest_Pack_Smugglers_name" rel_version="New_World_Launch">Pack d'armoiries de contrebandier</string>
+	<string key="butterflywing_dye_name" rel_version="Entitlements_February_2022">Ailes de papillon</string>
 	<string key="smolderingscarlet_dye_description" rel_version="Dye_SmolderingScarlet">Pack de teintures consommables</string>
 	<string key="runic_jackal_description" rel_version="Apparel_RunicJackal">« Il y a des cornes dans lesquelles boire, et des cornes à porter. Les deux sont indispensables. »</string>
 	<string key="crescent_fang_description" rel_version="Weapon_CrescentFang">« Une morsure aussi redoutable qu'un serpent. »</string>
@@ -175,9 +176,12 @@
 	<string key="rouge_dye_description" rel_version="Entitlements_December">Pack de teintures consommables</string>
 	<string key="hiddenstream_dye_description" rel_version="Entitlements_November">Pack de teintures consommables</string>
 	<string key="Icon_Crest_Pack_Smugglers_description" rel_version="New_World_Launch">« Les ténèbres couvrent nos entreprises les plus lucratives. »</string>
+	<string key="butterflywing_dye_description" rel_version="Entitlements_February_2022">Pack de teintures consommables</string>
 	<string key="ui_store_unavailable">En raison d'une maintenance, la boutique est fermée pour le moment. Veuillez réessayer plus tard.</string>
 	<string key="fenrirsfury_name" rel_version="New_World_Launch">Furie de Fenrir</string>
 	<string key="fenrirsfury_description" rel_version="New_World_Launch">« Un hommage approprié à la créature du massacre. »</string>
+	<string key="ageless_bronze_dye_name" rel_version="Entitlements_January_2022">Bronze intemporel</string>
+	<string key="ageless_bronze_description" rel_version="Entitlements_January_2022">Pack de teintures consommables</string>
 	<string key="EntitlementSkin_Light_Demon_name" rel_version="AngelsDemonsWeapons">Enveloppe de Cambion</string>
 	<string key="twitch_pirate_itemskin_name" rel_version="Apparel_Pirate">Fine lame</string>
 	<string key="EntitlementSkin_Heavy_Angel_name" rel_version="AngelsDemonsWeapons">Gardien vertueux</string>
@@ -196,18 +200,26 @@
 	<string key="amazonorange_dye_name" rel_version="Dyes_Launch">Orange Amazon</string>
 	<string key="twitchpurple_dye_name" rel_version="Entitlements_November">Violet Twitch</string>
 	<string key="shipgray_dye_name" rel_version="Entitlements_November">Gris navire</string>
+	<string key="softcoal_dye_name" rel_version="Entitlements_February_2022">Houille</string>
+	<string key="blemishedpearl_dye_name" rel_version="Entitlements_February_2022">Perle ternie</string>
+	<string key="sandalwood_dye_name" rel_version="Entitlements_January_2022">Bois de santal</string>
 	<string key="bleached_cofee_dye_name" rel_version="Dyes_Launch">Café délavé</string>
 	<string key="blood_dye_name" rel_version="MTX_October_Skins">Sang</string>
 	<string key="viola_dye_name" rel_version="Dyes_Launch">Alto</string>
 	<string key="burntsienna_dye_name" rel_version="MTX_October_Skins">Terre brûlée</string>
 	<string key="silt_dye_name" rel_version="Entitlements_November">Limon</string>
+	<string key="blond_dye_name" rel_version="Entitlements_February_2022">Blonde</string>
+	<string key="sushigreen_dye_name" rel_version="Entitlements_February_2022">Vert sushi</string>
 	<string key="keylime_dye_name" rel_version="Entitlements_November">Citron vert</string>
 	<string key="forestgreen_dye_name" rel_version="Dyes_Launch">Vert forêt</string>
+	<string key="mantis_dye_name" rel_version="Entitlements_January_2022">Mante</string>
 	<string key="angelicsatin_dye_name" rel_version="Entitlements_December">Satin angélique</string>
 	<string key="tradewind_dye_name" rel_version="Dyes_Launch">Alizé</string>
 	<string key="bluedsteel_dye_name" rel_version="MTX_October_Skins">Acier bleui</string>
+	<string key="supremesaphire_dye_name" rel_version="Entitlements_January_2022">Saphir suprême</string>
 	<string key="fiercecobalt_dye_name" rel_version="Entitlements_December">Cobalt intense</string>
 	<string key="springgrape_dye_name" rel_version="MTX_October_Skins">Raisin printanier</string>
+	<string key="tranquilblossom_dye_name" rel_version="Entitlements_January_2022">Fleur paisible</string>
 	<string key="deepvelvet_dye_name" rel_version="Entitlements_November">Velours profond</string>
 	<string key="crushedberry_dye_name" rel_version="Entitlements_December">Baie écrasée</string>
 	<string key="lavender_dye_name" rel_version="Dyes_Launch">Lavande</string>
@@ -226,7 +238,13 @@
 	<string key="howl_at_dawn_name" rel_version="Weapon_HowlAtDawn">Hurlevant</string>
 	<string key="twin_wolves_name" rel_version="Weapon_TwinWolves">Loups jumeaux</string>
 	<string key="silver_dye_name" rel_version="Entitlements_November">Argent éclatant</string>
+	<string key="Bundle_Starter_name" rel_version="Bundle_Starter">Pack de démarrage</string>
+	<string key="Bundle_Weapon_Runic_name" rel_version="Bundle_Weapon_Runic">Pack d'apparences d'arme runiques</string>
+	<string key="Bundle_Armor_Runic_name" rel_version="Bundle_Apparel_Runic">Pack d'apparences de vêtement runiques</string>
+	<string key="Bundle_Weapon_Good_Evil_name" rel_version="Bundle_Weapon_AngelsDemons">Pack d'apparences d'arme Anges et Démons</string>
+	<string key="Bundle_Armor_Good_Evil_name" rel_version="Bundle_Apparel_AngelsDemons">Pack d'apparences de vêtement Anges et Démons</string>
 	<string key="Bundle_Decor_Pirate_name" rel_version="New_World_Launch">Pack de décorations de logement pirate</string>
+	<string key="Bundle_Emote_Launch_name" rel_version="Bundle_LaunchSet_Emote">Pack d'émotes Exprimez-vous</string>
 	<string key="EntitlementSkin_Light_Demon_description" rel_version="AngelsDemonsWeapons">« Fruit de l'union infernale entre humain et démon. »</string>
 	<string key="twitch_pirate_itemskin_description" rel_version="New_World_Launch">« Si les morts ne racontent pas leur histoire, qui va témoigner de votre gloire ? »</string>
 	<string key="EntitlementSkin_Heavy_Angel_description" rel_version="AngelsDemonsWeapons">« S'abat sur les ennemis avec une vengeance divine. »</string>
@@ -244,18 +262,26 @@
 	<string key="primeblue_dye_description" rel_version="New_World_Launch">Pack de teintures consommables</string>
 	<string key="amazonorange_dye_description" rel_version="New_World_Launch">Pack de teintures consommables</string>
 	<string key="twitchpurple_dye_description" rel_version="Apparel_Thespian">Pack de teintures consommables</string>
+	<string key="softcoal_dye_description" rel_version="Entitlements_February_2022">Pack de teintures consommables</string>
+	<string key="blemishedpearl_dye_description" rel_version="Entitlements_February_2022">Pack de teintures consommables</string>
+	<string key="sandalwood_dye_description" rel_version="Entitlements_January_2022">Pack de teintures consommables</string>
 	<string key="bleached_cofee_dye_description" rel_version="Dyes_Launch">Pack de teintures consommables</string>
 	<string key="blood_dye_description" rel_version="MTX_October_Skins">Pack de teintures consommables</string>
 	<string key="viola_dye_description" rel_version="Dyes_Launch">Pack de teintures consommables</string>
 	<string key="burntsienna_dye_description" rel_version="MTX_October_Skins">Pack de teintures consommables</string>
 	<string key="silt_dye_description" rel_version="Entitlements_November">Pack de teintures consommables</string>
+	<string key="blond_dye_description" rel_version="Entitlements_February_2022">Pack de teintures consommables</string>
+	<string key="sushigreen_dye_description" rel_version="Entitlements_February_2022">Pack de teintures consommables</string>
 	<string key="keylime_dye_description" rel_version="Entitlements_November">Pack de teintures consommables</string>
 	<string key="forestgreen_dye_description" rel_version="Dyes_Launch">Pack de teintures consommables</string>
+	<string key="mantis_dye_description" rel_version="Entitlements_January_2022">Pack de teintures consommables</string>
 	<string key="angelicsatin_dye_description" rel_version="Entitlements_December">Pack de teintures consommables</string>
 	<string key="tradewind_dye_description" rel_version="Dyes_Launch">Pack de teintures consommables</string>
 	<string key="bluedsteel_dye_description" rel_version="MTX_October_Skins">Pack de teintures consommables</string>
+	<string key="supremesaphire_dye_description" rel_version="Entitlements_January_2022">Pack de teintures consommables</string>
 	<string key="fiercecobalt_dye_description" rel_version="Entitlements_December">Pack de teintures consommables</string>
 	<string key="springgrape_dye_description" rel_version="MTX_October_Skins">Pack de teintures consommables</string>
+	<string key="tranquilblossom_dye_description" rel_version="Entitlements_January_2022">Pack de teintures consommables</string>
 	<string key="deepvelvet_dye_description" rel_version="Entitlements_November">Pack de teintures consommables</string>
 	<string key="crushedberry_dye_description" rel_version="Entitlements_December">Pack de teintures consommables</string>
 	<string key="lavender_dye_description" rel_version="Dyes_Launch">Pack de teintures consommables</string>
@@ -274,7 +300,13 @@
 	<string key="howl_at_dawn_description" rel_version="Weapon_HowlAtDawn">« Un cri pendant l'heure du crime. »</string>
 	<string key="twin_wolves_description" rel_version="Weapon_TwinWolves">« Leurs hurlements se rapprochent de plus en plus. »</string>
 	<string key="silver_dye_description" rel_version="Entitlements_November">Pack de teintures consommables</string>
+	<string key="Bundle_Starter_description" rel_version="Bundle_Starter">« Un ensemble indispensable pour survivre à la mode d'Aeternum. »</string>
+	<string key="Bundle_Weapon_Runic_description" rel_version="Bundle_Weapon_Runic">« Des armes gravées de runes mystiques d'un redoutable peuple guerrier. »</string>
+	<string key="Bundle_Armor_Runic_description" rel_version="Bundle_Apparel_Runic">« Lorsque les maraudeurs surgissent sur la côte, les âmes bienveillantes comme maléfiques tremblent d'effroi. »</string>
+	<string key="Bundle_Weapon_Good_Evil_description" rel_version="Bundle_Weapon_AngelsDemons">« Choisirez-vous des armes imprégnées de la lumière de la grâce ou celles extraites du chaos des fournaises ? »</string>
+	<string key="Bundle_Armor_Good_Evil_description" rel_version="Bundle_Apparel_AngelsDemons">« En Aeternum, le bien et le mal, le saint et l'impur se mêlent comme des lianes entrelacées. »</string>
 	<string key="Bundle_Decor_Pirate_description" rel_version="New_World_Launch">« Les eaux dangereuses peuvent abriter de grands trésors. »</string>
+	<string key="Bundle_Emote_Launch_description" rel_version="Bundle_LaunchSet_Emote">« Des gestes indispensables et compréhensibles dans toutes les langues. »</string>
 	<string key="ui_no_featured_deal">Il n'y a pas d'offre spéciale pour le moment.\n\n&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;&lt;font color="#ffffff"&gt;P A R C O U R I R  L A  B O U T I Q U E&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_no_featured_deal_store">Il n'y a pas d'offre spéciale pour le moment.\nUtilisez les onglets sur la gauche pour parcourir la boutique !</string>
 	<string key="Marks_Of_Fortune_5000_name" rel_version="New_World_Launch">Sachet de gages de fortune</string>
@@ -314,6 +346,8 @@
 	<string key="ui_crestforeground_160" rel_version="New_World_Launch">Tête d'ours</string>
 	<string key="ui_crestforeground_162" rel_version="New_World_Launch">Tête de lion</string>
 	<string key="ui_crestforeground_170" rel_version="New_World_Launch">Tête de serpent</string>
+	<string key="ui_crestforeground_171" rel_version="Crest_Pack_Lunar">Tigre bondissant</string>
+	<string key="ui_crestforeground_172" rel_version="Crest_Pack_Lunar">Tête de tigre</string>
 	<string key="ui_crestforeground_178" rel_version="New_World_Launch">Boum</string>
 	<string key="ui_crestforeground_179" rel_version="New_World_Launch">Marque du marchand</string>
 	<string key="ui_crestforeground_184" rel_version="New_World_Launch">Cornes du diable</string>
@@ -362,6 +396,8 @@
 	<string key="Apparel_Monster_Skeleton_description" rel_version="New_World_Launch">« Des armées sinistres et sépulcrales répondent à son appel. »</string>
 	<string key="Emote_Whistle_name" rel_version="Emote_Whistle">Siffler</string>
 	<string key="Emote_Whistle_description" rel_version="Emote_Whistle">« Pour invoquer des chiens, des compagnons, ou toute autre chose. »</string>
+	<string key="Emote_Pray_name" rel_version="Emote_Pray">Prier</string>
+	<string key="Emote_Pray_description" rel_version="Emote_Pray">« Prosternez-vous devant une puissance supérieure. »</string>
 	<string key="Weapon_Golden_Colt_name" rel_version="RoyalCourtSkins">Poulain d'or</string>
 	<string key="Weapon_Golden_Colt_description" rel_version="RoyalCourtSkins">« Frappe avec la force d'un cheval de guerre au galop... et en feu. »</string>
 	<string key="Weapon_Wicked_Tyrant_name" rel_version="RoyalCourtSkins">Tyran cruel</string>
@@ -471,9 +507,13 @@
 	<string key="Emote_Impatient_description" rel_version="Emote_Impatient">« On va pas passer la nuit ici... ou bien... ? »</string>
 	<string key="Emote_Cry_description" rel_version="Emote_Cry">« Arrosez la terre de vos larmes. »</string>
 	<string key="Apparel_WarSpecial_name" rel_version="Apparel_War_Special">Guerrier macabre </string>
+	<string key="Apparel_ClassicRPGWizard_name" rel_version="Apparel_RPG_Wizard">Atours de sorcier</string>
+	<string key="Apparel_ClassicRPGRogue_name" rel_version="Apparel_RPG_Rogue">Charlatan caché </string>
 	<string key="Apparel_RoyalCourt_Crown_name" rel_version="Apparel_Helmet_Crown">Couronne d'ascendance</string>
 	<string key="Apparel_RoyalCourt_Tiara_name" rel_version="Apparel_Helmet_Tiara">Tiare d'ascendance </string>
 	<string key="Apparel_WarSpecial_description" rel_version="Apparel_War_Special">« L'uniforme majestueux de la Mort elle-même, dont on raconte qu'elle arpente les champs de bataille d'Aeternum en maudissant les résurrections qui s'y produisent. »</string>
+	<string key="Apparel_ClassicRPGWizard_description" rel_version="Apparel_RPG_Wizard">« La tenue brodée de ceux qui cherchent à maîtriser les forces occultes d'Aeternum. »</string>
+	<string key="Apparel_ClassicRPGRogue_description" rel_version="Apparel_RPG_Rogue">« Quand votre esprit est aussi aiguisé que vos lames, vous pouvez obtenir tout ce qui vous plaît en Aeternum. »</string>
 	<string key="Apparel_RoyalCourt_Crown_description" rel_version="Apparel_Helmet_Crown">« Aeternum offre une couronne à chacun de ses voyageurs, qui n'ont qu'à s'élever pour la recevoir. »</string>
 	<string key="Apparel_RoyalCourt_Tiara_description" rel_version="Apparel_Helmet_Tiara">« La nature sauvage d'Aeternum ne peut empêcher une famille royale de se montrer sous son meilleur jour. »</string>
 	<string key="Weapon_Bow_RoyalCourt_name" rel_version="Weapon_Bow_RoyalCourt">Filigrane de l'archer</string>
@@ -546,14 +586,64 @@
 	<string key="CampSkin_Winter3_name" rel_version="CampSkin_Winter3">Opulence hivernale</string>
 	<string key="CampSkin_Winter2_description" rel_version="CampSkin_Winter2">« Protégez-vous des hivers glacials d'Aeternum dans une tente haute. »</string>
 	<string key="CampSkin_Winter3_description" rel_version="CampSkin_Winter3">« Profitez de la vue dans l'élégance avec cette tente haute. »</string>
+	<string key="Weapon_Shield_Lunar_name" rel_version="Weapon_TowerShield_LunarNewYear_MTX">Cri du tigre</string>
+	<string key="Weapon_Shield_Lunar_description" rel_version="Weapon_TowerShield_LunarNewYear_MTX">« Chaque coup bloqué semble enrager un peu plus l'animal gravé dans le bouclier, ses crocs chaque fois plus menaçants. »</string>
+	<string key="Weapon_Firestaff_Lunar_name" rel_version="Weapon_FireStaff_LunarNewYear_MTX">Flamme éternelle</string>
+	<string key="Weapon_Firestaff_Lunar_description" rel_version="Weapon_FireStaff_LunarNewYear_MTX">« L'orbe au sommet de ce pilier de flammes est gravé dans le plus beau jade connu en Aeternum. »</string>
+	<string key="Weapon_Sword_Lunar_name" rel_version="Weapon_LongSword_LunarNewYear_MTX">Ardeur du général</string>
+	<string key="Weapon_Sword_Lunar_description" rel_version="Weapon_LongSword_LunarNewYear_MTX">« Ressentez l'ardeur des généraux d'antan jaillir dans vos veines à chaque coup. »</string>
+	<string key="Weapon_Musket_Lunar_name" rel_version="Weapon_Musket_LunarNewYear_MTX">Rugissement perçant</string>
+	<string key="Weapon_Musket_Lunar_description" rel_version="Weapon_Musket_LunarNewYear_MTX">« Sortie de la gueule d'une bête monumentale, la balle vient se loger dans sa cible malheureuse. »</string>
+	<string key="Weapon_VoidGauntlet_Lunar_name" rel_version="Weapon_VoidGauntlet_LunarNewYear_MTX">Toucher doré du néant</string>
+	<string key="Weapon_VoidGauntlet_Lunar_description" rel_version="Weapon_VoidGauntlet_LunarNewYear_MTX">« Les ténèbres sont tapies dans le reflet de l'or. »</string>
+	<string key="Apparel_Lunar_1_name" rel_version="Apparel_LunarNewYear_MTX_1">Dragon de jadéite</string>
+	<string key="Apparel_Lunar_1_description" rel_version="Apparel_LunarNewYear_MTX_1">« Poussez un rugissement qui secoue les fondations d'Aeternum. »</string>
+	<string key="Apparel_Lunar_2_name" rel_version="Apparel_LunarNewYear_MTX_2">Assassin de jadéite</string>
+	<string key="Apparel_Lunar_2_description" rel_version="Apparel_LunarNewYear_MTX_2">« Pour une discrétion maximale, l'armure semble se sculpter contre le corps de son porteur comme une seconde peau. »</string>
+	<string key="Bundle_Tool_Lunar_name" rel_version="MTX_Tool_Skins_LunarNewYear">Cycle de la lune</string>
+	<string key="Bundle_Tool_Lunar_description" rel_version="MTX_Tool_Skins_LunarNewYear">« Ces outils pourraient vous aider à trouver la chance au cours de l'année. »</string>
+	<string key="Apparel_Stormbound_name" rel_version="Apparel_Stormbound_Costume">Orage</string>
+	<string key="Apparel_Stormbound_description" rel_version="Apparel_Stormbound_Costume">« Sous le joug de l'orage par lequel vous avez atterri à Aeternum, vous vous êtes fait un nom sur l'île. »</string>
+	<string key="Apparel_Miner_name" rel_version="Apparel_Miner_Achv">Expert en extraction</string>
+	<string key="Apparel_Miner_description" rel_version="Apparel_Miner_Achv">« Pour ceux qui n'ont pas peur de salir leurs gants avec le sel de la terre. »</string>
+	<string key="Emote_RoyalWave_name" rel_version="Emote_Queen_Wave">Salut de reine</string>
+	<string key="Emote_RoyalWave_description" rel_version="Emote_Queen_Wave">« Saluez à la manière d'une reine. »</string>
+	<string key="Emote_Pushups_name" rel_version="Emote_Pushups">Pompes</string>
+	<string key="Emote_Autograph_name" rel_version="Emote_Autograph">Autographe</string>
+	<string key="Emote_SnowAngel_name" rel_version="Emote_SnowAngel">Ange de neige</string>
+	<string key="Emote_Pushups_description" rel_version="Emote_Pushups">« Et est-ce que vous poussez de la fonte, aussi ? »</string>
+	<string key="Emote_Autograph_description" rel_version="Emote_Autograph">« Griffonnez un autographe. Nul doute que vos fans l'attendent désespérément. »</string>
+	<string key="Emote_SnowAngel_description" rel_version="Emote_SnowAngel">« Les anges sont rares en Aeternum. Faites-en davantage, mais ne prenez pas froid ! »</string>
 	<string key="url_twitchdrop">https://www.newworld.com/fr-fr/twitch-drops</string>
 	<string key="url_primegaming">https://gaming.amazon.com/loot/newworld</string>
 	<string key="ui_open_link">Ouvrir le lien</string>
+	<string key="Bundle_Decor_Lunar_name" rel_version="Housing_LunarNewYear_MTX_Pack_2022">Pack de décors du Nouvel An lunaire</string>
+	<string key="Bundle_Decor_Lunar_description" rel_version="Housing_LunarNewYear_MTX_Pack_2022">« Bienvenue dans la nouvelle année ! » Ensemble de décors pour le logement</string>
+	<string key="Pet_LunarTiger_name" rel_version="Housing_LunarNewYear_MTX_Pack_2022">Tigre lunaire</string>
+	<string key="Pet_LunarTiger_description" rel_version="Housing_LunarNewYear_MTX_Pack_2022">« Un être mystique qui vous a fait don de sa présence et de sa protection. »</string>
+	<string key="Bundle_Crest_Lunar_name" rel_version="Crest_Pack_Lunar">Pack d'armoiries du Nouvel An lunaire</string>
+	<string key="Bundle_Crest_Lunar_description" rel_version="Crest_Pack_Lunar">« Le signe du tigre. »</string>
 	<string key="Marks_Of_Fortune_120000_name" rel_version="Marks_Sku_99">Gros lot de gages</string>
 	<string key="Marks_Of_Fortune_120000_description" rel_version="Marks_Sku_99">Pack de monnaie de gages de fortune</string>
 	<string key="Bundle_FestiveDeer_Promo_name" rel_version="Housing_Winter_MTX_Pack_2021">Pack du Cerf festif</string>
 	<string key="Bundle_FestiveDeer_Promo_description" rel_version="Housing_Winter_MTX_Pack_2021">« Un cerf avec sa propre écharpe pour le protéger du froid de l'Hiver éternel. Plus quelques teintures pour ajouter des couleurs de saison à vos tenues. »</string>
 	<string key="reward_type_campskin" rel_version="Feature_Camp_Skins">Apparence de bivouac</string>
+	<string key="Bundle_PR_Megapack_Runic_name" rel_version="Bundle_MegaPack_Runic">Mégapack runique</string>
+	<string key="Bundle_PR_Megapack_AngelsDemons_name" rel_version="Bundle_MegaPack_AngelsDemons">Mégapack Anges et Démons</string>
+	<string key="Bundle_PR_Weapon_RoyalCourt_name" rel_version="Bundle_Weapon_RoyalCourt">Pack d'apparences d'arme de la cour royale</string>
+	<string key="Bundle_PR_Apparel_RoyalCourt_name" rel_version="Bundle_Apparel_RoyalCourt">Pack d'apparences de vêtement de la cour royale</string>
+	<string key="Bundle_PR_Megapack_RoyalCourt_name" rel_version="Bundle_MegaPack_RoyalCourt">Mégapack de la cour royale</string>
+	<string key="Bundle_PR_Megapack_Runic_description" rel_version="Bundle_MegaPack_Runic">Obtenez tous les vêtements et les apparences d'arme runiques ! Drakkar et soif de sang non inclus.</string>
+	<string key="Bundle_PR_Megapack_AngelsDemons_description" rel_version="Bundle_MegaPack_AngelsDemons">Obtenez tous les vêtements et les apparences d'arme Anges et Démons ! Une manifestation de la dualité du monde.</string>
+	<string key="Bundle_PR_Weapon_RoyalCourt_description" rel_version="Bundle_Weapon_RoyalCourt">« Une sélection d'armes digne du dirigeant le plus puissant. »</string>
+	<string key="Bundle_PR_Apparel_RoyalCourt_description" rel_version="Bundle_Apparel_RoyalCourt">« Lorsque vous faites partie de la royauté, il faut vous habiller en conséquence. »</string>
+	<string key="Bundle_PR_Megapack_RoyalCourt_description" rel_version="Bundle_MegaPack_RoyalCourt">Obtenez tous les vêtements, outils et apparences d'arme de la cour royale ! Que vous gouverniez de façon bienveillante ou d'une main de fer, vos besoins vestimentaires sont couverts.</string>
+	<string key="Bundle_PR_Weapon_Lunar_name" rel_version="Bundle_Weapon_Lunar">Pack d'apparences d'arme du Nouvel An lunaire</string>
+	<string key="Bundle_PR_Apparel_Lunar_name" rel_version="Bundle_Apparel_Lunar">Pack d'apparences de vêtement du Nouvel An lunaire</string>
+	<string key="Bundle_PR_MegaPack_Lunar_name" rel_version="Bundle_MegaPack_Lunar">Mégapack du Nouvel An lunaire</string>
+	<string key="Bundle_PR_Weapon_Lunar_description" rel_version="Bundle_Weapon_Lunar">« Célébrez la nouvelle année avec un redoutable rugissement et une méchante taillade. »</string>
+	<string key="Bundle_PR_Apparel_Lunar_description" rel_version="Bundle_Apparel_Lunar">« Honorez vos résolutions et soumettez tous vos ennemis en Aeternum. »</string>
+	<string key="Bundle_PR_MegaPack_Lunar_description" rel_version="Bundle_MegaPack_Lunar">Obtenez tous les vêtements, outils et apparences d'arme du Nouvel An lunaire ! Que la fortune vous sourie dans tout ce que vous entreprendrez en Aeternum cette année.</string>
 	<string key="reward_type_Weaponskin_Bow" rel_version="New_World_Launch">Apparence d'arc</string>
 	<string key="reward_type_Weaponskin_Hatchet" rel_version="New_World_Launch">Apparence de hachette</string>
 	<string key="reward_type_Weaponskin_Musket" rel_version="New_World_Launch">Apparence de mousquet</string>
@@ -574,6 +664,42 @@
 	<string key="reward_type_Apparelskin_Set" rel_version="New_World_Launch">Ensemble d'apparences de vêtement</string>
 	<string key="reward_type_Toolskin_Set" rel_version="New_World_Launch">Ensemble d'apparences d'outil</string>
 	<string key="reward_type_Housing_Set" rel_version="New_World_Launch">Ensemble de décors pour le logement</string>
+	<string key="Weapon_Bow_CorruptedLove_name" rel_version="Weapon_Bow_February_MTX">Arc de Cupidon</string>
+	<string key="Weapon_FireStaff_CorruptedLove_name" rel_version="Weapon_FireStaff_February_MTX">Admiration luisante</string>
+	<string key="Weapon_IceGauntlet_CorruptedLove_name" rel_version="Weapon_IceGauntlet_February_MTX">Étreinte froide de l'amour</string>
+	<string key="Weapon_Musket_CorruptedLove_name" rel_version="Weapon_Musket_February_MTX">Beauté perçante</string>
+	<string key="Weapon_Rapier_CorruptedLove_name" rel_version="Weapon_Rapier_February_MTX">Perce-cœur</string>
+	<string key="Weapon_WarHammer_CorruptedLove_name" rel_version="Weapon_Warhammer_February_MTX">Béguin</string>
+	<string key="Weapon_Bow_CorruptedLove_description" rel_version="Weapon_Bow_February_MTX">« Ces flèches trouveront leur chemin jusqu'au cœur de l'ennemi et laisseront à jamais des stigmates tuméfiés. »</string>
+	<string key="Weapon_FireStaff_CorruptedLove_description" rel_version="Weapon_FireStaff_February_MTX">« Les flammes de mon amour ne peuvent être domptées. »</string>
+	<string key="Weapon_IceGauntlet_CorruptedLove_description" rel_version="Weapon_IceGauntlet_February_MTX">« Les formes d'amour n'impliquent pas toutes les flammes de la passion. »</string>
+	<string key="Weapon_Musket_CorruptedLove_description" rel_version="Weapon_Musket_February_MTX">« S'il était possible de tuer d'un regard, vous n'auriez pas besoin de cette arme. »</string>
+	<string key="Weapon_Rapier_CorruptedLove_description" rel_version="Weapon_Rapier_February_MTX">« Comme une flèche de Cupidon, sa pointe cherche à se planter dans un cœur pour s'y établir à jamais. »</string>
+	<string key="Weapon_WarHammer_CorruptedLove_description" rel_version="Weapon_Warhammer_February_MTX">« Est-ce le sentiment qui parcourt votre corps en voyant votre tendre moitié ou est-ce le marteau qui tambourine dans votre poitrine ? »</string>
+	<string key="Emote_CoconutHorse_name" rel_version="Emote_Coconut_Horse">Galop</string>
+	<string key="Apparel_Valentines_1_name" rel_version="Apparel_Valentines_MTX_1">Fou d'amour</string>
+	<string key="Apparel_Valentines_2_name" rel_version="Apparel_Valentines_MTX_2">Chevalier de la dévotion</string>
+	<string key="Bundle_Tool_Valentines_name" rel_version="MTX_Tool_Skins_Valentine">Travail fait avec amour</string>
+	<string key="Apparel_Waveborne_name" rel_version="Apparel_Waveborne_Costume">Reflux</string>
+	<string key="Weapon_Musket_AngelsDemons_name" rel_version="Weapon_Musket_AngelsDemons_MTX">Canon d'alléluia</string>
+	<string key="Weapon_TowerShield_AngelsDemons_name" rel_version="Weapon_TowerShield_AngelsDemons_MTX">Rempart angélique</string>
+	<string key="Weapon_Rapier_AngelsDemons_name" rel_version="Weapon_Rapier_AngelsDemons_MTX">Étincelle de lumière</string>
+	<string key="Weapon_VoidGauntlet_AngelsDemons_name" rel_version="Weapon_VoidGauntlet_AngelsDemons_MTX">Chute de Moloch</string>
+	<string key="Emote_CoconutHorse_description" rel_version="Emote_Coconut_Horse">« Chevauchez votre fidèle destrier. »</string>
+	<string key="Apparel_Valentines_1_description" rel_version="Apparel_Valentines_MTX_1">« Pour ceux qui sont souvent perdus dans des accès d'admiration et de pâmoison. »</string>
+	<string key="Apparel_Valentines_2_description" rel_version="Apparel_Valentines_MTX_2">« En enfilant cette armure, votre poitrine vous intime de protéger les innocents, les sans défense et les amants du monde. »</string>
+	<string key="Bundle_Tool_Valentines_description" rel_version="MTX_Tool_Skins_Valentine">« L'amour se nourrit de grands efforts... et de l'accumulation de ressources. »</string>
+	<string key="Apparel_Waveborne_description" rel_version="Apparel_Waveborne_Costume">« Naissant dans les mers sombres et agitées, une vague mortelle vient s'écraser sur le rivage. »</string>
+	<string key="Weapon_Musket_AngelsDemons_description" rel_version="Weapon_Musket_AngelsDemons_MTX">« Et ainsi la montagne résonna au cri d'alléluia. »</string>
+	<string key="Weapon_TowerShield_AngelsDemons_description" rel_version="Weapon_TowerShield_AngelsDemons_MTX">« Pour se protéger de la cruauté et de la pureté du champion, il faut être équipé d'un bon bouclier. »</string>
+	<string key="Weapon_Rapier_AngelsDemons_description" rel_version="Weapon_Rapier_AngelsDemons_MTX">« Une lueur transperçant les ténèbres, remontant le moral de ceux qui la voient maniée par un champion de la lumière. »</string>
+	<string key="Weapon_VoidGauntlet_AngelsDemons_description" rel_version="Weapon_VoidGauntlet_AngelsDemons_MTX">« Un ange déchu est tout désigné pour être la cible d'un monstrueux sacrifice. »</string>
+	<string key="Emote_Swoon_name" rel_version="Emote_Swoon">Pâmoison</string>
+	<string key="Emote_GiveFlower_name" rel_version="Emote_GiveFlower">Donner une fleur</string>
+	<string key="Emote_Swoon_description" rel_version="Emote_Swoon">« L'euphorie à couper le souffle d'un amour véritable et éternel. Littéralement éternel. »</string>
+	<string key="Emote_GiveFlower_description" rel_version="Emote_GiveFlower">« Tout le monde aime se faire courtiser avec des pétales brillants et un doux parfum. »</string>
 	<string key="ui_crestforeground_212" rel_version="Twitch_EpicStory_Skins">Ouroboros</string>
+	<string key="Bundle_Decor_Love2022_name" rel_version="Housing_Love_MTX_Pack_2022">Pack de décors Amour altéré</string>
+	<string key="Bundle_Decor_Love2022_description" rel_version="Housing_Love_MTX_Pack_2022">« Mobilier parfait pour une soirée romantique ou pour une éternité sans amour en Aeternum. »</string>
 </resources>
 

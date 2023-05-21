@@ -78,7 +78,7 @@
 	<string key="Ability_Bow_RainofArrows" comment="BOW + ACTIVE">Deszcz strzał</string>
 	<string key="Ability_Bow_RainofArrows_description" comment="BOW + ACTIVE">Zasypujesz wrogów nawałnicą strzał pokrywającą obszar o promieniu {[SpellDataTable_Bow.Spell_Bow_Spell_RainOfArrows.Radius]} m i zadającą {[DamageTable.Bow_RainOfArrows_Attack.DmgCoef * 100]}% obrażeń od broni. Tą umiejętnością nie można wykonywać trafień w głowę.</string>
 	<string key="Upgrade_Bow_RainofArrows_Bleed" comment="BOW + MOD">Strzały z zadziorami</string>
-	<string key="Upgrade_Bow_RainofArrows_Bleed_description" comment="BOW + MOD">Deszcz strzał wywołuje krwawienie zadające 85% obrażeń od broni przez {[Type_StatusEffectData.Status_Passive_RainofArrows_Bleed.BaseDuration]} s.</string>
+	<string key="Upgrade_Bow_RainofArrows_Bleed_description" comment="BOW + MOD">Deszcz strzał wywołuje krwawienie zadające {[Type_StatusEffectData.Status_Passive_RainofArrows_Bleed.HealthModifierDamageBased * -100]}% obrażeń od broni na sekundę przez {[Type_StatusEffectData.Status_Passive_RainofArrows_Bleed.BaseDuration]} s.</string>
 	<string key="Upgrade_Bow_RainofArrows_Slow" comment="BOW + MOD">Zakrzywione strzały</string>
 	<string key="Upgrade_Bow_RainofArrows_Slow_description" comment="BOW + MOD">Deszcz strzał spowalnia cele o {[Type_StatusEffectData.Status_Bow_RainOfArrows_Slow.MoveSpeedMod * -100]}% na {[Type_StatusEffectData.Status_Bow_RainOfArrows_Slow.BaseDuration]} s (spowolnienie zmniejsza szybkość ruchu celu).</string>
 	<string key="Passive_Bow_Skirmish_DodgeDmg" comment="BOW + PASSIVE">Taktyka unikania</string>
@@ -130,7 +130,7 @@
 	<string key="Passive_Bow_Hunter_HeavyDmgVsFull" comment="BOW + PASSIVE">Preludium</string>
 	<string key="Passive_Bow_Hunter_HeavyDmgVsFull_description" comment="BOW + PASSIVE">Ciężkie ataki zadają o {[BowAbilityTable.Passive_Bow_Hunter_DmgOnFirst.BaseDamage * 100]}% więcej obrażeń wrogom z pełnym zdrowiem.</string>
 	<string key="Passive_Bow_Hunter_DmgOnFirst" comment="BOW + PASSIVE">Atak z zaskoczenia</string>
-	<string key="Passive_Bow_Hunter_DmgOnFirst_description" comment="BOW + PASSIVE">Jeśli żaden wróg nie otrzymał od ciebie obrażeń w ciągu ostatnich {[Type_StatusEffectData.Status_Passive_Bow_Hunter_DmgOnFirst_Tracker.BaseDuration]} s, zadajesz {[BowAbilityTable.Passive_Bow_Hunter_DmgOnFirst.BaseDamage * 100]}% dodatkowych obrażeń.</string>
+	<string key="Passive_Bow_Hunter_DmgOnFirst_description" comment="BOW + PASSIVE">Zadajesz {[BowAbilityTable.Passive_Bow_Hunter_DmgOnFirst.BaseDamage * 100]}% dodatkowych obrażeń dowolnemu wrogowi pod warunkiem, że nie został przez ciebie zraniony w ciągu ostatnich {[Type_StatusEffectData.Status_Passive_Bow_Hunter_DmgOnFirst_Tracker.BaseDuration]} s.</string>
 	<string key="Passive_Bow_Hunter_Accuracy" comment="BOW + PASSIVE">Zasięg strzału</string>
 	<string key="Passive_Bow_Hunter_Accuracy_description" comment="BOW + PASSIVE">Zwiększa o 100% odległość, po której lecąca strzała zaczyna podlegać wpływowi grawitacji.</string>
 	<string key="Passive_Bow_Hunter_HealOnFive" comment="BOW + PASSIVE">Sokole oko</string>
@@ -138,7 +138,7 @@
 	<string key="Passive_Bow_Hunter_Crit" comment="BOW + PASSIVE">W dziesiątkę!</string>
 	<string key="Passive_Bow_Hunter_Crit_description" comment="BOW + PASSIVE">Zwiększa szansę na trafienie krytyczne z łuku o {[BowAbilityTable.Passive_Bow_Hunter_Crit.CritChance * 100]}%.</string>
 	<string key="Ultimate_Bow_Hunter" comment="BOW + PASSIVE">Wstrząśnienie mózgu</string>
-	<string key="Ultimate_Bow_Hunter_description" comment="BOW + PASSIVE">Gdy trafisz cel w głowę, zadasz o {[BowAbilityTable.Ultimate_Bow_Hunter.BaseDamage * 100]}% więcej obrażeń. Ponadto masz {[BowAbilityTable.Ultimate_Bow_Hunter.RefundAmmoPercentChance * 100]}% szans na odzyskanie strzały.</string>
+	<string key="Ultimate_Bow_Hunter_description" comment="BOW + PASSIVE">Gdy trafisz cel w głowę, zadasz o {[BowAbilityTable.Ultimate_Bow_Hunter.BaseDamage * 100]}% więcej obrażeń. Ponadto masz {[BowAbilityTable.Ultimate_Bow_Hunter_Refund.RefundAmmoPercentChance * 100]}% szans na odzyskanie strzały.</string>
 	<string key="Ability_Greataxe_Charge" comment="GREATAXE + ACTIVE">Szarża</string>
 	<string key="Ability_Greataxe_Charge_description" comment="GREATAXE + ACTIVE">Szarżujesz 10 m naprzód i zadajesz {[DamageTable.GreatAxe_Engage1.DmgCoef * 100]}% obrażeń od broni, gdy dotrzesz do celu. Naciśnij LPM, by przerwać szarżę i zaatakować wcześniej. \n\nTa umiejętność aktywuje determinację (determinacja chroni przed zachwianiem od otrzymywanych ciosów).</string>
 	<string key="Upgrade_Greataxe_Charge_DmgPerDistance" comment="GREATAXE + MOD">Wielki impet</string>
@@ -146,7 +146,7 @@
 	<string key="Upgrade_Greataxe_Charge_SwingAttack" comment="GREATAXE + MOD">Nieprzewidywalny cios</string>
 	<string key="Upgrade_Greataxe_Charge_SwingAttack_description" comment="GREATAXE + MOD">Podczas szarży możesz nacisnąć PPM, by wyprowadzić cios zadający {[DamageTable.GreatAxe_Engage_Swing1.DmgCoef * 100]}–{[DamageTable.GreatAxe_Engage_Swing3.DmgCoef * 100]}% obrażeń od broni w zależności od pokonanego dystansu.</string>
 	<string key="Ability_Greataxe_Reap" comment="GREATAXE + ACTIVE">Skoszenie</string>
-	<string key="Ability_Greataxe_Reap_description" comment="GREATAXE + ACTIVE">Wydłuża topór do 5 metrów, przyciągając wrogów do ciebie i zadając {[DamageTable.GreatAxe_JudgementsReach.DmgCoef * 100]}% obrażeń od broni. \n\nKompatybilne z klejnotem prowokacji: Jeśli w twoim toporze dwuręcznym jest osadzony karneol, ta zdolność wywołuje przy trafieniu prowokację trwającą {[DamageTable.GreatAxe_JudgementsReach.TauntDuration]} s (prowokacja sprawia, że potwory skupiają się tylko na tobie).</string>
+	<string key="Ability_Greataxe_Reap_description" comment="GREATAXE + ACTIVE">Wydłuża topór do 5 metrów, przyciągając wrogów do ciebie i zadając {[DamageTable.GreatAxe_JudgementsReach.DmgCoef * 100]}% obrażeń od broni. \n\nKompatybilne z klejnotem prowokacji: Jeśli w twoim toporze dwuręcznym jest osadzony karneol, ta zdolność wywołuje przy trafieniu prowokację trwającą {[DamageTable.GreatAxe_JudgementsReach.TauntDuration]} s. (prowokacja sprawia, że potwory skupiają się tylko na tobie).</string>
 	<string key="Upgrade_Greataxe_Reap_RngInc" comment="GREATAXE + MOD">Egzekutor</string>
 	<string key="Upgrade_Greataxe_Reap_RngInc_description" comment="GREATAXE + MOD">Zwiększa zasięg skoszenia do 8 metrów.</string>
 	<string key="Upgrade_Greataxe_Reap_Lifesteal" comment="GREATAXE + MOD">Głód</string>
@@ -176,7 +176,7 @@
 	<string key="Passive_Greataxe_Reaper_HealVsLowHP" comment="GREATAXE + PASSIVE">Pożywka</string>
 	<string key="Passive_Greataxe_Reaper_HealVsLowHP_description" comment="GREATAXE + PASSIVE">Ataki toporem dwuręcznym na wrogów mających mniej niż {[GreatAxeAbilityTable.Passive_Greataxe_Reaper_HealVsLowHP.TargetHealthPercent]}% zdrowia przywracają zdrowie w wysokości {[GreatAxeAbilityTable.Passive_Greataxe_Reaper_HealVsLowHP.DmgPctToHealth * 100]}% zadanych obrażeń.</string>
 	<string key="Ultimate_Greataxe_Reaper" comment="GREATAXE + PASSIVE">Żądza krwi</string>
-	<string key="Ultimate_Greataxe_Reaper_description" comment="GREATAXE + PASSIVE">Poruszasz się o {[Type_StatusEffectData.Status_Ultimate_Greataxe_Reaper.MoveSpeedMod * 100]}% szybciej i zadajesz o {[Type_StatusEffectData.Status_Ultimate_Greataxe_Reaper.DMGStandard * 100]}% więcej obrażeń, patrząc na wroga znajdującego się w promieniu {[SpellDataTable_GreatAxe.Spell_Ultimate_Greataxe_Reaper.Radius]} m.</string>
+	<string key="Ultimate_Greataxe_Reaper_description" comment="GREATAXE + PASSIVE">Poruszasz się o {[Type_StatusEffectData.Status_Ultimate_Greataxe_Reaper.MoveSpeedMod * 100]}% szybciej i zadajesz o {[Type_StatusEffectData.Status_Ultimate_Greataxe_Reaper.DMGStandard * 100]}% więcej obrażeń, patrząc na wroga znajdującego się w promieniu {[SpellDataTable_GreatAxe.Spell_Ultimate_Greataxe_Reaper.Length * 2]} m.</string>
 	<string key="Ability_Greataxe_Whirlwind" comment="GREATAXE + ACTIVE">Wir</string>
 	<string key="Ability_Greataxe_Whirlwind_description" comment="GREATAXE + ACTIVE">Atakujesz z obrotu wszystkich wrogów w pobliżu i zadajesz {[DamageTable.GreatAxe_Whirlwind.DmgCoef * 100]}% obrażeń od broni. Po trafieniu wroga następuje kolejny obrót (maks. 4 obroty). Podczas obrotu możesz się ruszać. Ten atak nie zadaje obrażeń od dźgnięć w plecy. Ten atak aktywuje determinację. \n\n(Determinacja chroni przed zachwianiem od otrzymywanych ciosów).</string>
 	<string key="Upgrade_Greataxe_Whirlwind_MoreSpins" comment="GREATAXE + MOD">Porywisty wiatr</string>
@@ -234,7 +234,7 @@
 	<string key="Upgrade_Lifestaff_SplashofLight_ManaOnLow" comment="LIFESTAFF + MOD">Wspólne ozdrowienie</string>
 	<string key="Upgrade_Lifestaff_SplashofLight_ManaOnLow_description" comment="LIFESTAFF + MOD">Za każdego uleczonego sojusznika mającego mniej niż 50% zdrowia zyskasz {[LifeMagicAbilityTable.Upgrade_Lifestaff_SplashofLight_ManaOnLow.Mana * 100]}% maks. poziomu many.</string>
 	<string key="Upgrade_Lifestaff_SplashofLight_RemoveDebuff" comment="LIFESTAFF + MOD">Puryfikacja</string>
-	<string key="Upgrade_Lifestaff_SplashofLight_RemoveDebuff_description" comment="LIFESTAFF + MOD">Ożywcza światłość usuwa 1 negatywny efekt.</string>
+	<string key="Upgrade_Lifestaff_SplashofLight_RemoveDebuff_description" comment="LIFESTAFF + MOD">Ożywcza światłość usuwa 1 negatywny efekt, gdy leczy sojusznika.</string>
 	<string key="Passive_Lifestaff_Healing_NoManaOnBasic" comment="LIFESTAFF + PASSIVE">Wyzwolenie</string>
 	<string key="Passive_Lifestaff_Healing_NoManaOnBasic_description" comment="LIFESTAFF + PASSIVE">Ataki lekkie i ciężkie laską życia nie zużywają many.</string>
 	<string key="Passive_Lifestaff_Healing_RemoveOnHeavy" comment="LIFESTAFF + PASSIVE">Laska, która krzepi</string>
@@ -306,7 +306,7 @@
 	<string key="Upgrade_Firestaff_MeteorShower_More" comment="FIRESTAFF + MOD">Wyrok Heliosa</string>
 	<string key="Upgrade_Firestaff_MeteorShower_More_description" comment="FIRESTAFF + MOD">Po pierwszym trafieniu wszystkie pozostałe trafienia zadają {[Type_StatusEffectData.Status_FireStaff_MeteorShower_DamageUpgrade.HealthModifierDamageBased * -100]}% obrażeń od broni.</string>
 	<string key="Ability_Firestaff_Fireball" comment="FIRESTAFF + ACTIVE">Kula ognia</string>
-	<string key="Ability_Firestaff_Fireball_description" comment="FIRESTAFF + ACTIVE">Wystrzeliwujesz ciężką kulę ognia, która zadaje {[DamageTable.Firestaff_Siege_AOE.DmgCoef * 100]}% obrażeń od broni przy trafieniu i zostawia za sobą płonące pole o promieniu 3 m, utrzymujące się przez 6 s. Płonące pole zadaje {[Type_StatusEffectData.Status_FireStaff_ScorchedEarth_DOT.HealthModifierDamageBased * -100]}% obrażeń od broni co sekundę. Ta zdolność nie zadaje trafień krytycznych.\n\nKoszt: {[ManaCosts_Player.48.ManaCost]} many.</string>
+	<string key="Ability_Firestaff_Fireball_description" comment="FIRESTAFF + ACTIVE">Wystrzeliwujesz ciężką kulę ognia, która zadaje {[DamageTable.Firestaff_Siege_AOE.DmgCoef * 100]}% obrażeń od broni przy trafieniu i zostawia za sobą płonące pole o promieniu 3 m, utrzymujące się przez 6 s. Płonące pole zadaje {[Type_StatusEffectData.Status_FireStaff_ScorchedEarth_DOT.HealthModifierDamageBased * -100]}% obrażeń od broni co sekundę. \n\nKoszt: {[ManaCosts_Player.48.ManaCost]} many.</string>
 	<string key="Upgrade_Firestaff_Fireball_Dur" comment="FIRESTAFF + MOD">Osmalona ziemia</string>
 	<string key="Upgrade_Firestaff_Fireball_Dur_description" comment="FIRESTAFF + MOD">Płonące pole pozostawione przez kulę ognia utrzymuje się przez 9 s.</string>
 	<string key="Upgrade_Firestaff_Fireball_Mana" comment="FIRESTAFF + MOD">Łap!</string>
@@ -825,7 +825,7 @@
 	<string key="Spear_BonusDmgVsDebuff" comment="SPEAR + PASSIVE">Słaby punkt</string>
 	<string key="Spear_BonusDmgVsDebuff_description" comment="SPEAR + PASSIVE">Zadaje {[SpearAbilityTable.Ability_Spear_BonusDmgVsDebuff.BaseDamage * 100]}% dodatkowych obrażeń za każdy negatywny efekt działający na cel (maks. 30%).</string>
 	<string key="Rapier_01" comment="RAPIER + ACTIVE">Tondo</string>
-	<string key="Rapier_01_description" comment="RAPIER + ACTIVE">Cięcie tak szybkie, że zwiększa zasięg twojego ostrza do 5 metrów. Cios zadaje {[DamageTable.1H_Rapier_Slash.DmgCoef * 100]}% obrażeń od broni i powoduje krwawienie, które zadaje dodatkowe 85% obrażeń od broni przez {[Type_StatusEffectData.Rapier_Bleed_DOT.BaseDuration]} s. Krwawienie kumuluje się do 3 razy i jest odświeżane przy każdym kolejnym nałożeniu.</string>
+	<string key="Rapier_01_description" comment="RAPIER + ACTIVE">Cięcie tak szybkie, że zwiększa zasięg twojego ostrza do 5 metrów. Ten cios zadaje {[DamageTable.1H_Rapier_Slash.DmgCoef * 100]}% obrażeń od broni i wywołuje krwawienie zadające dodatkowe {[Type_StatusEffectData.Rapier_Bleed_DOT.HealthModifierDamageBased * -100]}% obrażeń od broni na sekundę przez {[Type_StatusEffectData.Rapier_Bleed_DOT.BaseDuration]} s. Krwawienie kumuluje się do 3 razy i jest odświeżane przy każdym kolejnym nałożeniu.</string>
 	<string key="Rapier_01_Mod1" comment="RAPIER + MOD">Pragnienie krwi</string>
 	<string key="Rapier_01_Mod1_description" comment="RAPIER + MOD">Pierwsze wywołanie u wroga krwawienia skraca czas odnowienia tonda o {[RapierAbilityTable.Rapier_Slash_Mod1.cooldownTimer * -100]}%.</string>
 	<string key="Rapier_01_Mod2" comment="RAPIER + MOD">Jeszcze raz</string>
@@ -901,79 +901,79 @@
 	<string key="Rapier_BonusDMGAfterAbility" comment="RAPIER + PASSIVE">Rozpęd</string>
 	<string key="Rapier_BonusDMGAfterAbility_description" comment="RAPIER + PASSIVE">Gdy użyjesz dowolnej zdolności, twój następny atak lekki lub ciężki zada o {[RapierAbilityTable.Rapier_BonusDMGAfterAbility.BaseDamage * 100]}% więcej obrażeń. Efekt ten znika po trafieniu przeciwnika lub po upływie {[Type_StatusEffectData.Rapier_BonusDMGAfterAbility.BaseDuration]} s.</string>
 	<string key="IceSpikes" comment="ICEMAGIC + ACTIVE">Lodowe kolce</string>
-	<string key="IceSpikes_description" comment="ICEMAGIC + ACTIVE">Tworzy szereg kolców, który ciągnie się od gracza w linii prostej przez 8 m, zadając {[DamageTable.IceMagic_Spikes.DmgCoef * 100]}% obrażeń od broni. Kończy się on potężnym kolcem zadającym {[DamageTable.IceMagic_Spikes_End.DmgCoef * 100]}% obrażeń od broni i odpychającym cele. Wykonanie ataku lekkiego w trakcie wywoła potężny kolec wcześniej.\n\nKoszt: 15 many.</string>
+	<string key="IceSpikes_description" comment="ICEMAGIC + ACTIVE">Tworzy szereg kolców, który ciągnie się od gracza w linii prostej przez 8 m, zadając {[DamageTable.IceMagic_Spikes.DmgCoef * 100]}% obrażeń od broni. Kończy się on potężnym kolcem zadającym {[DamageTable.IceMagic_Spikes_End.DmgCoef * 100]}% obrażeń od broni i odpychającym cele. Wykonanie ataku lekkiego w trakcie wywoła potężny kolec wcześniej.\n\nKoszt: {[ManaCosts_Player.60.ManaCost]} many.</string>
 	<string key="RefreshingSpikes" comment="ICEMAGIC + MOD">Odświeżające kolce</string>
-	<string key="RefreshingSpikes_description" comment="ICEMAGIC + MOD">Czas odnowienia tej umiejętności jest skracany o 10%, gdy wróg zostanie trafiony potężnym kolcem.</string>
+	<string key="RefreshingSpikes_description" comment="ICEMAGIC + MOD">Czas odnowienia tej umiejętności jest skracany o {[IceMagicAbilityTable.SpikesRefreshingSpikes.CooldownTimer * -100]}%, gdy wróg zostanie trafiony potężnym kolcem.</string>
 	<string key="EmpoweredSpikes" comment="ICEMAGIC + MOD">Nasączone mocą kolce</string>
-	<string key="EmpoweredSpikes_description" comment="ICEMAGIC + MOD">Potężny kolec zadaje o 20% więcej obrażeń, gdy trafi wroga mającego mniej niż 30% zdrowia.</string>
+	<string key="EmpoweredSpikes_description" comment="ICEMAGIC + MOD">Potężny kolec zadaje o {[IceMagicAbilityTable.SpikesEmpoweredSpikes.BaseDamage * 100]}% więcej obrażeń, gdy trafi wroga mającego mniej niż {[IceMagicAbilityTable.SpikesEmpoweredSpikes.TargetHealthPercent]}% zdrowia.</string>
 	<string key="DeadlyPath" comment="ICEMAGIC + MOD">Ścieżka śmierci</string>
 	<string key="DeadlyPath_description" comment="ICEMAGIC + MOD">Szereg kolców zadaje o 10% więcej obrażeń i wywołuje zachwianie u celów. Nie zwiększa obrażeń zadawanych przez potężny kolec.</string>
 	<string key="SpikyReach" comment="ICEMAGIC + MOD">Kolczasty zasięg</string>
 	<string key="SpikyReach_description" comment="ICEMAGIC + MOD">Po bokach potężnego kolca pojawiają się dodatkowe lodowe odłamki, które umożliwiają rażenie wrogów na większym obszarze. Każdy odłamek ma zasięg 6 m i zadaje {[DamageTable.IceMagic_Spike_Reach.DmgCoef * 100]}% obrażeń od broni.</string>
 	<string key="IceStorm" comment="ICEMAGIC + ACTIVE">Burza lodowa</string>
-	<string key="IceStorm_description" comment="ICEMAGIC + ACTIVE">Wywołujesz na obszarze docelowym burzę o promieniu 5 m, zadającą {[DamageTable.IceMagic_IceStorm.DmgCoef * 100]}% obrażeń od broni co 0,33 s przez 5 s. Burza tworzy też zamarznięty obszar spowalniający wrogów o 25% (spowolnienie zmniejsza szybkość ruchu celu).\n\nKoszt: 25 many.</string>
+	<string key="IceStorm_description" comment="ICEMAGIC + ACTIVE">Wywołujesz na obszarze docelowym burzę o promieniu 5 m, zadającą {[DamageTable.IceMagic_IceStorm.DmgCoef * 100]}% obrażeń od broni co {[Type_StatusEffectData.IceMagic_IceStorm.TickRate]} s przez 5 s. Burza tworzy też zamarznięty obszar spowalniający wrogów o {[Type_StatusEffectData.IceMagic_IceStorm.MoveSpeedMod * -100]}% (spowolnienie zmniejsza szybkość ruchu celu).\n\nKoszt: {[ManaCosts_Player.61.ManaCost]} many.</string>
 	<string key="WeakeningGust" comment="ICEMAGIC + MOD">Osłabiający podmuch</string>
-	<string key="WeakeningGust_description" comment="ICEMAGIC + MOD">Ogarnięci burzą lodową wrogowie, którzy mają mniej niż 50% zdrowia, otrzymują o 10% więcej obrażeń przez 3 s.</string>
+	<string key="WeakeningGust_description" comment="ICEMAGIC + MOD">Ogarnięci burzą lodową wrogowie, którzy mają mniej niż {[IceMagicAbilityTable.IceStormWeakeningGust.TargetHealthPercent]}% zdrowia, otrzymują o {[Type_StatusEffectData.IceMagic_IceStorm_Weaken.WKNStandard * 100]}% więcej obrażeń przez {[Type_StatusEffectData.IceMagic_IceStorm_Weaken.BaseDuration]} s.</string>
 	<string key="StormSummoner" comment="ICEMAGIC + MOD">Przywoływacz burzy</string>
 	<string key="StormSummoner_description" comment="ICEMAGIC + MOD">Jeśli masz pełną manę, burza lodowa kosztuje 80% mniej.</string>
 	<string key="PunishingStorm" comment="ICEMAGIC + MOD">Karząca burza</string>
-	<string key="PunishingStorm_description" comment="ICEMAGIC + MOD">Zwiększa zadawane obrażenia o 10% za każdego wroga ogarniętego burzą lodową.</string>
+	<string key="PunishingStorm_description" comment="ICEMAGIC + MOD">Zwiększa zadawane obrażenia o {[IceMagicAbilityTable.IceStormPunishingStorm.BaseDamage * 100]}% za każdego wroga ogarniętego burzą lodową.</string>
 	<string key="WindChill" comment="ICEMAGIC + ACTIVE">Mroźny podmuch</string>
-	<string key="WindChill_description" comment="ICEMAGIC + ACTIVE">Wyrzuca słup mroźnego powietrza, który odpycha wrogów na 5 m, zadając im {[DamageTable.IceMagic_WindChill.DmgCoef * 100]}% obrażeń od broni za każde trafienie. Mroźny podmuch ma łącznie 7 m zasięgu – na ostatnich 2 m zadaje o 20% większe obrażenia, ale nie odpycha wrogów.\nPodczas ataku gracz może się poruszać.\n\nKoszt: 20 many.</string>
+	<string key="WindChill_description" comment="ICEMAGIC + ACTIVE">Wyrzuca słup mroźnego powietrza, który odpycha wrogów na 5 m, zadając im {[DamageTable.IceMagic_WindChill.DmgCoef * 100]}% obrażeń od broni za każde trafienie. Mroźny podmuch ma łącznie 7 m zasięgu – na ostatnich 2 m zadaje o 20% więcej obrażeń, ale nie odpycha wrogów.\nPodczas ataku gracz może się poruszać.\n\nKoszt: {[ManaCosts_Player.63.ManaCost]} many.</string>
 	<string key="EnduringChill" comment="ICEMAGIC + MOD">Uporczywy chłód</string>
 	<string key="EnduringChill_description" comment="ICEMAGIC + MOD">Wydłuża czas trwania mroźnego podmuchu o 1 s.</string>
 	<string key="Shatter" comment="ICEMAGIC + MOD">Mroźny poryw</string>
-	<string key="Shatter_description" comment="ICEMAGIC + MOD">Zwiększa obrażenia na ostatnich 2 m mroźnego podmuchu o 25%.</string>
+	<string key="Shatter_description" comment="ICEMAGIC + MOD">Zwiększa obrażenia na ostatnich 2 m mroźnego podmuchu o {[IceMagicAbilityTable.WindChillShatter.BaseDamage * 100]}%.</string>
 	<string key="IceTempestPass1" comment="ICEMAGIC + PASSIVE">Mroźny dystans</string>
-	<string key="IceTempestPass1_description" comment="ICEMAGIC + PASSIVE">Zwiększa obrażenia ataków lekkich i ciężkich o 15%, jeśli cel znajduje się więcej niż 15 m od ciebie.</string>
+	<string key="IceTempestPass1_description" comment="ICEMAGIC + PASSIVE">Zwiększa obrażenia ataków lekkich i ciężkich o {[IceMagicAbilityTable.IceTempestPass1.BaseDamage * 100]}%, jeśli cel znajduje się więcej niż {[IceMagicAbilityTable.IceTempestPass1.DistFromDefender]} m od ciebie.</string>
 	<string key="IceTempestPass2" comment="ICEMAGIC + PASSIVE">Krytyczne orzeźwienie</string>
-	<string key="IceTempestPass2_description" comment="ICEMAGIC + PASSIVE">Daje 15 many przy trafieniu krytycznym.</string>
+	<string key="IceTempestPass2_description" comment="ICEMAGIC + PASSIVE">Trafienie krytyczne zapewnia {[IceMagicAbilityTable.IceTempestPass2.Mana * 100]} pkt many.</string>
 	<string key="IceTempestPass3" comment="ICEMAGIC + PASSIVE">Energetyczny krytyk</string>
 	<string key="IceTempestPass3_description" comment="ICEMAGIC + PASSIVE">Zwiększa obrażenia krytyczne zdolności lodowej rękawicy o {[IceMagicAbilityTable.IceTempestPass3.CritDamage * 100]}% przy pełnej wytrzymałości.</string>
 	<string key="IceTempestPass4" comment="ICEMAGIC + PASSIVE">Nadciągająca burza</string>
-	<string key="IceTempestPass4_description" comment="ICEMAGIC + PASSIVE">Daje 15 many po trafieniu trzema atakami lekkimi z rzędu.</string>
+	<string key="IceTempestPass4_description" comment="ICEMAGIC + PASSIVE">Po {[IceMagicAbilityTable.IceTempestPass4.NumConsecutiveHits]} atakach lekkich z rzędu zyskujesz {[IceMagicAbilityTable.IceTempestPass4.Mana * 100]} pkt many.</string>
 	<string key="IceTempestPass5" comment="ICEMAGIC + PASSIVE">Krytyczne mrożenie</string>
 	<string key="IceTempestPass5_description" comment="ICEMAGIC + PASSIVE">Zwiększa o {[IceMagicAbilityTable.IceTempestPass5.CritChance * 100]}% szansę na trafienie krytyczne przy trafieniu wroga, który znajduje się na zamrożonym obszarze lub na którego działa efekt odmrożenia.</string>
 	<string key="IceTempestPass6" comment="ICEMAGIC + PASSIVE">Głębokie mrożenie</string>
-	<string key="IceTempestPass6_description" comment="ICEMAGIC + PASSIVE">Ciężki atak uziemi cel trafiony w obrębie burzy lodowej lub będący pod działaniem efektu odmrożenia. Uziemienie trwa 1 sekundę, a jego czas odnowienia wynosi 5 s.</string>
+	<string key="IceTempestPass6_description" comment="ICEMAGIC + PASSIVE">Ciężki atak uziemi cel trafiony w obrębie burzy lodowej lub będący pod działaniem efektu odmrożenia. Uziemienie trwa {[Type_StatusEffectData.IceMagic_Freeze.BaseDuration]} s, a jego czas odnowienia wynosi {[Type_StatusEffectData.IceMagic_Freeze_Cooldown.BaseDuration]} s od końca poprzedniego uziemienia.</string>
 	<string key="IceTempestUltimate" comment="ICEMAGIC + PASSIVE">Ostateczny chłód</string>
-	<string key="IceTempestUltimate_description" comment="ICEMAGIC + PASSIVE">Zdolności lodowej rękawicy zamrażają cel, zwiększając zadawane mu obrażenia od lodu o {[Type_StatusEffectData.IceMagic_UltimateChill.WKNIce * 100]}% na 3 s.</string>
+	<string key="IceTempestUltimate_description" comment="ICEMAGIC + PASSIVE">Umiejętności lodowej rękawicy zamrażają cel, zwiększając zadawane mu obrażenia od lodu o {[Type_StatusEffectData.IceMagic_UltimateChill.WKNIce * 100]}% na {[Type_StatusEffectData.IceMagic_UltimateChill.BaseDuration]} s.</string>
 	<string key="IcePylon" comment="ICEMAGIC + ACTIVE">Lodowy pylon</string>
-	<string key="IcePylon_description" comment="ICEMAGIC + ACTIVE">Umieszcza pylon strzelający lodowymi pociskami do wrogów w promieniu 20 m. Przy trafieniu pociski zadają {[DamageTable.IceMagic_Pylon.DmgCoef * 100]}% obrażeń od broni. Lodowy pylon tworzy wokół siebie zamarznięty obszar o promieniu 1 m i istnieje przez 15 s lub do zniszczenia.\n\nKoszt: 15 many.</string>
+	<string key="IcePylon_description" comment="ICEMAGIC + ACTIVE">Umieszcza pylon strzelający lodowymi pociskami do wrogów w promieniu 20 m. Przy trafieniu pociski zadają {[DamageTable.IceMagic_Pylon.DmgCoef * 100]}% obrażeń od broni. Lodowy pylon tworzy wokół siebie zamarznięty obszar o promieniu 1 m i istnieje przez 15 s lub do zniszczenia.\n\nKoszt: {[ManaCosts_Player.67.ManaCost]} many.</string>
 	<string key="GreaterPylon" comment="ICEMAGIC + MOD">Większy pylon</string>
-	<string key="GreaterPylon_description" comment="ICEMAGIC + MOD">O 10% zwiększa obrażenia zadawane przez lodowy pylon spowolnionym celom.</string>
+	<string key="GreaterPylon_description" comment="ICEMAGIC + MOD">O {[IceMagicAbilityTable.IcePylonGreaterPylon.BaseDamage * 100]}% zwiększa obrażenia zadawane przez lodowy pylon spowolnionym celom.</string>
 	<string key="PylonRegen" comment="ICEMAGIC + MOD">Regeneracja pylonu</string>
-	<string key="PylonRegen_description" comment="ICEMAGIC + MOD">Lodowy pylon odzyska pełne zdrowie po 5 s od otrzymania ostatnich obrażeń.</string>
+	<string key="PylonRegen_description" comment="ICEMAGIC + MOD">Lodowy pylon odzyska pełne zdrowie po {[Type_StatusEffectData.IceMagic_PylonRefresh.BaseDuration]} s od otrzymania ostatnich obrażeń.</string>
 	<string key="PylonDodge" comment="ICEMAGIC + MOD">Unikalna więź</string>
 	<string key="PylonDodge_description" comment="ICEMAGIC + MOD">Wykonanie zwiększa szybkostrzelność lodowego pylonu na 3 s.</string>
 	<string key="PylonRefresh" comment="ICEMAGIC + PASSIVE">Odnowa pylonu</string>
-	<string key="PylonRefresh_description" comment="ICEMAGIC + PASSIVE">Trafienie atakiem lodowego pylonu wydłuża czas jego istnienia o sekundę (maks. do 45 s).</string>
+	<string key="PylonRefresh_description" comment="ICEMAGIC + PASSIVE">Trafienie atakiem lodowego pylonu wydłuża czas jego istnienia o sekundę (maks. {[Type_StatusEffectData.IceMagic_PylonCooldownSafety.BaseDuration]} s).</string>
 	<string key="IceShower" comment="ICEMAGIC + ACTIVE">Lodowy prysznic</string>
-	<string key="IceShower_description" comment="ICEMAGIC + ACTIVE">Przywołuje lodowy prysznic tworzący zamrożony obszar o wymiarach 1 na 5 metrów, trwający przez 4 s. Na wrogów, którzy wejdą na ten obszar, zostanie nałożony potężny efekt odmrożenia. Odmrożenie uziemia na 1 s, uniemożliwia bieganie i wykonywanie uników, zmniejsza szybkość ruchu o 50% i będzie działać na cel przez 3 sekundy po opuszczeniu obszaru lodowego prysznica.\n\nKoszt: 25 many.</string>
+	<string key="IceShower_description" comment="ICEMAGIC + ACTIVE">Przywołuje lodowy prysznic tworzący zamrożony obszar o wymiarach 1 na 5 metrów, trwający przez 4 s. Na wrogów, którzy wejdą na ten obszar, zostanie nałożony potężny efekt odmrożenia. Odmrożenie uziemia na {[Type_StatusEffectData.IceMagic_IceShower_Freeze.BaseDuration]} s, uniemożliwia bieganie i wykonywanie uników, zmniejsza szybkość ruchu o {[Type_StatusEffectData.IceMagic_Frostbite.MoveSpeedMod * -100]}% i będzie działać na cel przez {[Type_StatusEffectData.IceMagic_Frostbite_Dur3.BaseDuration]} s po opuszczeniu obszaru lodowego prysznica.\n\nKoszt: {[ManaCosts_Player.66.ManaCost]} many.</string>
 	<string key="EnduringShower" comment="ICEMAGIC + MOD">Długi prysznic</string>
 	<string key="EnduringShower_description" comment="ICEMAGIC + MOD">Wydłuża czas trwania lodowego prysznica do 7 s.</string>
 	<string key="QuickShower" comment="ICEMAGIC + MOD">Szybki prysznic</string>
-	<string key="QuickShower_description" comment="ICEMAGIC + MOD">Gdy dowolny sojusznik – łącznie z tobą – znajdzie się w obrębie lodowego prysznica, zyska 25% do szybkości ruchu na 2 s.</string>
+	<string key="QuickShower_description" comment="ICEMAGIC + MOD">Gdy dowolny sojusznik – łącznie z tobą – znajdzie się w obrębie lodowego prysznica, zyska {[Type_StatusEffectData.IceMagic_QuickShower_Dur2.MoveSpeedMod * 100]}% do szybkości ruchu na {[Type_StatusEffectData.IceMagic_QuickShower_Dur2.BaseDuration]} s.</string>
 	<string key="ShowerSlush" comment="ICEMAGIC + MOD">Polarny prysznic</string>
-	<string key="ShowerSlush_description" comment="ICEMAGIC + MOD">Odmrożenie nakłada na cel efekt rozdarcia, zmniejszając jego obronę o 10%.</string>
+	<string key="ShowerSlush_description" comment="ICEMAGIC + MOD">Odmrożenie nakłada na cel efekt rozdarcia, zmniejszając jego obronę o {[Type_StatusEffectData.IceMagic_Frostbite_Rend.ABSStandard * -100]}%.</string>
 	<string key="Entombed" comment="ICEMAGIC + ACTIVE">Pogrzebanie</string>
-	<string key="Entombed_description" comment="ICEMAGIC + ACTIVE">Gracz może pogrzebać się w lodzie, by zyskać nietykalność i znacznie zwiększyć szybkość regeneracji many. Grobowiec istnieje przez 10 s, ale może zostać zniszczony wcześniej. Wykonaj blok, aby wyjść normalnie z grobowca, lub wykonaj atak lekki, aby wyjść z odrzuceniem zadającym obrażenia i kosztującym 20 many.\n\nKoszt: 0 many.</string>
+	<string key="Entombed_description" comment="ICEMAGIC + ACTIVE">Gracz może pogrzebać się w lodzie, by zyskać nietykalność i znacznie zwiększyć szybkość regeneracji many. Grobowiec istnieje przez 10 s, ale może zostać zniszczony wcześniej. Wykonaj blok, aby wyjść normalnie z grobowca, lub wykonaj atak lekki, aby wyjść z odrzuceniem zadającym obrażenia i kosztującym {[ManaCosts_Player.65.ManaCost]} many.\n\nKoszt: {[ManaCosts_Player.64.ManaCost]} many.</string>
 	<string key="StrengthenedTomb" comment="ICEMAGIC + MOD">Wzmocniony sarkofag</string>
-	<string key="StrengthenedTomb_description" comment="ICEMAGIC + MOD">Zwiększa obronę po wyrwaniu się z lodowego grobowca o 25% na 3 s.</string>
+	<string key="StrengthenedTomb_description" comment="ICEMAGIC + MOD">Zwiększa obronę po wyrwaniu się z lodowego grobowca o {[Type_StatusEffectData.IceMagic_StrengthenedTomb.ABSStandard * 100]}% na {[Type_StatusEffectData.IceMagic_StrengthenedTomb.BaseDuration]} s.</string>
 	<string key="CleansingTomb" comment="ICEMAGIC + MOD">Oczyszczający grobowiec</string>
 	<string key="CleansingTomb_description" comment="ICEMAGIC + MOD">Aktywowanie pogrzebania usuwa wszystkie negatywne efekty.</string>
 	<string key="IceConjurorPass1" comment="ICEMAGIC + PASSIVE">Rezerwa wytrzymałości</string>
-	<string key="IceConjurorPass1_description" comment="ICEMAGIC + PASSIVE">Blokowanie ataku lodową rękawicą przekształca manę w wytrzymałość. Zamienia 3 punkty many na 15 punktów wytrzymałości.</string>
+	<string key="IceConjurorPass1_description" comment="ICEMAGIC + PASSIVE">Blokowanie ataku lodową rękawicą przekształca manę w wytrzymałość. Przekształca {[Type_StatusEffectData.IceMagic_BlockingStamina.Mana * -1]} pkt many w {[Type_StatusEffectData.IceMagic_BlockingStamina.Stamina]} pkt wytrzymałości.</string>
 	<string key="IceConjurorPass2" comment="ICEMAGIC + PASSIVE">Mroźny pęd</string>
-	<string key="IceConjurorPass2_description" comment="ICEMAGIC + PASSIVE">Zwiększa szybkość ruchu o 10%, gdy przebywasz na zamrożonym obszarze.</string>
+	<string key="IceConjurorPass2_description" comment="ICEMAGIC + PASSIVE">Zwiększa szybkość ruchu o {[Type_StatusEffectData.IceMagic_QuickFrost.MoveSpeedMod * 100]}%, gdy przebywasz na zamrożonym obszarze.</string>
 	<string key="IceConjurorPass3" comment="ICEMAGIC + PASSIVE">Nasączony mocą mróz</string>
-	<string key="IceConjurorPass3_description" comment="ICEMAGIC + PASSIVE">Przebywając na zamrożonym obszarze, zyskasz 3 punkty many za każde rzucone zaklęcie.</string>
+	<string key="IceConjurorPass3_description" comment="ICEMAGIC + PASSIVE">Przebywając na zamrożonym obszarze, zyskasz {[Type_StatusEffectData.IceMagic_EmpoweredFrost.Mana]} pkt many za każde rzucone zaklęcie.</string>
 	<string key="IceConjurorPass4" comment="ICEMAGIC + PASSIVE">Mroźny dotyk</string>
-	<string key="IceConjurorPass4_description" comment="ICEMAGIC + PASSIVE">Gdy masz pełne zdrowie i wróg trafi cię atakiem wręcz, spowolnisz go o 25% na 2 s (spowolnienie zmniejsza szybkość ruchu celu).</string>
+	<string key="IceConjurorPass4_description" comment="ICEMAGIC + PASSIVE">Gdy masz {[IceMagicAbilityTable.IceConjurorPass4.MyHealthPercent]}% zdrowia i wróg trafi cię atakiem wręcz, spowolnisz go o {[Type_StatusEffectData.IceMagic_FrozenTouch.MoveSpeedMod * -100]}% na {[Type_StatusEffectData.IceMagic_FrozenTouch.BaseDuration]} s (spowolnienie zmniejsza szybkość ruchu celu).</string>
 	<string key="IceConjurorPass5" comment="ICEMAGIC + PASSIVE">Rześki chłód</string>
-	<string key="IceConjurorPass5_description" comment="ICEMAGIC + PASSIVE">Gdy aktywujesz zdolność, przebywając na zamrożonym obszarze, wszystkie aktywne czasy odnowienia zdolności lodowej rękawicy zostaną skrócone o 20%.</string>
+	<string key="IceConjurorPass5_description" comment="ICEMAGIC + PASSIVE">Gdy aktywujesz umiejętność, przebywając na zamrożonym obszarze, wszystkie aktywne czasy odnowienia umiejętności lodowej rękawicy zostaną skrócone o {[IceMagicAbilityTable.IceConjurorPass5.CooldownTimer * -100]}%.</string>
 	<string key="IceConjurorPass6" comment="ICEMAGIC + PASSIVE">Lodowa bariera</string>
-	<string key="IceConjurorPass6_description" comment="ICEMAGIC + PASSIVE">Aktywowanie zdolności lodowej rękawicy stworzy lodową barierę zapewniającą 20% do umocnienia na 2 s (umocnienie zmniejsza otrzymywane obrażenia).</string>
+	<string key="IceConjurorPass6_description" comment="ICEMAGIC + PASSIVE">Aktywowanie umiejętności lodowej rękawicy stworzy lodową barierę zapewniającą {[Type_StatusEffectData.IceMagic_DefiantFreeze.ABSStandard * 100]}% do umocnienia na {[Type_StatusEffectData.IceMagic_DefiantFreeze.BaseDuration]} s (umocnienie zmniejsza otrzymywane obrażenia).</string>
 	<string key="IceConjurorUltimate" comment="ICEMAGIC + PASSIVE">Ostateczny mróz</string>
 	<string key="IceConjurorUltimate_description" comment="ICEMAGIC + PASSIVE">Podwaja zdrowie lodowego pylonu i powiększa promień zamrożonego obszaru wokół pylonu do 5 m. W tej strefie premie mroźnego pędu i nasączonego mocą mrozu są podwojone.</string>
 </resources>

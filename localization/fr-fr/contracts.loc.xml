@@ -75,6 +75,7 @@
 	<string key="ui_selectallouposts">Toutes colonies</string>
 	<string key="ui_currentsellers">Ordres de vente actuels</string>
 	<string key="ui_currentbuyers">Ordres d'achat actuels</string>
+	<string key="ui_store_item_cooldown_desc">&lt;font color="#ffdb7a"&gt;Une fois cet article acheté, vous devez attendre {cooldownDuraction} pour l'acheter à nouveau.&lt;/font&gt;</string>
 	<string key="ui_postordererror_outpostfull">Achat impossible : place insuffisante dans votre avant-poste.</string>
 	<string key="ui_postordererror_outpostfull_button">PLACE INSUFFISANTE À L'AVANT-POSTE</string>
 	<string key="ui_postordererror_buy_notenoughmoney">Fonds insuffisants pour placer un ordre d'achat.</string>
@@ -116,6 +117,7 @@
 	<string key="ui_contract_failure_throttled">Requête ralentie. Veuillez réessayer plus tard.</string>
 	<string key="ui_contract_failure_coin_transferal_disabled">Transfert de pièces désactivé.</string>
 	<string key="ui_contract_failure_trading_post_disabled">Comptoir désactivé.</string>
+	<string key="ui_contract_failure_cooldown">Achat possible dans : {cooldownTime} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" xPadding="0" scale="1.1" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="ui_contract_failure_generic">Une erreur s'est produite. Veuillez réessayer.</string>
 	<string key="ui_sell_instant_price">Prix de vente instantanée</string>
 	<string key="ui_buy_instant_price">Prix d'achat instantané</string>
