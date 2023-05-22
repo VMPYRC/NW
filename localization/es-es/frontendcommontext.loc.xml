@@ -15,15 +15,19 @@
 	<string key="mm_serversavailable">{numServers} mundos disponibles</string>
 	<string key="mm_serverunavailable">No hay ningún mundo disponible</string>
 	<string key="mm_serverdown">Mundo en mantenimiento</string>
+	<string key="mm_serveristransfer">Transfiriendo</string>
 	<string key="mm_serverdisabled">Mundo desactivado</string>
 	<string key="mm_defaultworldname">Mundo nuevo</string>
 	<string key="mm_defaultworlddesc">Sin descripción</string>
 	<string key="mm_defaultworldmotd">Sin mensaje del día</string>
+	<string key="mm_defaultclustername">Ninguna región</string>
 	<string key="ui_banned">Prohibido</string>
 	<string key="mm_loginerrortitle">Error de inicio de sesión</string>
 	<string key="mm_connectionfailed">Fallo en la conexión</string>
 	<string key="mm_error_code">Código de error:</string>
 	<string key="mm_waitingtotransfer" rel_version="Feature_MTX">Esperando para transferir a\n{worldName}</string>
+	<string key="mm_transferworldname" rel_version="Feature_MTX">Transferir a {regionName}</string>
+	<string key="mm_transferinitiated" rel_version="Feature_MTX">Transferencia de región iniciada</string>
 	<string key="ui_open_governors_desk">Abrir el escritorio del gobernador</string>
 	<string key="mm_disconnected">Desconectado del servidor. Volviendo a conectar...</string>
 	<string key="mm_retriesfailed">Los intentos de reconexión se han agotado. Inténtalo de nuevo más adelante.</string>
@@ -137,6 +141,7 @@
 	<string key="mm_csdkerr_invalid_endpoint">Dirección del servidor no válida</string>
 	<string key="mm_csdkerr_connection_failed">La conexión del servidor ha fallado.</string>
 	<string key="mm_csdkerr_transport_version_mismatch">El servidor está usando una versión de la red incompatible. Actualiza el juego y vuelve a intentarlo.</string>
+	<string key="mm_csdkerr_transport_security_error">No se ha podido realizar una conexión segura. Reinicia o actualiza el juego y vuelve a intentarlo.</string>
 	<string key="mm_csdkerr_registration_failed">No se ha podido conectar con el servidor</string>
 	<string key="mm_csdkerr_registration_unmarshal_error">Error de datos del servidor. Busca un parche.</string>
 	<string key="mm_csdkerr_disconnect">Desconexión inesperada del servidor. Reconectando...</string>
@@ -167,6 +172,7 @@
 	<string key="mm_rejected_Grid_Too_Busy">Error del servidor: La región está demasiado llena, inténtalo de nuevo más tarde.</string>
 	<string key="mm_rejected_No_Ghost_Client">Error del servidor: no se ha podido iniciar la replicación.</string>
 	<string key="mm_rejected_Server_Crash">Se perdió el contacto de forma inesperada con el servidor. Inténtalo de nuevo más adelante.</string>
+	<string key="mm_rejected_Free_Session_Expired">Se ha agotado el tiempo para jugar gratuitamente.</string>
 	<string key="mm_rejected_Client_Kicked_Title">Expulsado</string>
 	<string key="mm_rejected_Client_Kicked_NoMessage">Se te ha expulsado del juego.</string>
 	<string key="mm_rejected_Client_Kicked_AFK">Se te ha expulsado del juego por estar demasiado tiempo ausente.</string>
@@ -191,6 +197,7 @@
 	<string key="mm_rejected_Client_Kicked_BannedCSLockout">Tu cuenta está bloqueada ahora mismo. Ponte en contacto con atención al cliente para obtener más información.</string>
 	<string key="mm_rejected_Client_Kicked_CSLockout">Tu cuenta está bloqueada ahora mismo. Ponte en contacto con atención al cliente para obtener más información.</string>
 	<string key="mm_rejected_Client_Kicked_BannedCommerce">Error de pago</string>
+	<string key="mm_rejected_Client_Kicked_Embargoed_Country">No podemos proporcionarte acceso desde tu ubicación actual.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Se te ha expulsado del juego.</string>
 	<string key="mm_authresult_Authorized">Éxito</string>
 	<string key="mm_characterCreateDisabled">Este mundo está lleno, por lo que la creación de personajes se ha deshabilitado temporalmente. Inténtalo en otro mundo.</string>
@@ -211,11 +218,13 @@
 	<string key="mm_authresult_Denied_LoginTokenWrongHost">Se te ha dirigido al servidor equivocado. Inténtalo de nuevo.</string>
 	<string key="mm_authresult_Denied_EasyAntiCheatFailure">Error en la configuración de EAC. Dirígete al sitio de la comunidad de New World para ver más información: https://forums.newworld.com</string>
 	<string key="mm_authresult_Error_InvalidSetup">Configuración de autenticación no válida.</string>
+	<string key="mm_authresult_Error_Jwt_Persona">Respuesta no válida de los servicios de inicio de sesión al obtener las credenciales.</string>
 	<string key="mm_authresult_Error_Persona">Error de autenticación con Persona.</string>
 	<string key="mm_authresult_Error_Persona_Assume_Role">Error al recuperar las credenciales.\nInténtalo de nuevo o ponte en contacto con la comunidad de New World para obtener más información: https://forums.newworld.com</string>
 	<string key="mm_authresult_Error_Steam">Error de autenticación con Steam.</string>
 	<string key="mm_authresult_Denied_DatasheetVersionCheckFailed">Falta de coincidencia con la versión de la hoja de datos.</string>
-	<string key="mm_authresult_Http_Error_Response_Code">No hemos podido autenticar tu cliente. Inténtalo de nuevo más tarde.</string>
+	<string key="mm_authresult_Http_Error_Response">No hemos podido autenticar tu cliente. Inténtalo de nuevo más tarde.</string>
+	<string key="mm_authresult_Http_Error_Response_Code">Respuesta no válida durante la autenticación. Inténtalo de nuevo más tarde.</string>
 	<string key="mm_http_NoResponse">Error en la solicitud http; no hay respuesta</string>
 	<string key="mm_queuesoon">Tiempo estimado: &lt; 1 minuto\nPosición en la cola: {rank}\n{status}</string>
 	<string key="mm_queuewithestimate">Tiempo estimado: {time}\nPosición en la cola: {rank}\n{status}</string>
@@ -288,6 +297,30 @@
 	<string key="ui_bio">Biografía</string>
 	<string key="ui_attributes">Atributos</string>
 	<string key="ui_trade_skills">Hab. de oficio</string>
+	<string key="ui_how_it_works">Cómo funciona</string>
+	<string key="ui_pvp_track_skills_tab" rel_version="PvP_Rewards_Track">JcJ</string>
+	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Punto de control {checkpoint}:&lt;/font&gt; {currentProgression}/{maxProgression}\n\nPara avanzar en tu seguimiento, participa en misiones JcJ, guerras y asaltos a puestos remotos, captura fuertes, derrota a otros jugadores, lucha en arenas JcJ y gana EXP con el JcJ activado.</string>
+	<string key="ui_pvp_track_next_track_tooltip" rel_version="PvP_Rewards_Track">Tienes que completar todos los puntos de control antes de comenzar el próximo seguimiento. Si eliges una recompensa en cada punto de control, el siguiente seguimiento comenzará automáticamente.\n\nPor cada punto de control en el que no hayas elegido una recompensa, obtendrás 300 de sal de Azoth cuando comience el próximo seguimiento.</string>
+	<string key="ui_pvp_track_unknown_item_tooltip" rel_version="PvP_Rewards_Track">Las diferentes recompensas se revelarán después de completar el punto de control.</string>
+	<string key="ui_pvp_insufficient_azoth_salt" rel_version="PvP_Rewards_Track">Sal de Azoth insuficiente</string>
+	<string key="ui_pvp_cant_unlock" rel_version="PvP_Rewards_Track">No puedes desbloquear más unidades de este objeto</string>
+	<string key="ui_pvp_track_nexttrack_popup_title" rel_version="PvP_Rewards_Track">Iniciar nuevo seguimiento</string>
+	<string key="azoth_salt_currency_desc" rel_version="PvP_Rewards_Track">La sal de Azoth es la divisa con la que obtienes recompensas del seguimiento JcJ. Para ganar sal de Azoth, participa en guerras, asaltos a puestos remotos, arenas JcJ, misiones JcJ, mata a jugadores en el mundo abierto en JcJ y gana EXP con el JcJ activado.\n\nEl saldo máximo de sal de Azoth que puedes tener es 100 000.</string>
+	<string key="azoth_salt_currency_lost" rel_version="PvP_Rewards_Track">Pérdida de sal de Azoth</string>
+	<string key="azoth_salt_lost_tooltip" rel_version="PvP_Rewards_Track">La sal de Azoth es la divisa con la que obtienes recompensas del seguimiento JcJ. Para ganar sal de Azoth, participa en guerras, asaltos a puestos remotos, arenas JcJ, misiones JcJ, mata a jugadores en el mundo abierto en JcJ y gana EXP con el JcJ activado.\n\nNo recibes sal de Azoth por matar a jugadores que estén 10 niveles por debajo de ti. Además, tu víctima debe de haber tenido el JcJ por lo menos 10 minutos.</string>
+	<string key="ui_pvp_track_leveltext_header" rel_version="PvP_Rewards_Track">Seguimientos completados: &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#FFFFFF"&gt;{level}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_current_balance" rel_version="PvP_Rewards_Track">Saldo actual: &lt;font color={colorBalance} face="lyshineui/fonts/CaslonAnt.font"&gt;{balance}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_rankup_stagesummary" rel_version="PvP_Rewards_Track">\n&lt;font color={colorBonus}&gt;Bonificación de punto de control: &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_pvp_track_rankup_bonussalt" rel_version="PvP_Rewards_Track">&lt;font color={colorBonus}&gt; Bonificación por completar seguimiento: &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_pvp_track_bannerrewards_1" rel_version="PvP_Rewards_Track">Bote de recompensas: \n+Gesto</string>
+	<string key="ui_pvp_track_bannerrewards_2" rel_version="PvP_Rewards_Track">Bote de recompensas: \n+Equipamiento con nombre \n+Más divisas</string>
+	<string key="ui_pvp_track_bannerrewards_3" rel_version="PvP_Rewards_Track">Bote de recompensas: \n+Equipamiento de prestigio \n+Gesto \n+Paquetes de viales de sal</string>
+	<string key="ui_pvp_track_bannerrewards_4" rel_version="PvP_Rewards_Track">Bote de recompensas: \n+Aljez \n+Más divisas \n+Más fragmentos umbríos</string>
+	<string key="ui_pvp_track_bannerrewards_5" rel_version="PvP_Rewards_Track">Bote de recompensas: \n+Gesto \n+Más fragmentos umbríos </string>
+	<string key="ui_pvp_track_bannerrewards_6" rel_version="PvP_Rewards_Track">Bote de recompensas: \n+Gesto \n+Más divisas</string>
+	<string key="ui_pvp_track_next_milestone" rel_version="PvP_Rewards_Track">{milestone} hito de seguimiento en:</string>
+	<string key="ui_pvp_track_milestone" rel_version="PvP_Rewards_Track">{milestone} hito de seguimiento</string>
+	<string key="ui_pvp_track_reward" rel_version="PvP_Rewards_Track">Recompensa</string>
 	<string key="ui_blacksmithing">Forja de armas</string>
 	<string key="ui_estimated_time">Tiempo estimado</string>
 	<string key="ui_queue_soon">&lt;1 minuto</string>
@@ -378,6 +411,7 @@
 	<string key="inv_salvage_tooltip" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Aprovechar este artículo te devolverá: {numItems} {itemName}.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Aprovechar este artículo te devolverá {numItems} {itemName} y {numRepairParts} piezas de reparación.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_onlyrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Aprovechar este artículo te devolverá: {numRepairParts} piezas de reparación.{gemMessage}</string>
+	<string key="inv_salvage_tooltip_withcoin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Aprovechar este artículo te devolverá: {coinAmount}. {gemMessage}</string>
 	<string key="inv_salvage_tooltip_repairparts_and_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Aprovechar este artículo te devolverá: {numRepairParts} piezas de reparación y {coinAmount}.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_range" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Aprovechar este artículo te devolverá: {min}-{max} {itemName}.{gemMessage}</string>
 	<string key="inv_salvage_tooltip_range_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Aprovechar este artículo te devolverá {min}-{max} {itemName} y {numRepairParts} piezas de reparación.{gemMessage}</string>
@@ -439,8 +473,11 @@
 	<string key="mm_eu_central" comment="EU means European Union">Europa central</string>
 	<string key="mm_ap_southeast" comment="AP means Asian Pacific">Sudeste de Asia y el Pacífico</string>
 	<string key="mm_sa_east" comment="SA means South America">Este de Sudamérica</string>
+	<string key="world_set_region_transfer">Transferencia entre regiones</string>
+	<string key="mm_stage_devo">Devo</string>
 	<string key="mm_stage_qa">Control de calidad</string>
 	<string key="mm_stage_alpha">Alfa</string>
+	<string key="mm_localhost">Anfitrión local</string>
 	<string key="mm_charslot_locked_tooltip">La ranura de personaje está bloqueada. La ranura no está disponible, compra una para desbloquear a este personaje.</string>
 	<string key="error_banned">{message}\n\nMotivo: [{reason}]</string>
 	<string key="error_perm_ban">Prohibición permanente</string>

@@ -40,7 +40,7 @@
 	<string key="ui_buy_order_expired_title">Ordre d'achat expiré</string>
 	<string key="ui_sell_order_expired_title">Ordre de vente expiré</string>
 	<string key="ui_buy_order_expired_desc">Votre ordre d'achat de &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} x {quantity}&lt;/font&gt;&lt;/font&gt; ({location}) a expiré. &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{gold} &lt;/font&gt;&lt;/font&gt;&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; remis dans votre bourse.</string>
-	<string key="ui_sell_order_expired_desc">Votre ordre de vente de &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} x {quantity}&lt;/font&gt;&lt;/font&gt; a expiré. Les articles restants vont être renvoyés à : &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt;.</string>
+	<string key="ui_sell_order_expired_desc">Votre ordre de vente de &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} x {quantity}&lt;/font&gt;&lt;/font&gt; a expiré. Les objets restants seront déposés dans le &lt;font color="#ffffff"&gt;rangement&lt;/font&gt; à : &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt;.</string>
 	<string key="ui_buy_order_fulfilled_title">Ordre d'achat rempli</string>
 	<string key="ui_sell_order_fulfilled_title">Ordre de vente rempli</string>
 	<string key="ui_buy_order_fulfilled_desc">Vous avez acheté &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} x {quantity}&lt;/font&gt;&lt;/font&gt; ! L'article est maintenant disponible à : &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt;.</string>
@@ -110,6 +110,10 @@
 	<string key="ui_contract_failure_already_has_item">Impossible d'acheter plus de ce type d'objet.</string>
 	<string key="ui_contract_failure_insufficient_items">Objets insuffisants.</string>
 	<string key="ui_contract_failure_outpost_storage_full">Rangement de la colonie plein.</string>
+	<string key="ui_contract_failure_freeweekend">Les joueurs jouant gratuitement ne peuvent pas acheter ou vendre au comptoir.</string>
+	<string key="ui_contract_failure_previously_freeweekend">Vous devez avoir joué au moins 3 heures pour acheter ou vendre au comptoir.</string>
+	<string key="ui_contract_freeweekend_encourage">Achetez New World pour acheter et vendre des objets au comptoir commercial !</string>
+	<string key="ui_contract_previous_freeweekend_encourage">Vous devez avoir joué au moins 3 heures pour acheter ou vendre au comptoir.</string>
 	<string key="ui_contract_failure_server_error">Erreur de serveur.</string>
 	<string key="ui_contract_failure_creator_cannot_complete">Vous ne pouvez pas finaliser l'ordre que vous avez créé.</string>
 	<string key="ui_contract_failure_invalid_request">Demande d'ordre incorrecte</string>
@@ -117,6 +121,8 @@
 	<string key="ui_contract_failure_throttled">Requête ralentie. Veuillez réessayer plus tard.</string>
 	<string key="ui_contract_failure_coin_transferal_disabled">Transfert de pièces désactivé.</string>
 	<string key="ui_contract_failure_trading_post_disabled">Comptoir désactivé.</string>
+	<string key="ui_contract_failure_trading_post_creation_disabled">Création de contrat de comptoir désactivée.</string>
+	<string key="ui_contract_failure_trading_post_completion_disabled">Exécution de contrat de comptoir désactivée.</string>
 	<string key="ui_contract_failure_cooldown">Achat possible dans : {cooldownTime} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" xPadding="0" scale="1.1" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="ui_contract_failure_generic">Une erreur s'est produite. Veuillez réessayer.</string>
 	<string key="ui_sell_instant_price">Prix de vente instantanée</string>

@@ -15,15 +15,19 @@
 	<string key="mm_serversavailable">{numServers} Welten verfügbar</string>
 	<string key="mm_serverunavailable">Keine Welt verfügbar</string>
 	<string key="mm_serverdown">Welt wird gewartet</string>
+	<string key="mm_serveristransfer">Transfer läuft</string>
 	<string key="mm_serverdisabled">Welt nicht verfügbar</string>
 	<string key="mm_defaultworldname">Neue Welt</string>
 	<string key="mm_defaultworlddesc">Keine Beschreibung</string>
 	<string key="mm_defaultworldmotd">Keine Nachricht des Tages</string>
+	<string key="mm_defaultclustername">Keine Region</string>
 	<string key="ui_banned">Gesperrt</string>
 	<string key="mm_loginerrortitle">Anmeldefehler</string>
 	<string key="mm_connectionfailed">Verbindungsfehler</string>
 	<string key="mm_error_code">Fehlercode:</string>
 	<string key="mm_waitingtotransfer" rel_version="Feature_MTX">Warte auf Transfer nach\n{worldName}</string>
+	<string key="mm_transferworldname" rel_version="Feature_MTX">Transfer nach {regionName}</string>
+	<string key="mm_transferinitiated" rel_version="Feature_MTX">Regionstransfer eingeleitet</string>
 	<string key="ui_open_governors_desk">Büro des Gouverneurs öffnen</string>
 	<string key="mm_disconnected">Verbindung zum Server wurde getrennt. Verbindung wird wiederhergestellt.</string>
 	<string key="mm_retriesfailed">Anzahl der Neuverbindungsversuche erschöpft. Bitte später erneut versuchen.</string>
@@ -137,6 +141,7 @@
 	<string key="mm_csdkerr_invalid_endpoint">Ungültige Serververbindung.</string>
 	<string key="mm_csdkerr_connection_failed">Verbindung zum Server fehlgeschlagen.</string>
 	<string key="mm_csdkerr_transport_version_mismatch">Der Server verwendet eine inkompatible Netzwerkversion. Bitte aktualisiere das Spiel und versuche es erneut.</string>
+	<string key="mm_csdkerr_transport_security_error">Es konnte keine sichere Verbindung hergestellt werden. Bitte starte das Spiel neu oder aktualisiere es und versuche es erneut.</string>
 	<string key="mm_csdkerr_registration_failed">Keine Verbindung zum Server möglich.</string>
 	<string key="mm_csdkerr_registration_unmarshal_error">Datenfehler auf dem Server, suche bitte nach einem aktuellen Patch.</string>
 	<string key="mm_csdkerr_disconnect">Unerwartete Servertrennnung. Verbindungsaufbau ...</string>
@@ -167,6 +172,7 @@
 	<string key="mm_rejected_Grid_Too_Busy">Serverfehler: Die Region ist ausgelastet. Versuche es bitte später erneut.</string>
 	<string key="mm_rejected_No_Ghost_Client">Serverfehler: Kopiervorgang konnte nicht eingeleitet werden.</string>
 	<string key="mm_rejected_Server_Crash">Verbindung zum Spielserver unerwarteterweise abgebrochen. Versuche es bitte später erneut.</string>
+	<string key="mm_rejected_Free_Session_Expired">Die Gratisspielzeit ist abgelaufen.</string>
 	<string key="mm_rejected_Client_Kicked_Title">Vom Server getrennt</string>
 	<string key="mm_rejected_Client_Kicked_NoMessage">Du wurdest aus dem Spiel geworfen.</string>
 	<string key="mm_rejected_Client_Kicked_AFK">Du wurdest vom Spiel getrennt, weil du zu lange inaktiv warst.</string>
@@ -191,6 +197,7 @@
 	<string key="mm_rejected_Client_Kicked_BannedCSLockout">Dein Konto wurde gesperrt. Bitte wende dich an den Kundendienst für zusätzliche Informationen.</string>
 	<string key="mm_rejected_Client_Kicked_CSLockout">Dein Konto wurde gesperrt. Bitte wende dich an den Kundendienst für zusätzliche Informationen.</string>
 	<string key="mm_rejected_Client_Kicked_BannedCommerce">Zahlungsproblem</string>
+	<string key="mm_rejected_Client_Kicked_Embargoed_Country">Ein Zugriff ist von deinem aktuellen Standort aus nicht möglich.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Du wurdest aus dem Spiel geworfen.</string>
 	<string key="mm_authresult_Authorized">Erfolg</string>
 	<string key="mm_characterCreateDisabled">Die Charaktererstellung ist vorübergehend deaktiviert. Die Welt ist zu voll. Bitte versuche, den Charakter auf einer anderen Welt zu erstellen.</string>
@@ -211,11 +218,13 @@
 	<string key="mm_authresult_Denied_LoginTokenWrongHost">Du bist zum falschen Server weitergeleitet worden. Versuche es bitte erneut.</string>
 	<string key="mm_authresult_Denied_EasyAntiCheatFailure">EAC-Konfigurationsfehler. Bitte besuche die Community-Seite für New World, um weitere Informationen zu erhalten: https://forums.newworld.com</string>
 	<string key="mm_authresult_Error_InvalidSetup">Ungültige Authentifizierungseinstellungen.</string>
+	<string key="mm_authresult_Error_Jwt_Persona">Ungültig Antwort vom Anmeldedienst für die Abfrage der Anmeldedaten.</string>
 	<string key="mm_authresult_Error_Persona">Fehler bei der Authentifizierung mit Persona.</string>
 	<string key="mm_authresult_Error_Persona_Assume_Role">Abholung der Zugangsdaten fehlgeschlagen.\nBitte erneut versuchen oder weitere Informationen in der New-World-Community einholen: https://forums.newworld.com</string>
 	<string key="mm_authresult_Error_Steam">Fehler bei der Authentifizierung mit Steam.</string>
 	<string key="mm_authresult_Denied_DatasheetVersionCheckFailed">Datenblattversionsfehler.</string>
-	<string key="mm_authresult_Http_Error_Response_Code">Dein Client ist möglicherweise nicht authentifiziert. Versuche es bitte erneut.</string>
+	<string key="mm_authresult_Http_Error_Response">Dein Client ist möglicherweise nicht authentifiziert. Versuche es bitte erneut.</string>
+	<string key="mm_authresult_Http_Error_Response_Code">Ungültige Antwort während der Authentifizierung. Versuche es bitte erneut.</string>
 	<string key="mm_http_NoResponse">HTTP-Anfrage fehlgeschlagen; keine Rückmeldung</string>
 	<string key="mm_queuesoon">Erwartete Dauer: &lt; 1 Minute\nWarteschlangenposition: {rank}\n{status}</string>
 	<string key="mm_queuewithestimate">Erwartete Dauer: {time}\nWarteschlangenposition: {rank}\n{status}</string>
@@ -288,6 +297,30 @@
 	<string key="ui_bio">Biografie</string>
 	<string key="ui_attributes">Attribute</string>
 	<string key="ui_trade_skills">Fähigkeiten</string>
+	<string key="ui_how_it_works">So funktioniert das</string>
+	<string key="ui_pvp_track_skills_tab" rel_version="PvP_Rewards_Track">PvP</string>
+	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Kontrollpunkt {checkpoint}:&lt;/font&gt; {currentProgression}/{maxProgression}\n\nErziele Fortschritte in der Serie, indem du PvP-Missionen abschließt, dich am Außenpostensturm oder der Eroberung von Festungen beteiligst, andere Spieler besiegst und an PvP-Arenen teilnimmst und EP erhältst, während du markiert bist.</string>
+	<string key="ui_pvp_track_next_track_tooltip" rel_version="PvP_Rewards_Track">Du musst alle Kontrollpunkte abschließen, bevor du die nächste Serie beginnen kannst. Mit der Auswahl einer Belohnung eines Kontrollpunkts beginnt automatisch die nächste Serie.\n\nFür jeden Kontrollpunkt, dessen Belohnung du nicht beanspruchst, erhältst du zum Beginn der nächsten Serie 300 Azoth-Salz.</string>
+	<string key="ui_pvp_track_unknown_item_tooltip" rel_version="PvP_Rewards_Track">Belohnungsoptionen werden nach dem Abschluss eines Kontrollpunkts enthüllt.</string>
+	<string key="ui_pvp_insufficient_azoth_salt" rel_version="PvP_Rewards_Track">Nicht genug Azoth-Salz</string>
+	<string key="ui_pvp_cant_unlock" rel_version="PvP_Rewards_Track">Keine weitere Freischaltung dieses Gegenstands möglich.</string>
+	<string key="ui_pvp_track_nexttrack_popup_title" rel_version="PvP_Rewards_Track">Nächste Serie starten</string>
+	<string key="azoth_salt_currency_desc" rel_version="PvP_Rewards_Track">Azoth-Salz ist die Währung, mit der du aus der PvP-Serie Belohnungen erhältst. Du erhältst Azoth-Salz, indem du dich an Kriegen, am Außenpostensturm, in PvP-Arenen, an PvP-Missionen beteiligst oder in der offenen Welt Spieler im PvP besiegst und EP dazugewinnst, während du markiert bist.\n\nDu kannst höchstens 100.000 Azoth-Salz besitzen.</string>
+	<string key="azoth_salt_currency_lost" rel_version="PvP_Rewards_Track">Azoth-Salz-Verlust</string>
+	<string key="azoth_salt_lost_tooltip" rel_version="PvP_Rewards_Track">Azoth-Salz ist die Währung, mit der du aus der PvP-Serie Belohnungen erhältst. Du erhältst Azoth-Salz, indem du dich an Kriegen, am Außenpostensturm, in PvP-Arenen und an PvP-Missionen beteiligst oder in der offenen Welt Spieler im PvP besiegst und EP dazugewinnst, während du markiert bist.\n\nFür die Tötung von Spielern, die über 10 Stufen unter deiner aktuellen Stufen stehen, gibt es kein Azoth-Salz und außerdem muss das Opfer mehr als 10 Minuten lang markiert gewesen sein.</string>
+	<string key="ui_pvp_track_leveltext_header" rel_version="PvP_Rewards_Track">Abgeschlossene Serien: &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#FFFFFF"&gt;{level}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_current_balance" rel_version="PvP_Rewards_Track">Guthaben: &lt;font color={colorBalance} face="lyshineui/fonts/CaslonAnt.font"&gt;{balance}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_rankup_stagesummary" rel_version="PvP_Rewards_Track">\n&lt;font color={colorBonus}&gt;Kontrollpunkt-Bonus: &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_pvp_track_rankup_bonussalt" rel_version="PvP_Rewards_Track">&lt;font color={colorBonus}&gt; Serienabschluss-Bonus: &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_pvp_track_bannerrewards_1" rel_version="PvP_Rewards_Track">Belohnungsauswahl: \n+Emote</string>
+	<string key="ui_pvp_track_bannerrewards_2" rel_version="PvP_Rewards_Track">Belohnungsauswahl: \n+ benannte Ausrüstung \n+ Mehr Währung</string>
+	<string key="ui_pvp_track_bannerrewards_3" rel_version="PvP_Rewards_Track">Belohnungsauswahl: \n+Prestige-Ausrüstung \n+ Emote \n+ Salzphiolen-Pakete</string>
+	<string key="ui_pvp_track_bannerrewards_4" rel_version="PvP_Rewards_Track">Belohnungsauswahl: \n+ Gips \n+ Mehr Währung \n+ Mehr Schattensplitter</string>
+	<string key="ui_pvp_track_bannerrewards_5" rel_version="PvP_Rewards_Track">Belohnungsauswahl: \n+ Emote \n+ Schattensplitter </string>
+	<string key="ui_pvp_track_bannerrewards_6" rel_version="PvP_Rewards_Track">Belohnungsauswahl: \n+ Emote \n+ Mehr Währung</string>
+	<string key="ui_pvp_track_next_milestone" rel_version="PvP_Rewards_Track">{milestone} Serien-Meilenstein bei:</string>
+	<string key="ui_pvp_track_milestone" rel_version="PvP_Rewards_Track">{milestone} Serien-Meilenstein</string>
+	<string key="ui_pvp_track_reward" rel_version="PvP_Rewards_Track">Belohnung</string>
 	<string key="ui_blacksmithing">Waffenschmiedekunst</string>
 	<string key="ui_estimated_time">Erwartete Dauer</string>
 	<string key="ui_queue_soon">&lt; 1 Minute</string>
@@ -375,12 +408,13 @@
 	<string key="crafting_cannot_repair">Reparatur nicht möglich</string>
 	<string key="crafting_requires_station">Das geht nur an der richtigen Werkstelle.</string>
 	<string key="crafting_repair_no_requirements">Für die Reparatur dieses Gegenstands gelten keine Voraussetzungen.</string>
-	<string key="inv_salvage_tooltip" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {numItems} {itemName}.{gemMessage}</string>
-	<string key="inv_salvage_tooltip_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {numItems} {itemName} und {numRepairParts} Ersatzteile.{gemMessage}</string>
-	<string key="inv_salvage_tooltip_onlyrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {numRepairParts} Ersatzteile.{gemMessage}</string>
-	<string key="inv_salvage_tooltip_repairparts_and_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {numRepairParts} Ersatzteile und {coinAmount}.{gemMessage}</string>
-	<string key="inv_salvage_tooltip_range" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {min}-{max} {itemName}.{gemMessage}</string>
-	<string key="inv_salvage_tooltip_range_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {min}-{max} {itemName} und {numRepairParts} Ersatzteile.{gemMessage}</string>
+	<string key="inv_salvage_tooltip" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {numItems} {itemName}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {numItems} {itemName} und {numRepairParts} Ersatzteile. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_onlyrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {numRepairParts} Ersatzteile. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_withcoin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_repairparts_and_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {numRepairParts} Ersatzteile und {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_range" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {min}-{max} {itemName}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_range_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Durch das Zerlegen dieses Gegenstands erhältst du {min}-{max} {itemName} und {numRepairParts} Ersatzteile. {gemMessage}</string>
 	<string key="inv_salvage_tooltip_gemmessage" comment="this will come after a previous sentence and should have a space in front"> Es besteht eine geringe Wahrscheinlichkeit, den eingesetzten Edelstein zurückzuerhalten.</string>
 	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items.">Zusätzliche Gegenstände wie {itemName} können ebenfalls erworben werden.</string>
 	<string key="inv_salvage_tooltip_recipe">Durch das Zerlegen dieses Gegenstands lernst du den Plan: {recipeName}.</string>
@@ -439,8 +473,11 @@
 	<string key="mm_eu_central" comment="EU means European Union">Mitteleuropa</string>
 	<string key="mm_ap_southeast" comment="AP means Asian Pacific">AP Südosten</string>
 	<string key="mm_sa_east" comment="SA means South America">SA Osten</string>
+	<string key="world_set_region_transfer">Regionstransfer</string>
+	<string key="mm_stage_devo">Devo</string>
 	<string key="mm_stage_qa">QA</string>
 	<string key="mm_stage_alpha">Alpha</string>
+	<string key="mm_localhost">Lokaler Gastgeber</string>
 	<string key="mm_charslot_locked_tooltip">Charakterplatz ist gesperrt. Platz ist nicht verfügbar. Kaufe einen Charakterplatz, um diesen Charakter freizuschalten.</string>
 	<string key="error_banned">{message}\n\nGrund:[{reason}]</string>
 	<string key="error_perm_ban">Endgültige Sperre</string>

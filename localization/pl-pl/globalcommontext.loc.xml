@@ -603,23 +603,29 @@
 	<string key="ui_quickslot2">Szybki wybór 2</string>
 	<string key="ui_quickslot3">Szybki wybór 3</string>
 	<string key="ui_quickslot4">Szybki wybór 4</string>
-	<string key="ui_head_slot_tooltip">Głowa.</string>
-	<string key="ui_chest_slot_tooltip">Korpus.</string>
-	<string key="ui_hands_slot_tooltip">Ręka.</string>
-	<string key="ui_legs_slot_tooltip">Noga.</string>
-	<string key="ui_feet_slot_tooltip">Stopa.</string>
-	<string key="ui_amulet_slot_tooltip">Amulet.</string>
-	<string key="ui_token_slot_tooltip">Żeton.</string>
-	<string key="ui_ring_slot_tooltip">Pierścień.</string>
-	<string key="ui_bag_slot_tooltip">Torba.</string>
-	<string key="ui_arrow_slot_tooltip">Strzała.</string>
-	<string key="ui_cartridge_slot_tooltip">Naboje.</string>
-	<string key="ui_shield_slot_tooltip">Tarcza.</string>
+	<string key="ui_head_slot_tooltip">Głowa</string>
+	<string key="ui_chest_slot_tooltip">Tors</string>
+	<string key="ui_hands_slot_tooltip">Ręce</string>
+	<string key="ui_legs_slot_tooltip">Nogi</string>
+	<string key="ui_feet_slot_tooltip">Stopy</string>
+	<string key="ui_amulet_slot_tooltip">Miejsce na amulet</string>
+	<string key="ui_token_slot_tooltip">Miejsce na żeton</string>
+	<string key="ui_ring_slot_tooltip">Miejsce na pierścień</string>
+	<string key="ui_bag_slot_tooltip">Miejsce na torbę</string>
+	<string key="ui_arrow_slot_tooltip">Strzały</string>
+	<string key="ui_cartridge_slot_tooltip">Naboje</string>
+	<string key="ui_shield_slot_tooltip">Tarcza</string>
 	<string key="ui_lifestaff_combat">Walka laską życia</string>
 	<string key="ui_target_self">Wyceluj w siebie</string>
 	<string key="ui_exit_auto_target">Przerwij autocelowanie</string>
 	<string key="ui_cycle_target_up">Następny cel</string>
 	<string key="ui_cycle_target_down">Poprzedni cel</string>
+	<string key="ui_target_group1">Namierz członka grupy 1</string>
+	<string key="ui_target_group2">Namierz członka grupy 2</string>
+	<string key="ui_target_group3">Namierz członka grupy 3</string>
+	<string key="ui_target_group4">Namierz członka grupy 4</string>
+	<string key="ui_target_group5">Namierz członka grupy 5</string>
+	<string key="ui_target_groupmode_toggle">Włącz/wyłącz tryb grupowy</string>
 	<string key="ui_slot_unlock_at">Odblokowanie poz. {level}</string>
 	<string key="ui_slot_unlock_at_abbr">poz. {level}</string>
 	<string key="ui_quickslot_mainhand_tooltip">Główna ręka\n\nBroń umieszczoną w tym miejscu można wybrać przez naciśnięcie odpowiedniego klawisza.</string>
@@ -630,6 +636,11 @@
 	<string key="ui_quickslot_skinning_tooltip">Miejsce na nóż do skórowania</string>
 	<string key="ui_quickslot_pickaxe_tooltip">Miejsce na kilof górniczy</string>
 	<string key="ui_quickslot_azoth_tooltip">Miejsce na azothową laskę</string>
+	<string key="ui_quickslot_flute_tooltip" rel_version="Feature_MusicalPerformances">Miejsce na flet</string>
+	<string key="ui_quickslot_guitar_tooltip" rel_version="Feature_MusicalPerformances">Miejsce na gitarę</string>
+	<string key="ui_quickslot_mandolin_tooltip" rel_version="Feature_MusicalPerformances">Miejsce na mandolinę</string>
+	<string key="ui_quickslot_bass_tooltip" rel_version="Feature_MusicalPerformances">Miejsce na kontrabas</string>
+	<string key="ui_quickslot_drums_tooltip" rel_version="Feature_MusicalPerformances">Miejsce na bębny</string>
 	<string key="ui_buildmode_grid">Siatka trybu budowy</string>
 	<string key="ui_wave">Pomachaj</string>
 	<string key="ui_inspect_player">Funkcje społeczności</string>
@@ -1412,6 +1423,7 @@
 	<string key="ui_claimstreak">Dzień {number}</string>
 	<string key="ui_random_location">Losowe miejsce</string>
 	<string key="ui_scroll_hint">Przybliż/Oddal</string>
+	<string key="ui_map_rotate_camera">(przytrzymaj) Obróć kamerę</string>
 	<string key="ui_global_storage_description">Inni gracze nie mogą zobaczyć ani zabrać przedmiotów, które tu pozostawisz. Aby zabrać te przedmioty, musisz wrócić do tego posterunku.</string>
 	<string key="ui_apply_all_resources">Użyj wszystkich surowców</string>
 	<string key="ui_apply_resources">Użyj surowców</string>
@@ -1503,7 +1515,7 @@
 	<string key="ui_upgrade_tooltip_disabled_items">Do zwiększenia liczby punktów wyposażenia tego przedmiotu potrzeba co najmniej {quantity} więcej: {itemName}.</string>
 	<string key="ui_upgrade_tooltip_disabled_skill">Możesz jedynie ulepszyć przedmioty, w których masz &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.2" yOffset="1"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;biegłość ({neededValue})&lt;/font&gt;.\n(Obecna biegłość ({expertiseName}): &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.2" yOffset="1"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{currentValue}&lt;/font&gt;)</string>
 	<string key="ui_upgrade_tooltip_disabled_broken">Zepsutych przedmiotów nie można ulepszyć.</string>
-	<string key="ui_upgrade_tooltip_disabled_gearscore">Możesz jedynie ulepszyć przedmioty mające co najmniej {gearScore} pkt wyposażenia.</string>
+	<string key="ui_upgrade_tooltip_disabled_gearscore">Możesz jedynie ulepszyć przedmioty mające co najmniej &lt;font color="#ffffff"&gt;{gearScore}&lt;/font&gt; pkt wyposażenia.</string>
 	<string key="ui_upgrade_notification">Liczbę punktów wyposażenia przedmiotu zwiększono do &lt;font color="#fffd7a"&gt;{baseGearScore}&lt;/font&gt;.</string>
 	<string key="ui_cannot_replace_gem_tooltip">Nie można zamienić tego klejnotu.</string>
 	<string key="ui_no_gems_tooltip">Brak dostępnych klejnotów</string>
@@ -1725,6 +1737,7 @@
 	<string key="ui_mapmenu_warlist_failure_timeout">Upłynął limit czasu. Spróbuj ponownie.</string>
 	<string key="ui_mapmenu_warlist_failure_generic">Coś poszło nie tak. Spróbuj ponownie.</string>
 	<string key="ui_mapmenu_warlist_retry">Ponów</string>
+	<string key="ui_mapmenu_manage_objectives">Zarządzaj celami</string>
 	<string key="ui_mapmenu_territorystandings">Rangi terytoriów</string>
 	<string key="ui_mapmenu_territorystandings_subtext">Poziomy rangi terytoriów pozwalają ci odblokować premie terytorium.</string>
 	<string key="ui_mapmenu_territorystandings_spendprompt">KUP NAGRODĘ TERYTORIALNĄ!</string>
@@ -1753,6 +1766,7 @@
 	<string key="ui_arena_group_proximity">Członek grupy jest za daleko</string>
 	<string key="ui_arena_group_dead">Group member is dead</string>
 	<string key="ui_arena_activating">Trwa aktywowanie</string>
+	<string key="ui_arena_required_item_disabled">Wymagany przedmiot tymczasowo nieaktywny</string>
 	<string key="spriggan_name">Zygoramet</string>
 	<string key="ui_exit_dungeon_title">Opuścić ekspedycję?</string>
 	<string key="ui_dungeon_exit">Portal wyjścia z ekspedycji</string>
@@ -1805,9 +1819,9 @@
 	<string key="ui_time_interval_format_timezone">{startTime} - {endTime}\n{timezone}</string>
 	<string key="ui_repair_tooltip">Naprawa wymaga:\numiejętności {skillName} na poziomie {skillLevel}\nlub\numiejętności {repairName} na poziomie {repairLevel}</string>
 	<string key="ui_station_desc_text" comment="{stationName} is the type of station, like 'Blacksmith'. {tier} is the required tier. {current} is the current tier.">{stationName} {tier} {current}</string>
-	<string key="ui_station_skill_desc_text" comment="{skillName} is the type of skill, like 'Blacksmithing'. {skillLoc} is currently being replaced by the word for 'Skill'. If another language needs to be something like 'Skill Blacksmithing', these need to be swapped around. {level} is for required skill level. {current} is for current skill level.">{skillLoc} {skillName} {level} {current}</string>
+	<string key="ui_station_skill_desc_text" comment="{skillName} is the type of skill, like 'Blacksmithing'. {level} is for required skill level. {current} is for current skill level.">{skillName} {level} {current}</string>
 	<string key="ui_crating_tree_item_tradeskill_desc" comment="{skillName} is the type of skill, like 'Blacksmithing'. {skillLoc} is currently being replaced by the word for 'Skill'. If another language needs to be something like 'Skill Blacksmithing', these need to be swapped around.{required} is for required skill level.">{skillName} {skillLoc} Wymagane: {required}</string>
-	<string key="ui_station_skill_header" comment="{skillName} is the type of skill, like 'Blacksmithing'. {skillLoc} is currently being replaced by the word for 'Skill'. If another language needs to be something like 'Skill Blacksmithing', these need to be swapped around.">{skillName} {skillLoc}</string>
+	<string key="ui_station_skill_header" comment="{skillName} is the type of skill, like 'Blacksmithing'.">{skillName}</string>
 	<string key="ui_station_tooltip_text">{stationName} P{tierRequired}</string>
 	<string key="ui_has_resources">Masz zasoby</string>
 	<string key="ui_deadnotification_title">"NIE ŻYJESZ"</string>
@@ -1827,6 +1841,8 @@
 	<string key="ui_ability3">Umiejętność broni 3</string>
 	<string key="ui_pending_afk_disconnect">Nadal grasz?</string>
 	<string key="ui_pending_afk_disconnect_description">Zauważono twoją bezczynność. Nastąpi automatyczne wyrzucenie z gry. Jeśli wciąż grasz, przemieść swoją postać.</string>
+	<string key="ui_pending_freeweekend_session_ending_title">Darmowa sesja wkrótce dobiegnie końca</string>
+	<string key="ui_pending_freeweekend_session_ending_desc">Jeśli do tego świata jest kolejka, po upływie czasu powrócisz do menu głównego. Jeśli do tego świata nie ma kolejki, czas sesji zostanie wydłużony o dodatkowe {time}.</string>
 	<string key="ui_structure_name_too_long">Nazwa konstrukcji jest zbyt długa. Spróbuj ponownie.</string>
 	<string key="ui_structure_name_invalid_characters">Nazwa konstrukcji zawiera nieprawidłowe znaki. Spróbuj ponownie.</string>
 	<string key="ui_structure_name_profanity">Nazwa konstrukcji zawiera wulgaryzm. Spróbuj ponownie.</string>
@@ -1895,6 +1911,7 @@
 	<string key="ui_coin_max_withdrawal_tooltip">Limit twojego portfela wynosi {amount} monet.\nNie możesz pobrać większej kwoty, ponieważ limit zostałby przekroczony.</string>
 	<string key="ui_coin_max_sellorder_tooltip">Limit twojego portfela wynosi {amount} monet.\nStracisz wszystkie monety, które przekroczą ten limit wskutek sprzedaży.</string>
 	<string key="ui_coin_max_trade_tooltip">Limit twojego portfela wynosi {amount} monet.\nInny gracz próbuje przekazać ci więcej monet, niż jesteś w stanie przyjąć. Nadmiarowa kwota zostanie mu zwrócona.</string>
+	<string key="ui_coin_max_cantwithdraw_tooltip">Twój portfel jest pełny. Nie możesz wypłacać pieniędzy ze skarbca kompanii.</string>
 	<string key="ui_listing_duration_tooltip">Wystawianie na dłuższy okres wiąże się z wyższymi prowizjami za wystawienie.</string>
 	<string key="ui_groupsize_identifier">Zalecany rozmiar grupy: {groupSize}</string>
 	<string key="ui_level_identifier">Zalecany poziom: {level}</string>
@@ -2090,13 +2107,15 @@
 	<string key="ui_mergecomplete_question_3">Czy moja kompania została zachowana?</string>
 	<string key="ui_mergecomplete_question_4">Czy moje oferty kupna/sprzedaży pozostały aktywne?</string>
 	<string key="ui_mergecomplete_answer_1">Poziom twojej postaci, punkty cech, punkty biegłości, ranga terytorium, dom, ekwipunek i magazyn osady zostały zachowane.</string>
-	<string key="ui_mergecomplete_answer_2">Terytoria w nowym świecie zostaną przejęte przez kompanie z tamtego świata. Jeśli twoja kompania nie należy do nowego świata, stracisz wszystkie terytoria i ulepszenia. W zamian twoja kompania otrzyma 50 000 monet.</string>
-	<string key="ui_mergecomplete_answer_3">Gracze nie zostaną rozdzieleni z powodu połączenia światów. Członkostwo w kompanii oraz jej portfel zostały zachowane. Nie można wypowiedzieć wojny na 3 dni przed datą połączenia.</string>
+	<string key="ui_mergecomplete_answer_2">Terytoria w nowym świecie zostaną przejęte przez kompanie z tamtego świata. Jeśli twoja kompania nie należy do nowego świata, stracisz wszystkie terytoria i ulepszenia. W zamian twoja kompania otrzyma {coinAmount} monet.</string>
+	<string key="ui_mergecomplete_answer_3">Gracze nie zostaną rozdzieleni z powodu połączenia światów. Członkostwo w kompanii oraz jej portfel zostały zachowane. Nie można wypowiedzieć wojny na {bufferTime} przed datą połączenia.</string>
 	<string key="ui_mergecomplete_answer_4">Przedmioty wystawione na sprzedaż wrócą do ciebie, zachowasz również pieniądze zarobione na częściowych sprzedażach. Monety wydane na zapłacenie podatków lub prowizji za wystawienie nie zostaną zwrócone.</string>
 	<string key="ui_merge_region">Region</string>
 	<string key="ui_merge_world">Świat</string>
 	<string key="ui_merge_character">Postać</string>
 	<string key="ui_merge_time">Pozostały czas</string>
+	<string key="ui_freeweekend_worldwarning_title">Darmowy weekend – światy</string>
+	<string key="ui_freeweekend_worldwarning_desc">Wybierz świat, w którym chcesz grać podczas darmowego weekendu. W światach nieoznaczonych jako darmowe dostępne są ograniczone sesje, wydłużane co {time}, jeśli w kolejce nie oczekują gracze, którzy nabyli grę.</string>
 	<string key="ui_queue_depth">Oczekujący gracze &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{numplayers}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_expected_wait_time">Szacowany czas oczekiwania: &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_collapse">Zwiń</string>
@@ -2266,6 +2285,7 @@
 	<string key="ui_itemtypedescription_bow">Łuk</string>
 	<string key="ui_itemtypedescription_musket">Muszkiet</string>
 	<string key="ui_itemtypedescription_blunderbuss" rel_version="Weapon_Blunderbuss">Garłacz</string>
+	<string key="ui_itemtypedescription_greatsword" rel_version="Weapon_GreatSword">Miecz dwuręczny</string>
 	<string key="ui_itemtypedescription_pistol">Pistolet</string>
 	<string key="ui_itemtypedescription_lifestaff">Laska życia</string>
 	<string key="ui_itemtypedescription_firestaff">Ognista laska</string>
@@ -2345,6 +2365,7 @@
 	<string key="ui_cannot_chat_global_blocked">Nie możesz rozmawiać na tym kanale, dopóki twoje konto nie będzie starsze niż {hoursNeeded} godz., a czas twojej rozgrywki dłuższy niż {playtimeNeeded}</string>
 	<string key="ui_complete_quests_to_unlock">Ukończ zadania w osadzie, by odblokować</string>
 	<string key="ui_cannot_chat_trading_blocked">By móc korzystać z tego kanału, twoje konto musi być starsze niż {hoursNeeded}, a czas twojej rozgrywki dłuższy niż {playtimeNeeded}. Ponadto musisz odblokować faktorię.</string>
+	<string key="ui_treasury_purchase_nw">Żeby użyć skarbca firmy, kup New World.</string>
 	<string key="ui_averageexpertise">Przeciętna\nbiegłość</string>
 	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Biegłość&lt;/font&gt;\nBiegłość służy do określania maksymalnej mocy używanego przedmiotu.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Maksymalna biegłość do osiągnięcia&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Zwiększanie biegłości&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Elitarne lokacje i ekspedycje&lt;/font&gt;\nŁupy upuszczane przez wrogów i znajdowane w skrzyniach w strefach powyżej 60. poziomu mają szansę na zwiększenie tej wartości.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Rzemiosło&lt;/font&gt;\nWytworzenie przedmiotu mającego 600 pkt wyposażenia zwiększy biegłość w tym rodzaju przedmiotu.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Odlew gipsowy&lt;/font&gt;\nOtwarcie odlewu gipsowego zwiększy biegłość.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ulepszenie przedmiotu (odłamkami umbralu)&lt;/font&gt;\nPo osiągnięciu 600 pkt biegłości jedynym sposobem na jej zwiększenie jest ulepszanie przedmiotów odłamkami umbralu.</string>
 	<string key="ui_itemtypedescription_shield_only">Tarcza</string>

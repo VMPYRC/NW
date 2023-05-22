@@ -40,7 +40,7 @@
 	<string key="ui_buy_order_expired_title">Ordine d'acquisto scaduto</string>
 	<string key="ui_sell_order_expired_title">Ordine di vendita scaduto</string>
 	<string key="ui_buy_order_expired_desc">Il tuo ordine di acquisto per &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} (x{quantity})&lt;/font&gt;&lt;/font&gt; è scaduto presso: {location}. La quantità di &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{gold}&lt;/font&gt;&lt;/font&gt;&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; rimanente è stata riaccreditata sul tuo portafoglio.</string>
-	<string key="ui_sell_order_expired_desc">Il tuo ordine di vendita per &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} (x{quantity})&lt;/font&gt;&lt;/font&gt; è scaduto. Gli articoli rimanenti saranno depositati presso: &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_sell_order_expired_desc">Il tuo ordine di vendita per &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} (x{quantity})&lt;/font&gt;&lt;/font&gt; è scaduto. Gli articoli rimanenti verranno posti nel &lt;font color="#ffffff"&gt;deposito&lt;/font&gt; presso: &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt;.</string>
 	<string key="ui_buy_order_fulfilled_title">Ordine d'acquisto completato</string>
 	<string key="ui_sell_order_fulfilled_title">Ordine di vendita completato</string>
 	<string key="ui_buy_order_fulfilled_desc">Hai acquistato correttamente: &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} (quantità: {quantity})&lt;/font&gt;&lt;/font&gt;! \nL'oggetto è ora disponibile presso: &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;\n{location}&lt;/font&gt;&lt;/font&gt;</string>
@@ -110,6 +110,10 @@
 	<string key="ui_contract_failure_already_has_item">Impossibile acquistare altri oggetti di questo tipo.</string>
 	<string key="ui_contract_failure_insufficient_items">Oggetti insufficienti.</string>
 	<string key="ui_contract_failure_outpost_storage_full">Deposito dell'insediamento pieno.</string>
+	<string key="ui_contract_failure_freeweekend">Nel gioco gratuito non è possibile acquistare o vendere nell'emporio.</string>
+	<string key="ui_contract_failure_previously_freeweekend">Devi aver giocato per almeno 3 ore prima di comprare o vendere all'emporio.</string>
+	<string key="ui_contract_freeweekend_encourage">Acquista New World per comprare e vendere articoli presso l'emporio!</string>
+	<string key="ui_contract_previous_freeweekend_encourage">Devi aver giocato per almeno 3 ore prima di comprare o vendere all'emporio.</string>
 	<string key="ui_contract_failure_server_error">Errore del server.</string>
 	<string key="ui_contract_failure_creator_cannot_complete">Non puoi completare un ordine creato da te.</string>
 	<string key="ui_contract_failure_invalid_request">La richiesta d'ordine non era valida.</string>
@@ -117,6 +121,8 @@
 	<string key="ui_contract_failure_throttled">Richiesta limitata. Attendi e riprova.</string>
 	<string key="ui_contract_failure_coin_transferal_disabled">Trasferimento di monete disabilitato.</string>
 	<string key="ui_contract_failure_trading_post_disabled">Emporio disabilitato.</string>
+	<string key="ui_contract_failure_trading_post_creation_disabled">Creazione contratti nell'emporio disabilitata.</string>
+	<string key="ui_contract_failure_trading_post_completion_disabled">Completamento contratti nell'emporio disabilitato.</string>
 	<string key="ui_contract_failure_cooldown">Potrai effettuare l'acquisto tra: {cooldownTime} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" xPadding="0" scale="1.1" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="ui_contract_failure_generic">Si è verificato un errore. Riprova.</string>
 	<string key="ui_sell_instant_price">Prezzo di vendita istantanea</string>

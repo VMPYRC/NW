@@ -40,7 +40,7 @@
 	<string key="ui_buy_order_expired_title">Oferta kupna wygasła</string>
 	<string key="ui_sell_order_expired_title">Oferta sprzedaży wygasła</string>
 	<string key="ui_buy_order_expired_desc">Twoja oferta kupna &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{quantity} szt. przedmiotu {itemName}&lt;/font&gt;&lt;/font&gt; w lokacji {location} wygasła. Pozostałe &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{gold}&lt;/font&gt;&lt;/font&gt;&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; zwrócono do twojego portfela.</string>
-	<string key="ui_sell_order_expired_desc">Twoja oferta sprzedaży &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{quantity} szt. przedmiotu {itemName}&lt;/font&gt;&lt;/font&gt; wygasła. Pozostałe przedmioty zostaną umieszczone w lokacji &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_sell_order_expired_desc">Twoja oferta sprzedaży &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{quantity} szt. przedmiotu {itemName}&lt;/font&gt;&lt;/font&gt; wygasła. Pozostałe przedmioty zostaną umieszczone w &lt;font color="#ffffff"&gt;magazynie&lt;/font&gt; w lokacji &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt;.</string>
 	<string key="ui_buy_order_fulfilled_title">Oferta kupna zrealizowana</string>
 	<string key="ui_sell_order_fulfilled_title">Oferta sprzedaży zrealizowana</string>
 	<string key="ui_buy_order_fulfilled_desc">Kupujesz &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{quantity} szt. przedmiotu {itemName}&lt;/font&gt;&lt;/font&gt;! Przedmiot jest dostępny w lokacji &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt;</string>
@@ -110,6 +110,10 @@
 	<string key="ui_contract_failure_already_has_item">Nie można kupić więcej przedmiotów tego typu.</string>
 	<string key="ui_contract_failure_insufficient_items">Za mało przedmiotów.</string>
 	<string key="ui_contract_failure_outpost_storage_full">Magazyn osady jest pełny.</string>
+	<string key="ui_contract_failure_freeweekend">Gracze grający za darmo nie mogą kupować ani sprzedawać przedmiotów w faktorii.</string>
+	<string key="ui_contract_failure_previously_freeweekend">Żeby kupować lub sprzedawać w faktorii, trzeba mieć za sobą trzy godziny grania.</string>
+	<string key="ui_contract_freeweekend_encourage">Żeby kupować i sprzedawać produkty w faktorii, kup New World.</string>
+	<string key="ui_contract_previous_freeweekend_encourage">Żeby kupować lub sprzedawać w faktorii, trzeba mieć za sobą trzy godziny grania.</string>
 	<string key="ui_contract_failure_server_error">Błąd serwera.</string>
 	<string key="ui_contract_failure_creator_cannot_complete">Nie możesz zrealizować oferty utworzonej przez siebie.</string>
 	<string key="ui_contract_failure_invalid_request">Nieprawidłowe żądanie zrealizowania oferty.</string>
@@ -117,6 +121,8 @@
 	<string key="ui_contract_failure_throttled">Prośba odrzucona w ramach ograniczania żądań. Odczekaj chwilę i spróbuj ponownie.</string>
 	<string key="ui_contract_failure_coin_transferal_disabled">Przekazywanie monet wyłączone.</string>
 	<string key="ui_contract_failure_trading_post_disabled">Faktoria wyłączona.</string>
+	<string key="ui_contract_failure_trading_post_creation_disabled">Tworzenie ofert w faktorii zostało wyłączone.</string>
+	<string key="ui_contract_failure_trading_post_completion_disabled">Finalizowanie ofert w faktorii zostało wyłączone.</string>
 	<string key="ui_contract_failure_cooldown">Można kupić za: {cooldownTime} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" xPadding="0" scale="1.1" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="ui_contract_failure_generic">Coś poszło nie tak. Spróbuj ponownie.</string>
 	<string key="ui_sell_instant_price">Cena "sprzedaj teraz"</string>

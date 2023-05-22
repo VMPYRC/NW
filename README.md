@@ -29,7 +29,7 @@
 |       [v1.3.3](https://www.newworld.com/en-us/news/articles/new-world-february-2022-update)        |    2022-02-28     | 5673036503735452785 |   2   |
 |           [v1.3.4](https://www.newworld.com/en-us/news/articles/new-world-update-1-3-4)            |    2022-03-09     | 4847591895169874052 |   2   |
 |        [v1.4.0](https://www.newworld.com/en-us/game/releases/march-update-heart-of-madness)        |    2022-03-30     | 6575866275532017135 |   2   |
-|           [v1.4.1](https://www.newworld.com/en-us/news/articles/new-world-update-1-4-1)            |    2022-04-06     | 7525782322597517588 |       |
+|           [v1.4.1](https://www.newworld.com/en-us/news/articles/new-world-update-1-4-1)            |    2022-04-06     | 7525782322597517588 |   2   |
 |           [v1.4.2](https://www.newworld.com/en-us/news/articles/new-world-update-1-4-2)            |    2022-04-13     | 5802346819507868810 |       |
 |      [v1.4.3](https://www.newworld.com/en-us/news/articles/april-2022-bug-and-balance-update)      |    2022-04-25     | 8082460795013767975 |       |
 |           [v1.4.4](https://www.newworld.com/en-us/news/articles/new-world-update-1-4-4)            |    2022-05-04     | 6550112293674957481 |       |

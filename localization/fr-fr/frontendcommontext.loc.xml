@@ -15,15 +15,19 @@
 	<string key="mm_serversavailable">{numServers} mondes disponibles</string>
 	<string key="mm_serverunavailable">Aucun monde disponible</string>
 	<string key="mm_serverdown">Monde en cours de maintenance</string>
+	<string key="mm_serveristransfer">Transfert</string>
 	<string key="mm_serverdisabled">Monde désactivé</string>
 	<string key="mm_defaultworldname">New World</string>
 	<string key="mm_defaultworlddesc">Pas de description</string>
 	<string key="mm_defaultworldmotd">Pas de message du jour</string>
+	<string key="mm_defaultclustername">Aucune région</string>
 	<string key="ui_banned">Banni(e)</string>
 	<string key="mm_loginerrortitle">Erreur d'identification</string>
 	<string key="mm_connectionfailed">Échec de connexion</string>
 	<string key="mm_error_code">Code d'erreur :</string>
 	<string key="mm_waitingtotransfer" rel_version="Feature_MTX">En attente du transfert vers\n{worldName}</string>
+	<string key="mm_transferworldname" rel_version="Feature_MTX">Transférer vers : {regionName}</string>
+	<string key="mm_transferinitiated" rel_version="Feature_MTX">Transfert de région initié</string>
 	<string key="ui_open_governors_desk">Ouvrir le bureau du gouverneur</string>
 	<string key="mm_disconnected">Déconnexion du serveur. Reconnexion, veuillez patienter...</string>
 	<string key="mm_retriesfailed">Fin des tentatives de reconnexion Veuillez réessayer plus tard.</string>
@@ -137,6 +141,7 @@
 	<string key="mm_csdkerr_invalid_endpoint">Adresse de serveur incorrecte.</string>
 	<string key="mm_csdkerr_connection_failed">Échec de connexion au serveur.</string>
 	<string key="mm_csdkerr_transport_version_mismatch">Ce serveur utilise une version du réseau incompatible. Veuillez mettre à jour le jeu et réessayer.</string>
+	<string key="mm_csdkerr_transport_security_error">Impossible d'établir une connexion sécurisée. Veuillez redémarrer ou mettre à jour le jeu puis réessayer.</string>
 	<string key="mm_csdkerr_registration_failed">Connexion au serveur impossible</string>
 	<string key="mm_csdkerr_registration_unmarshal_error">Erreur de données de serveur. Veuillez chercher une mise à jour.</string>
 	<string key="mm_csdkerr_disconnect">Déconnexion inattendue du serveur. Reconnexion...</string>
@@ -167,6 +172,7 @@
 	<string key="mm_rejected_Grid_Too_Busy">Erreur de serveur : Région surchargée. Veuillez réessayer plus tard.</string>
 	<string key="mm_rejected_No_Ghost_Client">Erreur de serveur : Échec du démarrage de la copie.</string>
 	<string key="mm_rejected_Server_Crash">Perte de connexion au serveur inattendue. Veuillez réessayer plus tard.</string>
+	<string key="mm_rejected_Free_Session_Expired">La période de jeu gratuit est terminée.</string>
 	<string key="mm_rejected_Client_Kicked_Title">Éjecté</string>
 	<string key="mm_rejected_Client_Kicked_NoMessage">Vous avez été éjecté de la partie.</string>
 	<string key="mm_rejected_Client_Kicked_AFK">Vous avez été éjecté de la partie parce que vous étiez absent depuis trop longtemps.</string>
@@ -191,6 +197,7 @@
 	<string key="mm_rejected_Client_Kicked_BannedCSLockout">Votre compte est actuellement verrouillé. Veuillez contacter le service client pour de plus amples informations.</string>
 	<string key="mm_rejected_Client_Kicked_CSLockout">Votre compte est actuellement verrouillé. Veuillez contacter le service client pour de plus amples informations.</string>
 	<string key="mm_rejected_Client_Kicked_BannedCommerce">Problème de paiement</string>
+	<string key="mm_rejected_Client_Kicked_Embargoed_Country">Nous ne sommes pas en mesure de vous fournir un accès à partir de votre emplacement actuel.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Vous êtes exclu(e) du jeu.</string>
 	<string key="mm_authresult_Authorized">Réussite</string>
 	<string key="mm_characterCreateDisabled">La création de personnages a été désactivée temporairement, car ce monde est plein. Réessayez dans un autre monde.</string>
@@ -211,11 +218,13 @@
 	<string key="mm_authresult_Denied_LoginTokenWrongHost">Vous avez été dirigé(e) vers le mauvais serveur. Veuillez réessayer.</string>
 	<string key="mm_authresult_Denied_EasyAntiCheatFailure">Erreur de configuration EAC. Veuillez consulter le site de la communauté New World sur https://forums.newworld.com pour en savoir plus.</string>
 	<string key="mm_authresult_Error_InvalidSetup">Paramètres authentification incorrects</string>
+	<string key="mm_authresult_Error_Jwt_Persona">Réponse invalide des services de connexion pour l'obtention d'identifiants.</string>
 	<string key="mm_authresult_Error_Persona">Échec de l'authentification avec Persona</string>
 	<string key="mm_authresult_Error_Persona_Assume_Role">Impossible de récupérer les identifiants.\nVeuillez réessayer ou contacter la communauté New World sur https://forums.newworld.com pour en savoir plus.</string>
 	<string key="mm_authresult_Error_Steam">Échec de l'authentification avec Steam</string>
 	<string key="mm_authresult_Denied_DatasheetVersionCheckFailed">Non-concordance de la version de la feuille de données.</string>
-	<string key="mm_authresult_Http_Error_Response_Code">Votre client n'a pas pu être authentifié. Veuillez réessayer plus tard.</string>
+	<string key="mm_authresult_Http_Error_Response">Votre client n'a pas pu être authentifié. Veuillez réessayer plus tard.</string>
+	<string key="mm_authresult_Http_Error_Response_Code">Réponse invalide pendant l'authentification. Veuillez réessayer plus tard.</string>
 	<string key="mm_http_NoResponse">Échec de la requête HTTP ; pas de réponse</string>
 	<string key="mm_queuesoon">Temps estimé : &lt; 1 minute\nPosition dans la file : {rank}\n{status}</string>
 	<string key="mm_queuewithestimate">Temps estimé : {time}\nPosition dans la file : {rank}\n{status}</string>
@@ -288,6 +297,30 @@
 	<string key="ui_bio">Biographie</string>
 	<string key="ui_attributes">Caractéristiques</string>
 	<string key="ui_trade_skills">Métiers</string>
+	<string key="ui_how_it_works">Fonctionnement</string>
+	<string key="ui_pvp_track_skills_tab" rel_version="PvP_Rewards_Track">JcJ</string>
+	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Jalon {checkpoint} :&lt;/font&gt; {currentProgression}/{maxProgression}\n\nProgressez en accomplissant des missions JcJ, en menant des guerres, en vous battant en Déferlante, en capturant des forteresses, en combattant d'autres joueurs, en participant aux arènes JcJ et en gagnant de l'EXP en mode JcJ.</string>
+	<string key="ui_pvp_track_next_track_tooltip" rel_version="PvP_Rewards_Track">Vous devez terminer tous les jalons avant de pouvoir commencer une nouvelle chaîne. Si vous choisissez une récompense à chaque jalon, vous démarrerez automatiquement la chaîne suivante.\n\nChaque jalon pour lequel vous avez renoncé à choisir une récompense vous octroiera 300 sels d'Azoth au démarrage de la chaîne suivante.</string>
+	<string key="ui_pvp_track_unknown_item_tooltip" rel_version="PvP_Rewards_Track">Les choix de récompenses sont révélés en atteignant le jalon.</string>
+	<string key="ui_pvp_insufficient_azoth_salt" rel_version="PvP_Rewards_Track">Sel d'Azoth insuffisant</string>
+	<string key="ui_pvp_cant_unlock" rel_version="PvP_Rewards_Track">Impossible de déverrouiller plus de cet objet</string>
+	<string key="ui_pvp_track_nexttrack_popup_title" rel_version="PvP_Rewards_Track">Commencer une nouvelle chaîne</string>
+	<string key="azoth_salt_currency_desc" rel_version="PvP_Rewards_Track">Le sel d'Azoth est la monnaie vous permettant d'acquérir des récompenses de la chaîne JcJ. Vous pouvez obtenir du sel d'Azoth en menant des guerres, en vous battant en Déferlante, en participant aux arènes JcJ, en accomplissant des missions JcJ, en tuant des joueurs dans le monde ouvert et en gagnant de l'EXP en mode JcJ.\n\nVous pouvez posséder 100 000 sels d'Azoth maximum.</string>
+	<string key="azoth_salt_currency_lost" rel_version="PvP_Rewards_Track">Perte de sel d'Azoth</string>
+	<string key="azoth_salt_lost_tooltip" rel_version="PvP_Rewards_Track">Le sel d'Azoth est la monnaie vous permettant d'acquérir des récompenses de la chaîne JcJ. Vous pouvez obtenir du sel d'Azoth en menant des guerres, en vous battant en Déferlante, en participant aux arènes JcJ, en accomplissant des missions JcJ, en tuant des joueurs dans le monde ouvert et en gagnant de l'EXP en mode JcJ.\n\nVous ne gagnez pas de sel d'Azoth en tuant des joueurs ayant 10 niveaux de moins que vous, et la victime doit avoir activé le mode JcJ depuis plus de 10 minutes.</string>
+	<string key="ui_pvp_track_leveltext_header" rel_version="PvP_Rewards_Track">Chaînes terminées : &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#FFFFFF"&gt;{level}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_current_balance" rel_version="PvP_Rewards_Track">Solde actuel : &lt;font color={colorBalance} face="lyshineui/fonts/CaslonAnt.font"&gt;{balance}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_rankup_stagesummary" rel_version="PvP_Rewards_Track">\n&lt;font color={colorBonus}&gt;Bonus de jalon : &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_pvp_track_rankup_bonussalt" rel_version="PvP_Rewards_Track">&lt;font color={colorBonus}&gt;Bonus de chaîne terminée : &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_pvp_track_bannerrewards_1" rel_version="PvP_Rewards_Track">Réserve de récompenses : \n+Émote</string>
+	<string key="ui_pvp_track_bannerrewards_2" rel_version="PvP_Rewards_Track">Réserve de récompenses : \n+Équipement nommé\n+Monnaie supplémentaire</string>
+	<string key="ui_pvp_track_bannerrewards_3" rel_version="PvP_Rewards_Track">Réserve de récompenses : \n+Équipement de prestige\n+Émote\n+Packs de fioles de sel</string>
+	<string key="ui_pvp_track_bannerrewards_4" rel_version="PvP_Rewards_Track">Réserve de récompenses : \n+Gypse\n+Monnaie supplémentaire\n+Éclats sombres supplémentaires</string>
+	<string key="ui_pvp_track_bannerrewards_5" rel_version="PvP_Rewards_Track">Réserve de récompenses : \n+Émote\n+Éclats sombres supplémentaires </string>
+	<string key="ui_pvp_track_bannerrewards_6" rel_version="PvP_Rewards_Track">Réserve de récompenses : \n+Émote \nMonnaie supplémentaire</string>
+	<string key="ui_pvp_track_next_milestone" rel_version="PvP_Rewards_Track">Jalon de chaîne {milestone} à :</string>
+	<string key="ui_pvp_track_milestone" rel_version="PvP_Rewards_Track">Jalon de chaîne {milestone}</string>
+	<string key="ui_pvp_track_reward" rel_version="PvP_Rewards_Track">Récompense</string>
 	<string key="ui_blacksmithing">Fabrication d'armes</string>
 	<string key="ui_estimated_time">Temps estimé</string>
 	<string key="ui_queue_soon">&lt; 1 minute</string>
@@ -375,12 +408,13 @@
 	<string key="crafting_cannot_repair">Réparations impossibles</string>
 	<string key="crafting_requires_station">Poste adéquat requis.</string>
 	<string key="crafting_repair_no_requirements">Aucune condition nécessaire pour réparer cet objet.</string>
-	<string key="inv_salvage_tooltip" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet confère : {numItems} {itemName}. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet confère : {numItems} {itemName} et {numRepairParts} pièces de réparation. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_onlyrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {numRepairParts} pièces de réparation.{gemMessage}</string>
-	<string key="inv_salvage_tooltip_repairparts_and_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {numRepairParts} pièces de réparation et {coinAmount}.{gemMessage}</string>
-	<string key="inv_salvage_tooltip_range" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet confère : {min}-{max} {itemName}. {gemMessage}</string>
-	<string key="inv_salvage_tooltip_range_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet confère : {min}-{max} {itemName} et {numRepairParts} pièces de réparation. {gemMessage}</string>
+	<string key="inv_salvage_tooltip" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {numItems} x {itemName}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {numItems} x {itemName} et {numRepairParts} pièces de réparation. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_onlyrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {numRepairParts} x pièces de réparation. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_withcoin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_repairparts_and_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {numRepairParts} x pièces de réparation et {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_range" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {min}-{max} x {itemName}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_range_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recycler cet objet vous permettra de récupérer {min}-{max} x {itemName} et {numRepairParts} pièces de réparation. {gemMessage}</string>
 	<string key="inv_salvage_tooltip_gemmessage" comment="this will come after a previous sentence and should have a space in front">Vous aurez une petite chance de récupérer la gemme sertie sur cet objet.</string>
 	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items.">Il est possible d'acquérir des objets supplémentaires tels que : {itemName}.</string>
 	<string key="inv_salvage_tooltip_recipe">Recycler cet objet vous permettra d'apprendre la recette : {recipeName}.</string>
@@ -439,8 +473,11 @@
 	<string key="mm_eu_central" comment="EU means European Union">Europe (Centre)</string>
 	<string key="mm_ap_southeast" comment="AP means Asian Pacific">Asie-Pacifique (Sud-Est)</string>
 	<string key="mm_sa_east" comment="SA means South America">Amérique du Sud (Est)</string>
+	<string key="world_set_region_transfer">Transfert de région</string>
+	<string key="mm_stage_devo">Développement</string>
 	<string key="mm_stage_qa">QA</string>
 	<string key="mm_stage_alpha">Alpha</string>
+	<string key="mm_localhost">Hôte local</string>
 	<string key="mm_charslot_locked_tooltip">L'emplacement de personnage est verrouillé. Cet emplacement n'est pas disponible. Achetez un emplacement de personnage pour débloquer ce personnage.</string>
 	<string key="error_banned">{message}\n\nRaison : [{reason}]</string>
 	<string key="error_perm_ban">Bannissement permanent</string>

@@ -40,7 +40,7 @@
 	<string key="ui_buy_order_expired_title">Kaufauftrag abgelaufen</string>
 	<string key="ui_sell_order_expired_title">Verkaufsauftrag abgelaufen</string>
 	<string key="ui_buy_order_expired_desc">Dein Kaufauftrag in {location} ist abgelaufen für: &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{quantity}x {itemName}&lt;/font&gt;&lt;/font&gt;. Die übrigen &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{gold}&lt;/font&gt;&lt;/font&gt;&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; werden in deine Geldbörse zurückübertragen.</string>
-	<string key="ui_sell_order_expired_desc">Dein Verkaufsauftrag ist abgelaufen für: &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{quantity}x {itemName}&lt;/font&gt;&lt;/font&gt;. Die übrigen Gegenstände werden in &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt; aufbewahrt.</string>
+	<string key="ui_sell_order_expired_desc">Dein Verkaufsauftrag ist abgelaufen für: &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{quantity}x {itemName}&lt;/font&gt;&lt;/font&gt;. Die übrigen Gegenstände werden im &lt;font color="#ffffff"&gt;Lager&lt;/font&gt; in &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt; aufbewahrt.</string>
 	<string key="ui_buy_order_fulfilled_title">Kaufauftrag abgeschlossen</string>
 	<string key="ui_sell_order_fulfilled_title">Verkaufsauftrag abgeschlossen</string>
 	<string key="ui_buy_order_fulfilled_desc">Du hast erfolgreich &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{quantity}x {itemName}&lt;/font&gt;&lt;/font&gt; gekauft! Der Gegenstand steht nun in &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt; für dich bereit.</string>
@@ -110,6 +110,10 @@
 	<string key="ui_contract_failure_already_has_item">Kein weiterer Kauf dieser Gegenstandsart möglich.</string>
 	<string key="ui_contract_failure_insufficient_items">Nicht genug Gegenstände</string>
 	<string key="ui_contract_failure_outpost_storage_full">Siedlungslager voll</string>
+	<string key="ui_contract_failure_freeweekend">Freie Spieler können im Handelsposten weder etwas kaufen noch verkaufen.</string>
+	<string key="ui_contract_failure_previously_freeweekend">Du musst 3 Stunden gespielt haben, um im Handelsposten kaufen oder verkaufen zu können.</string>
+	<string key="ui_contract_freeweekend_encourage">Kaufe New World, um im Handelsposten Gegenstände zu kaufen und zu verkaufen!</string>
+	<string key="ui_contract_previous_freeweekend_encourage">Du musst 3 Stunden gespielt haben, um im Handelsposten kaufen oder verkaufen zu können.</string>
 	<string key="ui_contract_failure_server_error">Serverfehler.</string>
 	<string key="ui_contract_failure_creator_cannot_complete">Du kannst keinen selbst erstellten Auftrag erfüllen.</string>
 	<string key="ui_contract_failure_invalid_request">Die Auftragsanfrage war ungültig.</string>
@@ -117,6 +121,8 @@
 	<string key="ui_contract_failure_throttled">Anfrage wurde abgebrochen. Bitte warte einen Moment und versuche es später erneut.</string>
 	<string key="ui_contract_failure_coin_transferal_disabled">Talertransfer deaktiviert.</string>
 	<string key="ui_contract_failure_trading_post_disabled">Handelsposten deaktiviert.</string>
+	<string key="ui_contract_failure_trading_post_creation_disabled">Erstellung von Handelspostenaufträgen deaktiviert.</string>
+	<string key="ui_contract_failure_trading_post_completion_disabled">Erfüllung von Handelspostenaufträgen deaktiviert.</string>
 	<string key="ui_contract_failure_cooldown">Kann gekauft werden in: {cooldownTime} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" xPadding="0" scale="1.1" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="ui_contract_failure_generic">Irgendwas ist schiefgelaufen. Versuche es bitte erneut.</string>
 	<string key="ui_sell_instant_price">Sofortverkaufspreis</string>
@@ -217,7 +223,7 @@
 	<string key="ui_exclusive_perk_popup_title">Exkl. Effekt ausgewählt</string>
 	<string key="ui_exclusive_perk_popup_message">Du kannst nur einen Effekt dieses Typs haben. Möchtest du deinen aktuell ausgewählten Effekt dieses Typs durch den neu ausgewählten ersetzen?</string>
 	<string key="ui_exclusive_perk_popup_message_no_replace">{newPerkName} und {selectedPerkName} sind exklusiv und können nicht gleichzeitig ausgewählt werden.</string>
-	<string key="ui_max_perk_popup_title">Effektmaximum ausgewählt</string>
+	<string key="ui_max_perk_popup_title">Effektmaximum erreicht</string>
 	<string key="ui_max_perk_popup_message">Du hast das Maximum an Effekten für diesen Gegenstand ausgewählt. Entferne einen Effekt, um einen neuen hinzuzufügen.</string>
 	<string key="ui_remove">entfernen</string>
 	<string key="ui_showonly">Anzeigen:</string>

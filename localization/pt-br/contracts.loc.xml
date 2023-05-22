@@ -40,7 +40,7 @@
 	<string key="ui_buy_order_expired_title">Pedido de Compra Expirou</string>
 	<string key="ui_sell_order_expired_title">Pedido de Venda Expirou</string>
 	<string key="ui_buy_order_expired_desc">Seu pedido de compra de &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} x {quantity}&lt;/font&gt;&lt;/font&gt; expirou em {location}. A quantia restante de &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{gold}&lt;/font&gt;&lt;/font&gt;&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; foi reembolsada em sua carteira.</string>
-	<string key="ui_sell_order_expired_desc">Seu pedido de venda de &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} x {quantity}&lt;/font&gt;&lt;/font&gt; expirou. Os itens restantes serão depositados em &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_sell_order_expired_desc">Seu pedido de venda de &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} x {quantity}&lt;/font&gt;&lt;/font&gt; expirou. Os itens restantes serão depositados no &lt;font color="#ffffff"&gt;Armazém&lt;/font&gt; em &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt;.</string>
 	<string key="ui_buy_order_fulfilled_title">Pedido de Compra Concluído</string>
 	<string key="ui_sell_order_fulfilled_title">Pedido de Venda Concluído</string>
 	<string key="ui_buy_order_fulfilled_desc">Você comprou &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} x {quantity}&lt;/font&gt;&lt;/font&gt; com sucesso! O item agora está disponível em &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt;</string>
@@ -110,6 +110,10 @@
 	<string key="ui_contract_failure_already_has_item">Não é possível comprar mais deste tipo de item.</string>
 	<string key="ui_contract_failure_insufficient_items">Itens insuficientes.</string>
 	<string key="ui_contract_failure_outpost_storage_full">O armazenamento do Assentamento está cheio.</string>
+	<string key="ui_contract_failure_freeweekend">Os jogadores do período gratuito não podem comprar nem vender no entreposto comercial.</string>
+	<string key="ui_contract_failure_previously_freeweekend">Você precisa ter jogado por 3 horas para comprar ou vender no Entreposto Comercial.</string>
+	<string key="ui_contract_freeweekend_encourage">Adquira o New World para comprar e vender itens no Entreposto Comercial!</string>
+	<string key="ui_contract_previous_freeweekend_encourage">Você precisa ter jogado por 3 horas para comprar ou vender no Entreposto Comercial.</string>
 	<string key="ui_contract_failure_server_error">Erro no servidor.</string>
 	<string key="ui_contract_failure_creator_cannot_complete">Você não pode concluir um pedido que você mesmo criou.</string>
 	<string key="ui_contract_failure_invalid_request">A solicitação do pedido era inválida.</string>
@@ -117,6 +121,8 @@
 	<string key="ui_contract_failure_throttled">A solicitação foi interrompida. Aguarde e tente novamente.</string>
 	<string key="ui_contract_failure_coin_transferal_disabled">Transferência de moedas desativada.</string>
 	<string key="ui_contract_failure_trading_post_disabled">Entreposto Comercial desativado.</string>
+	<string key="ui_contract_failure_trading_post_creation_disabled">A criação de contrato de Entreposto Comercial está desativada.</string>
+	<string key="ui_contract_failure_trading_post_completion_disabled">A conclusão de contrato de Entreposto Comercial está desativada.</string>
 	<string key="ui_contract_failure_cooldown">Pode comprar em: {cooldownTime} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" xPadding="0" scale="1.1" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="ui_contract_failure_generic">Algo deu errado. Tente novamente.</string>
 	<string key="ui_sell_instant_price">Preço de Venda Instantânea</string>
@@ -217,7 +223,7 @@
 	<string key="ui_exclusive_perk_popup_title">Vantagem Exclusiva Selec.</string>
 	<string key="ui_exclusive_perk_popup_message">Só é possível ter uma vantagem deste tipo. Deseja substituir o tipo de vantagem atual pelo selecionado?</string>
 	<string key="ui_exclusive_perk_popup_message_no_replace">{newPerkName} e {selectedPerkName} são exclusivos e não podem ser selecionados ao mesmo tempo.</string>
-	<string key="ui_max_perk_popup_title">Máx. de Vantagens Selecionadas</string>
+	<string key="ui_max_perk_popup_title">Máximo de Vantagens</string>
 	<string key="ui_max_perk_popup_message">Você alcançou o número máximo de vantagens permitidas para este item. Remova uma vantagem para adicionar mais uma.</string>
 	<string key="ui_remove">remover</string>
 	<string key="ui_showonly">Mostrar somente:</string>

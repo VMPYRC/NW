@@ -620,6 +620,12 @@
 	<string key="ui_exit_auto_target">Quitter l'autosélection</string>
 	<string key="ui_cycle_target_up">Parc. cibles (H)</string>
 	<string key="ui_cycle_target_down">Parc. cibles (B)</string>
+	<string key="ui_target_group1">Cibler le membre du groupe 1</string>
+	<string key="ui_target_group2">Cibler le membre du groupe 2</string>
+	<string key="ui_target_group3">Cibler le membre du groupe 3</string>
+	<string key="ui_target_group4">Cibler le membre du groupe 4</string>
+	<string key="ui_target_group5">Cibler le membre du groupe 5</string>
+	<string key="ui_target_groupmode_toggle">Activer le mode de groupe</string>
 	<string key="ui_slot_unlock_at">Déverrouillé au niveau {level}</string>
 	<string key="ui_slot_unlock_at_abbr">Niv. {level}</string>
 	<string key="ui_quickslot_mainhand_tooltip">Emplacement de main directrice\n\nVous pouvez accéder à l'arme de cet emplacement grâce à la touche correspondante.</string>
@@ -630,6 +636,11 @@
 	<string key="ui_quickslot_skinning_tooltip">Emplacement de couteau à dépecer</string>
 	<string key="ui_quickslot_pickaxe_tooltip">Emplacement de pioche de mineur</string>
 	<string key="ui_quickslot_azoth_tooltip">Emplacement de bâton d'Azoth</string>
+	<string key="ui_quickslot_flute_tooltip" rel_version="Feature_MusicalPerformances">Emplacement de flûte</string>
+	<string key="ui_quickslot_guitar_tooltip" rel_version="Feature_MusicalPerformances">Emplacement de guitare</string>
+	<string key="ui_quickslot_mandolin_tooltip" rel_version="Feature_MusicalPerformances">Emplacement de mandoline</string>
+	<string key="ui_quickslot_bass_tooltip" rel_version="Feature_MusicalPerformances">Emplacement de contrebasse</string>
+	<string key="ui_quickslot_drums_tooltip" rel_version="Feature_MusicalPerformances">Emplacement des tambours</string>
 	<string key="ui_buildmode_grid">CONSTRUCTION</string>
 	<string key="ui_wave">Saluer</string>
 	<string key="ui_inspect_player">Actions sociales</string>
@@ -962,8 +973,8 @@
 	<string key="ui_help">aide</string>
 	<string key="ui_navmenu_get_help">Obtenir de l'aide</string>
 	<string key="ui_navmenu_get_help_desc">La page d'aide de New World donne accès à la FAQ et à l'assistance technique.</string>
-	<string key="ui_quitpopup_title">VRAIMENT QUITTER</string>
-	<string key="ui_quitpopup_incombat_title">QUITTER LE COMBAT EN COURS</string>
+	<string key="ui_quitpopup_title">RETOURNER AU MENU</string>
+	<string key="ui_quitpopup_incombat_title">QUITTER LE COMBAT</string>
 	<string key="ui_quitpopup_criminal_title">QUITTER EN TANT QUE CRIMINEL</string>
 	<string key="ui_quitpopup_murderer_title">QUITTER EN TANT QUE MEURTRIER</string>
 	<string key="ui_quitdesktoppopup_message">Voulez-vous vraiment retourner au bureau ?</string>
@@ -1412,6 +1423,7 @@
 	<string key="ui_claimstreak">Jour {number}</string>
 	<string key="ui_random_location">Emplacement aléatoire</string>
 	<string key="ui_scroll_hint">Zoomer avec molette</string>
+	<string key="ui_map_rotate_camera">(Maintenir) Pivoter la caméra</string>
 	<string key="ui_global_storage_description">Les autres joueurs ne peuvent pas voir ni prendre les objets que vous laissez ici. Vous devez retourner dans cet avant-poste pour récupérer les objets.</string>
 	<string key="ui_apply_all_resources">Appliquer toutes les ressources</string>
 	<string key="ui_apply_resources">Appliquer les ressources</string>
@@ -1503,7 +1515,7 @@
 	<string key="ui_upgrade_tooltip_disabled_items">Il vous faut au moins {quantity} {itemName} de plus pour augmenter le score d'équipement de cet objet.</string>
 	<string key="ui_upgrade_tooltip_disabled_skill">Vous ne pouvez améliorer que des types d'objet avec lesquels vous avez &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.2" yOffset="1"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{neededValue} d'expertise&lt;/font&gt;.\n(Expertise actuelle de {expertiseName} : &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.2" yOffset="1"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{currentValue}&lt;/font&gt;)</string>
 	<string key="ui_upgrade_tooltip_disabled_broken">Les objets brisés ne peuvent pas être améliorés.</string>
-	<string key="ui_upgrade_tooltip_disabled_gearscore">Vous ne pouvez améliorer des objets qu'avec au moins {gearScore} de score d'équipement</string>
+	<string key="ui_upgrade_tooltip_disabled_gearscore">Vous ne pouvez améliorer des objets qu'avec au moins &lt;font color="#ffffff"&gt;{gearScore}+&lt;/font&gt; de score d'équipement</string>
 	<string key="ui_upgrade_notification">Le score d'équipement de l'objet est passé à &lt;font color="#fffd7a"&gt;{baseGearScore}&lt;/font&gt;.</string>
 	<string key="ui_cannot_replace_gem_tooltip">Impossible de remplacer cette gemme.</string>
 	<string key="ui_no_gems_tooltip">Aucune gemme disponible</string>
@@ -1725,6 +1737,7 @@
 	<string key="ui_mapmenu_warlist_failure_timeout">Requête expirée. Veuillez réessayer.</string>
 	<string key="ui_mapmenu_warlist_failure_generic">Une erreur s'est produite. Veuillez réessayer.</string>
 	<string key="ui_mapmenu_warlist_retry">Réessayer</string>
+	<string key="ui_mapmenu_manage_objectives">Gestion des objectifs</string>
 	<string key="ui_mapmenu_territorystandings">Réputations de territoire</string>
 	<string key="ui_mapmenu_territorystandings_subtext">Les niveaux de réputation de territoire vous permettent de déverrouiller des avantages sur celui-ci.</string>
 	<string key="ui_mapmenu_territorystandings_spendprompt">ACHETEZ UNE RÉCOMPENSE DE TERRITOIRE !</string>
@@ -1753,6 +1766,7 @@
 	<string key="ui_arena_group_proximity">Le membre du groupe est trop loin.</string>
 	<string key="ui_arena_group_dead">Membre du groupe mort</string>
 	<string key="ui_arena_activating">Activation en cours</string>
+	<string key="ui_arena_required_item_disabled">Objet requis temporairement désactivé</string>
 	<string key="spriggan_name">Zygoramet</string>
 	<string key="ui_exit_dungeon_title">Quitter l'expédition ?</string>
 	<string key="ui_dungeon_exit">Portail de sortie de l'expédition</string>
@@ -1805,9 +1819,9 @@
 	<string key="ui_time_interval_format_timezone">{startTime} - {endTime}\n{timezone}</string>
 	<string key="ui_repair_tooltip">Requis pour réparer :\n{skillName} de niveau {skillLevel}\nou\n{repairName} de niveau {repairLevel}</string>
 	<string key="ui_station_desc_text" comment="{stationName} is the type of station, like 'Blacksmith'. {tier} is the required tier. {current} is the current tier.">{stationName} {tier} {current}</string>
-	<string key="ui_station_skill_desc_text" comment="{skillName} is the type of skill, like 'Blacksmithing'. {skillLoc} is currently being replaced by the word for 'Skill'. If another language needs to be something like 'Skill Blacksmithing', these need to be swapped around. {level} is for required skill level. {current} is for current skill level.">{skillLoc} en {skillName} de niveau {current}. Niveau requis : {level}.</string>
+	<string key="ui_station_skill_desc_text" comment="{skillName} is the type of skill, like 'Blacksmithing'. {level} is for required skill level. {current} is for current skill level.">{skillName} {level} {current}</string>
 	<string key="ui_crating_tree_item_tradeskill_desc" comment="{skillName} is the type of skill, like 'Blacksmithing'. {skillLoc} is currently being replaced by the word for 'Skill'. If another language needs to be something like 'Skill Blacksmithing', these need to be swapped around.{required} is for required skill level.">{skillName} {skillLoc} Requis : {required}</string>
-	<string key="ui_station_skill_header" comment="{skillName} is the type of skill, like 'Blacksmithing'. {skillLoc} is currently being replaced by the word for 'Skill'. If another language needs to be something like 'Skill Blacksmithing', these need to be swapped around.">{skillName} {skillLoc}</string>
+	<string key="ui_station_skill_header" comment="{skillName} is the type of skill, like 'Blacksmithing'.">{skillName}</string>
 	<string key="ui_station_tooltip_text">{stationName} Palier {tierRequired}</string>
 	<string key="ui_has_resources">Ressources disponibles</string>
 	<string key="ui_deadnotification_title">« VOUS ÊTES MORT. »</string>
@@ -1827,6 +1841,8 @@
 	<string key="ui_ability3">Capacité d'arme 3</string>
 	<string key="ui_pending_afk_disconnect">Jouez-vous encore ?</string>
 	<string key="ui_pending_afk_disconnect_description">Aucun mouvement n'a été détecté et vous allez être éjecté de la partie. Si vous jouez encore, déplacez votre personnage.</string>
+	<string key="ui_pending_freeweekend_session_ending_title">La session gratuite se termine bientôt</string>
+	<string key="ui_pending_freeweekend_session_ending_desc">Si ce monde dispose d'une file d'attente, vous retournerez au menu principal lorsque le temps est écoulé. Sinon, la durée de la session sera prolongée de {time} supplémentaires.</string>
 	<string key="ui_structure_name_too_long">Le nom de la structure est trop long. Veuillez réessayer.</string>
 	<string key="ui_structure_name_invalid_characters">Le nom de la structure contient des caractères interdits. Veuillez réessayer.</string>
 	<string key="ui_structure_name_profanity">Le nom de la structure contient des termes grossiers. Veuillez réessayer.</string>
@@ -1895,6 +1911,7 @@
 	<string key="ui_coin_max_withdrawal_tooltip">Votre bourse est limitée à {amount} pièces.\nC'est le maximum que vous pouvez recevoir sans dépasser cette limite.</string>
 	<string key="ui_coin_max_sellorder_tooltip">Votre bourse est limitée à {amount} pièces.\nToute pièce en excès au moment de la vente sera perdue.</string>
 	<string key="ui_coin_max_trade_tooltip">Votre bourse est limitée à {amount} pièces.\nCe joueur essaie de vous donner plus de pièces que vous ne pouvez en porter. Toute pièce en excès lui sera rendue.</string>
+	<string key="ui_coin_max_cantwithdraw_tooltip">Votre bourse est pleine. Vous ne pouvez retirer aucune pièce de la trésorerie de votre compagnie.</string>
 	<string key="ui_listing_duration_tooltip">Des listes plus longues entraîneront des frais d'inscription plus élevés.</string>
 	<string key="ui_groupsize_identifier">Taille de groupe recommandée : {groupSize}</string>
 	<string key="ui_level_identifier">Niveau recommandé : {level}</string>
@@ -2090,13 +2107,15 @@
 	<string key="ui_mergecomplete_question_3">Ai-je perdu ma compagnie ?</string>
 	<string key="ui_mergecomplete_question_4">Mes ordres de vente et d'achat sont-ils restés affichés ?</string>
 	<string key="ui_mergecomplete_answer_1">Le niveau, les points de caractéristiques et les points de maîtrise de votre personnage ont été conservés, ainsi que votre réputation de territoire, votre maison, votre inventaire et vos rangements de colonie.</string>
-	<string key="ui_mergecomplete_answer_2">Les territoires du nouveau monde seront revendiqués par les compagnies de ce monde. Si votre compagnie n'est pas de ce monde, vous perdrez tous vos territoires, toutes les améliorations, et votre compagnie recevra 50 000 pièces.</string>
-	<string key="ui_mergecomplete_answer_3">La fusion n'a pas séparé les joueurs, et chaque compagnie conserve ses membres et sa bourse. Aucune guerre ne peut être déclarée dans les trois jours précédant la fusion.</string>
+	<string key="ui_mergecomplete_answer_2">Les territoires du nouveau monde seront revendiqués par les compagnies de ce monde. Si votre compagnie n'est pas de ce monde, vous perdrez tous vos territoires, toutes les améliorations, et votre compagnie recevra {coinAmount} pièces.</string>
+	<string key="ui_mergecomplete_answer_3">La fusion de mondes ne sépare pas les joueurs et chaque compagnie conserve ses membres et sa bourse. Les guerres ne peuvent plus être déclarées {bufferTime} avant la fusion des mondes.</string>
 	<string key="ui_mergecomplete_answer_4">Les objets mis en vente vous seront retournés et vous conserverez le montant reçu pour vos ventes partielles. Les montants acquittés pour les taxes ou les frais d'inscription ne seront pas remboursés.</string>
 	<string key="ui_merge_region">Région</string>
 	<string key="ui_merge_world">Monde</string>
 	<string key="ui_merge_character">Personnage</string>
 	<string key="ui_merge_time">Temps restant</string>
+	<string key="ui_freeweekend_worldwarning_title">Mondes du week-end gratuits</string>
+	<string key="ui_freeweekend_worldwarning_desc">Sélectionnez le monde dans lequel vous voulez jouer pendant le week-end gratuit. Les mondes qui ne sont pas marqués comme gratuits disposent de sessions limitées étendues chaque {time} s'il n'y a pas de joueurs payants dans la file d'attente.</string>
 	<string key="ui_queue_depth">Joueurs dans la file : &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{numplayers}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_expected_wait_time">Temps d'attente estimé : &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_collapse">Réduire</string>
@@ -2266,6 +2285,7 @@
 	<string key="ui_itemtypedescription_bow">Arc</string>
 	<string key="ui_itemtypedescription_musket">Mousquet</string>
 	<string key="ui_itemtypedescription_blunderbuss" rel_version="Weapon_Blunderbuss">Tromblon</string>
+	<string key="ui_itemtypedescription_greatsword" rel_version="Weapon_GreatSword">Épée longue</string>
 	<string key="ui_itemtypedescription_pistol">Pistolet</string>
 	<string key="ui_itemtypedescription_lifestaff">Bâton de vie</string>
 	<string key="ui_itemtypedescription_firestaff">Bâton de feu</string>
@@ -2345,6 +2365,7 @@
 	<string key="ui_cannot_chat_global_blocked">Impossible de discuter dans ce canal avec un compte de moins de {hoursNeeded} heures et un temps de jeu de moins de {playtimeNeeded}.</string>
 	<string key="ui_complete_quests_to_unlock">Déverrouillé en terminant des quêtes dans la colonie.</string>
 	<string key="ui_cannot_chat_trading_blocked">Pour accéder à ce canal, votre compte doit avoir au moins {hoursNeeded} au compteur, votre temps de jeu doit être supérieur à {playtimeNeeded} et le comptoir doit être déverrouillé.</string>
+	<string key="ui_treasury_purchase_nw">Achetez New World pour utiliser la trésorerie de l'entreprise</string>
 	<string key="ui_averageexpertise">Expertise\nmoyenne</string>
 	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Expertise&lt;/font&gt;\nL'expertise permet de mesurer la puissance maximum d'un objet lorsque vous vous en équipez.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Expertise max que vous pouvez atteindre&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Comment améliorer l'expertise&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Des lieux remarquables et des expéditions d'élite&lt;/font&gt;\nDes objets octroyés par des créatures ou trouvés dans des coffres dans les zones de niveau 60 et plus ont une probabilité d'augmenter cette valeur.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Fabrication&lt;/font&gt;\nFabriquer un objet dont le score d'équipement est de 600 augmentera l'expertise de ce type d'objet.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Moule en gypse&lt;/font&gt;\nOuvrir un moule en gypse augmente l'expertise.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Amélioration d'objets (avec des éclats sombres)&lt;/font&gt;\nAprès avoir atteint une expertise de 600, le seul moyen d'augmenter davantage celle-ci est d'améliorer des objets avec des éclats sombres.</string>
 	<string key="ui_itemtypedescription_shield_only">Bouclier</string>

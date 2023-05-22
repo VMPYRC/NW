@@ -620,6 +620,12 @@
 	<string key="ui_exit_auto_target">Sair da Autosseleção</string>
 	<string key="ui_cycle_target_up">Alternar para Próximo Alvo</string>
 	<string key="ui_cycle_target_down">Alternar para Alvo Anterior</string>
+	<string key="ui_target_group1">Mirar no Membro do Grupo 1</string>
+	<string key="ui_target_group2">Mirar no Membro do Grupo 2</string>
+	<string key="ui_target_group3">Mirar no Membro do Grupo 3</string>
+	<string key="ui_target_group4">Mirar no Membro do Grupo 4</string>
+	<string key="ui_target_group5">Mirar no Membro do Grupo 5</string>
+	<string key="ui_target_groupmode_toggle">Alternar Modo de Grupo</string>
 	<string key="ui_slot_unlock_at">Desbloq. no nível {level}</string>
 	<string key="ui_slot_unlock_at_abbr">Nv. {level}</string>
 	<string key="ui_quickslot_mainhand_tooltip">Espaço de Mão Principal\n\nUma arma colocada neste espaço pode ser alternada pressionando a tecla correspondente.</string>
@@ -630,6 +636,11 @@
 	<string key="ui_quickslot_skinning_tooltip">Espaço de Faca de Esfolar</string>
 	<string key="ui_quickslot_pickaxe_tooltip">Espaço de Picareta de Mineração</string>
 	<string key="ui_quickslot_azoth_tooltip">Espaço de Bastão de Azoth</string>
+	<string key="ui_quickslot_flute_tooltip" rel_version="Feature_MusicalPerformances">Espaço de Flauta</string>
+	<string key="ui_quickslot_guitar_tooltip" rel_version="Feature_MusicalPerformances">Espaço de Violão</string>
+	<string key="ui_quickslot_mandolin_tooltip" rel_version="Feature_MusicalPerformances">Espaço de Bandolim</string>
+	<string key="ui_quickslot_bass_tooltip" rel_version="Feature_MusicalPerformances">Espaço de Contrabaixo</string>
+	<string key="ui_quickslot_drums_tooltip" rel_version="Feature_MusicalPerformances">Espaço de Tambor</string>
 	<string key="ui_buildmode_grid">Grade do Modo Construção</string>
 	<string key="ui_wave">Acenar</string>
 	<string key="ui_inspect_player">Ações Sociais</string>
@@ -1412,6 +1423,7 @@
 	<string key="ui_claimstreak">Dia {number}</string>
 	<string key="ui_random_location">Local Aleatório</string>
 	<string key="ui_scroll_hint">Zoom</string>
+	<string key="ui_map_rotate_camera">(Segurar) Rotacionar Câmera</string>
 	<string key="ui_global_storage_description">Outros jogadores não podem pegar nem ver os itens que você colocar aqui. Você deve retornar a este posto avançado para recuperar os itens.</string>
 	<string key="ui_apply_all_resources">Aplicar Todos os Recursos</string>
 	<string key="ui_apply_resources">Aplicar Recursos</string>
@@ -1503,7 +1515,7 @@
 	<string key="ui_upgrade_tooltip_disabled_items">Você precisa de, no mínimo, mais {quantity} {itemName} para aumentar a Pontuação do Equipamento deste item.</string>
 	<string key="ui_upgrade_tooltip_disabled_skill">Você só pode aprimorar os tipos de item com os quais possui &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.2" yOffset="1"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{neededValue} de Proficiência&lt;/font&gt;.\n(Proficiência de {expertiseName} atual: &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.2" yOffset="1"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{currentValue}&lt;/font&gt;)</string>
 	<string key="ui_upgrade_tooltip_disabled_broken">Não é possível aprimorar itens quebrados.</string>
-	<string key="ui_upgrade_tooltip_disabled_gearscore">Você só pode aprimorar itens com Pontuação do Equipamento acima de {gearScore}</string>
+	<string key="ui_upgrade_tooltip_disabled_gearscore">Você só pode aprimorar itens com Pontuação do Equipamento acima de &lt;font color="#ffffff"&gt;{gearScore}&lt;/font&gt;.</string>
 	<string key="ui_upgrade_notification">A Pontuação do Equipamento deste item foi aprimorada para &lt;font color="#fffd7a"&gt;{baseGearScore}&lt;/font&gt;.</string>
 	<string key="ui_cannot_replace_gem_tooltip">Não é possível substituir esta gema.</string>
 	<string key="ui_no_gems_tooltip">Não há gemas disponíveis</string>
@@ -1725,6 +1737,7 @@
 	<string key="ui_mapmenu_warlist_failure_timeout">O pedido expirou. Tente novamente.</string>
 	<string key="ui_mapmenu_warlist_failure_generic">Algo deu errado. Tente novamente.</string>
 	<string key="ui_mapmenu_warlist_retry">Tentar Novamente</string>
+	<string key="ui_mapmenu_manage_objectives">Gerenciar Objetivos</string>
 	<string key="ui_mapmenu_territorystandings">Posição de Territórios</string>
 	<string key="ui_mapmenu_territorystandings_subtext">Os níveis da posição do território permitem desbloquear benefícios dentro do território.</string>
 	<string key="ui_mapmenu_territorystandings_spendprompt">COMPRAR RECOMPENSA DO TERRITÓRIO!</string>
@@ -1753,6 +1766,7 @@
 	<string key="ui_arena_group_proximity">O membro do grupo está muito longe</string>
 	<string key="ui_arena_group_dead">O membro do grupo está morto</string>
 	<string key="ui_arena_activating">Ativação em andamento</string>
+	<string key="ui_arena_required_item_disabled">Item necessário temporariamente desativado</string>
 	<string key="spriggan_name">Zygoramet</string>
 	<string key="ui_exit_dungeon_title">Sair da Expedição?</string>
 	<string key="ui_dungeon_exit">Portal de Saída da Expedição</string>
@@ -1805,9 +1819,9 @@
 	<string key="ui_time_interval_format_timezone">{startTime} - {endTime}\n{timezone}</string>
 	<string key="ui_repair_tooltip">Reparo requer:\n Nível {skillLevel} de {skillName}\nou\nNível {repairLevel} de {repairName}</string>
 	<string key="ui_station_desc_text" comment="{stationName} is the type of station, like 'Blacksmith'. {tier} is the required tier. {current} is the current tier.">{stationName} {tier} {current}</string>
-	<string key="ui_station_skill_desc_text" comment="{skillName} is the type of skill, like 'Blacksmithing'. {skillLoc} is currently being replaced by the word for 'Skill'. If another language needs to be something like 'Skill Blacksmithing', these need to be swapped around. {level} is for required skill level. {current} is for current skill level.">{skillLoc} de {skillName} {level} {current}</string>
+	<string key="ui_station_skill_desc_text" comment="{skillName} is the type of skill, like 'Blacksmithing'. {level} is for required skill level. {current} is for current skill level.">{skillName} {level} {current}</string>
 	<string key="ui_crating_tree_item_tradeskill_desc" comment="{skillName} is the type of skill, like 'Blacksmithing'. {skillLoc} is currently being replaced by the word for 'Skill'. If another language needs to be something like 'Skill Blacksmithing', these need to be swapped around.{required} is for required skill level.">{skillLoc} de {skillName} Necessária: {required}</string>
-	<string key="ui_station_skill_header" comment="{skillName} is the type of skill, like 'Blacksmithing'. {skillLoc} is currently being replaced by the word for 'Skill'. If another language needs to be something like 'Skill Blacksmithing', these need to be swapped around.">{skillLoc} de {skillName}</string>
+	<string key="ui_station_skill_header" comment="{skillName} is the type of skill, like 'Blacksmithing'.">{skillName}</string>
 	<string key="ui_station_tooltip_text">{stationName} de Escala {tierRequired}</string>
 	<string key="ui_has_resources">Tem Recursos</string>
 	<string key="ui_deadnotification_title">VOCÊ MORREU</string>
@@ -1827,6 +1841,8 @@
 	<string key="ui_ability3">Habilidade de Arma 3</string>
 	<string key="ui_pending_afk_disconnect">Você ainda está jogando?</string>
 	<string key="ui_pending_afk_disconnect_description">Foi detectado que você está inativo, logo será expulso automaticamente do jogo. Se você ainda estiver jogando, mova seu personagem.</string>
+	<string key="ui_pending_freeweekend_session_ending_title">A Sessão Gratuita Acaba Em Breve</string>
+	<string key="ui_pending_freeweekend_session_ending_desc">Se este Mundo tiver uma fila, quando o tempo acabar, você retornará ao Menu Principal. Caso contrário, o tempo da sessão será estendido por mais {time}.</string>
 	<string key="ui_structure_name_too_long">O nome da estrutura é longo demais. Tente novamente.</string>
 	<string key="ui_structure_name_invalid_characters">O nome da estrutura contém caracteres inválidos. Tente novamente.</string>
 	<string key="ui_structure_name_profanity">O nome da estrutura contém palavras impróprias. Tente novamente.</string>
@@ -1895,6 +1911,7 @@
 	<string key="ui_coin_max_withdrawal_tooltip">Sua carteira tem o limite de {amount} Moedas.\nEssa quantidade é o máximo que você pode pegar sem exceder o limite.</string>
 	<string key="ui_coin_max_sellorder_tooltip">Sua carteira tem o limite de {amount} Moedas.\nVocê perderá quaisquer moedas que excederem o limite no momento da venda.</string>
 	<string key="ui_coin_max_trade_tooltip">Sua carteira tem o limite de {amount} Moedas.\nO outro jogador está tentando te dar mais moedas que você pode carregar. Ele reembolsará qualquer excesso de Moedas.</string>
+	<string key="ui_coin_max_cantwithdraw_tooltip">Sua carteira está cheia. Você não pode retirar nenhuma Moeda da Tesouraria da Companhia.</string>
 	<string key="ui_listing_duration_tooltip">Listagens mais longas resultarão em taxas de listagem mais altas.</string>
 	<string key="ui_groupsize_identifier">Tamanho Recomendado do Grupo: {groupSize}</string>
 	<string key="ui_level_identifier">Nível Recomendado: {level}</string>
@@ -2090,13 +2107,15 @@
 	<string key="ui_mergecomplete_question_3">Perdi minha companhia?</string>
 	<string key="ui_mergecomplete_question_4">Meus contratos de compra/venda continuaram publicados?</string>
 	<string key="ui_mergecomplete_answer_1">O nível, os pontos de atributo, os pontos de maestria, a posição do território, a casa, o inventário e o armazém do assentamento do seu personagem foram preservados.</string>
-	<string key="ui_mergecomplete_answer_2">Os territórios do mundo novo serão conquistados pelas Companhias de lá. Se a sua Companhia não for de lá, você perderá todos os territórios e aprimoramentos, mas a Companhia receberá 50.000 moedas.</string>
-	<string key="ui_mergecomplete_answer_3">Jogadores nunca serão separados por causa de uma fusão. A carteira e a associação a uma Companhia foram preservadas. Não é possível declarar guerras 3 dias antes de uma fusão.</string>
+	<string key="ui_mergecomplete_answer_2">Os territórios do mundo novo serão conquistados pelas Companhias de lá. Se a sua Companhia não for de lá, você perderá todos os territórios e aprimoramentos, mas a Companhia receberá {coinAmount} moedas.</string>
+	<string key="ui_mergecomplete_answer_3">Jogadores nunca serão separados por causa de uma fusão de Mundos. A carteira e a associação a uma Companhia foram preservadas. Não é possível declarar guerras {bufferTime} antes de uma fusão.</string>
 	<string key="ui_mergecomplete_answer_4">Os itens postos à venda serão devolvidos a você. Você poderá ficar com as moedas de vendas parciais. Moedas pagas por impostos ou taxas de listagem não serão devolvidas.</string>
 	<string key="ui_merge_region">Região</string>
 	<string key="ui_merge_world">Mundo</string>
 	<string key="ui_merge_character">Personagem</string>
 	<string key="ui_merge_time">Tempo Restante</string>
+	<string key="ui_freeweekend_worldwarning_title">Mundos do Fim de Semana Gratuito</string>
+	<string key="ui_freeweekend_worldwarning_desc">Selecione um mundo para jogar durante o Fim de Semana Gratuito. Mundos que não são marcados como gratuitos têm sessões limitadas estendidas a cada {time} se não houver jogadores do jogo pago na fila.</string>
 	<string key="ui_queue_depth">Jogadores na fila: &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{numplayers}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_expected_wait_time">Tempo de espera estimado: &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_collapse">Recolher</string>
@@ -2266,6 +2285,7 @@
 	<string key="ui_itemtypedescription_bow">Arco</string>
 	<string key="ui_itemtypedescription_musket">Mosquete</string>
 	<string key="ui_itemtypedescription_blunderbuss" rel_version="Weapon_Blunderbuss">Bacamarte</string>
+	<string key="ui_itemtypedescription_greatsword" rel_version="Weapon_GreatSword">Espada Grande</string>
 	<string key="ui_itemtypedescription_pistol">Pistola</string>
 	<string key="ui_itemtypedescription_lifestaff">Bastão Vital</string>
 	<string key="ui_itemtypedescription_firestaff">Bastão Flamejante</string>
@@ -2345,6 +2365,7 @@
 	<string key="ui_cannot_chat_global_blocked">Não é possível conversar neste canal até sua conta ter mais de {hoursNeeded} horas e seu tempo de jogo ser maior que {playtimeNeeded}</string>
 	<string key="ui_complete_quests_to_unlock">Conclua jornadas no assentamento para desbloquear</string>
 	<string key="ui_cannot_chat_trading_blocked">Para acessar este canal, sua conta deve ter mais do que {hoursNeeded} horas, seu tempo de jogo deve ser maior que {playtimeNeeded} e o Entreposto Comercial deve estar desbloqueado.</string>
+	<string key="ui_treasury_purchase_nw">Adquira o New World para US|O da Tesouraria da Companhia</string>
 	<string key="ui_averageexpertise">Proficiência\nMédia</string>
 	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Proficiência&lt;/font&gt;\nA Proficiência é usada para medir a potência máxima de um item quando você o tem equipado.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Proficiência máxima que você pode alcançar&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Como aumentar a Proficiência&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;PDI de Elite e Expedições&lt;/font&gt;\nItens obtidos de criaturas ou baús em áreas de nível acima de 60 têm uma chance de aumentar esse valor.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Confecção&lt;/font&gt;\nConfeccionar um item com uma Pontuação do Equipamento de 600 aumentará a Proficiência desse tipo de item.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Molde de Gipsita&lt;/font&gt;\nAbrir um Molde de Gipsita aumentará a Proficiência.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Aprimorar Item (com Lascas de Umbral)&lt;/font&gt;\nApós atingir 600 de Proficiência, a única maneira de aumentá-la é aprimorando itens com Lascas de Umbral.</string>
 	<string key="ui_itemtypedescription_shield_only">Escudo</string>

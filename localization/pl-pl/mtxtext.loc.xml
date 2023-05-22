@@ -12,7 +12,7 @@
 	<string key="ui_weaponskins" rel_version="Feature_MTX">Skórki broni</string>
 	<string key="ui_toolskins" rel_version="Feature_MTX">Skórki narzędzi</string>
 	<string key="ui_housingitems" rel_version="Feature_MTX">Przedmioty domowe</string>
-	<string key="ui_world_transfer_mtx" rel_version="Feature_MTX">Przeniesienie między światami</string>
+	<string key="ui_world_transfer_mtx" rel_version="Feature_MTX">Przenoszenie postaci</string>
 	<string key="ui_guildcrestcolors" rel_version="Feature_MTX">Herby kompanii</string>
 	<string key="ui_bundles" rel_version="Feature_MTX">Paczki</string>
 	<string key="ui_orderhistory" rel_version="Feature_MTX">Odblokowane przedmioty</string>
@@ -56,7 +56,7 @@
 	<string key="reward_type_extra" rel_version="Feature_MTX">Dodatk.</string>
 	<string key="reward_type_entitlement" rel_version="Feature_MTX">UPRAWNIENIE</string>
 	<string key="reward_type_marks_of_fortune" rel_version="Feature_MTX">Marki losu</string>
-	<string key="reward_type_service" rel_version="Feature_MTX">Przeniesienie między światami</string>
+	<string key="reward_type_service" rel_version="Feature_MTX">Przeniesienie między światami (jednorazowe)</string>
 	<string key="entitlement_included" rel_version="Feature_MTX">Wliczone</string>
 	<string key="ui_account_bound" rel_version="Feature_MTX">Wszystkie przedmioty są powiązane z kontem (nie da się ich sprzedać) i nie podlegają zwrotowi</string>
 	<string key="ui_account_bound_tooltip" rel_version="Feature_MTX">Wszystkie przedmioty są powiązane z kontem (mogą ich używać wszystkie twoje postacie). Nie da się ich wyrzucić, wymienić ani sprzedać w faktorii. Nie podlegają również zwrotowi.\n\n&lt;font face="lyshineui/fonts/Nimbus_Bold.font" &gt;Przedmioty użytkowe: &lt;/font&gt; Gdy skorzystasz z takiego przedmiotu określoną postacią, zostanie on zużyty i nie będzie dostępny dla innych postaci. Powiedzmy, że masz pięć barwników i użyjesz jednego z nich, grając postacią A – w ten sposób zostaną ci cztery barwniki. Jeśli przełączysz się na postać B (przypisaną do tego samego konta), również będzie ona mieć do dyspozycji tylko cztery barwniki.</string>
@@ -79,13 +79,14 @@
 	<string key="ui_fixed_appearance" rel_version="Feature_MTX">Stały wygląd</string>
 	<string key="ui_fixed_appearance_tooltip" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Skórki&lt;/font&gt; są nakładane na postać i zostaną zastosowane do każdego przedmiotu osadzonego w tym samym miejscu do czasu zmiany wyglądu lub usunięcia przedmiotu.\n\n&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Skórek&lt;/font&gt; nie można farbować.</string>
 	<string key="ui_transfer_requirement" rel_version="Feature_MTX">Wymagania dla przeniesienia</string>
-	<string key="ui_transfer_requirement_tooltip_world_transfer_requirements" rel_version="Feature_MTX">Aby przenieść postać do nowego świata:</string>
-	<string key="ui_transfer_requirement_tooltip_region_transfer_requirements" rel_version="Feature_MTX">Aby przenieść postać do nowego regionu:</string>
+	<string key="ui_transfer_requirement_tooltip_world_transfer_requirements" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/nimbus_bold.font" &gt;Aby przenieść postać do nowego świata:&lt;/font&gt;</string>
+	<string key="ui_transfer_requirement_tooltip_region_transfer_requirements" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/nimbus_bold.font" &gt;Aby przenieść postać do nowego regionu:&lt;/font&gt;</string>
 	<string key="ui_transfer_requirement_sanctuary" rel_version="Feature_MTX">Przed przeniesieniem musisz znajdować się w azylu (osada, posterunek, kapliczka ducha, strażnica)</string>
 	<string key="ui_transfer_requirement_not_in_company" rel_version="Feature_MTX">Przed przeniesieniem nie można należeć do kompanii</string>
 	<string key="ui_transfer_requirement_not_have_active_orders" rel_version="Feature_MTX">Przed przeniesieniem nie można mieć aktywnych ofert kupna/sprzedaży w faktorii</string>
 	<string key="ui_transfer_requirement_minimum_level" rel_version="Feature_MTX">Przed przeniesieniem musisz być przynajmniej na {level}. poziomie</string>
 	<string key="ui_transfer_requirement_no_houses" rel_version="Feature_MTX">Przed przeniesieniem nie możesz posiadać żadnych domów</string>
+	<string key="ui_transfer_requirement_cooldown" rel_version="Feature_MTX">Aby móc ponownie przenieść postać pomiędzy regionami, musisz zaczekać, aż upłynie czas odnowienia.</string>
 	<string key="ui_item_restrictions" rel_version="Feature_MTX">Ograniczenia dotyczące przedmiotów</string>
 	<string key="ui_item_restrictions_item_skins" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Skórki&lt;/font&gt; wymagają wyposażenia się w przedmiot bazowy, by były widoczne. &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Skórek&lt;/font&gt; nie można farbować.</string>
 	<string key="ui_item_restrictions_crests" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Herbów kompanii&lt;/font&gt; może używać tylko zarządca (twórca) kompanii.</string>
@@ -115,6 +116,7 @@
 	<string key="ui_crest_disclaimer" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Uwaga:&lt;/font&gt; Herbów kompanii może używać tylko zarządca (twórca) kompanii.</string>
 	<string key="ui_disabled_default_title" rel_version="Feature_MTX">Zawartość niedostępna</string>
 	<string key="ui_disabled_default_description" rel_version="Feature_MTX">Ta zawartość jest chwilowo niedostępna.</string>
+	<string key="ui_disabled_freeplayer_description" rel_version="Feature_MTX">Kup New World, żeby uzyskać dostęp do sklepu.</string>
 	<string key="ui_preview_emote">Podgląd gestu</string>
 	<string key="ui_end_preview">Zakończ podgląd</string>
 	<string key="ui_limited_time">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Ograniczony czas&lt;/font&gt;</string>
@@ -422,14 +424,15 @@
 	<string key="Armor_Jesters_Delight_description" rel_version="RoyalCourtSkins">"Jeśli ktoś zbłaźni się przed błaznem, to kto tu jest błaznem?"</string>
 	<string key="Armor_Deaths_Coronation_name" rel_version="RoyalCourtSkins">Koronacja śmierci</string>
 	<string key="Armor_Deaths_Coronation_description" rel_version="RoyalCourtSkins">"Król umarłych to wciąż król".</string>
-	<string key="server_transfer_name" rel_version="Feature_Server_Transfer">Przeniesienie między światami (jednorazowe)</string>
+	<string key="server_transfer_name" rel_version="Feature_Server_Transfer">Przenoszenie postaci</string>
 	<string key="character_rename" rel_version="MTX_October_Skins">Zmiana imienia postaci (jednorazowa)</string>
 	<string key="character_rename_description" rel_version="MTX_October_Skins">Umożliwia zmianę imienia postaci.\nDo jednorazowego użytku.</string>
 	<string key="ui_character_world_transfer" rel_version="Feature_Server_Transfer">Przeniesienie postaci między światami</string>
 	<string key="ui_character_region_transfer" rel_version="Feature_Server_Transfer">Przenoszenie postaci między regionami</string>
-	<string key="server_transfer_description" rel_version="Feature_Server_Transfer">Umożliwia przeniesienie tej postaci do innego świata w obecnym regionie.</string>
+	<string key="server_transfer_description" rel_version="Feature_Server_Transfer">Umożliwia przeniesienie tej postaci do innego świata lub regionu.</string>
+	<string key="server_transfer_description_region_disabled" rel_version="Feature_Server_Transfer">Umożliwia przeniesienie tej postaci do innego świata w obecnym regionie.</string>
 	<string key="server_transfer_extra_detail" rel_version="Feature_Server_Transfer">Możesz na swoim koncie 1 raz przenieść postać do innego świata za darmo. Po wykorzystaniu możliwość ta nie będzie dostępna dla innych twoich postaci.</string>
-	<string key="server_transfer_names" rel_version="Feature_Server_Transfer">Przenoszenie postaci &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; do: &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{ServerName}&lt;/font&gt; ({WorldSetName})</string>
+	<string key="server_transfer_names" rel_version="Feature_Server_Transfer">Przenoszenie postaci &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; do: &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{ServerName}&lt;/font&gt; {WorldSetName}</string>
 	<string key="server_transfer_requirements" rel_version="Feature_Server_Transfer">WYMAGANIA</string>
 	<string key="server_transfer_not_transfer" rel_version="Feature_Server_Transfer">CO NIE PRZECHODZI</string>
 	<string key="server_transfer_refund_policy" rel_version="Feature_Server_Transfer">POLITYKA ZWROTÓW</string>
@@ -445,6 +448,7 @@
 	<string key="server_tranfer_refund_policy_not_refundable" rel_version="Feature_Server_Transfer">Ten produkt nie podlega zwrotowi.</string>
 	<string key="server_tranfer_cooldown_detail" rel_version="Feature_Server_Transfer">Czas odnowienia transferu pomiędzy regionami wynosi {cooldownDuration}</string>
 	<string key="server_transfer_unavailable_raidid" rel_version="Feature_Server_Transfer">Nie możesz zmieniać światów, gdy bierzesz udział w wojnie.</string>
+	<string key="server_transfer_unavailable_group" rel_version="Feature_Server_Transfer">Opuść swoją grupę, jeśli chcesz przenieść postać.</string>
 	<string key="server_transfer_unavailable_dungeon" rel_version="Feature_Server_Transfer">Nie możesz zmieniać światów, gdy przebywasz na ekspedycji.</string>
 	<string key="server_transfer_unavailable_arena" rel_version="Feature_Server_Transfer">Nie możesz zmieniać światów, gdy przebywasz na arenie.</string>
 	<string key="server_transfer_unavailable_duel" rel_version="Feature_Server_Transfer">Nie możesz zmieniać światów, gdy bierzesz udział w pojedynku.</string>
@@ -453,14 +457,13 @@
 	<string key="server_transfer_unavailable_transfer_world_full" rel_version="Feature_Server_Transfer">Lista przenosin tego regionu jest pełna, spróbuj ponownie za kilka godzin</string>
 	<string key="server_transfer_unavailable_target_region_characters_slots_full" rel_version="Feature_Server_Transfer">Miejsca na postacie w tym regionie są pełne. Musisz usunąć lub przenieść którąś z postaci istniejących w tym regionie, zanim będzie można przenieść do niego kolejną.</string>
 	<string key="server_transfer_more_details" rel_version="Feature_Server_Transfer">Więcej informacji zawiera</string>
-	<string key="server_transfer_transfer_faq" rel_version="Feature_Server_Transfer">FAQ przenoszenia postaci między światami</string>
+	<string key="server_transfer_transfer_faq" rel_version="Feature_Server_Transfer">Przenoszenie między regionami – FAQ</string>
 	<string key="server_transfer_final_details" rel_version="Feature_Server_Transfer">Po potwierdzeniu przeniesienia nastąpi wylogowanie do głównego menu wyboru postaci.</string>
 	<string key="server_transfer_final_details_purchase" rel_version="Feature_Server_Transfer">Po zakupie nastąpi wylogowanie do głównego menu wyboru postaci.</string>
 	<string key="server_transfer_change_world" rel_version="Feature_Server_Transfer">Zmiana świata</string>
 	<string key="server_transfer_select_world" rel_version="Feature_Server_Transfer">Wybierz świat</string>
 	<string key="server_transfer_select_region" rel_version="Feature_Server_Transfer">Wybierz region</string>
 	<string key="server_transfer_change_world_tooltip" rel_version="Feature_Server_Transfer">Możesz zmienić świat, logując się na swoją postać i wybierając "Przeniesienie między światami" w sklepie w grze.</string>
-	<string key="server_transfer_region_hint" rel_version="Feature_Server_Transfer">Można przenieść postać tylko do innego świata w tym samym regionie. Aby zagrać w innym regionie, należy stworzyć w nim nową postać.</string>
 	<string key="server_transfer_maintenance" rel_version="Feature_Server_Transfer">Nie można przenieść postaci do świata, który podlega pracom konserwacyjnym.</string>
 	<string key="server_transfer_requirements_company" rel_version="Feature_Server_Transfer">Nie można należeć do kompanii lub mieć oczekujących zaproszeń do kompanii przed przeniesieniem postaci.</string>
 	<string key="server_transfer_requirements_tradingPost" rel_version="Feature_Server_Transfer">Nie można mieć aktywnych ofert kupna/sprzedaży w faktorii przed przeniesieniem postaci.</string>
@@ -481,6 +484,8 @@
 	<string key="server_transfer_step_1" rel_version="Feature_Server_Transfer">Krok 1 z 2</string>
 	<string key="server_transfer_step_2" rel_version="Feature_Server_Transfer">Krok 2 z 2</string>
 	<string key="server_transfer_failed" rel_version="Feature_Server_Transfer">Próba przeniesienia między światami nieudana</string>
+	<string key="server_transfer_disabled" rel_version="Feature_Server_Transfer">Przenoszenie postaci między światami jest obecnie niedostępne</string>
+	<string key="server_transfer_region_disabled" rel_version="Feature_Server_Transfer">Przenoszenie postaci między regionami jest obecnie niedostępne</string>
 	<string key="rename_extra_detail" rel_version="MTX_October_Skins">Możesz na swoim koncie 1 raz zmienić imię postaci za darmo. Po wykorzystaniu możliwość ta nie będzie dostępna dla innych twoich postaci.</string>
 	<string key="Housing_Happy_Pumpkin_description" rel_version="MTX_October_Skins">"Ten nikczemny nicpoń zawsze chodził piekielnie uradowany. Tobie też byłoby wesoło, gdyby udało ci się okpić samego diabła!"</string>
 	<string key="Housing_Happy_Pumpkin_name" rel_version="MTX_October_Skins">Radosna latarnia Jasia Nicponia</string>
@@ -737,5 +742,27 @@
 	<string key="Apparel_Malachite_M_description" rel_version="Apparel_Malachite_M">"Gdy założysz ten opleciony korzeniami pancerz, staniesz się władcą całej flory".</string>
 	<string key="Apparel_Malachite_H_description" rel_version="Apparel_Malachite_H">"Gdy przywdziejesz tę korę, wytrzymałą i mocarną niby kamień, zyskasz doskonałą ochronę".</string>
 	<string key="Apparel_Wicked_description" rel_version="Apparel_Wicked_Costume">"Żaden wilk nie odważy się napaść ani na ciebie, ani na babcię".</string>
+	<string key="Apparel_ClassicRPG_1_name" rel_version="Apparel_ClassicRPG_1">Barbarzyński brutal</string>
+	<string key="Apparel_ClassicRPG_2_name" rel_version="Apparel_ClassicRPG_2">Strój pioniera</string>
+	<string key="Apparel_ClassicRPG_3_name" rel_version="Apparel_ClassicRPG_3">Skrzydlaty rycerz</string>
+	<string key="Apparel_ClassicRPG_1_description" rel_version="Apparel_ClassicRPG_1">"Wyzwól gniew, który płonie w twym sercu".</string>
+	<string key="Apparel_ClassicRPG_2_description" rel_version="Apparel_ClassicRPG_2">"Ta tunika i peleryna, wykonane z najlepszej wełny w Żałobnicy, poruszają się bezszelestnie, gdy pionier skrada się w zaroślach".</string>
+	<string key="Apparel_ClassicRPG_3_description" rel_version="Apparel_ClassicRPG_3">"Rzuć się w wir walki, by obronić to, co ci się należy".</string>
+	<string key="Weapon_ClassicRPG_Sword_name" rel_version="Weapon_Sword_ClassicRPG_MTX">Smocze Ostrze</string>
+	<string key="Weapon_ClassicRPG_ShieldK_name" rel_version="Weapon_KShield_ClassicRPG_MTX">Tarcza Lewiatana</string>
+	<string key="Weapon_ClassicRPG_Greataxe_name" rel_version="Weapon_GreatAxe_ClassicRPG_MTX">Drakoński Topór</string>
+	<string key="Weapon_ClassicRPG_Warhammer_name" rel_version="Weapon_Warhammer_ClassicRPG_MTX">Bliźniacze Bestie</string>
+	<string key="Weapon_ClassicRPG_FireStaff_name" rel_version="Weapon_FireStaff_ClassicRPG_MTX">Tchnienie Ognia</string>
+	<string key="Weapon_ClassicRPG_Bow_name" rel_version="Weapon_Bow_ClassicRPG_MTX">Estragonowy Łuk</string>
+	<string key="Weapon_ClassicRPG_Sword_description" rel_version="Weapon_Sword_ClassicRPG_MTX">"Smoki są doprawdy zacnymi przyjaciółmi i doprawdy straszliwymi wrogami".</string>
+	<string key="Weapon_ClassicRPG_ShieldK_description" rel_version="Weapon_KShield_ClassicRPG_MTX">"Nigdy nie lekceważ potęgi smoka".</string>
+	<string key="Weapon_ClassicRPG_Greataxe_description" rel_version="Weapon_GreatAxe_ClassicRPG_MTX">"Walcz z dzikością mistycznej bestii".</string>
+	<string key="Weapon_ClassicRPG_Warhammer_description" rel_version="Weapon_Warhammer_ClassicRPG_MTX">"Te dwa węże, splecione ze sobą na wieki, szczerzą kły w oczekiwaniu na następny posiłek".</string>
+	<string key="Weapon_ClassicRPG_FireStaff_description" rel_version="Weapon_FireStaff_ClassicRPG_MTX">"Gdy trzymasz tę laskę, plucie ogniem i palenie wrogów przychodzi ci naturalnie".</string>
+	<string key="Weapon_ClassicRPG_Bow_description" rel_version="Weapon_Bow_ClassicRPG_MTX">"Wzrok cię nie zawiedzie, gdyż smok twą strzałę do celu powiedzie".</string>
+	<string key="Bundle_PR_RPG_Apparel_name" rel_version="MTX_ClassicRPG_Weapon_Skins">Smoczy skarb – paczka ubioru</string>
+	<string key="Bundle_PR_RPG_Weapons_name" rel_version="MTX_ClassicRPG_Weapon_Skins">Smoczy skarb – paczka broni</string>
+	<string key="Bundle_PR_RPG_Apparel_description" rel_version="MTX_ClassicRPG_Weapon_Skins">"Strój idealny do eksploracji pierwotnych lasów i głębokich lochów".</string>
+	<string key="Bundle_PR_RPG_Weapons_description" rel_version="MTX_ClassicRPG_Weapon_Skins">"Broń, która przez długi czas spoczywała w leżu plugawej bestii. Jest wciąż ostra i gotowa do walki".</string>
 </resources>
 

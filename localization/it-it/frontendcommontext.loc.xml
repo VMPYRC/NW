@@ -15,15 +15,19 @@
 	<string key="mm_serversavailable">{numServers} mondi disponibili</string>
 	<string key="mm_serverunavailable">Nessun mondo disponibile</string>
 	<string key="mm_serverdown">Mondo in manutenzione</string>
+	<string key="mm_serveristransfer">Trasferimento</string>
 	<string key="mm_serverdisabled">Mondo disattivato</string>
 	<string key="mm_defaultworldname">Nuovo mondo</string>
 	<string key="mm_defaultworlddesc">Nessuna descrizione</string>
 	<string key="mm_defaultworldmotd">Nessun messaggio del giorno</string>
+	<string key="mm_defaultclustername">Nessuna regione</string>
 	<string key="ui_banned">Bannato</string>
 	<string key="mm_loginerrortitle">Errore di accesso</string>
 	<string key="mm_connectionfailed">Connessione non riuscita</string>
 	<string key="mm_error_code">Codice errore:</string>
 	<string key="mm_waitingtotransfer" rel_version="Feature_MTX">In attesa del trasferimento in\n{worldName}</string>
+	<string key="mm_transferworldname" rel_version="Feature_MTX">Trasferimento a: {regionName}</string>
+	<string key="mm_transferinitiated" rel_version="Feature_MTX">Trasferimento regione iniziato</string>
 	<string key="ui_open_governors_desk">Apri la scrivania del Governatore</string>
 	<string key="mm_disconnected">Disconnessione dal server. Riconnessione in corso, attendi...</string>
 	<string key="mm_retriesfailed">Tentativi di connessione esauriti. Riprova più tardi.</string>
@@ -137,6 +141,7 @@
 	<string key="mm_csdkerr_invalid_endpoint">Indirizzo del server non valido</string>
 	<string key="mm_csdkerr_connection_failed">Connessione al server non riuscita.</string>
 	<string key="mm_csdkerr_transport_version_mismatch">Il server sta usando una versione di rete incompatibile. Aggiorna il gioco e riprova.</string>
+	<string key="mm_csdkerr_transport_security_error">Non è stato possibile stabilire una connessione sicura. Riavvia o aggiorna il gioco e riprova.</string>
 	<string key="mm_csdkerr_registration_failed">Non è stato possibile connettersi al server</string>
 	<string key="mm_csdkerr_registration_unmarshal_error">Errore nei dati del server, cerca una patch.</string>
 	<string key="mm_csdkerr_disconnect">Inattesa disconnessione dal server. Riconnessione in corso...</string>
@@ -167,6 +172,7 @@
 	<string key="mm_rejected_Grid_Too_Busy">Errore del server: La regione è troppo occupata, riprova più tardi.</string>
 	<string key="mm_rejected_No_Ghost_Client">Errore del server: Avvio copia non riuscito.</string>
 	<string key="mm_rejected_Server_Crash">Inattesa perdita di connessione con il server di gioco, riprova più tardi.</string>
+	<string key="mm_rejected_Free_Session_Expired">Il tempo a disposizione per il gioco gratuito è terminato.</string>
 	<string key="mm_rejected_Client_Kicked_Title">Espulsione</string>
 	<string key="mm_rejected_Client_Kicked_NoMessage">Sei stato espulso dal gioco.</string>
 	<string key="mm_rejected_Client_Kicked_AFK">Sei stato espulso dal gioco perché sei stato via troppo a lungo.</string>
@@ -191,6 +197,7 @@
 	<string key="mm_rejected_Client_Kicked_BannedCSLockout">Al momento il tuo account è bloccato. Per ulteriori informazioni contatta il servizio clienti.</string>
 	<string key="mm_rejected_Client_Kicked_CSLockout">Al momento il tuo account è bloccato. Per ulteriori informazioni contatta il servizio clienti.</string>
 	<string key="mm_rejected_Client_Kicked_BannedCommerce">Problema con il pagamento</string>
+	<string key="mm_rejected_Client_Kicked_Embargoed_Country">Non è possibile accedere dalla tua posizione attuale.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Sei stato espulso dal gioco</string>
 	<string key="mm_authresult_Authorized">Successo</string>
 	<string key="mm_characterCreateDisabled">La creazione del personaggio è temporaneamente disabilitata perché questo mondo è pieno. Prova su un altro mondo.</string>
@@ -211,11 +218,13 @@
 	<string key="mm_authresult_Denied_LoginTokenWrongHost">Sei stato indirizzato al server sbagliato. Riprova.</string>
 	<string key="mm_authresult_Denied_EasyAntiCheatFailure">Errore di configurazione EAC. Per maggiori informazioni, visita la community di New World: https://forums.newworld.com</string>
 	<string key="mm_authresult_Error_InvalidSetup">Configurazione di autenticazione non valida.</string>
+	<string key="mm_authresult_Error_Jwt_Persona">Risposta non valida dai servizi di accesso durante l'ottenimento delle credenziali.</string>
 	<string key="mm_authresult_Error_Persona">Autenticazione con Persona non riuscita.</string>
 	<string key="mm_authresult_Error_Persona_Assume_Role">Impossibile recuperare le credenziali.\nRiprova o contatta la community di New World per maggiori informazioni: https://forums.newworld.com</string>
 	<string key="mm_authresult_Error_Steam">Autenticazione con Steam non riuscita.</string>
 	<string key="mm_authresult_Denied_DatasheetVersionCheckFailed">La versione del datasheet non corrisponde.</string>
-	<string key="mm_authresult_Http_Error_Response_Code">Non è stato possibile autenticare il tuo client. Riprova tra poco.</string>
+	<string key="mm_authresult_Http_Error_Response">Non è stato possibile autenticare il tuo client. Riprova tra poco.</string>
+	<string key="mm_authresult_Http_Error_Response_Code">Risposta non valida durante l'autenticazione. Riprova tra poco.</string>
 	<string key="mm_http_NoResponse">Richiesta HTTP non riuscita; nessuna risposta.</string>
 	<string key="mm_queuesoon">Tempo previsto: &lt; 1 minuto\nPosizione in coda: {rank}\n{status}</string>
 	<string key="mm_queuewithestimate">Tempo previsto: {time}\nPosizione in coda: {rank}\n{status}</string>
@@ -288,6 +297,30 @@
 	<string key="ui_bio">Biografia</string>
 	<string key="ui_attributes">Attributi</string>
 	<string key="ui_trade_skills">Competenze</string>
+	<string key="ui_how_it_works">Come funziona</string>
+	<string key="ui_pvp_track_skills_tab" rel_version="PvP_Rewards_Track">PvP</string>
+	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Checkpoint {checkpoint}:&lt;/font&gt; {currentProgression}/{maxProgression}\n\nProgredisci nel tuo percorso impegnandoti in missioni PvP, Guerra, Carica all'avamposto, conquista di forti, sconfitta di altri giocatori, arene PvP e ottenendo PE con PvP attivo.</string>
+	<string key="ui_pvp_track_next_track_tooltip" rel_version="PvP_Rewards_Track">Per poter iniziare il percorso successivo devi prima completare tutti i checkpoint. Se scegli una ricompensa a ogni checkpoint, inizierai automaticamente il percorso successivo.\n\nPer ogni checkpoint in cui rinunci a scegliere una ricompensa riceverai 300 unità di sale di Azoth all'inizio del percorso successivo.</string>
+	<string key="ui_pvp_track_unknown_item_tooltip" rel_version="PvP_Rewards_Track">Le possibili ricompense verranno rivelate dopo aver completato il checkpoint.</string>
+	<string key="ui_pvp_insufficient_azoth_salt" rel_version="PvP_Rewards_Track">Sale di Azoth insufficiente</string>
+	<string key="ui_pvp_cant_unlock" rel_version="PvP_Rewards_Track">Impossibile sbloccare altri oggetti come questo</string>
+	<string key="ui_pvp_track_nexttrack_popup_title" rel_version="PvP_Rewards_Track">Inizia il percorso successivo</string>
+	<string key="azoth_salt_currency_desc" rel_version="PvP_Rewards_Track">Il sale di Azoth è la valuta che ti consente di ottenere ricompense nei percorsi PvP. Puoi ottenere sale di Azoth impegnandoti in Guerra, Carica all'avamposto, arene PvP, missioni PvP, uccisioni di personaggi PvP in mondo aperto e ottenendo PE con PvP attivo.\n\nLa quantità massima di sale di Azoth è 100.000.</string>
+	<string key="azoth_salt_currency_lost" rel_version="PvP_Rewards_Track">Perdita di sale di Azoth</string>
+	<string key="azoth_salt_lost_tooltip" rel_version="PvP_Rewards_Track">Il sale di Azoth è la valuta che ti consente di ottenere ricompense nei percorsi PvP. Puoi ottenere sale di Azoth impegnandoti in Guerra, Carica all'avamposto, arene PvP, missioni PvP, uccisioni di personaggi PvP in mondo aperto e ottenendo PE con PvP attivo.\n\nNon ricevi sale di Azoth quando uccidi giocatori che hanno 10 o più livelli in meno rispetto al tuo livello attuale. Inoltre, il PvP della vittima deve essere attivo da più di 10 minuti.</string>
+	<string key="ui_pvp_track_leveltext_header" rel_version="PvP_Rewards_Track">Percorsi completati: &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#FFFFFF"&gt;{level}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_current_balance" rel_version="PvP_Rewards_Track">Saldo attuale: &lt;font color={colorBalance} face="lyshineui/fonts/CaslonAnt.font"&gt;{balance}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_rankup_stagesummary" rel_version="PvP_Rewards_Track">\n&lt;font color={colorBonus}&gt;Bonus checkpoint: &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_pvp_track_rankup_bonussalt" rel_version="PvP_Rewards_Track">&lt;font color={colorBonus}&gt;Bonus completamento percorso: &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_pvp_track_bannerrewards_1" rel_version="PvP_Rewards_Track">Ricompense in palio: \n+Emote</string>
+	<string key="ui_pvp_track_bannerrewards_2" rel_version="PvP_Rewards_Track">Ricompense in palio: \n+Equipaggiamento speciale \n+Più valuta</string>
+	<string key="ui_pvp_track_bannerrewards_3" rel_version="PvP_Rewards_Track">Ricompense in palio: \n+Equipaggiamento prestigioso \n+Emote \n+Pacchetti di fiale di sale</string>
+	<string key="ui_pvp_track_bannerrewards_4" rel_version="PvP_Rewards_Track">Ricompense in palio: \n+Gesso \n+Più valuta \n+Più schegge dell'ombra</string>
+	<string key="ui_pvp_track_bannerrewards_5" rel_version="PvP_Rewards_Track">Ricompense in palio: \n+Emote \n+Più schegge dell'ombra </string>
+	<string key="ui_pvp_track_bannerrewards_6" rel_version="PvP_Rewards_Track">Ricompense in palio: \n+Emote \n+Più valuta</string>
+	<string key="ui_pvp_track_next_milestone" rel_version="PvP_Rewards_Track">Traguardo percorso {milestone} presso:</string>
+	<string key="ui_pvp_track_milestone" rel_version="PvP_Rewards_Track">Traguardo percorso {milestone}</string>
+	<string key="ui_pvp_track_reward" rel_version="PvP_Rewards_Track">Ricompensa</string>
 	<string key="ui_blacksmithing">Forgiatura di armi</string>
 	<string key="ui_estimated_time">Tempo previsto</string>
 	<string key="ui_queue_soon">&lt; 1 minuto</string>
@@ -375,12 +408,13 @@
 	<string key="crafting_cannot_repair">Impossibile riparare</string>
 	<string key="crafting_requires_station">Devi essere presso la postazione giusta.</string>
 	<string key="crafting_repair_no_requirements">Nessun requisito necessario per riparare questo oggetto.</string>
-	<string key="inv_salvage_tooltip" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {numItems} {itemName}.{gemMessage}</string>
-	<string key="inv_salvage_tooltip_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {numItems} {itemName} e {numRepairParts} ricambi.{gemMessage}</string>
-	<string key="inv_salvage_tooltip_onlyrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {numRepairParts} pezzi di ricambio.{gemMessage}</string>
-	<string key="inv_salvage_tooltip_repairparts_and_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {numRepairParts} pezzi di ricambio e {coinAmount}.{gemMessage}</string>
-	<string key="inv_salvage_tooltip_range" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {min}-{max} {itemName}.{gemMessage}</string>
-	<string key="inv_salvage_tooltip_range_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {min}-{max} {itemName} e {numRepairParts} ricambi.{gemMessage}</string>
+	<string key="inv_salvage_tooltip" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {numItems} {itemName}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {numItems} {itemName} e {numRepairParts} pezzi di ricambio. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_onlyrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {numRepairParts} pezzi di ricambio. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_withcoin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_repairparts_and_coin" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai {numRepairParts} pezzi di ricambio e {coinAmount}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_range" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {min}-{max} {itemName}. {gemMessage}</string>
+	<string key="inv_salvage_tooltip_range_withrepairparts" comment="{gemMessage} may be empty or replaced by inv_salvage_tooltip_gemmessage">Recuperando questo oggetto otterrai: {min}-{max} {itemName} e {numRepairParts} pezzi di ricambio. {gemMessage}</string>
 	<string key="inv_salvage_tooltip_gemmessage" comment="this will come after a previous sentence and should have a space in front">C'è una piccola possibilità di recuperare la gemma incastonata.</string>
 	<string key="inv_salvage_tooltip_additional_item" comment="This only applies to fishing when there is a chance to receive additional items.">Puoi acquisire anche oggetti aggiuntivi, come {itemName}.</string>
 	<string key="inv_salvage_tooltip_recipe">Recuperando questo oggetto apprenderai la ricetta: {recipeName}.</string>
@@ -439,8 +473,11 @@
 	<string key="mm_eu_central" comment="EU means European Union">Europa centrale</string>
 	<string key="mm_ap_southeast" comment="AP means Asian Pacific">Sud-est asiatico</string>
 	<string key="mm_sa_east" comment="SA means South America">Sud America orientale</string>
+	<string key="world_set_region_transfer">Trasferimento regione</string>
+	<string key="mm_stage_devo">Devo</string>
 	<string key="mm_stage_qa">CQ</string>
 	<string key="mm_stage_alpha">Alfa</string>
+	<string key="mm_localhost">Host locale</string>
 	<string key="mm_charslot_locked_tooltip">Lo slot personaggio è bloccato. Lo slot non è disponibile, acquista uno slot personaggio per sbloccare questo personaggio</string>
 	<string key="error_banned">{message}\n\nMotivo: [{reason}]</string>
 	<string key="error_perm_ban">Ban permanente</string>

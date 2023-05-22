@@ -9,13 +9,13 @@
 	<string key="cc_mwheel_up">Mausrad hoch</string>
 	<string key="cc_mwheel_down">Mausrad runter</string>
 	<string key="cc_tab">Tab</string>
-	<string key="cc_lshift">Shift links</string>
-	<string key="cc_rshift">Shift rechts</string>
+	<string key="cc_lshift">Shift L</string>
+	<string key="cc_rshift">Shift R</string>
 	<string key="cc_equals">=</string>
-	<string key="cc_lctrl">STRG links</string>
-	<string key="cc_rctrl">STRG rechts</string>
-	<string key="cc_lalt">ALT links</string>
-	<string key="cc_ralt">ALT rechts</string>
+	<string key="cc_lctrl">STRG L</string>
+	<string key="cc_rctrl">STRG R</string>
+	<string key="cc_lalt">ALT L</string>
+	<string key="cc_ralt">ALT R</string>
 	<string key="cc_up">Pfeiltaste hoch</string>
 	<string key="cc_down">Pfeiltaste runter</string>
 	<string key="cc_left">Pfeiltaste links</string>
@@ -620,6 +620,12 @@
 	<string key="ui_exit_auto_target">Autom. Zielerfassung verlassen</string>
 	<string key="ui_cycle_target_up">Ziele nach oben durchschalten</string>
 	<string key="ui_cycle_target_down">Ziele nach unten durchschalten</string>
+	<string key="ui_target_group1">Zielgruppenmitglied 1</string>
+	<string key="ui_target_group2">Zielgruppenmitglied 2</string>
+	<string key="ui_target_group3">Zielgruppenmitglied 3</string>
+	<string key="ui_target_group4">Zielgruppenmitglied 4</string>
+	<string key="ui_target_group5">Zielgruppenmitglied 5</string>
+	<string key="ui_target_groupmode_toggle">Gruppenmodus ein-/ausschalten</string>
 	<string key="ui_slot_unlock_at">Freigeschaltet ab St. {level}</string>
 	<string key="ui_slot_unlock_at_abbr">St. {level}</string>
 	<string key="ui_quickslot_mainhand_tooltip">Haupthandplatz\n\nZu einer auf diesen Platz gelegten Waffe kann mit der entsprechenden Taste gewechselt werden.</string>
@@ -630,6 +636,11 @@
 	<string key="ui_quickslot_skinning_tooltip">Häutemesser-Platz</string>
 	<string key="ui_quickslot_pickaxe_tooltip">Bergbauhacke-Platz</string>
 	<string key="ui_quickslot_azoth_tooltip">Azoth-Stab-Platz</string>
+	<string key="ui_quickslot_flute_tooltip" rel_version="Feature_MusicalPerformances">Flöten-Platz</string>
+	<string key="ui_quickslot_guitar_tooltip" rel_version="Feature_MusicalPerformances">Gitarren-Platz</string>
+	<string key="ui_quickslot_mandolin_tooltip" rel_version="Feature_MusicalPerformances">Mandolinen-Platz</string>
+	<string key="ui_quickslot_bass_tooltip" rel_version="Feature_MusicalPerformances">Kontrabass-Platz</string>
+	<string key="ui_quickslot_drums_tooltip" rel_version="Feature_MusicalPerformances">Trommel-Platz</string>
 	<string key="ui_buildmode_grid">Baumodusgitter</string>
 	<string key="ui_wave">Winken</string>
 	<string key="ui_inspect_player">Soziale Interaktionen</string>
@@ -641,16 +652,16 @@
 	<string key="ui_quillsquillshelloworld">Schreibfedern (Schreibfeder): Hallo Welt. Für nur 50 Dinar kann du dich meiner Kompanie anschließen.</string>
 	<string key="ui_quillsrocket">Schreibfedern (Rakete)</string>
 	<string key="ui_options_fov">Sichtfeld (FoV, vertikal)</string>
-	<string key="ui_options_fov_desc">Kamerasichtfeld anpassen</string>
+	<string key="ui_options_fov_desc">Kamerasichtfeld anpassen.</string>
 	<string key="ui_options_gamma">Gamma</string>
 	<string key="ui_options_gamma_desc">Gamma anpassen.</string>
 	<string key="ui_options_basic_settings">Grundeinstellungen</string>
 	<string key="ui_options_brightness_setting">Helligkeitseinstellung</string>
 	<string key="ui_options_brightness_setting_desc">Passe die Helligkeit an, bis das linke New-World-Logo gerade noch so sichtbar ist.\nDu kannst die Einstellung später jederzeit in den Optionen anpassen.</string>
 	<string key="ui_options_brightness">Helligkeit</string>
-	<string key="ui_options_brightness_desc">Helligkeit anpassen</string>
+	<string key="ui_options_brightness_desc">Helligkeit anpassen.</string>
 	<string key="ui_options_contrast">Kontrast</string>
-	<string key="ui_options_contrast_desc">Kontrast anpassen</string>
+	<string key="ui_options_contrast_desc">Kontrast anpassen.</string>
 	<string key="ui_quit">Beenden</string>
 	<string key="ui_randomize">Zufällig</string>
 	<string key="ui_receivevolume">Lautstärke</string>
@@ -696,9 +707,9 @@
 	<string key="ui_save">Speichern</string>
 	<string key="ui_se">SO</string>
 	<string key="ui_binding_reserved_key_blocked">Taste {key} konnte nicht verknüpft werden, da sie für die Aktion{actionName} reserviert ist, deren Verknüpfung nicht aufgehoben werden kann.</string>
-	<string key="ui_binding_reserved_key_title_single">Alte Verknüpfung entfernen?</string>
+	<string key="ui_binding_reserved_key_title_single">Alte Verknüpfung entfernen?  </string>
 	<string key="ui_binding_reserved_key_message_single">Du bist dabei die Taste {key} mit einer neuen Aktion zu belegen: {newAction}. Die alte Aktionen {oldAction} ist damit mit keiner Taste mehr verknüpft. Fortfahren?</string>
-	<string key="ui_binding_reserved_key_title_multiple">Alte Verknüpfungen entfernen?</string>
+	<string key="ui_binding_reserved_key_title_multiple">Alte Verknüpfungen entfernen?  </string>
 	<string key="ui_binding_reserved_key_message_multiple">Du bist dabei die Taste {key} mit einer neuen Aktion zu belegen: {newAction}. Folgende alten Aktionen sind damit mit keiner Taste mehr verknüpft. Fortfahren?\n{oldActions}</string>
 	<string key="ui_secondsLeft">{NumSeconds} Sekunden</string>
 	<string key="ui_second">Sekunde</string>
@@ -808,7 +819,7 @@
 	<string key="ui_continue">Fortfahren</string>
 	<string key="ui_legalterms">Nutzungsbedingungen von Amazon Games</string>
 	<string key="ui_code_of_conduct">Amazon Games – Verhaltensgrundsätze</string>
-	<string key="ui_code_of_conduct_desc">Verhaltensgrundsätze von Amazon Games in einem Browserfenster anzeigen</string>
+	<string key="ui_code_of_conduct_desc">Verhaltensgrundsätze von Amazon Games in einem Browserfenster anzeigen.</string>
 	<string key="ui_region_warning_text">Deine Verbindung zu dieser Region ist schlecht, was deine Spielerfahrung beeinträchtigen kann. Bitte wähle eine Region aus, die näher an deiner aktuellen Position liegt.</string>
 	<string key="ui_landing_all_slots_full">Die Charakterplätze sind in allen Regionen voll. Du musst einen bestehenden Charakter löschen, um einen neuen zu erstellen.</string>
 	<string key="ui_landing_no_good_regions">Du hast keine freien Charakterplätze mehr in Regionen mit guter Verbindung. Fortfahren?</string>
@@ -824,7 +835,7 @@
 	<string key="ui_landing_tile_default_description5">Besuche unser Forum</string>
 	<string key="ui_region_warning_text_all">Sämtliche Verbindungen zu verfügbaren Regionen sind schlecht, was deine Erfahrung beeinträchtigen kann.</string>
 	<string key="ui_anti-cheat">Anti-Cheat-Software-Mitteilung</string>
-	<string key="ui_anti-cheat_desc">Anti-Cheat-Software-Mitteilung in einem Browserfenster anzeigen</string>
+	<string key="ui_anti-cheat_desc">Anti-Cheat-Software-Mitteilung in einem Browserfenster anzeigen.</string>
 	<string key="ui_legalprivacy">Bitte beachte unsere Datenschutzrichtlinien</string>
 	<string key="ui_prealphatag">Test-Build (VERTRAULICH)</string>
 	<string key="ui_buildtag">Version des öffentlichen Testbereichs</string>
@@ -1412,6 +1423,7 @@
 	<string key="ui_claimstreak">Tag {number}</string>
 	<string key="ui_random_location">Zufälliger Ort</string>
 	<string key="ui_scroll_hint">Zoom (scrollen)</string>
+	<string key="ui_map_rotate_camera">(Halten) Kamera drehen</string>
 	<string key="ui_global_storage_description">Andere Spieler können hier eingelagerte Gegenstände nicht sehen oder aufnehmen. Du kannst die Gegenstände nur in diesem Außenposten wieder abholen.</string>
 	<string key="ui_apply_all_resources">Alle Rohstoffe einsetzen</string>
 	<string key="ui_apply_resources">Rohstoffe einsetzen</string>
@@ -1503,7 +1515,7 @@
 	<string key="ui_upgrade_tooltip_disabled_items">Um den Rüstwert dieses Gegenstandes zu steigern, benötigst du {quantity} mehr von diesem Gegenstand: {itemName}.</string>
 	<string key="ui_upgrade_tooltip_disabled_skill">Du kannst nur Gegenstandstypen aufrüsten, für die du &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.2" yOffset="1"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{neededValue} Kompetenz&lt;/font&gt; besitzt.\n(Aktuelle {expertiseName} Kompetenz: &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.2" yOffset="1"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;{currentValue}&lt;/font&gt;)</string>
 	<string key="ui_upgrade_tooltip_disabled_broken">Kaputte Gegenstände können nicht aufgerüstet werden.</string>
-	<string key="ui_upgrade_tooltip_disabled_gearscore">Du kannst nur Gegenstände mit einem Rüstwert von {gearScore}+ aufrüsten.</string>
+	<string key="ui_upgrade_tooltip_disabled_gearscore">Du kannst nur Gegenstände mit einem Rüstwert von &lt;font color="#ffffff"&gt;{gearScore}+&lt;/font&gt; aufrüsten.</string>
 	<string key="ui_upgrade_notification">Der Rüstwert des Gegenstands wurde auf &lt;font color="#fffd7a"&gt;{baseGearScore}&lt;/font&gt; aufgerüstet.</string>
 	<string key="ui_cannot_replace_gem_tooltip">Dieser Edelstein kann nicht ersetzt werden.</string>
 	<string key="ui_no_gems_tooltip">Keine Edelsteine verfügbar</string>
@@ -1725,6 +1737,7 @@
 	<string key="ui_mapmenu_warlist_failure_timeout">Zeitüberschreitung bei der Anfrage.\n Versuche es bitte erneut.</string>
 	<string key="ui_mapmenu_warlist_failure_generic">Irgendwas ist schiefgelaufen. Versuche es bitte erneut.</string>
 	<string key="ui_mapmenu_warlist_retry">Erneut versuchen</string>
+	<string key="ui_mapmenu_manage_objectives">Ziele verwalten</string>
 	<string key="ui_mapmenu_territorystandings">Gebietsruf</string>
 	<string key="ui_mapmenu_territorystandings_subtext">Je nach Stufe des Gebietsrufs kannst du verschiedene Vorteile für das Gebiet freischalten.</string>
 	<string key="ui_mapmenu_territorystandings_spendprompt">GEBIETSBELOHNUNG KAUFEN!</string>
@@ -1753,6 +1766,7 @@
 	<string key="ui_arena_group_proximity">Das Gruppenmitglied ist zu weit entfernt</string>
 	<string key="ui_arena_group_dead">Gruppenmitglied ist tot</string>
 	<string key="ui_arena_activating">Aktivierung im Gange</string>
+	<string key="ui_arena_required_item_disabled">Erforderlicher Gegenstand vorübergehend deaktiviert</string>
 	<string key="spriggan_name">Zygoramet</string>
 	<string key="ui_exit_dungeon_title">Expedition verlassen?</string>
 	<string key="ui_dungeon_exit">Expeditionausgangsportal</string>
@@ -1760,11 +1774,11 @@
 	<string key="ui_exit_dungeon_will_close_desc">Du wirst aus der Expedition herausteleportiert.\nHat deine gesamte Gruppe die Expedition verlassen, wird sie geschlossen.\n</string>
 	<string key="ui_exit_dungeon_incombat">Wenn du einen Kampf gerade erst beendet hast, kannst du eine Expedition nicht verlassen. \nVerlassen möglich in &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt;</string>
 	<string key="ui_enable_newDamageNumbers">Schwebende Schadenszahlen</string>
-	<string key="ui_enable_newDamageNumbers_description">Wenn aus, werden die Schadenszahlen an die Gesundheitsanzeige des Gegners angehängt</string>
+	<string key="ui_enable_newDamageNumbers_description">Wenn aus, werden die Schadenszahlen an die Gesundheitsanzeige des Gegners angehängt.</string>
 	<string key="ui_accept_duel_invites">Duelleinladungen zulassen</string>
-	<string key="ui_accept_duel_invites_description">Ermöglicht Spielern, dir Duelleinladungen zu schicken</string>
+	<string key="ui_accept_duel_invites_description">Ermöglicht Spielern, dir Duelleinladungen zu schicken.</string>
 	<string key="ui_auto_traverse">Automatische Überquerung</string>
-	<string key="ui_auto_traverse_description">Klettere und springe beim Bewegen automatisch über Hindernisse</string>
+	<string key="ui_auto_traverse_description">Klettere und springe beim Bewegen automatisch über Hindernisse.</string>
 	<string key="ui_chat_compact_view">Kompakte Ansicht</string>
 	<string key="ui_chat_enable_alerts">Benachrichtigungen</string>
 	<string key="ui_chat_enable_alerts_options">Chatbenachrichtigungen aktivieren</string>
@@ -1805,9 +1819,9 @@
 	<string key="ui_time_interval_format_timezone">{startTime} – {endTime}\n{timezone}</string>
 	<string key="ui_repair_tooltip">Reparatur erfordert:\n{skillName} Stufe {skillLevel}\noder\n{repairName} Stufe {repairLevel}</string>
 	<string key="ui_station_desc_text" comment="{stationName} is the type of station, like 'Blacksmith'. {tier} is the required tier. {current} is the current tier.">{stationName} {tier} {current}</string>
-	<string key="ui_station_skill_desc_text" comment="{skillName} is the type of skill, like 'Blacksmithing'. {skillLoc} is currently being replaced by the word for 'Skill'. If another language needs to be something like 'Skill Blacksmithing', these need to be swapped around. {level} is for required skill level. {current} is for current skill level.">{skillName} {skillLoc} {level} {current}</string>
+	<string key="ui_station_skill_desc_text" comment="{skillName} is the type of skill, like 'Blacksmithing'. {level} is for required skill level. {current} is for current skill level.">{skillName} {level} {current}</string>
 	<string key="ui_crating_tree_item_tradeskill_desc" comment="{skillName} is the type of skill, like 'Blacksmithing'. {skillLoc} is currently being replaced by the word for 'Skill'. If another language needs to be something like 'Skill Blacksmithing', these need to be swapped around.{required} is for required skill level.">{skillName} {skillLoc} Erforderlich: {required}</string>
-	<string key="ui_station_skill_header" comment="{skillName} is the type of skill, like 'Blacksmithing'. {skillLoc} is currently being replaced by the word for 'Skill'. If another language needs to be something like 'Skill Blacksmithing', these need to be swapped around.">{skillName} {skillLoc}</string>
+	<string key="ui_station_skill_header" comment="{skillName} is the type of skill, like 'Blacksmithing'.">{skillName}</string>
 	<string key="ui_station_tooltip_text">{stationName} (Rang {tierRequired})</string>
 	<string key="ui_has_resources">Hat Rohstoffe</string>
 	<string key="ui_deadnotification_title">DU BIST GESTORBEN.</string>
@@ -1827,6 +1841,8 @@
 	<string key="ui_ability3">Waffenfähigkeit 3</string>
 	<string key="ui_pending_afk_disconnect">Spielst du noch?</string>
 	<string key="ui_pending_afk_disconnect_description">Bei dir wurde Inaktivität festgestellt und du wirst automatisch aus dem Spiel geworfen. Wenn du noch spielst, bewege deinen Charakter.</string>
+	<string key="ui_pending_freeweekend_session_ending_title">Gratissitzung endet demnächst</string>
+	<string key="ui_pending_freeweekend_session_ending_desc">Gibt es für diese Welt eine Warteschlange, kehrst du nach Ablauf der Zeit zum Hauptmenü zurück. Ansonsten wird die Sitzungsdauer um weitere {time} verlängert.</string>
 	<string key="ui_structure_name_too_long">Der Gebäudename ist zu lang. Versuche es bitte erneut.</string>
 	<string key="ui_structure_name_invalid_characters">Der Gebäudename enthält ungültige Zeichen. Versuche es bitte erneut.</string>
 	<string key="ui_structure_name_profanity">Der Gebäudename enthält Schimpfwörter. Versuche es bitte erneut.</string>
@@ -1895,6 +1911,7 @@
 	<string key="ui_coin_max_withdrawal_tooltip">Deine Geldbörse ist auf {amount} Taler begrenzt.\nDas ist der Maximalbetrag, den du annehmen kannst, damit das Limit nicht überschritten wird.</string>
 	<string key="ui_coin_max_sellorder_tooltip">Deine Geldbörse ist auf {amount} Taler begrenzt.\nDu verlierst alle Taler, die zum Zeitpunkt des Handels über das Limit hinausgehen.</string>
 	<string key="ui_coin_max_trade_tooltip">Deine Geldbörse ist auf {amount} Taler begrenzt.\nDer andere Spieler will dir mehr Taler geben, als deine Geldbörse aufnehmen kann. Überschüssige Taler erhalten sie zurück.</string>
+	<string key="ui_coin_max_cantwithdraw_tooltip">Deine Geldbörse ist voll. Du kannst keine Taler aus der Kompanie-Schatzkammer abheben.</string>
 	<string key="ui_listing_duration_tooltip">Längere Angebote kosten höhere Angebotsgebühren.</string>
 	<string key="ui_groupsize_identifier">Empfohlene Gruppengröße: {groupSize}</string>
 	<string key="ui_level_identifier">Empfohlene Stufe: {level}</string>
@@ -2090,13 +2107,15 @@
 	<string key="ui_mergecomplete_question_3">Habe ich meine Kompanie behalten?</string>
 	<string key="ui_mergecomplete_question_4">Sind meine Kauf-/Verkaufsaufträge noch ausgeschrieben?</string>
 	<string key="ui_mergecomplete_answer_1">Du hast deine Charakterstufe, Attributspunkte, Meisterschaftspunkte, deinen Gebietsruf, dein Haus, dein Inventar und deinen Siedlungsspeicher behalten.</string>
-	<string key="ui_mergecomplete_answer_2">Gebiete in der neuen Welt werden von den Kompanien dieser Welt beansprucht. Ist deine Kompanie nicht von der Ziel-Welt, verlierst du sämtliche Gebiete und Verbesserungen und deine Kompanie erhält 50.000 Taler.</string>
-	<string key="ui_mergecomplete_answer_3">Die Spieler werden bei einer Zusammenführung nicht voneinander getrennt und die Kompaniemitgliedschaft sowie die Geldbörse sind weiter vorhanden. 3 Tage vor der Zusammenführung können keine Kriege mehr erklärt werden.</string>
+	<string key="ui_mergecomplete_answer_2">Gebiete in der neuen Welt werden von den Kompanien dieser Welt beansprucht. Wenn deine Kompanie nicht von der Ziel-Welt stammt, verlierst du sämtliche Gebiete und Verbesserungen und deine Kompanie erhält {coinAmount} Taler.</string>
+	<string key="ui_mergecomplete_answer_3">Die Spieler werden bei einer Weltenzusammenführung nicht voneinander getrennt und die Kompaniemitgliedschaft sowie die Geldbörse sind weiter vorhanden. {bufferTime} vor der Zusammenführung können keine Kriege erklärt werden.</string>
 	<string key="ui_mergecomplete_answer_4">Du erhältst deine zum Verkauf angebotenen Gegenstände zurück und behältst das Geld für Teilverkäufe. Gezahlte Taler für Steuern oder Angebotsgebühren werden nicht erstattet.</string>
 	<string key="ui_merge_region">Region</string>
 	<string key="ui_merge_world">Welt</string>
 	<string key="ui_merge_character">Charakter</string>
 	<string key="ui_merge_time">Verbleibende Zeit</string>
+	<string key="ui_freeweekend_worldwarning_title">Welten für das Gratis-Wochenende</string>
+	<string key="ui_freeweekend_worldwarning_desc">Wähle am Gratis-Wochenende eine Welt zum Spielen aus. Welten, die nicht als gratis angegeben sind, verfügen über eingeschränkte Sitzungsdauern, die alle {time} verlängert werden, sofern sich keine Spieler, die bezahlt haben, in der Warteschlange befinden.</string>
 	<string key="ui_queue_depth">Spieler in Warteschlange: &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{numplayers}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_expected_wait_time">Voraussichtliche Wartedauer: &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_collapse">Kollaps</string>
@@ -2266,6 +2285,7 @@
 	<string key="ui_itemtypedescription_bow">Bogen</string>
 	<string key="ui_itemtypedescription_musket">Muskete</string>
 	<string key="ui_itemtypedescription_blunderbuss" rel_version="Weapon_Blunderbuss">Donnerbüchse</string>
+	<string key="ui_itemtypedescription_greatsword" rel_version="Weapon_GreatSword">Großschwert</string>
 	<string key="ui_itemtypedescription_pistol">Pistole</string>
 	<string key="ui_itemtypedescription_lifestaff">Lebensstab</string>
 	<string key="ui_itemtypedescription_firestaff">Feuerstab</string>
@@ -2315,19 +2335,19 @@
 	<string key="ui_cannot_use_shield_abilities">Kein Schild ausgerüstet</string>
 	<string key="ui_tooltip_effect_duration">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{value}&lt;/font&gt; Effektdauer</string>
 	<string key="ui_cap_unfocused_fps">FPS Limit im Hintergrund</string>
-	<string key="ui_cap_unfocused_fps_desc">Wenn aktiviert, wird die Framenrate begrentzt, wenn minimiert oder unscharf ist.</string>
+	<string key="ui_cap_unfocused_fps_desc">Nach der Aktivierung wird die Framerate begrenzt, wenn Fenster minimiert oder nicht aktiv ist.</string>
 	<string key="ui_Enable_Viewport_Scale">Dynamische Auflösungs-Skalierung</string>
 	<string key="ui_Enable_Viewport_Scale_desc">Wenn aktiviert, wird die interne Spielauflösung automatisch angepasst, um die Framerate aufrechtzuerhalten.</string>
 	<string key="ui_gathering_disabled">Sammeln ist derzeit deaktiviert.</string>
 	<string key="ui_linktochat_disabled">Im Chat verlinken derzeit deaktiviert</string>
 	<string key="ui_autopinObjectivesMain">Haupthandlungsaufgaben automatisch anheften</string>
-	<string key="ui_autopinobjectivesMain_desc">Haupthandlungsaufgaben werden beim Annehmen automatisch an den HUD angeheftet</string>
+	<string key="ui_autopinobjectivesMain_desc">Haupthandlungsaufgaben werden beim Annehmen automatisch an den HUD angeheftet.</string>
 	<string key="ui_autopinObjectivesSkillProgression">Fähigkeitsfortschritt-Aufgaben autom. anheften</string>
 	<string key="ui_autopinobjectivesSkillProgression_desc">Fähigkeitsfortschritt-Aufgaben werden beim Annehmen automatisch am HUD angeheftet.</string>
 	<string key="ui_autopinObjectivesEpicEquipment">Aufgaben für Epische Waffen/Rüstung autom. anheften</string>
 	<string key="ui_autopinobjectivesEpicEquipment_desc">Aufgaben für Epische Waffen/Rüstung werden beim Annehmen automatisch am HUD angeheftet.</string>
 	<string key="ui_autopinObjectivesSide">Nebenaufgaben automatisch anheften</string>
-	<string key="ui_autopinobjectivesSide_desc">Nebenaufgaben werden beim Annehmen automatisch an den HUD angeheftet</string>
+	<string key="ui_autopinobjectivesSide_desc">Nebenaufgaben werden beim Annehmen automatisch an den HUD angeheftet.</string>
 	<string key="ui_autopinObjectivesFaction">Fraktionsmissionen automatisch anheften</string>
 	<string key="ui_autopinobjectivesFaction_desc">Fraktionsmissionen werden beim Annehmen automatisch an den HUD angeheftet</string>
 	<string key="ui_autopinobjectivesEvent">Eventaufgaben autom. anheften</string>
@@ -2345,6 +2365,7 @@
 	<string key="ui_cannot_chat_global_blocked">Für den Chat in diesem Kanal muss dein Konto mind. {hoursNeeded} Stunden alt sein und mehr als {playtimeNeeded} Spielzeit aufweisen.</string>
 	<string key="ui_complete_quests_to_unlock">Schließe zum Freischalten Aufgaben in der Siedlung ab</string>
 	<string key="ui_cannot_chat_trading_blocked">Dein Konto muss mindestens {hoursNeeded} alt sein, deine Spielzeit muss über {playtimeNeeded} liegen und der Handelsposten muss freigeschaltet sein, um auf diesen Kanal zugreifen zu können.</string>
+	<string key="ui_treasury_purchase_nw">Kaufe New World, um den Firmenschatz zu nutzen</string>
 	<string key="ui_averageexpertise">Durchschnittliche\nKompetenz</string>
 	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Kompetenz&lt;/font&gt;\nKompetenz steht für die Maximalstärke eines ausgerüsteten Gegenstands.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Maximal erreichbare Kompetenz: &lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Kompetenz steigern&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Elite-Orientierungspunkte und Expeditionen&lt;/font&gt;\nBeute von Kreaturen oder aus Truhen in Stufe-60+-Gebieten können diesen Wert steigern.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Herstellung&lt;/font&gt;\nDie Herstellung eines 600-RW-Gegenstands steigert die Kompetenz für diesen Gegenstandstyp.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Gipsabguss&lt;/font&gt;\nDas Öffnen eines Gipsabgusses steigert die Kompetenz.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Gegenstandsaufrüstung (mit Schattensplittern)&lt;/font&gt;\nNachdem du eine Kompetenz von 600 erreicht hast, kannst du sie nur noch weiter steigern, indem du Gegenstände mit Schattensplittern aufrüstest.</string>
 	<string key="ui_itemtypedescription_shield_only">Schild</string>
