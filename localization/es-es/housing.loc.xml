@@ -75,8 +75,8 @@
 	<string key="ui_house_unpaid_taxes_string">Tu casa (desactivada)</string>
 	<string key="ui_house_tax">Imp. de propiedad</string>
 	<string key="ui_house_unpaid_taxes_due_soon">Impuesto de propiedad a pagar en {territoryName} en: {time}. Paga el impuesto de propiedad para seguir usando el viaje rápido y la decoración.</string>
-	<string key="ui_house_overdue_at">Impuesto de propiedad atrasado en {territoryName}. Paga el impuesto de propiedad para seguir usando el viaje rápido y la decoración.</string>
-	<string key="ui_house_overdue_label">Impuesto de propiedad atrasado</string>
+	<string key="ui_house_overdue_at">Impuesto de propiedad ATRASADO en {territoryName}. Paga el impuesto de propiedad para seguir usando el viaje rápido y la decoración.</string>
+	<string key="ui_house_overdue_label">Impuesto de propiedad ATRASADO</string>
 	<string key="ui_house_overdue_desc">Aún no has pagado el impuesto de propiedad. Paga el impuesto de propiedad para habilitar las características de vivienda.</string>
 	<string key="ui_housing_cant_afford">Te faltan monedas para comprar esta casa.</string>
 	<string key="ui_housing_decorate">Decorar</string>
@@ -130,6 +130,8 @@
 	<string key="ui_num_housing_points">{points} puntos</string>
 	<string key="ui_owner_list">Lista de propietarios</string>
 	<string key="ui_pay_house_tax_fail">Error al pagar los impuestos de la casa. Inténtalo de nuevo.</string>
+	<string key="ui_property_tax_disabled">El impuesto de propiedad se ha desactivado.</string>
+	<string key="ui_property_tax_disabled_short">Impuesto de propiedad desactivado</string>
 	<string key="ui_pay_property_tax">Pagar impuesto de propiedad</string>
 	<string key="ui_pay_property_tax_popup_desc">Debes pagar los impuestos de propiedad para poder regresar a tu casa, reaparecer en ella y decorarla.\nLos impuestos se pagan {firstCycle} después de comprar la casa, y luego cada {otherCycle}.</string>
 	<string key="ui_property_tax">Imp. de propiedad</string>
@@ -193,7 +195,7 @@
 	<string key="ui_fast_travel_error_description_inCooldown_with_time">Esta acción se está recargando. Puedes regresar en {time}.</string>
 	<string key="ui_fast_travel_error_noDestination">Para poder usar el viaje rápido, primero tienes que visitar este asentamiento.</string>
 	<string key="ui_fast_travel_error_noDestination_outpost">Para poder usar el viaje rápido, primero tienes que visitar este puesto remoto.</string>
-	<string key="ui_fast_travel_error_badStartLoc">Solo puedes utilizar el viaje rápido mientras estés en un asentamiento, puesto remoto o santuario espiritual.</string>
+	<string key="ui_fast_travel_error_badStartLoc">Solo puedes utilizar el viaje rápido mientras estás en un asentamiento, puesto remoto o santuario espiritual.</string>
 	<string key="ui_fast_travel_error_cantAfford">No tienes suficiente Azoth.</string>
 	<string key="ui_fast_travel_error_encumbered">No puedes regresar ni usar el viaje rápido cuando llevas carga excesiva.</string>
 	<string key="ui_recall_not_available_server_error">No es posible regresar debido a un error del servidor.</string>
@@ -207,7 +209,7 @@
 	<string key="ui_view_taxinfo">Detalles del asentamiento / Información sobre la guerra</string>
 	<string key="ui_view_personalstorage">Mi almacenamiento</string>
 	<string key="ui_more_info">Más información</string>
-	<string key="ui_company_discount">{discountPercent} % por tu compañía</string>
+	<string key="ui_company_discount">{discountPercent} % de descuento de compañía</string>
 	<string key="@ui_house_refunded_title">Casa reembolsada</string>
 	<string key="@ui_house_refunded_message">Debido a los cambios en {settlement}, se te ha reembolsado la casa. Has recuperado {cost}&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; y todos los objetos.</string>
 	<string key="@ui_house_items_refunded_title">Objetos de la casa reembolsados</string>
@@ -245,5 +247,9 @@
 	<string key="ui_housing_tip_description3">Cuelga &lt;font color={colorHex}&gt;trofeos&lt;/font&gt; para activar &lt;font color={colorHex}&gt;potenciadores pasivos&lt;/font&gt;.\n\nConsejo: Solo se pueden colocar 5 trofeos en cada casa, pero los efectos de los trofeos duplicados se pueden acumular.</string>
 	<string key="ui_housing_tip_title4">Objetos y puntuación totales</string>
 	<string key="ui_housing_tip_description4">El panel en la parte derecha de tu pantalla te indica la &lt;font color={colorHex}&gt;puntuación de decoración&lt;/font&gt; y las &lt;font color={colorHex}&gt;limitaciones de decoración&lt;/font&gt; de tu casa.\n\nConsejo: Colocar demasiados objetos iguales restará puntos de tu puntuación de decoración.</string>
+	<string key="ui_fast_travel_charted_point">Punto de viaje rápido</string>
+	<string key="ui_fast_travel_uncharted_point">Punto de viaje rápido no explorado</string>
+	<string key="ui_fast_travel_shrine_activated_header">Santuario de viaje rápido</string>
+	<string key="ui_fast_travel_shrine_activated_body">¡Nuevo punto de viaje rápido activado!</string>
 </resources>
 

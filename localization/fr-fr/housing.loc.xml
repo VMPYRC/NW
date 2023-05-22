@@ -75,9 +75,9 @@
 	<string key="ui_house_unpaid_taxes_string">Votre maison (désactivée)</string>
 	<string key="ui_house_tax">Impôts fonciers</string>
 	<string key="ui_house_unpaid_taxes_due_soon">Les impôts fonciers de {territoryName} seront à payer dans : {time} Payez vos impôts fonciers pour continuer à bénéficier du mode Décoration et du Transfert rapide</string>
-	<string key="ui_house_overdue_at">Retard de paiement des impôts fonciers pour : {territoryName}. Payez vos impôts fonciers pour continuer à bénéficier du mode Décoration et du Transfert rapide</string>
-	<string key="ui_house_overdue_label">Retard de paiement des impôts fonciers</string>
-	<string key="ui_house_overdue_desc">Retard de paiement des impôts fonciers : payez vos impôts fonciers pour activer des fonctionnalités de logement.</string>
+	<string key="ui_house_overdue_at">RETARD DE PAIEMENT des impôts fonciers pour : {territoryName}. Payez vos impôts fonciers pour continuer à bénéficier du mode Décoration et du Transfert rapide</string>
+	<string key="ui_house_overdue_label">RETARD DE PAIEMENT des impôts fonciers</string>
+	<string key="ui_house_overdue_desc">Vous avez du RETARD dans le paiement de vos impôts fonciers. payez vos impôts fonciers pour activer des fonctionnalités de logement.</string>
 	<string key="ui_housing_cant_afford">Vous n'avez pas assez de pièces pour acheter cette maison.</string>
 	<string key="ui_housing_decorate">Décorer</string>
 	<string key="ui_housing_decorate_desc">Agencez meubles et animaux domestiques.</string>
@@ -130,6 +130,8 @@
 	<string key="ui_num_housing_points">{points} Points</string>
 	<string key="ui_owner_list">Liste des propriétaires</string>
 	<string key="ui_pay_house_tax_fail">Erreur lors du paiement des impôts fonciers. Veuillez réessayer.</string>
+	<string key="ui_property_tax_disabled">Les impôts fonciers ont été désactivés.</string>
+	<string key="ui_property_tax_disabled_short">Impôts fonciers désactivés</string>
 	<string key="ui_pay_property_tax">Payer les impôts fonciers</string>
 	<string key="ui_pay_property_tax_popup_desc">Vous devez payer des taxes foncières pour retourner et réapparaître dans votre maison, ou décorer votre maison.\nLes taxes doivent être payées {firstCycle} après l'achat d'une maison, puis chaque {otherCycle}.</string>
 	<string key="ui_property_tax">Impôts fonciers</string>
@@ -245,5 +247,9 @@
 	<string key="ui_housing_tip_description3">Accrochez des &lt;font color={colorHex}&gt;trophées&lt;/font&gt; pour activer des &lt;font color={colorHex}&gt;bonus passifs&lt;/font&gt;.\n\nConseil : une maison ne peut contenir que 5 trophées, mais les effets des trophées en double s'additionnent.</string>
 	<string key="ui_housing_tip_title4">Objets et score totaux</string>
 	<string key="ui_housing_tip_description4">La fenêtre à droite de l'écran vous indique le &lt;font color={colorHex}&gt;score de décoration&lt;/font&gt; et les &lt;font color={colorHex}&gt;limites de décoration&lt;/font&gt; de votre maison.\n\nConseil : placer trop d'exemplaires du même objet réduira votre score de décoration.</string>
+	<string key="ui_fast_travel_charted_point">Point de transfert rapide</string>
+	<string key="ui_fast_travel_uncharted_point">Point de transfert rapide non présent sur la carte</string>
+	<string key="ui_fast_travel_shrine_activated_header">Sanctuaire de transfert rapide</string>
+	<string key="ui_fast_travel_shrine_activated_body">Nouveau point de transfert rapide activé !</string>
 </resources>
 

@@ -182,8 +182,8 @@
 	<string key="ui_backfill_tooltip" comment="">La compagnie est en mesure de décider comment compléter ses rangs si des joueurs désertent avant la fin de la guerre.</string>
 	<string key="ui_backfill_auto_tooltip" comment="">Piocher automatiquement des joueurs dans la liste de réserve en fonction de leur ordre d'inscription</string>
 	<string key="ui_backfill_manual_tooltip" comment="">Sélectionner manuellement des joueurs dans la liste de réserve pour remplir les postes abandonnés</string>
-	<string key="ui_raid_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / 50</string>
-	<string key="ui_invasion_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / 10</string>
+	<string key="ui_raid_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / {total}</string>
+	<string key="ui_invasion_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / {total}</string>
 	<string key="ui_promote_disabled_max_tooltip" comment="">Impossible de promouvoir davantage ce joueur</string>
 	<string key="ui_demote_disabled_min_tooltip" comment="">Impossible de rétrograder davantage ce joueur</string>
 	<string key="ui_remove_army" comment="">Retirer de l'armée</string>

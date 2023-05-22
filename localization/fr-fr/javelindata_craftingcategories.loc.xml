@@ -594,7 +594,7 @@
 	<string key="CategoryData_coating">Enduits</string>
 	<string key="CategoryData_components">Composants</string>
 	<string key="CategoryData_CookedFood">Nourriture cuisinée</string>
-	<string key="CategoryData_Cooking Recipes">Recettes de cuisine</string>
+	<string key="CategoryData_CookingRecipes">Recettes de cuisine</string>
 	<string key="CategoryData_cookingingredients">Ingrédients de cuisine</string>
 	<string key="CategoryData_CoreTrinkets">Sacs</string>
 	<string key="CategoryData_CraftingConsumables">Nécessaires</string>
@@ -1370,6 +1370,7 @@
 	<string key="MoonstoneCut_GroupDesc">Pierres précieuses taillées et polies : pierre de lune. Peuvent être transformées en bijoux pour augmenter la force et la concentration, ou serties sur de l'équipement pour lui conférer les atouts Euphorique et Protection anti-taille.</string>
 	<string key="MoonstoneCut_GroupName">Pierre de lune taillée</string>
 	<string key="MusketA_GroupDesc">Une arme à distance qui tire de puissantes cartouches. Idéale pour se battre à distance sans laisser ses cibles approcher. À manier avec précision pour infliger de lourds dégâts.\n\n•Attaque standard : Inflige {[DamageTable.MusketAttack1.DmgCoef * 100]} % de dégâts d'estoc.</string>
+	<string key="Blunderbuss_GroupDesc" rel_version="Weapon_Blunderbuss">Une arme à courte distance qui tiret 6 plombs par détonation. Parfait pour maintenir la pression sur des cibles luttant au corps à corps et pour en découdre avec des cibles tirant à distance.\n\n•Attaque standard : inflige {[DamageTable.Blunderbuss_Primary_Attack.DmgCoef * 100]} % de dégâts d'estoc par plomb.</string>
 	<string key="MusketA_GroupName">Mousquet</string>
 	<string key="Muskets_GroupName">Mousquets</string>
 	<string key="nut_GroupName">Noix</string>
@@ -1800,5 +1801,6 @@
 	<string key="TimelessShardsCon">Éclats intemporels – Forme</string>
 	<string key="ArmorShadow_GroupName">Marcheur de l'ombre</string>
 	<string key="ArmorBeast_GroupName">Chasseur de monstres</string>
+	<string key="Blunderbuss_GroupName">Tromblons</string>
 </resources>
 

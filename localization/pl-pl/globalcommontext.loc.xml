@@ -115,10 +115,9 @@
 	<string key="ui_affliction_blight">odporność na zarazę</string>
 	<string key="ui_affliction_blight_tooltip">Jeśli stracisz odporność na zarazę, dopadnie cię zaraza i będziesz zadawać o {[Type_StatusEffectData.Blight.DMGStandard * 100]}% mniej obrażeń, otrzymywać o {[Type_StatusEffectData.Blight.HealMod * 100]}% mniej zdrowia podczas leczenia i tracić {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]}% zdrowia podstawowego co {[Type_StatusEffectData.Blight.TickRate]} s przez {[Afflictions.AfflictionBlight.AfflictedDrainTime]} s.</string>
 	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">wybuchowa odporność</string>
-	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">licznik wybuchowości.</string>
+	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Po upływie czasu na gracza z najniższym zdrowiem zostanie nałożony efekt wybuchowości.</string>
 	<string key="ui_affliction_mutcurse4" rel_version="Feature_Dungeon_Mutators">odporność na rykoszet</string>
 	<string key="ui_affliction_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Jeżeli zabraknie ci odporności, zostanie na ciebie rzucona strefa wyciszenia. Wybuchnie ona po pewnym czasie, zadając obrażenia innym graczom. Odporność jest współdzielona przez wszystkich członków twojej grupy.</string>
-	<string key="ui_affliction_mutcurse2" rel_version="Feature_Dungeon_Mutators_pt2">odporność na znużenie</string>
 	<string key="ui_affliction_mutcurse2_tooltip" rel_version="Feature_Dungeon_Mutators">Jeżeli zabraknie ci odporności, zostanie na ciebie rzucona strefa znużenia, która cię spowolni i sprawi, że będziesz otrzymywać większe obrażenia każdego rodzaju. Używanie zdolności zwiększa odporność. Odporność jest współdzielona przez wszystkich członków twojej grupy.</string>
 	<string key="ui_afflicted_bleeding">zranienie</string>
 	<string key="ui_afflicted_bleeding_tooltip">Zraniona postać znacznie wolniej odzyskuje energię</string>
@@ -194,7 +193,7 @@
 	<string key="ui_cancelin">Anulowanie dostępne za {time}s</string>
 	<string key="ui_canvas">Płótno</string>
 	<string key="ui_azoth_currency">Azoth</string>
-	<string key="ui_azoth_desc">Azoth służy do szybkiej podróży pomiędzy kapliczkami i osadami oraz do wytwarzania potężniejszych przedmiotów.\n\nZdobywa się go przede wszystkim przez wykonywanie zadań i zamykanie wyłomów skażenia.</string>
+	<string key="ui_azoth_desc">Azoth służy do szybkiej podróży pomiędzy kapliczkami i osadami oraz do wytwarzania potężniejszych przedmiotów.\n\nZdobywa się go przede wszystkim przez wykonywanie zadań i zamykanie wyłomów skażenia.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Można otrzymać za:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt;Wyłomy skażenia, zadania&lt;/font&gt;</string>
 	<string key="ui_cards">Karty</string>
 	<string key="ui_leave_arena_coming_soon">Funkcja "opuszczanie areny" zostanie wkótce dodana</string>
 	<string key="ui_equipfishingpole">[{value}], aby wędkować</string>
@@ -285,6 +284,8 @@
 	<string key="ui_hour_with_time_short">1g</string>
 	<string key="ui_minute_with_time">1 min</string>
 	<string key="ui_minute_with_time_short">1m</string>
+	<string key="ui_lessthan_minute_with_time">&lt;1 minuta</string>
+	<string key="ui_lessthan_minute_with_time_short">&lt;1 min</string>
 	<string key="ui_hours_with_time">{time} godz.</string>
 	<string key="ui_hours_with_time_short">{time}g</string>
 	<string key="ui_minutes_with_time">{time} min</string>
@@ -293,6 +294,7 @@
 	<string key="ui_seconds_with_time_short">{time}s</string>
 	<string key="ui_lastplayed">Ostatnia gra</string>
 	<string key="ui_minuteago">1 minutę temu</string>
+	<string key="ui_lessthan_minuteago">&lt;1 minutę temu</string>
 	<string key="ui_minutesago">{time} min temu</string>
 	<string key="ui_hourago">1 godzinę temu</string>
 	<string key="ui_hoursago">{time} godz. temu</string>
@@ -581,6 +583,7 @@
 	<string key="ui_respec_cooldown_error">Rekonfiguracja jest niedostępna, gdy umiejętności są odnawiane.</string>
 	<string key="ui_respec_combat_error">Nie można przeprowadzić rekonfiguracji podczas walki</string>
 	<string key="ui_equipment_cooldown_error">Wyposażenia nie da się zmienić, gdy umiejętności są odnawiane.</string>
+	<string key="ui_equipment_combat_locked_error" rel_version="Feature_InOutCombat">Nie można zmieniać wyposażenia podczas walki</string>
 	<string key="ui_secondary_attack">Atak dodatkowy</string>
 	<string key="ui_weaponcycleup">Następna broń</string>
 	<string key="ui_weaponcycledown">Poprzednia broń</string>
@@ -693,7 +696,7 @@
 	<string key="ui_save">Zapisz</string>
 	<string key="ui_se">SE</string>
 	<string key="ui_binding_reserved_key_blocked">Nie można przypisać klawisza: {key}, zastrzeżono dla: {actionName} (nie można zmienić).</string>
-	<string key="ui_binding_reserved_key_title_single">Zmienić przypisanie klawisza?</string>
+	<string key="ui_binding_reserved_key_title_single">Zmienić przypisanie?</string>
 	<string key="ui_binding_reserved_key_message_single">Próbujesz przypisać nową czynność ({newAction}) klawiszowi {key}. Poprzednia czynność ({oldAction}) nie będzie miała żadnego przypisanego klawisza. Kontynuować?</string>
 	<string key="ui_binding_reserved_key_title_multiple">Zmienić przypisanie?</string>
 	<string key="ui_binding_reserved_key_message_multiple">Próbujesz przypisać nową czynność ({newAction}) klawiszowi {key}. Poprzednie czynności nie będą mieć żadnego przypisanego klawisza. Kontynuować?\n{oldActions}</string>
@@ -824,7 +827,7 @@
 	<string key="ui_anti-cheat_desc">Wyświetl w oknie przeglądarki informacje na temat oprogramowania zwalczającego oszustwa</string>
 	<string key="ui_legalprivacy">Proszę przeczytać oświadczenie o prywatności</string>
 	<string key="ui_prealphatag">Build testowy — POUFNY</string>
-	<string key="ui_buildtag">Beta</string>
+	<string key="ui_buildtag">Wersja PTR</string>
 	<string key="ui_chat_feed">Tablica</string>
 	<string key="ui_chat_feed_tooltip">Dodaje ten kanał do tablicy</string>
 	<string key="ui_chat_muted_tooltip">Ten kanał nie będzie wyświetlany na tablicy, a nieprzeczytane wiadomości nie będą pokazywane na ikonie czatu. Wciąż można będzie wyświetlać kanał za pomocą ikony wyboru kanału po lewej.</string>
@@ -860,6 +863,7 @@
 	<string key="ui_world_select_change_selection">Zmień wybór</string>
 	<string key="ui_world_select_select_world">Wybierz świat</string>
 	<string key="ui_world_select_world">Świat</string>
+	<string key="ui_world_select_region">Region</string>
 	<string key="ui_world_select_world_set">Zestaw światów</string>
 	<string key="ui_world_select_queue_time">Czas oczekiwania</string>
 	<string key="ui_world_select_queue_size">Oczekujący gracze</string>
@@ -885,6 +889,8 @@
 	<string key="ui_character_options">Opcje postaci</string>
 	<string key="ui_character_merge_destination">Ten świat ({worldName}) zostanie włączony do: {destinationWorldName} dnia: {date}.</string>
 	<string key="ui_xp">PD</string>
+	<string key="ui_player_xp">PD gracza</string>
+	<string key="ui_player_xp_desc">PD pozwala awansować postać na wyższy poziom.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Można otrzymać za:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt;Wykonywanie misji, wytwarzanie, zabijanie wrogów, branie udziału w wydarzeniach&lt;/font&gt;</string>
 	<string key="ui_xp_boost">Premia do PD</string>
 	<string key="ui_xp_event_title">PREMIA DO PD!</string>
 	<string key="ui_xp_event_desc">W tym świecie jest aktywna premia do PD!</string>
@@ -893,7 +899,9 @@
 	<string key="ui_xp_event_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;PD (x {amount})&lt;/font&gt;</string>
 	<string key="ui_xp_event_tradeskill_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Profesję (x {amount})&lt;/font&gt;</string>
 	<string key="ui_xp_event_weaponmastery_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Biegłość w używaniu broni (x {amount})&lt;/font&gt;</string>
-	<string key="ui_xp_boost_reminder" comment="The leading space is intentional"> (x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
+	<string key="ui_xp_event_progression_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;{progressionName} (x {amount})&lt;/font&gt;</string>
+	<string key="ui_xp_boost_reminder" comment="The leading space is intentional"> ( x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
+	<string key="ui_xp_multiplier_arrow" comment="The leading space is intentional"> x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="world_landing_title">Wybrano dla ciebie optymalny ŚWIAT</string>
 	<string key="world_set">Zestaw światów?</string>
 	<string key="world_set_title">*Czym jest zestaw światów?</string>
@@ -902,6 +910,7 @@
 	<string key="world_set_characters_desc">Możesz mieć 1 postać w każdym zestawie światów. Jeśli chcesz grać w innym świecie w obrębie zestawu światów, musisz usunąć swoją postać, ponieważ nie można ich przenosić pomiędzy światami.</string>
 	<string key="world_set_recommended_world">Zalecany świat</string>
 	<string key="world_set_region">Region:</string>
+	<string key="world_set_current_region">Obecny region:</string>
 	<string key="ui_mastery">Biegłość</string>
 	<string key="ui_server_list_wait_time">Czas oczekiwania</string>
 	<string key="ui_glory_update_floating_tradeskill">{masteryName}</string>
@@ -913,6 +922,8 @@
 	<string key="ui_glory_to_level">&lt;font color="#ffffff"&gt;{xp} PD&lt;/font&gt; do poz. {level}</string>
 	<string key="ui_glory_tooltip">Masz niewykorzystane punkty cech lub umiejętności. Naciśnij [{keyName}], aby otworzyć ekran postępów i ulepszyć swoje zdolności.</string>
 	<string key="ui_coin">Monety</string>
+	<string key="ui_coin">Monety</string>
+	<string key="ui_coin_desc">Główna waluta używana do kupowania przedmiotów w faktorii i w sklepie frakcji.\nLimit monet: &lt;font color="#ffffff"&gt;{amount}&lt;/font&gt;.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Można otrzymać za:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt;Wykonywanie misji, zabijanie wrogów, branie udziału w wydarzeniach&lt;/font&gt;</string>
 	<string key="ui_coin_max">Maks. liczba monet</string>
 	<string key="ui_coin_icon">{coin} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_floating_coin_val">&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;{amount}</string>
@@ -923,6 +934,7 @@
 	<string key="ui_killfeed_standing_val">+{amount}</string>
 	<string key="ui_killfeed_tradeskill_val">+{amount}</string>
 	<string key="ui_navmenu_friends">ZNAJOMI</string>
+	<string key="ui_navmenu_modes">Tryby</string>
 	<string key="ui_navmenu_guild">Kompania</string>
 	<string key="ui_navmenu_map">Mapa</string>
 	<string key="ui_navmenu_journal">Dziennik</string>
@@ -1044,9 +1056,9 @@
 	<string key="ui_intelligence_description">(kluczowa dla magii)</string>
 	<string key="ui_focus_description">(kluczowe dla leczenia)</string>
 	<string key="ui_constitution_tooltip">Główna cecha wpływająca na ogólny poziom zdrowia.</string>
-	<string key="ui_strength_tooltip">Główna cecha dla młota bojowego, topora dwuręcznego, miecza i siekierki.\n\nDrugorzędna cecha dla włóczni.</string>
+	<string key="ui_strength_tooltip">Główna cecha dla młota bojowego, topora dwuręcznego, miecza, siekierki i garłacza.\n\nDrugorzędna cecha dla włóczni.</string>
 	<string key="ui_dexterity_tooltip">Główna cecha dla łuku, rapiera, włóczni i muszkietu.\n\nDrugorzędna cecha dla miecza i siekierki.</string>
-	<string key="ui_intelligence_tooltip">Główna cecha dla ognistej laski, lodowej rękawicy i rękawicy próżni.\n\nDrugorzędna cecha dla rapiera i muszkietu.</string>
+	<string key="ui_intelligence_tooltip">Główna cecha dla ognistej laski, lodowej rękawicy i rękawicy próżni.\n\nDrugorzędna cecha dla rapiera, muszkietu i garłacza.</string>
 	<string key="ui_focus_tooltip">Główna cecha dla laski życia.\n\nDrugorzędna cecha dla rękawicy próżni.</string>
 	<string key="ui_spirit_tooltip">WIARA\n\nDodawanie punktów do wiary zwiększa:\n\n– całkowitą manę,\n– obronę przed obrażeniami od próżni,\n– odporność na skażenie,\n\n– potęgę zaklęć rzucanych za pomocą niebiańskich rękawic.\n</string>
 	<string key="ui_vitality_tooltip">POSTURA\n\nDodawanie punktów do postury zwiększa:\n\n– obronę przed obrażeniami fizycznymi,\n– odporność na zatrucie,\n– maksymalny ciężar wyposażenia.\n</string>
@@ -1161,6 +1173,7 @@
 	<string key="ui_deathsdoorcooldown">Ożywienie ładuje się</string>
 	<string key="ui_deathsdoorcooldown_description">Będzie można cię ożywić za</string>
 	<string key="ui_currency">Monety</string>
+	<string key="ui_currency_type">Waluta</string>
 	<string key="ui_currency_value">{value} mon.</string>
 	<string key="ui_active_crimes">Aktualne przestępstwa: {crimeList}</string>
 	<string key="ui_crime_tooltip">Gdy jesteś przestępcą, inni gracze mogą atakować cię, sami nie stając się przestępcami. Oprócz tego mogą atakować cię w azylu. W razie śmierci upuścisz nie tylko ekwipunek, ale także wyposażenie.\n\nAktualne przestępstwa: {crimeList}</string>
@@ -1453,7 +1466,7 @@
 	<string key="ui_tooltip_requiredtouse">Wymagane do użycia</string>
 	<string key="ui_tooltip_required">Wymagania:</string>
 	<string key="ui_tooltip_attribute">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{value}&lt;/font&gt; {label}</string>
-	<string key="ui_tooltip_equip">Do ekwipunku</string>
+	<string key="ui_tooltip_equip">Ekwipuj</string>
 	<string key="ui_tooltip_equip_requirements_not_met">Ekwipuj – wymagania nie zostały spełnione</string>
 	<string key="ui_tooltip_equipasweapon">Użyj jako broni</string>
 	<string key="ui_tooltip_unequip">Odłóż</string>
@@ -1601,6 +1614,7 @@
 	<string key="ui_transferwarning">Czy na pewno chcesz przenieść wszystkie przedmioty do ekwipunku?</string>
 	<string key="ui_transfertooltip">Możesz przenosić przedmioty pomiędzy terytoriami kontrolowanymi przez twoją frakcję.</string>
 	<string key="ui_transfertoandfromtooltip">Możesz przenosić przedmioty z i do składzików znajdujących się tylko w twojej bieżącej lokalizacji.</string>
+	<string key="ui_transfertoandfromrfitooltip">Możesz przenosić przedmioty do i ze składzików znajdujących się w odwiedzonych przez ciebie osadach.</string>
 	<string key="ui_transferfromtooltip">Możesz za opłatą przenosić przedmioty do ekwipunku ze składzików, które znajdują się na terytoriach kontrolowanych przez twoją frakcję.</string>
 	<string key="ui_remotetransfersingletitle">Przenieś przedmiot</string>
 	<string key="ui_remotetransfersinglebody">Czy na pewno chcesz przenieść ten przedmiot z terytorium: {territoryName} do ekwipunku?\nKoszt przeniesienia przedmiotu: {amount} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
@@ -1653,6 +1667,8 @@
 	<string key="ui_skin_available_count">Dostępne skórki: {count}</string>
 	<string key="ui_skin_change_skin">Zmień skórkę</string>
 	<string key="ui_added_to_inventory">Dodano do &lt;font color="#c0c0c0"&gt;ekwipunku&lt;/font&gt;</string>
+	<string key="ui_currency_added">Dodano walutę</string>
+	<string key="ui_xp_added">Dodano PD</string>
 	<string key="ui_shareObjective">Podziel się z grupą</string>
 	<string key="ui_objective_type_full">Nie możesz przyjąć więcej celów tego typu.</string>
 	<string key="ui_failed_to_accept_quest">To zadanie jest obecnie niedostępne</string>
@@ -1831,6 +1847,14 @@
 	<string key="ui_view_my_storage">Wyświetl mój magazyn</string>
 	<string key="ui_improve">Ulepsz</string>
 	<string key="ui_xp_tooltip">&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;PODSTAWOWE PD&lt;/font&gt;\n Łączna liczba PD {totalXP}\n {xpToLevel} do poz. {nextLevel}{bonusXpString}</string>
+	<string key="ui_xp_tooltip_header">Podstawowe PD</string>
+	<string key="ui_xp_tooltip_total_xp">Łączna liczba PD</string>
+	<string key="ui_xp_tooltip_remaining_xp">PD do poz. {nextLevel}</string>
+	<string key="ui_xp_tooltip_bonus_header">Dodatkowe PD</string>
+	<string key="ui_xp_tooltip_rested_xp">Premia do PD za wypoczęcie</string>
+	<string key="ui_xp_tooltip_rested_remaining">(Pozostałe PD za wypoczęcie: {restedXpRemaining})</string>
+	<string key="ui_xp_tooltip_xp_boost">Premia do PD</string>
+	<string key="ui_xp_tooltip_total_xp_bonus">Łączna premia do PD</string>
 	<string key="ui_xp_bonuses_tooltip">\n\n&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;PREMIE DO PD&lt;/font&gt;{restedXpString}{boostXpString}\n &lt;font color={totalBonusXpColor}&gt;Łączna premia do PD {totalXpBonus}&lt;/font&gt;</string>
 	<string key="ui_xp_rested_tooltip">\n &lt;font color={restedXpColor}&gt;Premia za wypoczęcie {restedModifier}\n Pozostało {totalRestedXP} PD za wypoczęcie&lt;/font&gt;</string>
 	<string key="ui_xp_multiplier_tooltip">\n &lt;font color={boostXpColor}&gt;Premia do PD {boostModifier}&lt;/font&gt;</string>
@@ -1958,11 +1982,15 @@
 	<string key="ui_musket_mastery">Biegłość w używaniu muszkietu</string>
 	<string key="ui_musket_tree1">Strzelec wyborowy</string>
 	<string key="ui_musket_tree2">Traper</string>
+	<string key="ui_blunderbuss" rel_version="Weapon_Blunderbuss">Garłacz</string>
+	<string key="ui_blunderbuss_mastery" rel_version="Weapon_Blunderbuss">Biegłość w używaniu garłacza</string>
+	<string key="ui_blunderbuss_tree1" rel_version="Weapon_Blunderbuss">Kontrola</string>
+	<string key="ui_blunderbuss_tree2" rel_version="Weapon_Blunderbuss">Chaos</string>
 	<string key="ui_firemagic">Magia ognia</string>
-	<string key="ui_firemagic_mastery">Biegłość w używaniu magii ognia</string>
+	<string key="ui_firemagic_mastery">Biegłość w używaniu ognistej laski</string>
 	<string key="ui_firestaff">Ognista laska</string>
 	<string key="ui_lifemagic">Magia życia</string>
-	<string key="ui_lifemagic_mastery">Biegłość w używaniu magii życia</string>
+	<string key="ui_lifemagic_mastery">Biegłość w używaniu laski życia</string>
 	<string key="ui_lifestaff">Laska życia</string>
 	<string key="ui_lifestaff_tree1">Leczenie</string>
 	<string key="ui_lifestaff_tree2">Obrońca</string>
@@ -2049,9 +2077,9 @@
 	<string key="ui_mergefaq_question_3">Czy zachowam swoją kompanię?</string>
 	<string key="ui_mergefaq_question_4">Czy moja kompania wciąż będzie mogła wypowiadać wojnę innym kompaniom?</string>
 	<string key="ui_mergefaq_answer_1">Poziom twojej postaci, punkty cech, punkty biegłości, ranga terytorium, dom, ekwipunek i magazyn osady zostaną zachowane.</string>
-	<string key="ui_mergefaq_answer_2">Terytoria w nowym świecie zostaną przejęte przez kompanie z tamtego świata. Jeśli twoja kompania nie należy do nowego świata, stracisz wszystkie terytoria i ulepszenia. W zamian twoja kompania otrzyma 50 000 monet.</string>
+	<string key="ui_mergefaq_answer_2">Terytoria w nowym świecie zostaną przejęte przez kompanie z tamtego świata. Jeśli twoja kompania nie należy do nowego świata, stracisz wszystkie terytoria i ulepszenia. W zamian twoja kompania otrzyma {coinAmount} monet.</string>
 	<string key="ui_mergefaq_answer_3">Gracze nie zostaną rozdzieleni z powodu połączenia światów. Członkostwo w kompanii oraz jej portfel zostaną zachowane.</string>
-	<string key="ui_mergefaq_answer_4">Gracze otrzymają powiadomienie na 72 godzin przed połączeniem światów. W tym czasie kompanie nie będę mogły wypowiadać sobie wojen. Oczekujące wojny zostaną anulowane, a złoto wydane na wypowiedzenie wojny zostanie zwrócone.</string>
+	<string key="ui_mergefaq_answer_4">Gracze otrzymają powiadomienie na {bufferTime} przed połączeniem światów. W tym czasie kompanie nie będę mogły wypowiadać sobie wojen. Oczekujące wojny zostaną anulowane, a złoto wydane na wypowiedzenie wojny zostanie zwrócone.</string>
 	<string key="ui_mergewarning_title">WKRÓTCE NASTĄPI POŁĄCZENIE ŚWIATÓW</string>
 	<string key="ui_mergewarning_body">Posiadasz co najmniej jedną postać w światach, które wkrótce zostaną połączone:</string>
 	<string key="ui_mergewarning_learn">DOWIEDZ SIĘ WIĘCEJ</string>
@@ -2174,13 +2202,13 @@
 	<string key="tooltip_salvage_remote">Nie można odzyskać składników z przedmiotów w odległych miejscach.</string>
 	<string key="tooltip_salvage_cannot">Z tego przedmiotu nie można odzyskać składników</string>
 	<string key="twitch_link_title">Połącz swoje konto Twitch z Amazon Games</string>
-	<string key="twitch_link_desc">Gdy połączysz z grą swoje konto w serwisie Twitch, otrzymasz dostęp do specjalnych atrakcji. Możesz odłączyć swoje konto w dowolnej chwili.</string>
+	<string key="twitch_link_desc">Połącz z grą swoje konto w serwisie Twitch, by otrzymać dostęp do specjalnych atrakcji. Możesz odłączyć swoje konto w dowolnym momencie.</string>
 	<string key="twitch_sub_army">Armia subskrybentów</string>
-	<string key="twitch_sub_army_desc">Zapraszaj swoich subskrybentów i obserwujących do grup i kompanii, używając wbudowanego panelu społecznościowego.</string>
+	<string key="twitch_sub_army_desc">Dołączaj do streamerów albo zapraszaj swoich subskrybentów/obserwujących do grup i kompanii, używając wbudowanego panelu społecznościowego.</string>
 	<string key="twitch_drop_rewards">Dropy Twitcha</string>
-	<string key="twitch_drop_rewards_desc">Dropy Twitcha pozwalają graczom zdobywać nagrody w grze za samo oglądanie transmisji z New World. Wystarczy aktywować opcję "włącz dropy" na Twitchu.</string>
+	<string key="twitch_drop_rewards_desc">Zdobywaj nagrody w grze za oglądanie transmisji z New World. Wystarczy aktywować opcję "włącz dropy" na Twitchu.</string>
 	<string key="twitch_streamer_spotlight">Wyróżnianie streamera</string>
-	<string key="twitch_streamer_spotlight_desc">Podczas prowadzenia transmisji z New World możesz aktywować oznaczenie "NA ŻYWO" oraz licznik oglądających – informacje te będą widoczne na tabliczce z imieniem twojej postaci w grze.</string>
+	<string key="twitch_streamer_spotlight_desc">Aktywuj oznaczenie "NA ŻYWO" oraz licznik oglądających – informacje te będą widoczne na tabliczce z imieniem twojej postaci w grze podczas prowadzenia transmisji z New World.</string>
 	<string key="twitch_prime_gaming">Prime Gaming</string>
 	<string key="twitch_prime_gaming_desc">Połączenie konta z usługą Prime Gaming zapewni ci co miesiąc dostęp do ekskluzywnej zawartości w grze oraz innych nagród specjalnych.</string>
 	<string key="go_crow">Go Crow</string>
@@ -2237,6 +2265,7 @@
 	<string key="ui_itemtypedescription_warhammer">Młot bojowy</string>
 	<string key="ui_itemtypedescription_bow">Łuk</string>
 	<string key="ui_itemtypedescription_musket">Muszkiet</string>
+	<string key="ui_itemtypedescription_blunderbuss" rel_version="Weapon_Blunderbuss">Garłacz</string>
 	<string key="ui_itemtypedescription_pistol">Pistolet</string>
 	<string key="ui_itemtypedescription_lifestaff">Laska życia</string>
 	<string key="ui_itemtypedescription_firestaff">Ognista laska</string>
@@ -2273,6 +2302,7 @@
 	<string key="ui_itemtypedescription_Earringjewelry">Kolczyki</string>
 	<string key="ui_itemtypedescription_resource">Zasoby</string>
 	<string key="ui_itemtypedescription_tool">Narzędzia</string>
+	<string key="ui_itemtypedescription_instrument">Instrument</string>
 	<string key="ui_itemtypedescription_dye">Barwnik</string>
 	<string key="ui_itemtypedescription_bag">Torba</string>
 	<string key="ui_itemtypedescription_consumable">Przedmiot użytkowy</string>
@@ -2327,5 +2357,15 @@
 	<string key="ui_expertise_tooltip_increase">&lt;font color="#ffffff"&gt;Maksymalna&lt;/font&gt; wartość biegłości możliwa do osiągnięcia dzięki wrogom, skrzyniom, odlewom gipsowym i rzemiosłu to &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt;.</string>
 	<string key="ui_expertise_tooltip_maximum">Aby zwiększyć biegłość powyżej &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt;, ulepsz przedmiot w tym miejscu za pomocą &lt;font color="#ffffff"&gt;odłamków umbralu&lt;/font&gt;.</string>
 	<string key="ui_expertise_crafting_gain">Biegłość: {category}</string>
+	<string key="ui_guides">Poradniki</string>
+	<string key="ui_fast_travel_guide_1_header">Jak to działa?</string>
+	<string key="ui_fast_travel_guide_1_body">Otwórz mapę i wybierz lokację, do której chcesz odbyć podróż. Możesz wydać azoth, by szybko podróżować pomiędzy odwiedzonymi przez siebie osadami, posterunkami i kapliczkami ducha.</string>
+	<string key="ui_fast_travel_guide_2_body">Na mapie nieodkryte kapliczki ducha są oznaczone ikoną &lt;img src="lyshineui/images/objectives/journal/guidestab/fasttraveliconinactive" scale="3" yOffset="15"&gt;&lt;/img&gt;.\nZ kolei odwiedzone przez ciebie kapliczki są oznaczone ikoną &lt;img src="lyshineui/images/objectives/journal/guidestab/fasttraveliconactive" scale="3" yOffset="15"&gt;&lt;/img&gt;.</string>
+	<string key="ui_fast_travel_guide_3_header">Cena za obciążenie</string>
+	<string key="ui_fast_travel_guide_3_body">Ilość azothu potrzebna do odbycia szybkiej podróży jest tym większa, im większy jest ciężar twojego ekwipunku. Podróżujcie z małym obciążeniem, przyjaciele.</string>
+	<string key="ui_fishing_hotspot_depleted">Wyczerpane łowisko</string>
+	<string key="ui_fishing_hotspot_active">Aktywne łowisko</string>
+	<string key="ui_fishing_hotspot_depleted_body">Złowienie określonej liczby ryb wyczerpie łowisko. Jeśli w łowisku nie skaczą żadne ryby, oznacza to, że jest ono wyczerpane. Wyczerpane łowisko stanie się znów aktywne po upływie określonego czasu.</string>
+	<string key="ui_fishing_hotspot_active_body">Jeśli widzisz, że w łowisku skaczą ryby, oznacza to, że jest ono aktywne. W aktywnym łowisku ryby szybciej łapią się na haczyk i z reguły są to rzadsze okazy. Gdy zarzucisz wędkę we właściwym miejscu, zobaczysz małe powiadomienie, informujące cię o tym, że udało ci się trafić w łowisko.</string>
 </resources>
 

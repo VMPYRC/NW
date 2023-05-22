@@ -78,7 +78,7 @@
 	<string key="owg_factionwarinfo_title_2_desc_2_bullet_3">Frakcje &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;osłabiają&lt;/font&gt; kontrolę wrogiej frakcji, wykonując frakcyjne misje PvP</string>
 	<string key="owg_factionwarinfo_title_2_desc_2_bullet_4">Gdy twoja frakcja zdobędzie dość wpływów, może stanąć do walki o kontrolę nad terytorium poprzez wypowiedzenie wojny</string>
 	<string key="owg_factionwarinfo_title_2_desc_3">Wojna frakcji</string>
-	<string key="owg_factionwarinfo_title_2_desc_3_bullet_1">Oblężenie fortecy terytorium. &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;50 na 50 graczy&lt;/font&gt;</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_1">Oblężenie fortecy terytorium. &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{maxRosterMembers} na {maxRosterMembers} graczy&lt;/font&gt;</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_2">Używaj różnorodnych &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;broni oblężniczych&lt;/font&gt;, by zyskać przewagę nad wrogiem</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_3">Zadaniem atakujących jest przejęcie punktu kontrolnego w &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;sercu fortecy&lt;/font&gt;</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_4">Zadaniem obrońców jest &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;odpieranie atakujących przez 30 minut&lt;/font&gt;</string>
@@ -487,5 +487,9 @@
 	<string key="FactionMission_ASSASSINATE_ELITE_NIGHT_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – maruderzy chcą pozbyć się tego celu.\n\nDowiedź swej odwagi – wytrop cel w: {POITags} i się go pozbądź.\n&lt;font color="#eaeaea"&gt;(elitarny – wróg grasuje nocą)&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_NIGHT_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – syndykat zidentyfikował cel, którego należy się pozbyć.\n\nWytrop cel w: {POITags} i się go pozbądź.\n&lt;font color="#eaeaea"&gt;(elitarny – wróg grasuje nocą)&lt;/font&gt;</string>
 	<string key="FactionMission_C_ASSASSINATE_ELITE_NIGHT_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – przymierze zidentyfikowało groźny cel, którego należy się pozbyć.\n\nDowiedź swego oddania – wytrop cel w: {POITags} i się go pozbądź.\n&lt;font color="#eaeaea"&gt;(elitarny – wróg grasuje nocą)&lt;/font&gt;</string>
+	<string key="FactionMission_BREACH_title" rel_version="Quest_FM_BreachMissions">Wyłom skażenia</string>
+	<string key="FactionMission_BREACH_desc" rel_version="Quest_FM_BreachMissions">Maruderzy nie tolerują &lt;font color="#eaeaea"&gt;skażenia&lt;/font&gt; panoszącego się na ich terytorium.\n\nJeśli zobaczysz jakiś wyłom skażenia, zamknij go.</string>
+	<string key="FactionMission_S_BREACH_desc" rel_version="Quest_FM_BreachMissions">Dysponujemy teraz możliwością opóźnienia postępów &lt;font color="#eaeaea"&gt;skażenia&lt;/font&gt;.\n\nZamknij każdy &lt;font color="#eaeaea"&gt;wyłom skażenia&lt;/font&gt;, który napotkasz.</string>
+	<string key="CMissionAcquireLeather_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni garbarze</string>
 </resources>
 

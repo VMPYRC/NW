@@ -75,9 +75,9 @@
 	<string key="ui_house_unpaid_taxes_string">Twój dom (nieaktywny)</string>
 	<string key="ui_house_tax">Podatek od nieruchomości</string>
 	<string key="ui_house_unpaid_taxes_due_soon">Podatek od nieruchomości za terytorium: {territoryName} należy uiścić za: {time}. Zapłać podatek od nieruchomości, by móc korzystać z szybkiej podróży i trybu dekoracji</string>
-	<string key="ui_house_overdue_at">Zaległy podatek od nieruchomości za: {territoryName}. Zapłać podatek od nieruchomości, by móc korzystać z szybkiej podróży i trybu dekoracji</string>
-	<string key="ui_house_overdue_label">Zaległy podatek od nieruchomości</string>
-	<string key="ui_house_overdue_desc">Zalegasz z podatkiem od nieruchomości. Zapłać podatek od nieruchomości, by móc korzystać z funkcji domu.</string>
+	<string key="ui_house_overdue_at">ZALEGŁY podatek od nieruchomości za: {territoryName}. Zapłać podatek od nieruchomości, by móc korzystać z szybkiej podróży i trybu dekoracji</string>
+	<string key="ui_house_overdue_label">ZALEGŁY podatek od nieruchomości</string>
+	<string key="ui_house_overdue_desc">ZALEGASZ z podatkiem od nieruchomości. Zapłać podatek od nieruchomości, by móc korzystać z funkcji domu.</string>
 	<string key="ui_housing_cant_afford">Masz za mało pieniędzy, by kupić ten dom.</string>
 	<string key="ui_housing_decorate">Dekoruj</string>
 	<string key="ui_housing_decorate_desc">Umieszczaj meble i zwierzęta domowe</string>
@@ -130,6 +130,8 @@
 	<string key="ui_num_housing_points">{points} pkt.</string>
 	<string key="ui_owner_list">Lista właścicieli</string>
 	<string key="ui_pay_house_tax_fail">Wystąpił błąd podczas opłacania podatków. Spróbuj ponownie.</string>
+	<string key="ui_property_tax_disabled">Podatek od nieruchomości został wyłączony.</string>
+	<string key="ui_property_tax_disabled_short">Podatek od nieruchomości wyłączony</string>
 	<string key="ui_pay_property_tax">Zapłać podatek</string>
 	<string key="ui_pay_property_tax_popup_desc">Musisz opłacić podatek od nieruchomości, aby móc korzystać z funkcji powrotu do domu i odrodzenia się w nim, a także by móc go dekorować.\nPo zakupie domu podatki należy opłacić w ciągu: {firstCycle}, a następnie co: {otherCycle}.</string>
 	<string key="ui_property_tax">Podatek\nod nieruchomości</string>
@@ -245,5 +247,9 @@
 	<string key="ui_housing_tip_description3">Umieść w swoim domu &lt;font color={colorHex}&gt;trofea&lt;/font&gt;, by aktywować &lt;font color={colorHex}&gt;premie pasywne&lt;/font&gt;.\n\nWskazówka: w każdym domu możesz umieścić maksymalnie 5 trofeów. Premie zapewniane przez trofea tego samego rodzaju mogą się ze sobą łączyć.</string>
 	<string key="ui_housing_tip_title4">Łączna liczba przedmiotów i punktacja</string>
 	<string key="ui_housing_tip_description4">W panelu po prawej stronie ekranu znajdziesz &lt;font color={colorHex}&gt;liczbę punktów dekoracji&lt;/font&gt; twojego domu oraz &lt;font color={colorHex}&gt;limit ozdób&lt;/font&gt;.\n\nWskazówka: umieszczenie w domu zbyt wielu sztuk tego samego przedmiotu zmniejszy liczbę punktów dekoracji.</string>
+	<string key="ui_fast_travel_charted_point">Punkt szybkiej podróży</string>
+	<string key="ui_fast_travel_uncharted_point">Nieodkryty punkt szybkiej podróży</string>
+	<string key="ui_fast_travel_shrine_activated_header">Kapliczka szybkiej podróży</string>
+	<string key="ui_fast_travel_shrine_activated_body">Aktywowano nowy punkt szybkiej podróży!</string>
 </resources>
 

@@ -254,7 +254,7 @@
 	<string key="1128_0101_VillageChampion_Title" speaker="UI  - Quest Title">Czempion wioski</string>
 	<string key="1128_0101_VillageChampion_Description" speaker="UI - Quest Description">Zdobądź pancerz i miecz Lerato, będące pamiątkami rodzinnymi, od skażonych w Ceremonii, i przynieś jej te przedmioty – znajdziesz ją na rozdrożach.</string>
 	<string key="1128_0101_VillageChampion_start_Prompt" speaker="UI - Player Prompt">"Od skażonych?"</string>
-	<string key="1128_0101_VillageChampion_Proposal" speaker="Leilani - Mourningdale" name="Leilani" VO="1128_0101_VillageChampion_Proposal" VO_Status="Recorded" dialogue-next="@1128_0101_VillageChampion_Proposal_next">A któżby inny? \n\nMój ociec był obrońcą naszego miasta. Zginął w walce, a skażeni ukradli jego broń i pancerz. \n\nNie ruszę naprzód, dopóki ich nie odzyskam.</string>
+	<string key="1128_0101_VillageChampion_Proposal" speaker="Leilani - Mourningdale" name="Leilani" VO="1128_0101_VillageChampion_Proposal" VO_Status="Recorded" dialogue-next="@1128_0101_VillageChampion_Proposal_next">A któżby inny? \n\nMój ojciec był obrońcą naszego miasta. Zginął w walce, a skażeni ukradli jego broń i pancerz. \n\nNie ruszę naprzód, dopóki ich nie odzyskam.</string>
 	<string key="1128_0101_VillageChampion_proposal_Prompt" speaker="UI - Player Prompt">"Potrzebujesz tych pamiątek, by uhonorować ojca?"</string>
 	<string key="1128_0101_VillageChampion_Proposal_next" speaker="Leilani - Mourningdale" name="Leilani" VO="1128_0101_VillageChampion_Proposal_next" VO_Status="Recorded" dialogue-prompt="@1128_0101_VillageChampion_proposal_Prompt">Nie! Potrzebuję ich, by trenować, a potem wrócić i wyzwolić Ceremonię! \n\nJako córka czempiona wioski mam taki obowiązek. \n\nAle sama nie dam rady.</string>
 	<string key="1128_0101_VillageChampion_Incomplete" speaker="Leilani - Mourningdale" name="Leilani" VO="1128_0101_VillageChampion_Incomplete" VO_Status="Recorded">Ojciec walczył z wrogiem na ulicach, ale w miejsce każdego, którego zgładził, pojawiało się pięciu następnych. \n\nMuszę go pomścić, ale do tego potrzebny jest mi jego pancerz.</string>
@@ -301,7 +301,7 @@
 	<string key="1129_0103_CliffHanger_Proposal" speaker="Jan Jaansen - Mourningdale" name="JanJaansen" VO="1129_0103_CliffHanger_Proposal" VO_Status="Recorded" dialogue-next="@1129_0103_CliffHanger_Proposal_next">Przecież dźwięczy w powietrzu, otacza nas zewsząd! \n\nSłyszę to wyraźnie. \n\nTen głos mówi mi, że sekret skrywa się w latarni.</string>
 	<string key="1129_0103_CliffHanger_proposal_Prompt" speaker="UI - Player Prompt">"To miejsce jest okropne!"</string>
 	<string key="1129_0103_CliffHanger_Proposal_next" speaker="Jan Jaansen - Mourningdale" name="JanJaansen" VO="1129_0103_CliffHanger_Proposal_next" VO_Status="Recorded" dialogue-prompt="@1129_0103_CliffHanger_proposal_Prompt">Bzdura! Muza nigdy się nie myli. \n\nJestem pewna, że jeśli zaufasz mojej intuicji, też odnajdziesz swą pieśń.</string>
-	<string key="1129_0103_CliffHanger_Incomplete" speaker="Jan Jaansen - Mourningdale" name="JanJaansen" VO="1129_0103_CliffHanger_Incomplete" VO_Status="Recorded">Jan wygląda na zamyśloną. \n\nNuci niesamowitą melodię.</string>
+	<string key="1129_0103_CliffHanger_Incomplete" speaker="Jan Jaansen - Mourningdale" name="JanJaansen" VO="1129_0103_CliffHanger_Incomplete" VO_Status="Recorded">(Jan wygląda na zamyśloną. \n\nNuci niesamowitą melodię).</string>
 	<string key="1129_0103_CliffHanger_Complete_Available_Response" speaker="Ancient Head - Mourningdale" name="StrangeSculpture" VO="1129_0103_CliffHanger_Complete_Available_Response" VO_Status="Recorded?">(To dziwne, ale czujesz nieodpartą chęć dotknięcia pradawnej rzeźby. Ku twemu zaskoczeniu kontakt z gładkim kamieniem ujawnia ci kosmiczny sens muzyki. \n\nUkazuje ci się wizja bezmiaru i ucieczki).</string>
 	<string key="1129_sneaky1" speaker="UI">Podążaj drogą wskazaną przez muzę Jan Jaansen</string>
 	<string key="1129_sneaky2" speaker="UI">Kontynuuj podróż drogą wskazaną przez muzę Jan Jaansen</string>
@@ -348,5 +348,6 @@
 	<string key="1124_PierreGoHome_Incomplete" speaker="Pierre - Mourningdale" name="PierreAuguste" VO="1124_PierreGoHome_Incomplete" VO_Status="Recorded">Zawiązałem sznurowadła i sprawdziłem kieszenie. \n\nWkrótce będę gotowy do drogi. \n\nCiekawe, jak zareaguje Leilani, gdy wrócimy i opowiemy jej o naszych przygodach.</string>
 	<string key="1124_PierreGoHome_Complete_Available_Response" speaker="Pierre - Mourningdale" name="PierreAuguste" VO="1124_PierreGoHome_Complete_Available_Response" VO_Status="Recorded">Proszę, proszę! Jesteś! \n\nMyślałem, że mnie prześcigniesz, ale jednak nie! \n\nTe niebieskawe kapliczki ułatwiają podróżowanie, nieprawdaż?</string>
 	<string key="1124_PierreGoHome" speaker="UI">Ścigaj się z Pierre'em do osady w Żałobnicy</string>
+	<string key="1132_Shootout_Sub2" speaker="UI" rel_version="Quest_Progression_Blunderbuss">Pokonaj drugą grupę kamratów Stonefirtha Coya</string>
 </resources>
 

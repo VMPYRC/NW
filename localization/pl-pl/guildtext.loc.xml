@@ -324,7 +324,7 @@
 	<string key="ui_wardeclarationpopup_attackinfopopup_title">Zanim wypowiesz wojnę...</string>
 	<string key="ui_wardeclarationpopup_attackinfopopup_message">Pamiętaj, że &lt;font color={defendingColorHex}&gt;broniąca się kompania może wznowić działania wojenne&lt;/font&gt;,\ninicjując &lt;font color={counterAttackColor}&gt;kontratak&lt;/font&gt; w &lt;font color={resolutionPhaseColor}&gt;fazie rozstrzygnięcia&lt;/font&gt;.\n\nPo rozpoczęciu kontrataku &lt;font color={situationReversedColor}&gt;role się odwracają&lt;/font&gt;.\nTwoja kompania musi bronić swoich ziem, a wróg atakuje!</string>
 	<string key="ui_wardeclarationpopup_declare_title">Wypowiedzenie wojny</string>
-	<string key="ui_wardeclarationpopup_declare_message">Kiedy wojna zostanie wypowiedziana, twoja kompania przez 30 minut będzie mogła zaatakować fortecę w sile maksymalnie 50 graczy.\nGdy twojej kompanii uda się zdobyć znacznik przejęcia w fortecy, stanie się zarządcą terytorium.</string>
+	<string key="ui_wardeclarationpopup_declare_message">Kiedy wojna zostanie wypowiedziana, twoja kompania przez 30 minut będzie mogła zaatakować fortecę w sile maksymalnie {maxRosterMembers} graczy.\nGdy twojej kompanii uda się zdobyć znacznik przejęcia w fortecy, stanie się zarządcą terytorium.</string>
 	<string key="ui_wardeclarationpopup_declare_image_war">Wypowiedz wojnę</string>
 	<string key="ui_wardeclarationpopup_declare_image_attack">Zaatakuj fortecę</string>
 	<string key="ui_wardeclarationpopup_declare_image_territory">Przejmij terytorium</string>
@@ -398,7 +398,7 @@
 	<string key="ui_contesting">Spór</string>
 	<string key="ui_point_taken">Punkt zborny przejęty</string>
 	<string key="ui_warphase_resolution">Rozstrzygnięcie</string>
-	<string key="ui_warphase_scoutingdesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;FAZA PRZYGOTOWAŃ&lt;/font&gt;&lt;/font&gt;\n\nWszyscy walczący muszą zapisać się przy tablicy wojennej na terytorium, a następnie zarządca musi przypisać ich do 50 dostępnych miejsc.</string>
+	<string key="ui_warphase_scoutingdesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;FAZA PRZYGOTOWAŃ&lt;/font&gt;&lt;/font&gt;\n\nWszyscy walczący muszą zapisać się przy tablicy wojennej na terytorium, a następnie zarządca musi przypisać ich do {maxRosterMembers} dostępnych miejsc.</string>
 	<string key="ui_warphase_battledesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;FAZA WALKI&lt;/font&gt;&lt;/font&gt;\n\nTa faza została odrzucona i nie powinna się pojawiać.</string>
 	<string key="ui_warphase_resolutiondesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;FAZA ROZSTRZYGNIĘCIA&lt;/font&gt;&lt;/font&gt;\n\nPodsumowanie wojny. Zobacz wyniki wojny. Wszyscy walczący zostaną teleportowani do osady terytorium.</string>
 	<string key="ui_warphase_siegedesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;OKRES OBLĘŻENIA&lt;/font&gt;&lt;/font&gt;\n\nZaproszenia zostają przesłane armii 15 minut przed rozpoczęciem wojny. Wszyscy zostaną teleportowani do fortu. Zwycięzca przejmuje terytorium.</string>

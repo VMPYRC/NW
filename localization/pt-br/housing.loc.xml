@@ -19,7 +19,7 @@
 	<string key="ui_decoration_mode_unpaid">Impostos devem ser pagos para decorar sua casa.</string>
 	<string key="ui_decorations">Decorações</string>
 	<string key="ui_spirit_shrine">Santuário Espiritual</string>
-	<string key="ui_spirit_shrine_desc">Faça uma viagem rápida para qualquer Assentamento, Posto Avançado ou Santuário Espiritual visitado anteriormente.</string>
+	<string key="ui_spirit_shrine_desc">Faça uma Viagem Rápida para qualquer Assentamento, Posto Avançado ou Santuário Espiritual visitado anteriormente.</string>
 	<string key="ui_fast_travel">Viagem Rápida</string>
 	<string key="ui_fast_travel_channel">Viagem Rápida...</string>
 	<string key="ui_fast_travel_popup_confirm">Quer fazer uma viagem rápida até este local?</string>
@@ -75,9 +75,9 @@
 	<string key="ui_house_unpaid_taxes_string">Sua Casa (Desativada)</string>
 	<string key="ui_house_tax">Imposto Imobiliário</string>
 	<string key="ui_house_unpaid_taxes_due_soon">Imposto Imobiliário de {territoryName} em: {time}. Pague o imposto para continuar fazendo viagens rápidas e decorações.</string>
-	<string key="ui_house_overdue_at">Imposto de {territoryName} Vencido. Pague o imposto para continuar fazendo viagens rápidas e decorações.</string>
-	<string key="ui_house_overdue_label">Imposto Vencido</string>
-	<string key="ui_house_overdue_desc">O imposto imobiliário está vencido. Pague o imposto para ativar os recursos de alojamento.</string>
+	<string key="ui_house_overdue_at">Imposto de {territoryName} VENCIDO. Pague o imposto para continuar fazendo viagens rápidas e decorações.</string>
+	<string key="ui_house_overdue_label">Imposto VENCIDO</string>
+	<string key="ui_house_overdue_desc">O imposto imobiliário está VENCIDO. Pague o imposto para ativar os recursos de alojamento.</string>
 	<string key="ui_housing_cant_afford">Você precisa de mais moedas para comprar esta casa.</string>
 	<string key="ui_housing_decorate">Decorar</string>
 	<string key="ui_housing_decorate_desc">Posicione Mobília e Animais de Estimação</string>
@@ -130,6 +130,8 @@
 	<string key="ui_num_housing_points">{points} Pontos</string>
 	<string key="ui_owner_list">Lista do Proprietário</string>
 	<string key="ui_pay_house_tax_fail">Erro ao pagar impostos em casa. Tente novamente.</string>
+	<string key="ui_property_tax_disabled">O imposto imobiliário foi desativado.</string>
+	<string key="ui_property_tax_disabled_short">Imposto imobiliário desativado</string>
 	<string key="ui_pay_property_tax">Pague Impostos</string>
 	<string key="ui_pay_property_tax_popup_desc">É preciso pagar os impostos imobiliários para retornar à sua casa, renascer na sua casa e decorar sua casa.\nOs impostos estão previstos para {firstCycle} após a compra de uma casa e a cada {otherCycle} subsequente.</string>
 	<string key="ui_property_tax">Impostos Imob.</string>
@@ -193,7 +195,7 @@
 	<string key="ui_fast_travel_error_description_inCooldown_with_time">Esta ação está em recarga.\nVocê pode retornar em {time}.</string>
 	<string key="ui_fast_travel_error_noDestination">Você precisa visitar o assentamento antes de fazer uma viagem rápida até lá.</string>
 	<string key="ui_fast_travel_error_noDestination_outpost">Você precisa visitar o posto avançado antes de fazer uma viagem rápida até lá.</string>
-	<string key="ui_fast_travel_error_badStartLoc">Você só pode realizar uma viagem rápida em um assentamento, posto avançado ou santuário espiritual.</string>
+	<string key="ui_fast_travel_error_badStartLoc">Você só pode realizar uma Viagem Rápida em um Assentamento, Posto Avançado ou Santuário Espiritual.</string>
 	<string key="ui_fast_travel_error_cantAfford">Você não tem Azoth suficiente.</string>
 	<string key="ui_fast_travel_error_encumbered">Você não pode fazer uma viagem rápida quando estiver com sobrecarga.</string>
 	<string key="ui_recall_not_available_server_error">Não foi possível retornar devido a um erro de servidor.</string>
@@ -207,7 +209,7 @@
 	<string key="ui_view_taxinfo">Detalhes do Assentamento/Informação da Guerra</string>
 	<string key="ui_view_personalstorage">Meu Armazém</string>
 	<string key="ui_more_info">Mais informações</string>
-	<string key="ui_company_discount">- ({discountPercent}%) por sua Companhia</string>
+	<string key="ui_company_discount">-{discountPercent}% por sua Companhia</string>
 	<string key="@ui_house_refunded_title">Casa reembolsada</string>
 	<string key="@ui_house_refunded_message">Devido a mudanças em {settlement}, sua casa foi reembolsada. Você recebeu {cost} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; e todos os itens de volta.</string>
 	<string key="@ui_house_items_refunded_title">Itens de Casa reembolsados</string>
@@ -245,5 +247,9 @@
 	<string key="ui_housing_tip_description3">Exponha &lt;font color={colorHex}&gt;Troféus&lt;/font&gt; para ativar &lt;font color={colorHex}&gt;bônus passivos&lt;/font&gt;.\n\nDica: Só é possível colocar 5 Troféus em cada casa, mas os efeitos de troféus duplicados podem se acumular.</string>
 	<string key="ui_housing_tip_title4">Total de Itens e Pontuação</string>
 	<string key="ui_housing_tip_description4">O painel à direita da tela mostra a &lt;font color={colorHex}&gt;Pontuação de Decoração&lt;/font&gt; da sua casa e os &lt;font color={colorHex}&gt;Limites de Decoração&lt;/font&gt;.\n\nDica: Colocar exemplares demais do mesmo item reduzirá a Pontuação de Decoração.</string>
+	<string key="ui_fast_travel_charted_point">Ponto de Viagem Rápida</string>
+	<string key="ui_fast_travel_uncharted_point">Ponto de Viagem Rápida Inexplorado</string>
+	<string key="ui_fast_travel_shrine_activated_header">Santuário de Viagem Rápida</string>
+	<string key="ui_fast_travel_shrine_activated_body">Novo Ponto de Viagem Rápida Ativado!</string>
 </resources>
 

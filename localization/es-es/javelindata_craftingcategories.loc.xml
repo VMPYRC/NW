@@ -594,7 +594,7 @@
 	<string key="CategoryData_coating">Revestimientos</string>
 	<string key="CategoryData_components">Componentes</string>
 	<string key="CategoryData_CookedFood">Comida cocinada</string>
-	<string key="CategoryData_Cooking Recipes">Recetasdecocina</string>
+	<string key="CategoryData_CookingRecipes">Recetasdecocina</string>
 	<string key="CategoryData_cookingingredients">Ingredientes de cocina</string>
 	<string key="CategoryData_CoreTrinkets">Bolsas</string>
 	<string key="CategoryData_CraftingConsumables">Kits</string>
@@ -1370,6 +1370,7 @@
 	<string key="MoonstoneCut_GroupDesc">Gemas de piedra de luna talladas y pulidas. Sirven para fabricar joyas que aumentan la fuerza y la concentración. También se pueden engarzar en el equipo para obtener las ventajas Revancha y Protección contra cortes.</string>
 	<string key="MoonstoneCut_GroupName">Piedra de luna tallada</string>
 	<string key="MusketA_GroupDesc">Armas a distancia que disparan cartuchos e infligen mucho daño. Son ideales para mantener al enemigo a raya y en combates de larga distancia, y recompensan la precisión.\n\n•Ataque estándar: Inflige {[DamageTable.MusketAttack1.DmgCoef * 100]} % de daño de estocada.</string>
+	<string key="Blunderbuss_GroupDesc" rel_version="Weapon_Blunderbuss">Un arma a distancia de corto alcance que dispara 6 perdigones en un solo disparo. Ideal para mantener la presión sobre objetivos cuerpo a cuerpo y acercarse a objetivos a distancia.\n\n•Ataque estándar: Inflige un {[DamageTable.Blunderbuss_Primary_Attack.DmgCoef * 100]} % de daño de estocada por perdigón.</string>
 	<string key="MusketA_GroupName">Mosquetes</string>
 	<string key="Muskets_GroupName">Mosquetes</string>
 	<string key="nut_GroupName">Frutos secos</string>
@@ -1800,5 +1801,6 @@
 	<string key="TimelessShardsCon">Fragmentos intemporales: constitución</string>
 	<string key="ArmorShadow_GroupName">Caminasombras</string>
 	<string key="ArmorBeast_GroupName">Cazabestias</string>
+	<string key="Blunderbuss_GroupName">Trabucos</string>
 </resources>
 

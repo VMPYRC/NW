@@ -12,10 +12,10 @@
 	<string key="cc_lshift">Shift links</string>
 	<string key="cc_rshift">Shift rechts</string>
 	<string key="cc_equals">=</string>
-	<string key="cc_lctrl">LSTRG</string>
-	<string key="cc_rctrl">Strg rechts</string>
-	<string key="cc_lalt">LALT</string>
-	<string key="cc_ralt">Alt Rechts</string>
+	<string key="cc_lctrl">STRG links</string>
+	<string key="cc_rctrl">STRG rechts</string>
+	<string key="cc_lalt">ALT links</string>
+	<string key="cc_ralt">ALT rechts</string>
 	<string key="cc_up">Pfeiltaste hoch</string>
 	<string key="cc_down">Pfeiltaste runter</string>
 	<string key="cc_left">Pfeiltaste links</string>
@@ -115,10 +115,9 @@
 	<string key="ui_affliction_blight">Fäulnisresistenz</string>
 	<string key="ui_affliction_blight_tooltip">Wenn du keine Fäulnisresistenz mehr hast, wirst du zum Verfaulten, fügst {[Type_StatusEffectData.Blight.DMGStandard * 100]} % weniger Schaden zu, heilst um {[Type_StatusEffectData.Blight.HealMod * 100]} % weniger und verlierst alle {[Type_StatusEffectData.Blight.TickRate]} Sekunden {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]} % von deinem Gesundheitsgrundwert für {[Afflictions.AfflictionBlight.AfflictedDrainTime]} Sekunden insgesamt.</string>
 	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">Entzündlichkeit-Resistenz</string>
-	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Entzündlichkeit-Timer.</string>
+	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Am Ende des Timers wird der Spieler mit der niedrigsten Gesundheit "Entzündlich".</string>
 	<string key="ui_affliction_mutcurse4" rel_version="Feature_Dungeon_Mutators">Rückstoßresistenz</string>
 	<string key="ui_affliction_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Sinkt die Resistenz auf null, wird eine Stille-Zone auf dich gewirkt. Die Zone detoniert nach einer Weile und fügt Spielern Schaden zu. Resistenz wird zwischen allen Mitgliedern der Gruppe geteilt.</string>
-	<string key="ui_affliction_mutcurse2" rel_version="Feature_Dungeon_Mutators_pt2">Müdigkeitsresistenz</string>
 	<string key="ui_affliction_mutcurse2_tooltip" rel_version="Feature_Dungeon_Mutators">Sinkt die Resistenz auf null, wird eine Müdigkeitszone auf dich gewirkt, die dich verlangsamt und jeglichen erlittenen Schaden erhöht. Die Benutzung von Fertigkeiten steigert die Resistenz. Resistenz wird zwischen allen Mitgliedern der Gruppe geteilt.</string>
 	<string key="ui_afflicted_bleeding">verwundet</string>
 	<string key="ui_afflicted_bleeding_tooltip">Wenn du verwundet bist, erholt sich deine Ausdauer deutlich langsamer.</string>
@@ -194,7 +193,7 @@
 	<string key="ui_cancelin">Abbrechen verfügbar in {time} s</string>
 	<string key="ui_canvas">Rahmen</string>
 	<string key="ui_azoth_currency">Azoth</string>
-	<string key="ui_azoth_desc">Azoth kann für Schnellreise zwischen Schreinen und Siedlungen sowie zum Herstellen hochwertiger Gegenstände verwendet werden.\n\nDu kannst Azoth hauptsächlich nach Abschluss von Aufgaben und dem Schließen der Verderbnisausbrüche erhalten.</string>
+	<string key="ui_azoth_desc">Azoth kann für Schnellreise zwischen Schreinen und Siedlungen sowie zum Herstellen hochwertiger Gegenstände verwendet werden.\n\nDu kannst Azoth hauptsächlich nach Abschluss von Aufgaben und dem Schließen der Verderbnisausbrüche erhalten.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Herkunft:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; Verderbnisausbrüche, Aufgaben&lt;/font&gt;</string>
 	<string key="ui_cards">Karten</string>
 	<string key="ui_leave_arena_coming_soon">Funktion zum Verlassen der Arena – demnächst verfügbar</string>
 	<string key="ui_equipfishingpole">[{value}] zum Angeln</string>
@@ -285,6 +284,8 @@
 	<string key="ui_hour_with_time_short">1 Std.</string>
 	<string key="ui_minute_with_time">1 Minute</string>
 	<string key="ui_minute_with_time_short">1 Min.</string>
+	<string key="ui_lessthan_minute_with_time">&lt; 1 Minute</string>
+	<string key="ui_lessthan_minute_with_time_short">&lt; 1 Min.</string>
 	<string key="ui_hours_with_time">{time} Stunden</string>
 	<string key="ui_hours_with_time_short">{time} Std.</string>
 	<string key="ui_minutes_with_time">{time} Minuten</string>
@@ -293,6 +294,7 @@
 	<string key="ui_seconds_with_time_short">{time} Sek.</string>
 	<string key="ui_lastplayed">Zuletzt gespielt</string>
 	<string key="ui_minuteago">Vor 1 Minute</string>
+	<string key="ui_lessthan_minuteago">Vor &lt; 1 Minute</string>
 	<string key="ui_minutesago">Vor {time} Minuten</string>
 	<string key="ui_hourago">Vor 1 Stunde</string>
 	<string key="ui_hoursago">Vor {time} Stunden</string>
@@ -581,6 +583,7 @@
 	<string key="ui_respec_cooldown_error">Werte ändern nicht möglich, solange Fertigkeiten noch abklingen.</string>
 	<string key="ui_respec_combat_error">Werte können im Kampf nicht geändert werden.</string>
 	<string key="ui_equipment_cooldown_error">Ausrüstung ändern nicht möglich, solange Fertigkeiten noch abklingen.</string>
+	<string key="ui_equipment_combat_locked_error" rel_version="Feature_InOutCombat">Ausrüstung kann im Kampf nicht geändert werden.</string>
 	<string key="ui_secondary_attack">Sekundärangriff</string>
 	<string key="ui_weaponcycleup">Waffe darüber wählen</string>
 	<string key="ui_weaponcycledown">Waffe darunter wählen</string>
@@ -693,9 +696,9 @@
 	<string key="ui_save">Speichern</string>
 	<string key="ui_se">SO</string>
 	<string key="ui_binding_reserved_key_blocked">Taste {key} konnte nicht verknüpft werden, da sie für die Aktion{actionName} reserviert ist, deren Verknüpfung nicht aufgehoben werden kann.</string>
-	<string key="ui_binding_reserved_key_title_single">Verknüpfung der alten Aktion entfernen?</string>
+	<string key="ui_binding_reserved_key_title_single">Alte Verknüpfung entfernen?</string>
 	<string key="ui_binding_reserved_key_message_single">Du bist dabei die Taste {key} mit einer neuen Aktion zu belegen: {newAction}. Die alte Aktionen {oldAction} ist damit mit keiner Taste mehr verknüpft. Fortfahren?</string>
-	<string key="ui_binding_reserved_key_title_multiple">Verknüpfungen alter Aktionen entfernen?</string>
+	<string key="ui_binding_reserved_key_title_multiple">Alte Verknüpfungen entfernen?</string>
 	<string key="ui_binding_reserved_key_message_multiple">Du bist dabei die Taste {key} mit einer neuen Aktion zu belegen: {newAction}. Folgende alten Aktionen sind damit mit keiner Taste mehr verknüpft. Fortfahren?\n{oldActions}</string>
 	<string key="ui_secondsLeft">{NumSeconds} Sekunden</string>
 	<string key="ui_second">Sekunde</string>
@@ -824,7 +827,7 @@
 	<string key="ui_anti-cheat_desc">Anti-Cheat-Software-Mitteilung in einem Browserfenster anzeigen</string>
 	<string key="ui_legalprivacy">Bitte beachte unsere Datenschutzrichtlinien</string>
 	<string key="ui_prealphatag">Test-Build (VERTRAULICH)</string>
-	<string key="ui_buildtag">Beta</string>
+	<string key="ui_buildtag">Version des öffentlichen Testbereichs</string>
 	<string key="ui_chat_feed">Feed</string>
 	<string key="ui_chat_feed_tooltip">Fügt den Kanal in deine Benachrichtigungen ein.</string>
 	<string key="ui_chat_muted_tooltip">Der Kanal wird nicht in den Benachrichtigungen angezeigt und ungelesene Nachrichten werden nicht zur Gesamtanzahl ungelesener Nachrichten auf dem Chat-Symbol hinzugefügt. Du kannst den Kanal weiterhin betrachten, indem du ihn über die Kanalauswahl links aufrufst.</string>
@@ -860,6 +863,7 @@
 	<string key="ui_world_select_change_selection">Auswahl ändern</string>
 	<string key="ui_world_select_select_world">Welt auswählen</string>
 	<string key="ui_world_select_world">Welt</string>
+	<string key="ui_world_select_region">Region</string>
 	<string key="ui_world_select_world_set">Weltset</string>
 	<string key="ui_world_select_queue_time">Ungefähre Wartezeit</string>
 	<string key="ui_world_select_queue_size">Spieler in Warteschlange</string>
@@ -871,8 +875,8 @@
 	<string key="ui_world_select_hide_options">Weitere Optionen verbergen</string>
 	<string key="ui_world_select_view_worlds">Welten ansehen</string>
 	<string key="ui_world_select_refresh">Neu laden</string>
-	<string key="ui_resolution_popup_title">Bildschirmauflösung bestätigen</string>
-	<string key="ui_resolution_popup_title_message">Ist die Bildschirmauflösung so gut?</string>
+	<string key="ui_resolution_popup_title">Auflösung bestätigen</string>
+	<string key="ui_resolution_popup_title_message">Ist diese Bildschirmauflösung in Ordnung?</string>
 	<string key="ui_monitor_popup_title">Wechsel bestätigen</string>
 	<string key="ui_monitor_popup_title_message">Ist dieser Monitor in Ordnung?</string>
 	<string key="ui_monitor_name">Monitor</string>
@@ -885,6 +889,8 @@
 	<string key="ui_character_options">Charaktereinstellungen</string>
 	<string key="ui_character_merge_destination">Die Welt ({worldName}) wird am {date} in die Welt {destinationWorldName} integriert.</string>
 	<string key="ui_xp">EP</string>
+	<string key="ui_player_xp">Spieler-EP</string>
+	<string key="ui_player_xp_desc">Mit Charakter-EP kannst du die Stufe deines Charakters steigern.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Herkunft:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; Missionen abschließen, Herstellung, Gegner töten, Teilnahme an Ereignissen&lt;/font&gt;</string>
 	<string key="ui_xp_boost">EP-Boost</string>
 	<string key="ui_xp_event_title">EP-BOOST-EVENT!</string>
 	<string key="ui_xp_event_desc">In dieser Welt ist ein Spezial-EP-Boost aktiv!</string>
@@ -893,7 +899,9 @@
 	<string key="ui_xp_event_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;EP (x {amount})&lt;/font&gt;</string>
 	<string key="ui_xp_event_tradeskill_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Fähigkeit (x {amount})&lt;/font&gt;</string>
 	<string key="ui_xp_event_weaponmastery_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Waffenbeherrschung (x {amount})&lt;/font&gt;</string>
-	<string key="ui_xp_boost_reminder" comment="The leading space is intentional"> (x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
+	<string key="ui_xp_event_progression_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;{progressionName} (x {amount})&lt;/font&gt;</string>
+	<string key="ui_xp_boost_reminder" comment="The leading space is intentional"> ( x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
+	<string key="ui_xp_multiplier_arrow" comment="The leading space is intentional"> x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="world_landing_title">Die optimale WELT wurde für dich ausgewählt.</string>
 	<string key="world_set">Weltset?</string>
 	<string key="world_set_title">*Was ist ein Weltset?</string>
@@ -902,6 +910,7 @@
 	<string key="world_set_characters_desc">Man darf einen Charakter pro Weltset haben. Du musst deinen Charakter löschen, wenn du in einer anderen Welt des Weltsets spielen willst, da Charaktere nicht auf andere Welten transferier sind.</string>
 	<string key="world_set_recommended_world">Empfohlene Welt</string>
 	<string key="world_set_region">Region:</string>
+	<string key="world_set_current_region">Aktuelle Region:</string>
 	<string key="ui_mastery">Können</string>
 	<string key="ui_server_list_wait_time">Wartezeit</string>
 	<string key="ui_glory_update_floating_tradeskill">{masteryName}</string>
@@ -913,6 +922,8 @@
 	<string key="ui_glory_to_level">&lt;font color="#ffffff"&gt;{xp} EP&lt;/font&gt; bis St. {level}</string>
 	<string key="ui_glory_tooltip">Du hast unverteilte Attributs- oder Fähigkeitenpunkte. Drücke [{keyName}], um den Fortschrittsbildschirm zu öffnen und deine Fähigkeiten zu verbessern.</string>
 	<string key="ui_coin">Taler</string>
+	<string key="ui_coin">Taler</string>
+	<string key="ui_coin_desc">Deine Primärwährung, mit der du in Handelsposten und im Fraktionsladen Gegenstände kaufen kannst.\nTalerguthaben ist begrenzt auf max. &lt;font color="#ffffff"&gt;{amount}&lt;/font&gt;.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Herkunft:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; Missionen abschließen, Gegner töten, Teilnahme an Ereignissen&lt;/font&gt;</string>
 	<string key="ui_coin_max">Max. Taler</string>
 	<string key="ui_coin_icon">{coin} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_floating_coin_val">&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;{amount}</string>
@@ -923,6 +934,7 @@
 	<string key="ui_killfeed_standing_val">+ {amount}</string>
 	<string key="ui_killfeed_tradeskill_val">+ {amount}</string>
 	<string key="ui_navmenu_friends">FREUNDE</string>
+	<string key="ui_navmenu_modes">Modi</string>
 	<string key="ui_navmenu_guild">Kompanie</string>
 	<string key="ui_navmenu_map">Karte</string>
 	<string key="ui_navmenu_journal">Tagebuch</string>
@@ -1044,9 +1056,9 @@
 	<string key="ui_intelligence_description">(Magiefokussiert)</string>
 	<string key="ui_focus_description">(Heilungsfokussiert)</string>
 	<string key="ui_constitution_tooltip">Primärattribut für die Gesamtgesundheit.</string>
-	<string key="ui_strength_tooltip">Primärattribut für Kriegshammer, Streitaxt, Schwert und Beil.\n\nSekundärattribut für Speer.</string>
+	<string key="ui_strength_tooltip">Primärattribut für Kriegshammer, Streitaxt, Schwert, Beil und Donnerbüchse.\n\nSekundärattribut für Speer.</string>
 	<string key="ui_dexterity_tooltip">Primärattribut für Bogen, Rapier, Speer und Muskete.\n\nSekundärattribut für Schwert und Beil.</string>
-	<string key="ui_intelligence_tooltip">Primärattribut für Feuerstab, Eisstulpen und Unheilsstulpen.\n\nSekundärattribut für Rapier und Muskete.</string>
+	<string key="ui_intelligence_tooltip">Primärattribut für Feuerstab, Eisstulpen und Unheilsstulpen.\n\nSekundärattribut für Rapier, Donnerbüchse und Muskete.</string>
 	<string key="ui_focus_tooltip">Primärattribut für Lebensstab.\n\nSekundärattribut für Unheilsstulpen.</string>
 	<string key="ui_spirit_tooltip">GLAUBE\n\nIn Glaube investierte Punkte erhöhen:\n\n-- Gesamtwert an Mana\n-- Verteidigung gegen Unheilsschaden\n-- Verderbnisresistenz\n\n-- Zauberstärke der Himmlischen Zauberstulpen\n</string>
 	<string key="ui_vitality_tooltip">KÖRPERBAU\n\nIn Körperbau investierte Punkte erhöhen:\n\n-- Verteidigung gegen physischen Schaden\n-- Giftresistenz\n-- Maximales Ausrüstungsgewicht\n</string>
@@ -1161,6 +1173,7 @@
 	<string key="ui_deathsdoorcooldown">Abklingzeit: Wiederbel.</string>
 	<string key="ui_deathsdoorcooldown_description">Du kannst wiederbelebt werden in</string>
 	<string key="ui_currency">Taler</string>
+	<string key="ui_currency_type">Währung</string>
 	<string key="ui_currency_value">{value} Taler</string>
 	<string key="ui_active_crimes">Aktuelle Verbrechen: {crimeList}</string>
 	<string key="ui_crime_tooltip">Als Krimineller können dich andere Spieler angreifen, ohne dabei selbst ein Verbrechen zu begehen. Das gilt auch für Zufluchtsstätten. Wenn du stirbst, verlierst du neben deinem Inventar auch deine Ausrüstung.\n\nAktuelle Verbrechen: {crimeList}</string>
@@ -1601,6 +1614,7 @@
 	<string key="ui_transferwarning">Möchtest alle Gegenstände aus deinem Inventar übertragen?</string>
 	<string key="ui_transfertooltip">Du kannst Gegenstände in andere oder aus anderen Gebieten übertragen, die deine Fraktion kontrolliert.</string>
 	<string key="ui_transfertoandfromtooltip">Du kannst am aktuellen Standort Gegenstände vom und zum Lagerschuppen übertragen.</string>
+	<string key="ui_transfertoandfromrfitooltip">Du kannst Gegenstände vom und zum Lagerschuppen in bereits besuchten Siedlungen übertragen.</string>
 	<string key="ui_transferfromtooltip">Gegen eine Gebühr kannst du Gegenstände aus Lagerschuppen anderer Gebiete, die deine Fraktion kontrolliert, in dein Inventar übertragen.</string>
 	<string key="ui_remotetransfersingletitle">Gegenstand transferieren</string>
 	<string key="ui_remotetransfersinglebody">Möchtest du diesen Gegenstand aus {territoryName} in dein Inventar übertragen?\nDas kostet dich {amount} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;.</string>
@@ -1653,6 +1667,8 @@
 	<string key="ui_skin_available_count">{count} Skins verfügbar</string>
 	<string key="ui_skin_change_skin">Skin ändern</string>
 	<string key="ui_added_to_inventory">Ins &lt;font color="#c0c0c0"&gt;Inventar&lt;/font&gt; gelegt.</string>
+	<string key="ui_currency_added">Hinzugefügte Währung</string>
+	<string key="ui_xp_added">Hinzugefügte EP</string>
 	<string key="ui_shareObjective">Mit Gruppe teilen</string>
 	<string key="ui_objective_type_full">Du kannst keine weiteren Ziele dieser Art annehmen.</string>
 	<string key="ui_failed_to_accept_quest">Diese Aufgabe ist derzeit deaktiviert</string>
@@ -1668,7 +1684,7 @@
 	<string key="ui_resource_quantity">{resourceName} {qtyHave}/{qtyNeeded}</string>
 	<string key="ui_escapemenu_proceed_to_new_world">Tutorial überspringen</string>
 	<string key="ui_proceed_to_new_world_popup_title">Tutorial überspringen</string>
-	<string key="ui_proceed_to_new_world_popup_message">Möchtest du das Tutorial wirklich überspringen?\nDu lässt sämtliche Münzen, Gegenstände und Erfahrungspunkte zurück.</string>
+	<string key="ui_proceed_to_new_world_popup_message">Möchtest du das Tutorial wirklich überspringen?\nDu lässt sämtliche Münzen, Gegenstände\nund Erfahrungspunkte zurück.</string>
 	<string key="ui_additional_items">+{count} Gegenstände</string>
 	<string key="ui_retest">Erneut testen</string>
 	<string key="ui_details">Infos</string>
@@ -1831,6 +1847,14 @@
 	<string key="ui_view_my_storage">Mein Lager ansehen</string>
 	<string key="ui_improve">Verbessern</string>
 	<string key="ui_xp_tooltip">&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;HAUPT-EP&lt;/font&gt;\n {totalXP} Gesamt-EP\n {xpToLevel} bis Stufe {nextLevel}{bonusXpString}</string>
+	<string key="ui_xp_tooltip_header">Haupt-EP</string>
+	<string key="ui_xp_tooltip_total_xp">Gesamt-EP</string>
+	<string key="ui_xp_tooltip_remaining_xp">Benötigt bis zur Stufe {nextLevel}</string>
+	<string key="ui_xp_tooltip_bonus_header">EP-Bonus</string>
+	<string key="ui_xp_tooltip_rested_xp">Ausgeruht-EP-Bonus</string>
+	<string key="ui_xp_tooltip_rested_remaining">(Verbleibender Ausgeruht-EP-Bonus: {restedXpRemaining})</string>
+	<string key="ui_xp_tooltip_xp_boost">EP-Boost</string>
+	<string key="ui_xp_tooltip_total_xp_bonus">Gesamt-EP-Bonus</string>
 	<string key="ui_xp_bonuses_tooltip">\n\n&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;EP-BONI&lt;/font&gt;{restedXpString}{boostXpString}\n &lt;font color={totalBonusXpColor}&gt;{totalXpBonus} Gesamt-EP-Bonus&lt;/font&gt;</string>
 	<string key="ui_xp_rested_tooltip">\n &lt;font color={restedXpColor}&gt;{restedModifier} Ausgeruht-Bonus\n {totalRestedXP} Verbleibende EP durch Ausruhen&lt;/font&gt;</string>
 	<string key="ui_xp_multiplier_tooltip">\n &lt;font color={boostXpColor}&gt;{boostModifier} EP-Boost&lt;/font&gt;</string>
@@ -1958,11 +1982,15 @@
 	<string key="ui_musket_mastery">Musketenmeisterschaft</string>
 	<string key="ui_musket_tree1">Präzisionsschütze</string>
 	<string key="ui_musket_tree2">Fallensteller</string>
+	<string key="ui_blunderbuss" rel_version="Weapon_Blunderbuss">Donnerbüchse</string>
+	<string key="ui_blunderbuss_mastery" rel_version="Weapon_Blunderbuss">Donnerbüchsenmeisterschaft</string>
+	<string key="ui_blunderbuss_tree1" rel_version="Weapon_Blunderbuss">Einschließung</string>
+	<string key="ui_blunderbuss_tree2" rel_version="Weapon_Blunderbuss">Chaos</string>
 	<string key="ui_firemagic">Feuermagie</string>
-	<string key="ui_firemagic_mastery">Feuermagiemeisterschaft</string>
+	<string key="ui_firemagic_mastery">Feuerstabmeisterschaft</string>
 	<string key="ui_firestaff">Feuerstab</string>
 	<string key="ui_lifemagic">Lebensmagie</string>
-	<string key="ui_lifemagic_mastery">Lebensmagiemeisterschaft</string>
+	<string key="ui_lifemagic_mastery">Lebensstabmeisterschaft</string>
 	<string key="ui_lifestaff">Lebensstab</string>
 	<string key="ui_lifestaff_tree1">Heilung</string>
 	<string key="ui_lifestaff_tree2">Beschützer</string>
@@ -2049,9 +2077,9 @@
 	<string key="ui_mergefaq_question_3">Behalte ich meine Kompanie?</string>
 	<string key="ui_mergefaq_question_4">Kann meine Kompanie weiterhin einen Krieg gegen andere Kompanien erklären?</string>
 	<string key="ui_mergefaq_answer_1">Du behältst deine Charakterstufe, Attributspunkte, Meisterschaftspunkte, deinen Gebietsruf, dein Haus, dein Inventar und deinen Siedlungsspeicher.</string>
-	<string key="ui_mergefaq_answer_2">Gebiete in der neuen Welt werden von den Kompanien dieser Welt beansprucht. Ist deine Kompanie nicht von der Ziel-Welt, verlierst du sämtliche Gebiete und Verbesserungen und deine Kompanie erhält 50.000 Taler.</string>
+	<string key="ui_mergefaq_answer_2">Gebiete in der neuen Welt werden von den Kompanien dieser Welt beansprucht. Wenn deine Kompanie nicht von der Ziel-Welt stammt, verlierst du sämtliche Gebiete und Verbesserungen und deine Kompanie erhält {coinAmount} Taler.</string>
 	<string key="ui_mergefaq_answer_3">Die Spieler werden bei einer Weltenzusammenführung nicht voneinander getrennt und die Kompaniemitgliedschaft sowie die Geldbörse bleiben erhalten.</string>
-	<string key="ui_mergefaq_answer_4">Spieler werden 72 Stunden vor einer Weltenzusammenführung darüber benachrichtigt. Während dieser Zeit können Kompanien keinen Krieg erklären. Ausstehende Kriege werden abgebrochen und das für die Kriegserklärung ausgegebene Gold wird vollständig erstattet.</string>
+	<string key="ui_mergefaq_answer_4">Spieler werden {bufferTime} vor einer Weltenzusammenführung darüber benachrichtigt. Während dieser Zeit können Kompanien keinen Krieg erklären. Ausstehende Kriege werden abgebrochen und das für die Kriegserklärung ausgegebene Gold wird vollständig erstattet.</string>
 	<string key="ui_mergewarning_title">BALDIGE WELTENZUSAMMENFÜHRUNG</string>
 	<string key="ui_mergewarning_body">Du hast einen oder mehrere Charaktere in Welten, die demnächst zusammengeführt werden:</string>
 	<string key="ui_mergewarning_learn">MEHR ERFAHREN</string>
@@ -2174,13 +2202,13 @@
 	<string key="tooltip_salvage_remote">Zerlegen von an anderen Orten befindlichen Gegenständen nicht möglich.</string>
 	<string key="tooltip_salvage_cannot">Dieser Gegenstand kann nicht zerlegt werden.</string>
 	<string key="twitch_link_title">Twitch-Konto mit Amazon Games verknüpfen</string>
-	<string key="twitch_link_desc">Wenn du dein Twitch-Konto verknüpfst, erhältst du Zugang zu exklusiven Funktionen. Du kannst die Verknüpfung der Konten jederzeit lösen.</string>
-	<string key="twitch_sub_army">Unterarmee</string>
-	<string key="twitch_sub_army_desc">Lade über "Soziales" im Spiel nahtlos Abonnenten und Follower in Gruppen und Kompanien ein.</string>
+	<string key="twitch_link_desc">Verknüpfe dein Twitch-Konto, um Zugang zu exklusiven Funktionen zu erhalten. Du kannst die Verknüpfung jederzeit wieder aufheben.</string>
+	<string key="twitch_sub_army">Abonnenten-Armee</string>
+	<string key="twitch_sub_army_desc">Tritt über "Soziales" im Spiel Streamern bei und lade Abonnenten und/oder Follower in Gruppen und Kompanien ein.</string>
 	<string key="twitch_drop_rewards">Twitch-Drop-Belohnungen</string>
-	<string key="twitch_drop_rewards_desc">Mit Twitch Drops können sich Spieler im Spiel Belohnungen verdienen, indem sie New-World-Streams auf Twitch anschauen, die den Tag "Drops aktiviert" haben.</string>
+	<string key="twitch_drop_rewards_desc">Verdiene dir im Spiel Belohnungen, indem du dir New-World-Streams auf Twitch anschaust, die den Tag "Drops aktiviert" haben.</string>
 	<string key="twitch_streamer_spotlight">Streamer-Spotlight</string>
-	<string key="twitch_streamer_spotlight_desc">Wenn du New World streamst, kannst du den Tag "Live" aktivieren, damit auf deinem Namensschild im Spiel die Zuschaueranzahl erscheint.</string>
+	<string key="twitch_streamer_spotlight_desc">Wenn du New World streamst, kannst du den Tag "LIVE" aktivieren, damit auf deinem Namensschild im Spiel die Zuschaueranzahl erscheint.</string>
 	<string key="twitch_prime_gaming">Prime Gaming</string>
 	<string key="twitch_prime_gaming_desc">Wenn du dein Konto mit Prime Gaming verknüpfst, hast du die Möglichkeit, jeden Monat exklusive Spielinhalte und andere besondere Belohnungen für New World zu erhalten.</string>
 	<string key="go_crow">Nutze Crow</string>
@@ -2237,6 +2265,7 @@
 	<string key="ui_itemtypedescription_warhammer">Kriegshammer</string>
 	<string key="ui_itemtypedescription_bow">Bogen</string>
 	<string key="ui_itemtypedescription_musket">Muskete</string>
+	<string key="ui_itemtypedescription_blunderbuss" rel_version="Weapon_Blunderbuss">Donnerbüchse</string>
 	<string key="ui_itemtypedescription_pistol">Pistole</string>
 	<string key="ui_itemtypedescription_lifestaff">Lebensstab</string>
 	<string key="ui_itemtypedescription_firestaff">Feuerstab</string>
@@ -2273,6 +2302,7 @@
 	<string key="ui_itemtypedescription_Earringjewelry">Ohrring-Accessoires</string>
 	<string key="ui_itemtypedescription_resource">Rohstoff</string>
 	<string key="ui_itemtypedescription_tool">Werkzeug</string>
+	<string key="ui_itemtypedescription_instrument">Musikinstrument</string>
 	<string key="ui_itemtypedescription_dye">Farbstoff</string>
 	<string key="ui_itemtypedescription_bag">Tasche</string>
 	<string key="ui_itemtypedescription_consumable">Verbrauchsgegenstand</string>
@@ -2327,5 +2357,15 @@
 	<string key="ui_expertise_tooltip_increase">Die &lt;font color="#ffffff"&gt;maximale&lt;/font&gt; Kompetenz, die du durch Gegner, Truhen, Gipsabgüsse und Herstellung erreichen kannst, liegt bei &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt;.</string>
 	<string key="ui_expertise_tooltip_maximum">Um die Kompetenz über &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt; hinaus zu erhöhen, rüste einen Gegenstand auf diesem Platz mit &lt;font color="#ffffff"&gt;Schattensplittern&lt;/font&gt; auf.</string>
 	<string key="ui_expertise_crafting_gain">{category}-Kompetenz</string>
+	<string key="ui_guides">Anleitungen</string>
+	<string key="ui_fast_travel_guide_1_header">So funktioniert das</string>
+	<string key="ui_fast_travel_guide_1_body">Öffne die Karte und wähle die Position aus, zu der du reisen willst. Du kannst Azoth ausgeben, um per Schnellreise zu bereits besuchten Siedlungen, Außenposten und Geisterschreinen zu reisen.</string>
+	<string key="ui_fast_travel_guide_2_body">Auf der Karte werden unentdeckte Geisterschreine als &lt;img src="lyshineui/images/objectives/journal/guidestab/fasttraveliconinactive" scale="3" yOffset="15"&gt;&lt;/img&gt; dargestellt.\nVon dir bereits besuchte Schreine werden als &lt;img src="lyshineui/images/objectives/journal/guidestab/fasttraveliconactive" scale="3" yOffset="15"&gt;&lt;/img&gt; dargestellt.</string>
+	<string key="ui_fast_travel_guide_3_header">Belastungskosten</string>
+	<string key="ui_fast_travel_guide_3_body">Die Azoth-Kosten für die Schnellreise hängen vom Gewicht deines Inventars ab. Reise mit leichtem Gepäck, Freund.</string>
+	<string key="ui_fishing_hotspot_depleted">Erschöpfte Angelstelle</string>
+	<string key="ui_fishing_hotspot_active">Aktive Angelstelle</string>
+	<string key="ui_fishing_hotspot_depleted_body">Nachdem an einer Angelstelle eine bestimmte Menge Fische gefangen wurde, ist sie erschöpft. Eine erschöpfte Angelstelle erkennt man daran, dass dort keine Fische aus dem Wasser springen. Eine erschöpfte Angelstelle wird nach einiger Zeit wieder aktiv.</string>
+	<string key="ui_fishing_hotspot_active_body">Eine aktive Angelstelle erkennst du daran, dass Fische aus dem Wasser hochspringen. Triff eine aktive Angelstelle mit deiner Angel, um Fische schneller und häufiger seltenere Fische zu fangen. Platzierst du deine Schnur richtig, gibt dir ein kleiner Alarm zu erkennen, dass du die Angelstelle getroffen hast.</string>
 </resources>
 

@@ -96,7 +96,7 @@
 	<string key="ui_leaving_settlement">Abbandono insediamento</string>
 	<string key="ui_leaving_settlement_recall_no_cd">Torna indietro in qualsiasi momento utilizzando la mappa.</string>
 	<string key="ui_leaving_settlement_recall_time">Locanda disponibile tra &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;</string>
-	<string key="ui_leaving_settlement_recall_time_desc">Il ritorno alla locanda è disponibile solo ogni 60 minuti.</string>
+	<string key="ui_leaving_settlement_recall_time_desc">Il ritorno alla locanda è disponibile solo ogni 30 minuti.</string>
 	<string key="ui_leaving_settlement_no_inn_desc">Stai partendo senza registrarti alla locanda.</string>
 	<string key="ui_leaving_settlement_no_inn">Non registrato</string>
 	<string key="ui_leaving_settlement_inn_elsewhere">Stai partendo senza registrarti alla locanda, la locanda attuale si trova a {territoryName} {distance}</string>
@@ -179,11 +179,11 @@
 	<string key="ui_encounter_statusstandby">Il tuo stato: &lt;font color='#fab445'&gt;In attesa&lt;/font&gt;</string>
 	<string key="ui_encounter_statusselected">Il tuo stato: &lt;font color='#30e5ab'&gt;Selezionato&lt;/font&gt;</string>
 	<string key="ui_encounter_managebutton">Gestisci esercito</string>
-	<string key="ui_encounter_signupbutton_war">Iscriviti a un tabellone</string>
-	<string key="ui_encounter_signupDesc_war">Per partecipare a questa guerra, iscriviti presso\n&lt;font color='#f1ede2'&gt;un tabellone di guerra&lt;/font&gt; in questa città.</string>
-	<string key="ui_encounter_signupDesc_invasion">Per partecipare a questa invasione, iscriviti presso\n&lt;font color='#f1ede2'&gt;un tabellone di guerra&lt;/font&gt; in questa città.</string>
+	<string key="ui_encounter_signupbutton_war">Iscriviti a un tabellone di guerra</string>
+	<string key="ui_encounter_signupDesc_war">Per partecipare a questa guerra, iscriviti a\n&lt;font color='#f1ede2'&gt;un tabellone di guerra&lt;/font&gt; in questa città.</string>
+	<string key="ui_encounter_signupDesc_invasion">Per partecipare a questa invasione, iscriviti a\n&lt;font color='#f1ede2'&gt;un tabellone di guerra&lt;/font&gt; in questa città.</string>
 	<string key="ui_encounter_signupDesc_invasion_minlevel">&lt;font color="#ff6363"&gt;Livello minimo: {level}&lt;/font&gt;</string>
-	<string key="ui_encounter_signupbutton_invasion">Iscriviti a un tabellone</string>
+	<string key="ui_encounter_signupbutton_invasion">Iscriviti a un tabellone di guerra</string>
 	<string key="ui_encounter_viewstatusbutton_war">Visualizza esercito</string>
 	<string key="ui_encounter_viewstatusbutton_invasion">Visualizza esercito</string>
 	<string key="ui_warselected_title">Selezionato per la guerra</string>

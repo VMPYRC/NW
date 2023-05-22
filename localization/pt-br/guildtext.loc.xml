@@ -324,7 +324,7 @@
 	<string key="ui_wardeclarationpopup_attackinfopopup_title">Antes de Declarar uma Guerra...</string>
 	<string key="ui_wardeclarationpopup_attackinfopopup_message">Lembre-se que a &lt;font color={defendingColorHex}&gt;companhia defensora pode redeclarar uma guerra&lt;/font&gt;\nao dar início a um &lt;font color={counterAttackColor}&gt;contra-ataque&lt;/font&gt; na &lt;font color={resolutionPhaseColor}&gt;fase de Resolução&lt;/font&gt;.\n\nCaso um contra-ataque seja iniciado, a &lt;font color={situationReversedColor}&gt;situação se inverterá&lt;/font&gt;.\nSua companhia terá que defender suas conquistas e o inimigo atacará!</string>
 	<string key="ui_wardeclarationpopup_declare_title">Declaração de Guerra</string>
-	<string key="ui_wardeclarationpopup_declare_message">Quando uma guerra é declarada, sua companhia pode atacar a fortaleza por 30 minutos com até 50 jogadores.\nQuando sua companhia derrubar com sucesso o indicador de conquista da fortaleza, sua companhia governará o território.</string>
+	<string key="ui_wardeclarationpopup_declare_message">Quando uma guerra é declarada, sua companhia pode atacar a fortaleza por 30 minutos com até {maxRosterMembers} jogadores.\nQuando sua companhia derrubar com sucesso o indicador de conquista da fortaleza, sua companhia governará o território.</string>
 	<string key="ui_wardeclarationpopup_declare_image_war">Declarar Guerra</string>
 	<string key="ui_wardeclarationpopup_declare_image_attack">Atacar a Fortaleza</string>
 	<string key="ui_wardeclarationpopup_declare_image_territory">Conquistar o Território</string>
@@ -398,7 +398,7 @@
 	<string key="ui_contesting">Em Disputa</string>
 	<string key="ui_point_taken">Ponto de Encontro Conquistado</string>
 	<string key="ui_warphase_resolution">Resolução</string>
-	<string key="ui_warphase_scoutingdesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;FASE PRÉ-GUERRA&lt;/font&gt;&lt;/font&gt;\n\nTodos os combatentes devem se registrar no Quadro de Guerra do Território. O governador deve atribuí-los aos 50 espaços disponíveis.</string>
+	<string key="ui_warphase_scoutingdesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;FASE PRÉ-GUERRA&lt;/font&gt;&lt;/font&gt;\n\nTodos os combatentes devem se registrar no Quadro de Guerra do Território. O governador deve atribuí-los aos {maxRosterMembers} espaços disponíveis.</string>
 	<string key="ui_warphase_battledesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;FASE DE BATALHA&lt;/font&gt;&lt;/font&gt;\n\nEssa fase foi descontinuada e não deve ser incluída.</string>
 	<string key="ui_warphase_resolutiondesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;FASE DE RESOLUÇÃO&lt;/font&gt;&lt;/font&gt;\n\nConclusão da guerra. Verifique os resultados da guerra. Todos os combatentes serão transferidos para o Assentamento do território.</string>
 	<string key="ui_warphase_siegedesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;JANELA DE CERCO&lt;/font&gt;&lt;/font&gt;\n\nOs convites são enviados ao exército 15 minutos antes da guerra. Todos serão teletransportados para o Forte. O vencedor fica com o território.</string>

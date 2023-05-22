@@ -78,7 +78,7 @@
 	<string key="owg_factionwarinfo_title_2_desc_2_bullet_3">Las facciones rivales pueden &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;debilitar&lt;/font&gt; el control de las facciones enemigas completando misiones de facción JcJ.</string>
 	<string key="owg_factionwarinfo_title_2_desc_2_bullet_4">Consigue suficiente influencia para disputar el control del territorio mediante una declaración de guerra.</string>
 	<string key="owg_factionwarinfo_title_2_desc_3">Guerra de facciones</string>
-	<string key="owg_factionwarinfo_title_2_desc_3_bullet_1">Batalla de asedio de &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;50 contra 50&lt;/font&gt; en el fuerte de un territorio.</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_1">Batalla de asedio de &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{maxRosterMembers} contra {maxRosterMembers}&lt;/font&gt; en el fuerte de un territorio.</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_2">Utiliza diversas &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;armas de asedio&lt;/font&gt; para tener ventaja sobre tus oponentes.</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_3">El objetivo del atacante es hacerse con el punto de captura que está en el &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;corazón del fuerte&lt;/font&gt;.</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_4">El objetivo del defensor es &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;repeler a los atacantes durante 30 minutos&lt;/font&gt;.</string>
@@ -487,5 +487,9 @@
 	<string key="FactionMission_ASSASSINATE_ELITE_NIGHT_desc">Los Saqueadores necesitan eliminar a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; del tablero.\n\nDemuestra tu valor siguiéndole la pista en {POITags} y dándole muerte.\n&lt;font color="#eaeaea"&gt;(Élite: el enemigo es nocturno).&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_NIGHT_desc">El Sindicato ha identificado a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; como objetivo para su eliminación.\n\nSíguele la pista en {POITags} y dale muerte.\n&lt;font color="#eaeaea"&gt;(Élite: el enemigo es nocturno).&lt;/font&gt;</string>
 	<string key="FactionMission_C_ASSASSINATE_ELITE_NIGHT_desc">La Alianza ha identificado a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; para su eliminación.\n\nDemuestra tu devoción siguiéndole la pista en {POITags} y dándole muerte.\n &lt;font color="#eaeaea"&gt;(Élite: el enemigo es nocturno).&lt;/font&gt;</string>
+	<string key="FactionMission_BREACH_title" rel_version="Quest_FM_BreachMissions">Grieta de corrupción</string>
+	<string key="FactionMission_BREACH_desc" rel_version="Quest_FM_BreachMissions">Los Saqueadores no toleramos que la &lt;font color="#eaeaea"&gt;corrupción&lt;/font&gt; se abra camino en nuestro territorio.\n\nSi ves una de sus grietas, ciérrala.</string>
+	<string key="FactionMission_S_BREACH_desc" rel_version="Quest_FM_BreachMissions">Ahora tenemos el poder para impedir el avance de la &lt;font color="#eaeaea"&gt;corrupción&lt;/font&gt;.\n\nCierra todas las &lt;font color="#eaeaea"&gt;grietas de corrupción&lt;/font&gt; que encuentres.</string>
+	<string key="CMissionAcquireLeather_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan curtidores festivos</string>
 </resources>
 

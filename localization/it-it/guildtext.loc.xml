@@ -324,7 +324,7 @@
 	<string key="ui_wardeclarationpopup_attackinfopopup_title">Prima di dichiarare una guerra...</string>
 	<string key="ui_wardeclarationpopup_attackinfopopup_message">Ricorda che la &lt;font color={defendingColorHex}&gt;compagnia in difesa può ri-dichiarare guerra&lt;/font&gt;\niniziando un &lt;font color={counterAttackColor}&gt;contrattacco&lt;/font&gt; nella &lt;font color={resolutionPhaseColor}&gt;fase di Risoluzione&lt;/font&gt;.\n\nSe viene avviato un contrattacco, la &lt;font color={situationReversedColor}&gt;situazione sarà invertita&lt;/font&gt;.\nLa tua compagnia dovrà difendere il tuo territorio rivendicato, e il nemico attaccherà!</string>
 	<string key="ui_wardeclarationpopup_declare_title">Dichiarazione di guerra</string>
-	<string key="ui_wardeclarationpopup_declare_message">Quando viene dichiarata una guerra, la tua compagnia può attaccare la fortezza per 30 minuti con un massimo di 50 giocatori.\nQuando la tua compagnia riesce ad abbattere il segnalino di rivendicazione all'interno della fortezza, acquisisce il controllo del territorio.</string>
+	<string key="ui_wardeclarationpopup_declare_message">Quando viene dichiarata una guerra, la tua compagnia può attaccare la fortezza per 30 minuti con un massimo di {maxRosterMembers} giocatori.\nQuando la tua compagnia riesce ad abbattere il segnalino di rivendicazione all'interno della fortezza, acquisisce il controllo del territorio.</string>
 	<string key="ui_wardeclarationpopup_declare_image_war">Dichiara guerra</string>
 	<string key="ui_wardeclarationpopup_declare_image_attack">Attacca la fortezza</string>
 	<string key="ui_wardeclarationpopup_declare_image_territory">Rivendica il territorio</string>
@@ -398,7 +398,7 @@
 	<string key="ui_contesting">Disputa in corso</string>
 	<string key="ui_point_taken">Punto di raccolta preso</string>
 	<string key="ui_warphase_resolution">Risoluzione</string>
-	<string key="ui_warphase_scoutingdesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;FASE DI PRE-GUERRA&lt;/font&gt;&lt;/font&gt;\n\nTutti i combattenti devono iscriversi a un tabellone di guerra sul territorio e il governatore deve assegnarli ai 50 slot disponibili.</string>
+	<string key="ui_warphase_scoutingdesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;FASE DI PRE-GUERRA&lt;/font&gt;&lt;/font&gt;\n\nTutti i combattenti devono iscriversi a un tabellone di guerra sul territorio e il governatore deve assegnarli ai {maxRosterMembers} slot disponibili.</string>
 	<string key="ui_warphase_battledesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;FASE DI BATTAGLIA&lt;/font&gt;&lt;/font&gt;\n\nQuesta fase non è più in uso e non apparirà.</string>
 	<string key="ui_warphase_resolutiondesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;FASE DI RISOLUZIONE&lt;/font&gt;&lt;/font&gt;\n\nConclusione della guerra. Mostra i risultati della guerra e tutti i combattenti verranno teletrasportati nell'insediamento del territorio.</string>
 	<string key="ui_warphase_siegedesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;PERIODO D'ASSEDIO&lt;/font&gt;&lt;/font&gt;\n\nGli inviti raggiungono l'esercito 15 minuti prima della guerra e tutti saranno teletrasportati al Forte. Il vincitore prende il territorio.</string>

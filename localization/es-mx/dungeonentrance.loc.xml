@@ -47,6 +47,7 @@
 	<string key="dungeon_success">Misión completada</string>
 	<string key="dungeon_fail">Misión fallida</string>
 	<string key="dungeon_completed">Expedición completada</string>
+	<string key="ui_dungeon_view_group" rel_version="Feature_Group_Finder"/>
 	<string key="ui_dungeon_opened_pvpwarning_title">Abandona JcJ para entrar</string>
 	<string key="ui_dungeon_enter_pvpwarning_info">Al entrar en una expedición, &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;abandonarás todas las misiones JcJ&lt;/font&gt;. ¿Quieres continuar?</string>
 	<string key="ui_dungeon_full_header">La expedición se encuentra llena. Únete a la cola para entrar en la expedición.</string>
@@ -97,26 +98,12 @@
 	<string key="ui_dungeon_mutator_difficulty_points" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{val}&lt;/font&gt; puntos</string>
 	<string key="SavageTitle" rel_version="Feature_Dungeon_Mutators">Salvaje</string>
 	<string key="SavageDescription" rel_version="Feature_Dungeon_Mutators">Descripción de salvaje</string>
-	<string key="BarbaricTitle" rel_version="Feature_Dungeon_Mutators">Bárbaro</string>
-	<string key="BarbaricDescription" rel_version="Feature_Dungeon_Mutators">Descripción de bárbaro</string>
-	<string key="OppressiveTitle" rel_version="Feature_Dungeon_Mutators">Opresor</string>
-	<string key="OppressiveDescription" rel_version="Feature_Dungeon_Mutators">Descripción de opresor</string>
 	<string key="IndomitableTitle" rel_version="Feature_Dungeon_Mutators">Indómito</string>
 	<string key="IndomitableDescription" rel_version="Feature_Dungeon_Mutators">Descripción de indómito</string>
 	<string key="FirTitle" rel_version="Feature_Dungeon_Mutators">Fuego infernal</string>
 	<string key="FirDescription" rel_version="Feature_Dungeon_Mutators">Descripción de fuego infernal</string>
-	<string key="IceTitle" rel_version="Feature_Dungeon_Mutators">Atrapado en el hielo</string>
-	<string key="IceDescription" rel_version="Feature_Dungeon_Mutators">Descripción de atrapado en el hielo</string>
-	<string key="NatTitle" rel_version="Feature_Dungeon_Mutators">Gigante</string>
-	<string key="NatDescription" rel_version="Feature_Dungeon_Mutators">Descripción de gigante</string>
 	<string key="VoiTitle" rel_version="Feature_Dungeon_Mutators">Eterno</string>
 	<string key="VoiDescription" rel_version="Feature_Dungeon_Mutators">Descripción de eterno</string>
-	<string key="LigTitle" rel_version="Feature_Dungeon_Mutators">Tormenta</string>
-	<string key="LigDescription" rel_version="Feature_Dungeon_Mutators">Descripción de tormenta</string>
-	<string key="FrenziedTitle" rel_version="Feature_Dungeon_Mutators">Frenético</string>
-	<string key="FrenziedDescription" rel_version="Feature_Dungeon_Mutators">Descripción de frenético</string>
-	<string key="FiendishTitle" rel_version="Feature_Dungeon_Mutators">Diabólico</string>
-	<string key="FiendishDescription" rel_version="Feature_Dungeon_Mutators">Descripción de diabólico</string>
 	<string key="DesiccatedTitle" rel_version="Feature_Dungeon_Mutators">Disecado</string>
 	<string key="DesiccatedDescription" rel_version="Feature_Dungeon_Mutators">Descripción de disecado</string>
 	<string key="CensoredTitle" rel_version="Feature_Dungeon_Mutators">Censurado</string>
@@ -126,7 +113,7 @@
 	<string key="ui_dungeon_mutator_difficulty_plain" rel_version="Feature_Dungeon_Mutators">Dificultad&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_appended_difficulty" rel_version="Feature_Dungeon_Mutators">Dificultad &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{difficulty}&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_appended_difficulty_bold" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Dificultad {difficulty}&lt;/font&gt;</string>
-	<string key="ui_dungeon_next_unlock_requirement" rel_version="Feature_Dungeon_Mutators">Para desbloquear la &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;próxima dificultad&lt;/font&gt;, debes completar esta expedición con &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Rango de Plata&lt;/font&gt;.</string>
+	<string key="ui_dungeon_next_unlock_requirement" rel_version="Feature_Dungeon_Mutators">Para desbloquear la &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;próxima dificultad&lt;/font&gt;, debes completar esta expedición con &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;rango de {rank}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_mutator_unlock_requirement" rel_version="Feature_Dungeon_Mutators">Para desbloquear la &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;próxima dificultad&lt;/font&gt;, debes completar esta expedición.</string>
 	<string key="ui_dungeon_mutator_active" rel_version="Feature_Dungeon_Mutators">&lt;font color="#00ffa8"&gt;Activo &lt;img src="LyShineUI/Images/icons/misc/icon_question_orange" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; &lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_inactive" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ff9393"&gt;Inactivo &lt;img src="LyShineUI/Images/icons/misc/icon_question_orange" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; &lt;/font&gt;</string>
@@ -151,6 +138,9 @@
 	<string key="Mut_Fir_AOE_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Los enemigos lanzan una zona de quemaduras sobre los atacantes, lo que inflige daño de fuego con el tiempo.</string>
 	<string key="Mut_Fir_AOE_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Los enemigos lanzan una zona de quemaduras sobre los atacantes, lo que inflige daño de fuego con el tiempo.</string>
 	<string key="Mut_Fir_Death_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Los enemigos explotan tras morir, lo que inflige daño de fuego en un área reducida.</string>
+	<string key="Mut_Ice_CloseZone_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3"/>
+	<string key="Mut_Ice_CloseZone_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3"/>
+	<string key="Mut_Ice_DeathFreeze_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3"/>
 	<string key="Mut_Voi_Damage_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Los enemigos infligen un porcentaje de todo el daño como daño de vacío.</string>
 	<string key="Mut_Voi_Resist_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Los enemigos obtienen absorción de vacío.</string>
 	<string key="Mut_Voi_Resist_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Los enemigos obtienen absorción de vacío.</string>
@@ -173,6 +163,6 @@
 	<string key="ui_dungeon_orb_explanation" rel_version="Feature_Dungeon_Mutators">Una recompensa única. Los orbes de ajuste de expedición mutada también están disponibles en la Tienda de la facción.</string>
 	<string key="ui_dungeon_gearscore_recommendation_tooltip" rel_version="Feature_Dungeon_Mutators">
 	&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Puntuación del equipo recomendada&lt;/font&gt;\n\nLos cálculos del combate se ven afectados por la diferencia entre tu puntuación del equipo promedio y la puntuación del equipo recomendada.\n\nUna puntuación del equipo &lt;font color="#ff9393"&gt;inferior&lt;/font&gt; a la puntuación recomendada hará que &lt;font color="#ffffff"&gt;inflijas menos daño&lt;/font&gt; y que &lt;font color="#ffffff"&gt;recibas más daño&lt;/font&gt; de los enemigos en la expedición.</string>
-	<string key="ui_dungeon_gearscore_underlevel_warning" rel_version="Feature_Dungeon_Mutators">&lt;font color="#f25d5d" face="lyshineui/fonts/Nimbus_Bold.font"&gt;ADVERTENCIA:&lt;/font&gt; Su puntuación del equipo promedio es demasiado baja para tener un buen desempeño en esta Expedición.</string>
+	<string key="ui_dungeon_gearscore_underlevel_warning" rel_version="Feature_Dungeon_Mutators">&lt;font color={color} face="lyshineui/fonts/Nimbus_Bold.font"&gt;ADVERTENCIA:&lt;/font&gt; Su puntuación del equipo promedio es demasiado baja para tener un buen desempeño en esta Expedición.</string>
 </resources>
 

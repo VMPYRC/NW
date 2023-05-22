@@ -75,9 +75,9 @@
 	<string key="ui_house_unpaid_taxes_string">La tua casa (Disattivata)</string>
 	<string key="ui_house_tax">Tassa di proprietà</string>
 	<string key="ui_house_unpaid_taxes_due_soon">Tassa di proprietà dovuta presso {territoryName} tra: {time}. Paga la tassa di proprietà per continuare a utilizzare il viaggio veloce e l'arredamento</string>
-	<string key="ui_house_overdue_at">Tasse di proprietà arretrate presso {territoryName}. Paga la tassa di proprietà per continuare a utilizzare il viaggio veloce e l'arredamento</string>
-	<string key="ui_house_overdue_label">Tasse di proprietà arretrate</string>
-	<string key="ui_house_overdue_desc">Hai tasse di proprietà arretrate. Paga la tassa di proprietà per abilitare le funzionalità della casa.</string>
+	<string key="ui_house_overdue_at">Tasse di proprietà ARRETRATE presso {territoryName}. Paga la tassa di proprietà per continuare a utilizzare il viaggio veloce e l'arredamento</string>
+	<string key="ui_house_overdue_label">Tasse di proprietà ARRETRATE</string>
+	<string key="ui_house_overdue_desc">Hai tasse di proprietà ARRETRATE. Paga la tassa di proprietà per abilitare le funzionalità della casa.</string>
 	<string key="ui_housing_cant_afford">Ti servono più monete per comprare questa casa.</string>
 	<string key="ui_housing_decorate">Arreda</string>
 	<string key="ui_housing_decorate_desc">Aggiungi mobili e animali</string>
@@ -130,6 +130,8 @@
 	<string key="ui_num_housing_points">{points} punti</string>
 	<string key="ui_owner_list">Elenco dei proprietari</string>
 	<string key="ui_pay_house_tax_fail">Errore nel pagamento delle tasse sulla casa, riprova.</string>
+	<string key="ui_property_tax_disabled">Le tasse di proprietà sono state disattivate.</string>
+	<string key="ui_property_tax_disabled_short">Tasse di proprietà disattivate</string>
 	<string key="ui_pay_property_tax">Paga tassa di proprietà</string>
 	<string key="ui_pay_property_tax_popup_desc">Per arredare la tua casa, per farvi ritorno o per rigenerartici devi pagare le tasse di proprietà.\nLe tasse vanno pagate {firstCycle} dopo l'acquisto di una casa e, successivamente, ogni {otherCycle}.</string>
 	<string key="ui_property_tax">Tassa di proprietà</string>
@@ -245,5 +247,9 @@
 	<string key="ui_housing_tip_description3">Appendi i &lt;font color={colorHex}&gt;trofei&lt;/font&gt; per attivare &lt;font color={colorHex}&gt;bonus passivi&lt;/font&gt;.\n\nSuggerimento: è possibile posizionare solo 5 trofei per casa, ma gli effetti di trofei doppioni sono cumulabili.</string>
 	<string key="ui_housing_tip_title4">Punteggio e oggetti totali</string>
 	<string key="ui_housing_tip_description4">Il pannello sulla destra dello schermo mostra il &lt;font color={colorHex}&gt;punteggio arredamento&lt;/font&gt; e i &lt;font color={colorHex}&gt;limiti di arredi&lt;/font&gt; della casa.\n\nSuggerimento: piazzare troppi oggetti dello stesso tipo comporterà una riduzione del punteggio arredamento.</string>
+	<string key="ui_fast_travel_charted_point">Punto viaggio veloce</string>
+	<string key="ui_fast_travel_uncharted_point">Punto per viaggio veloce non visitato</string>
+	<string key="ui_fast_travel_shrine_activated_header">Santuario viaggio veloce</string>
+	<string key="ui_fast_travel_shrine_activated_body">Nuovo punto per viaggio veloce attivato!</string>
 </resources>
 

@@ -1254,32 +1254,32 @@
 	<string key="PriestSuffix">kapłana</string>
 	<string key="ClericSuffix">kleryka</string>
 	<string key="SageSuffix">mędrca</string>
-	<string key="AbyssalPrefix">(Otchłań)</string>
-	<string key="ElectrifiedPrefix">(Elektryzacja)</string>
-	<string key="EmpoweredPrefix">(Nasączenie mocą)</string>
-	<string key="IgnitedPrefix">(Podpalenie)</string>
-	<string key="FrozenPrefix">(Zamrożenie)</string>
-	<string key="ArborealPrefix">(Nadrzewność)</string>
-	<string key="BrashPrefix">(Zuchwałość)</string>
-	<string key="OpportunistPrefix">(Oportunizm)</string>
-	<string key="RetaliatePrefix">(Mściwość)</string>
-	<string key="ExhilaratePrefix">(Radość)</string>
-	<string key="CruelPrefix">(Okrucieństwo)</string>
-	<string key="GambitPrefix">(Podstępność)</string>
-	<string key="RallyPrefix">(Mobilizacja)</string>
-	<string key="AbyssalWardPrefix">(Otchłań)</string>
-	<string key="FireWardPrefix">(Ognioodporność)</string>
-	<string key="IceWardPrefix">(Lodoodporność)</string>
-	<string key="LightningWardPrefix">(Izolacja)</string>
-	<string key="ArcaneWardPrefix">(Nasączenie mocą)</string>
-	<string key="NatureWardPrefix">(Nadrzewność)</string>
-	<string key="SlashWardPrefix">(Połysk)</string>
-	<string key="StrikeWardPrefix">(Obicie)</string>
-	<string key="ThrustWardPrefix">(Zahartowanie)</string>
-	<string key="PhysicalWardPrefix">(Wzmocnienie)</string>
-	<string key="WildernessWardPrefix">(Pierwotność)</string>
-	<string key="ElementalWardPrefix">(Nasycenie)</string>
-	<string key="SpectralWardPrefix">(Widmowość)</string>
+	<string key="AbyssalPrefix">(otchłań)</string>
+	<string key="ElectrifiedPrefix">(elektryzacja)</string>
+	<string key="EmpoweredPrefix">(nasączenie mocą)</string>
+	<string key="IgnitedPrefix">(podpalenie)</string>
+	<string key="FrozenPrefix">(zamrożenie)</string>
+	<string key="ArborealPrefix">(nadrzewność)</string>
+	<string key="BrashPrefix">(zuchwałość)</string>
+	<string key="OpportunistPrefix">(oportunizm)</string>
+	<string key="RetaliatePrefix">(mściwość)</string>
+	<string key="ExhilaratePrefix">(radość)</string>
+	<string key="CruelPrefix">(okrucieństwo)</string>
+	<string key="GambitPrefix">(podstępność)</string>
+	<string key="RallyPrefix">(mobilizacja)</string>
+	<string key="AbyssalWardPrefix">(otchłań)</string>
+	<string key="FireWardPrefix">(ognioodporność)</string>
+	<string key="IceWardPrefix">(lodoodporność)</string>
+	<string key="LightningWardPrefix">(izolacja)</string>
+	<string key="ArcaneWardPrefix">(nasączenie mocą)</string>
+	<string key="NatureWardPrefix">(nadrzewność)</string>
+	<string key="SlashWardPrefix">(połysk)</string>
+	<string key="StrikeWardPrefix">(obicie)</string>
+	<string key="ThrustWardPrefix">(zahartowanie)</string>
+	<string key="PhysicalWardPrefix">(wzmocnienie)</string>
+	<string key="WildernessWardPrefix">(pierwotność)</string>
+	<string key="ElementalWardPrefix">(nasycenie)</string>
+	<string key="SpectralWardPrefix">(widmowość)</string>
 	<string key="PerkID_Ability_Hatchet_FeralRush_Name">Ożywcza dzika szarża</string>
 	<string key="PerkID_Ability_Hatchet_FeralRush_Description">Zyskujesz {[Type_StatusEffectData.Status_Perk_Hatchet_FeralRush_StaminaRegen.Stamina * {perkMultiplier}]} pkt wytrzymałości za każde trafienie dziką szarżą.</string>
 	<string key="PerkID_Ability_Hatchet_Berserk_Name">Ostry berserker</string>
@@ -1365,15 +1365,15 @@
 	<string key="PerkID_Ability_LifeStaff_Beacon_Name">Energetyzujące światło przewodnie</string>
 	<string key="PerkID_Ability_LifeStaff_Beacon_Description">Użycie światła przewodniego zwiększa skuteczność leczenia się przez postać gracza o {[Type_StatusEffectData.Status_Perk_LifeStaff_Beacon_HealMod.HealMod * 100 * {perkMultiplier}]}% na {[Type_StatusEffectData.Status_Perk_LifeStaff_Beacon_HealMod.BaseDuration]} s.</string>
 	<string key="PerkID_Ability_FireStaff_PillarOfFire_Name">Odświeżający ognisty filar</string>
-	<string key="PerkID_Ability_FireStaff_PillarOfFire_Description">Skraca czas odnowienia ognistego filaru o {[GlobalAbilityTable.GlobalPerk_Ability_FireStaff_PillarOfFire.CooldownTimer * -100 * {perkMultiplier}]}% za każdego wroga trafionego tą umiejętnością (maks. liczba trafień: {[GlobalAbilityTable.GlobalPerk_Ability_FireStaff_PillarOfFire.MaxTrackedHitCounts}]}).</string>
+	<string key="PerkID_Ability_FireStaff_PillarOfFire_Description">Skraca czas odnowienia ognistego filaru o {[GlobalAbilityTable.GlobalPerk_Ability_FireStaff_PillarOfFire.CooldownTimer * -100 * {perkMultiplier}]}% za każdego wroga trafionego tą zdolnością (maks. liczba trafień: {[GlobalAbilityTable.GlobalPerk_Ability_FireStaff_PillarOfFire.MaxTrackedHitCounts]}).</string>
 	<string key="PerkID_Ability_FireStaff_MeteorShower_Name">Wzmacniający deszcz meteorów</string>
 	<string key="PerkID_Ability_FireStaff_MeteorShower_Description">Trafienia deszczem meteorów zadają {[GlobalAbilityTable.GlobalPerk_Ability_FireStaff_MeteorShower.BaseDamage * 100 * {perkMultiplier}]}% dodatkowych obrażeń celom z pełnym zdrowiem.</string>
 	<string key="PerkID_Ability_FireStaff_Fireball_Name">Wzmacniająca kula ognia</string>
 	<string key="PerkID_Ability_FireStaff_Fireball_Description">Trafienia kulą ognia zadają {[GlobalAbilityTable.GlobalPerk_Ability_FireStaff_Fireball.BaseDamage * 100 * {perkMultiplier}]}% dodatkowych obrażeń.</string>
 	<string key="PerkID_Ability_FireStaff_Incinerate_Name">Syfonowe spopielenie</string>
-	<string key="PerkID_Ability_FireStaff_Incinerate_Description">Każde trafienie spopieleniem przywraca {[GlobalAbilityTable.GlobalPerk_Ability_FireStaff_Incinerate.Mana * 100 * {perkMultiplier}]} pkt many (maks. liczba trafień: {[GlobalAbilityTable.GlobalPerk_Ability_FireStaff_Incinerate.NumberOfTrackedHits}]}).</string>
+	<string key="PerkID_Ability_FireStaff_Incinerate_Description">Każde trafienie spopieleniem przywraca {[GlobalAbilityTable.GlobalPerk_Ability_FireStaff_Incinerate.Mana * 100 * {perkMultiplier}]} pkt many (maks. liczba trafień: {[GlobalAbilityTable.GlobalPerk_Ability_FireStaff_Incinerate.NumberOfTrackedHits]}).</string>
 	<string key="PerkID_Ability_FireStaff_Flamethrower_Name">Przyspieszający miotacz ognia</string>
-	<string key="PerkID_Ability_FireStaff_Flamethrower_Description">Nałożenie {[GlobalAbilityTable.GlobalPerk_Ability_FireStaff_Flamethrower.TargetStatusEffectStackSize}]} efektów podpalenia na cel za pomocą miotacza ognia zapewnia przyspieszenie zwiększające szybkość ruchu o {[Type_StatusEffectData.Status_Perk_FireStaff_FlameThrower_MoveHaste.MoveSpeedMod * 100 * {perkMultiplier}]}% na {[Type_StatusEffectData.Status_Perk_FireStaff_FlameThrower_MoveHaste.BaseDuration}]} s.</string>
+	<string key="PerkID_Ability_FireStaff_Flamethrower_Description">Nałożenie na cel {[GlobalAbilityTable.GlobalPerk_Ability_FireStaff_Flamethrower.TargetStatusEffectStackSize]} efektów podpalenia za pomocą miotacza ognia zapewnia przyspieszenie zwiększające szybkość ruchu o {[Type_StatusEffectData.Status_Perk_FireStaff_FlameThrower_MoveHaste.MoveSpeedMod * 100 * {perkMultiplier}]}% na {[Type_StatusEffectData.Status_Perk_FireStaff_FlameThrower_MoveHaste.BaseDuration]} s.</string>
 	<string key="PerkID_Ability_FireStaff_BurnOut_Name">Wydajne wypalenie</string>
 	<string key="PerkID_Ability_FireStaff_BurnOut_Description">Zwiększa szybkość regeneracji many o {[Type_StatusEffectData.Status_Perk_FireStaff_Burnout_ManaRegen.ManaRate * 100 * {perkMultiplier}]}% na {[Type_StatusEffectData.Status_Perk_FireStaff_Burnout_ManaRegen.BaseDuration]} s po użyciu wypalenia.</string>
 	<string key="PerkID_Ability_Sword_ReverseStab_Name">Zaraźliwe odwrócone pchnięcie</string>
@@ -1409,7 +1409,7 @@
 	<string key="PerkID_Ability_IceGauntlet_DeadlyFrost_Name">Zabójczy mróz</string>
 	<string key="PerkID_Ability_IceGauntlet_DeadlyFrost_Description">Kiedy aktywny jest polarny prysznic, odmrożenie nakładane przez lodowy prysznic zada {[Type_StatusEffectData.IceMagic_Frostbite_DeadlyFrost.HealthModifierDamageBased * -100]}% obrażeń od broni co sekundę wrogom objętym jego działaniem.</string>
 	<string key="PerkID_Ability_IceGauntlet_PylonBurst_Name">Wybuch pylonu</string>
-	<string key="PerkID_Ability_IceGauntlet_PylonBurst_Description">Przy każdym wystrzale lodowy pylon wywołuje wybuch zadający obrażenia wrogom w promieniu 1 m.</string>
+	<string key="PerkID_Ability_IceGauntlet_PylonBurst_Description">Przy każdym wystrzale lodowy pylon wywołuje wybuch zadający obrażenia wrogom w promieniu {[SpellDataTable_IceMagic.IceMagic_Spell_PylonBurst.Radius]} m.</string>
 	<string key="PerkID_Ability_IceGauntlet_HealingTomb_Name">Leczniczy grobowiec</string>
 	<string key="PerkID_Ability_IceGauntlet_HealingTomb_Description">Zapewnia 10% zdrowia po wyjściu ze stanu pogrzebania z całą maną.</string>
 	<string key="PerkID_Ability_VoidGauntlet_VoidBlade_Lifesteal_Name">Nienasycone ostrze</string>
@@ -1461,7 +1461,7 @@
 	<string key="PerkID_Tools_SkinningXP_Name">Garbarska dyscyplina</string>
 	<string key="PerkID_Tools_SkinningXP_Description">Zyskujesz {[Type_StatusEffectData.Status_Perk_Tool_SkinningXP.EXPSkinning * 100 * {perkMultiplier}]}% więcej doświadczenia do skórowania.</string>
 	<string key="PerkID_Tools_HasteOnGather_Name">Skwapliwe zbieractwo</string>
-	<string key="PerkID_Tools_HasteOnGather_Description">Po zakończeniu pozyskiwania surowców ze złoża zyskujesz {[Type_StatusEffectData.Status_Perk_Tool_HasteOnGather.MoveSpeedMod * 100 }]}% przyspieszenia na {[Type_StatusEffectData.Status_Perk_Tool_HasteOnGather.BaseDuration}]} s.</string>
+	<string key="PerkID_Tools_HasteOnGather_Description">Po zakończeniu pozyskiwania surowców ze złoża zyskujesz {[Type_StatusEffectData.Status_Perk_Tool_HasteOnGather.MoveSpeedMod * 100]}% przyspieszenia na {[Type_StatusEffectData.Status_Perk_Tool_HasteOnGather.BaseDuration]} s.</string>
 	<string key="PerkID_Bags_WeightAdd_Name">Dodatkowe kieszenie</string>
 	<string key="PerkID_Bags_WeightAdd_Description">Zwiększa udźwig ekwipunku o {[AffixStatDataTable.Affix_Bags_WeightAdd.Encumbrance / 10 * {perkMultiplier}]}.</string>
 	<string key="PerkID_Bags_CookingWeight_Name">Pakunek łasucha</string>
@@ -1683,7 +1683,7 @@
 	<string key="PerkID_Weapon_HealOnDmg_Name">Kradzież życia</string>
 	<string key="PerkID_Weapon_HealOnDmg_Description">Przekształca {[GlobalAbilityTable.Global_Weapon_HealOnDmg.DmgPctToHealth * 100 * {perkMultiplier}]}% zadanych przez ciebie obrażeń w zdrowie. Nie aktywuje się od obrażeń nieustannych ani periodycznych.</string>
 	<string key="PerkID_Weapon_BleedonCrit_Name">Zaciekły zadzior</string>
-	<string key="PerkID_Weapon_BleedonCrit_Description">Trafienie krytyczne nakłada krwawienie zadające 7% obrażeń od broni co sekundę przez {[Type_StatusEffectData.Status_Perk_Weapon_OnCritBleed_Timer.BaseDuration]} s (czas odnowienia: {[Type_StatusEffectData.Status_Perk_Weapon_OnCritBleed_Timer.BaseDuration]} s).</string>
+	<string key="PerkID_Weapon_BleedonCrit_Description">Trafienie krytyczne nakłada krwawienie zadające 7% obrażeń od broni co sekundę przez {[Type_StatusEffectData.Status_Perk_Weapon_OnCritBleed.BaseDuration]} s (czas odnowienia: {[Type_StatusEffectData.Status_Perk_Weapon_OnCritBleed_Timer.BaseDuration]} s).</string>
 	<string key="PerkID_Weapon_FortifyOnCrit_Name">Zaciekłe umocnienie</string>
 	<string key="PerkID_Weapon_FortifyOnCrit_Description">Trafienie krytyczne zapewnia {[Type_StatusEffectData.Status_Perk_Weapon_OnCritFortify.ABSStandard * 100 * {perkMultiplier}]}% umocnienia na {[Type_StatusEffectData.Status_Perk_Weapon_OnCritFortify.BaseDuration]} s (czas odnowienia: {[Type_StatusEffectData.Status_Perk_Weapon_OnCritFortify_Timer.BaseDuration]} s).</string>
 	<string key="PerkID_Weapon_EmpowerOnCrit_Name">Staranne nasączenie mocą</string>
@@ -1826,5 +1826,45 @@
 	<string key="PerkID_Armor_RangeDefense_Physical_Description" rel_version="MorePerksV1">Otrzymujesz {[GlobalAbilityTable.Global_Armor_RangeDefense_Physical.BaseDamageReduction * 100 * {perkMultiplier}]}% mniej obrażeń od zwykłych fizycznych ataków dystansowych.</string>
 	<string key="PerkID_Armor_RangeDefense_Elemental_Name" rel_version="MorePerksV1">Awersja na żywioły</string>
 	<string key="PerkID_Armor_RangeDefense_Elemental_Description" rel_version="MorePerksV1">Otrzymujesz {[GlobalAbilityTable.Global_Armor_RangeDefense_Elemental.BaseDamageReduction * 100 * {perkMultiplier}]}% mniej obrażeń od zwykłych żywiołowych ataków dystansowych.</string>
+	<string key="PerkID_Ability_Blunderbuss_NetShot_Name" rel_version="Weapon_Blunderbuss">Wyczerpujące wystrzelenie siatki</string>
+	<string key="PerkID_Ability_Blunderbuss_NetShot_Description" rel_version="Weapon_Blunderbuss">Wystrzelenie siatki nakłada na cel wyczerpanie zmniejszające jego szybkość regeneracji wytrzymałości o {[Type_StatusEffectData.Status_Perk_Blunderbuss_NetShot_Exhaust.StaminaRate * -100 * {perkMultiplier}]}% na {[Type_StatusEffectData.Status_Perk_Blunderbuss_NetShot_Exhaust.BaseDuration]} s </string>
+	<string key="PerkID_Ability_Blunderbuss_AzothShrapnelBlast_Name" rel_version="Weapon_Blunderbuss">Wysysające odłamki</string>
+	<string key="PerkID_Ability_Blunderbuss_AzothShrapnelBlast_Description" rel_version="Weapon_Blunderbuss">Przywraca zdrowie w wysokości {[GlobalAbilityTable.GlobalPerk_Ability_Blunderbuss_Shrapnel_LifeSteal.DmgPctToHealth * 100 * {perkMultiplier}]}% obrażeń zadanych przez azothowe odłamki.</string>
+	<string key="PerkID_Ability_Blunderbuss_ClawShot_Name" rel_version="Weapon_Blunderbuss">Śmiałe wystrzelenie szpona</string>
+	<string key="PerkID_Ability_Blunderbuss_ClawShot_Description" rel_version="Weapon_Blunderbuss">Gdy wystrzelenie szpona trafia w cel oddalony o co najmniej {[GlobalAbilityTable.GlobalPerk_Ability_Blunderbuss_ClawShot_Empower.DistFromDefender]} m, daje {[Type_StatusEffectData.Status_Perk_Blunderbuss_ClawShot_Empower.DMGStandard * 100 * {perkMultiplier}]}% nasączenia mocą na {[Type_StatusEffectData.Status_Perk_Blunderbuss_ClawShot_Empower.BaseDuration]} s lub do następnego trafienia.</string>
+	<string key="PerkID_Ability_Blunderbuss_ScatterGrenade_Name" rel_version="Weapon_Blunderbuss">Granat dzielony zarazy</string>
+	<string key="PerkID_Ability_Blunderbuss_ScatterGrenade_Description" rel_version="Weapon_Blunderbuss">Trafienia granatem dzielonym powodują chorobę, która zmniejsza skuteczność leczenia celu o {[Type_StatusEffectData.Status_Perk_Blunderbuss_Grenade_Disease.HealMod * -100 * {perkMultiplier}]}% na {[Type_StatusEffectData.Status_Perk_Blunderbuss_Grenade_Disease.BaseDuration]} s.</string>
+	<string key="PerkID_Ability_Blunderbuss_MortarCharge_Name" rel_version="Weapon_Blunderbuss">Odzyskiwany ładunek moździerzowy</string>
+	<string key="PerkID_Ability_Blunderbuss_MortarCharge_Description" rel_version="Weapon_Blunderbuss">Zabójstwa ładunkiem moździerzowym dają dodatkowy ładunek moździerzowy (kumuluje się do 6 razy).</string>
+	<string key="PerkID_Ability_Blunderbuss_VortexShot_Name" rel_version="Weapon_Blunderbuss">Okaleczający potężny strzał</string>
+	<string key="PerkID_Ability_Blunderbuss_VortexShot_Description" rel_version="Weapon_Blunderbuss">Cele trafione potężnym strzałem zostają spowolnione, co zmniejsza szybkość ich ruchu o {[Type_StatusEffectData.Status_Perk_Blunderbuss_VortexShot_Slow.MoveSpeedMod * -100 * {perkMultiplier}]}% na {[Type_StatusEffectData.Status_Perk_Blunderbuss_VortexShot_Slow.BaseDuration]} s.</string>
+	<string key="PerkID_Weapon_DodgeSuccess_FireDMG_Name" rel_version="MorePerksV2">Wykrętne płomienie</string>
+	<string key="PerkID_Weapon_DodgeSuccess_FireDMG_Description" rel_version="MorePerksV2">Jeśli uchylisz się przed atakiem za pomocą uniku i trafisz wroga w ciągu {[Type_StatusEffectData.Status_Perk_Weapon_DodgeSuccess_FireDMG_Tracker.BaseDuration]} s, zadasz {[Type_StatusEffectData.Status_Perk_Weapon_DodgeSuccess_FireDMG.HealthModifierDamageBased * -100 * {perkMultiplier}]}% dodatkowych obrażeń od broni w postaci obrażeń od ognia.</string>
+	<string key="PerkID_Weapon_DodgeSuccess_NatureDMG_Name" rel_version="MorePerksV2">Wykrętna natura</string>
+	<string key="PerkID_Weapon_DodgeSuccess_NatureDMG_Description" rel_version="MorePerksV2">Jeśli uchylisz się przed atakiem za pomocą uniku i trafisz wroga w ciągu {[Type_StatusEffectData.Status_Perk_Weapon_DodgeSuccess_NatureDMG_Tracker.BaseDuration]} s, zadasz {[Type_StatusEffectData.Status_Perk_Weapon_DodgeSuccess_NatureDMG.HealthModifierDamageBased * -100 * {perkMultiplier}]}% dodatkowych obrażeń od broni w postaci obrażeń od natury.</string>
+	<string key="PerkID_Weapon_DodgeSuccess_IceDMG_Name" rel_version="MorePerksV2">Wykrętny mróz</string>
+	<string key="PerkID_Weapon_DodgeSuccess_IceDMG_Description" rel_version="MorePerksV2">Jeśli uchylisz się przed atakiem za pomocą uniku i trafisz wroga w ciągu {[Type_StatusEffectData.Status_Perk_Weapon_DodgeSuccess_IceDMG_Tracker.BaseDuration]} s, zadasz {[Type_StatusEffectData.Status_Perk_Weapon_DodgeSuccess_IceDMG.HealthModifierDamageBased * -100 * {perkMultiplier}]}% dodatkowych obrażeń od broni w postaci obrażeń od lodu.</string>
+	<string key="PerkID_Weapon_DodgeSuccess_LightningDMG_Name" rel_version="MorePerksV2">Wykrętna błyskawica</string>
+	<string key="PerkID_Weapon_DodgeSuccess_LightningDMG_Description" rel_version="MorePerksV2">Jeśli uchylisz się przed atakiem za pomocą uniku i trafisz wroga w ciągu {[Type_StatusEffectData.Status_Perk_Weapon_DodgeSuccess_LightningDMG_Tracker.BaseDuration]} s, zadasz {[Type_StatusEffectData.Status_Perk_Weapon_DodgeSuccess_LightningDMG.HealthModifierDamageBased * -100 * {perkMultiplier}]}% dodatkowych obrażeń od broni w postaci obrażeń od błyskawic.</string>
+	<string key="PerkID_Weapon_DodgeSuccess_VoidDMG_Name" rel_version="MorePerksV2">Wykrętna otchłań</string>
+	<string key="PerkID_Weapon_DodgeSuccess_VoidDMG_Description" rel_version="MorePerksV2">Jeśli uchylisz się przed atakiem za pomocą uniku i trafisz wroga w ciągu {[Type_StatusEffectData.Status_Perk_Weapon_DodgeSuccess_VoidDMG_Tracker.BaseDuration]} s, zadasz {[Type_StatusEffectData.Status_Perk_Weapon_DodgeSuccess_VoidDMG.HealthModifierDamageBased * -100 * {perkMultiplier}]}% dodatkowych obrażeń od broni w postaci obrażeń od próżni.</string>
+	<string key="PerkID_Weapon_DodgeSuccess_ArcaneDMG_Name" rel_version="MorePerksV2">Wykrętne arkana</string>
+	<string key="PerkID_Weapon_DodgeSuccess_ArcaneDMG_Description" rel_version="MorePerksV2">Jeśli uchylisz się przed atakiem za pomocą uniku i trafisz wroga w ciągu {[Type_StatusEffectData.Status_Perk_Weapon_DodgeSuccess_ArcaneDMG_Tracker.BaseDuration]} s, zadasz {[Type_StatusEffectData.Status_Perk_Weapon_DodgeSuccess_ArcaneDMG.HealthModifierDamageBased * -100 * {perkMultiplier}]}% dodatkowych obrażeń od broni w postaci obrażeń arkanistycznych.</string>
+	<string key="PerkID_Amulet_DodgeSuccess_CleanseDoT_Name" rel_version="MorePerksV2">Wykrętne usunięcie obrażeń periodycznych </string>
+	<string key="PerkID_Amulet_DodgeSuccess_CleanseDoT_Description" rel_version="MorePerksV2">Jeśli twoje wyposażenie jest lekkie i uchylisz się przed atakiem za pomocą uniku, usuniesz 1 negatywny efekt zadający obrażenia periodyczne (krwawienie, podpalenie, zatrucie). (Można skorzystać raz na {[Type_StatusEffectData.Status_Perk_Amulet_DodgeSuccess_CleanseDoT_Timer.BaseDuration]} s).</string>
+	<string key="PerkID_Amulet_DodgeSuccess_CleanseDebilitate_Name" rel_version="MorePerksV2">Wykrętne usunięcie efektów osłabiających </string>
+	<string key="PerkID_Amulet_DodgeSuccess_CleanseDebilitate_Description" rel_version="MorePerksV2">Jeśli twoje wyposażenie ma średni ciężar i uchylisz się przed atakiem za pomocą uniku, usuniesz 1 negatywny efekt osłabiający (rozdarcie, osłabienie, wyczerpanie, choroba). (Można skorzystać raz na {[Type_StatusEffectData.Status_Perk_Amulet_DodgeSuccess_CleanseDebilitate_Timer.BaseDuration]} s).</string>
+	<string key="PerkID_Armor_DodgeSuccess_Fortify_Name" rel_version="MorePerksV2">Wykrętne umocnienie</string>
+	<string key="PerkID_Armor_DodgeSuccess_Fortify_Description" rel_version="MorePerksV2">Jeśli uchylisz się przed atakiem za pomocą uniku, zyskasz umocnienie zwiększające pochłanianie obrażeń o {[Type_StatusEffectData.Status_Perk_Armor_DodgeSuccess_Fortify.ABSStandard * 100 * {perkMultiplier}]}% na {[Type_StatusEffectData.Status_Perk_Armor_DodgeSuccess_Fortify.BaseDuration]} s. Każdy element pancerza z tym profitem zwiększa moc efektu.</string>
+	<string key="PerkID_Head_OnCritTaken_CritChance_Name" rel_version="MorePerksV2">Krytyczna zemsta</string>
+	<string key="PerkID_Head_OnCritTaken_CritChance_Description" rel_version="MorePerksV2">Otrzymanie trafienia krytycznego zwiększa szansę na trafienie krytyczne o {[Type_StatusEffectData.Status_Perk_Head_OnCritTaken_CritChance.CritChanceModifier * 100 * {perkMultiplier}]}% na {[Type_StatusEffectData.Status_Perk_Head_OnCritTaken_CritChance.BaseDuration]} s (czas odnowienia: {[Type_StatusEffectData.Status_Perk_Head_OnCritTaken_CritChance_Timer.BaseDuration]} s).</string>
+	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Name" rel_version="MorePerksV2">Wytrzymała energia</string>
+	<string key="PerkID_Chest_OnBlockedHitTaken_StaminaRegen_Description" rel_version="MorePerksV2">Zablokowanie ataku, gdy masz mniej niż {[GlobalAbilityTable.Global_Chest_OnBlockedHitTaken_StaminaRegen.MyStaminaPercent]}% wytrzymałości, zwiększy szybkość regeneracji wytrzymałości o {[Type_StatusEffectData.Status_Perk_Chest_OnBlockedHitTaken_StaminaRegen.StaminaRate * 100 * {perkMultiplier}]}% na {[Type_StatusEffectData.Status_Perk_Chest_OnBlockedHitTaken_StaminaRegen.BaseDuration]} s (efekt nie zadziała, gdy jesteś pod wpływem wyczerpania).</string>
+	<string key="PerkID_Hands_OnBlockedHit_EmpowerStack_Name" rel_version="MorePerksV2">Wzmacniające przełamanie</string>
+	<string key="PerkID_Hands_OnBlockedHit_EmpowerStack_Description" rel_version="MorePerksV2">Gdy twój atak zostanie zablokowany, zyskasz nasączenie mocą zwiększające zadawane obrażenia o {[Type_StatusEffectData.Status_Perk_Hands_OnBlockedHit_EmpowerStack.DMGStandard * 100 * {perkMultiplier}]}% na {[Type_StatusEffectData.Status_Perk_Hands_OnBlockedHit_EmpowerStack.BaseDuration]} s (kumuluje się do {[Type_StatusEffectData.Status_Perk_Hands_OnBlockedHit_EmpowerStack.StackMax]} razy).</string>
+	<string key="PerkID_Legs_DodgeSuccess_Stamina_Name" rel_version="MorePerksV2">Wykrętna energia</string>
+	<string key="PerkID_Legs_DodgeSuccess_Stamina_Description" rel_version="MorePerksV2">Jeśli twoje wyposażenie jest lekkie i uchylisz się przed atakiem za pomocą uniku, zyskasz {[Type_StatusEffectData.Status_Perk_Legs_DodgeSuccess_Stamina.Stamina * {perkMultiplier}]} do wytrzymałości (czas odnowienia: {[Type_StatusEffectData.Status_Perk_Legs_DodgeSuccess_Stamina_Timer.BaseDuration]} s).</string>
+	<string key="PerkID_Tools_GatherProc_Regen_Name" rel_version="MorePerksV2">Zbieracka odnowa</string>
+	<string key="PerkID_Tools_GatherProc_Regen_Description" rel_version="MorePerksV2">Gdy nie walczysz i zakończysz pozyskiwanie surowców ze złoża, zaczniesz odzyskiwać {[Type_StatusEffectData.Status_Perk_Tools_GatherProc_GainHealth.Health * {perkMultiplier}]} PZ na sekundę przez {[Type_StatusEffectData.Status_Perk_Tools_GatherProc_GainHealth.BaseDuration]} (otrzymanie obrażeń usunie ten efekt).</string>
 </resources>
 

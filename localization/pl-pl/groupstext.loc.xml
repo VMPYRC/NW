@@ -182,8 +182,8 @@
 	<string key="ui_backfill_tooltip" comment="">Kompania może zdecydować, jak uzupełnić miejsca zwolnione przez graczy, którzy odejdą przed zakończeniem wojny.</string>
 	<string key="ui_backfill_auto_tooltip" comment="">Automatycznie uzupełnij graczy z listy oczekujących na podstawie czasu zapisu.</string>
 	<string key="ui_backfill_manual_tooltip" comment="">Wybierz graczy ręcznie z listy oczekujących, by zapełnić wolne miejsca.</string>
-	<string key="ui_raid_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / 50</string>
-	<string key="ui_invasion_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / 10</string>
+	<string key="ui_raid_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / {total}</string>
+	<string key="ui_invasion_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / {total}</string>
 	<string key="ui_promote_disabled_max_tooltip" comment="">Nie można już awansować tego gracza</string>
 	<string key="ui_demote_disabled_min_tooltip" comment="">Nie można już zdegradować tego gracza</string>
 	<string key="ui_remove_army" comment="">Usuń z armii</string>

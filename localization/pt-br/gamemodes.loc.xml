@@ -89,8 +89,8 @@
 	<string key="ui_outpost_rush_signup_goal3">Utilize recursos especiais na ilha para atacar e defender</string>
 	<string key="ui_outpost_rush_signup_points_number">1.000</string>
 	<string key="ui_outpost_rush_signup_points_text">PONTOS</string>
-	<string key="ui_outpost_rush_signup_joinsolo">Entrar como jogador solo</string>
-	<string key="ui_outpost_rush_signup_joingroup">Entrar com seu grupo</string>
+	<string key="ui_outpost_rush_signup_joinsolo">Jogar</string>
+	<string key="ui_outpost_rush_signup_joingroup">Jogue com seu grupo</string>
 	<string key="ui_outpost_rush_signup_joinmid">Gostaria de participar de partidas em andamento &lt;font color="#ffe940"&gt;(Menor tempo de espera)&lt;/font&gt;</string>
 	<string key="ui_outpost_rush_signup_playercount">{playerCount} Jogadores</string>
 	<string key="ui_outpost_rush_signup_failsolo">Você está em um grupo no momento e não pode entrar como jogador solo</string>
@@ -100,6 +100,8 @@
 	<string key="ui_outpost_rush_signup_failwar">Você não pode se registrar porque já está registrado em uma guerra que começa dentro de uma hora.</string>
 	<string key="ui_outpost_rush_signup_failqueue">Você não pode se registrar porque já está registrado para {matchname} no momento.</string>
 	<string key="ui_outpost_rush_signup_faildungeon">Você não pode se registrar porque está na fila de uma expedição.</string>
+	<string key="ui_outpost_rush_signup_failevent">Você não pode se registrar porque está em um evento no momento.</string>
+	<string key="ui_outpost_rush_signup_failgeneric">Você não pode se registrar neste momento.</string>
 	<string key="ui_outpost_rush_signup_failgrouptitle">Não é possível entrar na Investida do Posto Avançado</string>
 	<string key="ui_outpost_rush_signup_failgrouplevel">Todos os membros do grupo devem estar pelo menos no nível {levelRequirement}.</string>
 	<string key="ui_outpost_rush_signup_failgroupwar">Um ou mais membros do seu grupo estão registrados em uma guerra que começa dentro de uma hora.</string>
@@ -221,5 +223,24 @@
 	<string key="ui_durability_loss_war">Você está em uma guerra (ou invasão), seu equipamento não foi danificado após sua morte.</string>
 	<string key="ui_item_durability_loss">Todo o equipamento em seu inventário foi danificado após sua morte.</string>
 	<string key="ui_item_durability_loss_pvp">Você foi morto por outro jogador, seu equipamento sofreu dano reduzido.</string>
+	<string key="ui_pvp_arena_leave">Sair da Arena PvP</string>
+	<string key="ui_cannot_travel_pvp_arena">Você não pode fazer uma viagem rápida durante a Arena PvP</string>
+	<string key="ui_pvp_arena_leave_desc">Tem certeza de que deseja sair da Arena PvP?</string>
+	<string key="ui_pvp_arena_leave_desc_time">Tem certeza de que deseja sair da Arena PvP?\nVocê não poderá entrar de novo na fila da Arena PvP por &lt;font color="#ff2e2e"&gt;[{time}]&lt;/font&gt;.</string>
+	<string key="ui_pvp_arena_leave_title">Sair da Arena PvP?</string>
+	<string key="ui_in_spectators_box">Na Caixa de Espectador</string>
+	<string key="ui_in_spectators_box_description">Armas e Habilidades Desativadas</string>
+	<string key="ui_round_number">Rodada {number}</string>
+	<string key="ui_match_point">Ponto Decisivo</string>
+	<string key="ui_final_round">Rodada Final</string>
+	<string key="ui_begins_in">Começa em:</string>
+	<string key="ui_arena_gas_releases_in" comment="gas was replaced with ring of fire in implementation">O Anel de Fogo fecha em:</string>
+	<string key="ui_arena_gas_released">O Anel de Fogo está fechando</string>
+	<string key="ui_fight">Lutem!</string>
+	<string key="ui_round_won">Venceu a Rodada</string>
+	<string key="ui_round_lost">Perdeu a Rodada</string>
+	<string key="ui_switching_sides">Mudando de Lado</string>
+	<string key="ui_rounds_won">Rodadas Vencidas</string>
+	<string key="ui_see_through_label">Modo Transparente</string>
 </resources>
 

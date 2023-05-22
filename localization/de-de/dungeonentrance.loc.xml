@@ -31,7 +31,7 @@
 	<string key="ui_dungeon_removed_from_queue">Du wurdest aus der Expeditionswarteschlange entfernt.</string>
 	<string key="ui_dungeon_entry_expired">Expeditionszugang abgelaufen</string>
 	<string key="ui_dungeon_closed">Expedition geschlossen</string>
-	<string key="ui_dungeon_required_item">{quantity} {item} (werden beim Beitritt verbraucht)</string>
+	<string key="ui_dungeon_required_item">{quantity} {item} (beim Beitritt verbraucht)</string>
 	<string key="ui_dungeon_required_item_started">{item}</string>
 	<string key="ui_dungeon_required_item_tooltip">{quantity} {item} erforderlich</string>
 	<string key="ui_dungeon_respawn_point_unlocked">{areaName} – Respawnpunkt erstellt.</string>
@@ -47,6 +47,7 @@
 	<string key="dungeon_success">Mission abgeschlossen</string>
 	<string key="dungeon_fail">Mission fehlgeschlagen</string>
 	<string key="dungeon_completed">Expedition abgeschlossen</string>
+	<string key="ui_dungeon_view_group" rel_version="Feature_Group_Finder"/>
 	<string key="ui_dungeon_opened_pvpwarning_title">Zum Beitritt PvP abbrechen</string>
 	<string key="ui_dungeon_enter_pvpwarning_info">Durch den Beitritt zu einer Expedition &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;werden sämtliche PvP-Missionen abgebrochen&lt;/font&gt;. Fortfahren?</string>
 	<string key="ui_dungeon_full_header">Expedition derzeit voll. Tritt der Warteschlange bei, um die Expedition zu betreten.</string>
@@ -56,9 +57,9 @@
 	<string key="ui_dungeon_expiring">Expedition wird verlassen in</string>
 	<string key="ui_dungeon_cooldown">Kann in &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{timeRemaining}&lt;/font&gt; geöffnet werden.</string>
 	<string key="ui_dungeon_cooldown_flyout">Du kannst diese Expedition in {timeRemaining} öffnen.</string>
-	<string key="ui_dungeon_mutation_flyout_tooltip" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Wöchentliche Mutation&lt;/font&gt;\nElementarmutationen, Upgrades und Flüche für die Mutierten Expeditionen werden jede Woche zufällig bestimmt.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Mutation&lt;/font&gt;\nKämpf dich durch Elementarmutationen\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Upgrades&lt;/font&gt;\nElite-Upgrades für Gegner\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Flüche&lt;/font&gt;\nEffekte auf die gesamte Expedition</string>
+	<string key="ui_dungeon_mutation_flyout_tooltip" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Wöchentliche Mutation&lt;/font&gt;\nElementarmutationen, Aufwertungen und Flüche für die Mutierten Expeditionen werden jede Woche zufällig bestimmt.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Mutation&lt;/font&gt;\nKämpf dich durch Elementarmutationen\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Aufwertungen&lt;/font&gt;\nElite-Aufwertungen für Gegner\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Flüche&lt;/font&gt;\nEffekte auf die gesamte Expedition</string>
 	<string key="ui_dungeon_mutation_elemental" rel_version="Feature_Dungeon_Mutators">Mutation</string>
-	<string key="ui_dungeon_mutation_promotion" rel_version="Feature_Dungeon_Mutators">Upgrade</string>
+	<string key="ui_dungeon_mutation_promotion" rel_version="Feature_Dungeon_Mutators">Aufwertung</string>
 	<string key="ui_dungeon_mutation_curse" rel_version="Feature_Dungeon_Mutators">Fluch</string>
 	<string key="ui_dungeon_mutation_elemental_description" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ff9393" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Gegner&lt;/font&gt; können die folgenden &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Effekte&lt;/font&gt; haben:</string>
 	<string key="ui_dungeon_mutation_promotion_description" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ff9393" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Gegner&lt;/font&gt; können die folgenden &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Boni&lt;/font&gt; haben:</string>
@@ -97,26 +98,12 @@
 	<string key="ui_dungeon_mutator_difficulty_points" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{val}&lt;/font&gt; Pkt.</string>
 	<string key="SavageTitle" rel_version="Feature_Dungeon_Mutators">[Wild]</string>
 	<string key="SavageDescription" rel_version="Feature_Dungeon_Mutators">Beschreibung zu "Wild"</string>
-	<string key="BarbaricTitle" rel_version="Feature_Dungeon_Mutators">[Barbarisch]</string>
-	<string key="BarbaricDescription" rel_version="Feature_Dungeon_Mutators">Beschreibung zu "Barbarisch"</string>
-	<string key="OppressiveTitle" rel_version="Feature_Dungeon_Mutators">[Brutal]</string>
-	<string key="OppressiveDescription" rel_version="Feature_Dungeon_Mutators">Beschreibung zu "Brutal"</string>
 	<string key="IndomitableTitle" rel_version="Feature_Dungeon_Mutators">[Unbezwingbar]</string>
 	<string key="IndomitableDescription" rel_version="Feature_Dungeon_Mutators">Beschreibung zu "Unbezwingbar"</string>
 	<string key="FirTitle" rel_version="Feature_Dungeon_Mutators">[Höllenfeuer]</string>
 	<string key="FirDescription" rel_version="Feature_Dungeon_Mutators">Beschreibung zu "Höllenfeuer"</string>
-	<string key="IceTitle" rel_version="Feature_Dungeon_Mutators">[Eisgebunden]</string>
-	<string key="IceDescription" rel_version="Feature_Dungeon_Mutators">Beschreibung zu "Eisgebunden"</string>
-	<string key="NatTitle" rel_version="Feature_Dungeon_Mutators">[Überwuchert]</string>
-	<string key="NatDescription" rel_version="Feature_Dungeon_Mutators">Beschreibung zu "Überwuchert"</string>
 	<string key="VoiTitle" rel_version="Feature_Dungeon_Mutators">[Ewig]</string>
 	<string key="VoiDescription" rel_version="Feature_Dungeon_Mutators">Beschreibung zu "Ewig"</string>
-	<string key="LigTitle" rel_version="Feature_Dungeon_Mutators">[Sturm]</string>
-	<string key="LigDescription" rel_version="Feature_Dungeon_Mutators">Beschreibung zu "Sturm"</string>
-	<string key="FrenziedTitle" rel_version="Feature_Dungeon_Mutators">[Rasend]</string>
-	<string key="FrenziedDescription" rel_version="Feature_Dungeon_Mutators">Beschreibung zu "Rasend"</string>
-	<string key="FiendishTitle" rel_version="Feature_Dungeon_Mutators">[Teuflisch]</string>
-	<string key="FiendishDescription" rel_version="Feature_Dungeon_Mutators">Beschreibung zu "Teuflisch"</string>
 	<string key="DesiccatedTitle" rel_version="Feature_Dungeon_Mutators">[Vertrocknet]</string>
 	<string key="DesiccatedDescription" rel_version="Feature_Dungeon_Mutators">Beschreibung zu "Vertrocknet"</string>
 	<string key="CensoredTitle" rel_version="Feature_Dungeon_Mutators">[Zensiert]</string>
@@ -126,7 +113,7 @@
 	<string key="ui_dungeon_mutator_difficulty_plain" rel_version="Feature_Dungeon_Mutators">Schwierigkeit&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_appended_difficulty" rel_version="Feature_Dungeon_Mutators">Schwierigkeit: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{difficulty}&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_appended_difficulty_bold" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Schwierigkeit: {difficulty}&lt;/font&gt;</string>
-	<string key="ui_dungeon_next_unlock_requirement" rel_version="Feature_Dungeon_Mutators">Um die &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;nächste Schwierigkeit&lt;/font&gt; freizuschalten, musst du diese Expedition mit dem Rang &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Silber&lt;/font&gt; abschließen.</string>
+	<string key="ui_dungeon_next_unlock_requirement" rel_version="Feature_Dungeon_Mutators">Um die &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;nächste Schwierigkeit&lt;/font&gt; freizuschalten, musst du diese Expedition mit dem &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Rang {rank}&lt;/font&gt; abschließen.</string>
 	<string key="ui_dungeon_mutator_unlock_requirement" rel_version="Feature_Dungeon_Mutators">Um die &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;nächste Schwierigkeit&lt;/font&gt; freizuschalten, musst du diese Expedition abschließen.</string>
 	<string key="ui_dungeon_mutator_active" rel_version="Feature_Dungeon_Mutators">&lt;font color="#00ffa8"&gt;Aktiv &lt;img src="LyShineUI/Images/icons/misc/icon_question_orange" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; &lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_inactive" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ff9393"&gt;Inaktiv &lt;img src="LyShineUI/Images/icons/misc/icon_question_orange" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; &lt;/font&gt;</string>
@@ -151,6 +138,9 @@
 	<string key="Mut_Fir_AOE_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Gegner wirken auf angreifende Spieler eine Verbrennungszone, die über Zeit Feuerschaden verursacht.</string>
 	<string key="Mut_Fir_AOE_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Gegner wirken auf angreifende Spieler eine Verbrennungszone, die über Zeit Feuerschaden verursacht.</string>
 	<string key="Mut_Fir_Death_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Sterben Gegner, explodieren sie und verursachen in einem kleinen Bereich Feuerschaden.</string>
+	<string key="Mut_Ice_CloseZone_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3"/>
+	<string key="Mut_Ice_CloseZone_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3"/>
+	<string key="Mut_Ice_DeathFreeze_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3"/>
 	<string key="Mut_Voi_Damage_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Ein Teil des von Gegnern verursachten Gesamtschadens wird in Unheilsschaden umgewandelt.</string>
 	<string key="Mut_Voi_Resist_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Gegner erhalten Unheilsabsorption.</string>
 	<string key="Mut_Voi_Resist_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Gegner erhalten Unheilsabsorption.</string>
@@ -173,6 +163,6 @@
 	<string key="ui_dungeon_orb_explanation" rel_version="Feature_Dungeon_Mutators">Eine einmalige Belohnung. Mutierte Expeditionsstimmkugeln sind auch im Fraktionsladen erhältlich.</string>
 	<string key="ui_dungeon_gearscore_recommendation_tooltip" rel_version="Feature_Dungeon_Mutators">
 	&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Empfohlener Rüstwert&lt;/font&gt;\n\nDie Differenz zwischen deinem durchschnittlichen und dem empfohlenen Rüstwert wirkt sich auf die Kampfberechnung aus.\n\nEin Rüstwert, der &lt;font color="#ff9393"&gt;unter&lt;/font&gt; dem empfohlenen liegt, bewirkt, dass du &lt;font color="#ffffff"&gt;weniger Schaden verursachst&lt;/font&gt; und Gegner auf der Expedition dir &lt;font color="#ffffff"&gt;höheren Schaden zufügen&lt;/font&gt;.</string>
-	<string key="ui_dungeon_gearscore_underlevel_warning" rel_version="Feature_Dungeon_Mutators">&lt;font color="#f25d5d" face="lyshineui/fonts/Nimbus_Bold.font"&gt;ACHTUNG:&lt;/font&gt; Dein durchschnittlicher Rüstwert ist zu niedrig, um bei dieser Expedition gut abzuschneiden.</string>
+	<string key="ui_dungeon_gearscore_underlevel_warning" rel_version="Feature_Dungeon_Mutators">&lt;font color={color} face="lyshineui/fonts/Nimbus_Bold.font"&gt;ACHTUNG:&lt;/font&gt; Dein durchschnittlicher Rüstwert ist zu niedrig, um bei dieser Expedition gut abzuschneiden.</string>
 </resources>
 

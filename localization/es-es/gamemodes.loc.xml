@@ -89,8 +89,8 @@
 	<string key="ui_outpost_rush_signup_goal3">Utiliza los recursos especiales repartidos por la isla para atacar y defender.</string>
 	<string key="ui_outpost_rush_signup_points_number">1000</string>
 	<string key="ui_outpost_rush_signup_points_text">PUNTOS</string>
-	<string key="ui_outpost_rush_signup_joinsolo">Unirse en solitario</string>
-	<string key="ui_outpost_rush_signup_joingroup">Unirse en grupo</string>
+	<string key="ui_outpost_rush_signup_joinsolo">Jugar</string>
+	<string key="ui_outpost_rush_signup_joingroup">Jugar con tu grupo</string>
 	<string key="ui_outpost_rush_signup_joinmid">Quiero unirme a los enfrentamientos en curso &lt;font color="#ffe940"&gt;(Menor tiempo de espera)&lt;/font&gt;</string>
 	<string key="ui_outpost_rush_signup_playercount">{playerCount} jugadores</string>
 	<string key="ui_outpost_rush_signup_failsolo">Estás en un grupo ahora mismo, por lo que no puedes unirte en solitario.</string>
@@ -100,6 +100,8 @@
 	<string key="ui_outpost_rush_signup_failwar">No puedes registrarte porque ya lo has hecho en una guerra que empieza en una hora.</string>
 	<string key="ui_outpost_rush_signup_failqueue">No puedes registrarte porque lo has hecho en: {matchname}</string>
 	<string key="ui_outpost_rush_signup_faildungeon">No puedes registrarte porque estás en cola para una expedición.</string>
+	<string key="ui_outpost_rush_signup_failevent">No puedes inscribirte porque estás en un evento.</string>
+	<string key="ui_outpost_rush_signup_failgeneric">No puedes inscribirte en este momento.</string>
 	<string key="ui_outpost_rush_signup_failgrouptitle">No puedes unirte al Asalto a puesto remoto.</string>
 	<string key="ui_outpost_rush_signup_failgrouplevel">Todos los miembros del grupo deben ser de nivel {levelRequirement} como mínimo.</string>
 	<string key="ui_outpost_rush_signup_failgroupwar">Uno o más miembros del grupo se han registrado en una guerra que empieza en una hora.</string>
@@ -221,5 +223,24 @@
 	<string key="ui_durability_loss_war">Estás en una guerra (o invasión). Aunque hayas muerto, tu equipo no ha sufrido daños.</string>
 	<string key="ui_item_durability_loss">Todo el equipo de tu inventario ha sufrido daños debido a tu muerte.</string>
 	<string key="ui_item_durability_loss_pvp">Te ha matado otro jugador. Tu equipo ha sufrido un daño reducido.</string>
+	<string key="ui_pvp_arena_leave">Salir de la arena JcJ</string>
+	<string key="ui_cannot_travel_pvp_arena">No puedes usar el viaje rápido mientras estás en la arena JcJ.</string>
+	<string key="ui_pvp_arena_leave_desc">¿Seguro que quieres salir de la arena JcJ?</string>
+	<string key="ui_pvp_arena_leave_desc_time">¿Seguro que quieres salir de la arena JcJ?\nNo podrás volver a hacer cola para la arena JcJ durante &lt;font color="#ff2e2e"&gt;[{time}]&lt;/font&gt;.</string>
+	<string key="ui_pvp_arena_leave_title">¿Salir de la arena JcJ?</string>
+	<string key="ui_in_spectators_box">En el palco de espectadores</string>
+	<string key="ui_in_spectators_box_description">Armas y habilidades desactivadas</string>
+	<string key="ui_round_number">Ronda {number}</string>
+	<string key="ui_match_point">Punto de partido</string>
+	<string key="ui_final_round">Última ronda</string>
+	<string key="ui_begins_in">Inicio dentro de:</string>
+	<string key="ui_arena_gas_releases_in" comment="gas was replaced with ring of fire in implementation">Cierre del anillo de fuego dentro de:</string>
+	<string key="ui_arena_gas_released">El anillo de fuego se está cerrando</string>
+	<string key="ui_fight">¡A luchar!</string>
+	<string key="ui_round_won">Ronda ganada</string>
+	<string key="ui_round_lost">Ronda perdida</string>
+	<string key="ui_switching_sides">Cambiando de bando</string>
+	<string key="ui_rounds_won">Rondas ganadas</string>
+	<string key="ui_see_through_label">Modo transparente</string>
 </resources>
 

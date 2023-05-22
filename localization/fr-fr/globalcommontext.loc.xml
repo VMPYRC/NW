@@ -115,10 +115,9 @@
 	<string key="ui_affliction_blight">résistance au dépérissement</string>
 	<string key="ui_affliction_blight_tooltip">Si votre résistance au dépérissement est épuisée, vous serez vicié et infligerez {[Type_StatusEffectData.Blight.DMGStandard * 100]} % de dégâts en moins, guérirez {[Type_StatusEffectData.Blight.HealMod * 100]} % moins et perdrez {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]} % de votre santé de base toutes les {[Type_StatusEffectData.Blight.TickRate]} secondes pendant {[Afflictions.AfflictionBlight.AfflictedDrainTime]} secondes.</string>
 	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">résistance combustible</string>
-	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">décompte combustible.</string>
+	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Lorsque le décompte prend fin, le joueur dont la santé est la plus faible est affecté par Combustible.</string>
 	<string key="ui_affliction_mutcurse4" rel_version="Feature_Dungeon_Mutators">résistance vengeresse</string>
 	<string key="ui_affliction_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Une fois que vous n'avez plus de résistance, une zone de silence est lancée sur vous. La zone finira par exploser en infligeant des dégâts aux joueurs. La résistance est partagée entre tous les membres de votre groupe.</string>
-	<string key="ui_affliction_mutcurse2" rel_version="Feature_Dungeon_Mutators_pt2">résistance épuisée</string>
 	<string key="ui_affliction_mutcurse2_tooltip" rel_version="Feature_Dungeon_Mutators">Une fois que vous n'avez plus de résistance, une zone d'épuisement est lancée sur vous, ce qui ralentit vos mouvements et augmente tous les dégâts que vous subissez. L'utilisation de capacités augmente la résistance. La résistance est partagée entre tous les membres de votre groupe.</string>
 	<string key="ui_afflicted_bleeding">blessé</string>
 	<string key="ui_afflicted_bleeding_tooltip">Si vous êtes blessé, votre vitalité remonte bien plus lentement.</string>
@@ -194,7 +193,7 @@
 	<string key="ui_cancelin">Annulation disponible dans {time} s</string>
 	<string key="ui_canvas">Toile</string>
 	<string key="ui_azoth_currency">Azoth</string>
-	<string key="ui_azoth_desc">L'Azoth peut être utilisé pour voyager rapidement entre les sanctuaires et les colonies et pour fabriquer des objets plus puissants.\n\nL'Azoth est principalement acquis en accomplissant des quêtes et en fermant des foyers d'altération.</string>
+	<string key="ui_azoth_desc">L'Azoth peut être utilisé pour voyager rapidement entre les sanctuaires et les colonies et pour fabriquer des objets plus puissants.\n\nL'Azoth est principalement acquis en accomplissant des quêtes et en fermant des foyers d'altération.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Obtenu via :&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; foyers d'altération, quêtes&lt;/font&gt;</string>
 	<string key="ui_cards">Cartes</string>
 	<string key="ui_leave_arena_coming_soon">La fonctionnalité Quitter l'arène sera bientôt disponible.</string>
 	<string key="ui_equipfishingpole">[{value}] pour pêcher</string>
@@ -285,6 +284,8 @@
 	<string key="ui_hour_with_time_short">1h</string>
 	<string key="ui_minute_with_time">1 minute</string>
 	<string key="ui_minute_with_time_short">1m</string>
+	<string key="ui_lessthan_minute_with_time">&lt; 1 minute</string>
+	<string key="ui_lessthan_minute_with_time_short">&lt; 1 m</string>
 	<string key="ui_hours_with_time">{time} heures</string>
 	<string key="ui_hours_with_time_short">{time}h</string>
 	<string key="ui_minutes_with_time">{time} minutes</string>
@@ -293,6 +294,7 @@
 	<string key="ui_seconds_with_time_short">{time}s</string>
 	<string key="ui_lastplayed">Dernier jeu </string>
 	<string key="ui_minuteago">une minute</string>
+	<string key="ui_lessthan_minuteago">Il y a &lt; 1 minute</string>
 	<string key="ui_minutesago">{time} minutes</string>
 	<string key="ui_hourago">une heure</string>
 	<string key="ui_hoursago">{time} heures</string>
@@ -581,6 +583,7 @@
 	<string key="ui_respec_cooldown_error">Ne peut pas être réinit. lorsque les capacités se rechargent</string>
 	<string key="ui_respec_combat_error">Réinitialisation impossible en combat</string>
 	<string key="ui_equipment_cooldown_error">Impossible de changer d'équipement pendant le temps de recharge des capacités.</string>
+	<string key="ui_equipment_combat_locked_error" rel_version="Feature_InOutCombat">Impossible de changer d'équipement en combat</string>
 	<string key="ui_secondary_attack">Attaque secondaire</string>
 	<string key="ui_weaponcycleup">Parc. armes (H)</string>
 	<string key="ui_weaponcycledown">Parc. armes (B)</string>
@@ -659,7 +662,7 @@
 	<string key="ui_disable_respawn_near_territory">Réapparaître à l'auberge déclenchera le temps de recharge de l'auberge. Cette colonie étant la plus proche de votre position, vous devriez y réapparaître et ne recourir à l'auberge que lorsque vous serez à proximité d'une autre colonie.</string>
 	<string key="ui_disable_respawn_near_territory_home">Réapparaître à votre maison déclenchera le temps de recharge de votre maison. Cette colonie étant la plus proche de votre position, vous devriez y réapparaître et ne recourir à votre maison que lorsque vous serez à proximité d'une autre colonie.</string>
 	<string key="ui_camp_cooldown_tooltip">Des morts répétées alors que vous êtes en mode JcJ vous empêcheront de réapparaître aux points de réapparition du bivouac pendant un certain temps.\nRéapparaître hors du bivouac réinitialisera ce temps de recharge.</string>
-	<string key="ui_confirm_respawn_cooldown">Confirmer la réapparition ?</string>
+	<string key="ui_confirm_respawn_cooldown">Valider la réapparition ?</string>
 	<string key="ui_confirm_respawn_cooldown_desc">Le point de réapparition nécessitera un temps de recharge. Continuer ?</string>
 	<string key="ui_respawn_home_location">{territoryName} – Maison</string>
 	<string key="ui_respawn_home_location_unpaid">{territoryName} : Payez vos impôts fonciers pour pouvoir réapparaître dans votre maison.</string>
@@ -693,7 +696,7 @@
 	<string key="ui_save">Enregistrer</string>
 	<string key="ui_se">SE</string>
 	<string key="ui_binding_reserved_key_blocked">Impossible d'attribuer la touche {key}. Celle-ci est déjà utilisée pour l'action : {actionName}, et ne peut être réaffectée.</string>
-	<string key="ui_binding_reserved_key_title_single">Oublier l'action précédemment attribuée ?</string>
+	<string key="ui_binding_reserved_key_title_single">Oublier l'action attribuée ?</string>
 	<string key="ui_binding_reserved_key_message_single">Vous êtes sur le point de réaffecter la touche {key} à l'action : {newAction}. L'action qui lui était précédemment attribuée ({oldAction}) ne sera plus affectée à aucune touche. Continuer ?</string>
 	<string key="ui_binding_reserved_key_title_multiple">Remplacer les actions attribuées ?</string>
 	<string key="ui_binding_reserved_key_message_multiple">Vous êtes sur le point de réaffecter la touche {key} à l'action : {newAction}. Les actions précédemment attribuées suivantes ne seront plus affectées à aucune touche. Continuer ?\n{oldActions}</string>
@@ -824,7 +827,7 @@
 	<string key="ui_anti-cheat_desc">Afficher les conditions du logiciel anti-triche dans une fenêtre de navigateur.</string>
 	<string key="ui_legalprivacy">Veuillez consulter notre politique de confidentialité.</string>
 	<string key="ui_prealphatag">Version de test - CONFIDENTIEL</string>
-	<string key="ui_buildtag">Bêta</string>
+	<string key="ui_buildtag">RPT</string>
 	<string key="ui_chat_feed">Discussion</string>
 	<string key="ui_chat_feed_tooltip">Inclure ce canal dans le fil</string>
 	<string key="ui_chat_muted_tooltip">Ce canal n'apparaîtra pas dans le fil et les messages non lus ne seront pas inclus dans le total indiqué sur le bouton de discussion. Pour consulter ce canal, utiliser le sélecteur de canal situé à gauche.</string>
@@ -860,6 +863,7 @@
 	<string key="ui_world_select_change_selection">Modifier la sélection</string>
 	<string key="ui_world_select_select_world">Sélectionner monde</string>
 	<string key="ui_world_select_world">Monde</string>
+	<string key="ui_world_select_region">Région</string>
 	<string key="ui_world_select_world_set">Ensemble de mondes</string>
 	<string key="ui_world_select_queue_time">EST Temps d'attente</string>
 	<string key="ui_world_select_queue_size">Joueurs en attente</string>
@@ -885,6 +889,8 @@
 	<string key="ui_character_options">Options du personnage</string>
 	<string key="ui_character_merge_destination">Ce monde ({worldName}) sera fusionné avec {destinationWorldName} le {date}.</string>
 	<string key="ui_xp">EXP</string>
+	<string key="ui_player_xp">EXP de joueur</string>
+	<string key="ui_player_xp_desc">L'EXP de joueur permet de faire progresser le niveau de votre personnage.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Obtenue via :&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; achèvement de missions, artisanat, élimination d'ennemis, participation à des événements&lt;/font&gt;</string>
 	<string key="ui_xp_boost">Boost d'EXP</string>
 	<string key="ui_xp_event_title">BOOST D'EXP !</string>
 	<string key="ui_xp_event_desc">Un boost d'EXP spécial est actif dans ce monde !</string>
@@ -893,7 +899,9 @@
 	<string key="ui_xp_event_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;EXP (x {amount})&lt;/font&gt;</string>
 	<string key="ui_xp_event_tradeskill_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Compétence de métier (x {amount})&lt;/font&gt;</string>
 	<string key="ui_xp_event_weaponmastery_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Maîtrise des armes (x {amount})&lt;/font&gt;</string>
-	<string key="ui_xp_boost_reminder" comment="The leading space is intentional"> (x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
+	<string key="ui_xp_event_progression_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;{progressionName} (x {amount})&lt;/font&gt;</string>
+	<string key="ui_xp_boost_reminder" comment="The leading space is intentional"> (x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
+	<string key="ui_xp_multiplier_arrow" comment="The leading space is intentional"> x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="world_landing_title">Le MONDE optimal a été sélectionné pour vous.</string>
 	<string key="world_set">Ensemble de mondes</string>
 	<string key="world_set_title">Qu'est-ce qu'un ensemble de mondes ?</string>
@@ -902,6 +910,7 @@
 	<string key="world_set_characters_desc">Vous ne pouvez avoir qu'un personnage par ensemble de mondes. Vous devrez supprimer votre personnage si vous souhaitez jouer dans un autre monde du même ensemble, car les personnages ne peuvent être transférés ni déplacés vers d'autres mondes.</string>
 	<string key="world_set_recommended_world">Monde recommandé</string>
 	<string key="world_set_region">Région :</string>
+	<string key="world_set_current_region">Région actuelle :</string>
 	<string key="ui_mastery">Maîtrise</string>
 	<string key="ui_server_list_wait_time">Temps d'attente</string>
 	<string key="ui_glory_update_floating_tradeskill">{masteryName}</string>
@@ -913,6 +922,8 @@
 	<string key="ui_glory_to_level">&lt;font color="#ffffff"&gt;{xp} EXP&lt;/font&gt; avant le niveau {level}</string>
 	<string key="ui_glory_tooltip">Vous avez des points de capacités à utiliser. Ouvrez l'écran de progression et améliorez vos capacités avec [{keyName}].</string>
 	<string key="ui_coin">Pièce</string>
+	<string key="ui_coin">Pièce</string>
+	<string key="ui_coin_desc">Votre monnaie principale sert à acheter des objets au comptoir et à la boutique de faction.\nVous pouvez avoir jusqu'à &lt;font color="#ffffff"&gt;{amount}&lt;/font&gt; pièces.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Obtenue via :&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; achèvement de missions, élimination d'ennemis, participation à des événements&lt;/font&gt;</string>
 	<string key="ui_coin_max">Max de pièces</string>
 	<string key="ui_coin_icon">{coin} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_floating_coin_val">&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;{amount}</string>
@@ -923,6 +934,7 @@
 	<string key="ui_killfeed_standing_val"> +{amount}</string>
 	<string key="ui_killfeed_tradeskill_val"> +{amount}</string>
 	<string key="ui_navmenu_friends">AMIS</string>
+	<string key="ui_navmenu_modes">Modes</string>
 	<string key="ui_navmenu_guild">Compagnie</string>
 	<string key="ui_navmenu_map">Carte</string>
 	<string key="ui_navmenu_journal">Journal</string>
@@ -951,7 +963,7 @@
 	<string key="ui_navmenu_get_help">Obtenir de l'aide</string>
 	<string key="ui_navmenu_get_help_desc">La page d'aide de New World donne accès à la FAQ et à l'assistance technique.</string>
 	<string key="ui_quitpopup_title">VRAIMENT QUITTER</string>
-	<string key="ui_quitpopup_incombat_title">QUITTER MALGRÉ UN COMBAT RÉCENT</string>
+	<string key="ui_quitpopup_incombat_title">QUITTER LE COMBAT EN COURS</string>
 	<string key="ui_quitpopup_criminal_title">QUITTER EN TANT QUE CRIMINEL</string>
 	<string key="ui_quitpopup_murderer_title">QUITTER EN TANT QUE MEURTRIER</string>
 	<string key="ui_quitdesktoppopup_message">Voulez-vous vraiment retourner au bureau ?</string>
@@ -1044,9 +1056,9 @@
 	<string key="ui_intelligence_description">(caractéristique axée sur la magie)</string>
 	<string key="ui_focus_description">(caractéristique axée sur les soins prodigués)</string>
 	<string key="ui_constitution_tooltip">Attribut primaire pour l'état de santé général.</string>
-	<string key="ui_strength_tooltip">Attribut primaire pour le marteau d'armes, la hache double, l'épée et la hachette.\n\nAttribut secondaire pour la lance.</string>
+	<string key="ui_strength_tooltip">Attribut primaire pour le marteau d'armes, la hache double, l'épée, la hachette et le tromblon.\n\nAttribut secondaire pour la lance.</string>
 	<string key="ui_dexterity_tooltip">Attribut primaire pour l'arc, la rapière, la lance et le mousquet.\n\nAttribut secondaire pour l'épée et la hachette.</string>
-	<string key="ui_intelligence_tooltip">Attribut primaire pour le bâton de feu, les gantelets de glace et les gantelets du néant.\n\nAttribut secondaire pour la rapière et mousquet.</string>
+	<string key="ui_intelligence_tooltip">Attribut primaire pour le bâton de feu, les gantelets de glace et les gantelets du néant.\n\nAttribut secondaire pour la rapière, le mousquet et le tromblon.</string>
 	<string key="ui_focus_tooltip">Attribut primaire pour le bâton de vie.\n\nAttribut secondaire pour les gantelets du néant.</string>
 	<string key="ui_spirit_tooltip">FOI\n\nLes points de Foi améliorent :\n\n-- le Mana total\n-- la Défense contre les dégâts de Néant\n-- la Résistance aux Altérations\n\n-- la puissance des sorts des gantelets célestes\n</string>
 	<string key="ui_vitality_tooltip">PHYSIQUE\n\nLes points de Physique améliorent :\n\n-- la Défense contre les dégâts Physiques\n-- la Résistance aux Empoisonnements\n-- la limite de Poids d'équipement\n</string>
@@ -1161,6 +1173,7 @@
 	<string key="ui_deathsdoorcooldown">Prochaine réanimation</string>
 	<string key="ui_deathsdoorcooldown_description">Réanimation possible dans</string>
 	<string key="ui_currency">Pièce</string>
+	<string key="ui_currency_type">Monnaie</string>
 	<string key="ui_currency_value">{value} pièces</string>
 	<string key="ui_active_crimes">Crimes en cours : {crimeList}</string>
 	<string key="ui_crime_tooltip">Si vous êtes criminel, les autres joueurs peuvent vous attaquer sans commettre un crime, et ce même dans un sanctuaire. Si vous mourez, vous perdez votre équipement ainsi que le contenu de votre inventaire.\n\nCrimes commis : {crimeList}</string>
@@ -1601,6 +1614,7 @@
 	<string key="ui_transferwarning">Voulez-vous vraiment transférer tous les objets dans votre inventaire ?</string>
 	<string key="ui_transfertooltip">Vous pouvez transférer des objets vers et depuis tous les territoires contrôlés par votre faction.</string>
 	<string key="ui_transfertoandfromtooltip">Vous pouvez transférer des objets depuis et vers votre abri de rangement là où vous vous trouvez.</string>
+	<string key="ui_transfertoandfromrfitooltip">Vous pouvez transférer des objets vers et depuis les abris de rangement des colonies que vous avez déjà visitées.</string>
 	<string key="ui_transferfromtooltip">Vous pouvez transférer des objets de votre inventaire vers des abris de rangement dans d'autres territoires contrôlés par votre faction en échange de frais.</string>
 	<string key="ui_remotetransfersingletitle">Transférer un objet</string>
 	<string key="ui_remotetransfersinglebody">Voulez-vous vraiment transférer cet objet du territoire {territoryName} dans votre inventaire ?\nTransférer cet objet coûtera {amount} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;.</string>
@@ -1653,6 +1667,8 @@
 	<string key="ui_skin_available_count">{count} apparences disponibles</string>
 	<string key="ui_skin_change_skin">Changer d'apparence</string>
 	<string key="ui_added_to_inventory">Ajout à l'&lt;font color="#c0c0c0"&gt;inventaire&lt;/font&gt;</string>
+	<string key="ui_currency_added">Monnaie ajoutée</string>
+	<string key="ui_xp_added">EXP ajoutée</string>
 	<string key="ui_shareObjective">Partager avec le groupe</string>
 	<string key="ui_objective_type_full">Impossible d'entreprendre d'autres objectifs de ce type.</string>
 	<string key="ui_failed_to_accept_quest">Cette quête est actuellement désactivée.</string>
@@ -1679,7 +1695,7 @@
 	<string key="ui_enchantment">Enchantement</string>
 	<string key="ui_screen_unavailable">Indisponible ; veuillez réessayer plus tard.</string>
 	<string key="ui_connection_bad">Latence détectée</string>
-	<string key="ui_new">Nouveau</string>
+	<string key="ui_new">Nouv.</string>
 	<string key="ui_notification_region_too_busy">Trop de joueurs, région inaccessible</string>
 	<string key="ui_notification_region_unavailable">Région inaccessible, veuillez réessayer plus tard.</string>
 	<string key="ui_notification_restricted_area">En raison d'un événement, cette région est temporairement inaccessible.</string>
@@ -1744,7 +1760,7 @@
 	<string key="ui_exit_dungeon_will_close_desc">Vous allez vous téléporter à l'extérieur de l'expédition.\nSi tous les membres de votre groupe quittent l'expédition, elle sera fermée.\n</string>
 	<string key="ui_exit_dungeon_incombat">Vous ne pouvez pas quitter une expédition si vous avez été récemment en combat. \nVous pourrez partir dans &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt;.</string>
 	<string key="ui_enable_newDamageNumbers">Stats de dégâts flottantes</string>
-	<string key="ui_enable_newDamageNumbers_description">Si cette option est désactivées, les stats de dégâts seront fixées sur la jauge de santé de l'ennemi.</string>
+	<string key="ui_enable_newDamageNumbers_description">Si cette option est désactivée, les stats de dégâts seront fixées sur la jauge de santé de l'ennemi.</string>
 	<string key="ui_accept_duel_invites">Accepter les invitations aux escarmouches</string>
 	<string key="ui_accept_duel_invites_description">Les autres joueurs pourront vous défier à une escarmouche.</string>
 	<string key="ui_auto_traverse">Traversée automatique</string>
@@ -1831,6 +1847,14 @@
 	<string key="ui_view_my_storage">Consulter mon rangement</string>
 	<string key="ui_improve">Améliorer</string>
 	<string key="ui_xp_tooltip">&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;EXP DE BASE&lt;/font&gt;\n {totalXP} EXP totale\n {xpToLevel} avant niveau {nextLevel}{bonusXpString}</string>
+	<string key="ui_xp_tooltip_header">EXP de base</string>
+	<string key="ui_xp_tooltip_total_xp">EXP totale</string>
+	<string key="ui_xp_tooltip_remaining_xp">Avant le niveau {nextLevel}</string>
+	<string key="ui_xp_tooltip_bonus_header">Bonus d'EXP</string>
+	<string key="ui_xp_tooltip_rested_xp">Bonus d'EXP de repos</string>
+	<string key="ui_xp_tooltip_rested_remaining">(Bonus d'EXP restant : {restedXpRemaining})</string>
+	<string key="ui_xp_tooltip_xp_boost">Boost d'EXP</string>
+	<string key="ui_xp_tooltip_total_xp_bonus">Bonus d'EXP total</string>
 	<string key="ui_xp_bonuses_tooltip">\n\n&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;BONUS D'EXP&lt;/font&gt;{restedXpString}{boostXpString}\n &lt;font color={totalBonusXpColor}&gt;{totalXpBonus} EXP bonus totale&lt;/font&gt;</string>
 	<string key="ui_xp_rested_tooltip">\n &lt;font color={restedXpColor}&gt;{restedModifier} Bonus de repos\n {totalRestedXP} EXP de repos restante&lt;/font&gt;</string>
 	<string key="ui_xp_multiplier_tooltip">\n &lt;font color={boostXpColor}&gt;{boostModifier} Boost d'EXP&lt;/font&gt;</string>
@@ -1840,7 +1864,7 @@
 	<string key="ui_milestone_reached">Récompense de progression obtenue</string>
 	<string key="ui_purchase_ability">Acheter la capacité</string>
 	<string key="ui_purchase_upgrades">Acheter les améliorations</string>
-	<string key="ui_view_milestone_rewards">Récompenses de progression</string>
+	<string key="ui_view_milestone_rewards">Récomp. de progression</string>
 	<string key="ui_skill_increased">Capacité améliorée</string>
 	<string key="ui_purchase_attribute">Acheter la caractéristique</string>
 	<string key="ui_solo">Solo</string>
@@ -1875,7 +1899,7 @@
 	<string key="ui_groupsize_identifier">Taille de groupe recommandée : {groupSize}</string>
 	<string key="ui_level_identifier">Niveau recommandé : {level}</string>
 	<string key="ui_recommendedlevel">Niveau recommandé</string>
-	<string key="ui_view_milestones">Récompenses de progression</string>
+	<string key="ui_view_milestones">Récomp. de progression</string>
 	<string key="ui_all_milestones">Toutes les récompenses de progression</string>
 	<string key="ui_unlock_camping_tier_2">Bivouac de palier 2</string>
 	<string key="ui_unlock_camping_tier_3">Bivouac de palier 3</string>
@@ -1958,11 +1982,15 @@
 	<string key="ui_musket_mastery">Maîtrise du mousquet</string>
 	<string key="ui_musket_tree1">Fin tireur</string>
 	<string key="ui_musket_tree2">Trappeur</string>
+	<string key="ui_blunderbuss" rel_version="Weapon_Blunderbuss">Tromblon</string>
+	<string key="ui_blunderbuss_mastery" rel_version="Weapon_Blunderbuss">Maîtrise du tromblon</string>
+	<string key="ui_blunderbuss_tree1" rel_version="Weapon_Blunderbuss">Contrôle</string>
+	<string key="ui_blunderbuss_tree2" rel_version="Weapon_Blunderbuss">Chaos</string>
 	<string key="ui_firemagic">Magie de feu</string>
-	<string key="ui_firemagic_mastery">Maîtrise de la magie de feu</string>
+	<string key="ui_firemagic_mastery">Maîtrise du bâton de feu</string>
 	<string key="ui_firestaff">Bâton de feu</string>
 	<string key="ui_lifemagic">Magie de vie</string>
-	<string key="ui_lifemagic_mastery">Maîtrise de la magie de vie</string>
+	<string key="ui_lifemagic_mastery">Maîtrise du bâton de vie</string>
 	<string key="ui_lifestaff">Bâton de vie</string>
 	<string key="ui_lifestaff_tree1">Soins</string>
 	<string key="ui_lifestaff_tree2">Protecteur</string>
@@ -2049,9 +2077,9 @@
 	<string key="ui_mergefaq_question_3">Conserverai-je ma compagnie ?</string>
 	<string key="ui_mergefaq_question_4">Ma compagnie peut-elle encore déclarer la guerre à d'autres compagnies ?</string>
 	<string key="ui_mergefaq_answer_1">Le niveau, les points de caractéristiques et les points de maîtrise de votre personnage seront conservés, ainsi que votre réputation de territoire, votre maison, votre inventaire et vos rangements de colonie.</string>
-	<string key="ui_mergefaq_answer_2">Les territoires de ce Nouveau Monde seront revendiqués par les compagnies de ce monde. Si votre compagnie n'est pas de ce monde, vous perdrez tous vos territoires, toutes les améliorations, et votre compagnie recevra 50 000 pièces.</string>
+	<string key="ui_mergefaq_answer_2">Les territoires de ce Nouveau Monde seront revendiqués par les compagnies de ce monde. Si votre compagnie n'est pas de ce monde, vous perdrez tous vos territoires, toutes les améliorations, et votre compagnie recevra {coinAmount} pièces.</string>
 	<string key="ui_mergefaq_answer_3">Les joueurs ne seront jamais séparés à la suite d'une fusion de Mondes, et l'appartenance à une compagnie ainsi que la bourse seront conservées.</string>
-	<string key="ui_mergefaq_answer_4">Les joueurs seront avertis 72 heures avant une fusion. Les compagnies ne peuvent pas déclarer de guerre dans ce laps de temps. Les guerres en attente seront annulées et l'or dépensé pour les déclarer entièrement remboursé.</string>
+	<string key="ui_mergefaq_answer_4">Les joueurs seront avertis {bufferTime} avant une fusion de mondes. Les compagnies ne peuvent pas déclarer de guerre dans ce laps de temps. Les guerres en attente seront annulées et l'or dépensé pour les déclarer entièrement remboursé.</string>
 	<string key="ui_mergewarning_title">FUSION DES MONDES IMMINENTE</string>
 	<string key="ui_mergewarning_body">Vous avez un personnage ou plus dans des Mondes qui seront bientôt fusionnés :</string>
 	<string key="ui_mergewarning_learn">EN SAVOIR PLUS</string>
@@ -2174,13 +2202,13 @@
 	<string key="tooltip_salvage_remote">Vous ne pouvez pas recycler d'objets à distance.</string>
 	<string key="tooltip_salvage_cannot">Cet objet ne peut pas être recyclé.</string>
 	<string key="twitch_link_title">Associer votre compte Twitch à Amazon Games</string>
-	<string key="twitch_link_desc">Associez votre compte Twitch pour bénéficier de fonctionnalités exclusives. Vous pouvez les dissocier à tout moment.</string>
-	<string key="twitch_sub_army">Armée virtuelle</string>
-	<string key="twitch_sub_army_desc">Invitez facilement des abonnés et des followers à rejoindre des groupes et des compagnies sur les serveurs du jeu via l'interface sociale du jeu.</string>
+	<string key="twitch_link_desc">Associez votre compte Twitch pour bénéficier de fonctionnalités exclusives. Vous pouvez dissocier votre compte à tout moment.</string>
+	<string key="twitch_sub_army">Armée d'abonnés</string>
+	<string key="twitch_sub_army_desc">Rejoignez des streamers ou invitez des abonnés et/ou des followers à rejoindre des groupes et des compagnies sur les serveurs du jeu via l'interface sociale du jeu.</string>
 	<string key="twitch_drop_rewards">Récompenses Twitch Drop</string>
-	<string key="twitch_drop_rewards_desc">Les Twitch Drops permettent aux joueurs de remporter des récompenses en jeu en regardant des diffusions de New World sur Twitch pour lesquelles les Drops sont activés.</string>
+	<string key="twitch_drop_rewards_desc">Remportez des récompenses en jeu en regardant des diffusions de New World sur Twitch pour lesquelles les Drops sont activés.</string>
 	<string key="twitch_streamer_spotlight">Twitch Streamer Spotlight</string>
-	<string key="twitch_streamer_spotlight_desc">Si vous diffusez votre partie de New World, vous pourrez afficher un indicateur « EN DIRECT » ainsi que le nombre de vos spectateurs à côté du nom de votre personnage en jeu.</string>
+	<string key="twitch_streamer_spotlight_desc">Affichez un indicateur « EN DIRECT » ainsi que le nombre de vos spectateurs à côté du nom de votre personnage en jeu quand vous diffusez votre partie de New World.</string>
 	<string key="twitch_prime_gaming">Prime Gaming</string>
 	<string key="twitch_prime_gaming_desc">Associez votre compte à Prime Gaming pour obtenir du contenu en jeu exclusif tous les mois ainsi que d'autres récompenses spéciales pour New World.</string>
 	<string key="go_crow">Go Crow</string>
@@ -2237,6 +2265,7 @@
 	<string key="ui_itemtypedescription_warhammer">Marteau d'armes</string>
 	<string key="ui_itemtypedescription_bow">Arc</string>
 	<string key="ui_itemtypedescription_musket">Mousquet</string>
+	<string key="ui_itemtypedescription_blunderbuss" rel_version="Weapon_Blunderbuss">Tromblon</string>
 	<string key="ui_itemtypedescription_pistol">Pistolet</string>
 	<string key="ui_itemtypedescription_lifestaff">Bâton de vie</string>
 	<string key="ui_itemtypedescription_firestaff">Bâton de feu</string>
@@ -2273,6 +2302,7 @@
 	<string key="ui_itemtypedescription_Earringjewelry">Boucles d'oreille</string>
 	<string key="ui_itemtypedescription_resource">Ressource</string>
 	<string key="ui_itemtypedescription_tool">Outil</string>
+	<string key="ui_itemtypedescription_instrument">Instrument</string>
 	<string key="ui_itemtypedescription_dye">Teinture</string>
 	<string key="ui_itemtypedescription_bag">Sac</string>
 	<string key="ui_itemtypedescription_consumable">Consommable</string>
@@ -2327,5 +2357,15 @@
 	<string key="ui_expertise_tooltip_increase">L'expertise &lt;font color="#ffffff"&gt;maximum&lt;/font&gt; que vous pouvez obtenir des ennemis, des coffres, des moules en gypse et de la fabrication est de &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt;.</string>
 	<string key="ui_expertise_tooltip_maximum">Pour augmenter l'expertise au-delà de &lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;&lt;font color="#c59dff"&gt;600&lt;/font&gt;, améliorez un objet dans cet emplacement avec des &lt;font color="#ffffff"&gt;éclats sombres&lt;/font&gt;.</string>
 	<string key="ui_expertise_crafting_gain">Expertise de {category}</string>
+	<string key="ui_guides">Guides</string>
+	<string key="ui_fast_travel_guide_1_header">Fonctionnement</string>
+	<string key="ui_fast_travel_guide_1_body">Ouvrez la carte et sélectionnez un lieu où vous souhaitez vous rendre. Vous pouvez dépenser de l'Azoth pour effectuer un transfert rapide vers les colonies, les avant-postes et les sanctuaires spirituels que vous avez déjà visités.</string>
+	<string key="ui_fast_travel_guide_2_body">Sur la carte, les sanctuaires spirituels non visités apparaîtront ainsi : &lt;img src="lyshineui/images/objectives/journal/guidestab/fasttraveliconinactive" scale="3" yOffset="15"&gt;&lt;/img&gt;.\nQuant à ceux que vous avez déjà visités, ils apparaîtront ainsi : &lt;img src="lyshineui/images/objectives/journal/guidestab/fasttraveliconactive" scale="3" yOffset="15"&gt;&lt;/img&gt;.</string>
+	<string key="ui_fast_travel_guide_3_header">Coût selon le niveau d'encombrement</string>
+	<string key="ui_fast_travel_guide_3_body">La quantité d'Azoth requise pour effectuer un transfert rapide vers un lieu augmente en fonction de la charge de votre inventaire. Voyagez léger !</string>
+	<string key="ui_fishing_hotspot_depleted">Zone de pêche épuisée</string>
+	<string key="ui_fishing_hotspot_active">Zone de pêche active</string>
+	<string key="ui_fishing_hotspot_depleted_body">Une zone de pêche s'épuise après un certain nombre de poissons pêchés. Une zone de pêche est épuisée lorsqu'il n'y a plus de poissons qui en bondissent. Une zone de pêche épuisée redevient active au bout d'un certain temps.</string>
+	<string key="ui_fishing_hotspot_active_body">Une zone de pêche active est reconnaissable à ses poissons qui en bondissent. Quand celle-ci est active, lancez-y votre ligne. Vous verrez que ça mordra plus rapidement et vous pourrez pêcher des poissons plus rares. Lorsque vous lancez correctement votre ligne, une petite alerte vous indique que vous êtes bien dans la zone de pêche.</string>
 </resources>
 

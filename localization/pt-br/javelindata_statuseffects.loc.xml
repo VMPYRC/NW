@@ -71,6 +71,8 @@
 	<string key="feasting_DisplayName">Banqueteando</string>
 	<string key="ResetAI_DisplayName">Em Retirada</string>
 	<string key="VillagerFrenzy_DisplayName">Poção Energizada de Corrupção</string>
+	<string key="PvP_Arena_PreRound_DisplayName">Preparação</string>
+	<string key="PvP_Arena_PreRound_Description">Você está se preparando para a próxima luta. Está temporariamente silenciado e seus tempos de recarga foram redefinidos.</string>
 	<string key="MinorFoodMagicAbsorption_DisplayName">Pequena Absorção de Arcano</string>
 	<string key="MinorFoodMagicAbsorption_Tooltip">Aumenta a Absorção de Arcano em 2,0</string>
 	<string key="MinorFoodFireAbsorption_DisplayName">Pequena Absorção de Fogo</string>
@@ -441,10 +443,10 @@
 	<string key="Mut_Voi_Death_Empower_DisplayName" rel_version="Feature_Dungeon_Mutators">Poder Gradual</string>
 	<string key="Mut_Fir_Curse1_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Fogo Instável</string>
 	<string key="Mut_Fir_Curse1_Minor_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Chamuscar Instável</string>
-	<string key="Mut_Fir_Curse1_Minor_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Sofrendo {[Type_StatusEffectData.Mut_Fir_Curse1_Minor_Damage.HealthModifierPercent * -100]}% de dano Flamejante a cada {[Type_StatusEffectData.Mut_Fir_Curse1_Minore_Damage.TickRate]} s durante {[Type_StatusEffectData.Mut_Fir_Curse1_Minor_Damage.BaseDuration]} s.</string>
+	<string key="Mut_Fir_Curse1_Minor_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Sofre {[Type_StatusEffectData.Mut_Fir_Curse1_Minor_Damage.HealthModifierPercent * -100]}% de dano Flamejante a cada {[Type_StatusEffectData.Mut_Fir_Curse1_Minore_Damage.TickRate]} s.</string>
 	<string key="Mut_Voi_Curse1_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Imaterial Instável</string>
 	<string key="Mut_Voi_Curse1_Minor_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Fundente Instável</string>
-	<string key="Mut_Voi_Curse1_Minor_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Sofrendo {[Type_StatusEffectData.Mut_Voi_Curse1_Minor_Damage.HealthModifierPercent * -100]}% de dano Imaterial a cada {[Type_StatusEffectData.Mut_Voi_Curse1_Minor_Damage.TickRate]} s durante {[Type_StatusEffectData.Mut_Voi_Curse1_Minor_Damage.BaseDuration]} s.</string>
+	<string key="Mut_Voi_Curse1_Minor_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Sofre {[Type_StatusEffectData.Mut_Voi_Curse1_Minor_Damage.HealthModifierPercent * -100]}% de dano Imaterial a cada {[Type_StatusEffectData.Mut_Voi_Curse1_Minor_Damage.TickRate]} s.</string>
 	<string key="Mut_Fir_Curse3_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Fogo Combustível</string>
 	<string key="Mut_Voi_Curse3_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Imaterial Combustível</string>
 	<string key="Mut_Fir_Curse3_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Fogo Frágil</string>
@@ -471,7 +473,7 @@
 	<string key="GhostBurn_DisplayName">Queimadura</string>
 	<string key="GhostBurn_Description">Causa {[Type_StatusEffectData.CharredGhost_Burn.HealthModifierDamageBased * -100]}% de Dano Flamejante a cada {[Type_StatusEffectData.CharredGhost_Burn.TickRate]} s durante {[Type_StatusEffectData.CharredGhost_Burn.BaseDuration]} s. Acumula {[Type_StatusEffectData.CharredGhost_Burn.StackMax]} vezes.</string>
 	<string key="GhostShock_DisplayName">Choque</string>
-	<string key="GhostShock_Description">Causa {[Type_StatusEffectData.ShipwreckedGhost_Shock.Stamina]} de dano de vigor a cada {[Type_StatusEffectData.ShipwreckedGhost_Shock.TickRate]} s e reduz a regeneração de vigor em {[Type_StatusEffectData.ShipwreckedGhost_Shock.StaminaRate * -100]}% por {[Type_StatusEffectData.ShipwreckedGhost_Shock.BaseDuration]} s. Acumula {[Type_StatusEffectData.ShipwreckedGhost_Shock.StackMax]} vezes.</string>
+	<string key="GhostShock_Description">Drena {[Type_StatusEffectData.ShipwreckedGhost_Shock.Stamina * -1]} de vigor a cada {[Type_StatusEffectData.ShipwreckedGhost_Shock.TickRate]} s e reduz a regeneração de vigor em {[Type_StatusEffectData.ShipwreckedGhost_Shock.StaminaRate * -100]}% por {[Type_StatusEffectData.ShipwreckedGhost_Shock.BaseDuration]} s. Acumula {[Type_StatusEffectData.ShipwreckedGhost_Shock.StackMax]} vezes.</string>
 	<string key="Waterlogged_DisplayName">Ensopado</string>
 	<string key="Waterlogged_Description">Movimento desacelerado em {[Type_StatusEffectData.Waterlogged.MoveSpeedMod * -100]}%.</string>
 	<string key="BruteStun_DisplayName">Impactado</string>
@@ -518,6 +520,7 @@
 	<string key="AI_Slime_Slow_DisplayName">Grudento</string>
 	<string key="AI_Slime_Slow_Tooltip">Velocidade de movimento reduzida em {[Type_StatusEffectData.AI_Slime_Slow.MoveSpeedMod * -100]}%.</string>
 	<string key="AI_SpiderBite_Tooltip">Envenenado por {[Type_StatusEffectData.AI_SpiderBite.HealthModifierDamageBased * -100]}% de dano Natural base a cada {[Type_StatusEffectData.AI_SpiderBite.TickRate]} s com duração de {[Type_StatusEffectData.AI_SpiderBite.BaseDuration]} s.</string>
+	<string key="AI_SpiderVenom_Tooltip">Envenenado por {[Type_StatusEffectData.AI_SpiderVenom.HealthModifierDamageBased * -100]}% de dano Natural base a cada {[Type_StatusEffectData.AI_SpiderVenom.TickRate]} s com duração de {[Type_StatusEffectData.AI_SpiderVenom.BaseDuration]} s.</string>
 	<string key="AI_PoisonOnHit_Buff_DisplayName">Peçonhento</string>
 	<string key="AI_PoisonOnHit_Damage_DisplayName">Envenenado</string>
 	<string key="AI_PoisonOnHit_Damage_Tooltip">Envenenado por {[Type_StatusEffectData.AI_PoisonOnHit_Damage.HealthModifierDamageBased * -100]}% de dano Natural base a cada {[Type_StatusEffectData.AI_PoisonOnHit_Damage.TickRate]} s com duração de {[Type_StatusEffectData.AI_PoisonOnHit_Damage.BaseDuration]} s.</string>
@@ -577,6 +580,8 @@
 	<string key="AI_Naga_AncientGuardian_Vuln_Tooltip">Você sofre {[Type_StatusEffectData.AI_Naga_AncientGuardian_Vuln.ABSArcane * -100]}% de Dano Arcano aumentado por acúmulo durante {[Type_StatusEffectData.AI_Naga_AncientGuardian_Vuln.BaseDuration]} s.</string>
 	<string key="AI_Naga_AncientGuardian_Bomb_StatusEffect_DisplayName">Explosão Arcana</string>
 	<string key="AI_Naga_AncientGuardian_Bomb_StatusEffect_Tooltip">A Naga te energiza com uma quantia instável de Arcano. Após {[Type_StatusEffectData.AI_Naga_AncientGuardian_Bomb_StatusEffect.BaseDuration]} s, você descarrega o Arcano, fazendo surgir um orbe explosivo.</string>
+	<string key="AI_Naga_Corrupted_CorruptionCore_DisplayName" rel_version="Expedition_ShatterMtn_00">Alma Corrompida</string>
+	<string key="AI_Naga_Corrupted_CorruptionCore_Tooltip" rel_version="Expedition_ShatterMtn_00">Sua alma está enfraquecida, fazendo com que perca {[Type_StatusEffectData.AI_Naga_Corrupted_CorruptionCore.HealthModifierPercent * -100]}% de sua saúde por segundo por cada acúmulo. Este efeito não pode ser removido.</string>
 	<string key="AI_Naga_AncientGuardian_Might_StatusEffect_DisplayName">Força Anciã</string>
 	<string key="AI_Naga_AncientGuardian_Arcana_StatusEffect_DisplayName">Arcana Anciã</string>
 	<string key="AI_CorruptedPriest_DoomRend_DisplayName">Vulnerabilidade de Corrupção</string>
@@ -1349,7 +1354,45 @@
 	<string key="Status_Weapon_DiseaseOnHeavy_Description" rel_version="MorePerksV1">A eficiência de cura é reduzida em {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.HealMod * -100]}%.</string>
 	<string key="Status_Weapon_ChargedHeavyRend_Description" rel_version="MorePerksV1">Você sofre {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.ABSStandard * -100]}% de dano aumentado de todas as origens.</string>
 	<string key="Status_Timer_ChargedHeavyRend_Description" rel_version="MorePerksV1">Quando terminar, você poderá acionar a vantagem Harmonização da Geada novamente.</string>
+	<string key="Blunderbuss_ChargeCooldown_Name" rel_version="Weapon_Blunderbuss">Avançar</string>
+	<string key="Blunderbuss_ChargeCooldown_Desc" rel_version="Weapon_Blunderbuss">Sua próxima habilidade do Caos recarrega mais rápido.</string>
+	<string key="Blunderbuss_ChargeCooldownOnCooldown_Desc" rel_version="Weapon_Blunderbuss">Quando expirar, você pode usar o passivo de Avançar novamente.</string>
+	<string key="Blunderbuss_AbilityRamp_Name" rel_version="Weapon_Blunderbuss">Mandando Ver</string>
+	<string key="Blunderbuss_AbilityRamp_Desc" rel_version="Weapon_Blunderbuss">Todo dano recebido é reduzido em 1% por acúmulo (máximo de 10).</string>
+	<string key="Blunderbuss_Nine_Name" rel_version="Weapon_Blunderbuss">Descarregar</string>
+	<string key="Blunderbuss_Nine_Desc" rel_version="Weapon_Blunderbuss">Seu próximo ataque básico dispara 9 tiros.</string>
+	<string key="Blunderbuss_Ramp_Name" rel_version="Weapon_Blunderbuss">Acelerando</string>
+	<string key="Blunderbuss_Ramp_Desc" rel_version="Weapon_Blunderbuss">Aumenta o dano em 4%.</string>
+	<string key="Blunderbuss_LastChance_Name" rel_version="Weapon_Blunderbuss">Última Chance</string>
 	<string key="Blunderbuss_LastChance_Desc">Você sofre {[Type_StatusEffectData.Blunderbuss_LastChance.ABSStandard * 100]}% a menos de dano.</string>
+	<string key="Blunderbuss_LastChanceCooldown_Desc" rel_version="Weapon_Blunderbuss">Quando expirar, você pode acionar o passivo de Última Chance novamente.</string>
+	<string key="Blunderbuss_BarbedNet_Name" rel_version="Weapon_Blunderbuss">Rede Farpada</string>
+	<string key="Blunderbuss_BarbedNet_Desc" rel_version="Weapon_Blunderbuss">Você sofre dano contínuo.</string>
+	<string key="Blunderbuss_Run_And_Gun_Name" rel_version="Weapon_Blunderbuss">Atirar sem Parar</string>
+	<string key="Blunderbuss_Run_And_Gun_Desc" rel_version="Weapon_Blunderbuss">Você se move mais rápido após recarregar.</string>
+	<string key="Status_Blunderbuss_FortifyCloseRange_Desc" rel_version="Weapon_Blunderbuss">O dano recebido é reduzido em {[Type_StatusEffectData.Blunderbuss_FortifyCloseRange.ABSStandard * 100]}%.</string>
+	<string key="Status_ShirkingFire" rel_version="MorePerksV2">Chamas Esquivas</string>
+	<string key="Status_ShirkingFire_Description" rel_version="MorePerksV2">Seu próximo ataque causará Dano Flamejante adicional.</string>
+	<string key="Status_ShirkingNature" rel_version="MorePerksV2">Natureza Esquiva</string>
+	<string key="Status_ShirkingNature_Description" rel_version="MorePerksV2">Seu próximo ataque causará Dano Natural adicional.</string>
+	<string key="Status_ShirkingIce" rel_version="MorePerksV2">Geada Esquiva</string>
+	<string key="Status_ShirkingIce_Description" rel_version="MorePerksV2">Seu próximo ataque causará Dano de Gelo adicional.</string>
+	<string key="Status_ShirkingLightning" rel_version="MorePerksV2">Trovão Esquivo</string>
+	<string key="Status_ShirkingLightning_Description" rel_version="MorePerksV2">Seu próximo ataque causará Dano Elétrico adicional.</string>
+	<string key="Status_ShirkingVoid" rel_version="MorePerksV2">Abismo Esquivo</string>
+	<string key="Status_ShirkingVoid_Description" rel_version="MorePerksV2">Seu próximo ataque causará Dano Imaterial adicional.</string>
+	<string key="Status_ShirkingArcane" rel_version="MorePerksV2">Arcano Esquivo</string>
+	<string key="Status_ShirkingArcane_Description" rel_version="MorePerksV2">Seu próximo ataque causará Dano Arcano adicional.</string>
+	<string key="Status_Timer_DodgeSuccess_Cleanse_Description" rel_version="MorePerksV2">Quando terminar, você poderá acionar a vantagem Purificação Esquiva novamente.</string>
+	<string key="Status_ShirkingFortification" rel_version="MorePerksV2">Reforço</string>
+	<string key="Status_DodgeSuccess_Fortify_Description" rel_version="MorePerksV2">Graças a uma esquiva certeira, o dano sofrido é reduzido enquanto este efeito estiver ativo.</string>
+	<string key="Status_CriticalRetribution" rel_version="MorePerksV2">Retribuição Crítica</string>
+	<string key="Status_CriticalRetribution_Description" rel_version="MorePerksV2">Sua chance de acerto crítico é aumentada enquanto este efeito estiver ativo.</string>
+	<string key="Status_CriticalRetribution_Timer_Description" rel_version="MorePerksV2">Quando terminar, você poderá acionar a vantagem Retribuição Crítica novamente.</string>
+	<string key="Status_StaminaRegen" rel_version="MorePerksV2">Você tem uma taxa de regeneração de vigor aumentada.</string>
+	<string key="Status_DodgeStamina_Timer_Description" rel_version="MorePerksV2">Quando terminar, você poderá acionar a vantagem Energia Esquiva novamente.</string>
+	<string key="Status_GatherProc_Heal" rel_version="MorePerksV2">Cura de Coleta</string>
+	<string key="Status_GatherProc_Heal_Description" rel_version="MorePerksV2">Regeneração de Saúde com a vantagem Recuperação de Coleta.</string>
 	<string key="Status_MothersLove">Amor de Mãe</string>
 	<string key="Status_MothersLove_Description">Você sente uma presença norteadora e maternal sobre você, aumentando a Sorte em {[Type_StatusEffectData.Shrine_MothersLove.GlobalRollMod * 0.01]}% por {[Type_StatusEffectData.Shrine_MothersLove.BaseDuration / 60]} m.</string>
 </resources>

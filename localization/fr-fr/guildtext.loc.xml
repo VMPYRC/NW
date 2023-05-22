@@ -324,7 +324,7 @@
 	<string key="ui_wardeclarationpopup_attackinfopopup_title">Avant de déclarer la guerre...</string>
 	<string key="ui_wardeclarationpopup_attackinfopopup_message">N'oubliez pas que la &lt;font color={defendingColorHex}&gt;compagnie attaquée peut vous déclarer la guerre à son tour&lt;/font&gt;\nen lançant une &lt;font color={counterAttackColor}&gt;contre-attaque&lt;/font&gt; lors de la &lt;font color={resolutionPhaseColor}&gt;phase de résolution&lt;/font&gt;.\n\nSi une contre-attaque est lancée, les &lt;font color={situationReversedColor}&gt;rôles sont inversés&lt;/font&gt;.\nVotre compagnie devra défendre son territoire face à l'ennemi !</string>
 	<string key="ui_wardeclarationpopup_declare_title">Déclaration de guerre</string>
-	<string key="ui_wardeclarationpopup_declare_message">Lorsqu'une guerre est déclarée, votre compagnie peut attaquer la forteresse durant 30 minutes avec 50 joueurs au maximum.\nUne fois le marqueur de revendication de la forteresse ennemie détruit, votre compagnie devient gouverneur du territoire.</string>
+	<string key="ui_wardeclarationpopup_declare_message">Lorsqu'une guerre est déclarée, votre compagnie peut attaquer la forteresse durant 30 minutes avec {maxRosterMembers} joueurs au maximum.\nUne fois le marqueur de revendication de la forteresse ennemie détruit, votre compagnie devient gouverneur du territoire.</string>
 	<string key="ui_wardeclarationpopup_declare_image_war">Déclarer la guerre</string>
 	<string key="ui_wardeclarationpopup_declare_image_attack">Attaquer la forteresse</string>
 	<string key="ui_wardeclarationpopup_declare_image_territory">Revendiquer le territoire</string>
@@ -398,7 +398,7 @@
 	<string key="ui_contesting">Dispute</string>
 	<string key="ui_point_taken">Point de ralliement occupé</string>
 	<string key="ui_warphase_resolution">Résolution</string>
-	<string key="ui_warphase_scoutingdesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;PHASE D'AVANT-GUERRE&lt;/font&gt;&lt;/font&gt;\n\nTous les combattants doivent s'inscrire sur le tableau de guerre du territoire et le gouverneur doit leur attribuer l'un des 50 emplacements disponibles.</string>
+	<string key="ui_warphase_scoutingdesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;PHASE D'AVANT-GUERRE&lt;/font&gt;&lt;/font&gt;\n\nTous les combattants doivent s'inscrire sur le tableau de guerre du territoire et le gouverneur doit leur attribuer l'un des {maxRosterMembers} emplacements disponibles.</string>
 	<string key="ui_warphase_battledesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;PHASE DE BATAILLE&lt;/font&gt;&lt;/font&gt;\n\nCette phase est obsolète et ne devrait pas apparaître.</string>
 	<string key="ui_warphase_resolutiondesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;PHASE DE RÉSOLUTION&lt;/font&gt;&lt;/font&gt;\n\nConclusion de la guerre. Consultez le résultat de la guerre, puis tous les combattants seront téléportés à la colonie du territoire.</string>
 	<string key="ui_warphase_siegedesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;FENÊTRE DE SIÈGE&lt;/font&gt;&lt;/font&gt;\n\nLes invitations sont envoyées à l'armée 15 minutes avant la guerre, et tous seront téléportés à la forteresse. Le gagnant remporte le territoire.</string>

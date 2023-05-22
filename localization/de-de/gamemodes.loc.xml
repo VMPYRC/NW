@@ -89,8 +89,8 @@
 	<string key="ui_outpost_rush_signup_goal3">Nutze die besonderen Rohstoffe der Insel zum Angriff und zur Verteidigung.</string>
 	<string key="ui_outpost_rush_signup_points_number">1.000</string>
 	<string key="ui_outpost_rush_signup_points_text">PUNKTE</string>
-	<string key="ui_outpost_rush_signup_joinsolo">Als Einzelspieler beitreten</string>
-	<string key="ui_outpost_rush_signup_joingroup">Mit deiner Gruppe beitreten</string>
+	<string key="ui_outpost_rush_signup_joinsolo">Solo</string>
+	<string key="ui_outpost_rush_signup_joingroup">Mit deiner Gruppe</string>
 	<string key="ui_outpost_rush_signup_joinmid">Ich möchte laufenden Spielen beitreten &lt;font color="#ffe940"&gt;(kürzere Wartezeit)&lt;/font&gt;</string>
 	<string key="ui_outpost_rush_signup_playercount">{playerCount} Spieler</string>
 	<string key="ui_outpost_rush_signup_failsolo">Du bist aktuell in einer Gruppe und kannst nicht als Einzelspieler beitreten.</string>
@@ -100,6 +100,8 @@
 	<string key="ui_outpost_rush_signup_failwar">Du kannst dich nicht anmelden, weil du bereits für den bevorstehenden Krieg angemeldet bist, der in der nächsten Stunde beginnt.</string>
 	<string key="ui_outpost_rush_signup_failqueue">Du kannst dich nicht anmelden, weil du momentan schon für {matchname} angemeldet bist.</string>
 	<string key="ui_outpost_rush_signup_faildungeon">Du kannst dich nicht anmelden, weil du in einer Warteschlange für eine Expedition bist.</string>
+	<string key="ui_outpost_rush_signup_failevent">Du kannst dich nicht anmelden, weil du an einem Ereignis teilnimmst.</string>
+	<string key="ui_outpost_rush_signup_failgeneric">Du kannst dich momentan nicht anmelden.</string>
 	<string key="ui_outpost_rush_signup_failgrouptitle">Beitritt zum Außenpostensturm nicht möglich</string>
 	<string key="ui_outpost_rush_signup_failgrouplevel">Alle Gruppenmitglieder müssen mindestens die Stufe {levelRequirement} erreicht haben.</string>
 	<string key="ui_outpost_rush_signup_failgroupwar">Ein oder mehrere Gruppenmitglieder sind für den bevorstehenden Krieg angemeldet, der in der nächsten Stunde beginnt.</string>
@@ -221,5 +223,24 @@
 	<string key="ui_durability_loss_war">Du befindest dich in einem Krieg (einer Invasion), deine Ausrüstung wurde nach dem Tod nicht beschädigt.</string>
 	<string key="ui_item_durability_loss">Die gesamte Ausrüstung in deinem Inventar wurde nach dem Tod beschädigt.</string>
 	<string key="ui_item_durability_loss_pvp">Du wurdest von einem anderen Spieler getötet, deine Ausrüstung hat reduzierten Schaden genommen.</string>
+	<string key="ui_pvp_arena_leave">PvP-Arena verlassen</string>
+	<string key="ui_cannot_travel_pvp_arena">Schnellreise nicht möglich, während du in einer PvP-Arena bist.</string>
+	<string key="ui_pvp_arena_leave_desc">Willst du die PvP-Arena verlassen?</string>
+	<string key="ui_pvp_arena_leave_desc_time">Willst du die PvP-Arena verlassen?\nDu kannst dich &lt;font color="#ff2e2e"&gt;[{time}]&lt;/font&gt; lang nicht mehr in die Warteschlange für eine PvP-Arena einreihen.</string>
+	<string key="ui_pvp_arena_leave_title">PvP-Arena verlassen?</string>
+	<string key="ui_in_spectators_box">Im Zuschauerbereich</string>
+	<string key="ui_in_spectators_box_description">Waffen und Fertigkeiten deaktiviert</string>
+	<string key="ui_round_number">Runde {number}</string>
+	<string key="ui_match_point">Matchpunkt</string>
+	<string key="ui_final_round">Letzte Runde</string>
+	<string key="ui_begins_in">Beginnt in:</string>
+	<string key="ui_arena_gas_releases_in" comment="gas was replaced with ring of fire in implementation">Ring des Feuers kommt näher:</string>
+	<string key="ui_arena_gas_released">Ring des Feuers kommt näher</string>
+	<string key="ui_fight">Kämpft!</string>
+	<string key="ui_round_won">Runde gewonnen</string>
+	<string key="ui_round_lost">Runde verloren</string>
+	<string key="ui_switching_sides">Seitenwechsel</string>
+	<string key="ui_rounds_won">Gewonnene Runden</string>
+	<string key="ui_see_through_label">Einsichtsmodus</string>
 </resources>
 

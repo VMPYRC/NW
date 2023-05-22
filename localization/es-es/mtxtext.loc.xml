@@ -79,7 +79,13 @@
 	<string key="ui_fixed_appearance" rel_version="Feature_MTX">Apariencia fija</string>
 	<string key="ui_fixed_appearance_tooltip" rel_version="Feature_MTX">Los &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;diseños&lt;/font&gt; se aplican al personaje y a cualquier objeto equipado en la misma ranura hasta que se eliminen o se cambie de apariencia.\n\nLos &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;diseños&lt;/font&gt; no se pueden teñir.</string>
 	<string key="ui_transfer_requirement" rel_version="Feature_MTX">Requisitos de transferencia</string>
-	<string key="ui_transfer_requirement_tooltip" rel_version="Feature_MTX">- Debes estar en un Santuario (asentamiento, puesto remoto, santuario espiritual o atalaya) antes de transferirte a otro mundo\n- No puedes pertenecer a una compañía antes de transferirte a otro mundo\n- No puedes tener ofertas de compraventa activas en el puesto comercial antes de transferirte a otro mundo</string>
+	<string key="ui_transfer_requirement_tooltip_world_transfer_requirements" rel_version="Feature_MTX">Para transferirte a un nuevo mundo:</string>
+	<string key="ui_transfer_requirement_tooltip_region_transfer_requirements" rel_version="Feature_MTX">Para transferirte a una nueva región:</string>
+	<string key="ui_transfer_requirement_sanctuary" rel_version="Feature_MTX">Debes estar en un santuario (asentamiento, puesto remoto, santuario espiritual o atalaya) antes de transferirte a otro mundo</string>
+	<string key="ui_transfer_requirement_not_in_company" rel_version="Feature_MTX">No puedes pertenecer a una compañía antes de transferirte a otro mundo</string>
+	<string key="ui_transfer_requirement_not_have_active_orders" rel_version="Feature_MTX">No puedes tener ofertas de compraventa activas en el puesto comercial antes de transferirte a otro mundo</string>
+	<string key="ui_transfer_requirement_minimum_level" rel_version="Feature_MTX">Tienes que haber alcanzado el nivel {level} antes de transferirte</string>
+	<string key="ui_transfer_requirement_no_houses" rel_version="Feature_MTX">No debes poseer ninguna casa antes de transferirte</string>
 	<string key="ui_item_restrictions" rel_version="Feature_MTX">Limitaciones de objetos</string>
 	<string key="ui_item_restrictions_item_skins" rel_version="Feature_MTX">Para que los &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;diseños&lt;/font&gt; sean visibles, es necesario tener equipado el objeto base. Los &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;diseños&lt;/font&gt; no se pueden teñir.</string>
 	<string key="ui_item_restrictions_crests" rel_version="Feature_MTX">Los &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;blasones de compañía&lt;/font&gt; solo se pueden usar si eres el gobernador (creador) de una compañía.</string>
@@ -420,11 +426,14 @@
 	<string key="character_rename" rel_version="MTX_October_Skins">Cambio de nombre de personaje (un uso)</string>
 	<string key="character_rename_description" rel_version="MTX_October_Skins">Te permite cambiar el nombre del personaje.\nSolo puede usarse una vez.</string>
 	<string key="ui_character_world_transfer" rel_version="Feature_Server_Transfer">Transferencia de personaje a otro mundo</string>
+	<string key="ui_character_region_transfer" rel_version="Feature_Server_Transfer">Transferencia de personaje a otra región</string>
 	<string key="server_transfer_description" rel_version="Feature_Server_Transfer">Te permite transferir este personaje a otro mundo dentro de la región actual.</string>
 	<string key="server_transfer_extra_detail" rel_version="Feature_Server_Transfer">En tu cuenta tienes una transferencia de mundo gratis. Una vez que la utilices con un personaje, ya no estará disponible para los demás.</string>
 	<string key="server_transfer_names" rel_version="Feature_Server_Transfer">Transfiriendo a &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; a: &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{ServerName}&lt;/font&gt; ({WorldSetName})</string>
 	<string key="server_transfer_requirements" rel_version="Feature_Server_Transfer">REQUISITOS</string>
 	<string key="server_transfer_not_transfer" rel_version="Feature_Server_Transfer">QUÉ NO SE TRANSFIERE</string>
+	<string key="server_transfer_refund_policy" rel_version="Feature_Server_Transfer">POLÍTICA DE REEMBOLSOS</string>
+	<string key="server_transfer_cooldown" rel_version="Feature_Server_Transfer">TIEMPO DE RECARGA</string>
 	<string key="server_transfer_requirements_detail1" rel_version="Feature_Server_Transfer">No puedes pertenecer a una compañía antes de transferirte a otro mundo</string>
 	<string key="server_transfer_requirements_detail2" rel_version="Feature_Server_Transfer">No puedes tener ofertas de compraventa activas en el puesto comercial antes de transferirte a otro mundo</string>
 	<string key="server_transfer_requirements_detail3" rel_version="Feature_Server_Transfer">Debes estar en un Santuario (asentamiento, puesto remoto, santuario espiritual o atalaya) antes de transferirte a otro mundo</string>
@@ -433,6 +442,8 @@
 	<string key="server_transfer_not_transfer_detail1" rel_version="Feature_Server_Transfer">Se eliminará tu lista de amigos y no se transferirá</string>
 	<string key="server_transfer_not_transfer_detail2" rel_version="Feature_Server_Transfer">Las misiones activas de proyectos de pueblo no se transferirán</string>
 	<string key="server_transfer_not_transfer_detail3" rel_version="Feature_Server_Transfer">Las misiones activas de facción no se transferirán</string>
+	<string key="server_tranfer_refund_policy_not_refundable" rel_version="Feature_Server_Transfer">Este producto no es reembolsable.</string>
+	<string key="server_tranfer_cooldown_detail" rel_version="Feature_Server_Transfer">El tiempo de recarga entre transferencias de región es de {cooldownDuration}.</string>
 	<string key="server_transfer_unavailable_raidid" rel_version="Feature_Server_Transfer">No puedes transferirte de mundo mientras estás en una guerra.</string>
 	<string key="server_transfer_unavailable_dungeon" rel_version="Feature_Server_Transfer">No puedes transferirte de mundo mientras estás en una expedición.</string>
 	<string key="server_transfer_unavailable_arena" rel_version="Feature_Server_Transfer">No puedes transferirte de mundo mientras estás en una arena.</string>
@@ -440,12 +451,14 @@
 	<string key="server_transfer_unavailable_outpost_rush" rel_version="Feature_Server_Transfer">No puedes transferirte de mundo mientras estás en Asalto a puesto remoto.</string>
 	<string key="server_transfer_unavailable_outpost_rush_queue" rel_version="Feature_Server_Transfer">No puedes transferirte de mundo mientras estás a la cola en Asalto a puesto remoto.</string>
 	<string key="server_transfer_unavailable_transfer_world_full" rel_version="Feature_Server_Transfer">La lista de transferencia de esta región está llena, inténtalo de nuevo en unas horas.</string>
+	<string key="server_transfer_unavailable_target_region_characters_slots_full" rel_version="Feature_Server_Transfer">Todas las ranuras de personaje de esta región están llenas. Tienes que borrar o transferir un personaje existente en esta región para poder transferir otro.</string>
 	<string key="server_transfer_more_details" rel_version="Feature_Server_Transfer">Para ver más detalles, consulta</string>
 	<string key="server_transfer_transfer_faq" rel_version="Feature_Server_Transfer">Preguntas frecuente sobre la transferencia de personaje a otro mundo</string>
 	<string key="server_transfer_final_details" rel_version="Feature_Server_Transfer">Al confirmar la transferencia, se te desconectará y pasarás a la pantalla de selección de personaje.</string>
 	<string key="server_transfer_final_details_purchase" rel_version="Feature_Server_Transfer">Tras la compra, se te desconectará y pasarás a la pantalla de selección de personaje.</string>
 	<string key="server_transfer_change_world" rel_version="Feature_Server_Transfer">Cambiar de mundo</string>
 	<string key="server_transfer_select_world" rel_version="Feature_Server_Transfer">Seleccionar mundo</string>
+	<string key="server_transfer_select_region" rel_version="Feature_Server_Transfer">Seleccionar región</string>
 	<string key="server_transfer_change_world_tooltip" rel_version="Feature_Server_Transfer">Puedes cambiar de mundo iniciando sesión con tu personaje y accediendo a la tienda de «Transferencia de mundo».</string>
 	<string key="server_transfer_region_hint" rel_version="Feature_Server_Transfer">Solo puedes transferir personajes a otro mundo que esté en la misma región. Para jugar en una región distinta, tienes que crear un nuevo personaje en esa región.</string>
 	<string key="server_transfer_maintenance" rel_version="Feature_Server_Transfer">No puedes transferirte a un mundo mientras esté en mantenimiento.</string>
@@ -455,9 +468,11 @@
 	<string key="server_transfer_requirements_tradingPost_unknown" rel_version="Feature_Server_Transfer">Comprobando transacciones del puesto comercial…</string>
 	<string key="server_transfer_requirements_player_level" rel_version="Feature_Server_Transfer">Tienes que haber alcanzado el nivel {level} como mínimo para la transferencia entre regiones.</string>
 	<string key="server_transfer_requirements_housing" rel_version="Feature_Server_Transfer">No debes poseer ninguna casa para la transferencia entre regiones.</string>
-	<string key="server_transfer_confirm" rel_version="Feature_Server_Transfer">CONFIRMAR TRANSFERENCIA DE MUNDO</string>
+	<string key="server_transfer_confirm_world_transfer" rel_version="Feature_Server_Transfer">CONFIRMAR TRANSFERENCIA DE MUNDO</string>
+	<string key="server_transfer_confirm_region_transfer" rel_version="Feature_Server_Transfer">CONFIRMAR TRANSFERENCIA DE REGIÓN</string>
 	<string key="server_transfer_confirm_button" rel_version="Feature_Server_Transfer">Confirmar transferencia</string>
-	<string key="server_transfer_confirm_purchase" rel_version="Feature_Server_Transfer">COMPRAR TRANSFERENCIA DE MUNDO</string>
+	<string key="server_transfer_confirm_purchase_world_transfer" rel_version="Feature_Server_Transfer">COMPRAR TRANSFERENCIA DE MUNDO</string>
+	<string key="server_transfer_confirm_purchase_region_transfer" rel_version="Feature_Server_Transfer">COMPRAR TRANSFERENCIA DE REGIÓN</string>
 	<string key="server_transfer_confirm_button_purchase" rel_version="Feature_Server_Transfer">Comprar transferencia</string>
 	<string key="server_transfer_select_world_fail" rel_version="Feature_Server_Transfer">Primero tienes que seleccionar un mundo válido.</string>
 	<string key="server_transfer_select_world_fail_same" rel_version="Feature_Server_Transfer">El personaje ya está en este mundo. Selecciona otro.</string>
@@ -513,11 +528,13 @@
 	<string key="Emote_Cry_description" rel_version="Emote_Cry">«Riega las plantas con tus lágrimas».</string>
 	<string key="Apparel_WarSpecial_name" rel_version="Apparel_War_Special">Guerrero macabro </string>
 	<string key="Apparel_ClassicRPGWizard_name" rel_version="Apparel_RPG_Wizard">Galas de hechicero</string>
+	<string key="Apparel_ClassicRPGBard_name" rel_version="Apparel_RPG_Bard">Galas del armonizador</string>
 	<string key="Apparel_ClassicRPGRogue_name" rel_version="Apparel_RPG_Rogue">Charlatán encapuchado </string>
 	<string key="Apparel_RoyalCourt_Crown_name" rel_version="Apparel_Helmet_Crown">Corona de la potestad</string>
 	<string key="Apparel_RoyalCourt_Tiara_name" rel_version="Apparel_Helmet_Tiara">Tiara de la potestad </string>
 	<string key="Apparel_WarSpecial_description" rel_version="Apparel_War_Special">«El uniforme reluciente de la mismísima Muerte, quien, según los rumores, acecha en cada campo de batalla de Aetérnum, maldiciendo las resurrecciones de la isla».</string>
 	<string key="Apparel_ClassicRPGWizard_description" rel_version="Apparel_RPG_Wizard">«El atuendo bordado de quienes buscan dominar las fuerzas arcanas de Aetérnum».</string>
+	<string key="Apparel_ClassicRPGBard_description" rel_version="Apparel_RPG_Bard">«Quien lleva esta prenda pone el mismo empeño en sus canciones que en su apariencia, justo como le gusta».</string>
 	<string key="Apparel_ClassicRPGRogue_description" rel_version="Apparel_RPG_Rogue">«En Aetérnum, si tienes un ingenio tan afilado como tus hojas, puedes conseguir lo que te plazca».</string>
 	<string key="Apparel_RoyalCourt_Crown_description" rel_version="Apparel_Helmet_Crown">«Aetérnum sostiene una corona por encima de la cabeza de todos los viajeros; solo tienen que elevarse para llegar a ella».</string>
 	<string key="Apparel_RoyalCourt_Tiara_description" rel_version="Apparel_Helmet_Tiara">«Ni siquiera la agreste naturaleza de Aetérnum puede evitar que una persona de sangre real luzca lo más digna posible».</string>
@@ -601,6 +618,8 @@
 	<string key="Weapon_Musket_Lunar_description" rel_version="Weapon_Musket_LunarNewYear_MTX">«De las fauces de la gran bestia surge la bala hasta hundirse en las carnes de su desafortunado objetivo».</string>
 	<string key="Weapon_VoidGauntlet_Lunar_name" rel_version="Weapon_VoidGauntlet_LunarNewYear_MTX">Toque dorado del vacío</string>
 	<string key="Weapon_VoidGauntlet_Lunar_description" rel_version="Weapon_VoidGauntlet_LunarNewYear_MTX">«En el brillo dorado subyace cierta oscuridad».</string>
+	<string key="Weapon_Blunderbuss_Lunar_name" rel_version="Weapon_Blunderbuss_LunarNewYear_MTX">Dispersora de traca</string>
+	<string key="Weapon_Blunderbuss_Lunar_description" rel_version="Weapon_Blunderbuss_LunarNewYear_MTX">«Esta pistola ornamentada, rápida y ruidosa como una traca, esconde mucho más de lo que uno cree».</string>
 	<string key="Apparel_Lunar_1_name" rel_version="Apparel_LunarNewYear_MTX_1">Dragón de jadeíta</string>
 	<string key="Apparel_Lunar_1_description" rel_version="Apparel_LunarNewYear_MTX_1">«Suelta un rugido que haga que se tambaleen los cimientos de Aetérnum».</string>
 	<string key="Apparel_Lunar_2_name" rel_version="Apparel_LunarNewYear_MTX_2">Asesino de jadeíta</string>
@@ -661,6 +680,7 @@
 	<string key="reward_type_Weaponskin_GreatAxe" rel_version="New_World_Launch">Diseño de gran hacha</string>
 	<string key="reward_type_Weaponskin_IceGauntlet" rel_version="New_World_Launch">Diseño de manopla de hielo</string>
 	<string key="reward_type_Weaponskin_VoidGauntlet" rel_version="Weapon_Void_Gauntlet">Diseño de manopla de vacío</string>
+	<string key="reward_type_Weaponskin_Blunderbuss" rel_version="Weapon_Blunderbuss">Diseño de trabuco</string>
 	<string key="reward_type_Apparelskin" rel_version="New_World_Launch">Diseño de prendas</string>
 	<string key="reward_type_Weaponskin_Spear" rel_version="New_World_Launch">Diseño de lanza</string>
 	<string key="reward_type_house_pet" rel_version="New_World_Launch">Mascota</string>
@@ -707,5 +727,15 @@
 	<string key="Bundle_Decor_Love2022_name" rel_version="Housing_Love_MTX_Pack_2022">Lote de decoración de amor corrupto</string>
 	<string key="Bundle_Decor_Love2022_description" rel_version="Housing_Love_MTX_Pack_2022">«Mobiliario ideal para una velada romántica, o para que te atrape la eternidad solitaria de Aetérnum».</string>
 	<string key="prorated_discount">Se ha ajustado el precio en base a los objetos desbloqueados</string>
+	<string key="Bundle_Decor_Floral_name" rel_version="Housing_Spring_MTX_Pack_2022">Lote de decoración Primavera en flor</string>
+	<string key="Bundle_Decor_Floral_description" rel_version="Housing_Spring_MTX_Pack_2022">«Dale la bienvenida a una nueva estación con el color y la frescura de las mejores flores de Aetérnum».</string>
+	<string key="Apparel_Malachite_L_name" rel_version="Apparel_Malachite_L">Señor de los líquenes</string>
+	<string key="Apparel_Malachite_M_name" rel_version="Apparel_Malachite_M">Gran tetrarca</string>
+	<string key="Apparel_Malachite_H_name" rel_version="Apparel_Malachite_H">Corteza de piedra</string>
+	<string key="Apparel_Wicked_name" rel_version="Apparel_Wicked_Costume">Caperucita rojo sangre</string>
+	<string key="Apparel_Malachite_L_description" rel_version="Apparel_Malachite_L">«Las venas de plantas desconocidas se aferran a esta armadura, palpitando con vida».</string>
+	<string key="Apparel_Malachite_M_description" rel_version="Apparel_Malachite_M">«Conviértete en el gobernante de todas las cosas verdes y de las raíces con este conjunto».</string>
+	<string key="Apparel_Malachite_H_description" rel_version="Apparel_Malachite_H">«Una corteza tan gruesa y pesada como la piedra descansa sobre la piel del portador, otorgándole una inmunidad superior».</string>
+	<string key="Apparel_Wicked_description" rel_version="Apparel_Wicked_Costume">«Ningún lobo se atreve a desafiarte a ti o a la abuelita».</string>
 </resources>
 

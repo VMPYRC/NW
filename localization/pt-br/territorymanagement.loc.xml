@@ -96,7 +96,7 @@
 	<string key="ui_leaving_settlement">Sair do Assentamento</string>
 	<string key="ui_leaving_settlement_recall_no_cd">Volte a qualquer momento usando o mapa.</string>
 	<string key="ui_leaving_settlement_recall_time">Estalagem disponível em &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;</string>
-	<string key="ui_leaving_settlement_recall_time_desc">O retorno para a estalagem só está disponível uma vez a cada 60 minutos.</string>
+	<string key="ui_leaving_settlement_recall_time_desc">O retorno para a estalagem só está disponível uma vez a cada 30 minutos.</string>
 	<string key="ui_leaving_settlement_no_inn_desc">Você está saindo sem dar entrada na estalagem.</string>
 	<string key="ui_leaving_settlement_no_inn">Não Deu Entrada</string>
 	<string key="ui_leaving_settlement_inn_elsewhere">Você está saindo sem dar entrada na estalagem, a estalagem atual está em {territoryName} {distance}</string>
@@ -179,14 +179,14 @@
 	<string key="ui_encounter_statusstandby">Seu status: &lt;font color='#fab445'&gt;em espera&lt;/font&gt;</string>
 	<string key="ui_encounter_statusselected">Seu status: &lt;font color='#30e5ab'&gt;selecionado&lt;/font&gt;</string>
 	<string key="ui_encounter_managebutton">Gerenciar Exército</string>
-	<string key="ui_encounter_signupbutton_war">Inscreva-se em um quadro de guerra</string>
-	<string key="ui_encounter_signupDesc_war">Inscreva-se nesta Guerra em um \n&lt;font color='#f1ede2'&gt;Quadro de Guerra&lt;/font&gt; nesta vila.</string>
-	<string key="ui_encounter_signupDesc_invasion">Inscreva-se nesta Invasão em um \n&lt;font color='#f1ede2'&gt;Quadro de Guerra&lt;/font&gt; nesta vila.</string>
+	<string key="ui_encounter_signupbutton_war">Registre-se para a Guerra</string>
+	<string key="ui_encounter_signupDesc_war">Inscreva-se nesta Guerra em um\n&lt;font color='#f1ede2'&gt;Quadro de Guerra&lt;/font&gt; nesta vila.</string>
+	<string key="ui_encounter_signupDesc_invasion">Inscreva-se nesta Invasão em um\n&lt;font color='#f1ede2'&gt;Quadro de Guerra&lt;/font&gt; nesta vila.</string>
 	<string key="ui_encounter_signupDesc_invasion_minlevel">&lt;font color="#ff6363"&gt;Nível mínimo: {level}&lt;/font&gt;</string>
-	<string key="ui_encounter_signupbutton_invasion">Inscreva-se em um quadro de guerra</string>
+	<string key="ui_encounter_signupbutton_invasion">Registre-se para a Guerra</string>
 	<string key="ui_encounter_viewstatusbutton_war">Exibir Exército</string>
 	<string key="ui_encounter_viewstatusbutton_invasion">Exibir Exército</string>
-	<string key="ui_warselected_title">Alistado para guerra</string>
+	<string key="ui_warselected_title">Alistado para Guerra</string>
 	<string key="ui_warselected_text">Você foi selecionado para participar da guerra em {territoryName} das {startTime} às {endTime}.</string>
 	<string key="ui_warunselected_title">Removido da lista de guerra</string>
 	<string key="ui_warunselected_text">Você foi removido da lista de guerra de {territoryName}.</string>

@@ -19,7 +19,7 @@
 	<string key="ui_decoration_mode_unpaid">Si quieres decorar tu casa, debes pagar los impuestos.</string>
 	<string key="ui_decorations">Decoraciones</string>
 	<string key="ui_spirit_shrine">Santuario espiritual</string>
-	<string key="ui_spirit_shrine_desc">Viaje rápido a cualquier asentamiento, puesto remoto o santuario espiritual visitado previamente.</string>
+	<string key="ui_spirit_shrine_desc">Viaje rápido a cualquier asentamiento, puesto de avanzada o santuario espiritual visitado previamente.</string>
 	<string key="ui_fast_travel">Viajar rápido</string>
 	<string key="ui_fast_travel_channel">Viajando rápido…</string>
 	<string key="ui_fast_travel_popup_confirm">¿Quieres usar el viaje rápido para ir a esta ubicación?</string>
@@ -75,9 +75,9 @@
 	<string key="ui_house_unpaid_taxes_string">Tu casa (inhabilitada)</string>
 	<string key="ui_house_tax">Impuesto inmobiliario</string>
 	<string key="ui_house_unpaid_taxes_due_soon">El impuesto inmobiliario de {territoryName} vencerá en: {time}. Paga el impuesto inmobiliario para seguir usando la función de Viaje rápido y la decoración.</string>
-	<string key="ui_house_overdue_at">Impuesto inmobiliario adeudado en {territoryName}. Paga el impuesto inmobiliario para seguir usando la función de Viaje rápido y la decoración.</string>
-	<string key="ui_house_overdue_label">Impuesto inmobiliario adeudado</string>
-	<string key="ui_house_overdue_desc">Impuesto inmobiliario pendiente. Pagarlo habilita las funciones de vivienda, como decoración y viajes rápidos.</string>
+	<string key="ui_house_overdue_at">Impuesto inmobiliario ADEUDADO en {territoryName}. Paga el impuesto inmobiliario para seguir usando la función de Viaje rápido y la decoración.</string>
+	<string key="ui_house_overdue_label">Impuesto inmobiliario ADEUDADO</string>
+	<string key="ui_house_overdue_desc">Impuesto inmobiliario ADEUDADO. Pagarlo habilita las funciones de vivienda, como decoración y viajes rápidos.</string>
 	<string key="ui_housing_cant_afford">Necesitas más dinero para comprar esta casa.</string>
 	<string key="ui_housing_decorate">Decorar</string>
 	<string key="ui_housing_decorate_desc">Colocar muebles y mascotas</string>
@@ -130,6 +130,8 @@
 	<string key="ui_num_housing_points">{points} puntos</string>
 	<string key="ui_owner_list">Lista de propietarios</string>
 	<string key="ui_pay_house_tax_fail">Se produjo un error al pagar los impuestos en la casa. Vuelve a intentarlo.</string>
+	<string key="ui_property_tax_disabled">El impuesto inmobiliario ha sido deshabilitado.</string>
+	<string key="ui_property_tax_disabled_short">Impuesto inmobiliario deshabilitado</string>
 	<string key="ui_pay_property_tax">Pagar los impuestos</string>
 	<string key="ui_pay_property_tax_popup_desc">Si quieres regresar a tu casa, renacer en ella y decorarla, debes pagar los impuestos inmobiliarios.\nLos impuestos se pagan de forma {firstCycle} después de que compres la casa y cada {otherCycle} después.</string>
 	<string key="ui_property_tax">Impuesto inmobiliario</string>
@@ -245,5 +247,9 @@
 	<string key="ui_housing_tip_description3">Apila &lt;font color={colorHex}&gt;trofeos&lt;/font&gt; para activar &lt;font color={colorHex}&gt;bonificaciones pasivas&lt;/font&gt;.\n\nDato: Solo se pueden ubicar 5 trofeos por casa, pero los efectos de los trofeos duplicados se pueden acumular.</string>
 	<string key="ui_housing_tip_title4">Objetos totales y puntuación</string>
 	<string key="ui_housing_tip_description4">El panel a la derecha de tu pantalla te muestra la &lt;font color={colorHex}&gt;puntuación de decoración&lt;/font&gt; de tu casa y los &lt;font color={colorHex}&gt;límites de decoración&lt;/font&gt;.\n\nDato: Si ubicas demasiadas unidades del mismo objeto, se reduce la puntuación de decoración.</string>
+	<string key="ui_fast_travel_charted_point">Punto de viaje rápido</string>
+	<string key="ui_fast_travel_uncharted_point">Punto de viaje rápido no explorado</string>
+	<string key="ui_fast_travel_shrine_activated_header">Santuario de viaje rápido</string>
+	<string key="ui_fast_travel_shrine_activated_body">¡Nuevo punto de viaje rápido activado!</string>
 </resources>
 

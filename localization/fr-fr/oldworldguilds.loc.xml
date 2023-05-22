@@ -78,7 +78,7 @@
 	<string key="owg_factionwarinfo_title_2_desc_2_bullet_3">Les factions adverses &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;sapent&lt;/font&gt; le contrôle de la faction ennemie en accomplissant des missions JcJ de faction.</string>
 	<string key="owg_factionwarinfo_title_2_desc_2_bullet_4">Gagnez suffisamment d'influence pour pouvoir revendiquer le contrôle du territoire au moyen d'une déclaration de guerre.</string>
 	<string key="owg_factionwarinfo_title_2_desc_3">Guerre de factions</string>
-	<string key="owg_factionwarinfo_title_2_desc_3_bullet_1">Un combat de siège qui oppose &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;50 joueurs contre 50&lt;/font&gt; au pied de la forteresse d'un territoire.</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_1">Un combat de siège qui oppose &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{maxRosterMembers} joueurs contre {maxRosterMembers}&lt;/font&gt; au pied de la forteresse d'un territoire.</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_2">Utilisez différentes &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;armes de siège&lt;/font&gt; pour prendre l'avantage sur vos adversaires.</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_3">L'objectif des assaillants est de revendiquer le point de capture au &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;cœur de la forteresse&lt;/font&gt;.</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_4">L'objectif des défenseurs est de &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;repousser les assaillants pendant 30 minutes&lt;/font&gt;.</string>
@@ -487,5 +487,9 @@
 	<string key="FactionMission_ASSASSINATE_ELITE_NIGHT_desc">Les Maraudeurs ont besoin d'éliminer cette cible : &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nProuvez votre valeur en la pourchassant puis en l'éliminant à : {POITags}.\n&lt;font color="#eaeaea"&gt;(Élite - Ennemi nocturne)&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_NIGHT_desc">L'Ombre a identifié une cible à éliminer : &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nPourchassez-la puis éliminez-la à : {POITags}.\n&lt;font color="#eaeaea"&gt;(Élite - Ennemi nocturne)&lt;/font&gt;</string>
 	<string key="FactionMission_C_ASSASSINATE_ELITE_NIGHT_desc">Les Engagés ont identifié une menace spécifique à éliminer : &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;.\n\nProuvez votre dévotion en la pourchassant et en l'éliminant à : {POITags}.\n &lt;font color="#eaeaea"&gt;(Élite - Ennemi nocturne)&lt;/font&gt;</string>
+	<string key="FactionMission_BREACH_title" rel_version="Quest_FM_BreachMissions">Foyer d'altération</string>
+	<string key="FactionMission_BREACH_desc" rel_version="Quest_FM_BreachMissions">Les Maraudeurs ne tolèrent pas que l'&lt;font color="#eaeaea"&gt;altération&lt;/font&gt; empiète sur leur territoire.\n\nSi vous voyez un de leurs foyers, scellez-le.</string>
+	<string key="FactionMission_S_BREACH_desc" rel_version="Quest_FM_BreachMissions">Nous avons désormais le pouvoir de neutraliser la progression de l'&lt;font color="#eaeaea"&gt;altération&lt;/font&gt;.\n\nScellez tous les &lt;font color="#eaeaea"&gt;foyers d'altération&lt;/font&gt; que vous voyez.</string>
+	<string key="CMissionAcquireLeather_Name_WC" rel_version="Event_WinterConvergence_Temp">Tanneurs festifs requis</string>
 </resources>
 

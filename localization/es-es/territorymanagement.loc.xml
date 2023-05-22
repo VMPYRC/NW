@@ -96,7 +96,7 @@
 	<string key="ui_leaving_settlement">Saliendo del asentamiento</string>
 	<string key="ui_leaving_settlement_recall_no_cd">Usa el mapa para regresar en cualquier momento.</string>
 	<string key="ui_leaving_settlement_recall_time">Posada disponible en &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;</string>
-	<string key="ui_leaving_settlement_recall_time_desc">Solo puedes regresar a la posada una vez cada 60 minutos.</string>
+	<string key="ui_leaving_settlement_recall_time_desc">Solo puedes regresar a la posada una vez cada 30 minutos.</string>
 	<string key="ui_leaving_settlement_no_inn_desc">Vas a salir sin haberte registrado en la posada.</string>
 	<string key="ui_leaving_settlement_no_inn">No te has registrado</string>
 	<string key="ui_leaving_settlement_inn_elsewhere">Vas a salir sin haberte registrado. La posada actual está en {territoryName}, a una distancia de {distance}.</string>
@@ -179,14 +179,14 @@
 	<string key="ui_encounter_statusstandby">Tu estado: &lt;font color='#fab445'&gt;En espera&lt;/font&gt;</string>
 	<string key="ui_encounter_statusselected">Tu estado: &lt;font color='#30e5ab'&gt;Seleccionado&lt;/font&gt;</string>
 	<string key="ui_encounter_managebutton">Administrar ejército</string>
-	<string key="ui_encounter_signupbutton_war">Únete en el tablero</string>
+	<string key="ui_encounter_signupbutton_war">Inscribirse en un tablero</string>
 	<string key="ui_encounter_signupDesc_war">Inscríbete en un\n&lt;font color='#f1ede2'&gt;tablero de guerra&lt;/font&gt; de este pueblo para participar en esta guerra.</string>
 	<string key="ui_encounter_signupDesc_invasion">Inscríbete en un\n&lt;font color='#f1ede2'&gt;tablero de guerra&lt;/font&gt; de este pueblo para participar en esta invasión.</string>
 	<string key="ui_encounter_signupDesc_invasion_minlevel">&lt;font color="#ff6363"&gt;Nivel mínimo: {level}&lt;/font&gt;</string>
-	<string key="ui_encounter_signupbutton_invasion">Únete en el tablero</string>
+	<string key="ui_encounter_signupbutton_invasion">Inscribirse en un tablero</string>
 	<string key="ui_encounter_viewstatusbutton_war">Ver ejército</string>
 	<string key="ui_encounter_viewstatusbutton_invasion">Ver ejército</string>
-	<string key="ui_warselected_title">Se te ha seleccionado para la guerra</string>
+	<string key="ui_warselected_title">Te han seleccionado para la guerra</string>
 	<string key="ui_warselected_text">Se te ha seleccionado para que te unas a la guerra que tendrá lugar de {startTime} a {endTime} en {territoryName}.</string>
 	<string key="ui_warunselected_title">Eliminado de la cuadrilla de guerra</string>
 	<string key="ui_warunselected_text">Se te ha eliminado de la cuadrilla de guerra en {territoryName}.</string>

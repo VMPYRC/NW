@@ -324,7 +324,7 @@
 	<string key="ui_wardeclarationpopup_attackinfopopup_title">Antes de que declares una guerra…</string>
 	<string key="ui_wardeclarationpopup_attackinfopopup_message">Ten en cuenta que &lt;font color={defendingColorHex}&gt;la compañía defensora puede volver a declarar una guerra&lt;/font&gt;\nsi inicia un &lt;font color={counterAttackColor}&gt;contraataque&lt;/font&gt; en la &lt;font color={resolutionPhaseColor}&gt;fase de resolución&lt;/font&gt;.\n\nSi se inicia un contraataque, la &lt;font color={situationReversedColor}&gt;situación se revertirá&lt;/font&gt;.\n¡Tu compañía tendrá que defender tu conquista, y el enemigo atacará!</string>
 	<string key="ui_wardeclarationpopup_declare_title">Declaración de guerra</string>
-	<string key="ui_wardeclarationpopup_declare_message">Cuando se declara una guerra, tu compañía puede atacar la fortaleza durante 30 minutos con hasta 50 jugadores.\nCuando tu compañía derriba el marcador de conquistas en la fortaleza, pasa a gobernar el territorio.</string>
+	<string key="ui_wardeclarationpopup_declare_message">Cuando se declara una guerra, tu compañía puede atacar la fortaleza durante 30 minutos con hasta {maxRosterMembers} jugadores.\nCuando tu compañía derriba el marcador de conquistas en la fortaleza, pasa a gobernar el territorio.</string>
 	<string key="ui_wardeclarationpopup_declare_image_war">Declarar guerra</string>
 	<string key="ui_wardeclarationpopup_declare_image_attack">Atacar la fortaleza</string>
 	<string key="ui_wardeclarationpopup_declare_image_territory">Conquistar el territorio</string>
@@ -398,7 +398,7 @@
 	<string key="ui_contesting">Oposición</string>
 	<string key="ui_point_taken">Punto de encuentro tomado</string>
 	<string key="ui_warphase_resolution">Resolución</string>
-	<string key="ui_warphase_scoutingdesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;FASE DE PREGUERRA&lt;/font&gt;&lt;/font&gt;\n\nTodos los guerreros deben registrarse en el tablero de guerras en este territorio, y el gobernador debe asignarlos a las 50 ranuras disponibles.</string>
+	<string key="ui_warphase_scoutingdesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;FASE DE PREGUERRA&lt;/font&gt;&lt;/font&gt;\n\nTodos los guerreros deben registrarse en el tablero de guerras en este territorio, y el gobernador debe asignarlos a las {maxRosterMembers} ranuras disponibles.</string>
 	<string key="ui_warphase_battledesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;FASE DE LUCHA&lt;/font&gt;&lt;/font&gt;\n\nEsta fase es obsoleta y no debería aparecer.</string>
 	<string key="ui_warphase_resolutiondesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;FASE DE RESOLUCIÓN&lt;/font&gt;&lt;/font&gt;\n\nDesenlace de la guerra. Revisa los resultados de la guerra, y todos los guerreros serán teletransportados al asentamiento del territorio.</string>
 	<string key="ui_warphase_siegedesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;PERÍODO DE ASEDIO&lt;/font&gt;&lt;/font&gt;\n\nLas invitaciones se envían al ejército 15 minutos antes de la guerra, y todos serán teletransportados al fuerte. El ganador se queda con el territorio.</string>

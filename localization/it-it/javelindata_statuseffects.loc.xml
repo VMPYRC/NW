@@ -71,6 +71,8 @@
 	<string key="feasting_DisplayName">Banchettare</string>
 	<string key="ResetAI_DisplayName">Ritirarsi</string>
 	<string key="VillagerFrenzy_DisplayName">Pozione della corruzione potenziata</string>
+	<string key="PvP_Arena_PreRound_DisplayName">Preparazione</string>
+	<string key="PvP_Arena_PreRound_Description">Ti prepari per lo scontro imminente. Subisci Silenziamento temporaneo e i tuoi tempi di ricarica vengono ripristinati.</string>
 	<string key="MinorFoodMagicAbsorption_DisplayName">Assorbimento minimo arcano</string>
 	<string key="MinorFoodMagicAbsorption_Tooltip">Aumenta l'assorbimento arcano di 2,0</string>
 	<string key="MinorFoodFireAbsorption_DisplayName">Assorbimento minimo del fuoco</string>
@@ -441,10 +443,10 @@
 	<string key="Mut_Voi_Death_Empower_DisplayName" rel_version="Feature_Dungeon_Mutators">Potere insidioso</string>
 	<string key="Mut_Fir_Curse1_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Fuoco instabile</string>
 	<string key="Mut_Fir_Curse1_Minor_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Fiammata instabile</string>
-	<string key="Mut_Fir_Curse1_Minor_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Fa subire un {[Type_StatusEffectData.Mut_Fir_Curse1_Minor_Damage.HealthModifierPercent * -100]}% di danni da fuoco ogni {[Type_StatusEffectData.Mut_Fir_Curse1_Minore_Damage.TickRate]} secondi per {[Type_StatusEffectData.Mut_Fir_Curse1_Minor_Damage.BaseDuration]} secondi.</string>
+	<string key="Mut_Fir_Curse1_Minor_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Fa subire un {[Type_StatusEffectData.Mut_Fir_Curse1_Minor_Damage.HealthModifierPercent * -100]}% di danni da fuoco ogni {[Type_StatusEffectData.Mut_Fir_Curse1_Minore_Damage.TickRate]} secondi.</string>
 	<string key="Mut_Voi_Curse1_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Vuoto instabile</string>
 	<string key="Mut_Voi_Curse1_Minor_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Flusso instabile</string>
-	<string key="Mut_Voi_Curse1_Minor_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Fa subire un {[Type_StatusEffectData.Mut_Voi_Curse1_Minor_Damage.HealthModifierPercent * -100]}% di danni da Vuoto ogni {[Type_StatusEffectData.Mut_Voi_Curse1_Minor_Damage.TickRate]} secondi per {[Type_StatusEffectData.Mut_Voi_Curse1_Minor_Damage.BaseDuration]} secondi.</string>
+	<string key="Mut_Voi_Curse1_Minor_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Fa subire un {[Type_StatusEffectData.Mut_Voi_Curse1_Minor_Damage.HealthModifierPercent * -100]}% di danni da Vuoto ogni {[Type_StatusEffectData.Mut_Voi_Curse1_Minor_Damage.TickRate]} secondi.</string>
 	<string key="Mut_Fir_Curse3_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Fuoco combustibile</string>
 	<string key="Mut_Voi_Curse3_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Vuoto combustibile</string>
 	<string key="Mut_Fir_Curse3_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Fuoco inaridito</string>
@@ -471,7 +473,7 @@
 	<string key="GhostBurn_DisplayName">Bruciatura</string>
 	<string key="GhostBurn_Description">Infligge un {[Type_StatusEffectData.CharredGhost_Burn.HealthModifierDamageBased * -100]}% di danni da fuoco ogni {[Type_StatusEffectData.CharredGhost_Burn.TickRate]} secondi per {[Type_StatusEffectData.CharredGhost_Burn.BaseDuration]} secondi. Cumulabile {[Type_StatusEffectData.CharredGhost_Burn.StackMax]} volte.</string>
 	<string key="GhostShock_DisplayName">Stordimento</string>
-	<string key="GhostShock_Description">Infligge un {[Type_StatusEffectData.ShipwreckedGhost_Shock.Stamina]}% di danni all'energia ogni {[Type_StatusEffectData.ShipwreckedGhost_Shock.TickRate]} secondi e riduce la rigenerazione di energia di un {[Type_StatusEffectData.ShipwreckedGhost_Shock.StaminaRate * -100]}% per {[Type_StatusEffectData.ShipwreckedGhost_Shock.BaseDuration]} secondi. Cumulabile {[Type_StatusEffectData.ShipwreckedGhost_Shock.StackMax]} volte.</string>
+	<string key="GhostShock_Description">Prosciuga {[Type_StatusEffectData.ShipwreckedGhost_Shock.Stamina * -1]} di energia ogni {[Type_StatusEffectData.ShipwreckedGhost_Shock.TickRate]} secondi e riduce la rigenerazione di energia di un {[Type_StatusEffectData.ShipwreckedGhost_Shock.StaminaRate * -100]}% per {[Type_StatusEffectData.ShipwreckedGhost_Shock.BaseDuration]} secondi. Cumulabile {[Type_StatusEffectData.ShipwreckedGhost_Shock.StackMax]} volte.</string>
 	<string key="Waterlogged_DisplayName">Grondante</string>
 	<string key="Waterlogged_Description">Movimento rallentato di un {[Type_StatusEffectData.Waterlogged.MoveSpeedMod * -100]}%.</string>
 	<string key="BruteStun_DisplayName">Colpito</string>
@@ -518,6 +520,7 @@
 	<string key="AI_Slime_Slow_DisplayName">Appiccicoso</string>
 	<string key="AI_Slime_Slow_Tooltip">Velocità di movimento ridotta di un {[Type_StatusEffectData.AI_Slime_Slow.MoveSpeedMod * -100]}%.</string>
 	<string key="AI_SpiderBite_Tooltip">Avvelenato per un {[Type_StatusEffectData.AI_SpiderBite.HealthModifierDamageBased * -100]}% di danni di base da natura ogni {[Type_StatusEffectData.AI_SpiderBite.TickRate]} secondi per {[Type_StatusEffectData.AI_SpiderBite.BaseDuration]} secondi.</string>
+	<string key="AI_SpiderVenom_Tooltip">Avvelenato per un {[Type_StatusEffectData.AI_SpiderVenom.HealthModifierDamageBased * -100]}% di danni di base da natura ogni {[Type_StatusEffectData.AI_SpiderVenom.TickRate]} secondi per {[Type_StatusEffectData.AI_SpiderVenom.BaseDuration]} secondi.</string>
 	<string key="AI_PoisonOnHit_Buff_DisplayName">Velenoso</string>
 	<string key="AI_PoisonOnHit_Damage_DisplayName">Veleno</string>
 	<string key="AI_PoisonOnHit_Damage_Tooltip">Avvelenato per un {[Type_StatusEffectData.AI_PoisonOnHit_Damage.HealthModifierDamageBased * -100]}% di danni di base da natura ogni {[Type_StatusEffectData.AI_PoisonOnHit_Damage.TickRate]} secondi per {[Type_StatusEffectData.AI_PoisonOnHit_Damage.BaseDuration]} secondi.</string>
@@ -577,6 +580,8 @@
 	<string key="AI_Naga_AncientGuardian_Vuln_Tooltip">Subisci un {[Type_StatusEffectData.AI_Naga_AncientGuardian_Vuln.ABSArcane * -100]}% di danni da energia arcana aggiuntivi per accumulo per {[Type_StatusEffectData.AI_Naga_AncientGuardian_Vuln.BaseDuration]} secondi.</string>
 	<string key="AI_Naga_AncientGuardian_Bomb_StatusEffect_DisplayName">Esplosione arcana</string>
 	<string key="AI_Naga_AncientGuardian_Bomb_StatusEffect_Tooltip">Il Naga ti attacca con una quantità instabile di energia arcana. Dopo {[Type_StatusEffectData.AI_Naga_AncientGuardian_Bomb_StatusEffect.BaseDuration]} secondi scarichi l'energia arcana generando una sfera esplosiva.</string>
+	<string key="AI_Naga_Corrupted_CorruptionCore_DisplayName" rel_version="Expedition_ShatterMtn_00">Anima corrotta</string>
+	<string key="AI_Naga_Corrupted_CorruptionCore_Tooltip" rel_version="Expedition_ShatterMtn_00">La tua anima è indebolita e ti fa perdere un {[Type_StatusEffectData.AI_Naga_Corrupted_CorruptionCore.HealthModifierPercent * -100]}% di salute al secondo per accumulo. Questo effetto non può essere rimosso.</string>
 	<string key="AI_Naga_AncientGuardian_Might_StatusEffect_DisplayName">Potenza antica</string>
 	<string key="AI_Naga_AncientGuardian_Arcana_StatusEffect_DisplayName">Energia arcana antica</string>
 	<string key="AI_CorruptedPriest_DoomRend_DisplayName">Lacerazione della corruzione</string>
@@ -1349,7 +1354,45 @@
 	<string key="Status_Weapon_DiseaseOnHeavy_Description" rel_version="MorePerksV1">L'efficacia della guarigione si riduce di un {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.HealMod * -100]}%.</string>
 	<string key="Status_Weapon_ChargedHeavyRend_Description" rel_version="MorePerksV1">Subisci un {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.ABSStandard * -100]}% di danni aggiuntivi da tutte le fonti.</string>
 	<string key="Status_Timer_ChargedHeavyRend_Description" rel_version="MorePerksV1">Allo scadere, potrai riottenere il vantaggio Sintonia del gelo.</string>
+	<string key="Blunderbuss_ChargeCooldown_Name" rel_version="Weapon_Blunderbuss">Carica</string>
+	<string key="Blunderbuss_ChargeCooldown_Desc" rel_version="Weapon_Blunderbuss">La tua abilità del caos successiva si ricarica più velocemente</string>
+	<string key="Blunderbuss_ChargeCooldownOnCooldown_Desc" rel_version="Weapon_Blunderbuss">Allo scadere, potrai usare di nuovo la tua Carica passiva.</string>
+	<string key="Blunderbuss_AbilityRamp_Name" rel_version="Weapon_Blunderbuss">Inarrestabile</string>
+	<string key="Blunderbuss_AbilityRamp_Desc" rel_version="Weapon_Blunderbuss">Tutti i danni ricevuti sono ridotti dell'1% per accumulo (max 10)</string>
+	<string key="Blunderbuss_Nine_Name" rel_version="Weapon_Blunderbuss">Scarica</string>
+	<string key="Blunderbuss_Nine_Desc" rel_version="Weapon_Blunderbuss">Il tuo prossimo attacco base spara 9 colpi.</string>
+	<string key="Blunderbuss_Ramp_Name" rel_version="Weapon_Blunderbuss">Rampa</string>
+	<string key="Blunderbuss_Ramp_Desc" rel_version="Weapon_Blunderbuss">Danni aumentati del 4%.</string>
+	<string key="Blunderbuss_LastChance_Name" rel_version="Weapon_Blunderbuss">Ultima occasione</string>
 	<string key="Blunderbuss_LastChance_Desc">Subisci un {[Type_StatusEffectData.Blunderbuss_LastChance.ABSStandard * 100]}% di danni in meno.</string>
+	<string key="Blunderbuss_LastChanceCooldown_Desc" rel_version="Weapon_Blunderbuss">Allo scadere, potrai attivare di nuovo la tua Ultima occasione.</string>
+	<string key="Blunderbuss_BarbedNet_Name" rel_version="Weapon_Blunderbuss">Rete spinata</string>
+	<string key="Blunderbuss_BarbedNet_Desc" rel_version="Weapon_Blunderbuss">Subisci danni nel tempo.</string>
+	<string key="Blunderbuss_Run_And_Gun_Name" rel_version="Weapon_Blunderbuss">Corri e spara</string>
+	<string key="Blunderbuss_Run_And_Gun_Desc" rel_version="Weapon_Blunderbuss">Ti muovi più velocemente dopo la ricarica.</string>
+	<string key="Status_Blunderbuss_FortifyCloseRange_Desc" rel_version="Weapon_Blunderbuss">I danni subiti si riducono di un {[Type_StatusEffectData.Blunderbuss_FortifyCloseRange.ABSStandard * 100]}%.</string>
+	<string key="Status_ShirkingFire" rel_version="MorePerksV2">Fiamme elusive</string>
+	<string key="Status_ShirkingFire_Description" rel_version="MorePerksV2">Il tuo prossimo attacco infliggerà danni da fuoco aggiuntivi.</string>
+	<string key="Status_ShirkingNature" rel_version="MorePerksV2">Natura elusiva</string>
+	<string key="Status_ShirkingNature_Description" rel_version="MorePerksV2">Il tuo prossimo attacco infliggerà danni da natura aggiuntivi.</string>
+	<string key="Status_ShirkingIce" rel_version="MorePerksV2">Gelo elusivo</string>
+	<string key="Status_ShirkingIce_Description" rel_version="MorePerksV2">Il tuo prossimo attacco infliggerà danni da ghiaccio aggiuntivi.</string>
+	<string key="Status_ShirkingLightning" rel_version="MorePerksV2">Fulmine elusivo</string>
+	<string key="Status_ShirkingLightning_Description" rel_version="MorePerksV2">Il tuo prossimo attacco infliggerà danni da fulmine aggiuntivi.</string>
+	<string key="Status_ShirkingVoid" rel_version="MorePerksV2">Abisso elusivo</string>
+	<string key="Status_ShirkingVoid_Description" rel_version="MorePerksV2">Il tuo prossimo attacco infliggerà danni da Vuoto aggiuntivi.</string>
+	<string key="Status_ShirkingArcane" rel_version="MorePerksV2">Arcano elusivo</string>
+	<string key="Status_ShirkingArcane_Description" rel_version="MorePerksV2">Il tuo prossimo attacco infliggerà danni arcani aggiuntivi.</string>
+	<string key="Status_Timer_DodgeSuccess_Cleanse_Description" rel_version="MorePerksV2">Al termine, potrai riottenere il vantaggio Eliminatore elusivo.</string>
+	<string key="Status_ShirkingFortification" rel_version="MorePerksV2">Fortificazione</string>
+	<string key="Status_DodgeSuccess_Fortify_Description" rel_version="MorePerksV2">Dopo una schivata riuscita, i danni subiti mentre questo effetto è attivo vengono ridotti.</string>
+	<string key="Status_CriticalRetribution" rel_version="MorePerksV2">Castigo critico</string>
+	<string key="Status_CriticalRetribution_Description" rel_version="MorePerksV2">La tua probabilità di colpo critico aumenta finché è attivo.</string>
+	<string key="Status_CriticalRetribution_Timer_Description" rel_version="MorePerksV2">Al termine, potrai riottenere il vantaggio Castigo critico.</string>
+	<string key="Status_StaminaRegen" rel_version="MorePerksV2">Hai un tasso di rigenerazione dell'energia maggiore.</string>
+	<string key="Status_DodgeStamina_Timer_Description" rel_version="MorePerksV2">Al termine, potrai riottenere il vantaggio Energia elusiva.</string>
+	<string key="Status_GatherProc_Heal" rel_version="MorePerksV2">Raccolta di guarigione</string>
+	<string key="Status_GatherProc_Heal_Description" rel_version="MorePerksV2">Rigenera salute con il vantaggio Raccolta del recupero.</string>
 	<string key="Status_MothersLove">Amore materno</string>
 	<string key="Status_MothersLove_Description">Ti avvolge una presenza materna che ti guida, aumentando la fortuna di un {[Type_StatusEffectData.Shrine_MothersLove.GlobalRollMod * 0.01]}% per {[Type_StatusEffectData.Shrine_MothersLove.BaseDuration / 60]} min.</string>
 </resources>

@@ -89,8 +89,8 @@
 	<string key="ui_outpost_rush_signup_goal3">Usa le risorse speciali dell'isola per attaccare e difendere</string>
 	<string key="ui_outpost_rush_signup_points_number">1.000</string>
 	<string key="ui_outpost_rush_signup_points_text">PUNTI</string>
-	<string key="ui_outpost_rush_signup_joinsolo">Partecipa come giocatore singolo</string>
-	<string key="ui_outpost_rush_signup_joingroup">Partecipa con il tuo gruppo</string>
+	<string key="ui_outpost_rush_signup_joinsolo">Gioca</string>
+	<string key="ui_outpost_rush_signup_joingroup">Gioca con il tuo gruppo</string>
 	<string key="ui_outpost_rush_signup_joinmid">Vorrei partecipare alle partite in corso &lt;font color="#ffe940"&gt;(tempo d'attesa più breve)&lt;/font&gt;</string>
 	<string key="ui_outpost_rush_signup_playercount">{playerCount} giocatori</string>
 	<string key="ui_outpost_rush_signup_failsolo">Al momento fai parte di un gruppo e non puoi partecipare come giocatore singolo</string>
@@ -100,6 +100,8 @@
 	<string key="ui_outpost_rush_signup_failwar">Non puoi iscriverti perché hai già effettuato l'iscrizione a una prossima guerra che inizierà entro un'ora.</string>
 	<string key="ui_outpost_rush_signup_failqueue">Non puoi iscriverti perché hai già effettuato l'iscrizione a: {matchname}</string>
 	<string key="ui_outpost_rush_signup_faildungeon">Non puoi iscriverti perché sei nella coda di una spedizione.</string>
+	<string key="ui_outpost_rush_signup_failevent">Non puoi iscriverti perché stai partecipando a un evento.</string>
+	<string key="ui_outpost_rush_signup_failgeneric">In questo momento non puoi iscriverti.</string>
 	<string key="ui_outpost_rush_signup_failgrouptitle">Impossibile partecipare a Carica all'avamposto</string>
 	<string key="ui_outpost_rush_signup_failgrouplevel">Tutti i membri del gruppo devono essere almeno di livello {levelRequirement}.</string>
 	<string key="ui_outpost_rush_signup_failgroupwar">Uno o più membri del tuo gruppo hanno effettuato l'iscrizione a una prossima guerra che inizierà entro un'ora.</string>
@@ -221,5 +223,24 @@
 	<string key="ui_durability_loss_war">Stai partecipando a un guerra (o a un'invasione), perciò il tuo equipaggiamento non ha subito danni alla morte.</string>
 	<string key="ui_item_durability_loss">Tutto l'equipaggiamento nel tuo inventario ha subito danni alla morte.</string>
 	<string key="ui_item_durability_loss_pvp">Sei stato ucciso da un altro giocatore: il tuo equipaggiamento ha subito danni ridotti.</string>
+	<string key="ui_pvp_arena_leave">Abbandona arena PvP</string>
+	<string key="ui_cannot_travel_pvp_arena">Non puoi usare il viaggio veloce quando ti trovi in un'arena PvP</string>
+	<string key="ui_pvp_arena_leave_desc">Vuoi davvero abbandonare l'arena PvP?</string>
+	<string key="ui_pvp_arena_leave_desc_time">Vuoi davvero abbandonare l'arena PvP?\nNon potrai rientrare nella coda di accesso dell'arena PvP per &lt;font color="#ff2e2e"&gt;[{time}]&lt;/font&gt;.</string>
+	<string key="ui_pvp_arena_leave_title">Abbandonare l'arena PvP?</string>
+	<string key="ui_in_spectators_box">Nella postazione dello spettatore</string>
+	<string key="ui_in_spectators_box_description">Armi e abilità disattivate</string>
+	<string key="ui_round_number">Round {number}</string>
+	<string key="ui_match_point">Punto partita</string>
+	<string key="ui_final_round">Round finale</string>
+	<string key="ui_begins_in">Inizia tra:</string>
+	<string key="ui_arena_gas_releases_in" comment="gas was replaced with ring of fire in implementation">L'anello di fuoco chiude tra:</string>
+	<string key="ui_arena_gas_released">Anello di fuoco in chiusura</string>
+	<string key="ui_fight">Combattete!</string>
+	<string key="ui_round_won">Round vinto</string>
+	<string key="ui_round_lost">Round perso</string>
+	<string key="ui_switching_sides">Cambio lato</string>
+	<string key="ui_rounds_won">Round vinti</string>
+	<string key="ui_see_through_label">Modalità Trasparente</string>
 </resources>
 

@@ -448,7 +448,25 @@
 	<string key="9901_0035_GoTo1" speaker="UI">Encuentra la escalinata al Faro de Tirla</string>
 	<string key="9901_0035_GoTo2" speaker="UI">Usa las escaleras para subir hasta el Faro de Tirla</string>
 	<string key="9901_MSQ_Depths2" speaker="UI">Encuentra al comandante Thorpe en Las Profundidades</string>
+	<string key="9901_0036_d_02_Do_Solo" speaker="UI" rel_version="Quest_MSQ_Update_4">Hostiga a los partidarios de Thorpe en el Gran surco</string>
+	<string key="9901_0036_d_00_container_partial_Expedition" speaker="UI" rel_version="Quest_MSQ_Update_4">O:</string>
+	<string key="9901_0036_masterofthetempest_objective_solo_title" speaker="UI" rel_version="Quest_MSQ_Update_4">Rastreando al maestro</string>
+	<string key="9901_0036_masterofthetempest_solo_title_wave1" speaker="UI" rel_version="Quest_MSQ_Update_4">Rastreando al maestro: Etapa 1/5</string>
+	<string key="9901_0036_masterofthetempest_solo_title_wave2" speaker="UI" rel_version="Quest_MSQ_Update_4">Rastreando al maestro: Etapa 2/5</string>
+	<string key="9901_0036_masterofthetempest_solo_title_wave3" speaker="UI" rel_version="Quest_MSQ_Update_4">Rastreando al maestro: Etapa 3/5</string>
+	<string key="9901_0036_masterofthetempest_solo_title_wave4" speaker="UI" rel_version="Quest_MSQ_Update_4">Rastreando al maestro: Etapa 4/5</string>
+	<string key="9901_0036_masterofthetempest_solo_title_wave5" speaker="UI" rel_version="Quest_MSQ_Update_4">Rastreando al maestro: Etapa 5/5</string>
+	<string key="9901_0036_masterofthetempest_solo_objective_desc" speaker="UI" rel_version="Quest_MSQ_Update_4">Como alternativa a desafiar a Thorpe en la expedición a Las Profundidades, trabaja con Titus para hacer que el tirano salga y puedas pelear contra él a tu manera.</string>
+	<string key="9901_0036_masterofthetempest_solo_encounter1" speaker="UI" rel_version="Quest_MSQ_Update_4">Hostiga a los seguidores de Thorpe</string>
+	<string key="9901_0036_masterofthetempest_solo_encounter2" speaker="UI" rel_version="Quest_MSQ_Update_4">Derrota a los partidarios de Thorpe</string>
+	<string key="9901_0036_masterofthetempest_solo_encounter3" speaker="UI" rel_version="Quest_MSQ_Update_4">Derrota a los tenientes de Thorpe</string>
+	<string key="9901_0036_masterofthetempest_solo_encounter4" speaker="UI" rel_version="Quest_MSQ_Update_4">Sobrevive al enjambre invasor</string>
+	<string key="9901_0036_masterofthetempest_solo_encounter5" speaker="UI" rel_version="Quest_MSQ_Update_4">Derrota al comandante Thorpe</string>
+	<string key="9901_0036_masterofthetempest_solo_all" speaker="UI" rel_version="Quest_MSQ_Update_4">Completa el encuentro de misión "Rastreando al maestro"</string>
 	<string key="9901_MSQ_TravelToPOI_Depths" speaker="UI">Entra en la expedición a Las Profundidades y enfréntate al comandante Thorpe [opción grupal]</string>
+	<string key="9901_0036_d_00_container_partial_SoloQuest" rel_version="Quest_MSQ_Update_4">Desafía y derrota al comandante Thorpe:</string>
+	<string key="9901_0036_d_00_TalkToTitus" rel_version="Quest_MSQ_Update_4">Habla con Titus para ver otra opción [opción individual]</string>
+	<string key="9901_0036_d_00_CompleteSolo" rel_version="Quest_MSQ_Update_4">Completar la misión: Rastreando al maestro [opción individual]</string>
 	<string key="9901_0036_masterofthetempest_objective_title" speaker="UI - Quest Title">En las profundidades</string>
 	<string key="9901_0036_masterofthetempest_objective_desc" speaker="UI - Quest Description">Por fin empieza la batalla contra el comandante Thorpe. Ábrete paso por las profundidades y acaba con él.</string>
 	<string key="9901_0036_masterofthetempest_start_prompt" speaker="UI - Player Prompt">"Entonces, ¿todos los demás están muertos?"</string>
@@ -664,14 +682,27 @@
 	<string key="9902_0052_saboteur_complete_available_response_next" speaker="Adiana Theron" name="AdianaTheron" gender="F" VO="9902_0052_saboteur_complete_available_response_prompt" VO_Status="Recorded" dialogue-next="@9902_0052_saboteur_complete_available_response_next2" dialogue-prompt="@9902_0052_saboteur_complete_available_response_prompt">Tu plan para infectar a Motherwell con la plaga es demasiado arriesgado. ¿Y si no logras vencer a la tempestad? \n\nSi la corrupción permanece, perderemos a Motherwell para siempre...</string>
 	<string key="9902_0052_saboteur_complete_available_response_prompt2" speaker="UI - Player Prompt">"La venceré".</string>
 	<string key="9902_0052_saboteur_complete_available_response_next2" speaker="Adiana Theron" name="AdianaTheron" gender="F" VO="9902_0052_saboteur_complete_available_response_prompt2" VO_Status="Recorded" dialogue-prompt="@9902_0052_saboteur_complete_available_response_prompt2">La confianza que pides es demasiada. Las criaturas terrestres enojadas nunca antes han depositado semejante confianza en un humano. \n\nSin embargo, hasta ahora, has demostrado que eres digno de confianza...</string>
+	<string key="9902_0052_d_00_container_partial_Expedition" speaker="UI" rel_version="Quest_MSQ_Update_4">O:</string>
 	<string key="9902_0052_SabotageTheEmpress" speaker="UI">Sabotea la flota en la expedición del astillero de la dinastía</string>
+	<string key="9904_0052_deployblightbombs" speaker="UI" rel_version="Quest_MSQ_Update_4">Coloca bombas de plaga en las pilas de cargamento destinadas a la flota</string>
+	<string key="9904_0052_deployblightbombs1" speaker="UI" rel_version="Quest_MSQ_Update_4">Coloca la 1.ª bomba infecta</string>
+	<string key="9904_0052_deployblightbombs2" speaker="UI" rel_version="Quest_MSQ_Update_4">Coloca la 2.ª bomba infecta</string>
+	<string key="9904_0052_deployblightbombs3" speaker="UI" rel_version="Quest_MSQ_Update_4">Coloca la 3.ª bomba infecta</string>
+	<string key="9904_0052_deployblightbombs4" speaker="UI" rel_version="Quest_MSQ_Update_4">Coloca la 4.ª bomba infecta</string>
+	<string key="9904_0052_deployblightbombs5" speaker="UI" rel_version="Quest_MSQ_Update_4">Coloca la 5.ª bomba infecta</string>
+	<string key="9902_KillGenerals" speaker="UI" rel_version="Quest_MSQ_Update_4">Derrota a los generales de la flota</string>
 	<string key="9902_0052_TravelTo_Empress" speaker="UI">Sabotea la flota en el astillero de la dinastía [opción grupal]</string>
-	<string key="9902_0052_TravelTo_Empress2" speaker="UI">Aventúrate en la expedición del astillero de la dinastía [opción grupal]</string>
+	<string key="9902_0052_TravelTo_Empress2" speaker="UI">Aventúrate en la expedición al astillero de la dinastía</string>
 	<string key="9902_0052_interactship1" speaker="UI">Sabotea la primera nave</string>
 	<string key="9902_0052_interactship2" speaker="UI">Sabotea la segunda nave</string>
 	<string key="9902_0052_interactship3" speaker="UI">Sabotea la tercera nave</string>
 	<string key="9902_0052_interactship4" speaker="UI">Sabotea lo último de la flota corrompida</string>
 	<string key="9902_0052_ChallengeDynasty" speaker="UI">Desafía a la emperatriz cara a cara</string>
+	<string key="9902_0052_d_00_container_partial_SoloQuest" rel_version="Quest_MSQ_Update_4">Libera la plaga y siembra el desorden entre las fuerzas de la emperatriz:</string>
+	<string key="9902_0052_d_00_task_TalkToAdiana" rel_version="Quest_MSQ_Update_4">Habla con Adiana para conocer opciones [opción individual]</string>
+	<string key="9902_0052_d_00_CompleteSolo" rel_version="Quest_MSQ_Update_4">Completar la misión: Ataca las cubiertas [opción individual]</string>
+	<string key="9902_0052_saboteur_solo_objective_title" speaker="UI" rel_version="Quest_MSQ_Update_4">Ataca las cubiertas</string>
+	<string key="9902_0052_saboteur_solo_objective_desc" speaker="UI" rel_version="Quest_MSQ_Update_4">Como alternativa a atacar a la emperatriz y su flota en la expedición del astillero de la dinastía, lleva las bombas de plaga y plántalas en el cargamento destinado a la flota. Mientras estás allí, derrota a los generales de la flota para afectar su liderazgo.</string>
 	<string key="9907_0053_blessingofearth_objective_title" speaker="UI - Quest Title">Bendiciones de la tierra</string>
 	<string key="9907_0053_BlessingsOfTheEarth" speaker="UI">Gana la simpatía de los residentes del claro</string>
 	<string key="9907_0053_blessingofearth_objective_desc" speaker="UI - Quest Description">Haz ofrendas a los aldeanos para ganarte su favor.</string>
@@ -712,8 +743,8 @@
 	<string key="9907_0053_blessingofearth_Ixia_complete_available_response" speaker="Shamaness Ixia" name="ShamanessIxia" gender="F" VO="9906_MSQ_Shamaness_Response_Offering" VO_Status="Recorded" dialogue-next="@9907_0053_blessingofearth_Ixia_complete_available_response_next">La tempestad propaga la corrupción y eclipsa el sol \n\nmi gente no puede acceder al sustento de hoy \n\nahogan sus penas cumpliendo su rol \n\nmi bendición doy</string>
 	<string key="9907_0053_blessingofearth_Ixia_complete_available_response_prompt" speaker="UI - Player Prompt">"Eso espero".</string>
 	<string key="9907_0053_blessingofearth_Ixia_complete_available_response_next" speaker="Shamaness Ixia" name="ShamanessIxia" gender="F" VO="9907_0053_blessingofearth_Ixia_complete_available_response_prompt" VO_Status="Recorded" dialogue-prompt="@9907_0053_blessingofearth_Ixia_complete_available_response_prompt">te has ganado mi bendición</string>
-	<string key="9907_GetEarthspine" speaker="UI">Adquiere un hoja de espina térrea</string>
-	<string key="9907_GetDragonGlory" speaker="UI">Adquiere una flor de dracogloria</string>
+	<string key="9907_GetEarthspine" speaker="UI">Adquiere un tallo de espina térrea</string>
+	<string key="9907_GetDragonGlory" speaker="UI">Adquiere un tallo de dracogloria</string>
 	<string key="9907_GetFungalSpores" speaker="UI">Adquiere esporas fúngicas</string>
 	<string key="9907_GetLodestone" speaker="UI">Adquiere una magnetita impactante</string>
 	<string key="9907_0053_TaskFoodForIxia" speaker="UI">Combina con agua de azoth en un repositorio de artes arcanas</string>
@@ -755,7 +786,7 @@
 	<string key="9910_0056_thetempestsheart_complete_available_response_next_alt" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9909_0044_thetempestsheart_complete_available_response_next_alt" VO_Status="Recorded" dialogue-prompt="@9910_0056_thetempestsheart_complete_available_response_prompt_alt">La cosa es que hay una barrera que bloquea la entrada a Montaña destruida. Hasta que descubramos cómo disiparla, no podemos llegar a la tempestad. \n\nTe prometo que encontraremos la forma. Hasta entonces, hay mucho para hacer aquí.</string>
 	<string key="9910_0057_insoulinstone_objective_title" speaker="UI - Quest Title">El Corazón de la Tempestad</string>
 	<string key="9901_0057_SealTheBreaches" speaker="UI">Ingresa a la Montaña destruida</string>
-	<string key="9910_0057_insoulinstone_objective_desc" speaker="UI - Quest Description">Encuentra a la Tempestad y derrótala</string>
+	<string key="9910_0057_insoulinstone_objective_desc" speaker="UI - Quest Description">Entra a la expedición del Corazón de la tempestad y busca a la mismísima Tempestad (la capitana Isabella). Luego, enfréntate a ella y acaba con su campaña de corrupción.</string>
 	<string key="9910_0057_insoulinstone_start_prompt" speaker="UI - Player Prompt">"En serio, voy a entrar".</string>
 	<string key="9910_0057_insoulinstone_proposal" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9910_0057_insoulinstone_start_prompt" VO_Status="Recorded" dialogue-next="@9910_0057_insoulinstone_proposal_next">Lo siento… Creo que oí mal. ¿Dijiste que necesitas registrarte en la posada? \n\nLo entiendo perfectamente. Sé que has recorrido un largo trayecto. Está justo ahí, por supuesto.</string>
 	<string key="9910_0057_insoulinstone_proposal_prompt" speaker="UI - Player Prompt">"No. Me voy a la montaña".</string>
@@ -765,14 +796,14 @@
 	<string key="9910_0057_insoulinstone_incomplete" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9910_0057_insoulinstone_proposal_next2" VO_Status="Recorded">Solo diré esto: tienes arena.\n\nAdelante, ve a patearle el trasero a la Tempestad. Los guardianes de almas, los que quedamos, te apoyamos en todo.</string>
 	<string key="9910_0057_insoulinstone_complete_available_response" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9910_0057_insoulinstone_incomplete" VO_Status="Recorded" dialogue-next="@9910_0057_insoulinstone_complete_available_response_next">Vaya, tienes un aspecto terrible. Debe haber sido una lucha para la posteridad. Vimos el cambio en la montaña.\n\n¿Eso significa…? No puedo creer que estoy diciendo esto, ¿significa que destruiste a la Tempestad?</string>
 	<string key="9910_0057_insoulinstone_complete_available_response_prompt" speaker="UI - Player Prompt">"Sí, y la principal invasión ha desaparecido".</string>
-	<string key="9901_Enter_Tempest" speaker="UI">Busca a Isabella en el Corazón de la Tempestad</string>
-	<string key="9900_KillQuest_Isabella1" speaker="UI">Encuentra a Isabella y derrótala.</string>
-	<string key="9900_KillQuest_Isabella2" speaker="UI">Encuentra a Isabella y derrótala de una vez por todas.</string>
+	<string key="9901_Enter_Tempest" speaker="UI">Aventúrate en la expedición del Corazón de la tempestad y desafía a la capitana Isabella</string>
+	<string key="9900_KillQuest_Isabella1" speaker="UI">Adéntrate en el Corazón de la tempestad para enfrentar a la capitana Isabella</string>
+	<string key="9900_KillQuest_Isabella2" speaker="UI">Derrota a la capitana Isabella</string>
 	<string key="9900_marabook" speaker="UI">Lee el libro de Isabella</string>
-	<string key="9910_0057_insoulinstone_complete_available_response_next" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9910_0057_insoulinstone_complete_available_response_prompt" VO_Status="Recorded" dialogue-prompt="@9910_0057_insoulinstone_complete_available_response_prompt">¿Ya no… existe? ¿Ganamos…? \n\nNo sé qué decir. Hacía tanto tiempo que no teníamos buenas noticias por aquí que no llego a captarlo. \n\nDebo contarles a los demás. ¡Esto renovará nuestro espíritu de lucha!</string>
+	<string key="9910_0057_insoulinstone_complete_available_response_next" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9910_0057_insoulinstone_complete_available_response_prompt" VO_Status="Recorded" dialogue-prompt="@9910_0057_insoulinstone_complete_available_response_prompt">¿Ya no… existe? ¿Ganamos…? No sé qué decir. Hacía tanto tiempo que no teníamos buenas noticias por aquí que no llego a captarlo. \n\nDebo contarles a los demás. ¡Esto renovará nuestro espíritu de lucha!</string>
 	<string key="9910_0058_finallyexhale_objective_title" speaker="UI - Quest Title">Exhalar al fin</string>
 	<string key="9910_0058_finallyexhale_objective_desc" speaker="UI - Quest Description">Informa a tus amigos de las buenas noticias.</string>
-	<string key="9910_0058_finallyexhale_start_prompt" speaker="UI - Player Prompt">"Lo espero con ansias."</string>
+	<string key="9910_0058_finallyexhale_start_prompt" speaker="UI - Player Prompt">"No voy a discutir eso".</string>
 	<string key="9910_0058_finallyexhale_proposal" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="Warden_9910_0058_finallyexhale_ProposalResponse" VO_Status="Recorded">Seguramente hay otras personas alrededor de Aeternum que se alegrarán con la noticia.\n\nDejaré que seas tú quien comparta la novedad. Gracias, {playerName}. Nunca pensé que este día llegaría.</string>
 	<string key="9910_0058_finallyexhale_incomplete" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="Warden_9910_0058_finallyexhale_InProgResponse" VO_Status="Recorded">Creo que necesitaré tiempo para asimilar este giro de los acontecimientos.</string>
 	<string key="9910_0058_finallyexhale_complete_available_response" speaker="n/a" gender="M">Si perdemos la esperanza, ¿qué nos queda?</string>

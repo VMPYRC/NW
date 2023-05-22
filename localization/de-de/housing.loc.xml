@@ -75,9 +75,9 @@
 	<string key="ui_house_unpaid_taxes_string">Dein Haus (nicht verfügbar)</string>
 	<string key="ui_house_tax">Grundsteuer</string>
 	<string key="ui_house_unpaid_taxes_due_soon">Grundsteuer für {territoryName} fällig in: {time}. Entrichte die Grundsteuer, um weiterhin die Funktionen Schnellreise und Dekorieren zu verwenden</string>
-	<string key="ui_house_overdue_at">Grundsteuer für {territoryName} überfällig. Entrichte die Grundsteuer, um weiterhin die Funktionen Schnellreise und Dekorieren zu verwenden</string>
-	<string key="ui_house_overdue_label">Grundsteuer überfällig</string>
-	<string key="ui_house_overdue_desc">Grundsteuer ist überfällig. Bezahle die Grundsteuer, um dein Haus benutzen zu können.</string>
+	<string key="ui_house_overdue_at">Grundsteuer für {territoryName} ÜBERFÄLLIG. Entrichte die Grundsteuer, um weiterhin die Funktionen Schnellreise und Dekorieren zu verwenden</string>
+	<string key="ui_house_overdue_label">Grundsteuer ÜBERFÄLLIG</string>
+	<string key="ui_house_overdue_desc">Grundsteuer ist ÜBERFÄLLIG. Bezahle die Grundsteuer, um dein Haus benutzen zu können.</string>
 	<string key="ui_housing_cant_afford">Du benötigst mehr Taler, um dieses Haus zu kaufen.</string>
 	<string key="ui_housing_decorate">Dekorieren</string>
 	<string key="ui_housing_decorate_desc">Möbel und Haustiere platzieren</string>
@@ -130,6 +130,8 @@
 	<string key="ui_num_housing_points">{points} Punkte</string>
 	<string key="ui_owner_list">Eigentümerliste</string>
 	<string key="ui_pay_house_tax_fail">Fehler beim Bezahlen der Steuer für das Haus. Versuche es bitte erneut.</string>
+	<string key="ui_property_tax_disabled">Grundsteuer wurde deaktiviert.</string>
+	<string key="ui_property_tax_disabled_short">Grundsteuer deaktiviert</string>
 	<string key="ui_pay_property_tax">Grundsteuer bezahlen</string>
 	<string key="ui_pay_property_tax_popup_desc">Für Rückrufe in dein Haus, um dort zu respawnen und es dekorieren zu können, musst du Grundsteuern zahlen.\nSteuern sind nach dem Kauf nach {firstCycle} fällig und danach alle {otherCycle}.</string>
 	<string key="ui_property_tax">Grundsteuer</string>
@@ -245,5 +247,9 @@
 	<string key="ui_housing_tip_description3">Stelle &lt;font color={colorHex}&gt;Trophäen&lt;/font&gt; auf, um &lt;font color={colorHex}&gt;passive Boni&lt;/font&gt; zu aktivieren.\n\nTipp: Pro Haus können nur maximal 5 Trophäen platziert werden, aber die Effekte von gleichen Trophäen können gestapelt werden.</string>
 	<string key="ui_housing_tip_title4">Alle Gegenstände und Punktzahl</string>
 	<string key="ui_housing_tip_description4">Die Fläche auf der rechten Bildschirmseite zeigt deine &lt;font color={colorHex}&gt;Dekorationspunktzahl&lt;/font&gt; und &lt;font color={colorHex}&gt;Dekorationsgrenzen&lt;/font&gt;.\n\nTipp: Zu viele identische Gegenstände zu platzieren führt zu Abzügen bei deiner Dekorationspunktzahl.</string>
+	<string key="ui_fast_travel_charted_point">Schnellreisepunkt</string>
+	<string key="ui_fast_travel_uncharted_point">Unentdeckter Schnellreisepunkt</string>
+	<string key="ui_fast_travel_shrine_activated_header">Schnellreiseschrein</string>
+	<string key="ui_fast_travel_shrine_activated_body">Neuer Schnellreisepunkt aktiviert!</string>
 </resources>
 

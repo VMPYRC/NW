@@ -448,7 +448,25 @@
 	<string key="9901_0035_GoTo1" speaker="UI">Trouver l'escalier de la balise de Tirla</string>
 	<string key="9901_0035_GoTo2" speaker="UI">Monter les escaliers qui mènent à la balise de Tirla</string>
 	<string key="9901_MSQ_Depths2" speaker="UI">Trouver le commandant Thorpe dans les Profondeurs</string>
+	<string key="9901_0036_d_02_Do_Solo" speaker="UI" rel_version="Quest_MSQ_Update_4">Persécuter les fidèles de Thorpe dans la grande Faille</string>
+	<string key="9901_0036_d_00_container_partial_Expedition" speaker="UI" rel_version="Quest_MSQ_Update_4">OU :</string>
+	<string key="9901_0036_masterofthetempest_objective_solo_title" speaker="UI" rel_version="Quest_MSQ_Update_4">Harceler le maître</string>
+	<string key="9901_0036_masterofthetempest_solo_title_wave1" speaker="UI" rel_version="Quest_MSQ_Update_4">Harceler le maître : étape 1/5</string>
+	<string key="9901_0036_masterofthetempest_solo_title_wave2" speaker="UI" rel_version="Quest_MSQ_Update_4">Harceler le maître : étape 2/5</string>
+	<string key="9901_0036_masterofthetempest_solo_title_wave3" speaker="UI" rel_version="Quest_MSQ_Update_4">Harceler le maître : étape 3/5</string>
+	<string key="9901_0036_masterofthetempest_solo_title_wave4" speaker="UI" rel_version="Quest_MSQ_Update_4">Harceler le maître : étape 4/5</string>
+	<string key="9901_0036_masterofthetempest_solo_title_wave5" speaker="UI" rel_version="Quest_MSQ_Update_4">Harceler le maître : étape 5/5</string>
+	<string key="9901_0036_masterofthetempest_solo_objective_desc" speaker="UI" rel_version="Quest_MSQ_Update_4">Une alternative à l'expédition dans les Profondeurs pour affronter Thorpe est de travailler avec Titus pour attirer le tyran et le combattre où vous le souhaitez.</string>
+	<string key="9901_0036_masterofthetempest_solo_encounter1" speaker="UI" rel_version="Quest_MSQ_Update_4">Harceler les partisans de Thorpe</string>
+	<string key="9901_0036_masterofthetempest_solo_encounter2" speaker="UI" rel_version="Quest_MSQ_Update_4">Venir à bout des fidèles de Thorpe</string>
+	<string key="9901_0036_masterofthetempest_solo_encounter3" speaker="UI" rel_version="Quest_MSQ_Update_4">Vaincre les lieutenants de Thorpe</string>
+	<string key="9901_0036_masterofthetempest_solo_encounter4" speaker="UI" rel_version="Quest_MSQ_Update_4">Survivre à la horde d'envahisseurs</string>
+	<string key="9901_0036_masterofthetempest_solo_encounter5" speaker="UI" rel_version="Quest_MSQ_Update_4">Vaincre le commandant Thorpe</string>
+	<string key="9901_0036_masterofthetempest_solo_all" speaker="UI" rel_version="Quest_MSQ_Update_4">Terminer la confrontation « Harceler le maître »</string>
 	<string key="9901_MSQ_TravelToPOI_Depths" speaker="UI">Commencer l'expédition dans les Profondeurs et affronter le commandant Thorpe [groupe]</string>
+	<string key="9901_0036_d_00_container_partial_SoloQuest" rel_version="Quest_MSQ_Update_4">Défier et venir à bout du commandant Thorpe :</string>
+	<string key="9901_0036_d_00_TalkToTitus" rel_version="Quest_MSQ_Update_4">Parler à Titus pour choisir une autre option [solo]</string>
+	<string key="9901_0036_d_00_CompleteSolo" rel_version="Quest_MSQ_Update_4">Terminer la quête : Harceler le maître [solo]</string>
 	<string key="9901_0036_masterofthetempest_objective_title" speaker="UI - Quest Title">Dans les Profondeurs</string>
 	<string key="9901_0036_masterofthetempest_objective_desc" speaker="UI - Quest Description">Le moment est venu de combattre le commandant Thorpe. Traversez les Profondeurs et éliminez-le.</string>
 	<string key="9901_0036_masterofthetempest_start_prompt" speaker="UI - Player Prompt">« Alors tout le monde est mort ? »</string>
@@ -664,14 +682,27 @@
 	<string key="9902_0052_saboteur_complete_available_response_next" speaker="Adiana Theron" name="AdianaTheron" gender="F" VO="9902_0052_saboteur_complete_available_response_prompt" VO_Status="Recorded" dialogue-next="@9902_0052_saboteur_complete_available_response_next2" dialogue-prompt="@9902_0052_saboteur_complete_available_response_prompt">Il me paraît bien trop risqué de vicier le puits-mère. Qu'arrivera-t-il si vous échouez face à la Tempête ? \n\nSi l'altération triomphe, nous ne le récupérerons jamais...</string>
 	<string key="9902_0052_saboteur_complete_available_response_prompt2" speaker="UI - Player Prompt">« Je n'échouerai pas. »</string>
 	<string key="9902_0052_saboteur_complete_available_response_next2" speaker="Adiana Theron" name="AdianaTheron" gender="F" VO="9902_0052_saboteur_complete_available_response_prompt2" VO_Status="Recorded" dialogue-prompt="@9902_0052_saboteur_complete_available_response_prompt2">Vous nous demandez de tout miser sur vous. Jamais la Terre enragée n'a eu à ce point confiance en un être humain. \n\nMais il est vrai que jusqu'à maintenant, vous avez prouvé votre valeur...</string>
+	<string key="9902_0052_d_00_container_partial_Expedition" speaker="UI" rel_version="Quest_MSQ_Update_4">OU :</string>
 	<string key="9902_0052_SabotageTheEmpress" speaker="UI">Saboter la flotte à l'expédition du chantier naval de la dynastie</string>
+	<string key="9904_0052_deployblightbombs" speaker="UI" rel_version="Quest_MSQ_Update_4">Placer des bombes de dépérissement dans les cargaisons destinées à la flotte</string>
+	<string key="9904_0052_deployblightbombs1" speaker="UI" rel_version="Quest_MSQ_Update_4">Placer la 1re bombe de dépérissement</string>
+	<string key="9904_0052_deployblightbombs2" speaker="UI" rel_version="Quest_MSQ_Update_4">Placer la 2e bombe de dépérissement</string>
+	<string key="9904_0052_deployblightbombs3" speaker="UI" rel_version="Quest_MSQ_Update_4">Placer la 3e bombe de dépérissement</string>
+	<string key="9904_0052_deployblightbombs4" speaker="UI" rel_version="Quest_MSQ_Update_4">Placer la 4e bombe de dépérissement</string>
+	<string key="9904_0052_deployblightbombs5" speaker="UI" rel_version="Quest_MSQ_Update_4">Placer la 5e bombe de dépérissement</string>
+	<string key="9902_KillGenerals" speaker="UI" rel_version="Quest_MSQ_Update_4">Vaincre les généraux de la flotte</string>
 	<string key="9902_0052_TravelTo_Empress" speaker="UI">Saboter la flotte au chantier naval de la dynastie [Groupe]</string>
-	<string key="9902_0052_TravelTo_Empress2" speaker="UI">S'aventurer dans l'expédition du chantier naval de la dynastie [Groupe]</string>
+	<string key="9902_0052_TravelTo_Empress2" speaker="UI">S'aventurer dans l'expédition du chantier naval de la dynastie</string>
 	<string key="9902_0052_interactship1" speaker="UI">Saboter le premier navire</string>
 	<string key="9902_0052_interactship2" speaker="UI">Saboter le second navire</string>
 	<string key="9902_0052_interactship3" speaker="UI">Saboter le troisième navire</string>
 	<string key="9902_0052_interactship4" speaker="UI">Saboter la dernière flotte d'altérés</string>
 	<string key="9902_0052_ChallengeDynasty" speaker="UI">Défier directement l'impératrice</string>
+	<string key="9902_0052_d_00_container_partial_SoloQuest" rel_version="Quest_MSQ_Update_4">Semer le dépérissement et le chaos parmi les forces de l'impératrice :</string>
+	<string key="9902_0052_d_00_task_TalkToAdiana" rel_version="Quest_MSQ_Update_4">Parler à Adiana pour connaître les différentes options [Solo]</string>
+	<string key="9902_0052_d_00_CompleteSolo" rel_version="Quest_MSQ_Update_4">Terminer la quête : Frapper les quais [Solo]</string>
+	<string key="9902_0052_saboteur_solo_objective_title" speaker="UI" rel_version="Quest_MSQ_Update_4">Frapper les quais</string>
+	<string key="9902_0052_saboteur_solo_objective_desc" speaker="UI" rel_version="Quest_MSQ_Update_4">Au lieu d'attaquer l'impératrice et sa flotte à l'expédition du chantier naval de la dynastie, prenez les bombes de dépérissement et placez-les dans la cargaison qui doit être chargée dans les navires de la flotte. Pendant que vous y êtes, venez à bout des généraux de la flotte pour perturber leur chaîne de commandement.</string>
 	<string key="9907_0053_blessingofearth_objective_title" speaker="UI - Quest Title">Bénédictions de la terre</string>
 	<string key="9907_0053_BlessingsOfTheEarth" speaker="UI">Gagner la faveur des habitants de la clairière</string>
 	<string key="9907_0053_blessingofearth_objective_desc" speaker="UI - Quest Description">Pour gagner la faveur des habitants des lieux, faites-leur des offrandes.</string>
@@ -712,8 +743,8 @@
 	<string key="9907_0053_blessingofearth_Ixia_complete_available_response" speaker="Shamaness Ixia" name="ShamanessIxia" gender="F" VO="9906_MSQ_Shamaness_Response_Offering" VO_Status="Recorded" dialogue-next="@9907_0053_blessingofearth_Ixia_complete_available_response_next">La tempête s'étend, l'altération obscurcit le soleil \n\nLes miens ne peuvent faire pousser ni légumes ni fruits \n\nL'artisanat vient guérir leurs maux nonpareils \n\nDe ma bénédiction je les suis</string>
 	<string key="9907_0053_blessingofearth_Ixia_complete_available_response_prompt" speaker="UI - Player Prompt">« J'espère bien. »</string>
 	<string key="9907_0053_blessingofearth_Ixia_complete_available_response_next" speaker="Shamaness Ixia" name="ShamanessIxia" gender="F" VO="9907_0053_blessingofearth_Ixia_complete_available_response_prompt" VO_Status="Recorded" dialogue-prompt="@9907_0053_blessingofearth_Ixia_complete_available_response_prompt">Vous avez ma bénédiction</string>
-	<string key="9907_GetEarthspine" speaker="UI">Obtenir une feuille de pique-terre</string>
-	<string key="9907_GetDragonGlory" speaker="UI">Obtenir une fleur de dragloire</string>
+	<string key="9907_GetEarthspine" speaker="UI">Obtenir une tige de pique-terre</string>
+	<string key="9907_GetDragonGlory" speaker="UI">Obtenir une tige de dragloire</string>
 	<string key="9907_GetFungalSpores" speaker="UI">Obtenir des spores fongiques</string>
 	<string key="9907_GetLodestone" speaker="UI">Obtenir une magnétite foudroyante</string>
 	<string key="9907_0053_TaskFoodForIxia" speaker="UI">Combiner avec de l'eau azothée dans une réserve dédiée aux arts obscurs</string>
@@ -755,7 +786,7 @@
 	<string key="9910_0056_thetempestsheart_complete_available_response_next_alt" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9909_0044_thetempestsheart_complete_available_response_next_alt" VO_Status="Recorded" dialogue-prompt="@9910_0056_thetempestsheart_complete_available_response_prompt_alt">Le problème, c'est que la Montagne du Haut-Chaos est protégée par une barrière. La Tempête sera hors d'atteinte tant que nous ne pourrons pas la dissiper. \n\nJe vous promets que nous trouverons une solution. En attendant, il reste fort à faire ici.</string>
 	<string key="9910_0057_insoulinstone_objective_title" speaker="UI - Quest Title">Le cœur de la Tempête</string>
 	<string key="9901_0057_SealTheBreaches" speaker="UI">Entrer dans la Montagne du Haut-Chaos</string>
-	<string key="9910_0057_insoulinstone_objective_desc" speaker="UI - Quest Description">Trouvez et terrassez la Tempête</string>
+	<string key="9910_0057_insoulinstone_objective_desc" speaker="UI - Quest Description">Commencez l'expédition dans le cœur de la Tempête et cherchez le cœur de la Tempête en personne, le capitaine Isabella. Ensuite, affrontez-la pour mettre un terme à sa campagne d'altération.</string>
 	<string key="9910_0057_insoulinstone_start_prompt" speaker="UI - Player Prompt">« Je vais me rendre dans la montagne. »</string>
 	<string key="9910_0057_insoulinstone_proposal" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9910_0057_insoulinstone_start_prompt" VO_Status="Recorded" dialogue-next="@9910_0057_insoulinstone_proposal_next">Désolée... j'ai dû mal comprendre. Vous avez dit que vous cherchiez une auberge de campagne ? \n\nC'est bien normal. Vous avez besoin de vous reposer, après ce long voyage. L'auberge est par ici.</string>
 	<string key="9910_0057_insoulinstone_proposal_prompt" speaker="UI - Player Prompt">« Non. Je vais dans la montagne. »</string>
@@ -765,14 +796,14 @@
 	<string key="9910_0057_insoulinstone_incomplete" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9910_0057_insoulinstone_proposal_next2" VO_Status="Recorded">Je dois dire que vous avez du cran.\n\nAllez-y, bottez les fesses de la Tempête. Les Protecteurs des âmes sont derrière vous... du moins, ce qu'il en reste.</string>
 	<string key="9910_0057_insoulinstone_complete_available_response" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9910_0057_insoulinstone_incomplete" VO_Status="Recorded" dialogue-next="@9910_0057_insoulinstone_complete_available_response_next">Oh là, vous faites peine à voir. Ça a dû être un combat mémorable. Nous avons senti le changement dans la montagne.\n\nEst-ce que ça veut dire que... j'ose à peine le dire... que la Tempête a été vaincue ?</string>
 	<string key="9910_0057_insoulinstone_complete_available_response_prompt" speaker="UI - Player Prompt">« Oui, et la brèche principale a été scellée. »</string>
-	<string key="9901_Enter_Tempest" speaker="UI">Chercher Isabella au Cœur de la Tempête</string>
-	<string key="9900_KillQuest_Isabella1" speaker="UI">Trouvez et éliminez Isabella.</string>
-	<string key="9900_KillQuest_Isabella2" speaker="UI">Trouvez et éliminez Isabella une bonne fois pour toutes.</string>
+	<string key="9901_Enter_Tempest" speaker="UI">S'aventurer dans l'expédition du cœur de la Tempête et défier le capitaine Isabella</string>
+	<string key="9900_KillQuest_Isabella1" speaker="UI">Pénétrer plus profondément dans le cœur de la Tempête pour affronter le capitaine Isabella</string>
+	<string key="9900_KillQuest_Isabella2" speaker="UI">Vaincre le capitaine Isabella</string>
 	<string key="9900_marabook" speaker="UI">Lire le livre d'Isabella</string>
-	<string key="9910_0057_insoulinstone_complete_available_response_next" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9910_0057_insoulinstone_complete_available_response_prompt" VO_Status="Recorded" dialogue-prompt="@9910_0057_insoulinstone_complete_available_response_prompt">Vraiment... ? Alors nous avons... gagné ? \n\nJe ne sais pas quoi dire. Cela fait bien longtemps que nous n'avions pas eu de bonnes nouvelles par ici, on ne sait plus trop comment les prendre. \n\nJe vais aller le dire aux autres. Cela renforcera notre pugnacité !</string>
+	<string key="9910_0057_insoulinstone_complete_available_response_next" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="9910_0057_insoulinstone_complete_available_response_prompt" VO_Status="Recorded" dialogue-prompt="@9910_0057_insoulinstone_complete_available_response_prompt">Vraiment... ? Alors nous avons... gagné ? Je ne sais pas quoi dire. Cela fait bien longtemps que nous n'avions pas eu de bonnes nouvelles par ici, on ne sait plus trop comment les prendre. \n\nJe vais aller le dire aux autres. Cela renforcera notre pugnacité !</string>
 	<string key="9910_0058_finallyexhale_objective_title" speaker="UI - Quest Title">Souffler, enfin</string>
 	<string key="9910_0058_finallyexhale_objective_desc" speaker="UI - Quest Description">Annoncez la bonne nouvelle à vos amis.</string>
-	<string key="9910_0058_finallyexhale_start_prompt" speaker="UI - Player Prompt">« J'ai hâte. »</string>
+	<string key="9910_0058_finallyexhale_start_prompt" speaker="UI - Player Prompt">« Je ne peux pas vous le reprocher. »</string>
 	<string key="9910_0058_finallyexhale_proposal" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="Warden_9910_0058_finallyexhale_ProposalResponse" VO_Status="Recorded">Je suis sûre qu'il y a d'autres personnes partout en Aeternum qui seraient ravies d'apprendre la nouvelle.\n\nJe vais vous laisser l'annoncer. Merci, {playerName}. Je n'aurais jamais cru que ce jour viendrait.</string>
 	<string key="9910_0058_finallyexhale_incomplete" speaker="Warden Yseult" name="WardenYseult" gender="F" VO="Warden_9910_0058_finallyexhale_InProgResponse" VO_Status="Recorded">Je vais avoir besoin d'un certain temps pour réaliser que tout est terminé.</string>
 	<string key="9910_0058_finallyexhale_complete_available_response" speaker="n/a" gender="M">Si nous n'avons pas d'espoir, qu'est-ce qu'il nous reste ?</string>
@@ -791,7 +822,7 @@
 	<string key="9926_0101_TenaciousRose_objective_title" speaker="UI - Quest Title" rel_version="AI_Evil_Knights_P1">Rose l'obstinée</string>
 	<string key="9926_0101_TenaciousRose_objective_desc" speaker="UI - Quest Description" rel_version="AI_Evil_Knights_P1">De mystérieux pillards ont pris possession des ruines du donjon de Champierre où vivait Abigaïl Rose. Elle vous a demandé de découvrir qui ils sont, la raison de leur présence et comment elle peut s'en débarrasser.</string>
 	<string key="9926_0101_TenaciousRose_start_prompt" speaker="UI - Player Prompt" rel_version="AI_Evil_Knights_P1">« Doucement ! Vous avez l'air à cran. »</string>
-	<string key="9926_0101_TenaciousRose_proposal" speaker="Abigail Rose" name="AbigailRose" gender="F" VO="9926_0101_TenaciousRose_proposal" VO_Status="Recorded" dialogue-next="@9926_0101_TenaciousRose_proposal_next" rel_version="AI_Evil_Knights_P1">Ici, rester sur ses gardes est primordial, au risque de rejoindre les altérés ou les dévoyés ! \n\nN'essayez pas de me faire croire que je serais plus en sécurité dans une colonie ! Je ne laisserai pas mon avenir aux mains d'un administrateur inepte !</string>
+	<string key="9926_0101_TenaciousRose_proposal" speaker="Abigail Rose" name="AbigailRose" gender="F" VO="9926_0101_TenaciousRose_proposal" VO_Status="Recorded" dialogue-next="@9926_0101_TenaciousRose_proposal_next" rel_version="AI_Evil_Knights_P1">Ici, rester sur ses gardes est primordial, au risque de rejoindre les altérés ou les dévoyés ! \n\nEt n'essayez pas de me faire croire que je serais plus en sécurité dans une colonie ! Je ne laisserai pas mon avenir aux mains d'un administrateur inepte !</string>
 	<string key="9926_0101_TenaciousRose_proposal_prompt" speaker="UI - Player Prompt" rel_version="AI_Evil_Knights_P1">« Vous préférez donc vivre ici ? »</string>
 	<string key="9926_0101_TenaciousRose_proposal_next" speaker="Abigail Rose" name="AbigailRose" gender="F" VO="9926_0101_TenaciousRose_proposal_next" VO_Status="Recorded" dialogue-next="@9926_0101_TenaciousRose_proposal_next2" dialogue-prompt="@9926_0101_TenaciousRose_proposal_prompt" rel_version="AI_Evil_Knights_P1">Tout à fait... enfin jusqu'à il y a peu ! Je vivais dans le donjon de Champierre, un peu plus loin sur la route, jusqu'à ce que ces porcs de soldats l'investissent ! \n\nJe ne reconnais pas leurs bannières. J'ignore qui ils sont ou pour quelle raison ils ont élu domicile ici, mais je veux qu'ils déguerpissent !</string>
 	<string key="9926_0101_TenaciousRose_proposal_prompt2" speaker="UI - Player Prompt" gender="F" rel_version="AI_Evil_Knights_P1">« Je peux faire quelque chose pour vous aider ? »</string>

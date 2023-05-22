@@ -78,7 +78,7 @@
 	<string key="owg_factionwarinfo_title_2_desc_2_bullet_3">Gegnerische Fraktionen &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;schwächen&lt;/font&gt; die Kontrolle feindlicher Fraktionen durch den Abschluss von PvP-Fraktionsmissionen.</string>
 	<string key="owg_factionwarinfo_title_2_desc_2_bullet_4">Gewinne genug Einfluss, um die Gebietskontrolle per Kriegserklärung streitig zu machen.</string>
 	<string key="owg_factionwarinfo_title_2_desc_3">Fraktionskrieg</string>
-	<string key="owg_factionwarinfo_title_2_desc_3_bullet_1">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;50-gegen-50&lt;/font&gt;-Belagerungskampf an der Gebietsfestung.</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_1">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{maxRosterMembers}-gegen-{maxRosterMembers}&lt;/font&gt;-Belagerungskampf an der Gebietsfestung.</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_2">Benutze verschiedene &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Belagerungswaffen&lt;/font&gt;, um die Oberhand über deine Gegner zu gewinnen.</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_3">Das Ziel des Angreifers besteht darin, den Eroberungspunkt im &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Herzen der Festung&lt;/font&gt; einzunehmen.</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_4">Das Ziel des Verteidigers besteht darin, &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;die Angreifer für 30 Minuten abzuwehren&lt;/font&gt;.</string>
@@ -487,5 +487,9 @@
 	<string key="FactionMission_ASSASSINATE_ELITE_NIGHT_desc">Der Gegner &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; muss für die Marodeure beseitigt werden.\n\nBeweise deine Tapferkeit, indem du ihn an folgendem Ort aufspürst und tötest: {POITags}.\n&lt;font color="#eaeaea"&gt;(Elite – Gegner ist nachtaktiv)&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_NIGHT_desc">Der Gegner &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; muss für das Syndikat beseitigt werden.\n\nSpüre ihn an folgendem Ort auf und vernichte ihn: {POITags}.\n&lt;font color="#eaeaea"&gt;(Elite – Gegner ist nachtaktiv)&lt;/font&gt;</string>
 	<string key="FactionMission_C_ASSASSINATE_ELITE_NIGHT_desc">Der Gegner &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; muss für das Bündnis beseitigt werden.\n\nBeweise deine Hingabe, indem du ihn an folgendem Ort aufspürst und tötest: {POITags}.\n &lt;font color="#eaeaea"&gt;(Elite – Gegner ist nachtaktiv)&lt;/font&gt;</string>
+	<string key="FactionMission_BREACH_title" rel_version="Quest_FM_BreachMissions">Verderbnisausbruch</string>
+	<string key="FactionMission_BREACH_desc" rel_version="Quest_FM_BreachMissions">Marodeure erdulden es nicht, dass die &lt;font color="#eaeaea"&gt;Verderbnis&lt;/font&gt; in unsere Gebiete eindringt.\n\nWenn du einen Ausbruch siehst, verschließe ihn wieder.</string>
+	<string key="FactionMission_S_BREACH_desc" rel_version="Quest_FM_BreachMissions">Wir haben nun die Macht, das Vordringen der &lt;font color="#eaeaea"&gt;Verderbnis&lt;/font&gt; zu verhindern.\n\nVersiegle alle &lt;font color="#eaeaea"&gt;Verderbnisausbrüche&lt;/font&gt;, die du siehst.</string>
+	<string key="CMissionAcquireLeather_Name_WC" rel_version="Event_WinterConvergence_Temp">Festliche Gerber gesucht</string>
 </resources>
 

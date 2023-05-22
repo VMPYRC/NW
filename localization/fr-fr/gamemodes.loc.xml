@@ -1,7 +1,7 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="ui_queue_waiting">En attente...</string>
-	<string key="ui_queue_elapsed">Écoulé</string>
-	<string key="ui_queue_expected">Attendu</string>
+	<string key="ui_queue_elapsed">Temps écoulé</string>
+	<string key="ui_queue_expected">Temps estimé</string>
 	<string key="ui_queue_leave_group">Quitter le groupe</string>
 	<string key="ui_queue_leave_group_confirm_title">Quitter le groupe</string>
 	<string key="ui_queue_leave_group_confirm_message">Si la taille du groupe est inférieure à {minGroupSize} membres, le groupe sera retiré de la file d'attente.\n\nConfirmer ?</string>
@@ -89,8 +89,8 @@
 	<string key="ui_outpost_rush_signup_goal3">Utilisez les ressources spéciales de l'île pour attaquer et vous défendre.</string>
 	<string key="ui_outpost_rush_signup_points_number">1 000</string>
 	<string key="ui_outpost_rush_signup_points_text">POINTS</string>
-	<string key="ui_outpost_rush_signup_joinsolo">Rejoindre en solo</string>
-	<string key="ui_outpost_rush_signup_joingroup">Rejoindre avec votre groupe</string>
+	<string key="ui_outpost_rush_signup_joinsolo">Jouer</string>
+	<string key="ui_outpost_rush_signup_joingroup">Jouer avec votre groupe</string>
 	<string key="ui_outpost_rush_signup_joinmid">J'aimerais rejoindre des matchs en cours &lt;font color="#ffe940"&gt;(temps d'attente réduit)&lt;/font&gt;</string>
 	<string key="ui_outpost_rush_signup_playercount">{playerCount} joueurs</string>
 	<string key="ui_outpost_rush_signup_failsolo">Vous êtes actuellement dans un groupe et ne pouvez pas rejoindre la partie en solo.</string>
@@ -100,6 +100,8 @@
 	<string key="ui_outpost_rush_signup_failwar">Vous ne pouvez pas vous inscrire car vous participez déjà à une guerre à venir qui commence d'ici une heure.</string>
 	<string key="ui_outpost_rush_signup_failqueue">Vous ne pouvez pas vous inscrire car vous participez déjà à {matchname}.</string>
 	<string key="ui_outpost_rush_signup_faildungeon">Vous ne pouvez pas vous inscrire car vous êtes déjà dans la file d'attente d'une expédition.</string>
+	<string key="ui_outpost_rush_signup_failevent">Vous ne pouvez pas vous inscrire car vous êtes actuellement dans un événement.</string>
+	<string key="ui_outpost_rush_signup_failgeneric">Vous ne pouvez pas vous inscrire maintenant.</string>
 	<string key="ui_outpost_rush_signup_failgrouptitle">Impossible de rejoindre la Déferlante</string>
 	<string key="ui_outpost_rush_signup_failgrouplevel">Tous les membres du groupe doivent avoir atteint le niveau {levelRequirement}.</string>
 	<string key="ui_outpost_rush_signup_failgroupwar">Un ou plusieurs membres de votre groupe participent déjà à une guerre à venir dans l'heure.</string>
@@ -137,8 +139,8 @@
 	<string key="ui_outpost_rush_match_started_desc">Capturez des avant-postes et tuez les ennemis pour marquer des points. La première équipe à atteindre {value} points l'emporte !</string>
 	<string key="ui_outpost_rush_score_to_win">{value} requis pour gagner</string>
 	<string key="ui_outpost_rush_leave">Quitter la Déferlante</string>
-	<string key="ui_outpost_rush_leave_queue_title">Quitter la queue de la Déferlante ?</string>
-	<string key="ui_outpost_rush_leave_queue_desc">Voulez-vous vraiment quitter la queue de la Déferlante ?</string>
+	<string key="ui_outpost_rush_leave_queue_title">Quitter la file de la Déferlante ?</string>
+	<string key="ui_outpost_rush_leave_queue_desc">Voulez-vous vraiment quitter la file de la Déferlante ?</string>
 	<string key="ui_outpost_rush_leave_title">Quitter la Déferlante ?</string>
 	<string key="ui_outpost_rush_leave_desc">Voulez-vous vraiment quitter la Déferlante ?</string>
 	<string key="ui_outpost_rush_leave_desc_time">Voulez-vous vraiment quitter la Déferlante ?\nVous ne pourrez plus rejoindre la file d'attente de la Déferlante avant {time}.</string>
@@ -221,5 +223,24 @@
 	<string key="ui_durability_loss_war">Vous êtes en guerre (ou dans une invasion), votre équipement n'a pas été endommagé lors de votre mort.</string>
 	<string key="ui_item_durability_loss">Votre mort a endommagé tout votre équipement.</string>
 	<string key="ui_item_durability_loss_pvp">Vous avez été tué(e) par un autre joueur, votre équipement a subi des dégâts réduits.</string>
+	<string key="ui_pvp_arena_leave">Quitter l'arène JcJ</string>
+	<string key="ui_cannot_travel_pvp_arena">Transfert rapide impossible lorsque vous êtes dans une arène JcJ.</string>
+	<string key="ui_pvp_arena_leave_desc">Voulez-vous vraiment quitter l'arène JcJ ?</string>
+	<string key="ui_pvp_arena_leave_desc_time">Voulez-vous vraiment quitter l'arène JcJ ?\nVous ne pourrez pas rejoindre la file d'attente de l'arène JcJ avant &lt;font color="#ff2e2e"&gt;[{time}]&lt;/font&gt;.</string>
+	<string key="ui_pvp_arena_leave_title">Quitter l'arène JcJ ?</string>
+	<string key="ui_in_spectators_box">Dans la zone des spectateurs</string>
+	<string key="ui_in_spectators_box_description">Armes et capacités désactivées</string>
+	<string key="ui_round_number">Manche {number}</string>
+	<string key="ui_match_point">Point décisif</string>
+	<string key="ui_final_round">Manche finale</string>
+	<string key="ui_begins_in">Commence dans :</string>
+	<string key="ui_arena_gas_releases_in" comment="gas was replaced with ring of fire in implementation">L'anneau de feu se ferme dans :</string>
+	<string key="ui_arena_gas_released">Fermeture de l'anneau de feu</string>
+	<string key="ui_fight">Aux armes !</string>
+	<string key="ui_round_won">Manche gagnée</string>
+	<string key="ui_round_lost">Manche perdue</string>
+	<string key="ui_switching_sides">Changement de côté</string>
+	<string key="ui_rounds_won">Manches gagnées</string>
+	<string key="ui_see_through_label">Mode transparent</string>
 </resources>
 

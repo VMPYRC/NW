@@ -324,7 +324,7 @@
 	<string key="ui_wardeclarationpopup_attackinfopopup_title">Bevor du einen Krieg erklärst …</string>
 	<string key="ui_wardeclarationpopup_attackinfopopup_message">Denk daran, dass die &lt;font color={defendingColorHex}&gt;verteidigende Kompanie einen Krieg fortsetzen kann,&lt;/font&gt;\nindem sie in der &lt;font color={resolutionPhaseColor}&gt;Auflösungsphase&lt;/font&gt; einen &lt;font color={counterAttackColor}&gt;Gegenangriff&lt;/font&gt; einleitet.\n\nWenn ein Gegenangriff eingeleitet wird, wird die &lt;font color={situationReversedColor}&gt;Situation umgekehrt&lt;/font&gt;.\nDeine Kompanie muss ihren Gebietsanspruch verteidigen und der Gegner greift an!</string>
 	<string key="ui_wardeclarationpopup_declare_title">Kriegserklärung</string>
-	<string key="ui_wardeclarationpopup_declare_message">Nachdem ein Krieg erklärt wurde, kann deine Kompanie das Fort für 30 Minuten mit bis zu 50 Spielern angreifen.\nSchafft es deine Kompanie, die Gebietsanspruchsmarkierung in dem Fort zu erobern, wird deine Kompanie zum Gouverneur des Gebiets.</string>
+	<string key="ui_wardeclarationpopup_declare_message">Nachdem ein Krieg erklärt wurde, kann deine Kompanie das Fort für 30 Minuten mit bis zu {maxRosterMembers} Spielern angreifen.\nSchafft es deine Kompanie, die Gebietsanspruchsmarkierung in dem Fort zu erobern, wird deine Kompanie zum Gouverneur des Gebiets.</string>
 	<string key="ui_wardeclarationpopup_declare_image_war">Krieg erklären</string>
 	<string key="ui_wardeclarationpopup_declare_image_attack">Fort angreifen</string>
 	<string key="ui_wardeclarationpopup_declare_image_territory">Gebiet beanspruchen</string>
@@ -398,7 +398,7 @@
 	<string key="ui_contesting">Konfrontation</string>
 	<string key="ui_point_taken">Versammlungsort eingenommen</string>
 	<string key="ui_warphase_resolution">Auflösung</string>
-	<string key="ui_warphase_scoutingdesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;VORBEREITUNGSPHASE&lt;/font&gt;&lt;/font&gt;\n\nAlle Kämpfer müssen sich in der Kriegsübersicht des Gebiets anmelden und der Gouverneur muss sie auf die 50 verfügbaren Plätze aufteilen.</string>
+	<string key="ui_warphase_scoutingdesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;VORBEREITUNGSPHASE&lt;/font&gt;&lt;/font&gt;\n\nAlle Kämpfer müssen sich in der Kriegsübersicht des Gebiets anmelden und der Gouverneur muss sie auf die {maxRosterMembers} verfügbaren Plätze aufteilen.</string>
 	<string key="ui_warphase_battledesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;KAMPFPHASE&lt;/font&gt;&lt;/font&gt;\n\nDiese Phase ist veraltet und sollte nicht erscheinen.</string>
 	<string key="ui_warphase_resolutiondesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;AUFLÖSUNGSPHASE&lt;/font&gt;&lt;/font&gt;\n\nKriegsabschluss. Eine Übersicht über den Ausgang des Krieges. Alle Kämpfer werden in die Siedlung des Gebiets teleportiert.</string>
 	<string key="ui_warphase_siegedesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;BELAGERUNGSZEITFENSTER&lt;/font&gt;&lt;/font&gt;\n\nEinladungen werden 15 Minuten vor Kriegsbeginn versendet und alle Teilnehmer werden ins Fort teleportiert. Der Sieger erobert das Gebiet.</string>

@@ -182,8 +182,8 @@
 	<string key="ui_backfill_tooltip" comment="">Die Kompanie kann entscheiden, wie sie Plätze wieder neu besetzt, wenn ausgewählte Spieler vor Kriegsende ausscheiden.</string>
 	<string key="ui_backfill_auto_tooltip" comment="">Automatisches Einsetzen von Spielern aus der Bereitschaftsliste basierend auf der Anmeldezeit.</string>
 	<string key="ui_backfill_manual_tooltip" comment="">Manuelle Auswahl von Spielern aus der Bereitschaftsliste, um leere Plätze wieder zu besetzen.</string>
-	<string key="ui_raid_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / 50</string>
-	<string key="ui_invasion_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / 10</string>
+	<string key="ui_raid_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / {total}</string>
+	<string key="ui_invasion_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / {total}</string>
 	<string key="ui_promote_disabled_max_tooltip" comment="">Dieser Spieler kann nicht weiter befördert werden.</string>
 	<string key="ui_demote_disabled_min_tooltip" comment="">Dieser Spieler kann nicht weiter degradiert werden.</string>
 	<string key="ui_remove_army" comment="">Aus Armee entfernen</string>
