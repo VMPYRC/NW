@@ -10,7 +10,7 @@
 	<string key="ui_dungeon_requirements_gearscore">Nível Recomendado: {level}</string>
 	<string key="ui_flyout_recommended_groupsize">Jogadores Recomendados: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{players}&lt;/font&gt;</string>
 	<string key="ui_dungeon_requirements_equipment_warning">Para completar esta Expedição, seu grupo precisa ter pelo menos &lt;font color="#ffffff"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_reward_level"/>
+	<string key="ui_dungeon_reward_level">A qualidade da pilhagem em geral aumentará à medida que os níveis de dificuldade forem aumentados.\n\nOs itens que você encontrar podem variar em relação aos listados, com base na Pontuação do Equipamento deles.</string>
 	<string key="ui_dungeon_level_requirement">Nível Necessário: {level}</string>
 	<string key="ui_dungeon_elapsed_time">Tempo Transcorrido:</string>
 	<string key="ui_dungeon_estimated_time_remaining">Tempo de espera estimado:</string>
@@ -64,7 +64,7 @@
 	<string key="ui_dungeon_mutation_promotion_description" rel_version="Feature_Dungeon_Mutators">Os &lt;font color="#ff9393" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Inimigos&lt;/font&gt; podem ter os seguintes &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Buffs:&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutation_curse_description" rel_version="Feature_Dungeon_Mutators">Os &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Jogadores&lt;/font&gt; recebem os seguintes &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Debuffs:&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_expiration_text" rel_version="Feature_Dungeon_Mutators">Muda em: </string>
-	<string key="ui_dungeon_mutator_recommended_gearscore" rel_version="Feature_Dungeon_Mutators"/>
+	<string key="ui_dungeon_mutator_recommended_gearscore" rel_version="Feature_Dungeon_Mutators">Pontuação do Equipamento Mínima Recomendada: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{score}&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_codex" rel_version="Feature_Dungeon_Mutators">Códice</string>
 	<string key="ui_dungeon_mutator_difficulty_default" rel_version="Feature_Dungeon_Mutators">Comum</string>
 	<string key="ui_dungeon_mutator_difficulty_1" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt; (Normal)</string>
@@ -171,7 +171,8 @@
 	<string key="ui_dungeon_possible_rewards_header" rel_version="Feature_Dungeon_Mutators">Possíveis Recompensas</string>
 	<string key="ui_dungeon_no_possible_rewards" rel_version="Feature_Dungeon_Mutators">Sem Possíveis Recompensas</string>
 	<string key="ui_dungeon_orb_explanation" rel_version="Feature_Dungeon_Mutators">Uma recompensa única. Orbes de Afinação de Expedição Transmutada também estão disponíveis na Loja da Facção.</string>
-	<string key="ui_dungeon_gearscore_recommendation_tooltip" rel_version="Feature_Dungeon_Mutators"/>
-	<string key="ui_dungeon_gearscore_underlevel_warning" rel_version="Feature_Dungeon_Mutators">AVISO: A Pontuação Média do seu Equipamento é muito baixa para ter um bom desempenho nesta Expedição.</string>
+	<string key="ui_dungeon_gearscore_recommendation_tooltip" rel_version="Feature_Dungeon_Mutators">
+	&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Pontuação do Equipamento Recomendada&lt;/font&gt;\n\nOs cálculos de combate são afetados pela diferença entre sua Pontuação Média do Equipamento e a Pontuação do Equipamento Recomendada.\n\nEstar com a Pontuação Mínima de Equipamento &lt;font color="#ff9393"&gt;abaixo&lt;/font&gt; da recomendada fará com que você &lt;font color="#ffffff"&gt;cause menos dano&lt;/font&gt; e &lt;font color="#ffffff"&gt;receba mais dano&lt;/font&gt; de inimigos na Expedição.</string>
+	<string key="ui_dungeon_gearscore_underlevel_warning" rel_version="Feature_Dungeon_Mutators">&lt;font color="#f25d5d" face="lyshineui/fonts/Nimbus_Bold.font"&gt;AVISO:&lt;/font&gt; Pontuação Média do Equipamento muito baixa para ter um bom desempenho nesta Expedição.</string>
 </resources>
 

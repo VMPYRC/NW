@@ -124,8 +124,8 @@
 	<string key="ui_outpost_rush_battle_tokens_with_value">Jetons de combat {value}</string>
 	<string key="ui_outpost_rush_outpost_under_attack">{value} est attaqué !</string>
 	<string key="ui_outpost_rush_boss_killed">SCORE GELÉ</string>
-	<string key="ui_outpost_rush_ally_buff">Le score de l'équipe ennemie est gelé pendant &lt;font color="#ffea00"&gt;3 minutes&lt;/font&gt; !</string>
-	<string key="ui_outpost_rush_enemy_buff">Le score de votre équipe est gelé pendant &lt;font color="#ffea00"&gt;3 minutes&lt;/font&gt; !</string>
+	<string key="ui_outpost_rush_ally_buff">Le score de l'équipe ennemie est gelé pendant &lt;font color="#ffea00"&gt;2 minutes et 30 secondes&lt;/font&gt; !</string>
+	<string key="ui_outpost_rush_enemy_buff">Le score de votre équipe est gelé pendant &lt;font color="#ffea00"&gt;2 minutes et 30 secondes&lt;/font&gt; !</string>
 	<string key="ui_outpost_rush_armory_built">Une armurerie a été construite à {value}</string>
 	<string key="ui_outpost_rush_command_post_built">Un poste de commande a été construit à {value}</string>
 	<string key="ui_outpost_rush_command_post_upgrade">Le poste de commande de {value} a été amélioré au palier {tier}</string>
@@ -134,7 +134,7 @@
 	<string key="ui_outpost_rush_outpost_contested">{value} est contesté !</string>
 	<string key="ui_outpost_rush_boss_spawned">La Baronne Hain est apparue</string>
 	<string key="ui_outpost_rush_match_started">Le combat a commencé</string>
-	<string key="ui_outpost_rush_match_started_desc">Capturez des avant-postes pour marquer {value}</string>
+	<string key="ui_outpost_rush_match_started_desc">Capturez des avant-postes et tuez les ennemis pour marquer des points. La première équipe à atteindre {value} points l'emporte !</string>
 	<string key="ui_outpost_rush_score_to_win">{value} requis pour gagner</string>
 	<string key="ui_outpost_rush_leave">Quitter la Déferlante</string>
 	<string key="ui_outpost_rush_leave_queue_title">Quitter la queue de la Déferlante ?</string>
@@ -161,6 +161,7 @@
 	<string key="ui_outpost_rush_tutorial_level_requirement">&lt;font color="#ffe294"&gt;Niveau de joueur {level}&lt;/font&gt; requis pour prendre part aux Déferlantes.</string>
 	<string key="ui_outpost_rush_locked">Verrouillé</string>
 	<string key="ui_outpost_rush_select_summoning_stone">Sélectionner pierre d'invocation</string>
+	<string key="ui_outpost_rush_barrier">Barrière de forteresse</string>
 	<string key="ui_or_total_score">SCORE TOTAL</string>
 	<string key="ui_or_points_from">POINTS VIA</string>
 	<string key="ui_or_outpost_a">AVANT-POSTE LUNA</string>
@@ -170,7 +171,7 @@
 	<string key="ui_outpost_rush_summoning_circle">Cercle d'invocation</string>
 	<string key="ui_outpost_rush_summoning_circle_desc">Utilisez une pierre d'invocation à cet obélisque pour ajouter un allié monstrueux à votre équipe pour une durée limitée.</string>
 	<string key="ui_outpost_rush_portal">PORTAIL</string>
-	<string key="ui_outpost_rush_portal_score">{current}/{total} &lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt;</string>
+	<string key="ui_outpost_rush_portal_score">{current}/{total} &lt;img src="lyshineui/images/icon_azoth" xPadding="-3" scale="1.4" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pinning_disabled_while_in_or">Marquage/Effaçage d'objectif désactivé en Déferlante.</string>
 	<string key="ui_pinning_disabled_expeditions">Marquer/Ne pas marquer désactivé pour les objectifs d'expédition</string>
 	<string key="ui_or_commandpost_buff_on">Cette structure confère des bonus d'équipe.</string>
@@ -183,8 +184,8 @@
 	<string key="or_tutorial_rules_capture_body">Tenez-vous dans le cercle au centre d'un avant-poste pour le capturer.</string>
 	<string key="or_tutorial_rules_score_title">VOTRE ÉQUIPE PERD</string>
 	<string key="or_tutorial_rules_score_body">Capturez puis tenez des avant-postes et éliminez des joueurs ennemis pour augmenter le score de votre équipe.</string>
-	<string key="or_tutorial_rules_portal_title">DÉPOSEZ 500 ESSENCES D'AZOTH DANS LE PORTAIL D'ALTÉRATION</string>
-	<string key="or_tutorial_rules_portal_body">Déposez la 500e essence d'Azoth pour recevoir une pierre d'invocation altérée.</string>
+	<string key="or_tutorial_rules_portal_title">DÉPOSEZ 750 ESSENCES D'AZOTH DANS LE PORTAIL D'ALTÉRATION</string>
+	<string key="or_tutorial_rules_portal_body">Déposez la 750e essence d'Azoth pour recevoir une pierre d'invocation altérée.</string>
 	<string key="or_tutorial_boss_spawn_title">LA BARONNE HAIN EST APPARUE</string>
 	<string key="or_tutorial_boss_spawn_body">Tuez-la pour obtenir une puissante amélioration défensive et geler le score ennemi pendant 3 minutes.</string>
 	<string key="or_tutorial_boss_near_title">LA BARONNE HAIN EST À PROXIMITÉ</string>
@@ -210,9 +211,9 @@
 	<string key="or_tutorial_summoning_reminder_title">UTILISEZ VOTRE PIERRE D'INVOCATION</string>
 	<string key="or_tutorial_summoning_reminder_body">Rendez-vous à un cercle d'invocation inoccupé pour invoquer un puissant allié.</string>
 	<string key="or_tutorial_summoning_findstone_title">IL VOUS FAUT UNE PIERRE D'INVOCATION</string>
-	<string key="or_tutorial_summoning_findstone_body">Achetez-en une à l'armurerie, tuez Ug ou Dug dans les mines, ou offrez 500 essences d'Azoth au portail d'altération.</string>
+	<string key="or_tutorial_summoning_findstone_body">Achetez-en une à l'armurerie, tuez Ug ou Dug dans les mines, ou offrez 750 essences d'Azoth au portail d'altération.</string>
 	<string key="or_tutorial_summoning_nostone_title">TROUVEZ UNE PIERRE D'INVOCATION ET RÉESSAYEZ</string>
-	<string key="or_tutorial_summoning_nostone_body">Achetez-en une à l'armurerie, tuez Ug ou Dug dans les mines, ou offrez 500 essences d'Azoth au portail d'altération.</string>
+	<string key="or_tutorial_summoning_nostone_body">Achetez-en une à l'armurerie, tuez Ug ou Dug dans les mines, ou offrez 750 essences d'Azoth au portail d'altération.</string>
 	<string key="or_tutorial_summoning_creature_title">LE CERCLE D'INVOCATION NE PEUT PAS ÊTRE RÉUTILISÉ TOUT DE SUITE</string>
 	<string key="or_tutorial_summoning_creature_body">Essayez d'en utiliser un autre ou attendez que celui-ci soit de nouveau disponible.</string>
 	<string key="emote_unable_to_use_emote">Impossible d'utiliser une émote dans ce mode de jeu.</string>

@@ -23,6 +23,7 @@
 	<string key="mm_loginerrortitle">Błąd logowania</string>
 	<string key="mm_connectionfailed">Błąd połączenia</string>
 	<string key="mm_error_code">Kod błędu:</string>
+	<string key="mm_waitingtotransfer" rel_version="Feature_MTX">Oczekiwanie na przeniesienie do:\n{worldName}</string>
 	<string key="ui_open_governors_desk">Otwórz biurko zarządcy</string>
 	<string key="mm_disconnected">Rozłączono z serwerem. Ponowne łączenie, proszę czekać...</string>
 	<string key="mm_retriesfailed">Osiągnięto limit prób połączenia. Spróbuj ponownie później.</string>
@@ -54,6 +55,7 @@
 	<string key="mm_loginservices_BannedOffensiveCompanyName">Odmowa dostępu: Twoje konto zostało zablokowane z powodu obraźliwej nazwy kompanii</string>
 	<string key="mm_loginservices_BannedSuspectedFraud">Odmowa dostępu: Twoje konto zostało zablokowane z powodu podejrzenia oszustw</string>
 	<string key="mm_loginservices_BannedCSLockout">Twoje konto jest obecnie zablokowane. Skontaktuj się z działem obsługi, aby dowiedzieć się więcej.</string>
+	<string key="mm_loginservices_BannedCommerce">Twoje konto zostało zablokowane za podejrzane działania. Skontaktuj się z działem obsługi, aby dowiedzieć się więcej.</string>
 	<string key="mm_loginservices_Cheating">Odmowa dostępu: Twoje konto zostało zablokowane z powodu oszustw</string>
 	<string key="mm_loginservices_Exploit">Odmowa dostępu: Twoje konto zostało zablokowane z powodu wykorzystywania błędów (exploitów)</string>
 	<string key="mm_loginservices_Botting">Odmowa dostępu: Twoje konto zostało zablokowane z powodu używania botów</string>
@@ -64,6 +66,7 @@
 	<string key="mm_loginservices_OffensiveCompanyName">Odmowa dostępu: Twoje konto zostało zablokowane z powodu obraźliwej nazwy kompanii</string>
 	<string key="mm_loginservices_SuspectedFraud">Odmowa dostępu: Twoje konto zostało zablokowane z powodu podejrzenia oszustw</string>
 	<string key="mm_loginservices_CSLockout">Twoje konto jest obecnie zablokowane. Skontaktuj się z działem obsługi, aby dowiedzieć się więcej.</string>
+	<string key="mm_loginservices_Commerce">Twoje konto zostało zablokowane za podejrzane działania. Skontaktuj się z działem obsługi, aby dowiedzieć się więcej.</string>
 	<string key="mm_loginservices_warning_title">UWAGA</string>
 	<string key="mm_loginservices_warning_BannedOffensiveName">Imię twojej postaci zostało uznane za niestosowne. Przy ponownym logowaniu otrzymasz prośbę o zmianę imienia.</string>
 	<string key="mm_loginservices_warning_BannedOffensiveCompanyName">Imię twojej kompanii zostało uznane za niestosowne i zostało zaktualizowane. Możesz je zmienić w dowolnej chwili z poziomu interfejsu kompanii [G].</string>
@@ -187,6 +190,7 @@
 	<string key="mm_rejected_Client_Kicked_EasyAntiCheat">Zablokowany login: Wykryto podejrzane oprogramowanie lub uszkodzoną instalację</string>
 	<string key="mm_rejected_Client_Kicked_BannedCSLockout">Twoje konto jest obecnie zablokowane. Skontaktuj się z działem obsługi, aby dowiedzieć się więcej.</string>
 	<string key="mm_rejected_Client_Kicked_CSLockout">Twoje konto jest obecnie zablokowane. Skontaktuj się z działem obsługi, aby dowiedzieć się więcej.</string>
+	<string key="mm_rejected_Client_Kicked_BannedCommerce">Problem z płatnością</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Wyrzucono cię z gry.</string>
 	<string key="mm_authresult_Authorized">Sukces</string>
 	<string key="mm_characterCreateDisabled">Tworzenie postaci zostało tymczasowo wyłączone – ten świat jest pełny. Wybierz inny świat.</string>

@@ -426,9 +426,9 @@
 	<string key="Mut_Voi_Stacks_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoiczność I</string>
 	<string key="Mut_Voi_Stacks_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoiczność II</string>
 	<string key="Mut_Voi_Stacks_1_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoja I</string>
-	<string key="Mut_Voi_Stacks_1_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">Napełnia lękiem na {[Type_StatusEffectData.Mut_Lig_Stacks_1_Effect.BaseDuration]} s. Po skumulowaniu się 4 razy wywołuje wybuch próżni w miejscu, w którym się znajdujesz.</string>
+	<string key="Mut_Voi_Stacks_1_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">Napełnia lękiem na {[Type_StatusEffectData.Mut_Lig_Stacks_1_Effect.BaseDuration]} s. Po skumulowaniu się {[Type_StatusEffectData.Mut_Voi_Stacks_1_Effect.AddOnStackSize]} razy wywołuje wybuch próżni w miejscu, w którym się znajdujesz.</string>
 	<string key="Mut_Voi_Stacks_2_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoja II</string>
-	<string key="Mut_Voi_Stacks_2_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">Napełnia lękiem na {[Type_StatusEffectData.Mut_Lig_Stacks_2_Effect.BaseDuration]} s. Po skumulowaniu się 4 razy wywołuje wybuch próżni w miejscu, w którym się znajdujesz.</string>
+	<string key="Mut_Voi_Stacks_2_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">Napełnia lękiem na {[Type_StatusEffectData.Mut_Lig_Stacks_2_Effect.BaseDuration]} s. Po skumulowaniu się {[Type_StatusEffectData.Mut_Voi_Stacks_2_Effect.AddOnStackSize]} razy wywołuje wybuch próżni w miejscu, w którym się znajdujesz.</string>
 	<string key="Mut_Voi_Leech_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Zapomnienie I</string>
 	<string key="Mut_Voi_Leech_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Zapomnienie II</string>
 	<string key="Mut_Voi_Leech_1_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Wyssanie zapomnienia I</string>
@@ -459,7 +459,7 @@
 	<string key="Mut_Curse4_Major_ManaStop_DisplayName" rel_version="Feature_Dungeon_Mutators">Ograniczenie many</string>
 	<string key="Mut_Curse4_Major_ManaStop_ToolTip" rel_version="Feature_Dungeon_Mutators">Niemożność naturalnej regeneracji many.</string>
 	<string key="Mut_Curse4_Major_ManaRegen_DisplayName" rel_version="Feature_Dungeon_Mutators">Przepływ many</string>
-	<string key="Mut_Curse4_Major_ManaRegen_ToolTip" rel_version="Feature_Dungeon_Mutators">Przywraca {[Type_StatusEffectData.Mut_Curse4_Major_ManaRegen.Mana]} many co {[Type_StatusEffectData.Mut_Curse4_Major_Mana.TickRate]} s.</string>
+	<string key="Mut_Curse4_Major_ManaRegen_ToolTip" rel_version="Feature_Dungeon_Mutators">Przywraca {[Type_StatusEffectData.Mut_Curse4_Major_ManaRegen.Mana]} many co {[Type_StatusEffectData.Mut_Curse4_Major_ManaRegen.TickRate]} s.</string>
 	<string key="Mut_Base_Curse4_Minor_Silence_DisplayName" rel_version="Feature_Dungeon_Mutators">Uciszenie</string>
 	<string key="Mut_Base_Curse4_Minor_Silence_ToolTip" rel_version="Feature_Dungeon_Mutators">Nie można korzystać ze zdolności w zasięgu działania efektu.</string>
 	<string key="GhostDisease_DisplayName">Choroba</string>
@@ -1098,7 +1098,7 @@
 	<string key="BlockSpeedPerk1_Description">Zwiększa szybkość ruchu o {[Type_StatusEffectData.BlockSpeedPerk1.MoveSpeedMod * 100]}%.</string>
 	<string key="BlockSpeedPerk2_Description">Zwiększa szybkość ruchu o {[Type_StatusEffectData.BlockSpeedPerk2.MoveSpeedMod * 100]}%.</string>
 	<string key="BlockSpeedPerk3_Description">Zwiększa szybkość ruchu o {[Type_StatusEffectData.BlockSpeedPerk3.MoveSpeedMod * 100]}%.</string>
-	<string key="DodgeLowerThreatPerk_DisplayName">Dyskrecja</string>
+	<string key="DodgeLowerThreatPerk_DisplayName">Unikanie</string>
 	<string key="DodgeLowerThreatPerk_Description">Tymczasowo zmniejsza zadawane przez ciebie obrażenia generujące zagrożenie.</string>
 	<string key="DodgeIncreaseThreatPerk_DisplayName">Śmiałość</string>
 	<string key="DodgeIncreaseThreatPerk_Description">Tymczasowo zwiększa zadawane przez ciebie obrażenia generujące zagrożenie.</string>
@@ -1317,10 +1317,6 @@
 	<string key="Status_Passive_Foc_300_Bonus_Timer">Licznik czasu odnowienia premii do regeneracji many za 300 skupienia.</string>
 	<string key="Dungeon_PurifyingFlame">Oczyszczający płomień</string>
 	<string key="Dungeon_PurifyingFlame_Description">Usuwa stężoną zarazę</string>
-	<string key="Dungeon_CursedTreasure_DisplayName" rel_version="Expedition_CutlassKeys_00">Przeklęty skarb</string>
-	<string key="Dungeon_CursedTreasure_Description" rel_version="Expedition_CutlassKeys_00">Twoja szybkość ruchu jest zmniejszona i okresowo odnosisz obrażenia.</string>
-	<string key="Dungeon_SirenOffering_DisplayName" rel_version="Expedition_CutlassKeys_00">Ofiara dla nereidy</string>
-	<string key="Dungeon_SirenOffering_Description" rel_version="Expedition_CutlassKeys_00">Złóż tę ofiarę w jednym z pobliskich pustych źródeł.</string>
 	<string key="Immune_To_Damage">Niewrażliwość</string>
 	<string key="TauntAI_DisplayName">Prowokacja</string>
 	<string key="Block_Broken_DisplayName">Blok przełamany</string>
@@ -1354,5 +1350,7 @@
 	<string key="Status_Weapon_ChargedHeavyRend_Description" rel_version="MorePerksV1">Otrzymujesz {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.ABSStandard * -100]}% więcej obrażeń każdego rodzaju.</string>
 	<string key="Status_Timer_ChargedHeavyRend_Description" rel_version="MorePerksV1">Gdy czas upłynie, będzie można znów użyć mroźnego zestrojenia.</string>
 	<string key="Blunderbuss_LastChance_Desc">Otrzymujesz o {[Type_StatusEffectData.Blunderbuss_LastChance.ABSStandard * 100]}% mniej obrażeń.</string>
+	<string key="Status_MothersLove">Matczyna miłość</string>
+	<string key="Status_MothersLove_Description">Czujesz obecność matki, która otacza cię opieką, zwiększając twoje szczęście o {[Type_StatusEffectData.Shrine_MothersLove.GlobalRollMod * 0.01]}% na {[Type_StatusEffectData.Shrine_MothersLove.BaseDuration / 60]} min.</string>
 </resources>
 

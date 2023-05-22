@@ -124,8 +124,8 @@
 	<string key="ui_outpost_rush_battle_tokens_with_value">Tokens de Batalha {value}</string>
 	<string key="ui_outpost_rush_outpost_under_attack">{value} está sob ataque</string>
 	<string key="ui_outpost_rush_boss_killed">PONTUAÇÃO CONGELADA</string>
-	<string key="ui_outpost_rush_ally_buff">A pontuação da equipe inimiga está congelada por &lt;font color="#ffea00"&gt;3 minutos&lt;/font&gt;!</string>
-	<string key="ui_outpost_rush_enemy_buff">A pontuação da sua equipe está congelada por &lt;font color="#ffea00"&gt;3 minutos&lt;/font&gt;!</string>
+	<string key="ui_outpost_rush_ally_buff">A pontuação da equipe inimiga está congelada por &lt;font color="#ffea00"&gt;2 minutos e 30 segundos&lt;/font&gt;!</string>
+	<string key="ui_outpost_rush_enemy_buff">A pontuação da sua equipe está congelada por &lt;font color="#ffea00"&gt;2 minutos e 30 segundos&lt;/font&gt;!</string>
 	<string key="ui_outpost_rush_armory_built">A Armaria em {value} foi construída</string>
 	<string key="ui_outpost_rush_command_post_built">O Posto de Comando em {value} foi construído</string>
 	<string key="ui_outpost_rush_command_post_upgrade">O Posto de Comando em {value} foi aprimorado para a Escala {tier}</string>
@@ -134,7 +134,7 @@
 	<string key="ui_outpost_rush_outpost_contested">{value} em disputa!</string>
 	<string key="ui_outpost_rush_boss_spawned">Baronesa Hain Nascida</string>
 	<string key="ui_outpost_rush_match_started">Partida Iniciada</string>
-	<string key="ui_outpost_rush_match_started_desc">Capture Postos Avançados para marcar {value}</string>
+	<string key="ui_outpost_rush_match_started_desc">Capture Postos Avançados e elimine o inimigo para marcar pontos. Vence a primeira equipe que marcar {value} pontos!</string>
 	<string key="ui_outpost_rush_score_to_win">{value} para vencer</string>
 	<string key="ui_outpost_rush_leave">Sair da Investida do Posto Avançado</string>
 	<string key="ui_outpost_rush_leave_queue_title">Deseja sair da fila?</string>
@@ -161,6 +161,7 @@
 	<string key="ui_outpost_rush_tutorial_level_requirement">O jogador precisa estar no &lt;font color="#ffe294"&gt;nível {level}&lt;/font&gt; para participar da Investida do Posto Avançado.</string>
 	<string key="ui_outpost_rush_locked">Bloqueado</string>
 	<string key="ui_outpost_rush_select_summoning_stone">Selecione a Pedra de Invocação</string>
+	<string key="ui_outpost_rush_barrier">Barreira do Forte</string>
 	<string key="ui_or_total_score">PONTUAÇÃO TOTAL</string>
 	<string key="ui_or_points_from">PONTOS DE</string>
 	<string key="ui_or_outpost_a">POSTO AVANÇADO LUNA</string>
@@ -170,7 +171,7 @@
 	<string key="ui_outpost_rush_summoning_circle">Círculo de Invocação</string>
 	<string key="ui_outpost_rush_summoning_circle_desc">Use uma Pedra de Invocação neste obelisco para adicionar um aliado monstruoso à sua equipe por um tempo limitado.</string>
 	<string key="ui_outpost_rush_portal">PORTAL</string>
-	<string key="ui_outpost_rush_portal_score">{current}/{total} &lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt;</string>
+	<string key="ui_outpost_rush_portal_score">{current}/{total} &lt;img src="lyshineui/images/icon_azoth" xPadding="-3" scale="1.4" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pinning_disabled_while_in_or">Não é possível fixar/desafixar objetivos durante a Investida do Posto Avançado.</string>
 	<string key="ui_pinning_disabled_expeditions">Não é possível fixar/desafixar em objetivos de Expedições.</string>
 	<string key="ui_or_commandpost_buff_on">A estrutura está concedendo buffs de equipe</string>
@@ -183,8 +184,8 @@
 	<string key="or_tutorial_rules_capture_body">Capture um Posto Avançado posicionando-se no círculo no centro.</string>
 	<string key="or_tutorial_rules_score_title">SUA EQUIPE ESTÁ PERDENDO</string>
 	<string key="or_tutorial_rules_score_body">Capture e segure Postos Avançados e derrote jogadores inimigos para aumentar a pontuação da sua equipe.</string>
-	<string key="or_tutorial_rules_portal_title">COLOQUE 500 ESSÊNCIAS DE AZOTH NO PORTAL CORROMPIDO</string>
-	<string key="or_tutorial_rules_portal_body">Coloque a 500ª Essência de Azoth para receber uma Pedra de Invocação Corrompida.</string>
+	<string key="or_tutorial_rules_portal_title">COLOQUE 750 ESSÊNCIAS DE AZOTH NO PORTAL CORROMPIDO</string>
+	<string key="or_tutorial_rules_portal_body">Coloque a 750ª Essência de Azoth para receber uma Pedra de Invocação Corrompida.</string>
 	<string key="or_tutorial_boss_spawn_title">A BARONESA HAIN APARECEU</string>
 	<string key="or_tutorial_boss_spawn_body">Elimine-a para obter um buff de defesa poderoso e congelar a pontuação da equipe inimiga por 3 minutos.</string>
 	<string key="or_tutorial_boss_near_title">A BARONESA HAIN ESTÁ PRÓXIMA</string>
@@ -210,9 +211,9 @@
 	<string key="or_tutorial_summoning_reminder_title">USE SUA PEDRA DE INVOCAÇÃO</string>
 	<string key="or_tutorial_summoning_reminder_body">Vá até um círculo de invocação desocupado para invocar um aliado poderoso.</string>
 	<string key="or_tutorial_summoning_findstone_title">VOCÊ PRECISA DE UMA PEDRA DE INVOCAÇÃO</string>
-	<string key="or_tutorial_summoning_findstone_body">Compre uma na armaria, obtenha ao derrotar Ug ou Dug nas minas, ou doe 500 Essências de Azoth para o Portal Corrompido.</string>
+	<string key="or_tutorial_summoning_findstone_body">Compre uma na armaria, obtenha ao derrotar Ug ou Dug nas minas, ou doe 750 Essências de Azoth para o Portal Corrompido.</string>
 	<string key="or_tutorial_summoning_nostone_title">OBTENHA UMA PEDRA DE INVOCAÇÃO E TENTE NOVAMENTE</string>
-	<string key="or_tutorial_summoning_nostone_body">Compre uma na armaria, obtenha ao derrotar Ug ou Dug nas minas, ou doe 500 Essências de Azoth para o Portal Corrompido.</string>
+	<string key="or_tutorial_summoning_nostone_body">Compre uma na armaria, obtenha ao derrotar Ug ou Dug nas minas, ou doe 750 Essências de Azoth para o Portal Corrompido.</string>
 	<string key="or_tutorial_summoning_creature_title">O CÍRCULO DE INVOCAÇÃO AINDA NÃO PODE SER USADO NOVAMENTE</string>
 	<string key="or_tutorial_summoning_creature_body">Tente um círculo diferente ou espere até que este esteja disponível novamente.</string>
 	<string key="emote_unable_to_use_emote">Não é possível usar o Gesto neste modo de jogo</string>

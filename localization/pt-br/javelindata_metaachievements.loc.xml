@@ -21,6 +21,7 @@
 	<string key="ui_metachievement_pve_familykills_ancients_title5">Sacudir de Ossos</string>
 	<string key="ui_metachievement_pve_familykills_predators_title1">Comida é Comida</string>
 	<string key="ui_metachievement_pve_familykills_predators_title2">Caçador Impetuoso</string>
+	<string key="ui_metachievement_pve_familykills_predators_title2_SHE">Caçadora Impetuosa</string>
 	<string key="ui_metachievement_pve_familykills_predators_title3">Tudo em Um Dia de Trabalho</string>
 	<string key="ui_metachievement_pve_familykills_predators_title4">Carne. É o Que Tem para Jantar.</string>
 	<string key="ui_metachievement_pve_familykills_predators_title5">Extinção em Massa</string>
@@ -49,6 +50,7 @@
 	<string key="ui_metachievement_pve_namedkills_ancients_title4">Morra Logo</string>
 	<string key="ui_metachievement_pve_namedkills_ancients_title5">Ancião, Mas Não Invencível</string>
 	<string key="ui_metachievement_pve_namedkills_predators_title1">O Predador se Torna a Presa</string>
+	<string key="ui_metachievement_pve_namedkills_predators_title1_SHE">A Predadora se Torna a Presa</string>
 	<string key="ui_metachievement_pve_namedkills_predators_title2">Cadê os Coelhos Assassinos?</string>
 	<string key="ui_metachievement_pve_namedkills_predators_title3">Onde Vagam as Feras</string>
 	<string key="ui_metachievement_pve_namedkills_predators_title4">O Círculo da Vida</string>
@@ -112,10 +114,6 @@
 	<string key="ui_metachievement_pve_mutate_dungeon_lazarus_title2" rel_version="Feature_Dungeon_Mutators">Poços de Ruína</string>
 	<string key="ui_metachievement_pve_mutate_dungeon_shipyard_title1" rel_version="Feature_Dungeon_Mutators">Ciclos da Dinastia</string>
 	<string key="ui_metachievement_pve_mutate_dungeon_shipyard_title2" rel_version="Feature_Dungeon_Mutators">Um Navio do Fracasso</string>
-	<string key="ui_metachievement_pve_mutate_dungeon_isabellalair_title1" rel_version="Feature_Dungeon_Mutators">Mais uma Descida Escuridão Adentro</string>
-	<string key="ui_metachievement_pve_mutate_dungeon_isabellalair_title2" rel_version="Feature_Dungeon_Mutators">Estômago da Fera</string>
-	<string key="ui_metachievement_pve_mutate_dungeon_barnacles_title1" rel_version="Feature_Dungeon_Mutators">Caverna da Corrupção</string>
-	<string key="ui_metachievement_pve_mutate_dungeon_barnacles_title2" rel_version="Feature_Dungeon_Mutators">Ilha do Tesouro</string>
 	<string key="ui_metachievement_pve_arenascompleted_title">Luta de Arena</string>
 	<string key="ui_metachievement_pvp_killbyfaction_covenant_title1">Uma Crença Prejudicial</string>
 	<string key="ui_metachievement_pvp_killbyfaction_covenant_title2">Freando os Fanáticos</string>
@@ -468,86 +466,107 @@
 	<string key="ui_metachievement_skilllevelarcana_title1">Arcanista Iniciante</string>
 	<string key="ui_metachievement_skilllevelarcana_title2">Arcanista Aprendiz</string>
 	<string key="ui_metachievement_skilllevelarcana_title3">Arcanista Modesto</string>
+	<string key="ui_metachievement_skilllevelarcana_title3_SHE">Arcanista Modesta</string>
 	<string key="ui_metachievement_skilllevelarcana_title4">Arcanista Especialista</string>
 	<string key="ui_metachievement_skilllevelarcana_title5">Arcanista Mestre</string>
 	<string key="ui_metachievement_skilllevelarmoring_title1">Armeiro Iniciante</string>
 	<string key="ui_metachievement_skilllevelarmoring_title2">Armeiro Aprendiz</string>
 	<string key="ui_metachievement_skilllevelarmoring_title3">Armeiro Modesto</string>
+	<string key="ui_metachievement_skilllevelarmoring_title3_SHE">Armeira Modesta</string>
 	<string key="ui_metachievement_skilllevelarmoring_title4">Armeiro Especialista</string>
 	<string key="ui_metachievement_skilllevelarmoring_title5">Armeiro Mestre</string>
 	<string key="ui_metachievement_skilllevelcooking_title1">Cozinheiro Iniciante</string>
 	<string key="ui_metachievement_skilllevelcooking_title2">Cozinheiro Aprendiz</string>
 	<string key="ui_metachievement_skilllevelcooking_title3">Cozinheiro Modesto</string>
+	<string key="ui_metachievement_skilllevelcooking_title3_SHE">Cozinheira Modesta</string>
 	<string key="ui_metachievement_skilllevelcooking_title4">Cozinheiro Especialista</string>
 	<string key="ui_metachievement_skilllevelcooking_title5">Cozinheiro Mestre</string>
 	<string key="ui_metachievement_skilllevelengineering_title1">Engenheiro Iniciante</string>
 	<string key="ui_metachievement_skilllevelengineering_title2">Engenheiro Aprendiz</string>
 	<string key="ui_metachievement_skilllevelengineering_title3">Engenheiro Modesto</string>
+	<string key="ui_metachievement_skilllevelengineering_title3_SHE">Engenheira Modesta</string>
 	<string key="ui_metachievement_skilllevelengineering_title4">Engenheiro Especialista</string>
 	<string key="ui_metachievement_skilllevelengineering_title5">Engenheiro Mestre</string>
 	<string key="ui_metachievement_skilllevelfurnishing_title1">Marceneiro Iniciante</string>
 	<string key="ui_metachievement_skilllevelfurnishing_title2">Marceneiro Aprendiz</string>
 	<string key="ui_metachievement_skilllevelfurnishing_title3">Marceneiro Modesto</string>
+	<string key="ui_metachievement_skilllevelfurnishing_title3_SHE">Marceneira Modesta</string>
 	<string key="ui_metachievement_skilllevelfurnishing_title4">Marceneiro Especialista</string>
 	<string key="ui_metachievement_skilllevelfurnishing_title5">Marceneiro Mestre</string>
 	<string key="ui_metachievement_skillleveljewelcraft_title1">Joalheiro Iniciante</string>
 	<string key="ui_metachievement_skillleveljewelcraft_title2">Joalheiro Aprendiz</string>
 	<string key="ui_metachievement_skillleveljewelcraft_title3">Joalheiro Modesto</string>
+	<string key="ui_metachievement_skillleveljewelcraft_title3_SHE">Joalheira Modesta</string>
 	<string key="ui_metachievement_skillleveljewelcraft_title4">Joalheiro Especialista</string>
 	<string key="ui_metachievement_skillleveljewelcraft_title5">Joalheiro Mestre</string>
 	<string key="ui_metachievement_skilllevelweaponsmith_title1">Ferreiro Iniciante</string>
 	<string key="ui_metachievement_skilllevelweaponsmith_title2">Ferreiro Aprendiz</string>
 	<string key="ui_metachievement_skilllevelweaponsmith_title3">Ferreiro Modesto</string>
+	<string key="ui_metachievement_skilllevelweaponsmith_title3_SHE">Ferreira Modesta</string>
 	<string key="ui_metachievement_skilllevelweaponsmith_title4">Ferreiro Especialista</string>
 	<string key="ui_metachievement_skilllevelweaponsmith_title5">Ferreiro Mestre</string>
 	<string key="ui_metachievement_skilllevelleatherwork_title1">Curtidor Iniciante</string>
 	<string key="ui_metachievement_skilllevelleatherwork_title2">Curtidor Aprendiz</string>
 	<string key="ui_metachievement_skilllevelleatherwork_title3">Curtidor Modesto</string>
+	<string key="ui_metachievement_skilllevelleatherwork_title3_SHE">Curtidora Modesta</string>
 	<string key="ui_metachievement_skilllevelleatherwork_title4">Curtidor Especialista</string>
 	<string key="ui_metachievement_skilllevelleatherwork_title5">Curtidor Mestre</string>
 	<string key="ui_metachievement_skilllevelsmelt_title1">Metalúrgico Iniciante</string>
 	<string key="ui_metachievement_skilllevelsmelt_title2">Metalúrgico Aprendiz</string>
 	<string key="ui_metachievement_skilllevelsmelt_title3">Metalúrgico Modesto</string>
+	<string key="ui_metachievement_skilllevelsmelt_title3_SHE">Metalúrgica Modesta</string>
 	<string key="ui_metachievement_skilllevelsmelt_title4">Metalúrgico Especialista</string>
 	<string key="ui_metachievement_skilllevelsmelt_title5">Metalúrgico Mestre</string>
 	<string key="ui_metachievement_skilllevelstonecutting_title1">Canteiro Iniciante</string>
 	<string key="ui_metachievement_skilllevelstonecutting_title2">Canteiro Aprendiz</string>
 	<string key="ui_metachievement_skilllevelstonecutting_title3">Canteiro Modesto</string>
+	<string key="ui_metachievement_skilllevelstonecutting_title3_SHE">Canteira Modesta</string>
 	<string key="ui_metachievement_skilllevelstonecutting_title4">Canteiro Especialista</string>
 	<string key="ui_metachievement_skilllevelstonecutting_title5">Canteiro Mestre</string>
 	<string key="ui_metachievement_skilllevelweaving_title1">Tecelão Iniciante</string>
 	<string key="ui_metachievement_skilllevelweaving_title2">Tecelão Aprendiz</string>
 	<string key="ui_metachievement_skilllevelweaving_title3">Tecelão Modesto</string>
+	<string key="ui_metachievement_skilllevelweaving_title3_SHE">Tecelã Modesta</string>
 	<string key="ui_metachievement_skilllevelweaving_title4">Tecelão Especialista</string>
 	<string key="ui_metachievement_skilllevelweaving_title5">Tecelão Mestre</string>
 	<string key="ui_metachievement_skilllevelwoodwork_title1">Carpinteiro Iniciante</string>
 	<string key="ui_metachievement_skilllevelwoodwork_title2">Carpinteiro Aprendiz</string>
 	<string key="ui_metachievement_skilllevelwoodwork_title3">Carpinteiro Modesto</string>
+	<string key="ui_metachievement_skilllevelwoodwork_title3_SHE">Carpinteira Modesta</string>
 	<string key="ui_metachievement_skilllevelwoodwork_title4">Carpinteiro Especialista</string>
 	<string key="ui_metachievement_skilllevelwoodwork_title5">Carpinteiro Mestre</string>
 	<string key="ui_metachievement_skilllevelharvest_title1">Ceifeiro Iniciante</string>
 	<string key="ui_metachievement_skilllevelharvest_title2">Ceifeiro Aprendiz</string>
 	<string key="ui_metachievement_skilllevelharvest_title3">Ceifeiro Modesto</string>
+	<string key="ui_metachievement_skilllevelharvest_title3_SHE">Ceifeira Modesta</string>
 	<string key="ui_metachievement_skilllevelharvest_title4">Ceifeiro Especialista</string>
 	<string key="ui_metachievement_skilllevelharvest_title5">Ceifeiro Mestre</string>
 	<string key="ui_metachievement_skilllevellogging_title1">Lenhador Iniciante</string>
 	<string key="ui_metachievement_skilllevellogging_title2">Lenhador Aprendiz</string>
 	<string key="ui_metachievement_skilllevellogging_title3">Lenhador Modesto</string>
+	<string key="ui_metachievement_skilllevellogging_title3_SHE">Lenhadora Modesta</string>
 	<string key="ui_metachievement_skilllevellogging_title4">Lenhador Especialista</string>
 	<string key="ui_metachievement_skilllevellogging_title5">Lenhador Mestre</string>
 	<string key="ui_metachievement_skilllevelmining_title1">Minerador Iniciante</string>
 	<string key="ui_metachievement_skilllevelmining_title2">Minerador Aprendiz</string>
 	<string key="ui_metachievement_skilllevelmining_title3">Minerador Modesto</string>
+	<string key="ui_metachievement_skilllevelmining_title3_SHE">Mineradora Modesta</string>
 	<string key="ui_metachievement_skilllevelmining_title4">Minerador Especialista</string>
 	<string key="ui_metachievement_skilllevelmining_title5">Minerador Mestre</string>
 	<string key="ui_metachievement_skillleveltracknskin_title1">Caçador Iniciante</string>
+	<string key="ui_metachievement_skillleveltracknskin_title1_SHE">Caçadora Iniciante</string>
 	<string key="ui_metachievement_skillleveltracknskin_title2">Caçador Aprendiz</string>
+	<string key="ui_metachievement_skillleveltracknskin_title2_SHE">Caçadora Aprendiz</string>
 	<string key="ui_metachievement_skillleveltracknskin_title3">Caçador Modesto</string>
+	<string key="ui_metachievement_skillleveltracknskin_title3_SHE">Caçadora Modesta</string>
 	<string key="ui_metachievement_skillleveltracknskin_title4">Caçador Especialista</string>
+	<string key="ui_metachievement_skillleveltracknskin_title4_SHE">Caçadora Especialista</string>
 	<string key="ui_metachievement_skillleveltracknskin_title5">Caçador Mestre</string>
+	<string key="ui_metachievement_skillleveltracknskin_title5_SHE">Caçadora Mestra</string>
 	<string key="ui_metachievement_skilllevelfishing_title1">Pescador Iniciante</string>
 	<string key="ui_metachievement_skilllevelfishing_title2">Pescador Aprendiz</string>
 	<string key="ui_metachievement_skilllevelfishing_title3">Pescador Modesto</string>
+	<string key="ui_metachievement_skilllevelfishing_title3_SHE">Pescadora Modesta</string>
 	<string key="ui_metachievement_skilllevelfishing_title4">Pescador Especialista</string>
 	<string key="ui_metachievement_skilllevelfishing_title5">Pescador Mestre</string>
 	<string key="ui_metachievement_skilllevelexpert_title1">Aptidão para o Comércio</string>
@@ -672,6 +691,9 @@
 	<string key="ui_metachievement_weaponmastery_voidgauntlet_title1">Não Deveria Ficar Mais Leve?</string>
 	<string key="ui_metachievement_weaponmastery_voidgauntlet_title2">Me Sinto Tão Antimágico</string>
 	<string key="ui_metachievement_weaponmastery_voidgauntlet_title3">O Imaterial na Minha Vida Foi Preenchido</string>
+	<string key="ui_metachievement_weaponmastery_blunderbuss_title1">Modéstia à Parte</string>
+	<string key="ui_metachievement_weaponmastery_blunderbuss_title2">Isso Vai Doer Mais em Você do Que em Mim</string>
+	<string key="ui_metachievement_weaponmastery_blunderbuss_title3">Isso É o Meu Pau de Fogo!</string>
 	<string key="ui_metachievement_repairscount_title1">Útil Com Um Pouco de Fita</string>
 	<string key="ui_metachievement_repairscount_title2">Deixa Eu Pegar meu Martelo</string>
 	<string key="ui_metachievement_repairscount_title3">Plano de Manutenção</string>
@@ -811,6 +833,7 @@
 	<string key="ui_metachievement_firstnamedcraft_lifestaff_title">Confeccione um Bastão Vital Nomeado</string>
 	<string key="ui_metachievement_firstnamedcraft_voidgauntlet_title">Confeccione uma Manopla Imaterial Nomeada</string>
 	<string key="ui_metachievement_firstnamedcraft_icegauntlet_title">Confeccione uma Manopla de Gelo Nomeada</string>
+	<string key="ui_metachievement_firstnamedcraft_blunderbuss_title">Confeccione um Bacamarte Nomeado</string>
 	<string key="ui_metachievement_craft_namedweaponcount_title1">É Mais Sorte do que Habilidade</string>
 	<string key="ui_metachievement_craft_namedweaponcount_title2">Com Certeza não Estou Reclamando</string>
 	<string key="ui_metachievement_craft_namedweaponcount_title3">É Como uma Família Grande e Mortal</string>
@@ -825,6 +848,7 @@
 	<string key="ui_metachievement_instance_gatherdeposit_infusedore_title">Pegue Todo o Minério Solto</string>
 	<string key="ui_metachievement_instance_gatherdeposit_infusedhide_title">Acumulador de Peles</string>
 	<string key="ui_metachievement_instance_gatherdeposit_infusedessense_title">O Mágico de Azoth</string>
+	<string key="ui_metachievement_instance_gatherdeposit_infusedessense_title_SHE">A Mágica de Azoth</string>
 	<string key="ui_metachievement_supplieslooted_title1">Parecem Solitários. Vou Levá-los Comigo</string>
 	<string key="ui_metachievement_supplieslooted_title2">Como se Fosse um Open Bar de Coisas</string>
 	<string key="ui_metachievement_supplieslooted_title3">Ainda não Encontrei minhas Chaves</string>
@@ -843,9 +867,13 @@
 	<string key="ui_metachievement_achievementsearnedcount_title4">Perfeccionista</string>
 	<string key="ui_metachievement_achievementsearnedcount_title5">Lenda das Conquistas</string>
 	<string key="ui_metachievement_titlesearnedcount_title1">Sir Humaninho</string>
+	<string key="ui_metachievement_titlesearnedcount_title1_SHE">Senhora, Quanto Bife</string>
 	<string key="ui_metachievement_titlesearnedcount_title2">Conde Mentado</string>
+	<string key="ui_metachievement_titlesearnedcount_title2_SHE">Condessa Mentada</string>
 	<string key="ui_metachievement_titlesearnedcount_title3">Duque Você Gosta?</string>
+	<string key="ui_metachievement_titlesearnedcount_title3_SHE">Duque a Duquesa Gosta?</string>
 	<string key="ui_metachievement_titlesearnedcount_title4">Barão de Munchausen</string>
+	<string key="ui_metachievement_titlesearnedcount_title4_SHE">Baronesa de Munchausen</string>
 	<string key="ui_metachievement_titlesearnedcount_title5">Essência de Mirra</string>
 	<string key="ui_metachievement_poivisitedcount_title1">Deve Ter uma Cafeteria Aqui Perto</string>
 	<string key="ui_metachievement_poivisitedcount_title2">Seguindo por Estradas Menos Trilhadas</string>
@@ -923,9 +951,6 @@
 	<string key="ui_metachievement_pve_mutate_dungeon_genesis_generic_desc" rel_version="Feature_Dungeon_Mutators">Conclua o Jardim da Criação na dificuldade {number}.</string>
 	<string key="ui_metachievement_pve_mutate_dungeon_lazarus_generic_desc" rel_version="Feature_Dungeon_Mutators">Conclua A Importância de Lázaro na dificuldade {number}.</string>
 	<string key="ui_metachievement_pve_mutate_dungeon_shipyard_generic_desc" rel_version="Feature_Dungeon_Mutators">Conclua o Estaleiro da Dinastia na dificuldade {number}.</string>
-	<string key="ui_metachievement_pve_mutate_dungeon_isabellalair_generic_desc" rel_version="Feature_Dungeon_Mutators">Conclua !undefined dungeon! na dificuldade {number}.</string>
-	<string key="ui_metachievement_pve_mutate_dungeon_barnacle_generic_desc" rel_version="Feature_Dungeon_Mutators">Conclua Cracas e Pólvora Preta na dificuldade {number}.</string>
-	<string key="ui_metachievement_pve_mutate_dungeon_ennead_generic_desc" rel_version="Feature_Dungeon_Mutators">Conclua a Enéade na dificuldade {number}.</string>
 	<string key="ui_metachievement_pve_arenascompleted_desc">Complete {number} batalhas de arena.</string>
 	<string key="ui_metachievement_pvp_killbyfaction_covenant_desc">Derrote pessoalmente {number} jogadores da Aliança.</string>
 	<string key="ui_metachievement_pvp_killbyfaction_marauder_desc">Derrote pessoalmente {number} jogadores dos Saqueadores.</string>
@@ -1078,6 +1103,7 @@
 	<string key="ui_metachievement_weaponmastery_rapier_generic_desc">Alcance o nível {number} de Maestria de Rapieira.</string>
 	<string key="ui_metachievement_weaponmastery_icegauntlet_generic_desc">Alcance o nível {number} de Maestria de Manopla de Gelo.</string>
 	<string key="ui_metachievement_weaponmastery_voidgauntlet_generic_desc">Alcance o nível {number} de Maestria de Manopla Imaterial.</string>
+	<string key="ui_metachievement_weaponmastery_blunderbuss_generic_desc">Alcance o nível {number} de Maestria de Bacamarte.</string>
 	<string key="ui_metachievement_repairscount_generic_desc">Repare {number} itens do inventário.</string>
 	<string key="ui_metachievement_craftcount_armoring_generic_desc">Confeccione {number} itens de Forjamento de Armaduras.</string>
 	<string key="ui_metachievement_craftcount_cooking_generic_desc">Confeccione {number} itens de Culinária.</string>

@@ -1299,7 +1299,7 @@
 	<string key="PerkID_Ability_Hammer_WreckingBall_Name">Palla da demolizione penetrante</string>
 	<string key="PerkID_Ability_Hammer_WreckingBall_Description">Palla da demolizione penetra un {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_WreckingBall.ArmorPenetration * 100 * {perkMultiplier}]}% dell'armatura del bersaglio.</string>
 	<string key="PerkID_Ability_Hammer_Shockwave_Name">Onda d'urto separante I</string>
-	<string key="PerkID_Ability_Hammer_Shockwave_Description">Onda d'urto applica Lacerato, riducendo l'assorbimento dei danni del bersaglio di un {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.ABSStandard * -100 * {perkMultiplier}]}% per {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.BaseDuration]} secondi.</string>
+	<string key="PerkID_Ability_Hammer_Shockwave_Description">Onda d'urto infligge Lacerato, riducendo l'assorbimento dei danni del bersaglio di un {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.ABSStandard * -100 * {perkMultiplier}]}% per {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.BaseDuration]} secondi.</string>
 	<string key="PerkID_Ability_Hammer_ClearOut_Name">Sgombero respingente</string>
 	<string key="PerkID_Ability_Hammer_ClearOut_Description">Ora Sgombero respinge i bersagli di un {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_ClearOut.Knockback * 100 * {perkMultiplier}]}% aggiuntivo.</string>
 	<string key="PerkID_Ability_Hammer_PathOfDestiny_Name">Sentiero del destino assorbi-vita</string>
@@ -1319,7 +1319,7 @@
 	<string key="PerkID_Ability_Spear_Sweep_Name">Spazzata sanguinante</string>
 	<string key="PerkID_Ability_Spear_Sweep_Description">Ora il colpo di grazia della Spazzata applica Sanguinamento per un {[Type_StatusEffectData.Status_Perk_Spear_SweepFinish_Bleed.HealthModifierDamageBased * -100 * {perkMultiplier}]}% del danno dell'arma per {[Type_StatusEffectData.Status_Perk_Spear_SweepFinish_Bleed.BaseDuration]} secondi.</string>
 	<string key="PerkID_Ability_Spear_Javelin_Name">Giavellotto separante</string>
-	<string key="PerkID_Ability_Spear_Javelin_Description">Giavellotto applica Lacerato, riducendo l'assorbimento dei danni del bersaglio di un {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.ABSStandard * -100 * {perkMultiplier}]}% per {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.BaseDuration]} secondi.</string>
+	<string key="PerkID_Ability_Spear_Javelin_Description">Giavellotto infligge Lacerato, riducendo l'assorbimento dei danni del bersaglio di un {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.ABSStandard * -100 * {perkMultiplier}]}% per {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.BaseDuration]} secondi.</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Name">Ciclone assorbi-vita</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Description">Ogni colpo di Ciclone andato a segno ti cura di un {[GlobalAbilityTable.GlobalPerk_Ability_Spear_Cyclone.DmgPctToHealth * 100 * {perkMultiplier}]}% del danno dell'arma.</string>
 	<string key="PerkID_Ability_Spear_Perforate_Name">Perforazione fortificante</string>
@@ -1347,7 +1347,7 @@
 	<string key="PerkID_Ability_Rapier_Flurry_Name">Folata assorbi-vita</string>
 	<string key="PerkID_Ability_Rapier_Flurry_Description">Ogni colpo di Folata andato a segno restituisce un {[GlobalAbilityTable.GlobalPerk_Ability_Rapier_Flurry.DmgPctToHealth * 100 * {perkMultiplier}]}% dei danni come salute.</string>
 	<string key="PerkID_Ability_Rapier_Riposte_Name">Contrattacco separante</string>
-	<string key="PerkID_Ability_Rapier_Riposte_Description">Contrattacco conferisce Lacerato, riducendo l'assorbimento dei danni del bersaglio di un {[Type_StatusEffectData.Status_Perk_Rapier_Riposte_Rend.ABSStandard * -100 * {perkMultiplier}]}% per {[Type_StatusEffectData.Status_Perk_Rapier_Riposte_Rend.BaseDuration]} secondi.</string>
+	<string key="PerkID_Ability_Rapier_Riposte_Description">Contrattacco infligge Lacerato, riducendo l'assorbimento dei danni del bersaglio di un {[Type_StatusEffectData.Status_Perk_Rapier_Riposte_Rend.ABSStandard * -100 * {perkMultiplier}]}% per {[Type_StatusEffectData.Status_Perk_Rapier_Riposte_Rend.BaseDuration]} secondi.</string>
 	<string key="PerkID_Ability_Rapier_Evade_Name">Scarto omnidirezionale</string>
 	<string key="PerkID_Ability_Rapier_Evade_Description">Il miglioramento Adagio dello Scarto viene applicato quando scarti in una direzione qualsiasi.</string>
 	<string key="PerkID_Ability_Rapier_Fleche_Name">Frecciata ricaricante</string>
@@ -1819,7 +1819,7 @@
 	<string key="PerkID_Weapon_Melee_ChargedHeavy_Crit_Name" rel_version="MorePerksV1">Critici incisivi</string>
 	<string key="PerkID_Weapon_Melee_ChargedHeavy_Crit_Description" rel_version="MorePerksV1">Gli attacchi pesanti completamente caricati infliggono un {[GlobalAbilityTable.Global_Weapon_Melee_ChargedHeavy_Crit.CritDamage * 100 * {perkMultiplier}]}% di danni critici aggiuntivi.</string>
 	<string key="PerkID_Weapon_Melee_ChargedHeavy_Rend_Name" rel_version="MorePerksV1">Lacerato incisivo</string>
-	<string key="PerkID_Weapon_Melee_ChargedHeavy_Rend_Description" rel_version="MorePerksV1">Gli attacchi pesanti completamente caricati applicano Lacerato per {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.BaseDuration]} s, riducendo l'assorbimento del bersaglio di un {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.ABSStandard * -100 * {perkMultiplier}]}% (tempo di ricarica {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend_Timer.BaseDuration]} s.)</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_Rend_Description" rel_version="MorePerksV1">Gli attacchi pesanti completamente caricati infliggono Lacerato per {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.BaseDuration]} s, riducendo l'assorbimento del bersaglio di un {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.ABSStandard * -100 * {perkMultiplier}]}% (tempo di ricarica {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend_Timer.BaseDuration]} s)</string>
 	<string key="PerkID_Weapon_Melee_ChargedHeavy_Heal_Name" rel_version="MorePerksV1">Recupero incisivo</string>
 	<string key="PerkID_Weapon_Melee_ChargedHeavy_Heal_Description" rel_version="MorePerksV1">Gli attacchi pesanti completamente caricati guariscono il giocatore di un {[GlobalAbilityTable.Global_Weapon_Melee_ChargedHeavy_Heal.DmgPctToHealth * 100 * {perkMultiplier}]}% dei danni inflitti.</string>
 	<string key="PerkID_Armor_RangeDefense_Physical_Name" rel_version="MorePerksV1">Avversione fisica</string>

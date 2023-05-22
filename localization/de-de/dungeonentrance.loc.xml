@@ -10,7 +10,7 @@
 	<string key="ui_dungeon_requirements_gearscore">Empfohlene Stufe: {level}</string>
 	<string key="ui_flyout_recommended_groupsize">Empfohlene Spielerzahl: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{players}&lt;/font&gt;</string>
 	<string key="ui_dungeon_requirements_equipment_warning">Um diese Expedition abzuschließen, muss deine Gruppe mindestens &lt;font color="#ffffff"&gt;{item}&lt;/font&gt; haben.</string>
-	<string key="ui_dungeon_reward_level"/>
+	<string key="ui_dungeon_reward_level">Die Qualität der Gesamtbeute steigt mit dem Schwierigkeitsgrad.\n\nDer Rüstwert der erhaltenen Gegenstände kann von den hier aufgelisteten abweichen.</string>
 	<string key="ui_dungeon_level_requirement">Erforderliche Stufe: {level}</string>
 	<string key="ui_dungeon_elapsed_time">Vergangene Zeit:</string>
 	<string key="ui_dungeon_estimated_time_remaining">Voraussichtliche Wartedauer:</string>
@@ -64,7 +64,7 @@
 	<string key="ui_dungeon_mutation_promotion_description" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ff9393" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Gegner&lt;/font&gt; können die folgenden &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Boni&lt;/font&gt; haben:</string>
 	<string key="ui_dungeon_mutation_curse_description" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Spieler&lt;/font&gt; erhalten die folgenden &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Schwächungen&lt;/font&gt;:</string>
 	<string key="ui_dungeon_mutator_expiration_text" rel_version="Feature_Dungeon_Mutators">Ändert sich in: </string>
-	<string key="ui_dungeon_mutator_recommended_gearscore" rel_version="Feature_Dungeon_Mutators"/>
+	<string key="ui_dungeon_mutator_recommended_gearscore" rel_version="Feature_Dungeon_Mutators">Empfohlener Mindestrüstwert: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{score}&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_codex" rel_version="Feature_Dungeon_Mutators">Kodex</string>
 	<string key="ui_dungeon_mutator_difficulty_default" rel_version="Feature_Dungeon_Mutators">Normal</string>
 	<string key="ui_dungeon_mutator_difficulty_1" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt; (Normal)</string>
@@ -171,7 +171,8 @@
 	<string key="ui_dungeon_possible_rewards_header" rel_version="Feature_Dungeon_Mutators">Mögliche Belohnungen</string>
 	<string key="ui_dungeon_no_possible_rewards" rel_version="Feature_Dungeon_Mutators">Keine möglichen Belohnungen</string>
 	<string key="ui_dungeon_orb_explanation" rel_version="Feature_Dungeon_Mutators">Eine einmalige Belohnung. Mutierte Expeditionsstimmkugeln sind auch im Fraktionsladen erhältlich.</string>
-	<string key="ui_dungeon_gearscore_recommendation_tooltip" rel_version="Feature_Dungeon_Mutators"/>
-	<string key="ui_dungeon_gearscore_underlevel_warning" rel_version="Feature_Dungeon_Mutators">ACHTUNG: Ihr durchschnittlicher Rüstwert ist zu niedrig, als dass Sie bei dieser Expedition gut abschneiden könnten.</string>
+	<string key="ui_dungeon_gearscore_recommendation_tooltip" rel_version="Feature_Dungeon_Mutators">
+	&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Empfohlener Rüstwert&lt;/font&gt;\n\nDie Differenz zwischen deinem durchschnittlichen und dem empfohlenen Rüstwert wirkt sich auf die Kampfberechnung aus.\n\nEin Rüstwert, der &lt;font color="#ff9393"&gt;unter&lt;/font&gt; dem empfohlenen liegt, bewirkt, dass du &lt;font color="#ffffff"&gt;weniger Schaden verursachst&lt;/font&gt; und Gegner auf der Expedition dir &lt;font color="#ffffff"&gt;höheren Schaden zufügen&lt;/font&gt;.</string>
+	<string key="ui_dungeon_gearscore_underlevel_warning" rel_version="Feature_Dungeon_Mutators">&lt;font color="#f25d5d" face="lyshineui/fonts/Nimbus_Bold.font"&gt;ACHTUNG:&lt;/font&gt; Dein durchschnittlicher Rüstwert ist zu niedrig, um bei dieser Expedition gut abzuschneiden.</string>
 </resources>
 

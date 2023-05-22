@@ -426,9 +426,9 @@
 	<string key="Mut_Voi_Stacks_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoide I</string>
 	<string key="Mut_Voi_Stacks_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoide II</string>
 	<string key="Mut_Voi_Stacks_1_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoia I</string>
-	<string key="Mut_Voi_Stacks_1_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">El miedo te atenaza durante {[Type_StatusEffectData.Mut_Lig_Stacks_1_Effect.BaseDuration]} segundos. Cuando se acumula 4 veces, hace que estalle una explosión de vacío en tu ubicación.</string>
+	<string key="Mut_Voi_Stacks_1_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">El miedo te atenaza durante {[Type_StatusEffectData.Mut_Lig_Stacks_1_Effect.BaseDuration]} segundos. Cuando se acumula {[Type_StatusEffectData.Mut_Voi_Stacks_1_Effect.AddOnStackSize]} veces, causa un estallido de vacío en tu ubicación.</string>
 	<string key="Mut_Voi_Stacks_2_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoia II</string>
-	<string key="Mut_Voi_Stacks_2_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">El miedo te atenaza durante {[Type_StatusEffectData.Mut_Lig_Stacks_2_Effect.BaseDuration]} segundos. Cuando se acumula 4 veces, hace que estalle una explosión de vacío en tu ubicación.</string>
+	<string key="Mut_Voi_Stacks_2_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">El miedo te atenaza durante {[Type_StatusEffectData.Mut_Lig_Stacks_2_Effect.BaseDuration]} segundos. Cuando se acumula {[Type_StatusEffectData.Mut_Voi_Stacks_2_Effect.AddOnStackSize]} veces, causa un estallido de vacío en tu ubicación.</string>
 	<string key="Mut_Voi_Leech_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Olvido I</string>
 	<string key="Mut_Voi_Leech_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Olvido II</string>
 	<string key="Mut_Voi_Leech_1_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Chupavidas del olvido I</string>
@@ -459,7 +459,7 @@
 	<string key="Mut_Curse4_Major_ManaStop_DisplayName" rel_version="Feature_Dungeon_Mutators">Truncamiento del maná</string>
 	<string key="Mut_Curse4_Major_ManaStop_ToolTip" rel_version="Feature_Dungeon_Mutators">No se puede regenerar el maná de forma natural.</string>
 	<string key="Mut_Curse4_Major_ManaRegen_DisplayName" rel_version="Feature_Dungeon_Mutators">Flujo de maná</string>
-	<string key="Mut_Curse4_Major_ManaRegen_ToolTip" rel_version="Feature_Dungeon_Mutators">Regenera {[Type_StatusEffectData.Mut_Curse4_Major_ManaRegen.Mana]} cada {[Type_StatusEffectData.Mut_Curse4_Major_Mana.TickRate]} segundos.</string>
+	<string key="Mut_Curse4_Major_ManaRegen_ToolTip" rel_version="Feature_Dungeon_Mutators">Regenera {[Type_StatusEffectData.Mut_Curse4_Major_ManaRegen.Mana]} de maná cada {[Type_StatusEffectData.Mut_Curse4_Major_ManaRegen.TickRate]} segundos.</string>
 	<string key="Mut_Base_Curse4_Minor_Silence_DisplayName" rel_version="Feature_Dungeon_Mutators">Silencio</string>
 	<string key="Mut_Base_Curse4_Minor_Silence_ToolTip" rel_version="Feature_Dungeon_Mutators">No puedes usar habilidades dentro del área de efecto.</string>
 	<string key="GhostDisease_DisplayName">Enfermedad</string>
@@ -1098,7 +1098,7 @@
 	<string key="BlockSpeedPerk1_Description">Tu velocidad de movimiento aumenta en {[Type_StatusEffectData.BlockSpeedPerk1.MoveSpeedMod * 100]}</string>
 	<string key="BlockSpeedPerk2_Description">Tu velocidad de movimiento aumenta en {[Type_StatusEffectData.BlockSpeedPerk2.MoveSpeedMod * 100]}</string>
 	<string key="BlockSpeedPerk3_Description">Tu velocidad de movimiento aumenta en {[Type_StatusEffectData.BlockSpeedPerk3.MoveSpeedMod * 100]}</string>
-	<string key="DodgeLowerThreatPerk_DisplayName">Discreción</string>
+	<string key="DodgeLowerThreatPerk_DisplayName">Evasión</string>
 	<string key="DodgeLowerThreatPerk_Description">Reduce temporalmente el daño por amenaza que infliges.</string>
 	<string key="DodgeIncreaseThreatPerk_DisplayName">Intimidación</string>
 	<string key="DodgeIncreaseThreatPerk_Description">Aumenta temporalmente el daño por amenaza que infliges.</string>
@@ -1317,10 +1317,6 @@
 	<string key="Status_Passive_Foc_300_Bonus_Timer">Temporizador de recarga a partir de 300 de concentración, bonificación de regeneración de maná</string>
 	<string key="Dungeon_PurifyingFlame">Llama purificadora</string>
 	<string key="Dungeon_PurifyingFlame_Description">Purifica la plaga concentrada</string>
-	<string key="Dungeon_CursedTreasure_DisplayName" rel_version="Expedition_CutlassKeys_00">Tesoro maldito</string>
-	<string key="Dungeon_CursedTreasure_Description" rel_version="Expedition_CutlassKeys_00">Tu velocidad de movimiento se reduce y sufrirás daños de forma regular.</string>
-	<string key="Dungeon_SirenOffering_DisplayName" rel_version="Expedition_CutlassKeys_00">Ofrenda de Nereida</string>
-	<string key="Dungeon_SirenOffering_Description" rel_version="Expedition_CutlassKeys_00">Lleva esta ofrenda a uno de los manantiales vacíos cercanos.</string>
 	<string key="Immune_To_Damage">Inmune</string>
 	<string key="TauntAI_DisplayName">Provocado</string>
 	<string key="Block_Broken_DisplayName">Rotura de bloqueo</string>
@@ -1354,5 +1350,7 @@
 	<string key="Status_Weapon_ChargedHeavyRend_Description" rel_version="MorePerksV1">Recibes un {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.ABSStandard * -100]} % más de daño de todas las fuentes.</string>
 	<string key="Status_Timer_ChargedHeavyRend_Description" rel_version="MorePerksV1">Cuando termina, puedes volver a utilizar la ventaja de Afinidad helada.</string>
 	<string key="Blunderbuss_LastChance_Desc">Recibes un {[Type_StatusEffectData.Blunderbuss_LastChance.ABSStandard * 100]} % menos de daño.</string>
+	<string key="Status_MothersLove">Amor maternal</string>
+	<string key="Status_MothersLove_Description">Sientes una presencia orientadora y maternal sobre ti. Tu suerte aumenta un {[Type_StatusEffectData.Shrine_MothersLove.GlobalRollMod * 0.01]} % durante{[Type_StatusEffectData.Shrine_MothersLove.BaseDuration / 60]} m.</string>
 </resources>
 

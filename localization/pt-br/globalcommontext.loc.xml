@@ -117,7 +117,9 @@
 	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">resistência a combustível</string>
 	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">temporizador de combustível</string>
 	<string key="ui_affliction_mutcurse4" rel_version="Feature_Dungeon_Mutators">resistência a contragolpe</string>
-	<string key="ui_affliction_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Se a sua resistência se esgotar, uma zona de Silêncio será conjurada em você. A zona detonará depois de um tempo, causando dano a jogadores e criaturas. A resistência é compartilhada entre todos os membros do grupo.</string>
+	<string key="ui_affliction_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Se a sua resistência se esgotar, uma zona de Silêncio será conjurada em você. A zona detonará depois de um tempo, causando dano aos jogadores. A resistência é compartilhada entre todos os membros do grupo.</string>
+	<string key="ui_affliction_mutcurse2" rel_version="Feature_Dungeon_Mutators_pt2">resistência a esgotado</string>
+	<string key="ui_affliction_mutcurse2_tooltip" rel_version="Feature_Dungeon_Mutators">Se a sua resistência se esgotar, uma zona de Esgotado será lançada em você, diminuindo seu movimento e aumentando todo o dano sofrido. Usar habilidades aumenta a resistência. A resistência é compartilhada entre todos os membros do grupo.</string>
 	<string key="ui_afflicted_bleeding">ferido</string>
 	<string key="ui_afflicted_bleeding_tooltip">Quando se está ferido, o vigor regenera numa frequência muito menor</string>
 	<string key="ui_afflicted_burn">queimando</string>
@@ -233,6 +235,7 @@
 	<string key="ui_commit_1_point">Usar &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt; 1 &lt;/font&gt; Ponto</string>
 	<string key="ui_commit_points">Usar &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt; {points} &lt;/font&gt; Pontos</string>
 	<string key="ui_abilities_on_cooldown">Habilidades em Recarga</string>
+	<string key="ui_abilities_in_combat">Em Combate</string>
 	<string key="ui_componentname">Nome do Componente</string>
 	<string key="ui_confirm">Confirmar</string>
 	<string key="ui_confirm_delete_character_placeholder">Digite o nome do personagem</string>
@@ -573,7 +576,10 @@
 	<string key="ui_unlock">Desbloquear</string>
 	<string key="ui_ability_locked_error">Habilidade não pode ser usada até que esteja desbloqueada</string>
 	<string key="ui_ability_cooldown_error">Habilidades não podem ser alteradas até que estejam fora do tempo de espera</string>
+	<string key="ui_ability_combat_error">Habilidades não podem ser alteradas durante o combate</string>
+	<string key="ui_ability_points_combat_error">Não é possível usar pontos durante o combate</string>
 	<string key="ui_respec_cooldown_error">Não é possível realocar enquanto houver habilidades em recarga.</string>
+	<string key="ui_respec_combat_error">Não é possível realocar durante o combate</string>
 	<string key="ui_equipment_cooldown_error">Não é possível alterar equipamentos enquanto houver habilidades em recarga</string>
 	<string key="ui_secondary_attack">Ataque Secundário</string>
 	<string key="ui_weaponcycleup">Alternar Armas para Cima</string>
@@ -594,18 +600,18 @@
 	<string key="ui_quickslot2">Acesso Rápido nº2</string>
 	<string key="ui_quickslot3">Acesso Rápido nº3</string>
 	<string key="ui_quickslot4">Acesso Rápido nº4</string>
-	<string key="ui_head_slot_tooltip">Espaço de cabeça.</string>
-	<string key="ui_chest_slot_tooltip">Espaço de peito.</string>
-	<string key="ui_hands_slot_tooltip">Espaço de mão.</string>
-	<string key="ui_legs_slot_tooltip">Espaço de perna.</string>
-	<string key="ui_feet_slot_tooltip">Espaço de pé.</string>
-	<string key="ui_amulet_slot_tooltip">Espaço de amuleto.</string>
-	<string key="ui_token_slot_tooltip">Espaço de símbolo.</string>
+	<string key="ui_head_slot_tooltip">Espaço de Cabeça.</string>
+	<string key="ui_chest_slot_tooltip">Espaço de Peito.</string>
+	<string key="ui_hands_slot_tooltip">Espaço de Mão.</string>
+	<string key="ui_legs_slot_tooltip">Espaço de Perna.</string>
+	<string key="ui_feet_slot_tooltip">Espaço de Pé.</string>
+	<string key="ui_amulet_slot_tooltip">Espaço de Amuleto.</string>
+	<string key="ui_token_slot_tooltip">Espaço de Símbolo.</string>
 	<string key="ui_ring_slot_tooltip">Espaço de Anel.</string>
-	<string key="ui_bag_slot_tooltip">Espaço de bolsa.</string>
-	<string key="ui_arrow_slot_tooltip">Espaço de flecha.</string>
-	<string key="ui_cartridge_slot_tooltip">Espaço de cartucho.</string>
-	<string key="ui_shield_slot_tooltip">Espaço de escudo.</string>
+	<string key="ui_bag_slot_tooltip">Espaço de Bolsa.</string>
+	<string key="ui_arrow_slot_tooltip">Espaço de Flecha.</string>
+	<string key="ui_cartridge_slot_tooltip">Espaço de Cartucho.</string>
+	<string key="ui_shield_slot_tooltip">Espaço de Escudo.</string>
 	<string key="ui_lifestaff_combat">Combate de Bastão Vital</string>
 	<string key="ui_target_self">Selecionar Si Mesmo</string>
 	<string key="ui_exit_auto_target">Sair da Autosseleção</string>
@@ -660,6 +666,10 @@
 	<string key="ui_respawn">Renascer</string>
 	<string key="ui_return_to_aeternum">Voltar para Aeternum</string>
 	<string key="ui_respawnpoints">Pontos de renascimento</string>
+	<string key="ui_respawnpoint">Ponto de Renascimento:</string>
+	<string key="ui_outofrange">Fora de Alcance</string>
+	<string key="ui_inrange">Dentro do Alcance</string>
+	<string key="ui_noactivecamp">Nenhum Acampamento Ativo!</string>
 	<string key="ui_respawninseconds">Renascimento em 2 segundos</string>
 	<string key="ui_respawn_time_remaining">Pode renascer em &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt;</string>
 	<string key="ui_respawntype">Tipo de renascimento</string>
@@ -875,6 +885,15 @@
 	<string key="ui_character_options">Opções de Personagem</string>
 	<string key="ui_character_merge_destination">Este mundo ({worldName}) será fundido ao {destinationWorldName} em {date}.</string>
 	<string key="ui_xp">EXP</string>
+	<string key="ui_xp_boost">Impulso de EXP</string>
+	<string key="ui_xp_event_title">EVENTO DE IMPULSO DE EXP!</string>
+	<string key="ui_xp_event_desc">O Impulso de EXP Especial está ativo neste mundo!</string>
+	<string key="ui_xp_event_modal_title">IMPULSO DE EXP ATIVADO!</string>
+	<string key="ui_xp_event_modal_desc">Venha aproveitar o glorioso evento de Impulso de EXP! Esta é a chance de aumentar o nível de seus personagens!\nO impulso é ativado em:</string>
+	<string key="ui_xp_event_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;EXP (x {amount})&lt;/font&gt;</string>
+	<string key="ui_xp_event_tradeskill_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Habilidade Mercante (x {amount})&lt;/font&gt;</string>
+	<string key="ui_xp_event_weaponmastery_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Maestria em Armas (x {amount})&lt;/font&gt;</string>
+	<string key="ui_xp_boost_reminder" comment="The leading space is intentional"> (x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
 	<string key="world_landing_title">O MUNDO ideal foi selecionado para você.</string>
 	<string key="world_set">Conjunto de Mundos?</string>
 	<string key="world_set_title">*O que é um Conjunto de Mundos?</string>
@@ -1496,6 +1515,7 @@
 	<string key="ui_repair_all_category_disabled">Você não tem Moedas e/ou Peças de Reparos ou Kits de Reparo suficientes para reparar todos os itens nesta categoria.</string>
 	<string key="ui_repair_all_equipment_disabled">Você não tem Moedas e/ou Peças de Reparos ou Kits de Reparo suficientes para reparar todo o seu equipamento.</string>
 	<string key="ui_repair_all_not_needed">Não há itens desta categoria precisando de reparo.</string>
+	<string key="ui_repair_filtered">Não é possível reparar todos os itens nesta seção enquanto eles estão filtrados.</string>
 	<string key="ui_repair_all_not_needed_equipment">Nenhum equipamento precisa de reparo.</string>
 	<string key="ui_repair_all_confirmation">Reparar todos os itens desta categoria?\nSerá necessário:</string>
 	<string key="ui_repair_all_equipment_confirmation">Reparar todo o seu equipamento?\nSerá necessário:</string>
@@ -1623,6 +1643,7 @@
 	<string key="ui_unstuck_request_accepted">Teletransportando em %d segundos</string>
 	<string key="ui_generator_time_to_generate_item">Tempo para gerar {quantity} {item}.</string>
 	<string key="ui_quantitywithx">x{quantity}</string>
+	<string key="ui_xp_bonuses_multiplier">x {quantity}</string>
 	<string key="ui_generator_at_maximum_capacity">{generator} está cheio.\nRetire itens para continuar a geração de {item}.</string>
 	<string key="ui_generator_over_weight_limit">Acima do limite</string>
 	<string key="ui_item_unavailable_reason">Só está disponível para {entitlementRequirements}</string>
@@ -1809,8 +1830,10 @@
 	<string key="ui_cycle_view_channels_mod">Modificador do Ciclo de Canais</string>
 	<string key="ui_view_my_storage">Ver Meu Armazém</string>
 	<string key="ui_improve">Melhorar</string>
-	<string key="ui_xp_tooltip">&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;EXP PRINCIPAIS&lt;/font&gt;\n {totalXP} EXP Total\n {xpToLevel} para o nível {nextLevel}{restedXpString}</string>
-	<string key="ui_xp_rested_tooltip">\n\n&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;EXP BÔNUS&lt;/font&gt;\n &lt;font color={restedXpColor}&gt;+{restedModifier} Bônus de Descanso\n {totalRestedXP} EXP de Descanso Restantes&lt;/font&gt;</string>
+	<string key="ui_xp_tooltip">&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;EXP PRINCIPAIS&lt;/font&gt;\n {totalXP} EXP Total\n {xpToLevel} para o nível {nextLevel}{bonusXpString}</string>
+	<string key="ui_xp_bonuses_tooltip">\n\n&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;BÔNUS DE EXP&lt;/font&gt;{restedXpString}{boostXpString}\n &lt;font color={totalBonusXpColor}&gt;{totalXpBonus}Bônus de EXP Total&lt;/font&gt;</string>
+	<string key="ui_xp_rested_tooltip">\n &lt;font color={restedXpColor}&gt;{restedModifier} Bônus de Descanso\n {totalRestedXP} EXP de Descanso Restante&lt;/font&gt;</string>
+	<string key="ui_xp_multiplier_tooltip">\n &lt;font color={boostXpColor}&gt;{boostModifier} Impulso de EXP&lt;/font&gt;</string>
 	<string key="ui_rested_xp_notification_title">EXP BÔNUS DE DESCANSO</string>
 	<string key="ui_rested_xp_notification_body">Depois de ficar longe do New World por um tempo, você fica descansado. Enquanto descansado, você ganha EXP em uma taxa melhorada até gastar todo o seu EXP descansado.</string>
 	<string key="ui_level_increased">Nível Aumentado</string>
@@ -2176,6 +2199,7 @@
 	<string key="ui_tooltip_company_discount">Desconto de Companhia</string>
 	<string key="ui_tooltip_firsthouse_discount">Desconto de Primeira Casa</string>
 	<string key="ui_tooltip_firsthouse">&lt;font color="#ffd45f"&gt;Quem compra uma casa pela primeira vez ganha um grande desconto!&lt;/font&gt;</string>
+	<string key="ui_tooltip_current_territory_discount">Desconto do Território Atual</string>
 	<string key="ui_tooltip_attribute_discount">Desconto de Atributo</string>
 	<string key="ui_tooltip_standing_discount">Desconto de Posição do Território</string>
 	<string key="ui_tooltip_order_price">Preço do Pedido</string>
@@ -2288,8 +2312,9 @@
 	<string key="ui_number_range">{lowNumber}–{highNumber}</string>
 	<string key="ui_recommended_level_range">Nível Recomendado: {lowNumber}–{highNumber}</string>
 	<string key="ui_cannot_trade_currency_blocked">Não é possível trocar moedas até o nível {level} e sua conta ter mais de {hoursNeeded} horas</string>
-	<string key="ui_cannot_chat_global_blocked">Não é possível conversar neste canal até sua conta ter mais de {hoursNeeded} horas</string>
+	<string key="ui_cannot_chat_global_blocked">Não é possível conversar neste canal até sua conta ter mais de {hoursNeeded} horas e seu tempo de jogo ser maior que {playtimeNeeded}</string>
 	<string key="ui_complete_quests_to_unlock">Conclua jornadas no assentamento para desbloquear</string>
+	<string key="ui_cannot_chat_trading_blocked">Para acessar este canal, sua conta deve ter mais do que {hoursNeeded} horas, seu tempo de jogo deve ser maior que {playtimeNeeded} e o Entreposto Comercial deve estar desbloqueado.</string>
 	<string key="ui_averageexpertise">Proficiência\nMédia</string>
 	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Proficiência&lt;/font&gt;\nA Proficiência é usada para medir a potência máxima de um item quando você o tem equipado.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Proficiência máxima que você pode alcançar&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Como aumentar a Proficiência&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;PDI de Elite e Expedições&lt;/font&gt;\nItens obtidos de criaturas ou baús em áreas de nível acima de 60 têm uma chance de aumentar esse valor.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Confecção&lt;/font&gt;\nConfeccionar um item com uma Pontuação do Equipamento de 600 aumentará a Proficiência desse tipo de item.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Molde de Gipsita&lt;/font&gt;\nAbrir um Molde de Gipsita aumentará a Proficiência.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Aprimorar Item (com Lascas de Umbral)&lt;/font&gt;\nApós atingir 600 de Proficiência, a única maneira de aumentá-la é aprimorando itens com Lascas de Umbral.</string>
 	<string key="ui_itemtypedescription_shield_only">Escudo</string>

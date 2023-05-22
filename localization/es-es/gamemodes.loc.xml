@@ -124,8 +124,8 @@
 	<string key="ui_outpost_rush_battle_tokens_with_value">Blasones de batalla {value}</string>
 	<string key="ui_outpost_rush_outpost_under_attack">{value} está sufriendo un ataque</string>
 	<string key="ui_outpost_rush_boss_killed">PUNTUACIÓN EN PAUSA</string>
-	<string key="ui_outpost_rush_ally_buff">¡La puntuación del enemigo no aumentará durante &lt;font color="#ffea00"&gt;3 minutos&lt;/font&gt;!</string>
-	<string key="ui_outpost_rush_enemy_buff">¡La puntuación de tu equipo no aumentará durante &lt;font color="#ffea00"&gt;3 minutos&lt;/font&gt;!</string>
+	<string key="ui_outpost_rush_ally_buff">¡La puntuación del enemigo no aumentará durante &lt;font color="#ffea00"&gt;2 minutos y 30 segundos&lt;/font&gt;!</string>
+	<string key="ui_outpost_rush_enemy_buff">¡La puntuación de tu equipo no aumentará durante &lt;font color="#ffea00"&gt;2 minutos y 30 segundos&lt;/font&gt;!</string>
 	<string key="ui_outpost_rush_armory_built">Se ha construido una armería en {value}</string>
 	<string key="ui_outpost_rush_command_post_built">Se ha construido un puesto de mando en {value}</string>
 	<string key="ui_outpost_rush_command_post_upgrade">El puesto de mando en {value} se ha mejorado a clase {tier}</string>
@@ -134,7 +134,7 @@
 	<string key="ui_outpost_rush_outpost_contested">¡{value} está en disputa!</string>
 	<string key="ui_outpost_rush_boss_spawned">La baronesa Hain ha aparecido</string>
 	<string key="ui_outpost_rush_match_started">Partida iniciada</string>
-	<string key="ui_outpost_rush_match_started_desc">Captura puestos remotos para conseguir {value} puntos</string>
+	<string key="ui_outpost_rush_match_started_desc">Captura puestos remotos y mata enemigos para conseguir puntos. ¡El primer equipo en conseguir {value} puntos gana!</string>
 	<string key="ui_outpost_rush_score_to_win">{value} para ganar</string>
 	<string key="ui_outpost_rush_leave">Salir de Asalto a puesto remoto</string>
 	<string key="ui_outpost_rush_leave_queue_title">¿Salir de la cola?</string>
@@ -161,6 +161,7 @@
 	<string key="ui_outpost_rush_tutorial_level_requirement">Para participar en Asalto a puesto remoto, es necesario haber alcanzado el &lt;font color="#ffe294"&gt;nivel {level}&lt;/font&gt;.</string>
 	<string key="ui_outpost_rush_locked">Bloqueado</string>
 	<string key="ui_outpost_rush_select_summoning_stone">Selecciona una piedra de invocación</string>
+	<string key="ui_outpost_rush_barrier">Barrera del fuerte</string>
 	<string key="ui_or_total_score">PUNTUACIÓN TOTAL</string>
 	<string key="ui_or_points_from">PUNTOS DE</string>
 	<string key="ui_or_outpost_a">PUESTO REMOTO LUNA</string>
@@ -170,7 +171,7 @@
 	<string key="ui_outpost_rush_summoning_circle">Círculo de invocación</string>
 	<string key="ui_outpost_rush_summoning_circle_desc">Usa una piedra de invocación en este obelisco para añadir un aliado monstruoso a tu equipo durante un tiempo limitado.</string>
 	<string key="ui_outpost_rush_portal">PORTAL</string>
-	<string key="ui_outpost_rush_portal_score">{current}/{total} &lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt;</string>
+	<string key="ui_outpost_rush_portal_score">{current}/{total} &lt;img src="lyshineui/images/icon_azoth" xPadding="-3" scale="1.4" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pinning_disabled_while_in_or">Fijar/Quitar objetivos está desactivado durante Asalto a puesto remoto.</string>
 	<string key="ui_pinning_disabled_expeditions">Fijar/Quitar objetivos está desactivado para los objetivos de expediciones</string>
 	<string key="ui_or_commandpost_buff_on">La estructura ofrece potenciadores al equipo</string>
@@ -183,8 +184,8 @@
 	<string key="or_tutorial_rules_capture_body">Captura un puesto remoto colocándote en el círculo del centro.</string>
 	<string key="or_tutorial_rules_score_title">TU EQUIPO ESTÁ PERDIENDO</string>
 	<string key="or_tutorial_rules_score_body">Captura y defiende puestos remotos y derrota a jugadores enemigos para aumentar la puntuación de tu equipo.</string>
-	<string key="or_tutorial_rules_portal_title">PON 500 ESENCIAS DE AZOTH EN EL PORTAL CORRUPTO</string>
-	<string key="or_tutorial_rules_portal_body">Mete la 500.ª esencia de Azoth para recibir una piedra de invocación corrupta.</string>
+	<string key="or_tutorial_rules_portal_title">PON 750 ESENCIAS DE AZOTH EN EL PORTAL CORRUPTO</string>
+	<string key="or_tutorial_rules_portal_body">Mete la 750.ª esencia de Azoth para recibir una piedra de invocación corrupta.</string>
 	<string key="or_tutorial_boss_spawn_title">LA BARONESA HAIN HA APARECIDO</string>
 	<string key="or_tutorial_boss_spawn_body">Acaba con ella para recibir un potenciador de defensa poderoso y evitar que la puntuación del equipo enemigo aumente durante 3 minutos.</string>
 	<string key="or_tutorial_boss_near_title">LA BARONESA HAIN ESTÁ CERCA</string>
@@ -210,9 +211,9 @@
 	<string key="or_tutorial_summoning_reminder_title">USA TU PIEDRA DE INVOCACIÓN</string>
 	<string key="or_tutorial_summoning_reminder_body">Ve a un círculo de invocación disponible para invocar a un poderoso aliado.</string>
 	<string key="or_tutorial_summoning_findstone_title">NECESITAS UNA PIEDRA DE INVOCACIÓN</string>
-	<string key="or_tutorial_summoning_findstone_body">Consigue una comprándola en la armería, derrotando a Ug o excavando en las minas, o donando 500 esencias de Azoth al portal corrupto.</string>
+	<string key="or_tutorial_summoning_findstone_body">Consigue una comprándola en la armería, derrotando a Ug o excavando en las minas, o donando 750 esencias de Azoth al portal corrupto.</string>
 	<string key="or_tutorial_summoning_nostone_title">CONSIGUE UNA PIEDRA DE INVOCACIÓN E INTÉNTALO DE NUEVO</string>
-	<string key="or_tutorial_summoning_nostone_body">Consigue una comprándola en la armería, derrotando a Ug o excavando en las minas, o donando 500 esencias de Azoth al portal corrupto.</string>
+	<string key="or_tutorial_summoning_nostone_body">Consigue una comprándola en la armería, derrotando a Ug o excavando en las minas, o donando 750 esencias de Azoth al portal corrupto.</string>
 	<string key="or_tutorial_summoning_creature_title">TODAVÍA NO SE PUEDE VOLVER A USAR EL CÍRCULO DE INVOCACIÓN</string>
 	<string key="or_tutorial_summoning_creature_body">Prueba con uno diferente o espera a que vuelva a estar disponible.</string>
 	<string key="emote_unable_to_use_emote">No se pueden usar gestos en este modo de juego</string>

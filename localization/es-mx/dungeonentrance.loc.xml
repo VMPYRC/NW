@@ -10,7 +10,7 @@
 	<string key="ui_dungeon_requirements_gearscore">Nivel recomendado: {level}</string>
 	<string key="ui_flyout_recommended_groupsize">Jugadores recomendados: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{players}&lt;/font&gt;</string>
 	<string key="ui_dungeon_requirements_equipment_warning">Para completar esta expedición, tu grupo debe tener al menos &lt;font color="#ffffff"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_reward_level"/>
+	<string key="ui_dungeon_reward_level">La calidad general del botín aumentará a medida que aumenten los niveles de dificultad.\n\nLos objetos que encuentres pueden diferir de los de la lista, según su puntuación del equipo.</string>
 	<string key="ui_dungeon_level_requirement">Nivel requerido: {level}</string>
 	<string key="ui_dungeon_elapsed_time">Tiempo transcurrido:</string>
 	<string key="ui_dungeon_estimated_time_remaining">Tiempo de espera estimado:</string>
@@ -64,7 +64,7 @@
 	<string key="ui_dungeon_mutation_promotion_description" rel_version="Feature_Dungeon_Mutators">Los &lt;font color="#ff9393" face="lyshineui/fonts/Nimbus_Bold.font"&gt;enemigos&lt;/font&gt; pueden tener las siguientes &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;potenciaciones:&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutation_curse_description" rel_version="Feature_Dungeon_Mutators">Los &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;jugadores&lt;/font&gt; reciben las siguientes &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;despotenciaciones:&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_expiration_text" rel_version="Feature_Dungeon_Mutators">Cambios en: </string>
-	<string key="ui_dungeon_mutator_recommended_gearscore" rel_version="Feature_Dungeon_Mutators"/>
+	<string key="ui_dungeon_mutator_recommended_gearscore" rel_version="Feature_Dungeon_Mutators">Puntuación del equipo mínima recomendada: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{score}&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_codex" rel_version="Feature_Dungeon_Mutators">Códice</string>
 	<string key="ui_dungeon_mutator_difficulty_default" rel_version="Feature_Dungeon_Mutators">Regular</string>
 	<string key="ui_dungeon_mutator_difficulty_1" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt; (Normal)</string>
@@ -171,7 +171,8 @@
 	<string key="ui_dungeon_possible_rewards_header" rel_version="Feature_Dungeon_Mutators">Recompensas posibles</string>
 	<string key="ui_dungeon_no_possible_rewards" rel_version="Feature_Dungeon_Mutators">No hay recompensas posibles</string>
 	<string key="ui_dungeon_orb_explanation" rel_version="Feature_Dungeon_Mutators">Una recompensa única. Los orbes de ajuste de expedición mutada también están disponibles en la Tienda de la facción.</string>
-	<string key="ui_dungeon_gearscore_recommendation_tooltip" rel_version="Feature_Dungeon_Mutators"/>
-	<string key="ui_dungeon_gearscore_underlevel_warning" rel_version="Feature_Dungeon_Mutators">ADVERTENCIA: Su puntuación del equipo promedio es demasiado baja para tener un buen desempeño en esta Expedición.</string>
+	<string key="ui_dungeon_gearscore_recommendation_tooltip" rel_version="Feature_Dungeon_Mutators">
+	&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Puntuación del equipo recomendada&lt;/font&gt;\n\nLos cálculos del combate se ven afectados por la diferencia entre tu puntuación del equipo promedio y la puntuación del equipo recomendada.\n\nUna puntuación del equipo &lt;font color="#ff9393"&gt;inferior&lt;/font&gt; a la puntuación recomendada hará que &lt;font color="#ffffff"&gt;inflijas menos daño&lt;/font&gt; y que &lt;font color="#ffffff"&gt;recibas más daño&lt;/font&gt; de los enemigos en la expedición.</string>
+	<string key="ui_dungeon_gearscore_underlevel_warning" rel_version="Feature_Dungeon_Mutators">&lt;font color="#f25d5d" face="lyshineui/fonts/Nimbus_Bold.font"&gt;ADVERTENCIA:&lt;/font&gt; Su puntuación del equipo promedio es demasiado baja para tener un buen desempeño en esta Expedición.</string>
 </resources>
 

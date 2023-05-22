@@ -169,12 +169,20 @@
 	<string key="ui_guildclaimtitle">Przejęcie kompanii</string>
 	<string key="ui_guildclaimmessage">Twoja kompania przejęła terytorium &lt;font color="#9e947e"&gt;{territoryName}&lt;/font&gt;.</string>
 	<string key="ui_guildrequestthrottledmessage">Prośba odrzucona w ramach ograniczania żądań. Spróbuj ponownie później.</string>
-	<string key="ui_guildrankgovernor">Zarządca</string>
-	<string key="ui_guildrankconsul">Konsul</string>
-	<string key="ui_guildrankofficer">Oficer</string>
+	<string key="ui_guildrankgovernor" comment="Pronoun for Target Player">Zarządca</string>
+	<string key="ui_guildrankgovernor_SHE">Zarządczyni</string>
+	<string key="ui_guildrankgovernor_THEY">Osoba zarządzająca</string>
+	<string key="ui_guildrankconsul" comment="Pronoun for Target Player">Konsul</string>
+	<string key="ui_guildrankconsul_SHE">Konsul</string>
+	<string key="ui_guildrankconsul_THEY">Konsul</string>
+	<string key="ui_guildrankofficer" comment="Pronoun for Target Player">Oficer</string>
+	<string key="ui_guildrankofficer_SHE">Oficer</string>
+	<string key="ui_guildrankofficer_THEY">Oficer</string>
 	<string key="ui_guildCannotInviteNoPrivilege">Nie można wysłać zaproszeń do kompanii. Za niski stopień.</string>
 	<string key="ui_guildCannotInviteNoFaction">Nie można wysłać zaproszeń do kompanii. Brak frakcji.</string>
-	<string key="ui_guildranksettler">Osadnik</string>
+	<string key="ui_guildranksettler" comment="Pronoun for Target Player">Osadnik</string>
+	<string key="ui_guildranksettler_SHE">Osadniczka</string>
+	<string key="ui_guildranksettler_THEY">Osoba osadnicza</string>
 	<string key="ui_guildrankpublic">Publiczny</string>
 	<string key="ui_guildrankgovernor_and_above">1. Zarządca</string>
 	<string key="ui_guildrankconsul_and_above">2. Konsul i wyżej</string>
@@ -204,8 +212,12 @@
 	<string key="ui_noneinthisrank">Brak graczy o tym stopniu</string>
 	<string key="ui_numGuildInvites">({numInvites})</string>
 	<string key="ui_governorexpire_offline">Zarządca twojej kompanii jest nieaktywny od dłuższego czasu. Członek kompanii ze stopniem konsula może stać się zarządcą.</string>
-	<string key="ui_governorexpire_deleted">Zarządca twojej kompanii odszedł lub usunął swoją postać. Członek kompanii ze stopniem konsula może stać się zarządcą.</string>
+	<string key="ui_governorexpire_deleted" comment="Pronoun for Disappeared Governor">Zarządca twojej kompanii odszedł lub usunął swoją postać. Członek kompanii ze stopniem konsula może stać się zarządcą.</string>
+	<string key="ui_governorexpire_deleted_SHE">Zarządczyni twojej kompanii odeszła lub usunęła swoją postać. Członek kompanii ze stopniem konsula może stać się zarządcą.</string>
+	<string key="ui_governorexpire_deleted_THEY">Zarządca twojej kompanii odszedł lub usunął swoją postać. Członek kompanii ze stopniem konsula może stać się zarządcą.</string>
 	<string key="ui_becomegovernor">Zostań zarządcą</string>
+	<string key="ui_becomegovernor_SHE">Zostań zarządczynią</string>
+	<string key="ui_becomegovernor_THEY">Zostań osobą zarządzającą</string>
 	<string key="ui_permission_assign_structures">Przydzielanie konstrukcji należących do kompanii: {allowed}</string>
 	<string key="ui_permission_build_structures">Budowanie na ziemi kompanii: {allowed}</string>
 	<string key="ui_permission_cancel_structures">Anulowanie budowania konstrukcji: {allowed}</string>
@@ -242,7 +254,7 @@
 	<string key="ui_promote">Awansuj</string>
 	<string key="ui_promote_transfer_owner">Przekaż prawo własności</string>
 	<string key="ui_promotetoguildmaster_confirm_title">Przekazać kompanię?</string>
-	<string key="ui_promotetoguildmaster_confirm">Czy na pewno chcesz przekazać zarządzanie kompanią graczowi {memberName}?\n\nWszyscy członkowie, ziemie, obiekty i fundusze kompanii {guildName} znajdą się pod nadzorem gracza {memberName} jako nowego zarządcy kompanii {guildName}. Nazwa i herb kompanii pozostaną bez zmian. Twoja postać zostanie zdegradowana o jeden stopień.\n\nTej czynności nie można cofnąć, a zmiana zostanie wprowadzona w życie natychmiast.</string>
+	<string key="ui_promotetoguildmaster_confirm" comment="Pronoun for Transferring ownership to a player. Need to break into two string keys">Czy na pewno chcesz przekazać zarządzanie kompanią graczowi {memberName}?\n\nWszyscy członkowie, ziemie, obiekty i fundusze kompanii {guildName} znajdą się pod nadzorem gracza {memberName} jako nowego zarządcy kompanii {guildName}. Nazwa i herb kompanii pozostaną bez zmian. Twoja postać zostanie zdegradowana o jeden stopień.\n\nTej czynności nie można cofnąć, a zmiana zostanie wprowadzona w życie natychmiast.</string>
 	<string key="ui_rank">Stopień</string>
 	<string key="ui_rankmovedowndisabled">To jest najniższy stopień.</string>
 	<string key="ui_rankmoveupdisabled">Nie można przenieść powyżej stopnia {gmRankName}.</string>

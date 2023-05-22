@@ -117,7 +117,9 @@
 	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">resistencia a combustible</string>
 	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">temporizador de combustible.</string>
 	<string key="ui_affliction_mutcurse4" rel_version="Feature_Dungeon_Mutators">resistencia a retroceso</string>
-	<string key="ui_affliction_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Si te quedas sin resistencia, se creará una zona de silencio. La zona detonará con el tiempo, infligiendo daño a jugadores y criaturas. La resistencia se comparte entre todos los miembros de tu grupo.</string>
+	<string key="ui_affliction_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Si te quedas sin resistencia, se creará una zona de silencio. La zona detonará con el tiempo, infligiendo daño a los jugadores. La resistencia se comparte entre todos los miembros de tu grupo.</string>
+	<string key="ui_affliction_mutcurse2" rel_version="Feature_Dungeon_Mutators_pt2">resistencia al desgaste</string>
+	<string key="ui_affliction_mutcurse2_tooltip" rel_version="Feature_Dungeon_Mutators">Si te quedas sin resistencia, se creará una zona de desgaste que ralentizará tu movimiento y aumentará el daño infligido. Usar habilidades aumenta la resistencia. La resistencia se comparte entre todos los miembros de tu grupo.</string>
 	<string key="ui_afflicted_bleeding">herido</string>
 	<string key="ui_afflicted_bleeding_tooltip">Mientras estés herido, recuperarás la vitalidad mucho más lentamente</string>
 	<string key="ui_afflicted_burn">quemado</string>
@@ -233,6 +235,7 @@
 	<string key="ui_commit_1_point">Gasta &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt; 1 &lt;/font&gt; punto</string>
 	<string key="ui_commit_points">Gasta &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{points}&lt;/font&gt; puntos</string>
 	<string key="ui_abilities_on_cooldown">Habilidades en recarga</string>
+	<string key="ui_abilities_in_combat">En combate</string>
 	<string key="ui_componentname">Nombre del componente</string>
 	<string key="ui_confirm">Confirmar</string>
 	<string key="ui_confirm_delete_character_placeholder">Introduce el nombre del personaje</string>
@@ -573,7 +576,10 @@
 	<string key="ui_unlock">Desbloquear</string>
 	<string key="ui_ability_locked_error">No puedes usar esta habilidad hasta que la desbloquees</string>
 	<string key="ui_ability_cooldown_error">No se pueden cambiar las habilidades hasta que se recarguen</string>
+	<string key="ui_ability_combat_error">No se pueden cambiar las habilidades durante el combate.</string>
+	<string key="ui_ability_points_combat_error">No se pueden gastar puntos durante el combate.</string>
 	<string key="ui_respec_cooldown_error">Las habilidades no se pueden reasignar mientras se recargan</string>
+	<string key="ui_respec_combat_error">No se pueden reasignar habilidades durante el combate.</string>
 	<string key="ui_equipment_cooldown_error">El equipo no se puede cambiar mientras haya habilidades recargándose</string>
 	<string key="ui_secondary_attack">Ataque secundario</string>
 	<string key="ui_weaponcycleup">Cambiar armas arriba</string>
@@ -660,6 +666,10 @@
 	<string key="ui_respawn">Reaparición</string>
 	<string key="ui_return_to_aeternum">Volver a Aetérnum</string>
 	<string key="ui_respawnpoints">Puntos de reaparición</string>
+	<string key="ui_respawnpoint">Punto de reaparición:</string>
+	<string key="ui_outofrange">Fuera del alcance</string>
+	<string key="ui_inrange">Al alcance</string>
+	<string key="ui_noactivecamp">¡No hay ningún campamento activo!</string>
 	<string key="ui_respawninseconds">Reaparición en 2 segundos</string>
 	<string key="ui_respawn_time_remaining">Puedes reaparecer en &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt;.</string>
 	<string key="ui_respawntype">Tipo de reaparición</string>
@@ -875,6 +885,15 @@
 	<string key="ui_character_options">Opciones de personaje</string>
 	<string key="ui_character_merge_destination">El mundo ({worldName}) se unirá con {destinationWorldName} el {date}.</string>
 	<string key="ui_xp">EXP</string>
+	<string key="ui_xp_boost">Mejora de EXP</string>
+	<string key="ui_xp_event_title">¡EVENTO DE MEJORA DE EXP!</string>
+	<string key="ui_xp_event_desc">¡La mejora especial de EXP está activa en este mundo!</string>
+	<string key="ui_xp_event_modal_title">¡MEJORA DE EXP ACTIVADA!</string>
+	<string key="ui_xp_event_modal_desc">¡Ven a disfrutar del maravilloso evento de mejora de EXP! ¡Esta es la oportunidad para subir de nivel a tus personajes!\nLa mejora se activa en:</string>
+	<string key="ui_xp_event_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;EXP (x {amount})&lt;/font&gt;</string>
+	<string key="ui_xp_event_tradeskill_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Habilidad de oficio (x {amount})&lt;/font&gt;</string>
+	<string key="ui_xp_event_weaponmastery_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Maestría con armas (x {amount})&lt;/font&gt;</string>
+	<string key="ui_xp_boost_reminder" comment="The leading space is intentional"> (x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
 	<string key="world_landing_title">Hemos elegido un mundo óptimo para ti</string>
 	<string key="world_set">¿Conjunto de mundos?</string>
 	<string key="world_set_title">*¿Qué es un conjunto de mundos?</string>
@@ -1496,6 +1515,7 @@
 	<string key="ui_repair_all_category_disabled">No tienes suficientes monedas y/o kits o piezas de reparación para arreglar todos los objetos de esta categoría.</string>
 	<string key="ui_repair_all_equipment_disabled">No tienes suficientes monedas y/o kits o piezas de reparación para arreglar todo tu equipo.</string>
 	<string key="ui_repair_all_not_needed">Ningún objeto en esta categoría necesita reparaciones.</string>
+	<string key="ui_repair_filtered">No se pueden reparar todos los objetos de la sección mientras estén filtrados.</string>
 	<string key="ui_repair_all_not_needed_equipment">Ninguna parte de tu equipamiento necesita reparaciones.</string>
 	<string key="ui_repair_all_confirmation">¿Reparar todos los objetos de esta categoría?\nNecesitas:</string>
 	<string key="ui_repair_all_equipment_confirmation">¿Quieres reparar todo tu equipamiento?\nNecesitas:</string>
@@ -1623,6 +1643,7 @@
 	<string key="ui_unstuck_request_accepted">Teletransportación en %d segundos.</string>
 	<string key="ui_generator_time_to_generate_item">Tiempo para generar {quantity} {item}.</string>
 	<string key="ui_quantitywithx">x{quantity}</string>
+	<string key="ui_xp_bonuses_multiplier">x{quantity}</string>
 	<string key="ui_generator_at_maximum_capacity">El {generator} se encuentra al máximo de su capacidad.\nCoge objetos para reanudar la generación del elemento ({item}).</string>
 	<string key="ui_generator_over_weight_limit">Límite superado</string>
 	<string key="ui_item_unavailable_reason">Solo está disponible para {entitlementRequirements}</string>
@@ -1809,8 +1830,10 @@
 	<string key="ui_cycle_view_channels_mod">Modificador de cambio de canal</string>
 	<string key="ui_view_my_storage">Ver mi almacenamiento</string>
 	<string key="ui_improve">Mejorar</string>
-	<string key="ui_xp_tooltip">&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;EXP BÁSICA&lt;/font&gt;\n {totalXP} de EXP total\n {xpToLevel} para el nivel {nextLevel}{restedXpString}</string>
-	<string key="ui_xp_rested_tooltip">\n\n&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;BONIFICACIONES DE EXP&lt;/font&gt;\n &lt;font color={restedXpColor}&gt;+{restedModifier} de bonificación por descanso\n {totalRestedXP} EXP restante de descanso&lt;/font&gt;</string>
+	<string key="ui_xp_tooltip">&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;EXP BÁSICA&lt;/font&gt;\n {totalXP} de EXP total\n {xpToLevel} para el nivel {nextLevel}{bonusXpString}</string>
+	<string key="ui_xp_bonuses_tooltip">\n\n&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;BONIFICACIONES DE EXP&lt;/font&gt;{restedXpString}{boostXpString}\n &lt;font color={totalBonusXpColor}&gt;{totalXpBonus} Bonificación total de EXP&lt;/font&gt;</string>
+	<string key="ui_xp_rested_tooltip">\n &lt;font color={restedXpColor}&gt;{restedModifier} de bonificación por descanso\n {totalRestedXP} EXP restante de descanso&lt;/font&gt;</string>
+	<string key="ui_xp_multiplier_tooltip">\n &lt;font color={boostXpColor}&gt;{boostModifier} Mejora de EXP&lt;/font&gt;</string>
 	<string key="ui_rested_xp_notification_title">BONIFICACIÓN DE EXP POR DESCANSO</string>
 	<string key="ui_rested_xp_notification_body">Cuando no has estado en New World durante un tiempo, te encuentras descansado. Mientras estás descansado, ganas más EXP hasta que se pasa este efecto.</string>
 	<string key="ui_level_increased">Nivel aumentado</string>
@@ -2176,6 +2199,7 @@
 	<string key="ui_tooltip_company_discount">Descuento de compañía</string>
 	<string key="ui_tooltip_firsthouse_discount">Descuento en la primera casa</string>
 	<string key="ui_tooltip_firsthouse">&lt;font color="#ffd45f"&gt;¡Los propietarios primerizos reciben un generoso descuento!&lt;/font&gt;</string>
+	<string key="ui_tooltip_current_territory_discount">Descuento de territorio actual</string>
 	<string key="ui_tooltip_attribute_discount">Descuento de atributo</string>
 	<string key="ui_tooltip_standing_discount">Descuento de estatus de territorio</string>
 	<string key="ui_tooltip_order_price">Precio del pedido</string>
@@ -2288,10 +2312,11 @@
 	<string key="ui_number_range">{lowNumber} - {highNumber}</string>
 	<string key="ui_recommended_level_range">Nivel recomendado: {lowNumber} - {highNumber}</string>
 	<string key="ui_cannot_trade_currency_blocked">Para intercambiar monedas tienes que ser al menos de nivel {level} y tu cuenta debe haber sido creada hace al menos {hoursNeeded} horas.</string>
-	<string key="ui_cannot_chat_global_blocked">No puedes hablar en este canal hasta que tu cuenta lleve creada más de {hoursNeeded} horas.</string>
+	<string key="ui_cannot_chat_global_blocked">No puedes hablar en este canal hasta que tu cuenta lleve creada más de {hoursNeeded} horas y tus horas de juego superen las {playtimeNeeded}.</string>
 	<string key="ui_complete_quests_to_unlock">Completa misiones en el asentamiento para desbloquear</string>
+	<string key="ui_cannot_chat_trading_blocked">Tu cuenta debe tener más de {hoursNeeded}, tu tiempo de juego debe ser superior a {playtimeNeeded} y debes tener el puesto comercial desbloqueado para acceder a este canal.</string>
 	<string key="ui_averageexpertise">Pericia\nmedia</string>
-	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Pericia&lt;/font&gt;\nLa pericia se utiliza para medir la potencia máxima de un objeto cuando lo tienes equipado.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Máxima pericia que es posible alcanzar&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Cómo aumentar la pericia&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Puntos de interés y expediciones de élite&lt;/font&gt;\nLos botines de criaturas o cofres en áreas de nivel 60 o superior tienen la posibilidad de aumentar este valor.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Artesanía&lt;/font&gt;\nFabricar un objeto de 600 GS aumentará la pericia de este tipo de objeto.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Molde de aljez&lt;/font&gt;\nAbrir un molde de aljez incrementa la pericia.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Mejora de objetos (con fragmentos umbríos)&lt;/font&gt;\nDespués de llegar a 600 de pericia, la única manera de aumentar la pericia es mediante la mejora de los objetos con fragmentos umbrales.</string>
+	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Pericia&lt;/font&gt;\nLa pericia se utiliza para medir la potencia máxima de un objeto cuando lo tienes equipado.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Máxima pericia que es posible alcanzar&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Cómo aumentar la pericia&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Puntos de interés y expediciones de élite&lt;/font&gt;\nLos botines de criaturas o cofres en áreas de nivel 60 o superior tienen la posibilidad de aumentar este valor.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Artesanía&lt;/font&gt;\nFabricar un objeto de 600 GS aumentará la pericia de este tipo de objeto.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Molde de aljez&lt;/font&gt;\nAbrir un molde de aljez incrementa la pericia.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Mejora de objetos (con fragmentos umbríos)&lt;/font&gt;\nDespués de llegar a 600 de pericia, la única manera de aumentar la pericia es mediante la mejora de los objetos con fragmentos umbríos.</string>
 	<string key="ui_itemtypedescription_shield_only">Escudo</string>
 	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}</string>
 	<string key="ui_expertise_warning_with_icon">&lt;font color="#ff9393"&gt;&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_red" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}&lt;/font&gt;</string>

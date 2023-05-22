@@ -63,9 +63,9 @@
 	<string key="inv_equipLoadSlow">Pesante</string>
 	<string key="inv_equipLoadOverburdened">Sovraccarico</string>
 	<string key="inv_equipLoadTooltip">Il peso totale dell'armatura e dello scudo equipaggiati determina il tuo carico equipaggiato. Ogni carico equipaggiato offre una schivata unica e altri bonus.</string>
-	<string key="inv_equipLoadFastTooltip">Mentre indossi un'armatura leggera, la tua schivata è una rotolata veloce che copre una lunga distanza. Causi un 20% di danni bonus e un {[Type_StatusEffectData.EquipLoad_HealingBonus_Light.HealScalingValueMultiplier * 100]}% di cure bonus.</string>
-	<string key="inv_equipLoadNormalTooltip">Mentre indossi un'armatura media, la tua schivata è un salto veloce. Causi un 10% di danni bonus e un {[Type_StatusEffectData.EquipLoad_HealingBonus_Medium.HealScalingValueMultiplier * 100]}% di cure bonus. I depotenziamenti di controllo di gruppo che applichi durano un 10% in più.</string>
-	<string key="inv_equipLoadSlowTooltip">Mentre indossi un'armatura pesante, la tua schivata è uno spostamento laterale lento. La stabilità della tua parata viene aumentata del 15% e i depotenziamenti di controllo di gruppo che applichi durano un 20% in più.</string>
+	<string key="inv_equipLoadFastTooltip">Mentre indossi un'armatura leggera, la tua schivata è una capriola veloce che copre una lunga distanza e consuma {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]} di energia. Causi un 20% di danni bonus e ottieni un {[Type_StatusEffectData.EquipLoad_HealingBonus_Light.HealScalingValueMultiplier * 100]}% di cure bonus.</string>
+	<string key="inv_equipLoadNormalTooltip">Mentre indossi un'armatura media, la tua schivata è un salto veloce che consuma {[StaminaCosts_Player.Dodge_Roll.StaminaCost]} di energia. Causi un 10% di danni bonus e ottieni un {[Type_StatusEffectData.EquipLoad_HealingBonus_Medium.HealScalingValueMultiplier * 100]}% di cure bonus. I depotenziamenti di controllo di gruppo che applichi durano un 10% in più.</string>
+	<string key="inv_equipLoadSlowTooltip">Mentre indossi un'armatura pesante, la tua schivata è uno spostamento laterale lento che consuma {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]} di energia. La stabilità della tua parata viene aumentata del 15% e i depotenziamenti di controllo di gruppo che applichi durano un 20% in più.</string>
 	<string key="inv_equipLoadOverburdenedTooltip">Quando superi il carico massimo equipaggiabile, non puoi schivare, scattare, né usare le abilità. Dovresti rimuovere qualche oggetto.</string>
 	<string key="inv_equipLoadEncumberedTooltip">Stai trasportando troppi oggetti nell'inventario. Quando hai troppo peso, non importa qual è il tuo carico equipaggiato. Non puoi scattare o schivare e perderai più energia durante la parata. Dovresti rimuovere qualche oggetto dalla borsa.</string>
 	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Hai superato il carico massimo equipaggiabile. Non puoi schivare né scattare e la tua rigenerazione di energia è molto ridotta. Dovresti rimuovere qualche oggetto.</string>
@@ -133,6 +133,7 @@
 	<string key="ui_set_quantity">Imposta quantità</string>
 	<string key="ui_drag_new_stack">Trascina nuova pila</string>
 	<string key="ui_box_opening_open_another_single">Apri successiva</string>
+	<string key="ui_box_opening_max_items_reached">+ {quantity} oggetti aggiuntivi</string>
 	<string key="ui_dropall">Lascia tutto</string>
 	<string key="ui_dropall_in_trade">Non puoi lasciare oggetti durante lo scambio</string>
 	<string key="ui_storeall">Deposita tutto</string>

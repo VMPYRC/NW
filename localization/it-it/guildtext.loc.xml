@@ -169,12 +169,20 @@
 	<string key="ui_guildclaimtitle">Territorio rivendicato dalla compagnia</string>
 	<string key="ui_guildclaimmessage">La tua compagnia ha rivendicato il territorio &lt;font color="#9e947e"&gt;{territoryName}&lt;/font&gt;.</string>
 	<string key="ui_guildrequestthrottledmessage">Richiesta limitata. Riprova più tardi.</string>
-	<string key="ui_guildrankgovernor">Governatore</string>
-	<string key="ui_guildrankconsul">Console</string>
-	<string key="ui_guildrankofficer">Ufficiale</string>
+	<string key="ui_guildrankgovernor" comment="Pronoun for Target Player">Governatore</string>
+	<string key="ui_guildrankgovernor_SHE">Governatrice</string>
+	<string key="ui_guildrankgovernor_THEY">Governatore</string>
+	<string key="ui_guildrankconsul" comment="Pronoun for Target Player">Console</string>
+	<string key="ui_guildrankconsul_SHE">Console</string>
+	<string key="ui_guildrankconsul_THEY">Console</string>
+	<string key="ui_guildrankofficer" comment="Pronoun for Target Player">Ufficiale</string>
+	<string key="ui_guildrankofficer_SHE">Ufficiale</string>
+	<string key="ui_guildrankofficer_THEY">Ufficiale</string>
 	<string key="ui_guildCannotInviteNoPrivilege">Impossibile inviare gli inviti della compagnia. Grado insufficiente.</string>
 	<string key="ui_guildCannotInviteNoFaction">Impossibile inviare gli inviti della compagnia. Non sei in una fazione.</string>
-	<string key="ui_guildranksettler">Colono</string>
+	<string key="ui_guildranksettler" comment="Pronoun for Target Player">Colono</string>
+	<string key="ui_guildranksettler_SHE">Colona</string>
+	<string key="ui_guildranksettler_THEY">Colono</string>
 	<string key="ui_guildrankpublic">Pubblico</string>
 	<string key="ui_guildrankgovernor_and_above">1. Governatore</string>
 	<string key="ui_guildrankconsul_and_above">2. Console e superiore</string>
@@ -204,8 +212,12 @@
 	<string key="ui_noneinthisrank">Non in questo grado</string>
 	<string key="ui_numGuildInvites">({numInvites})</string>
 	<string key="ui_governorexpire_offline">Il Governatore della tua compagnia è assente da molto tempo. Un membro con il grado di "Console" può diventare Governatore.</string>
-	<string key="ui_governorexpire_deleted">Il Governatore della tua compagnia ha abbandonato o eliminato il suo personaggio. Un membro con il grado di "Console" può diventare Governatore.</string>
+	<string key="ui_governorexpire_deleted" comment="Pronoun for Disappeared Governor">Il Governatore della tua compagnia ha abbandonato o eliminato il suo personaggio. Un membro con il grado di "Console" può diventare Governatore.</string>
+	<string key="ui_governorexpire_deleted_SHE">La Governatrice della tua compagnia ha abbandonato o eliminato il suo personaggio. Un membro con il grado di "Console" può diventare Governatrice.</string>
+	<string key="ui_governorexpire_deleted_THEY">Il Governatore della tua compagnia ha abbandonato o eliminato il suo personaggio. Un membro con il grado di "Console" può diventare Governatore.</string>
 	<string key="ui_becomegovernor">Diventa Governatore</string>
+	<string key="ui_becomegovernor_SHE">Diventa Governatrice</string>
+	<string key="ui_becomegovernor_THEY">Diventa Governatore</string>
 	<string key="ui_permission_assign_structures">{allowed} assegnare strutture della compagnia</string>
 	<string key="ui_permission_build_structures">{allowed} costruire sulla terra della compagnia</string>
 	<string key="ui_permission_cancel_structures">{allowed} annullare strutture progettate</string>
@@ -242,7 +254,7 @@
 	<string key="ui_promote">Promuovi</string>
 	<string key="ui_promote_transfer_owner">Trasferisci proprietà</string>
 	<string key="ui_promotetoguildmaster_confirm_title">Trasferire la compagnia?</string>
-	<string key="ui_promotetoguildmaster_confirm">Vuoi davvero trasferire la gestione della compagnia a {memberName}?\n\nTutti i membri, i territori rivendicati, le strutture e i fondi della cassa comune della compagnia {guildName} saranno sotto il controllo di {memberName} nelle vesti di nuovo Governatore della compagnia {guildName}. Il nome e l'emblema della compagnia non cambieranno. Scenderai di un grado.\n\nNon è possibile annullare questa azione e il cambiamento avrà effetto immediato.</string>
+	<string key="ui_promotetoguildmaster_confirm" comment="Pronoun for Transferring ownership to a player. Need to break into two string keys">Vuoi davvero trasferire la gestione della compagnia a {memberName}?\n\nTutti i membri, i territori rivendicati, le strutture e i fondi della cassa comune della compagnia {guildName} saranno sotto il controllo di {memberName} nelle vesti di nuovo Governatore della compagnia {guildName}. Il nome e l'emblema della compagnia non cambieranno. Scenderai di un grado.\n\nNon è possibile annullare questa azione e il cambiamento avrà effetto immediato.</string>
 	<string key="ui_rank">Grado</string>
 	<string key="ui_rankmovedowndisabled">Questo è il grado più basso</string>
 	<string key="ui_rankmoveupdisabled">Impossibile salire oltre il grado {gmRankName}</string>

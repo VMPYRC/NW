@@ -138,7 +138,7 @@
 	<string key="Passive_Bow_Hunter_Crit" comment="BOW + PASSIVE">Ins Schwarze getroffen</string>
 	<string key="Passive_Bow_Hunter_Crit_description" comment="BOW + PASSIVE">Erhöht die kritische Trefferchance von Pfeilen um {[BowAbilityTable.Passive_Bow_Hunter_Crit.CritChance * 100]} %.</string>
 	<string key="Ultimate_Bow_Hunter" comment="BOW + PASSIVE">Gehirnerschütterung</string>
-	<string key="Ultimate_Bow_Hunter_description" comment="BOW + PASSIVE">Landest du einen Kopfschusstreffer, verursachst du {[BowAbilityTable.Ultimate_Bow_Hunter.BaseDamage * 100]} % mehr Schaden und erhältst zu {[BowAbilityTable.Ultimate_Bow_Hunter_Refund.RefundAmmoPercentChance * 100]} % den verschossenen Pfeil zurück.</string>
+	<string key="Ultimate_Bow_Hunter_description" comment="BOW + PASSIVE">Landest du einen Kopfschusstreffer, verursachst du {[BowAbilityTable.Ultimate_Bow_Hunter.HeadshotDamage * 100]} % mehr Schaden und erhältst zu {[BowAbilityTable.Ultimate_Bow_Hunter_Refund.RefundAmmoPercentChance * 100]} % den verschossenen Pfeil zurück.</string>
 	<string key="Ability_Greataxe_Charge" comment="GREATAXE + ACTIVE">Ansturm</string>
 	<string key="Ability_Greataxe_Charge_description" comment="GREATAXE + ACTIVE">Stürme 10 m voran und verursache {[DamageTable.GreatAxe_Engage1.DmgCoef * 100]} % Waffenschaden, wenn du das Ziel erreichst. Drücke LMT, um stehenzubleiben und früher anzugreifen. \n\nDiese Fertigkeit generiert Mut. (Mut verhindert, durch Angriffe ins Taumeln zu geraten.)</string>
 	<string key="Upgrade_Greataxe_Charge_DmgPerDistance" comment="GREATAXE + MOD">Rasende Dynamik</string>
@@ -372,7 +372,7 @@
 	<string key="Upgrade_Sword_ReverseStab_Grit" comment="SWORD + MOD">Unaufhaltbarer Stich</string>
 	<string key="Upgrade_Sword_ReverseStab_Grit_description" comment="SWORD + MOD">"Rückenstich" verleiht nun Mut. \n\n(Mut verhindert, durch Angriffe ins Taumeln zu geraten.)</string>
 	<string key="Upgrade_Sword_ReverseStab_CDRonHit" comment="SWORD + MOD">Taktiker</string>
-	<string key="Upgrade_Sword_ReverseStab_CDRonHit_description" comment="SWORD + MOD">Bei einem Treffer mit Rückenstich verringern sich alle Schwertabklingzeiten um {[SwordAbilityTable.Upgrade_Sword_ReverseStab_CDRonHit.CooldownTimer * -100]} %.</string>
+	<string key="Upgrade_Sword_ReverseStab_CDRonHit_description" comment="SWORD + MOD">Bei einem Treffer mit Rückenstich verringern sich alle anderen Schwertabklingzeiten um {[SwordAbilityTable.Upgrade_Sword_ReverseStab_CDRonHit.CooldownTimer * -100]} %.</string>
 	<string key="Ability_Sword_WhirlingBlade" comment="SWORD + ACTIVE">Wirbelklinge</string>
 	<string key="Ability_Sword_WhirlingBlade_description" comment="SWORD + ACTIVE">Verursacht {[DamageTable.1H_Sword_Attack_Spin.DmgCoef * 100]} % Waffenschaden bei Gegnern im Umkreis von 2 m.</string>
 	<string key="Upgrade_Sword_WhirlingBlade_Rend" comment="SWORD + MOD">Gelegenheiten</string>
@@ -569,7 +569,7 @@
 	<string key="SocialDistancing" comment="HATCHET + ACTIVE">Soziales Abstandhalten</string>
 	<string key="SocialDistancing_description" comment="HATCHET + ACTIVE">Wirf ein Beil bis zu 25 m nach vorne und weiche zur Seite aus. Das Beil verursacht {[DamageTable.Hatchet_Damage_SocialDistancing.DmgCoef * 100]} % Waffenschaden und verlangsamt das Ziel um {[Type_StatusEffectData.Hatchet_SocialDist_Slow.MoveSpeedMod * -100]} % für {[Type_StatusEffectData.Hatchet_SocialDist_Slow.BaseDuration]} Sek. (Verlangsamung verringert das Bewegungstempo des Ziels.)</string>
 	<string key="SocialDistancing_Mod1" comment="HATCHET + MOD">Schnelle Macht</string>
-	<string key="SocialDistancing_Mod1_description" comment="HATCHET + MOD">Trifft "Soziales Abstandhalten" ein Ziel mit einer aktiven Schwächung, erhöht sich dein Bewegungstempo um {[Type_StatusEffectData.Hatchet_SocialDist_Haste.MoveSpeedMod * 100]} % für {[Type_StatusEffectData.Hatchet_SocialDist_Haste.BaseDuration]} Sek.</string>
+	<string key="SocialDistancing_Mod1_description" comment="HATCHET + MOD">Trifft "Soziales Abstandhalten" ein Ziel mit einer aktiven Schwächung, erhältst du Eile und dein Bewegungstempo erhöht sich um {[Type_StatusEffectData.Hatchet_SocialDist_Haste.MoveSpeedMod * 100]} % für {[Type_StatusEffectData.Hatchet_SocialDist_Haste.BaseDuration]} Sek.</string>
 	<string key="SocialDistancing_Mod2" comment="HATCHET + MOD">Zurückbleiben</string>
 	<string key="SocialDistancing_Mod2_description" comment="HATCHET + MOD">Der Verlangsamungseffekt von "Soziales Abstandhalten" erhöht sich um {[Type_StatusEffectData.Hatchet_SocialDist_SlowBuff.MoveSpeedMod * -100]} %, die Dauer um {[Type_StatusEffectData.Hatchet_SocialDist_SlowBuff.BaseDuration]} Sek.</string>
 	<string key="InfectedThrow" comment="HATCHET + ACTIVE">Infizierter Wurf</string>
@@ -731,7 +731,7 @@
 	<string key="PathOfDestiny_Mod1" comment="WARHAMMER + MOD">Seismische Wellen</string>
 	<string key="PathOfDestiny_Mod1_description" comment="WARHAMMER + MOD">"Pfad des Schicksals" bringt nun alle Ziele auf seinem Pfad zum Taumeln.</string>
 	<string key="PathOfDestiny_Mod2" comment="WARHAMMER + MOD">Stimulierte Verringerung</string>
-	<string key="PathOfDestiny_Mod2_description" comment="WARHAMMER + MOD">Fertigkeitsabklingzeiten werden für jeden mit "Pfad des Schicksals" getroffenen Gegner um {[WarHammerAbilityTable.Upgrade_WarHammer_PathOfDestiny_CDRPerHit.CooldownTimer * -100]} % verringert.</string>
+	<string key="PathOfDestiny_Mod2_description" comment="WARHAMMER + MOD">Fertigkeitsabklingzeiten werden für jeden mit "Pfad des Schicksals" getroffenen Gegner um {[WarHammerAbilityTable.Upgrade_WarHammer_PathOfDestiny_CDRPerHit.CooldownTimer * -100]} % verringert. (Maximal {[WarHammerAbilityTable.Upgrade_WarHammer_PathOfDestiny_CDRPerHit.NumberOfTrackedHits]} Gegner.)</string>
 	<string key="CCTree1Passive1" comment="WARHAMMER  +  PASSIVE">In der Unterzahl</string>
 	<string key="CCTree1Passive1_description" comment="WARHAMMER  +  PASSIVE">Erhöht Schadensabsorption um {[Type_StatusEffectData.WarHammer_CrowdCrusher_ArmorNearbyEnemy.ABSStandard * 100]} %, wenn du von 2 oder mehr Gegnern innerhalb eines Bereichs von {[SpellDataTable_WarHammer.WarHammer_ArmorPerNearbyEnemy_Detection.Radius]} m umgeben bist.</string>
 	<string key="CCTree1Passive2" comment="WARHAMMER  +  PASSIVE">Davon krieg ich nie genug</string>
@@ -833,7 +833,7 @@
 	<string key="Rapier_01_Mod3" comment="RAPIER + MOD">Ausreichend Freiraum</string>
 	<string key="Rapier_01_Mod3_description" comment="RAPIER + MOD">Verbessert den Schaden deines ersten Treffers mit Tondo um {[RapierAbilityTable.Rapier_Slash_Mod3.BaseDamage * 100]} %, wenn du mindestens {[RapierAbilityTable.Rapier_Slash_Mod3.DistFromDefender]} m von deinem Ziel entfernt bist.</string>
 	<string key="Rapier_02" comment="RAPIER + ACTIVE">Schnittgestöber</string>
-	<string key="Rapier_02_description" comment="RAPIER + ACTIVE">Du nimmst eine bestimmte Haltung ein und führst fünf schnelle Stichangriffe aus, deren Schaden mit jedem Treffer steigt. Du beginnst mit {[DamageTable.1H_Rapier_Flurry_Strike_1.DmgCoef * 100]} % Schaden und endest mit {[DamageTable.1H_Rapier_Flurry_Strike_5.DmgCoef * 100]} %. "Schnittgestöber" kann durch Ausweichen abgebrochen werden.</string>
+	<string key="Rapier_02_description" comment="RAPIER + ACTIVE">Du nimmst eine bestimmte Haltung ein und führst fünf schnelle Stichangriffe aus, deren Schaden mit jedem Treffer steigt. Du beginnst mit {[DamageTable.1H_Rapier_Flurry_Strike_1.DmgCoef * 100]} % Schaden und endest mit {[DamageTable.1H_Rapier_Flurry_Strike_5.DmgCoef * 100]} %. Schnittgestöber kann mit Ausweichen oder einer anderen Fertigkeit jederzeit unterbrochen werden.</string>
 	<string key="Rapier_02_Mod1" comment="RAPIER + MOD">Fließende Schläge</string>
 	<string key="Rapier_02_Mod1_description" comment="RAPIER + MOD">Jeder Treffer mit "Schnittgestöber" verringert dessen Abklingzeit um 7 %.</string>
 	<string key="Rapier_02_Mod2" comment="RAPIER + MOD">Überwältigen</string>

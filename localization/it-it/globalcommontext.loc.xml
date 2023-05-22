@@ -117,7 +117,9 @@
 	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">resistenza combustibile</string>
 	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">timer combustibile.</string>
 	<string key="ui_affliction_mutcurse4" rel_version="Feature_Dungeon_Mutators">resistenza di ritorno</string>
-	<string key="ui_affliction_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Se rimani senza resistenza, attorno a te si attiverà un'area di Silenzio. L'area esploderà dopo un certo tempo, infliggendo danni a giocatori e creature. La resistenza è condivisa da tutti i membri del tuo gruppo.</string>
+	<string key="ui_affliction_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Se rimani senza resistenza, attorno a te si attiverà un'area di Silenzio. L'area esploderà dopo un periodo di tempo, infliggendo danni ai giocatori. La resistenza è condivisa da tutti i membri del tuo gruppo.</string>
+	<string key="ui_affliction_mutcurse2" rel_version="Feature_Dungeon_Mutators_pt2">resistenza alla stanchezza</string>
+	<string key="ui_affliction_mutcurse2_tooltip" rel_version="Feature_Dungeon_Mutators">Se rimani senza resistenza, attorno a te si attiverà un'area di Stanchezza che rallenterà i tuoi movimenti e aumenterà tutti i danni che subirai. Utilizzare abilità aumenta la resistenza. La resistenza è condivisa da tutti i membri del tuo gruppo.</string>
 	<string key="ui_afflicted_bleeding">sanguinamento</string>
 	<string key="ui_afflicted_bleeding_tooltip">Quando sanguini, rigeneri energia molto più lentamente</string>
 	<string key="ui_afflicted_burn">rovente</string>
@@ -233,6 +235,7 @@
 	<string key="ui_commit_1_point">Spendi &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt; 1 &lt;/font&gt; punto</string>
 	<string key="ui_commit_points">Spendi &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt; {points} &lt;/font&gt; punti</string>
 	<string key="ui_abilities_on_cooldown">Abilità in ricarica</string>
+	<string key="ui_abilities_in_combat">In combattimento</string>
 	<string key="ui_componentname">Nome componente</string>
 	<string key="ui_confirm">Conferma</string>
 	<string key="ui_confirm_delete_character_placeholder">Digita il nome del personaggio</string>
@@ -573,7 +576,10 @@
 	<string key="ui_unlock">Sblocca</string>
 	<string key="ui_ability_locked_error">L'abilità non può essere usata finché non viene sbloccata</string>
 	<string key="ui_ability_cooldown_error">Le abilità non si possono cambiare fino al termine del tempo di ricarica</string>
+	<string key="ui_ability_combat_error">Le abilità non si possono cambiare durante il combattimento</string>
+	<string key="ui_ability_points_combat_error">Impossibile applicare punti durante il combattimento</string>
 	<string key="ui_respec_cooldown_error">Impossibile riassegnare mentre le abilità si stanno ricaricando</string>
+	<string key="ui_respec_combat_error">Impossibile riassegnare durante il combattimento</string>
 	<string key="ui_equipment_cooldown_error">Impossibile modificare l'equipaggiamento mentre le abilità si stanno ricaricando</string>
 	<string key="ui_secondary_attack">Attacco secondario</string>
 	<string key="ui_weaponcycleup">Cicla arma su</string>
@@ -601,7 +607,7 @@
 	<string key="ui_feet_slot_tooltip">Slot piedi.</string>
 	<string key="ui_amulet_slot_tooltip">Slot amuleto.</string>
 	<string key="ui_token_slot_tooltip">Slot gettone.</string>
-	<string key="ui_ring_slot_tooltip">Slot anello.</string>
+	<string key="ui_ring_slot_tooltip">Slot anello</string>
 	<string key="ui_bag_slot_tooltip">Slot borsa.</string>
 	<string key="ui_arrow_slot_tooltip">Slot freccia.</string>
 	<string key="ui_cartridge_slot_tooltip">Slot proiettile.</string>
@@ -660,6 +666,10 @@
 	<string key="ui_respawn">Rigenerazione</string>
 	<string key="ui_return_to_aeternum">Ritorna a Aeternum</string>
 	<string key="ui_respawnpoints">Punti di rigenerazione</string>
+	<string key="ui_respawnpoint">Punto di rigenerazione:</string>
+	<string key="ui_outofrange">Fuori portata</string>
+	<string key="ui_inrange">A portata</string>
+	<string key="ui_noactivecamp">Nessun accampamento attivo!</string>
 	<string key="ui_respawninseconds">Rigenerazione tra 2 secondi</string>
 	<string key="ui_respawn_time_remaining">Potrai rigenerarti tra &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt;</string>
 	<string key="ui_respawntype">Tipo di rigenerazione</string>
@@ -875,6 +885,15 @@
 	<string key="ui_character_options">Opzioni personaggio</string>
 	<string key="ui_character_merge_destination">Questo mondo ({worldName}) verrà fuso con {destinationWorldName} in data {date}.</string>
 	<string key="ui_xp">PE</string>
+	<string key="ui_xp_boost">Aumento di PE</string>
+	<string key="ui_xp_event_title">EVENTO AUMENTO DI PE!</string>
+	<string key="ui_xp_event_desc">Lo speciale aumento di PE è attivo per questo mondo!</string>
+	<string key="ui_xp_event_modal_title">È INIZIATO AUMENTO DI PE!</string>
+	<string key="ui_xp_event_modal_desc">Vieni a divertirti nel glorioso evento Aumento di PE! Ecco la tua opportunità per far salire di livello i tuoi personaggi!\nL'aumento si applica a:</string>
+	<string key="ui_xp_event_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;PE (x{amount})&lt;/font&gt;</string>
+	<string key="ui_xp_event_tradeskill_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Competenza (x{amount})&lt;/font&gt;</string>
+	<string key="ui_xp_event_weaponmastery_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Maestria con le armi (x{amount})&lt;/font&gt;</string>
+	<string key="ui_xp_boost_reminder" comment="The leading space is intentional"> (x{bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
 	<string key="world_landing_title">Abbiamo selezionato per te il MONDO ottimale</string>
 	<string key="world_set">Set di mondi?</string>
 	<string key="world_set_title">*Cos'è un set di mondi?</string>
@@ -1496,6 +1515,7 @@
 	<string key="ui_repair_all_category_disabled">Non hai abbastanza monete e/o kit di riparazione o pezzi di ricambio per riparare tutti gli oggetti di questa categoria.</string>
 	<string key="ui_repair_all_equipment_disabled">Non hai abbastanza monete e/o kit di riparazione o pezzi di ricambio per riparare tutti gli oggetti del tuo equipaggiamento.</string>
 	<string key="ui_repair_all_not_needed">Nessun oggetto in questa categoria ha bisogno di essere riparato.</string>
+	<string key="ui_repair_filtered">Impossibile riparare tutti gli oggetti in questa sezione mentre è attivo un filtro.</string>
 	<string key="ui_repair_all_not_needed_equipment">Nessun oggetto del tuo equipaggiamento ha bisogno di essere riparato.</string>
 	<string key="ui_repair_all_confirmation">Vuoi riparare tutti gli oggetti in questa categoria?\nAvrai bisogno di:</string>
 	<string key="ui_repair_all_equipment_confirmation">Vuoi riparare tutto il tuo equipaggiamento?\nAvrai bisogno di:</string>
@@ -1623,6 +1643,7 @@
 	<string key="ui_unstuck_request_accepted">Teletrasporto tra %d secondi</string>
 	<string key="ui_generator_time_to_generate_item">È ora di generare: {item} (quantità: {quantity})</string>
 	<string key="ui_quantitywithx">{quantity}x</string>
+	<string key="ui_xp_bonuses_multiplier">x{quantity}</string>
 	<string key="ui_generator_at_maximum_capacity">\n{generator} ha raggiunto la capacità massima.\nPrendi degli oggetti per riprendere la generazione di {item}.</string>
 	<string key="ui_generator_over_weight_limit">Oltre il limite</string>
 	<string key="ui_item_unavailable_reason">Disponibile solo per {entitlementRequirements}</string>
@@ -1809,8 +1830,10 @@
 	<string key="ui_cycle_view_channels_mod">Cicla i modificatori canali</string>
 	<string key="ui_view_my_storage">Visualizza deposito</string>
 	<string key="ui_improve">Migliora</string>
-	<string key="ui_xp_tooltip">&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;PE BASE&lt;/font&gt;\n {totalXP} PE totali\n {xpToLevel} per il livello {nextLevel}{restedXpString}</string>
-	<string key="ui_xp_rested_tooltip">\n\n&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;BONUS PE&lt;/font&gt;\n &lt;font color={restedXpColor}&gt;+{restedModifier} bonus Riposato\n {totalRestedXP} PE Riposato rimanenti&lt;/font&gt;</string>
+	<string key="ui_xp_tooltip">&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;PE BASE&lt;/font&gt;\n {totalXP} PE totali\n {xpToLevel} per il livello {nextLevel}{bonusXpString}</string>
+	<string key="ui_xp_bonuses_tooltip">\n\n&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;BONUS AI PE&lt;/font&gt;{restedXpString}{boostXpString}\n &lt;font color={totalBonusXpColor}&gt;{totalXpBonus} Bonus ai PE totale&lt;/font&gt;</string>
+	<string key="ui_xp_rested_tooltip">\n &lt;font color={restedXpColor}&gt;{restedModifier} Bonus Riposato\n {totalRestedXP} PE Riposato rimanenti&lt;/font&gt;</string>
+	<string key="ui_xp_multiplier_tooltip">\n &lt;font color={boostXpColor}&gt;{boostModifier} Aumento di PE&lt;/font&gt;</string>
 	<string key="ui_rested_xp_notification_title">BONUS PE RIPOSATO</string>
 	<string key="ui_rested_xp_notification_body">Dopo essere stato lontano da New World per un po', il tuo personaggio sarà riposato. Quando sei riposato, guadagni PE più rapidamente finché questo stato non si esaurisce.</string>
 	<string key="ui_level_increased">Livello aumentato</string>
@@ -2176,6 +2199,7 @@
 	<string key="ui_tooltip_company_discount">Sconto compagnia</string>
 	<string key="ui_tooltip_firsthouse_discount">Sconto prima casa</string>
 	<string key="ui_tooltip_firsthouse">&lt;font color="#ffd45f"&gt;Chi acquista una casa per la prima volta riceve un notevole sconto!&lt;/font&gt;</string>
+	<string key="ui_tooltip_current_territory_discount">Sconto sul territorio attuale</string>
 	<string key="ui_tooltip_attribute_discount">Sconto attributo</string>
 	<string key="ui_tooltip_standing_discount">Sconto Reputazione territorio</string>
 	<string key="ui_tooltip_order_price">Prezzo ordine</string>
@@ -2288,8 +2312,9 @@
 	<string key="ui_number_range">{lowNumber} - {highNumber}</string>
 	<string key="ui_recommended_level_range">Livello consigliato: {lowNumber} - {highNumber}</string>
 	<string key="ui_cannot_trade_currency_blocked">Per poter scambiare valuta devi prima di raggiungere il livello {level} e avere un account da più di {hoursNeeded} ore</string>
-	<string key="ui_cannot_chat_global_blocked">Per poter chattare in questo canale devi avere un account da più {hoursNeeded} ore</string>
+	<string key="ui_cannot_chat_global_blocked">Per poter chattare in questo canale devi avere un account da più di {hoursNeeded} ore e un tempo di gioco superiore a {playtimeNeeded}</string>
 	<string key="ui_complete_quests_to_unlock">Completa missioni nell'insediamento per sbloccare</string>
+	<string key="ui_cannot_chat_trading_blocked">Per accedere a questo canale, devi avere un account da più di {hoursNeeded}, devi aver giocato per almeno {playtimeNeeded} e aver sbloccato l'emporio.</string>
 	<string key="ui_averageexpertise">Competenza\nmedia</string>
 	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Competenza&lt;/font&gt;\nLa competenza consente di quantificare la potenza massima di un oggetto equipaggiato.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Competenza massima raggiungibile&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Come aumentare la competenza&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Spedizioni e punti d'interesse élite&lt;/font&gt;\nGli oggetti trovati nei forzieri o lasciati dalle creature in aree di livello 60 o superiore possono aumentare questo valore.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Produzione&lt;/font&gt;\nProdurre un oggetto con punteggio attrezzatura 600 aumenterà la competenza di questa tipologia di oggetti.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Calco di gesso&lt;/font&gt;\nAprire un calco di gesso aumenterà la competenza.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Miglioramento di oggetti (con schegge dell'ombra)&lt;/font&gt;Una volta raggiunta una competenza di 600, l'unico modo per aumentarla ulteriormente consiste nel migliorare gli oggetti usando le schegge dell'ombra.\n</string>
 	<string key="ui_itemtypedescription_shield_only">Scudo</string>

@@ -138,7 +138,7 @@
 	<string key="Passive_Bow_Hunter_Crit" comment="BOW + PASSIVE">Na Mosca</string>
 	<string key="Passive_Bow_Hunter_Crit_description" comment="BOW + PASSIVE">Aumenta a chance de acerto crítico com disparos com arco em {[BowAbilityTable.Passive_Bow_Hunter_Crit.CritChance * 100]}%.</string>
 	<string key="Ultimate_Bow_Hunter" comment="BOW + PASSIVE">Concussão</string>
-	<string key="Ultimate_Bow_Hunter_description" comment="BOW + PASSIVE">Quando você acerta um tiro na cabeça, causa {[BowAbilityTable.Ultimate_Bow_Hunter.BaseDamage * 100]}% mais dano e tem uma chance de {[BowAbilityTable.Ultimate_Bow_Hunter_Refund.RefundAmmoPercentChance * 100]}% de conseguir sua flecha de volta.</string>
+	<string key="Ultimate_Bow_Hunter_description" comment="BOW + PASSIVE">Quando você acerta um tiro na cabeça, causa {[BowAbilityTable.Ultimate_Bow_Hunter.HeadshotDamage * 100]}% mais dano e tem uma chance de {[BowAbilityTable.Ultimate_Bow_Hunter_Refund.RefundAmmoPercentChance * 100]}% de conseguir sua flecha de volta.</string>
 	<string key="Ability_Greataxe_Charge" comment="GREATAXE + ACTIVE">Avançar</string>
 	<string key="Ability_Greataxe_Charge_description" comment="GREATAXE + ACTIVE">Avança 10 m, causando {[DamageTable.GreatAxe_Engage1.DmgCoef * 100]}% do dano de arma ao alcançar um alvo. Pressione o botão esquerdo do mouse para interromper o avanço e atacar antecipadamente. \n\nEsta habilidade tem afinco. (Afinco impede que você sofra abalo ao receber ataques.)</string>
 	<string key="Upgrade_Greataxe_Charge_DmgPerDistance" comment="GREATAXE + MOD">Impulso Frenético</string>
@@ -372,7 +372,7 @@
 	<string key="Upgrade_Sword_ReverseStab_Grit" comment="SWORD + MOD">Punhalada Irrefreável</string>
 	<string key="Upgrade_Sword_ReverseStab_Grit_description" comment="SWORD + MOD">Punhalada Reversa agora possui Afinco. \n\n(Afinco impede que você sofra abalo ao receber ataques.)</string>
 	<string key="Upgrade_Sword_ReverseStab_CDRonHit" comment="SWORD + MOD">Estrategista</string>
-	<string key="Upgrade_Sword_ReverseStab_CDRonHit_description" comment="SWORD + MOD">Ao acertar a Punhalada Reversa, todos os tempos de recarga da Espada são reduzidos em {[SwordAbilityTable.Upgrade_Sword_ReverseStab_CDRonHit.CooldownTimer * -100]}%.</string>
+	<string key="Upgrade_Sword_ReverseStab_CDRonHit_description" comment="SWORD + MOD">Ao acertar a Punhalada Reversa, todos os tempos de recarga de outras habilidades de Espada são reduzidos em {[SwordAbilityTable.Upgrade_Sword_ReverseStab_CDRonHit.CooldownTimer * -100]}%.</string>
 	<string key="Ability_Sword_WhirlingBlade" comment="SWORD + ACTIVE">Lâmina Giratória</string>
 	<string key="Ability_Sword_WhirlingBlade_description" comment="SWORD + ACTIVE">Causa {[DamageTable.1H_Sword_Attack_Spin.DmgCoef * 100]}% do dano de arma a todos os inimigos em um raio de 2 m.</string>
 	<string key="Upgrade_Sword_WhirlingBlade_Rend" comment="SWORD + MOD">Oportunidade</string>
@@ -569,7 +569,7 @@
 	<string key="SocialDistancing" comment="HATCHET + ACTIVE">Distanciamento Social</string>
 	<string key="SocialDistancing_description" comment="HATCHET + ACTIVE">Arremesse uma machadinha até 25 m para frente e esquive para trás. A machadinha causa {[DamageTable.Hatchet_Damage_SocialDistancing.DmgCoef * 100]}% do dano de arma e aplica aos alvos {[Type_StatusEffectData.Hatchet_SocialDist_Slow.MoveSpeedMod * -100]}% de lentidão durante {[Type_StatusEffectData.Hatchet_SocialDist_Slow.BaseDuration]} s. (Lentidão reduz a velocidade de movimento do alvo.)</string>
 	<string key="SocialDistancing_Mod1" comment="HATCHET + MOD">Poder Rápido</string>
-	<string key="SocialDistancing_Mod1_description" comment="HATCHET + MOD">Se Distanciamento Social acertar um alvo com um debuff ativo, sua velocidade de movimento aumenta em {[Type_StatusEffectData.Hatchet_SocialDist_Haste.MoveSpeedMod * 100]}% durante {[Type_StatusEffectData.Hatchet_SocialDist_Haste.BaseDuration]} s.</string>
+	<string key="SocialDistancing_Mod1_description" comment="HATCHET + MOD">Se Distanciamento Social acertar um alvo com um debuff ativo, você ganha pressa e sua velocidade de movimento aumenta em {[Type_StatusEffectData.Hatchet_SocialDist_Haste.MoveSpeedMod * 100]}% durante {[Type_StatusEffectData.Hatchet_SocialDist_Haste.BaseDuration]} s.</string>
 	<string key="SocialDistancing_Mod2" comment="HATCHET + MOD">Afaste-se</string>
 	<string key="SocialDistancing_Mod2_description" comment="HATCHET + MOD">A eficácia da lentidão do Distanciamento Social aumenta para {[Type_StatusEffectData.Hatchet_SocialDist_SlowBuff.MoveSpeedMod * -100]}% e sua duração aumenta para {[Type_StatusEffectData.Hatchet_SocialDist_SlowBuff.BaseDuration]} s.</string>
 	<string key="InfectedThrow" comment="HATCHET + ACTIVE">Arremesso Infectado</string>
@@ -731,7 +731,7 @@
 	<string key="PathOfDestiny_Mod1" comment="WARHAMMER + MOD">Ondas Sísmicas</string>
 	<string key="PathOfDestiny_Mod1_description" comment="WARHAMMER + MOD">O Caminho do Destino agora abala todos os alvos em seu caminho.</string>
 	<string key="PathOfDestiny_Mod2" comment="WARHAMMER + MOD">Redução Estimulada</string>
-	<string key="PathOfDestiny_Mod2_description" comment="WARHAMMER + MOD">O tempo de recarga da habilidade é reduzido em {[WarHammerAbilityTable.Upgrade_WarHammer_PathOfDestiny_CDRPerHit.CooldownTimer * -100]}% para cada inimigo atingido com Caminho do Destino.</string>
+	<string key="PathOfDestiny_Mod2_description" comment="WARHAMMER + MOD">O tempo de recarga da habilidade é reduzido em {[WarHammerAbilityTable.Upgrade_WarHammer_PathOfDestiny_CDRPerHit.CooldownTimer * -100]}% para cada inimigo atingido com Caminho do Destino. (Máximo de {[WarHammerAbilityTable.Upgrade_WarHammer_PathOfDestiny_CDRPerHit.NumberOfTrackedHits]} inimigos.)</string>
 	<string key="CCTree1Passive1" comment="WARHAMMER  +  PASSIVE">Em Menor Número</string>
 	<string key="CCTree1Passive1_description" comment="WARHAMMER  +  PASSIVE">Aumenta absorção de dano em {[Type_StatusEffectData.WarHammer_CrowdCrusher_ArmorNearbyEnemy.ABSStandard * 100]}% se estiver rodeado por 2 ou mais inimigos em um raio de {[SpellDataTable_WarHammer.WarHammer_ArmorPerNearbyEnemy_Detection.Radius]} m.</string>
 	<string key="CCTree1Passive2" comment="WARHAMMER  +  PASSIVE">Por Mim Faria Isso o Dia Inteiro</string>
@@ -833,7 +833,7 @@
 	<string key="Rapier_01_Mod3" comment="RAPIER + MOD">Espaçamento Adequado</string>
 	<string key="Rapier_01_Mod3_description" comment="RAPIER + MOD">Aumenta o dano do acerto inicial de Tondo em {[RapierAbilityTable.Rapier_Slash_Mod3.BaseDamage * 100]}% se você estiver a ao menos {[RapierAbilityTable.Rapier_Slash_Mod3.DistFromDefender]} m de distância do seu alvo.</string>
 	<string key="Rapier_02" comment="RAPIER + ACTIVE">Rajada</string>
-	<string key="Rapier_02_description" comment="RAPIER + ACTIVE">Use uma postura posada e lance uma série de cinco ataques rápidos e perfurantes, cada um causando mais dano de arma que o anterior começando em {[DamageTable.1H_Rapier_Flurry_Strike_1.DmgCoef * 100]}% e terminando em {[DamageTable.1H_Rapier_Flurry_Strike_5.DmgCoef * 100]}%. Rajada pode ser cancelada por esquiva.</string>
+	<string key="Rapier_02_description" comment="RAPIER + ACTIVE">Use uma postura posada e lance uma série de cinco ataques rápidos e perfurantes, cada um causando mais dano de arma que o anterior começando em {[DamageTable.1H_Rapier_Flurry_Strike_1.DmgCoef * 100]}% e terminando em {[DamageTable.1H_Rapier_Flurry_Strike_5.DmgCoef * 100]}%. A Rajada pode ser cancelada a qualquer momento ao se esquivar ou usar outra habilidade.</string>
 	<string key="Rapier_02_Mod1" comment="RAPIER + MOD">Golpes Fugazes</string>
 	<string key="Rapier_02_Mod1_description" comment="RAPIER + MOD">Cada acerto de Rajada reduz seu tempo de recarga em 7%.</string>
 	<string key="Rapier_02_Mod2" comment="RAPIER + MOD">Subjugar</string>

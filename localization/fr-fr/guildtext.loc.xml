@@ -169,12 +169,20 @@
 	<string key="ui_guildclaimtitle">Revendication de Cie</string>
 	<string key="ui_guildclaimmessage">Votre compagnie a revendiqué &lt;font color="#9e947e"&gt;{territoryName}&lt;/font&gt;.</string>
 	<string key="ui_guildrequestthrottledmessage">Requête ralentie. Veuillez réessayer plus tard.</string>
-	<string key="ui_guildrankgovernor">Gouverneur</string>
-	<string key="ui_guildrankconsul">Consul</string>
-	<string key="ui_guildrankofficer">Officier</string>
+	<string key="ui_guildrankgovernor" comment="Pronoun for Target Player">Gouverneur</string>
+	<string key="ui_guildrankgovernor_SHE">Gouverneur</string>
+	<string key="ui_guildrankgovernor_THEY">Gouverneur</string>
+	<string key="ui_guildrankconsul" comment="Pronoun for Target Player">Consul</string>
+	<string key="ui_guildrankconsul_SHE">Consul</string>
+	<string key="ui_guildrankconsul_THEY">Consul</string>
+	<string key="ui_guildrankofficer" comment="Pronoun for Target Player">Officier</string>
+	<string key="ui_guildrankofficer_SHE">Officière</string>
+	<string key="ui_guildrankofficer_THEY">Officier</string>
 	<string key="ui_guildCannotInviteNoPrivilege">Impossible d'envoyer des invitations de compagnie. Rang insuffisant.</string>
 	<string key="ui_guildCannotInviteNoFaction">Impossible d'envoyer des invitations de compagnie. Vous ne faites pas partie d'une faction.</string>
-	<string key="ui_guildranksettler">Colon</string>
+	<string key="ui_guildranksettler" comment="Pronoun for Target Player">Colon</string>
+	<string key="ui_guildranksettler_SHE">Colon</string>
+	<string key="ui_guildranksettler_THEY">Colon</string>
 	<string key="ui_guildrankpublic">Citoyen</string>
 	<string key="ui_guildrankgovernor_and_above">1. Gouverneur</string>
 	<string key="ui_guildrankconsul_and_above">2. Consul et au-dessus</string>
@@ -204,8 +212,12 @@
 	<string key="ui_noneinthisrank">Personne de ce rang</string>
 	<string key="ui_numGuildInvites">({numInvites})</string>
 	<string key="ui_governorexpire_offline">Le gouverneur de votre compagnie est absent depuis longtemps. Un membre ayant le rang de « consul » peut devenir gouverneur.</string>
-	<string key="ui_governorexpire_deleted">Le gouverneur de votre compagnie est parti ou a supprimé son personnage. Un membre ayant le rang de « consul » peut devenir gouverneur.</string>
+	<string key="ui_governorexpire_deleted" comment="Pronoun for Disappeared Governor">Le gouverneur de votre compagnie a délaissé ou supprimé son personnage. Une membre ayant le rang de « consul » peut devenir gouverneur.</string>
+	<string key="ui_governorexpire_deleted_SHE">Le gouverneur de votre compagnie a délaissé ou supprimé son personnage. Une membre ayant le rang de « consul » peut devenir gouverneur.</string>
+	<string key="ui_governorexpire_deleted_THEY">Le gouverneur de votre compagnie est parti ou a supprimé son personnage. Un membre ayant le rang de « consul » peut devenir gouverneur.</string>
 	<string key="ui_becomegovernor">Devenir gouverneur</string>
+	<string key="ui_becomegovernor_SHE">Devenir gouverneur</string>
+	<string key="ui_becomegovernor_THEY">Devenir gouverneur</string>
 	<string key="ui_permission_assign_structures">{allowed} assigner des structures de compagnie</string>
 	<string key="ui_permission_build_structures">{allowed} construire sur le territoire de la compagnie</string>
 	<string key="ui_permission_cancel_structures">{allowed} annuler les structures prévues</string>
@@ -242,7 +254,7 @@
 	<string key="ui_promote">Promouvoir</string>
 	<string key="ui_promote_transfer_owner">Transférer la propriété</string>
 	<string key="ui_promotetoguildmaster_confirm_title">Transférer la compagnie ?</string>
-	<string key="ui_promotetoguildmaster_confirm">Voulez-vous vraiment transférer la gouvernance de la compagnie à {memberName} ?\n\nTous les membres, les territoires, les structures et les fonds de trésorerie de {guildName} seront désormais sous le contrôle de {memberName} en sa qualité de nouveau gouverneur de {guildName}. Le nom et les armoiries de la compagnie resteront les mêmes. Vous serez rétrogradé(e) d'un rang.\n\nVous ne pouvez pas annuler cette action, et le changement sera effectif immédiatement.</string>
+	<string key="ui_promotetoguildmaster_confirm" comment="Pronoun for Transferring ownership to a player. Need to break into two string keys">Voulez-vous vraiment transférer la gouvernance de la compagnie à {memberName} ?\n\nTous les membres, les territoires, les structures et les fonds de trésorerie de {guildName} seront désormais sous le contrôle de {memberName} en sa qualité de nouveau gouverneur de {guildName}. Le nom et les armoiries de la compagnie resteront les mêmes. Vous serez rétrogradé(e) d'un rang.\n\nVous ne pouvez pas annuler cette action, et le changement sera effectif immédiatement.</string>
 	<string key="ui_rank">Rang</string>
 	<string key="ui_rankmovedowndisabled">Le rang le plus faible</string>
 	<string key="ui_rankmoveupdisabled">Pas de promotion au-delà de {gmRankName}</string>

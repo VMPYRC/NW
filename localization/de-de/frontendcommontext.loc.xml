@@ -23,6 +23,7 @@
 	<string key="mm_loginerrortitle">Anmeldefehler</string>
 	<string key="mm_connectionfailed">Verbindungsfehler</string>
 	<string key="mm_error_code">Fehlercode:</string>
+	<string key="mm_waitingtotransfer" rel_version="Feature_MTX">Warte auf Transfer nach\n{worldName}</string>
 	<string key="ui_open_governors_desk">Büro des Gouverneurs öffnen</string>
 	<string key="mm_disconnected">Verbindung zum Server wurde getrennt. Verbindung wird wiederhergestellt.</string>
 	<string key="mm_retriesfailed">Anzahl der Neuverbindungsversuche erschöpft. Bitte später erneut versuchen.</string>
@@ -54,6 +55,7 @@
 	<string key="mm_loginservices_BannedOffensiveCompanyName">Zugriff verweigert: Du wurdest gesperrt. Grund: Beleidigender Kompaniename</string>
 	<string key="mm_loginservices_BannedSuspectedFraud">Zugriff verweigert: Du wurdest gesperrt. Grund: Vermutlicher Betrug</string>
 	<string key="mm_loginservices_BannedCSLockout">Dein Konto wurde gesperrt. Bitte wende dich an den Kundendienst für zusätzliche Informationen.</string>
+	<string key="mm_loginservices_BannedCommerce">Dein Konto wurde aufgrund verdächtiger Aktivitäten gesperrt. Bitte wende dich an den Kundendienst für zusätzliche Informationen.</string>
 	<string key="mm_loginservices_Cheating">Zugriff verweigert: Du wurdest gesperrt. Grund: Betrug</string>
 	<string key="mm_loginservices_Exploit">Zugriff verweigert: Du wurdest gesperrt. Grund: Unerlaubtes Ausnutzen von Bugs</string>
 	<string key="mm_loginservices_Botting">Zugriff verweigert: Du wurdest gesperrt. Grund: Bot-Nutzung</string>
@@ -64,6 +66,7 @@
 	<string key="mm_loginservices_OffensiveCompanyName">Zugriff verweigert: Du wurdest gesperrt. Grund: Beleidigender Kompaniename</string>
 	<string key="mm_loginservices_SuspectedFraud">Zugriff verweigert: Du wurdest gesperrt. Grund: Vermuteter Betrug</string>
 	<string key="mm_loginservices_CSLockout">Dein Konto wurde gesperrt. Bitte wende dich an den Kundendienst für zusätzliche Informationen.</string>
+	<string key="mm_loginservices_Commerce">Dein Konto wurde aufgrund verdächtiger Aktivitäten gesperrt. Bitte wende dich an den Kundendienst für zusätzliche Informationen.</string>
 	<string key="mm_loginservices_warning_title">ACHTUNG</string>
 	<string key="mm_loginservices_warning_BannedOffensiveName">Dein Charaktername wurde als unangemessen gekennzeichnet. Beim nächsten Einloggen wirst du gebeten, ihn umzubenennen.</string>
 	<string key="mm_loginservices_warning_BannedOffensiveCompanyName">Dein Kompaniename wurde als unangemessen gekennzeichnet und wurde angepasst. Du kannst die Kompanie im Kompanie-UI-Fenster [G] umbenennen.</string>
@@ -187,6 +190,7 @@
 	<string key="mm_rejected_Client_Kicked_EasyAntiCheat">Anmeldung gesperrt: Verdächtige Software oder defekte Installation erkannt.</string>
 	<string key="mm_rejected_Client_Kicked_BannedCSLockout">Dein Konto wurde gesperrt. Bitte wende dich an den Kundendienst für zusätzliche Informationen.</string>
 	<string key="mm_rejected_Client_Kicked_CSLockout">Dein Konto wurde gesperrt. Bitte wende dich an den Kundendienst für zusätzliche Informationen.</string>
+	<string key="mm_rejected_Client_Kicked_BannedCommerce">Zahlungsproblem</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Du wurdest aus dem Spiel geworfen.</string>
 	<string key="mm_authresult_Authorized">Erfolg</string>
 	<string key="mm_characterCreateDisabled">Die Charaktererstellung ist vorübergehend deaktiviert. Die Welt ist zu voll. Bitte versuche, den Charakter auf einer anderen Welt zu erstellen.</string>

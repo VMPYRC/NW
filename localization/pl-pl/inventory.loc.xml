@@ -9,8 +9,8 @@
 	<string key="inv_discard_life_warning">Inni gracze nie widzą i nie mogą zabrać tych przedmiotów. Gdy ta torba zniknie (po 3 minutach), przedmioty przepadną na zawsze.</string>
 	<string key="inv_encumbered">Przeciążenie</string>
 	<string key="inv_unencumbered">Brak przeciążenia</string>
-	<string key="inv_slotsfull">Osiągnięto limit przedmiotu</string>
-	<string key="inv_encumbered_and_slotsfull">Przeciążenie + osiągnięto limit przedmiotu</string>
+	<string key="inv_slotsfull">Limit przedmiotów</string>
+	<string key="inv_encumbered_and_slotsfull">Przeciążenie + limit przedmiotów</string>
 	<string key="ui_quantity_with_amount">x {amount}</string>
 	<string key="inv_weapons">Broń</string>
 	<string key="inv_ammo">Amunicja</string>
@@ -63,9 +63,9 @@
 	<string key="inv_equipLoadSlow">Ciężkie</string>
 	<string key="inv_equipLoadOverburdened">Nadmiar ekwipunku</string>
 	<string key="inv_equipLoadTooltip">Łączna waga noszonego pancerza i tarczy określa ciężar twojego wyposażenia. W zależności od ciężaru wyposażenia różnią się uniki i inne premie.</string>
-	<string key="inv_equipLoadFastTooltip">Nosząc lekki pancerz, możesz wykonać szybki przewrót o sporym zasięgu. Masz premię 20% do zadawanych obrażeń i {[Type_StatusEffectData.EquipLoad_HealingBonus_Light.HealScalingValueMultiplier * 100]}% do leczenia.</string>
-	<string key="inv_equipLoadNormalTooltip">Nosząc pancerz o średnim ciężarze, możesz wykonać szybki odskok. Masz premię 10% do zadawanych obrażeń i {[Type_StatusEffectData.EquipLoad_HealingBonus_Medium.HealScalingValueMultiplier * 100]}% do leczenia. Czas trwania negatywnych efektów obezwładniających, które nakładasz, zostaje wydłużony o 10%.</string>
-	<string key="inv_equipLoadSlowTooltip">Nosząc ciężki pancerz, możesz wykonać powolny zwód. Zwiększa twoją stabilność blokowania o 15%. Czas trwania negatywnych efektów obezwładniających, które nakładasz, zostaje wydłużony o 20%.</string>
+	<string key="inv_equipLoadFastTooltip">Nosząc lekki pancerz, możesz wykonać szybki przewrót o sporym zasięgu. Zużywa {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]} pkt wytrzymałości. Masz premię 20% do zadawanych obrażeń i {[Type_StatusEffectData.EquipLoad_HealingBonus_Light.HealScalingValueMultiplier * 100]}% do leczenia.</string>
+	<string key="inv_equipLoadNormalTooltip">Nosząc pancerz o średnim ciężarze, możesz wykonać szybki odskok. Zużywa {[StaminaCosts_Player.Dodge_Roll.StaminaCost]} pkt wytrzymałości. Masz premię 10% do zadawanych obrażeń i {[Type_StatusEffectData.EquipLoad_HealingBonus_Medium.HealScalingValueMultiplier * 100]}% do leczenia. Czas trwania negatywnych efektów obezwładniających, które nakładasz, zostaje wydłużony o 10%.</string>
+	<string key="inv_equipLoadSlowTooltip">Nosząc ciężki pancerz, możesz wykonać powolny zwód. Zużywa {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]} pkt wytrzymałości. Zwiększa twoją stabilność blokowania o 15%. Czas trwania negatywnych efektów obezwładniających, które nakładasz, zostaje wydłużony o 20%.</string>
 	<string key="inv_equipLoadOverburdenedTooltip">Po przekroczeniu maksymalnego ciężaru wyposażenia nie możesz wykonywać uników, poruszać się sprintem i używać umiejętności. Odłóż część przedmiotów.</string>
 	<string key="inv_equipLoadEncumberedTooltip">Masz za dużo przedmiotów w ekwipunku. W przypadku przeciążenia ciężar wyposażenia nie ma znaczenia. Nie możesz biegać sprintem ani wykonywać uników, a blokowanie zużywa więcej wytrzymałości. Usuń część przedmiotów ze swojego plecaka.</string>
 	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Waga przenoszonych przez ciebie przedmiotów przekracza maksymalny ciężar wyposażenia. Nie możesz wykonywać uników ani poruszać się sprintem i otrzymujesz karę do szybkości regeneracji energii. Odłóż część przedmiotów.</string>
@@ -133,6 +133,7 @@
 	<string key="ui_set_quantity">Podaj liczbę</string>
 	<string key="ui_drag_new_stack">Przeciągnij na nowy stos</string>
 	<string key="ui_box_opening_open_another_single">Otwórz następną</string>
+	<string key="ui_box_opening_max_items_reached">+ inne przedmioty ({quantity})</string>
 	<string key="ui_dropall">Upuść wszystko</string>
 	<string key="ui_dropall_in_trade">Nie możesz upuścić przedmiotów podczas handlowania</string>
 	<string key="ui_storeall">Przechowaj wszystko</string>

@@ -138,7 +138,7 @@
 	<string key="Passive_Bow_Hunter_Crit" comment="BOW + PASSIVE">W dziesiątkę!</string>
 	<string key="Passive_Bow_Hunter_Crit_description" comment="BOW + PASSIVE">Zwiększa szansę na trafienie krytyczne z łuku o {[BowAbilityTable.Passive_Bow_Hunter_Crit.CritChance * 100]}%.</string>
 	<string key="Ultimate_Bow_Hunter" comment="BOW + PASSIVE">Wstrząśnienie mózgu</string>
-	<string key="Ultimate_Bow_Hunter_description" comment="BOW + PASSIVE">Gdy trafisz cel w głowę, zadasz o {[BowAbilityTable.Ultimate_Bow_Hunter.BaseDamage * 100]}% więcej obrażeń. Ponadto masz {[BowAbilityTable.Ultimate_Bow_Hunter_Refund.RefundAmmoPercentChance * 100]}% szans na odzyskanie strzały.</string>
+	<string key="Ultimate_Bow_Hunter_description" comment="BOW + PASSIVE">Gdy trafisz cel w głowę, zadasz o {[BowAbilityTable.Ultimate_Bow_Hunter.HeadshotDamage * 100]}% więcej obrażeń. Ponadto masz {[BowAbilityTable.Ultimate_Bow_Hunter_Refund.RefundAmmoPercentChance * 100]}% szans na odzyskanie strzały.</string>
 	<string key="Ability_Greataxe_Charge" comment="GREATAXE + ACTIVE">Szarża</string>
 	<string key="Ability_Greataxe_Charge_description" comment="GREATAXE + ACTIVE">Szarżujesz 10 m naprzód i zadajesz {[DamageTable.GreatAxe_Engage1.DmgCoef * 100]}% obrażeń od broni, gdy dotrzesz do celu. Naciśnij LPM, by przerwać szarżę i zaatakować wcześniej. \n\nTa umiejętność aktywuje determinację (determinacja chroni przed zachwianiem od otrzymywanych ciosów).</string>
 	<string key="Upgrade_Greataxe_Charge_DmgPerDistance" comment="GREATAXE + MOD">Wielki impet</string>
@@ -372,7 +372,7 @@
 	<string key="Upgrade_Sword_ReverseStab_Grit" comment="SWORD + MOD">Niepowstrzymane pchnięcie</string>
 	<string key="Upgrade_Sword_ReverseStab_Grit_description" comment="SWORD + MOD">Odwrócone pchnięcie zyskuje determinację. \n\n(Determinacja chroni przed zachwianiem od otrzymywanych ciosów).</string>
 	<string key="Upgrade_Sword_ReverseStab_CDRonHit" comment="SWORD + MOD">Taktyk</string>
-	<string key="Upgrade_Sword_ReverseStab_CDRonHit_description" comment="SWORD + MOD">Trafienie odwróconym pchnięciem skraca wszystkie czasy odnowienia miecza o {[SwordAbilityTable.Upgrade_Sword_ReverseStab_CDRonHit.CooldownTimer * -100]}%.</string>
+	<string key="Upgrade_Sword_ReverseStab_CDRonHit_description" comment="SWORD + MOD">Trafienie odwróconym pchnięciem skraca wszystkie pozostałe czasy odnowienia miecza o {[SwordAbilityTable.Upgrade_Sword_ReverseStab_CDRonHit.CooldownTimer * -100]}%.</string>
 	<string key="Ability_Sword_WhirlingBlade" comment="SWORD + ACTIVE">Wirujące ostrze</string>
 	<string key="Ability_Sword_WhirlingBlade_description" comment="SWORD + ACTIVE">Zadaje {[DamageTable.1H_Sword_Attack_Spin.DmgCoef * 100]}% obrażeń od broni wszystkim wrogom znajdującym się w promieniu 2 m.</string>
 	<string key="Upgrade_Sword_WhirlingBlade_Rend" comment="SWORD + MOD">Sposobność</string>
@@ -569,7 +569,7 @@
 	<string key="SocialDistancing" comment="HATCHET + ACTIVE">Dystans społeczny</string>
 	<string key="SocialDistancing_description" comment="HATCHET + ACTIVE">Rzut siekierką na odległość do 25 m i unik do tyłu. Siekierka zadaje {[DamageTable.Hatchet_Damage_SocialDistancing.DmgCoef * 100]}% obrażeń od broni i spowalnia cel o {[Type_StatusEffectData.Hatchet_SocialDist_Slow.MoveSpeedMod * -100]}% na {[Type_StatusEffectData.Hatchet_SocialDist_Slow.BaseDuration]} s (spowolnienie zmniejsza szybkość ruchu celu).</string>
 	<string key="SocialDistancing_Mod1" comment="HATCHET + MOD">Szybka moc</string>
-	<string key="SocialDistancing_Mod1_description" comment="HATCHET + MOD">Jeśli dystans społeczny trafi cel będący pod wpływem negatywnego efektu, twoja szybkość ruchu wzrośnie o {[Type_StatusEffectData.Hatchet_SocialDist_Haste.MoveSpeedMod * 100]}% na {[Type_StatusEffectData.Hatchet_SocialDist_Haste.BaseDuration]} s.</string>
+	<string key="SocialDistancing_Mod1_description" comment="HATCHET + MOD">Jeśli trafisz dystansem społecznym cel będący pod wpływem negatywnego efektu, zyskasz przyspieszenie zwiększające szybkość ruchu o {[Type_StatusEffectData.Hatchet_SocialDist_Haste.MoveSpeedMod * 100]}% na {[Type_StatusEffectData.Hatchet_SocialDist_Haste.BaseDuration]} s.</string>
 	<string key="SocialDistancing_Mod2" comment="HATCHET + MOD">Nie podchodź</string>
 	<string key="SocialDistancing_Mod2_description" comment="HATCHET + MOD">Skuteczność spowolnienia przez dystans społeczny wzrasta do {[Type_StatusEffectData.Hatchet_SocialDist_SlowBuff.MoveSpeedMod * -100]}%, a jego czas trwania wydłuża się do {[Type_StatusEffectData.Hatchet_SocialDist_SlowBuff.BaseDuration]} s.</string>
 	<string key="InfectedThrow" comment="HATCHET + ACTIVE">Zakażony rzut</string>
@@ -731,7 +731,7 @@
 	<string key="PathOfDestiny_Mod1" comment="WARHAMMER + MOD">Fale sejsmiczne</string>
 	<string key="PathOfDestiny_Mod1_description" comment="WARHAMMER + MOD">Droga przeznaczenia wywołuje zachwianie u wszystkich celów.</string>
 	<string key="PathOfDestiny_Mod2" comment="WARHAMMER + MOD">Skrócenie poprzez stymulację</string>
-	<string key="PathOfDestiny_Mod2_description" comment="WARHAMMER + MOD">Skraca czas odnowienia zdolności o {[WarHammerAbilityTable.Upgrade_WarHammer_PathOfDestiny_CDRPerHit.CooldownTimer * -100]}% za każdego wroga trafionego drogą przeznaczenia.</string>
+	<string key="PathOfDestiny_Mod2_description" comment="WARHAMMER + MOD">Skraca czas odnowienia zdolności o {[WarHammerAbilityTable.Upgrade_WarHammer_PathOfDestiny_CDRPerHit.CooldownTimer * -100]}% za każdego wroga trafionego drogą przeznaczenia (maks. liczba wrogów: {[WarHammerAbilityTable.Upgrade_WarHammer_PathOfDestiny_CDRPerHit.NumberOfTrackedHits]}).</string>
 	<string key="CCTree1Passive1" comment="WARHAMMER  +  PASSIVE">Przewaga liczebna</string>
 	<string key="CCTree1Passive1_description" comment="WARHAMMER  +  PASSIVE">Jeśli co najmniej 2 wrogów znajduje się w promieniu {[SpellDataTable_WarHammer.WarHammer_ArmorPerNearbyEnemy_Detection.Radius]} m, zwiększa pochłanianie obrażeń o {[Type_StatusEffectData.WarHammer_CrowdCrusher_ArmorNearbyEnemy.ABSStandard * 100]}%.</string>
 	<string key="CCTree1Passive2" comment="WARHAMMER  +  PASSIVE">Mogę tak cały dzień</string>
@@ -833,7 +833,7 @@
 	<string key="Rapier_01_Mod3" comment="RAPIER + MOD">Odpowiednia odległość</string>
 	<string key="Rapier_01_Mod3_description" comment="RAPIER + MOD">Zwiększa obrażenia zadawane przez tondo o {[RapierAbilityTable.Rapier_Slash_Mod3.BaseDamage * 100]}%, gdy jesteś co najmniej {[RapierAbilityTable.Rapier_Slash_Mod3.DistFromDefender]} m od celu.</string>
 	<string key="Rapier_02" comment="RAPIER + ACTIVE">Nawałnica ciosów</string>
-	<string key="Rapier_02_description" comment="RAPIER + ACTIVE">Przyjmij szermierczą pozę i wyprowadź serię pięciu szybkich pchnięć, z których każde kolejne zadaje większe obrażenia od broni, poczynając od {[DamageTable.1H_Rapier_Flurry_Strike_1.DmgCoef * 100]}%, a kończąc na {[DamageTable.1H_Rapier_Flurry_Strike_5.DmgCoef * 100]}%. Nawałnicę ciosów można anulować unikiem.</string>
+	<string key="Rapier_02_description" comment="RAPIER + ACTIVE">Przyjmij szermierczą pozę i wyprowadź serię pięciu szybkich pchnięć, z których każde kolejne zadaje większe obrażenia od broni, poczynając od {[DamageTable.1H_Rapier_Flurry_Strike_1.DmgCoef * 100]}%, a kończąc na {[DamageTable.1H_Rapier_Flurry_Strike_5.DmgCoef * 100]}%. Serię tę można przerwać w dowolnym momencie za pomocą uniku lub użycia innej zdolności.</string>
 	<string key="Rapier_02_Mod1" comment="RAPIER + MOD">Migające ciosy</string>
 	<string key="Rapier_02_Mod1_description" comment="RAPIER + MOD">Każde trafienie nawałnicy ciosów skraca jej czas odnowienia o 7%.</string>
 	<string key="Rapier_02_Mod2" comment="RAPIER + MOD">Przytłoczenie</string>

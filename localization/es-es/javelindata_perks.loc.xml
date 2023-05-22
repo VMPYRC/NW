@@ -1299,7 +1299,7 @@
 	<string key="PerkID_Ability_Hammer_WreckingBall_Name">Frenesí demoledor penetrante</string>
 	<string key="PerkID_Ability_Hammer_WreckingBall_Description">Frenesí demoledor penetra la armadura del objetivo en un {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_WreckingBall.ArmorPenetration * 100 * {perkMultiplier}]} %.</string>
 	<string key="PerkID_Ability_Hammer_Shockwave_Name">Sacudida demoledora</string>
-	<string key="PerkID_Ability_Hammer_Shockwave_Description">Sacudida aplica Desgarro, lo que reduce la absorción de daño del objetivo en un {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.ABSStandard * -100 * {perkMultiplier}]} % durante {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.BaseDuration]} segundos.</string>
+	<string key="PerkID_Ability_Hammer_Shockwave_Description">Sacudida inflige Desgarro, lo que reduce la absorción de daño del objetivo en un {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.ABSStandard * -100 * {perkMultiplier}]} % durante {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.BaseDuration]} segundos.</string>
 	<string key="PerkID_Ability_Hammer_ClearOut_Name">Barrido repelente</string>
 	<string key="PerkID_Ability_Hammer_ClearOut_Description">Ahora, Barrido hace que los objetivos retrocedan un {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_ClearOut.Knockback * 100 * {perkMultiplier}]} % más.</string>
 	<string key="PerkID_Ability_Hammer_PathOfDestiny_Name">Senda del destino drenadora</string>
@@ -1319,7 +1319,7 @@
 	<string key="PerkID_Ability_Spear_Sweep_Name">Golpe bajo sangriento</string>
 	<string key="PerkID_Ability_Spear_Sweep_Description">El Colofón de Barrido bajo ahora aplica un sangrado igual al {[Type_StatusEffectData.Status_Perk_Spear_SweepFinish_Bleed.HealthModifierDamageBased * -100 * {perkMultiplier}]} % del daño de arma durante {[Type_StatusEffectData.Status_Perk_Spear_SweepFinish_Bleed.BaseDuration]} segundos.</string>
 	<string key="PerkID_Ability_Spear_Javelin_Name">Jabalina demoledora</string>
-	<string key="PerkID_Ability_Spear_Javelin_Description">Jabalina aplica Desgarro, lo que reduce la absorción de daño del objetivo en un {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.ABSStandard * -100 * {perkMultiplier}]} % durante {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.BaseDuration]} segundos.</string>
+	<string key="PerkID_Ability_Spear_Javelin_Description">Jabalina inflige Desgarro, lo que reduce la absorción de daño del objetivo en un {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.ABSStandard * -100 * {perkMultiplier}]} % durante {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.BaseDuration]} segundos.</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Name">Ciclón drenador</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Description">Cada impacto de Ciclón te cura una cantidad igual al {[GlobalAbilityTable.GlobalPerk_Ability_Spear_Cyclone.DmgPctToHealth * 100 * {perkMultiplier}]} % del daño de arma.</string>
 	<string key="PerkID_Ability_Spear_Perforate_Name">Perforación fortificadora</string>
@@ -1347,7 +1347,7 @@
 	<string key="PerkID_Ability_Rapier_Flurry_Name">Ráfaga drenadora</string>
 	<string key="PerkID_Ability_Rapier_Flurry_Description">Cada impacto de Ráfaga hace que recuperes un {[GlobalAbilityTable.GlobalPerk_Ability_Rapier_Flurry.DmgPctToHealth * 100 * {perkMultiplier}]} % del daño como salud.</string>
 	<string key="PerkID_Ability_Rapier_Riposte_Name">Réplica demoledora</string>
-	<string key="PerkID_Ability_Rapier_Riposte_Description">Réplica otorga Desgarro, lo que reduce la absorción de daño del objetivo en un {[Type_StatusEffectData.Status_Perk_Rapier_Riposte_Rend.ABSStandard * -100 * {perkMultiplier}]} % durante {[Type_StatusEffectData.Status_Perk_Rapier_Riposte_Rend.BaseDuration]} segundos.</string>
+	<string key="PerkID_Ability_Rapier_Riposte_Description">Réplica inflige Desgarro, lo que reduce la absorción de daño del objetivo en un {[Type_StatusEffectData.Status_Perk_Rapier_Riposte_Rend.ABSStandard * -100 * {perkMultiplier}]} % durante {[Type_StatusEffectData.Status_Perk_Rapier_Riposte_Rend.BaseDuration]} segundos.</string>
 	<string key="PerkID_Ability_Rapier_Evade_Name">Esquive omnidireccional</string>
 	<string key="PerkID_Ability_Rapier_Evade_Description">La mejora Adagio de Esquive se aplica al esquivar en cualquier dirección.</string>
 	<string key="PerkID_Ability_Rapier_Fleche_Name">Venablo renovador</string>
@@ -1819,7 +1819,7 @@
 	<string key="PerkID_Weapon_Melee_ChargedHeavy_Crit_Name" rel_version="MorePerksV1">Críticos agudos</string>
 	<string key="PerkID_Weapon_Melee_ChargedHeavy_Crit_Description" rel_version="MorePerksV1">Los ataques pesados completamente cargados hacen un {[GlobalAbilityTable.Global_Weapon_Melee_ChargedHeavy_Crit.CritDamage * 100 * {perkMultiplier}]} % de daño crítico adicional.</string>
 	<string key="PerkID_Weapon_Melee_ChargedHeavy_Rend_Name" rel_version="MorePerksV1">Desgarro agudo</string>
-	<string key="PerkID_Weapon_Melee_ChargedHeavy_Rend_Description" rel_version="MorePerksV1">Los ataques pesados completamente cargados infligen el efecto Desgarro durante {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.BaseDuration]} segundos, lo que reduce la absorción del objetivo en un {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.ABSStandard * -100 * {perkMultiplier}]} %. ({[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend_Timer.BaseDuration]} segundos de tiempo de recarga).</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_Rend_Description" rel_version="MorePerksV1">Los ataques pesados completamente cargados infligen el efecto Desgarro durante {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.BaseDuration]} segundos, lo que reduce la absorción del objetivo en un {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.ABSStandard * -100 * {perkMultiplier}]} % ({[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend_Timer.BaseDuration]} segundos de tiempo de recarga).</string>
 	<string key="PerkID_Weapon_Melee_ChargedHeavy_Heal_Name" rel_version="MorePerksV1">Recuperación aguda</string>
 	<string key="PerkID_Weapon_Melee_ChargedHeavy_Heal_Description" rel_version="MorePerksV1">Recuperas una cantidad de salud igual al {[GlobalAbilityTable.Global_Weapon_Melee_ChargedHeavy_Heal.DmgPctToHealth * 100 * {perkMultiplier}]} % del daño infligido con ataques pesados completamente cargados.</string>
 	<string key="PerkID_Armor_RangeDefense_Physical_Name" rel_version="MorePerksV1">Aversión física</string>

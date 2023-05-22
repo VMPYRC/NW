@@ -117,7 +117,9 @@
 	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">wybuchowa odporność</string>
 	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">licznik wybuchowości.</string>
 	<string key="ui_affliction_mutcurse4" rel_version="Feature_Dungeon_Mutators">odporność na rykoszet</string>
-	<string key="ui_affliction_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Jeżeli zabraknie ci odporności, zostanie na ciebie rzucona strefa wyciszenia. Wybuchnie ona po pewnym czasie, zadając obrażenia zarówno wrogom, jak i innym graczom. Odporność jest współdzielona przez wszystkich członków twojej grupy.</string>
+	<string key="ui_affliction_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Jeżeli zabraknie ci odporności, zostanie na ciebie rzucona strefa wyciszenia. Wybuchnie ona po pewnym czasie, zadając obrażenia innym graczom. Odporność jest współdzielona przez wszystkich członków twojej grupy.</string>
+	<string key="ui_affliction_mutcurse2" rel_version="Feature_Dungeon_Mutators_pt2">odporność na znużenie</string>
+	<string key="ui_affliction_mutcurse2_tooltip" rel_version="Feature_Dungeon_Mutators">Jeżeli zabraknie ci odporności, zostanie na ciebie rzucona strefa znużenia, która cię spowolni i sprawi, że będziesz otrzymywać większe obrażenia każdego rodzaju. Używanie zdolności zwiększa odporność. Odporność jest współdzielona przez wszystkich członków twojej grupy.</string>
 	<string key="ui_afflicted_bleeding">zranienie</string>
 	<string key="ui_afflicted_bleeding_tooltip">Zraniona postać znacznie wolniej odzyskuje energię</string>
 	<string key="ui_afflicted_burn">oparzenie</string>
@@ -233,6 +235,7 @@
 	<string key="ui_commit_1_point">Wydaj &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt; 1 &lt;/font&gt; punkt</string>
 	<string key="ui_commit_points">Wydaj &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt; {points} &lt;/font&gt; pkt</string>
 	<string key="ui_abilities_on_cooldown">Zdolności się odnawiają</string>
+	<string key="ui_abilities_in_combat">Walka</string>
 	<string key="ui_componentname">Nazwa komponentu</string>
 	<string key="ui_confirm">Potwierdź</string>
 	<string key="ui_confirm_delete_character_placeholder">Wpisz imię postaci</string>
@@ -573,7 +576,10 @@
 	<string key="ui_unlock">Odblokuj</string>
 	<string key="ui_ability_locked_error">Umiejętności można używać tylko wtedy, gdy się je odblokuje</string>
 	<string key="ui_ability_cooldown_error">Nie można zmieniać umiejętności, dopóki się nie odnowią</string>
+	<string key="ui_ability_combat_error">Nie można zmieniać umiejętności podczas walki</string>
+	<string key="ui_ability_points_combat_error">Nie można wydawać punktów podczas walki</string>
 	<string key="ui_respec_cooldown_error">Rekonfiguracja jest niedostępna, gdy umiejętności są odnawiane.</string>
+	<string key="ui_respec_combat_error">Nie można przeprowadzić rekonfiguracji podczas walki</string>
 	<string key="ui_equipment_cooldown_error">Wyposażenia nie da się zmienić, gdy umiejętności są odnawiane.</string>
 	<string key="ui_secondary_attack">Atak dodatkowy</string>
 	<string key="ui_weaponcycleup">Następna broń</string>
@@ -595,13 +601,13 @@
 	<string key="ui_quickslot3">Szybki wybór 3</string>
 	<string key="ui_quickslot4">Szybki wybór 4</string>
 	<string key="ui_head_slot_tooltip">Głowa.</string>
-	<string key="ui_chest_slot_tooltip">Tors.</string>
+	<string key="ui_chest_slot_tooltip">Korpus.</string>
 	<string key="ui_hands_slot_tooltip">Ręka.</string>
 	<string key="ui_legs_slot_tooltip">Noga.</string>
 	<string key="ui_feet_slot_tooltip">Stopa.</string>
 	<string key="ui_amulet_slot_tooltip">Amulet.</string>
 	<string key="ui_token_slot_tooltip">Żeton.</string>
-	<string key="ui_ring_slot_tooltip">Miejsce na pierścień.</string>
+	<string key="ui_ring_slot_tooltip">Pierścień.</string>
 	<string key="ui_bag_slot_tooltip">Torba.</string>
 	<string key="ui_arrow_slot_tooltip">Strzała.</string>
 	<string key="ui_cartridge_slot_tooltip">Naboje.</string>
@@ -660,6 +666,10 @@
 	<string key="ui_respawn">Odrodzenie</string>
 	<string key="ui_return_to_aeternum">Wróć do Aeternum</string>
 	<string key="ui_respawnpoints">Punkty odrodzenia</string>
+	<string key="ui_respawnpoint">Punkt odrodzenia:</string>
+	<string key="ui_outofrange">Poza zasięgiem</string>
+	<string key="ui_inrange">Dostępny</string>
+	<string key="ui_noactivecamp">Brak aktywnego obozu!</string>
 	<string key="ui_respawninseconds">Odrodzenie za 2 sekundy</string>
 	<string key="ui_respawn_time_remaining">Dostępne za: &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt;</string>
 	<string key="ui_respawntype">Typ odrodzenia</string>
@@ -864,7 +874,7 @@
 	<string key="ui_resolution_popup_title">Potwierdź rozdzielczość</string>
 	<string key="ui_resolution_popup_title_message">Czy ta rozdzielczość jest dobra?</string>
 	<string key="ui_monitor_popup_title">Potwierdź zmianę monitora</string>
-	<string key="ui_monitor_popup_title_message">Czy ten monitor jest dobry?</string>
+	<string key="ui_monitor_popup_title_message">Wybrać ten monitor?</string>
 	<string key="ui_monitor_name">Monitor</string>
 	<string key="ui_short_level">Poz.</string>
 	<string key="ui_factioncurrency">{faction} żetony</string>
@@ -875,6 +885,15 @@
 	<string key="ui_character_options">Opcje postaci</string>
 	<string key="ui_character_merge_destination">Ten świat ({worldName}) zostanie włączony do: {destinationWorldName} dnia: {date}.</string>
 	<string key="ui_xp">PD</string>
+	<string key="ui_xp_boost">Premia do PD</string>
+	<string key="ui_xp_event_title">PREMIA DO PD!</string>
+	<string key="ui_xp_event_desc">W tym świecie jest aktywna premia do PD!</string>
+	<string key="ui_xp_event_modal_title">PREMIA DO PD AKTYWNA!</string>
+	<string key="ui_xp_event_modal_desc">Radujcie się, albowiem nadciąga premia do PD! To świetna okazja do awansowania postaci!\nPremia obejmuje:</string>
+	<string key="ui_xp_event_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;PD (x {amount})&lt;/font&gt;</string>
+	<string key="ui_xp_event_tradeskill_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Profesję (x {amount})&lt;/font&gt;</string>
+	<string key="ui_xp_event_weaponmastery_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Biegłość w używaniu broni (x {amount})&lt;/font&gt;</string>
+	<string key="ui_xp_boost_reminder" comment="The leading space is intentional"> (x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
 	<string key="world_landing_title">Wybrano dla ciebie optymalny ŚWIAT</string>
 	<string key="world_set">Zestaw światów?</string>
 	<string key="world_set_title">*Czym jest zestaw światów?</string>
@@ -1496,6 +1515,7 @@
 	<string key="ui_repair_all_category_disabled">Nie masz wystarczającej liczby monet, części zamiennych lub zestawów naprawczych potrzebnych do naprawy wszystkich przedmiotów z tej kategorii.</string>
 	<string key="ui_repair_all_equipment_disabled">Nie masz wystarczającej liczby monet, części zamiennych lub zestawów naprawczych potrzebnych do naprawy całego wyposażenia.</string>
 	<string key="ui_repair_all_not_needed">Nie ma żadnych przedmiotów tej kategorii do naprawy.</string>
+	<string key="ui_repair_filtered">Nie można naprawić wszystkich przedmiotów tej kategorii, gdy zastosowano filtr przedmiotów.</string>
 	<string key="ui_repair_all_not_needed_equipment">Żaden przedmiot w twoim wyposażeniu nie wymaga naprawy.</string>
 	<string key="ui_repair_all_confirmation">Naprawić wszystkie przedmioty tej kategorii?\nWymaga:</string>
 	<string key="ui_repair_all_equipment_confirmation">Naprawić całe wyposażenie?\nWymaga:</string>
@@ -1623,6 +1643,7 @@
 	<string key="ui_unstuck_request_accepted">Teleportacja za %d sek.</string>
 	<string key="ui_generator_time_to_generate_item">Wytwarzanie – {item} w ilości {quantity}.</string>
 	<string key="ui_quantitywithx">x{quantity}</string>
+	<string key="ui_xp_bonuses_multiplier">x {quantity}</string>
 	<string key="ui_generator_at_maximum_capacity">{generator} jest pełny.\nZabierz przedmioty, by wznowić wytwarzanie: {item}.</string>
 	<string key="ui_generator_over_weight_limit">Przekroczono limit</string>
 	<string key="ui_item_unavailable_reason">To jest dostępne tylko w przypadku, gdy {entitlementRequirements}.</string>
@@ -1809,8 +1830,10 @@
 	<string key="ui_cycle_view_channels_mod">Przełączaj kanały</string>
 	<string key="ui_view_my_storage">Wyświetl mój magazyn</string>
 	<string key="ui_improve">Ulepsz</string>
-	<string key="ui_xp_tooltip">&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;PD&lt;/font&gt;\n {totalXP} Łączna liczba PD\n {xpToLevel} do poz. {nextLevel}{restedXpString}</string>
-	<string key="ui_xp_rested_tooltip">\n\n&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;PREMIE DO PD&lt;/font&gt;\n&lt;font color={restedXpColor}&gt;+{restedModifier} Premia za wypoczęcie\n Pozostało {totalRestedXP} PD za wypoczęcie&lt;/font&gt;</string>
+	<string key="ui_xp_tooltip">&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;PODSTAWOWE PD&lt;/font&gt;\n Łączna liczba PD {totalXP}\n {xpToLevel} do poz. {nextLevel}{bonusXpString}</string>
+	<string key="ui_xp_bonuses_tooltip">\n\n&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;PREMIE DO PD&lt;/font&gt;{restedXpString}{boostXpString}\n &lt;font color={totalBonusXpColor}&gt;Łączna premia do PD {totalXpBonus}&lt;/font&gt;</string>
+	<string key="ui_xp_rested_tooltip">\n &lt;font color={restedXpColor}&gt;Premia za wypoczęcie {restedModifier}\n Pozostało {totalRestedXP} PD za wypoczęcie&lt;/font&gt;</string>
+	<string key="ui_xp_multiplier_tooltip">\n &lt;font color={boostXpColor}&gt;Premia do PD {boostModifier}&lt;/font&gt;</string>
 	<string key="ui_rested_xp_notification_title">PREMIA DO PD ZA WYPOCZĘCIE</string>
 	<string key="ui_rested_xp_notification_body">Gdy przez pewien czas nie będziesz grać w New World, zyskasz wypoczęcie. Wypoczynek umożliwia ci szybsze zdobywanie PD do czasu, aż wyczerpiesz ich limit.</string>
 	<string key="ui_level_increased">Nowy poziom</string>
@@ -2176,6 +2199,7 @@
 	<string key="ui_tooltip_company_discount">Zniżka kompanii</string>
 	<string key="ui_tooltip_firsthouse_discount">Zniżka na pierwszy dom</string>
 	<string key="ui_tooltip_firsthouse">&lt;font color="#ffd45f"&gt;Kupujesz swój pierwszy dom? Czeka na ciebie ogromna zniżka!&lt;/font&gt;</string>
+	<string key="ui_tooltip_current_territory_discount">Obecna zniżka terytorialna</string>
 	<string key="ui_tooltip_attribute_discount">Zniżka na cechy</string>
 	<string key="ui_tooltip_standing_discount">Zniżka rangi terytorium</string>
 	<string key="ui_tooltip_order_price">Cena oferty</string>
@@ -2256,7 +2280,7 @@
 	<string key="ui_itemtypedescription_Key_item">Klucz do wydarzenia</string>
 	<string key="ui_itemtypedescription_furniture">Meble</string>
 	<string key="ui_itemtypedescription_bait">Przynęta</string>
-	<string key="ui_itemtypedescription_outpostrush">Zasoby z napadu na posterunek</string>
+	<string key="ui_itemtypedescription_outpostrush">Zasoby z napadu</string>
 	<string key="ui_cannot_perform_action_at_this_time">Nie możesz obecnie wykonać tej czynności</string>
 	<string key="ui_cannot_use_shield_abilities">Nie wyposażono się w tarczę</string>
 	<string key="ui_tooltip_effect_duration">Czas trwania efektu: &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{value}&lt;/font&gt;</string>
@@ -2288,10 +2312,11 @@
 	<string key="ui_number_range">{lowNumber}–{highNumber}</string>
 	<string key="ui_recommended_level_range">Zalecany poziom: {lowNumber}–{highNumber}</string>
 	<string key="ui_cannot_trade_currency_blocked">Możesz handlować walutą dopiero po osiągnięciu {level}. poziomu, a twoje konto musi być starsze niż {hoursNeeded} godz.</string>
-	<string key="ui_cannot_chat_global_blocked">Nie możesz rozmawiać na tym kanale, dopóki twoje konto nie będzie starsze niż {hoursNeeded} godz.</string>
+	<string key="ui_cannot_chat_global_blocked">Nie możesz rozmawiać na tym kanale, dopóki twoje konto nie będzie starsze niż {hoursNeeded} godz., a czas twojej rozgrywki dłuższy niż {playtimeNeeded}</string>
 	<string key="ui_complete_quests_to_unlock">Ukończ zadania w osadzie, by odblokować</string>
+	<string key="ui_cannot_chat_trading_blocked">By móc korzystać z tego kanału, twoje konto musi być starsze niż {hoursNeeded}, a czas twojej rozgrywki dłuższy niż {playtimeNeeded}. Ponadto musisz odblokować faktorię.</string>
 	<string key="ui_averageexpertise">Przeciętna\nbiegłość</string>
-	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Biegłość&lt;/font&gt;\nBiegłość służy do określania maksymalnej mocy używanego przedmiotu.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Maksymalna biegłość do osiągnięcia&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Zwiększanie biegłości&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Elitarne lokacje i ekspedycje&lt;/font&gt;\nŁupy upuszczane przez wrogów i znajdowane w skrzyniach w strefach powyżej 60. poziomu mają szansę na zwiększenie tej wartości.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Rzemiosło&lt;/font&gt;\nWytworzenie przedmiotu mającego 600 pkt wyposażenia zwiększy biegłość w tym rodzaju przedmiotu.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Odlew gipsowy&lt;/font&gt;\nOtwarcie odlewu gipsowego zwiększy biegłość.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ulepszenie przedmiotu (odłamkami umbralu)&lt;/font&gt;\nPo osiągnięciu 600 pkt biegłości jedynym sposobem na jej zwiększenie jest ulepszenie przedmiotów odłamkami umbralu.</string>
+	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Biegłość&lt;/font&gt;\nBiegłość służy do określania maksymalnej mocy używanego przedmiotu.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Maksymalna biegłość do osiągnięcia&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Zwiększanie biegłości&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Elitarne lokacje i ekspedycje&lt;/font&gt;\nŁupy upuszczane przez wrogów i znajdowane w skrzyniach w strefach powyżej 60. poziomu mają szansę na zwiększenie tej wartości.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Rzemiosło&lt;/font&gt;\nWytworzenie przedmiotu mającego 600 pkt wyposażenia zwiększy biegłość w tym rodzaju przedmiotu.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Odlew gipsowy&lt;/font&gt;\nOtwarcie odlewu gipsowego zwiększy biegłość.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ulepszenie przedmiotu (odłamkami umbralu)&lt;/font&gt;\nPo osiągnięciu 600 pkt biegłości jedynym sposobem na jej zwiększenie jest ulepszanie przedmiotów odłamkami umbralu.</string>
 	<string key="ui_itemtypedescription_shield_only">Tarcza</string>
 	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}</string>
 	<string key="ui_expertise_warning_with_icon">&lt;font color="#ff9393"&gt;&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_red" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}&lt;/font&gt;</string>

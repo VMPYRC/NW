@@ -83,7 +83,7 @@
 	<string key="ui_item_restrictions" rel_version="Feature_MTX">Restrizioni sugli oggetti</string>
 	<string key="ui_item_restrictions_item_skins" rel_version="Feature_MTX">Affinché le &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;skin&lt;/font&gt; siano visibili, l'oggetto di base deve essere equipaggiato. &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Le skin&lt;/font&gt; non possono essere tinte.</string>
 	<string key="ui_item_restrictions_crests" rel_version="Feature_MTX">Gli &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;emblemi della compagnia&lt;/font&gt; possono essere utilizzati solo se sei il governatore (creatore) della compagnia.</string>
-	<string key="ui_item_restrictions_housing_items" rel_version="Feature_MTX">Gli &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;oggetti per la casa&lt;/font&gt; possono essere utilizzati solo dopo aver sbloccato le funzionalità della casa e averne acquisita una.</string>
+	<string key="ui_item_restrictions_housing_items" rel_version="Feature_MTX">Gli &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;oggetti per la casa&lt;/font&gt; possono essere utilizzati solo dopo aver sbloccato le funzionalità della casa e averne acquisita una.\n\nÈ possibile visualizzare un numero limitato di &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;oggetti animati e per l'illuminazione&lt;/font&gt; in qualsiasi momento.</string>
 	<string key="ui_item_restrictions_dyes" rel_version="Feature_MTX">Le &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;tinte&lt;/font&gt; possono essere applicate soltanto alla tua armatura. Se l'armatura viene scambiata o venduta, la tinta sarà rimossa e non restituita. Non si possono applicare tinte sulle skin.</string>
 	<string key="ui_item_restrictions_camp_skins" rel_version="Feature_Camp_Skins">Per usare le &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;skin per l'accampamento&lt;/font&gt; devi aver sbloccato l'accampamento.</string>
 	<string key="ui_non_returnable" rel_version="Feature_MTX">Oggetto non rimborsabile.</string>
@@ -428,6 +428,8 @@
 	<string key="server_transfer_requirements_detail1" rel_version="Feature_Server_Transfer">Non puoi fare parte di una compagnia prima del trasferimento</string>
 	<string key="server_transfer_requirements_detail2" rel_version="Feature_Server_Transfer">Non puoi avere ordini di acquisto/vendita attivi all'emporio prima del trasferimento</string>
 	<string key="server_transfer_requirements_detail3" rel_version="Feature_Server_Transfer">Devi essere in un Santuario (insediamento, avamposto, santuario dello spirito o torre di guardia) prima del trasferimento</string>
+	<string key="server_transfer_requirements_detail_player_level" rel_version="Feature_Server_Transfer">Per trasferirti in un'altra regione devi raggiungere almeno il livello {level}.</string>
+	<string key="server_transfer_requirements_detail_housing" rel_version="Feature_Server_Transfer">Per trasferirti in un'altra regione non devi possedere case.</string>
 	<string key="server_transfer_not_transfer_detail1" rel_version="Feature_Server_Transfer">La tua lista amici verrà cancellata e non sarà trasferita</string>
 	<string key="server_transfer_not_transfer_detail2" rel_version="Feature_Server_Transfer">Le missioni del progetto cittadino attivo non saranno trasferite</string>
 	<string key="server_transfer_not_transfer_detail3" rel_version="Feature_Server_Transfer">Le missioni della fazione attiva non saranno trasferite</string>
@@ -437,6 +439,7 @@
 	<string key="server_transfer_unavailable_duel" rel_version="Feature_Server_Transfer">Non puoi trasferire mondi mentre sei in un Duello.</string>
 	<string key="server_transfer_unavailable_outpost_rush" rel_version="Feature_Server_Transfer">Non puoi trasferire mondi mentre sei in una Carica all'avamposto.</string>
 	<string key="server_transfer_unavailable_outpost_rush_queue" rel_version="Feature_Server_Transfer">Non puoi trasferire mondi mentre sei in coda per una Carica all'avamposto.</string>
+	<string key="server_transfer_unavailable_transfer_world_full" rel_version="Feature_Server_Transfer">La lista dei trasferimenti di questa regione è piena, riprova tra qualche minuto.</string>
 	<string key="server_transfer_more_details" rel_version="Feature_Server_Transfer">Per maggiori informazioni, consulta</string>
 	<string key="server_transfer_transfer_faq" rel_version="Feature_Server_Transfer">Domande frequenti sul trasferimento di mondo del personaggio</string>
 	<string key="server_transfer_final_details" rel_version="Feature_Server_Transfer">Confermando il trasferimento tornerai al menu principale di selezione del personaggio.</string>
@@ -450,6 +453,8 @@
 	<string key="server_transfer_requirements_tradingPost" rel_version="Feature_Server_Transfer">Non puoi avere ordini di acquisto/vendita attivi all'emporio prima del trasferimento.</string>
 	<string key="server_transfer_requirements_sanctuary" rel_version="Feature_Server_Transfer">Devi essere in un Santuario (insediamento, avamposto, santuario dello spirito o torre di guardia) prima del trasferimento.</string>
 	<string key="server_transfer_requirements_tradingPost_unknown" rel_version="Feature_Server_Transfer">Verifica stato dell'emporio...</string>
+	<string key="server_transfer_requirements_player_level" rel_version="Feature_Server_Transfer">Per trasferirti in un'altra regione devi raggiungere almeno il livello {level}.</string>
+	<string key="server_transfer_requirements_housing" rel_version="Feature_Server_Transfer">Per trasferirti in un'altra regione non devi possedere case.</string>
 	<string key="server_transfer_confirm" rel_version="Feature_Server_Transfer">CONFERMA TRASFERIMENTO DI MONDO</string>
 	<string key="server_transfer_confirm_button" rel_version="Feature_Server_Transfer">Conferma trasferimento</string>
 	<string key="server_transfer_confirm_purchase" rel_version="Feature_Server_Transfer">ACQUISTA TRASFERIMENTO DI MONDO</string>
@@ -530,7 +535,7 @@
 	<string key="Tool_PickAxe_RoyalCourt_description" rel_version="Tool_PickAxe_RoyalCourt">"Ordina a rocce e minerali senza distinzione di sgretolarsi." Skin per piccone</string>
 	<string key="Tool_Sickle_RoyalCourt_description" rel_version="Tool_Sickle_RoyalCourt">"Quando viene usato nelle terre selvagge, il luccichio di questo strumento attira gli sguardi di molti avventurieri invidiosi." Skin per falcetto</string>
 	<string key="Tool_SkinningKnife_RoyalCourt_description" rel_version="Tool_SkinningKnife_RoyalCourt">"Funge anche da tagliacarte per tutte le tue missive regali." Skin per coltello da scuoiatura</string>
-	<string key="Bundle_Decor_RoyalCourt_name" rel_version="Housing_Royal_MTX_Pack_2021">Pacchetto decorazioni corte reale</string>
+	<string key="Bundle_Decor_RoyalCourt_name" rel_version="Housing_Royal_MTX_Pack_2021">Pacchetto mobili della corte reale</string>
 	<string key="Bundle_Decor_RoyalCourt_description" rel_version="Housing_Royal_MTX_Pack_2021">"Lo splendore reale adatto a chi è nobile di nascita, che sia vivo o corrotto."</string>
 	<string key="Bundle_Tool_LegendaryAzoth_name" rel_version="MTX_Tool_Skins_LegendaryAzoth">Strumenti leggendari di Azoth</string>
 	<string key="Bundle_Tool_LegendaryStrength_name" rel_version="MTX_Tool_Skins_LegendaryStrength">Strumenti leggendari di Forza</string>
@@ -618,7 +623,7 @@
 	<string key="url_primegaming">https://gaming.amazon.com/loot/newworld</string>
 	<string key="ui_open_link">Apri link</string>
 	<string key="Bundle_Decor_Lunar_name" rel_version="Housing_LunarNewYear_MTX_Pack_2022">Pacchetto mobilio del nuovo anno lunare</string>
-	<string key="Bundle_Decor_Lunar_description" rel_version="Housing_LunarNewYear_MTX_Pack_2022">"È arrivato il nuovo anno!" Set mobilio per la casa</string>
+	<string key="Bundle_Decor_Lunar_description" rel_version="Housing_LunarNewYear_MTX_Pack_2022">"È arrivato il nuovo anno!"</string>
 	<string key="Pet_LunarTiger_name" rel_version="Housing_LunarNewYear_MTX_Pack_2022">Tigre lunare</string>
 	<string key="Pet_LunarTiger_description" rel_version="Housing_LunarNewYear_MTX_Pack_2022">"Una creatura mistica che ti ha fatto dono della sua presenza e della sua protezione."</string>
 	<string key="Bundle_Crest_Lunar_name" rel_version="Crest_Pack_Lunar">Pacchetto emblema nuovo anno lunare</string>
@@ -691,7 +696,7 @@
 	<string key="Bundle_Tool_Valentines_description" rel_version="MTX_Tool_Skins_Valentine">"L'amore necessita di un grande sforzo... e di molte risorse."</string>
 	<string key="Apparel_Waveborne_description" rel_version="Apparel_Waveborne_Costume">"Emersa dal mare scuro e ribollente, un'onda letale si infrange sulla riva."</string>
 	<string key="Weapon_Musket_AngelsDemons_description" rel_version="Weapon_Musket_AngelsDemons_MTX">"E così le montagne risuonarono del grido dell'alleluia!"</string>
-	<string key="Weapon_TowerShield_AngelsDemons_description" rel_version="Weapon_TowerShield_AngelsDemons_MTX">"Per difendere dal male e farsi campione di purezza occorre avere uno scudo adeguato."</string>
+	<string key="Weapon_TowerShield_AngelsDemons_description" rel_version="Weapon_TowerShield_AngelsDemons_MTX">"Per difendere dal male e farsi campione di purezza, occorre avere uno scudo adeguato."</string>
 	<string key="Weapon_Rapier_AngelsDemons_description" rel_version="Weapon_Rapier_AngelsDemons_MTX">"Un bagliore per squarciare le tenebre e sollevare il morale di chi lo vede impugnato da un campione della luce."</string>
 	<string key="Weapon_VoidGauntlet_AngelsDemons_description" rel_version="Weapon_VoidGauntlet_AngelsDemons_MTX">"Un angelo caduto è una mostruosa incarnazione del sacrificio."</string>
 	<string key="Emote_Swoon_name" rel_version="Emote_Swoon">Deliquio</string>
@@ -701,5 +706,6 @@
 	<string key="ui_crestforeground_212" rel_version="Twitch_EpicStory_Skins">Uroboro</string>
 	<string key="Bundle_Decor_Love2022_name" rel_version="Housing_Love_MTX_Pack_2022">Pacchetto mobilio dell'amore corrotto</string>
 	<string key="Bundle_Decor_Love2022_description" rel_version="Housing_Love_MTX_Pack_2022">"L'arredamento perfetto per una serata romantica o per lasciarsi intrappolare in un'eternità senza amore su Aeternum."</string>
+	<string key="prorated_discount">Prezzo modificato in base agli oggetti sbloccati</string>
 </resources>
 

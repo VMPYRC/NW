@@ -23,6 +23,7 @@
 	<string key="mm_loginerrortitle">Error de inicio de sesión</string>
 	<string key="mm_connectionfailed">Error de conexión</string>
 	<string key="mm_error_code">Código de error:</string>
+	<string key="mm_waitingtotransfer" rel_version="Feature_MTX">Esperando para transferir a\n{worldName}</string>
 	<string key="ui_open_governors_desk">Abrir escritorio del gobernador</string>
 	<string key="mm_disconnected">Se desconectó del servidor. Espera. Reconectando…</string>
 	<string key="mm_retriesfailed">Se agotaron los intentos de conexión. Vuelve a intentarlo más tarde.</string>
@@ -54,6 +55,7 @@
 	<string key="mm_loginservices_BannedOffensiveCompanyName">Acceso denegado: se te ha prohibido el acceso por usar un nombre ofensivo para tu compañía.</string>
 	<string key="mm_loginservices_BannedSuspectedFraud">Acceso denegado: se te ha prohibido el acceso por una sospecha de comportamiento fraudulento.</string>
 	<string key="mm_loginservices_BannedCSLockout">Tu cuenta está bloqueada. Comunícate con atención al cliente para más información.</string>
+	<string key="mm_loginservices_BannedCommerce">Se ha bloqueado tu cuenta debido a una actividad sospechosa. Comunícate con atención al cliente para más información.</string>
 	<string key="mm_loginservices_Cheating">Acceso denegado: fuiste suspendido por hacer trampa.</string>
 	<string key="mm_loginservices_Exploit">Acceso denegado: se te ha prohibido el acceso por aprovecharte de errores.</string>
 	<string key="mm_loginservices_Botting">Acceso denegado: se te ha prohibido el acceso por usar bots.</string>
@@ -64,6 +66,7 @@
 	<string key="mm_loginservices_OffensiveCompanyName">Acceso denegado: se te ha prohibido el acceso por usar un nombre ofensivo para tu compañía.</string>
 	<string key="mm_loginservices_SuspectedFraud">Acceso denegado: se te ha prohibido el acceso por una sospecha de comportamiento fraudulento.</string>
 	<string key="mm_loginservices_CSLockout">Tu cuenta está bloqueada. Comunícate con atención al cliente para más información.</string>
+	<string key="mm_loginservices_Commerce">Se ha bloqueado tu cuenta debido a una actividad sospechosa. Comunícate con atención al cliente para más información.</string>
 	<string key="mm_loginservices_warning_title">ADVERTENCIA</string>
 	<string key="mm_loginservices_warning_BannedOffensiveName">El nombre de tu personaje se ha identificado como inapropiado. Cuando vuelvas a iniciar sesión, se te pedirá que lo cambies.</string>
 	<string key="mm_loginservices_warning_BannedOffensiveCompanyName">El nombre de tu compañía se ha identificado como inapropiado y se actualizó. Puedes cambiarlo en cualquier momento en el panel de IU de la compañía [G].</string>
@@ -187,6 +190,7 @@
 	<string key="mm_rejected_Client_Kicked_EasyAntiCheat">Inicio de sesión bloqueado: Se detectó una instalación dañada o un software sospechoso.</string>
 	<string key="mm_rejected_Client_Kicked_BannedCSLockout">Tu cuenta está bloqueada. Comunícate con atención al cliente para más información.</string>
 	<string key="mm_rejected_Client_Kicked_CSLockout">Tu cuenta está bloqueada. Comunícate con atención al cliente para más información.</string>
+	<string key="mm_rejected_Client_Kicked_BannedCommerce">Problema con el pago</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Fuiste expulsado del juego.</string>
 	<string key="mm_authresult_Authorized">Éxito</string>
 	<string key="mm_characterCreateDisabled">La creación de personajes está inhabilitada de forma temporal porque este mundo está lleno. Prueba con un mundo diferente.</string>

@@ -63,9 +63,9 @@
 	<string key="inv_equipLoadSlow">Pesado</string>
 	<string key="inv_equipLoadOverburdened">Exceso de equipamiento.</string>
 	<string key="inv_equipLoadTooltip">El peso combinado de la armadura y el escudo que llevas equipados determina tu carga de equipo. Cada carga de equipo ofrece una capacidad de esquivar diferente y otras bonificaciones.</string>
-	<string key="inv_equipLoadFastTooltip">Cuando llevas una armadura ligera, ruedas rápidamente para esquivar y recorres una gran distancia. Infliges un 20 % de daño adicional y curas un {[Type_StatusEffectData.EquipLoad_HealingBonus_Light.HealScalingValueMultiplier * 100]} % más de vida.</string>
-	<string key="inv_equipLoadNormalTooltip">Cuando llevas una armadura de peso medio, saltas rápidamente para esquivar. Infliges un 10 % de daño adicional y curas un {[Type_StatusEffectData.EquipLoad_HealingBonus_Medium.HealScalingValueMultiplier * 100]} % más de vida. Los estados negativos de control de multitudes que aplicas duran un 10 % más.</string>
-	<string key="inv_equipLoadSlowTooltip">Cuando llevas una armadura pesada, esquivas lentamente. La estabilidad de tu bloqueo aumenta en un 15 % y los estados negativos de control de multitudes que aplicas duran un 20 % más.</string>
+	<string key="inv_equipLoadFastTooltip">Cuando llevas una armadura ligera, ruedas rápidamente para esquivar y recorres una gran distancia, lo que consume {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]} de vitalidad. Infliges un 20 % de daño adicional y curas un {[Type_StatusEffectData.EquipLoad_HealingBonus_Light.HealScalingValueMultiplier * 100]} % más de vida.</string>
+	<string key="inv_equipLoadNormalTooltip">Cuando llevas una armadura de peso medio, saltas rápidamente para esquivar, lo que consume {[StaminaCosts_Player.Dodge_Roll.StaminaCost]} de vitalidad. Infliges un 10 % de daño adicional y curas un {[Type_StatusEffectData.EquipLoad_HealingBonus_Medium.HealScalingValueMultiplier * 100]} % más de vida. Los estados negativos de control de multitudes que aplicas duran un 10 % más.</string>
+	<string key="inv_equipLoadSlowTooltip">Cuando llevas una armadura pesada, esquivas lentamente, lo que consume {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]} de vitalidad. La estabilidad de tu bloqueo aumenta en un 15 % y los estados negativos de control de multitudes que aplicas duran un 20 % más.</string>
 	<string key="inv_equipLoadOverburdenedTooltip">Si superas la carga de equipo máxima, no podrás esquivar, correr ni usar habilidades. Debes desequipar algunos objetos.</string>
 	<string key="inv_equipLoadEncumberedTooltip">Llevas demasiadas cosas en tu inventario. Cuando tengas una carga excesiva, no importa cuál sea tu carga de equipo. No puedes correr ni esquivar y perderás más vitalidad al bloquear. Debes quitar algunos artículos de tu bolsa.</string>
 	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Has equipado más de lo permitido por la carga de equipo máxima. No podrás esquivar ni correr, y la velocidad de recarga de vitalidad se verá penalizada significativamente. Debes desequipar algunos objetos.</string>
@@ -133,6 +133,7 @@
 	<string key="ui_set_quantity">Fijar cantidad</string>
 	<string key="ui_drag_new_stack">Arrastrar nueva pila</string>
 	<string key="ui_box_opening_open_another_single">Abrir siguiente</string>
+	<string key="ui_box_opening_max_items_reached">{quantity} objetos más</string>
 	<string key="ui_dropall">Soltar todo</string>
 	<string key="ui_dropall_in_trade">No puedes soltar objetos al comerciar.</string>
 	<string key="ui_storeall">Guardar todo</string>

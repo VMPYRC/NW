@@ -63,9 +63,9 @@
 	<string key="inv_equipLoadSlow">Lourd</string>
 	<string key="inv_equipLoadOverburdened">Suréquipé</string>
 	<string key="inv_equipLoadTooltip">La charge combinée de l'armure et du bouclier que vous portez détermine votre poids d'équipement. Du poids d'équipement dépendent vos capacités d'esquive ainsi que d'autres bonus.</string>
-	<string key="inv_equipLoadFastTooltip">Avec une armure légère, votre esquive consiste en une roulade rapide sur une grande distance. Vous bénéficiez d'un bonus de dégâts de 20 % et d'un bonus de soin de {[Type_StatusEffectData.EquipLoad_HealingBonus_Light.HealScalingValueMultiplier * 100]} %.</string>
-	<string key="inv_equipLoadNormalTooltip">Avec une armure de poids moyen, votre esquive consiste en un bond rapide. Vous bénéficiez d'un bonus de dégâts de 10 % et d'un bonus aux soins de {[Type_StatusEffectData.EquipLoad_HealingBonus_Medium.HealScalingValueMultiplier * 100]} %. La durée des effets de contrôle de foule que vous appliquez augmente de 10 %.</string>
-	<string key="inv_equipLoadSlowTooltip">Avec une armure lourde, votre esquive consiste en un pas chassé lent. Votre capacité de blocage augmente de 15 % et la durée des effets de contrôle de foule que vous appliquez augmente de 20 %.</string>
+	<string key="inv_equipLoadFastTooltip">Avec une armure légère, votre esquive consiste en une roulade rapide qui couvre une grande distance et consomme de la {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]} vitalité. Vous bénéficiez d'un bonus de dégâts de 20 % et d'un bonus aux soins de {[Type_StatusEffectData.EquipLoad_HealingBonus_Light.HealScalingValueMultiplier * 100]} %.</string>
+	<string key="inv_equipLoadNormalTooltip">Avec une armure de poids moyen, votre esquive consiste en un bond rapide et consomme de la {[StaminaCosts_Player.Dodge_Roll.StaminaCost]} vitalité. Vous bénéficiez d'un bonus de dégâts de 10 % et d'un bonus aux soins de {[Type_StatusEffectData.EquipLoad_HealingBonus_Medium.HealScalingValueMultiplier * 100]} %. La durée des effets de contrôle de foule que vous appliquez augmente de 10 %.</string>
+	<string key="inv_equipLoadSlowTooltip">Avec une armure lourde, votre esquive consiste en un pas chassé lent qui consomme de la {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]} vitalité. Votre capacité de blocage augmente de 15 % et la durée des effets de contrôle de foule que vous appliquez augmente de 20 %.</string>
 	<string key="inv_equipLoadOverburdenedTooltip">Lorsque vous dépassez le poids d'équipement maximal, vous ne pouvez plus esquiver, sprinter ou utiliser de capacités. Vous devriez déséquiper quelques objets.</string>
 	<string key="inv_equipLoadEncumberedTooltip">Vous avez trop d'objets dans votre inventaire. Lorsque l'inventaire est encombré, les effets subis sont indépendants de votre poids d'équipement. Vous ne pouvez ni sprinter ni esquiver et vous perdez davantage de vitalité en parant. Retirez quelques objets de votre havresac.</string>
 	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Vous dépassez le poids d'équipement maximal : impossible d'esquiver ou de sprinter et la vitesse de recharge de la vitalité est bien plus lente. Vous devriez déséquiper quelques objets.</string>
@@ -133,6 +133,7 @@
 	<string key="ui_set_quantity">Définir la quantité</string>
 	<string key="ui_drag_new_stack">Faire glisser une nouvelle pile</string>
 	<string key="ui_box_opening_open_another_single">Ouvrir suivant</string>
+	<string key="ui_box_opening_max_items_reached">+{quantity} objets</string>
 	<string key="ui_dropall">Tout lâcher</string>
 	<string key="ui_dropall_in_trade">Impossible de lâcher des objets lors des échanges</string>
 	<string key="ui_storeall">Tout stocker</string>

@@ -10,7 +10,7 @@
 	<string key="ui_dungeon_requirements_gearscore">Zalecany poziom: {level}</string>
 	<string key="ui_flyout_recommended_groupsize">Zalecana liczba graczy: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{players}&lt;/font&gt;</string>
 	<string key="ui_dungeon_requirements_equipment_warning">Aby ukończyć tę ekspedycję, twoja grupa musi mieć co najmniej: &lt;font color="#ffffff"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_reward_level"/>
+	<string key="ui_dungeon_reward_level">Im wyższy poziom trudności, tym wyższa jakość łupu.\n\nZnalezione przedmioty mogą się różnić od przedmiotów z listy ze względu na ich liczbę punktów wyposażenia.</string>
 	<string key="ui_dungeon_level_requirement">Wymagany poziom: {level}</string>
 	<string key="ui_dungeon_elapsed_time">Minęło:</string>
 	<string key="ui_dungeon_estimated_time_remaining">Szacowany czas oczekiwania:</string>
@@ -64,7 +64,7 @@
 	<string key="ui_dungeon_mutation_promotion_description" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ff9393" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Wrogowie&lt;/font&gt; mogą mieć następujące &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;premie:&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutation_curse_description" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Gracze&lt;/font&gt; otrzymują następujące &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;negatywne efekty:&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_expiration_text" rel_version="Feature_Dungeon_Mutators">Zmienia się za: </string>
-	<string key="ui_dungeon_mutator_recommended_gearscore" rel_version="Feature_Dungeon_Mutators"/>
+	<string key="ui_dungeon_mutator_recommended_gearscore" rel_version="Feature_Dungeon_Mutators">Zalecana minimalna liczba punktów wyposażenia: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{score}&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_codex" rel_version="Feature_Dungeon_Mutators">Kodeks</string>
 	<string key="ui_dungeon_mutator_difficulty_default" rel_version="Feature_Dungeon_Mutators">Zwykła</string>
 	<string key="ui_dungeon_mutator_difficulty_1" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt; (Normalny)</string>
@@ -122,7 +122,7 @@
 	<string key="CensoredTitle" rel_version="Feature_Dungeon_Mutators">Cenzura</string>
 	<string key="CensoredDescription" rel_version="Feature_Dungeon_Mutators">Opis cenzury</string>
 	<string key="ui_dungeon_mutator_difficulty_header_none" rel_version="Feature_Dungeon_Mutators">Normalny</string>
-	<string key="ui_dungeon_mutator_difficulty_header_mutated" rel_version="Feature_Dungeon_Mutators">Zmutowany</string>
+	<string key="ui_dungeon_mutator_difficulty_header_mutated" rel_version="Feature_Dungeon_Mutators">Mutacja</string>
 	<string key="ui_dungeon_mutator_difficulty_plain" rel_version="Feature_Dungeon_Mutators">Poziom trudności&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_appended_difficulty" rel_version="Feature_Dungeon_Mutators">Poziom trudności: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{difficulty}&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_appended_difficulty_bold" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Poziom trudności {difficulty}&lt;/font&gt;</string>
@@ -171,7 +171,8 @@
 	<string key="ui_dungeon_possible_rewards_header" rel_version="Feature_Dungeon_Mutators">Potencjalne nagrody</string>
 	<string key="ui_dungeon_no_possible_rewards" rel_version="Feature_Dungeon_Mutators">Brak potencjalnych nagród</string>
 	<string key="ui_dungeon_orb_explanation" rel_version="Feature_Dungeon_Mutators">Jednorazowa nagroda. Kule strojące zmutowanej ekspedycji można również kupić w sklepie frakcji.</string>
-	<string key="ui_dungeon_gearscore_recommendation_tooltip" rel_version="Feature_Dungeon_Mutators"/>
-	<string key="ui_dungeon_gearscore_underlevel_warning" rel_version="Feature_Dungeon_Mutators">UWAGA: Twoja przeciętna liczba punktów wyposażenia jest za niska, aby dobrze poradzić sobie w tej ekspedycji.</string>
+	<string key="ui_dungeon_gearscore_recommendation_tooltip" rel_version="Feature_Dungeon_Mutators">
+	&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Zalecana liczba punktów wyposażenia&lt;/font&gt;\n\nNa obliczenia podczas walki wpływa różnica pomiędzy twoją przeciętną liczbą punktów wyposażenia a zalecaną liczbą punktów wyposażenia.\n\nLiczba punktów wyposażenia &lt;font color="#ff9393"&gt;mniejsza&lt;/font&gt; od zalecanej sprawi, że będziesz &lt;font color="#ffffff"&gt;zadawać mniej obrażeń&lt;/font&gt; i &lt;font color="#ffffff"&gt;otrzymywać więcej obrażeń&lt;/font&gt; od wrogów podczas ekspedycji.</string>
+	<string key="ui_dungeon_gearscore_underlevel_warning" rel_version="Feature_Dungeon_Mutators">&lt;font color="#f25d5d" face="lyshineui/fonts/Nimbus_Bold.font"&gt;UWAGA:&lt;/font&gt; Twoja przeciętna liczba punktów wyposażenia jest niższa od minimalnej.</string>
 </resources>
 

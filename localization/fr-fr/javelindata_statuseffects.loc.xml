@@ -426,9 +426,9 @@
 	<string key="Mut_Voi_Stacks_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoïaque I</string>
 	<string key="Mut_Voi_Stacks_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoïaque II</string>
 	<string key="Mut_Voi_Stacks_1_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoïa I</string>
-	<string key="Mut_Voi_Stacks_1_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">Sous l'effet de la terreur pendant {[Type_StatusEffectData.Mut_Lig_Stacks_1_Effect.BaseDuration]} secondes. À 4 cumuls, provoque une explosion de néant à votre emplacement.</string>
+	<string key="Mut_Voi_Stacks_1_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">Sous l'effet de la terreur pendant {[Type_StatusEffectData.Mut_Lig_Stacks_1_Effect.BaseDuration]} secondes. À {[Type_StatusEffectData.Mut_Voi_Stacks_1_Effect.AddOnStackSize]} cumuls, provoque une explosion de néant à votre emplacement.</string>
 	<string key="Mut_Voi_Stacks_2_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoïa II</string>
-	<string key="Mut_Voi_Stacks_2_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">Sous l'effet de la terreur pendant {[Type_StatusEffectData.Mut_Lig_Stacks_2_Effect.BaseDuration]} secondes. À 4 cumuls, provoque une explosion de néant à votre emplacement.</string>
+	<string key="Mut_Voi_Stacks_2_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">Sous l'effet de la terreur pendant {[Type_StatusEffectData.Mut_Lig_Stacks_2_Effect.BaseDuration]} secondes. À {[Type_StatusEffectData.Mut_Voi_Stacks_2_Effect.AddOnStackSize]} cumuls, provoque une explosion de néant à votre emplacement.</string>
 	<string key="Mut_Voi_Leech_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Abnégation I</string>
 	<string key="Mut_Voi_Leech_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Abnégation II</string>
 	<string key="Mut_Voi_Leech_1_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Ponction d'abnégation I</string>
@@ -459,7 +459,7 @@
 	<string key="Mut_Curse4_Major_ManaStop_DisplayName" rel_version="Feature_Dungeon_Mutators">Coupure de mana</string>
 	<string key="Mut_Curse4_Major_ManaStop_ToolTip" rel_version="Feature_Dungeon_Mutators">Incapable de régénérer naturellement du mana.</string>
 	<string key="Mut_Curse4_Major_ManaRegen_DisplayName" rel_version="Feature_Dungeon_Mutators">Flux de mana</string>
-	<string key="Mut_Curse4_Major_ManaRegen_ToolTip" rel_version="Feature_Dungeon_Mutators">Régénère {[Type_StatusEffectData.Mut_Curse4_Major_ManaRegen.Mana]} points toutes les {[Type_StatusEffectData.Mut_Curse4_Major_Mana.TickRate]} secondes.</string>
+	<string key="Mut_Curse4_Major_ManaRegen_ToolTip" rel_version="Feature_Dungeon_Mutators">Régénération de {[Type_StatusEffectData.Mut_Curse4_Major_ManaRegen.Mana]} points de mana toutes les {[Type_StatusEffectData.Mut_Curse4_Major_ManaRegen.TickRate]} secondes.</string>
 	<string key="Mut_Base_Curse4_Minor_Silence_DisplayName" rel_version="Feature_Dungeon_Mutators">Mutisme</string>
 	<string key="Mut_Base_Curse4_Minor_Silence_ToolTip" rel_version="Feature_Dungeon_Mutators">Vous ne pouvez pas utiliser de capacités tant que vous vous trouvez dans la zone d'effet.</string>
 	<string key="GhostDisease_DisplayName">Maladie</string>
@@ -1098,7 +1098,7 @@
 	<string key="BlockSpeedPerk1_Description">Augmente votre vitesse de déplacement de {[Type_StatusEffectData.BlockSpeedPerk1.MoveSpeedMod * 100]}.</string>
 	<string key="BlockSpeedPerk2_Description">Augmente votre vitesse de déplacement de {[Type_StatusEffectData.BlockSpeedPerk2.MoveSpeedMod * 100]}.</string>
 	<string key="BlockSpeedPerk3_Description">Augmente votre vitesse de déplacement de {[Type_StatusEffectData.BlockSpeedPerk3.MoveSpeedMod * 100]}.</string>
-	<string key="DodgeLowerThreatPerk_DisplayName">Discrétion</string>
+	<string key="DodgeLowerThreatPerk_DisplayName">Esquive</string>
 	<string key="DodgeLowerThreatPerk_Description">Réduit temporairement les dégâts de menace que vous infligez.</string>
 	<string key="DodgeIncreaseThreatPerk_DisplayName">Intimidation</string>
 	<string key="DodgeIncreaseThreatPerk_Description">Augmente temporairement les dégâts de menace que vous infligez.</string>
@@ -1317,10 +1317,6 @@
 	<string key="Status_Passive_Foc_300_Bonus_Timer">Temps de recharge du bonus 300 de régénération de mana de concentration</string>
 	<string key="Dungeon_PurifyingFlame">Flamme purificatrice</string>
 	<string key="Dungeon_PurifyingFlame_Description">Nettoie le dépérissement concentré.</string>
-	<string key="Dungeon_CursedTreasure_DisplayName" rel_version="Expedition_CutlassKeys_00">Trésor maudit</string>
-	<string key="Dungeon_CursedTreasure_Description" rel_version="Expedition_CutlassKeys_00">Réduit votre vitesse de déplacement et vous inflige régulièrement des dégâts.</string>
-	<string key="Dungeon_SirenOffering_DisplayName" rel_version="Expedition_CutlassKeys_00">Offrande de Néréide</string>
-	<string key="Dungeon_SirenOffering_Description" rel_version="Expedition_CutlassKeys_00">Présentez cette offrande à une des sources taries à proximité.</string>
 	<string key="Immune_To_Damage">Immunité</string>
 	<string key="TauntAI_DisplayName">Provoqué</string>
 	<string key="Block_Broken_DisplayName">Parade brisée</string>
@@ -1354,5 +1350,7 @@
 	<string key="Status_Weapon_ChargedHeavyRend_Description" rel_version="MorePerksV1">Augmente tous les types de dégâts subis de {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.ABSStandard * -100]} %.</string>
 	<string key="Status_Timer_ChargedHeavyRend_Description" rel_version="MorePerksV1">Quand l'effet se termine, vous pouvez de nouveau déclencher l'atout Harmonisation gélive.</string>
 	<string key="Blunderbuss_LastChance_Desc">Vous subissez {[Type_StatusEffectData.Blunderbuss_LastChance.ABSStandard * 100]} % de dégâts en moins.</string>
+	<string key="Status_MothersLove">Amour maternel</string>
+	<string key="Status_MothersLove_Description">Vous ressentez une présence maternelle qui vous guide, augmentant votre chance de {[Type_StatusEffectData.Shrine_MothersLove.GlobalRollMod * 0.01]} % pendant {[Type_StatusEffectData.Shrine_MothersLove.BaseDuration / 60]} minutes.</string>
 </resources>
 

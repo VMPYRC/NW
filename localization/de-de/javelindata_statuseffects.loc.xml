@@ -426,9 +426,9 @@
 	<string key="Mut_Voi_Stacks_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoid I</string>
 	<string key="Mut_Voi_Stacks_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoid II</string>
 	<string key="Mut_Voi_Stacks_1_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoia I</string>
-	<string key="Mut_Voi_Stacks_1_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">{[Type_StatusEffectData.Mut_Lig_Stacks_1_Effect.BaseDuration]} Sekunden lang von schrecklicher Angst erfüllt. Bei 4 Stapeln wird an deinem Standort eine Unheilsexplosion erzeugt.</string>
+	<string key="Mut_Voi_Stacks_1_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">{[Type_StatusEffectData.Mut_Lig_Stacks_1_Effect.BaseDuration]} Sekunden lang von schrecklicher Angst erfüllt. Bei {[Type_StatusEffectData.Mut_Voi_Stacks_1_Effect.AddOnStackSize]} Stapeln wird an deinem Standort eine Unheilsexplosion erzeugt.</string>
 	<string key="Mut_Voi_Stacks_2_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoia II</string>
-	<string key="Mut_Voi_Stacks_2_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">{[Type_StatusEffectData.Mut_Lig_Stacks_2_Effect.BaseDuration]} Sekunden lang von schrecklicher Angst erfüllt. Bei 4 Stapeln wird an deinem Standort eine Unheilsexplosion erzeugt.</string>
+	<string key="Mut_Voi_Stacks_2_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">{[Type_StatusEffectData.Mut_Lig_Stacks_2_Effect.BaseDuration]} Sekunden lang von schrecklicher Angst erfüllt. Bei {[Type_StatusEffectData.Mut_Voi_Stacks_2_Effect.AddOnStackSize]} Stapeln wird an deinem Standort eine Unheilsexplosion erzeugt.</string>
 	<string key="Mut_Voi_Leech_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Leere I</string>
 	<string key="Mut_Voi_Leech_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Leere II</string>
 	<string key="Mut_Voi_Leech_1_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Leerensauger I</string>
@@ -459,7 +459,7 @@
 	<string key="Mut_Curse4_Major_ManaStop_DisplayName" rel_version="Feature_Dungeon_Mutators">Manadisruption</string>
 	<string key="Mut_Curse4_Major_ManaStop_ToolTip" rel_version="Feature_Dungeon_Mutators">Du kannst kein Mana auf natürlichem Wege regenerieren.</string>
 	<string key="Mut_Curse4_Major_ManaRegen_DisplayName" rel_version="Feature_Dungeon_Mutators">Manafluss</string>
-	<string key="Mut_Curse4_Major_ManaRegen_ToolTip" rel_version="Feature_Dungeon_Mutators">Regeneriert alle {[Type_StatusEffectData.Mut_Curse4_Major_Mana.TickRate]} Sekunden {[Type_StatusEffectData.Mut_Curse4_Major_ManaRegen.Mana]} Mana.</string>
+	<string key="Mut_Curse4_Major_ManaRegen_ToolTip" rel_version="Feature_Dungeon_Mutators">Regeneriert alle {[Type_StatusEffectData.Mut_Curse4_Major_ManaRegen.TickRate]} Sekunden {[Type_StatusEffectData.Mut_Curse4_Major_ManaRegen.Mana]} Mana.</string>
 	<string key="Mut_Base_Curse4_Minor_Silence_DisplayName" rel_version="Feature_Dungeon_Mutators">Stille</string>
 	<string key="Mut_Base_Curse4_Minor_Silence_ToolTip" rel_version="Feature_Dungeon_Mutators">Innerhalb des Wirkungsbereichs können keine Fertigkeiten eingesetzt werden.</string>
 	<string key="GhostDisease_DisplayName">Krankheit</string>
@@ -1098,7 +1098,7 @@
 	<string key="BlockSpeedPerk1_Description">Dein Bewegungstempo wird um {[Type_StatusEffectData.BlockSpeedPerk1.MoveSpeedMod * 100]} % erhöht.</string>
 	<string key="BlockSpeedPerk2_Description">Dein Bewegungstempo wird um {[Type_StatusEffectData.BlockSpeedPerk2.MoveSpeedMod * 100]} % erhöht.</string>
 	<string key="BlockSpeedPerk3_Description">Dein Bewegungstempo wird um {[Type_StatusEffectData.BlockSpeedPerk3.MoveSpeedMod * 100]} % erhöht.</string>
-	<string key="DodgeLowerThreatPerk_DisplayName">Eigenständig</string>
+	<string key="DodgeLowerThreatPerk_DisplayName">Ausweichend</string>
 	<string key="DodgeLowerThreatPerk_Description">Von dir verursachter Gefahrenschaden sinkt vorübergehend.</string>
 	<string key="DodgeIncreaseThreatPerk_DisplayName">Aufzwingend</string>
 	<string key="DodgeIncreaseThreatPerk_Description">Von dir verursachter Gefahrenschaden steigt vorübergehend.</string>
@@ -1317,10 +1317,6 @@
 	<string key="Status_Passive_Foc_300_Bonus_Timer">Abklingzeit-Timer aufgrund von 300 Konzentrations-Manaregenerationsbonus</string>
 	<string key="Dungeon_PurifyingFlame">Läuternde Flamme</string>
 	<string key="Dungeon_PurifyingFlame_Description">Läutert konzentrierte Fäulnis</string>
-	<string key="Dungeon_CursedTreasure_DisplayName" rel_version="Expedition_CutlassKeys_00">Verfluchter Schatz</string>
-	<string key="Dungeon_CursedTreasure_Description" rel_version="Expedition_CutlassKeys_00">Dein Bewegungstempo wird verringert und du erleidest regelmäßig Schaden.</string>
-	<string key="Dungeon_SirenOffering_DisplayName" rel_version="Expedition_CutlassKeys_00">Nereides Opfergabe</string>
-	<string key="Dungeon_SirenOffering_Description" rel_version="Expedition_CutlassKeys_00">Entbiete diese Opfergabe einer der nahegelegenen leeren Quellen.</string>
 	<string key="Immune_To_Damage">Immun</string>
 	<string key="TauntAI_DisplayName">Provoziert</string>
 	<string key="Block_Broken_DisplayName">Zerbrochenes Blocken</string>
@@ -1354,5 +1350,7 @@
 	<string key="Status_Weapon_ChargedHeavyRend_Description" rel_version="MorePerksV1">Du erleidest um {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.ABSStandard * -100]} % erhöhten Schaden von allen Schadensquellen.</string>
 	<string key="Status_Timer_ChargedHeavyRend_Description" rel_version="MorePerksV1">Sobald dies endet, kannst du den Effekt Frosteinstimmung erneut auslösen.</string>
 	<string key="Blunderbuss_LastChance_Desc">Du erleidest {[Type_StatusEffectData.Blunderbuss_LastChance.ABSStandard * 100]} % weniger Schaden.</string>
+	<string key="Status_MothersLove">Mutterliebe</string>
+	<string key="Status_MothersLove_Description">Du spürst mütterliche Fürsorge, die dein Glück für {[Type_StatusEffectData.Shrine_MothersLove.BaseDuration / 60]} m um {[Type_StatusEffectData.Shrine_MothersLove.GlobalRollMod * 0.01]} % steigert.</string>
 </resources>
 

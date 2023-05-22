@@ -117,7 +117,9 @@
 	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">résistance combustible</string>
 	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">décompte combustible.</string>
 	<string key="ui_affliction_mutcurse4" rel_version="Feature_Dungeon_Mutators">résistance vengeresse</string>
-	<string key="ui_affliction_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Une fois que vous n'avez plus de résistance, une zone de silence est lancée sur vous. La zone finit par exploser et infliger des dégâts aux joueurs et aux créatures. La résistance est partagée entre tous les membres de votre groupe.</string>
+	<string key="ui_affliction_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Une fois que vous n'avez plus de résistance, une zone de silence est lancée sur vous. La zone finira par exploser en infligeant des dégâts aux joueurs. La résistance est partagée entre tous les membres de votre groupe.</string>
+	<string key="ui_affliction_mutcurse2" rel_version="Feature_Dungeon_Mutators_pt2">résistance épuisée</string>
+	<string key="ui_affliction_mutcurse2_tooltip" rel_version="Feature_Dungeon_Mutators">Une fois que vous n'avez plus de résistance, une zone d'épuisement est lancée sur vous, ce qui ralentit vos mouvements et augmente tous les dégâts que vous subissez. L'utilisation de capacités augmente la résistance. La résistance est partagée entre tous les membres de votre groupe.</string>
 	<string key="ui_afflicted_bleeding">blessé</string>
 	<string key="ui_afflicted_bleeding_tooltip">Si vous êtes blessé, votre vitalité remonte bien plus lentement.</string>
 	<string key="ui_afflicted_burn">brûlure</string>
@@ -139,7 +141,7 @@
 	<string key="ui_afflicted_blight">dépérissement</string>
 	<string key="ui_afflicted_blight_tooltip">Lorsque vous êtes vicié, vous infligez {[Type_StatusEffectData.Blight.DMGStandard * 100]} % de dégâts en moins, guérissez {[Type_StatusEffectData.Blight.HealMod * 100]} % moins et perdez {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]} % de votre santé de base toutes les {[Type_StatusEffectData.Blight.TickRate]} secondes.</string>
 	<string key="ui_afflicted_mutcurse3" rel_version="Feature_Dungeon_Mutators">combustion</string>
-	<string key="ui_afflicted_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Une fois le délai écoulé, le joueur possédant le pourcentage de santé le plus bas devient combustible.</string>
+	<string key="ui_afflicted_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Une fois le délai écoulé, le joueur dont le pourcentage de santé est le plus bas devient inflammable.</string>
 	<string key="ui_afflicted_mutcurse4" rel_version="Feature_Dungeon_Mutators">malédiction</string>
 	<string key="ui_afflicted_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">L'utilisation de capacités remplit la jauge. Vengeance est lancée sur tous les joueurs une fois celle-ci remplie.</string>
 	<string key="ui_agreement">En continuant, vous acceptez ce(s) document(s) :</string>
@@ -232,7 +234,8 @@
 	<string key="ui_no_points_spent">Aucun point dépensé</string>
 	<string key="ui_commit_1_point">Investir &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt; 1 &lt;/font&gt; point</string>
 	<string key="ui_commit_points">Investir &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt; {points} &lt;/font&gt; points</string>
-	<string key="ui_abilities_on_cooldown">Capacités en temps de recharge</string>
+	<string key="ui_abilities_on_cooldown">Capacités en cours de recharge</string>
+	<string key="ui_abilities_in_combat">En combat</string>
 	<string key="ui_componentname">Nom du composant</string>
 	<string key="ui_confirm">Confirmer</string>
 	<string key="ui_confirm_delete_character_placeholder">Saisir le nom du personnage</string>
@@ -573,7 +576,10 @@
 	<string key="ui_unlock">Déverrouiller</string>
 	<string key="ui_ability_locked_error">La capacité doit être déverrouillée pour pouvoir être utilisée.</string>
 	<string key="ui_ability_cooldown_error">Impossible de changer les capacités jusqu'à la fin du temps de recharge.</string>
+	<string key="ui_ability_combat_error">Impossible de changer de capacité en combat</string>
+	<string key="ui_ability_points_combat_error">Impossible d'investir des points en combat</string>
 	<string key="ui_respec_cooldown_error">Ne peut pas être réinit. lorsque les capacités se rechargent</string>
+	<string key="ui_respec_combat_error">Réinitialisation impossible en combat</string>
 	<string key="ui_equipment_cooldown_error">Impossible de changer d'équipement pendant le temps de recharge des capacités.</string>
 	<string key="ui_secondary_attack">Attaque secondaire</string>
 	<string key="ui_weaponcycleup">Parc. armes (H)</string>
@@ -660,6 +666,10 @@
 	<string key="ui_respawn">Réapparition</string>
 	<string key="ui_return_to_aeternum">Retourner à Aeternum</string>
 	<string key="ui_respawnpoints">Points de réapparition</string>
+	<string key="ui_respawnpoint">Point de réapparition :</string>
+	<string key="ui_outofrange">hors de portée</string>
+	<string key="ui_inrange">à portée</string>
+	<string key="ui_noactivecamp">Aucun bivouac actif !</string>
 	<string key="ui_respawninseconds">Réapparition dans 2 secondes</string>
 	<string key="ui_respawn_time_remaining">Vous pourrez réapparaître dans &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt;</string>
 	<string key="ui_respawntype">Type de réapparition</string>
@@ -712,7 +722,7 @@
 	<string key="ui_respec_warning_title">ATTENTION</string>
 	<string key="ui_skill_respec_warning">Voulez-vous vraiment réinitialiser vos capacités ?\n\nPour pouvoir le refaire par la suite, il vous faudra obtenir une nouvelle réinitialisation.</string>
 	<string key="ui_attrib_respec_warning">Voulez-vous vraiment réinitialiser vos caractéristiques ?\n\n Coût : {cost} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; \n\nLes réinitialisations sont gratuites jusqu'au niveau 20.</string>
-	<string key="ui_attrib_respec_warning_unaffordable">Vous n'avez pas les moyens de vous respécialiser.\nCoût de la respécialisation : {cost} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_attrib_respec_warning_unaffordable">Vous n'avez pas les moyens de procéder à une réinitialisation.\nCoût de la réinitialisation : {cost} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_skintone">COULEUR DE PEAU</string>
 	<string key="ui_snaredrum">CAISSE CLAIRE</string>
 	<string key="ui_socialui">Contacts</string>
@@ -875,6 +885,15 @@
 	<string key="ui_character_options">Options du personnage</string>
 	<string key="ui_character_merge_destination">Ce monde ({worldName}) sera fusionné avec {destinationWorldName} le {date}.</string>
 	<string key="ui_xp">EXP</string>
+	<string key="ui_xp_boost">Boost d'EXP</string>
+	<string key="ui_xp_event_title">BOOST D'EXP !</string>
+	<string key="ui_xp_event_desc">Un boost d'EXP spécial est actif dans ce monde !</string>
+	<string key="ui_xp_event_modal_title">BOOST D'EXP ACTIVÉ !</string>
+	<string key="ui_xp_event_modal_desc">Profitez de ce superbe avantage que vous confère le boost d'EXP ! Saisissez cette chance pour augmenter le niveau de vos personnages !\nLe boost est valable sur :</string>
+	<string key="ui_xp_event_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;EXP (x {amount})&lt;/font&gt;</string>
+	<string key="ui_xp_event_tradeskill_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Compétence de métier (x {amount})&lt;/font&gt;</string>
+	<string key="ui_xp_event_weaponmastery_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Maîtrise des armes (x {amount})&lt;/font&gt;</string>
+	<string key="ui_xp_boost_reminder" comment="The leading space is intentional"> (x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
 	<string key="world_landing_title">Le MONDE optimal a été sélectionné pour vous.</string>
 	<string key="world_set">Ensemble de mondes</string>
 	<string key="world_set_title">Qu'est-ce qu'un ensemble de mondes ?</string>
@@ -969,7 +988,7 @@
 	<string key="ui_endurance">Endurance</string>
 	<string key="ui_intelligence">Intelligence</string>
 	<string key="ui_constitution">Forme</string>
-	<string key="ui_respec">Respécialisation</string>
+	<string key="ui_respec">Réinitialisation</string>
 	<string key="ui_respec_attributes">Réinitialiser tous les points de caractéristiques</string>
 	<string key="ui_respec_mastery">Réinitialiser tous les points de savoir-faire</string>
 	<string key="ui_base">Base</string>
@@ -1175,7 +1194,7 @@
 	<string key="ui_not_pvp_flagged_warning">Vous ne pouvez attaquer que les joueurs &lt;font color="#ff9900"&gt;signalés pour JcJ&lt;/font&gt; et faisant partie d'une &lt;font color="#ff9900"&gt;faction adverse&lt;/font&gt;.\n\nRendez-vous dans un sanctuaire pour vous signaler en tant que participant au JcJ.</string>
 	<string key="ui_criminal_intent_tooltip">Activez les intentions criminelles pour infliger des dégâts aux joueurs innocents et à leurs structures.</string>
 	<string key="ui_tier_requirement_not_met">Capacités de construction trop faibles</string>
-	<string key="ui_respec_warning">Vous gagnez une respécialisation aux niveaux 1-10, 15, 25, 40 et 60.\nAprès le niveau 60, vous avez droit à une respécialisation des caractéristiques aux niveaux pairs, et des capacités aux niveaux impairs.</string>
+	<string key="ui_respec_warning">Vous gagnez une réinitialisation aux niveaux 1-10, 15, 25, 40 et 60.\nAprès le niveau 60, vous avez droit à une réinitialisation des caractéristiques aux niveaux pairs, et des capacités aux niveaux impairs.</string>
 	<string key="ui_buildmode_snapHint">Désact. plac. auto.</string>
 	<string key="ui_buildmode_rotateHint">Rotation plan</string>
 	<string key="ui_planningmodeavailable">Mode de construction disponible</string>
@@ -1496,6 +1515,7 @@
 	<string key="ui_repair_all_category_disabled">Vous n'avez pas assez de pièces de monnaie et/ou de nécessaires ou de pièces de réparation pour réparer tous les objets de cette catégorie.</string>
 	<string key="ui_repair_all_equipment_disabled">Vous n'avez pas assez de pièces de monnaie et/ou de nécessaires ou de pièces de réparation pour réparer tous vos équipements.</string>
 	<string key="ui_repair_all_not_needed">Aucun objet de cette catégorie ne nécessite de réparation.</string>
+	<string key="ui_repair_filtered">Impossible de réparer tous les objets de cette section tant qu'un filtre est appliqué.</string>
 	<string key="ui_repair_all_not_needed_equipment">Aucune pièce d'équipement ne nécessite de réparation.</string>
 	<string key="ui_repair_all_confirmation">Réparer tous les objets de cette catégorie ?\nIl vous faudra :</string>
 	<string key="ui_repair_all_equipment_confirmation">Réparer tout votre équipement ?\nIl vous faudra :</string>
@@ -1623,6 +1643,7 @@
 	<string key="ui_unstuck_request_accepted">Téléportation dans %d secondes</string>
 	<string key="ui_generator_time_to_generate_item">Tps pour produire {quantity} {item} :</string>
 	<string key="ui_quantitywithx">x {quantity}</string>
+	<string key="ui_xp_bonuses_multiplier">x {quantity}</string>
 	<string key="ui_generator_at_maximum_capacity">{generator} a atteint son rendement maximum.\nCollectez des objets pour relancer la création de : {item}.</string>
 	<string key="ui_generator_over_weight_limit">Limite dépassée</string>
 	<string key="ui_item_unavailable_reason">Disponible uniquement pour {entitlementRequirements}</string>
@@ -1809,8 +1830,10 @@
 	<string key="ui_cycle_view_channels_mod">Déf. modif. canaux</string>
 	<string key="ui_view_my_storage">Consulter mon rangement</string>
 	<string key="ui_improve">Améliorer</string>
-	<string key="ui_xp_tooltip">&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;EXP DE BASE&lt;/font&gt;\n {totalXP} EXP TOTALE\n {xpToLevel} avant niveau {nextLevel}{restedXpString}</string>
-	<string key="ui_xp_rested_tooltip">\n\n&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;BONUS D'EXP&lt;/font&gt;\n &lt;font color={restedXpColor}&gt;+{restedModifier} Bonus de repos\n {totalRestedXP} EXP de repos restante&lt;/font&gt;</string>
+	<string key="ui_xp_tooltip">&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;EXP DE BASE&lt;/font&gt;\n {totalXP} EXP totale\n {xpToLevel} avant niveau {nextLevel}{bonusXpString}</string>
+	<string key="ui_xp_bonuses_tooltip">\n\n&lt;font face="lyshineui/fonts/Pica_Regular.font" color={headerColor}&gt;BONUS D'EXP&lt;/font&gt;{restedXpString}{boostXpString}\n &lt;font color={totalBonusXpColor}&gt;{totalXpBonus} EXP bonus totale&lt;/font&gt;</string>
+	<string key="ui_xp_rested_tooltip">\n &lt;font color={restedXpColor}&gt;{restedModifier} Bonus de repos\n {totalRestedXP} EXP de repos restante&lt;/font&gt;</string>
+	<string key="ui_xp_multiplier_tooltip">\n &lt;font color={boostXpColor}&gt;{boostModifier} Boost d'EXP&lt;/font&gt;</string>
 	<string key="ui_rested_xp_notification_title">BONUS D'EXP DE REPOS</string>
 	<string key="ui_rested_xp_notification_body">Si vous ne jouez pas à New World pendant un certain temps, vous revenez en étant reposé. Vous accumulez alors de l'EXP plus rapidement, jusqu'à ce que votre EXP de repos soit épuisée.</string>
 	<string key="ui_level_increased">Augmentation de niveau</string>
@@ -2176,6 +2199,7 @@
 	<string key="ui_tooltip_company_discount">Remise de compagnie</string>
 	<string key="ui_tooltip_firsthouse_discount">Réduction sur la 1re maison</string>
 	<string key="ui_tooltip_firsthouse">&lt;font color="#ffd45f"&gt;Le premier achat d'une maison bénéficie d'une grosse réduction !&lt;/font&gt;</string>
+	<string key="ui_tooltip_current_territory_discount">Remise de territoire actuel</string>
 	<string key="ui_tooltip_attribute_discount">Remise de caractéristique</string>
 	<string key="ui_tooltip_standing_discount">Remise de réputation de territoire</string>
 	<string key="ui_tooltip_order_price">Prix de la commande</string>
@@ -2288,10 +2312,11 @@
 	<string key="ui_number_range">{lowNumber} - {highNumber}</string>
 	<string key="ui_recommended_level_range">Niveau recommandé : {lowNumber} - {highNumber}</string>
 	<string key="ui_cannot_trade_currency_blocked">Impossible d'échanger de la monnaie avant d'atteindre le niveau {level} et un compte de plus de {hoursNeeded} heures.</string>
-	<string key="ui_cannot_chat_global_blocked">Impossible de discuter dans ce canal avec un compte de moins de {hoursNeeded} heures.</string>
+	<string key="ui_cannot_chat_global_blocked">Impossible de discuter dans ce canal avec un compte de moins de {hoursNeeded} heures et un temps de jeu de moins de {playtimeNeeded}.</string>
 	<string key="ui_complete_quests_to_unlock">Déverrouillé en terminant des quêtes dans la colonie.</string>
+	<string key="ui_cannot_chat_trading_blocked">Pour accéder à ce canal, votre compte doit avoir au moins {hoursNeeded} au compteur, votre temps de jeu doit être supérieur à {playtimeNeeded} et le comptoir doit être déverrouillé.</string>
 	<string key="ui_averageexpertise">Expertise\nmoyenne</string>
-	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Expertise&lt;/font&gt;\nL'expertise permet de mesurer la puissance maximum d'un objet lorsque vous vous en équipez.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Expertise max que vous pouvez atteindre&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Comment améliorer l'expertise&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Des lieux remarquables et des expéditions d'élite&lt;/font&gt;\nDes objets lâchés par des créatures ou trouvés dans des coffres dans les zones de niveau 60 et plus ont une probabilité d'augmenter cette valeur.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Fabrication&lt;/font&gt;\nFabriquer un objet dont le score d'équipement est de 600 augmentera l'expertise de ce type d'objet.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Moule en gypse&lt;/font&gt;\nOuvrir un moule en gypse augmente l'expertise.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Amélioration d'objets (avec des éclats sombres)&lt;/font&gt;\nAprès avoir atteint une expertise de 600, le seul moyen d'augmenter davantage celle-ci est d'améliorer des objets avec des éclats sombres.</string>
+	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Expertise&lt;/font&gt;\nL'expertise permet de mesurer la puissance maximum d'un objet lorsque vous vous en équipez.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Expertise max que vous pouvez atteindre&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Comment améliorer l'expertise&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Des lieux remarquables et des expéditions d'élite&lt;/font&gt;\nDes objets octroyés par des créatures ou trouvés dans des coffres dans les zones de niveau 60 et plus ont une probabilité d'augmenter cette valeur.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Fabrication&lt;/font&gt;\nFabriquer un objet dont le score d'équipement est de 600 augmentera l'expertise de ce type d'objet.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Moule en gypse&lt;/font&gt;\nOuvrir un moule en gypse augmente l'expertise.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Amélioration d'objets (avec des éclats sombres)&lt;/font&gt;\nAprès avoir atteint une expertise de 600, le seul moyen d'augmenter davantage celle-ci est d'améliorer des objets avec des éclats sombres.</string>
 	<string key="ui_itemtypedescription_shield_only">Bouclier</string>
 	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}</string>
 	<string key="ui_expertise_warning_with_icon">&lt;font color="#ff9393"&gt;&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_red" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}&lt;/font&gt;</string>

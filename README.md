@@ -1,7 +1,6 @@
 # New World Extract
 
 + Extracted localization files from New World
-  + Steam Console: download_depot 1063730 1063731 MANIFESTID
 + See [RELEASES](https://github.com/VMPYRC/NW/releases) for zip files
   + If there isn't a release for a specific version, that means that no file in the localization folder was changed
 + See [COMMITS](https://github.com/VMPYRC/NW/commits/main) for all commits
@@ -26,8 +25,8 @@
 |           [v1.2.2](https://www.newworld.com/en-us/news/articles/new-world-update-1-2-2)            |    2022-01-12     | 5053787297631899628 |   2   |
 |           [v1.3.0](https://www.newworld.com/en-us/game/releases/january-update-mutators)           |    2022-01-25     | 1003187854538586339 |   2   |
 |           [v1.3.1](https://www.newworld.com/en-us/news/articles/new-world-update-1-3-1)            |    2022-02-03     | 7412876783710780419 |   2   |
-|           [v1.3.2](https://www.newworld.com/en-us/news/articles/new-world-update-1-3-2)            |    2022-02-10     | 3219946713811191063 |       |
-|       [v1.3.3](https://www.newworld.com/en-us/news/articles/new-world-february-2022-update)        |    2022-02-28     | 5673036503735452785 |       |
+|           [v1.3.2](https://www.newworld.com/en-us/news/articles/new-world-update-1-3-2)            |    2022-02-10     | 3219946713811191063 |   2   |
+|       [v1.3.3](https://www.newworld.com/en-us/news/articles/new-world-february-2022-update)        |    2022-02-28     | 5673036503735452785 |   2   |
 |           [v1.3.4](https://www.newworld.com/en-us/news/articles/new-world-update-1-3-4)            |    2022-03-09     | 4847591895169874052 |       |
 |        [v1.4.0](https://www.newworld.com/en-us/game/releases/march-update-heart-of-madness)        |    2022-03-30     | 6575866275532017135 |       |
 |           [v1.4.1](https://www.newworld.com/en-us/news/articles/new-world-update-1-4-1)            |    2022-04-06     | 7525782322597517588 |       |
@@ -63,3 +62,14 @@
 |           [v1.9.2](https://www.newworld.com/en-us/news/articles/new-world-update-1-9-2)            |    2023-04-26     | 6649128870281650733 |       |
 |           [v1.9.3](https://www.newworld.com/en-us/news/articles/new-world-update-1-9-3)            |    2023-05-10     | 7169538671478462825 |       |
 |                                             [v1.9.x]()                                             |       2023-       |                     |       |
+
+## Method
+
+1. Steam Console: download_depot 1063730 1063731 MANIFESTID
+2. Move DataStrm-part2.pak to unpackme
+3. unpacker.py
+4. unpackout for extracted files
+5. Move localization folder to NW
+6. Update README.md (this file)
+7. Commit as v1.0.0
+8. Release if there are changes

@@ -169,12 +169,20 @@
 	<string key="ui_guildclaimtitle">Kompaniegebietsanspruch</string>
 	<string key="ui_guildclaimmessage">Deine Kompanie hat &lt;font color="#9e947e"&gt;{territoryName}&lt;/font&gt; beansprucht.</string>
 	<string key="ui_guildrequestthrottledmessage">Anfrage wurde abgebrochen. Versuche es später erneut.</string>
-	<string key="ui_guildrankgovernor">Gouverneur</string>
-	<string key="ui_guildrankconsul">Konsul</string>
-	<string key="ui_guildrankofficer">Offizier</string>
+	<string key="ui_guildrankgovernor" comment="Pronoun for Target Player">Gouverneur</string>
+	<string key="ui_guildrankgovernor_SHE">Gouverneurin</string>
+	<string key="ui_guildrankgovernor_THEY">Gouverneur*in</string>
+	<string key="ui_guildrankconsul" comment="Pronoun for Target Player">Konsul</string>
+	<string key="ui_guildrankconsul_SHE">Konsulin</string>
+	<string key="ui_guildrankconsul_THEY">Konsul*in</string>
+	<string key="ui_guildrankofficer" comment="Pronoun for Target Player">Offizier</string>
+	<string key="ui_guildrankofficer_SHE">Offizierin</string>
+	<string key="ui_guildrankofficer_THEY">Offizier*in</string>
 	<string key="ui_guildCannotInviteNoPrivilege">Du kannst keine Kompanieeinladung senden. Rang zu niedrig.</string>
 	<string key="ui_guildCannotInviteNoFaction">Du kannst keine Kompanieeinladung senden. Nicht in einer Fraktion.</string>
-	<string key="ui_guildranksettler">Siedler</string>
+	<string key="ui_guildranksettler" comment="Pronoun for Target Player">Siedler</string>
+	<string key="ui_guildranksettler_SHE">Siedlerin</string>
+	<string key="ui_guildranksettler_THEY">Siedler*in</string>
 	<string key="ui_guildrankpublic">Öffentlich</string>
 	<string key="ui_guildrankgovernor_and_above">1. Gouverneur</string>
 	<string key="ui_guildrankconsul_and_above">2. Konsul und höher</string>
@@ -204,8 +212,12 @@
 	<string key="ui_noneinthisrank">Niemand bekleidet diesen Rang.</string>
 	<string key="ui_numGuildInvites">({numInvites})</string>
 	<string key="ui_governorexpire_offline">Der Gouverneur deiner Kompanie war lange abwesend. Ein Mitglied mit dem Rang Konsul kann Gouverneur werden.</string>
-	<string key="ui_governorexpire_deleted">Der Gouverneur deiner Kompanie hat das Spiel verlassen oder seinen Charakter gelöscht. Ein Mitglied mit dem Rang Konsul kann Gouverneur werden.</string>
+	<string key="ui_governorexpire_deleted" comment="Pronoun for Disappeared Governor">Der Gouverneur deiner Kompanie hat das Spiel verlassen oder seinen Charakter gelöscht. Ein Mitglied mit dem Rang Konsul kann Gouverneur werden.</string>
+	<string key="ui_governorexpire_deleted_SHE">Die Gouverneurin deiner Kompanie hat das Spiel verlassen oder ihren Charakter gelöscht. Ein Mitglied mit dem Rang Konsul kann Gouverneur werden.</string>
+	<string key="ui_governorexpire_deleted_THEY">Dier Gouverneur*in deiner Kompanie hat das Spiel verlassen oder xiesen Charakter gelöscht. Ein Mitglied mit dem Rang Konsul kann Gouverneur werden.</string>
 	<string key="ui_becomegovernor">Gouverneur werden</string>
+	<string key="ui_becomegovernor_SHE">Gouverneurin werden</string>
+	<string key="ui_becomegovernor_THEY">Gouverneur*in werden</string>
 	<string key="ui_permission_assign_structures">{allowed} Kompaniegebäude zuweisen.</string>
 	<string key="ui_permission_build_structures">{allowed} auf Kompanieland bauen.</string>
 	<string key="ui_permission_cancel_structures">{allowed} geplante Gebäude abbrechen</string>
@@ -242,7 +254,7 @@
 	<string key="ui_promote">Befördern</string>
 	<string key="ui_promote_transfer_owner">Eigentum übertragen</string>
 	<string key="ui_promotetoguildmaster_confirm_title">Kompanie übertragen?</string>
-	<string key="ui_promotetoguildmaster_confirm">Möchtest du das Amt des Kompanie-Gouverneurs wirklich auf {memberName} übertragen?\n\nAlle Mitglieder, Ansprüche, Gebäude und Gelder von {guildName} fallen unter die Kontrolle von {memberName} als neuer Gouverneur von {guildName}. Kompaniename und -wappen bleiben unverändert. Du wirst um einen Rang degradiert.\n\nDiese Aktion kann nicht rückgängig gemacht werden und die Änderung tritt sofort in Kraft.</string>
+	<string key="ui_promotetoguildmaster_confirm" comment="Pronoun for Transferring ownership to a player. Need to break into two string keys">Möchtest du das Amt des Kompanie-Gouverneurs wirklich auf {memberName} übertragen?\n\nAlle Mitglieder, Ansprüche, Gebäude und Gelder von {guildName} fallen unter die Kontrolle von {memberName} als neuer Gouverneur von {guildName}. Kompaniename und -wappen bleiben unverändert. Du wirst um einen Rang degradiert.\n\nDiese Aktion kann nicht rückgängig gemacht werden und die Änderung tritt sofort in Kraft.</string>
 	<string key="ui_rank">Rang</string>
 	<string key="ui_rankmovedowndisabled">Das ist der niedrigste Rang.</string>
 	<string key="ui_rankmoveupdisabled">Ein höherer Rang als {gmRankName} ist nicht möglich.</string>

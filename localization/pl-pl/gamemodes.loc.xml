@@ -88,7 +88,7 @@
 	<string key="ui_outpost_rush_signup_goal2">Pierwsza drużyna, która zdobędzie 1000 punktów, wygrywa</string>
 	<string key="ui_outpost_rush_signup_goal3">Używaj specjalnych zasobów obecnych na wyspie, by atakować i się bronić</string>
 	<string key="ui_outpost_rush_signup_points_number">1000</string>
-	<string key="ui_outpost_rush_signup_points_text">PUNKTY</string>
+	<string key="ui_outpost_rush_signup_points_text">PUNKTÓW</string>
 	<string key="ui_outpost_rush_signup_joinsolo">Dołącz w pojedynkę</string>
 	<string key="ui_outpost_rush_signup_joingroup">Dołącz z grupą</string>
 	<string key="ui_outpost_rush_signup_joinmid">Chcę dołączyć do trwających rozgrywek &lt;font color="#ffe940"&gt;(krótszy czas oczekiwania)&lt;/font&gt;</string>
@@ -124,8 +124,8 @@
 	<string key="ui_outpost_rush_battle_tokens_with_value">Żetony bitewne {value}</string>
 	<string key="ui_outpost_rush_outpost_under_attack">{value}: trwa atak</string>
 	<string key="ui_outpost_rush_boss_killed">NALICZANIE PUNKTÓW WSTRZYMANE</string>
-	<string key="ui_outpost_rush_ally_buff">Wroga drużyna nie może zdobywać punktów przez &lt;font color="#ffea00"&gt;3 minuty&lt;/font&gt;!</string>
-	<string key="ui_outpost_rush_enemy_buff">Twoja drużyna nie może zdobywać punktów przez &lt;font color="#ffea00"&gt;3 minuty&lt;/font&gt;!</string>
+	<string key="ui_outpost_rush_ally_buff">Wroga drużyna nie może zdobywać punktów przez &lt;font color="#ffea00"&gt;2 minuty i 30 sekund&lt;/font&gt;!</string>
+	<string key="ui_outpost_rush_enemy_buff">Twoja drużyna nie może zdobywać punktów przez &lt;font color="#ffea00"&gt;2 minuty i 30 sekund&lt;/font&gt;!</string>
 	<string key="ui_outpost_rush_armory_built">Budowa zbrojowni w: {value} została zakończona</string>
 	<string key="ui_outpost_rush_command_post_built">Budowa stanowiska dowodzenia w: {value} została zakończona</string>
 	<string key="ui_outpost_rush_command_post_upgrade">Stanowisko dowodzenia w: {value} zostało ulepszone do klasy {tier}</string>
@@ -134,7 +134,7 @@
 	<string key="ui_outpost_rush_outpost_contested">Trwa walka o: {value}!</string>
 	<string key="ui_outpost_rush_boss_spawned">Pojawia się baronowa Hain</string>
 	<string key="ui_outpost_rush_match_started">Starcie rozpoczęte</string>
-	<string key="ui_outpost_rush_match_started_desc">Przejmuj posterunki i zdobądź {value}</string>
+	<string key="ui_outpost_rush_match_started_desc">Przejmuj posterunki i zabijaj przeciwników, by zdobywać punkty. Pierwsza drużyna, która zdobędzie {value} pkt, wygrywa!</string>
 	<string key="ui_outpost_rush_score_to_win">{value}, żeby zwyciężyć!</string>
 	<string key="ui_outpost_rush_leave">Opuść napad na posterunek</string>
 	<string key="ui_outpost_rush_leave_queue_title">Chcesz opuścić kolejkę do napadu na posterunek?</string>
@@ -161,6 +161,7 @@
 	<string key="ui_outpost_rush_tutorial_level_requirement">Do udziału w napadzie na posterunek wymagany jest &lt;font color="#ffe294"&gt;{level}. poziom gracza&lt;/font&gt;.</string>
 	<string key="ui_outpost_rush_locked">Zablokowane</string>
 	<string key="ui_outpost_rush_select_summoning_stone">Wybierz kamień przywołania</string>
+	<string key="ui_outpost_rush_barrier">Bariera fortu</string>
 	<string key="ui_or_total_score">CAŁKOWITA LICZBA PKT</string>
 	<string key="ui_or_points_from">PKT Z:</string>
 	<string key="ui_or_outpost_a">POSTERUNEK LUNA</string>
@@ -170,7 +171,7 @@
 	<string key="ui_outpost_rush_summoning_circle">Krąg przywołania</string>
 	<string key="ui_outpost_rush_summoning_circle_desc">Użyj kamienia przywołania przy tym obelisku, by twoja drużyna na pewien czas zyskała wsparcie potwornego sojusznika.</string>
 	<string key="ui_outpost_rush_portal">PORTAL</string>
-	<string key="ui_outpost_rush_portal_score">{current}/{total} &lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt;</string>
+	<string key="ui_outpost_rush_portal_score">{current}/{total} &lt;img src="lyshineui/images/icon_azoth" xPadding="-3" scale="1.4" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pinning_disabled_while_in_or">Przypinanie/odpinanie celów jest niemożliwe podczas napadu na posterunek.</string>
 	<string key="ui_pinning_disabled_expeditions">Przypinanie/odpinanie celów jest niemożliwe podczas ekspedycji.</string>
 	<string key="ui_or_commandpost_buff_on">Budowla zapewnia premie drużynowe</string>
@@ -183,8 +184,8 @@
 	<string key="or_tutorial_rules_capture_body">Przejmij posterunek, stojąc w okręgu.</string>
 	<string key="or_tutorial_rules_score_title">TWOJA DRUŻYNA PRZEGRYWA</string>
 	<string key="or_tutorial_rules_score_body">Przejmuj posterunki, utrzymuj nad nimi kontrolę i pokonuj wrogich graczy, by zdobywać punkty dla swojej drużyny.</string>
-	<string key="or_tutorial_rules_portal_title">ZDEPONUJ 500 JEDNOSTEK ESENCJI AZOTHU W SKAŻONYM PORTALU</string>
-	<string key="or_tutorial_rules_portal_body">Zdeponuj 500 jednostek esencji azothu, by zdobyć skażony kamień przywołania.</string>
+	<string key="or_tutorial_rules_portal_title">ZDEPONUJ 750 JEDNOSTEK ESENCJI AZOTHU W SKAŻONYM PORTALU</string>
+	<string key="or_tutorial_rules_portal_body">Zdeponuj 750. jednostkę esencji azothu, by zdobyć skażony kamień przywołania.</string>
 	<string key="or_tutorial_boss_spawn_title">BARONOWA HAIN PRZYBYWA</string>
 	<string key="or_tutorial_boss_spawn_body">Zabij ją, by zdobyć potężną premię do obrony i uniemożliwić wrogiej drużynie zdobywanie punktów przez 3 minuty.</string>
 	<string key="or_tutorial_boss_near_title">BARONOWA HAIN JEST W POBLIŻU</string>
@@ -210,9 +211,9 @@
 	<string key="or_tutorial_summoning_reminder_title">UŻYJ KAMIENIA PRZYWOŁANIA</string>
 	<string key="or_tutorial_summoning_reminder_body">Wejdź do wolnego kręgu przywołania, by przyzwać potężnego sojusznika.</string>
 	<string key="or_tutorial_summoning_findstone_title">POTRZEBUJESZ KAMIENIA PRZYWOŁANIA</string>
-	<string key="or_tutorial_summoning_findstone_body">Kup kamień przywołania w zbrojowni, zdobądź go, pokonując Uga lub Duga w kopalniach, albo zdeponuj 500 jednostek esencji azothu w skażonym portalu.</string>
+	<string key="or_tutorial_summoning_findstone_body">Kup kamień przywołania w zbrojowni, zdobądź go, pokonując Uga lub Duga w kopalniach, albo zdeponuj 750 jednostek esencji azothu w skażonym portalu.</string>
 	<string key="or_tutorial_summoning_nostone_title">ZDOBĄDŹ KAMIEŃ PRZYWOŁANIA I SPRÓBUJ JESZCZE RAZ</string>
-	<string key="or_tutorial_summoning_nostone_body">Kup kamień przywołania w zbrojowni, zdobądź go, pokonując Uga lub Duga w kopalniach, albo zdeponuj 500 jednostek esencji azothu w skażonym portalu.</string>
+	<string key="or_tutorial_summoning_nostone_body">Kup kamień przywołania w zbrojowni, zdobądź go, pokonując Uga lub Duga w kopalniach, albo zdeponuj 750 jednostek esencji azothu w skażonym portalu.</string>
 	<string key="or_tutorial_summoning_creature_title">CHWILOWO NIE MOŻNA SKORZYSTAĆ Z KRĘGU PRZYWOŁANIA</string>
 	<string key="or_tutorial_summoning_creature_body">Znajdź inny albo zaczekaj, aż ten znów będzie dostępny.</string>
 	<string key="emote_unable_to_use_emote">W tym trybie gry nie można używać gestów</string>

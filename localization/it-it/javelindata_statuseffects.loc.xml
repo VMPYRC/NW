@@ -426,9 +426,9 @@
 	<string key="Mut_Voi_Stacks_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoico I</string>
 	<string key="Mut_Voi_Stacks_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoico II</string>
 	<string key="Mut_Voi_Stacks_1_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoia I</string>
-	<string key="Mut_Voi_Stacks_1_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">Fa raggelare il sangue per {[Type_StatusEffectData.Mut_Lig_Stacks_1_Effect.BaseDuration]} secondi. Dopo 4 accumuli, fa apparire una scarica di Vuoto nella tua posizione.</string>
+	<string key="Mut_Voi_Stacks_1_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">Fa raggelare il sangue per {[Type_StatusEffectData.Mut_Lig_Stacks_1_Effect.BaseDuration]} secondi. Dopo {[Type_StatusEffectData.Mut_Voi_Stacks_1_Effect.AddOnStackSize]} accumuli, fa apparire una scarica di Vuoto nella tua posizione.</string>
 	<string key="Mut_Voi_Stacks_2_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators">Paranoia II</string>
-	<string key="Mut_Voi_Stacks_2_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">Fa raggelare il sangue per {[Type_StatusEffectData.Mut_Lig_Stacks_2_Effect.BaseDuration]} secondi. Dopo 4 accumuli, fa apparire una scarica di Vuoto nella tua posizione.</string>
+	<string key="Mut_Voi_Stacks_2_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators">Fa raggelare il sangue per {[Type_StatusEffectData.Mut_Lig_Stacks_2_Effect.BaseDuration]} secondi. Dopo {[Type_StatusEffectData.Mut_Voi_Stacks_2_Effect.AddOnStackSize]} accumuli, fa apparire una scarica di Vuoto nella tua posizione.</string>
 	<string key="Mut_Voi_Leech_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Oblio I</string>
 	<string key="Mut_Voi_Leech_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Oblio II</string>
 	<string key="Mut_Voi_Leech_1_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Risucchiaoblio I</string>
@@ -459,7 +459,7 @@
 	<string key="Mut_Curse4_Major_ManaStop_DisplayName" rel_version="Feature_Dungeon_Mutators">Troncatura di mana</string>
 	<string key="Mut_Curse4_Major_ManaStop_ToolTip" rel_version="Feature_Dungeon_Mutators">Impossibile rigenerare il mana naturalmente.</string>
 	<string key="Mut_Curse4_Major_ManaRegen_DisplayName" rel_version="Feature_Dungeon_Mutators">Flusso di mana</string>
-	<string key="Mut_Curse4_Major_ManaRegen_ToolTip" rel_version="Feature_Dungeon_Mutators">Rigenerazione {[Type_StatusEffectData.Mut_Curse4_Major_ManaRegen.Mana]} ogni {[Type_StatusEffectData.Mut_Curse4_Major_Mana.TickRate]} secondi.</string>
+	<string key="Mut_Curse4_Major_ManaRegen_ToolTip" rel_version="Feature_Dungeon_Mutators">Rigenerazione di {[Type_StatusEffectData.Mut_Curse4_Major_ManaRegen.Mana]} mana ogni {[Type_StatusEffectData.Mut_Curse4_Major_ManaRegen.TickRate]} secondi.</string>
 	<string key="Mut_Base_Curse4_Minor_Silence_DisplayName" rel_version="Feature_Dungeon_Mutators">Silenziamento</string>
 	<string key="Mut_Base_Curse4_Minor_Silence_ToolTip" rel_version="Feature_Dungeon_Mutators">Impossibile usare abilità nell'area di effetto.</string>
 	<string key="GhostDisease_DisplayName">Malattia</string>
@@ -1098,7 +1098,7 @@
 	<string key="BlockSpeedPerk1_Description">La tua velocità di movimento aumenta di un {[Type_StatusEffectData.BlockSpeedPerk1.MoveSpeedMod * 100]}%.</string>
 	<string key="BlockSpeedPerk2_Description">La tua velocità di movimento aumenta di {[Type_StatusEffectData.BlockSpeedPerk2.MoveSpeedMod * 100]}.</string>
 	<string key="BlockSpeedPerk3_Description">La tua velocità di movimento aumenta di {[Type_StatusEffectData.BlockSpeedPerk3.MoveSpeedMod * 100]}.</string>
-	<string key="DodgeLowerThreatPerk_DisplayName">Discrezione</string>
+	<string key="DodgeLowerThreatPerk_DisplayName">Sfuggente</string>
 	<string key="DodgeLowerThreatPerk_Description">I danni da minaccia che infliggi vengono temporaneamente ridotti.</string>
 	<string key="DodgeIncreaseThreatPerk_DisplayName">Imposizione</string>
 	<string key="DodgeIncreaseThreatPerk_Description">I danni da minaccia che infliggi vengono temporaneamente aumentati.</string>
@@ -1317,10 +1317,6 @@
 	<string key="Status_Passive_Foc_300_Bonus_Timer">Timer di ricarica da 300 bonus di concentrazione di rigenerazione del mana</string>
 	<string key="Dungeon_PurifyingFlame">Fiamma purificante</string>
 	<string key="Dungeon_PurifyingFlame_Description">Purifica logoramento concentrato</string>
-	<string key="Dungeon_CursedTreasure_DisplayName" rel_version="Expedition_CutlassKeys_00">Tesoro maledetto</string>
-	<string key="Dungeon_CursedTreasure_Description" rel_version="Expedition_CutlassKeys_00">La tua velocità di movimento si riduce e subirai danni periodici.</string>
-	<string key="Dungeon_SirenOffering_DisplayName" rel_version="Expedition_CutlassKeys_00">Offerta della Nereide</string>
-	<string key="Dungeon_SirenOffering_Description" rel_version="Expedition_CutlassKeys_00">Porta questa offerta presso una delle sorgenti vuote nelle vicinanze.</string>
 	<string key="Immune_To_Damage">Immune</string>
 	<string key="TauntAI_DisplayName">Provocato</string>
 	<string key="Block_Broken_DisplayName">Parata infranta</string>
@@ -1354,5 +1350,7 @@
 	<string key="Status_Weapon_ChargedHeavyRend_Description" rel_version="MorePerksV1">Subisci un {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.ABSStandard * -100]}% di danni aggiuntivi da tutte le fonti.</string>
 	<string key="Status_Timer_ChargedHeavyRend_Description" rel_version="MorePerksV1">Allo scadere, potrai riottenere il vantaggio Sintonia del gelo.</string>
 	<string key="Blunderbuss_LastChance_Desc">Subisci un {[Type_StatusEffectData.Blunderbuss_LastChance.ABSStandard * 100]}% di danni in meno.</string>
+	<string key="Status_MothersLove">Amore materno</string>
+	<string key="Status_MothersLove_Description">Ti avvolge una presenza materna che ti guida, aumentando la fortuna di un {[Type_StatusEffectData.Shrine_MothersLove.GlobalRollMod * 0.01]}% per {[Type_StatusEffectData.Shrine_MothersLove.BaseDuration / 60]} min.</string>
 </resources>
 

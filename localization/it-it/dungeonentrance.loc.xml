@@ -10,7 +10,7 @@
 	<string key="ui_dungeon_requirements_gearscore">Livello consigliato: {level}</string>
 	<string key="ui_flyout_recommended_groupsize">Giocatori consigliati: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{players}&lt;/font&gt;</string>
 	<string key="ui_dungeon_requirements_equipment_warning">Per completare questa Spedizione, il tuo gruppo deve avere almeno: &lt;font color="#ffffff"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_reward_level"/>
+	<string key="ui_dungeon_reward_level">La qualità complessiva del bottino aumenta con l'aumentare del livello di difficoltà.\n\nGli oggetti che trovi possono variare rispetto a quelli elencati in base al proprio punteggio attrezzatura.</string>
 	<string key="ui_dungeon_level_requirement">Livello richiesto: {level}</string>
 	<string key="ui_dungeon_elapsed_time">Tempo trascorso:</string>
 	<string key="ui_dungeon_estimated_time_remaining">Tempo di attesa previsto:</string>
@@ -64,7 +64,7 @@
 	<string key="ui_dungeon_mutation_promotion_description" rel_version="Feature_Dungeon_Mutators">I &lt;font color="#ff9393" face="lyshineui/fonts/Nimbus_Bold.font"&gt;nemici&lt;/font&gt; potrebbero avere i seguenti &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;potenziamenti:&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutation_curse_description" rel_version="Feature_Dungeon_Mutators">I &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;giocatori&lt;/font&gt; ricevono i seguenti &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;depotenziamenti:&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_expiration_text" rel_version="Feature_Dungeon_Mutators">Cambia tra: </string>
-	<string key="ui_dungeon_mutator_recommended_gearscore" rel_version="Feature_Dungeon_Mutators"/>
+	<string key="ui_dungeon_mutator_recommended_gearscore" rel_version="Feature_Dungeon_Mutators">Punteggio attrezzatura minimo consigliato: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{score}&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_codex" rel_version="Feature_Dungeon_Mutators">Codice</string>
 	<string key="ui_dungeon_mutator_difficulty_default" rel_version="Feature_Dungeon_Mutators">Normale</string>
 	<string key="ui_dungeon_mutator_difficulty_1" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt; (Normale)</string>
@@ -171,7 +171,8 @@
 	<string key="ui_dungeon_possible_rewards_header" rel_version="Feature_Dungeon_Mutators">Possibili ricompense</string>
 	<string key="ui_dungeon_no_possible_rewards" rel_version="Feature_Dungeon_Mutators">Nessuna ricompensa possibile</string>
 	<string key="ui_dungeon_orb_explanation" rel_version="Feature_Dungeon_Mutators">Ricompensa una tantum. Le sfere di sintonia per le spedizioni mutate sono disponibili anche nel negozio della fazione.</string>
-	<string key="ui_dungeon_gearscore_recommendation_tooltip" rel_version="Feature_Dungeon_Mutators"/>
-	<string key="ui_dungeon_gearscore_underlevel_warning" rel_version="Feature_Dungeon_Mutators">ATTENZIONE: Il tuo Punteggio attrezzatura medio è troppo basso per affrontare adeguatamente questa Spedizione.</string>
+	<string key="ui_dungeon_gearscore_recommendation_tooltip" rel_version="Feature_Dungeon_Mutators">
+	&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Punteggio attrezzatura consigliato&lt;/font&gt;\n\nLa differenza tra il punteggio attrezzatura medio e il punteggio attrezzatura consigliato influisce sui combattimenti.\n\nSe il tuo punteggio attrezzatura medio è &lt;font color="#ff9393"&gt;inferiore&lt;/font&gt; al punteggio attrezzatura minimo consigliato, &lt;font color="#ffffff"&gt;infliggerai meno danni&lt;/font&gt; e &lt;font color="#ffffff"&gt;ne subirai di più&lt;/font&gt; dai nemici nella spedizione.</string>
+	<string key="ui_dungeon_gearscore_underlevel_warning" rel_version="Feature_Dungeon_Mutators">&lt;font color="#f25d5d" face="lyshineui/fonts/Nimbus_Bold.font"&gt;ATTENZIONE:&lt;/font&gt; punteggio attrezzatura medio troppo basso per questa spedizione.</string>
 </resources>
 

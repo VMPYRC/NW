@@ -169,12 +169,20 @@
 	<string key="ui_guildclaimtitle">Conquista da Companhia</string>
 	<string key="ui_guildclaimmessage">Sua Companhia conquistou &lt;font color="#9e947e"&gt;{territoryName}&lt;/font&gt;.</string>
 	<string key="ui_guildrequestthrottledmessage">A solicitação foi interrompida. Tente novamente mais tarde.</string>
-	<string key="ui_guildrankgovernor">Governador</string>
-	<string key="ui_guildrankconsul">Cônsul</string>
-	<string key="ui_guildrankofficer">Oficial</string>
+	<string key="ui_guildrankgovernor" comment="Pronoun for Target Player">Governador</string>
+	<string key="ui_guildrankgovernor_SHE">Governadora</string>
+	<string key="ui_guildrankgovernor_THEY">Governante</string>
+	<string key="ui_guildrankconsul" comment="Pronoun for Target Player">Cônsul</string>
+	<string key="ui_guildrankconsul_SHE">Cônsul</string>
+	<string key="ui_guildrankconsul_THEY">Cônsul</string>
+	<string key="ui_guildrankofficer" comment="Pronoun for Target Player">Oficial</string>
+	<string key="ui_guildrankofficer_SHE">Oficial</string>
+	<string key="ui_guildrankofficer_THEY">Oficial</string>
 	<string key="ui_guildCannotInviteNoPrivilege">Não foi possível enviar convites de Companhia. Ranque insuficiente.</string>
 	<string key="ui_guildCannotInviteNoFaction">Não foi possível enviar convites de Companhia. Você não está em uma Facção.</string>
-	<string key="ui_guildranksettler">Colono</string>
+	<string key="ui_guildranksettler" comment="Pronoun for Target Player">Colono</string>
+	<string key="ui_guildranksettler_SHE">Colona</string>
+	<string key="ui_guildranksettler_THEY">Habitante</string>
 	<string key="ui_guildrankpublic">Público</string>
 	<string key="ui_guildrankgovernor_and_above">1. Governador</string>
 	<string key="ui_guildrankconsul_and_above">2. Cônsul e acima</string>
@@ -204,8 +212,12 @@
 	<string key="ui_noneinthisrank">Ninguém neste ranque</string>
 	<string key="ui_numGuildInvites">({numInvites})</string>
 	<string key="ui_governorexpire_offline">O Governador da sua Companhia está ausente por muito tempo. Um membro de ranque “Cônsul” pode tornar-se Governador.</string>
-	<string key="ui_governorexpire_deleted">O Governador da sua Companhia saiu ou excluiu o próprio personagem. Um membro de ranque “Cônsul” pode tornar-se Governador.</string>
+	<string key="ui_governorexpire_deleted" comment="Pronoun for Disappeared Governor">O Governador da sua Companhia saiu ou excluiu seu personagem. Um membro de ranque “Cônsul” pode tornar-se Governador.</string>
+	<string key="ui_governorexpire_deleted_SHE">A Governadora da sua Companhia saiu ou excluiu sua personagem. Um membro de ranque “Cônsul” pode tornar-se Governador.</string>
+	<string key="ui_governorexpire_deleted_THEY">O Governador da sua Companhia saiu ou excluiu o próprio personagem. Um membro de ranque “Cônsul” pode tornar-se Governador.</string>
 	<string key="ui_becomegovernor">Tornar-se Governador</string>
+	<string key="ui_becomegovernor_SHE">Tornar-se Governadora</string>
+	<string key="ui_becomegovernor_THEY">Tornar-se Governante</string>
 	<string key="ui_permission_assign_structures">{allowed} designar estruturas da Companhia</string>
 	<string key="ui_permission_build_structures">{allowed} construir no território da Companhia</string>
 	<string key="ui_permission_cancel_structures">{allowed} cancelar estruturas planejadas</string>
@@ -242,7 +254,7 @@
 	<string key="ui_promote">Promover</string>
 	<string key="ui_promote_transfer_owner">Transferir Titularidade</string>
 	<string key="ui_promotetoguildmaster_confirm_title">Transferir Companhia?</string>
-	<string key="ui_promotetoguildmaster_confirm">Tem certeza de que deseja transferir o governo da Companhia para {memberName}?\n\nTodos os membros, conquistas, estruturas e fundos de tesouraria de {guildName} ficarão sob o controle de {memberName} como novo Governador de {guildName}. O brasão e o nome da Companhia permanecerão os mesmos. Seu ranque será rebaixado ao nível imediatamente inferior.\n\nEsta ação é definitiva e a mudança ocorrerá imediatamente.</string>
+	<string key="ui_promotetoguildmaster_confirm" comment="Pronoun for Transferring ownership to a player. Need to break into two string keys">Tem certeza de que deseja transferir o governo da Companhia para {memberName}?\n\nTodos os membros, conquistas, estruturas e fundos de tesouraria de {guildName} ficarão sob o controle de {memberName} como novo Governador de {guildName}. O brasão e o nome da Companhia permanecerão os mesmos. Seu ranque será rebaixado ao nível imediatamente inferior.\n\nEsta ação é definitiva e a mudança ocorrerá imediatamente.</string>
 	<string key="ui_rank">Ranque</string>
 	<string key="ui_rankmovedowndisabled">Este é o ranque mais baixo</string>
 	<string key="ui_rankmoveupdisabled">Não pode mover acima de {gmRankName}</string>

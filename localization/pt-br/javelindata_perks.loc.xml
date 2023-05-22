@@ -1299,7 +1299,7 @@
 	<string key="PerkID_Ability_Hammer_WreckingBall_Name">Bola de Demolição Penetrante</string>
 	<string key="PerkID_Ability_Hammer_WreckingBall_Description">A Bola de Demolição penetra em {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_WreckingBall.ArmorPenetration * 100 * {perkMultiplier}]}% da armadura do alvo.</string>
 	<string key="PerkID_Ability_Hammer_Shockwave_Name">Onda de Choque Separadora</string>
-	<string key="PerkID_Ability_Hammer_Shockwave_Description">A Onda de Choque aplica Vulnerável, reduzindo a absorção de dano do alvo em {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.ABSStandard * -100 * {perkMultiplier}]}% durante {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.BaseDuration]} segundos.</string>
+	<string key="PerkID_Ability_Hammer_Shockwave_Description">A Onda de Choque causa Vulnerável, reduzindo a absorção de dano do alvo em {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.ABSStandard * -100 * {perkMultiplier}]}% durante {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.BaseDuration]} segundos.</string>
 	<string key="PerkID_Ability_Hammer_ClearOut_Name">Para Trás Repulsor</string>
 	<string key="PerkID_Ability_Hammer_ClearOut_Description">Para Trás agora empurra os alvos por mais {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_ClearOut.Knockback * 100 * {perkMultiplier}]}%.</string>
 	<string key="PerkID_Ability_Hammer_PathOfDestiny_Name">Caminho do Destino Extrator</string>
@@ -1319,7 +1319,7 @@
 	<string key="PerkID_Ability_Spear_Sweep_Name">Rasteira Sangrenta</string>
 	<string key="PerkID_Ability_Spear_Sweep_Description">O golpe de misericórdia da Rasteira agora aplica Hemorragia equivalente a {[Type_StatusEffectData.Status_Perk_Spear_SweepFinish_Bleed.HealthModifierDamageBased * -100 * {perkMultiplier}]}% do dano de arma por {[Type_StatusEffectData.Status_Perk_Spear_SweepFinish_Bleed.BaseDuration]} segundos.</string>
 	<string key="PerkID_Ability_Spear_Javelin_Name">Dardo Separador</string>
-	<string key="PerkID_Ability_Spear_Javelin_Description">O Dardo aplica Vulnerável, reduzindo a absorção de dano do alvo em {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.ABSStandard * -100 * {perkMultiplier}]}% durante {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.BaseDuration]} segundos.</string>
+	<string key="PerkID_Ability_Spear_Javelin_Description">O Dardo causa Vulnerável, reduzindo a absorção de dano do alvo em {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.ABSStandard * -100 * {perkMultiplier}]}% durante {[Type_StatusEffectData.Status_Perk_Spear_Javelin_Rend.BaseDuration]} segundos.</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Name">Ciclone Extrator</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Description">Cada acerto do Ciclone cura você em {[GlobalAbilityTable.GlobalPerk_Ability_Spear_Cyclone.DmgPctToHealth * 100 * {perkMultiplier}]}% do dano de arma.</string>
 	<string key="PerkID_Ability_Spear_Perforate_Name">Perfuração Reforçada</string>
@@ -1347,7 +1347,7 @@
 	<string key="PerkID_Ability_Rapier_Flurry_Name">Rajada Extratora</string>
 	<string key="PerkID_Ability_Rapier_Flurry_Description">Cada acerto da Rajada cura você em {[GlobalAbilityTable.GlobalPerk_Ability_Rapier_Flurry.DmgPctToHealth * 100 * {perkMultiplier}]}% do dano.</string>
 	<string key="PerkID_Ability_Rapier_Riposte_Name">Ripostar Separador</string>
-	<string key="PerkID_Ability_Rapier_Riposte_Description">Ripostar aplica Vulnerável, reduzindo a absorção de dano do alvo em {[Type_StatusEffectData.Status_Perk_Rapier_Riposte_Rend.ABSStandard * -100 * {perkMultiplier}]}% por {[Type_StatusEffectData.Status_Perk_Rapier_Riposte_Rend.BaseDuration]} segundos.</string>
+	<string key="PerkID_Ability_Rapier_Riposte_Description">Ripostar causa Vulnerável, reduzindo a absorção de dano do alvo em {[Type_StatusEffectData.Status_Perk_Rapier_Riposte_Rend.ABSStandard * -100 * {perkMultiplier}]}% por {[Type_StatusEffectData.Status_Perk_Rapier_Riposte_Rend.BaseDuration]} segundos.</string>
 	<string key="PerkID_Ability_Rapier_Evade_Name">Evasão Onidirecional</string>
 	<string key="PerkID_Ability_Rapier_Evade_Description">O aprimoramento Adágio da Evasão é aplicado ao evadir em qualquer direção.</string>
 	<string key="PerkID_Ability_Rapier_Fleche_Name">Fleche Renovador</string>
@@ -1819,7 +1819,7 @@
 	<string key="PerkID_Weapon_Melee_ChargedHeavy_Crit_Name" rel_version="MorePerksV1">Crítico Incisivo</string>
 	<string key="PerkID_Weapon_Melee_ChargedHeavy_Crit_Description" rel_version="MorePerksV1">Ataques pesados totalmente carregados causam {[GlobalAbilityTable.Global_Weapon_Melee_ChargedHeavy_Crit.CritDamage * 100 * {perkMultiplier}]}% de dano crítico adicional.</string>
 	<string key="PerkID_Weapon_Melee_ChargedHeavy_Rend_Name" rel_version="MorePerksV1">Rasgo Incisivo</string>
-	<string key="PerkID_Weapon_Melee_ChargedHeavy_Rend_Description" rel_version="MorePerksV1">Ataques pesados totalmente carregados aplicam vulnerável por {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.BaseDuration]} s, reduzindo a absorção do alvo em {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.ABSStandard * -100 * {perkMultiplier}]}%. (tempo de recarga de {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend_Timer.BaseDuration]} s)</string>
+	<string key="PerkID_Weapon_Melee_ChargedHeavy_Rend_Description" rel_version="MorePerksV1">Ataques pesados totalmente carregados causam Vulnerável por {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.BaseDuration]} s, reduzindo a absorção do alvo em {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.ABSStandard * -100 * {perkMultiplier}]}%. (Tempo de recarga de {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend_Timer.BaseDuration]} s)</string>
 	<string key="PerkID_Weapon_Melee_ChargedHeavy_Heal_Name" rel_version="MorePerksV1">Recuperação Incisiva</string>
 	<string key="PerkID_Weapon_Melee_ChargedHeavy_Heal_Description" rel_version="MorePerksV1">Ataques pesados totalmente carregados curam o jogador por {[GlobalAbilityTable.Global_Weapon_Melee_ChargedHeavy_Heal.DmgPctToHealth * 100 * {perkMultiplier}]}% do dano causado.</string>
 	<string key="PerkID_Armor_RangeDefense_Physical_Name" rel_version="MorePerksV1">Aversão Física</string>

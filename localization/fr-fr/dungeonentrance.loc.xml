@@ -10,7 +10,7 @@
 	<string key="ui_dungeon_requirements_gearscore">Niveau recommandé : {level}</string>
 	<string key="ui_flyout_recommended_groupsize">Joueurs recommandés : &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{players}&lt;/font&gt;</string>
 	<string key="ui_dungeon_requirements_equipment_warning">Pour accomplir cette expédition, il est nécessaire d'avoir dans votre groupe au moins : &lt;font color="#ffffff"&gt;{item}&lt;/font&gt;.</string>
-	<string key="ui_dungeon_reward_level"/>
+	<string key="ui_dungeon_reward_level">La qualité du butin total augmentera à mesure que les niveaux de difficulté sont plus élevés.\n\nLes objets que vous trouvez peuvent différer des objets listés en fonction de leur score d'équipement.</string>
 	<string key="ui_dungeon_level_requirement">Niveau requis : {level}</string>
 	<string key="ui_dungeon_elapsed_time">Temps écoulé :</string>
 	<string key="ui_dungeon_estimated_time_remaining">Temps d'attente estimé :</string>
@@ -64,7 +64,7 @@
 	<string key="ui_dungeon_mutation_promotion_description" rel_version="Feature_Dungeon_Mutators">Les &lt;font color="#ff9393" face="lyshineui/fonts/Nimbus_Bold.font"&gt;ennemis&lt;/font&gt; peuvent bénéficier des &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;améliorations&lt;/font&gt; suivantes :</string>
 	<string key="ui_dungeon_mutation_curse_description" rel_version="Feature_Dungeon_Mutators">Les &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;joueurs&lt;/font&gt; reçoivent les &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;affaiblissements&lt;/font&gt; suivants :</string>
 	<string key="ui_dungeon_mutator_expiration_text" rel_version="Feature_Dungeon_Mutators">Expire dans : </string>
-	<string key="ui_dungeon_mutator_recommended_gearscore" rel_version="Feature_Dungeon_Mutators"/>
+	<string key="ui_dungeon_mutator_recommended_gearscore" rel_version="Feature_Dungeon_Mutators">Score d'équipement minimum recommandé : &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{score}&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_codex" rel_version="Feature_Dungeon_Mutators">Codex</string>
 	<string key="ui_dungeon_mutator_difficulty_default" rel_version="Feature_Dungeon_Mutators">Normale</string>
 	<string key="ui_dungeon_mutator_difficulty_1" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt; (Normal)</string>
@@ -171,7 +171,8 @@
 	<string key="ui_dungeon_possible_rewards_header" rel_version="Feature_Dungeon_Mutators">Récompenses possibles</string>
 	<string key="ui_dungeon_no_possible_rewards" rel_version="Feature_Dungeon_Mutators">Aucune récompense possible</string>
 	<string key="ui_dungeon_orb_explanation" rel_version="Feature_Dungeon_Mutators">Récompense disponible une seule fois Les orbes d'accord d'expédition mutante sont également disponibles dans la boutique de faction.</string>
-	<string key="ui_dungeon_gearscore_recommendation_tooltip" rel_version="Feature_Dungeon_Mutators"/>
-	<string key="ui_dungeon_gearscore_underlevel_warning" rel_version="Feature_Dungeon_Mutators">ATTENTION : votre score d'équipement moyen est trop faible pour être assez performant dans cette expédition.</string>
+	<string key="ui_dungeon_gearscore_recommendation_tooltip" rel_version="Feature_Dungeon_Mutators">
+	&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Score d'équipement recommandé&lt;/font&gt;\n\nLes calculs de combat sont affectés par la différence entre votre score d'équipement moyen et le score d'équipement recommandé.\n\nSi le score est &lt;font color="#ff9393"&gt;inférieur&lt;/font&gt; au score d'équipement minimum recommandé, alors vous &lt;font color="#ffffff"&gt;infligerez moins dégâts&lt;/font&gt;, mais &lt;font color="#ffffff"&gt;en subirez davantage&lt;/font&gt; des ennemis de l'expédition.</string>
+	<string key="ui_dungeon_gearscore_underlevel_warning" rel_version="Feature_Dungeon_Mutators">&lt;font color="#f25d5d" face="lyshineui/fonts/Nimbus_Bold.font"&gt;ATTENTION :&lt;/font&gt; votre score d'équipement moyen est trop faible pour exceller dans cette expédition.</string>
 </resources>
 

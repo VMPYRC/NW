@@ -83,7 +83,7 @@
 	<string key="ui_item_restrictions" rel_version="Feature_MTX">Gegenstandseinschränkungen</string>
 	<string key="ui_item_restrictions_item_skins" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Skins&lt;/font&gt; werden nur angezeigt, wenn der Standard-Gegenstand ausgerüstet ist. &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Skins&lt;/font&gt; können nicht gefärbt werden.</string>
 	<string key="ui_item_restrictions_crests" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Kompaniewappen&lt;/font&gt; kannst du nur verwenden, wenn du der Gouverneur (Gründer) einer Kompanie bist.</string>
-	<string key="ui_item_restrictions_housing_items" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Behausungsgegenstände&lt;/font&gt; kannst du nur verwenden, wenn du Behausung freigeschaltet hast und ein Haus besitzt.</string>
+	<string key="ui_item_restrictions_housing_items" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Behausungsgegenstände&lt;/font&gt; kannst du nur verwenden, wenn du Behausung freigeschaltet hast und ein Haus besitzt.\n\nEine begrenzte Anzahl an &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Animierten und Blitzgegenständen&lt;/font&gt; kann in Häusern jederzeit dargestellt werden.</string>
 	<string key="ui_item_restrictions_dyes" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Farbstoffe&lt;/font&gt; kannst du nur für Rüstungen verwenden. Wenn du die Rüstung handelst oder verkaufst, wird der Farbstoff entfernt und nicht zurückerstattet. Du kannst Skins nicht mit Farbstoff einfärben.</string>
 	<string key="ui_item_restrictions_camp_skins" rel_version="Feature_Camp_Skins">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Zeltlager-Skins&lt;/font&gt; kannst du nur verwenden, wenn du Zeltlageraufbau freigeschaltet hast.</string>
 	<string key="ui_non_returnable" rel_version="Feature_MTX">Gegenstand ist vom Umtausch ausgeschlossen.</string>
@@ -359,7 +359,7 @@
 	<string key="ui_crestforeground_203" rel_version="New_World_Launch">Beilmeister</string>
 	<string key="ui_crestforeground_204" rel_version="New_World_Launch">Lebensstabsmeister</string>
 	<string key="ui_crestforeground_205" rel_version="New_World_Launch">Musketenmeister</string>
-	<string key="ui_crestforeground_206" rel_version="New_World_Launch">Fort</string>
+	<string key="ui_crestforeground_206" rel_version="New_World_Launch">Festung</string>
 	<string key="ui_crestforeground_207" rel_version="New_World_Launch">Speermeister</string>
 	<string key="ui_crestforeground_208" rel_version="New_World_Launch">Kriegshammer-Meisterschaft</string>
 	<string key="Bundle_Decor_Spooky2021_name" rel_version="New_World_Launch">Dekorpaket: Verwunschene Behausung</string>
@@ -428,6 +428,8 @@
 	<string key="server_transfer_requirements_detail1" rel_version="Feature_Server_Transfer">Vor dem Transfer darfst du keiner Kompanie angehören.</string>
 	<string key="server_transfer_requirements_detail2" rel_version="Feature_Server_Transfer">Vor dem Transfer darfst du keine aktiven Kauf- oder Verkaufsaufträge im Handelsposten haben.</string>
 	<string key="server_transfer_requirements_detail3" rel_version="Feature_Server_Transfer">Vor dem Transfer musst du dich in einer Zufluchtsstätte (Siedlung, Außenposten, Geisterschrein oder Wachturm) befinden.</string>
+	<string key="server_transfer_requirements_detail_player_level" rel_version="Feature_Server_Transfer">Du musst für den Transfer in eine andere Region mindestens Stufe {level} erreicht haben.</string>
+	<string key="server_transfer_requirements_detail_housing" rel_version="Feature_Server_Transfer">Für den Transfer in einer andere Region darfst du kein Haus besitzen.</string>
 	<string key="server_transfer_not_transfer_detail1" rel_version="Feature_Server_Transfer">Deine Freundesliste wird gelöscht und nicht mit übertragen.</string>
 	<string key="server_transfer_not_transfer_detail2" rel_version="Feature_Server_Transfer">Aktive Stadtprojektmissionen werden nicht übertragen.</string>
 	<string key="server_transfer_not_transfer_detail3" rel_version="Feature_Server_Transfer">Aktive Fraktionsmissionen werden nicht übertragen.</string>
@@ -437,6 +439,7 @@
 	<string key="server_transfer_unavailable_duel" rel_version="Feature_Server_Transfer">Du kannst die Welt nicht wechseln, während du dich in einem Duell befindest.</string>
 	<string key="server_transfer_unavailable_outpost_rush" rel_version="Feature_Server_Transfer">Du kannst die Welt nicht wechseln, während du dich in einem Außenpostensturm befindest.</string>
 	<string key="server_transfer_unavailable_outpost_rush_queue" rel_version="Feature_Server_Transfer">Du kannst die Welt nicht wechseln, während du dich für den Außenpostensturm angemeldet hast.</string>
+	<string key="server_transfer_unavailable_transfer_world_full" rel_version="Feature_Server_Transfer">Die Transferliste für diese Region ist voll. Bitte in einigen Stunden erneut versuchen.</string>
 	<string key="server_transfer_more_details" rel_version="Feature_Server_Transfer">Weitere Informationen siehe:</string>
 	<string key="server_transfer_transfer_faq" rel_version="Feature_Server_Transfer">Charakter-Welttransfers-FAQ</string>
 	<string key="server_transfer_final_details" rel_version="Feature_Server_Transfer">Mit der Bestätigung des Transfers wirst du ausgeloggt und zum Hauptmenü weitergeleitet.</string>
@@ -450,6 +453,8 @@
 	<string key="server_transfer_requirements_tradingPost" rel_version="Feature_Server_Transfer">Vor dem Transfer darfst du keine aktiven Kauf- oder Verkaufsaufträge im Handelsposten haben.</string>
 	<string key="server_transfer_requirements_sanctuary" rel_version="Feature_Server_Transfer">Vor dem Transfer musst du dich in einer Zufluchtsstätte (Siedlung, Außenposten, Geisterschrein oder Wachturm) befinden.</string>
 	<string key="server_transfer_requirements_tradingPost_unknown" rel_version="Feature_Server_Transfer">Handelsposten-Status wird überprüft ...</string>
+	<string key="server_transfer_requirements_player_level" rel_version="Feature_Server_Transfer">Du musst für den Transfer in eine andere Region mindestens Stufe {level} erreicht haben.</string>
+	<string key="server_transfer_requirements_housing" rel_version="Feature_Server_Transfer">Für den Transfer in einer andere Region darfst du kein Haus besitzen.</string>
 	<string key="server_transfer_confirm" rel_version="Feature_Server_Transfer">WELTTRANSFER BESTÄTIGEN</string>
 	<string key="server_transfer_confirm_button" rel_version="Feature_Server_Transfer">Transfer bestätigen</string>
 	<string key="server_transfer_confirm_purchase" rel_version="Feature_Server_Transfer">WELTTRANSFER KAUFEN</string>
@@ -618,7 +623,7 @@
 	<string key="url_primegaming">https://gaming.amazon.com/loot/newworld</string>
 	<string key="ui_open_link">Link öffnen</string>
 	<string key="Bundle_Decor_Lunar_name" rel_version="Housing_LunarNewYear_MTX_Pack_2022">Mondneujahr-Dekor-Paket</string>
-	<string key="Bundle_Decor_Lunar_description" rel_version="Housing_LunarNewYear_MTX_Pack_2022">Behausungsdekor-Set "Frohes neues Jahr!"</string>
+	<string key="Bundle_Decor_Lunar_description" rel_version="Housing_LunarNewYear_MTX_Pack_2022">Behausungsdekor-Set</string>
 	<string key="Pet_LunarTiger_name" rel_version="Housing_LunarNewYear_MTX_Pack_2022">Mondtiger</string>
 	<string key="Pet_LunarTiger_description" rel_version="Housing_LunarNewYear_MTX_Pack_2022">"Ein mythisches Wesen, dass dich mit seiner Anwesenheit und seinem Schutz beschenkt."</string>
 	<string key="Bundle_Crest_Lunar_name" rel_version="Crest_Pack_Lunar">Mondneujahr-Wappenpaket</string>
@@ -701,5 +706,6 @@
 	<string key="ui_crestforeground_212" rel_version="Twitch_EpicStory_Skins">Ouroboros</string>
 	<string key="Bundle_Decor_Love2022_name" rel_version="Housing_Love_MTX_Pack_2022">Verderbtes Liebes-Dekor-Paket</string>
 	<string key="Bundle_Decor_Love2022_description" rel_version="Housing_Love_MTX_Pack_2022">"Möbel, die ideal für einen romantischen Abend oder die ewige Gefangenschaft im lieblosen Aeternum geeignet sind."</string>
+	<string key="prorated_discount">Preis anhand gesperrter Gegenstände angepasst.</string>
 </resources>
 

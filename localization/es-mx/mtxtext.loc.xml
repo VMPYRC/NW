@@ -83,7 +83,7 @@
 	<string key="ui_item_restrictions" rel_version="Feature_MTX">Restricciones de objetos</string>
 	<string key="ui_item_restrictions_item_skins" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Los diseños&lt;/font&gt; solo son visibles si se equipa el objeto base. &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Los diseños&lt;/font&gt; no se pueden teñir.</string>
 	<string key="ui_item_restrictions_crests" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Las crestas de las compañías&lt;/font&gt; solo se pueden usar si eres el gobernador (creador) de una compañía.</string>
-	<string key="ui_item_restrictions_housing_items" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Los objetos para casas&lt;/font&gt; solo se pueden usar cuando logras desbloquear las características de vivienda y ser propietario de una casa.</string>
+	<string key="ui_item_restrictions_housing_items" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Los objetos para casas&lt;/font&gt; solo se pueden usar cuando logras desbloquear las características de vivienda y ser propietario de una casa.\n\nEn cualquier momento, en una casa se puede exhibir una cantidad limitada de &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;objetos de iluminación y objetos animados&lt;/font&gt;.</string>
 	<string key="ui_item_restrictions_dyes" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Las tinturas&lt;/font&gt; solo se aplican a tu armadura. Si la armadura se intercambia o se vende, la tintura se elimina y no se devuelve. No puedes aplicar tinturas a diseños.</string>
 	<string key="ui_item_restrictions_camp_skins" rel_version="Feature_Camp_Skins">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Los diseños de campamento&lt;/font&gt; requieren que se desbloquee el campamento.</string>
 	<string key="ui_non_returnable" rel_version="Feature_MTX">El objeto no es reembolsable.</string>
@@ -428,6 +428,8 @@
 	<string key="server_transfer_requirements_detail1" rel_version="Feature_Server_Transfer">No puedes pertenecer a una compañía antes de transferirte</string>
 	<string key="server_transfer_requirements_detail2" rel_version="Feature_Server_Transfer">No puedes tener pedidos de compra o venta activos de la tienda de intercambio antes de transferirte</string>
 	<string key="server_transfer_requirements_detail3" rel_version="Feature_Server_Transfer">Debes estar en un santuario (asentamiento, puesto de avanzada, santuario espiritual o puesto de observación) antes de transferirte a otro mundo</string>
+	<string key="server_transfer_requirements_detail_player_level" rel_version="Feature_Server_Transfer">Debes ser de nivel {level} como mínimo para transferirte entre regiones.</string>
+	<string key="server_transfer_requirements_detail_housing" rel_version="Feature_Server_Transfer">No debes poseer ninguna casa para poder transferirte entre regiones.</string>
 	<string key="server_transfer_not_transfer_detail1" rel_version="Feature_Server_Transfer">Tu lista de amigos se borrará y no se transportará</string>
 	<string key="server_transfer_not_transfer_detail2" rel_version="Feature_Server_Transfer">Las misiones de proyectos de pueblo activas no se transportarán</string>
 	<string key="server_transfer_not_transfer_detail3" rel_version="Feature_Server_Transfer">Las misiones de facción activas no se transportarán</string>
@@ -437,6 +439,7 @@
 	<string key="server_transfer_unavailable_duel" rel_version="Feature_Server_Transfer">No puedes transferirte de mundo mientras estás en un duelo.</string>
 	<string key="server_transfer_unavailable_outpost_rush" rel_version="Feature_Server_Transfer">No puedes transferirte de mundo mientras estás en Avance a un puesto de avanzada.</string>
 	<string key="server_transfer_unavailable_outpost_rush_queue" rel_version="Feature_Server_Transfer">No puedes transferirte de mundo mientras estás a la cola de Avance a un puesto de avanzada.</string>
+	<string key="server_transfer_unavailable_transfer_world_full" rel_version="Feature_Server_Transfer">La lista de transferencia de región está llena. Inténtalo nuevamente en unas horas.</string>
 	<string key="server_transfer_more_details" rel_version="Feature_Server_Transfer">Para obtener más información, consulta</string>
 	<string key="server_transfer_transfer_faq" rel_version="Feature_Server_Transfer">Preguntas frecuentes de la transferencia de mundo de personajes</string>
 	<string key="server_transfer_final_details" rel_version="Feature_Server_Transfer">Si confirmas la transferencia, saldrás del menú principal de selección de personajes.</string>
@@ -450,6 +453,8 @@
 	<string key="server_transfer_requirements_tradingPost" rel_version="Feature_Server_Transfer">No puedes tener pedidos de compra o venta activos de la tienda de intercambio antes de transferirte.</string>
 	<string key="server_transfer_requirements_sanctuary" rel_version="Feature_Server_Transfer">Debes estar en un santuario (asentamiento, puesto de avanzada, santuario espiritual o puesto de observación) antes de transferirte a otro mundo.</string>
 	<string key="server_transfer_requirements_tradingPost_unknown" rel_version="Feature_Server_Transfer">Revisando el estado de la tienda de intercambio…</string>
+	<string key="server_transfer_requirements_player_level" rel_version="Feature_Server_Transfer">Debes ser de nivel {level} como mínimo para transferirte entre regiones.</string>
+	<string key="server_transfer_requirements_housing" rel_version="Feature_Server_Transfer">No debes poseer ninguna casa para poder transferirte entre regiones.</string>
 	<string key="server_transfer_confirm" rel_version="Feature_Server_Transfer">CONFIRMAR LA TRANSFERENCIA DE MUNDO</string>
 	<string key="server_transfer_confirm_button" rel_version="Feature_Server_Transfer">Confirmar la transferencia</string>
 	<string key="server_transfer_confirm_purchase" rel_version="Feature_Server_Transfer">COMPRAR LA TRANSFERENCIA DE MUNDO</string>
@@ -618,7 +623,7 @@
 	<string key="url_primegaming">https://gaming.amazon.com/loot/newworld</string>
 	<string key="ui_open_link">Abrir enlace</string>
 	<string key="Bundle_Decor_Lunar_name" rel_version="Housing_LunarNewYear_MTX_Pack_2022">Lote de decoración de nuevo año lunar</string>
-	<string key="Bundle_Decor_Lunar_description" rel_version="Housing_LunarNewYear_MTX_Pack_2022">"¡Te doy la bienvenida en el nuevo año!" Conjunto de decoración para casas</string>
+	<string key="Bundle_Decor_Lunar_description" rel_version="Housing_LunarNewYear_MTX_Pack_2022">"¡Te doy la bienvenida en el nuevo año!"</string>
 	<string key="Pet_LunarTiger_name" rel_version="Housing_LunarNewYear_MTX_Pack_2022">Tigre lunar</string>
 	<string key="Pet_LunarTiger_description" rel_version="Housing_LunarNewYear_MTX_Pack_2022">"Una criatura mística que te ha regalado su presencia y su protección".</string>
 	<string key="Bundle_Crest_Lunar_name" rel_version="Crest_Pack_Lunar">Paquete de crestas de nuevo año lunar</string>
@@ -691,7 +696,7 @@
 	<string key="Bundle_Tool_Valentines_description" rel_version="MTX_Tool_Skins_Valentine">"El amor se beneficia con un gran esfuerzo… y la acumulación de recursos".</string>
 	<string key="Apparel_Waveborne_description" rel_version="Apparel_Waveborne_Costume">"Desde un mar oscuro y agitado, una ola mortífera rompe contra la orilla".</string>
 	<string key="Weapon_Musket_AngelsDemons_description" rel_version="Weapon_Musket_AngelsDemons_MTX">"¡Y así las montañas se hicieron eco del clamor de aleluya!"</string>
-	<string key="Weapon_TowerShield_AngelsDemons_description" rel_version="Weapon_TowerShield_AngelsDemons_MTX">"Para proteger contra la malignidad y defender la pureza se debe contar con un escudo adecuado".</string>
+	<string key="Weapon_TowerShield_AngelsDemons_description" rel_version="Weapon_TowerShield_AngelsDemons_MTX">"Para proteger contra la malignidad y defender la pureza, se debe contar con un escudo adecuado".</string>
 	<string key="Weapon_Rapier_AngelsDemons_description" rel_version="Weapon_Rapier_AngelsDemons_MTX">"Un faro para atravesar la oscuridad, para elevar los espíritus de quienes la ven en el puño de un hidalgo de la luz".</string>
 	<string key="Weapon_VoidGauntlet_AngelsDemons_description" rel_version="Weapon_VoidGauntlet_AngelsDemons_MTX">"Un ángel caído carga el peso de un sacrificio terrible".</string>
 	<string key="Emote_Swoon_name" rel_version="Emote_Swoon">Embelesarse</string>
@@ -701,5 +706,6 @@
 	<string key="ui_crestforeground_212" rel_version="Twitch_EpicStory_Skins">Ouroboros</string>
 	<string key="Bundle_Decor_Love2022_name" rel_version="Housing_Love_MTX_Pack_2022">Lote de decoración de amor corrompido</string>
 	<string key="Bundle_Decor_Love2022_description" rel_version="Housing_Love_MTX_Pack_2022">"La decoración perfecta para una velada romántica o para quedar atrapado en una eternidad sin amor en Aeternum."</string>
+	<string key="prorated_discount">Precio modificado en base a los objetos desbloqueados</string>
 </resources>
 
