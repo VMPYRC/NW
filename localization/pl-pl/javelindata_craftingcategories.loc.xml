@@ -854,7 +854,7 @@
 	<string key="DungeonReps6_GroupName">Repliki z Użyteczności Łazarza</string>
 	<string key="DungeonReps7_GroupName">Repliki z Ogrodu Genezy</string>
 	<string key="DungeonReps8_GroupName">CHWILOWO BRAK NAZWY</string>
-	<string key="DungeonReps9_GroupName">CHWILOWO BRAK NAZWY</string>
+	<string key="DungeonReps9_GroupName">Repliki z Serca Burzy</string>
 	<string key="DungeonShields_GroupName">Tarcze z ekspedycji</string>
 	<string key="Dye1_GroupDesc">Wytwórz jeden z wielu odcieni czerwonego barwnika.</string>
 	<string key="Dye1_GroupName">Czerwony barwnik</string>
@@ -1376,6 +1376,10 @@
 	<string key="nut_GroupName">Orzechy</string>
 	<string key="Offensive_GroupName">Modyfikatory ataku</string>
 	<string key="oil_GroupName">Ropa naftowa</string>
+	<string key="beeswax_GroupName">Wosk pszczeli</string>
+	<string key="DroppedAmulet_GroupName">Upuszczone amulety</string>
+	<string key="DroppedRing_GroupName">Upuszczone pierścienie</string>
+	<string key="DroppedEarring_GroupName">Upuszczone kolczyki</string>
 	<string key="OnyxCut_GroupDesc">Szlifowane i polerowane onyksy. Można z nich wytworzyć biżuterię, która zwiększa kondycję, albo umieścić w gnieździe przedmiotu, by zyskać profity "Zuchwałość" i "Ochrona fizyczna".</string>
 	<string key="OnyxCut_GroupName">Szlifowany onyks</string>
 	<string key="OpalCut_GroupDesc">Szlifowane i polerowane opale. Można z nich wytworzyć biżuterię, która zwiększa skupienie, albo umieścić w gnieździe przedmiotu, by zyskać profity "Gambit" i "Ochrona przed żywiołami".</string>
@@ -1785,7 +1789,6 @@
 	<string key="wood_GroupName">Drewno</string>
 	<string key="WoodAny_CategoryName">Dowolne drewno</string>
 	<string key="WorkOrder_GroupName">Oferty pracy</string>
-	<string key="CategoryData_CookingRecipes">Przepisy kucharskie</string>
 	<string key="Pattern">Wzory</string>
 	<string key="PatternRecipes">Schematy wzorów</string>
 	<string key="Lodestone">Magnetyt</string>
@@ -1801,8 +1804,23 @@
 	<string key="TimelessShardsCon">Wieczne odłamki – kondycja</string>
 	<string key="ArmorShadow_GroupName">Cienisty</string>
 	<string key="ArmorBeast_GroupName">Łowczy</string>
-	<string key="CategoryData_EventConsumables" rel_version="Feature_RabbitSeason">Przedmioty użytkowe – wydarzenia</string>
-	<string key="ConsumableLuck_GroupName" rel_version="Feature_RabbitSeason">Przedmioty użytkowe – szczęście</string>
+	<string key="CategoryData_EventConsumables">Przedmioty użytkowe – wydarzenia</string>
+	<string key="ConsumableLuck_GroupName" rel_version="Feature_RabbitSeasonPerm">Przedmioty użytkowe – szczęście</string>
+	<string key="CategoryData_DyeIngredients" rel_version="Feature_RabbitSeasonPerm">Składniki barwników</string>
 	<string key="Blunderbuss_GroupName">Garłacze</string>
+	<string key="PerfectSalvageArmor_Name">Fragmenty pancerza</string>
+	<string key="PerfectSalvageWeapons_Name">Fragmenty broni</string>
+	<string key="PerfectSalvageJewelry_Name">Fragmenty biżuterii</string>
+	<string key="PerfectSalvageEngineer_Name">Fragmenty inżynierskie</string>
+	<string key="PerfectSalvageArcane_Name">Fragmenty arkanistyczne</string>
+	<string key="SalvageTier2_Name">Fragmenty klasy II</string>
+	<string key="SalvageTier3_Name">Fragmenty klasy III</string>
+	<string key="SalvageTier4_Name">Fragmenty klasy IV</string>
+	<string key="SalvageTier5_Name">Fragmenty klasy V</string>
+	<string key="Salvage">Odzyskaj fragmenty</string>
+	<string key="SalvageExtract">Wydobądź</string>
+	<string key="SalvageCreate">Stwórz</string>
+	<string key="SalvageResearch">Zbadaj</string>
+	<string key="SalvageCondense">Skondensuj</string>
 </resources>
 

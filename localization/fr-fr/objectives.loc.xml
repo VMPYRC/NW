@@ -163,6 +163,8 @@
 	<string key="objective_location_name" speaker="UI">Nom du lieu</string>
 	<string key="objective_has_location" speaker="UI">Emplacement spécifique</string>
 	<string key="objective_no_location" speaker="UI">Sans emplacement spécifique</string>
+	<string key="objective_main_story_quest" speaker="UI">Quête de l'histoire principale</string>
+	<string key="objective_skill_progression_quest" speaker="UI">Quête de progression des capacités</string>
 	<string key="objective_side_quests" speaker="UI">Quêtes annexes</string>
 	<string key="objective_event" speaker="UI">Quêtes d'événements</string>
 	<string key="objective_event_desc" speaker="UI">Objectifs disponibles lors d'un événement</string>
@@ -202,6 +204,7 @@
 	<string key="objective_requiresitem" speaker="UI">Requis : {itemName} de palier {tier}</string>
 	<string key="objective_reward" speaker="UI">Récompense</string>
 	<string key="objective_rewards" speaker="UI">Récompenses</string>
+	<string key="objective_activebonuses" speaker="UI">Bonus actifs</string>
 	<string key="objective_norewards" speaker="UI">Contribuer à la bataille pour gagner des récompenses</string>
 	<string key="objective_salvage" speaker="UI">Recycler : {itemName}</string>
 	<string key="objective_started" speaker="UI">Objectif démarré</string>
@@ -292,5 +295,6 @@
 	<string key="objective_mission_task_control_point_S">Prendre la forteresse {TerritoryID} au nom de l'Ombre</string>
 	<string key="objective_mission_task_control_point_C">Prendre la forteresse {TerritoryID} au nom des Engagés</string>
 	<string key="objective_mission_faction_corruption_breach" rel_version="Quest_FM_BreachMissions">Sceller un foyer d'altération</string>
+	<string key="objective_mission_rescue_npc_generic" rel_version="Quest_MSQ2_Revamp">Sauver les otages</string>
 </resources>
 

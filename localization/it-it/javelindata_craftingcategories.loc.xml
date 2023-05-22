@@ -854,7 +854,7 @@
 	<string key="DungeonReps6_GroupName">Repliche Strumentalità di Lazzaro</string>
 	<string key="DungeonReps7_GroupName">Repliche Giardino della Genesi</string>
 	<string key="DungeonReps8_GroupName">NAME PENDING</string>
-	<string key="DungeonReps9_GroupName">NAME PENDING</string>
+	<string key="DungeonReps9_GroupName">Repliche Cuore della Tempesta</string>
 	<string key="DungeonShields_GroupName">Scudi spedizione</string>
 	<string key="Dye1_GroupDesc">Produci una delle varie tonalità della tinta rossa.</string>
 	<string key="Dye1_GroupName">Tinta rossa</string>
@@ -1376,6 +1376,10 @@
 	<string key="nut_GroupName">Noce</string>
 	<string key="Offensive_GroupName">Modificatori offensivi</string>
 	<string key="oil_GroupName">Petrolio</string>
+	<string key="beeswax_GroupName">Cera d'api</string>
+	<string key="DroppedAmulet_GroupName">Amuleti caduti</string>
+	<string key="DroppedRing_GroupName">Anelli caduti</string>
+	<string key="DroppedEarring_GroupName">Orecchini caduti</string>
 	<string key="OnyxCut_GroupDesc">Pietre di onice tagliate e levigate. Si possono usare per produrre gioielli che aumentano la Costituzione, oppure si possono incastonare nell'equipaggiamento per fornire i vantaggi Insolenza e Protezione fisica.</string>
 	<string key="OnyxCut_GroupName">Onice tagliata</string>
 	<string key="OpalCut_GroupDesc">Pietre di opale tagliate e levigate. Si possono usare per produrre gioielli che aumentano la Concentrazione, oppure si possono incastonare nell'equipaggiamento per fornire i vantaggi Stratagemma e Protezione elementale.</string>
@@ -1695,7 +1699,7 @@
 	<string key="STRTrinkets_GroupDesc">Accessori che aumentano l'attributo Forza.</string>
 	<string key="STRTrinkets_GroupName">Accessori per Forza</string>
 	<string key="SurvivalTools_GroupName">Strumenti da survivalista</string>
-	<string key="SwordA_GroupDesc">Una coppia di armi incentrate sulla mischia che, se usate insieme, sono molto efficaci sia attacco, sia in difesa. Utilizza una combinazione di ampi fendenti e balzi in avanti per gli attacchi in mischia, mentre uno scudo consente di massimizzare le difese.\n\n•Attacco leggero: Infligge un {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]}% di danni da fendente.\n•Colpo finale leggero: Infligge un {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]}% di danni da fendente.\n•Attacco pesante: Infligge un {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]}% di danni da affondo.\n•Attacco pesante caricato: Infligge un {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]}% di danni da affondo.</string>
+	<string key="SwordA_GroupDesc">Una coppia di armi incentrate sulla mischia che, se usate insieme, sono molto efficaci sia in attacco, sia in difesa. Utilizza una combinazione di ampi fendenti e balzi in avanti per gli attacchi, mentre uno scudo consente di massimizzare le difese.\n\n•Attacco leggero: Infligge un {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]}% di danni da fendente.\n•Colpo finale leggero: Infligge un {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]}% di danni da fendente.\n•Attacco pesante: Infligge un {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]}% di danni da affondo.\n•Attacco pesante caricato: Infligge un {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]}% di danni da affondo.</string>
 	<string key="SwordA_GroupName">Spada dritta</string>
 	<string key="SwordB_GroupDesc">Un'arma da mischia incentrata sulla rapidità, che consente di sferrare molteplici attacchi basati su affondi rapidi. Eccellente per calibrare gli attacchi al momento giusto e spiazzare gli avversari. Infligge inoltre sanguinamenti che consumano gradualmente la salute del bersaglio.\n\n•Attacco leggero: Infligge un {[DamageTable.1H_Rapier_PrimaryAttack.DmgCoef * 100]}% di danni da affondo.\n•Fendenti centrali leggeri: Infligge un {[DamageTable.1H_Rapier_PrimaryTwoThirdsAttack.DmgCoef * 100]}% di danni da affondo.\n•Attacco pesante: Infligge un {[DamageTable.1H_Rapier_HeavyAttack.DmgCoef * 100]}% di danni da affondo.</string>
 	<string key="SwordB_GroupName">Stocco</string>
@@ -1785,7 +1789,6 @@
 	<string key="wood_GroupName">Legname</string>
 	<string key="WoodAny_CategoryName">Qualsiasi legno</string>
 	<string key="WorkOrder_GroupName">Ordini di lavoro</string>
-	<string key="CategoryData_CookingRecipes">Ricette di cucina</string>
 	<string key="Pattern">Schemi</string>
 	<string key="PatternRecipes">Ricette di schemi</string>
 	<string key="Lodestone">Magnetite</string>
@@ -1801,8 +1804,23 @@
 	<string key="TimelessShardsCon">Schegge senza tempo - Costituzione</string>
 	<string key="ArmorShadow_GroupName">Calcaombra</string>
 	<string key="ArmorBeast_GroupName">Cacciatore di bestie</string>
-	<string key="CategoryData_EventConsumables" rel_version="Feature_RabbitSeason">Consumabili evento</string>
-	<string key="ConsumableLuck_GroupName" rel_version="Feature_RabbitSeason">Consumabili fortuna</string>
+	<string key="CategoryData_EventConsumables">Consumabili evento</string>
+	<string key="ConsumableLuck_GroupName" rel_version="Feature_RabbitSeasonPerm">Consumabili fortuna</string>
+	<string key="CategoryData_DyeIngredients" rel_version="Feature_RabbitSeasonPerm">Ingredienti tinta</string>
 	<string key="Blunderbuss_GroupName">Schioppi</string>
+	<string key="PerfectSalvageArmor_Name">Pezzi di armatura</string>
+	<string key="PerfectSalvageWeapons_Name">Pezzi di arma</string>
+	<string key="PerfectSalvageJewelry_Name">Pezzi di gioielli</string>
+	<string key="PerfectSalvageEngineer_Name">Pezzi per ingegneria</string>
+	<string key="PerfectSalvageArcane_Name">Pezzi arcani</string>
+	<string key="SalvageTier2_Name">Pezzi livello II</string>
+	<string key="SalvageTier3_Name">Pezzi livello III</string>
+	<string key="SalvageTier4_Name">Pezzi livello IV</string>
+	<string key="SalvageTier5_Name">Pezzi livello V</string>
+	<string key="Salvage">Recupera pezzi</string>
+	<string key="SalvageExtract">Estrai</string>
+	<string key="SalvageCreate">Produci</string>
+	<string key="SalvageResearch">Ricerca</string>
+	<string key="SalvageCondense">Condensa</string>
 </resources>
 

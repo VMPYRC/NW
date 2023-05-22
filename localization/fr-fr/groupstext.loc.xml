@@ -10,8 +10,8 @@
 	<string key="ui_receivedgroupinvite_decline" comment="">Refuser</string>
 	<string key="ui_receivedgroupinvite_hide" comment="">Masquer</string>
 	<string key="ui_togglepvpblocked_title" comment="">Avertissement de mode JcJ</string>
-	<string key="ui_togglepvpblocked_ingroup" comment="">Les joueurs JcJ et JcE ne peuvent pas se regrouper. Changer le mode JcJ vous expulsera de ce groupe.\n\nVoulez-vous vraiment changer votre mode JcJ ?</string>
-	<string key="ui_togglepvpblocked_pendinginvites" comment="">Changer votre mode JcJ va supprimer toutes vos invitations de groupe en attente.\n\nVoulez-vous vraiment changer votre mode JcJ ?</string>
+	<string key="ui_togglepvpblocked_ingroup" comment="">Les joueurs JcJ et JcE ne peuvent pas se regrouper. Activer le mode JcJ vous expulsera de ce groupe.\n\nVoulez-vous vraiment activer le mode JcJ ?</string>
+	<string key="ui_togglepvpblocked_pendinginvites" comment="">Activer le mode JcJ va annuler toutes vos invitations dans le salon de l'expédition.\n\nVoulez-vous vraiment activer le mode JcJ ?</string>
 	<string key="ui_receivedwargroupinvitetitle" comment="">Faites la guerre !</string>
 	<string key="ui_receivedwargroupinvitemessage" comment="">Vous avez été sélectionné(e) pour participer à la guerre en {territoryName}, de {startTime} à {endTime}. Acceptez la téléportation vers le champ de bataille.</string>
 	<string key="ui_receivedinvasiongroupinvitetitle" comment="">Défendez-vous contre l'envahisseur !</string>
@@ -82,7 +82,7 @@
 	<string key="ui_groupinvitetimedouterrormessage" comment="">L'invitation de groupe de {playerName} a expiré.</string>
 	<string key="ui_groupinvitetimedoutraid" comment="">L'invitation de groupe a expiré.</string>
 	<string key="ui_invitetogroup" comment="">Invitation de groupe</string>
-	<string key="ui_votekick" comment="">Vote pour exclure un joueur</string>
+	<string key="ui_votekick" comment="">Vote d'exclusion</string>
 	<string key="ui_votekick_tooltip" comment="">Lancez un vote pour exclure ce joueur de votre groupe.\nVous ne pouvez lancer de vote qu'une fois toutes les {cooldown}.</string>
 	<string key="ui_votekick_disabled_inevent" comment="">Vous ne pouvez pas voter pour exclure un joueur pendant cet événement.</string>
 	<string key="ui_votekick_disabled_voteinprogress" comment="">Un vote pour exclure un joueur est déjà en cours.</string>
@@ -157,15 +157,18 @@
 	<string key="ui_pingTypeDistance" comment="">{pingType} {distance}</string>
 	<string key="ui_raid_war_header" comment="">Armée de guerre</string>
 	<string key="ui_raid_invasion_header" comment="">Armée d'invasion</string>
-	<string key="ui_raid_standby_header" comment="">Liste de RÉSERVE</string>
-	<string key="ui_raid_armygroups" comment="">Groupes d'armée</string>
-	<string key="ui_raid_backfill" comment="">Réserve</string>
+	<string key="ui_raid_standby_header" comment="">RÉSERVE</string>
+	<string key="ui_raid_armygroups" comment="">Armée</string>
+	<string key="ui_raid_backfill" comment="">Pourvoir</string>
 	<string key="ui_raid_your_status" comment="">Votre statut</string>
 	<string key="ui_raid_standby_priority" comment="">PRIORITÉ</string>
 	<string key="ui_raid_group_header" comment="">Groupe &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{index}&lt;/font&gt;</string>
+	<string key="ui_raid_group_disabled_tooltip" comment="">Le nombre maximum de joueurs participant à une guerre est passé à {maxRosterMembers}. Vous ne pouvez pas ajouter plus de joueurs à ce groupe.</string>
+	<string key="ui_raid_group_disabled_notification" comment="">Groupe désactivé en raison du changement d'effectif maximum.</string>
+	<string key="ui_raid_max_roster_changed_tooltip" comment="">Le nombre maximum de joueurs participant à une guerre est passé à {maxRosterMembers}. Vous ne pourrez pas ajouter de joueurs au-delà de la nouvelle limite.</string>
 	<string key="ui_raid_member_empty" comment="">Vide</string>
-	<string key="ui_raid_leave_button" comment="">Quitter l'armée</string>
-	<string key="ui_raid_leave_standby_button" comment="">Quitter la réserve</string>
+	<string key="ui_raid_leave_button" comment="">Quitter</string>
+	<string key="ui_raid_leave_standby_button" comment="">Quitter</string>
 	<string key="ui_raid_fill_button" comment="">Rejoindre l'assaut</string>
 	<string key="ui_raid_signup_button" comment="">S'inscrire</string>
 	<string key="ui_auto" comment="">Auto</string>
@@ -174,16 +177,16 @@
 	<string key="ui_raid_selections_remaining" comment="">La compagnie dirigeante ne peut plus sélectionner que {remainingSelections} joueurs.</string>
 	<string key="ui_raid_auto_select_countdown" comment="">{totalAutoSelections} joueurs seront sélectionnés automatiquement et par ordre de priorité dans {timeRemaining}.</string>
 	<string key="ui_raid_standby_description" comment="">Attendez qu'une compagnie vous sélectionne pour son armée.</string>
-	<string key="ui_raid_selected_description" comment="">Connectez-vous &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;le {date} avant {time}&lt;/font&gt;&lt;/font&gt;. SI vous n'êtes pas en ligne à l'heure, vous perdrez votre place.</string>
+	<string key="ui_raid_selected_description" comment="">Connectez-vous &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;le {date} avant {time}&lt;/font&gt;&lt;/font&gt;. Si vous n'êtes pas en ligne à l'heure, vous perdrez votre place.</string>
 	<string key="ui_raid_not_signedup_remote_description" comment="">Vous n'avez pas effectué d'inscription pour participer à cette guerre. Inscrivez-vous à un tableau de guerre !</string>
 	<string key="ui_raid_not_signedup_description" comment="">Vous n'avez pas effectué l'inscription pour participer à cette guerre. Inscrivez-vous vite pour la guerre !</string>
 	<string key="ui_invasion_standby_description" comment="">Soyez en ligne à {time}, le {date}, pour la sélection aléatoire des participants. Ne ratez pas ça !</string>
 	<string key="ui_empty_roster_instruction" comment="">Faire glisser les joueurs ici\ndepuis la réserve sur la droite</string>
 	<string key="ui_backfill_tooltip" comment="">La compagnie est en mesure de décider comment compléter ses rangs si des joueurs désertent avant la fin de la guerre.</string>
-	<string key="ui_backfill_auto_tooltip" comment="">Piocher automatiquement des joueurs dans la liste de réserve en fonction de leur ordre d'inscription</string>
-	<string key="ui_backfill_manual_tooltip" comment="">Sélectionner manuellement des joueurs dans la liste de réserve pour remplir les postes abandonnés</string>
-	<string key="ui_raid_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / {total}</string>
-	<string key="ui_invasion_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / {total}</string>
+	<string key="ui_backfill_auto_tooltip" comment="">Piocher automatiquement des joueurs dans la liste de réserve en fonction de leur ordre d'inscription.</string>
+	<string key="ui_backfill_manual_tooltip" comment="">Sélectionner manuellement les joueurs depuis la liste de réserve afin de pourvoir les postes vacants.</string>
+	<string key="ui_raid_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / {total}</string>
+	<string key="ui_invasion_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / {total}</string>
 	<string key="ui_promote_disabled_max_tooltip" comment="">Impossible de promouvoir davantage ce joueur</string>
 	<string key="ui_demote_disabled_min_tooltip" comment="">Impossible de rétrograder davantage ce joueur</string>
 	<string key="ui_remove_army" comment="">Retirer de l'armée</string>

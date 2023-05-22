@@ -11,7 +11,7 @@
 	<string key="ui_receivedgroupinvite_hide" comment="">Nascondi</string>
 	<string key="ui_togglepvpblocked_title" comment="">Avvertimento attivazione PvP</string>
 	<string key="ui_togglepvpblocked_ingroup" comment="">I giocatori PvP e PvE non possono trovarsi nello stesso gruppo. Modificando l'attivazione del PvP verrai espulso da questo gruppo.\n\nVuoi davvero modificare l'attivazione del PvP?</string>
-	<string key="ui_togglepvpblocked_pendinginvites" comment="">Modificando l'attivazione del PvP tutti gli inviti a gruppi in sospeso verranno annullati.\n\nVuoi davvero modificare l'attivazione del PvP?</string>
+	<string key="ui_togglepvpblocked_pendinginvites" comment="">Modificando l'attivazione del PvP tutti gli inviti alla lobby della spedizione verranno annullati.\n\nVuoi davvero modificare l'attivazione del PvP?</string>
 	<string key="ui_receivedwargroupinvitetitle" comment="">Unisciti alla guerra!</string>
 	<string key="ui_receivedwargroupinvitemessage" comment="">Sei stato invitato a partecipare alla guerra presso {territoryName} dalle {startTime} alle {endTime}. Accetta di essere teletrasportato al campo di battaglia.</string>
 	<string key="ui_receivedinvasiongroupinvitetitle" comment="">Difenditi dall'invasione!</string>
@@ -157,15 +157,18 @@
 	<string key="ui_pingTypeDistance" comment="">{pingType} {distance}</string>
 	<string key="ui_raid_war_header" comment="">Esercito per guerra</string>
 	<string key="ui_raid_invasion_header" comment="">Esercito per invasione</string>
-	<string key="ui_raid_standby_header" comment="">Lista d'ATTESA</string>
-	<string key="ui_raid_armygroups" comment="">Gruppi esercito.</string>
-	<string key="ui_raid_backfill" comment="">Sostituzione</string>
-	<string key="ui_raid_your_status" comment="">Il tuo stato.</string>
+	<string key="ui_raid_standby_header" comment="">IN ATTESA</string>
+	<string key="ui_raid_armygroups" comment="">Esercito</string>
+	<string key="ui_raid_backfill" comment="">Riempimento</string>
+	<string key="ui_raid_your_status" comment="">Il tuo stato</string>
 	<string key="ui_raid_standby_priority" comment="">PRIORITÀ</string>
 	<string key="ui_raid_group_header" comment="">Gruppo &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{index}&lt;/font&gt;</string>
+	<string key="ui_raid_group_disabled_tooltip" comment="">Ora le guerre supportano un massimo di {maxRosterMembers} giocatori. Non puoi aggiungere altri giocatori a questo gruppo.</string>
+	<string key="ui_raid_group_disabled_notification" comment="">Gruppo disattivato per raggiungimento del numero massimo di modifiche alla formazione.</string>
+	<string key="ui_raid_max_roster_changed_tooltip" comment="">Ora le guerre supportano un massimo di {maxRosterMembers} giocatori. Non potrai aggiungere altri giocatori oltre il nuovo tetto massimo.</string>
 	<string key="ui_raid_member_empty" comment="">Vuoto</string>
-	<string key="ui_raid_leave_button" comment="">Abbandona esercito</string>
-	<string key="ui_raid_leave_standby_button" comment="">Abbandona lista</string>
+	<string key="ui_raid_leave_button" comment="">Abbandona</string>
+	<string key="ui_raid_leave_standby_button" comment="">Abbandona</string>
 	<string key="ui_raid_fill_button" comment="">Riempi formazione</string>
 	<string key="ui_raid_signup_button" comment="">Iscriviti</string>
 	<string key="ui_auto" comment="">Auto</string>

@@ -854,7 +854,7 @@
 	<string key="DungeonReps6_GroupName">Réplicas da Importância de Lázaro</string>
 	<string key="DungeonReps7_GroupName">Réplicas do Jardim da Criação</string>
 	<string key="DungeonReps8_GroupName">NOME PENDENTE</string>
-	<string key="DungeonReps9_GroupName">NOME PENDENTE</string>
+	<string key="DungeonReps9_GroupName">Réplicas do Coração da Tempestade</string>
 	<string key="DungeonShields_GroupName">Escudos de Expedição</string>
 	<string key="Dye1_GroupDesc">Confeccione um dos diversos tons da Tintura Vermelha.</string>
 	<string key="Dye1_GroupName">Tintura Vermelha</string>
@@ -1376,6 +1376,10 @@
 	<string key="nut_GroupName">Castanhas</string>
 	<string key="Offensive_GroupName">Modificadores Ofensivos</string>
 	<string key="oil_GroupName">Óleo</string>
+	<string key="beeswax_GroupName">Cera de Abelha</string>
+	<string key="DroppedAmulet_GroupName">Amuletos Derrubados</string>
+	<string key="DroppedRing_GroupName">Anéis Derrubados</string>
+	<string key="DroppedEarring_GroupName">Brincos Derrubados</string>
 	<string key="OnyxCut_GroupDesc">Gemas de Ônix Lapidadas e Polidas. Podem ser transformadas em joias para aumentar Constituição ou fixadas em equipamentos para fornecer as vantagens Ímpeto e Proteção Física.</string>
 	<string key="OnyxCut_GroupName">Ônix Lapidado</string>
 	<string key="OpalCut_GroupDesc">Gemas de Opala Lapidadas e Polidas. Podem ser transformadas em joias para aumentar Foco ou fixadas em equipamentos para fornecer as vantagens Subterfúgio e Proteção Elemental.</string>
@@ -1695,7 +1699,7 @@
 	<string key="STRTrinkets_GroupDesc">Acessórios que aumentam o Atributo de Força.</string>
 	<string key="STRTrinkets_GroupName">Acessórios de Força</string>
 	<string key="SurvivalTools_GroupName">Ferramentas de Sobrevivência</string>
-	<string key="SwordA_GroupDesc">Um par de armas voltadas para combate corpo a corpo que, quando combinadas, oferecem capacidades ofensivas e defensivas sólidas. Utiliza uma combinação de golpes em arcos e estocadas para os ataques corpo a corpo e um Escudo para maximizar as defesas.\n\n•Ataque Leve: Causa {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]}% de Dano Cortante.\n•Finalizador Leve: Causa {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]}% de Dano Cortante.\n•Ataque Pesado: Causa {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]}% de Dano Perfurante.\n•Ataque Pesado Carregado: Causa {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]}% de Dano Perfurante.</string>
+	<string key="SwordA_GroupDesc">Um par de armas voltadas para combate corpo a corpo que, quando combinadas, oferecem sólidos recursos ofensivos e defensivos. Utiliza uma combinação de golpes em arcos e estocadas para os ataques e um escudo para maximizar as defesas.\n\n•Ataque Leve: Causa {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]}% de Dano Cortante.\n•Finalizador Leve: Causa {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]}% de Dano Cortante.\n•Ataque Pesado: Causa {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]}% de Dano Perfurante.\n•Ataque Pesado Carregado: Causa {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]}% de Dano Perfurante.</string>
 	<string key="SwordA_GroupName">Espada Reta</string>
 	<string key="SwordB_GroupDesc">Uma arma corpo a corpo voltada para a velocidade, com uma variedade de ataques de estocadas rápidas. Destaca-se nos movimentos na hora certa e em manobras evasivas contra os adversários, enquanto aplica sangramentos que drenam gradativamente a saúde do alvo.\n\n•Ataque Leve: Causa {[DamageTable.1H_Rapier_PrimaryAttack.DmgCoef * 100]}% de Dano Perfurante.\n•Cortes Médios Leves: Causa {[DamageTable.1H_Rapier_PrimaryTwoThirdsAttack.DmgCoef * 100]}% de Dano Perfurante.\n•Ataque Pesado: Causa {[DamageTable.1H_Rapier_HeavyAttack.DmgCoef * 100]}% de Dano Perfurante.</string>
 	<string key="SwordB_GroupName">Rapieira</string>
@@ -1785,7 +1789,6 @@
 	<string key="wood_GroupName">Madeiras</string>
 	<string key="WoodAny_CategoryName">Qualquer Madeira</string>
 	<string key="WorkOrder_GroupName">Ordens de Trabalho</string>
-	<string key="CategoryData_CookingRecipes">Receitas Culinárias</string>
 	<string key="Pattern">Padrões</string>
 	<string key="PatternRecipes">Receitas de padrão</string>
 	<string key="Lodestone">Magnetita</string>
@@ -1801,8 +1804,23 @@
 	<string key="TimelessShardsCon">Fragmentos Atemporais — Constituição</string>
 	<string key="ArmorShadow_GroupName">Andarilho das Sombras</string>
 	<string key="ArmorBeast_GroupName">Caçador de Feras</string>
-	<string key="CategoryData_EventConsumables" rel_version="Feature_RabbitSeason">Consumíveis de Evento</string>
-	<string key="ConsumableLuck_GroupName" rel_version="Feature_RabbitSeason">Consumíveis da Sorte</string>
+	<string key="CategoryData_EventConsumables">Consumíveis de Evento</string>
+	<string key="ConsumableLuck_GroupName" rel_version="Feature_RabbitSeasonPerm">Consumíveis da Sorte</string>
+	<string key="CategoryData_DyeIngredients" rel_version="Feature_RabbitSeasonPerm">Ingredientes de Tintura</string>
 	<string key="Blunderbuss_GroupName">Bacamartes</string>
+	<string key="PerfectSalvageArmor_Name">Restos de Armadura</string>
+	<string key="PerfectSalvageWeapons_Name">Restos de Arma</string>
+	<string key="PerfectSalvageJewelry_Name">Restos de Joia</string>
+	<string key="PerfectSalvageEngineer_Name">Restos de Engenharia</string>
+	<string key="PerfectSalvageArcane_Name">Restos de Arcano</string>
+	<string key="SalvageTier2_Name">Restos de Escala II</string>
+	<string key="SalvageTier3_Name">Restos de Escala III</string>
+	<string key="SalvageTier4_Name">Restos de Escala IV</string>
+	<string key="SalvageTier5_Name">Restos de Escala V</string>
+	<string key="Salvage">Sucatear Restos</string>
+	<string key="SalvageExtract">Extrair</string>
+	<string key="SalvageCreate">Criar</string>
+	<string key="SalvageResearch">Pesquisar</string>
+	<string key="SalvageCondense">Condensar</string>
 </resources>
 

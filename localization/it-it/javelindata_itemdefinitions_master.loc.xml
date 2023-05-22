@@ -51,10 +51,12 @@
 	<string key="Schematic_House_HousingItem_Windchimes_Post_C_MasterName" comment="NA-Basic">Schema: Palo degli scacciapensieri rotto</string>
 	<string key="CampSkin_Floral01_A_Description" comment="Player Camp Skin" rel_version="CampSkin_Floral_1">L'ambiente ideale per la crescita e la maturazione di un botanico in erba. Basta ricordarsi di innaffiarla!</string>
 	<string key="CampSkin_Floral01_A_MasterName" comment="Player Camp Skin" rel_version="CampSkin_Floral_1">Casa dell'erborista</string>
+	<string key="CampSkin_Fortune01_A_Description" comment="Player Camp Skin" rel_version="CampSkin_Fortune_1">Lettura della mano o dei tarocchi? In entrambi i casi la gente farà la fila fuori dalla tenda per ascoltare le tue previsioni.</string>
+	<string key="CampSkin_Fortune01_A_MasterName" comment="Player Camp Skin" rel_version="CampSkin_Fortune_1">Tenda del veggente</string>
+	<string key="CampSkin_Fortune02_A_Description" comment="Player Camp Skin" rel_version="CampSkin_Fortune_2">Trova riparo dal freddo e dalle aspre terre selvagge di Aeternum sotto le fasi della mutevole luna.</string>
+	<string key="CampSkin_Fortune02_A_MasterName" comment="Player Camp Skin" rel_version="CampSkin_Fortune_2">Tendone della luna piena</string>
 	<string key="CampSkin_Love01_A_Description" comment="Player Camp Skin" rel_version="CampSkin_Love_1">Condividere una tenda su Aeternum è una delle esperienze più intime che un avventuriero possa vivere, e questa è abbastanza capiente per trascorrere una notte romantica come l'hai sempre sognata.</string>
 	<string key="CampSkin_Love01_A_MasterName" comment="Player Camp Skin" rel_version="CampSkin_Love_1">Alloggio di Eros</string>
-	<string key="CampSkin_RPG01_A_Description" comment="Player Camp Skin" rel_version="CampSkin_ClassicRPG_1">Una tenda comoda e spaziosa per accontentare anche le creature più esigenti.</string>
-	<string key="CampSkin_RPG01_A_Mastername" comment="Player Camp Skin" rel_version="CampSkin_ClassicRPG_1">Riposo del Wyrm</string>
 	<string key="CampSkin_SilentDeath01_A_Description" comment="Player Camp Skin" rel_version="CampSkin_SilentDeath_1">Su Aeternum non c'è riposo eterno, ma in questa tenda puoi tranquillamente dormire come un morto.</string>
 	<string key="CampSkin_SilentDeath01_A_Mastername" comment="Player Camp Skin" rel_version="CampSkin_SilentDeath_1">Dimora della Mietitrice</string>
 	<string key="campskin_winter01_a_description" comment="Player Camp Skin" rel_version="CampSkin_Winter1">Un rifugio caldo e confortevole.</string>
@@ -787,8 +789,6 @@
 	<string key="0411_0414_StarstoneDiadem_Description">Una corona sfavillante con una pietra stellare al centro.</string>
 	<string key="0425_0101_Truffle">Tartufo delizioso</string>
 	<string key="0425_0101_Truffle_Description">Un fungo pesante e saporito, utilizzato in diverse gustosissime preparazioni.</string>
-	<string key="0426_TwistedLifeMagicEssence" rel_version="Quest_Progression_LifeStaff">Essenza di magia della vita perversa</string>
-	<string key="0426_TwistedLifeMagicEssence_Description" rel_version="Quest_Progression_LifeStaff">Una raccolta di magia della vita che in qualche modo è stata contaminata, corrotta in modo orribile.</string>
 	<string key="05_Battle_Plans_Description">Oggetto della guerra tra fazioni</string>
 	<string key="05_Battle_Plans_Mastername">Piani di battaglia di Acquafetida</string>
 	<string key="05_Secret_Orders_Description">Oggetto della guerra tra fazioni</string>
@@ -1453,8 +1453,6 @@
 	<string key="1128_Helmet_Description">Un elmo finemente lavorato dallo stile d'altri tempi.</string>
 	<string key="1128_Sword">Spada con elsa a cesto pregiata</string>
 	<string key="1128_Sword_Description">La sua lama è robusta e crudelmente affilata.</string>
-	<string key="1133_Handbill" rel_version="Quest_Progression_Blunderbuss">Foglietto stampato</string>
-	<string key="1133_Handbill_Description" rel_version="Quest_Progression_Blunderbuss">Un foglietto stampato contenente una mappa.</string>
 	<string key="1201_0104_ShipsFlag_Description">Una bandiera strappata da un relitto abbandonato. [Oggetto della missione]</string>
 	<string key="1201_0104_ShipsFlag_MasterName">Bandiera della nave</string>
 	<string key="1202_0501_PiratedWeapons">Armi saccheggiate</string>
@@ -1501,10 +1499,6 @@
 	<string key="1210_0201_DaggerWine_Description">Una fiaschetta di vino fatta per essere nascosta come una daga, usata spesso dall'equipaggio della Daga.</string>
 	<string key="1210_0201_MistWine">Vino della Foschia grigia</string>
 	<string key="1210_0201_MistWine_Description">Vino nascosto in una brocca a forma di zucca. I marinai della Foschia grigia usavano queste brocche per rappresentare la fortuna.</string>
-	<string key="1224_Viking_Ceremonial_Dagger_description" rel_version="Quest_Progression_SwordShield">Una daga cerimoniale appartenuta al clan perduto di Unfrid.</string>
-	<string key="1224_Viking_Ceremonial_Dagger_MasterName" rel_version="Quest_Progression_SwordShield">Daga di Revna</string>
-	<string key="1224_Viking_Ceremonial_Goblet_description" rel_version="Quest_Progression_SwordShield">Un calice cerimoniale appartenuto al clan perduto di Unfrid.</string>
-	<string key="1224_Viking_Ceremonial_Goblet_MasterName" rel_version="Quest_Progression_SwordShield">Calice di Revna</string>
 	<string key="1225_0101_GiacomoNotebook">Taccuino di Giacomo</string>
 	<string key="1225_0101_GiacomoNotebook_Description">Un taccuino pieno di complessi calcoli, appunti e bozzetti architettonici.</string>
 	<string key="1225_0301_FreshWitheredBlood">Sangue fresco di Avvizzito</string>
@@ -1939,8 +1933,6 @@
 	<string key="1hGauntletIce_PilgrimagesEndT5_MasterName">Fine del pellegrinaggio</string>
 	<string key="1hGauntletIce_PromiseofMalevolenceT5_Description">"Non c'è promessa più dolce di quella di Malevolenza quando finalmente si realizzò."</string>
 	<string key="1hGauntletIce_PromiseofMalevolenceT5_MasterName">Promessa di Malevolenza</string>
-	<string key="1hGauntletIce_PVP_Named_Description" rel_version="PvP_Rewards_Track">Fai piovere terrore sui tuoi nemici.</string>
-	<string key="1hGauntletIce_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Falciata</string>
 	<string key="1hGauntletIce_QuestL17_Description">Un'arma di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
 	<string key="1hGauntletIce_QuestL17_MasterName">Guanto di ghiaccio da avventuriero</string>
 	<string key="1hGauntletIce_QuestL28_Description">Un'arma di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
@@ -2341,8 +2333,6 @@
 	<string key="1hGauntletVoid_PiercingHorrorT5_MasterName" rel_version="Weapon_Void_Gauntlet">Orrore penetrante</string>
 	<string key="1hGauntletVoid_PutridPitT4_Description" rel_version="Weapon_Void_Gauntlet">"Urla chiedendo aiuto, ma è troppo in fondo perché qualcuno lo senta."</string>
 	<string key="1hGauntletVoid_PutridPitT4_MasterName" rel_version="Weapon_Void_Gauntlet">Pozzo putrido</string>
-	<string key="1hGauntletVoid_PVP_Named_Description" rel_version="PvP_Rewards_Track">Ti protegge e colpisce i tuoi nemici proprio come fa un medico militare.</string>
-	<string key="1hGauntletVoid_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Artiglio della sentinella</string>
 	<string key="1hGauntletVoid_RagingGreedT5_Description" rel_version="Weapon_Void_Gauntlet">"Dopo aver assaggiato il potere del Vuoto si diventa insaziabili."</string>
 	<string key="1hGauntletVoid_RagingGreedT5_MasterName" rel_version="Weapon_Void_Gauntlet">Avidità furiosa</string>
 	<string key="1hGauntletVoid_RagingPainT3_Description" rel_version="Weapon_Void_Gauntlet">"Il tuo corpo urla agonizzante."</string>
@@ -2681,8 +2671,6 @@
 	<string key="1hkiteshield_lazarus_mutt5_mastername" rel_version="LI_Mut_Weapon">Scudo a goccia d'osso</string>
 	<string key="1hkiteshield_myrkgard_mutt5_description" rel_version="M_Mut_Weapon">Non sarà facile scalfirne lo spesso ferro corrotto.</string>
 	<string key="1hkiteshield_myrkgard_mutt5_mastername" rel_version="M_Mut_Weapon">Scudo a goccia insudiciato</string>
-	<string key="1hKiteShield_PVP_Named_Description" rel_version="PvP_Rewards_Track">Incantato per proteggere, ma non dal suo dissennato proprietario precedente.</string>
-	<string key="1hKiteShield_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Il Wyrd</string>
 	<string key="1hkiteshieldancient2ancestralt5_description">"Forse gli antichi usavano gli scudi a goccia come presagio delle lacrime del nemico."</string>
 	<string key="1hkiteshieldancient2ancestralt5_mastername">Scudo a goccia ancestrale</string>
 	<string key="1hkiteshieldancientelitet5_description">"Questi cristalli non si rompono sotto i colpi, ma li assorbono."</string>
@@ -3155,8 +3143,6 @@
 	<string key="1hLongsword_PromiseofPowerT4_MasterName" rel_version="DS_Mut_Weapon">Promessa di potere</string>
 	<string key="1hLongsword_PureOfHeartT2_Description">"Molti cavalieri si sono scontrati con i draghi. Molti hanno fallito."</string>
 	<string key="1hLongsword_PureOfHeartT2_MasterName">Puro di cuore</string>
-	<string key="1hLongsword_PVP_Named_Description" rel_version="PvP_Rewards_Track">La sconfitta perdura finché il campione non trionfa per entrare nella leggenda.</string>
-	<string key="1hLongsword_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Spada del campione</string>
 	<string key="1hLongsword_QuestL23_Description">Un'arma di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
 	<string key="1hLongsword_QuestL23_MasterName">Spada da avventuriero</string>
 	<string key="1hLongsword_QuestL40_Description">Un'arma di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
@@ -3734,8 +3720,6 @@
 	<string key="1hRapier_ProwlersPunishmentT4_MasterName">Punizione del predatore</string>
 	<string key="1hRapier_PutridFishboneT5_Description">"Come una lisca di pesce conficcata in gola, è meglio non immaginare da quanto tempo questo stocco ammuffisce nelle fauci di Putris.</string>
 	<string key="1hRapier_PutridFishboneT5_MasterName">Lisca di Putrid</string>
-	<string key="1hRapier_PVP_Named_Description" rel_version="PvP_Rewards_Track">Un'arma scolpita, fornita agli ufficiali come segno distintivo del proprio rango.</string>
-	<string key="1hRapier_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Cerimonia dell'ufficiale</string>
 	<string key="1hRapier_QueensguardT5_Description">"Dai la vita per la tua regina, se proprio devi!"</string>
 	<string key="1hRapier_QueensguardT5_MasterName">Difesa della regina</string>
 	<string key="1hRapier_QuestL17_Description">Un'arma di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
@@ -4090,8 +4074,6 @@
 	<string key="1hroundshield_lazarus_mutt5_mastername" rel_version="LI_Mut_Weapon">Brocchiero d'osso</string>
 	<string key="1hroundshield_myrkgard_mutt5_description" rel_version="M_Mut_Weapon">Uno scudo del genere non si forgia, si coltiva.</string>
 	<string key="1hroundshield_myrkgard_mutt5_mastername" rel_version="M_Mut_Weapon">Brocchiero insudiciato</string>
-	<string key="1hRoundShield_PVP_Named_Description" rel_version="PvP_Rewards_Track">Protegge saldamente il tuo bene più importante: la capacità di agire.</string>
-	<string key="1hRoundShield_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Presa protetta</string>
 	<string key="1hRoundShield_QuestL24_Description">Un'arma di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
 	<string key="1hRoundShield_QuestL24_MasterName">Scudo rotondo da avventuriero</string>
 	<string key="1hRoundShield_QuestL7_Description">Un'arma di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
@@ -4936,8 +4918,6 @@
 	<string key="1hThrowingAxe_PortofCallT2_MasterName">Porto di scalo</string>
 	<string key="1hThrowingAxe_PridefulMisstepT4_Description">"Tutti rimasero a osservare, mentre marciava inconsapevole verso la propria disfatta."</string>
 	<string key="1hThrowingAxe_PridefulMisstepT4_MasterName">Peccato di superbia</string>
-	<string key="1hThrowingAxe_PVP_Named_Description" rel_version="PvP_Rewards_Track">La rabbia ti inonda da un braccio all'altro.</string>
-	<string key="1hThrowingAxe_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Ascia del berserker</string>
 	<string key="1hThrowingAxe_QuestL23_Description">Un'arma di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
 	<string key="1hThrowingAxe_QuestL23_MasterName">Accetta da avventuriero</string>
 	<string key="1hThrowingAxe_QuestL28_Description">Un'arma di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
@@ -5279,8 +5259,6 @@
 	<string key="1htowershield_lazarus_mutt5_mastername" rel_version="LI_Mut_Weapon">Scudo a torre d'osso</string>
 	<string key="1htowershield_myrkgard_mutt5_description" rel_version="M_Mut_Weapon">Le energie corrotte ti pervadono, implorandoti di accoglierle anche solo per un po'...</string>
 	<string key="1htowershield_myrkgard_mutt5_mastername" rel_version="M_Mut_Weapon">Scudo a torre insudiciato</string>
-	<string key="1hTowerShield_PVP_Named_Description" rel_version="PvP_Rewards_Track">Non puoi cadere.</string>
-	<string key="1hTowerShield_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Palizzata</string>
 	<string key="1htowershieldancient2ancestralt5_description">Uno scudo alto prodotto da antico un popolo.</string>
 	<string key="1htowershieldancient2ancestralt5_mastername">Scudo a torre ancestrale</string>
 	<string key="1htowershieldancientelitet5_description">"Non farti ingannare: questi cristalli sono duri come diamanti e non si spezzano facilmente."</string>
@@ -5536,8 +5514,6 @@
 	<string key="2hBlunderbuss_PowderKegT4_MasterName" rel_version="Weapon_Blunderbuss">Barile di polvere da sparo</string>
 	<string key="2hBlunderbuss_PracticalDesignT5_Description" rel_version="Weapon_Blunderbuss">Questa affidabile arma è una garanzia.</string>
 	<string key="2hBlunderbuss_PracticalDesignT5_MasterName" rel_version="Weapon_Blunderbuss">Funzionale</string>
-	<string key="2hBlunderbuss_PVP_Named_Description" rel_version="PvP_Rewards_Track">Fai a pezzi le linee nemiche.</string>
-	<string key="2hBlunderbuss_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Sparo furioso</string>
 	<string key="2hBlunderbuss_RabbitHuntersBlunderbussT5_Description" rel_version="Weapon_Blunderbuss">"Qualunque fosse il suo intento iniziale, quest'arma è passata a scopi più sinistri."</string>
 	<string key="2hBlunderbuss_RabbitHuntersBlunderbussT5_MasterName" rel_version="Weapon_Blunderbuss">Schioppo del cacciatore di conigli</string>
 	<string key="2hBlunderbuss_RadigahT5_Description" rel_version="Weapon_Blunderbuss">Quest'arma e la sua compagna sono state battezzate da chi le possedeva. Non sono più state impugnate insieme da quando sono andate perdute.</string>
@@ -5666,8 +5642,6 @@
 	<string key="2hBlunderbussCorruptedT4_MasterName" rel_version="Weapon_Blunderbuss">Schioppo contaminato</string>
 	<string key="2hBlunderbussCorruptedT5_Description" rel_version="Weapon_Blunderbuss">Uno schioppo che a un certo punto pare venisse utilizzato dai Corrotti.</string>
 	<string key="2hBlunderbussCorruptedT5_MasterName" rel_version="Weapon_Blunderbuss">Schioppo contaminato</string>
-	<string key="2hBlunderbussCraftedDungeon3T4_Description" rel_version="TEST_ONLY">La replica di uno schioppo trovato nelle caverne di Eridano.</string>
-	<string key="2hBlunderbussCraftedDungeon3T4_MasterName" rel_version="TEST_ONLY">Schioppo della vedetta della caverna</string>
 	<string key="2hBlunderbussCraftedDungeon4T4_Description" rel_version="Weapon_Blunderbuss">La replica di uno schioppo trovato nelle Profondità.</string>
 	<string key="2hBlunderbussCraftedDungeon4T4_MasterName" rel_version="Weapon_Blunderbuss">Schioppo del sorvegliante della Profondità</string>
 	<string key="2hBlunderbussCraftedDungeon5T4_Description" rel_version="Weapon_Blunderbuss">La replica di uno schioppo trovato nel cantiere navale della dinastia.</string>
@@ -5692,10 +5666,6 @@
 	<string key="2hBlunderbussDrownedT4_MasterName" rel_version="Weapon_Blunderbuss">Schioppo imbevuto</string>
 	<string key="2hBlunderbussDrownedT5_Description" rel_version="Weapon_Blunderbuss">"Non so se la polvere da sparo sarà ancora in grado di accendersi."</string>
 	<string key="2hBlunderbussDrownedT5_MasterName" rel_version="Weapon_Blunderbuss">Schioppo imbevuto</string>
-	<string key="2hBlunderbussDungeon10T5_Description" rel_version="Expedition_MourningDale_00">REPLACEME</string>
-	<string key="2hBlunderbussDungeon10T5_MasterName" rel_version="Expedition_MourningDale_00">REPLACEME</string>
-	<string key="2hBlunderbussDungeon3T4_Description" rel_version="TEST_ONLY">REPLACEME</string>
-	<string key="2hBlunderbussDungeon3T4_MasterName" rel_version="TEST_ONLY">REPLACEME</string>
 	<string key="2hBlunderbussDungeon4T4_Description" rel_version="Weapon_Blunderbuss">Uno schioppo trovato nelle Profondità.</string>
 	<string key="2hBlunderbussDungeon4T4_MasterName" rel_version="Weapon_Blunderbuss">Schioppo del sorvegliante della Profondità</string>
 	<string key="2hBlunderbussDungeon5T4_Description" rel_version="Weapon_Blunderbuss">Uno schioppo trovato nel cantiere navale della dinastia.</string>
@@ -5704,8 +5674,6 @@
 	<string key="2hBlunderbussDungeon6T5_MasterName" rel_version="Weapon_Blunderbuss">Schioppo del sorvegliante di Lazzaro</string>
 	<string key="2hBlunderbussDungeon7T5_Description" rel_version="Weapon_Blunderbuss">Uno schioppo trovato nel Giardino della Genesi.</string>
 	<string key="2hBlunderbussDungeon7T5_MasterName" rel_version="Weapon_Blunderbuss">Schioppo del custode del giardino</string>
-	<string key="2hBlunderbussDungeon8T5_Description" rel_version="Expedition_BrimstoneSands_00">REPLACEME</string>
-	<string key="2hBlunderbussDungeon8T5_MasterName" rel_version="Expedition_BrimstoneSands_00">REPLACEME</string>
 	<string key="2hBlunderbussDungeon9T5_Description" rel_version="Weapon_Blunderbuss">Uno schioppo trovato nel Cuore della Tempesta.</string>
 	<string key="2hBlunderbussDungeon9T5_MasterName" rel_version="Weapon_Blunderbuss">Schioppo del cuore corrotto</string>
 	<string key="2hBlunderbussDynastyEliteT5_Description" rel_version="Weapon_Blunderbuss">Non è nato come arma, ma funge più che bene allo scopo.</string>
@@ -5716,10 +5684,6 @@
 	<string key="2hBlunderbussDynastyT5_MasterName" rel_version="Weapon_Blunderbuss">Schioppo contaminato</string>
 	<string key="2hBlunderbussInvasionT5_Description" rel_version="Weapon_Blunderbuss">Uno schioppo forgiato per le invasioni.</string>
 	<string key="2hBlunderbussInvasionT5_MasterName" rel_version="Weapon_Blunderbuss">Schioppo da invasione</string>
-	<string key="2hBlunderbussLegionEliteT5_Description" rel_version="Weapon_Legion">REPLACEME</string>
-	<string key="2hBlunderbussLegionEliteT5_MasterName" rel_version="Weapon_Legion">REPLACEME</string>
-	<string key="2hBlunderbussLegionT5_Description" rel_version="Weapon_Legion">REPLACEME</string>
-	<string key="2hBlunderbussLegionT5_MasterName" rel_version="Weapon_Legion">REPLACEME</string>
 	<string key="2hBlunderbussLostEliteT5_Description" rel_version="Weapon_Blunderbuss">Un'arma incredibilmente infestata.</string>
 	<string key="2hBlunderbussLostEliteT5_MasterName" rel_version="Weapon_Blunderbuss">Arma spaventosa</string>
 	<string key="2hBlunderbussLostT4_Description" rel_version="Weapon_Blunderbuss">Uno schioppo che pare sia stato utilizzato dai Perduti per parecchio tempo.</string>
@@ -6034,8 +5998,6 @@
 	<string key="2hBow_PoisonstrikeT3_MasterName">Colpo avvelenato</string>
 	<string key="2hBow_PrecisionT5_Description">"La tua freccia trova sempre il bersaglio."</string>
 	<string key="2hBow_PrecisionT5_MasterName">Precisione</string>
-	<string key="2hBow_PVP_Named_Description" rel_version="PvP_Rewards_Track">Un'arma unica e di grande qualità, realizzata da un abile fabbro.</string>
-	<string key="2hBow_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Orgoglio dell'arciere</string>
 	<string key="2hBow_QuestL36_Description">Un'arma di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
 	<string key="2hBow_QuestL36_MasterName">Arco da avventuriero</string>
 	<string key="2hBow_RecurveoftheDarkGodsT5_Description">"Questo arco è pervaso da forze oscure dalle origini antiche, che ancora non riusciamo a comprendere appieno."</string>
@@ -6806,8 +6768,6 @@
 	<string key="2hGreataxe_PestilenceT5_MasterName">Pestilenza</string>
 	<string key="2hGreataxe_PlaguebringerT5_Description">"Se la mia ascia non riesce a ucciderti, lo farà il morbo di cui è impregnata."</string>
 	<string key="2hGreataxe_PlaguebringerT5_MasterName">Appestatrice</string>
-	<string key="2hGreatAxe_PVP_Named_Description" rel_version="PvP_Rewards_Track">Avvicinati ai tuoi nemici e impedisci loro di allontanarsi.</string>
-	<string key="2hGreatAxe_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Ghirlanda violenta</string>
 	<string key="2hGreatAxe_QuestL14_Description">Un'arma di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
 	<string key="2hGreatAxe_QuestL14_MasterName">Ascia grande da avventuriero</string>
 	<string key="2hGreatAxe_QuestL35_Description">Un'arma di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
@@ -7151,14 +7111,14 @@
 	<string key="2hGreataxeShadowbringerT4_MasterName">Ascia grande del portatore di ombra</string>
 	<string key="2hgreataxesiren_st5_description">"L'incantevole voce della sirena riecheggia nella tua mente, e subito si aggiunge il coro di coloro che hanno dimenticato il proprio passato."</string>
 	<string key="2hgreataxesiren_st5_mastername">Quartina perduta dell'oceano</string>
-	<string key="2hGreatAxeT2_Description" rel_version="Weapon_GreatSword">A 2 mani. Un'ascia grande fatta di ferro. Sfrutta esclusivamente la forza per infliggere danni.</string>
-	<string key="2hGreatAxeT2_MasterName" rel_version="Weapon_GreatSword">Ascia grande di ferro</string>
-	<string key="2hGreatAxeT3_Description" rel_version="Weapon_GreatSword">A 2 mani. Un'ascia grande fatta di acciaio. Sfrutta esclusivamente la forza per infliggere danni.</string>
-	<string key="2hGreatAxeT3_MasterName" rel_version="Weapon_GreatSword">Ascia grande di acciaio</string>
-	<string key="2hGreatAxeT4_Description" rel_version="Weapon_GreatSword">A 2 mani. Un'ascia grande fatta di metallo stellare. Sfrutta esclusivamente la forza per infliggere danni.</string>
-	<string key="2hGreatAxeT4_MasterName" rel_version="Weapon_GreatSword">Ascia grande di metallo stellare</string>
-	<string key="2hGreatAxeT5_Description" rel_version="Weapon_GreatSword">A 2 mani. Un'ascia grande fatta di oricalco. Sfrutta esclusivamente la forza per infliggere danni.</string>
-	<string key="2hGreatAxeT5_MasterName" rel_version="Weapon_GreatSword">Ascia grande di oricalco</string>
+	<string key="2hGreatAxeT2_Description">A 2 mani. Un'ascia grande fatta di ferro. Sfrutta esclusivamente la forza per infliggere danni.</string>
+	<string key="2hGreatAxeT2_MasterName">Ascia grande di ferro</string>
+	<string key="2hGreatAxeT3_Description">A 2 mani. Un'ascia grande fatta di acciaio. Sfrutta esclusivamente la forza per infliggere danni.</string>
+	<string key="2hGreatAxeT3_MasterName">Ascia grande di acciaio</string>
+	<string key="2hGreatAxeT4_Description">A 2 mani. Un'ascia grande fatta di metallo stellare. Sfrutta esclusivamente la forza per infliggere danni.</string>
+	<string key="2hGreatAxeT4_MasterName">Ascia grande di metallo stellare</string>
+	<string key="2hGreatAxeT5_Description">A 2 mani. Un'ascia grande fatta di oricalco. Sfrutta esclusivamente la forza per infliggere danni.</string>
+	<string key="2hGreatAxeT5_MasterName">Ascia grande di oricalco</string>
 	<string key="2hGreatAxeViciousT3_Description">DESCRIPTION PENDING</string>
 	<string key="2hGreatAxeViciousT3_MasterName">Ascia grande malvagia</string>
 	<string key="2hGreatAxeViciousT4_Description">DESCRIPTION PENDING</string>
@@ -7199,8 +7159,6 @@
 	<string key="2HHammerCharmT5_MasterName">Portafortuna di metallo stellare per martello da guerra rinforzato</string>
 	<string key="2HHammerCharmT6_Description">Materiale da produzione dotato di una sintonia con il vantaggio Sentiero del destino assorbi-vita.</string>
 	<string key="2HHammerCharmT6_MasterName">Portafortuna di oricalco per martello da guerra rinforzato</string>
-	<string key="2hInstrumentFluteT1_Description" rel_version="Feature_MusicalPerformances">A 2 mani. Un pregiato strumento a fiato per esibizioni musicali.</string>
-	<string key="2hInstrumentFluteT1_MasterName" rel_version="Feature_MusicalPerformances">Flauto di legno</string>
 	<string key="2hKiteShield_TempestuousKShieldT5_Description" rel_version="Quest_Expedition_Myrkgard">La furia della Tempesta colpisce anche i nemici più vigili.</string>
 	<string key="2hKiteShield_TempestuousKShieldT5_MasterName" rel_version="Quest_Expedition_Myrkgard">Scudo a goccia tempestoso</string>
 	<string key="2hKiteShieldCraftedDungeon1T3_Description">La replica di uno scudo a goccia trovata nelle profondità del Tempio di Amrine.</string>
@@ -7642,8 +7600,6 @@
 	<string key="2hMusket_PristineSniperRifleT5_MasterName">Fucile di precisione immacolato</string>
 	<string key="2hMusket_PrizeWinningRifleT5_Description">"Primo premio alla fiera dell'insediamento."</string>
 	<string key="2hMusket_PrizeWinningRifleT5_MasterName">Fucile da primo premio</string>
-	<string key="2hMusket_PVP_Named_Description" rel_version="PvP_Rewards_Track">Concentrati su ciò che hai di fronte e focalizza l'attenzione sul combattimento.</string>
-	<string key="2hMusket_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Consapevolezza</string>
 	<string key="2hMusket_QueensShotT5_Description">"Fece costruire quest'arma a mano secondo le sue specifiche. Non sbagliò un colpo."</string>
 	<string key="2hMusket_QueensShotT5_MasterName">Colpo della regina</string>
 	<string key="2hMusket_QuestL14_Description">Un'arma di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
@@ -8288,8 +8244,6 @@
 	<string key="2hSpear_PikeoftheWoodMistressT4_MasterName">Picca della Signora dei boschi</string>
 	<string key="2hSpear_PoseidonsTridentT5_Description">"I mari obbediscono ai tuoi ordini."</string>
 	<string key="2hSpear_PoseidonsTridentT5_MasterName">Tridente di Poseidone</string>
-	<string key="2hSpear_PVP_Named_Description" rel_version="PvP_Rewards_Track">La testa dello schieramento non può spezzarsi.</string>
-	<string key="2hSpear_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Punta del fronte</string>
 	<string key="2hSpear_QuestL24_Description">Un'arma di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
 	<string key="2hSpear_QuestL24_MasterName">Lancia da avventuriero</string>
 	<string key="2hSpear_QuestReward_Constable_Description">Questa lancia da caccia modificata garantisce un illusorio senso di sicurezza in una terra pericolosa.</string>
@@ -8893,8 +8847,6 @@
 	<string key="2hStaffFire_PrimeResolveT5_MasterName">Solida determinazione</string>
 	<string key="2hStaffFire_PurestIntentionsT3_Description">"Fatti avanti e solleva il bastone. La tua volontà è il suo potere. I tuoi desideri saranno rivelati nella fiamma di assoluta purezza."</string>
 	<string key="2hStaffFire_PurestIntentionsT3_MasterName">Intenzioni purissime</string>
-	<string key="2hStaffFire_PVP_Named_Description" rel_version="PvP_Rewards_Track">Guai a sottovalutarne la fiamma.</string>
-	<string key="2hStaffFire_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Stecca di selce</string>
 	<string key="2hStaffFire_PyromaniacT5_Description">"Un po' di fuoco qui, un altro po' là. Fuoco ovunque!"</string>
 	<string key="2hStaffFire_PyromaniacT5_MasterName">Piromane</string>
 	<string key="2hStaffFire_QuestL19_Description">Un'arma di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
@@ -9476,8 +9428,6 @@
 	<string key="2hStaffLife_PeacefulDreamT2_MasterName">Sogno placido</string>
 	<string key="2hStaffLife_PermafrostLifeStaffT5_Description">"Il freddo non è solo e sempre causa di morte. Può anche conservare la vita e tenerci al sicuro."</string>
 	<string key="2hStaffLife_PermafrostLifeStaffT5_MasterName">Bastone della vita dei ghiacciai perenni</string>
-	<string key="2hStaffLife_PVP_Named_Description" rel_version="PvP_Rewards_Track">Al contrario del fango, la vita sgorga e scorre.</string>
-	<string key="2hStaffLife_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">La fonte</string>
 	<string key="2hStaffLife_QuestL33_Description">Un'arma di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
 	<string key="2hStaffLife_QuestL33_MasterName">Bastone della vita da avventuriero</string>
 	<string key="2hStaffLife_QuestL5_Description">Un'arma di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
@@ -10167,8 +10117,6 @@
 	<string key="2hWarhammer_PrismaticMaulT4_MasterName">Maglio prismatico</string>
 	<string key="2hWarhammer_PristineDawnT2_Description">"Che illumini la tua via quando intorno a te c'è solo oscurità."</string>
 	<string key="2hWarhammer_PristineDawnT2_MasterName">Alba incontaminata</string>
-	<string key="2hWarhammer_PVP_Named_Description" rel_version="PvP_Rewards_Track">Cade con un certo... peso.</string>
-	<string key="2hWarhammer_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Massa</string>
 	<string key="2hWarhammer_QuestL12_Description">Un'arma di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
 	<string key="2hWarhammer_QuestL12_MasterName">Martello da guerra da avventuriero</string>
 	<string key="2hWarhammer_QuestL38_Description">Un'arma di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
@@ -11318,9 +11266,9 @@
 	<string key="AzothOilT2_MasterName">Fiala di olio di Azoth</string>
 	<string key="AzothOilT3_Description">Materiale da produzione dotato di una sintonia con il vantaggio Brindisi duplicante.</string>
 	<string key="AzothOilT3_MasterName">Dose di olio di Azoth</string>
-	<string key="AzothSaltVialT1_Two_Description">Ciascuna di queste due fiale contiene 850 unità di sale di Azoth. Apri le fiale per aggiungere sale di Azoth al tuo totale.</string>
+	<string key="AzothSaltVialT1_Two_Description">Ciascuna di queste due fiale contiene 1000 unità di sale di Azoth. Apri le fiale per aggiungere sale di Azoth al tuo totale.</string>
 	<string key="AzothSaltVialT1_Two_MasterName">Due fiale di sale di Azoth</string>
-	<string key="AzothSaltVialT1_Three_Description">Ciascuna di queste tre fiale contiene 850 unità di sale di Azoth. Apri le fiale per aggiungere sale di Azoth al tuo totale.</string>
+	<string key="AzothSaltVialT1_Three_Description">Ciascuna di queste tre fiale contiene 1000 unità di sale di Azoth. Apri le fiale per aggiungere sale di Azoth al tuo totale.</string>
 	<string key="AzothSaltVialT1_Three_MasterName">Tre fiale di sale di Azoth</string>
 	<string key="AzothShardT1_Description">Un frammento di cristallo di Azoth, utilizzato per potenziare le parti di armatura.</string>
 	<string key="AzothShardT1_MasterName">Scheggia di Azoth</string>
@@ -13834,7 +13782,7 @@
 	<string key="EarringT5_DoomsChanceEarring_MasterName">Orecchino del tiro del fato</string>
 	<string key="EarringT5_EarringoftheHallowedSoul_MasterName">Orecchino dell'anima consacrata</string>
 	<string key="EarringT5_EvangelineProphecyHook_MasterName">Gancetto della profezia evangelica</string>
-	<string key="EarringT5_FancifulEarring_Description">Temi di aver solo immaginato questo orecchino. It's not to easy to tell truth from fiction in The Tempest.</string>
+	<string key="EarringT5_FancifulEarring_Description">Temi di aver solo immaginato questo orecchino. Nella Tempesta non è facile distinguere la verità dall'illusione.</string>
 	<string key="EarringT5_FancifulEarring_MasterName">Orecchino fantasioso</string>
 	<string key="EarringT5_FelixFollowToken_MasterName">Pegno del seguace di Felix</string>
 	<string key="EarringT5_GoG_Mut_Description" rel_version="Feature_Dungeon_Mutators">Caduto tra radici contorte e mai più ritrovato fino a quando non hai avuto la fortuna di imbattertici.</string>
@@ -13966,12 +13914,8 @@
 	<string key="EtchedHandguardT5_MasterName">Paramano inciso</string>
 	<string key="eternalicet1_description">Un materiale da produzione di rarità straordinaria.</string>
 	<string key="eternalicet1_mastername">Ghiaccio eterno</string>
-	<string key="EvergreenArmorShardT5_Description" rel_version="Feature_Dungeon_Mutators_pt2">Un frammento di armatura ammantato da un'aura di magia della natura.</string>
-	<string key="EvergreenArmorShardT5_MasterName" rel_version="Feature_Dungeon_Mutators_pt2">Scheggia di armatura sempreverde</string>
 	<string key="EvergreenResinT1_Description" rel_version="MorePerksV2">Materiale da produzione dotato di una sintonia con il vantaggio Natura elusiva.</string>
 	<string key="EvergreenResinT1_MasterName" rel_version="MorePerksV2">Resina sempreverde</string>
-	<string key="EvergreenWeaponShardT5_Description" rel_version="Feature_Dungeon_Mutators_pt2">Un frammento di arma ammantato da un'aura di magia della natura.</string>
-	<string key="EvergreenWeaponShardT5_MasterName" rel_version="Feature_Dungeon_Mutators_pt2">Scheggia di arma sempreverde</string>
 	<string key="ExpeditionBackstory_DescriptionItem_Description">Il personaggio fornito è pensato per essere rappresentativo dei risultati ottenuti dal giocatore quando raggiunge naturalmente questo livello. Gli slot per le gemme e i vantaggi degli attributi potrebbero essere limitati, con punteggio attrezzatura leggermente inferiore a quella che il giocatore è in grado di equipaggiare.</string>
 	<string key="ExpeditionBackstory_DescriptionItem_MasterName">Personaggio predefinito da spedizione</string>
 	<string key="Faction_Armaments01_T2_Description">Un deposito di armi per depredare i nostri nemici</string>
@@ -15272,6 +15216,8 @@
 	<string key="FishingSummerMedleySturgeonMediumT3_MasterName" rel_version="Event_Summer_Temp">Storione medio di Aeternum</string>
 	<string key="FishingSummerMedleySturgeonLargeT3_Description" rel_version="Event_Summer_Temp">Uno storione grande di Aeternum. Aprilo e scambia ciò che ha dentro con gettoni estivi alla fiera!</string>
 	<string key="FishingSummerMedleySturgeonLargeT3_MasterName" rel_version="Event_Summer_Temp">Storione grande di Aeternum</string>
+	<string key="FishingSummerMedleyCacheT3_Description" rel_version="Event_Summer_Temp">Una ricca scorta di oggetti dedicati alla fiera estiva! Scopri cosa contiene!</string>
+	<string key="FishingSummerMedleyCacheT3_MasterName" rel_version="Event_Summer_Temp">Nascondiglio della fiera</string>
 	<string key="FishOilT1_Description">Olio di fegato di pesce, un componente importante dell'olio da cucina.</string>
 	<string key="FishOilT1_MasterName">Olio di pesce</string>
 	<string key="FishRoeT1_Description">Una delicatezza in alcune parti del mondo, incluso l'Aeternum.</string>
@@ -15988,16 +15934,12 @@
 	<string key="FragmentedMusketT1_MasterName">Moschetto frammentato</string>
 	<string key="FrogfishTailT1_Description">La coda di un pesce rana.</string>
 	<string key="FrogfishTailT1_MasterName">Coda di pesce rana</string>
-	<string key="FrozenArmorShardT5_Description" rel_version="Feature_Dungeon_Mutators_pt3">Il frammento gelido di un'armatura, perennemente freddo al tatto.</string>
-	<string key="FrozenArmorShardT5_MasterName" rel_version="Feature_Dungeon_Mutators_pt3">Scheggia di armatura ghiacciata</string>
 	<string key="FrozenFangT1_Description">Materiale da produzione dotato di una sintonia con il vantaggio Fatale.</string>
 	<string key="FrozenFangT1_MasterName">Zanna gelida</string>
 	<string key="FrozenFangT2_Description">Materiale da produzione dotato di una sintonia con il vantaggio Protezione contro congelamento.</string>
 	<string key="FrozenFangT2_MasterName">Zanna glaciale</string>
 	<string key="FrozenFangT3_Description">Materiale da produzione dotato di una sintonia con il vantaggio Ghiaccio a catena.</string>
 	<string key="FrozenFangT3_MasterName">Zanna congelata</string>
-	<string key="FrozenWeaponShardT5_Description" rel_version="Feature_Dungeon_Mutators_pt3">Un frammento di un'arma gelida, perennemente freddo al tatto.</string>
-	<string key="FrozenWeaponShardT5_MasterName" rel_version="Feature_Dungeon_Mutators_pt3">Scheggia di arma ghiacciata</string>
 	<string key="FruitCookedT1_Description">USA: Fornisce guarigione base per 30 minuti.</string>
 	<string key="FruitCookedT1_MasterName">Frutta cotta</string>
 	<string key="FruitT1_Description">Ingrediente per la cucina. Può essere consumato, ma fornisce solo un minimo aumento di salute. Gli ingredienti sono molto più potenti quando vengono cucinati.</string>
@@ -16162,7 +16104,7 @@
 	<string key="GypsumBlue_MasterName">Gesso zaffiro</string>
 	<string key="GypsumGreen_Description">Un minerale tenero e facile da scolpire. Si può lavorare per produrre una sfera di gesso in una fornace per gesso. Assegnato per aver completato un livello di perizia in una competenza.</string>
 	<string key="GypsumGreen_MasterName">Gesso smeraldo</string>
-	<string key="GypsumOrange_Description">Un minerale tenero e facile da scolpire. Si può lavorare per produrre una sfera di gesso in una fornace per gesso. Assegnato per aver superato un'arena.</string>
+	<string key="GypsumOrange_Description">Un minerale tenero e facile da scolpire. Si può lavorare per produrre una sfera di gesso in una fornace per gesso. Assegnato per aver completato una prova.</string>
 	<string key="GypsumOrange_MasterName">Gesso citirino</string>
 	<string key="GypsumOrb_Description">Una sfera liscia di gesso. Si può scolpire per produrre un calco per oggetti presso una fornace per gesso.</string>
 	<string key="GypsumOrb_MasterName">Sfera di gesso</string>
@@ -17278,8 +17220,6 @@
 	<string key="HeavyChest_PlateT4_MasterName">Corazza di piastre di metallo stellare</string>
 	<string key="HeavyChest_PlateT5_Description">Armatura di piastre. È piuttosto pesante, ma offre una buona protezione complessiva.</string>
 	<string key="HeavyChest_PlateT5_MasterName">Corazza di piastre di oricalco</string>
-	<string key="HeavyChest_PVP_Named_Description" rel_version="PvP_Rewards_Track">Barda il tuo torso mentre gli insetti gridano sotto di te.</string>
-	<string key="HeavyChest_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Protettore minaccioso</string>
 	<string key="HeavyChest_QuestL34_Description">Una corazza di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
 	<string key="HeavyChest_QuestL34_MasterName">Corazza da avventuriero</string>
 	<string key="HeavyChest_QuestReward_Artificer_Description">Sembra che abbia resistito a moltissime esplosioni arcane. Probabilmente riuscirà a proteggerti anche da altre.</string>
@@ -17654,8 +17594,6 @@
 	<string key="HeavyFeet_PlateT4_MasterName">Stivali di piastre di metallo stellare</string>
 	<string key="HeavyFeet_PlateT5_Description">Armatura di piastre. È piuttosto pesante, ma offre una buona protezione complessiva.</string>
 	<string key="HeavyFeet_PlateT5_MasterName">Stivali di piastre di oricalco</string>
-	<string key="HeavyFeet_PVP_Named_Description" rel_version="PvP_Rewards_Track">Forte e incrollabile, avanzi a grandi passi.</string>
-	<string key="HeavyFeet_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Scarpe di metallo pesante</string>
 	<string key="HeavyFeet_RagebearerT5_Description">"La furia può rendere insolenti. La rabbia rende concentrati."</string>
 	<string key="HeavyFeet_RagebearerT5_MasterName">Stivali del rabbioso</string>
 	<string key="HeavyFeet_ShadowbringerT4_Description">"La misericordia svanisce mentre la luce del tramonto cala. Quali crudeltà infliggerai a coloro che vagano nella tua ombra?"</string>
@@ -18024,8 +17962,6 @@
 	<string key="HeavyHands_PlateT4_MasterName">Guanti di piastre di metallo stellare</string>
 	<string key="HeavyHands_PlateT5_Description">Armatura di piastre. È piuttosto pesante, ma offre una buona protezione complessiva.</string>
 	<string key="HeavyHands_PlateT5_MasterName">Guanti di piastre di oricalco</string>
-	<string key="HeavyHands_PVP_Named_Description" rel_version="PvP_Rewards_Track">Le tue mani partecipano a un conflitto nefasto.</string>
-	<string key="HeavyHands_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Meta della crociata</string>
 	<string key="HeavyHands_RagebearerT5_Description">"La furia può rendere insolenti. La rabbia rende concentrati."</string>
 	<string key="HeavyHands_RagebearerT5_MasterName">Guanti del rabbioso</string>
 	<string key="HeavyHands_ShadowbringerT4_Description">"La misericordia svanisce mentre la luce del tramonto cala. Quali crudeltà infliggerai a coloro che vagano nella tua ombra?"</string>
@@ -18406,8 +18342,6 @@
 	<string key="HeavyHead_PlateT5_MasterName">Elmo di piastre di oricalco</string>
 	<string key="HeavyHead_PossessedHelmetT5_Description">"Appena indossi questo elmo senti delle voci che ti sussurrano nelle orecchie, spingendoti a compiere azioni terribili."</string>
 	<string key="HeavyHead_PossessedHelmetT5_MasterName">Elmo posseduto</string>
-	<string key="HeavyHead_PVP_Named_Description" rel_version="PvP_Rewards_Track">Un caro ricordo di un guerriero mostruosamente amichevole.</string>
-	<string key="HeavyHead_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Elmo dell'orso</string>
 	<string key="HeavyHead_QuestL33_Description">Un elmo di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
 	<string key="HeavyHead_QuestL33_MasterName">Elmo da avventuriero</string>
 	<string key="HeavyHead_RagebearerT5_Description">"La furia può rendere insolenti. La rabbia rende concentrati."</string>
@@ -18776,8 +18710,6 @@
 	<string key="HeavyLegs_PlateT4_MasterName">Schinieri di piastre di metallo stellare</string>
 	<string key="HeavyLegs_PlateT5_Description">Armatura di piastre. È piuttosto pesante, ma offre una buona protezione complessiva.</string>
 	<string key="HeavyLegs_PlateT5_MasterName">Schinieri di piastre di oricalco</string>
-	<string key="HeavyLegs_PVP_Named_Description" rel_version="PvP_Rewards_Track">I pilastri incantati non abbandonano mai gli arditi.</string>
-	<string key="HeavyLegs_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Cosciali del Wyrd</string>
 	<string key="HeavyLegs_RagebearerT5_Description">"La furia può rendere insolenti. La rabbia rende concentrati."</string>
 	<string key="HeavyLegs_RagebearerT5_MasterName">Schinieri del rabbioso</string>
 	<string key="HeavyLegs_ShadowbringerT4_Description">"La misericordia svanisce mentre la luce del tramonto cala. Quali crudeltà infliggerai a coloro che vagano nella tua ombra?"</string>
@@ -19429,8 +19361,6 @@
 	<string key="KeyDepts_Name">Sfera di sintonia delle Profondità</string>
 	<string key="KeyDynasty_Desc">Una Sfera di sintonia che consente l'accesso alla spedizione nel Cantiere navale della dinastia.</string>
 	<string key="KeyDynasty_Name">Sfera di sintonia della dinastia</string>
-	<string key="keyeradinus_desc" rel_version="Expedition_Restless_00">REPLACEME</string>
-	<string key="keyeradinus_name" rel_version="Expedition_Restless_00">REPLACEME</string>
 	<string key="KeyGenesis_Desc">Una Sfera di sintonia che consente l'accesso alla spedizione nel Giardino della Genesi.</string>
 	<string key="KeyGenesis_Name">Sfera di sintonia della Genesi</string>
 	<string key="KeyIsabella_Desc" rel_version="Expedition_ShatterMtn_00">Una Sfera di sintonia che consente l'accesso alla spedizione nel Cuore della Tempesta.</string>
@@ -19457,8 +19387,8 @@
 	<string key="KeyPart_Core_Name">Nucleo di energia</string>
 	<string key="KeyPart_CoreGenesis_Desc">Un nucleo di energia pura. Questo oggetto viene utilizzato per produrre la Sfera di sintonia della Genesi che consente l'accesso alla spedizione della Genesi.</string>
 	<string key="KeyPart_CoreGenesis_Name">Nucleo della genesi</string>
-	<string key="KeyPart_CoreIsabella_Desc">Un nucleo di energia pura. This item is used to craft a Tempest's Heart Tuning Orb to allow access to the Tempest's Heart expedition.</string>
-	<string key="KeyPart_CoreIsabella_Name">Tempest's Core</string>
+	<string key="KeyPart_CoreIsabella_Desc">Un nucleo di energia pura. Questo oggetto viene utilizzato per produrre la Sfera di sintonia del Cuore della Tempesta che consente di accedere alla spedizione nel Cuore della Tempesta.</string>
+	<string key="KeyPart_CoreIsabella_Name">Nucleo della Tempesta</string>
 	<string key="KeyPart_CoreLazarus_Desc">Un nucleo di energia pura. Questo oggetto viene utilizzato per produrre la Sfera di sintonia di Lazzaro che consente l'accesso alla spedizione di Lazzaro.</string>
 	<string key="KeyPart_CoreLazarus_Name">Nucleo di Lazzaro</string>
 	<string key="KeyPart_ElementalHeart_Desc">Un cuore di pura energia elementale. Questo oggetto viene utilizzato per produrre la Sfera di sintonia che consente l'accesso alle spedizioni.</string>
@@ -20520,8 +20450,6 @@
 	<string key="lightchest_provisionervar1t5_mastername">Camicia da approvvigionatore</string>
 	<string key="lightchest_provisionervar2t5_description">Perfetta per lavorare tutto il giorno accanto al cibo.</string>
 	<string key="lightchest_provisionervar2t5_mastername">Camicia da droghiere</string>
-	<string key="LightChest_PVP_Named_Description" rel_version="PvP_Rewards_Track">Preso a un cadavere senza nome che aveva su di sé solo un appunto con scritto "Darix".</string>
-	<string key="LightChest_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Darix</string>
 	<string key="LightChest_QuestL26_Description">Una camicia di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
 	<string key="LightChest_QuestL26_MasterName">Camicia da avventuriero</string>
 	<string key="LightChest_QuestReward_Constable_Description">Abiti resistenti e impermeabili sono indispensabili per i viandanti.</string>
@@ -20978,8 +20906,6 @@
 	<string key="lightfeet_provisionervar1t5_mastername">Scarpe da approvvigionatore</string>
 	<string key="lightfeet_provisionervar2t5_description">Non sai dire con esattezza cosa ci sia caduto sopra, ma il profumo è delizioso.</string>
 	<string key="lightfeet_provisionervar2t5_mastername">Scarpe da droghiere</string>
-	<string key="LightFeet_PVP_Named_Description" rel_version="PvP_Rewards_Track">Lasciate dal guaritore, dipinte di un rosso innaturale.</string>
-	<string key="LightFeet_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Scarpe del supplicante</string>
 	<string key="LightFeet_RagebearerT5_Description">"La furia può rendere insolenti. La rabbia rende concentrati."</string>
 	<string key="LightFeet_RagebearerT5_MasterName">Scarpe del rabbioso</string>
 	<string key="LightFeet_RevelerT2_Description">Abiti come questo sono spesso indossati per feste e altri incontri sociali turbolenti.</string>
@@ -21412,8 +21338,6 @@
 	<string key="lighthands_provisionervar1t5_mastername">Guanti da approvvigionatore</string>
 	<string key="lighthands_provisionervar2t5_description">Emanano un odore fresco e fruttato.</string>
 	<string key="lighthands_provisionervar2t5_mastername">Guanti da droghiere</string>
-	<string key="LightHands_PVP_Named_Description" rel_version="PvP_Rewards_Track">Mentre perdi le forze, tutto sembra scivolare via.</string>
-	<string key="LightHands_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Futilità della comprensione</string>
 	<string key="LightHands_QuestReward_Trader_Description">Questo delicato lavoro di ricamo in qualche modo è sopravvissuto alle mareggiate e a uno sbarco ancor più burrascoso.</string>
 	<string key="LightHands_QuestReward_Trader_MasterName">Guanti di seta</string>
 	<string key="LightHands_RagebearerT5_Description">"La furia può rendere insolenti. La rabbia rende concentrati."</string>
@@ -21876,8 +21800,6 @@
 	<string key="lighthead_provisionervar1t5_mastername">Cappello da approvvigionatore</string>
 	<string key="lighthead_provisionervar2t5_description">Un modo stupendo per tenere i capelli lontani dal cibo.</string>
 	<string key="lighthead_provisionervar2t5_mastername">Cappello da droghiere</string>
-	<string key="LightHead_PVP_Named_Description" rel_version="PvP_Rewards_Track">Quando lo indossi, nuovi pensieri si affacciano alla tua coscienza, ma potresti essere in pericolo se non riuscirai a imbrigliarli con la saggezza.</string>
-	<string key="LightHead_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Cappa solenne</string>
 	<string key="LightHead_RagebearerT5_Description">"La furia può rendere insolenti. La rabbia rende concentrati."</string>
 	<string key="LightHead_RagebearerT5_MasterName">Cappello di tessuto del rabbioso</string>
 	<string key="LightHead_RevelerT2_Description">Abiti come questo sono spesso indossati per feste e altri incontri sociali turbolenti.</string>
@@ -22312,8 +22234,6 @@
 	<string key="lightlegs_provisionervar1t5_mastername">Brache da approvvigionatore</string>
 	<string key="lightlegs_provisionervar2t5_description">Comode e pratiche per passare molto tempo in piedi a cucinare.</string>
 	<string key="lightlegs_provisionervar2t5_mastername">Brache da droghiere</string>
-	<string key="LightLegs_PVP_Named_Description" rel_version="PvP_Rewards_Track">Non è un granché come protezione ma, mentre ti accorgi di non riuscire a distogliere lo sguardo, ti rendi conto che il suo scopo è un altro.</string>
-	<string key="LightLegs_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Calzamaglia incantata</string>
 	<string key="LightLegs_RagebearerT5_Description">"La furia può rendere insolenti. La rabbia rende concentrati."</string>
 	<string key="LightLegs_RagebearerT5_MasterName">Pantaloni di tessuto del rabbioso</string>
 	<string key="LightLegs_RevelerT2_Description">Abiti come questo sono spesso indossati per feste e altri incontri sociali turbolenti.</string>
@@ -22908,8 +22828,6 @@
 	<string key="MediumChest_OR1T5_MasterName">Pettorale di cuoio del frettoloso</string>
 	<string key="MediumChest_PiousScoutsCoatT5_Description" rel_version="Expedition_ShatterMtn_00">"Che nessuno si accorga della mia presenza."</string>
 	<string key="MediumChest_PiousScoutsCoatT5_MasterName" rel_version="Expedition_ShatterMtn_00">Giacca del pio esploratore</string>
-	<string key="MediumChest_PVP_Named_Description" rel_version="PvP_Rewards_Track">Trovato e non creato. Anche se nessuno sa dove, come e quando.</string>
-	<string key="MediumChest_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Dragatacht</string>
 	<string key="MediumChest_QuestL39_Description">Un giaccone di buona fattura. Ti tornerà utile, esattamente come al precedente proprietario.</string>
 	<string key="MediumChest_QuestL39_MasterName">Giaccone da avventuriero</string>
 	<string key="MediumChest_QuestReward_Survivalist_Description">Abbraccia la tua natura interiore e diventa una sola cosa con l'ambiente circostante.</string>
@@ -23323,8 +23241,6 @@
 	<string key="MediumFeet_OphanT5_MasterName">Stivali di cuoio del Trono</string>
 	<string key="MediumFeet_OR1T5_Description">Armatura personalizzata realizzata come ricompensa per i partecipanti alla Carica all'avamposto.</string>
 	<string key="MediumFeet_OR1T5_MasterName">Stivali di cuoio del frettoloso</string>
-	<string key="MediumFeet_PVP_Named_Description" rel_version="PvP_Rewards_Track">L'onore non ti darà da mangiare. L'orgoglio non sosterrà il tuo collo. Ma i tuoi occhi vedranno il domani.</string>
-	<string key="MediumFeet_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Scarpe bianche</string>
 	<string key="MediumFeet_QuestReward_Hermit_Description">La verità non sarà più una palla al piede.</string>
 	<string key="MediumFeet_QuestReward_Hermit_MasterName">Suole solitarie</string>
 	<string key="MediumFeet_RagebearerT5_Description">"La furia può rendere insolenti. La rabbia rende concentrati."</string>
@@ -23727,8 +23643,6 @@
 	<string key="MediumHands_OphanT5_MasterName">Guanti di cuoio del Trono</string>
 	<string key="MediumHands_OR1T5_Description">Armatura personalizzata realizzata come ricompensa per i partecipanti alla Carica all'avamposto.</string>
 	<string key="MediumHands_OR1T5_MasterName">Guanti di cuoio del frettoloso</string>
-	<string key="MediumHands_PVP_Named_Description" rel_version="PvP_Rewards_Track">Essenziali ma forti e robuste. Le tue mani ringrazieranno.</string>
-	<string key="MediumHands_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Dita del fante</string>
 	<string key="MediumHands_RagebearerT5_Description">"La furia può rendere insolenti. La rabbia rende concentrati."</string>
 	<string key="MediumHands_RagebearerT5_MasterName">Guanti di cuoio del rabbioso</string>
 	<string key="MediumHands_RaidersGlovesT5_Description" rel_version="Expedition_ShatterMtn_00">"Hanno una buona presa anche quando sono coperti di sangue."</string>
@@ -24167,8 +24081,6 @@
 	<string key="MediumHead_OR1T5_MasterName">Elmo di cuoio del frettoloso</string>
 	<string key="MediumHead_PiousScoutsHatT5_Description" rel_version="Expedition_ShatterMtn_00"> "Ogni esploratore sussurra una preghiera quando il nemico si avvicina."</string>
 	<string key="MediumHead_PiousScoutsHatT5_MasterName" rel_version="Expedition_ShatterMtn_00">Cappello del pio esploratore</string>
-	<string key="MediumHead_PVP_Named_Description" rel_version="PvP_Rewards_Track">"Segui la preda e non lasciare che la tua vista vacilli. Sarà lei stessa a mostrarti le proprie debolezze."</string>
-	<string key="MediumHead_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">Sguardo di Bergan</string>
 	<string key="MediumHead_RagebearerT5_Description">"La furia può rendere insolenti. La rabbia rende concentrati."</string>
 	<string key="MediumHead_RagebearerT5_MasterName">Cappello di cuoio del rabbioso</string>
 	<string key="MediumHead_RaidersHatT5_Description" rel_version="Expedition_ShatterMtn_00">"Calzalo bene sulla fronte: eviterà che la luce ti abbagli."</string>
@@ -24567,8 +24479,6 @@
 	<string key="MediumLegs_OphanT5_MasterName">Pantaloni di cuoio del Trono</string>
 	<string key="MediumLegs_OR1T5_Description">Armatura personalizzata realizzata come ricompensa per i partecipanti alla Carica all'avamposto.</string>
 	<string key="MediumLegs_OR1T5_MasterName">Schinieri di cuoio del frettoloso</string>
-	<string key="MediumLegs_PVP_Named_Description" rel_version="PvP_Rewards_Track">"Avanti e con una meta. Sempre verso quella meta."</string>
-	<string key="MediumLegs_PVP_Named_MasterName" rel_version="PvP_Rewards_Track">La marcia</string>
 	<string key="MediumLegs_RagebearerT5_Description">"La furia può rendere insolenti. La rabbia rende concentrati."</string>
 	<string key="MediumLegs_RagebearerT5_MasterName">Pantaloni di cuoio del rabbioso</string>
 	<string key="MediumLegs_RaidersPantsT5_Description" rel_version="Expedition_ShatterMtn_00">"Sono silenziosissimi quando ti muovi tra l'erba."</string>
@@ -24879,17 +24789,17 @@
 	<string key="MutagenLostT1_MasterName">Fiala di mutagene ectoplasmico</string>
 	<string key="MutagentAncientT1_Description">Una fiala contenente un'essenza antica.</string>
 	<string key="MutagentAncientT1_MasterName">Fiala di mutagene degli Antichi</string>
-	<string key="MyrkgardKey_Description">Serve per accedere all'arena situata dietro la Cattedrale di Myrkgard</string>
-	<string key="MyrkgardKey_MasterName">Chiave dell'arena di Myrkgard</string>
-	<string key="MyrkgardKeyFragment1_Description">Primo di 5 componenti per la chiave dell'arena di Myrkgard</string>
+	<string key="MyrkgardKey_Description">Serve per accedere alla prova dietro la Cattedrale di Myrkgard</string>
+	<string key="MyrkgardKey_MasterName">Chiave della prova di Myrkgard</string>
+	<string key="MyrkgardKeyFragment1_Description">Primo di 5 componenti per la chiave della prova di Myrkgard</string>
 	<string key="MyrkgardKeyFragment1_MasterName">Sfera del monolite di Grande tribolazione</string>
-	<string key="MyrkgardKeyFragment2_Description">Secondo di 5 componenti per la chiave dell'arena di Myrkgard</string>
+	<string key="MyrkgardKeyFragment2_Description">Secondo di 5 componenti per la chiave della prova di Myrkgard</string>
 	<string key="MyrkgardKeyFragment2_MasterName">Sfera del monolite di Opulenza</string>
-	<string key="MyrkgardKeyFragment3_Description">Terzo di 5 componenti per la chiave dell'arena di Myrkgard</string>
+	<string key="MyrkgardKeyFragment3_Description">Terzo di 5 componenti per la chiave della prova di Myrkgard</string>
 	<string key="MyrkgardKeyFragment3_MasterName">Sfera del monolite di Erpice superiore</string>
-	<string key="MyrkgardKeyFragment4_Description">Quarto di 5 componenti per la chiave dell'arena di Myrkgard</string>
+	<string key="MyrkgardKeyFragment4_Description">Quarto di 5 componenti per la chiave della prova di Myrkgard</string>
 	<string key="MyrkgardKeyFragment4_MasterName">Sfera del portale Il groviglio</string>
-	<string key="MyrkgardKeyFragment5_Description">Quinto di 5 componenti per la chiave dell'arena di Myrkgard</string>
+	<string key="MyrkgardKeyFragment5_Description">Quinto di 5 componenti per la chiave della prova di Myrkgard</string>
 	<string key="MyrkgardKeyFragment5_MasterName">Sfera del portale di Erpice superiore</string>
 	<string key="MyrkgardKeyFragmentContainer1_Description">APRI: Un nascondiglio di provviste, abbandonato dopo che la corruzione si è placata.</string>
 	<string key="MyrkgardKeyFragmentContainer1_MasterName">Nascondiglio del monolite di Grande tribolazione</string>
@@ -25111,6 +25021,14 @@
 	<string key="Omega_Box_Weapons_MasterName">Cassa di armi omega</string>
 	<string key="Omega_Box_Weapons_PVP_Description">Una cassa contenente armi omega adatte al PvP.</string>
 	<string key="Omega_Box_Weapons_PVP_MasterName">Cassa di armi omega (PvP)</string>
+	<string key="Omega_Box_Weapons_Blank_MasterName">Cassa di armi omega (senza bonus)</string>
+	<string key="Omega_Box_Weapons_Blank_Description">Una cassa contenente armi omega senza bonus.</string>
+	<string key="Omega_Box_Armor_Blank_Heavy_MasterName">Cassa di armature pesanti omega senza bonus</string>
+	<string key="Omega_Box_Armor_Blank_Heavy_Description">Una cassa contenente armature pesanti omega senza bonus.</string>
+	<string key="Omega_Box_Armor_Blank_Medium_MasterName">Cassa di armature medie omega senza bonus</string>
+	<string key="Omega_Box_Armor_Blank_Medium_Description">Una cassa contenente armature medie omega senza bonus.</string>
+	<string key="Omega_Box_Armor_Blank_Light_MasterName">Cassa di armature leggere omega senza bonus</string>
+	<string key="Omega_Box_Armor_Blank_Light_Description">Una cassa contenente armature leggere omega senza bonus.</string>
 	<string key="Omega_Earring_Description">Orecchini in versione omega.</string>
 	<string key="Omega_Earring_MasterName">Orecchino omega</string>
 	<string key="Omega_FishingPole_Description">Canna da pesca in versione omega.</string>
@@ -25679,6 +25597,24 @@
 	<string key="Playtest_StandingVial_Windsward_MasterName">Reputazione di Sopravvento del tester</string>
 	<string key="Playtest_Warhammer_Description">Conferisce potenti attributi, dei vantaggi casuali e uno slot gemma vuoto per infliggere danni al secondo o, in alternativa, una pietra di corniola per le build da tank.</string>
 	<string key="Playtest_Warhammer_MasterName">Martello da guerra del tester</string>
+	<string key="Playtest_Box_PvPRewardsTrack_LightArmor_MasterName" rel_version="PvP_Rewards_Track">Cassa di armature leggere (percorso ricompense PvP)</string>
+	<string key="Playtest_Box_PvPRewardsTrack_LightArmor_Description" rel_version="PvP_Rewards_Track">Solo per tester e personaggi predefiniti</string>
+	<string key="Playtest_Box_PvPRewardsTrack_MediumArmor_MasterName" rel_version="PvP_Rewards_Track">Cassa di armature medie (percorso ricompense PvP)</string>
+	<string key="Playtest_Box_PvPRewardsTrack_MediumArmor_Description" rel_version="PvP_Rewards_Track">Solo per tester e personaggi predefiniti</string>
+	<string key="Playtest_Box_PvPRewardsTrack_HeavyArmor_MasterName" rel_version="PvP_Rewards_Track">Cassa di armature pesanti (percorso ricompense PvP)</string>
+	<string key="Playtest_Box_PvPRewardsTrack_HeavyArmor_Description" rel_version="PvP_Rewards_Track">Solo per tester e personaggi predefiniti</string>
+	<string key="Playtest_Box_PvPRewardsTrack_Weapons_MasterName" rel_version="PvP_Rewards_Track">Cassa di armi (percorso ricompense PvP)</string>
+	<string key="Playtest_Box_PvPRewardsTrack_Weapons_Description" rel_version="PvP_Rewards_Track">Solo per tester e personaggi predefiniti</string>
+	<string key="Playtest_Box_PvPRewardsTrack_Trinkets_MasterName" rel_version="PvP_Rewards_Track">Cassa di monili (percorso ricompense PvP)</string>
+	<string key="Playtest_Box_PvPRewardsTrack_Trinkets_Description" rel_version="PvP_Rewards_Track">Solo per tester e personaggi predefiniti</string>
+	<string key="Playtest_Box_PvPRewardsTrack_NamedWeapons_MasterName" rel_version="PvP_Rewards_Track">Cassa di armi speciali (percorso ricompense PvP)</string>
+	<string key="Playtest_Box_PvPRewardsTrack_NamedLightArmor_MasterName" rel_version="PvP_Rewards_Track">Cassa di armature leggere speciali (percorso ricompense PvP)</string>
+	<string key="Playtest_Box_PvPRewardsTrack_NamedMediumArmor_MasterName" rel_version="PvP_Rewards_Track">Cassa di armature medie speciali (percorso ricompense PvP)</string>
+	<string key="Playtest_Box_PvPRewardsTrack_NamedHeavyArmor_MasterName" rel_version="PvP_Rewards_Track">Cassa di armature pesanti speciali (percorso ricompense PvP)</string>
+	<string key="Playtest_Box_PvPRewardsTrack_NamedWeapons_Description" rel_version="PvP_Rewards_Track">Solo per tester e personaggi predefiniti</string>
+	<string key="Playtest_Box_PvPRewardsTrack_NamedLightArmor_Description" rel_version="PvP_Rewards_Track">Solo per tester e personaggi predefiniti</string>
+	<string key="Playtest_Box_PvPRewardsTrack_NamedMediumArmor_Description" rel_version="PvP_Rewards_Track">Solo per tester e personaggi predefiniti</string>
+	<string key="Playtest_Box_PvPRewardsTrack_NamedHeavyArmor_Description" rel_version="PvP_Rewards_Track">Solo per tester e personaggi predefiniti</string>
 	<string key="PoisonStingerT5_Description">La sacca di veleno di una pastinaca. Questo involucro pieno di liquido tossico può essere utilizzato in alchimia.</string>
 	<string key="PoisonStingerT5_MasterName">Sacca di veleno</string>
 	<string key="PorkBellyT1_Description">La parte migliore del maiale.</string>
@@ -25765,12 +25701,12 @@
 	<string key="PotionEnduranceT2_MasterName">Pozione di resistenza formidabile</string>
 	<string key="PotionEnduranceT3_Description">USA: Aumenta incredibilmente il tasso di rigenerazione dell'energia per breve tempo.</string>
 	<string key="PotionEnduranceT3_MasterName">Pozione di resistenza impregnata</string>
-	<string key="PotionFamiliyWardAncientT3_Description">Aumenta l'assorbimento dei danni inflitti dagli Antichi di un {[Type_StatusEffectData.PotionFamilyWardAncientT3.ABSVitalsCategory * 100]}% per {[Type_StatusEffectData.PotionFamilyWardAncientT3.BaseDuration]} secondi o dopo aver subito danni {[Type_StatusEffectData.PotionFamilyWardAncientT3.StopOnHitCount]} volte.</string>
-	<string key="PotionFamiliyWardAncientT3_MasterName">Pozione di protezione dagli Antichi potente</string>
-	<string key="PotionFamiliyWardAncientT4_Description">Aumenta l'assorbimento dei danni inflitti dagli Antichi di un {[Type_StatusEffectData.PotionFamilyWardAncientT4.ABSVitalsCategory * 100]}% per {[Type_StatusEffectData.PotionFamilyWardAncientT4.BaseDuration]} secondi o dopo aver subito danni {[Type_StatusEffectData.PotionFamilyWardAncientT4.StopOnHitCount]} volte.</string>
-	<string key="PotionFamiliyWardAncientT4_MasterName">Pozione di protezione dagli Antichi formidabile</string>
-	<string key="PotionFamiliyWardAncientT5_Description">Aumenta l'assorbimento dei danni inflitti dagli Antichi di un {[Type_StatusEffectData.PotionFamilyWardAncientT5.ABSVitalsCategory * 100]}% per {[Type_StatusEffectData.PotionFamilyWardAncientT5.BaseDuration]} secondi o dopo aver subito danni {[Type_StatusEffectData.PotionFamilyWardAncientT5.StopOnHitCount]} volte.</string>
-	<string key="PotionFamiliyWardAncientT5_MasterName">Pozione di protezione dagli Antichi impregnata</string>
+	<string key="PotionFamilyWardAncientT3_Description">Aumenta l'assorbimento dei danni inflitti dagli Antichi di un {[Type_StatusEffectData.PotionFamilyWardAncientT3.ABSVitalsCategory * 100]}% per {[Type_StatusEffectData.PotionFamilyWardAncientT3.BaseDuration]} secondi o dopo aver subito danni {[Type_StatusEffectData.PotionFamilyWardAncientT3.StopOnHitCount]} volte.</string>
+	<string key="PotionFamilyWardAncientT3_MasterName">Pozione di protezione dagli Antichi potente</string>
+	<string key="PotionFamilyWardAncientT4_Description">Aumenta l'assorbimento dei danni inflitti dagli Antichi di un {[Type_StatusEffectData.PotionFamilyWardAncientT4.ABSVitalsCategory * 100]}% per {[Type_StatusEffectData.PotionFamilyWardAncientT4.BaseDuration]} secondi o dopo aver subito danni {[Type_StatusEffectData.PotionFamilyWardAncientT4.StopOnHitCount]} volte.</string>
+	<string key="PotionFamilyWardAncientT4_MasterName">Pozione di protezione dagli Antichi formidabile</string>
+	<string key="PotionFamilyWardAncientT5_Description">Aumenta l'assorbimento dei danni inflitti dagli Antichi di un {[Type_StatusEffectData.PotionFamilyWardAncientT5.ABSVitalsCategory * 100]}% per {[Type_StatusEffectData.PotionFamilyWardAncientT5.BaseDuration]} secondi o dopo aver subito danni {[Type_StatusEffectData.PotionFamilyWardAncientT5.StopOnHitCount]} volte.</string>
+	<string key="PotionFamilyWardAncientT5_MasterName">Pozione di protezione dagli Antichi impregnata</string>
 	<string key="PotionFamilyWardAngryEarthT3_Description">Aumenta l'assorbimento dei danni inflitti dalla Terra irata di un {[Type_StatusEffectData.PotionFamilyWardAngryEarthT3.ABSVitalsCategory * 100]}% per {[Type_StatusEffectData.PotionFamilyWardAngryEarthT3.BaseDuration]} secondi o dopo aver subito danni {[Type_StatusEffectData.PotionFamilyWardAngryEarthT3.StopOnHitCount]} volte.</string>
 	<string key="PotionFamilyWardAngryEarthT3_MasterName">Pozione di protezione dalla Terra irata potente</string>
 	<string key="PotionFamilyWardAngryEarthT4_Description">Aumenta l'assorbimento dei danni inflitti dalla Terra irata di un {[Type_StatusEffectData.PotionFamilyWardAngryEarthT4.ABSVitalsCategory * 100]}% per {[Type_StatusEffectData.PotionFamilyWardAngryEarthT4.BaseDuration]} secondi o dopo aver subito danni {[Type_StatusEffectData.PotionFamilyWardAngryEarthT4.StopOnHitCount]} volte.</string>
@@ -26078,90 +26014,6 @@
 	<string key="PVP_Merchant_Transport_3_Mastername">Cassa di armamenti</string>
 	<string key="PVP_Merchant_Transport_7_Description">Oggetto missione PvP</string>
 	<string key="PVP_Merchant_Transport_7_Mastername">Cassa di armamenti</string>
-	<string key="PvP_Potions_Small_AttackT1_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni aggressive piccolo L2</string>
-	<string key="PvP_Potions_Small_AttackT1_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni aggressive piccolo L2</string>
-	<string key="PvP_Potions_Small_AttackT1_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni aggressive piccolo L2</string>
-	<string key="PvP_Potions_Small_AttackT2_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni aggressive piccolo L3</string>
-	<string key="PvP_Potions_Small_AttackT2_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni aggressive piccolo L3</string>
-	<string key="PvP_Potions_Small_AttackT2_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni aggressive piccolo L3</string>
-	<string key="PvP_Potions_Small_AttackT3_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni aggressive piccolo L4</string>
-	<string key="PvP_Potions_Small_AttackT3_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni aggressive piccolo L4</string>
-	<string key="PvP_Potions_Small_AttackT3_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni aggressive piccolo L4</string>
-	<string key="PvP_Potions_Medium_AttackT1_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni aggressive medio L2</string>
-	<string key="PvP_Potions_Medium_AttackT1_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni aggressive medio L2</string>
-	<string key="PvP_Potions_Medium_AttackT1_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni aggressive medio L2</string>
-	<string key="PvP_Potions_Medium_AttackT2_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni aggressive medio L3</string>
-	<string key="PvP_Potions_Medium_AttackT2_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni aggressive medio L3</string>
-	<string key="PvP_Potions_Medium_AttackT2_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni aggressive medio L3</string>
-	<string key="PvP_Potions_Medium_AttackT3_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni aggressive medio L4</string>
-	<string key="PvP_Potions_Medium_AttackT3_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni aggressive medio L4</string>
-	<string key="PvP_Potions_Medium_AttackT3_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni aggressive medio L4</string>
-	<string key="PvP_Potions_Large_AttackT1_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni aggressive grande L2</string>
-	<string key="PvP_Potions_Large_AttackT2_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni aggressive grande L3</string>
-	<string key="PvP_Potions_Large_AttackT3_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni aggressive grande L4</string>
-	<string key="PvP_Potions_Small_DefenceT1_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni difensive piccolo L2</string>
-	<string key="PvP_Potions_Small_DefenceT1_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni difensive piccolo L2</string>
-	<string key="PvP_Potions_Small_DefenceT1_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni difensive piccolo L2</string>
-	<string key="PvP_Potions_Small_DefenceT2_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni difensive piccolo L3</string>
-	<string key="PvP_Potions_Small_DefenceT2_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni difensive piccolo L3</string>
-	<string key="PvP_Potions_Small_DefenceT2_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni difensive piccolo L3</string>
-	<string key="PvP_Potions_Small_DefenceT3_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni difensive piccolo L4</string>
-	<string key="PvP_Potions_Small_DefenceT3_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni difensive piccolo L4</string>
-	<string key="PvP_Potions_Small_DefenceT3_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni difensive piccolo L4</string>
-	<string key="PvP_Potions_Medium_DefenceT1_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni difensive medio L2</string>
-	<string key="PvP_Potions_Medium_DefenceT1_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni difensive medio L2</string>
-	<string key="PvP_Potions_Medium_DefenceT1_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni difensive medio L2</string>
-	<string key="PvP_Potions_Medium_DefenceT2_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni difensive medio L3</string>
-	<string key="PvP_Potions_Medium_DefenceT2_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni difensive medio L3</string>
-	<string key="PvP_Potions_Medium_DefenceT2_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni difensive medio L3</string>
-	<string key="PvP_Potions_Medium_DefenceT3_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni difensive medio L4</string>
-	<string key="PvP_Potions_Medium_DefenceT3_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni difensive medio L4</string>
-	<string key="PvP_Potions_Medium_DefenceT3_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni difensive medio L4</string>
-	<string key="PvP_Potions_Large_DefenceT1_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni difensive grande L2</string>
-	<string key="PvP_Potions_Large_DefenceT2_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni difensive grande L3</string>
-	<string key="PvP_Potions_Large_DefenceT3_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni difensive grande L4</string>
-	<string key="PvP_Potions_Small_LostT1_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Perduti piccolo L3</string>
-	<string key="PvP_Potions_Small_LostT1_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Perduti piccolo L3</string>
-	<string key="PvP_Potions_Small_LostT1_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Perduti piccolo L3</string>
-	<string key="PvP_Potions_Small_LostT2_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Perduti piccolo L4</string>
-	<string key="PvP_Potions_Small_LostT2_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Perduti piccolo L4</string>
-	<string key="PvP_Potions_Small_LostT2_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Perduti piccolo L4</string>
-	<string key="PvP_Potions_Small_LostT3_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Perduti piccolo L5</string>
-	<string key="PvP_Potions_Small_LostT3_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Perduti piccolo L5</string>
-	<string key="PvP_Potions_Small_LostT3_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Perduti piccolo L5</string>
-	<string key="PvP_Potions_Medium_LostT1_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Perduti medio L3</string>
-	<string key="PvP_Potions_Medium_LostT1_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Perduti medio L3</string>
-	<string key="PvP_Potions_Medium_LostT1_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Perduti medio L3</string>
-	<string key="PvP_Potions_Medium_LostT2_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Perduti medio L4</string>
-	<string key="PvP_Potions_Medium_LostT2_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Perduti medio L4</string>
-	<string key="PvP_Potions_Medium_LostT2_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Perduti medio L4</string>
-	<string key="PvP_Potions_Medium_LostT3_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Perduti medio L5</string>
-	<string key="PvP_Potions_Medium_LostT3_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Perduti medio L5</string>
-	<string key="PvP_Potions_Medium_LostT3_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Perduti medio L5</string>
-	<string key="PvP_Potions_Large_LostT1_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Perduti grande L3</string>
-	<string key="PvP_Potions_Large_LostT2_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Perduti grande L4</string>
-	<string key="PvP_Potions_Large_LostT3_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Perduti grande L5</string>
-	<string key="PvP_Potions_Small_CorruptedT1_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Corrotti piccolo L3</string>
-	<string key="PvP_Potions_Small_CorruptedT1_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Corrotti piccolo L3</string>
-	<string key="PvP_Potions_Small_CorruptedT1_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Corrotti piccolo L3</string>
-	<string key="PvP_Potions_Small_CorruptedT2_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Corrotti piccolo L4</string>
-	<string key="PvP_Potions_Small_CorruptedT2_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Corrotti piccolo L4</string>
-	<string key="PvP_Potions_Small_CorruptedT2_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Corrotti piccolo L4</string>
-	<string key="PvP_Potions_Small_CorruptedT3_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Corrotti piccolo L5</string>
-	<string key="PvP_Potions_Small_CorruptedT3_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Corrotti piccolo L5</string>
-	<string key="PvP_Potions_Small_CorruptedT3_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Corrotti piccolo L5</string>
-	<string key="PvP_Potions_Medium_CorruptedT1_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Corrotti medio L3</string>
-	<string key="PvP_Potions_Medium_CorruptedT1_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Corrotti medio L3</string>
-	<string key="PvP_Potions_Medium_CorruptedT1_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Corrotti medio L3</string>
-	<string key="PvP_Potions_Medium_CorruptedT2_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Corrotti medio L4</string>
-	<string key="PvP_Potions_Medium_CorruptedT2_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Corrotti medio L4</string>
-	<string key="PvP_Potions_Medium_CorruptedT2_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Corrotti medio L4</string>
-	<string key="PvP_Potions_Medium_CorruptedT3_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Corrotti medio L5</string>
-	<string key="PvP_Potions_Medium_CorruptedT3_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Corrotti medio L5</string>
-	<string key="PvP_Potions_Medium_CorruptedT3_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Corrotti medio L5</string>
-	<string key="PvP_Potions_Large_CorruptedT1_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Corrotti grande L3</string>
-	<string key="PvP_Potions_Large_CorruptedT2_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Corrotti grande L4</string>
-	<string key="PvP_Potions_Large_CorruptedT3_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Corrotti grande L5</string>
 	<string key="PvP_Potions_Small_AngryEarthT1_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Terra irata piccolo L3</string>
 	<string key="PvP_Potions_Small_AngryEarthT1_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Terra irata piccolo L3</string>
 	<string key="PvP_Potions_Small_AngryEarthT1_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Terra irata piccolo L3</string>
@@ -26183,132 +26035,6 @@
 	<string key="PvP_Potions_Large_AngryEarthT1_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Terra irata grande L3</string>
 	<string key="PvP_Potions_Large_AngryEarthT2_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Terra irata grande L4</string>
 	<string key="PvP_Potions_Large_AngryEarthT3_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Terra irata grande L5</string>
-	<string key="PvP_Potions_Small_AncientT1_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Antichi piccolo L3</string>
-	<string key="PvP_Potions_Small_AncientT1_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Antichi piccolo L3</string>
-	<string key="PvP_Potions_Small_AncientT1_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Antichi piccolo L3</string>
-	<string key="PvP_Potions_Small_AncientT2_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Antichi piccolo L4</string>
-	<string key="PvP_Potions_Small_AncientT2_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Antichi piccolo L4</string>
-	<string key="PvP_Potions_Small_AncientT2_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Antichi piccolo L4</string>
-	<string key="PvP_Potions_Small_AncientT3_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Antichi piccolo L5</string>
-	<string key="PvP_Potions_Small_AncientT3_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Antichi piccolo L5</string>
-	<string key="PvP_Potions_Small_AncientT3_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Antichi piccolo L5</string>
-	<string key="PvP_Potions_Medium_AncientT1_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Antichi medio L3</string>
-	<string key="PvP_Potions_Medium_AncientT1_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Antichi medio L3</string>
-	<string key="PvP_Potions_Medium_AncientT1_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Antichi medio L3</string>
-	<string key="PvP_Potions_Medium_AncientT2_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Antichi medio L4</string>
-	<string key="PvP_Potions_Medium_AncientT2_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Antichi medio L4</string>
-	<string key="PvP_Potions_Medium_AncientT2_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Antichi medio L4</string>
-	<string key="PvP_Potions_Medium_AncientT3_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Antichi medio L5</string>
-	<string key="PvP_Potions_Medium_AncientT3_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Antichi medio L5</string>
-	<string key="PvP_Potions_Medium_AncientT3_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Antichi medio L5</string>
-	<string key="PvP_Potions_Large_AncientT1_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Antichi grande L3</string>
-	<string key="PvP_Potions_Large_AncientT2_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Antichi grande L4</string>
-	<string key="PvP_Potions_Large_AncientT3_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Antichi grande L5</string>
-	<string key="PvP_Potions_Small_BeastT1_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Bestia piccolo L3</string>
-	<string key="PvP_Potions_Small_BeastT1_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Bestie piccolo L3</string>
-	<string key="PvP_Potions_Small_BeastT1_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Bestie piccolo L3</string>
-	<string key="PvP_Potions_Small_BeastT2_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Bestie piccolo L4</string>
-	<string key="PvP_Potions_Small_BeastT2_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Bestie piccolo L4</string>
-	<string key="PvP_Potions_Small_BeastT2_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Bestie piccolo L4</string>
-	<string key="PvP_Potions_Small_BeastT3_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Bestie piccolo L5</string>
-	<string key="PvP_Potions_Small_BeastT3_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Bestie piccolo L5</string>
-	<string key="PvP_Potions_Small_BeastT3_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Bestie piccolo L5</string>
-	<string key="PvP_Potions_Medium_BeastT1_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Bestia medio L3</string>
-	<string key="PvP_Potions_Medium_BeastT1_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Bestie medio L3</string>
-	<string key="PvP_Potions_Medium_BeastT1_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Bestie medio L3</string>
-	<string key="PvP_Potions_Medium_BeastT2_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Bestie medio L4</string>
-	<string key="PvP_Potions_Medium_BeastT2_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Bestie medio L4</string>
-	<string key="PvP_Potions_Medium_BeastT2_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Bestie medio L4</string>
-	<string key="PvP_Potions_Medium_BeastT3_a_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Bestie medio L5</string>
-	<string key="PvP_Potions_Medium_BeastT3_b_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Bestie medio L5</string>
-	<string key="PvP_Potions_Medium_BeastT3_c_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Bestie medio L5</string>
-	<string key="PvP_Potions_Large_BeastT1_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Bestie grande L3</string>
-	<string key="PvP_Potions_Large_BeastT2_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Bestie grande L4</string>
-	<string key="PvP_Potions_Large_BeastT3_MasterName" rel_version="PvP_Rewards_Track">Pacchetto pozioni Bestie grande L5</string>
-	<string key="PvP_Potions_Small_AttackT1_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPolvere di pietre preziose debole \nBalsamo di quercia debole \nPozione di resistenza potente</string>
-	<string key="PvP_Potions_Small_AttackT1_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPolvere di pietre preziose debole \nBalsamo di quercia debole \nPozione del mana debole</string>
-	<string key="PvP_Potions_Small_AttackT1_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPolvere di pietre preziose debole \nBalsamo di quercia debole \nTintura anti-corruzione comune</string>
-	<string key="PvP_Potions_Small_AttackT2_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPolvere di pietre preziose comune \nBalsamo di quercia comune \nPozione di resistenza potente</string>
-	<string key="PvP_Potions_Small_AttackT2_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPolvere di pietre preziose comune \nBalsamo di quercia comune \nPozione del mana potente</string>
-	<string key="PvP_Potions_Small_AttackT2_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPolvere di pietre preziose comune \nBalsamo di quercia comune \nTintura anti-corruzione potente</string>
-	<string key="PvP_Potions_Small_AttackT3_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPolvere di pietre preziose potente \nBalsamo di quercia potente \nPozione di resistenza formidabile</string>
-	<string key="PvP_Potions_Small_AttackT3_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPolvere di pietre preziose potente \nBalsamo di quercia potente \nPozione del mana formidabile</string>
-	<string key="PvP_Potions_Small_AttackT3_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPolvere di pietre preziose potente \nBalsamo di quercia potente \nTintura anti-corruzione formidabile</string>
-	<string key="PvP_Potions_Medium_AttackT1_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPolvere di pietre preziose debole (x2) \nBalsamo di quercia debole (x2) \nPozione di resistenza potente</string>
-	<string key="PvP_Potions_Medium_AttackT1_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPolvere di pietre preziose debole (x2) \nBalsamo di quercia debole (x2) \nPozione del mana debole</string>
-	<string key="PvP_Potions_Medium_AttackT1_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPolvere di pietre preziose debole (x2) \nBalsamo di quercia debole (x2) \nTintura anti-corruzione comune</string>
-	<string key="PvP_Potions_Medium_AttackT2_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPolvere di pietre preziose comune (x2) \nBalsamo di quercia comune (x2) \nPozione di resistenza potente</string>
-	<string key="PvP_Potions_Medium_AttackT2_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPolvere di pietre preziose comune (x2) \nBalsamo di quercia comune (x2) \nPozione del mana potente</string>
-	<string key="PvP_Potions_Medium_AttackT2_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPolvere di pietre preziose comune (x2) \nBalsamo di quercia comune (x2) \nTintura anti-corruzione potente</string>
-	<string key="PvP_Potions_Medium_AttackT3_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPolvere di pietre preziose potente (x2) \nBalsamo di quercia potente (x2) \nPozione di resistenza formidabile</string>
-	<string key="PvP_Potions_Medium_AttackT3_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPolvere di pietre preziose potente (x2) \nBalsamo di quercia potente (x2) \nPozione del mana formidabile</string>
-	<string key="PvP_Potions_Medium_AttackT3_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPolvere di pietre preziose potente (x2) \nBalsamo di quercia potente (x2) \nTintura anti-corruzione formidabile</string>
-	<string key="PvP_Potions_Large_AttackT1_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPolvere di pietre preziose debole (x2) \nBalsamo di quercia debole (x2) \nPozione di resistenza potente \nPozione del mana debole \nTintura anti-corruzione comune</string>
-	<string key="PvP_Potions_Large_AttackT2_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPolvere di pietre preziose comune (x2) \nBalsamo di quercia comune (x2) \nPozione di resistenza potente \nPozione del mana potente \nTintura anti-corruzione potente</string>
-	<string key="PvP_Potions_Large_AttackT3_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPolvere di pietre preziose potente (x2) \nBalsamo di quercia potente (x2) \nPozione di resistenza formidabile \nPozione del mana formidabile \nTintura anti-corruzione formidabile</string>
-	<string key="PvP_Potions_Small_DefenceT1_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione del fedele I \nIncenso debole \nPozione della salute debole</string>
-	<string key="PvP_Potions_Small_DefenceT1_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione del fedele I \nIncenso debole \nPozione di concentrazione comune</string>
-	<string key="PvP_Potions_Small_DefenceT1_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione del fedele I \nIncenso debole \nTintura anti-logoramento comune</string>
-	<string key="PvP_Potions_Small_DefenceT2_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione del fedele II \nIncenso comune \nPozione della salute potente</string>
-	<string key="PvP_Potions_Small_DefenceT2_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione del fedele II \nIncenso comune \nPozione di concentrazione potente</string>
-	<string key="PvP_Potions_Small_DefenceT2_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione del fedele II \nIncenso comune \nTintura anti-logoramento potente</string>
-	<string key="PvP_Potions_Small_DefenceT3_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione del fedele III \nIncenso potente \nPozione della salute formidabile</string>
-	<string key="PvP_Potions_Small_DefenceT3_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione del fedele III \nIncenso potente \nPozione di concentrazione formidabile</string>
-	<string key="PvP_Potions_Small_DefenceT3_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione del fedele III \nIncenso potente \nTintura anti-logoramento formidabile</string>
-	<string key="PvP_Potions_Medium_DefenceT1_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione del fedele I (x2) \nIncenso debole (x2) \nPozione della salute debole</string>
-	<string key="PvP_Potions_Medium_DefenceT1_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione del fedele I (x2) \nIncenso debole (x2) \nPozione di concentrazione comune</string>
-	<string key="PvP_Potions_Medium_DefenceT1_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione del fedele I (x2) \nIncenso debole (x2) \nTintura anti-logoramento comune</string>
-	<string key="PvP_Potions_Medium_DefenceT2_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione del fedele II (x2) \nIncenso comune (x2) \nPozione della salute potente</string>
-	<string key="PvP_Potions_Medium_DefenceT2_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione del fedele II (x2) \nIncenso comune (x2) \nPozione di concentrazione potente</string>
-	<string key="PvP_Potions_Medium_DefenceT2_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione del fedele II (x2) \nIncenso comune (x2) \nTintura anti-logoramento potente</string>
-	<string key="PvP_Potions_Medium_DefenceT3_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione del fedele III (x2) \nIncenso potente (x2) \nPozione della salute formidabile</string>
-	<string key="PvP_Potions_Medium_DefenceT3_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione del fedele III (x2) \nIncenso potente (x2) \nPozione di concentrazione formidabile</string>
-	<string key="PvP_Potions_Medium_DefenceT3_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione del fedele III (x2) \nIncenso potente (x2) \nTintura anti-logoramento formidabile</string>
-	<string key="PvP_Potions_Large_DefenceT1_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione del fedele I (x2) \nIncenso debole (x2) \nPozione della salute debole \nPozione di concentrazione comune \nTintura anti-logoramento comune</string>
-	<string key="PvP_Potions_Large_DefenceT2_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione del fedele II (x2) \nIncenso comune (x2) \nPozione della salute potente \nPozione di concentrazione potente \nTintura anti-logoramento potente</string>
-	<string key="PvP_Potions_Large_DefenceT3_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione del fedele III (x2) \nIncenso potente (x2) \nPozione della salute formidabile \nPozione di concentrazione formidabile \nTintura anti-logoramento formidabile</string>
-	<string key="PvP_Potions_Small_LostT1_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Perduti potente \nRivestimento per Perduti potente \nPozione della salute potente</string>
-	<string key="PvP_Potions_Small_LostT1_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Perduti potente \nRivestimento per Perduti potente \nPozione del mana potente</string>
-	<string key="PvP_Potions_Small_LostT1_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Perduti potente \nRivestimento per Perduti potente \nPozione rigenerante potente</string>
-	<string key="PvP_Potions_Small_LostT2_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Perduti formidabile \nRivestimento per Perduti formidabile \nPozione della salute formidabile</string>
-	<string key="PvP_Potions_Small_LostT2_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Perduti formidabile \nRivestimento per Perduti formidabile \nPozione del mana formidabile</string>
-	<string key="PvP_Potions_Small_LostT2_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Perduti formidabile \nRivestimento per Perduti formidabile \nPozione rigenerante formidabile</string>
-	<string key="PvP_Potions_Small_LostT3_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Perduti impregnata \nRivestimento per Perduti impregnato \nPozione della salute impregnata</string>
-	<string key="PvP_Potions_Small_LostT3_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Perduti impregnata \nRivestimento per Perduti impregnato \nPozione del mana impregnata</string>
-	<string key="PvP_Potions_Small_LostT3_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Perduti impregnata \nRivestimento per Perduti impregnato \nPozione rigenerante impregnata</string>
-	<string key="PvP_Potions_Medium_LostT1_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Perduti potente (x2) \nRivestimento per Perduti potente (x2) \nPozione della salute potente</string>
-	<string key="PvP_Potions_Medium_LostT1_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Perduti potente (x2) \nRivestimento per Perduti potente (x2) \nPozione del mana potente</string>
-	<string key="PvP_Potions_Medium_LostT1_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Perduti potente (x2) \nRivestimento per Perduti potente (x2) \nPozione rigenerante potente</string>
-	<string key="PvP_Potions_Medium_LostT2_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Perduti formidabile (x2) \nRivestimento per Perduti formidabile (x2) \nPozione della salute formidabile</string>
-	<string key="PvP_Potions_Medium_LostT2_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Perduti formidabile (x2) \nRivestimento per Perduti formidabile (x2) \nPozione del mana formidabile</string>
-	<string key="PvP_Potions_Medium_LostT2_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Perduti formidabile (x2) \nRivestimento per Perduti formidabile (x2) \nPozione rigenerante formidabile</string>
-	<string key="PvP_Potions_Medium_LostT3_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Perduti impregnata (x2) \nRivestimento per Perduti impregnato (x2) \nPozione della salute impregnata</string>
-	<string key="PvP_Potions_Medium_LostT3_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Perduti impregnata (x2) \nRivestimento per Perduti impregnato (x2) \nPozione del mana impregnata</string>
-	<string key="PvP_Potions_Medium_LostT3_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Perduti impregnata (x2) \nRivestimento per Perduti impregnato (x2) \nPozione rigenerante impregnata</string>
-	<string key="PvP_Potions_Large_LostT1_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Perduti potente (x2) \nRivestimento per Perduti potente (x2) \nPozione della salute potente \nPozione del mana potente \nPozione rigenerante potente</string>
-	<string key="PvP_Potions_Large_LostT2_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Perduti formidabile (x2) \nRivestimento per Perduti formidabile (x2) \nPozione della salute formidabile \nPozione del mana formidabile \nPozione rigenerante formidabile</string>
-	<string key="PvP_Potions_Large_LostT3_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Perduti impregnata (x2) \nRivestimento per Perduti impregnato (x2) \nPozione della salute impregnata \nPozione del mana impregnata \nPozione rigenerante impregnata</string>
-	<string key="PvP_Potions_Small_CorruptedT1_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Corrotti potente \nRivestimento per Corrotti potente \nPozione della salute potente</string>
-	<string key="PvP_Potions_Small_CorruptedT1_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Corrotti potente \nRivestimento per Corrotti potente \nPozione del mana potente</string>
-	<string key="PvP_Potions_Small_CorruptedT1_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Corrotti potente \nRivestimento per Corrotti potente \nPozione rigenerante potente</string>
-	<string key="PvP_Potions_Small_CorruptedT2_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Corrotti formidabile \nRivestimento per Corrotti formidabile \nPozione della salute formidabile</string>
-	<string key="PvP_Potions_Small_CorruptedT2_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Corrotti formidabile \nRivestimento per Corrotti formidabile \nPozione del mana formidabile</string>
-	<string key="PvP_Potions_Small_CorruptedT2_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Corrotti formidabile \nRivestimento per Corrotti formidabile \nPozione rigenerante formidabile</string>
-	<string key="PvP_Potions_Small_CorruptedT3_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Corrotti impregnata \nRivestimento per Corrotti impregnato \nPozione della salute impregnata</string>
-	<string key="PvP_Potions_Small_CorruptedT3_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Corrotti impregnata \nRivestimento per Corrotti impregnato \nPozione del mana impregnata</string>
-	<string key="PvP_Potions_Small_CorruptedT3_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Corrotti impregnata \nRivestimento per Corrotti impregnato \nPozione rigenerante impregnata</string>
-	<string key="PvP_Potions_Medium_CorruptedT1_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Corrotti potente (x2) \nRivestimento per Corrotti potente (x2) \nPozione della salute potente</string>
-	<string key="PvP_Potions_Medium_CorruptedT1_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Corrotti potente (x2) \nRivestimento per Corrotti potente (x2) \nPozione del mana potente</string>
-	<string key="PvP_Potions_Medium_CorruptedT1_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Corrotti potente (x2) \nRivestimento per Corrotti potente (x2) \nPozione rigenerante potente</string>
-	<string key="PvP_Potions_Medium_CorruptedT2_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Corrotti formidabile (x2) \nRivestimento per Corrotti formidabile (x2) \nPozione della salute formidabile</string>
-	<string key="PvP_Potions_Medium_CorruptedT2_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Corrotti formidabile (x2) \nRivestimento per Corrotti formidabile (x2) \nPozione del mana formidabile</string>
-	<string key="PvP_Potions_Medium_CorruptedT2_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Corrotti formidabile (x2) \nRivestimento per Corrotti formidabile (x2) \nPozione rigenerante formidabile</string>
-	<string key="PvP_Potions_Medium_CorruptedT3_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Corrotti impregnata (x2) \nRivestimento per Corrotti impregnato (x2) \nPozione della salute impregnata</string>
-	<string key="PvP_Potions_Medium_CorruptedT3_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Corrotti impregnata (x2) \nRivestimento per Corrotti impregnato (x2) \nPozione del mana impregnata</string>
-	<string key="PvP_Potions_Medium_CorruptedT3_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Corrotti impregnata (x2) \nRivestimento per Corrotti impregnato (x2) \nPozione rigenerante impregnata</string>
-	<string key="PvP_Potions_Large_CorruptedT1_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Corrotti potente (x2) \nRivestimento per Corrotti potente (x2) \nPozione della salute potente \nPozione del mana potente \nPozione rigenerante potente</string>
-	<string key="PvP_Potions_Large_CorruptedT2_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Corrotti formidabile (x2) \nRivestimento per Corrotti formidabile (x2) \nPozione della salute formidabile \nPozione del mana formidabile \nPozione rigenerante formidabile</string>
-	<string key="PvP_Potions_Large_CorruptedT3_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dai Corrotti impregnata (x2) \nRivestimento per Corrotti impregnato (x2) \nPozione della salute impregnata \nPozione del mana impregnata \nPozione rigenerante impregnata</string>
 	<string key="PvP_Potions_Small_AngryEarthT1_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalla Terra irata potente \nRivestimento per Terra irata potente \nPozione della salute potente</string>
 	<string key="PvP_Potions_Small_AngryEarthT1_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalla Terra irata potente \nRivestimento per Terra irata potente \nPozione del mana potente</string>
 	<string key="PvP_Potions_Small_AngryEarthT1_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalla Terra irata potente \nRivestimento per Terra irata potente \nPozione rigenerante potente</string>
@@ -26330,48 +26056,6 @@
 	<string key="PvP_Potions_Large_AngryEarthT1_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalla Terra irata potente (x2) \nRivestimento per Terra irata potente (x2) \nPozione della salute potente \nPozione del mana potente \nPozione rigenerante potente</string>
 	<string key="PvP_Potions_Large_AngryEarthT2_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalla Terra irata formidabile (x2) \nRivestimento per Terra irata formidabile (x2) \nPozione della salute formidabile \nPozione del mana formidabile \nPozione rigenerante formidabile</string>
 	<string key="PvP_Potions_Large_AngryEarthT3_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalla Terra irata impregnata (x2) \nRivestimento per Terra irata impregnato (x2) \nPozione della salute impregnata \nPozione del mana impregnata \nPozione rigenerante impregnata</string>
-	<string key="PvP_Potions_Small_AncientT1_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dagli Antichi potente \nRivestimento per Antichi potente \nPozione della salute potente</string>
-	<string key="PvP_Potions_Small_AncientT1_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dagli Antichi potente \nRivestimento per Antichi potente \nPozione del mana potente</string>
-	<string key="PvP_Potions_Small_AncientT1_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dagli Antichi potente \nRivestimento per Antichi potente \nPozione rigenerante potente</string>
-	<string key="PvP_Potions_Small_AncientT2_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dagli Antichi formidabile \nRivestimento per Antichi formidabile \nPozione della salute formidabile</string>
-	<string key="PvP_Potions_Small_AncientT2_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dagli Antichi formidabile \nRivestimento per Antichi formidabile \nPozione del mana formidabile</string>
-	<string key="PvP_Potions_Small_AncientT2_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dagli Antichi formidabile \nRivestimento per Antichi formidabile \nPozione rigenerante formidabile</string>
-	<string key="PvP_Potions_Small_AncientT3_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dagli Antichi impregnata \nRivestimento per Antichi impregnato \nPozione della salute impregnata</string>
-	<string key="PvP_Potions_Small_AncientT3_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dagli Antichi impregnata \nRivestimento per Antichi impregnato \nPozione del mana impregnata</string>
-	<string key="PvP_Potions_Small_AncientT3_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dagli Antichi impregnata \nRivestimento per Antichi impregnato \nPozione rigenerante impregnata</string>
-	<string key="PvP_Potions_Medium_AncientT1_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dagli Antichi potente (x2) \nRivestimento per Antichi potente (x2) \nPozione della salute potente</string>
-	<string key="PvP_Potions_Medium_AncientT1_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dagli Antichi potente (x2) \nRivestimento per Antichi potente (x2) \nPozione del mana potente</string>
-	<string key="PvP_Potions_Medium_AncientT1_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dagli Antichi potente (x2) \nRivestimento per Antichi potente (x2) \nPozione rigenerante potente</string>
-	<string key="PvP_Potions_Medium_AncientT2_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dagli Antichi formidabile (x2) \nRivestimento per Antichi formidabile (x2) \nPozione della salute formidabile</string>
-	<string key="PvP_Potions_Medium_AncientT2_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dagli Antichi formidabile (x2) \nRivestimento per Antichi formidabile (x2) \nPozione del mana formidabile</string>
-	<string key="PvP_Potions_Medium_AncientT2_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dagli Antichi formidabile (x2) \nRivestimento per Antichi formidabile (x2) \nPozione rigenerante formidabile</string>
-	<string key="PvP_Potions_Medium_AncientT3_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dagli Antichi impregnata (x2) \nRivestimento per Antichi impregnato (x2) \nPozione della salute impregnata</string>
-	<string key="PvP_Potions_Medium_AncientT3_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dagli Antichi impregnata (x2) \nRivestimento per Antichi impregnato (x2) \nPozione del mana impregnata</string>
-	<string key="PvP_Potions_Medium_AncientT3_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dagli Antichi impregnata (x2) \nRivestimento per Antichi impregnato (x2) \nPozione rigenerante impregnata</string>
-	<string key="PvP_Potions_Large_AncientT1_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dagli Antichi potente (x2) \nRivestimento per Antichi potente (x2) \nPozione della salute potente \nPozione del mana potente \nPozione rigenerante potente</string>
-	<string key="PvP_Potions_Large_AncientT2_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dagli Antichi formidabile (x2) \nRivestimento per Antichi formidabile (x2) \nPozione della salute formidabile \nPozione del mana formidabile \nPozione rigenerante formidabile</string>
-	<string key="PvP_Potions_Large_AncientT3_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dagli Antichi impregnata (x2) \nRivestimento per Antichi impregnato (x2) \nPozione della salute impregnata \nPozione del mana impregnata \nPozione rigenerante impregnata</string>
-	<string key="PvP_Potions_Small_BeastT1_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalle bestie potente \nRivestimento per bestie potente \nPozione della salute potente</string>
-	<string key="PvP_Potions_Small_BeastT1_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalle bestie potente \nRivestimento per bestie potente \nPozione del mana potente</string>
-	<string key="PvP_Potions_Small_BeastT1_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalle bestie potente \nRivestimento per bestie potente \nPozione rigenerante potente</string>
-	<string key="PvP_Potions_Small_BeastT2_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalle bestie formidabile \nRivestimento per bestie formidabile \nPozione della salute formidabile</string>
-	<string key="PvP_Potions_Small_BeastT2_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalle bestie formidabile \nRivestimento per bestie formidabile \nPozione del mana formidabile</string>
-	<string key="PvP_Potions_Small_BeastT2_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalle bestie formidabile \nRivestimento per bestie formidabile \nPozione rigenerante formidabile</string>
-	<string key="PvP_Potions_Small_BeastT3_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalle bestie impregnata \nRivestimento per bestie impregnato \nPozione della salute impregnata</string>
-	<string key="PvP_Potions_Small_BeastT3_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalle bestie impregnata \nRivestimento per bestie impregnato \nPozione del mana impregnata</string>
-	<string key="PvP_Potions_Small_BeastT3_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalle bestie impregnata \nRivestimento per bestie impregnato \nPozione rigenerante impregnata</string>
-	<string key="PvP_Potions_Medium_BeastT1_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalle bestie potente (x2) \nRivestimento per bestie potente (x2) \nPozione della salute potente</string>
-	<string key="PvP_Potions_Medium_BeastT1_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalle bestie potente (x2) \nRivestimento per bestie potente (x2) \nPozione del mana potente</string>
-	<string key="PvP_Potions_Medium_BeastT1_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalle bestie potente (x2) \nRivestimento per bestie potente (x2) \nPozione rigenerante potente</string>
-	<string key="PvP_Potions_Medium_BeastT2_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalle bestie formidabile (x2) \nRivestimento per bestie formidabile (x2) \nPozione della salute formidabile</string>
-	<string key="PvP_Potions_Medium_BeastT2_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalle bestie formidabile (x2) \nRivestimento per bestie formidabile (x2) \nPozione del mana formidabile</string>
-	<string key="PvP_Potions_Medium_BeastT2_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalle bestie formidabile (x2) \nRivestimento per bestie formidabile (x2) \nPozione rigenerante formidabile</string>
-	<string key="PvP_Potions_Medium_BeastT3_a_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalle bestie impregnata (x2) \nRivestimento per bestie impregnato (x2) \nPozione della salute impregnata</string>
-	<string key="PvP_Potions_Medium_BeastT3_b_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalle bestie impregnata (x2) \nRivestimento per bestie impregnato (x2) \nPozione del mana impregnata</string>
-	<string key="PvP_Potions_Medium_BeastT3_c_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalle bestie impregnata (x2) \nRivestimento per bestie impregnato (x2) \nPozione rigenerante impregnata</string>
-	<string key="PvP_Potions_Large_BeastT1_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalle bestie potente (x2) \nRivestimento per bestie potente (x2) \nPozione della salute potente \nPozione del mana potente \nPozione rigenerante potente</string>
-	<string key="PvP_Potions_Large_BeastT2_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalle bestie formidabile (x2) \nRivestimento per bestie formidabile (x2) \nPozione della salute formidabile \nPozione del mana formidabile \nPozione rigenerante formidabile</string>
-	<string key="PvP_Potions_Large_BeastT3_Description" rel_version="PvP_Rewards_Track">Questo pacchetto pozioni contiene: \nPozione di protezione dalle bestie impregnata (x2) \nRivestimento per bestie impregnato (x2) \nPozione della salute impregnata \nPozione del mana impregnata \nPozione rigenerante impregnata</string>
 	<string key="PVP_TimberBundle_1_Description">Oggetto missione PvP</string>
 	<string key="PVP_TimberBundle_1_Mastername">Cassa di armamenti</string>
 	<string key="PVP_TimberBundle_5_Description">Oggetto missione PvP</string>
@@ -26901,9 +26585,9 @@
 	<string key="ReedT1_MasterName">Canne</string>
 	<string key="Reekwater05WC06ArenaKey_Description">Serve per accedere al Boschetto di Zygoramet a Frutteto dell'Eden.</string>
 	<string key="Reekwater05WC06ArenaKey_MasterName">Chiave dello Spriggan di Acquafetida</string>
-	<string key="Reekwater05WC10BossKey_Description">Serve per accedere all'arena del Laghetto Eterno di Acquafetida.</string>
+	<string key="Reekwater05WC10BossKey_Description">Serve per accedere alla prova del Laghetto Eterno di Acquafetida.</string>
 	<string key="Reekwater05WC10BossKey_MasterName">Sfera di sintonia del Protettore</string>
-	<string key="Reekwater05WC11BossKey_Description">Serve per accedere all'arena della Spira di Melpomene di Acquafetida.</string>
+	<string key="Reekwater05WC11BossKey_Description">Serve per accedere alla prova della Spira di Melpomene di Acquafetida.</string>
 	<string key="Reekwater05WC11BossKey_MasterName">Sfera di sintonia della sirena</string>
 	<string key="RepairKit">Kit di riparazione</string>
 	<string key="RepairKit_Description">Un kit contenente materiale e strumenti usati per riparare le postazioni d'assedio.</string>
@@ -28049,6 +27733,8 @@
 	<string key="SiegeSupply_MasterName">Provviste per assedio</string>
 	<string key="SilkWeaveT4_Description">Utile per la lavorazione della seta.</string>
 	<string key="SilkWeaveT4_MasterName">Intreccio di seta</string>
+	<string key="Skin_AngelsDemons_Blunderbuss_Description" rel_version="Weapon_Blunderbuss_AngelsDemons_MTX">"È caldo al tatto ed emana ondate pulsanti di un calore oppressivo il cui odore ricorda lo zolfo."</string>
+	<string key="Skin_AngelsDemons_Blunderbuss_MasterName" rel_version="Weapon_Blunderbuss_AngelsDemons_MTX">Schioppo di zolfo</string>
 	<string key="Skin_AngelsDemons_VoidGauntlet_Description" rel_version="Weapon_VoidGauntlet_AngelsDemons_MTX">"Un angelo caduto è una mostruosa incarnazione del sacrificio."</string>
 	<string key="Skin_AngelsDemons_VoidGauntlet_MasterName" rel_version="Weapon_VoidGauntlet_AngelsDemons_MTX">Caduta di Moloch</string>
 	<string key="Skin_AnglesDemon_FireStaff_Description" rel_version="New_World_Launch">"Al suo interno arde il tormentato fuoco dell'inferno."</string>
@@ -28059,6 +27745,8 @@
 	<string key="Skin_AnglesDemon_Spear_MasterName" rel_version="New_World_Launch">Vendetta divina</string>
 	<string key="Skin_AnglesDemon_WarHammer_Description" rel_version="New_World_Launch">"Lasciati alle spalle una scia di vendetta."</string>
 	<string key="Skin_AnglesDemon_WarHammer_MasterName" rel_version="New_World_Launch">Ira del distruttore</string>
+	<string key="Skin_Blunderbuss_FateFortune_Description" rel_version="Weapon_Blunderbuss_Fortune_MTX">Rivela il destino di chi ti si oppone.</string>
+	<string key="Skin_Blunderbuss_FateFortune_MasterName" rel_version="Weapon_Blunderbuss_Fortune_MTX">Chiromante</string>
 	<string key="Skin_Blunderbuss_Floral_Description" rel_version="Weapon_Blunderbuss_Floral_MTX">Le solanacee sono dotate di veleni letali, che vengono iniettati attraverso le spine.</string>
 	<string key="Skin_Blunderbuss_Floral_MasterName" rel_version="Weapon_Blunderbuss_Floral_MTX">Spine notturne</string>
 	<string key="Skin_Bow_ClassicRPG_Description" rel_version="Weapon_Bow_ClassicRPG_MTX">Prendi la mira senza timore perché il potere del drago è con te.</string>
@@ -28087,6 +27775,12 @@
 	<string key="Skin_Chest_ClothT5Var2_MasterName" rel_version="MTX_October_Skins">Giacca delle Pianure azzurre</string>
 	<string key="Skin_Chest_FanaticSaintH_Description" rel_version="Apparel_FanaticSaint_Prime_Heavy">Dissipa l'oscurità e intimidisci il male in questa armatura pesante rinforzata tre volte.</string>
 	<string key="Skin_Chest_FanaticSaintH_MasterName" rel_version="Apparel_FanaticSaint_Prime_Heavy">Corazza del crociato in cerca di verità</string>
+	<string key="Skin_Chest_FanaticSaintL_Description" rel_version="Apparel_FanaticSaint_Prime_Light">Indossa questa elegante armatura leggera per schivare con destrezza gli attacchi nemici.</string>
+	<string key="Skin_Chest_FanaticSaintL_MasterName" rel_version="Apparel_FanaticSaint_Prime_Light">Forziere dell'avanguardia sacra</string>
+	<string key="Skin_Chest_FateFortuneSteampunkH_Description" rel_version="Apparel_Fortune_2">La stella risplende, bagnando Aeternum con la luce dorata della redenzione.</string>
+	<string key="Skin_Chest_FateFortuneSteampunkH_MasterName" rel_version="Apparel_Fortune_2">Giacca astrale</string>
+	<string key="Skin_Chest_FateFortuneTellerL_Description" rel_version="Apparel_Fortune_1">Imbevuto dei poteri splendenti della falce di luna, illumina Aeternum come fa la superficie lunare di notte.</string>
+	<string key="Skin_Chest_FateFortuneTellerL_MasterName" rel_version="Apparel_Fortune_1">Giacca lunare</string>
 	<string key="skin_chest_fisherman_achv_description" rel_version="Apparel_Fisherman_Achv">L'abbigliamento da lavoro di un mastro pescatore.</string>
 	<string key="skin_chest_fisherman_achv_mastername" rel_version="Apparel_Fisherman_Achv">Grembiule da mastro pescatore</string>
 	<string key="Skin_Chest_Lunar01_Description" rel_version="Apparel_LunarNewYear_MTX_1">Ruggisci fino a scuotere le viscere di Aeternum.</string>
@@ -28147,6 +27841,18 @@
 	<string key="Skin_Chest_WoT_RedScarf_MasterName" rel_version="Twitch_EpicStory_Skins">Mantello dell'Ajah Rossa</string>
 	<string key="Skin_Chest_WoT_WhiteRobe_Description" rel_version="Twitch_EpicStory_Skins">A volte delle vesti eburnee mascherano abilmente le vere intenzioni di chi le indossa.</string>
 	<string key="Skin_Chest_WoT_WhiteRobe_MasterName" rel_version="Twitch_EpicStory_Skins">Figli della Luce</string>
+	<string key="Skin_FateFortune_AzothScepter_Description" rel_version="MTX_Tool_Skins_Fortune">Brilla come il sole nel cielo.</string>
+	<string key="Skin_FateFortune_AzothScepter_Name" rel_version="MTX_Tool_Skins_Fortune">Bastone del sole</string>
+	<string key="Skin_FateFortune_FishingPole_Description" rel_version="MTX_Tool_Skins_Fortune">I pesci amano le cose luccicanti, e francamente anche gli umani.</string>
+	<string key="Skin_FateFortune_FishingPole_Name" rel_version="MTX_Tool_Skins_Fortune">Asta dello scettro</string>
+	<string key="Skin_FateFortune_LoggingAxe_Description" rel_version="MTX_Tool_Skins_Fortune">Non farti ingannare dalla filigrana, quest'ascia di legno può tagliare i rami più spessi.</string>
+	<string key="Skin_FateFortune_LoggingAxe_Name" rel_version="MTX_Tool_Skins_Fortune">Ascia dorata</string>
+	<string key="Skin_FateFortune_Pickaxe_Description" rel_version="MTX_Tool_Skins_Fortune">L'oscillazione di questo piccone ricorda l'arco del sole nel cielo.</string>
+	<string key="Skin_FateFortune_Pickaxe_Name" rel_version="MTX_Tool_Skins_Fortune">Piccone aurato</string>
+	<string key="Skin_FateFortune_Sickle_Description" rel_version="MTX_Tool_Skins_Fortune">Come la luna cresce e cala, così fanno i raccolti.</string>
+	<string key="Skin_FateFortune_Sickle_Name" rel_version="MTX_Tool_Skins_Fortune">Falcetto a falce di luna</string>
+	<string key="Skin_FateFortune_SkinningKnife_Description" rel_version="MTX_Tool_Skins_Fortune">Scuoia con il potere della luna al tuo fianco.</string>
+	<string key="Skin_FateFortune_SkinningKnife_Name" rel_version="MTX_Tool_Skins_Fortune">Fetta di luna</string>
 	<string key="skin_feet_abyssal_description" rel_version="Apparel_Abyssal_Costume">Attingi al potere del Vuoto.</string>
 	<string key="skin_feet_abyssal_mastername" rel_version="Apparel_Abyssal_Costume">Stivali toccati dal Vuoto</string>
 	<string key="skin_feet_autumnking_description" rel_version="Apparel_AutumnKing">Il ciclo della vita continua.</string>
@@ -28161,6 +27867,12 @@
 	<string key="Skin_Feet_ClothT5Var2_MasterName" rel_version="MTX_October_Skins">Scarpe delle Pianure azzurre</string>
 	<string key="Skin_Feet_FanaticSaintH_Description" rel_version="Apparel_FanaticSaint_Prime_Heavy">Dissipa l'oscurità e intimidisci il male in questa armatura pesante rinforzata tre volte.</string>
 	<string key="Skin_Feet_FanaticSaintH_MasterName" rel_version="Apparel_FanaticSaint_Prime_Heavy">Uose del crociato in cerca di verità</string>
+	<string key="Skin_Feet_FanaticSaintL_Description" rel_version="Apparel_FanaticSaint_Prime_Light">Indossa questa elegante armatura leggera per schivare con destrezza gli attacchi nemici.</string>
+	<string key="Skin_Feet_FanaticSaintL_MasterName" rel_version="Apparel_FanaticSaint_Prime_Light">Stivali dell'avanguardia sacra</string>
+	<string key="Skin_Feet_FateFortuneSteampunkH_Description" rel_version="Apparel_Fortune_2">La stella risplende, bagnando Aeternum con la luce dorata della redenzione.</string>
+	<string key="Skin_Feet_FateFortuneSteampunkH_MasterName" rel_version="Apparel_Fortune_2">Scarpe astrali</string>
+	<string key="Skin_Feet_FateFortuneTellerL_Description" rel_version="Apparel_Fortune_1">Imbevuto dei poteri splendenti della falce di luna, illumina Aeternum come fa la superficie lunare di notte.</string>
+	<string key="Skin_Feet_FateFortuneTellerL_MasterName" rel_version="Apparel_Fortune_1">Scarpe lunari</string>
 	<string key="skin_feet_fisherman_achv_description" rel_version="Apparel_Fisherman_Achv">L'abbigliamento da lavoro di un mastro pescatore.</string>
 	<string key="skin_feet_fisherman_achv_mastername" rel_version="Apparel_Fisherman_Achv">Galosce del mastro pescatore</string>
 	<string key="Skin_Feet_Lunar01_Description" rel_version="Apparel_LunarNewYear_MTX_1">Ruggisci fino a scuotere le viscere di Aeternum.</string>
@@ -28237,6 +27949,12 @@
 	<string key="Skin_Hands_ClothT5Var2_MasterName" rel_version="MTX_October_Skins">Guanti delle Pianure azzurre</string>
 	<string key="Skin_Hands_FanaticSaintH_Description" rel_version="Apparel_FanaticSaint_Prime_Heavy">Dissipa l'oscurità e intimidisci il male in questa armatura pesante rinforzata tre volte.</string>
 	<string key="Skin_Hands_FanaticSaintH_MasterName" rel_version="Apparel_FanaticSaint_Prime_Heavy">Guanti del crociato in cerca di verità</string>
+	<string key="Skin_Hands_FanaticSaintL_Description" rel_version="Apparel_FanaticSaint_Prime_Light">Indossa questa elegante armatura leggera per schivare con destrezza gli attacchi nemici.</string>
+	<string key="Skin_Hands_FanaticSaintL_MasterName" rel_version="Apparel_FanaticSaint_Prime_Light">Guanti dell'avanguardia sacra</string>
+	<string key="Skin_Hands_FateFortuneSteampunkH_Description" rel_version="Apparel_Fortune_2">La stella risplende, bagnando Aeternum con la luce dorata della redenzione.</string>
+	<string key="Skin_Hands_FateFortuneSteampunkH_MasterName" rel_version="Apparel_Fortune_2">Guanti astrali</string>
+	<string key="Skin_Hands_FateFortuneTellerL_Description" rel_version="Apparel_Fortune_1">Imbevuto dei poteri splendenti della falce di luna, illumina Aeternum come fa la superficie lunare di notte.</string>
+	<string key="Skin_Hands_FateFortuneTellerL_MasterName" rel_version="Apparel_Fortune_1">Guanti lunari</string>
 	<string key="skin_hands_fisherman_achv_description" rel_version="Apparel_Fisherman_Achv">L'abbigliamento da lavoro di un mastro pescatore.</string>
 	<string key="skin_hands_fisherman_achv_mastername" rel_version="Apparel_Fisherman_Achv">Guanti del mastro pescatore</string>
 	<string key="Skin_Hands_Lunar01_Description" rel_version="Apparel_LunarNewYear_MTX_1">Ruggisci fino a scuotere le viscere di Aeternum.</string>
@@ -28287,6 +28005,8 @@
 	<string key="skin_hands_winteroutfit03_mastername" rel_version="Apparel_Winter_MTX_3">Guanti festosi</string>
 	<string key="Skin_Hands_WoodsmanAlt2_Description" rel_version="New_World_Launch">Mimetizzato con capi boschivi, il cacciatore di pelli si confonde con l'ambiente circostante.</string>
 	<string key="Skin_Hands_WoodsmanAlt2_MasterName" rel_version="New_World_Launch">Guanti verdeggianti da cacciatore di pelli</string>
+	<string key="Skin_Hatchet_FateFortune_Description" rel_version="Weapon_Hatchet_Fortune_MTX">Taglia e affetta con l'eleganza della luna che scintilla sul Lago di Ginevra.</string>
+	<string key="Skin_Hatchet_FateFortune_MasterName" rel_version="Weapon_Hatchet_Fortune_MTX">Curva della falce di luna</string>
 	<string key="skin_hatchet_holiday_dec21_description" rel_version="Weapon_Hatchet_Winter_MTX">Quest'ascia dorata brilla e rifulge della gloria del periodo delle feste.</string>
 	<string key="skin_hatchet_holiday_dec21_mastername" rel_version="Weapon_Hatchet_Winter_MTX">Lama festiva</string>
 	<string key="Skin_Hatchet_Vinespun_Description" rel_version="New_World_Launch">"Taglia e squarcia la vegetazione di Aeternum con stile."</string>
@@ -28305,6 +28025,12 @@
 	<string key="Skin_Head_ClothT5Var2_MasterName" rel_version="MTX_October_Skins">Cappello delle Pianure azzurre</string>
 	<string key="Skin_Head_FanaticSaintH_Description" rel_version="Apparel_FanaticSaint_Prime_Heavy">Dissipa l'oscurità e intimidisci il male in questa armatura pesante rinforzata tre volte.</string>
 	<string key="Skin_Head_FanaticSaintH_MasterName" rel_version="Apparel_FanaticSaint_Prime_Heavy">Elmo del crociato in cerca di verità</string>
+	<string key="Skin_Head_FanaticSaintL_Description" rel_version="Apparel_FanaticSaint_Prime_Light">Indossa questa elegante armatura leggera per schivare con destrezza gli attacchi nemici.</string>
+	<string key="Skin_Head_FanaticSaintL_MasterName" rel_version="Apparel_FanaticSaint_Prime_Light">Elmo dell'avanguardia sacra</string>
+	<string key="Skin_Head_FateFortuneSteampunkH_Description" rel_version="Apparel_Fortune_2">La stella risplende, bagnando Aeternum con la luce dorata della redenzione.</string>
+	<string key="Skin_Head_FateFortuneSteampunkH_MasterName" rel_version="Apparel_Fortune_2">Cappello astrale</string>
+	<string key="Skin_Head_FateFortuneTellerL_Description" rel_version="Apparel_Fortune_1">Imbevuto dei poteri splendenti della falce di luna, illumina Aeternum come fa la superficie lunare di notte.</string>
+	<string key="Skin_Head_FateFortuneTellerL_MasterName" rel_version="Apparel_Fortune_1">Cappello lunare</string>
 	<string key="skin_head_fisherman_achv_description" rel_version="Apparel_Fisherman_Achv">L'abbigliamento da lavoro di un mastro pescatore.</string>
 	<string key="skin_head_fisherman_achv_mastername" rel_version="Apparel_Fisherman_Achv">Cappello del mastro pescatore</string>
 	<string key="Skin_Head_HideHelmet_Description">Evita che qualcuno possa criticare la tua capigliatura... o la tua testa calva.</string>
@@ -28427,6 +28153,12 @@
 	<string key="Skin_Legs_ClothT5Var2_MasterName" rel_version="MTX_October_Skins">Pantaloni delle Pianure azzurre</string>
 	<string key="Skin_Legs_FanaticSaintH_Description" rel_version="Apparel_FanaticSaint_Prime_Heavy">Dissipa l'oscurità e intimidisci il male in questa armatura pesante rinforzata tre volte.</string>
 	<string key="Skin_Legs_FanaticSaintH_MasterName" rel_version="Apparel_FanaticSaint_Prime_Heavy">Schinieri del crociato in cerca di verità</string>
+	<string key="Skin_Legs_FanaticSaintL_Description" rel_version="Apparel_FanaticSaint_Prime_Light">Indossa questa elegante armatura leggera per schivare con destrezza gli attacchi nemici.</string>
+	<string key="Skin_Legs_FanaticSaintL_MasterName" rel_version="Apparel_FanaticSaint_Prime_Light">Pantaloni dell'avanguardia sacra</string>
+	<string key="Skin_Legs_FateFortuneSteampunkH_Description" rel_version="Apparel_Fortune_2">La stella risplende, bagnando Aeternum con la luce dorata della redenzione.</string>
+	<string key="Skin_Legs_FateFortuneSteampunkH_MasterName" rel_version="Apparel_Fortune_2">Calzamaglia astrale</string>
+	<string key="Skin_Legs_FateFortuneTellerL_Description" rel_version="Apparel_Fortune_1">Imbevuto dei poteri splendenti della falce di luna, illumina Aeternum come fa la superficie lunare di notte.</string>
+	<string key="Skin_Legs_FateFortuneTellerL_MasterName" rel_version="Apparel_Fortune_1">Pantaloni lunari</string>
 	<string key="skin_legs_fisherman_achv_description" rel_version="Apparel_Fisherman_Achv">L'abbigliamento da lavoro di un mastro pescatore.</string>
 	<string key="skin_legs_fisherman_achv_mastername" rel_version="Apparel_Fisherman_Achv">Pantaloni del mastro pescatore</string>
 	<string key="Skin_Legs_Lunar01_Description" rel_version="Apparel_LunarNewYear_MTX_1">Ruggisci fino a scuotere le viscere di Aeternum.</string>
@@ -28477,6 +28209,8 @@
 	<string key="skin_legs_winteroutfit03_mastername" rel_version="Apparel_Winter_MTX_3">Pantaloni festosi</string>
 	<string key="Skin_Legs_WoodsmanAlt2_Description" rel_version="New_World_Launch">Mimetizzato con capi boschivi, il cacciatore di pelli si confonde con l'ambiente circostante.</string>
 	<string key="Skin_Legs_WoodsmanAlt2_MasterName" rel_version="New_World_Launch">Pantaloni verdeggianti da cacciatore di pelli</string>
+	<string key="Skin_Lifestaff_FateFortune_Description" rel_version="Weapon_LifeStaff_Fortune_MTX">Brandito da innumerevoli maghi prima di te, questo bastone è leggero e formicola ancora di magia.</string>
+	<string key="Skin_Lifestaff_FateFortune_MasterName" rel_version="Weapon_LifeStaff_Fortune_MTX">Gioia del mago</string>
 	<string key="Skin_Lifestaff_Floral_Description" rel_version="Weapon_LifeStaff_Floral_MTX">Man mano che ogni petalo si schiude, rivela nuovi segreti di guarigione.</string>
 	<string key="Skin_Lifestaff_Floral_MasterName" rel_version="Weapon_LifeStaff_Floral_MTX">Bocciolo di rosa</string>
 	<string key="skin_lifestaff_holiday_dec21_description" rel_version="Weapon_LifeStaff_Winter_MTX">Intagliato in inverno e temprato su un ceppo natalizio ardente, questo bastone riscalda come un accogliente focolare.</string>
@@ -28639,8 +28373,12 @@
 	<string key="Skin_ShieldR_Vinespun_MasterName" rel_version="New_World_Launch">Disco di Gaia</string>
 	<string key="Skin_ShieldT_AngelsDemons_Description" rel_version="Weapon_TowerShield_AngelsDemons_MTX">"Per difendere dal male e farsi campione di purezza, occorre avere uno scudo adeguato."</string>
 	<string key="Skin_ShieldT_AngelsDemons_MasterName" rel_version="Weapon_TowerShield_AngelsDemons_MTX">Baluardo angelico</string>
+	<string key="Skin_ShieldT_FateFortune_Description" rel_version="Weapon_Shield_Fortune_MTX">La luna cresce e cala, ma il potere di questo scudo è una splendida costante.</string>
+	<string key="Skin_ShieldT_FateFortune_MasterName" rel_version="Weapon_Shield_Fortune_MTX">Torre di Ecate</string>
 	<string key="Skin_ShieldT_Vinespun_Description" rel_version="New_World_Launch">"Una guardia potente e florida come il muro del giardino di un palazzo."</string>
 	<string key="Skin_ShieldT_Vinespun_MasterName" rel_version="New_World_Launch">Muro del giardino</string>
+	<string key="Skin_Spear_FateFortune_Description" rel_version="Weapon_Spear_Fortune_MTX">Riponi la tua fede nei cieli in continuo movimento e colpisci.</string>
+	<string key="Skin_Spear_FateFortune_MasterName" rel_version="Weapon_Spear_Fortune_MTX">Lancia della fede</string>
 	<string key="Skin_Spear_Harpoon_Description" rel_version="Weapon_Spear_AutumnKing">"Ogni sorta di creatura acquatica teme lo scintillio di questa lancia."</string>
 	<string key="Skin_Spear_Harpoon_MasterName" rel_version="Weapon_Spear_AutumnKing">Tormento dei mari</string>
 	<string key="skin_spear_holiday_dec21_description" rel_version="Weapon_Spear_Winter_MTX">Ogni uccisione rappresenta un'offerta alle forze ctonie in agguato appena sotto la superficie tumultuosamente gioiosa delle festività.</string>
@@ -28659,6 +28397,8 @@
 	<string key="Skin_Valentines_Sickle_Name" rel_version="Tool_Sickle_Valentine">Falcetto degli innamorati</string>
 	<string key="Skin_Valentines_SkinningKnife_Description" rel_version="Tool_SkinningKnife_Valentine">"Per scuoiare pellicce con le quali decorare il pavimento di una tenda per due."</string>
 	<string key="Skin_Valentines_SkinningKnife_Name" rel_version="Tool_SkinningKnife_Valentine">Finché morte</string>
+	<string key="Skin_VoidGauntlet_FateFortune_Description" rel_version="Weapon_VoidGauntlet_Fortune_MTX">Il crepuscolo avvolge il lato occidentale di Aeternum e spazza rapidamente la terra mentre il sole tramonta.</string>
+	<string key="Skin_VoidGauntlet_FateFortune_MasterName" rel_version="Weapon_VoidGauntlet_Fortune_MTX">Oscurità del tramonto</string>
 	<string key="Skin_WarHammer_ClassicRPG_Description" rel_version="Weapon_Warhammer_ClassicRPG_MTX">Per sempre intrecciati, questi due serpenti mostrano i denti, pronti al prossimo pasto.</string>
 	<string key="Skin_WarHammer_ClassicRPG_MasterName" rel_version="Weapon_Warhammer_ClassicRPG_MTX">Bestie gemelle</string>
 	<string key="Skin_WarHammer_Valentine_Description" rel_version="Weapon_Warhammer_February_MTX">"Questa intensa sensazione che senti nel corpo è dovuta alla vista della persona che ami o al martello che ha sepolto nel tuo cuore?"</string>
@@ -30137,27 +29877,27 @@
 	<string key="PerfectSalvageArmorT3_MasterName">Pezzi di armatura utili</string>
 	<string key="PerfectSalvageArmorT4_MasterName">Pezzi di armatura preziosi</string>
 	<string key="PerfectSalvageArmorT5_MasterName">Pezzi di armatura impregnati</string>
-	<string key="PerfectSalvageArmorT5_MasterName">Frammento di armatura impregnato</string>
+	<string key="PerfectSalvageArmorT51_MasterName">Frammento di armatura impregnato</string>
 	<string key="PerfectSalvageWeaponsT2_MasterName">Pezzi di arma</string>
 	<string key="PerfectSalvageWeaponsT3_MasterName">Pezzi di arma utili</string>
 	<string key="PerfectSalvageWeaponsT4_MasterName">Pezzi di arma preziosi</string>
 	<string key="PerfectSalvageWeaponsT5_MasterName">Pezzi di arma impregnati</string>
-	<string key="PerfectSalvageWeaponsT5_MasterName">Frammento di arma impregnato</string>
+	<string key="PerfectSalvageWeaponsT51_MasterName">Frammento di arma impregnato</string>
 	<string key="PerfectSalvageEngineerT2_MasterName">Pezzi per ingegneria</string>
 	<string key="PerfectSalvageEngineerT3_MasterName">Pezzi per ingegneria utili</string>
 	<string key="PerfectSalvageEngineerT4_MasterName">Pezzi per ingegneria preziosi</string>
 	<string key="PerfectSalvageEngineerT5_MasterName">Pezzi per ingegneria impregnati</string>
-	<string key="PerfectSalvageEngineerT5_MasterName">Frammento per ingegneria impregnato</string>
+	<string key="PerfectSalvageEngineerT51_MasterName">Frammento per ingegneria impregnato</string>
 	<string key="PerfectSalvageJewelryT2_MasterName">Pezzi di gioiello</string>
 	<string key="PerfectSalvageJewelryT3_MasterName">Pezzi di gioiello utili</string>
 	<string key="PerfectSalvageJewelryT4_MasterName">Pezzi di gioiello preziosi</string>
 	<string key="PerfectSalvageJewelryT5_MasterName">Pezzi di gioiello impregnati</string>
-	<string key="PerfectSalvageJewelryT5_MasterName">Frammento di gioiello impregnato</string>
+	<string key="PerfectSalvageJewelryT51_MasterName">Frammento di gioiello impregnato</string>
 	<string key="PerfectSalvageArcaneT2_MasterName">Pezzi arcani</string>
 	<string key="PerfectSalvageArcaneT3_MasterName">Pezzi arcani utili</string>
 	<string key="PerfectSalvageArcaneT4_MasterName">Pezzi arcani preziosi</string>
 	<string key="PerfectSalvageArcaneT5_MasterName">Pezzi arcani impregnati</string>
-	<string key="PerfectSalvageArcaneT5_MasterName">Frammento arcano impregnato</string>
+	<string key="PerfectSalvageArcaneT51_MasterName">Frammento arcano impregnato</string>
 	<string key="PerfectSalvageArmor_Description">Si può usare per ricavare una grande quantità di pezzi di ricambio. È utilizzabile anche in una postazione di accessoristica o in una fucina per ricavarne materiali, fabbricare oggetti o ottenere esperienza nella forgiatura di armature.</string>
 	<string key="PerfectSalvageArmorT51_Description">Si può usare per ricavare una grande quantità di pezzi di ricambio. È utilizzabile anche in una postazione di accessoristica o in una fucina per ricavarne materiali o fabbricare oggetti, oppure in una fornace per gesso.</string>
 	<string key="PerfectSalvageWeapons_Description">Si può usare per ricavare una grande quantità di pezzi di ricambio. È utilizzabile anche in una fucina per ricavarne materiali, fabbricare oggetti o ottenere esperienza nella forgiatura di armature.</string>
@@ -30192,5 +29932,45 @@
 	<string key="ScrapExtractTimberT5_MasterName">Custodia di legnoferro</string>
 	<string key="ScrapExtractTimberT51_MasterName">Custodia di ebano scintillante</string>
 	<string key="ScrapExtractContainer_Description">Questo contenitore contiene risorse.</string>
+	<string key="2hBlunderbuss_MarauderRank4_MasterName" rel_version="Weapon_Blunderbuss">Schioppo da Distruttore dei Predoni</string>
+	<string key="2hBlunderbuss_MarauderRank4_Description" rel_version="Weapon_Blunderbuss">Uno schioppo di buona fattura per i Distruttori dei Predoni.</string>
+	<string key="2hBlunderbuss_MarauderRank5_MasterName" rel_version="Weapon_Blunderbuss">Schioppo da Comandante dei Predoni</string>
+	<string key="2hBlunderbuss_MarauderRank5_Description" rel_version="Weapon_Blunderbuss">Uno schioppo di buona fattura per i Comandanti dei Predoni.</string>
+	<string key="2hBlunderbuss_SyndicateRank4_MasterName" rel_version="Weapon_Blunderbuss">Schioppo da Cabalista dell'Unione</string>
+	<string key="2hBlunderbuss_SyndicateRank4_Description" rel_version="Weapon_Blunderbuss">Uno schioppo di buona fattura per i Cabalisti dell'Unione.</string>
+	<string key="2hBlunderbuss_SyndicateRank5_MasterName" rel_version="Weapon_Blunderbuss">Schioppo da Alchimista dell'Unione</string>
+	<string key="2hBlunderbuss_SyndicateRank5_Description" rel_version="Weapon_Blunderbuss">Uno schioppo di buona fattura per gli Alchimisti dell'Unione.</string>
+	<string key="2hBlunderbuss_CovenantRank4_MasterName" rel_version="Weapon_Blunderbuss">Schioppo da Luminare del Patto</string>
+	<string key="2hBlunderbuss_CovenantRank4_Description" rel_version="Weapon_Blunderbuss">Uno schioppo di buona fattura per i Luminari del Patto.</string>
+	<string key="2hBlunderbuss_CovenantRank5_MasterName" rel_version="Weapon_Blunderbuss">Schioppo da Giudice del Patto</string>
+	<string key="2hBlunderbuss_CovenantRank5_Description">Uno schioppo di buona fattura per i Giudici del Patto.</string>
+	<string key="2hWarhammer_VolundrsIreT3_MasterName" rel_version="AI_Evil_Knights_P2">Collera di Volundr</string>
+	<string key="2hWarhammer_VolundrsIreT3_Description" rel_version="AI_Evil_Knights_P2">Un martello da guerra che funge da triste monito a non contrariare mai il fabbro.</string>
+	<string key="1hKshield_SteinvirkiT3_MasterName" rel_version="AI_Evil_Knights_P2">Steinvirki</string>
+	<string key="1hKshield_SteinvirkiT3_Description" rel_version="AI_Evil_Knights_P2">Un vero e proprio muro di pietra.</string>
+	<string key="1hGauntletIce_FimbulVetrT3_MasterName" rel_version="AI_Evil_Knights_P2">Fimbulvetr</string>
+	<string key="1hGauntletIce_FimbulVetrT3_Description" rel_version="AI_Evil_Knights_P2">Schiera la forza distruttiva del Terribile Inverno.</string>
+	<string key="RingT3_VladislavsSignetRing_MasterName" rel_version="AI_Evil_Knights_P2">Anello con sigillo di Vladislav</string>
+	<string key="RingT3_VladislavsSignetRing_Description" rel_version="AI_Evil_Knights_P2">Un ricordo della casata di Vladislav, con l'emblema della sua famiglia.</string>
+	<string key="RingT3_AntonsSignetRing_MasterName" rel_version="AI_Evil_Knights_P2">Anello con sigillo di Anton</string>
+	<string key="RingT3_AntonsSignetRing_Description" rel_version="AI_Evil_Knights_P2">Un ricordo della casata di Anton, con l'emblema della sua famiglia.</string>
+	<string key="RingT3_SonechkasSignetRing_MasterName" rel_version="AI_Evil_Knights_P2">Anello con sigillo di Sonechka</string>
+	<string key="RingT3_SonechkasSignetRing_Description" rel_version="AI_Evil_Knights_P2">Un ricordo della casata di Sonechka, con l'emblema della sua famiglia.</string>
+	<string key="0601_0104_ShipWheel_MasterName" rel_version="Quest_MSQ2_Revamp">Timone della nave</string>
+	<string key="0601_0104_ShipWheel_Description" rel_version="Quest_MSQ2_Revamp">Un timone riccamente decorato.</string>
+	<string key="FactionIntro_Covenant_01_Keepsakes_MasterName" rel_version="Quest_MSQ2_Revamp">Pegni della fattoria Olcott</string>
+	<string key="FactionIntro_Covenant_01_Keepsakes_Description" rel_version="Quest_MSQ2_Revamp">Monili e gingilli. Inutili per te, ma hanno una gran valore affettivo.</string>
+	<string key="FactionIntro_Covenant_01_Locket_MasterName" rel_version="Quest_MSQ2_Revamp">Ciondolo di Molly Olcott</string>
+	<string key="FactionIntro_Covenant_01_Locket_Description" rel_version="Quest_MSQ2_Revamp">Ciondolo indossato dalla figlia di Feldan.</string>
+	<string key="FactionIntro_Covenant_01_Crest_MasterName" rel_version="Quest_MSQ2_Revamp">Emblema della fattoria Olcott</string>
+	<string key="FactionIntro_Covenant_01_Crest_Description" rel_version="Quest_MSQ2_Revamp">Il semplice simbolo di una semplice fattoria. Ora non ha più alcuna utilità.</string>
+	<string key="MediumFeet_DeftSoftBootsT3_MasterName" rel_version="AI_Evil_Knights_P2">Stivali morbidi pregevoli</string>
+	<string key="MediumFeet_DeftSoftBootsT3_Description" rel_version="AI_Evil_Knights_P2">La pelle morbida come il burro di dà una marcia in più.</string>
+	<string key="MediumHead_EerieVestigeT3_MasterName" rel_version="AI_Evil_Knights_P2">Vestigia inquietanti del chierico</string>
+	<string key="MediumHead_EerieVestigeT3_Description" rel_version="AI_Evil_Knights_P2">Questa sinistra maschera è stata incantata con poteri misteriosi.</string>
+	<string key="MadnessIncarnateT1_MasterName" rel_version="Expedition_ShatterMtn_00">Follia incarnata</string>
+	<string key="MadnessIncarnateT1_Description" rel_version="Expedition_ShatterMtn_00">Una follia così intensa da manifestarsi in forma fisica.</string>
+	<string key="DesecratedFleshT1_MasterName" rel_version="Expedition_ShatterMtn_00">Carne profanata</string>
+	<string key="DesecratedFleshT1_Description" rel_version="Expedition_ShatterMtn_00">Un pezzo di carne intriso di ripugnante malvagità.</string>
 </resources>
 

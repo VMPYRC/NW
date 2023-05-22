@@ -163,6 +163,8 @@
 	<string key="objective_location_name" speaker="UI">Name des Standorts</string>
 	<string key="objective_has_location" speaker="UI">Mit bestimmten Orten</string>
 	<string key="objective_no_location" speaker="UI">Ohne bestimmte Orte</string>
+	<string key="objective_main_story_quest" speaker="UI">Haupthandlungsaufgabe</string>
+	<string key="objective_skill_progression_quest" speaker="UI">Fähigkeitsfortschrittsaufgabe</string>
 	<string key="objective_side_quests" speaker="UI">Nebenaufgaben</string>
 	<string key="objective_event" speaker="UI">Event-Aufgaben</string>
 	<string key="objective_event_desc" speaker="UI">Während eines Events verfügbare Ziele</string>
@@ -202,6 +204,7 @@
 	<string key="objective_requiresitem" speaker="UI">Erfordert {itemName} Rang {tier}</string>
 	<string key="objective_reward" speaker="UI">Belohnung</string>
 	<string key="objective_rewards" speaker="UI">Belohnungen</string>
+	<string key="objective_activebonuses" speaker="UI">Aktive Boni</string>
 	<string key="objective_norewards" speaker="UI">An der Schlacht teilnehmen, um Belohnungen zu erhalten</string>
 	<string key="objective_salvage" speaker="UI">Zerlege "{itemName}"</string>
 	<string key="objective_started" speaker="UI">Ziel begonnen</string>
@@ -292,5 +295,6 @@
 	<string key="objective_mission_task_control_point_S">Erobere das Fort {TerritoryID} für das Syndikat.</string>
 	<string key="objective_mission_task_control_point_C">Erobere das Fort {TerritoryID} für das Bündnis.</string>
 	<string key="objective_mission_faction_corruption_breach" rel_version="Quest_FM_BreachMissions">Verschließe einen Verderbnisausbruch</string>
+	<string key="objective_mission_rescue_npc_generic" rel_version="Quest_MSQ2_Revamp">Befreie Geiseln</string>
 </resources>
 

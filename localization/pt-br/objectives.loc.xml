@@ -163,6 +163,8 @@
 	<string key="objective_location_name" speaker="UI">Nome do Local</string>
 	<string key="objective_has_location" speaker="UI">Com Localizações Específicas</string>
 	<string key="objective_no_location" speaker="UI">Sem Localizações Específicas</string>
+	<string key="objective_main_story_quest" speaker="UI">Jornada da História Principal</string>
+	<string key="objective_skill_progression_quest" speaker="UI">Jornada da Progressão de Habilidade</string>
 	<string key="objective_side_quests" speaker="UI">Jornadas Paralelas</string>
 	<string key="objective_event" speaker="UI">Jornadas de Evento</string>
 	<string key="objective_event_desc" speaker="UI">Objetivos disponíveis durante um Evento</string>
@@ -202,6 +204,7 @@
 	<string key="objective_requiresitem" speaker="UI">Requer {itemName} Escala {tier}</string>
 	<string key="objective_reward" speaker="UI">Recompensa</string>
 	<string key="objective_rewards" speaker="UI">Recompensas</string>
+	<string key="objective_activebonuses" speaker="UI">Bônus Ativos</string>
 	<string key="objective_norewards" speaker="UI">Contribua na Batalha para ganhar Recompensas</string>
 	<string key="objective_salvage" speaker="UI">Sucateie {itemName}</string>
 	<string key="objective_started" speaker="UI">Objetivo Iniciado</string>
@@ -292,5 +295,6 @@
 	<string key="objective_mission_task_control_point_S">Capture o Forte de {TerritoryID} pelo Sindicato</string>
 	<string key="objective_mission_task_control_point_C">Capture o Forte de {TerritoryID} pela Aliança</string>
 	<string key="objective_mission_faction_corruption_breach" rel_version="Quest_FM_BreachMissions">Feche uma Incursão de Corrupção</string>
+	<string key="objective_mission_rescue_npc_generic" rel_version="Quest_MSQ2_Revamp">Resgate os Reféns</string>
 </resources>
 

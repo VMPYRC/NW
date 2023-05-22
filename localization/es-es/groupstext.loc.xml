@@ -11,7 +11,7 @@
 	<string key="ui_receivedgroupinvite_hide" comment="">Ocultar</string>
 	<string key="ui_togglepvpblocked_title" comment="">Aviso de activación para JcJ</string>
 	<string key="ui_togglepvpblocked_ingroup" comment="">No puede haber jugadores de JcJ y JcE en un mismo grupo. Cambiar tu activación para JcJ supondrá la expulsión de este grupo.\n\n¿Seguro que quieres continuar?</string>
-	<string key="ui_togglepvpblocked_pendinginvites" comment="">Cambiar tu activación para JcJ supondrá la cancelación de todas tus invitaciones de grupo pendientes.\n\n¿Seguro que quieres continuar?</string>
+	<string key="ui_togglepvpblocked_pendinginvites" comment="">Cambiar tu activación para JcJ supondrá la cancelación de todas tus invitaciones al vestíbulo de la expedición.\n\n¿Seguro que quieres continuar?</string>
 	<string key="ui_receivedwargroupinvitetitle" comment="">¡Únete a la guerra!</string>
 	<string key="ui_receivedwargroupinvitemessage" comment="">Te han invitado a que te unas a la guerra en {territoryName}, que tendrá lugar de {startTime} a {endTime}. Acepta para teletransportarte al campo de batalla.</string>
 	<string key="ui_receivedinvasiongroupinvitetitle" comment="">¡Participa en la defensa contra la invasión!</string>
@@ -157,15 +157,18 @@
 	<string key="ui_pingTypeDistance" comment="">{pingType} {distance}</string>
 	<string key="ui_raid_war_header" comment="">Ejército de guerra</string>
 	<string key="ui_raid_invasion_header" comment="">Ejército de invasión</string>
-	<string key="ui_raid_standby_header" comment="">Lista de espera</string>
-	<string key="ui_raid_armygroups" comment="">Grupos del ejército</string>
-	<string key="ui_raid_backfill" comment="">Sustituciones</string>
-	<string key="ui_raid_your_status" comment="">Tu estado.</string>
+	<string key="ui_raid_standby_header" comment="">EN ESPERA</string>
+	<string key="ui_raid_armygroups" comment="">Ejército</string>
+	<string key="ui_raid_backfill" comment="">Sustitución</string>
+	<string key="ui_raid_your_status" comment="">Tu estado</string>
 	<string key="ui_raid_standby_priority" comment="">PRIORITARIO</string>
 	<string key="ui_raid_group_header" comment="">Grupo &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{index}&lt;/font&gt;</string>
+	<string key="ui_raid_group_disabled_tooltip" comment="">Ahora las guerras tienen {maxRosterMembers} jugadores como máximo. No puedes añadir más jugadores a este grupo.</string>
+	<string key="ui_raid_group_disabled_notification" comment="">Grupo desactivado por alcanzar la cantidad máxima de cambios en la cuadrilla.</string>
+	<string key="ui_raid_max_roster_changed_tooltip" comment="">Ahora las guerras tienen {maxRosterMembers} jugadores como máximo. No podrás añadir jugadores por encima de la nueva cantidad máxima.</string>
 	<string key="ui_raid_member_empty" comment="">Vacío</string>
-	<string key="ui_raid_leave_button" comment="">Abandonar ejército</string>
-	<string key="ui_raid_leave_standby_button" comment="">Abandonar espera</string>
+	<string key="ui_raid_leave_button" comment="">Salir</string>
+	<string key="ui_raid_leave_standby_button" comment="">Salir</string>
 	<string key="ui_raid_fill_button" comment="">Concluir cuadrilla</string>
 	<string key="ui_raid_signup_button" comment="">Registro</string>
 	<string key="ui_auto" comment="">Auto.</string>

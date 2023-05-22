@@ -409,8 +409,132 @@
 	<string key="ui_subarmy_decline_tooltip">La tua richiesta di adesione alla sessione Subscriber Army dello streamer è stata rifiutata.</string>
 	<string key="ui_subarmy_waiting">In attesa dell'approvazione dello streamer...</string>
 	<string key="ui_subarmy_pending">In attesa...</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Trova</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_managetabtitle">Lobby</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creategroup">Crea un nuovo reclutamento</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_refresh">Aggiorna</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_screen_header">Ricerca gruppo spedizione</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_expeditionname">Nome spedizione</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_voippreference">Preferenza VOIP</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_neededroles">Ruoli necessari</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_requiredgearscore">PA minimo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_requiredlevel">Livello minimo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_requiredearscore">Punteggio attrezzatura richiesto: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{level}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voippreference">Chat vocale: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{preference}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voippreference_tooltip">Chat vocale: &lt;font color={color} face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{preference}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_size">Numero minimo giocatori: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{amount}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_recommendedgearscore">Punteggio attrezzatura consigliato: &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;600 - {score}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_recommendedlevel">Livello consigliato: &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{level}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group">Al momento non c'è alcun reclutamento per questa spedizione.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group_at_level">Al momento non c'è alcun reclutamento per il livello di difficoltà {level} di questa spedizione.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group_manage">Non sei in un reclutamento di spedizione.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_your_group">Spedizione</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty">Difficoltà {level}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_members">Membri</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_apply">Richiedi iscrizione</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_only_accept">Solo accetta</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationrejected">Richiesta iscrizione rifiutata</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_groupmembers">Membri</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_currentmembers">Giocatori nella lobby</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_requests">Richieste</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_requeststojoin">Richieste di adesione</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_role">Ruolo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_preferredrole">Ruolo preferito</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_level">Livello</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_gearscore">Punteggio attrezzatura</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_gearscore_short">PA</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_stats">Statistiche</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_viewstats">Visualizza statistiche</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_leavegroup">Esci dalla lobby</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_removefromgroup">Rimuovi dalla lobby</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite">Invita</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invited">Invito inviato</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_reject">Rifiuta</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_rejected">Rifiutato</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_servererror">Errore del server</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_notfound">Gruppo non trovato</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_timeout">Richiesta scaduta</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requestfailed">Richiesta non riuscita</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_invalidrequest">Richiesta non valida</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_group_title">Crea un nuovo reclutamento</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred">Preferito</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_not_required">Non richiesto</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level">Livello minimo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score">Punteggio attrezzatura minimo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement_not_met">Non soddisfi il requisito di livello e/o punteggio attrezzatura per unirti a questo reclutamento.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_unlist_pending_group">Elimina lobby</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending">In attesa...</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted">Accettato</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted_roles_label">Accetta solo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_select_role_label">Seleziona il tuo ruolo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_your_role_label">Il tuo ruolo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_choose_role_title">Scegli il tuo ruolo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm">Richiesta di adesione</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip">Devi selezionare un ruolo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_required_item_tooltip">Per creare un nuovo reclutamento per questa spedizione hai bisogno di {quantity} {item}.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_roles_label">Ruoli attualmente disponibili in questo gruppo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_role_text">&lt;img src="{icon}" scale="2.5" yOffset="8.0"&gt;&lt;/img&gt; {count} {role}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_disabled">Questo ruolo non è richiesto in questo reclutamento.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_recommended_label">RUOLI RACCOMANDATI:</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_name">Tank</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_description">In un gruppo, il ruolo del tank consiste nell'incassare danni e attirare su di sé l'attenzione dei nemici per allontanarli dagli alleati. I tank dovrebbero indossare un'armatura pesante ed equipaggiare gemme di corniola per provocare i nemici. In genere, un tank ricorre agli effetti di controllo di gruppo (stordimento, radicamento, schiacciamento) per impedire che i nemici raggiungano i suoi alleati.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_recommended">Spada e scudo, ascia grande, martello da guerra</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_name">Danni</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_description">Il ruolo di chi infligge danni consiste nel provocare più danni possibili al maggior numero di nemici. L'obiettivo è uccidere gli avversari prima che possano sopraffare il gruppo. Chi ricopre questo ruolo dovrebbe possedere abilità e attributi che consentono di infliggere danni notevoli e sferrare attacchi ad area di effetto.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_recommended">Bastone infuocato, guanto di ghiaccio, accetta</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_name">Guaritore</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_description">I guaritori hanno il compito di tenere in vita il gruppo usando potenziamenti come Fortificazione, capaci di curare e ridurre i danni. Possono anche ricevere l'incarico di rimuovere dagli alleati depotenziamenti dannosi, quali Sanguinamento o Veleno. Per massimizzare l'efficacia curativa, i guaritori dovrebbero aumentare la statistica Concentrazione.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Bastone della vita</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Listino creato</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Listino aggiornato</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Listino rimosso</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationsubmitted">Richiesta iscrizione inviata</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationremoved">Richiesta iscrizione rimossa</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_allapplicationsremoved">Tutte le richieste di iscrizione rimosse</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationaccepted">Invito inviato</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationrejected">Richiesta rifiutata</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted_title">Richiesta iscrizione accettata</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted">{creator} ti ha invitato a unirti alla spedizione \n&lt;font color="#85e74c" &gt;[{expedition}]&lt;/font&gt; come &lt;font color={roleColor}&gt;[{role}]&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_ready_check_title">Forma gruppo di spedizione</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_ready_check">Vuoi formare un gruppo e partecipare alla spedizione?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accept">Accetta</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Rifiuta</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_with_group">Apri la spedizione con il tuo gruppo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_locked">Devi sbloccare questo livello di difficoltà per creare un gruppo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Rifiuta</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Invito accettato</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Invito rifiutato</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberadded">Membro aggiunto al listino gruppo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberupdated">Membro listino gruppo aggiornato</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberremoved">Membro rimosso dal listino gruppo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_looking_for_more">In cerca di nuovi membri...</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_outpost_rush_signup_fail">Non puoi iscriverti perché al momento sei in una lobby di reclutamento.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail">Non puoi unirti alla coda della spedizione se sei in una lobby.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_group_full">Gruppo al completo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_open_expedition">Apri spedizione</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_min_players">È richiesto un minimo di {amount} membri per aprire questa spedizione.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creator">Creatore: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{name}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement">Punteggio attrezzatura richiesto: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color={scoreColor}&gt;{score}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_requirement">Livello richiesto: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color={scoreColor}&gt;{score}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_num_members">Giocatori: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{numMembers}&lt;/font&gt; / 5</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_stat">{name} &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{value}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_none_equipped">Nessuna arma equipaggiata</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_list_creator">Creatore</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group">Lobby</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_group_title">Esci dalla lobby</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_group_desc">Vuoi davvero uscire dalla lobby?</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_remove_from_group_title">Rimuovi membro</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_remove_from_group_desc">Vuoi davvero rimuovere {playerName} dalla lobby?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_unlist_group_title">Elimina lobby</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_unlist_group_desc">Vuoi davvero cancellare il reclutamento?\nTutti i membri saranno espulsi dalla lobby.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_and_unlist_group_desc">Vuoi davvero uscire dalla lobby?\nTutti i membri saranno espulsi e il reclutamento cancellato.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite_reject">Solo il creatore del reclutamento può invitare membri o rifiutare richieste di iscrizione.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_invites_header">Reclutamenti spedizioni</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_description">&lt;font color="#ffea00" &gt;{creator}&lt;/font&gt; ti ha invitato come &lt;font color={roleColor} &gt;{role}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_convert_to_group">Pronto per la spedizione</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_not_enough_members">Membri della lobby insufficienti</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_appended_difficulty">Difficoltà {difficulty}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level_desc">Il tuo livello: {level}\nIl livello minimo non può essere superiore al tuo livello.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score_desc">Il tuo punteggio attrezzatura: {gearscore}\nIl punteggio attrezzatura minimo non può essere superiore al tuo punteggio attrezzatura.</string>
 </resources>
 

@@ -163,6 +163,8 @@
 	<string key="objective_location_name" speaker="UI">Nome luogo</string>
 	<string key="objective_has_location" speaker="UI">Con luoghi specifici</string>
 	<string key="objective_no_location" speaker="UI">Senza luoghi specifici</string>
+	<string key="objective_main_story_quest" speaker="UI">Missione della storia principale</string>
+	<string key="objective_skill_progression_quest" speaker="UI">Missione per l'avanzamento nelle competenze</string>
 	<string key="objective_side_quests" speaker="UI">Missioni secondarie</string>
 	<string key="objective_event" speaker="UI">Missioni evento</string>
 	<string key="objective_event_desc" speaker="UI">Obiettivi disponibili durante un evento</string>
@@ -202,6 +204,7 @@
 	<string key="objective_requiresitem" speaker="UI">Richiede {itemName} livello {tier}</string>
 	<string key="objective_reward" speaker="UI">Ricompensa</string>
 	<string key="objective_rewards" speaker="UI">Ricompense</string>
+	<string key="objective_activebonuses" speaker="UI">Bonus attivi</string>
 	<string key="objective_norewards" speaker="UI">Partecipa alla battaglia per ottenere ricompense</string>
 	<string key="objective_salvage" speaker="UI">Recupera: {itemName}</string>
 	<string key="objective_started" speaker="UI">Obiettivo iniziato</string>
@@ -292,5 +295,6 @@
 	<string key="objective_mission_task_control_point_S">Conquista il forte di {TerritoryID} per l'Unione</string>
 	<string key="objective_mission_task_control_point_C">Conquista il forte di {TerritoryID} per il Patto</string>
 	<string key="objective_mission_faction_corruption_breach" rel_version="Quest_FM_BreachMissions">Chiudi una breccia della corruzione</string>
+	<string key="objective_mission_rescue_npc_generic" rel_version="Quest_MSQ2_Revamp">Salva gli ostaggi</string>
 </resources>
 

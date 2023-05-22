@@ -854,7 +854,7 @@
 	<string key="DungeonReps6_GroupName">Nachbildungen vom Lazarus-Instrumentarium</string>
 	<string key="DungeonReps7_GroupName">Nachbildungen vom Garten des Ursprungs</string>
 	<string key="DungeonReps8_GroupName">NAME AUSSTEHEND</string>
-	<string key="DungeonReps9_GroupName">NAME AUSSTEHEND</string>
+	<string key="DungeonReps9_GroupName">Nachbildungen des Herzens des Sturmwinds</string>
 	<string key="DungeonShields_GroupName">Expeditions-Schilde</string>
 	<string key="Dye1_GroupDesc">Stelle einen roten Farbton her.</string>
 	<string key="Dye1_GroupName">Farbe: Rot</string>
@@ -1376,6 +1376,10 @@
 	<string key="nut_GroupName">Nuss</string>
 	<string key="Offensive_GroupName">Offensive Modifikatoren</string>
 	<string key="oil_GroupName">Öl</string>
+	<string key="beeswax_GroupName">Bienenwachs</string>
+	<string key="DroppedAmulet_GroupName">Weggeworfene Amulette</string>
+	<string key="DroppedRing_GroupName">Weggeworfene Ringe</string>
+	<string key="DroppedEarring_GroupName">Weggeworfene Ohrringe</string>
 	<string key="OnyxCut_GroupDesc">Geschliffene und polierte Onyxe. Kann zu Schmuck verarbeitet werden, der Konstitution steigert, oder in Ausrüstung gesockelt werden, um die Effekte "Dreistheit" und "Körperschutz" zu gewähren.</string>
 	<string key="OnyxCut_GroupName">Geschliffener Onyx</string>
 	<string key="OpalCut_GroupDesc">Geschliffene und polierte Opale. Kann zu Schmuck verarbeitet werden, der Konzentration steigert, oder in Ausrüstung gesockelt werden, um die Effekte "Eröffnung" und "Elementarschutz" zu gewähren.</string>
@@ -1695,7 +1699,7 @@
 	<string key="STRTrinkets_GroupDesc">Die Schmuckstücke erhöhen das Stärkeattribut.</string>
 	<string key="STRTrinkets_GroupName">Stärkeschmuckstücke</string>
 	<string key="SurvivalTools_GroupName">Überlebenswerkzeuge</string>
-	<string key="SwordA_GroupDesc">Ein Paar Nahkampfwaffen, die zusammen sowohl exzellente Angriffs- wie auch Verteidigungsmöglichkeiten bieten. Nutzt eine Kombination von ausholenden Schwüngen und Ausfallschritten für aggressive Nahkampfangriffe und einen Schild zur besseren Verteidigung.\n\n• Leichter Angriff: Verursacht {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]} % Schnittschaden.\n• Leichtes Ende: Verursacht {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]} % Schnittschaden.\n• Schwerer Angriff: Verursacht {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]} % Stichschaden.\n• Aufgeladener schwerer Angriff: Verursacht {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]} % Stichschaden.</string>
+	<string key="SwordA_GroupDesc">Ein Paar Nahkampfwaffen, die zusammen sowohl exzellente Angriffs- wie auch Verteidigungsmöglichkeiten bieten. Nutzt eine Kombination von ausholenden Schwüngen und Ausfallschritten für aggressive Offensivangriffe und einen Schild zur besseren Verteidigung.\n\n• Leichter Angriff: Verursacht {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]} % Schnittschaden.\n• Leichtes Ende: Verursacht {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]} % Schnittschaden.\n• Schwerer Angriff: Verursacht {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]} % Stichschaden.\n• Aufgeladener schwerer Angriff: Verursacht {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]} % Stichschaden.</string>
 	<string key="SwordA_GroupName">Gerades Schwert</string>
 	<string key="SwordB_GroupDesc">Eine auf Geschwindigkeit ausgelegte Nahkampfwaffe für eine Vielzahl schneller Ausfallschrittangriffe. Überragend für präzise abgestimmte Angriffe und zum Ausbooten von Gegnern geeignet, während Blutung ihnen beständig das Leben entzieht.\n\n• Leichter Angriff: Verursacht {[DamageTable.1H_Rapier_PrimaryAttack.DmgCoef * 100]} % Stichschaden.\n• Leichte mittlere Schwünge: Verursacht {[DamageTable.1H_Rapier_PrimaryTwoThirdsAttack.DmgCoef * 100]} % Stichschaden.\n• Schwerer Angriff: Verursacht {[DamageTable.1H_Rapier_HeavyAttack.DmgCoef * 100]} % Stichschaden.</string>
 	<string key="SwordB_GroupName">Rapier</string>
@@ -1785,7 +1789,6 @@
 	<string key="wood_GroupName">Hölzer</string>
 	<string key="WoodAny_CategoryName">Beliebiges Holz</string>
 	<string key="WorkOrder_GroupName">Arbeitsbefehl</string>
-	<string key="CategoryData_CookingRecipes">Kochrezepte</string>
 	<string key="Pattern">Schemata</string>
 	<string key="PatternRecipes">Schemarezepturen</string>
 	<string key="Lodestone">Magnetit</string>
@@ -1801,8 +1804,23 @@
 	<string key="TimelessShardsCon">Zeitlose Splitter - Konstitution</string>
 	<string key="ArmorShadow_GroupName">Schattengänger</string>
 	<string key="ArmorBeast_GroupName">Bestienjäger</string>
-	<string key="CategoryData_EventConsumables" rel_version="Feature_RabbitSeason">Ereignis-Verbrauchsgegenstände</string>
-	<string key="ConsumableLuck_GroupName" rel_version="Feature_RabbitSeason">Glücks-Verbrauchsgegenstände</string>
+	<string key="CategoryData_EventConsumables">Ereignis-Verbrauchsgegenstände</string>
+	<string key="ConsumableLuck_GroupName" rel_version="Feature_RabbitSeasonPerm">Glücks-Verbrauchsgegenstände</string>
+	<string key="CategoryData_DyeIngredients" rel_version="Feature_RabbitSeasonPerm">Farbstoffzutaten</string>
 	<string key="Blunderbuss_GroupName">Donnerbüchsen</string>
+	<string key="PerfectSalvageArmor_Name">Rüstungsfetzen</string>
+	<string key="PerfectSalvageWeapons_Name">Waffenstücke</string>
+	<string key="PerfectSalvageJewelry_Name">Schmuckfetzen</string>
+	<string key="PerfectSalvageEngineer_Name">Ingenieurskunstfetzen</string>
+	<string key="PerfectSalvageArcane_Name">Arkanfetzen</string>
+	<string key="SalvageTier2_Name">Rang-II-Fetzen</string>
+	<string key="SalvageTier3_Name">Rang-III-Fetzen</string>
+	<string key="SalvageTier4_Name">Rang-IV-Fetzen</string>
+	<string key="SalvageTier5_Name">Rang-V-Fetzen</string>
+	<string key="Salvage">Fetzen zerlegen</string>
+	<string key="SalvageExtract">Extrahieren</string>
+	<string key="SalvageCreate">Erstellen</string>
+	<string key="SalvageResearch">Forschung</string>
+	<string key="SalvageCondense">Kondensieren</string>
 </resources>
 

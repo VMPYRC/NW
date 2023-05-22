@@ -11,7 +11,7 @@
 	<string key="ui_receivedgroupinvite_hide" comment="">Ocultar</string>
 	<string key="ui_togglepvpblocked_title" comment="">Advertencia de marca de PvP</string>
 	<string key="ui_togglepvpblocked_ingroup" comment="">Los jugadores con las marcas de PvP y PvE no pueden estar en un mismo grupo. Al cambiar tu marca de PvP, se te expulsará de este grupo.\n\n¿Confirmas que quieres cambiar tu marca de PvP?</string>
-	<string key="ui_togglepvpblocked_pendinginvites" comment="">Al cambiar tu marca de PvP, se anularán todas tus invitaciones pendientes para unirte a grupos.\n\n¿Confirmas que quieres cambiar tu marca de PvP?</string>
+	<string key="ui_togglepvpblocked_pendinginvites" comment="">Al cambiar la activación de la marca de PvP, se anularán todas tus invitaciones a la sala de espera de la expedición.\n\n¿Confirmas que quieres cambiar tu marca de PvP?</string>
 	<string key="ui_receivedwargroupinvitetitle" comment="">¡Únete a la guerra!</string>
 	<string key="ui_receivedwargroupinvitemessage" comment="">Fuiste invitado para unirte a la guerra en {territoryName} desde las {startTime} hasta las {endTime}. Acepta para teletransportarte al campo de batalla.</string>
 	<string key="ui_receivedinvasiongroupinvitetitle" comment="">¡Defiéndete contra la invasión!</string>
@@ -157,15 +157,18 @@
 	<string key="ui_pingTypeDistance" comment="">{pingType} a {distance}</string>
 	<string key="ui_raid_war_header" comment="">Ejército para la guerra</string>
 	<string key="ui_raid_invasion_header" comment="">Ejército para la invasión</string>
-	<string key="ui_raid_standby_header" comment="">Lista de ESPERA</string>
-	<string key="ui_raid_armygroups" comment="">Grupos del ejército.</string>
-	<string key="ui_raid_backfill" comment="">Rellenar</string>
-	<string key="ui_raid_your_status" comment="">Tu estado.</string>
+	<string key="ui_raid_standby_header" comment="">EN ESPERA</string>
+	<string key="ui_raid_armygroups" comment="">Ejército</string>
+	<string key="ui_raid_backfill" comment="">Relleno</string>
+	<string key="ui_raid_your_status" comment="">Tu estado</string>
 	<string key="ui_raid_standby_priority" comment="">PRIORIDAD</string>
 	<string key="ui_raid_group_header" comment="">Grupo &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{index}&lt;/font&gt;</string>
+	<string key="ui_raid_group_disabled_tooltip" comment="">Ahora las guerras tienen {maxRosterMembers} jugadores como máximo. No puedes agregar más jugadores a este grupo.</string>
+	<string key="ui_raid_group_disabled_notification" comment="">Grupo desactivado por alcanzar la cantidad máxima de cambios en el listado.</string>
+	<string key="ui_raid_max_roster_changed_tooltip" comment="">Ahora las guerras tienen {maxRosterMembers} jugadores como máximo. No podrás agregar jugadores por encima de la nueva cantidad máxima.</string>
 	<string key="ui_raid_member_empty" comment="">Vacío</string>
-	<string key="ui_raid_leave_button" comment="">Salir del ejército</string>
-	<string key="ui_raid_leave_standby_button" comment="">Abandonar lista</string>
+	<string key="ui_raid_leave_button" comment="">Salir</string>
+	<string key="ui_raid_leave_standby_button" comment="">Salir</string>
 	<string key="ui_raid_fill_button" comment="">Llenar listado</string>
 	<string key="ui_raid_signup_button" comment="">Registrarse</string>
 	<string key="ui_auto" comment="">Auto</string>
@@ -182,8 +185,8 @@
 	<string key="ui_backfill_tooltip" comment="">La compañía puede decidir cómo rellenar los lugares vacíos cuando los jugadores seleccionados se retiran antes de que finalice la guerra.</string>
 	<string key="ui_backfill_auto_tooltip" comment="">Rellenar automáticamente con los jugadores de la lista de espera en función de la hora de registro.</string>
 	<string key="ui_backfill_manual_tooltip" comment="">Seleccionar manualmente a los jugadores de la lista de espera para cubrir los lugares libres.</string>
-	<string key="ui_raid_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt;/{total}</string>
-	<string key="ui_invasion_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt;/{total}</string>
+	<string key="ui_raid_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / {total}</string>
+	<string key="ui_invasion_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / {total}</string>
 	<string key="ui_promote_disabled_max_tooltip" comment="">No se puede ascender más a este jugador</string>
 	<string key="ui_demote_disabled_min_tooltip" comment="">No se puede degradar más a este jugador</string>
 	<string key="ui_remove_army" comment="">Eliminar del ejército</string>

@@ -9,9 +9,9 @@
 	<string key="ui_acceptgroupinviteblocked_pve" comment="">Wyłącz PvP w azylu, by aktywować to zaproszenie do grupy PvE.</string>
 	<string key="ui_receivedgroupinvite_decline" comment="">Odrzuć</string>
 	<string key="ui_receivedgroupinvite_hide" comment="">Ukryj</string>
-	<string key="ui_togglepvpblocked_title" comment="">Ostrzeżenie o oznaczeniu do PvP</string>
+	<string key="ui_togglepvpblocked_title" comment="">Oznaczyć do PvP?</string>
 	<string key="ui_togglepvpblocked_ingroup" comment="">Gracze PvP i PvE nie mogą się grupować. Jeśli zmienisz oznaczenie do PvP, opuścisz tę grupę.\n\nCzy na pewno chcesz zmienić oznaczenie do PvP?</string>
-	<string key="ui_togglepvpblocked_pendinginvites" comment="">Jeśli zmienisz oznaczenie do PvP, wszystkie oczekujące zaproszenia do grupy zostaną odrzucone.\n\nCzy na pewno chcesz zmienić oznaczenie do PvP?</string>
+	<string key="ui_togglepvpblocked_pendinginvites" comment="">Jeśli zmienisz oznaczenie do PvP, wszystkie oczekujące zaproszenia do lobby ekspedycji zostaną odrzucone.\n\nCzy na pewno chcesz zmienić oznaczenie do PvP?</string>
 	<string key="ui_receivedwargroupinvitetitle" comment="">Dołącz do wojny!</string>
 	<string key="ui_receivedwargroupinvitemessage" comment="">Wybrano cię do dołączenia do wojny w: {territoryName}. Wojna rozpoczyna się o: {startTime} i potrwa do: {endTime}. Zaakceptuj, by teleportować się na pole bitwy.</string>
 	<string key="ui_receivedinvasiongroupinvitetitle" comment="">Broń się przed najeźdźcami!</string>
@@ -157,15 +157,18 @@
 	<string key="ui_pingTypeDistance" comment="">{pingType} {distance}</string>
 	<string key="ui_raid_war_header" comment="">Armia na wojnę</string>
 	<string key="ui_raid_invasion_header" comment="">Armia na inwazję</string>
-	<string key="ui_raid_standby_header" comment="">Lista oczekujących</string>
-	<string key="ui_raid_armygroups" comment="">Grupy armii.</string>
+	<string key="ui_raid_standby_header" comment="">OCZEKIWANIE</string>
+	<string key="ui_raid_armygroups" comment="">Armia</string>
 	<string key="ui_raid_backfill" comment="">Uzupełnienie</string>
-	<string key="ui_raid_your_status" comment="">Twój status.</string>
+	<string key="ui_raid_your_status" comment="">Twój stan</string>
 	<string key="ui_raid_standby_priority" comment="">PRIORYTET</string>
 	<string key="ui_raid_group_header" comment="">Grupa &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{index}&lt;/font&gt;</string>
+	<string key="ui_raid_group_disabled_tooltip" comment="">Obecnie w wojnach może brać udział maksymalnie {maxRosterMembers} graczy. Nie możesz dodać więcej graczy do tej grupy.</string>
+	<string key="ui_raid_group_disabled_notification" comment="">Grupa wyłączona z powodu zmiany maksymalnej liczby graczy.</string>
+	<string key="ui_raid_max_roster_changed_tooltip" comment="">Obecnie w wojnach może brać udział maksymalnie {maxRosterMembers} graczy. Nie można dodać więcej graczy, niż wynosi ich nowa maksymalna liczba.</string>
 	<string key="ui_raid_member_empty" comment="">Brak</string>
-	<string key="ui_raid_leave_button" comment="">Opuść armię</string>
-	<string key="ui_raid_leave_standby_button" comment="">Wypisz się</string>
+	<string key="ui_raid_leave_button" comment="">Wyjdź</string>
+	<string key="ui_raid_leave_standby_button" comment="">Wyjdź</string>
 	<string key="ui_raid_fill_button" comment="">Wypełnij listę</string>
 	<string key="ui_raid_signup_button" comment="">Zapisz się</string>
 	<string key="ui_auto" comment="">Auto</string>
@@ -181,7 +184,7 @@
 	<string key="ui_empty_roster_instruction" comment="">Przeciągnij tutaj graczy\nz listy oczekujących po prawej stronie.</string>
 	<string key="ui_backfill_tooltip" comment="">Kompania może zdecydować, jak uzupełnić miejsca zwolnione przez graczy, którzy odejdą przed zakończeniem wojny.</string>
 	<string key="ui_backfill_auto_tooltip" comment="">Automatycznie uzupełnij graczy z listy oczekujących na podstawie czasu zapisu.</string>
-	<string key="ui_backfill_manual_tooltip" comment="">Wybierz graczy ręcznie z listy oczekujących, by zapełnić wolne miejsca.</string>
+	<string key="ui_backfill_manual_tooltip" comment="">Wybierz ręcznie graczy z listy oczekujących, by zapełnić wolne miejsca.</string>
 	<string key="ui_raid_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / {total}</string>
 	<string key="ui_invasion_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / {total}</string>
 	<string key="ui_promote_disabled_max_tooltip" comment="">Nie można już awansować tego gracza</string>

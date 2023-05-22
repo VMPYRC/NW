@@ -594,7 +594,7 @@
 	<string key="CategoryData_coating">Revestimientos</string>
 	<string key="CategoryData_components">Componentes</string>
 	<string key="CategoryData_CookedFood">Comida cocinada</string>
-	<string key="CategoryData_CookingRecipes">Recetasdecocina</string>
+	<string key="CategoryData_CookingRecipes">Recetas de cocina</string>
 	<string key="CategoryData_cookingingredients">Ingredientes de cocina</string>
 	<string key="CategoryData_CoreTrinkets">Bolsas</string>
 	<string key="CategoryData_CraftingConsumables">Kits</string>
@@ -854,7 +854,7 @@
 	<string key="DungeonReps6_GroupName">Réplicas de la Instrumentalidad de Lazarus</string>
 	<string key="DungeonReps7_GroupName">Réplicas del Jardín del Génesis</string>
 	<string key="DungeonReps8_GroupName">NOMBRE PENDIENTE</string>
-	<string key="DungeonReps9_GroupName">NOMBRE PENDIENTE</string>
+	<string key="DungeonReps9_GroupName">Réplicas del Corazón de la Tempestad</string>
 	<string key="DungeonShields_GroupName">Escudos de expediciones</string>
 	<string key="Dye1_GroupDesc">Fabrica un tinte de color rojo.</string>
 	<string key="Dye1_GroupName">Tinte rojo</string>
@@ -1376,6 +1376,10 @@
 	<string key="nut_GroupName">Frutos secos</string>
 	<string key="Offensive_GroupName">Modificadores ofensivos</string>
 	<string key="oil_GroupName">Petróleo</string>
+	<string key="beeswax_GroupName">Cera de abeja</string>
+	<string key="DroppedAmulet_GroupName">Amuletos soltados</string>
+	<string key="DroppedRing_GroupName">Anillos soltados</string>
+	<string key="DroppedEarring_GroupName">Pendientes soltados</string>
 	<string key="OnyxCut_GroupDesc">Gemas de ónice talladas y pulidas. Sirven para fabricar joyas que aumentan la constitución. También se pueden engarzar en el equipo para obtener las ventajas Iniciativa y Protección física.</string>
 	<string key="OnyxCut_GroupName">Ónice tallado</string>
 	<string key="OpalCut_GroupDesc">Gemas de ópalo talladas y pulidas. Sirven para fabricar joyas que aumentan la concentración. También se pueden engarzar en el equipo para obtener las ventajas Compensación y Protección elemental.</string>
@@ -1785,7 +1789,6 @@
 	<string key="wood_GroupName">Madera</string>
 	<string key="WoodAny_CategoryName">Cualquier madera</string>
 	<string key="WorkOrder_GroupName">Pedidos de trabajo</string>
-	<string key="CategoryData_CookingRecipes">Recetas de cocina</string>
 	<string key="Pattern">Patrones</string>
 	<string key="PatternRecipes">Recetas de patrones</string>
 	<string key="Lodestone">Calamita</string>
@@ -1801,8 +1804,23 @@
 	<string key="TimelessShardsCon">Fragmentos intemporales: constitución</string>
 	<string key="ArmorShadow_GroupName">Caminasombras</string>
 	<string key="ArmorBeast_GroupName">Cazabestias</string>
-	<string key="CategoryData_EventConsumables" rel_version="Feature_RabbitSeason">Consumibles de evento</string>
-	<string key="ConsumableLuck_GroupName" rel_version="Feature_RabbitSeason">Consumibles de suerte</string>
+	<string key="CategoryData_EventConsumables">Consumibles de evento</string>
+	<string key="ConsumableLuck_GroupName" rel_version="Feature_RabbitSeasonPerm">Consumibles de suerte</string>
+	<string key="CategoryData_DyeIngredients" rel_version="Feature_RabbitSeasonPerm">Ingredientes para tintes</string>
 	<string key="Blunderbuss_GroupName">Trabucos</string>
+	<string key="PerfectSalvageArmor_Name">Restos de armadura</string>
+	<string key="PerfectSalvageWeapons_Name">Restos de arma</string>
+	<string key="PerfectSalvageJewelry_Name">Restos de joyería</string>
+	<string key="PerfectSalvageEngineer_Name">Restos de ingeniería</string>
+	<string key="PerfectSalvageArcane_Name">Restos arcanos</string>
+	<string key="SalvageTier2_Name">Restos de clase II</string>
+	<string key="SalvageTier3_Name">Restos de clase III</string>
+	<string key="SalvageTier4_Name">Restos de clase IV</string>
+	<string key="SalvageTier5_Name">Restos de clase V</string>
+	<string key="Salvage">Restos de objetos aprovechados</string>
+	<string key="SalvageExtract">Extraer</string>
+	<string key="SalvageCreate">Crear</string>
+	<string key="SalvageResearch">Investigar</string>
+	<string key="SalvageCondense">Condensar</string>
 </resources>
 

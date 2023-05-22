@@ -854,7 +854,7 @@
 	<string key="DungeonReps6_GroupName">Répliques de l'Instrument de Lazarus</string>
 	<string key="DungeonReps7_GroupName">Répliques du Jardin de la Genèse</string>
 	<string key="DungeonReps8_GroupName">NOM EN ATTENTE</string>
-	<string key="DungeonReps9_GroupName">NOM EN ATTENTE</string>
+	<string key="DungeonReps9_GroupName">Répliques du Cœur de la Tempête</string>
 	<string key="DungeonShields_GroupName">Boucliers d'expédition</string>
 	<string key="Dye1_GroupDesc">Fabriquez l'un des tons de teinture rouge.</string>
 	<string key="Dye1_GroupName">Teinture rouge</string>
@@ -1376,6 +1376,10 @@
 	<string key="nut_GroupName">Noix</string>
 	<string key="Offensive_GroupName">Modificateurs offensifs</string>
 	<string key="oil_GroupName">Huile de roche</string>
+	<string key="beeswax_GroupName">Cire d'abeille</string>
+	<string key="DroppedAmulet_GroupName">Amulettes lâchées</string>
+	<string key="DroppedRing_GroupName">Anneaux lâchés</string>
+	<string key="DroppedEarring_GroupName">Boucles d'oreille lâchées</string>
 	<string key="OnyxCut_GroupDesc">Pierres précieuses taillées et polies : onyx. Peuvent être transformés en bijoux pour augmenter la forme ou sertis sur de l'équipement pour lui conférer les atouts Impétuosité et Protection physique.</string>
 	<string key="OnyxCut_GroupName">Onyx taillé</string>
 	<string key="OpalCut_GroupDesc">Pierres précieuses taillées et polies : opale. Peuvent être transformées en bijoux pour augmenter la concentration ou serties sur de l'équipement pour lui conférer les atouts Manœuvre et Protection élémentaire.</string>
@@ -1695,7 +1699,7 @@
 	<string key="STRTrinkets_GroupDesc">Accessoires augmentant la caractéristique de force.</string>
 	<string key="STRTrinkets_GroupName">Accessoires de force</string>
 	<string key="SurvivalTools_GroupName">Outils de survie</string>
-	<string key="SwordA_GroupDesc">Un duo d'armes de corps à corps qui, une fois combinées, offrent de véritables capacités offensives et défensives. Permet d'attaquer à l'aide d'un mélange de coups en arc de cercle et d'estoc et de maximiser ses défenses au moyen d'un bouclier.\n\n•Attaque légère: Inflige {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]} % de dégâts de taille.\n•Coup final léger : Inflige {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]} % de dégâts de taille.\n•Attaque lourde : Inflige {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]} % de dégâts d'estoc.\n•Attaque lourde chargée : Inflige {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]} % de dégâts d'estoc.</string>
+	<string key="SwordA_GroupDesc">Un duo d'armes de corps à corps qui, une fois conjuguées, offrent de véritables capacités offensives et défensives. Cette association utilise une combinaison de coups circulaires et de fentes pour attaquer, ainsi qu’un bouclier pour maximiser ses défenses.\n\n•Attaque légère : Inflige {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]} % de dégâts de taille.\n•Coup final léger : Inflige {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]} % de dégâts de taille.\n•Attaque lourde : Inflige {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]} % de dégâts d'estoc.\n•Attaque lourde chargée : Inflige {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]} % de dégâts d'estoc.</string>
 	<string key="SwordA_GroupName">Épée droite</string>
 	<string key="SwordB_GroupDesc">Une arme de corps à corps basée sur la vitesse et aux diverses attaques d'estoc rapides. Utilisée au bon moment, permet de déjouer les attaques ennemies tout en infligeant des saignements qui vident progressivement la santé de vos cibles.\n\n•Attaque légère : Inflige {[DamageTable.1H_Rapier_PrimaryAttack.DmgCoef * 100]} % de dégâts d'estoc.\n•Balayage central léger : Inflige {[DamageTable.1H_Rapier_PrimaryTwoThirdsAttack.DmgCoef * 100]} % de dégâts d'estoc.\n•Attaque lourde : Inflige {[DamageTable.1H_Rapier_HeavyAttack.DmgCoef * 100]} % de dégâts d'estoc.</string>
 	<string key="SwordB_GroupName">Rapière</string>
@@ -1785,7 +1789,6 @@
 	<string key="wood_GroupName">Bois</string>
 	<string key="WoodAny_CategoryName">Tout bois</string>
 	<string key="WorkOrder_GroupName">Commandes</string>
-	<string key="CategoryData_CookingRecipes">Recettes de cuisine</string>
 	<string key="Pattern">Plans</string>
 	<string key="PatternRecipes">Recettes de plans</string>
 	<string key="Lodestone">Magnétite</string>
@@ -1801,8 +1804,23 @@
 	<string key="TimelessShardsCon">Éclats intemporels – Forme</string>
 	<string key="ArmorShadow_GroupName">Marcheur de l'ombre</string>
 	<string key="ArmorBeast_GroupName">Chasseur de monstres</string>
-	<string key="CategoryData_EventConsumables" rel_version="Feature_RabbitSeason">Consommables d'événement</string>
-	<string key="ConsumableLuck_GroupName" rel_version="Feature_RabbitSeason">Consommables de chance</string>
+	<string key="CategoryData_EventConsumables">Consommables d'événement</string>
+	<string key="ConsumableLuck_GroupName" rel_version="Feature_RabbitSeasonPerm">Consommables de chance</string>
+	<string key="CategoryData_DyeIngredients" rel_version="Feature_RabbitSeasonPerm">Ingrédients de teinture</string>
 	<string key="Blunderbuss_GroupName">Tromblons</string>
+	<string key="PerfectSalvageArmor_Name">Restes d'armure</string>
+	<string key="PerfectSalvageWeapons_Name">Restes d'arme</string>
+	<string key="PerfectSalvageJewelry_Name">Restes de joaillerie</string>
+	<string key="PerfectSalvageEngineer_Name">Restes d'ingénierie</string>
+	<string key="PerfectSalvageArcane_Name">Restes occultes</string>
+	<string key="SalvageTier2_Name">Restes de palier II</string>
+	<string key="SalvageTier3_Name">Restes de palier III</string>
+	<string key="SalvageTier4_Name">Restes de palier IV</string>
+	<string key="SalvageTier5_Name">Restes de palier V</string>
+	<string key="Salvage">Recycler restes</string>
+	<string key="SalvageExtract">Extraire</string>
+	<string key="SalvageCreate">Créer</string>
+	<string key="SalvageResearch">Rechercher</string>
+	<string key="SalvageCondense">Condenser</string>
 </resources>
 

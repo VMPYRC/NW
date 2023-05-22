@@ -594,7 +594,7 @@
 	<string key="CategoryData_coating">Revestimientos</string>
 	<string key="CategoryData_components">Componentes</string>
 	<string key="CategoryData_CookedFood">Comida cocinada</string>
-	<string key="CategoryData_CookingRecipes">Recetas de cocina</string>
+	<string key="CategoryData_CookingRecipes">Receta de cocina</string>
 	<string key="CategoryData_cookingingredients">Ingredientes</string>
 	<string key="CategoryData_CoreTrinkets">Bolsas</string>
 	<string key="CategoryData_CraftingConsumables">Kits</string>
@@ -854,7 +854,7 @@
 	<string key="DungeonReps6_GroupName">Réplicas del instrumento de Lazarus</string>
 	<string key="DungeonReps7_GroupName">Réplicas del Jardín del Génesis</string>
 	<string key="DungeonReps8_GroupName">NOMBRE PENDIENTE</string>
-	<string key="DungeonReps9_GroupName">NOMBRE PENDIENTE</string>
+	<string key="DungeonReps9_GroupName">Réplicas del corazón de la tempestad</string>
 	<string key="DungeonShields_GroupName">Escudos de expediciones</string>
 	<string key="Dye1_GroupDesc">Elabora un pigmento a partir de varios tonos de color rojo.</string>
 	<string key="Dye1_GroupName">Pigmento rojo</string>
@@ -1376,6 +1376,10 @@
 	<string key="nut_GroupName">Nueces</string>
 	<string key="Offensive_GroupName">Modificadores ofensivos</string>
 	<string key="oil_GroupName">Aceite</string>
+	<string key="beeswax_GroupName">Cera de abejas</string>
+	<string key="DroppedAmulet_GroupName">Amuletos soltados</string>
+	<string key="DroppedRing_GroupName">Anillos soltados</string>
+	<string key="DroppedEarring_GroupName">Pendientes soltados</string>
 	<string key="OnyxCut_GroupDesc">Gemas de ónix cortadas y pulidas. Se pueden usar para elaborar una joya para aumentar la constitución, o se pueden engarzar en una pieza de equipamiento para obtener los beneficios de iniciativa y de protección física.</string>
 	<string key="OnyxCut_GroupName">Ónix cortado</string>
 	<string key="OpalCut_GroupDesc">Gemas de ópalo cortadas y pulidas. Se pueden usar para elaborar una joya para aumentar la concentración, o se pueden engarzar en una pieza de equipamiento para obtener los beneficios de compensación y de protección elemental.</string>
@@ -1695,7 +1699,7 @@
 	<string key="STRTrinkets_GroupDesc">Accesorios que aumentan el atributo de fuerza.</string>
 	<string key="STRTrinkets_GroupName">Accesorios de fuerza</string>
 	<string key="SurvivalTools_GroupName">Herramientas de supervivencia</string>
-	<string key="SwordA_GroupDesc">Un par de armas para ataques cuerpo a cuerpo que, cuando se combinan, ofrecen sólidas capacidades ofensivas y defensivas. Utiliza una combinación de golpes en arco y estocadas para lograr ataques cuerpo a cuerpo, junto con un escudo para aumentar la defensa.\n\n•Ataque ligero: Causa un {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]} % de daño de corte.\n•Golpe final ligero: Causa un {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado: Causa un {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]} % de daño de empuje.\n•Ataque pesado cargado: Causa un {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]} % de daño de empuje.</string>
+	<string key="SwordA_GroupDesc">Un par de armas para ataques cuerpo a cuerpo que, cuando se combinan, ofrecen sólidas capacidades ofensivas y defensivas. Utiliza una combinación de golpes en arco y estocadas como ofensiva, junto con un escudo para aumentar la defensa.\n\n•Ataque ligero: Causa un {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]} % de daño de corte.\n•Golpe final ligero: Causa un {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado: Causa un {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]} % de daño de empuje.\n•Ataque pesado cargado: Causa un {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]} % de daño de empuje.</string>
 	<string key="SwordA_GroupName">Espada recta</string>
 	<string key="SwordB_GroupDesc">Un veloz arma de ataque cuerpo a cuerpo con una variedad de ataques de estocadas rápidas. Ideal para superar a los oponentes con una sincronización excelente, mientras provoca heridas sangrantes que gradualmente reducen la salud del objetivo.\n\n•Ataque ligero: Causa un {[DamageTable.1H_Rapier_PrimaryAttack.DmgCoef * 100]} % de daño de empuje.\n•Golpes al medio ligeros: Causa un {[DamageTable.1H_Rapier_PrimaryTwoThirdsAttack.DmgCoef * 100]} % de daño de empuje.\n•Ataque pesado: Causa un {[DamageTable.1H_Rapier_HeavyAttack.DmgCoef * 100]} % de daño de empuje.</string>
 	<string key="SwordB_GroupName">Espada ropera</string>
@@ -1785,7 +1789,6 @@
 	<string key="wood_GroupName">Maderas</string>
 	<string key="WoodAny_CategoryName">Cualquier tipo de madera</string>
 	<string key="WorkOrder_GroupName">Pedidos de trabajo</string>
-	<string key="CategoryData_CookingRecipes">Receta de cocina</string>
 	<string key="Pattern">Patrones</string>
 	<string key="PatternRecipes">Recetas de patrones</string>
 	<string key="Lodestone">Calamita</string>
@@ -1801,8 +1804,23 @@
 	<string key="TimelessShardsCon">Fragmento atemporal – Constitución</string>
 	<string key="ArmorShadow_GroupName">Caminante de sombras</string>
 	<string key="ArmorBeast_GroupName">Cazador de bestias</string>
-	<string key="CategoryData_EventConsumables" rel_version="Feature_RabbitSeason">Consumibles de evento</string>
-	<string key="ConsumableLuck_GroupName" rel_version="Feature_RabbitSeason">Consumibles de la suerte</string>
+	<string key="CategoryData_EventConsumables">Consumibles de evento</string>
+	<string key="ConsumableLuck_GroupName" rel_version="Feature_RabbitSeasonPerm">Consumibles de la suerte</string>
+	<string key="CategoryData_DyeIngredients" rel_version="Feature_RabbitSeasonPerm">Ingredientes para teñir</string>
 	<string key="Blunderbuss_GroupName">Trabucos</string>
+	<string key="PerfectSalvageArmor_Name">Trozos de armadura</string>
+	<string key="PerfectSalvageWeapons_Name">Trozos de arma</string>
+	<string key="PerfectSalvageJewelry_Name">Trozos de joyería</string>
+	<string key="PerfectSalvageEngineer_Name">Trozos de ingeniería</string>
+	<string key="PerfectSalvageArcane_Name">Trozos arcanos</string>
+	<string key="SalvageTier2_Name">Trozos de nivel II</string>
+	<string key="SalvageTier3_Name">Trozos de nivel III</string>
+	<string key="SalvageTier4_Name">Trozos de clase IV</string>
+	<string key="SalvageTier5_Name">Trozos de clase V</string>
+	<string key="Salvage">Desarmar trozos</string>
+	<string key="SalvageExtract">Extraer</string>
+	<string key="SalvageCreate">Crear</string>
+	<string key="SalvageResearch">Investigar</string>
+	<string key="SalvageCondense">Condensar</string>
 </resources>
 

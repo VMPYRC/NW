@@ -11,7 +11,7 @@
 	<string key="ui_receivedgroupinvite_hide" comment="">Ausblenden</string>
 	<string key="ui_togglepvpblocked_title" comment="">PvP-Markierungswarnung</string>
 	<string key="ui_togglepvpblocked_ingroup" comment="">PvP- und PvE-Spieler können nicht in einer Gruppe platziert werden. Wenn du deine PvP-Markierung änderst, wirst du aus der Gruppe rausgeworfen.\n\nWillst du deine PvP-Markierung wirklich ändern?</string>
-	<string key="ui_togglepvpblocked_pendinginvites" comment="">Wenn du deine PvP-Markierung änderst, werden deine sämtlichen ausstehenden Gruppeneinladungen abgelehnt.\n\nWillst du deine PvP-Markierung wirklich ändern?</string>
+	<string key="ui_togglepvpblocked_pendinginvites" comment="">Wenn du deine PvP-Markierung änderst, werden deine sämtlichen ausstehenden Expeditions-Lobby-Einladungen abgelehnt.\n\nWillst du deine PvP-Markierung wirklich ändern?</string>
 	<string key="ui_receivedwargroupinvitetitle" comment="">Schließe dich dem Krieg an!</string>
 	<string key="ui_receivedwargroupinvitemessage" comment="">Du wurdest eingeladen, dich von {startTime} bis {endTime} dem Krieg beim Gebiet {territoryName} anzuschließen. Nimm an, um zum Schlachtfeld teleportiert zu werden.</string>
 	<string key="ui_receivedinvasiongroupinvitetitle" comment="">Wehre die Invasion ab!</string>
@@ -157,15 +157,18 @@
 	<string key="ui_pingTypeDistance" comment="">{pingType} {distance}</string>
 	<string key="ui_raid_war_header" comment="">Armee für den Krieg</string>
 	<string key="ui_raid_invasion_header" comment="">Armee für die Invasion</string>
-	<string key="ui_raid_standby_header" comment="">Bereitschaftsliste</string>
-	<string key="ui_raid_armygroups" comment="">Armeegruppen</string>
-	<string key="ui_raid_backfill" comment="">Reserve</string>
-	<string key="ui_raid_your_status" comment="">Dein Status.</string>
+	<string key="ui_raid_standby_header" comment="">BEREITSCHAFT</string>
+	<string key="ui_raid_armygroups" comment="">Armee</string>
+	<string key="ui_raid_backfill" comment="">Neu besetzen</string>
+	<string key="ui_raid_your_status" comment="">Dein Status</string>
 	<string key="ui_raid_standby_priority" comment="">PRIORITÄT</string>
 	<string key="ui_raid_group_header" comment="">Gruppe &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{index}&lt;/font&gt;</string>
+	<string key="ui_raid_group_disabled_tooltip" comment="">An Kriegen können jetzt maximal {maxRosterMembers} Spieler teilnehmen. Du kannst dieser Gruppe keine weiteren Spieler hinzufügen.</string>
+	<string key="ui_raid_group_disabled_notification" comment="">Gruppe aufgrund einer Änderung der Maximalbesetzung deaktiviert.</string>
+	<string key="ui_raid_max_roster_changed_tooltip" comment="">An Kriegen können jetzt maximal {maxRosterMembers} Spieler teilnehmen. Du kannst nicht mehr Spieler als das neue Maximum hinzufügen.</string>
 	<string key="ui_raid_member_empty" comment="">Leer</string>
-	<string key="ui_raid_leave_button" comment="">Armee verlassen</string>
-	<string key="ui_raid_leave_standby_button" comment="">Zustand verlassen</string>
+	<string key="ui_raid_leave_button" comment="">Verlassen</string>
+	<string key="ui_raid_leave_standby_button" comment="">Verlassen</string>
 	<string key="ui_raid_fill_button" comment="">Spielerliste füllen</string>
 	<string key="ui_raid_signup_button" comment="">Eintragen</string>
 	<string key="ui_auto" comment="">Autom.</string>
@@ -179,11 +182,11 @@
 	<string key="ui_raid_not_signedup_description" comment="">Du hast dich nicht für diesen Krieg angemeldet. Melde dich jetzt für den Krieg an!</string>
 	<string key="ui_invasion_standby_description" comment="">Sei spätestens um {time} am {date} online, die Spieler werden zu diesem Zeitpunkt zufällig ausgewählt. Bleib dran!</string>
 	<string key="ui_empty_roster_instruction" comment="">Ziehe Spieler aus der\nBereitschaftsliste rechts hierher.</string>
-	<string key="ui_backfill_tooltip" comment="">Die Kompanie kann entscheiden, wie sie Plätze wieder neu besetzt, wenn ausgewählte Spieler vor Kriegsende ausscheiden.</string>
-	<string key="ui_backfill_auto_tooltip" comment="">Automatisches Einsetzen von Spielern aus der Bereitschaftsliste basierend auf der Anmeldezeit.</string>
-	<string key="ui_backfill_manual_tooltip" comment="">Manuelle Auswahl von Spielern aus der Bereitschaftsliste, um leere Plätze wieder zu besetzen.</string>
-	<string key="ui_raid_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / {total}</string>
-	<string key="ui_invasion_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / {total}</string>
+	<string key="ui_backfill_tooltip" comment="">Die Kompanie kann entscheiden, wie sie Plätze neu besetzt, wenn ausgewählte Spieler vor Kriegsende ausscheiden.</string>
+	<string key="ui_backfill_auto_tooltip" comment="">Automatische Neubesetzung von Spielern aus der Bereitschaftsliste basierend auf der Anmeldezeit.</string>
+	<string key="ui_backfill_manual_tooltip" comment="">Manuelle Auswahl von Spielern aus der Bereitschaftsliste, um leere Plätze neu zu besetzen.</string>
+	<string key="ui_raid_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt;/{total}</string>
+	<string key="ui_invasion_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt;/{total}</string>
 	<string key="ui_promote_disabled_max_tooltip" comment="">Dieser Spieler kann nicht weiter befördert werden.</string>
 	<string key="ui_demote_disabled_min_tooltip" comment="">Dieser Spieler kann nicht weiter degradiert werden.</string>
 	<string key="ui_remove_army" comment="">Aus Armee entfernen</string>

@@ -116,7 +116,6 @@
 	<string key="ui_crest_disclaimer" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Uwaga:&lt;/font&gt; Herbów kompanii może używać tylko zarządca (twórca) kompanii.</string>
 	<string key="ui_disabled_default_title" rel_version="Feature_MTX">Zawartość niedostępna</string>
 	<string key="ui_disabled_default_description" rel_version="Feature_MTX">Ta zawartość jest chwilowo niedostępna.</string>
-	<string key="ui_disabled_freeplayer_description" rel_version="Feature_MTX">Kup New World, żeby uzyskać dostęp do sklepu.</string>
 	<string key="ui_preview_emote">Podgląd gestu</string>
 	<string key="ui_end_preview">Zakończ podgląd</string>
 	<string key="ui_limited_time">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Ograniczony czas&lt;/font&gt;</string>
@@ -432,7 +431,7 @@
 	<string key="server_transfer_description" rel_version="Feature_Server_Transfer">Umożliwia przeniesienie tej postaci do innego świata lub regionu.</string>
 	<string key="server_transfer_description_region_disabled" rel_version="Feature_Server_Transfer">Umożliwia przeniesienie tej postaci do innego świata w obecnym regionie.</string>
 	<string key="server_transfer_extra_detail" rel_version="Feature_Server_Transfer">Możesz na swoim koncie 1 raz przenieść postać do innego świata za darmo. Po wykorzystaniu możliwość ta nie będzie dostępna dla innych twoich postaci.</string>
-	<string key="server_transfer_names" rel_version="Feature_Server_Transfer">Przenoszenie postaci &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; do: &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{ServerName}&lt;/font&gt; {WorldSetName}</string>
+	<string key="server_transfer_names" rel_version="Feature_Server_Transfer">Przenoszenie postaci &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; do: &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{ServerName}&lt;/font&gt; – {WorldSetName}</string>
 	<string key="server_transfer_requirements" rel_version="Feature_Server_Transfer">WYMAGANIA</string>
 	<string key="server_transfer_not_transfer" rel_version="Feature_Server_Transfer">CO NIE PRZECHODZI</string>
 	<string key="server_transfer_refund_policy" rel_version="Feature_Server_Transfer">POLITYKA ZWROTÓW</string>
@@ -712,6 +711,7 @@
 	<string key="Bundle_Tool_Valentines_name" rel_version="MTX_Tool_Skins_Valentine">Zamiłowanie</string>
 	<string key="Apparel_Waveborne_name" rel_version="Apparel_Waveborne_Costume">Falisty ubiór</string>
 	<string key="Weapon_Musket_AngelsDemons_name" rel_version="Weapon_Musket_AngelsDemons_MTX">Alleluja</string>
+	<string key="Weapon_Blunderbuss_AngelsDemons_name" rel_version="Weapon_Blunderbuss_AngelsDemons_MTX">Piaskobrzeżny garłacz</string>
 	<string key="Weapon_TowerShield_AngelsDemons_name" rel_version="Weapon_TowerShield_AngelsDemons_MTX">Anielski Bastion</string>
 	<string key="Weapon_Rapier_AngelsDemons_name" rel_version="Weapon_Rapier_AngelsDemons_MTX">Promyk Światłości</string>
 	<string key="Weapon_VoidGauntlet_AngelsDemons_name" rel_version="Weapon_VoidGauntlet_AngelsDemons_MTX">Upadek Molocha</string>
@@ -721,6 +721,7 @@
 	<string key="Bundle_Tool_Valentines_description" rel_version="MTX_Tool_Skins_Valentine">"Miłość należy pielęgnować… a zasoby trzeba zbierać".</string>
 	<string key="Apparel_Waveborne_description" rel_version="Apparel_Waveborne_Costume">"Zabójcza fala formuje się w morskiej otchłani, by spaść z mocą na brzeg".</string>
 	<string key="Weapon_Musket_AngelsDemons_description" rel_version="Weapon_Musket_AngelsDemons_MTX">"Po górach niesie się gromkie Alleluja!"</string>
+	<string key="Weapon_Blunderbuss_AngelsDemons_description" rel_version="Weapon_Blunderbuss_AngelsDemons_MTX">"Jego ciepło jest przytłaczające. Masz wrażenie, że czujesz siarkę".</string>
 	<string key="Weapon_TowerShield_AngelsDemons_description" rel_version="Weapon_TowerShield_AngelsDemons_MTX">"By ochronić się przed nikczemnością i propagować szlachetność serca, potrzeba odpowiedniej tarczy".</string>
 	<string key="Weapon_Rapier_AngelsDemons_description" rel_version="Weapon_Rapier_AngelsDemons_MTX">"Promyk przecinający ciemność i podnoszący na duchu wszystkich, którzy go dojrzą – adekwatna broń dla czempiona światłości".</string>
 	<string key="Weapon_VoidGauntlet_AngelsDemons_description" rel_version="Weapon_VoidGauntlet_AngelsDemons_MTX">"Upadły anioł dokonał straszliwego aktu poświęcenia".</string>
@@ -742,6 +743,14 @@
 	<string key="Apparel_Malachite_M_description" rel_version="Apparel_Malachite_M">"Gdy założysz ten opleciony korzeniami pancerz, staniesz się władcą całej flory".</string>
 	<string key="Apparel_Malachite_H_description" rel_version="Apparel_Malachite_H">"Gdy przywdziejesz tę korę, wytrzymałą i mocarną niby kamień, zyskasz doskonałą ochronę".</string>
 	<string key="Apparel_Wicked_description" rel_version="Apparel_Wicked_Costume">"Żaden wilk nie odważy się napaść ani na ciebie, ani na babcię".</string>
+	<string key="Apparel_FateFortune_FortuneTellerL_name" rel_version="Apparel_Fortune_1">Strój Luny</string>
+	<string key="Apparel_FateFortune_FortuneTellerL_description" rel_version="Apparel_Fortune_1">"Odzienie nasycone lśniącą mocą półksiężyca, rozświetlające Aeternum w ten sam sposób, w jaki robi to Srebrny Glob nocną porą".</string>
+	<string key="Bundle_Tool_FateFortune_name" rel_version="MTX_Tool_Skins_Fortune">Spryt Przeznaczenia</string>
+	<string key="Bundle_Tool_FateFortune_description" rel_version="MTX_Tool_Skins_Fortune">"Bogactwo nie gwarantuje wspaniałego przeznaczenia".</string>
+	<string key="Bundle_Decor_FateFortune_name" rel_version="Housing_FateFortune_MTX_Pack_2022">Pakiet dekoracji losu</string>
+	<string key="Bundle_Decor_FateFortune_description" rel_version="Housing_FateFortune_MTX_Pack_2022">"Odpowiednia aranżacja wnętrz może pomóc ci nawiązać głębszą więź z duchami zamieszkującymi Aeternum".</string>
+	<string key="Apparel_FateFortune_SteampunkH_name" rel_version="Apparel_Fortune_2">Gwieździsty strój</string>
+	<string key="Apparel_FateFortune_SteampunkH_description" rel_version="Apparel_Fortune_2">"Gwiazda świeci, spowijając Aeternum złocistym blaskiem odkupienia".</string>
 	<string key="Apparel_ClassicRPG_1_name" rel_version="Apparel_ClassicRPG_1">Barbarzyński brutal</string>
 	<string key="Apparel_ClassicRPG_2_name" rel_version="Apparel_ClassicRPG_2">Strój pioniera</string>
 	<string key="Apparel_ClassicRPG_3_name" rel_version="Apparel_ClassicRPG_3">Skrzydlaty rycerz</string>
@@ -764,5 +773,10 @@
 	<string key="Bundle_PR_RPG_Weapons_name" rel_version="MTX_ClassicRPG_Weapon_Skins">Smoczy skarb – paczka broni</string>
 	<string key="Bundle_PR_RPG_Apparel_description" rel_version="MTX_ClassicRPG_Weapon_Skins">"Strój idealny do eksploracji pierwotnych lasów i głębokich lochów".</string>
 	<string key="Bundle_PR_RPG_Weapons_description" rel_version="MTX_ClassicRPG_Weapon_Skins">"Broń, która przez długi czas spoczywała w leżu plugawej bestii. Jest wciąż ostra i gotowa do walki".</string>
+	<string key="Bundle_Crest_Plants_name" rel_version="Crest_Pack_Plants">Paczka roślinnych herbów</string>
+	<string key="Bundle_Crest_Plants_description" rel_version="Crest_Pack_Plants">"Marzenie każdego żniwiarza".</string>
+	<string key="ui_crestforeground_213" rel_version="Crest_Pack_Plants">Snop roślin</string>
+	<string key="ui_crestforeground_214" rel_version="Crest_Pack_Plants">Liść konopi</string>
+	<string key="ui_crestforeground_215" rel_version="Crest_Pack_Plants">Konopie</string>
 </resources>
 
