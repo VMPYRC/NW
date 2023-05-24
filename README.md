@@ -32,7 +32,7 @@
 |           [v1.4.1](https://www.newworld.com/en-us/news/articles/new-world-update-1-4-1)            |    2022-04-06     | 7525782322597517588 |   2   |
 |           [v1.4.2](https://www.newworld.com/en-us/news/articles/new-world-update-1-4-2)            |    2022-04-13     | 5802346819507868810 |   2   |
 |      [v1.4.3](https://www.newworld.com/en-us/news/articles/april-2022-bug-and-balance-update)      |    2022-04-25     | 8082460795013767975 |   2   |
-|           [v1.4.4](https://www.newworld.com/en-us/news/articles/new-world-update-1-4-4)            |    2022-05-04     | 6550112293674957481 |       |
+|           [v1.4.4](https://www.newworld.com/en-us/news/articles/new-world-update-1-4-4)            |    2022-05-04     | 6550112293674957481 |   2   |
 |           [v1.4.5](https://www.newworld.com/en-us/news/articles/new-world-update-1-4-5)            |    2022-05-11     | 7554703076428623850 |       |
 |              [v1.5.0](https://www.newworld.com/en-us/game/releases/may-update-arenas)              |    2022-05-26     | 550812781205658942  |       |
 |           [v1.5.1](https://www.newworld.com/en-us/news/articles/new-world-update-1-5-1)            |    2022-06=01     | 2744494912923229726 |       |
@@ -61,15 +61,17 @@
 |           [v1.9.1](https://www.newworld.com/en-us/news/articles/new-world-update-1-9-1)            |    2023-04-12     | 3278494556928781013 |       |
 |           [v1.9.2](https://www.newworld.com/en-us/news/articles/new-world-update-1-9-2)            |    2023-04-26     | 6649128870281650733 |       |
 |           [v1.9.3](https://www.newworld.com/en-us/news/articles/new-world-update-1-9-3)            |    2023-05-10     | 7169538671478462825 |       |
+|           [v1.9.4](https://www.newworld.com/en-us/news/articles/new-world-update-1-9-4)            |       2023-       |                     |       |
 |                                             [v1.9.x]()                                             |       2023-       |                     |       |
 
 ## Method
 
-1. Steam Console: download_depot 1063730 1063731 MANIFESTID
-2. Move DataStrm-part2.pak to unpackme
-3. unpacker.py
-4. unpackout for extracted files
-5. Move localization folder to NW
-6. Update README.md (this file)
-7. Commit as v1.0.0
-8. Release if there are changes
+1. steam://open/console
+2. download_depot 1063730 1063731 MANIFESTID
+3. Move DataStrm-part2.pak to unpackme
+4. unpacker.py
+5. unpackout for extracted files
+6. Move localization folder to NW
+7. Update README.md (this file)
+8. Commit as v1.0.0
+9. Release if there are changes
