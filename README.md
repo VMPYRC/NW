@@ -33,7 +33,7 @@
 |           [v1.4.2](https://www.newworld.com/en-us/news/articles/new-world-update-1-4-2)            |    2022-04-13     | 5802346819507868810 |   2   |
 |      [v1.4.3](https://www.newworld.com/en-us/news/articles/april-2022-bug-and-balance-update)      |    2022-04-25     | 8082460795013767975 |   2   |
 |           [v1.4.4](https://www.newworld.com/en-us/news/articles/new-world-update-1-4-4)            |    2022-05-04     | 6550112293674957481 |   2   |
-|           [v1.4.5](https://www.newworld.com/en-us/news/articles/new-world-update-1-4-5)            |    2022-05-11     | 7554703076428623850 |       |
+|           [v1.4.5](https://www.newworld.com/en-us/news/articles/new-world-update-1-4-5)            |    2022-05-11     | 7554703076428623850 |   2   |
 |              [v1.5.0](https://www.newworld.com/en-us/game/releases/may-update-arenas)              |    2022-05-26     | 550812781205658942  |       |
 |           [v1.5.1](https://www.newworld.com/en-us/news/articles/new-world-update-1-5-1)            |    2022-06=01     | 2744494912923229726 |       |
 |           [v1.5.2](https://www.newworld.com/en-us/news/articles/new-world-update-1-5-2)            |    2022-06-08     | 5583604181172907271 |       |
