@@ -57,13 +57,13 @@
 	<string key="owg_factionwarinfo_header_4" comment="PVP=Player vs Player">PvP-Markierung</string>
 	<string key="owg_factionwarinfo_header_5">Fraktion anschließen</string>
 	<string key="owg_factionwarinfo_title_1">Warum sollte ich einer Fraktion beitreten?</string>
-	<string key="owg_factionwarinfo_title_1_desc_1">An besonderen Fraktionsmissionen teilnehmen</string>
+	<string key="owg_factionwarinfo_title_1_desc_1">An Fraktionsmissionen teilnehmen</string>
 	<string key="owg_factionwarinfo_title_1_desc_1_bullet_1">Schließe Missionen für &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;EP&lt;/font&gt;, &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Taler&lt;/font&gt; und &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Fraktionsmarken&lt;/font&gt; ab.</string>
 	<string key="owg_factionwarinfo_title_1_desc_1_bullet_2">Erlange Einfluss, um die Gebietskontrolle festzustellen.</string>
-	<string key="owg_factionwarinfo_title_1_desc_1_bullet_3">Konkurriere strategisch mit feindlichen Fraktionen in PvP-Missionen.</string>
+	<string key="owg_factionwarinfo_title_1_desc_1_bullet_3">Stelle dich feindlichen Fraktionen in PvP-Missionen, um die Gebietskontrolle festzulegen.</string>
 	<string key="owg_factionwarinfo_title_1_desc_2">Erlange Zugang zu Fraktionseliteausrüstung.</string>
 	<string key="owg_factionwarinfo_title_1_desc_2_bullet_1">Kaufe mit Fraktionsmarken besondere Waffen, Rüstung und Verbrauchsgegenstände.</string>
-	<string key="owg_factionwarinfo_title_1_desc_2_bullet_2">Steige im Rang auf, um hochentwickelte Ränge und Herstellungskomponenten freizuschalten.</string>
+	<string key="owg_factionwarinfo_title_1_desc_2_bullet_2">Steige im Rang auf, um hoch entwickelte Ausrüstung und Herstellungskomponenten freizuschalten.</string>
 	<string key="owg_factionwarinfo_title_1_desc_3">Genieße die Vorzüge der Gebietskontrolle.</string>
 	<string key="owg_factionwarinfo_title_1_desc_3_bullet_1">Verringerte Kosten für Werkstätten und Schnellreise.</string>
 	<string key="owg_factionwarinfo_title_1_desc_3_bullet_2">Schließe Stadtmissionen ab, um die Siedlung auszubauen.</string>
@@ -79,23 +79,33 @@
 	<string key="owg_factionwarinfo_title_2_desc_2_bullet_4">Gewinne genug Einfluss, um die Gebietskontrolle per Kriegserklärung streitig zu machen.</string>
 	<string key="owg_factionwarinfo_title_2_desc_3">Fraktionskrieg</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_1">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{maxRosterMembers}-gegen-{maxRosterMembers}&lt;/font&gt;-Belagerungskampf an der Gebietsfestung.</string>
-	<string key="owg_factionwarinfo_title_2_desc_3_bullet_2">Benutze verschiedene &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Belagerungswaffen&lt;/font&gt;, um die Oberhand über deine Gegner zu gewinnen.</string>
-	<string key="owg_factionwarinfo_title_2_desc_3_bullet_3">Das Ziel des Angreifers besteht darin, den Eroberungspunkt im &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Herzen der Festung&lt;/font&gt; einzunehmen.</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_2">Der Sieger erhält die Kontrolle über das Gebiet.</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_3">Das Ziel des Angreifers besteht darin, &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;den Eroberungspunkt im Herzen der Festung&lt;/font&gt; einzunehmen.</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_4">Das Ziel des Verteidigers besteht darin, &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;die Angreifer für 30 Minuten abzuwehren&lt;/font&gt;.</string>
 	<string key="owg_factionwarinfo_title_3">Gebietskontrolle</string>
 	<string key="owg_factionwarinfo_title_3_desc_1">Gebietseinfluss</string>
-	<string key="owg_factionwarinfo_title_3_desc_1_bullet_1">Gebietseinfluss ist eine Maßeinheit für die Kontrolle einer Fraktion über ein Gebiet.</string>
-	<string key="owg_factionwarinfo_title_3_desc_1_bullet_2">Schließe &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;PvP-Fraktionsmissionen&lt;/font&gt; ab, um die Kontrolle über das Gebiet zu behalten.</string>
-	<string key="owg_factionwarinfo_title_3_desc_1_bullet_3">Fraktionen, die das Gebiet nicht kontrollieren, müssen PvP-Fraktionsmissionen abschließen, um die Kriegserklärung zu aktivieren.</string>
+	<string key="owg_factionwarinfo_title_3_desc_1_bullet_1">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Gebietseinfluss&lt;/font&gt; ist eine Maßeinheit für die Kontrolle einer Fraktion über ein Gebiet.</string>
+	<string key="owg_factionwarinfo_title_3_desc_1_bullet_2">Fraktionen erhalten &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Gebietseinfluss&lt;/font&gt;, indem sie &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;PvP-Fraktionsmissionen&lt;/font&gt; absolvieren und die &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Gebietsfestung&lt;/font&gt; kontrollieren.</string>
+	<string key="owg_factionwarinfo_title_3_desc_1_bullet_3">Wenn angreifende Fraktionen einen &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Gebietseinfluss von 100 %&lt;/font&gt; erreichen, können sie der verteidigenden Fraktion eine &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Kriegserklärung aussprechen&lt;/font&gt;.</string>
 	<string key="owg_factionwarinfo_title_3_desc_2">Stärke die Kontrolle über das Gebiet deiner Fraktion oder schwäche die der anderen Fraktion über ihres.</string>
 	<string key="owg_factionwarinfo_title_3_desc_2_bullet_1">Herrschende Fraktionen &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;stärken&lt;/font&gt; ihre Kontrolle durch den Abschluss von PvP-Fraktionsmissionen.</string>
 	<string key="owg_factionwarinfo_title_3_desc_2_bullet_2">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Schwäche&lt;/font&gt; die Kontrolle der gegnerischen Fraktion über ihre Gebiete, indem du PvP-Fraktionsmissionen innerhalb dieser Gebiete abschließt.</string>
 	<string key="owg_factionwarinfo_title_3_desc_2_bullet_3">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Hindere andere Fraktionen&lt;/font&gt; daran, PvP-Fraktionsmissionen abzuschließen, indem du sie fürs PvP markierst und ihr Gebiet patrouillierst.</string>
 	<string key="owg_factionwarinfo_title_3_desc_2_bullet_4">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Hindere die herrschende&lt;/font&gt; Fraktion daran, PvP-Fraktionsmissionen abzuschließen, indem du sie fürs PvP markierst und ihre Gebiete patrouillierst.</string>
 	<string key="owg_factionwarinfo_title_4">für PvP markieren.</string>
-	<string key="owg_factionwarinfo_title_4_desc_1_bullet_1">Von jeder Siedlung oder jedem Außenposten aus für PvP markieren (Standardtaste: U). Aktivieren deiner PvP-Markierung bringt &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;zusätzliche EP&lt;/font&gt; und &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;gesteigertes Globales Glück&lt;/font&gt; ein.</string>
+	<string key="owg_factionwarinfo_title_4_desc_1_bullet_1">Markiere dich in beliebigen Zufluchtsstätten (Siedlungen, Außenposten usw.) als Verfügbar für PvP (Standardtaste "U").</string>
 	<string key="owg_factionwarinfo_title_4_desc_1_bullet_2">Wenn du eine Siedlung verlässt, erhältst du einen &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;30-Sekunden-Timer&lt;/font&gt;, bevor du markiert wirst. Sobald der Timer abgelaufen ist, kannst du markierte Mitglieder der gegnerischen Fraktionen angreifen.</string>
-	<string key="owg_factionwarinfo_title_4_desc_1_bullet_3">Nimm am &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Krieg um Einfluss&lt;/font&gt; teil, um mit deiner Fraktion die Kontrolle über ein Gebiet zu erlangen, indem du PvP-Fraktionsmissionen abschließt. Halte Ausschau nach markierten gegnerischen Spielern und verhindere, dass sie Einfluss für ihre Fraktion gewinnen, indem du sie ausschaltest.</string>
+	<string key="owg_factionwarinfo_title_4_desc_1_bullet_3">Indem du dich als "Verfügbar für PvP" markierst, erhältst du einen &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;EP-Bonus&lt;/font&gt; und kannst an PvP-Missionen teilnehmen, um Gebietsfestungen und gegen andere Spieler kämpfen.</string>
+	<string key="owg_factionwarinfo_title_4_desc_1_bullet_4" rel_version="PvP_Rewards_Track">Durch das Absolvieren von PvP-Aktivitäten machst du Fortschritte in deiner PvP-Belohnungsserie.</string>
+	<string key="owg_factionwarinfo_title_4_desc_1_bullet_5" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Azoth-Salz erhältst du&lt;/font&gt; bei PvP-Tötungen auch außerhalb der Modi.</string>
+	<string key="owg_factionwarinfo_title_5" rel_version="PvP_Rewards_Track">PVP-BELOHNUNGSSERIE</string>
+	<string key="owg_factionwarinfo_title_5_desc_1_bullet_1" rel_version="PvP_Rewards_Track">Die PvP-Belohnungsserien enthalten PvP-spezifische Belohnungen für PvP-Aktivitäten im Spiel. Du kannst die Belohnungsserien abschließen und erneut angehen, um andere Belohnungen zu erhalten. Je mehr Belohnungsserien du absolvierst, desto hochwertiger werden die Belohnungen.</string>
+	<string key="owg_factionwarinfo_title_5_desc_2" rel_version="PvP_Rewards_Track">PVP-EP</string>
+	<string key="owg_factionwarinfo_title_5_desc_2_bullet_1" rel_version="PvP_Rewards_Track">Erziele Fortschritte in der Belohnungsserie, indem du PvP-Missionen abschließt, dich am Außenpostensturm, an Kriegen oder der Eroberung von Festungen beteiligst, andere Spieler besiegst, an 3-gg-3-Arenen teilnimmst und EP dazugewinnst, während du markiert bist.</string>
+	<string key="owg_factionwarinfo_title_5_desc_3" rel_version="PvP_Rewards_Track">AZOTH-SALZ</string>
+	<string key="owg_factionwarinfo_title_5_desc_3_bullet_1" rel_version="PvP_Rewards_Track">Azoth-Salz ist die Währung, mit der du aus der PvP-Serie Belohnungen erhältst. Du erhältst Azoth-Salz, indem du dich an Kriegen, am Außenpostensturm, in 3-gg-3-Arenen, an PvP-Missionen beteiligst oder Spieler in der offenen Welt im PvP besiegst und EP dazugewinnst, während du markiert bist.</string>
+	<string key="owg_factionwarinfo_title_5_desc_4" rel_version="PvP_Rewards_Track">BELOHNUNGEN</string>
+	<string key="owg_factionwarinfo_title_5_desc_4_bullet_1" rel_version="PvP_Rewards_Track">Wähle aus einzigartigen Belohnungen aus, darunter prestigeträchtige Rüstungen und Waffen, Emotes, Währung und Verbrauchsgegenstände.</string>
 	<string key="owg_failure_warning">Wenn du die Mission abbrichst oder du daran scheiterst, verlierst du {amount}x "{guildName}"-Marken.</string>
 	<string key="owg_guildreputation_name">{guildName}-Ansehen</string>
 	<string key="owg_guildcurrency_name">"{guildName}"-Marken</string>
@@ -157,12 +167,18 @@
 	<string key="owg_rewardtype_azoth">&lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; Azoth</string>
 	<string key="owg_rewardtype_guildreputation">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Ansehen&lt;/font&gt;</string>
 	<string key="owg_rewardtype_guildcurrency">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Marken&lt;/font&gt;</string>
+	<string key="owg_rewardtype_pvp_xp" rel_version="PvP_Rewards_Track">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;PvP-EP&lt;/font&gt;</string>
+	<string key="owg_rewardtype_azoth_salt" rel_version="PvP_Rewards_Track">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Azoth-Salz&lt;/font&gt;</string>
 	<string key="owg_rewardtype_item">Gegenstand</string>
 	<string key="owg_rewardtype_standing">&lt;img src="lyshineui/images/icons/objectives/reward_territorystanding" xPadding="0" scale="2" yOffset="5"&gt;&lt;/img&gt; {amount}</string>
 	<string key="owg_rewardtype_warinfluence_low">+</string>
 	<string key="owg_rewardtype_warinfluence_med">++</string>
 	<string key="owg_rewardtype_warinfluence_high">+++</string>
 	<string key="owg_rewardtype_warinfluence_label">Einfluss</string>
+	<string key="owg_activebonus_type_dailybonus">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;Täglicher Bonus&lt;/font&gt;</string>
+	<string key="owg_activebonus_type_fortcontrolbonus">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;{territory} Festungskontrollbonus&lt;/font&gt;</string>
+	<string key="owg_activebonus_type_territorybonus">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;{territory} Gebietsboni&lt;/font&gt;</string>
+	<string key="owg_activebonus_type_restedxpbonus">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;Ausgeruht-EP-Bonus&lt;/font&gt;</string>
 	<string key="owg_single_item_purchased">&lt;font color="#f7bc41"&gt;{itemName}&lt;/font&gt; gekauft!</string>
 	<string key="owg_influence_login_notification_title">Fraktionskrieg</string>
 	<string key="owg_influence_login_notification_desc">Deine Fraktion führt in {count} Gebiet(en) Krieg! Drücke M, um die Karte aufzurufen.</string>
@@ -220,7 +236,7 @@
 	<string key="owg_pvp_acceptmission_prompt">Wenn du eine &lt;font color="#eaeaea"&gt;PvP-Mission&lt;/font&gt; annimmst, wirst du automatisch für &lt;font color="#eaeaea"&gt;den PvP-Modus markiert&lt;/font&gt;.\nWährend dieser Mission kann die Markierung nicht aufgehoben werden. Um die Markierung aufzuheben, muss zuerst die Mission abgebrochen werden.\n\nBist du sicher, dass du diese Mission annehmen möchtest?</string>
 	<string key="owg_pvp_cannotacceptmission_title">MISSION AKZEPTIEREN NICHT MÖGLICH</string>
 	<string key="owg_pvp_cannotacceptmission_ingroup">Du kannst keine &lt;font color="#eaeaea"&gt;PvP-Missionen&lt;/font&gt; annehmen, solange du dich in einer PvE-Gruppe befindest, in der die Aktivierung der PvP-Markierung nicht gestattet ist.</string>
-	<string key="owg_pvp_cannotacceptmission_pendinggroupinvite">Du kannst keine &lt;font color="#eaeaea"&gt;PvP-Missionen&lt;/font&gt; annehmen, solange du ausstehende Gruppeneinladungen hast, die die Aktivierung der PvP-Markierung verhindern.</string>
+	<string key="owg_pvp_cannotacceptmission_pendinggroupinvite">Du kannst keine &lt;font color="#eaeaea"&gt;PvP-Missionen&lt;/font&gt; annehmen, solange du ausstehende Lobby-Einladungen hast, die die Aktivierung der PvP-Markierung verhindern.</string>
 	<string key="owg_pvp_cannotacceptmission_nofaction">Du kannst erst eine &lt;font color="#eaeaea"&gt;PvP-Mission&lt;/font&gt; annehmen, wenn du einer Fraktion beigetreten bist.</string>
 	<string key="owg_pvp_cannotacceptmission_nosanctuary">Du kannst erst eine &lt;font color="#eaeaea"&gt;PvP-Mission&lt;/font&gt; annehmen, wenn du dich in einer Zufluchtsstätte befindest.</string>
 	<string key="owg_pvp_cannotacceptmission_typeblocked">Du kannst derzeit keine &lt;font color="#eaeaea"&gt;PvP-Missionen&lt;/font&gt; dieses Typs annehmen.</string>
@@ -486,11 +502,11 @@
 	<string key="FactionMission_C_WEAPON_ICEGAUNTLET_desc">Lerne den Kampf zu verstehen, um den Frieden zu sichern.\n\nErfahre mehr über die &lt;font color="#eaeaea"&gt;Eisstulpen&lt;/font&gt;, indem du &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; mit ihrer eiskalten Berührung triffst.</string>
 	<string key="FactionMission_ASSASSINATE_ELITE_NIGHT_desc">Der Gegner &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; muss für die Marodeure beseitigt werden.\n\nBeweise deine Tapferkeit, indem du ihn an folgendem Ort aufspürst und tötest: {POITags}.\n&lt;font color="#eaeaea"&gt;(Elite – Gegner ist nachtaktiv)&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_NIGHT_desc">Der Gegner &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; muss für das Syndikat beseitigt werden.\n\nSpüre ihn an folgendem Ort auf und vernichte ihn: {POITags}.\n&lt;font color="#eaeaea"&gt;(Elite – Gegner ist nachtaktiv)&lt;/font&gt;</string>
-	<string key="FactionMission_C_ASSASSINATE_ELITE_NIGHT_desc">Der Gegner &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; muss für das Bündnis beseitigt werden.\n\nBeweise deine Hingabe, indem du ihn an folgendem Ort aufspürst und tötest: {POITags}.\n &lt;font color="#eaeaea"&gt;(Elite – Gegner ist nachtaktiv)&lt;/font&gt;</string>
+	<string key="FactionMission_C_ASSASSINATE_ELITE_NIGHT_desc" rel_version="Quest_FM_BreachMissions">Der Gegner &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; muss für das Bündnis beseitigt werden.\n\nBeweise deine Hingabe, indem du ihn an folgendem Ort aufspürst und tötest: {POITags}.\n &lt;font color="#eaeaea"&gt;(Elite – Gegner ist nachtaktiv)&lt;/font&gt;</string>
 	<string key="FactionMission_BREACH_title" rel_version="Quest_FM_BreachMissions">Verderbnisausbruch</string>
 	<string key="FactionMission_BREACH_desc" rel_version="Quest_FM_BreachMissions">Marodeure erdulden es nicht, dass die &lt;font color="#eaeaea"&gt;Verderbnis&lt;/font&gt; in unsere Gebiete eindringt.\n\nWenn du einen Ausbruch siehst, verschließe ihn wieder.</string>
 	<string key="FactionMission_S_BREACH_desc" rel_version="Quest_FM_BreachMissions">Wir haben nun die Macht, das Vordringen der &lt;font color="#eaeaea"&gt;Verderbnis&lt;/font&gt; zu verhindern.\n\nVersiegle alle &lt;font color="#eaeaea"&gt;Verderbnisausbrüche&lt;/font&gt;, die du siehst.</string>
 	<string key="FactionMission_C_BREACH_desc" rel_version="Quest_FM_BreachMissions">Die &lt;font color="#eaeaea"&gt;Verderbnisausbrüche&lt;/font&gt; drohen den Funken auszulöschen\n\nDu musst jeden Ausbruch, den du findest, vernichten.</string>
-	<string key="CMissionAcquireLeather_Name_WC" rel_version="Event_WinterConvergence_Temp">Festliche Gerber gesucht</string>
+	<string key="CMissionAcquireLeather_Name_WC">Festliche Gerber gesucht</string>
 </resources>
 

@@ -197,7 +197,7 @@
 	<string key="mm_rejected_Client_Kicked_BannedCSLockout">Sua conta está bloqueada no momento. Entre em contato com o atendimento ao cliente para obter mais informações.</string>
 	<string key="mm_rejected_Client_Kicked_CSLockout">Sua conta está bloqueada no momento. Entre em contato com o atendimento ao cliente para obter mais informações.</string>
 	<string key="mm_rejected_Client_Kicked_BannedCommerce">Problema com o Pagamento</string>
-	<string key="mm_rejected_Client_Kicked_Embargoed_Country">Não é possível fornecer acesso a você em seu local atual.</string>
+	<string key="mm_rejected_Client_Kicked_Embargoed_Country">A sua localização atual impede que você receba acesso.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Você foi expulso do jogo</string>
 	<string key="mm_authresult_Authorized">Sucesso</string>
 	<string key="mm_characterCreateDisabled">A criação de personagem está temporariamente desativada porque este mundo está lotado. Tente um mundo diferente.</string>
@@ -299,25 +299,46 @@
 	<string key="ui_trade_skills">Hab. Mercantes</string>
 	<string key="ui_how_it_works">Como funciona</string>
 	<string key="ui_pvp_track_skills_tab" rel_version="PvP_Rewards_Track">PvP</string>
-	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Posto de Controle {checkpoint}:&lt;/font&gt; {currentProgression}/{maxProgression}\n\nFaça progresso em sua trilha participando de Missões PvP, Arenas PvP, Guerras e Investidas do Posto Avançado, capturando fortes, derrotando outros jogadores e recebendo EXP enquanto estiver sinalizado.</string>
+	<string key="ui_pvp_track" rel_version="PvP_Rewards_Track">Trilha PvP</string>
+	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Posto de Controle {checkpoint}:&lt;/font&gt; {currentProgression}/{maxProgression}\n\nFaça progresso em sua trilha participando de Missões PvP, Arenas 3v3, Guerras e Investidas do Posto Avançado, capturando fortes, derrotando outros jogadores e recebendo EXP enquanto estiver sinalizado.</string>
 	<string key="ui_pvp_track_next_track_tooltip" rel_version="PvP_Rewards_Track">Você deve completar todos os postos de controle antes de iniciar a próxima trilha. Se você escolher uma recompensa de cada posto de controle, iniciará automaticamente a próxima trilha.\n\nPara cada posto de controle no qual deixar de escolher uma recompensa, você receberá 300 de Sal de Azoth quando a próxima trilha começar.</string>
 	<string key="ui_pvp_track_unknown_item_tooltip" rel_version="PvP_Rewards_Track">As opções de recompensa serão reveladas após completar o posto de controle.</string>
+	<string key="ui_pvp_track_completions" comment="The number of times they have completed the track. Like a level" rel_version="PvP_Rewards_Track">Trilhas Concluídas</string>
+	<string key="ui_pvp_track_purchasehint" rel_version="PvP_Rewards_Track">Escolha até &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={itemColor}&gt;1 item por posto de controle&lt;/font&gt; para comprar com &lt;font color={azothColor}&gt;Sal de Azoth&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_pvp_track_openemblems" rel_version="PvP_Rewards_Track">Brasões e Recompensas</string>
+	<string key="ui_pvp_track_checkpoint" rel_version="PvP_Rewards_Track">Posto de Controle &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{index}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_pvpprogress" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={colorProgress}&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_warsmall_white" scale="1.5" yOffset="4"&gt;&lt;/img&gt; &lt;font color={colorCheckpoint} face="lyshineui/fonts/Nimbus_regular.font"&gt; para o Posto de Controle {index}&lt;/font&gt;</string>
+	<string key="ui_pvp_currency_amount" rel_version="PvP_Rewards_Track">{amount}&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_insufficient_azoth_salt" rel_version="PvP_Rewards_Track">Sal de Azoth insuficiente</string>
 	<string key="ui_pvp_cant_unlock" rel_version="PvP_Rewards_Track">Não é possível desbloquear mais deste item</string>
+	<string key="ui_pvp_track_nexttrack" rel_version="PvP_Rewards_Track">Concluir Trilha</string>
 	<string key="ui_pvp_track_nexttrack_popup_title" rel_version="PvP_Rewards_Track">Iniciar Próxima Trilha</string>
-	<string key="azoth_salt_currency_desc" rel_version="PvP_Rewards_Track">Sal de Azoth é a moeda que te dá recompensas da Trilha PvP. Você pode ganhar Sal de Azoth participando de Guerras, Investidas do Posto Avançado, Arenas PvP e Missões PvP, abatendo jogadores no mundo aberto PvP e recebendo EXP enquanto estiver sinalizado.\n\nO saldo de Sal de Azoth é limitado a 100.000.</string>
+	<string key="azoth_salt_currency_name" rel_version="PvP_Rewards_Track">Sal de Azoth</string>
+	<string key="azoth_salt_currency_desc" rel_version="PvP_Rewards_Track">Sal de Azoth é a moeda que te dá recompensas da Trilha PvP. Você pode ganhar Sal de Azoth participando de Guerras, Investidas do Posto Avançado, Arenas 3v3 e Missões PvP, abatendo jogadores no mundo aberto PvP e recebendo EXP enquanto estiver sinalizado.\n\nO saldo de Sal de Azoth é limitado a 100.000.</string>
 	<string key="azoth_salt_currency_lost" rel_version="PvP_Rewards_Track">Perda de Sal de Azoth</string>
-	<string key="azoth_salt_lost_tooltip" rel_version="PvP_Rewards_Track">Sal de Azoth é a moeda que te dá recompensas da Trilha PvP. Você pode ganhar Sal de Azoth participando de Guerras, Investidas do Posto Avançado, Arenas PvP e Missões PvP, abatendo jogadores no mundo aberto PvP e recebendo EXP enquanto estiver sinalizado.\n\nO Sal de Azoth não é concedido ao abater jogadores que estejam 10 níveis ou mais abaixo do seu nível atual e a vítima precisa ter sido sinalizada por mais de 10 minutos.</string>
+	<string key="azoth_salt_lost_tooltip" rel_version="PvP_Rewards_Track">Sal de Azoth é a moeda que te dá recompensas da Trilha PvP. Você pode ganhar Sal de Azoth participando de Guerras, Investidas do Posto Avançado, Arenas 3v3 e Missões PvP, abatendo jogadores no mundo aberto PvP e recebendo EXP enquanto estiver sinalizado.\n\nO Sal de Azoth não é concedido ao abater jogadores que estejam 10 níveis ou mais abaixo do seu nível atual e a vítima precisa ter sido sinalizada por mais de 10 minutos.</string>
+	<string key="ui_pvp_track_tut_title1" rel_version="PvP_Rewards_Track">Trilha de Recompensas PvP</string>
+	<string key="ui_pvp_track_tut_title2" rel_version="PvP_Rewards_Track">EXP PvP</string>
+	<string key="ui_pvp_track_tut_title3" rel_version="PvP_Rewards_Track">Sal de Azoth</string>
+	<string key="ui_pvp_track_tut_title4" rel_version="PvP_Rewards_Track">Recompensas</string>
+	<string key="ui_pvp_track_tut_desc1" rel_version="PvP_Rewards_Track">A Trilha de Recompensas PvP contém recompensas específicas de PvP por realizar atividades PvP no jogo. A trilha pode ser concluída e executada novamente para obter uma seleção diferente de recompensas, com recompensas mais prestigiosas disponíveis à medida que mais trilhas são concluídas.</string>
+	<string key="ui_pvp_track_tut_desc2" rel_version="PvP_Rewards_Track">Faça progresso em sua trilha participando de Missões PvP, Arenas 3v3, Guerras e Investidas do Posto Avançado, capturando fortes, derrotando outros jogadores e recebendo EXP enquanto estiver sinalizado.</string>
+	<string key="ui_pvp_track_tut_desc3" rel_version="PvP_Rewards_Track">Sal de Azoth é a moeda que te dá recompensas da Trilha PvP. Você pode ganhar Sal de Azoth participando de Guerras, Investidas do Posto Avançado, Arenas 3v3 e Missões PvP, abatendo jogadores no mundo aberto PvP e recebendo EXP enquanto estiver sinalizado.</string>
+	<string key="ui_pvp_track_tut_desc4" rel_version="PvP_Rewards_Track">Escolha entre recompensas exclusivas, como armaduras e armas de prestígio, gestos, moedas e consumíveis.</string>
+	<string key="ui_pvp_track_leveltext" rel_version="PvP_Rewards_Track">&lt;font color="#FFFFFF" &gt;{level}&lt;/font&gt; Trilhas Concluídas</string>
 	<string key="ui_pvp_track_leveltext_header" rel_version="PvP_Rewards_Track">Trilhas Concluídas: &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#FFFFFF"&gt;{level}&lt;/font&gt;</string>
 	<string key="ui_pvp_track_current_balance" rel_version="PvP_Rewards_Track">Saldo Atual: &lt;font color={colorBalance} face="lyshineui/fonts/CaslonAnt.font"&gt;{balance}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_addtopool" rel_version="PvP_Rewards_Track">+ Conjunto de Recompensas</string>
+	<string key="ui_pvp_track_rankup_confirmation" rel_version="PvP_Rewards_Track">Receba um bônus por cada Posto de Controle que tenha uma recompensa não recebida e leve seu Sal de Azoth para uma nova trilha com novas recompensas.</string>
 	<string key="ui_pvp_track_rankup_stagesummary" rel_version="PvP_Rewards_Track">\n&lt;font color={colorBonus}&gt;Bônus do Posto de Controle: &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_track_rankup_bonussalt" rel_version="PvP_Rewards_Track">&lt;font color={colorBonus}&gt; Bônus pela Conclusão da Trilha: &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_pvp_track_bannertext" rel_version="PvP_Rewards_Track">Trilha PvP Concluída</string>
 	<string key="ui_pvp_track_bannerrewards_1" rel_version="PvP_Rewards_Track">Conjunto de Recompensas: \n+Gesto</string>
 	<string key="ui_pvp_track_bannerrewards_2" rel_version="PvP_Rewards_Track">Conjunto de Recompensas: \n+Equipamento Nomeado \n+Mais Moeda</string>
 	<string key="ui_pvp_track_bannerrewards_3" rel_version="PvP_Rewards_Track">Conjunto de Recompensas: \n+Equipamento de Prestígio \n+Gesto \n+Pacotes de Frasco de Sal</string>
 	<string key="ui_pvp_track_bannerrewards_4" rel_version="PvP_Rewards_Track">Conjunto de Recompensas: \n+Gipsita \n+Mais Moeda \n+Mais Lascas de Umbral</string>
 	<string key="ui_pvp_track_bannerrewards_5" rel_version="PvP_Rewards_Track">Conjunto de Recompensas: \n+Gesto \n+Mais Lascas de Umbral </string>
-	<string key="ui_pvp_track_bannerrewards_6" rel_version="PvP_Rewards_Track">Conjunto de Recompensas: \n+Gesto \n+Mais Moeda</string>
+	<string key="ui_pvp_track_bannerrewards_6" rel_version="PvP_Rewards_Track">Conjunto de Recompensas: \n+Gesto \n+Mais Moeda \n+Mais Itens Obtidos</string>
 	<string key="ui_pvp_track_next_milestone" rel_version="PvP_Rewards_Track">Conquista de Trilha {milestone} em:</string>
 	<string key="ui_pvp_track_milestone" rel_version="PvP_Rewards_Track">Conquista de Trilha {milestone}</string>
 	<string key="ui_pvp_track_reward" rel_version="PvP_Rewards_Track">Recompensa</string>

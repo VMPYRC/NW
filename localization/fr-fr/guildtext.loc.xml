@@ -137,6 +137,7 @@
 	<string key="ui_treasury_notification_withdrawalcappeddailylimit">&lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} retirés de la trésorerie de la compagnie (limités par la limite quotidienne).</string>
 	<string key="ui_treasury_notification_setdailylimitsuccess">La limite de retrait quotidienne est fixée à &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage}.</string>
 	<string key="ui_treasury_notification_setdailylimitsuccessinfinite">La limite de retrait quotidienne est fixée à {infinityImage}.</string>
+	<string key="ui_treasury_notification_cointransferaldisabled">Vous devez être au moins de niveau {minLevel} pour pouvoir utiliser la trésorerie de la guilde.</string>
 	<string key="ui_treasury_notification_error_generic">L'opération de trésorerie a échoué. Veuillez réessayer.</string>
 	<string key="ui_setSiegeWindow">Définir la fenêtre de siège</string>
 	<string key="ui_forDefending">Pour défendre vos territoires</string>
@@ -201,7 +202,8 @@
 	<string key="ui_leaveguild">Quitter la compagnie</string>
 	<string key="ui_leaveguild_confirm">Voulez-vous vraiment quitter la compagnie ?</string>
 	<string key="ui_leaveguild_governor_confirm">Voulez-vous vraiment quitter la compagnie ?\n\nUn autre membre sera promu gouverneur lorsque vous partirez, et toutes les possessions détenues par la compagnie resteront au sein de cette dernière, sous le contrôle du nouveau gouverneur.</string>
-	<string key="ui_leaveguild_alone_confirm">Voulez-vous vraiment quitter la compagnie ?\n\nVous êtes l'ultime membre et lorsque vous partirez, toutes les possessions détenues par la compagnie seront perdues.</string>
+	<string key="ui_leaveguild_alone_confirm">Vous êtes l'unique membre de cette compagnie et lorsque vous partirez, toutes les possessions détenues par la compagnie seront perdues et la bourse de la compagnie sera ajoutée à votre bourse.</string>
+	<string key="ui_leaveguild_alone_walletwarning">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Récupérer la bourse de la compagnie vous fera dépasser la limite de pièces. Si vous démantelez la compagnie maintenant, tout surplus de pièces sera perdu.&lt;/font&gt;</string>
 	<string key="ui_leftguildmessage">Vous avez quitté la compagnie.</string>
 	<string key="ui_modifycrest">Modifier les armoiries</string>
 	<string key="ui_guildcrestsaved">Armoiries enregistrées</string>
@@ -254,7 +256,13 @@
 	<string key="ui_promote">Promouvoir</string>
 	<string key="ui_promote_transfer_owner">Transférer la propriété</string>
 	<string key="ui_promotetoguildmaster_confirm_title">Transférer la compagnie ?</string>
-	<string key="ui_promotetoguildmaster_confirm" comment="Pronoun for Transferring ownership to a player. Need to break into two string keys">Voulez-vous vraiment transférer la gouvernance de la compagnie à {memberName} ?\n\nTous les membres, les territoires, les structures et les fonds de trésorerie de {guildName} seront désormais sous le contrôle de {memberName} en sa qualité de nouveau gouverneur de {guildName}. Le nom et les armoiries de la compagnie resteront les mêmes. Vous serez rétrogradé(e) d'un rang.\n\nVous ne pouvez pas annuler cette action, et le changement sera effectif immédiatement.</string>
+	<string key="ui_promotetoguildmaster_confirm_part1" comment="Pronoun for local player.">Voulez-vous vraiment transférer la gouvernance de la compagnie à {memberName} ?</string>
+	<string key="ui_promotetoguildmaster_confirm_part1_SHE" comment="Pronoun for local player.">Voulez-vous vraiment transférer la gouvernance de la compagnie à {memberName} ?</string>
+	<string key="ui_promotetoguildmaster_confirm_part1_THEY" comment="Pronoun for local player.">Voulez-vous vraiment transférer la gouvernance de la compagnie à {memberName} ?</string>
+	<string key="ui_promotetoguildmaster_confirm_part2" comment="Pronoun for player ownership is transfered to.">Tous les membres, les territoires, les structures et les fonds de trésorerie de {guildName} seront désormais sous le contrôle de {memberName} en sa qualité de nouveau gouverneur de {guildName}. Le nom et les armoiries de la compagnie resteront les mêmes. Vous serez rétrogradé d'un rang.</string>
+	<string key="ui_promotetoguildmaster_confirm_part2_SHE" comment="Pronoun for player ownership is transfered to.">Tous les membres, les territoires, les structures et les fonds de trésorerie de {guildName} seront désormais sous le contrôle de {memberName} en sa qualité de nouveau gouverneur de {guildName}. Le nom et les armoiries de la compagnie resteront les mêmes. Vous serez rétrogradée d'un rang.</string>
+	<string key="ui_promotetoguildmaster_confirm_part2_THEY" comment="Pronoun for player ownership is transfered to.">Tous les membres, les territoires, les structures et les fonds de trésorerie de {guildName} seront désormais sous le contrôle de {memberName} en sa qualité de nouveau gouverneur de {guildName}. Le nom et les armoiries de la compagnie resteront les mêmes. Vous subirez une rétrogradation d'un rang.</string>
+	<string key="ui_promotetoguildmaster_confirm_part3">Vous ne pouvez pas annuler cette action, et le changement sera effectif immédiatement.</string>
 	<string key="ui_rank">Rang</string>
 	<string key="ui_rankmovedowndisabled">Le rang le plus faible</string>
 	<string key="ui_rankmoveupdisabled">Pas de promotion au-delà de {gmRankName}</string>
@@ -324,7 +332,7 @@
 	<string key="ui_wardeclarationpopup_attackinfopopup_title">Avant de déclarer la guerre...</string>
 	<string key="ui_wardeclarationpopup_attackinfopopup_message">N'oubliez pas que la &lt;font color={defendingColorHex}&gt;compagnie attaquée peut vous déclarer la guerre à son tour&lt;/font&gt;\nen lançant une &lt;font color={counterAttackColor}&gt;contre-attaque&lt;/font&gt; lors de la &lt;font color={resolutionPhaseColor}&gt;phase de résolution&lt;/font&gt;.\n\nSi une contre-attaque est lancée, les &lt;font color={situationReversedColor}&gt;rôles sont inversés&lt;/font&gt;.\nVotre compagnie devra défendre son territoire face à l'ennemi !</string>
 	<string key="ui_wardeclarationpopup_declare_title">Déclaration de guerre</string>
-	<string key="ui_wardeclarationpopup_declare_message">Lorsqu'une guerre est déclarée, votre compagnie peut attaquer la forteresse durant 30 minutes avec {maxRosterMembers} joueurs au maximum.\nUne fois le marqueur de revendication de la forteresse ennemie détruit, votre compagnie devient gouverneur du territoire.</string>
+	<string key="ui_wardeclarationpopup_declare_message">Lorsque la guerre est déclarée, votre compagnie peut attaquer la forteresse pendant 30 minutes avec {maxRosterMembers} joueurs maximum.\nSi elle parvient à s'emparer du marqueur de revendication dans la forteresse, votre compagnie prend la gouvernance du territoire.</string>
 	<string key="ui_wardeclarationpopup_declare_image_war">Déclarer la guerre</string>
 	<string key="ui_wardeclarationpopup_declare_image_attack">Attaquer la forteresse</string>
 	<string key="ui_wardeclarationpopup_declare_image_territory">Revendiquer le territoire</string>
@@ -340,11 +348,11 @@
 	<string key="ui_wardeclarationpopup_item_siege_supply_rate">Vit. ravitaillement du siège</string>
 	<string key="ui_wardeclaration_requirements_format">{territoryText}\n{permissionsText}\n{moneyText}</string>
 	<string key="ui_wardeclaration_pending_notification_title">Déclaration de guerre en attente</string>
-	<string key="ui_wardeclaration_pending_notification_text">Votre déclaration de guerre est en attente.\nVous serez prochainement averti de sa validation ou non.</string>
+	<string key="ui_wardeclaration_pending_notification_text">Votre déclaration de guerre est en attente !\nVous recevrez sous peu une notification indiquant si elle a abouti ou non.</string>
 	<string key="ui_wardeclaration_unsuccessful_notification_title">Déclaration de guerre rejetée</string>
-	<string key="ui_wardeclaration_unsuccessful_notification_text">La déclaration de guerre d'une autre compagnie a déjà été sélectionnée. Votre argent a été reversé dans la bourse de la compagnie.</string>
+	<string key="ui_wardeclaration_unsuccessful_notification_text">La déclaration de guerre d'une autre compagnie a été sélectionnée. Votre argent a été reversé dans la bourse de la compagnie.</string>
 	<string key="ui_wardeclaration_successful_notification_title">Déclaration de guerre acceptée</string>
-	<string key="ui_wardeclaration_successful_notification_text">Votre guerre à venir a été planifiée. Consultez le tableau de guerre du territoire pour vous inscrire et gérer votre armée.</string>
+	<string key="ui_wardeclaration_successful_notification_text">Votre guerre à venir est programmée. Rendez-vous au tableau de guerre du territoire pour vous inscrire et gérer votre armée.</string>
 	<string key="ui_territory_upkeep_due">C'est le jour de la collecte de la taxe sur le territoire de la compagnie : {name} !</string>
 	<string key="ui_warframe_range_prewar">Avant-guerre</string>
 	<string key="ui_warframe_range_currentwar">Guerre actuelle</string>
@@ -398,7 +406,7 @@
 	<string key="ui_contesting">Dispute</string>
 	<string key="ui_point_taken">Point de ralliement occupé</string>
 	<string key="ui_warphase_resolution">Résolution</string>
-	<string key="ui_warphase_scoutingdesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;PHASE D'AVANT-GUERRE&lt;/font&gt;&lt;/font&gt;\n\nTous les combattants doivent s'inscrire sur le tableau de guerre du territoire et le gouverneur doit leur attribuer l'un des {maxRosterMembers} emplacements disponibles.</string>
+	<string key="ui_warphase_scoutingdesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;PHASE D'AVANT-GUERRE&lt;/font&gt;&lt;/font&gt;\n\nTous les combattants doivent s'inscrire au tableau de guerre du territoire et le gouverneur doit les affecter aux {maxRosterMembers} emplacements disponibles.</string>
 	<string key="ui_warphase_battledesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;PHASE DE BATAILLE&lt;/font&gt;&lt;/font&gt;\n\nCette phase est obsolète et ne devrait pas apparaître.</string>
 	<string key="ui_warphase_resolutiondesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;PHASE DE RÉSOLUTION&lt;/font&gt;&lt;/font&gt;\n\nConclusion de la guerre. Consultez le résultat de la guerre, puis tous les combattants seront téléportés à la colonie du territoire.</string>
 	<string key="ui_warphase_siegedesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;FENÊTRE DE SIÈGE&lt;/font&gt;&lt;/font&gt;\n\nLes invitations sont envoyées à l'armée 15 minutes avant la guerre, et tous seront téléportés à la forteresse. Le gagnant remporte le territoire.</string>
@@ -435,9 +443,10 @@
 	<string key="ui_trade_failure_global_storage_not_enough_currency">Vous n'avez pas assez de fonds pour couvrir les frais de retrait des objets stockés à distance.</string>
 	<string key="ui_trade_failure_global_storage_wrong_faction">Pour pouvoir effectuer un retrait, les deux territoires doivent faire partie de votre faction et être à jour dans leur entretien.</string>
 	<string key="ui_trade_failure_global_storage_invalid_deposit">Vous ne pouvez déposer d'objets que dans l'abri de rangement où vous vous trouvez.</string>
+	<string key="ui_trade_failure_global_storage_invalid_deposit_rfi">Vous pouvez déposer des objets uniquement dans les abris de rangement des colonies que vous avez déjà visitées.</string>
 	<string key="ui_guildclaimsowned">Territoires possédés</string>
 	<string key="ui_guildoneclaimowned">Territoire possédé</string>
-	<string key="ui_acceptguildinvitepopuptitle">Rejoindre cette compagnie ?</string>
+	<string key="ui_acceptguildinvitepopuptitle">Rejoindre cette compagnie</string>
 	<string key="ui_acceptguildinvitepopupmessage_noguild">Voulez-vous vraiment rejoindre une nouvelle compagnie ?</string>
 	<string key="ui_acceptguildinvitepopupmessage_hasclaims">Les territoires que vous possédez ne seront pas transférés à votre nouvelle compagnie et continueront à être revendiqués par la compagnie que vous quittez. Les compagnies doivent soumettre une déclaration de guerre pour pouvoir revendiquer ces territoires.</string>
 	<string key="ui_acceptguildinvitepopupmessage_noclaims_time_remaining">Voulez-vous vraiment quitter votre compagnie et en rejoindre une nouvelle ?\nVous ne pourrez pas rejoindre cette compagnie pendant {rejoinTime} et ne pourrez rejoindre aucune autre compagnie pendant {switchTime}.</string>
@@ -546,12 +555,16 @@
 	<string key="ui_siege_signup_failed">Un problème est survenu lors de votre inscription à cette guerre.</string>
 	<string key="ui_siege_signup_conquest_overlap_title">Voulez-vous continuer ?</string>
 	<string key="ui_siege_signup_conquest_overlap_confirm">Vous avez déjà une inscription pour une guerre prévue au même moment.\nVoulez-vous annuler votre inscription dans le territoire {territoryName} ?</string>
-	<string key="ui_siege_signup_abandon_title">Annuler l'inscription à la guerre</string>
+	<string key="ui_siege_signup_abandon_title">Annuler l'inscription</string>
 	<string key="ui_siege_signup_abandon_message">Voulez-vous vraiment annuler votre inscription à cette guerre ?</string>
 	<string key="ui_siege_abandon_title">Abandon de la guerre</string>
-	<string key="ui_siege_abandon_message">Voulez-vous vraiment abandonner cette guerre ? (Les jetons et les objets déjà utilisés seront perdus.)</string>
+	<string key="ui_invasion_abandon_title">Abandonner l'invasion</string>
+	<string key="ui_siege_abandon_message">Voulez-vous vraiment abandonner cette guerre (tous les jetons et objets dépensés seront perdus) ?</string>
+	<string key="ui_invasion_abandon_message">Voulez-vous vraiment abandonner cette invasion (tous les jetons et objets dépensés seront perdus) ?</string>
 	<string key="ui_siege_abandon_and_accept_group_title">Abandon de la guerre</string>
-	<string key="ui_siege_abandon_and_accept_group_message">Voulez-vous vraiment abandonner cette guerre pour accepter l'invitation de ce groupe ?\nVous serez téléporté(e) hors de la zone de guerre, et tous jetons et objets déjà utilisés seront perdus.</string>
+	<string key="ui_invasion_abandon_and_accept_group_title">Abandonner l'invasion</string>
+	<string key="ui_siege_abandon_and_accept_group_message">Voulez-vous vraiment abandonner la guerre et accepter cette invitation à un groupe ?\nCela vous téléportera hors de la zone et tous les jetons et objets dépensés seront perdus.</string>
+	<string key="ui_invasion_abandon_and_accept_group_message">Voulez-vous vraiment abandonner l'invasion et accepter cette invitation à un groupe ?\nCela vous téléportera hors de la zone et tous les jetons et objets dépensés seront perdus.</string>
 	<string key="ui_siege_set_roster_failed_not_permitted">Impossible de gérer l'armée</string>
 	<string key="ui_siege_set_roster_failed_invalid_player">Impossible de déplacer un des joueurs sélectionnés. Veuillez réessayer.</string>
 	<string key="ui_siege_set_roster_failed_no_more_selections">Vous avez atteint le maximum de sélections manuelles autorisées. Retirez d'abord un autre joueur.</string>
@@ -590,7 +603,7 @@
 	<string key="ui_signup_restriction_tooltip">Vous ne pouvez pas vous inscrire auprès de l'adversaire de votre faction.</string>
 	<string key="ui_signup_nofaction_tooltip">Vous devez faire partie d'une faction afin de vous inscrire à une guerre.</string>
 	<string key="ui_signup_not_available">Inscription indisponible</string>
-	<string key="ui_signup_level_requirement">Niveau de joueur {level}&lt;/font&gt; &lt;font color="#c0c0c0"&gt;requis pour s'inscrire.&lt;/font&gt;</string>
+	<string key="ui_signup_level_requirement">&lt;font color="#ff6363"&gt;Niveau de joueur {level}&lt;/font&gt; &lt;font color="#c0c0c0"&gt; requis pour s'inscrire.&lt;/font&gt;</string>
 	<string key="ui_signup_count">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{number}&lt;/font&gt;&lt;/font&gt; joueurs inscrits</string>
 	<string key="ui_signup_instruction_title_1">Veuillez patienter...</string>
 	<string key="ui_signup_instruction_title_2">Soyez en ligne.</string>
@@ -599,8 +612,8 @@
 	<string key="ui_signup_instruction_desc_1_invasion">10 joueurs seront sélectionnés par la compagnie, et 40 autres seront choisis de manière aléatoire au moment de l'invasion.</string>
 	<string key="ui_signup_instruction_desc_2_war">Si vous êtes sélectionné(e), assurez-vous d'être en ligne &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;le {date} avant {time}&lt;/font&gt;&lt;/font&gt;. Si vous n'êtes pas en ligne à l'heure, &lt;font color="#ffffff"&gt;vous perdrez votre place&lt;/font&gt;.\nEn revanche, inutile de vous présenter en personne à la forteresse : vous y serez téléporté(e) au début de la guerre !</string>
 	<string key="ui_signup_instruction_desc_2_invasion">Assurez-vous d'être en ligne &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;le {date} avant {time}&lt;/font&gt;&lt;/font&gt;. À cet horaire, 40 joueurs seront sélectionnés de manière aléatoire.\nSi vous n'êtes pas en ligne à l'heure, vous n'aurez pas votre chance !</string>
-	<string key="ui_signup_instruction_desc_3_war">Cependant, si vous n'êtes pas sélectionné(e) dès le début de la guerre, tout n'est pas perdu ! Si vous restez en ligne,\nil est possible que l'on vous appelle pour venir consolider les rangs durant le combat.</string>
-	<string key="ui_signup_instruction_desc_3_invasion">Cependant, si vous n'êtes pas sélectionné(e) dès le début de l'invasion, tout n'est pas perdu ! Si vous restez en ligne,\nil est possible que l'on vous appelle pour venir consolider les rangs durant le combat.</string>
+	<string key="ui_signup_instruction_desc_3_war">Cependant, si vous n'êtes pas sélectionné(e) dès le début de la guerre, tout n'est pas perdu ! Vous avez une chance de pouvoir remplacer un joueur pendant la guerre\nsi vous restez en ligne pendant celle-ci.</string>
+	<string key="ui_signup_instruction_desc_3_invasion">Cependant, si vous n'êtes pas sélectionné(e) dès le début de l'invasion, tout n'est pas perdu ! Vous avez une chance de pouvoir remplacer un joueur pendant l'invasion\nsi vous restez en ligne pendant celle-ci.</string>
 	<string key="ui_war_tutorial_title_1">Points de contrôle</string>
 	<string key="ui_war_tutorial_title_2">Condition pour gagner</string>
 	<string key="ui_war_tutorial_title_3">Réapparition</string>

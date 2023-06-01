@@ -35,8 +35,8 @@
 	<string key="ui_house_abandon_notification">Has abandonado la casa {houseName}.</string>
 	<string key="ui_house_abandon_popup_desc">Ya tienes una casa en este pueblo.\n¿Quieres abandonar {houseName} para comprar esta casa?\nTodos los trofeos y muebles de la casa abandonada se llevarán al almacén del pueblo.</string>
 	<string key="ui_house_abandon_popup_title">No puedes tener más de una casa en un pueblo.</string>
-	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;No se te devolverán el coste de la compra ni los impuestos si la abandonas.&lt;/font&gt;\nTodos los trofeos y muebles de la casa abandonada se llevarán al almacén del pueblo.\n\nPara continuar, introduce {territoryName} a continuación.</string>
-	<string key="ui_house_abandon_this_house_desc">No se te devolverán el coste de la compra ni los impuestos si abandonas la casa. Todos los trofeos y muebles de la casa se llevarán al almacén del pueblo.</string>
+	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;Se te devolverá un {percent} % del coste de compra original si abandonas la casa.&lt;/font&gt;\nTodos los trofeos y muebles de la casa abandonada se llevarán al almacén del pueblo.\n\nPara continuar, introduce {territoryName} a continuación.</string>
+	<string key="ui_house_abandon_this_house_desc">Se te devolverá un {percent} % del coste de compra original si abandonas la casa. Todos los trofeos y muebles de la casa se llevarán al almacén del pueblo.</string>
 	<string key="ui_house_abandon_this_popup_title">¿Abandonar casa?</string>
 	<string key="ui_house_abandon_confirm_placeholder_text">Introduce el nombre del territorio.</string>
 	<string key="ui_house_abandon_confirm_button">Abandonar casa</string>
@@ -195,6 +195,7 @@
 	<string key="ui_fast_travel_error_description_inCooldown_with_time">Esta acción se está recargando. Puedes regresar en {time}.</string>
 	<string key="ui_fast_travel_error_noDestination">Para poder usar el viaje rápido, primero tienes que visitar este asentamiento.</string>
 	<string key="ui_fast_travel_error_noDestination_outpost">Para poder usar el viaje rápido, primero tienes que visitar este puesto remoto.</string>
+	<string key="ui_fast_travel_error_noDestination_shrine">Para poder usar el viaje rápido, primero tienes que visitar este santuario.</string>
 	<string key="ui_fast_travel_error_badStartLoc">Solo puedes utilizar el viaje rápido mientras estás en un asentamiento, puesto remoto o santuario espiritual.</string>
 	<string key="ui_fast_travel_error_cantAfford">No tienes suficiente Azoth.</string>
 	<string key="ui_fast_travel_error_encumbered">No puedes regresar ni usar el viaje rápido cuando llevas carga excesiva.</string>
@@ -251,5 +252,7 @@
 	<string key="ui_fast_travel_uncharted_point">Punto de viaje rápido no explorado</string>
 	<string key="ui_fast_travel_shrine_activated_header">Santuario de viaje rápido</string>
 	<string key="ui_fast_travel_shrine_activated_body">¡Nuevo punto de viaje rápido activado!</string>
+	<string key="ui_red_button_housing_disabled_title">Vivienda desactivada</string>
+	<string key="ui_red_button_housing_disabled">La vivienda está desactivada debido a un mantenimiento</string>
 </resources>
 

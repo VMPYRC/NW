@@ -137,6 +137,7 @@
 	<string key="ui_treasury_notification_withdrawalcappeddailylimit">&lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} wurden von der Kompanie-Schatzkammer abgehoben (angepasst an tägliches Abhebungslimit).</string>
 	<string key="ui_treasury_notification_setdailylimitsuccess">Das tägliche Abhebungslimit wurde festgelegt auf &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage}.</string>
 	<string key="ui_treasury_notification_setdailylimitsuccessinfinite">Das tägliche Abhebungslimit wurde festgelegt auf {infinityImage}.</string>
+	<string key="ui_treasury_notification_cointransferaldisabled">Du musst mindestens Stufe {minLevel} erreicht haben, um die Gildenschatzkammer nutzen zu dürfen.</string>
 	<string key="ui_treasury_notification_error_generic">Interaktion mit Schatzkammer fehlgeschlagen. Versuche es bitte erneut.</string>
 	<string key="ui_setSiegeWindow">Belagerungszeitfenster festlegen</string>
 	<string key="ui_forDefending">Zum Verteidigen deiner Gebiete</string>
@@ -156,7 +157,7 @@
 	<string key="ui_siegewindowtime">{beginHour}:{minutes}–{endHour}:{minutes} ({timeZone})</string>
 	<string key="ui_siegeclaimsowned">Gebietsansprüche: {numClaims}</string>
 	<string key="ui_siegenoclaimsowned">Es muss kein Belagerungszeitfenster festgelegt werden.</string>
-	<string key="ui_setsiegeswindowpopup_title">Belagerungszeitfenster ändern?</string>
+	<string key="ui_setsiegeswindowpopup_title">Zeitfenster ändern?</string>
 	<string key="ui_setsiegeswindowpopup_message">Möchtest du das Belagerungszeitfenster wirklich zu &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{siegeWindow}&lt;/font&gt;&lt;/font&gt; ändern?\nDanach kannst du es für &lt;font color="#cf0000"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{cooldownTime}&lt;/font&gt;&lt;/font&gt; nicht mehr ändern.</string>
 	<string key="ui_flyoutsiegewindow">Belagerungszeitraum: {siegeWindow}</string>
 	<string key="ui_flyout_viewwardetail">Kriegsdetails ansehen</string>
@@ -201,7 +202,8 @@
 	<string key="ui_leaveguild">Kompanie verlassen</string>
 	<string key="ui_leaveguild_confirm">Möchtest du die Kompanie wirklich verlassen?</string>
 	<string key="ui_leaveguild_governor_confirm">Möchtest du die Kompanie wirklich verlassen?\n\nDann wird ein anderes Mitglied zum Gouverneur befördert und sämtlicher Besitz der Kompanie verbleibt innerhalb der Kompanie mit dem neuen Gouverneur.</string>
-	<string key="ui_leaveguild_alone_confirm">Möchtest du die Kompanie wirklich verlassen?\n\nDu bist das einzige Mitglied, und wenn du die Kompanie verlässt, geht sämtlicher Besitz der Kompanie verloren.</string>
+	<string key="ui_leaveguild_alone_confirm">Du bist das einzige Mitglied der Kompanie, und wenn du die Kompanie verlässt, geht sämtlicher Besitz der Kompanie verloren und das Kompaniekonto wird deiner Geldbörse hinzugefügt.</string>
+	<string key="ui_leaveguild_alone_walletwarning">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Wenn du das Kompaniekonto einstreichst, überschreitest du das Talerlimit. Wenn du die Kompanie jetzt auflöst, gehen sämtliche überschüssigen Taler verloren.&lt;/font&gt;</string>
 	<string key="ui_leftguildmessage">Die Kompanie wurde verlassen.</string>
 	<string key="ui_modifycrest">Wappen bearbeiten</string>
 	<string key="ui_guildcrestsaved">Neues Wappen gespeichert</string>
@@ -254,7 +256,13 @@
 	<string key="ui_promote">Befördern</string>
 	<string key="ui_promote_transfer_owner">Eigentum übertragen</string>
 	<string key="ui_promotetoguildmaster_confirm_title">Kompanie übertragen?</string>
-	<string key="ui_promotetoguildmaster_confirm" comment="Pronoun for Transferring ownership to a player. Need to break into two string keys">Möchtest du das Amt des Kompanie-Gouverneurs wirklich auf {memberName} übertragen?\n\nAlle Mitglieder, Ansprüche, Gebäude und Gelder von {guildName} fallen unter die Kontrolle von {memberName} als neuer Gouverneur von {guildName}. Kompaniename und -wappen bleiben unverändert. Du wirst um einen Rang degradiert.\n\nDiese Aktion kann nicht rückgängig gemacht werden und die Änderung tritt sofort in Kraft.</string>
+	<string key="ui_promotetoguildmaster_confirm_part1" comment="Pronoun for local player.">Möchtest du das Amt des Kompanie-Gouverneurs wirklich auf {memberName} übertragen?</string>
+	<string key="ui_promotetoguildmaster_confirm_part1_SHE" comment="Pronoun for local player.">Möchtest du das Amt des Kompanie-Gouverneurs wirklich auf {memberName} übertragen?</string>
+	<string key="ui_promotetoguildmaster_confirm_part1_THEY" comment="Pronoun for local player.">Möchtest du das Amt des Kompanie-Gouverneurs wirklich auf {memberName} übertragen?</string>
+	<string key="ui_promotetoguildmaster_confirm_part2" comment="Pronoun for player ownership is transfered to.">Alle Mitglieder, Ansprüche, Gebäude und Gelder von {guildName} fallen unter die Kontrolle von {memberName} als neuer Gouverneur von {guildName}. Kompaniename und -wappen bleiben unverändert. Du wirst um einen Rang degradiert.</string>
+	<string key="ui_promotetoguildmaster_confirm_part2_SHE" comment="Pronoun for player ownership is transfered to.">Alle Mitglieder, Ansprüche, Gebäude und Gelder von {guildName} fallen unter die Kontrolle von {memberName} als neuer Gouverneur von {guildName}. Kompaniename und -wappen bleiben unverändert. Du wirst um einen Rang degradiert.</string>
+	<string key="ui_promotetoguildmaster_confirm_part2_THEY" comment="Pronoun for player ownership is transfered to.">Alle Mitglieder, Ansprüche, Gebäude und Gelder von {guildName} fallen unter die Kontrolle von {memberName} als neuer Gouverneur von {guildName}. Kompaniename und -wappen bleiben unverändert. Du wirst um einen Rang degradiert.</string>
+	<string key="ui_promotetoguildmaster_confirm_part3">Diese Aktion kann nicht rückgängig gemacht werden und die Änderung tritt sofort in Kraft.</string>
 	<string key="ui_rank">Rang</string>
 	<string key="ui_rankmovedowndisabled">Das ist der niedrigste Rang.</string>
 	<string key="ui_rankmoveupdisabled">Ein höherer Rang als {gmRankName} ist nicht möglich.</string>
@@ -324,7 +332,7 @@
 	<string key="ui_wardeclarationpopup_attackinfopopup_title">Bevor du einen Krieg erklärst …</string>
 	<string key="ui_wardeclarationpopup_attackinfopopup_message">Denk daran, dass die &lt;font color={defendingColorHex}&gt;verteidigende Kompanie einen Krieg fortsetzen kann,&lt;/font&gt;\nindem sie in der &lt;font color={resolutionPhaseColor}&gt;Auflösungsphase&lt;/font&gt; einen &lt;font color={counterAttackColor}&gt;Gegenangriff&lt;/font&gt; einleitet.\n\nWenn ein Gegenangriff eingeleitet wird, wird die &lt;font color={situationReversedColor}&gt;Situation umgekehrt&lt;/font&gt;.\nDeine Kompanie muss ihren Gebietsanspruch verteidigen und der Gegner greift an!</string>
 	<string key="ui_wardeclarationpopup_declare_title">Kriegserklärung</string>
-	<string key="ui_wardeclarationpopup_declare_message">Nachdem ein Krieg erklärt wurde, kann deine Kompanie das Fort für 30 Minuten mit bis zu {maxRosterMembers} Spielern angreifen.\nSchafft es deine Kompanie, die Gebietsanspruchsmarkierung in dem Fort zu erobern, wird deine Kompanie zum Gouverneur des Gebiets.</string>
+	<string key="ui_wardeclarationpopup_declare_message">Nachdem ein Krieg erklärt wurde, kann deine Kompanie das Fort für 30 Minuten mit bis zu {maxRosterMembers} Spielern angreifen.\nSchafft es deine Kompanie, die Gebietsanspruchsmarkierung in dem Fort zu erobern, wird deine Kompanie zum Gouverneur des Gebiets.</string>
 	<string key="ui_wardeclarationpopup_declare_image_war">Krieg erklären</string>
 	<string key="ui_wardeclarationpopup_declare_image_attack">Fort angreifen</string>
 	<string key="ui_wardeclarationpopup_declare_image_territory">Gebiet beanspruchen</string>
@@ -435,6 +443,7 @@
 	<string key="ui_trade_failure_global_storage_not_enough_currency">Du hast zu wenig Geld, um die Abhebegebühr für an einem anderen Ort verwahrte Gegenstände zu bezahlen.</string>
 	<string key="ui_trade_failure_global_storage_wrong_faction">Zum Abheben müssen beide Gebiete zu deiner Fraktion gehören und deren Gebietsunterhaltungskosten müssen beglichen worden sein.</string>
 	<string key="ui_trade_failure_global_storage_invalid_deposit">Gegenstände kannst du nur in dem Lagerschuppen an deinem derzeitigen Standort deponieren.</string>
+	<string key="ui_trade_failure_global_storage_invalid_deposit_rfi">Du kannst Gegenstände nur zum Lagerschuppen in bereits besuchten Siedlungen übertragen.</string>
 	<string key="ui_guildclaimsowned">Gebiete beansprucht</string>
 	<string key="ui_guildoneclaimowned">Gebiet beansprucht</string>
 	<string key="ui_acceptguildinvitepopuptitle">Neuer Kompanie beitreten?</string>
@@ -546,12 +555,16 @@
 	<string key="ui_siege_signup_failed">Bei deinem Eintragungsversuch für einen Krieg gab es ein Problem.</string>
 	<string key="ui_siege_signup_conquest_overlap_title">Möchtest du fortfahren?</string>
 	<string key="ui_siege_signup_conquest_overlap_confirm">Du bist bereits für einen Krieg eingetragen, der etwa zur selben Zeit stattfindet.\nMöchtest du deine Eintragung für {territoryName} verwerfen?</string>
-	<string key="ui_siege_signup_abandon_title">Kriegseintragung verwerfen</string>
+	<string key="ui_siege_signup_abandon_title">Eintragung verwerfen</string>
 	<string key="ui_siege_signup_abandon_message">Möchtest du die Eintragung für den Krieg wirklich verwerfen?</string>
 	<string key="ui_siege_abandon_title">Krieg aufgeben</string>
+	<string key="ui_invasion_abandon_title">Invasion aufgeben</string>
 	<string key="ui_siege_abandon_message">Möchtest du diesen Krieg wirklich aufgeben (sämtliche ausgegebenen Marken und Gegenstände gehen verloren)?</string>
+	<string key="ui_invasion_abandon_message">Möchtest du diese Invasion wirklich aufgeben (sämtliche ausgegebenen Marken und Gegenstände gehen verloren)?</string>
 	<string key="ui_siege_abandon_and_accept_group_title">Krieg aufgeben</string>
+	<string key="ui_invasion_abandon_and_accept_group_title">Invasion aufgeben</string>
 	<string key="ui_siege_abandon_and_accept_group_message">Möchtest du diesen Krieg wirklich aufgeben und diese Gruppeneinladung annehmen?\nDu wirst aus dem Kriegsgebiet herausteleportiert und sämtliche ausgegebenen Marken und Gegenstände gehen verloren.</string>
+	<string key="ui_invasion_abandon_and_accept_group_message">Möchtest du diese Invasion wirklich aufgeben und diese Gruppeneinladung annehmen?\nDu wirst aus dem Gebiet herausteleportiert und sämtliche ausgegebenen Marken und Gegenstände gehen verloren.</string>
 	<string key="ui_siege_set_roster_failed_not_permitted">Dir fehlt die notwendige Berechtigung, um die Armee zu verwalten.</string>
 	<string key="ui_siege_set_roster_failed_invalid_player">Ein ausgewählter Spieler konnte nicht verschoben werden. Versuche es bitte erneut.</string>
 	<string key="ui_siege_set_roster_failed_no_more_selections">Keine weiteren manuellen Auswahlen erlaubt, bitte entferne zuerst einen Spieler.</string>
@@ -599,8 +612,8 @@
 	<string key="ui_signup_instruction_desc_1_invasion">10 Spieler werden von der Kompanie ausgewählt, 40 Spieler werden zum Zeitpunkt der Invasion zufällig ausgewählt.</string>
 	<string key="ui_signup_instruction_desc_2_war">Wenn du ausgewählt wurdest, sei online bis &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{time}, {date} &lt;/font&gt;&lt;/font&gt;. Wenn du bis dahin nicht online bist, &lt;font color="#ffffff"&gt;verlierst du deinen Platz.&lt;/font&gt;\nDu wirst zu Beginn zum Fort teleportiert, musst dich also nicht selbst dorthin begeben!</string>
 	<string key="ui_signup_instruction_desc_2_invasion">Sei online bis &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{time}, {date} &lt;/font&gt;&lt;/font&gt;. Zu diesem Zeitpunkt werden 40 Spieler zufällig ausgewählt.\nWenn du bis dahin nicht online bist, bekommst du keinen Platz!</string>
-	<string key="ui_signup_instruction_desc_3_war">Mach dir keine Sorgen, wenn du zum Zeitpunkt des Krieges nicht ausgewählt wurdest. Wenn du während des Krieges online bleibst,\nwirst du vielleicht als Reservist eingesetzt.</string>
-	<string key="ui_signup_instruction_desc_3_invasion">Mach dir keine Sorgen, wenn du zum Zeitpunkt der Invasion nicht ausgewählt wurdest. Wenn du während der Invasion online bleibst,\nwirst du vielleicht als Reservist eingesetzt.</string>
+	<string key="ui_signup_instruction_desc_3_war">Mach dir keine Sorgen, wenn du zum Zeitpunkt des Krieges nicht ausgewählt wurdest. Wenn du während des Krieges online bleibst,\nkannst du eventuell als Reservist nachrücken.</string>
+	<string key="ui_signup_instruction_desc_3_invasion">Mach dir keine Sorgen, wenn du zum Zeitpunkt der Invasion nicht ausgewählt wurdest. Wenn du während der Invasion online bleibst,\nkannst du eventuell als Reservist nachrücken.</string>
 	<string key="ui_war_tutorial_title_1">Kontrollpunkte.</string>
 	<string key="ui_war_tutorial_title_2">Eine Siegbedingung.</string>
 	<string key="ui_war_tutorial_title_3">Respawn.</string>

@@ -96,7 +96,7 @@
 	<string key="ui_leaving_settlement">Opuszczasz osadę</string>
 	<string key="ui_leaving_settlement_recall_no_cd">Powróć w dowolnym momencie przy użyciu mapy.</string>
 	<string key="ui_leaving_settlement_recall_time">Gospoda dostępna za &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;</string>
-	<string key="ui_leaving_settlement_recall_time_desc">Z powrotu do gospody można skorzystać jedynie raz na 30 minut.</string>
+	<string key="ui_leaving_settlement_recall_time_desc">Z powrotu do gospody można skorzystać jedynie raz na {numMinutes} min.</string>
 	<string key="ui_leaving_settlement_no_inn_desc">Opuszczasz osadę bez zameldowania się w gospodzie.</string>
 	<string key="ui_leaving_settlement_no_inn">Nie zameldowano</string>
 	<string key="ui_leaving_settlement_inn_elsewhere">Opuszczasz osadę bez zameldowania się w gospodzie. Obecna gospoda znajduje się w: {territoryName} ({distance})</string>
@@ -146,7 +146,7 @@
 	<string key="ui_since_date">Od: {date}</string>
 	<string key="ui_global_average_tax">Średnia globalna: &lt;font color='#FFFFFF'&gt;{tax}&lt;/font&gt;</string>
 	<string key="ui_global_average_fee">Średnia globalna: &lt;font color='#FFFFFF'&gt;{tax}&lt;/font&gt;</string>
-	<string key="ui_confirm_set_tax_title">Czy na pewno chcesz to zrobić?</string>
+	<string key="ui_confirm_set_tax_title">Potwierdzić zmianę?</string>
 	<string key="ui_confirm_set_tax_desc">W ten sposób ustanowisz nową wysokość podatku lub opłaty, których nie będzie można zmienić aż do następnej aktualizacji.</string>
 	<string key="ui_property_tax_description">Mieszkańcy tego terytorium powinni opłacać podatki od nieruchomości co 7 dni</string>
 	<string key="ui_trading_tax_description">Wymiana handlowa na tym terytorium podlega podatkowi od wartości</string>
@@ -179,11 +179,13 @@
 	<string key="ui_encounter_statusstandby">Twój status: &lt;font color='#fab445'&gt;Oczekiwanie&lt;/font&gt;</string>
 	<string key="ui_encounter_statusselected">Twój status: &lt;font color='#30e5ab'&gt;Wybrane&lt;/font&gt;</string>
 	<string key="ui_encounter_managebutton">Zarządzaj armią</string>
-	<string key="ui_encounter_signupbutton_war">Tablica wojenna – zapisy</string>
+	<string key="ui_encounter_signupbutton_war">Zapisz się na wojnę</string>
 	<string key="ui_encounter_signupDesc_war">Zapisz się na tę wojnę przy\n&lt;font color='#f1ede2'&gt;tablicy wojennej&lt;/font&gt; w tym mieście.</string>
 	<string key="ui_encounter_signupDesc_invasion">Zapisz się na tę inwazję przy\n&lt;font color='#f1ede2'&gt;tablicy wojennej&lt;/font&gt; w tym mieście.</string>
 	<string key="ui_encounter_signupDesc_invasion_minlevel">&lt;font color="#ff6363"&gt;Minimalny poziom: {level}&lt;/font&gt;</string>
-	<string key="ui_encounter_signupbutton_invasion">Tablica wojenna – zapisy</string>
+	<string key="ui_encounter_signup_invasion_minlevel_tooltip">Musisz być przynajmniej na {level}. poziomie, by móc zapisać się na inwazję.</string>
+	<string key="ui_encounter_signup_invasion_too_early_tooltip">Jeszcze nie można się zapisywać na tę inwazję.</string>
+	<string key="ui_encounter_signupbutton_invasion">Zapisz się na inwazję</string>
 	<string key="ui_encounter_viewstatusbutton_war">Wyświetl armię</string>
 	<string key="ui_encounter_viewstatusbutton_invasion">Wyświetl armię</string>
 	<string key="ui_warselected_title">Wybrano cię do wojny</string>
@@ -226,9 +228,11 @@
 	<string key="ui_fortressinfo_resolvinginvasion">Inwazja rozwiązuje się</string>
 	<string key="ui_fortressinfo_invasiondescription">To terytorium jest atakowane przez skażonych. Nie można wypowiedzieć wojny, dopóki trwa inwazja.</string>
 	<string key="ui_fortressinfo_button_declarewar">Wypowiedz wojnę!</string>
-	<string key="ui_fortressinfo_button_warsignup">Tablica wojenna – zapisy</string>
+	<string key="ui_fortressinfo_button_manage">Zarządzaj armią</string>
+	<string key="ui_fortressinfo_button_signup_at_board">Tablica wojenna – zapisy</string>
+	<string key="ui_fortressinfo_button_warsignup">Zapisz się na wojnę</string>
 	<string key="ui_fortressinfo_button_warstatus">Status zapisu</string>
-	<string key="ui_fortressinfo_button_invasionsignup">Tablica wojenna – zapisy</string>
+	<string key="ui_fortressinfo_button_invasionsignup">Zapisz się na inwazję</string>
 	<string key="ui_fortressinfo_attackerlabel">(atakujący)</string>
 	<string key="ui_fortressinfo_defenderlabel">(obrońca)</string>
 	<string key="ui_fortressinfo_invasionattackername">Skażeni</string>

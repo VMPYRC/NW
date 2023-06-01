@@ -9,7 +9,7 @@
 	<string key="ui_acceptgroupinviteblocked_pve" comment="">Disattiva il PvP presso un santuario per accettare questo invito a un gruppo PvE</string>
 	<string key="ui_receivedgroupinvite_decline" comment="">Rifiuta</string>
 	<string key="ui_receivedgroupinvite_hide" comment="">Nascondi</string>
-	<string key="ui_togglepvpblocked_title" comment="">Avvertimento attivazione PvP</string>
+	<string key="ui_togglepvpblocked_title" comment="">Avviso attivazione PvP</string>
 	<string key="ui_togglepvpblocked_ingroup" comment="">I giocatori PvP e PvE non possono trovarsi nello stesso gruppo. Modificando l'attivazione del PvP verrai espulso da questo gruppo.\n\nVuoi davvero modificare l'attivazione del PvP?</string>
 	<string key="ui_togglepvpblocked_pendinginvites" comment="">Modificando l'attivazione del PvP tutti gli inviti alla lobby della spedizione verranno annullati.\n\nVuoi davvero modificare l'attivazione del PvP?</string>
 	<string key="ui_receivedwargroupinvitetitle" comment="">Unisciti alla guerra!</string>
@@ -51,10 +51,12 @@
 	<string key="ui_cannotinvite" comment="">Al momento non puoi invitare nessuno.</string>
 	<string key="ui_cannotinviteingroup" comment="">Non puoi invitare qualcuno nel tuo gruppo.</string>
 	<string key="ui_cannotinvitegroupfull" comment="">Il tuo gruppo è già pieno.</string>
-	<string key="ui_cannotinviteinraid" comment="">Non puoi invitare qualcuno durante la guerra.</string>
+	<string key="ui_cannotinviteinraid" comment="">Non puoi invitare qualcuno durante una guerra.</string>
+	<string key="ui_cannotinviteinInvasion" comment="">Non puoi invitare qualcuno durante un'invasione.</string>
 	<string key="ui_cannotinvitein_pvp_wrong_faction" comment="">Devi essere nella stessa fazione del gruppo PvP.</string>
 	<string key="ui_cannotleavegroup_in_arena" comment="">Non puoi lasciare il tuo gruppo mentre sei in un'arena.</string>
 	<string key="ui_cannotleavegroup_in_war" comment="">Non puoi lasciare il tuo gruppo mentre sei in guerra.</string>
+	<string key="ui_cannotleavegroup_in_invasion" comment="">Non puoi lasciare il tuo gruppo mentre sei in un'invasione.</string>
 	<string key="ui_cannotleavegroup_in_dungeon" comment="">Non puoi lasciare il tuo gruppo mentre sei in una Spedizione.</string>
 	<string key="ui_cannotjoingroup_in_arena" comment="">Non puoi entrare a fare parte di un altro gruppo mentre sei in un'arena.</string>
 	<string key="ui_cannotjoingroup_in_dungeon" comment="">Non puoi entrare a fare parte di un altro gruppo mentre sei in una Spedizione.</string>

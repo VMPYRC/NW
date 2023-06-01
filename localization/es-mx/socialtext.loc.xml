@@ -173,10 +173,10 @@
 	<string key="ui_p2ptrading_failmessage_playersoutofrange">El jugador ya no está al alcance.</string>
 	<string key="ui_p2ptrading_failmessage_somethingwentwrong">Se produjo un error.</string>
 	<string key="ui_p2ptrading_failmessage_atmaxcurrency">Uno o más jugadores excederán el límite de monedas.</string>
-	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_level">Debes tener un nivel {level} para intercambiar cosas.</string>
-	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_probation">Debes tener una cuenta anterior a {time} para intercambiar cosas.</string>
-	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_free">Compra New World para intercambiar cosas.</string>
-	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_generic">No puedes intercambiar cosas.</string>
+	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_level">Debes ser de nivel {level} para poder intercambiar bienes.</string>
+	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_probation">Debes tener una cuenta con una antigüedad superior a {time} para poder intercambiar bienes.</string>
+	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_free">Adquiere New World para poder intercambiar bienes.</string>
+	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_generic">No puedes intercambiar bienes.</string>
 	<string key="ui_p2ptrading_trade_completed">Intercambio completado.</string>
 	<string key="ui_p2ptrading_overflow_title">Inventario lleno</string>
 	<string key="ui_p2ptrading_overflow_message">Algunos de los objetos que has recibido no cabían en tu inventario y se han dejado en el suelo.</string>
@@ -409,9 +409,9 @@
 	<string key="ui_subarmy_decline_tooltip">Te han rechazado para unirte al ejército de suscriptores del streamer.</string>
 	<string key="ui_subarmy_waiting">Esperando a la aprobación del streamer...</string>
 	<string key="ui_subarmy_pending">Pendiente...</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Buscar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Encontrar sala de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_managetabtitle">Sala de espera</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creategroup">Crear un nuevo reclutamiento</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creategroup">Crear sala de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_refresh">Actualizar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_screen_header">Buscador de grupo de expedición</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_expeditionname">Nombre de la expedición</string>
@@ -424,29 +424,33 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voippreference_tooltip">Chat de voz: &lt;font color={color} face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{preference}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_size">Número mínimo de jugadores: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{amount}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_recommendedgearscore">Puntuación del equipo recomendada: &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;600-{score}&lt;/font&gt;.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_minimum_gear_score">Puntuación del equipo mínima: &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{score}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_minimum_level">Nivel mínimo: &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{level}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_recommendedlevel">Nivel recomendado: &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{level}&lt;/font&gt;</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group">Actualmente no hay ningún reclutamiento para esta expedición.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group_at_level">Actualmente no hay ningún reclutamiento para el nivel de dificultad {level} de esta expedición.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group_manage">Actualmente no estás en un reclutamiento de expedición.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group">Actualmente no hay ninguna sala de espera para esta expedición.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group_at_level">Actualmente no hay ninguna sala de espera para el nivel de dificultad {level} de esta expedición.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group_manage">Actualmente no estás en una sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_your_group">Expedición</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty">Dificultad {level}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_members">Miembros</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_apply">Aplicar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_only_accept">Solo aceptar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_looking_for">Buscando</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationrejected">Solicitud rechazada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_groupmembers">Miembros</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_currentmembers">Jugadores en la sala de espera</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_currentmembers">En sala de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_requests">Solicitudes</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_requeststojoin">Solicitudes para unirse</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_requeststojoin">Solicitudes</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_role">Rol</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_preferredrole">Rol preferido</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_level">Nivel</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_gearscore">Puntuación del equipo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_gearscore_short">P. E.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_stats">Estadísticas</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gearscore_average">Puntuación del equipo media</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_viewstats">Ver estadísticas</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_leavegroup">Salir de la sala de espera</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_removefromgroup">Eliminar de la sala de espera</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_leavegroup">Salir</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_removefromgroup">Expulsar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite">Invitar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invited">Invitado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_reject">Rechazar</string>
@@ -456,25 +460,28 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_timeout">Expiró la solicitud</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requestfailed">No se pudo realizar la solicitud</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_invalidrequest">Solicitud no válida</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_group_title">Crear un nuevo reclutamiento</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_group_title">Crear nueva sala de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred">Preferido</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_microphone" scale="1.8" xPadding="-2" yOffset="5.0"&gt;&lt;/img&gt; Preferido</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_not_required">No requerido</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level">Nivel mínimo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score">Puntuación del equipo mínima</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement_not_met">No cumples con el requisito de nivel o de puntuación del equipo para unirte a este reclutamiento.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement_not_met">No cumples con el requisito de nivel o de puntuación del equipo para unirte a esta sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_unlist_pending_group">Eliminar la sala de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending">Pendiente...</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted">Aceptado</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted_roles_label">Solo aceptar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted_roles_label">Roles aceptados</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_select_role_label">Seleccionar tu rol</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_your_role_label">Tu rol</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_choose_role_title">Elige tu rol</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_label">Comentar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite_current_group_label">Invitar miembros del grupo actual</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm">Solicitud para unirse</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip">Debes seleccionar un rol.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_required_item_tooltip">Necesitas tener {quantity} {item} para crear un nuevo reclutamiento para esta expedición.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_required_item_tooltip">Necesitas tener {quantity} {item} para crear una nueva sala de espera para esta expedición.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_roles_label">Roles actuales en este grupo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_role_text">&lt;img src="{icon}" scale="2.5" yOffset="8.0"&gt;&lt;/img&gt; {count} {role}</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_disabled">Este rol no es necesario para este reclutamiento.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_disabled">Este rol no es necesario para esta sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_recommended_label">SE RECOMIENDA TENER:</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_name">Tanque</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_description">El rol del tanque en el grupo es absorber el daño y desviar la atención de los enemigos lejos de los aliados. Los tanques suelen llevar armadura pesada y tener gemas carnelianas equipadas para provocar a los enemigos. Suele tener algún tipo de control de multitudes (aturdimiento, atrapamiento, aplastamiento) para evitar que los enemigos lleguen a los aliados.</string>
@@ -485,22 +492,22 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_name">Sanador</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_description">Los sanadores se encargan de mantener al grupo con vida utilizando potenciaciones de salud y mitigación, como el fortalecimiento. También pueden encargarse de eliminar las despotenciaciones dañinas de los aliados, como el sangrado o el veneno. Los sanadores deben invertir en la estadística de concentración para maximizar la efectividad de su sanación.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Bastón vital</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Listado creado</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Listado actualizado</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Listado eliminado</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Sala de espera creada</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Sala de espera actualizada</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Sala de espera eliminada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationsubmitted">Solicitud enviada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationremoved">Solicitud eliminada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_allapplicationsremoved">Todas las solicitudes eliminadas</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationaccepted">Invitación enviada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationrejected">Solicitud rechazada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted_title">Solicitud aceptada</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted">{creator} te invitó a unirte a:\n&lt;font color="#85e74c" &gt;[{expedition}]&lt;/font&gt; como &lt;font color={roleColor}&gt;[{role}]&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted">&lt;font color={creatorColor}&gt;{creator}&lt;/font&gt; te ha invitado para que seas &lt;img src="{icon}" scale="2.2" yOffset="7"&gt;&lt;/img&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_ready_check_title">Formar grupo de expedición</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_ready_check">¿Tienes todo listo para formar tu grupo y entrar en la expedición?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_ready_check">¿Tienes todo listo para iniciar la expedición?</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accept">Aceptar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Rechazar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_with_group">Abrir la expedición con tu grupo</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_locked">Tienes que desbloquear este nivel de dificultad para crear un grupo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_locked">Tienes que desbloquear este nivel de dificultad para crear una nueva sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Rechazar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Invitación aceptada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Invitación rechazada</string>
@@ -508,32 +515,37 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberupdated">Miembro del listado de grupo actualizado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberremoved">Miembro eliminado del listado de grupo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_looking_for_more">Buscando más miembros...</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_outpost_rush_signup_fail">No puedes registrarte porque actualmente estás en la sala de espera del reclutamiento.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_outpost_rush_signup_fail">No puedes registrarte mientras estás en una sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail">No puedes entrar a la cola de la expedición mientras estás en una sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_group_full">Grupo lleno</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_open_expedition">Abrir expedición</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_min_players">Se requiere un mínimo de {amount} para abrir esta expedición.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_min_players">Se requiere un mínimo de {amount} miembros para iniciar esta expedición.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creator">Creador: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{name}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement">Requisito de puntuación del equipo: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color={scoreColor}&gt;{score}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_requirement">Nivel requerido: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color={scoreColor}&gt;{score}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_num_members">Jugadores: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{numMembers}&lt;/font&gt;/5</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_stat">{name} &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{value}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_stat_attribute">{name} &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{value}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_stat_mastery">&lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{value}&lt;/font&gt; {name}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_none_equipped">No hay armas equipadas</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_list_creator">Creador</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group">Sala de espera</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_manage_group">Administrar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_view_group">Ver</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_group_title">Salir de la sala de espera</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_group_desc">¿Confirmas que quieres salir de la sala de espera?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_group_desc">¿Confirmas que quieres salir de esta sala de espera?</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_remove_from_group_title">Eliminar miembro</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_remove_from_group_desc">¿Confirmas que quieres eliminar a {playerName} de tu sala de espera?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_remove_from_group_desc">¿Confirmas que quieres expulsar a {playerName} de tu sala de espera?</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_unlist_group_title">Eliminar la sala de espera</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_unlist_group_desc">¿Confirmas que quieres eliminar tu reclutamiento?\nTodos los miembros serán expulsados de la sala de espera.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_and_unlist_group_desc">¿Confirmas que quieres salir de la sala de espera?\nEsto expulsará a todos los miembros y eliminará el reclutamiento.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite_reject">Solo el creador del reclutamiento puede invitar miembros o rechazar solicitudes de miembros.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_invites_header">Reclutamientos de expedición</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_unlist_group_desc">¿Confirmas que quieres eliminar tu sala de espera?\n\nTodos los miembros serán expulsados.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_and_unlist_group_desc">¿Confirmas que quieres eliminar la sala de espera?\n\nTodos los miembros serán expulsados.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite_reject">Solo el creador de la sala de espera puede invitar miembros o rechazar solicitudes de miembro.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_invites_header">Invitaciones a salas de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_description">&lt;font color="#ffea00" &gt;{creator}&lt;/font&gt; te ha invitado para que seas &lt;font color={roleColor} &gt;{role}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_convert_to_group">Listo para la expedición</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_start_expedition">Inicio</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_not_enough_members">No hay miembros suficientes en la sala de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_appended_difficulty">Dificultad {difficulty}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_appended_difficulty_queue_hud">Dificultad &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{difficulty}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level_desc">Tu nivel: {level}\nEl nivel mínimo no puede superar tu nivel.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score_desc">Puntuación de tu equipo: {gearscore}\nLa puntuación del equipo mínima no puede superar la puntuación de tu equipo.</string>
 </resources>

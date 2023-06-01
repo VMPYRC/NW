@@ -35,8 +35,8 @@
 	<string key="ui_house_abandon_notification">Twój dom ({houseName}) został porzucony.</string>
 	<string key="ui_house_abandon_popup_desc">Masz już 1 dom w tym mieście.\nCzy chcesz porzucić {houseName}, by zakupić ten dom?\nWszystkie trofea i meble z porzuconego domu zostaną przeniesione do magazynu miejskiego.</string>
 	<string key="ui_house_abandon_popup_title">Możesz mieć tylko jeden dom w mieście.</string>
-	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;W razie porzucenia tego domu nie nastąpi zwrot kosztu zakupu i podatków.&lt;/font&gt;\nWszystkie trofea i meble z porzuconego domu zostaną przeniesione do magazynu miejskiego.\n\nBy kontynuować, wpisz poniżej nazwę terytorium ({territoryName}).</string>
-	<string key="ui_house_abandon_this_house_desc">W razie porzucenia tego domu nie nastąpi zwrot kosztu zakupu i podatków. Wszystkie trofea i meble z domu zostaną przeniesione do magazynu miejskiego.</string>
+	<string key="ui_house_abandon_this_popup_desc">W razie porzucenia tego domu otrzymasz zwrot &lt;font color="#f25d5d"&gt;{percent}% kosztów zakupu.&lt;/font&gt;\nWszystkie trofea i meble z porzuconego domu zostaną przeniesione do magazynu miejskiego.\n\nBy kontynuować, wpisz poniżej nazwę terytorium ({territoryName}).</string>
+	<string key="ui_house_abandon_this_house_desc">W razie porzucenia tego domu otrzymasz zwrot {percent}% kosztów zakupu. Wszystkie trofea i meble z domu zostaną przeniesione do magazynu miejskiego.</string>
 	<string key="ui_house_abandon_this_popup_title">Porzucić dom?</string>
 	<string key="ui_house_abandon_confirm_placeholder_text">Wpisz nazwę terytorium</string>
 	<string key="ui_house_abandon_confirm_button">Porzuć dom</string>
@@ -195,6 +195,7 @@
 	<string key="ui_fast_travel_error_description_inCooldown_with_time">Ta czynność czeka na odnowienie.\nPowrót dostępny za: {time}.</string>
 	<string key="ui_fast_travel_error_noDestination">Musisz odwiedzić tę osadę, by móc do niej szybko podróżować.</string>
 	<string key="ui_fast_travel_error_noDestination_outpost">Musisz odwiedzić ten posterunek, by móc do niego szybko podróżować.</string>
+	<string key="ui_fast_travel_error_noDestination_shrine">Musisz odwiedzić tę kapliczkę, by móc do niej szybko podróżować.</string>
 	<string key="ui_fast_travel_error_badStartLoc">Możesz odbyć szybką podróż tylko z osady, posterunku lub kapliczki ducha.</string>
 	<string key="ui_fast_travel_error_cantAfford">Masz za mało azothu.</string>
 	<string key="ui_fast_travel_error_encumbered">Nie możesz skorzystać z powrotu lub szybkiej podróży z powodu przeciążenia.</string>
@@ -251,5 +252,7 @@
 	<string key="ui_fast_travel_uncharted_point">Nieodkryty punkt szybkiej podróży</string>
 	<string key="ui_fast_travel_shrine_activated_header">Kapliczka szybkiej podróży</string>
 	<string key="ui_fast_travel_shrine_activated_body">Aktywowano nowy punkt szybkiej podróży!</string>
+	<string key="ui_red_button_housing_disabled_title">Domy wyłączone</string>
+	<string key="ui_red_button_housing_disabled">Domy są obecnie wyłączone z powodu prac konserwacyjnych</string>
 </resources>
 

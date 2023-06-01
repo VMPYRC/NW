@@ -360,6 +360,8 @@
 	<string key="LootContainer_Settlement_Tannin_DisplayName">Coger tanino</string>
 	<string key="LootContainer_Settlement_Sandpaper_DisplayName">Coger papel de lija</string>
 	<string key="LootContainer_Settlement_Water_DisplayName">Extraer del pozo</string>
+	<string key="LootContainer_OpenStoneTomb_DisplayName">Abrir sarcófago</string>
+	<string key="LootContainer_StoneTomb_DisplayName">Robar ofrendas de tumbas</string>
 	<string key="Item_PotionHealT1_DisplayName">Pócima de curación destilada</string>
 	<string key="Item_ClothT2_DisplayName">Trozos de tela</string>
 	<string key="Darkness_Monolith_DisplayName">Monolito corrupto</string>
@@ -522,20 +524,25 @@
 	<string key="1401_BlightTinctureBomb_DisplayName">Colocar bomba</string>
 	<string key="1402_CorruptedOre_DisplayName">Destruir mineral corrupto</string>
 	<string key="1403_WyrdwoodGrowth_DisplayName">Cosechar retoño de madera del sino</string>
-	<string key="1426_0102_WeakenWall_DisplayName" rel_version="Quest_Supplement_Edengrove">Andamio</string>
 	<string key="1525_1519_Quiver_DisplayName">Carcaj de Myrtilus</string>
 	<string key="1526_1521_LynxEvidence1_DisplayName">Jaula de lince</string>
 	<string key="1526_1521_LynxEvidence2_DisplayName">Señuelo de lince</string>
 	<string key="1526_1521_LynxEvidence3_DisplayName">Correa de lince</string>
 	<string key="1524_GoldenStash_interact">El Alijo Dorado</string>
 	<string key="1524_Doubloon_DisplayName">Rastro de doblones</string>
+	<string key="9926_0103_VKCannonA_DisplayName" rel_version="AI_Evil_Knights_P2">Rotar cañón</string>
+	<string key="9926_0103_VKCannonB_DisplayName" rel_version="AI_Evil_Knights_P2">Disparar cañón</string>
+	<string key="9926_0103_RomacPack_DisplayName" rel_version="AI_Evil_Knights_P2">Consigue la bolsa de Romac</string>
+	<string key="9926_0103_ActivityReport_DisplayName" rel_version="AI_Evil_Knights_P2">Obtén el informe de actividad</string>
+	<string key="9932_0104_RomacNotebook_DisplayName" rel_version="AI_Evil_Knights_P2">Recupera el cuaderno de Romac</string>
 	<string key="MSQ_ShipsLocker_DisplayName">Baúl del barco</string>
-	<string key="MSQ_Flag_DisplayName">Bandera del barco</string>
+	<string key="MSQ_Flag_DisplayName">Obtén la bandera del barco</string>
 	<string key="MSQ_SalvagePile_A_DisplayName">Restos del naufragio</string>
 	<string key="MSQ_SalvagePile_B_DisplayName">Restos del naufragio</string>
 	<string key="MSQ_SalvagePile_C_DisplayName">Restos del naufragio</string>
 	<string key="AzothWater_Displayname">Manantial de Azoth</string>
 	<string key="AzothSeal_DisplayName">Sello de Azoth antiguo</string>
+	<string key="HeartforgeEncounterBattery_DisplayName">Amortiguador de energía de la forja del corazón</string>
 	<string key="PressurePlate_Ancient_DisplayName">Glifo antiguo de Azoth</string>
 	<string key="AncientArtifactLocked">Artefacto antiguo</string>
 	<string key="MSQ_OldStoneRemembers_Interact">Inscripciones en idioma antiguo</string>
@@ -680,11 +687,6 @@
 	<string key="DungeonShatterMtn_RelicStatue_DisplayName" rel_version="Expedition_ShatterMtn_00">Relicario de los recuerdos\n(Requiere 2 bastones de Azoth)</string>
 	<string key="DungeonShatterMtn00_ChestStatue_DisplayName" rel_version="Expedition_ShatterMtn_00">Arca antigua</string>
 	<string key="DungeonShatterMtn00_Statue_DisplayName" rel_version="Expedition_ShatterMtn_00">Estatua antigua</string>
-	<string key="SummerMedley_Settlement_Stage_T1_DisplayName" rel_version="Event_Summer_Temp">Ofrenda de poca monta</string>
-	<string key="SummerMedley_Settlement_Stage_T2_DisplayName" rel_version="Event_Summer_Temp">Ofrenda generosa</string>
-	<string key="SummerMedley_Settlement_Stage_T3_DisplayName" rel_version="Event_Summer_Temp">Ofrenda magnánima</string>
-	<string key="SummerMedley_Village_BonfireBlast_DisplayName" rel_version="Event_Summer_Temp">Pira de la Feria Musical</string>
-	<string key="SummerMedley_Maudlindust_DisplayName" rel_version="Event_Summer_Temp">Polvo sensiblero</string>
 	<string key="FM_PVP_War_Camp_Loot_Box_DisplayName">Cofre del campamento de guerra</string>
 	<string key="1130_ArcaneFocus1_DisplayName">Foco arcano</string>
 	<string key="1130_ArcaneFocus2_DisplayName">Foco arcano</string>
@@ -693,6 +695,7 @@
 	<string key="0726_BookOfIsabella_DisplayName">Libro de Isabella</string>
 	<string key="1130_CursedAxe_DisplayName">Empezar el ritual</string>
 	<string key="0726_Gravestone_interact" rel_version="DEPRECATED_January_2022">Inspeccionar la cueva del tripulante</string>
+	<string key="EvilKnights_Camp_StoneDoor" rel_version="AI_Evil_Knights_P2">Activar la puerta</string>
 	<string key="Dynasty_Gong_DisplayName">Gong de La Dinastía</string>
 	<string key="ExploreVista_EastCleave01" rel_version="Feature_RewardingExploration">Caballete olvidado</string>
 	<string key="ExploreVista_EastCutlass01" rel_version="Feature_RewardingExploration">Caballete olvidado</string>
@@ -722,13 +725,12 @@
 	<string key="ExploreVista_WestEverfall01" rel_version="Feature_RewardingExploration">Caballete olvidado</string>
 	<string key="ExploreVista_WestMourningdale01" rel_version="Feature_RewardingExploration">Caballete olvidado</string>
 	<string key="ExploreVista_WestCutlass01" rel_version="Feature_RewardingExploration">Caballete olvidado</string>
-	<string key="LuckShrine_MothersLove">Amor maternal</string>
 	<string key="GoldPile00_DisplayName" rel_version="Feature_Unbound_Island">Alijo de suministros</string>
 	<string key="0601_0101_weapon_01_hatchet_DisplayName">Elige el destral curtido</string>
 	<string key="0601_0101_weapon_02_warhammer_DisplayName">Elige el martillo de guerra curtido</string>
 	<string key="0601_0101_weapon_03_bow_DisplayName">Elige el arco curtido</string>
 	<string key="0601_0101_weapon_04_firestaff_DisplayName">Elige el báculo ígneo curtido</string>
-	<string key="Lore_AncientGlyphWall_DisplayName" rel_version="Territory_Brimstone_Sands">Traducir el glifo</string>
-	<string key="NPCRescue_Generic_NPC_DisplayName" rel_version="Quest_MSQ2_Revamp">Desencadenar</string>
+	<string key="Gimmick_FallingRubble_DisplayName">Trampa de roca</string>
+	<string key="Holdout_Interact_DisplayName">Iniciar resistencia</string>
 </resources>
 

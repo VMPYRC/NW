@@ -96,7 +96,7 @@
 	<string key="ui_leaving_settlement">Sair do Assentamento</string>
 	<string key="ui_leaving_settlement_recall_no_cd">Volte a qualquer momento usando o mapa.</string>
 	<string key="ui_leaving_settlement_recall_time">Estalagem disponível em &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;</string>
-	<string key="ui_leaving_settlement_recall_time_desc">O retorno para a estalagem só está disponível uma vez a cada 30 minutos.</string>
+	<string key="ui_leaving_settlement_recall_time_desc">O retorno para a estalagem só está disponível uma vez a cada {numMinutes} minutos.</string>
 	<string key="ui_leaving_settlement_no_inn_desc">Você está saindo sem dar entrada na estalagem.</string>
 	<string key="ui_leaving_settlement_no_inn">Não Deu Entrada</string>
 	<string key="ui_leaving_settlement_inn_elsewhere">Você está saindo sem dar entrada na estalagem, a estalagem atual está em {territoryName} {distance}</string>
@@ -179,11 +179,13 @@
 	<string key="ui_encounter_statusstandby">Seu status: &lt;font color='#fab445'&gt;em espera&lt;/font&gt;</string>
 	<string key="ui_encounter_statusselected">Seu status: &lt;font color='#30e5ab'&gt;selecionado&lt;/font&gt;</string>
 	<string key="ui_encounter_managebutton">Gerenciar Exército</string>
-	<string key="ui_encounter_signupbutton_war">Registre-se para a Guerra</string>
+	<string key="ui_encounter_signupbutton_war">Inscrever-se para a Guerra</string>
 	<string key="ui_encounter_signupDesc_war">Inscreva-se nesta Guerra em um\n&lt;font color='#f1ede2'&gt;Quadro de Guerra&lt;/font&gt; nesta vila.</string>
 	<string key="ui_encounter_signupDesc_invasion">Inscreva-se nesta Invasão em um\n&lt;font color='#f1ede2'&gt;Quadro de Guerra&lt;/font&gt; nesta vila.</string>
 	<string key="ui_encounter_signupDesc_invasion_minlevel">&lt;font color="#ff6363"&gt;Nível mínimo: {level}&lt;/font&gt;</string>
-	<string key="ui_encounter_signupbutton_invasion">Registre-se para a Guerra</string>
+	<string key="ui_encounter_signup_invasion_minlevel_tooltip">Você deve estar pelo menos no nível {level} para se inscrever na invasão.</string>
+	<string key="ui_encounter_signup_invasion_too_early_tooltip">As inscrições ainda não estão abertas para esta invasão.</string>
+	<string key="ui_encounter_signupbutton_invasion">Inscrever-se para a Invasão</string>
 	<string key="ui_encounter_viewstatusbutton_war">Exibir Exército</string>
 	<string key="ui_encounter_viewstatusbutton_invasion">Exibir Exército</string>
 	<string key="ui_warselected_title">Alistado para Guerra</string>
@@ -226,9 +228,11 @@
 	<string key="ui_fortressinfo_resolvinginvasion">Invasão Finalizando</string>
 	<string key="ui_fortressinfo_invasiondescription">Este território está sob ataque de Corrompidos. Não é possível declarar Guerra até a Invasão terminar.</string>
 	<string key="ui_fortressinfo_button_declarewar">Declarar Guerra!</string>
-	<string key="ui_fortressinfo_button_warsignup">Registre-se para a guerra</string>
+	<string key="ui_fortressinfo_button_manage">Gerenciar Exército</string>
+	<string key="ui_fortressinfo_button_signup_at_board">Registrar-se para a Guerra</string>
+	<string key="ui_fortressinfo_button_warsignup">Inscrever-se para a Guerra</string>
 	<string key="ui_fortressinfo_button_warstatus">Status da Inscrição</string>
-	<string key="ui_fortressinfo_button_invasionsignup">Registre-se para a guerra</string>
+	<string key="ui_fortressinfo_button_invasionsignup">Inscrever-se para a Invasão</string>
 	<string key="ui_fortressinfo_attackerlabel">(atacante)</string>
 	<string key="ui_fortressinfo_defenderlabel">(defensor)</string>
 	<string key="ui_fortressinfo_invasionattackername">Os Corrompidos</string>
@@ -456,11 +460,11 @@
 	<string key="ui_upgrade_desc_BallistaProjectId2">Aprimora a Balista para Escala 3. Quando aprimorada, qualquer Balista existente (implantada ou não) também é aprimorada.</string>
 	<string key="ui_upgrade_desc_FireBarrelProjectId">Aprimora o Tonel de Óleo Quente para Escala 2. Quando aprimorado, todo Tonel de Óleo Quente existente (usado ou não) também é aprimorado.</string>
 	<string key="ui_upgrade_desc_FireBarrelProjectId2">Aprimora o Tonel de Óleo Quente para Escala 3. Quando aprimorado, todo Tonel de Óleo Quente existente (usado ou não) também é aprimorado.</string>
-	<string key="ui_upgrade_desc_RepeaterProjectId">Aprimora o Repetidor para Escala 2. Quando aprimorado, qualquer Repetidor existente (implantado ou não) também é aprimorado.</string>
-	<string key="ui_upgrade_desc_RepeaterProjectId2">Aprimora o Repetidor para Escala 3. Quando aprimorado, qualquer Repetidor existente (implantado ou não) também é aprimorado.</string>
-	<string key="ui_upgrade_desc_HornProjectId">Aprimora as Trombetas de Guerra para Escala 2. Quando aprimorada, qualquer Trombeta de Guerra existente (implantada ou não) também é aprimorada.</string>
-	<string key="ui_upgrade_desc_HornProjectId2">Aprimora as Trombetas de Guerra para Escala 3. Quando aprimorada, qualquer Trombeta de Guerra existente (implantada ou não) também é aprimorada.</string>
-	<string key="ui_upgrade_desc_ExplosiveProjectId">Aprimora os Explosivos para Escala 2. Quando aprimorado, qualquer Explosivo existente (implantado ou não) também é aprimorado.</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId">Aprimora Repetidores para Escala 2. Quando aprimorados, todo Repetidor existente (implantado ou não) também é aprimorado.</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId2">Aprimora Repetidores para Escala 3. Quando aprimorados, todo Repetidor existente (implantado ou não) também é aprimorado.</string>
+	<string key="ui_upgrade_desc_HornProjectId">Aprimora Trombeta de Guerra para Escala 2. Quando aprimorada, toda Trombeta de Guerra existente (implantada ou não) também é aprimorada.</string>
+	<string key="ui_upgrade_desc_HornProjectId2">Aprimora Trombeta de Guerra para Escala 3. Quando aprimorada, toda Trombeta de Guerra existente (implantada ou não) também é aprimorada.</string>
+	<string key="ui_upgrade_desc_ExplosiveProjectId">Aprimora Explosivos para Escala 2. Quando aprimorados, todo Explosivo existente (implantado ou não) também é aprimorado.</string>
 	<string key="ui_upgrade_desc_ExplosiveProjectId2">Aprimora os Explosivos para Escala 3. Quando aprimorado, qualquer Explosivo existente (implantado ou não) também é aprimorado.</string>
 	<string key="ui_territory_level">Nível do Território: {level}</string>
 	<string key="ui_enter_house">Acessar Menu de Casa</string>

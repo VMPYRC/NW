@@ -173,9 +173,9 @@
 	<string key="ui_p2ptrading_failmessage_playersoutofrange">Le joueur n'est plus à portée.</string>
 	<string key="ui_p2ptrading_failmessage_somethingwentwrong">Une erreur s'est produite.</string>
 	<string key="ui_p2ptrading_failmessage_atmaxcurrency">Un ou plusieurs joueurs dépasseront la limite de pièces autorisée.</string>
-	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_level">Vous devez avoir le niveau {level} pour échanger des objets.</string>
-	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_probation">Vous devez avoir un compte datant de plus de {time} pour échanger des objets.</string>
-	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_free">Achetez New World pour échanger des objets</string>
+	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_level">Vous devez avoir atteint le niveau {level} pour pouvoir échanger des objets.</string>
+	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_probation">Vous devez posséder un compte depuis plus de {time} pour pouvoir échanger des objets.</string>
+	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_free">Achetez New World pour pouvoir échanger des objets.</string>
 	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_generic">Vous ne pouvez pas échanger d'objets.</string>
 	<string key="ui_p2ptrading_trade_completed">Échange terminé.</string>
 	<string key="ui_p2ptrading_overflow_title">Inventaire plein</string>
@@ -409,9 +409,9 @@
 	<string key="ui_subarmy_decline_tooltip">Vous avez refusé de rejoindre l'armée d'abonnés du streameur.</string>
 	<string key="ui_subarmy_waiting">En attente de l'autorisation du streameur...</string>
 	<string key="ui_subarmy_pending">En attente...</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Trouver</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Trouver un salon</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_managetabtitle">Salon</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creategroup">Créer un nouveau recrutement</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creategroup">Créer un salon</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_refresh">Réinitialisation</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_screen_header">Trouver un groupe d'expédition</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_expeditionname">Nom de l'expédition</string>
@@ -424,29 +424,33 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voippreference_tooltip">Discussion vocale : &lt;font color={color} face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{preference}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_size">Joueurs minimum : &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{amount}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_recommendedgearscore">Score d'équipement recommandé : &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;600 - {score}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_minimum_gear_score">Score d'équipement minimum : &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{score}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_minimum_level">Niveau minimum : &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{level}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_recommendedlevel">Niveau recommandé : &lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{level}&lt;/font&gt;</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group">Il n'y a actuellement aucun recrutement pour cette expédition.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group_at_level">Il n'y a actuellement aucun recrutement pour le niveau de difficulté {level} de cette expédition.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group_manage">Vous n'êtes actuellement dans aucun recrutement d'expédition.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group">Il n'y a actuellement aucun salon pour cette expédition.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group_at_level">Il n'y a actuellement aucun salon pour le niveau de difficulté {level} de cette expédition.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_no_group_manage">Vous n'êtes actuellement dans aucun salon.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_your_group">Expédition</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty">Difficulté {level}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_members">Membres</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_apply">Envoyer une demande</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_only_accept">N'accepte que</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_looking_for">Recherche</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationrejected">Demande rejetée</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_groupmembers">Membres</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_currentmembers">Joueurs dans le salon</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_currentmembers">Dans un salon</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_requests">Demandes</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_requeststojoin">Demande à rejoindre</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_requeststojoin">Demandes</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_role">Rôle</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_preferredrole">Rôle préféré</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_level">Niveau</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_gearscore">Score d'équipement</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_gearscore_short">S.É</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_header_stats">Statistiques</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gearscore_average">Score d'équipement moyen</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_viewstats">Voir les statistiques</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_leavegroup">Quitter le salon</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_removefromgroup">Retirer du salon</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_leavegroup">Quitter</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_removefromgroup">Exclure</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite">Inviter</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invited">Invité</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_reject">Refuser</string>
@@ -456,25 +460,28 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_timeout">Requête expirée</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requestfailed">Échec de la requête</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_invalidrequest">Requête invalide</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_group_title">Créer un nouveau recrutement</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_create_group_title">Créer un nouveau salon</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred">Préconisée</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_preferred_with_icon">Préférence : &lt;img src="lyshineui/images/icons/misc/icon_microphone" scale="1.8" xPadding="-2" yOffset="5.0"&gt;&lt;/img&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_voip_not_required">Non requise</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level">Niveau minimum</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score">Score d'équipement minimum</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement_not_met">Vous ne remplissez pas les conditions de niveau et/ou de score d'équipement pour rejoindre ce recrutement.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement_not_met">Vous ne remplissez pas les conditions de niveau et/ou de score d'équipement pour rejoindre ce salon.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_unlist_pending_group">Supprimer le salon</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending">En attente...</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted">Accepté</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted_roles_label">N'accepte que</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accepted_roles_label">Rôles acceptés</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_select_role_label">Choisissez votre rôle</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_your_role_label">Votre rôle</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_choose_role_title">Choisir un rôle</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_label">Commenter</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite_current_group_label">Inviter les membres du groupe actuels</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm">Demander à rejoindre</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip">Vous devez sélectionner un rôle.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_required_item_tooltip">Vous devez avoir {quantity} {item} afin de créer un nouveau recrutement pour cette expédition.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_required_item_tooltip">Vous devez avoir {quantity} {item} afin de créer un nouveau salon pour cette expédition.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_roles_label">Rôles actuels de ce groupe</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_role_text">&lt;img src="{icon}" scale="2.5" yOffset="8.0"&gt;&lt;/img&gt; {count} {role}</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_disabled">Ce rôle n'est pas nécessaire pour ce recrutement.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_disabled">Ce rôle n'est pas nécessaire pour ce salon.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_recommended_label">IL EST RECOMMANDÉ D'AVOIR :</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_name">Tank</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_description">Le rôle d'un tank est d'absorber les dégâts et d'attirer l'attention des ennemis pour les éloigner des alliés. Les tanks doivent porter une armure lourde et équiper des gemmes de cornaline pour narguer les ennemis. En général, ils peuvent exercer un effet de contrôle de foule (étourdissement, enracinement ou aplatissement) pour empêcher les ennemis d'atteindre leurs alliés.</string>
@@ -485,22 +492,22 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_name">Guérisseur</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_description">Le rôle d'un guérisseur est de maintenir le groupe en vie grâce à ses soins et ses améliorations de résistance, telle que renforcement. Les guérisseurs doivent éliminer les affaiblissements subis par leurs alliés, tels que saignement et empoisonnement. Ils doivent investir dans des statistiques de concentration pour maximiser l'efficacité de leurs soins.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Bâton de vie</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Liste créée</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Liste mise à jour</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Liste effacée</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Salon créé</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Salon modifié</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Salon supprimé</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationsubmitted">Demande transmise</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationremoved">Demande supprimée</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_allapplicationsremoved">Toutes les demandes ont été supprimées</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationaccepted">Invitation envoyée</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_applicationrejected">Demande rejetée</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted_title">Demande acceptée</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted">{creator} vous invite à rejoindre :\n&lt;font color="#85e74c" &gt;[{expedition}]&lt;/font&gt; en tant que &lt;font color={roleColor}&gt;[{role}]&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_application_accepted">&lt;font color={creatorColor}&gt;{creator}&lt;/font&gt; vous a invité en tant que &lt;img src="{icon}" scale="2.2" yOffset="7"&gt;&lt;/img&gt;.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_ready_check_title">Former le groupe d'expédition</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_ready_check">Souhaitez-vous vraiment former votre groupe et commencer l'expédition ?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_group_ready_check">Souhaitez-vous vraiment commencer l'expédition ?</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_accept">Accepter</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Refuser</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_with_group">Ouvrir l'expédition avec votre groupe</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_locked">Vous devez d'abord déverrouiller ce niveau de difficulté pour créer un groupe.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_locked">Vous devez d'abord déverrouiller ce niveau de difficulté pour créer un nouveau salon.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Refuser</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Invitation acceptée</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Invitation refusée</string>
@@ -508,32 +515,37 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberupdated">Liste des membres du groupe mise à jour</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_memberremoved">Membre supprimé de la liste du groupe</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_looking_for_more">À la recherche de plus de membres...</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_outpost_rush_signup_fail">Vous ne pouvez pas vous inscrire car vous êtes actuellement dans le salon de recrutement.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_outpost_rush_signup_fail">Vous ne pouvez pas vous inscrire tout en étant dans un salon.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail">Vous ne pouvez pas être dans la file d'attente de l'expédition tout en étant dans un salon.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_group_full">Groupe au complet</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_open_expedition">Ouvrir l'expédition</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_min_players">Un minimum de {amount} membres est requis pour ouvrir cette expédition.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_min_players">Un minimum de {amount} membres est requis pour commencer cette expédition.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creator">Créateur : &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{name}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_gear_score_requirement">Score d'équipement requis : &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color={scoreColor}&gt;{score}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_level_requirement">Niveau requis : &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color={scoreColor}&gt;{score}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_num_members">Joueurs : &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{numMembers}&lt;/font&gt; / 5</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_stat">{name} &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{value}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_stat_attribute">{name} &lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{value}&lt;/font&gt;</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_stat_mastery">&lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color="#ffffff"&gt;{value}&lt;/font&gt; {name}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_none_equipped">Aucune arme d'équipée</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_member_list_creator">Créateur</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group">Salon</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_manage_group">Gérer</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_view_group">Afficher</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_group_title">Quitter le salon</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_group_desc">Voulez-vous vraiment quitter le salon ?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_group_desc">Voulez-vous vraiment quitter ce salon ?</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_remove_from_group_title">Retirer membre</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_remove_from_group_desc">Voulez-vous vraiment retirer {playerName} de votre salon ?</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_remove_from_group_desc">Voulez-vous vraiment exclure {playerName} de votre salon ?</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_unlist_group_title">Supprimer le salon</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_unlist_group_desc">Voulez-vous vraiment supprimer votre recrutement ?\nTous les membres seront expulsés du salon.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_and_unlist_group_desc">Voulez-vous vraiment quitter le salon ?\nCela entraînera l'expulsion de tous ses membres et la suppression du recrutement.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite_reject">Seul le créateur du recrutement peut inviter des membres ou rejeter des candidatures.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_invites_header">Recrutements d'expédition</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_unlist_group_desc">Voulez-vous vraiment supprimer votre salon ?\n\nTous les membres seront exclus.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_leave_and_unlist_group_desc">Voulez-vous vraiment supprimer le salon ?\n\nTous les membres seront exclus.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invite_reject">Seul le créateur du salon peut inviter des membres ou rejeter des candidatures.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_invites_header">Invitation au salon</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_group_description">&lt;font color="#ffea00" &gt;{creator}&lt;/font&gt; vous a invité en tant que &lt;font color={roleColor} &gt;{role}&lt;/font&gt;.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_convert_to_group">Prêt pour l'expédition</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_start_expedition">Commencer</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_tooltip_not_enough_members">Nombre de membres insuffisant dans le salon</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_appended_difficulty">Difficulté {difficulty}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_appended_difficulty_queue_hud">Difficulté &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{difficulty}&lt;/font&gt;</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level_desc">Votre niveau : {level}\nLe niveau minimum ne peut pas être supérieur à votre niveau.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score_desc">Votre score d'équipement : {gearscore}\nLe score d'équipement minimum ne peut pas être supérieur à votre score d'équipement.</string>
 </resources>

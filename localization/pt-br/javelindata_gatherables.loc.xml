@@ -360,6 +360,8 @@
 	<string key="LootContainer_Settlement_Tannin_DisplayName">Pegar Tanino</string>
 	<string key="LootContainer_Settlement_Sandpaper_DisplayName">Pegar Lixas</string>
 	<string key="LootContainer_Settlement_Water_DisplayName">Puxar o Poço</string>
+	<string key="LootContainer_OpenStoneTomb_DisplayName">Abrir Sarcófago</string>
+	<string key="LootContainer_StoneTomb_DisplayName">Roubar Oferendas do Túmulo</string>
 	<string key="Item_PotionHealT1_DisplayName">Extrato Curativo Destilado</string>
 	<string key="Item_ClothT2_DisplayName">Retalhos de Tecido</string>
 	<string key="Darkness_Monolith_DisplayName">Monólito Corrompido</string>
@@ -522,20 +524,25 @@
 	<string key="1401_BlightTinctureBomb_DisplayName">Colocar Bomba</string>
 	<string key="1402_CorruptedOre_DisplayName">Destruir Minério Corrompido</string>
 	<string key="1403_WyrdwoodGrowth_DisplayName">Coletar Crescimentos de Urdeira</string>
-	<string key="1426_0102_WeakenWall_DisplayName" rel_version="Quest_Supplement_Edengrove">Andaime</string>
 	<string key="1525_1519_Quiver_DisplayName">Aljava de Myrtilus</string>
 	<string key="1526_1521_LynxEvidence1_DisplayName">Gaiola do Lince-pardo</string>
 	<string key="1526_1521_LynxEvidence2_DisplayName">Isca de Lince-pardo</string>
 	<string key="1526_1521_LynxEvidence3_DisplayName">Contenções de Lince-pardo</string>
 	<string key="1524_GoldenStash_interact">O Esconderijo Dourado</string>
 	<string key="1524_Doubloon_DisplayName">Uma Trilha de Dobrões</string>
+	<string key="9926_0103_VKCannonA_DisplayName" rel_version="AI_Evil_Knights_P2">Girar Canhão</string>
+	<string key="9926_0103_VKCannonB_DisplayName" rel_version="AI_Evil_Knights_P2">Disparar Canhão</string>
+	<string key="9926_0103_RomacPack_DisplayName" rel_version="AI_Evil_Knights_P2">Coletar a Algibeira de Romac</string>
+	<string key="9926_0103_ActivityReport_DisplayName" rel_version="AI_Evil_Knights_P2">Coletar Relatório de Atividade</string>
+	<string key="9932_0104_RomacNotebook_DisplayName" rel_version="AI_Evil_Knights_P2">Recuperar Caderno de Romac</string>
 	<string key="MSQ_ShipsLocker_DisplayName">Compartimento da Embarcação</string>
-	<string key="MSQ_Flag_DisplayName">Bandeira do Navio</string>
+	<string key="MSQ_Flag_DisplayName">Colete a Bandeira do Navio</string>
 	<string key="MSQ_SalvagePile_A_DisplayName">Pilha de Sucata</string>
 	<string key="MSQ_SalvagePile_B_DisplayName">Pilha de Sucata</string>
 	<string key="MSQ_SalvagePile_C_DisplayName">Pilha de Sucata</string>
 	<string key="AzothWater_Displayname">Fonte de Azoth</string>
 	<string key="AzothSeal_DisplayName">Selo Ancião de Azoth</string>
+	<string key="HeartforgeEncounterBattery_DisplayName">Amortecedor de Energia da Forja-Coração</string>
 	<string key="PressurePlate_Ancient_DisplayName">Glifo Ancião de Azoth</string>
 	<string key="AncientArtifactLocked">Artefato Ancião</string>
 	<string key="MSQ_OldStoneRemembers_Interact">Epígrafes do Idioma Ancião</string>
@@ -680,11 +687,6 @@
 	<string key="DungeonShatterMtn_RelicStatue_DisplayName" rel_version="Expedition_ShatterMtn_00">Relicário de Lembranças\n(Requer 2 Bastões de Azoth)</string>
 	<string key="DungeonShatterMtn00_ChestStatue_DisplayName" rel_version="Expedition_ShatterMtn_00">Cofre Antiquado</string>
 	<string key="DungeonShatterMtn00_Statue_DisplayName" rel_version="Expedition_ShatterMtn_00">Estátua Antiquada</string>
-	<string key="SummerMedley_Settlement_Stage_T1_DisplayName" rel_version="Event_Summer_Temp">Dotação Sombria</string>
-	<string key="SummerMedley_Settlement_Stage_T2_DisplayName" rel_version="Event_Summer_Temp">Dotação Grande</string>
-	<string key="SummerMedley_Settlement_Stage_T3_DisplayName" rel_version="Event_Summer_Temp">Dotação Opulenta</string>
-	<string key="SummerMedley_Village_BonfireBlast_DisplayName" rel_version="Event_Summer_Temp">Fogueira da Feira de Variedades</string>
-	<string key="SummerMedley_Maudlindust_DisplayName" rel_version="Event_Summer_Temp">Partículas Sentimentais</string>
 	<string key="FM_PVP_War_Camp_Loot_Box_DisplayName">Baú do Acampamento de Guerra</string>
 	<string key="1130_ArcaneFocus1_DisplayName">Foco Arcano</string>
 	<string key="1130_ArcaneFocus2_DisplayName">Foco Arcano</string>
@@ -693,6 +695,7 @@
 	<string key="0726_BookOfIsabella_DisplayName">Livro de Isabella</string>
 	<string key="1130_CursedAxe_DisplayName">Iniciar o Ritual</string>
 	<string key="0726_Gravestone_interact" rel_version="DEPRECATED_January_2022">Inspecionar o Túmulo do Tripulante</string>
+	<string key="EvilKnights_Camp_StoneDoor" rel_version="AI_Evil_Knights_P2">Ativar Portão</string>
 	<string key="Dynasty_Gong_DisplayName">Dinastia Gong</string>
 	<string key="ExploreVista_EastCleave01" rel_version="Feature_RewardingExploration">Cavalete Esquecido no Tempo</string>
 	<string key="ExploreVista_EastCutlass01" rel_version="Feature_RewardingExploration">Cavalete Esquecido no Tempo</string>
@@ -722,13 +725,12 @@
 	<string key="ExploreVista_WestEverfall01" rel_version="Feature_RewardingExploration">Cavalete Esquecido no Tempo</string>
 	<string key="ExploreVista_WestMourningdale01" rel_version="Feature_RewardingExploration">Cavalete Esquecido no Tempo</string>
 	<string key="ExploreVista_WestCutlass01" rel_version="Feature_RewardingExploration">Cavalete Esquecido no Tempo</string>
-	<string key="LuckShrine_MothersLove">Amor de Mãe</string>
 	<string key="GoldPile00_DisplayName" rel_version="Feature_Unbound_Island">Esconderijo de Suprimentos</string>
 	<string key="0601_0101_weapon_01_hatchet_DisplayName">Escolher a Machadinha Veterana de Batalha</string>
 	<string key="0601_0101_weapon_02_warhammer_DisplayName">Escolher o Martelo de Guerra Veterano de Batalha</string>
 	<string key="0601_0101_weapon_03_bow_DisplayName">Escolher o Arco Veterano de Batalha</string>
 	<string key="0601_0101_weapon_04_firestaff_DisplayName">Escolher o Bastão Flamejante Veterano de Batalha</string>
-	<string key="Lore_AncientGlyphWall_DisplayName" rel_version="Territory_Brimstone_Sands">Traduzir Glifo</string>
-	<string key="NPCRescue_Generic_NPC_DisplayName" rel_version="Quest_MSQ2_Revamp">Desatar Correntes</string>
+	<string key="Gimmick_FallingRubble_DisplayName">Armadilha de Pedra</string>
+	<string key="Holdout_Interact_DisplayName">Iniciar Espera</string>
 </resources>
 

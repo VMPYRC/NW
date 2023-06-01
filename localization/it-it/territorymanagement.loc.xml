@@ -96,7 +96,7 @@
 	<string key="ui_leaving_settlement">Abbandono insediamento</string>
 	<string key="ui_leaving_settlement_recall_no_cd">Torna indietro in qualsiasi momento utilizzando la mappa.</string>
 	<string key="ui_leaving_settlement_recall_time">Locanda disponibile tra &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;</string>
-	<string key="ui_leaving_settlement_recall_time_desc">Il ritorno alla locanda è disponibile solo ogni 30 minuti.</string>
+	<string key="ui_leaving_settlement_recall_time_desc">Il ritorno alla locanda è disponibile solo ogni {numMinutes} minuti.</string>
 	<string key="ui_leaving_settlement_no_inn_desc">Stai partendo senza registrarti alla locanda.</string>
 	<string key="ui_leaving_settlement_no_inn">Non registrato</string>
 	<string key="ui_leaving_settlement_inn_elsewhere">Stai partendo senza registrarti alla locanda, la locanda attuale si trova a {territoryName} {distance}</string>
@@ -179,11 +179,13 @@
 	<string key="ui_encounter_statusstandby">Il tuo stato: &lt;font color='#fab445'&gt;In attesa&lt;/font&gt;</string>
 	<string key="ui_encounter_statusselected">Il tuo stato: &lt;font color='#30e5ab'&gt;Selezionato&lt;/font&gt;</string>
 	<string key="ui_encounter_managebutton">Gestisci esercito</string>
-	<string key="ui_encounter_signupbutton_war">Iscriviti a un tabellone di guerra</string>
+	<string key="ui_encounter_signupbutton_war">Iscriviti a una guerra</string>
 	<string key="ui_encounter_signupDesc_war">Per partecipare a questa guerra, iscriviti a\n&lt;font color='#f1ede2'&gt;un tabellone di guerra&lt;/font&gt; in questa città.</string>
 	<string key="ui_encounter_signupDesc_invasion">Per partecipare a questa invasione, iscriviti a\n&lt;font color='#f1ede2'&gt;un tabellone di guerra&lt;/font&gt; in questa città.</string>
 	<string key="ui_encounter_signupDesc_invasion_minlevel">&lt;font color="#ff6363"&gt;Livello minimo: {level}&lt;/font&gt;</string>
-	<string key="ui_encounter_signupbutton_invasion">Iscriviti a un tabellone di guerra</string>
+	<string key="ui_encounter_signup_invasion_minlevel_tooltip">Per iscriverti all'invasione devi raggiungere almeno il livello {level}.</string>
+	<string key="ui_encounter_signup_invasion_too_early_tooltip">Le iscrizioni per questa invasione non sono ancora aperte.</string>
+	<string key="ui_encounter_signupbutton_invasion">Iscriviti a un'invasione</string>
 	<string key="ui_encounter_viewstatusbutton_war">Visualizza esercito</string>
 	<string key="ui_encounter_viewstatusbutton_invasion">Visualizza esercito</string>
 	<string key="ui_warselected_title">Selezionato per la guerra</string>
@@ -226,9 +228,11 @@
 	<string key="ui_fortressinfo_resolvinginvasion">Invasione in risoluzione</string>
 	<string key="ui_fortressinfo_invasiondescription">Questo territorio è sotto attacco da parte dei Corrotti. Non è possibile dichiarare guerra fino al termine dell'invasione.</string>
 	<string key="ui_fortressinfo_button_declarewar">Dichiara guerra!</string>
-	<string key="ui_fortressinfo_button_warsignup">Iscriviti a un tabellone</string>
+	<string key="ui_fortressinfo_button_manage">Gestisci esercito</string>
+	<string key="ui_fortressinfo_button_signup_at_board">Iscriviti a un tabellone di guerra</string>
+	<string key="ui_fortressinfo_button_warsignup">Iscriviti a una guerra</string>
 	<string key="ui_fortressinfo_button_warstatus">Stato dell'iscrizione</string>
-	<string key="ui_fortressinfo_button_invasionsignup">Iscriviti a un tabellone</string>
+	<string key="ui_fortressinfo_button_invasionsignup">Iscriviti a un'invasione</string>
 	<string key="ui_fortressinfo_attackerlabel">(in attacco)</string>
 	<string key="ui_fortressinfo_defenderlabel">(in difesa)</string>
 	<string key="ui_fortressinfo_invasionattackername">I Corrotti</string>
@@ -454,13 +458,13 @@
 	<string key="ui_upgrade_desc_FortHardPointsProjectId2">Sblocca un punto aggiuntivo per l'installazione di armi (ad es.: Torretta balistica, tino di olio bollente ecc.)</string>
 	<string key="ui_upgrade_desc_BallistaProjectId">Migliora la torretta balistica al livello 2. Una volta migliorata, vengono migliorate anche tutte le torrette balistiche esistenti (schierate o meno).</string>
 	<string key="ui_upgrade_desc_BallistaProjectId2">Migliora la torretta balistica al livello 3. Una volta migliorata, vengono migliorate anche tutte le torrette balistiche esistenti (schierate o meno).</string>
-	<string key="ui_upgrade_desc_FireBarrelProjectId">Migliora il tino di olio bollente al livello 2. Una volta migliorato, vengono migliorati anche tutti i tini di olio bollente esistenti (schierati o meno).</string>
-	<string key="ui_upgrade_desc_FireBarrelProjectId2">Migliora il tino di olio bollente al livello 3. Una volta migliorato, vengono migliorati anche tutti i tini di olio bollente esistenti (schierati o meno).</string>
-	<string key="ui_upgrade_desc_RepeaterProjectId">Migliora le torrette a ripetizione al livello 2. Una volta migliorate, vengono migliorate anche tutte le torrette a ripetizione esistenti (schierate o meno).</string>
-	<string key="ui_upgrade_desc_RepeaterProjectId2">Migliora le torrette a ripetizione al livello 3. Una volta migliorate, vengono migliorate anche tutte le torrette a ripetizione esistenti (schierate o meno).</string>
-	<string key="ui_upgrade_desc_HornProjectId">Migliora i corni da guerra al livello 2. Una volta migliorati, vengono migliorati anche tutti i corni da guerra esistenti (schierati o meno).</string>
-	<string key="ui_upgrade_desc_HornProjectId2">Migliora i corni da guerra al livello 3. Una volta migliorati, vengono migliorati anche tutti i corni da guerra esistenti (schierati o meno).</string>
-	<string key="ui_upgrade_desc_ExplosiveProjectId">Migliora le torrette esplosive al livello 2. Una volta migliorate, vengono migliorate anche tutte le torrette esplosive esistenti (schierate o meno).</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId">Migliora il tino di olio bollente al livello 2 Una volta migliorato, vengono migliorati anche tutti i tini di olio bollente esistenti (schierati o meno).</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId2">Migliora il tino di olio bollente al livello 3 Una volta migliorato, vengono migliorati anche tutti i tini di olio bollente esistenti (schierati o meno).</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId">Migliora le torrette a ripetizione al livello 2 Una volta migliorate, vengono migliorate anche tutte le torrette a ripetizione esistenti (schierate o meno).</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId2">Migliora le torrette a ripetizione al livello 3 Una volta migliorate, vengono migliorate anche tutte le torrette a ripetizione esistenti (schierate o meno).</string>
+	<string key="ui_upgrade_desc_HornProjectId">Migliora i corni da guerra al livello 2 Una volta migliorati, vengono migliorati anche tutti i corni da guerra esistenti (schierati o meno).</string>
+	<string key="ui_upgrade_desc_HornProjectId2">Migliora i corni da guerra al livello 3 Una volta migliorati, vengono migliorati anche tutti i corni da guerra esistenti (schierati o meno).</string>
+	<string key="ui_upgrade_desc_ExplosiveProjectId">Migliora le torrette esplosive al livello 2 Una volta migliorate, vengono migliorate anche tutte le torrette esplosive esistenti (schierate o meno).</string>
 	<string key="ui_upgrade_desc_ExplosiveProjectId2">Migliora le torrette esplosive al livello 3. Una volta migliorate, vengono migliorate anche tutte le torrette esplosive esistenti (schierate o meno).</string>
 	<string key="ui_territory_level">Livello del territorio: {level}</string>
 	<string key="ui_enter_house">Entra nel menu della casa</string>

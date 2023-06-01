@@ -95,7 +95,7 @@
 	<string key="ui_outpost_rush_signup_playercount">{playerCount} jugadores</string>
 	<string key="ui_outpost_rush_signup_failsolo">Estás en un grupo ahora mismo, por lo que no puedes unirte en solitario</string>
 	<string key="ui_outpost_rush_signup_failgroup">No estás en ningún grupo ahora mismo</string>
-	<string key="ui_outpost_rush_signup_failgroupinvite">Tienes una invitación de grupo pendiente ahora mismo</string>
+	<string key="ui_outpost_rush_signup_failgroupinvite">Ahora mismo tienes una invitación a la sala de espera de la expedición</string>
 	<string key="ui_outpost_rush_signup_faillevel">Es &lt;font color="#f10000"&gt;necesario&lt;/font&gt; haber alcanzado el nivel {levelRequirement}</string>
 	<string key="ui_outpost_rush_signup_failwar">No puedes registrarte porque ya lo has hecho en una guerra que empieza en una hora.</string>
 	<string key="ui_outpost_rush_signup_failqueue">No puedes registrarte porque lo has hecho en {matchname}</string>
@@ -139,7 +139,7 @@
 	<string key="ui_outpost_rush_match_started_desc">Captura puestos de avanzada y mata enemigos para conseguir puntos. ¡El primer equipo en conseguir {value} puntos gana!</string>
 	<string key="ui_outpost_rush_score_to_win">{value} para ganar</string>
 	<string key="ui_outpost_rush_leave">Salir de Avance a un puesto de avanzada</string>
-	<string key="ui_outpost_rush_leave_queue_title">¿Dejar cola de Avance a puesto de avanzada?</string>
+	<string key="ui_outpost_rush_leave_queue_title">¿Dejar cola para puesto de avanzada?</string>
 	<string key="ui_outpost_rush_leave_queue_desc">¿Confirmas que quieres abandonar la cola para Avance a un puesto de avanzada?</string>
 	<string key="ui_outpost_rush_leave_title">¿Abandonar la espera?</string>
 	<string key="ui_outpost_rush_leave_desc">¿Confirmas que quieres salir de Avance a un puesto de avanzada?</string>
@@ -162,7 +162,7 @@
 	<string key="ui_outpost_rush_tutorial_desc4">La baronesa Hain es un fantasma de una noble que murió antaño que deambula por la isla. ¡Acaba con ella para conseguir un potenciador que aumenta la defensa de tu equipo y detiene la puntuación del enemigo!</string>
 	<string key="ui_outpost_rush_tutorial_level_requirement">Para participar en el Avance a puesto de avanzada, es necesario haber alcanzado el &lt;font color="#ffe294"&gt;nivel {level}&lt;/font&gt;.</string>
 	<string key="ui_outpost_rush_locked">Bloqueado</string>
-	<string key="ui_outpost_rush_select_summoning_stone">Selecciona una piedra de invocación</string>
+	<string key="ui_outpost_rush_select_summoning_stone">Escoge una piedra de invocación</string>
 	<string key="ui_outpost_rush_barrier">Barrera del fuerte</string>
 	<string key="ui_or_total_score">PUNTUACIÓN TOTAL</string>
 	<string key="ui_or_points_from">PUNTOS DE</string>
@@ -223,13 +223,9 @@
 	<string key="ui_durability_loss_war">Estás en una guerra (o invasión), tu equipo no se dañó con la muerte.</string>
 	<string key="ui_item_durability_loss">Todo el equipo de tu inventario se dañó con la muerte.</string>
 	<string key="ui_item_durability_loss_pvp">Te mató otro jugador, tu equipo recibió daño reducido.</string>
-	<string key="ui_pvp_arena_leave">Salir de la arena de PvP</string>
-	<string key="ui_cannot_travel_pvp_arena">No puedes viajar rápido mientras estás en la arena de PvP</string>
-	<string key="ui_pvp_arena_leave_desc">¿Confirmas que quieres salir de la arena de PvP?</string>
-	<string key="ui_pvp_arena_leave_desc_time">¿Confirmas que quieres salir de la arena de PvP?\nNo podrás volver a hacer cola para entrar durante &lt;font color="#ff2e2e"&gt;[{time}]&lt;/font&gt;.</string>
-	<string key="ui_pvp_arena_leave_title">¿Salir de la arena de PvP?</string>
 	<string key="ui_in_spectators_box">En la tribuna de espectadores</string>
-	<string key="ui_in_spectators_box_description">Armas y habilidades deshabilitadas</string>
+	<string key="ui_in_spectators_box_description">Habilidades desactivadas</string>
+	<string key="ui_in_spectators_moving_to">Moviendo a la tribuna de espectadores en {seconds} s</string>
 	<string key="ui_round_number">Ronda {number}</string>
 	<string key="ui_match_point">Punto para partido</string>
 	<string key="ui_final_round">Ronda final</string>

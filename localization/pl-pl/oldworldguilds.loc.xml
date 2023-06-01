@@ -57,13 +57,13 @@
 	<string key="owg_factionwarinfo_header_4" comment="PVP=Player vs Player">Oznaczenie do PvP</string>
 	<string key="owg_factionwarinfo_header_5">Dołączenie do frakcji</string>
 	<string key="owg_factionwarinfo_title_1">Po co dołączyć do frakcji?</string>
-	<string key="owg_factionwarinfo_title_1_desc_1">Specjalne misje frakcyjne</string>
+	<string key="owg_factionwarinfo_title_1_desc_1">Misje frakcyjne</string>
 	<string key="owg_factionwarinfo_title_1_desc_1_bullet_1">Wykonuj misje, by zdobywać &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;PD&lt;/font&gt;, &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;monety&lt;/font&gt; i &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;żetony frakcji&lt;/font&gt;</string>
 	<string key="owg_factionwarinfo_title_1_desc_1_bullet_2">Zdobywaj wpływy, by przejąć kontrolę nad terytorium</string>
-	<string key="owg_factionwarinfo_title_1_desc_1_bullet_3">Rywalizuj z wrogimi frakcjami podczas misji PvP</string>
+	<string key="owg_factionwarinfo_title_1_desc_1_bullet_3">Rywalizuj z wrogimi frakcjami podczas misji PvP, by przejąć kontrolę nad terytorium</string>
 	<string key="owg_factionwarinfo_title_1_desc_2">Zdobądź dostęp do elitarnego wyposażenia frakcyjnego</string>
 	<string key="owg_factionwarinfo_title_1_desc_2_bullet_1">Wydawaj żetony frakcji na specjalną broń, pancerz i przedmioty użytkowe</string>
-	<string key="owg_factionwarinfo_title_1_desc_2_bullet_2">Awansuj na wyższe stopnie, by odblokować zaawansowane klasy i komponenty do wytwarzania</string>
+	<string key="owg_factionwarinfo_title_1_desc_2_bullet_2">Awansuj na wyższe stopnie, by odblokować zaawansowany sprzęt i komponenty do wytwarzania</string>
 	<string key="owg_factionwarinfo_title_1_desc_3">Ciesz się premiami płynącymi z kontroli nad terytorium</string>
 	<string key="owg_factionwarinfo_title_1_desc_3_bullet_1">Mniejszy koszt używania warsztatów i szybkiej podróży</string>
 	<string key="owg_factionwarinfo_title_1_desc_3_bullet_2">Wykonuj misje miasteczka, by ulepszać osadę</string>
@@ -78,24 +78,34 @@
 	<string key="owg_factionwarinfo_title_2_desc_2_bullet_3">Frakcje &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;osłabiają&lt;/font&gt; kontrolę wrogiej frakcji, wykonując frakcyjne misje PvP</string>
 	<string key="owg_factionwarinfo_title_2_desc_2_bullet_4">Gdy twoja frakcja zdobędzie dość wpływów, może stanąć do walki o kontrolę nad terytorium poprzez wypowiedzenie wojny</string>
 	<string key="owg_factionwarinfo_title_2_desc_3">Wojna frakcji</string>
-	<string key="owg_factionwarinfo_title_2_desc_3_bullet_1">Oblężenie fortecy terytorium. &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{maxRosterMembers} na {maxRosterMembers} graczy&lt;/font&gt;</string>
-	<string key="owg_factionwarinfo_title_2_desc_3_bullet_2">Używaj różnorodnych &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;broni oblężniczych&lt;/font&gt;, by zyskać przewagę nad wrogiem</string>
-	<string key="owg_factionwarinfo_title_2_desc_3_bullet_3">Zadaniem atakujących jest przejęcie punktu kontrolnego w &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;sercu fortecy&lt;/font&gt;</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_1">Oblężenie fortu terytorium: &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{maxRosterMembers} kontra {maxRosterMembers} graczy&lt;/font&gt;</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_2">Zwycięzca decyduje, kto kontroluje terytorium.</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_3">Zadaniem atakujących jest &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;przejęcie punktu kontrolnego w sercu fortecy&lt;/font&gt;</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_4">Zadaniem obrońców jest &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;odpieranie atakujących przez 30 minut&lt;/font&gt;</string>
 	<string key="owg_factionwarinfo_title_3">Kontrola nad terytorium</string>
 	<string key="owg_factionwarinfo_title_3_desc_1">Wpływy na terytorium</string>
-	<string key="owg_factionwarinfo_title_3_desc_1_bullet_1">Wpływy na terytorium określają skalę kontroli danej frakcji nad terytorium</string>
-	<string key="owg_factionwarinfo_title_3_desc_1_bullet_2">Wykonuj &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;frakcyjne misje PvP&lt;/font&gt;, by zachować kontrolę nad terytorium</string>
-	<string key="owg_factionwarinfo_title_3_desc_1_bullet_3">Frakcje niekontrolujące danego terytorium muszą wykonywać frakcyjne misje PvP, by móc wypowiedzieć wojnę</string>
+	<string key="owg_factionwarinfo_title_3_desc_1_bullet_1">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Wpływy na terytorium&lt;/font&gt; określają skalę kontroli danej frakcji nad terytorium</string>
+	<string key="owg_factionwarinfo_title_3_desc_1_bullet_2">Frakcje mogą zdobywać &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;wpływy na terytorium&lt;/font&gt;, wykonując &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;misje frakcyjne PvP&lt;/font&gt; i sprawując kontrolę nad &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;fortem terytorium&lt;/font&gt;</string>
+	<string key="owg_factionwarinfo_title_3_desc_1_bullet_3">Zaatakowanie frakcji posiadającej &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;100% wpływów na terytorium&lt;/font&gt; będzie oznaczało &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;wypowiedzenie wojny&lt;/font&gt; broniącej się frakcji</string>
 	<string key="owg_factionwarinfo_title_3_desc_2">Wzmacniaj lub osłabiaj terytorium frakcji</string>
 	<string key="owg_factionwarinfo_title_3_desc_2_bullet_1">Frakcje kontrolujące &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;wzmacniają&lt;/font&gt; kontrolę przez wykonywanie misji frakcyjnych PvP</string>
 	<string key="owg_factionwarinfo_title_3_desc_2_bullet_2">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Osłabiaj&lt;/font&gt; terytoria należące do wrogiej frakcji, wykonując frakcyjne misje PvP w ich obrębie</string>
 	<string key="owg_factionwarinfo_title_3_desc_2_bullet_3">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Nie pozwól innym frakcjom&lt;/font&gt; na wykonywanie frakcyjnych misji PvP, oznaczając się do PvP i patrolując terytorium</string>
 	<string key="owg_factionwarinfo_title_3_desc_2_bullet_4">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Nie pozwól frakcji kontrolującej&lt;/font&gt; dane terytorium na wykonywanie misji frakcyjnych PvP, oznaczając się do PvP i patrolując te terytoria</string>
 	<string key="owg_factionwarinfo_title_4">Oznacz się do PvP</string>
-	<string key="owg_factionwarinfo_title_4_desc_1_bullet_1">Oznacz się jako PvP w dowolnej osadzie lub posterunku (domyślny klawisz: U). Oznaczenie się do PvP zapewnia &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;dodatkowe PD&lt;/font&gt; i &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;zwiększa globalną premię do szczęścia&lt;/font&gt;</string>
+	<string key="owg_factionwarinfo_title_4_desc_1_bullet_1">Oznacz się do PvP (domyślnie: U) w dowolnym azylu, takim jak osada czy posterunek.</string>
 	<string key="owg_factionwarinfo_title_4_desc_1_bullet_2">Po opuszczeniu osady otrzymasz &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;30 sekund&lt;/font&gt; przed oznaczeniem jako PvP. Gdy czas upłynie, można atakować członków wrogiej frakcji oznaczonych do PvP</string>
-	<string key="owg_factionwarinfo_title_4_desc_1_bullet_3">Weź udział w &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;wojnie o wpływy&lt;/font&gt; i wykonuj frakcyjne misje PvP, by pomóc swojej frakcji przejąć kontrolę nad danym terytorium. Uważaj na oznaczonych wrogich graczy. Likwiduj ich, by uniemożliwić im zdobycie wpływów dla ich frakcji</string>
+	<string key="owg_factionwarinfo_title_4_desc_1_bullet_3">Oznaczenie się do PvP zapewnia &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;premię do PD&lt;/font&gt; i pozwala brać udział w misjach PvP, sprawować kontrolę nad fortami terytoriów i walczyć z innymi graczami.</string>
+	<string key="owg_factionwarinfo_title_4_desc_1_bullet_4" rel_version="PvP_Rewards_Track">Wykonywanie aktywności PvP posuwa cię naprzód na ścieżce nagród PvP.</string>
+	<string key="owg_factionwarinfo_title_4_desc_1_bullet_5" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Zdobędziesz azothową sól&lt;/font&gt;, gdy do zabójstwa PvP dojdzie poza trybami gry.</string>
+	<string key="owg_factionwarinfo_title_5" rel_version="PvP_Rewards_Track">ŚCIEŻKA NAGRÓD PVP</string>
+	<string key="owg_factionwarinfo_title_5_desc_1_bullet_1" rel_version="PvP_Rewards_Track">Ścieżka nagród PvP zawiera nagrody związane z trybem PvP, które można zdobyć za wykonywanie aktywności PvP. Po ukończeniu ścieżki można ją ponownie rozpocząć, by zdobyć inne nagrody. Im więcej ukończonych ścieżek, tym bardziej prestiżowe nagrody do zdobycia.</string>
+	<string key="owg_factionwarinfo_title_5_desc_2" rel_version="PvP_Rewards_Track">PD PVP</string>
+	<string key="owg_factionwarinfo_title_5_desc_2_bullet_1" rel_version="PvP_Rewards_Track">Rób postępy na swojej ścieżce, wykonując misje PvP, biorąc udział w wojnach, napadach na posterunek, starciach na arenach 3 na 3 czy przejmowaniu fortów, a także pokonując innych graczy i zdobywając PD z aktywnym oznaczeniem do PvP.</string>
+	<string key="owg_factionwarinfo_title_5_desc_3" rel_version="PvP_Rewards_Track">AZOTHOWA SÓL</string>
+	<string key="owg_factionwarinfo_title_5_desc_3_bullet_1" rel_version="PvP_Rewards_Track">Azothowa sól jest walutą służącą do zdobywania nagród na ścieżce PvP. Możesz ją pozyskać, biorąc udział w wojnach, napadach na posterunek, starciach na arenach 3 na 3, wykonując misje PvP i zabijając graczy w otwartym świecie, a także zdobywając PD z aktywnym oznaczeniem do PvP.</string>
+	<string key="owg_factionwarinfo_title_5_desc_4" rel_version="PvP_Rewards_Track">NAGRODY</string>
+	<string key="owg_factionwarinfo_title_5_desc_4_bullet_1" rel_version="PvP_Rewards_Track">Wybieraj spośród wyjątkowych nagród, takich jak prestiżowa broń i pancerz, gesty, waluty czy przedmioty użytkowe.</string>
 	<string key="owg_failure_warning">Jeśli ta misja zakończy się porażką lub zostanie porzucona, stracisz żetony frakcji: {guildName} w liczbie: {amount}.</string>
 	<string key="owg_guildreputation_name">{guildName} – reputacja</string>
 	<string key="owg_guildcurrency_name">{guildName} żetony</string>
@@ -157,12 +167,18 @@
 	<string key="owg_rewardtype_azoth">&lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; azothu</string>
 	<string key="owg_rewardtype_guildreputation">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Reputacja:&lt;/font&gt;&lt;font color="#ffffff" &gt; {amount} &lt;/font&gt;</string>
 	<string key="owg_rewardtype_guildcurrency">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Żetony:&lt;/font&gt;&lt;font color="#ffffff" &gt; {amount} &lt;/font&gt;</string>
+	<string key="owg_rewardtype_pvp_xp" rel_version="PvP_Rewards_Track">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;PD PvP&lt;/font&gt;</string>
+	<string key="owg_rewardtype_azoth_salt" rel_version="PvP_Rewards_Track">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;azothowej soli&lt;/font&gt;</string>
 	<string key="owg_rewardtype_item">Przedmiot</string>
 	<string key="owg_rewardtype_standing">&lt;img src="lyshineui/images/icons/objectives/reward_territorystanding" xPadding="0" scale="2" yOffset="5"&gt;&lt;/img&gt; {amount}</string>
 	<string key="owg_rewardtype_warinfluence_low">+</string>
 	<string key="owg_rewardtype_warinfluence_med">++</string>
 	<string key="owg_rewardtype_warinfluence_high">+++</string>
 	<string key="owg_rewardtype_warinfluence_label">Wpływy</string>
+	<string key="owg_activebonus_type_dailybonus">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;Dzienna premia&lt;/font&gt;</string>
+	<string key="owg_activebonus_type_fortcontrolbonus">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;{territory} – premia za kontrolę nad fortem&lt;/font&gt;</string>
+	<string key="owg_activebonus_type_territorybonus">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;{territory} – premie terytorium&lt;/font&gt;</string>
+	<string key="owg_activebonus_type_restedxpbonus">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;Premia do PD za wypoczęcie&lt;/font&gt;</string>
 	<string key="owg_single_item_purchased">Kupiono: &lt;font color="#f7bc41"&gt;{itemName}&lt;/font&gt;.</string>
 	<string key="owg_influence_login_notification_title">Konflikt frakcyjny</string>
 	<string key="owg_influence_login_notification_desc">Twoja frakcja jest w stanie konfliktu o następującą liczbę terytoriów: {count}. Naciśnij M, by otworzyć mapę.</string>
@@ -220,7 +236,7 @@
 	<string key="owg_pvp_acceptmission_prompt">Przyjęcie &lt;font color="#eaeaea"&gt;misji PvP&lt;/font&gt; sprawi, że otrzymasz &lt;font color="#eaeaea"&gt;oznaczenie PvP&lt;/font&gt;.\nNie możesz wyłączyć oznaczenia PvP podczas trwania tej misji. Aby je wyłączyć, musisz porzucić misję.\n\nCzy na pewno chcesz przyjąć misję?</string>
 	<string key="owg_pvp_cannotacceptmission_title">NIE MOŻNA PRZYJĄĆ MISJI</string>
 	<string key="owg_pvp_cannotacceptmission_ingroup">Nie możesz przyjąć &lt;font color="#eaeaea"&gt;misji PvP&lt;/font&gt;, gdy należysz do grupy PvE, ponieważ wówczas nie możesz oznaczyć się do trybu PvP.</string>
-	<string key="owg_pvp_cannotacceptmission_pendinggroupinvite">Nie możesz przyjąć &lt;font color="#eaeaea"&gt;misji PvP&lt;/font&gt;, gdy masz oczekujące zaproszenia do grupy, ponieważ wówczas nie możesz oznaczyć się do trybu PvP.</string>
+	<string key="owg_pvp_cannotacceptmission_pendinggroupinvite">Nie możesz przyjąć &lt;font color="#eaeaea"&gt;misji PvP&lt;/font&gt;, gdy masz zaproszenia do lobby, które uniemożliwiają oznaczenie się do PvP.</string>
 	<string key="owg_pvp_cannotacceptmission_nofaction">Nie możesz przyjąć &lt;font color="#eaeaea"&gt;misji PvP&lt;/font&gt;, dopóki nie dołączysz do którejś z frakcji.</string>
 	<string key="owg_pvp_cannotacceptmission_nosanctuary">Nie możesz przyjąć &lt;font color="#eaeaea"&gt;misji PvP&lt;/font&gt; poza azylem.</string>
 	<string key="owg_pvp_cannotacceptmission_typeblocked">Nie możesz teraz przyjąć &lt;font color="#eaeaea"&gt;misji PvP&lt;/font&gt; tego rodzaju.</string>
@@ -486,11 +502,11 @@
 	<string key="FactionMission_C_WEAPON_ICEGAUNTLET_desc">By kroczyć ścieżką pokoju, należy poznać naturę walki.\n\n&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – zgładź ten cel, by zrozumieć, czym jest &lt;font color="#eaeaea"&gt;lodowa rękawica&lt;/font&gt;.</string>
 	<string key="FactionMission_ASSASSINATE_ELITE_NIGHT_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – maruderzy chcą pozbyć się tego celu.\n\nDowiedź swej odwagi – wytrop cel w: {POITags} i się go pozbądź.\n&lt;font color="#eaeaea"&gt;(elitarny – wróg grasuje nocą)&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_NIGHT_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – syndykat zidentyfikował cel, którego należy się pozbyć.\n\nWytrop cel w: {POITags} i się go pozbądź.\n&lt;font color="#eaeaea"&gt;(elitarny – wróg grasuje nocą)&lt;/font&gt;</string>
-	<string key="FactionMission_C_ASSASSINATE_ELITE_NIGHT_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – przymierze zidentyfikowało groźny cel, którego należy się pozbyć.\n\nDowiedź swego oddania – wytrop cel w: {POITags} i się go pozbądź.\n&lt;font color="#eaeaea"&gt;(elitarny – wróg grasuje nocą)&lt;/font&gt;</string>
+	<string key="FactionMission_C_ASSASSINATE_ELITE_NIGHT_desc" rel_version="Quest_FM_BreachMissions">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; – przymierze zidentyfikowało groźny cel, którego należy się pozbyć.\n\nDowiedź swego oddania – wytrop cel w: {POITags} i się go pozbądź.\n&lt;font color="#eaeaea"&gt;(elitarny – wróg grasuje nocą)&lt;/font&gt;</string>
 	<string key="FactionMission_BREACH_title" rel_version="Quest_FM_BreachMissions">Wyłom skażenia</string>
 	<string key="FactionMission_BREACH_desc" rel_version="Quest_FM_BreachMissions">Maruderzy nie tolerują &lt;font color="#eaeaea"&gt;skażenia&lt;/font&gt; panoszącego się na ich terytorium.\n\nJeśli zobaczysz jakiś wyłom skażenia, zamknij go.</string>
 	<string key="FactionMission_S_BREACH_desc" rel_version="Quest_FM_BreachMissions">Dysponujemy teraz możliwością opóźnienia postępów &lt;font color="#eaeaea"&gt;skażenia&lt;/font&gt;.\n\nZamknij każdy &lt;font color="#eaeaea"&gt;wyłom skażenia&lt;/font&gt;, który napotkasz.</string>
 	<string key="FactionMission_C_BREACH_desc" rel_version="Quest_FM_BreachMissions">&lt;font color="#eaeaea"&gt;Wyłomy skażenia&lt;/font&gt; grożą zgaszeniem Iskry.\n\nWyrusz i zniszcz wszystkie wyłomy, które znajdziesz.</string>
-	<string key="CMissionAcquireLeather_Name_WC" rel_version="Event_WinterConvergence_Temp">Potrzebni świąteczni garbarze</string>
+	<string key="CMissionAcquireLeather_Name_WC">Potrzebni świąteczni garbarze</string>
 </resources>
 

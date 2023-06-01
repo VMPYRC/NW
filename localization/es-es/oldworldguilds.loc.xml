@@ -57,13 +57,13 @@
 	<string key="owg_factionwarinfo_header_4" comment="PVP=Player vs Player">Activar JcJ</string>
 	<string key="owg_factionwarinfo_header_5">Únete a una facción</string>
 	<string key="owg_factionwarinfo_title_1">¿Por qué unirse a una facción?</string>
-	<string key="owg_factionwarinfo_title_1_desc_1">Participa en misiones de facción especiales.</string>
+	<string key="owg_factionwarinfo_title_1_desc_1">Participa en misiones de facción</string>
 	<string key="owg_factionwarinfo_title_1_desc_1_bullet_1">Completa misiones para conseguir &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;EXP&lt;/font&gt;, &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;monedas&lt;/font&gt; y &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;blasones de facción&lt;/font&gt;.</string>
 	<string key="owg_factionwarinfo_title_1_desc_1_bullet_2">Gana influencia para determinar el control del territorio.</string>
-	<string key="owg_factionwarinfo_title_1_desc_1_bullet_3">Compite estratégicamente contra facciones enemigas en misiones JcJ.</string>
+	<string key="owg_factionwarinfo_title_1_desc_1_bullet_3">Compite contra facciones enemigas en misiones JcJ para determinar el control del territorio</string>
 	<string key="owg_factionwarinfo_title_1_desc_2">Obtén equipo de facción de élite.</string>
 	<string key="owg_factionwarinfo_title_1_desc_2_bullet_1">Gasta blasones de facción para obtener armas, armaduras y consumibles especiales.</string>
-	<string key="owg_factionwarinfo_title_1_desc_2_bullet_2">Sube de rango para desbloquear clases y componentes de fabricación avanzados.</string>
+	<string key="owg_factionwarinfo_title_1_desc_2_bullet_2">Sube de rango para desbloquear equipo avanzado y componentes de fabricación</string>
 	<string key="owg_factionwarinfo_title_1_desc_3">Disfruta de los beneficios del control del territorio.</string>
 	<string key="owg_factionwarinfo_title_1_desc_3_bullet_1">Reducción del coste de los talleres de ingeniería y del viaje rápido.</string>
 	<string key="owg_factionwarinfo_title_1_desc_3_bullet_2">Completa misiones de pueblo para mejorar el asentamiento.</string>
@@ -79,23 +79,33 @@
 	<string key="owg_factionwarinfo_title_2_desc_2_bullet_4">Consigue suficiente influencia para disputar el control del territorio mediante una declaración de guerra.</string>
 	<string key="owg_factionwarinfo_title_2_desc_3">Guerra de facciones</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_1">Batalla de asedio de &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{maxRosterMembers} contra {maxRosterMembers}&lt;/font&gt; en el fuerte de un territorio.</string>
-	<string key="owg_factionwarinfo_title_2_desc_3_bullet_2">Utiliza diversas &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;armas de asedio&lt;/font&gt; para tener ventaja sobre tus oponentes.</string>
-	<string key="owg_factionwarinfo_title_2_desc_3_bullet_3">El objetivo del atacante es hacerse con el punto de captura que está en el &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;corazón del fuerte&lt;/font&gt;.</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_2">El ganador determina quién controla el territorio</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_3">El objetivo del atacante es &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;hacerse con el punto de captura que está en el corazón del fuerte&lt;/font&gt;.</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_4">El objetivo del defensor es &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;repeler a los atacantes durante 30 minutos&lt;/font&gt;.</string>
 	<string key="owg_factionwarinfo_title_3">Control del territorio</string>
 	<string key="owg_factionwarinfo_title_3_desc_1">Influencia en el territorio</string>
-	<string key="owg_factionwarinfo_title_3_desc_1_bullet_1">La influencia en el territorio mide el control de una facción sobre un territorio.</string>
-	<string key="owg_factionwarinfo_title_3_desc_1_bullet_2">Completa &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;misiones de facción JcJ&lt;/font&gt; para mantener el control sobre un territorio.</string>
-	<string key="owg_factionwarinfo_title_3_desc_1_bullet_3">Las facciones que no controlan un territorio deben completar misiones de facción JcJ para poder declarar la guerra.</string>
+	<string key="owg_factionwarinfo_title_3_desc_1_bullet_1">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;La influencia en el territorio&lt;/font&gt; mide el control de una facción sobre un territorio.</string>
+	<string key="owg_factionwarinfo_title_3_desc_1_bullet_2">Las facciones pueden ganar &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;influencia en el territorio&lt;/font&gt; completando &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;misiones de facción JcJ&lt;/font&gt; y controlando &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;el fuerte del territorio&lt;/font&gt;.</string>
+	<string key="owg_factionwarinfo_title_3_desc_1_bullet_3">Las facciones atacantes que alcanzan el &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;100 % de influencia en el territorio&lt;/font&gt; pueden &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;declarar la guerra&lt;/font&gt; a la facción defensora.</string>
 	<string key="owg_factionwarinfo_title_3_desc_2">Refuerza o debilita el territorio de una facción.</string>
 	<string key="owg_factionwarinfo_title_3_desc_2_bullet_1">La facción con el control puede &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;reforzar&lt;/font&gt; su dominio completando misiones de facción JcJ.</string>
 	<string key="owg_factionwarinfo_title_3_desc_2_bullet_2">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Debilita&lt;/font&gt; el control que una facción enemiga tiene sobre otros territorios completando misiones de facción JcJ en sus territorios.</string>
 	<string key="owg_factionwarinfo_title_3_desc_2_bullet_3">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Evita que otras facciones&lt;/font&gt; completen misiones de facción JcJ activándote para JcJ y patrullando el territorio.</string>
 	<string key="owg_factionwarinfo_title_3_desc_2_bullet_4">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Evita que la facción que controla otros territorios&lt;/font&gt; complete misiones de facción JcJ activándote para JcJ y patrullando esos territorios.</string>
 	<string key="owg_factionwarinfo_title_4">Activarte para JcJ</string>
-	<string key="owg_factionwarinfo_title_4_desc_1_bullet_1">Puedes activarte para JcJ en cualquier asentamiento o puesto remoto (tecla por defecto: U). Si te activas para JcJ, ganarás &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;EXP adicional&lt;/font&gt; y &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;suerte global aumentada&lt;/font&gt;.</string>
+	<string key="owg_factionwarinfo_title_4_desc_1_bullet_1">Activa tu marca JcJ (tecla U por defecto) desde un santuario, como un asentamiento o puesto remoto.</string>
 	<string key="owg_factionwarinfo_title_4_desc_1_bullet_2">Al salir de un asentamiento, pasarás a estar activo cuando pasen &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;30 segundos&lt;/font&gt;. Cuando se agote ese tiempo, podrás enfrentarte a otros miembros activos de facciones enemigas.</string>
-	<string key="owg_factionwarinfo_title_4_desc_1_bullet_3">Contribuye a aumentar la &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;influencia en la guerra&lt;/font&gt; para ayudar a tu facción a obtener el control sobre un territorio completando misiones de facción JcJ. No pierdas de vista a los jugadores enemigos que estén activos y acaba con ellos para evitar que consigan influencia para su facción.</string>
+	<string key="owg_factionwarinfo_title_4_desc_1_bullet_3">Activar tu marca JcJ te concede &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;EXP adicional&lt;/font&gt; y te permite participar en misiones JcJ, controlar fuertes del territorio y luchar contra otros jugadores.</string>
+	<string key="owg_factionwarinfo_title_4_desc_1_bullet_4" rel_version="PvP_Rewards_Track">Al completar actividades JcJ avanzarás en tu seguimiento de recompensas JcJ.</string>
+	<string key="owg_factionwarinfo_title_4_desc_1_bullet_5" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Se concederá sal de Azoth&lt;/font&gt; cuando mates a otros jugadores en JcJ fuera de estos modos.</string>
+	<string key="owg_factionwarinfo_title_5" rel_version="PvP_Rewards_Track">SEGUMIENTO DE RECOMPENSAS JCJ</string>
+	<string key="owg_factionwarinfo_title_5_desc_1_bullet_1" rel_version="PvP_Rewards_Track">El seguimiento de recompensas JcJ contiene recompensas específicas de JcJ por realizar actividades JCJ en el juego. El seguimiento se puede completar y rellenar de nuevo para conseguir una selección diferente de recompensas, con regalos más prestigiosos disponibles cuantas más completes.</string>
+	<string key="owg_factionwarinfo_title_5_desc_2" rel_version="PvP_Rewards_Track">EXP JCJ</string>
+	<string key="owg_factionwarinfo_title_5_desc_2_bullet_1" rel_version="PvP_Rewards_Track">Para avanzar en tu seguimiento, participa en misiones JcJ, guerras y asaltos a puestos remotos, captura fuertes, derrota a otros jugadores, lucha en arenas de 3 contra 3 y gana EXP con el JcJ activado.</string>
+	<string key="owg_factionwarinfo_title_5_desc_3" rel_version="PvP_Rewards_Track">SAL DE AZOTH</string>
+	<string key="owg_factionwarinfo_title_5_desc_3_bullet_1" rel_version="PvP_Rewards_Track">La sal de Azoth es la divisa con la que obtienes recompensas del seguimiento JcJ. Para ganar sal de Azoth, participa en guerras, asaltos a puestos remotos, arenas de 3 contra 3, misiones JcJ, mata a jugadores en el mundo abierto en JcJ y gana EXP con el JcJ activado.</string>
+	<string key="owg_factionwarinfo_title_5_desc_4" rel_version="PvP_Rewards_Track">RECOMPENSAS</string>
+	<string key="owg_factionwarinfo_title_5_desc_4_bullet_1" rel_version="PvP_Rewards_Track">Elige entre distintas recompensas únicas como armaduras y armas prestigiosas, gestos, monedas y consumibles.</string>
 	<string key="owg_failure_warning">Si fracasas en esta misión o la abandonas, perderás {amount} blasones de {guildName}.</string>
 	<string key="owg_guildreputation_name">Reputación de {guildName}</string>
 	<string key="owg_guildcurrency_name">Blasones de {guildName}</string>
@@ -157,12 +167,18 @@
 	<string key="owg_rewardtype_azoth">&lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; de Azoth</string>
 	<string key="owg_rewardtype_guildreputation">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;de reputación&lt;/font&gt;</string>
 	<string key="owg_rewardtype_guildcurrency">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt;&lt;font color="#ffffff" &gt; {amount} &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;blasones&lt;/font&gt;</string>
+	<string key="owg_rewardtype_pvp_xp" rel_version="PvP_Rewards_Track">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;EXP JcJ&lt;/font&gt;</string>
+	<string key="owg_rewardtype_azoth_salt" rel_version="PvP_Rewards_Track">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Sal de Azoth&lt;/font&gt;</string>
 	<string key="owg_rewardtype_item">Objeto</string>
 	<string key="owg_rewardtype_standing">&lt;img src="lyshineui/images/icons/objectives/reward_territorystanding" xPadding="0" scale="2" yOffset="5"&gt;&lt;/img&gt; ({amount})</string>
 	<string key="owg_rewardtype_warinfluence_low">+</string>
 	<string key="owg_rewardtype_warinfluence_med">++</string>
 	<string key="owg_rewardtype_warinfluence_high">+++</string>
 	<string key="owg_rewardtype_warinfluence_label">Influencia</string>
+	<string key="owg_activebonus_type_dailybonus">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;Bonificaciones diarias&lt;/font&gt;</string>
+	<string key="owg_activebonus_type_fortcontrolbonus">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;Bonificación por control del fuerte de {territory}&lt;/font&gt;</string>
+	<string key="owg_activebonus_type_territorybonus">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;Bonificaciones del territorio {territory}&lt;/font&gt;</string>
+	<string key="owg_activebonus_type_restedxpbonus">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;Bonificación de EXP por descanso&lt;/font&gt;</string>
 	<string key="owg_single_item_purchased">¡Has comprado &lt;font color="#f7bc41"&gt;{itemName}&lt;/font&gt;!</string>
 	<string key="owg_influence_login_notification_title">Conflicto de facción</string>
 	<string key="owg_influence_login_notification_desc">¡Tu facción tiene {count} territorios en conflicto! Pulsa M para ver el mapa.</string>
@@ -220,7 +236,7 @@
 	<string key="owg_pvp_acceptmission_prompt">Aceptar una &lt;font color="#eaeaea"&gt;misión JcJ&lt;/font&gt; &lt;font color="#eaeaea"&gt;te activará para JcJ&lt;/font&gt;.\nNo puedes desactivarte de JcJ durante esa misión. Si quieres desactivar JcJ, primero tendrás que abandonar la misión.\n\n¿Seguro que quieres aceptar la misión?</string>
 	<string key="owg_pvp_cannotacceptmission_title">NO PUEDES ACEPTAR LA MISIÓN</string>
 	<string key="owg_pvp_cannotacceptmission_ingroup">No puedes aceptar una &lt;font color="#eaeaea"&gt;misión JcJ&lt;/font&gt; mientras estás en un grupo JcE que no te permite activarte para JcJ.</string>
-	<string key="owg_pvp_cannotacceptmission_pendinggroupinvite">No puedes aceptar una &lt;font color="#eaeaea"&gt;misión JcJ&lt;/font&gt; mientras tienes invitaciones de grupo pendientes que no te permiten activarte para JcJ.</string>
+	<string key="owg_pvp_cannotacceptmission_pendinggroupinvite">No puedes aceptar una &lt;font color="#eaeaea"&gt;misión JcJ&lt;/font&gt; mientras tienes invitaciones al vestíbulo que no te permiten activarte para JcJ.</string>
 	<string key="owg_pvp_cannotacceptmission_nofaction">No puedes aceptar una &lt;font color="#eaeaea"&gt;misión JcJ&lt;/font&gt; hasta que te unas a una facción.</string>
 	<string key="owg_pvp_cannotacceptmission_nosanctuary">No puedes aceptar una &lt;font color="#eaeaea"&gt;misión JcJ&lt;/font&gt; hasta que estés en un santuario.</string>
 	<string key="owg_pvp_cannotacceptmission_typeblocked">En este momento no puedes aceptar una &lt;font color="#eaeaea"&gt;misión JcJ&lt;/font&gt; de este tipo.</string>
@@ -486,11 +502,11 @@
 	<string key="FactionMission_C_WEAPON_ICEGAUNTLET_desc">Entiende la batalla para alcanzar la paz.\n\nFamiliarízate con la &lt;font color="#eaeaea"&gt;manopla de hielo&lt;/font&gt; congelando a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; con su toque gélido.</string>
 	<string key="FactionMission_ASSASSINATE_ELITE_NIGHT_desc">Los Saqueadores necesitan eliminar a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; del tablero.\n\nDemuestra tu valor siguiéndole la pista en {POITags} y dándole muerte.\n&lt;font color="#eaeaea"&gt;(Élite: el enemigo es nocturno).&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_NIGHT_desc">El Sindicato ha identificado a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; como objetivo para su eliminación.\n\nSíguele la pista en {POITags} y dale muerte.\n&lt;font color="#eaeaea"&gt;(Élite: el enemigo es nocturno).&lt;/font&gt;</string>
-	<string key="FactionMission_C_ASSASSINATE_ELITE_NIGHT_desc">La Alianza ha identificado a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; para su eliminación.\n\nDemuestra tu devoción siguiéndole la pista en {POITags} y dándole muerte.\n &lt;font color="#eaeaea"&gt;(Élite: el enemigo es nocturno).&lt;/font&gt;</string>
+	<string key="FactionMission_C_ASSASSINATE_ELITE_NIGHT_desc" rel_version="Quest_FM_BreachMissions">La Alianza ha identificado a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; para su eliminación.\n\nDemuestra tu devoción siguiéndole la pista en {POITags} y dándole muerte.\n &lt;font color="#eaeaea"&gt;(Élite: el enemigo es nocturno).&lt;/font&gt;</string>
 	<string key="FactionMission_BREACH_title" rel_version="Quest_FM_BreachMissions">Grieta de corrupción</string>
 	<string key="FactionMission_BREACH_desc" rel_version="Quest_FM_BreachMissions">Los Saqueadores no toleramos que la &lt;font color="#eaeaea"&gt;corrupción&lt;/font&gt; se abra camino en nuestro territorio.\n\nSi ves una de sus grietas, ciérrala.</string>
 	<string key="FactionMission_S_BREACH_desc" rel_version="Quest_FM_BreachMissions">Ahora tenemos el poder para impedir el avance de la &lt;font color="#eaeaea"&gt;corrupción&lt;/font&gt;.\n\nCierra todas las &lt;font color="#eaeaea"&gt;grietas de corrupción&lt;/font&gt; que encuentres.</string>
 	<string key="FactionMission_C_BREACH_desc" rel_version="Quest_FM_BreachMissions">Las &lt;font color="#eaeaea"&gt;grietas de corrupción&lt;/font&gt; amenazan con extinguir la Chispa.\n\nIntenta acabar con todas las brechas que encuentres.</string>
-	<string key="CMissionAcquireLeather_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan curtidores festivos</string>
+	<string key="CMissionAcquireLeather_Name_WC">Se necesitan curtidores festivos</string>
 </resources>
 

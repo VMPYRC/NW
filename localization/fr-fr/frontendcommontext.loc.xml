@@ -197,7 +197,7 @@
 	<string key="mm_rejected_Client_Kicked_BannedCSLockout">Votre compte est actuellement verrouillé. Veuillez contacter le service client pour de plus amples informations.</string>
 	<string key="mm_rejected_Client_Kicked_CSLockout">Votre compte est actuellement verrouillé. Veuillez contacter le service client pour de plus amples informations.</string>
 	<string key="mm_rejected_Client_Kicked_BannedCommerce">Problème de paiement</string>
-	<string key="mm_rejected_Client_Kicked_Embargoed_Country">Nous ne sommes pas en mesure de vous fournir un accès à partir de votre emplacement actuel.</string>
+	<string key="mm_rejected_Client_Kicked_Embargoed_Country">Nous ne pouvons pas vous fournir l'accès depuis votre emplacement actuel.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Vous êtes exclu(e) du jeu.</string>
 	<string key="mm_authresult_Authorized">Réussite</string>
 	<string key="mm_characterCreateDisabled">La création de personnages a été désactivée temporairement, car ce monde est plein. Réessayez dans un autre monde.</string>
@@ -299,25 +299,46 @@
 	<string key="ui_trade_skills">Métiers</string>
 	<string key="ui_how_it_works">Fonctionnement</string>
 	<string key="ui_pvp_track_skills_tab" rel_version="PvP_Rewards_Track">JcJ</string>
-	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Jalon {checkpoint} :&lt;/font&gt; {currentProgression}/{maxProgression}\n\nProgressez en accomplissant des missions JcJ, en menant des guerres, en vous battant en Déferlante, en capturant des forteresses, en combattant d'autres joueurs, en participant aux arènes JcJ et en gagnant de l'EXP en mode JcJ.</string>
+	<string key="ui_pvp_track" rel_version="PvP_Rewards_Track">Chaîne JcJ</string>
+	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Jalon {checkpoint} :&lt;/font&gt; {currentProgression}/{maxProgression}\n\nProgressez en accomplissant des missions JcJ, en menant des guerres, en vous battant en Déferlante, en capturant des forteresses, en combattant d'autres joueurs, en participant aux arènes 3 contre 3 et en gagnant de l'EXP en mode JcJ.</string>
 	<string key="ui_pvp_track_next_track_tooltip" rel_version="PvP_Rewards_Track">Vous devez terminer tous les jalons avant de pouvoir commencer une nouvelle chaîne. Si vous choisissez une récompense à chaque jalon, vous démarrerez automatiquement la chaîne suivante.\n\nChaque jalon pour lequel vous avez renoncé à choisir une récompense vous octroiera 300 sels d'Azoth au démarrage de la chaîne suivante.</string>
 	<string key="ui_pvp_track_unknown_item_tooltip" rel_version="PvP_Rewards_Track">Les choix de récompenses sont révélés en atteignant le jalon.</string>
+	<string key="ui_pvp_track_completions" comment="The number of times they have completed the track. Like a level" rel_version="PvP_Rewards_Track">Chaînes terminées</string>
+	<string key="ui_pvp_track_purchasehint" rel_version="PvP_Rewards_Track">Choisissez jusqu'à &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={itemColor}&gt;1 objet par jalon&lt;/font&gt; à acheter avec du &lt;font color={azothColor}&gt;sel d'Azoth&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_pvp_track_openemblems" rel_version="PvP_Rewards_Track">Armoiries et récompenses</string>
+	<string key="ui_pvp_track_checkpoint" rel_version="PvP_Rewards_Track">Jalon &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{index}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_pvpprogress" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={colorProgress}&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_warsmall_white" scale="1.5" yOffset="4"&gt;&lt;/img&gt; &lt;font color={colorCheckpoint} face="lyshineui/fonts/Nimbus_regular.font"&gt; jusqu'au jalon {index}&lt;/font&gt;</string>
+	<string key="ui_pvp_currency_amount" rel_version="PvP_Rewards_Track">{amount}&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_insufficient_azoth_salt" rel_version="PvP_Rewards_Track">Sel d'Azoth insuffisant</string>
 	<string key="ui_pvp_cant_unlock" rel_version="PvP_Rewards_Track">Impossible de déverrouiller plus de cet objet</string>
+	<string key="ui_pvp_track_nexttrack" rel_version="PvP_Rewards_Track">Terminer la chaîne</string>
 	<string key="ui_pvp_track_nexttrack_popup_title" rel_version="PvP_Rewards_Track">Commencer une nouvelle chaîne</string>
-	<string key="azoth_salt_currency_desc" rel_version="PvP_Rewards_Track">Le sel d'Azoth est la monnaie vous permettant d'acquérir des récompenses de la chaîne JcJ. Vous pouvez obtenir du sel d'Azoth en menant des guerres, en vous battant en Déferlante, en participant aux arènes JcJ, en accomplissant des missions JcJ, en tuant des joueurs dans le monde ouvert et en gagnant de l'EXP en mode JcJ.\n\nVous pouvez posséder 100 000 sels d'Azoth maximum.</string>
+	<string key="azoth_salt_currency_name" rel_version="PvP_Rewards_Track">Sel d'Azoth</string>
+	<string key="azoth_salt_currency_desc" rel_version="PvP_Rewards_Track">Le sel d'Azoth est la monnaie vous permettant d'acquérir des récompenses de la chaîne JcJ. Vous pouvez obtenir du sel d'Azoth en menant des guerres, en vous battant en Déferlante, en participant aux arènes 3 contre 3, en accomplissant des missions JcJ, en tuant des joueurs dans le monde ouvert et en gagnant de l'EXP en mode JcJ.\n\nVous pouvez posséder 100 000 sels d'Azoth maximum.</string>
 	<string key="azoth_salt_currency_lost" rel_version="PvP_Rewards_Track">Perte de sel d'Azoth</string>
-	<string key="azoth_salt_lost_tooltip" rel_version="PvP_Rewards_Track">Le sel d'Azoth est la monnaie vous permettant d'acquérir des récompenses de la chaîne JcJ. Vous pouvez obtenir du sel d'Azoth en menant des guerres, en vous battant en Déferlante, en participant aux arènes JcJ, en accomplissant des missions JcJ, en tuant des joueurs dans le monde ouvert et en gagnant de l'EXP en mode JcJ.\n\nVous ne gagnez pas de sel d'Azoth en tuant des joueurs ayant 10 niveaux de moins que vous, et la victime doit avoir activé le mode JcJ depuis plus de 10 minutes.</string>
+	<string key="azoth_salt_lost_tooltip" rel_version="PvP_Rewards_Track">Le sel d'Azoth est la monnaie vous permettant d'acquérir des récompenses de la chaîne JcJ. Vous pouvez obtenir du sel d'Azoth en menant des guerres, en vous battant en Déferlante, en participant aux arènes 3 contre 3, en accomplissant des missions JcJ, en tuant des joueurs dans le monde ouvert et en gagnant de l'EXP en mode JcJ.\n\nVous ne gagnez pas de sel d'Azoth en tuant des joueurs ayant 10 niveaux de moins que vous, et la victime doit avoir activé le mode JcJ depuis plus de 10 minutes.</string>
+	<string key="ui_pvp_track_tut_title1" rel_version="PvP_Rewards_Track">Chaîne de récompenses JcJ</string>
+	<string key="ui_pvp_track_tut_title2" rel_version="PvP_Rewards_Track">EXP JCJ</string>
+	<string key="ui_pvp_track_tut_title3" rel_version="PvP_Rewards_Track">Sel d'Azoth</string>
+	<string key="ui_pvp_track_tut_title4" rel_version="PvP_Rewards_Track">Récompenses</string>
+	<string key="ui_pvp_track_tut_desc1" rel_version="PvP_Rewards_Track">Une chaîne de récompenses JcJ contient des récompenses liées au JcJ obtenues en accomplissant des activités JcJ en jeu. Une chaîne peut être terminée et recommencée pour obtenir une sélection de récompenses différente. Plus vous terminez de chaînes, meilleures sont les récompenses proposées.</string>
+	<string key="ui_pvp_track_tut_desc2" rel_version="PvP_Rewards_Track">Progressez en accomplissant des missions JcJ, en menant des guerres, en vous battant en Déferlante, en capturant des forteresses, en combattant d'autres joueurs, en participant aux arènes 3 contre 3 et en gagnant de l'EXP en mode JcJ.</string>
+	<string key="ui_pvp_track_tut_desc3" rel_version="PvP_Rewards_Track">Le sel d'Azoth est la monnaie vous permettant d'acquérir des récompenses de la chaîne JcJ. Vous pouvez obtenir du sel d'Azoth en menant des guerres, en vous battant en Déferlante, en participant aux arènes 3 contre 3, en accomplissant des missions JcJ, en tuant des joueurs dans le monde ouvert et en gagnant de l'EXP en mode JcJ.</string>
+	<string key="ui_pvp_track_tut_desc4" rel_version="PvP_Rewards_Track">Choisissez entre des récompenses uniques telles que des armures et des armes de prestige, des émotes, de la monnaie et des consommables.</string>
+	<string key="ui_pvp_track_leveltext" rel_version="PvP_Rewards_Track">&lt;font color="#FFFFFF" &gt;{level}&lt;/font&gt; chaînes terminées</string>
 	<string key="ui_pvp_track_leveltext_header" rel_version="PvP_Rewards_Track">Chaînes terminées : &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#FFFFFF"&gt;{level}&lt;/font&gt;</string>
 	<string key="ui_pvp_track_current_balance" rel_version="PvP_Rewards_Track">Solde actuel : &lt;font color={colorBalance} face="lyshineui/fonts/CaslonAnt.font"&gt;{balance}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_addtopool" rel_version="PvP_Rewards_Track">+ Réserve de récompenses</string>
+	<string key="ui_pvp_track_rankup_confirmation" rel_version="PvP_Rewards_Track">Vous recevez un bonus pour chaque jalon dont la récompense n'a pas été récupérée et votre solde de sel d'Azoth est transféré à une nouvelle chaîne avec de nouvelles récompenses.</string>
 	<string key="ui_pvp_track_rankup_stagesummary" rel_version="PvP_Rewards_Track">\n&lt;font color={colorBonus}&gt;Bonus de jalon : &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_track_rankup_bonussalt" rel_version="PvP_Rewards_Track">&lt;font color={colorBonus}&gt;Bonus de chaîne terminée : &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_pvp_track_bannertext" rel_version="PvP_Rewards_Track">Chaîne JcJ terminée</string>
 	<string key="ui_pvp_track_bannerrewards_1" rel_version="PvP_Rewards_Track">Réserve de récompenses : \n+Émote</string>
 	<string key="ui_pvp_track_bannerrewards_2" rel_version="PvP_Rewards_Track">Réserve de récompenses : \n+Équipement nommé\n+Monnaie supplémentaire</string>
 	<string key="ui_pvp_track_bannerrewards_3" rel_version="PvP_Rewards_Track">Réserve de récompenses : \n+Équipement de prestige\n+Émote\n+Packs de fioles de sel</string>
 	<string key="ui_pvp_track_bannerrewards_4" rel_version="PvP_Rewards_Track">Réserve de récompenses : \n+Gypse\n+Monnaie supplémentaire\n+Éclats sombres supplémentaires</string>
 	<string key="ui_pvp_track_bannerrewards_5" rel_version="PvP_Rewards_Track">Réserve de récompenses : \n+Émote\n+Éclats sombres supplémentaires </string>
-	<string key="ui_pvp_track_bannerrewards_6" rel_version="PvP_Rewards_Track">Réserve de récompenses : \n+Émote \nMonnaie supplémentaire</string>
+	<string key="ui_pvp_track_bannerrewards_6" rel_version="PvP_Rewards_Track">Réserve de récompenses : \n+Émote \n+Monnaie supplémentaire \n+Objets lâchés supplémentaires</string>
 	<string key="ui_pvp_track_next_milestone" rel_version="PvP_Rewards_Track">Jalon de chaîne {milestone} à :</string>
 	<string key="ui_pvp_track_milestone" rel_version="PvP_Rewards_Track">Jalon de chaîne {milestone}</string>
 	<string key="ui_pvp_track_reward" rel_version="PvP_Rewards_Track">Récompense</string>

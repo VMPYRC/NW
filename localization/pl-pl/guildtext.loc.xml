@@ -137,6 +137,7 @@
 	<string key="ui_treasury_notification_withdrawalcappeddailylimit">Ze skarbca kompanii wypłacono &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} (wypłata zmniejszona z powodu dziennego limitu).</string>
 	<string key="ui_treasury_notification_setdailylimitsuccess">Dzienny limit wypłat wynosi &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage}.</string>
 	<string key="ui_treasury_notification_setdailylimitsuccessinfinite">Dzienny limit wypłat wynosi {infinityImage}.</string>
+	<string key="ui_treasury_notification_cointransferaldisabled">Musisz być przynajmniej na poziomie {minLevel}, by móc skorzystać ze skarbca gildii.</string>
 	<string key="ui_treasury_notification_error_generic">Operacja dotycząca skarbca nie powiodła się. Spróbuj ponownie.</string>
 	<string key="ui_setSiegeWindow">Ustaw okres oblężenia</string>
 	<string key="ui_forDefending">Obrona twoich terytoriów</string>
@@ -201,7 +202,8 @@
 	<string key="ui_leaveguild">Opuść kompanię</string>
 	<string key="ui_leaveguild_confirm">Czy na pewno chcesz opuścić kompanię?</string>
 	<string key="ui_leaveguild_governor_confirm">Czy na pewno chcesz opuścić kompanię?\n\nJeśli to zrobisz, inny członek kompanii zostanie mianowany zarządcą, a kompania zachowa wszystkie swoje aktywa, którymi będzie rozporządzał nowy zarządca.</string>
-	<string key="ui_leaveguild_alone_confirm">Czy na pewno chcesz opuścić kompanię?\n\nTylko ty należysz do tej kompanii. Jeśli ją opuścisz, przepadną wszystkie jej aktywa.</string>
+	<string key="ui_leaveguild_alone_confirm">Tylko ty należysz do tej kompanii. Jeśli ją opuścisz, przepadną wszystkie jej aktywa, a zawartość portfela kompanii zostanie dodana do twojego portfela.</string>
+	<string key="ui_leaveguild_alone_walletwarning">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Jeśli zabierzesz zawartość portfela kompanii, przekroczysz limit monet. Jeśli rozwiążesz kompanię, utracisz nadmiarowe monety.&lt;/font&gt;</string>
 	<string key="ui_leftguildmessage">Opuszczono kompanię.</string>
 	<string key="ui_modifycrest">Zmień herb</string>
 	<string key="ui_guildcrestsaved">Zapisano nowy herb</string>
@@ -254,7 +256,13 @@
 	<string key="ui_promote">Awansuj</string>
 	<string key="ui_promote_transfer_owner">Przekaż prawo własności</string>
 	<string key="ui_promotetoguildmaster_confirm_title">Przekazać kompanię?</string>
-	<string key="ui_promotetoguildmaster_confirm" comment="Pronoun for Transferring ownership to a player. Need to break into two string keys">Czy na pewno chcesz przekazać zarządzanie kompanią graczowi {memberName}?\n\nWszyscy członkowie, ziemie, obiekty i fundusze kompanii {guildName} znajdą się pod nadzorem gracza {memberName} jako nowego zarządcy kompanii {guildName}. Nazwa i herb kompanii pozostaną bez zmian. Twoja postać zostanie zdegradowana o jeden stopień.\n\nTej czynności nie można cofnąć, a zmiana zostanie wprowadzona w życie natychmiast.</string>
+	<string key="ui_promotetoguildmaster_confirm_part1" comment="Pronoun for local player.">Czy na pewno chcesz przekazać zarządzanie kompanią graczowi {memberName}?</string>
+	<string key="ui_promotetoguildmaster_confirm_part1_SHE" comment="Pronoun for local player.">Czy na pewno chcesz przekazać zarządzanie kompanią graczowi {memberName}?</string>
+	<string key="ui_promotetoguildmaster_confirm_part1_THEY" comment="Pronoun for local player.">Czy na pewno chcesz przekazać zarządzanie kompanią graczowi {memberName}?</string>
+	<string key="ui_promotetoguildmaster_confirm_part2" comment="Pronoun for player ownership is transfered to.">Wszyscy członkowie, ziemie, obiekty i fundusze kompanii {guildName} znajdą się pod nadzorem gracza {memberName} jako nowego zarządcy kompanii {guildName}. Nazwa i herb kompanii pozostaną bez zmian. Twoja postać zostanie zdegradowana o jeden stopień.</string>
+	<string key="ui_promotetoguildmaster_confirm_part2_SHE" comment="Pronoun for player ownership is transfered to.">Wszyscy członkowie, ziemie, obiekty i fundusze kompanii {guildName} znajdą się pod nadzorem gracza {memberName} jako nowej zarządczyni kompanii {guildName}. Nazwa i herb kompanii pozostaną bez zmian. Twoja postać zostanie zdegradowana o jeden stopień.</string>
+	<string key="ui_promotetoguildmaster_confirm_part2_THEY" comment="Pronoun for player ownership is transfered to.">Wszyscy członkowie, ziemie, obiekty i fundusze kompanii {guildName} znajdą się pod nadzorem gracza {memberName} jako nowej osoby zarządzającej kompanią {guildName}. Nazwa i herb kompanii pozostaną bez zmian. Twoja postać zostanie zdegradowana o jeden stopień.</string>
+	<string key="ui_promotetoguildmaster_confirm_part3">Tej czynności nie można cofnąć, a zmiana zostanie wprowadzona w życie natychmiast.</string>
 	<string key="ui_rank">Stopień</string>
 	<string key="ui_rankmovedowndisabled">To jest najniższy stopień.</string>
 	<string key="ui_rankmoveupdisabled">Nie można przenieść powyżej stopnia {gmRankName}.</string>
@@ -435,6 +443,7 @@
 	<string key="ui_trade_failure_global_storage_not_enough_currency">Masz za mało środków, by uiścić opłatę za wycofanie przedmiotów przechowywanych w odległych lokalizacjach.</string>
 	<string key="ui_trade_failure_global_storage_wrong_faction">Aby można było wycofać przedmioty, oba terytoria muszą należeć do twojej frakcji, a opłata za utrzymanie terytorium musi być uiszczona.</string>
 	<string key="ui_trade_failure_global_storage_invalid_deposit">Możesz zdeponować przedmioty w składziku znajdującym się tylko w twojej bieżącej lokalizacji.</string>
+	<string key="ui_trade_failure_global_storage_invalid_deposit_rfi">Możesz zdeponować przedmioty tylko w składziku znajdującym się w odwiedzonych przez ciebie osadach.</string>
 	<string key="ui_guildclaimsowned">Posiadane terytoria</string>
 	<string key="ui_guildoneclaimowned">Posiadane terytorium</string>
 	<string key="ui_acceptguildinvitepopuptitle">Wstąpić do nowej kompanii?</string>
@@ -549,9 +558,13 @@
 	<string key="ui_siege_signup_abandon_title">Zrezygnuj z wojny</string>
 	<string key="ui_siege_signup_abandon_message">Czy na pewno chcesz wypisać się z tej wojny?</string>
 	<string key="ui_siege_abandon_title">Porzuć wojnę</string>
+	<string key="ui_invasion_abandon_title">Porzuć inwazję</string>
 	<string key="ui_siege_abandon_message">Czy na pewno chcesz porzucić tę wojnę (wszystkie wydane żetony i przedmioty zostaną utracone)?</string>
+	<string key="ui_invasion_abandon_message">Czy na pewno chcesz porzucić tę inwazję (wszystkie wydane żetony i przedmioty zostaną utracone)?</string>
 	<string key="ui_siege_abandon_and_accept_group_title">Porzuć wojnę</string>
-	<string key="ui_siege_abandon_and_accept_group_message">Czy na pewno chcesz porzucić tę wojnę i przyjąć zaproszenie do grupy?\nNastąpi teleportacja z obszaru wojny, a wszystkie wydane żetony i przedmioty zostaną utracone.</string>
+	<string key="ui_invasion_abandon_and_accept_group_title">Porzuć inwazję</string>
+	<string key="ui_siege_abandon_and_accept_group_message">Czy na pewno chcesz porzucić tę wojnę i przyjąć zaproszenie do grupy?\nNastąpi teleportacja poza obszar wojny, a wszystkie wydane żetony i przedmioty zostaną utracone.</string>
+	<string key="ui_invasion_abandon_and_accept_group_message">Czy na pewno chcesz porzucić tę inwazję i przyjąć zaproszenie do grupy?\nNastąpi teleportacja poza obszar inwazji, a wszystkie wydane żetony i przedmioty zostaną utracone.</string>
 	<string key="ui_siege_set_roster_failed_not_permitted">Nie masz pozwolenia na zarządzanie armią.</string>
 	<string key="ui_siege_set_roster_failed_invalid_player">Nie udało się przenieść jednego z wybranych graczy. Spróbuj ponownie.</string>
 	<string key="ui_siege_set_roster_failed_no_more_selections">Osiągnięto limit ręcznego wyboru – najpierw usuń gracza.</string>
@@ -599,8 +612,8 @@
 	<string key="ui_signup_instruction_desc_1_invasion">Kompania wybierze 10 graczy. 40 graczy zostanie wybranych losowo na początku inwazji.</string>
 	<string key="ui_signup_instruction_desc_2_war">Jeśli kompania cię wybierze, pozostań online o &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{time} {date}&lt;/font&gt;&lt;/font&gt;. Jeśli nie będziesz online, &lt;font color="#ffffff"&gt;stracisz swoje miejsce&lt;/font&gt;.\nPo rozpoczęciu inwazji nastąpi teleportacja do fortu, więc nie musisz tam wcześniej przebywać!</string>
 	<string key="ui_signup_instruction_desc_2_invasion">Pozostań online o &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{time} {date}&lt;/font&gt;&lt;/font&gt;. 40 graczy zostanie wybranych losowo.\nJeśli nie będziesz online o określonej porze, stracisz miejsce!</string>
-	<string key="ui_signup_instruction_desc_3_war">Nie martw się, jeśli nikt nie wybierze cię przed wojną. Masz szansę trafić na listę podczas wojny,\njeśli w jej trakcie pozostaniesz online.</string>
-	<string key="ui_signup_instruction_desc_3_invasion">Nie martw się, jeśli nikt nie wybierze cię przed inwazją. Masz szansę trafić na listę podczas inwazji,\njeśli w jej trakcie pozostaniesz online.</string>
+	<string key="ui_signup_instruction_desc_3_war">Nie martw się, jeśli nikt nie wybierze cię przed wojną. Masz szansę trafić na listę uzupełniającą podczas wojny,\njeśli w jej trakcie pozostaniesz online.</string>
+	<string key="ui_signup_instruction_desc_3_invasion">Nie martw się, jeśli nikt nie wybierze cię przed inwazją. Masz szansę trafić na listę uzupełniającą podczas inwazji,\njeśli w jej trakcie pozostaniesz online.</string>
 	<string key="ui_war_tutorial_title_1">Punkty kontrolne.</string>
 	<string key="ui_war_tutorial_title_2">Warunek zwycięstwa.</string>
 	<string key="ui_war_tutorial_title_3">Odrodzenie.</string>

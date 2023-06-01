@@ -96,7 +96,7 @@
 	<string key="ui_leaving_settlement">Siedlung verlassen</string>
 	<string key="ui_leaving_settlement_recall_no_cd">Über die Karte kannst du jederzeit einen Rückruf durchführen.</string>
 	<string key="ui_leaving_settlement_recall_time">Gasthof verfügbar in &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;</string>
-	<string key="ui_leaving_settlement_recall_time_desc">Gasthof-Rückruf ist nur einmal alle 30 Minuten verfügbar.</string>
+	<string key="ui_leaving_settlement_recall_time_desc">Gasthof-Rückruf ist nur einmal alle {numMinutes} Minuten verfügbar.</string>
 	<string key="ui_leaving_settlement_no_inn_desc">Du gehst, ohne dich im Gasthof angemeldet zu haben.</string>
 	<string key="ui_leaving_settlement_no_inn">Nicht angemeldet</string>
 	<string key="ui_leaving_settlement_inn_elsewhere">Du gehst, ohne dich im Gasthof angemeldet zu haben. Derzeitiger Gasthof befindet sich in {territoryName} {distance}.</string>
@@ -179,11 +179,13 @@
 	<string key="ui_encounter_statusstandby">Dein Status: &lt;font color='#fab445'&gt;Auf Abruf&lt;/font&gt;</string>
 	<string key="ui_encounter_statusselected">Dein Status: &lt;font color='#30e5ab'&gt;Ausgewählt&lt;/font&gt;</string>
 	<string key="ui_encounter_managebutton">Armee verwalten</string>
-	<string key="ui_encounter_signupbutton_war">An Kriegsübersicht eintragen</string>
+	<string key="ui_encounter_signupbutton_war">Für Krieg eintragen</string>
 	<string key="ui_encounter_signupDesc_war">Trage dich für diesen Krieg an einer\n&lt;font color='#f1ede2'&gt;Kriegsübersicht&lt;/font&gt; in dieser Stadt ein.</string>
 	<string key="ui_encounter_signupDesc_invasion">Trage dich für diese Invasion an einer\n&lt;font color='#f1ede2'&gt;Kriegsübersicht&lt;/font&gt; in dieser Stadt ein.</string>
 	<string key="ui_encounter_signupDesc_invasion_minlevel">&lt;font color="#ff6363"&gt;Mindeststufe: {level}&lt;/font&gt;</string>
-	<string key="ui_encounter_signupbutton_invasion">An Kriegsübersicht eintragen</string>
+	<string key="ui_encounter_signup_invasion_minlevel_tooltip">Du musst mindestens Stufe {level} erreicht haben, um dich für eine Invasion einzutragen.</string>
+	<string key="ui_encounter_signup_invasion_too_early_tooltip">Das Eintragen für diese Invasion ist noch nicht verfügbar.</string>
+	<string key="ui_encounter_signupbutton_invasion">Für Invasion eintragen</string>
 	<string key="ui_encounter_viewstatusbutton_war">Armee ansehen</string>
 	<string key="ui_encounter_viewstatusbutton_invasion">Armee ansehen</string>
 	<string key="ui_warselected_title">Für Krieg ausgewählt</string>
@@ -226,9 +228,11 @@
 	<string key="ui_fortressinfo_resolvinginvasion">Invasion wird beendet</string>
 	<string key="ui_fortressinfo_invasiondescription">Dieses Gebiet wird von den Verderbten angegriffen. Der Krieg kann nicht erklärt werden, bevor die Invasion beendet ist.</string>
 	<string key="ui_fortressinfo_button_declarewar">Krieg erklären!</string>
-	<string key="ui_fortressinfo_button_warsignup">An Übersicht eintragen</string>
+	<string key="ui_fortressinfo_button_manage">Armee verwalten</string>
+	<string key="ui_fortressinfo_button_signup_at_board">An Kriegsübersicht eintragen</string>
+	<string key="ui_fortressinfo_button_warsignup">Für Krieg eintragen</string>
 	<string key="ui_fortressinfo_button_warstatus">Eintragungsstatus</string>
-	<string key="ui_fortressinfo_button_invasionsignup">An Übersicht eintragen</string>
+	<string key="ui_fortressinfo_button_invasionsignup">Für Invasion eintragen</string>
 	<string key="ui_fortressinfo_attackerlabel">(greift an)</string>
 	<string key="ui_fortressinfo_defenderlabel">(verteidigt)</string>
 	<string key="ui_fortressinfo_invasionattackername">Verderbte</string>
@@ -454,13 +458,13 @@
 	<string key="ui_upgrade_desc_FortHardPointsProjectId2">Schaltet einen zusätzlichen Montagepunkt frei, an dem Geschütze (zum Beispiel Kanonen) Balliste, Brennendes Ölfass usw.) aufgestellt werden können.</string>
 	<string key="ui_upgrade_desc_BallistaProjectId">Rüste die Balliste auf Rang 2 auf. Nach der Aufrüstung werden alle existierenden Ballisten (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
 	<string key="ui_upgrade_desc_BallistaProjectId2">Rüste die Balliste auf Rang 3 auf. Nach der Aufrüstung werden alle existierenden Ballisten (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_FireBarrelProjectId">Rüste das Brennende Ölfass auf Rang 2 auf. Nach der Aufrüstung werden alle existierenden Brennenden Ölfassr (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_FireBarrelProjectId2">Rüste das Brennende Ölfass auf Rang 3 auf. Nach der Aufrüstung werden alle existierenden Brennenden Ölfassr (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_RepeaterProjectId">Rüste die Repetierer auf Rang 2 auf. Nach der Aufrüstung werden alle existierenden Repetierer (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_RepeaterProjectId2">Rüste die Repetierer auf Rang 3 auf. Nach der Aufrüstung werden alle existierenden Repetierer (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_HornProjectId">Rüste die Kriegshörner auf Rang 2 auf. Nach der Aufrüstung werden alle existierenden Kriegshörner (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_HornProjectId2">Rüste die Kriegshörner auf Rang 3 auf. Nach der Aufrüstung werden alle existierenden Kriegshörner (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_ExplosiveProjectId">Rüste die Kanonen auf Rang 2 auf. Nach der Aufrüstung werden alle existierenden Kanonen (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId">Brennendes Ölfass auf Rang 2 aufrüsten. Nach der Aufrüstung werden alle existierenden brennenden Ölfässer (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId2">Brennendes Ölfass auf Rang 3 aufrüsten. Nach der Aufrüstung werden alle existierenden brennenden Ölfässer (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId">Repetierer auf Rang 2 aufrüsten. Nach der Aufrüstung werden alle existierenden Repetierer (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId2">Repetierer auf Rang 3 aufrüsten. Nach der Aufrüstung werden alle existierenden Repetierer (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
+	<string key="ui_upgrade_desc_HornProjectId">Kriegshörner auf Rang 2 aufrüsten. Nach der Aufrüstung werden alle existierenden Kriegshörner (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
+	<string key="ui_upgrade_desc_HornProjectId2">Kriegshörner auf Rang 3 aufrüsten. Nach der Aufrüstung werden alle existierenden Kriegshörner (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
+	<string key="ui_upgrade_desc_ExplosiveProjectId">Kanonen auf Rang 2 aufrüsten. Nach der Aufrüstung werden alle existierenden Kanonen (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
 	<string key="ui_upgrade_desc_ExplosiveProjectId2">Rüste die Kanonen auf Rang 3 auf. Nach der Aufrüstung werden alle existierenden Kanonen (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
 	<string key="ui_territory_level">Gebietsstufe: {level}</string>
 	<string key="ui_enter_house">Hausmenü öffnen</string>

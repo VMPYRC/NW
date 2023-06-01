@@ -137,6 +137,7 @@
 	<string key="ui_treasury_notification_withdrawalcappeddailylimit">Se ha retirado una cantidad de &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} de la tesorería de la compañía (restringida por el límite diario).</string>
 	<string key="ui_treasury_notification_setdailylimitsuccess">El límite de retirada diario se ha establecido en &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage}.</string>
 	<string key="ui_treasury_notification_setdailylimitsuccessinfinite">El límite de retirada diario se ha establecido en {infinityImage}.</string>
+	<string key="ui_treasury_notification_cointransferaldisabled">Tienes que haber alcanzado el nivel {minLevel} para usar la tesorería del gremio.</string>
 	<string key="ui_treasury_notification_error_generic">Error en la operación de la tesorería. Inténtalo de nuevo.</string>
 	<string key="ui_setSiegeWindow">Establecer periodo de asedio</string>
 	<string key="ui_forDefending">Para defender tus territorios</string>
@@ -201,7 +202,8 @@
 	<string key="ui_leaveguild">Abandonar compañía</string>
 	<string key="ui_leaveguild_confirm">¿Seguro que quieres salir de la compañía?</string>
 	<string key="ui_leaveguild_governor_confirm">¿Seguro que quieres abandonar la compañía?\n\nSe ascenderá a gobernador a otro miembro cuando lo hagas, y la compañía conservará las posesiones que tenga bajo el mando del nuevo gobernador.</string>
-	<string key="ui_leaveguild_alone_confirm">¿Seguro que quieres abandonar la compañía?\n\nEres el único miembro y, si te vas, la compañía perderá sus posesiones.</string>
+	<string key="ui_leaveguild_alone_confirm">Eres el único miembro de esta compañía. Cuando te vayas, cualquier posesión que tenga la compañía se perderá y el monedero de la compañía se añadirá al tuyo.</string>
+	<string key="ui_leaveguild_alone_walletwarning">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Si obtienes el monedero de la compañía, superarás el límite de monedas. Si disuelves la compañía ahora, se perderá el exceso de monedas.&lt;/font&gt;</string>
 	<string key="ui_leftguildmessage">Has abandonado la compañía.</string>
 	<string key="ui_modifycrest">Editar blasón</string>
 	<string key="ui_guildcrestsaved">Nuevo blasón guardado</string>
@@ -242,8 +244,8 @@
 	<string key="ui_permission_demolish_territories">{allowed}: demoler territorios de la compañía</string>
 	<string key="ui_permission_declare_war">{allowed}: declarar guerras y establecer el periodo de asedio</string>
 	<string key="ui_permission_treasury_deposit">{allowed}: realizar depósitos en la tesorería de la compañía</string>
-	<string key="ui_permission_treasury_withdraw">{allowed} retirar hasta el límite diario de la tesorería de la compañía</string>
-	<string key="ui_permission_treasury_withdraw_unlimited">{allowed} retirar cualquier cantidad de la tesorería de la compañía</string>
+	<string key="ui_permission_treasury_withdraw">{allowed}: retirar hasta el límite diario de la tesorería de la compañía</string>
+	<string key="ui_permission_treasury_withdraw_unlimited">{allowed}: retirar cualquier cantidad de la tesorería de la compañía</string>
 	<string key="ui_permission_treasury_set_daily_limit">{allowed}: establecer el límite de retirada diario de la tesorería</string>
 	<string key="ui_permission_territory_project_management">{allowed}: iniciar y cancelar mejoras de territorio</string>
 	<string key="ui_permission_territory_taxation">{allowed}: modificar los impuestos del territorio</string>
@@ -254,7 +256,13 @@
 	<string key="ui_promote">Ascender</string>
 	<string key="ui_promote_transfer_owner">Transferir propiedad</string>
 	<string key="ui_promotetoguildmaster_confirm_title">¿Transferir compañía?</string>
-	<string key="ui_promotetoguildmaster_confirm" comment="Pronoun for Transferring ownership to a player. Need to break into two string keys">¿Seguro que quieres transferir el gobierno de la compañía a {memberName}?\n\nTodos los miembros, las conquistas, las estructuras y los fondos de la tesorería de {guildName} pasarán a estar bajo el control de {memberName}, que se convertirá en gobernador de {guildName}. El nombre y el blasón de la compañía seguirán siendo los mismos. Se te degradará un rango.\n\nEsta acción no se puede deshacer y el cambio será efectivo inmediatamente.</string>
+	<string key="ui_promotetoguildmaster_confirm_part1" comment="Pronoun for local player.">¿Seguro que quieres transferir el gobierno de la compañía a {memberName}?</string>
+	<string key="ui_promotetoguildmaster_confirm_part1_SHE" comment="Pronoun for local player.">¿Seguro que quieres transferir el gobierno de la compañía a {memberName}?</string>
+	<string key="ui_promotetoguildmaster_confirm_part1_THEY" comment="Pronoun for local player.">¿Seguro que quieres transferir el gobierno de la compañía a {memberName}?</string>
+	<string key="ui_promotetoguildmaster_confirm_part2" comment="Pronoun for player ownership is transfered to.">Todos los miembros, las conquistas, las estructuras y los fondos de la tesorería de {guildName} pasarán a estar bajo el control de {memberName}, que será quien gobierne {guildName}. El nombre y el blasón de la compañía seguirán siendo los mismos. Se te degradará un rango.</string>
+	<string key="ui_promotetoguildmaster_confirm_part2_SHE" comment="Pronoun for player ownership is transfered to.">Todos los miembros, las conquistas, las estructuras y los fondos de la tesorería de {guildName} pasarán a estar bajo el control de {memberName}, que será quien gobierne {guildName}. El nombre y el blasón de la compañía seguirán siendo los mismos. Se te degradará un rango.</string>
+	<string key="ui_promotetoguildmaster_confirm_part2_THEY" comment="Pronoun for player ownership is transfered to.">Todos los miembros, las conquistas, las estructuras y los fondos de la tesorería de {guildName} pasarán a estar bajo el control de {memberName}, que será quien gobierne {guildName}. El nombre y el blasón de la compañía seguirán siendo los mismos. Se te degradará un rango.</string>
+	<string key="ui_promotetoguildmaster_confirm_part3">Esta acción no se puede deshacer y el cambio será efectivo inmediatamente.</string>
 	<string key="ui_rank">Rango</string>
 	<string key="ui_rankmovedowndisabled">Este es el rango más bajo</string>
 	<string key="ui_rankmoveupdisabled">No puedes superar {gmRankName}</string>
@@ -435,6 +443,7 @@
 	<string key="ui_trade_failure_global_storage_not_enough_currency">No tienes fondos suficientes para abonar el coste de retirada de objetos almacenados de forma remota.</string>
 	<string key="ui_trade_failure_global_storage_wrong_faction">La retirada requiere que ambos territorios estén en tu facción y estén al día con el mantenimiento.</string>
 	<string key="ui_trade_failure_global_storage_invalid_deposit">Solo puedes depositar objetos en el almacén en tu ubicación actual.</string>
+	<string key="ui_trade_failure_global_storage_invalid_deposit_rfi">Solo puedes depositar objetos en los cobertizos de almacenamiento de los asentamientos que hayas visitado.</string>
 	<string key="ui_guildclaimsowned">Conquistas con éxito</string>
 	<string key="ui_guildoneclaimowned">Conquista con éxito</string>
 	<string key="ui_acceptguildinvitepopuptitle">¿Unirse a otra compañía?</string>
@@ -549,9 +558,13 @@
 	<string key="ui_siege_signup_abandon_title">Abandonar registro</string>
 	<string key="ui_siege_signup_abandon_message">¿Seguro que quieres dejar de estar registrado para esta guerra?</string>
 	<string key="ui_siege_abandon_title">Abandonar guerra</string>
+	<string key="ui_invasion_abandon_title">Abandonar invasión</string>
 	<string key="ui_siege_abandon_message">¿Seguro que quieres abandonar esta guerra? Perderás los objetos y blasones que hayas gastado.</string>
+	<string key="ui_invasion_abandon_message">¿Seguro que quieres abandonar esta invasión? Perderás los objetos y blasones que hayas gastado.</string>
 	<string key="ui_siege_abandon_and_accept_group_title">Abandonar guerra</string>
-	<string key="ui_siege_abandon_and_accept_group_message">¿Seguro que quieres abandonar la guerra y aceptar la invitación de este grupo?\nSe te teletransportará fuera de la zona de guerra y perderás los objetos y blasones que hayas gastado.</string>
+	<string key="ui_invasion_abandon_and_accept_group_title">Abandonar invasión</string>
+	<string key="ui_siege_abandon_and_accept_group_message">¿Seguro que quieres abandonar la guerra y aceptar la invitación de este grupo?\nSe te teletransportará fuera de la zona y perderás los objetos y blasones que hayas gastado.</string>
+	<string key="ui_invasion_abandon_and_accept_group_message">¿Seguro que quieres abandonar la invasión y aceptar la invitación de este grupo?\nSe te teletransportará fuera de la zona y perderás los objetos y blasones que hayas gastado.</string>
 	<string key="ui_siege_set_roster_failed_not_permitted">No tienes autorización para administrar el ejército.</string>
 	<string key="ui_siege_set_roster_failed_invalid_player">No se ha podido mover a uno de los jugadores seleccionados. Inténtalo de nuevo.</string>
 	<string key="ui_siege_set_roster_failed_no_more_selections">No se permiten más selecciones manuales. Elimina primero a un jugador.</string>
@@ -599,8 +612,8 @@
 	<string key="ui_signup_instruction_desc_1_invasion">Cuando empiece la invasión, la compañía elegirá 10 jugadores y otros 40 se seleccionarán al azar.</string>
 	<string key="ui_signup_instruction_desc_2_war">Si te seleccionan, conéctate antes de las &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{time} del {date}&lt;/font&gt;&lt;/font&gt;. Si no estás en línea a esta hora, &lt;font color="#ffffff"&gt;perderás tu plaza&lt;/font&gt;.\nTe teletransportarás al fuerte cuando empiece, así que no hace falta que te desplaces hasta allí.</string>
 	<string key="ui_signup_instruction_desc_2_invasion">Conéctate antes de las &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{time} del {date}&lt;/font&gt;&lt;/font&gt;. A la hora indicada se seleccionarán 40 jugadores al azar.\n¡Si no estás en línea, perderás tu plaza!</string>
-	<string key="ui_signup_instruction_desc_3_war">Si no te seleccionan cuando comience la guerra, no te preocupes. Si permaneces en línea,\nes posible que te elijan como suplente.</string>
-	<string key="ui_signup_instruction_desc_3_invasion">Si no te seleccionan cuando comience la invasión, no te preocupes. Si permaneces en línea,\nes posible que te elijan como suplente.</string>
+	<string key="ui_signup_instruction_desc_3_war">Si no te seleccionan cuando comience la guerra, no te preocupes. Si permaneces en línea durante la guerra,\nes posible que te elijan como suplente.</string>
+	<string key="ui_signup_instruction_desc_3_invasion">Si no te seleccionan cuando comience la invasión, no te preocupes. Si permaneces en línea durante la invasión,\nes posible que te elijan como suplente.</string>
 	<string key="ui_war_tutorial_title_1">Puntos de control</string>
 	<string key="ui_war_tutorial_title_2">Condición de victoria</string>
 	<string key="ui_war_tutorial_title_3">Reaparición</string>

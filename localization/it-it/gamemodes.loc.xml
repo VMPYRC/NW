@@ -1,6 +1,6 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="ui_queue_waiting">In attesa...</string>
-	<string key="ui_queue_elapsed">Trascorso</string>
+	<string key="ui_queue_elapsed">Tempo trascorso</string>
 	<string key="ui_queue_expected">Previsto</string>
 	<string key="ui_queue_leave_group">Abbandona gruppo</string>
 	<string key="ui_queue_leave_group_confirm_title">Abbandona gruppo</string>
@@ -95,7 +95,7 @@
 	<string key="ui_outpost_rush_signup_playercount">{playerCount} giocatori</string>
 	<string key="ui_outpost_rush_signup_failsolo">Al momento fai parte di un gruppo e non puoi partecipare come giocatore singolo</string>
 	<string key="ui_outpost_rush_signup_failgroup">Al momento non fai parte di un gruppo</string>
-	<string key="ui_outpost_rush_signup_failgroupinvite">Hai un invito al gruppo in attesa</string>
+	<string key="ui_outpost_rush_signup_failgroupinvite">Hai un invito in sospeso a una lobby spedizione</string>
 	<string key="ui_outpost_rush_signup_faillevel">È &lt;font color="#f10000"&gt;necessario&lt;/font&gt; il livello giocatore {levelRequirement}</string>
 	<string key="ui_outpost_rush_signup_failwar">Non puoi iscriverti perché hai già effettuato l'iscrizione a una prossima guerra che inizierà entro un'ora.</string>
 	<string key="ui_outpost_rush_signup_failqueue">Non puoi iscriverti perché hai già effettuato l'iscrizione a: {matchname}</string>
@@ -223,13 +223,9 @@
 	<string key="ui_durability_loss_war">Stai partecipando a un guerra (o a un'invasione), perciò il tuo equipaggiamento non ha subito danni alla morte.</string>
 	<string key="ui_item_durability_loss">Tutto l'equipaggiamento nel tuo inventario ha subito danni alla morte.</string>
 	<string key="ui_item_durability_loss_pvp">Sei stato ucciso da un altro giocatore: il tuo equipaggiamento ha subito danni ridotti.</string>
-	<string key="ui_pvp_arena_leave">Abbandona arena PvP</string>
-	<string key="ui_cannot_travel_pvp_arena">Non puoi usare il viaggio veloce quando ti trovi in un'arena PvP</string>
-	<string key="ui_pvp_arena_leave_desc">Vuoi davvero abbandonare l'arena PvP?</string>
-	<string key="ui_pvp_arena_leave_desc_time">Vuoi davvero abbandonare l'arena PvP?\nNon potrai rientrare nella coda di accesso dell'arena PvP per &lt;font color="#ff2e2e"&gt;[{time}]&lt;/font&gt;.</string>
-	<string key="ui_pvp_arena_leave_title">Abbandonare l'arena PvP?</string>
 	<string key="ui_in_spectators_box">Nella postazione dello spettatore</string>
-	<string key="ui_in_spectators_box_description">Armi e abilità disattivate</string>
+	<string key="ui_in_spectators_box_description">Abilità disattivate</string>
+	<string key="ui_in_spectators_moving_to">Passaggio alla postazione dello spettatore tra {seconds} s</string>
 	<string key="ui_round_number">Round {number}</string>
 	<string key="ui_match_point">Punto partita</string>
 	<string key="ui_final_round">Round finale</string>

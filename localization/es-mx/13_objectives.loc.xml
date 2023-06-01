@@ -113,7 +113,7 @@
 	<string key="1322_1316_ReprieveforRestless_Description" speaker="UI">Habla con el posadero Tomaso en Costa agitada para descubrir qué es lo que pasa allí.</string>
 	<string key="1322_1316_ReprieveforRestless_Prompt" speaker="UI - Player Prompt">"¿Qué ocurre allí?"</string>
 	<string key="1322_1316_ReprieveforRestless_Proposal" speaker="Innkeep Kaya - Weaver's Fen" name="InnkeepKaya" VO="Innkeep_1322_1316_ReprieveforRestless_ProposalResponse" VO_Status="Recorded">Por lo que escuché, es un pandemonio. Animales caminando sobre dos patas... facciones de los perdidos enfrentadas entre sí.\n\n¿No me crees? Ve y podrás comprobarlo con tus propios ojos. Dile al posadero Tomaso que te envío yo.</string>
-	<string key="1322_1316_ReprieveforRestless_Incomplete" speaker="Innkeep Kaya - Weaver's Fen" name="InnkeepKaya" VO="Innkeep_1322_1316_ReprieveforRestless_InProgResponse" VO_Status="Recorded">Te lo juro, por lo que oigo que está pasando en Costa agitada, ¡debo dar las gracias de vivir en el Pantano del tejedor!</string>
+	<string key="1322_1316_ReprieveforRestless_Incomplete" speaker="Innkeep Kaya - Weaver's Fen" name="InnkeepKaya" VO="Innkeep_1322_1316_ReprieveforRestless_InProgResponse" VO_Status="Needs Re-recording in all languages except English.">Te lo juro, por lo que oigo que está pasando en Costa agitada, ¡debo dar las gracias de vivir en el Pantano del tejedor!</string>
 	<string key="1322_1316_ReprieveforRestless_Complete" speaker="Innkeep Tomaso - Restless Shore" name="InnkeepTomaso" VO="Innkeep_1322_1316_ReprieveforRestless_AvailResponse" VO_Status="Recorded" dialogue-next="@1322_1316_ReprieveforRestless_Complete_next">Acabas de llegar del Pantano del tejedor, ¿verdad? He oído que esa enfermedad misteriosa está mejorando por aquí. \n\nSupongo que son buenas noticias, por lo menos. Mejor que lo que nos pasa por aquí.</string>
 	<string key="1322_1316_ReprieveforRestless_Complete_prompt" speaker="UI - Player Prompt">"He oído que es bastante raro".</string>
 	<string key="1322_1316_ReprieveforRestless_Complete_next" speaker="Innkeep Tomaso - Restless Shore" name="InnkeepTomaso" VO="Innkeep_1322_1316_ReprieveforRestless_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1322_1316_ReprieveforRestless_Complete_prompt">¿Raro? En Costa agitada las cosas son mucho más que raras ya. No es a mí a quien debes preguntar.\n\nHabla con Wilson o con Muller. Deja que sean ellos quienes te sorprendan.</string>
@@ -269,9 +269,9 @@
 	<string key="1334_0201_olfactoryoptimization_complete_prompt" speaker="UI - Player Prompt">"El aroma es... sorprendente".</string>
 	<string key="1334_0201_olfactoryoptimization_complete_next" speaker="Tullius Volusus" name="TulliusVolusus" VO="1334_0201_olfactoryoptimization_complete_next" VO_Status="Recorded" dialogue-prompt="@1334_0201_olfactoryoptimization_complete_prompt">¿Tan impactante es? ¡Ah! Ojalá las damas de Nueva Córcega supieran con qué se han embadurnado las muñecas.\n\nEl arte del perfume es como la vida: el total es más que la suma de las partes. Gracias por tus contribuciones.</string>
 	<string key="1334_0201_d_00_01a_GiveRecipe" speaker="UI">Toma {itemName}</string>
-	<string key="1334_0201_d_01_a_Gather_Spores" speaker="UI">Recoge {itemName} de Flor trastabillante al norte de Pantano del tejedor</string>
-	<string key="1334_0201_d_01_b_Skin_ElkGland" speaker="UI">Recoge {itemName} de ciervos al norte de Pantano del tejedor</string>
-	<string key="1334_0201_d_01_c_Loot_Chests_Laudanum" speaker="UI">Recoge {itemName} de cofres en la aldea de Fenton</string>
+	<string key="1334_0201_d_01_a_Gather_Spores" speaker="UI">Recolecta {itemName} de Flor trastabillante al norte de Pantano del tejedor</string>
+	<string key="1334_0201_d_01_b_Skin_ElkGland" speaker="UI">Recolecta {itemName} de ciervos al norte de Pantano del tejedor (requiere habilidad de desollamiento de nivel 85)</string>
+	<string key="1334_0201_d_01_c_Loot_Chests_Laudanum" speaker="UI">Recolecta {itemName} de cofres en el Caserío Fenton</string>
 	<string key="1334_0201_d_02_01_InteractOutfitterStation" speaker="UI">Utiliza el repositorio de artes arcanas</string>
 	<string key="1334_0201_d_02_02_HavePerfume" speaker="UI">Fabrica {itemName} en el repositorio de artes arcanas</string>
 	<string key="1335_0201_misplacedtreasure_title" speaker="UI - Quest Title">Tesoro desubicado</string>

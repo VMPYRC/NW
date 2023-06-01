@@ -96,7 +96,7 @@
 	<string key="ui_leaving_settlement">Saliendo del asentamiento</string>
 	<string key="ui_leaving_settlement_recall_no_cd">Usa el mapa para regresar en cualquier momento.</string>
 	<string key="ui_leaving_settlement_recall_time">Posada disponible en &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;</string>
-	<string key="ui_leaving_settlement_recall_time_desc">Solo puedes regresar a la posada una vez cada 30 minutos.</string>
+	<string key="ui_leaving_settlement_recall_time_desc">Solo puedes regresar a la posada una vez cada {numMinutes} minutos.</string>
 	<string key="ui_leaving_settlement_no_inn_desc">Vas a salir sin haberte registrado en la posada.</string>
 	<string key="ui_leaving_settlement_no_inn">No te has registrado</string>
 	<string key="ui_leaving_settlement_inn_elsewhere">Vas a salir sin haberte registrado. La posada actual está en {territoryName}, a una distancia de {distance}.</string>
@@ -179,11 +179,13 @@
 	<string key="ui_encounter_statusstandby">Tu estado: &lt;font color='#fab445'&gt;En espera&lt;/font&gt;</string>
 	<string key="ui_encounter_statusselected">Tu estado: &lt;font color='#30e5ab'&gt;Seleccionado&lt;/font&gt;</string>
 	<string key="ui_encounter_managebutton">Administrar ejército</string>
-	<string key="ui_encounter_signupbutton_war">Inscribirse en un tablero</string>
+	<string key="ui_encounter_signupbutton_war">Únete a la guerra</string>
 	<string key="ui_encounter_signupDesc_war">Inscríbete en un\n&lt;font color='#f1ede2'&gt;tablero de guerra&lt;/font&gt; de este pueblo para participar en esta guerra.</string>
 	<string key="ui_encounter_signupDesc_invasion">Inscríbete en un\n&lt;font color='#f1ede2'&gt;tablero de guerra&lt;/font&gt; de este pueblo para participar en esta invasión.</string>
 	<string key="ui_encounter_signupDesc_invasion_minlevel">&lt;font color="#ff6363"&gt;Nivel mínimo: {level}&lt;/font&gt;</string>
-	<string key="ui_encounter_signupbutton_invasion">Inscribirse en un tablero</string>
+	<string key="ui_encounter_signup_invasion_minlevel_tooltip">Tienes que haber alcanzado el nivel {level} como mínimo para unirte a la invasión.</string>
+	<string key="ui_encounter_signup_invasion_too_early_tooltip">Aún no puedes unirte a esta invasión.</string>
+	<string key="ui_encounter_signupbutton_invasion">Únete a la invasión</string>
 	<string key="ui_encounter_viewstatusbutton_war">Ver ejército</string>
 	<string key="ui_encounter_viewstatusbutton_invasion">Ver ejército</string>
 	<string key="ui_warselected_title">Te han seleccionado para la guerra</string>
@@ -226,9 +228,11 @@
 	<string key="ui_fortressinfo_resolvinginvasion">Invasión en fase de resolución</string>
 	<string key="ui_fortressinfo_invasiondescription">Este territorio está sufriendo un ataque de los corruptos. No se puede declarar la guerra hasta que la invasión haya terminado.</string>
 	<string key="ui_fortressinfo_button_declarewar">¡Declarar guerra!</string>
-	<string key="ui_fortressinfo_button_warsignup">Únete en el tablero</string>
+	<string key="ui_fortressinfo_button_manage">Administrar ejército</string>
+	<string key="ui_fortressinfo_button_signup_at_board">Inscribirse en un tablero</string>
+	<string key="ui_fortressinfo_button_warsignup">Únete a la guerra</string>
 	<string key="ui_fortressinfo_button_warstatus">Estado de la inscripción</string>
-	<string key="ui_fortressinfo_button_invasionsignup">Únete en el tablero</string>
+	<string key="ui_fortressinfo_button_invasionsignup">Únete a la invasión</string>
 	<string key="ui_fortressinfo_attackerlabel">(atacando)</string>
 	<string key="ui_fortressinfo_defenderlabel">(defendiendo)</string>
 	<string key="ui_fortressinfo_invasionattackername">Los corruptos</string>
@@ -454,12 +458,12 @@
 	<string key="ui_upgrade_desc_FortHardPointsProjectId2">Desbloquea un lugar adicional para un emplazamiento (por ejemplo, para una balista, una cuba de aceite hirviendo, etc.)</string>
 	<string key="ui_upgrade_desc_BallistaProjectId">Mejora la balista a clase 2. También se mejoran las balistas existentes (estén desplegadas o no).</string>
 	<string key="ui_upgrade_desc_BallistaProjectId2">Mejora la balista a clase 3. También se mejoran las balistas existentes (estén desplegadas o no).</string>
-	<string key="ui_upgrade_desc_FireBarrelProjectId">Mejora la cuba de aceite hirviendo a clase 2. También se mejoran las cubas de aceite hirviendo existentes (estén desplegadas o no).</string>
-	<string key="ui_upgrade_desc_FireBarrelProjectId2">Mejora la cuba de aceite hirviendo a clase 3. También se mejoran las cubas de aceite hirviendo existentes (estén desplegadas o no).</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId">Mejora la cuba de aceite hirviendo a clase 2. También se mejoran las cubas de aceite hirviendo existentes (estén desplegadas o no).</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId2">Mejora la cuba de aceite hirviendo a clase 3. También se mejoran las cubas de aceite hirviendo existentes (estén desplegadas o no).</string>
 	<string key="ui_upgrade_desc_RepeaterProjectId">Mejora las armas de repetición a clase 2. También se mejoran las armas de repetición existentes (estén desplegadas o no).</string>
 	<string key="ui_upgrade_desc_RepeaterProjectId2">Mejora las armas de repetición a clase 3. También se mejoran las armas de repetición existentes (estén desplegadas o no).</string>
-	<string key="ui_upgrade_desc_HornProjectId">Mejora los cuernos de guerra a clase 2. También se mejoran los cuernos de guerra existentes (estén desplegados o no).</string>
-	<string key="ui_upgrade_desc_HornProjectId2">Mejora los cuernos de guerra a clase 3. También se mejoran los cuernos de guerra existentes (estén desplegados o no).</string>
+	<string key="ui_upgrade_desc_HornProjectId">Mejora los cuernos de guerra a clase 2. También se mejoran los cuernos de guerra (estén desplegados o no).</string>
+	<string key="ui_upgrade_desc_HornProjectId2">Mejora los cuernos de guerra a clase 3. También se mejoran los cuernos de guerra (estén desplegados o no).</string>
 	<string key="ui_upgrade_desc_ExplosiveProjectId">Mejora los explosivos a clase 2. También se mejoran los explosivos existentes (estén desplegados o no).</string>
 	<string key="ui_upgrade_desc_ExplosiveProjectId2">Mejora los explosivos a clase 3. También se mejoran los explosivos existentes (estén desplegados o no).</string>
 	<string key="ui_territory_level">Nivel de territorio: {level}</string>

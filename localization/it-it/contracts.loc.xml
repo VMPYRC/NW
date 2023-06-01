@@ -23,13 +23,13 @@
 	<string key="ui_browseitem">&lt;img src="lyshineui/images/icons/contracts/contracts_iconBrowse" xPadding="0" scale="1.5" yOffset="5.2"&gt;&lt;/img&gt; Passa in rassegna oggetti</string>
 	<string key="ui_sellmyitem">&lt;img src="lyshineui/images/icons/contracts/contracts_iconSell" xPadding="0" scale="1.5" yOffset="5.2"&gt;&lt;/img&gt; Vendi i miei oggetti</string>
 	<string key="ui_craftingmaterial">Materiale da produzione</string>
-	<string key="ui_canequip">Puoi equipaggiare</string>
+	<string key="ui_canequip">Che puoi equipaggiare</string>
 	<string key="ui_hideunequippable">Nascondi oggetti non equipaggiabili</string>
-	<string key="ui_canafford">Puoi permetterti</string>
-	<string key="ui_canSell">Puoi vendere</string>
-	<string key="ui_gem_selection_button_none">Gemma: nessuna selezionata</string>
+	<string key="ui_canafford">Che puoi permetterti</string>
+	<string key="ui_canSell">Che puoi vendere</string>
+	<string key="ui_gem_selection_button_none">Gemma: nessuna</string>
 	<string key="ui_gem_selection_button_specific">Gemma: {name}</string>
-	<string key="ui_perk_selection_button_none">Vantaggi: nessuno selezionato</string>
+	<string key="ui_perk_selection_button_none">Vantaggi: nessuno</string>
 	<string key="ui_perk_selection_button_some">Vantaggi: {number} selezionati</string>
 	<string key="ui_perk_selection_selected">Selezionati:</string>
 	<string key="ui_perk_selection_none">(nessuno selezionato)</string>
@@ -111,9 +111,9 @@
 	<string key="ui_contract_failure_insufficient_items">Oggetti insufficienti.</string>
 	<string key="ui_contract_failure_outpost_storage_full">Deposito dell'insediamento pieno.</string>
 	<string key="ui_contract_failure_freeweekend">Nel gioco gratuito non è possibile acquistare o vendere nell'emporio.</string>
-	<string key="ui_contract_failure_previously_freeweekend">Devi aver giocato per almeno 3 ore prima di comprare o vendere all'emporio.</string>
-	<string key="ui_contract_freeweekend_encourage">Acquista New World per comprare e vendere articoli presso l'emporio!</string>
-	<string key="ui_contract_previous_freeweekend_encourage">Devi aver giocato per almeno 3 ore prima di comprare o vendere all'emporio.</string>
+	<string key="ui_contract_failure_previously_freeweekend">Devi giocare almeno 3 ore per acquistare o vendere nell'emporio.</string>
+	<string key="ui_contract_freeweekend_encourage">Acquista New World per comprare e vendere oggetti nell'emporio!</string>
+	<string key="ui_contract_previous_freeweekend_encourage">Devi giocare almeno 3 ore per acquistare o vendere nell'emporio.</string>
 	<string key="ui_contract_failure_server_error">Errore del server.</string>
 	<string key="ui_contract_failure_creator_cannot_complete">Non puoi completare un ordine creato da te.</string>
 	<string key="ui_contract_failure_invalid_request">La richiesta d'ordine non era valida.</string>
@@ -223,7 +223,7 @@
 	<string key="ui_exclusive_perk_popup_title">Vantaggio esclusivo selezionato</string>
 	<string key="ui_exclusive_perk_popup_message">Puoi avere solo un vantaggio di questo tipo. Vuoi sostituire il vantaggio che stai usando con quello selezionato dello stesso tipo?</string>
 	<string key="ui_exclusive_perk_popup_message_no_replace">{newPerkName} e {selectedPerkName} sono mutuamente esclusivi e non possono essere selezionati contemporaneamente.</string>
-	<string key="ui_max_perk_popup_title">Vantaggi massimi selezionati</string>
+	<string key="ui_max_perk_popup_title">Numero massimo di vantaggi selezionati</string>
 	<string key="ui_max_perk_popup_message">Hai raggiunto il numero massimo di vantaggi consentiti per questo oggetto. Rimuovi un vantaggio per aggiungerne un altro.</string>
 	<string key="ui_remove">rimuovi</string>
 	<string key="ui_showonly">Mostra solo:</string>
@@ -232,6 +232,6 @@
 	<string key="ui_contract_gearscore">PA</string>
 	<string key="ui_contract_time">Tempo</string>
 	<string key="ui_order_tooltip">Ordini disponibili in questa categoria:\n&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{number}&lt;/font&gt;</string>
-	<string key="ui_available_buy_orders">Ordini che stanno acquistando questo oggetto</string>
+	<string key="ui_available_buy_orders">Ordini per acquistare quest'oggetto</string>
 </resources>
 

@@ -95,7 +95,7 @@
 	<string key="ui_outpost_rush_signup_playercount">Liczba graczy: {playerCount}</string>
 	<string key="ui_outpost_rush_signup_failsolo">Obecnie należysz do grupy i nie możesz dołączyć w pojedynkę</string>
 	<string key="ui_outpost_rush_signup_failgroup">Obecnie nie należysz do żadnej grupy</string>
-	<string key="ui_outpost_rush_signup_failgroupinvite">Obecnie masz oczekujące zaproszenie do grupy</string>
+	<string key="ui_outpost_rush_signup_failgroupinvite">Obecnie masz zaproszenie do lobby ekspedycji</string>
 	<string key="ui_outpost_rush_signup_faillevel">&lt;font color="#f10000"&gt;Wymagany&lt;/font&gt; poziom: {levelRequirement}</string>
 	<string key="ui_outpost_rush_signup_failwar">Nie możesz się zapisać, ponieważ bierzesz już udział w nadchodzącej wojnie, która rozpocznie się w ciągu godziny.</string>
 	<string key="ui_outpost_rush_signup_failqueue">Nie możesz się zapisać, ponieważ bierzesz już udział w: {matchname}</string>
@@ -141,7 +141,7 @@
 	<string key="ui_outpost_rush_leave">Opuść napad na posterunek</string>
 	<string key="ui_outpost_rush_leave_queue_title">Opuścić kolejkę?</string>
 	<string key="ui_outpost_rush_leave_queue_desc">Czy na pewno chcesz opuścić kolejkę do napadu na posterunek?</string>
-	<string key="ui_outpost_rush_leave_title">Opuścić napad na posterunek?</string>
+	<string key="ui_outpost_rush_leave_title">Opuścić napad?</string>
 	<string key="ui_outpost_rush_leave_desc">Czy na pewno chcesz opuścić napad na posterunek?</string>
 	<string key="ui_outpost_rush_leave_desc_time">Czy na pewno chcesz opuścić napad na posterunek?\nKolejka napadu na posterunek będzie niedostępna przez {time}.</string>
 	<string key="ui_outpost_rush_leave_group_desc_time">Czy na pewno chcesz dołączyć do innej grupy?\nJeśli opuścisz swoją grupę, automatycznie opuścisz napad na posterunek.\nKolejka napadu na posterunek będzie niedostępna przez {time}.</string>
@@ -223,13 +223,9 @@
 	<string key="ui_durability_loss_war">Bierzesz udział w wojnie lub inwazji. Twoje wyposażenie nie zostało uszkodzone wskutek śmierci.</string>
 	<string key="ui_item_durability_loss">Całe twoje wyposażenie zostało uszkodzone wskutek śmierci.</string>
 	<string key="ui_item_durability_loss_pvp">Zabił cię inny gracz. Twoje wyposażenie zostało nieco uszkodzone.</string>
-	<string key="ui_pvp_arena_leave">Opuść arenę PvP</string>
-	<string key="ui_cannot_travel_pvp_arena">Nie możesz korzystać z szybkiej podróży, przebywając na arenie PvP</string>
-	<string key="ui_pvp_arena_leave_desc">Czy na pewno chcesz opuścić arenę PvP?</string>
-	<string key="ui_pvp_arena_leave_desc_time">Czy na pewno chcesz opuścić arenę PvP?\nKolejka areny PvP będzie niedostępna przez &lt;font color="#ff2e2e"&gt;[{time}]&lt;/font&gt;.</string>
-	<string key="ui_pvp_arena_leave_title">Opuścić arenę PvP?</string>
 	<string key="ui_in_spectators_box">Loża dla widzów</string>
-	<string key="ui_in_spectators_box_description">Broń i umiejętności wyłączone</string>
+	<string key="ui_in_spectators_box_description">Zdolności wyłączone</string>
+	<string key="ui_in_spectators_moving_to">Przeniesienie do loży dla widzów za {seconds} s</string>
 	<string key="ui_round_number">Runda {number}</string>
 	<string key="ui_match_point">Punkt meczowy</string>
 	<string key="ui_final_round">Ostatnia runda</string>

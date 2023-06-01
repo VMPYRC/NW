@@ -96,7 +96,7 @@
 	<string key="ui_leaving_settlement">Départ de la colonie</string>
 	<string key="ui_leaving_settlement_recall_no_cd">Vous pouvez revenir n'importe quand à l'aide de la carte.</string>
 	<string key="ui_leaving_settlement_recall_time">Auberge disponible dans &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;</string>
-	<string key="ui_leaving_settlement_recall_time_desc">Le retour à l'auberge n'est disponible que toutes les 30 minutes.</string>
+	<string key="ui_leaving_settlement_recall_time_desc">Le retour à l'auberge n'est disponible que toutes les {numMinutes} minutes.</string>
 	<string key="ui_leaving_settlement_no_inn_desc">Vous partez sans vous être enregistré(e) à l'auberge.</string>
 	<string key="ui_leaving_settlement_no_inn">Non enregistré(e)</string>
 	<string key="ui_leaving_settlement_inn_elsewhere">Vous partez sans vous être enregistré(e) à l'auberge. L'auberge active se trouve à : {territoryName} {distance}.</string>
@@ -179,11 +179,13 @@
 	<string key="ui_encounter_statusstandby">Votre statut : &lt;font color='#fab445'&gt;En attente&lt;/font&gt;</string>
 	<string key="ui_encounter_statusselected">Votre statut : &lt;font color='#30e5ab'&gt;Sélectionné(e)&lt;/font&gt;</string>
 	<string key="ui_encounter_managebutton">Gestion de l'armée</string>
-	<string key="ui_encounter_signupbutton_war">S'enregistrer</string>
+	<string key="ui_encounter_signupbutton_war">S'inscrire pour la guerre</string>
 	<string key="ui_encounter_signupDesc_war">Inscrivez-vous pour cette guerre à un\n&lt;font color='#f1ede2'&gt;tableau de guerre&lt;/font&gt; dans cette ville.</string>
 	<string key="ui_encounter_signupDesc_invasion">Inscrivez-vous pour cette invasion à un\n&lt;font color='#f1ede2'&gt;tableau de guerre&lt;/font&gt; dans cette ville.</string>
 	<string key="ui_encounter_signupDesc_invasion_minlevel">&lt;font color="#ff6363"&gt;Niveau minimum : {level}&lt;/font&gt;</string>
-	<string key="ui_encounter_signupbutton_invasion">S'enregistrer</string>
+	<string key="ui_encounter_signup_invasion_minlevel_tooltip">Vous devez être au moins de niveau {level} pour vous inscrire pour l'invasion.</string>
+	<string key="ui_encounter_signup_invasion_too_early_tooltip">Les inscriptions ne sont pas encore ouvertes pour cette invasion.</string>
+	<string key="ui_encounter_signupbutton_invasion">S'inscrire pour l'invasion</string>
 	<string key="ui_encounter_viewstatusbutton_war">Voir armée</string>
 	<string key="ui_encounter_viewstatusbutton_invasion">Voir armée</string>
 	<string key="ui_warselected_title">Sélectionné(e) pour partir en guerre</string>
@@ -226,9 +228,11 @@
 	<string key="ui_fortressinfo_resolvinginvasion">Résolution de l'invasion</string>
 	<string key="ui_fortressinfo_invasiondescription">Ce territoire est attaqué par les altérés. La guerre ne peut pas être déclarée avant la fin de l'invasion.</string>
 	<string key="ui_fortressinfo_button_declarewar">Déclarer la guerre !</string>
-	<string key="ui_fortressinfo_button_warsignup">S'enregistrer</string>
+	<string key="ui_fortressinfo_button_manage">Gestion de l'armée</string>
+	<string key="ui_fortressinfo_button_signup_at_board">S'enregistrer au tableau de guerre</string>
+	<string key="ui_fortressinfo_button_warsignup">S'inscrire pour la guerre</string>
 	<string key="ui_fortressinfo_button_warstatus">Statut d'inscription</string>
-	<string key="ui_fortressinfo_button_invasionsignup">S'enregistrer</string>
+	<string key="ui_fortressinfo_button_invasionsignup">S'inscrire pour l'invasion</string>
 	<string key="ui_fortressinfo_attackerlabel">(en attaque)</string>
 	<string key="ui_fortressinfo_defenderlabel">(en défense)</string>
 	<string key="ui_fortressinfo_invasionattackername">Les altérés</string>
@@ -454,13 +458,13 @@
 	<string key="ui_upgrade_desc_FortHardPointsProjectId2">Déverrouillez un point de mise en place supplémentaire (ex. : baliste, cuve d'huile brûlante, etc.)</string>
 	<string key="ui_upgrade_desc_BallistaProjectId">Améliorez la baliste au palier 2. L'amélioration effectuée, toutes les balistes (déployées ou non) sont également améliorées.</string>
 	<string key="ui_upgrade_desc_BallistaProjectId2">Améliorez la baliste au palier 3. L'amélioration effectuée, toutes les balistes (déployées ou non) sont également améliorées.</string>
-	<string key="ui_upgrade_desc_FireBarrelProjectId">Améliorez la cuve d'huile brûlante au palier 2. L'amélioration effectuée, toutes les cuves d'huile brûlante (déployées ou non) sont également améliorées.</string>
-	<string key="ui_upgrade_desc_FireBarrelProjectId2">Améliorez la cuve d'huile brûlante au palier 3. L'amélioration effectuée, toutes les cuves d'huile brûlante (déployées ou non) sont également améliorées.</string>
-	<string key="ui_upgrade_desc_RepeaterProjectId">Améliorez les armes à répétition au palier 2. L'amélioration effectuée, toutes les armes à répétition (déployées ou non) sont également améliorées.</string>
-	<string key="ui_upgrade_desc_RepeaterProjectId2">Améliorez les armes à répétition au palier 3. L'amélioration effectuée, toutes les armes à répétition (déployées ou non) sont également améliorées.</string>
-	<string key="ui_upgrade_desc_HornProjectId">Améliorez les cornes de guerre au palier 2. L'amélioration effectuée, toutes les cornes de guerre (déployées ou non) sont également améliorées.</string>
-	<string key="ui_upgrade_desc_HornProjectId2">Améliorez les cornes de guerre au palier 3. L'amélioration effectuée, toutes les cornes de guerre (déployées ou non) sont également améliorées.</string>
-	<string key="ui_upgrade_desc_ExplosiveProjectId">Améliorez les explosifs au palier 2. L'amélioration effectuée, tous les explosifs (déployés ou non) sont également améliorés.</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId">Améliorer la cuve d'huile brûlante au palier 2. Lorsqu'elles sont améliorées, toutes les cuves d'huile brûlante existantes (déployées ou non) sont également améliorées.</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId2">Améliorer la cuve d'huile brûlante au palier 3. Lorsqu'elles sont améliorées, toutes les cuves d'huile brûlante existantes (déployées ou non) sont également améliorées.</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId">Améliorer les armes à répétition au palier 2. Lorsqu'elles sont améliorées, toutes les armes à répétition existantes (déployées ou non) sont également améliorées.</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId2">Améliorer les armes à répétition au palier 3. Lorsqu'elles sont améliorées, toutes les armes à répétition existantes (déployées ou non) sont également améliorées.</string>
+	<string key="ui_upgrade_desc_HornProjectId">Améliorer les cornes de guerre au palier 2. Lorsqu'elles sont améliorées, toutes les cornes de guerre existantes (déployées ou non) sont également améliorées.</string>
+	<string key="ui_upgrade_desc_HornProjectId2">Améliorer les cornes de guerre au palier 3. Lorsqu'elles sont améliorées, toutes les cornes de guerre existantes (déployées ou non) sont également améliorées.</string>
+	<string key="ui_upgrade_desc_ExplosiveProjectId">Améliorer les explosifs au palier 2. Lorsqu'ils sont améliorés, tous les explosifs existants (déployés ou non) sont également améliorés.</string>
 	<string key="ui_upgrade_desc_ExplosiveProjectId2">Améliorez les explosifs au palier 3. L'amélioration effectuée, tous les explosifs (déployés ou non) sont également améliorés.</string>
 	<string key="ui_territory_level">Niveau de territoire : {level}</string>
 	<string key="ui_enter_house">Ouvrir le menu Maison</string>

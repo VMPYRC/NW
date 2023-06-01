@@ -95,7 +95,7 @@
 	<string key="ui_outpost_rush_signup_playercount">{playerCount} Spieler</string>
 	<string key="ui_outpost_rush_signup_failsolo">Du bist aktuell in einer Gruppe und kannst nicht als Einzelspieler beitreten.</string>
 	<string key="ui_outpost_rush_signup_failgroup">Du bist aktuell nicht in einer Gruppe.</string>
-	<string key="ui_outpost_rush_signup_failgroupinvite">Du hast eine ausstehende Gruppeneinladung.</string>
+	<string key="ui_outpost_rush_signup_failgroupinvite">Du hast eine offene Einladung in die Expeditions-Lobby.</string>
 	<string key="ui_outpost_rush_signup_faillevel">Spielerstufe {levelRequirement} &lt;font color="#f10000"&gt;ist erforderlich.&lt;/font&gt;</string>
 	<string key="ui_outpost_rush_signup_failwar">Du kannst dich nicht anmelden, weil du bereits für den bevorstehenden Krieg angemeldet bist, der in der nächsten Stunde beginnt.</string>
 	<string key="ui_outpost_rush_signup_failqueue">Du kannst dich nicht anmelden, weil du momentan schon für {matchname} angemeldet bist.</string>
@@ -162,7 +162,7 @@
 	<string key="ui_outpost_rush_tutorial_desc4">Baronin Hain ist ein Geist einer vor langer Zeit verstorbenen Adligen, die auf der Insel ihr Unwesen treibt. Besiege sie, um einen mächtigen Bonus zu erhalten, der die Verteidigung deines Teams verstärkt und den Punktestand der Gegner einfriert.</string>
 	<string key="ui_outpost_rush_tutorial_level_requirement">Die &lt;font color="#ffe294"&gt;Spielerstufe {level}&lt;/font&gt; ist erforderlich für die Teilnahme am Außenpostensturm.</string>
 	<string key="ui_outpost_rush_locked">Gesperrt</string>
-	<string key="ui_outpost_rush_select_summoning_stone">Beschwörungsstein auswählen</string>
+	<string key="ui_outpost_rush_select_summoning_stone">Stein auswählen</string>
 	<string key="ui_outpost_rush_barrier">Fort-Barriere</string>
 	<string key="ui_or_total_score">PUNKTE INSGESAMT</string>
 	<string key="ui_or_points_from">PUNKTE VON</string>
@@ -192,7 +192,7 @@
 	<string key="or_tutorial_boss_spawn_body">Erledige sie, um einen mächtigen Verteidigungsbonus für dein Team zu erhalten und den Punktestand des gegnerischen Teams für 3 Minuten einzufrieren.</string>
 	<string key="or_tutorial_boss_near_title">BARONIN HAIN IST IN DER NÄHE</string>
 	<string key="or_tutorial_boss_near_body">Erledige sie, um einen mächtigen Verteidigungsbonus für dein Team zu erhalten und den Punktestand des gegnerischen Teams für 3 Minuten einzufrieren.</string>
-	<string key="or_tutorial_outpost_gates_title">BAUE TORE ZUM SCHUTZ DES AUẞENPOSTENS</string>
+	<string key="or_tutorial_outpost_gates_title">BAUE TORE ZUM SCHUTZ DES AUSSENPOSTENS</string>
 	<string key="or_tutorial_outpost_gates_body">Sammle behandeltes Holz und Erz und interagiere dann mit dem Tor, um es zu bauen und aufzuwerten.</string>
 	<string key="or_tutorial_outpost_ward_title">ERRICHTE SCHUTZBEZIRKE</string>
 	<string key="or_tutorial_outpost_ward_body">So können deine Teammitglieder hier wieder auftauchen und Gegner können den Außenposten nicht erobern.</string>
@@ -223,13 +223,9 @@
 	<string key="ui_durability_loss_war">Du befindest dich in einem Krieg (einer Invasion), deine Ausrüstung wurde nach dem Tod nicht beschädigt.</string>
 	<string key="ui_item_durability_loss">Die gesamte Ausrüstung in deinem Inventar wurde nach dem Tod beschädigt.</string>
 	<string key="ui_item_durability_loss_pvp">Du wurdest von einem anderen Spieler getötet, deine Ausrüstung hat reduzierten Schaden genommen.</string>
-	<string key="ui_pvp_arena_leave">PvP-Arena verlassen</string>
-	<string key="ui_cannot_travel_pvp_arena">Schnellreise nicht möglich, während du in einer PvP-Arena bist.</string>
-	<string key="ui_pvp_arena_leave_desc">Willst du die PvP-Arena verlassen?</string>
-	<string key="ui_pvp_arena_leave_desc_time">Willst du die PvP-Arena verlassen?\nDu kannst dich &lt;font color="#ff2e2e"&gt;[{time}]&lt;/font&gt; lang nicht mehr in die Warteschlange für eine PvP-Arena einreihen.</string>
-	<string key="ui_pvp_arena_leave_title">PvP-Arena verlassen?</string>
 	<string key="ui_in_spectators_box">Im Zuschauerbereich</string>
-	<string key="ui_in_spectators_box_description">Waffen und Fertigkeiten deaktiviert</string>
+	<string key="ui_in_spectators_box_description">Fertigkeiten deaktiviert</string>
+	<string key="ui_in_spectators_moving_to">In {seconds} Sek. zur Zuschauerbox</string>
 	<string key="ui_round_number">Runde {number}</string>
 	<string key="ui_match_point">Matchpunkt</string>
 	<string key="ui_final_round">Letzte Runde</string>

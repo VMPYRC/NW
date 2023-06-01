@@ -28,6 +28,10 @@
 	<string key="ui_featured">Polecane oferty</string>
 	<string key="ui_show_purchased">Wyświetl odblokowane</string>
 	<string key="ui_sort_by">Sortuj według:</string>
+	<string key="ui_item_claim">Odbierz przedmiot</string>
+	<string key="ui_claim_button">Odbierz</string>
+	<string key="ui_preview">Podgląd</string>
+	<string key="ui_item_already_claimed">Już odebrano przedmiot.</string>
 	<string key="ui_add_more_fictional_currency" rel_version="Feature_MTX">Dodaj więcej &lt;img src="lyshineui/images/mtx/icon_mtx_currency" scale="2.8" yOffset="10"&gt;&lt;/img&gt;</string>
 	<string key="ui_discount_off">&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Zniżka:&lt;/font&gt; {number}</string>
 	<string key="ui_discount_off_bold">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Zniżka:&lt;/font&gt; {number}</string>
@@ -116,6 +120,7 @@
 	<string key="ui_crest_disclaimer" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Uwaga:&lt;/font&gt; Herbów kompanii może używać tylko zarządca (twórca) kompanii.</string>
 	<string key="ui_disabled_default_title" rel_version="Feature_MTX">Zawartość niedostępna</string>
 	<string key="ui_disabled_default_description" rel_version="Feature_MTX">Ta zawartość jest chwilowo niedostępna.</string>
+	<string key="ui_disabled_freeplayer_description" rel_version="Feature_MTX">Kup New World, by zyskać dostęp do sklepu.</string>
 	<string key="ui_preview_emote">Podgląd gestu</string>
 	<string key="ui_end_preview">Zakończ podgląd</string>
 	<string key="ui_limited_time">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Ograniczony czas&lt;/font&gt;</string>
@@ -154,6 +159,9 @@
 	<string key="ui_notification_unlock_desc">Przedmioty zostały dodane do twojego konta.</string>
 	<string key="ui_notification_unlock_title">Odblokowano!</string>
 	<string key="ui_view_item">Pokaż</string>
+	<string key="ui_claim_fail_alreadyunlocked">Odebrano już to uprawnienie.</string>
+	<string key="ui_claim_fail_inventoryfull">Nie można odebrać uprawnienia, gdy ekwipunek jest pełny. Zwolnij miejsce i spróbuj ponownie.</string>
+	<string key="ui_claim_fail_transactionerror">Błąd transakcji. Spróbuj ponownie.</string>
 	<string key="smolderingscarlet_dye_name" rel_version="Dye_SmolderingScarlet">Uwodzicielski szkarłat</string>
 	<string key="runic_jackal_name" rel_version="Apparel_RunicJackal">Runiczny szakal</string>
 	<string key="crescent_fang_name" rel_version="Weapon_CrescentFang">Półksiężycowy kieł</string>
@@ -778,5 +786,23 @@
 	<string key="ui_crestforeground_213" rel_version="Crest_Pack_Plants">Snop roślin</string>
 	<string key="ui_crestforeground_214" rel_version="Crest_Pack_Plants">Liść konopi</string>
 	<string key="ui_crestforeground_215" rel_version="Crest_Pack_Plants">Konopie</string>
+	<string key="Bundle_PR_SilentDeath_Apparel_name" rel_version="Bundle_Apparel_SilentDeath">Szept Zabójcy – paczka ubioru</string>
+	<string key="Bundle_PR_SilentDeath_Weapons_name" rel_version="Bundle_Weapons_SilentDeath">Szept Zabójcy – paczka broni</string>
+	<string key="Bundle_PR_LaunchPets_name" rel_version="Bundle_Pets_LaunchPets">Futrzani przyjaciele</string>
+	<string key="Bundle_PR_LegendaryToolsets_name" rel_version="Bundle_Toolsets_Legendary">Legendarne narzędzia</string>
+	<string key="Bundle_PR_SilentDeath_Apparel_description" rel_version="Bundle_Apparel_SilentDeath">"Prześladuj swoich wrogów ze świadomością, że gdy zdadzą sobie sprawę z twojej obecności, będzie już dla nich za późno".</string>
+	<string key="Bundle_PR_SilentDeath_Weapons_description" rel_version="Bundle_Weapons_SilentDeath">"Narzędzia należące do kogoś, kto był wręcz fanatycznie oddany idei odbierania życia".</string>
+	<string key="Bundle_PR_LaunchPets_description" rel_version="Bundle_Pets_LaunchPets">"Każdy potrzebuje towarzystwa na tej plugawej, okrutnej wyspie. Zaproś tych czworonożnych przyjaciół do domu".</string>
+	<string key="Bundle_PR_LegendaryToolsets_description" rel_version="Bundle_Toolsets_Legendary">"Te misterne narzędzia dają świadectwo twego talentu, gdy wykonujesz ciężką pracę potrzebną do zbudowania fortuny".</string>
+	<string key="Apparel_SilentDeath_L_name" rel_version="Apparel_SilentDeath_L">Ćwiekowany prześladowca</string>
+	<string key="Apparel_SilentDeath_L_description" rel_version="Apparel_SilentDeath_L">"Pancerz wykonany z najlepszej ćwiekowanej skóry na Aeternum. Zapewnia solidną ochronę i pozwala poruszać się po cichu".</string>
+	<string key="Apparel_SilentDeath_M_name" rel_version="Apparel_SilentDeath_M">Metalowy kruk</string>
+	<string key="Apparel_SilentDeath_M_description" rel_version="Apparel_SilentDeath_M">"To, co początkowo przypomina wielkiego ptaka pędzącego w twoją stronę, będzie twą zgubą".</string>
+	<string key="Apparel_SilentDeath_H_name" rel_version="Apparel_SilentDeath_H">Strach Wcielony</string>
+	<string key="Apparel_SilentDeath_H_description" rel_version="Apparel_SilentDeath_H">"Twój najgorszy koszmar ożył i nawiedza Aeternum".</string>
+	<string key="Bundle_Tool_SilentDeath_name" rel_version="ToolSkins_SilentDeath_MTX">Narzędzia zabójcy</string>
+	<string key="Bundle_Tool_SilentDeath_description" rel_version="ToolSkins_SilentDeath_MTX">"Ci, którzy trudnią się mrocznym fachem, zbierają zasoby pod osłoną nocy".</string>
+	<string key="Bundle_Decor_ClassicRPG_name" rel_version="Housing_RPG_MTX_Pack_2022">Smoczy skarb – pakiet dekoracji</string>
+	<string key="Bundle_Decor_ClassicRPG_description" rel_version="Housing_RPG_MTX_Pack_2022">"Przypomina o wspaniałym życiu poszukiwacza przygód".</string>
 </resources>
 

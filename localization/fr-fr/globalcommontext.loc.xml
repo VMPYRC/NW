@@ -118,6 +118,7 @@
 	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Lorsque le décompte prend fin, le joueur dont la santé est la plus faible est affecté par Combustible.</string>
 	<string key="ui_affliction_mutcurse4" rel_version="Feature_Dungeon_Mutators">résistance vengeresse</string>
 	<string key="ui_affliction_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Une fois que vous n'avez plus de résistance, une zone de silence est lancée sur vous. La zone finira par exploser en infligeant des dégâts aux joueurs. La résistance est partagée entre tous les membres de votre groupe.</string>
+	<string key="ui_affliction_mutcurse2" rel_version="Feature_Dungeon_Mutators_pt2">résistance épuisée</string>
 	<string key="ui_affliction_mutcurse2_tooltip" rel_version="Feature_Dungeon_Mutators">Une fois que vous n'avez plus de résistance, une zone d'épuisement est lancée sur vous, ce qui ralentit vos mouvements et augmente tous les dégâts que vous subissez. L'utilisation de capacités augmente la résistance. La résistance est partagée entre tous les membres de votre groupe.</string>
 	<string key="ui_afflicted_bleeding">blessé</string>
 	<string key="ui_afflicted_bleeding_tooltip">Si vous êtes blessé, votre vitalité remonte bien plus lentement.</string>
@@ -231,8 +232,8 @@
 	<string key="ui_company_name_input">Nommez votre compagnie</string>
 	<string key="ui_customize_company_information">Ces paramètres peuvent être modifiés à tout moment.</string>
 	<string key="ui_no_points_spent">Aucun point dépensé</string>
-	<string key="ui_commit_1_point">Investir &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt; 1 &lt;/font&gt; point</string>
-	<string key="ui_commit_points">Investir &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt; {points} &lt;/font&gt; points</string>
+	<string key="ui_commit_1_point">Assigner &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt; 1 &lt;/font&gt; point</string>
+	<string key="ui_commit_points">Assigner &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt; {points} &lt;/font&gt; points</string>
 	<string key="ui_abilities_on_cooldown">Capacités en cours de recharge</string>
 	<string key="ui_abilities_in_combat">En combat</string>
 	<string key="ui_componentname">Nom du composant</string>
@@ -261,6 +262,8 @@
 	<string key="ui_twitch_reward_notification">Récompenses de Twitch</string>
 	<string key="ui_twitch_reward_text">Vous avez reçu un drop.</string>
 	<string key="ui_twitch_reward_view">Voir la ou les récompenses</string>
+	<string key="ui_prime_reward_notification">Récompense Prime Gaming</string>
+	<string key="ui_prime_reward_text">Vous avez reçu un objet Prime Gaming.</string>
 	<string key="ui_createnewcharacter">CRÉER NOUVEAU PERSONNAGE</string>
 	<string key="ui_crest">Armoiries</string>
 	<string key="ui_crest_emblem">Symbole d'armoiries</string>
@@ -280,6 +283,8 @@
 	<string key="ui_days_with_time_short">{time}j</string>
 	<string key="ui_day_with_time">1 jour</string>
 	<string key="ui_day_with_time_short">1j</string>
+	<string key="ui_lessthan_day_with_time">Moins d'un jour</string>
+	<string key="ui_lessthan_day_with_time_short">&lt; 1 j</string>
 	<string key="ui_hour_with_time">1 heure</string>
 	<string key="ui_hour_with_time_short">1h</string>
 	<string key="ui_minute_with_time">1 minute</string>
@@ -299,6 +304,7 @@
 	<string key="ui_hourago">une heure</string>
 	<string key="ui_hoursago">{time} heures</string>
 	<string key="ui_dayago">un jour</string>
+	<string key="ui_lessthan_dayago">Il y a &lt; 1 jour</string>
 	<string key="ui_daysago">{time} jours</string>
 	<string key="ui_morethanoneyear">plus d'un an</string>
 	<string key="ui_morethanoneyearago">plus d'un an</string>
@@ -445,6 +451,7 @@
 	<string key="ui_interactdetailed">Interaction 2</string>
 	<string key="ui_inventory">Inventaire</string>
 	<string key="ui_inventoryfull">Inventaire plein</string>
+	<string key="ui_inventory_warning_toofullforrewards">Trop d'objets dans votre inventaire pour obtenir des récompenses.</string>
 	<string key="ui_inventoryslotsremaining">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{count}&lt;/font&gt; emplacements d'inventaire restants</string>
 	<string key="ui_inventoryweightremaining">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{Weight}&lt;/font&gt; livres restantes</string>
 	<string key="ui_inventoryMaxWeight">Limite de poids transportable atteinte</string>
@@ -579,7 +586,7 @@
 	<string key="ui_ability_locked_error">La capacité doit être déverrouillée pour pouvoir être utilisée.</string>
 	<string key="ui_ability_cooldown_error">Impossible de changer les capacités jusqu'à la fin du temps de recharge.</string>
 	<string key="ui_ability_combat_error">Impossible de changer de capacité en combat</string>
-	<string key="ui_ability_points_combat_error">Impossible d'investir des points en combat</string>
+	<string key="ui_ability_points_combat_error">Impossible d'assigner des points en combat</string>
 	<string key="ui_respec_cooldown_error">Ne peut pas être réinit. lorsque les capacités se rechargent</string>
 	<string key="ui_respec_combat_error">Réinitialisation impossible en combat</string>
 	<string key="ui_equipment_cooldown_error">Impossible de changer d'équipement pendant le temps de recharge des capacités.</string>
@@ -636,11 +643,6 @@
 	<string key="ui_quickslot_skinning_tooltip">Emplacement de couteau à dépecer</string>
 	<string key="ui_quickslot_pickaxe_tooltip">Emplacement de pioche de mineur</string>
 	<string key="ui_quickslot_azoth_tooltip">Emplacement de bâton d'Azoth</string>
-	<string key="ui_quickslot_flute_tooltip" rel_version="Feature_MusicalPerformances">Emplacement de flûte</string>
-	<string key="ui_quickslot_guitar_tooltip" rel_version="Feature_MusicalPerformances">Emplacement de guitare</string>
-	<string key="ui_quickslot_mandolin_tooltip" rel_version="Feature_MusicalPerformances">Emplacement de mandoline</string>
-	<string key="ui_quickslot_bass_tooltip" rel_version="Feature_MusicalPerformances">Emplacement de contrebasse</string>
-	<string key="ui_quickslot_drums_tooltip" rel_version="Feature_MusicalPerformances">Emplacement des tambours</string>
 	<string key="ui_buildmode_grid">CONSTRUCTION</string>
 	<string key="ui_wave">Saluer</string>
 	<string key="ui_inspect_player">Actions sociales</string>
@@ -766,7 +768,7 @@
 	<string key="ui_tesat">tsetsdr</string>
 	<string key="ui_killed_notification">Vous avez vaincu {playerName} au combat.</string>
 	<string key="ui_downed_notification">Vous avez mis à terre {playerName}.</string>
-	<string key="ui_activate_arena">Activer l'arène</string>
+	<string key="ui_activate_arena">Activer épreuve</string>
 	<string key="ui_theyareinthegreen">Ils sont dans le vert.</string>
 	<string key="ui_timedays">Jours</string>
 	<string key="ui_timehours">Heures</string>
@@ -902,17 +904,19 @@
 	<string key="ui_xp">EXP</string>
 	<string key="ui_player_xp">EXP de joueur</string>
 	<string key="ui_player_xp_desc">L'EXP de joueur permet de faire progresser le niveau de votre personnage.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Obtenue via :&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; achèvement de missions, artisanat, élimination d'ennemis, participation à des événements&lt;/font&gt;</string>
+	<string key="ui_pvp_xp" rel_version="PvP_Rewards_Track">EXP JCJ</string>
 	<string key="ui_xp_boost">Boost d'EXP</string>
 	<string key="ui_xp_event_title">BOOST D'EXP !</string>
 	<string key="ui_xp_event_desc">Un boost d'EXP spécial est actif dans ce monde !</string>
 	<string key="ui_xp_event_modal_title">BOOST D'EXP ACTIVÉ !</string>
 	<string key="ui_xp_event_modal_desc">Profitez de ce superbe avantage que vous confère le boost d'EXP ! Saisissez cette chance pour augmenter le niveau de vos personnages !\nLe boost est valable sur :</string>
-	<string key="ui_xp_event_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;EXP (x {amount})&lt;/font&gt;</string>
-	<string key="ui_xp_event_tradeskill_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Compétence de métier (x {amount})&lt;/font&gt;</string>
-	<string key="ui_xp_event_weaponmastery_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Maîtrise des armes (x {amount})&lt;/font&gt;</string>
-	<string key="ui_xp_event_progression_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;{progressionName} (x {amount})&lt;/font&gt;</string>
+	<string key="ui_xp_event_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;EXP (x {amount})&lt;/font&gt;</string>
+	<string key="ui_xp_event_tradeskill_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Compétence de métier (x {amount})&lt;/font&gt;</string>
+	<string key="ui_xp_event_weaponmastery_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Maîtrise des armes (x {amount})&lt;/font&gt;</string>
+	<string key="ui_xp_event_progression_xp">{progressionName} (x {amount})</string>
 	<string key="ui_xp_boost_reminder" comment="The leading space is intentional"> (x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
 	<string key="ui_xp_multiplier_arrow" comment="The leading space is intentional"> x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_reached_max_daily_pvp_arena_rewards">Limite de sel d'arène JcJ quotidienne atteinte !</string>
 	<string key="world_landing_title">Le MONDE optimal a été sélectionné pour vous.</string>
 	<string key="world_set">Ensemble de mondes</string>
 	<string key="world_set_title">Qu'est-ce qu'un ensemble de mondes ?</string>
@@ -1747,17 +1751,17 @@
 	<string key="ui_territory_standing_with_icon">Réputation de {territoryName}</string>
 	<string key="ui_redeem_a_reward">REVENDIQUEZ VOTRE RÉCOMPENSE</string>
 	<string key="ui_not_enough_faction_standing">Vous n'avez pas assez de points de réputation pour obtenir une récompense de territoire.</string>
-	<string key="ui_exit_arena_title">Quitter l'arène ?</string>
-	<string key="ui_exit_arena_desc">Si vous abandonnez une arène, vous ne pourrez plus y entrer et perdrez les récompenses. \n Vous allez être téléporté en dehors de l'arène.</string>
+	<string key="ui_exit_arena_title">Quitter l'épreuve ?</string>
+	<string key="ui_exit_arena_desc">Si vous abandonnez une épreuve, vous ne pourrez plus y entrer et perdrez les récompenses. \n Cela vous téléportera hors de l'épreuve.</string>
 	<string key="ui_giveup_arena_header">Immobilisé</string>
 	<string key="ui_giveup_arena_desc">Vous ne saignerez pas pendant la durée de l'effet.</string>
-	<string key="ui_arena_leave">Quitter l'arène</string>
-	<string key="ui_arena_title">Arène de {monstername}</string>
+	<string key="ui_arena_leave">Quitter l'épreuve</string>
+	<string key="ui_arena_title">Épreuve {monstername}</string>
 	<string key="ui_how_to_play">Détails</string>
 	<string key="ui_required_to_active">Conditions nécessaires</string>
-	<string key="ui_arena_time_remaining">Temps restant pour entrer dans l'arène</string>
-	<string key="ui_arena_occupied">Un groupe est déjà au combat dans l'arène.</string>
-	<string key="ui_arena_description">Réunissez un groupe devant l'entrée pour entrer dans l'arène.&lt;font color="#ffffff"&gt;Un seul groupe dans l'arène à la fois.&lt;/font&gt;\n\nRéapparition désactivée dans l'arène. Impossible de bouger après une mise à terre.</string>
+	<string key="ui_arena_time_remaining">Temps restant pour entrer dans l'épreuve</string>
+	<string key="ui_arena_occupied">Un groupe est déjà au combat dans l'épreuve.</string>
+	<string key="ui_arena_description">Réunissez un groupe devant l'entrée pour pénétrer dans l'épreuve.&lt;font color="#ffffff"&gt;Un seul groupe dans l'épreuve à la fois.&lt;/font&gt;\n\nRéapparition désactivée dans l'épreuve. Impossible de bouger après une mise à terre.</string>
 	<string key="ui_arena_objective">Vous avez &lt;font color="#ffffff"&gt;15 minutes&lt;/font&gt; pour défier et venir à bout de : {monstername}.</string>
 	<string key="ui_arena_item_reward">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt; {itemname}&lt;/font&gt;</string>
 	<string key="AwardAngryEarthEvent_MasterName">Cache d'équipement de la Terre enragée</string>
@@ -1771,7 +1775,7 @@
 	<string key="ui_exit_dungeon_title">Quitter l'expédition ?</string>
 	<string key="ui_dungeon_exit">Portail de sortie de l'expédition</string>
 	<string key="ui_exit_dungeon_desc">Vous allez vous téléporter à l'extérieur de l'expédition.\nVous pourrez y accéder à nouveau jusqu'à sa fermeture.</string>
-	<string key="ui_exit_dungeon_will_close_desc">Vous allez vous téléporter à l'extérieur de l'expédition.\nSi tous les membres de votre groupe quittent l'expédition, elle sera fermée.\n</string>
+	<string key="ui_exit_dungeon_will_close_desc">Vous allez vous téléporter à l'extérieur de l'expédition.\nSi tous les membres de votre groupe quittent l'expédition, elle sera fermée.</string>
 	<string key="ui_exit_dungeon_incombat">Vous ne pouvez pas quitter une expédition si vous avez été récemment en combat. \nVous pourrez partir dans &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt;.</string>
 	<string key="ui_enable_newDamageNumbers">Stats de dégâts flottantes</string>
 	<string key="ui_enable_newDamageNumbers_description">Si cette option est désactivée, les stats de dégâts seront fixées sur la jauge de santé de l'ennemi.</string>
@@ -1826,10 +1830,10 @@
 	<string key="ui_has_resources">Ressources disponibles</string>
 	<string key="ui_deadnotification_title">« VOUS ÊTES MORT. »</string>
 	<string key="ui_deadnotification_body">Avant de réagir à la notification, vous devez réapparaître.</string>
-	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Santé\n{currentValue}/{maxValue}\n\nIl s'agit de votre santé. Si elle est épuisée, vous franchirez les portes de la mort. Les joueurs alliés ont la possibilité de vous ranimer lorsque vous vous trouvez dans cet état d'incapacité.\n\nConsommez des teintures mères pour regagner rapidement de la santé, et de la nourriture pour la récupérer progressivement après une augmentation rapide et immédiate.\n\nAméliorez votre forme pour augmenter votre santé max.</string>
+	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Santé\n{currentValue} / {maxValue}\n\nPour &lt;font color="#ffe940"&gt;récupérer&lt;/font&gt; de la santé\n- Consommez des teintures pour en regagner rapidement ;\n- Consommez de la nourriture pour en récupérer progressivement après une augmentation immédiate ;\n\nAméliorez votre &lt;font color="#ffe940"&gt;forme&lt;/font&gt; pour augmenter votre santé max.</string>
 	<string key="ui_vitals_stamina_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Vitalité\n{currentValue}/{maxValue}\n\nLes actions défensives comme la parade ou l'esquive consomment votre Vitalité. Si vous n'en avez plus, vous ne pourrez plus effectuer ces actions et devez attendre qu'elle se recharge.\n\nLa Vitalité se régénère progressivement toute seule, sauf si vous sprintez ou attaquez.</string>
 	<string key="ui_vitals_mana_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Mana\n{currentValue}/{maxValue}\n\nUne ressource mystérieuse indispensable pour la pratique de la magie. Si vous en manquez, vous serez dans l'incapacité d'utiliser certaines capacités surnaturelles.\n\nLe mana se régénère avec le temps.</string>
-	<string key="ui_vitals_mana_rate_tooltip">Le mana se régénère avec le temps.</string>
+	<string key="ui_vitals_mana_rate_tooltip">Le mana se régénère progressivement.\n\nAugmentez la vitesse de régénération du mana en améliorant la concentration à &lt;font color="#ffe940"&gt;50&lt;/font&gt;.</string>
 	<string key="ui_vitals_cooldown_tooltip">Compte à rebours avant de pouvoir utiliser à nouveau une capacité.</string>
 	<string key="ui_vitals_food_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Nourriture\n{currentValue}/{maxValue}\n\nMangez pour améliorer la vitesse de régénération de la santé. Si vous avez trop faim, vous ne pouvez plus guérir du tout !\n\nLa faim ne retire pas de santé. Elle n'affecte que sa vitesse de régénération.</string>
 	<string key="ui_vitals_drink_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Boisson\n{currentValue}/{maxValue}\n\nHydratez-vous pour régénérer plus rapidement votre vitalité. Si vous avez trop soif, vous perdez en efficacité.\n\nLa soif ne retire pas de vitalité. Elle n'affecte que sa vitesse de régénération.</string>
@@ -1897,6 +1901,12 @@
 	<string key="ui_reputation_warning_title">Attention : limite de Réputation</string>
 	<string key="ui_reputation_warning_desc">Vous avez presque atteint votre limite de points de Réputation : {amount}/{maxAmount}</string>
 	<string key="ui_reputation_max_tooltip">Limite de points de Réputation : {amount}</string>
+	<string key="ui_azoth_salt_max_title" rel_version="PvP_Rewards_Track">Sel d'Azoth maximum</string>
+	<string key="ui_azoth_salt_max_desc" rel_version="PvP_Rewards_Track">Vous avez atteint le plafond de sel d'Azoth. Tout excédent de sel d'Azoth sera perdu.</string>
+	<string key="ui_azoth_salt_warning_title" rel_version="PvP_Rewards_Track">Attention, plafond de sel d'Azoth atteint</string>
+	<string key="ui_azoth_salt_warning_desc" rel_version="PvP_Rewards_Track">Vous avez presque atteint votre limite de sel d'Azoth : {amount}/{maxAmount}</string>
+	<string key="ui_azoth_salt_max_tooltip" rel_version="PvP_Rewards_Track">Vous ne pouvez pas ouvrir ceci car vous avez atteint le plafond de sel d'Azoth.</string>
+	<string key="ui_azoth_salt_open_warning" rel_version="PvP_Rewards_Track">En ouvrant ceci, vous atteindrez le plafond de sel d'Azoth. Tout excédent de sel d'Azoth sera perdu.</string>
 	<string key="ui_tokens_max_title">Maximum de jetons</string>
 	<string key="ui_tokens_max_desc">Vous avez atteint la limite de jetons de faction. Les jetons de faction en trop seront perdus.</string>
 	<string key="ui_tokens_warning_title">Attention : limite de jetons</string>
@@ -2058,7 +2068,7 @@
 	<string key="ui_sickle">Faucille</string>
 	<string key="ui_skinningknife">Couteau à dépecer</string>
 	<string key="ui_camp_reconnect_failed">Votre bivouac a été abandonné. En installer un nouveau.</string>
-	<string key="ui_weapon_mastery_respec_warning">Voulez-vous vraiment réinitialiser cette arme ?\n\nCoût : {azoth}&lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_weapon_mastery_respec_warning">Voulez-vous vraiment réinitialiser cette arme ?\n\nCoût : {azoth}&lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.4" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_weapon_mastery_insufficient_azoth">Vous n'avez pas assez d'Azoth.</string>
 	<string key="ui_you_have_unlocked">Vous avez déverrouillé</string>
 	<string key="ui_you_have_earned">Vous avez obtenu :</string>
@@ -2067,6 +2077,29 @@
 	<string key="ui_now_track_banner">Vous pouvez désormais localiser : {resourceName}.</string>
 	<string key="ui_now_gather">Vous pouvez désormais exploiter</string>
 	<string key="ui_standing_up">Réputation accrue</string>
+	<string key="hwm_loot_head">Expertise : tête</string>
+	<string key="hwm_loot_chest">Expertise : poitrine</string>
+	<string key="hwm_loot_hands">Expertise : mains</string>
+	<string key="hwm_loot_legs">Expertise : jambes</string>
+	<string key="hwm_loot_feet">Expertise : pieds</string>
+	<string key="hwm_loot_amulet">Expertise : amulette</string>
+	<string key="hwm_loot_ring">Expertise : anneau</string>
+	<string key="hwm_loot_token">Expertise : jeton</string>
+	<string key="hwm_loot_sword">Expertise : épée</string>
+	<string key="hwm_loot_hatchet">Expertise : hachette</string>
+	<string key="hwm_loot_2h_hammer">Expertise : marteau d'armes</string>
+	<string key="hwm_loot_2h_axe">Expertise : hache double</string>
+	<string key="hwm_loot_bow">Expertise : arc</string>
+	<string key="hwm_loot_musket">Expertise : mousquet</string>
+	<string key="hwm_loot_shield">Expertise : bouclier</string>
+	<string key="hwm_loot_fire_staff">Expertise : bâton de feu</string>
+	<string key="hwm_loot_life_staff">Expertise : bâton de vie</string>
+	<string key="hwm_loot_rapier">Expertise : rapière</string>
+	<string key="hwm_loot_spear">Expertise : lance</string>
+	<string key="hwm_loot_ice_magic">Expertise : magie de glace</string>
+	<string key="hwm_loot_void_gauntlet">Expertise : gantelets du néant</string>
+	<string key="hwm_loot_blunderbuss">Expertise : tromblon</string>
+	<string key="hwm_loot_greatsword">Expertise : épée longue</string>
 	<string key="ui_time_display">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt; ({timezone})</string>
 	<string key="ui_clusterwarning_title">JOUER DANS {worldName}</string>
 	<string key="ui_clusterwarning_warning">&lt;font color={colorHex1}&gt;Vous ne pouvez avoir que 1 personnage dans l'&lt;/font&gt; &lt;font face="lyshineui/fonts/nimbus_bold.font"&gt;&lt;font color={colorHex2}&gt;{worldSetName}ensemble de monde&lt;/font&gt;&lt;/font&gt;&lt;font color={colorHex1}&gt;.&lt;/font&gt;</string>
@@ -2114,7 +2147,7 @@
 	<string key="ui_merge_world">Monde</string>
 	<string key="ui_merge_character">Personnage</string>
 	<string key="ui_merge_time">Temps restant</string>
-	<string key="ui_freeweekend_worldwarning_title">Mondes du week-end gratuits</string>
+	<string key="ui_freeweekend_worldwarning_title">Week-end mondes gratuits</string>
 	<string key="ui_freeweekend_worldwarning_desc">Sélectionnez le monde dans lequel vous voulez jouer pendant le week-end gratuit. Les mondes qui ne sont pas marqués comme gratuits disposent de sessions limitées étendues chaque {time} s'il n'y a pas de joueurs payants dans la file d'attente.</string>
 	<string key="ui_queue_depth">Joueurs dans la file : &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{numplayers}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_expected_wait_time">Temps d'attente estimé : &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;&lt;/font&gt;</string>
@@ -2285,7 +2318,6 @@
 	<string key="ui_itemtypedescription_bow">Arc</string>
 	<string key="ui_itemtypedescription_musket">Mousquet</string>
 	<string key="ui_itemtypedescription_blunderbuss" rel_version="Weapon_Blunderbuss">Tromblon</string>
-	<string key="ui_itemtypedescription_greatsword" rel_version="Weapon_GreatSword">Épée longue</string>
 	<string key="ui_itemtypedescription_pistol">Pistolet</string>
 	<string key="ui_itemtypedescription_lifestaff">Bâton de vie</string>
 	<string key="ui_itemtypedescription_firestaff">Bâton de feu</string>
@@ -2362,10 +2394,10 @@
 	<string key="ui_number_range">{lowNumber} - {highNumber}</string>
 	<string key="ui_recommended_level_range">Niveau recommandé : {lowNumber} - {highNumber}</string>
 	<string key="ui_cannot_trade_currency_blocked">Impossible d'échanger de la monnaie avant d'atteindre le niveau {level} et un compte de plus de {hoursNeeded} heures.</string>
+	<string key="ui_treasury_purchase_nw">Achetez New World pour utiliser la trésorerie de la compagnie</string>
 	<string key="ui_cannot_chat_global_blocked">Impossible de discuter dans ce canal avec un compte de moins de {hoursNeeded} heures et un temps de jeu de moins de {playtimeNeeded}.</string>
 	<string key="ui_complete_quests_to_unlock">Déverrouillé en terminant des quêtes dans la colonie.</string>
 	<string key="ui_cannot_chat_trading_blocked">Pour accéder à ce canal, votre compte doit avoir au moins {hoursNeeded} au compteur, votre temps de jeu doit être supérieur à {playtimeNeeded} et le comptoir doit être déverrouillé.</string>
-	<string key="ui_treasury_purchase_nw">Achetez New World pour utiliser la trésorerie de l'entreprise</string>
 	<string key="ui_averageexpertise">Expertise\nmoyenne</string>
 	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Expertise&lt;/font&gt;\nL'expertise permet de mesurer la puissance maximum d'un objet lorsque vous vous en équipez.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Expertise max que vous pouvez atteindre&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Comment améliorer l'expertise&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Des lieux remarquables et des expéditions d'élite&lt;/font&gt;\nDes objets octroyés par des créatures ou trouvés dans des coffres dans les zones de niveau 60 et plus ont une probabilité d'augmenter cette valeur.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Fabrication&lt;/font&gt;\nFabriquer un objet dont le score d'équipement est de 600 augmentera l'expertise de ce type d'objet.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Moule en gypse&lt;/font&gt;\nOuvrir un moule en gypse augmente l'expertise.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Amélioration d'objets (avec des éclats sombres)&lt;/font&gt;\nAprès avoir atteint une expertise de 600, le seul moyen d'augmenter davantage celle-ci est d'améliorer des objets avec des éclats sombres.</string>
 	<string key="ui_itemtypedescription_shield_only">Bouclier</string>
@@ -2388,5 +2420,7 @@
 	<string key="ui_fishing_hotspot_active">Zone de pêche active</string>
 	<string key="ui_fishing_hotspot_depleted_body">Une zone de pêche s'épuise après un certain nombre de poissons pêchés. Une zone de pêche est épuisée lorsqu'il n'y a plus de poissons qui en bondissent. Une zone de pêche épuisée redevient active au bout d'un certain temps.</string>
 	<string key="ui_fishing_hotspot_active_body">Une zone de pêche active est reconnaissable à ses poissons qui en bondissent. Quand celle-ci est active, lancez-y votre ligne. Vous verrez que ça mordra plus rapidement et vous pourrez pêcher des poissons plus rares. Lorsque vous lancez correctement votre ligne, une petite alerte vous indique que vous êtes bien dans la zone de pêche.</string>
+	<string key="ui_event_token_disappears">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#cca000"&gt;Les jetons disparaîtront à la fin de l'événement.&lt;/font&gt;</string>
+	<string key="ui_event_time_left">&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Fin de l'événement dans : &lt;font color="#cca000"&gt;{timeLeft}&lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" xPadding="0" scale="1.1" yOffset="2"&gt;&lt;/img&gt;&lt;/font&gt;&lt;/font&gt;</string>
 </resources>
 

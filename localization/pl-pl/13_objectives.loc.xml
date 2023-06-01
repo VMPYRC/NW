@@ -113,7 +113,7 @@
 	<string key="1322_1316_ReprieveforRestless_Description" speaker="UI">Porozmawiaj z karczmarzem Tomaso w Niespokojnych Brzegach, by dowiedzieć się, co trapi mieszkańców.</string>
 	<string key="1322_1316_ReprieveforRestless_Prompt" speaker="UI - Player Prompt">"Co się tam dzieje?"</string>
 	<string key="1322_1316_ReprieveforRestless_Proposal" speaker="Innkeep Kaya - Weaver's Fen" name="InnkeepKaya" VO="Innkeep_1322_1316_ReprieveforRestless_ProposalResponse" VO_Status="Recorded">Z tego, co wiem, czyste szaleństwo. Zwierzęta chodzące na dwóch nogach… frakcje zagubionych toczące między sobą wojnę.\n\nNie wierzysz mi? Przekonaj się o tym na własne oczy – powiedz karczmarzowi Tomaso, że to ja cię przysłałam.</string>
-	<string key="1322_1316_ReprieveforRestless_Incomplete" speaker="Innkeep Kaya - Weaver's Fen" name="InnkeepKaya" VO="Innkeep_1322_1316_ReprieveforRestless_InProgResponse" VO_Status="Recorded">Mówię ci, po tym, co usłyszałam w Niespokojnych Brzegach, cieszę się, że mieszkam na Tkackich Mokradłach!</string>
+	<string key="1322_1316_ReprieveforRestless_Incomplete" speaker="Innkeep Kaya - Weaver's Fen" name="InnkeepKaya" VO="Innkeep_1322_1316_ReprieveforRestless_InProgResponse" VO_Status="Needs Re-recording in all languages except English.">Mówię ci, po tym, co usłyszałam w Niespokojnych Brzegach, cieszę się, że mieszkam na Tkackich Mokradłach!</string>
 	<string key="1322_1316_ReprieveforRestless_Complete" speaker="Innkeep Tomaso - Restless Shore" name="InnkeepTomaso" VO="Innkeep_1322_1316_ReprieveforRestless_AvailResponse" VO_Status="Recorded" dialogue-next="@1322_1316_ReprieveforRestless_Complete_next">Właśnie przybywasz z Tkackich Mokradeł, prawda? Słyszałem, że ta tajemnicza choroba w końcu zaczęła odpuszczać. \n\nWreszcie jakieś dobre wieści. Tutaj dzieje się znacznie gorzej.</string>
 	<string key="1322_1316_ReprieveforRestless_Complete_prompt" speaker="UI - Player Prompt">"Ponoć jest trochę dziwnie".</string>
 	<string key="1322_1316_ReprieveforRestless_Complete_next" speaker="Innkeep Tomaso - Restless Shore" name="InnkeepTomaso" VO="Innkeep_1322_1316_ReprieveforRestless_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1322_1316_ReprieveforRestless_Complete_prompt">Dziwnie? W Niespokojnych Brzegach sprawy posunęły się już o wiele dalej. Ale nie mnie o tym opowiadać.\n\nPorozmawiaj z Wilson albo nawet z Muller. Pozwolę im wprawić cię w osłupienie.</string>
@@ -269,9 +269,9 @@
 	<string key="1334_0201_olfactoryoptimization_complete_prompt" speaker="UI - Player Prompt">"Ten aromat jest… zaskakujący!"</string>
 	<string key="1334_0201_olfactoryoptimization_complete_next" speaker="Tullius Volusus" name="TulliusVolusus" VO="1334_0201_olfactoryoptimization_complete_next" VO_Status="Recorded" dialogue-prompt="@1334_0201_olfactoryoptimization_complete_prompt">Prawda? Ha! Gdyby tylko damy z Nowej Korsyki wiedziały, co wcierają sobie w nadgarstki.\n\nPerfumy są niczym życie. Całość to coś więcej niż suma składników. Dziękuję ci za pomoc.</string>
 	<string key="1334_0201_d_00_01a_GiveRecipe" speaker="UI">Weź: {itemName}</string>
-	<string key="1334_0201_d_01_a_Gather_Spores" speaker="UI">Zbierz: {itemName} z mamrotnicy w północnych Tkackich Mokradłach</string>
-	<string key="1334_0201_d_01_b_Skin_ElkGland" speaker="UI">Zdobądź: {itemName} od rogaczy w północnych Tkackich Mokradłach</string>
-	<string key="1334_0201_d_01_c_Loot_Chests_Laudanum" speaker="UI">Zabierz: {itemName} ze skrzyń w osadzie Fentona</string>
+	<string key="1334_0201_d_01_a_Gather_Spores" speaker="UI">Zbierz: {itemName} z mamrotnicy w północnych Tkackich Mokradłach</string>
+	<string key="1334_0201_d_01_b_Skin_ElkGland" speaker="UI">Zdobądź: {itemName} od rogaczy w północnych Tkackich Mokradłach (wymagany 85. poziom skórowania)</string>
+	<string key="1334_0201_d_01_c_Loot_Chests_Laudanum" speaker="UI">Zabierz: {itemName} ze skrzyń w osadzie Fentona</string>
 	<string key="1334_0201_d_02_01_InteractOutfitterStation" speaker="UI">Skorzystaj z repozytorium arkanistycznego</string>
 	<string key="1334_0201_d_02_02_HavePerfume" speaker="UI">Wytwórz: {itemName} w repozytorium arkanistycznym</string>
 	<string key="1335_0201_misplacedtreasure_title" speaker="UI - Quest Title">Zagubiony skarb</string>

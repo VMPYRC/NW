@@ -57,13 +57,13 @@
 	<string key="owg_factionwarinfo_header_4" comment="PVP=Player vs Player">Activación de la marca de PvP</string>
 	<string key="owg_factionwarinfo_header_5">Unirse a la facción</string>
 	<string key="owg_factionwarinfo_title_1">¿Por qué unirse a una facción?</string>
-	<string key="owg_factionwarinfo_title_1_desc_1">Participa en misiones de facción especiales</string>
+	<string key="owg_factionwarinfo_title_1_desc_1">Participar en misiones de la facción</string>
 	<string key="owg_factionwarinfo_title_1_desc_1_bullet_1">Completa misiones para conseguir &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;EXP&lt;/font&gt;, &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;monedas&lt;/font&gt; y &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;blasones de facción&lt;/font&gt;.</string>
 	<string key="owg_factionwarinfo_title_1_desc_1_bullet_2">Gana influencia para determinar el control del territorio</string>
-	<string key="owg_factionwarinfo_title_1_desc_1_bullet_3">Compite estratégicamente contra facciones enemigas en misiones de PvP</string>
+	<string key="owg_factionwarinfo_title_1_desc_1_bullet_3">Compite contra facciones enemigas en misiones de PvP para definir el control del territorio</string>
 	<string key="owg_factionwarinfo_title_1_desc_2">Obtén equipo de facción de élite</string>
 	<string key="owg_factionwarinfo_title_1_desc_2_bullet_1">Gasta blasones de facción para obtener armas, armaduras y consumibles especiales</string>
-	<string key="owg_factionwarinfo_title_1_desc_2_bullet_2">Sube de rango para desbloquear clases y componentes de fabricación avanzados</string>
+	<string key="owg_factionwarinfo_title_1_desc_2_bullet_2">Sube de rango para desbloquear equipo y componentes de fabricación avanzados</string>
 	<string key="owg_factionwarinfo_title_1_desc_3">Disfruta de los beneficios del control del territorio</string>
 	<string key="owg_factionwarinfo_title_1_desc_3_bullet_1">Reducción del costo de los talleres de ingeniería y del viaje rápido</string>
 	<string key="owg_factionwarinfo_title_1_desc_3_bullet_2">Completa misiones de pueblo para mejorar el asentamiento</string>
@@ -78,24 +78,34 @@
 	<string key="owg_factionwarinfo_title_2_desc_2_bullet_3">Las facciones rivales pueden &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;debilitar&lt;/font&gt; el control de las facciones enemigas completando misiones de facción PvP</string>
 	<string key="owg_factionwarinfo_title_2_desc_2_bullet_4">Consigue suficiente influencia para disputar el control del territorio mediante una declaración de guerra</string>
 	<string key="owg_factionwarinfo_title_2_desc_3">Guerra de facciones</string>
-	<string key="owg_factionwarinfo_title_2_desc_3_bullet_1">Combate de asedio de &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{maxRosterMembers} jugadores de cada lado&lt;/font&gt; en la fortaleza de un territorio.</string>
-	<string key="owg_factionwarinfo_title_2_desc_3_bullet_2">Utiliza diversas &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;armas de asedio&lt;/font&gt; para aventajar a tus oponentes.</string>
-	<string key="owg_factionwarinfo_title_2_desc_3_bullet_3">El objetivo del atacante es conquistar el punto de captura que está en el &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;corazón de la fortaleza&lt;/font&gt;.</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_1">Combate de asedio de &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{maxRosterMembers} v {maxRosterMembers} jugadores&lt;/font&gt; de cada lado en el fuerte de un territorio.</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_2">El ganador define quién controla el territorio</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_3">El objetivo del atacante es &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;conquistar el punto de captura que está en el corazón de la fortaleza&lt;/font&gt;.</string>
 	<string key="owg_factionwarinfo_title_2_desc_3_bullet_4">El objetivo del defensor es &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;repeler a los atacantes durante 30 minutos&lt;/font&gt;.</string>
 	<string key="owg_factionwarinfo_title_3">Control de territorios</string>
 	<string key="owg_factionwarinfo_title_3_desc_1">Influencia en el territorio</string>
-	<string key="owg_factionwarinfo_title_3_desc_1_bullet_1">La influencia en el territorio es una medida del control de la facción sobre un territorio.</string>
-	<string key="owg_factionwarinfo_title_3_desc_1_bullet_2">Completa &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;misiones PvP de facciones&lt;/font&gt; para mantener el control sobre un territorio.</string>
-	<string key="owg_factionwarinfo_title_3_desc_1_bullet_3">Las facciones que no controlan cierto territorio deben completar misiones PvP de facciones para poder declarar la guerra.</string>
+	<string key="owg_factionwarinfo_title_3_desc_1_bullet_1">La &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;influencia en el territorio&lt;/font&gt; es una medida del control de la facción sobre un territorio.</string>
+	<string key="owg_factionwarinfo_title_3_desc_1_bullet_2">Las facciones pueden obtener &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Influencia en el territorio&lt;/font&gt; por completar &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;misiones de la facción en PvP&lt;/font&gt; y controlar el &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;fuerte del territorio&lt;/font&gt;</string>
+	<string key="owg_factionwarinfo_title_3_desc_1_bullet_3">Si atacas facciones con un &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;100 % de la influencia en el territorio&lt;/font&gt;, esto puede dar lugar a una &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;declaración de guerra&lt;/font&gt; de la facción que defiende.</string>
 	<string key="owg_factionwarinfo_title_3_desc_2">Refuerza o debilita el territorio de una facción.</string>
 	<string key="owg_factionwarinfo_title_3_desc_2_bullet_1">La facción al control puede &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;reforzar&lt;/font&gt; su dominio completando misiones de facción PvP</string>
 	<string key="owg_factionwarinfo_title_3_desc_2_bullet_2">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Debilita&lt;/font&gt; el control que una facción enemiga tiene sobre otros territorios completando misiones PvP de facciones en sus territorios.</string>
 	<string key="owg_factionwarinfo_title_3_desc_2_bullet_3">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Evita que otras facciones&lt;/font&gt; completen misiones PvP de facciones marcándote para PvP y patrullando el territorio.</string>
 	<string key="owg_factionwarinfo_title_3_desc_2_bullet_4">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Evita que la facción que controla otros territorios&lt;/font&gt; complete misiones PvP de facciones marcándote para PvP y patrullando esos territorios.</string>
 	<string key="owg_factionwarinfo_title_4">activar para PvP</string>
-	<string key="owg_factionwarinfo_title_4_desc_1_bullet_1">Puedes activarte para PvP en cualquier asentamiento o puesto de avanzada (tecla predeterminada: U). Habilitar la marca de PVP te otorga &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;EXP adicional&lt;/font&gt; y &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;una mayor suerte global&lt;/font&gt;</string>
+	<string key="owg_factionwarinfo_title_4_desc_1_bullet_1">Iza tu bandera de PvP (tecla por defecto U) en cualquier santuario, como un asentamiento o un puesto de avanzada.</string>
 	<string key="owg_factionwarinfo_title_4_desc_1_bullet_2">Al salir de un asentamiento, pasarás a estar activo cuando pasen &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;30 segundos&lt;/font&gt;. Pasado ese tiempo, podrás enfrentarte a otros miembros activos de facciones enemigas.</string>
-	<string key="owg_factionwarinfo_title_4_desc_1_bullet_3">Contribuye a la &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;guerra de influencia&lt;/font&gt; para ayudar a tu facción a controlar cada territorio completando misiones de la facción PvP. Mantente alerta para identificar a los jugadores enemigos activos y eliminarlos a fin de evitar que ganen influencia para su facción.</string>
+	<string key="owg_factionwarinfo_title_4_desc_1_bullet_3">Izar tu bandera de PvP te proporciona &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;una bonificación de EXP&lt;/font&gt; y te permite participar en misiones de PvP, controlar fuertes de territorio y pelear contra otros jugadores.</string>
+	<string key="owg_factionwarinfo_title_4_desc_1_bullet_4" rel_version="PvP_Rewards_Track">Puedes progresar en tu pista de recompensas de PvP completando actividades de PvP.</string>
+	<string key="owg_factionwarinfo_title_4_desc_1_bullet_5" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;La sal de azoth se otorgará&lt;/font&gt; cuando las eliminaciones del PvP sucedan fuera de los modos.</string>
+	<string key="owg_factionwarinfo_title_5" rel_version="PvP_Rewards_Track">RECOMPENSA DE PISTA DE PVP</string>
+	<string key="owg_factionwarinfo_title_5_desc_1_bullet_1" rel_version="PvP_Rewards_Track">La pista de recompensas de PvP contiene recompensas específicas de PvP por hacer actividades de PvP en el juego. Esta pista se puede completar y repetir para obtener una variedad de recompensas diferentes. Las recompensas de mayor prestigio estarán disponibles a medida que se completen más pistas.</string>
+	<string key="owg_factionwarinfo_title_5_desc_2" rel_version="PvP_Rewards_Track">EXP DE PVP</string>
+	<string key="owg_factionwarinfo_title_5_desc_2_bullet_1" rel_version="PvP_Rewards_Track">Progresa en la pista por medio de misiones de PvP, guerras, avances de puesto de avanzada, capturas de fuertes, derrotas a otros jugadores, arenas de 3v3 y ganar EXP cuando estés marcado para PvP.</string>
+	<string key="owg_factionwarinfo_title_5_desc_3" rel_version="PvP_Rewards_Track">SAL DE AZOTH</string>
+	<string key="owg_factionwarinfo_title_5_desc_3_bullet_1" rel_version="PvP_Rewards_Track">La sal de azoth es la moneda que te permite obtener recompensas de la pista de PvP. Puedes obtener sal de azoth por medio de guerras, avances de puesto de avanzada, arenas de 3v3, misiones de PvP, eliminaciones en el PvP del mundo abierto y EXP cuando estés marcado para PvP.</string>
+	<string key="owg_factionwarinfo_title_5_desc_4" rel_version="PvP_Rewards_Track">RECOMPENSAS</string>
+	<string key="owg_factionwarinfo_title_5_desc_4_bullet_1" rel_version="PvP_Rewards_Track">Elige entre recompensas únicas como armaduras y armas de prestigio, gestos, monedas y consumibles.</string>
 	<string key="owg_failure_warning">Si fallas esta misión o la abandonas, perderás {amount} tokens de {guildName}.</string>
 	<string key="owg_guildreputation_name">Reputación de {guildName}</string>
 	<string key="owg_guildcurrency_name">Tokens de {guildName}</string>
@@ -157,12 +167,18 @@
 	<string key="owg_rewardtype_azoth">&lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; azoth</string>
 	<string key="owg_rewardtype_guildreputation">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;de reputación&lt;/font&gt;</string>
 	<string key="owg_rewardtype_guildcurrency">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;tokens&lt;/font&gt;</string>
+	<string key="owg_rewardtype_pvp_xp" rel_version="PvP_Rewards_Track">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;EXP DE PVP&lt;/font&gt;</string>
+	<string key="owg_rewardtype_azoth_salt" rel_version="PvP_Rewards_Track">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Sal de azoth&lt;/font&gt;</string>
 	<string key="owg_rewardtype_item">Objeto</string>
 	<string key="owg_rewardtype_standing">&lt;img src="lyshineui/images/icons/objectives/reward_territorystanding" xPadding="0" scale="2" yOffset="5"&gt;&lt;/img&gt; {amount}</string>
 	<string key="owg_rewardtype_warinfluence_low">+</string>
 	<string key="owg_rewardtype_warinfluence_med">++</string>
 	<string key="owg_rewardtype_warinfluence_high">+++</string>
 	<string key="owg_rewardtype_warinfluence_label">Influencia</string>
+	<string key="owg_activebonus_type_dailybonus">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;Bonificación diaria&lt;/font&gt;</string>
+	<string key="owg_activebonus_type_fortcontrolbonus">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;Bonificación por control de fuerte de {territory}&lt;/font&gt;</string>
+	<string key="owg_activebonus_type_territorybonus">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;Bonificaciones del territorio de {territory}&lt;/font&gt;</string>
+	<string key="owg_activebonus_type_restedxpbonus">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;Bonificación de EXP de descanso&lt;/font&gt;</string>
 	<string key="owg_single_item_purchased">¡Compraste el artículo &lt;font color="#f7bc41"&gt;{itemName}&lt;/font&gt;!</string>
 	<string key="owg_influence_login_notification_title">Conflicto en la facción</string>
 	<string key="owg_influence_login_notification_desc">¡Tu facción tiene {count} territorios en conflicto! Presiona M para ver el mapa.</string>
@@ -220,7 +236,7 @@
 	<string key="owg_pvp_acceptmission_prompt">Al aceptar una &lt;font color="#eaeaea"&gt;misión PvP&lt;/font&gt;, se &lt;font color="#eaeaea"&gt;activará la marca de PvP&lt;/font&gt;.\nNo puedes desactivar tu marca de PvP durante esta misión. Para desactivarla, primero debes abandonar la misión.\n\n¿Estás seguro de que quieres aceptar esta misión?</string>
 	<string key="owg_pvp_cannotacceptmission_title">NO SE PUEDE ACEPTAR LA MISIÓN</string>
 	<string key="owg_pvp_cannotacceptmission_ingroup">No puedes aceptar una &lt;font color="#eaeaea"&gt;misión PvP&lt;/font&gt; si estás en un grupo de PvE que no te permitirá activarte para PvP.</string>
-	<string key="owg_pvp_cannotacceptmission_pendinggroupinvite">No puedes aceptar una &lt;font color="#eaeaea"&gt;misión PvP&lt;/font&gt; si tienes invitaciones de grupo pendientes que no te permitirán activarte para PvP.</string>
+	<string key="owg_pvp_cannotacceptmission_pendinggroupinvite">No puedes aceptar una &lt;font color="#eaeaea"&gt;misión PvP&lt;/font&gt; si tienes invitaciones a salas de espera que no te permitirán activarte para PvP.</string>
 	<string key="owg_pvp_cannotacceptmission_nofaction">No puedes aceptar una &lt;font color="#eaeaea"&gt;misión PVP&lt;/font&gt; hasta que te unas a una facción.</string>
 	<string key="owg_pvp_cannotacceptmission_nosanctuary">No puedes aceptar una &lt;font color="#eaeaea"&gt;misión PVP&lt;/font&gt; hasta que estés en un santuario.</string>
 	<string key="owg_pvp_cannotacceptmission_typeblocked">No puedes aceptar una &lt;font color="#eaeaea"&gt;misión PVP&lt;/font&gt; de este tipo en este momento.</string>
@@ -411,8 +427,8 @@
 	<string key="FactionMission_Windsward_Rare1_desc">Un maldito renegado perdido impide los movimientos de nuestras tropas entre aquí y Primera Luz.\n\nDestruye a Emilio Rose en Cataratas de los bucaneros.\n\n&lt;font color="#eaeaea"&gt;(élite)&lt;/font&gt;</string>
 	<string key="FactionMission_S_Windsward_Rare1_title">Iniciar la conversación</string>
 	<string key="FactionMission_S_Windsward_Rare1_desc">Tenemos que llamar la atención de Dauti, el gendarme.\n\n¿Podrías traernos un pergamino antiguo de Laocón, el tutor, en Saircor?\n\n&lt;font color="#eaeaea"&gt;(élite)&lt;/font&gt;</string>
-	<string key="ui_pvp">JCJ</string>
-	<string key="ui_pve">JCE</string>
+	<string key="ui_pvp">PVP</string>
+	<string key="ui_pve">PVE</string>
 	<string key="FactionMission_TROPHYHUNT_title">Caza de trofeos: {POITags}</string>
 	<string key="FactionMission_TROPHYHUNT_desc">Demuestra tus habilidades de caza.\n\nAcaba con &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; en {POITags} y trae de vuelta una prueba de tu dominio.</string>
 	<string key="FactionMission_S_TROPHYHUNT_title">Caza de especímenes: {POITags}</string>
@@ -486,11 +502,11 @@
 	<string key="FactionMission_C_WEAPON_ICEGAUNTLET_desc">Entiende la batalla para alcanzar la paz.\n\nHazte con la &lt;font color="#eaeaea"&gt;manopla de hielo&lt;/font&gt; congelando a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; con su toque gélido.</string>
 	<string key="FactionMission_ASSASSINATE_ELITE_NIGHT_desc">Los saqueadores necesitan eliminar a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; del tablero.\n\nRastréalo en {POITags} y destrúyelo para demostrar tu valor.\n&lt;font color="#eaeaea"&gt;(Élite: el enemigo es nocturno).&lt;/font&gt;</string>
 	<string key="FactionMission_S_ASSASSINATE_ELITE_NIGHT_desc">El sindicato ha identificado a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; como objetivo a eliminar.\n\nRastréalo en {POITags} y destrúyelo.\n&lt;font color="#eaeaea"&gt;(Élite: el enemigo es nocturno).&lt;/font&gt;</string>
-	<string key="FactionMission_C_ASSASSINATE_ELITE_NIGHT_desc">El pacto ha identificado a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; para su eliminación.\n\nDemuestra tu devoción rastreándolo en {POITags} y destruyéndolo.\n &lt;font color="#eaeaea"&gt;(Élite: el enemigo es nocturno).&lt;/font&gt;</string>
+	<string key="FactionMission_C_ASSASSINATE_ELITE_NIGHT_desc" rel_version="Quest_FM_BreachMissions">El pacto ha identificado a &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; para su eliminación.\n\nDemuestra tu devoción rastreándolo en {POITags} y destruyéndolo.\n &lt;font color="#eaeaea"&gt;(Élite: el enemigo es nocturno).&lt;/font&gt;</string>
 	<string key="FactionMission_BREACH_title" rel_version="Quest_FM_BreachMissions">Invasión de corrupción</string>
 	<string key="FactionMission_BREACH_desc" rel_version="Quest_FM_BreachMissions">Los saqueadores no toleramos que la &lt;font color="#eaeaea"&gt;corrupción&lt;/font&gt; se inmiscuya en nuestro territorio.\n\nSi ves una invasión de corrupción, acaba con ella.</string>
 	<string key="FactionMission_S_BREACH_desc" rel_version="Quest_FM_BreachMissions">Ahora tenemos el poder necesario para impedir el avance de la &lt;font color="#eaeaea"&gt;corrupción&lt;/font&gt;.\n\nAcaba con toda &lt;font color="#eaeaea"&gt;invasión de corrupción&lt;/font&gt; que veas.</string>
 	<string key="FactionMission_C_BREACH_desc" rel_version="Quest_FM_BreachMissions">Las &lt;font color="#eaeaea"&gt;invasiones de corrupción&lt;/font&gt; amenazan con extinguir la chispa\n\nAcaba con toda invasión que encuentres.</string>
-	<string key="CMissionAcquireLeather_Name_WC" rel_version="Event_WinterConvergence_Temp">Se necesitan curtidores festivos</string>
+	<string key="CMissionAcquireLeather_Name_WC">Se necesitan curtidores festivos</string>
 </resources>
 

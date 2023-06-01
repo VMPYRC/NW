@@ -35,8 +35,8 @@
 	<string key="ui_house_abandon_notification">La tua casa {houseName} è stata abbandonata.</string>
 	<string key="ui_house_abandon_popup_desc">Hai già 1 casa in questa città.\n Vuoi abbandonare {houseName} per comprare questa casa?\nTutti i trofei e l'arredamento nella casa abbandonata saranno trasferiti al deposito cittadino.</string>
 	<string key="ui_house_abandon_popup_title">Puoi avere solo una casa in una città.</string>
-	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;Se abbandoni la casa, le tasse e il costo d'acquisto non ti verranno rimborsati.&lt;/font&gt;\nTutti i trofei e l'arredamento nella casa abbandonata saranno trasferiti al deposito cittadino.\n\nPer continuare, digita {territoryName} qui sotto.</string>
-	<string key="ui_house_abandon_this_house_desc">Se abbandoni questa casa, le tasse e il costo d'acquisto non ti saranno rimborsati. Tutti i trofei e l'arredamento della casa saranno trasferiti al deposito cittadino.</string>
+	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;Se abbandoni la casa ti verrà rimborsato un {percent}% del costo d'acquisto originale.&lt;/font&gt;\nTutti i trofei e l'arredamento nella casa abbandonata saranno trasferiti al deposito cittadino.\n\nPer continuare, digita {territoryName} qui sotto.</string>
+	<string key="ui_house_abandon_this_house_desc">Se abbandoni la casa, ti verrà rimborsato un {percent}% del costo d'acquisto originale. Tutti i trofei e l'arredamento della casa saranno trasferiti al deposito cittadino.</string>
 	<string key="ui_house_abandon_this_popup_title">Abbandonare la casa?</string>
 	<string key="ui_house_abandon_confirm_placeholder_text">Digita il nome del territorio.</string>
 	<string key="ui_house_abandon_confirm_button">Abbandona la casa</string>
@@ -195,6 +195,7 @@
 	<string key="ui_fast_travel_error_description_inCooldown_with_time">Questa azione è in ricarica.\nPotrai ritornare tra {time}.</string>
 	<string key="ui_fast_travel_error_noDestination">Per usare il viaggio veloce, devi prima visitare questo insediamento.</string>
 	<string key="ui_fast_travel_error_noDestination_outpost">Per usare il viaggio veloce, devi prima visitare questo avamposto.</string>
+	<string key="ui_fast_travel_error_noDestination_shrine">Per usare il viaggio veloce devi prima visitare questo santuario.</string>
 	<string key="ui_fast_travel_error_badStartLoc">Puoi usare il viaggio veloce soltanto mentre ti trovi in un insediamento, avamposto o santuario dello spirito.</string>
 	<string key="ui_fast_travel_error_cantAfford">Non hai abbastanza Azoth.</string>
 	<string key="ui_fast_travel_error_encumbered">Non puoi usare il viaggio veloce o fare ritorno quando trasporti troppo peso.</string>
@@ -242,7 +243,7 @@
 	<string key="ui_housing_tip_title1">Comandi di posizionamento</string>
 	<string key="ui_housing_tip_description1">In &lt;font color={colorHex}&gt;modalità arredamento&lt;/font&gt;, usa le funzioni &lt;font color={colorHex}&gt;ruota, allinea alla griglia&lt;/font&gt; e &lt;font color={colorHex}&gt;blocca sulla superficie&lt;/font&gt; per arredare la casa esattamente come vuoi tu.</string>
 	<string key="ui_housing_tip_title2">Il posizionamento influisce sui punti ottenuti</string>
-	<string key="ui_housing_tip_description2">Posizionare gli oggetti senza intersecarne altri è il modo ideale per aumentare il &lt;font color={colorHex}&gt;punteggio arredamento&lt;/font&gt; per ogni oggetti posizionato.</string>
+	<string key="ui_housing_tip_description2">Posizionare gli oggetti senza intersecarne altri è il modo ideale per aumentare il &lt;font color={colorHex}&gt;punteggio arredamento&lt;/font&gt; per ogni oggetto posizionato.</string>
 	<string key="ui_housing_tip_title3">Potenziamenti trofei</string>
 	<string key="ui_housing_tip_description3">Appendi i &lt;font color={colorHex}&gt;trofei&lt;/font&gt; per attivare &lt;font color={colorHex}&gt;bonus passivi&lt;/font&gt;.\n\nSuggerimento: è possibile posizionare solo 5 trofei per casa, ma gli effetti di trofei doppioni sono cumulabili.</string>
 	<string key="ui_housing_tip_title4">Punteggio e oggetti totali</string>
@@ -251,5 +252,7 @@
 	<string key="ui_fast_travel_uncharted_point">Punto per viaggio veloce non visitato</string>
 	<string key="ui_fast_travel_shrine_activated_header">Santuario viaggio veloce</string>
 	<string key="ui_fast_travel_shrine_activated_body">Nuovo punto per viaggio veloce attivato!</string>
+	<string key="ui_red_button_housing_disabled_title">Funzionalità della casa disattivate</string>
+	<string key="ui_red_button_housing_disabled">Al momento le funzionalità della casa sono disattivate per operazioni di manutenzione.</string>
 </resources>
 

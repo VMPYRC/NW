@@ -360,6 +360,8 @@
 	<string key="LootContainer_Settlement_Tannin_DisplayName">Gerbstoff nehmen</string>
 	<string key="LootContainer_Settlement_Sandpaper_DisplayName">Sandpapier nehmen</string>
 	<string key="LootContainer_Settlement_Water_DisplayName">Brunnen einholen</string>
+	<string key="LootContainer_OpenStoneTomb_DisplayName">Offener Sarkophag</string>
+	<string key="LootContainer_StoneTomb_DisplayName">Grabbeigaben stehlen</string>
 	<string key="Item_PotionHealT1_DisplayName">Destillierte Heiltinktur</string>
 	<string key="Item_ClothT2_DisplayName">Tuchfetzen</string>
 	<string key="Darkness_Monolith_DisplayName">Verderbter Monolith</string>
@@ -522,20 +524,25 @@
 	<string key="1401_BlightTinctureBomb_DisplayName">Bombe platzieren</string>
 	<string key="1402_CorruptedOre_DisplayName">Verderbtes Erz zerstören</string>
 	<string key="1403_WyrdwoodGrowth_DisplayName">Wyrdholzwucherung ernten</string>
-	<string key="1426_0102_WeakenWall_DisplayName" rel_version="Quest_Supplement_Edengrove">Gerüst</string>
 	<string key="1525_1519_Quiver_DisplayName">Myrtilus‘ Köcher</string>
 	<string key="1526_1521_LynxEvidence1_DisplayName">Luchskäfig</string>
 	<string key="1526_1521_LynxEvidence2_DisplayName">Luchs-Köder</string>
 	<string key="1526_1521_LynxEvidence3_DisplayName">Luchs-Geschirr</string>
 	<string key="1524_GoldenStash_interact">Das goldene Versteck</string>
 	<string key="1524_Doubloon_DisplayName">Eine Dublonenspur</string>
+	<string key="9926_0103_VKCannonA_DisplayName" rel_version="AI_Evil_Knights_P2">Kanone drehen</string>
+	<string key="9926_0103_VKCannonB_DisplayName" rel_version="AI_Evil_Knights_P2">Feuerkanone</string>
+	<string key="9926_0103_RomacPack_DisplayName" rel_version="AI_Evil_Knights_P2">Sammle Romacs Tasche ein</string>
+	<string key="9926_0103_ActivityReport_DisplayName" rel_version="AI_Evil_Knights_P2">Sammle Aktivitätsberichte</string>
+	<string key="9932_0104_RomacNotebook_DisplayName" rel_version="AI_Evil_Knights_P2">Birg Romacs Notizbuch</string>
 	<string key="MSQ_ShipsLocker_DisplayName">Schiffsspind</string>
-	<string key="MSQ_Flag_DisplayName">Schiffsflagge</string>
+	<string key="MSQ_Flag_DisplayName">Beschaffe die Schiffsflagge.</string>
 	<string key="MSQ_SalvagePile_A_DisplayName">Haufen durchsuchen</string>
 	<string key="MSQ_SalvagePile_B_DisplayName">Haufen durchsuchen</string>
 	<string key="MSQ_SalvagePile_C_DisplayName">Haufen durchsuchen</string>
 	<string key="AzothWater_Displayname">Azoth-Quelle</string>
 	<string key="AzothSeal_DisplayName">Azoth-Siegel der Ahnen</string>
+	<string key="HeartforgeEncounterBattery_DisplayName">Herzschmieden-Machtdämpfer</string>
 	<string key="PressurePlate_Ancient_DisplayName">Azoth-Glyphe der Ahnen</string>
 	<string key="AncientArtifactLocked">Artefakt der Ahnen</string>
 	<string key="MSQ_OldStoneRemembers_Interact">Schriftstück in der Sprache der Ahnen</string>
@@ -680,11 +687,6 @@
 	<string key="DungeonShatterMtn_RelicStatue_DisplayName" rel_version="Expedition_ShatterMtn_00">Reliquienschrein-Rückruf\n(2 Azoth-Stäbe erforderlich)</string>
 	<string key="DungeonShatterMtn00_ChestStatue_DisplayName" rel_version="Expedition_ShatterMtn_00">Antike Kiste</string>
 	<string key="DungeonShatterMtn00_Statue_DisplayName" rel_version="Expedition_ShatterMtn_00">Antike Statue</string>
-	<string key="SummerMedley_Settlement_Stage_T1_DisplayName" rel_version="Event_Summer_Temp">Jämmerliches Geschenk</string>
-	<string key="SummerMedley_Settlement_Stage_T2_DisplayName" rel_version="Event_Summer_Temp">Großartiges Geschenk</string>
-	<string key="SummerMedley_Settlement_Stage_T3_DisplayName" rel_version="Event_Summer_Temp">Überwältigendes Geschenk</string>
-	<string key="SummerMedley_Village_BonfireBlast_DisplayName" rel_version="Event_Summer_Temp">Medleyfaire-Scheiterhaufen</string>
-	<string key="SummerMedley_Maudlindust_DisplayName" rel_version="Event_Summer_Temp">Sentimentalstaub</string>
 	<string key="FM_PVP_War_Camp_Loot_Box_DisplayName">Kriegslager-Truhe</string>
 	<string key="1130_ArcaneFocus1_DisplayName">Arkanes Zentrum</string>
 	<string key="1130_ArcaneFocus2_DisplayName">Arkanes Zentrum</string>
@@ -693,6 +695,7 @@
 	<string key="0726_BookOfIsabella_DisplayName">Buch von Isabella</string>
 	<string key="1130_CursedAxe_DisplayName">Beginne das Ritual</string>
 	<string key="0726_Gravestone_interact" rel_version="DEPRECATED_January_2022">Untersuche das Grab des Crewmitglieds</string>
+	<string key="EvilKnights_Camp_StoneDoor" rel_version="AI_Evil_Knights_P2">Tor aktivieren</string>
 	<string key="Dynasty_Gong_DisplayName">Dynastien-Gong</string>
 	<string key="ExploreVista_EastCleave01" rel_version="Feature_RewardingExploration">Lange vergessene Staffelei</string>
 	<string key="ExploreVista_EastCutlass01" rel_version="Feature_RewardingExploration">Lange vergessene Staffelei</string>
@@ -722,13 +725,12 @@
 	<string key="ExploreVista_WestEverfall01" rel_version="Feature_RewardingExploration">Lange vergessene Staffelei</string>
 	<string key="ExploreVista_WestMourningdale01" rel_version="Feature_RewardingExploration">Lange vergessene Staffelei</string>
 	<string key="ExploreVista_WestCutlass01" rel_version="Feature_RewardingExploration">Lange vergessene Staffelei</string>
-	<string key="LuckShrine_MothersLove">Mutterliebe</string>
 	<string key="GoldPile00_DisplayName" rel_version="Feature_Unbound_Island">Vorratsversteck</string>
 	<string key="0601_0101_weapon_01_hatchet_DisplayName">Abgenutztes Beil auswählen</string>
 	<string key="0601_0101_weapon_02_warhammer_DisplayName">Abgenutzten Kriegshammer auswählen</string>
 	<string key="0601_0101_weapon_03_bow_DisplayName">Abgenutzten Bogen auswählen</string>
 	<string key="0601_0101_weapon_04_firestaff_DisplayName">Abgenutzten Feuerstab auswählen</string>
-	<string key="Lore_AncientGlyphWall_DisplayName" rel_version="Territory_Brimstone_Sands">Glyphe übersetzen</string>
-	<string key="NPCRescue_Generic_NPC_DisplayName" rel_version="Quest_MSQ2_Revamp">Ketten entfernen</string>
+	<string key="Gimmick_FallingRubble_DisplayName">Felsfalle</string>
+	<string key="Holdout_Interact_DisplayName">Ausharren starten</string>
 </resources>
 

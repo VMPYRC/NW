@@ -21,6 +21,8 @@
 	<string key="ui_notoolmining">Keine Hacke ausgerüstet</string>
 	<string key="ui_lowskillmining" comment="the required skill level will be shown in a circle immediately to the right of this string">Erfordert die Fähigkeit Bergbau.</string>
 	<string key="ui_notoolazothstaff">Kein/e Rang-{tier}-{itemName} ausgerüstet</string>
+	<string key="ui_notoolitem_multiple">Erfordert {count}x {itemName}.</string>
+	<string key="ui_notoolitem">Erfordert {itemName}</string>
 	<string key="ui_nopermission">Kein öffentlicher Zugang.</string>
 	<string key="ui_nopermissionrank">Der Rang "{rank}" hat nicht die nötige Berechtigung für die Aktion "{action}".</string>
 	<string key="ui_nopermissionpublic">Die Aktion "{action}" ist in öffentlichen Gebäuden nicht gestattet.</string>
@@ -63,6 +65,7 @@
 	<string key="ui_interact_territory_functionality_down">SERVERFEHLER: Bitte in einigen Minuten erneut versuchen.</string>
 	<string key="ui_interact_with_item_cost">{interactionName} ({amount} {itemName})</string>
 	<string key="ui_interact_with_item_cost_sufficient">{interactionName} ({have}/{need} &lt;img src="{itemName}" xPadding="2" scale="1.25" yOffset="0.5"&gt;&lt;/img&gt;)</string>
+	<string key="ui_interact_with_item_cost_sufficient_no_qty">{interactionName} (&lt;img src="{itemName}" xPadding="2" scale="1.25" yOffset="0.5"&gt;&lt;/img&gt;)</string>
 	<string key="ui_interact_with_item_cost_insufficient">{interactionName} (&lt;font color="#f14b4b"&gt;{have}&lt;/font&gt;/{need} &lt;img src="{itemName}" xPadding="2" scale="1.25" yOffset="0.5"&gt;&lt;/img&gt;)</string>
 	<string key="ui_interact_with_item_cost_not_needed">{interactionName} – Nicht gebraucht</string>
 	<string key="ui_interactable_only_in_conquest_phase">{interactionName} – Nur in laufendem Krieg verwendbar</string>

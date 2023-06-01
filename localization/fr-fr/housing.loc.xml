@@ -35,8 +35,8 @@
 	<string key="ui_house_abandon_notification">Vous avez abandonné votre maison : {houseName}.</string>
 	<string key="ui_house_abandon_popup_desc">Vous possédez déjà 1 maison dans cette ville.\n Voulez-vous abandonner {houseName} et acheter cette maison ?\nTous les trophées et les meubles de la maison que vous abandonnez seront stockés dans les réserves de la ville.</string>
 	<string key="ui_house_abandon_popup_title">Vous ne pouvez avoir qu'une seule maison dans une ville.</string>
-	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;Le prix d'achat et les impôts ne vous seront pas remboursés si vous abandonnez cette maison.&lt;/font&gt;\nTous les trophées et les meubles de la maison que vous abandonnez seront stockés dans les réserves de la ville.\n\nPour continuer, saisissez {territoryName} ci-dessous.</string>
-	<string key="ui_house_abandon_this_house_desc">Le prix d'achat et les impôts ne vous seront pas remboursés si vous abandonnez cette maison. Tous les trophées et les meubles de la maison que vous abandonnez seront stockés dans les réserves de la ville.</string>
+	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;{percent} % du prix d'achat vous sera remboursé si cette maison est abandonnée.&lt;/font&gt;\nTous les trophées et les meubles de la maison que vous abandonnez seront stockés dans les réserves de la ville.\n\nPour continuer, renseignez le champ ({territoryName}) ci-dessous.</string>
+	<string key="ui_house_abandon_this_house_desc">{percent} % du prix d'achat vous sera remboursé si cette maison est abandonnée. Tous les trophées et les meubles de la maison que vous abandonnez seront stockés dans les réserves de la ville.</string>
 	<string key="ui_house_abandon_this_popup_title">Abandonner la maison ?</string>
 	<string key="ui_house_abandon_confirm_placeholder_text">Saisissez le nom du territoire.</string>
 	<string key="ui_house_abandon_confirm_button">Abandonner</string>
@@ -195,6 +195,7 @@
 	<string key="ui_fast_travel_error_description_inCooldown_with_time">Cette action est cours de recharge.\nRetour possible dans {time}.</string>
 	<string key="ui_fast_travel_error_noDestination">Pour effectuer ce transfert rapide, il vous faut avoir déjà visité cette colonie.</string>
 	<string key="ui_fast_travel_error_noDestination_outpost">Pour effectuer ce transfert rapide, il vous faut avoir déjà visité cet avant-poste.</string>
+	<string key="ui_fast_travel_error_noDestination_shrine">Pour effectuer ce transfert rapide, il vous faut avoir déjà visité ce sanctuaire.</string>
 	<string key="ui_fast_travel_error_badStartLoc">Vous ne pouvez effectuer de transfert rapide que dans une colonie, un avant-poste ou un sanctuaire spirituel.</string>
 	<string key="ui_fast_travel_error_cantAfford">Vous n'avez pas assez d'Azoth.</string>
 	<string key="ui_fast_travel_error_encumbered">Vous ne pouvez pas effectuer de transfert rapide ni de retour lorsque votre inventaire est encombré.</string>
@@ -242,7 +243,7 @@
 	<string key="ui_housing_tip_title1">Commandes de placement</string>
 	<string key="ui_housing_tip_description1">En &lt;font color={colorHex}&gt;mode Décoration&lt;/font&gt;, utilisez les fonctionnalités de &lt;font color={colorHex}&gt;rotation, d'alignement avec la grille&lt;/font&gt; et « &lt;font color={colorHex}&gt;Verrouiller à la surface&lt;/font&gt; » pour décorer votre maison comme vous l'entendez.</string>
 	<string key="ui_housing_tip_title2">Le placement affecte le nombre de points obtenus</string>
-	<string key="ui_housing_tip_description2">Placer des objets en ne les faisant pas chevaucher d'autres est le meilleur moyen d'augmenter le &lt;font color={colorHex}&gt;score de décoration&lt;/font&gt; avec chaque objet placé.</string>
+	<string key="ui_housing_tip_description2">Disposer vos objets sans qu'ils se chevauchent est le meilleur moyen d'augmenter votre &lt;font color={colorHex}&gt;score de décoration&lt;/font&gt; pour chaque objet placé.</string>
 	<string key="ui_housing_tip_title3">Bonus de trophées</string>
 	<string key="ui_housing_tip_description3">Accrochez des &lt;font color={colorHex}&gt;trophées&lt;/font&gt; pour activer des &lt;font color={colorHex}&gt;bonus passifs&lt;/font&gt;.\n\nConseil : une maison ne peut contenir que 5 trophées, mais les effets des trophées en double s'additionnent.</string>
 	<string key="ui_housing_tip_title4">Objets et score totaux</string>
@@ -251,5 +252,7 @@
 	<string key="ui_fast_travel_uncharted_point">Point de transfert rapide non présent sur la carte</string>
 	<string key="ui_fast_travel_shrine_activated_header">Sanctuaire de transfert rapide</string>
 	<string key="ui_fast_travel_shrine_activated_body">Nouveau point de transfert rapide activé !</string>
+	<string key="ui_red_button_housing_disabled_title">Logements désactivés</string>
+	<string key="ui_red_button_housing_disabled">Les logements sont désactivés pendant la maintenance.</string>
 </resources>
 

@@ -360,6 +360,8 @@
 	<string key="LootContainer_Settlement_Tannin_DisplayName">Weź garbnik</string>
 	<string key="LootContainer_Settlement_Sandpaper_DisplayName">Weź papier ścierny</string>
 	<string key="LootContainer_Settlement_Water_DisplayName">Zaczerpnij wody ze studni</string>
+	<string key="LootContainer_OpenStoneTomb_DisplayName">Otwórz sarkofag</string>
+	<string key="LootContainer_StoneTomb_DisplayName">Ukradnij przedmioty pochówkowe</string>
 	<string key="Item_PotionHealT1_DisplayName">Destylowana nalewka lecznicza</string>
 	<string key="Item_ClothT2_DisplayName">Strzępy tkaniny</string>
 	<string key="Darkness_Monolith_DisplayName">Skażony monolit</string>
@@ -522,20 +524,25 @@
 	<string key="1401_BlightTinctureBomb_DisplayName">Umieść bombę</string>
 	<string key="1402_CorruptedOre_DisplayName">Zniszcz skażoną rudę</string>
 	<string key="1403_WyrdwoodGrowth_DisplayName">Zbierz narośl cieniodrzewa</string>
-	<string key="1426_0102_WeakenWall_DisplayName" rel_version="Quest_Supplement_Edengrove">Rusztowanie</string>
 	<string key="1525_1519_Quiver_DisplayName">Kołczan Myrtilos</string>
 	<string key="1526_1521_LynxEvidence1_DisplayName">Klatka rysia</string>
 	<string key="1526_1521_LynxEvidence2_DisplayName">Przynęta na rysia</string>
 	<string key="1526_1521_LynxEvidence3_DisplayName">Więzy rysi</string>
 	<string key="1524_GoldenStash_interact">Zapas złota</string>
 	<string key="1524_Doubloon_DisplayName">Trop z dublonów</string>
+	<string key="9926_0103_VKCannonA_DisplayName" rel_version="AI_Evil_Knights_P2">Obróć armatę</string>
+	<string key="9926_0103_VKCannonB_DisplayName" rel_version="AI_Evil_Knights_P2">Wystrzel z armaty</string>
+	<string key="9926_0103_RomacPack_DisplayName" rel_version="AI_Evil_Knights_P2">Zabierz torbę Romaca</string>
+	<string key="9926_0103_ActivityReport_DisplayName" rel_version="AI_Evil_Knights_P2">Zabierz raport z działalności</string>
+	<string key="9932_0104_RomacNotebook_DisplayName" rel_version="AI_Evil_Knights_P2">Zabierz notatnik Romaca</string>
 	<string key="MSQ_ShipsLocker_DisplayName">Okrętowa szafka</string>
-	<string key="MSQ_Flag_DisplayName">Okrętowa flaga</string>
+	<string key="MSQ_Flag_DisplayName">Zabierz banderę statku</string>
 	<string key="MSQ_SalvagePile_A_DisplayName">Sterta rupieci</string>
 	<string key="MSQ_SalvagePile_B_DisplayName">Sterta rupieci</string>
 	<string key="MSQ_SalvagePile_C_DisplayName">Sterta rupieci</string>
 	<string key="AzothWater_Displayname">Źródło azothu</string>
 	<string key="AzothSeal_DisplayName">Pradawna azothowa pieczęć</string>
+	<string key="HeartforgeEncounterBattery_DisplayName">Tłumik mocy kuźni serca</string>
 	<string key="PressurePlate_Ancient_DisplayName">Pradawny azothowy glif</string>
 	<string key="AncientArtifactLocked">Pradawny artefakt</string>
 	<string key="MSQ_OldStoneRemembers_Interact">Pradawne inskrypcje</string>
@@ -680,11 +687,6 @@
 	<string key="DungeonShatterMtn_RelicStatue_DisplayName" rel_version="Expedition_ShatterMtn_00">Odzyskaj relikwiarz\n(wymaga 2 azothowych lasek)</string>
 	<string key="DungeonShatterMtn00_ChestStatue_DisplayName" rel_version="Expedition_ShatterMtn_00">Staroświecka szkatuła</string>
 	<string key="DungeonShatterMtn00_Statue_DisplayName" rel_version="Expedition_ShatterMtn_00">Staroświecki posąg</string>
-	<string key="SummerMedley_Settlement_Stage_T1_DisplayName" rel_version="Event_Summer_Temp">Posępny dar</string>
-	<string key="SummerMedley_Settlement_Stage_T2_DisplayName" rel_version="Event_Summer_Temp">Wielki dar</string>
-	<string key="SummerMedley_Settlement_Stage_T3_DisplayName" rel_version="Event_Summer_Temp">Wspaniały dar</string>
-	<string key="SummerMedley_Village_BonfireBlast_DisplayName" rel_version="Event_Summer_Temp">Stos Festiwalu Składanek</string>
-	<string key="SummerMedley_Maudlindust_DisplayName" rel_version="Event_Summer_Temp">Ckliwy pył</string>
 	<string key="FM_PVP_War_Camp_Loot_Box_DisplayName">Skrzynia obozu wojennego</string>
 	<string key="1130_ArcaneFocus1_DisplayName">Magiczny fokus</string>
 	<string key="1130_ArcaneFocus2_DisplayName">Magiczny fokus</string>
@@ -693,6 +695,7 @@
 	<string key="0726_BookOfIsabella_DisplayName">Księga Isabelli</string>
 	<string key="1130_CursedAxe_DisplayName">Rozpocznij rytuał</string>
 	<string key="0726_Gravestone_interact" rel_version="DEPRECATED_January_2022">Zbadaj grób marynarza</string>
+	<string key="EvilKnights_Camp_StoneDoor" rel_version="AI_Evil_Knights_P2">Aktywuj bramę</string>
 	<string key="Dynasty_Gong_DisplayName">Gong dynastii</string>
 	<string key="ExploreVista_EastCleave01" rel_version="Feature_RewardingExploration">Dawno zapomniana sztaluga</string>
 	<string key="ExploreVista_EastCutlass01" rel_version="Feature_RewardingExploration">Dawno zapomniana sztaluga</string>
@@ -722,13 +725,12 @@
 	<string key="ExploreVista_WestEverfall01" rel_version="Feature_RewardingExploration">Dawno zapomniana sztaluga</string>
 	<string key="ExploreVista_WestMourningdale01" rel_version="Feature_RewardingExploration">Dawno zapomniana sztaluga</string>
 	<string key="ExploreVista_WestCutlass01" rel_version="Feature_RewardingExploration">Dawno zapomniana sztaluga</string>
-	<string key="LuckShrine_MothersLove">Matczyna miłość</string>
 	<string key="GoldPile00_DisplayName" rel_version="Feature_Unbound_Island">Schowek z zapasami</string>
 	<string key="0601_0101_weapon_01_hatchet_DisplayName">Wybierz zużytą w walce siekierkę</string>
 	<string key="0601_0101_weapon_02_warhammer_DisplayName">Wybierz zużyty w walce młot bojowy</string>
 	<string key="0601_0101_weapon_03_bow_DisplayName">Wybierz zużyty w walce łuk</string>
 	<string key="0601_0101_weapon_04_firestaff_DisplayName">Wybierz zużytą w walce ognistą laskę</string>
-	<string key="Lore_AncientGlyphWall_DisplayName" rel_version="Territory_Brimstone_Sands">Przetłumacz glif</string>
-	<string key="NPCRescue_Generic_NPC_DisplayName" rel_version="Quest_MSQ2_Revamp">Rozkuj łańcuchy</string>
+	<string key="Gimmick_FallingRubble_DisplayName">Pułapka skalna</string>
+	<string key="Holdout_Interact_DisplayName">Rozpocznij wytrwanie</string>
 </resources>
 

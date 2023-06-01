@@ -35,8 +35,8 @@
 	<string key="ui_house_abandon_notification">Du hast dein Haus {houseName} aufgegeben.</string>
 	<string key="ui_house_abandon_popup_desc">In dieser Stadt besitzt du bereits ein Haus.\nMöchtest du {houseName} aufgeben, um dieses Haus zu kaufen?\nSämtliche Trophäen und Möbel aus dem aufgegebenen Haus werden ins Stadtlager gebracht.</string>
 	<string key="ui_house_abandon_popup_title">Du kannst in jeder Stadt nur ein Haus haben.</string>
-	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;Wenn du dieses Haus aufgibst, werden dir weder Kaufpreis noch Steuern rückerstattet.&lt;/font&gt;\nSämtliche Trophäen und Möbel aus dem verlassenen Haus werden ins Stadtlager gebracht.\n\nWenn du fortfahren möchtest, gib unten {territoryName} ein.</string>
-	<string key="ui_house_abandon_this_house_desc">Wenn du dieses Haus aufgibst, werden dir weder Kaufpreis noch Steuern rückerstattet. Sämtliche Trophäen und Möbel aus dem Haus werden ins Stadtlager gebracht.</string>
+	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;Wenn du dieses Haus aufgibst, werden dir {percent} % des ursprünglichen Kaufpreis rückerstattet.&lt;/font&gt;\nSämtliche Trophäen und Möbel aus dem verlassenen Haus werden ins Stadtlager gebracht.\n\nWenn du fortfahren möchtest, gib unten {territoryName} ein.</string>
+	<string key="ui_house_abandon_this_house_desc">Wenn du dieses Haus aufgibst, werden dir {percent} % des ursprünglichen Kaufpreis rückerstattet. Sämtliche Trophäen und Möbel aus dem Haus werden ins Stadtlager gebracht.</string>
 	<string key="ui_house_abandon_this_popup_title">Haus aufgeben?</string>
 	<string key="ui_house_abandon_confirm_placeholder_text">Gib den Gebietsnamen ein.</string>
 	<string key="ui_house_abandon_confirm_button">Haus aufgeben</string>
@@ -195,6 +195,7 @@
 	<string key="ui_fast_travel_error_description_inCooldown_with_time">Die Aktion befindet sich in der Abklingzeit.\nRückruf möglich in {time}.</string>
 	<string key="ui_fast_travel_error_noDestination">Zum Schnellreisen muss du zuerst diese Siedlung besuchen.</string>
 	<string key="ui_fast_travel_error_noDestination_outpost">Zum Schnellreisen muss du zuerst diesen Außenposten besuchen.</string>
+	<string key="ui_fast_travel_error_noDestination_shrine">Zum Schnellreisen musst du zuerst diesen Schrein besuchen.</string>
 	<string key="ui_fast_travel_error_badStartLoc">Schnellreise ist nur in einer Siedlung, einem Außenposten oder einem Geisterschrein möglich.</string>
 	<string key="ui_fast_travel_error_cantAfford">Du hast nicht genug Azoth.</string>
 	<string key="ui_fast_travel_error_encumbered">Schnellreise und Rückruf sind ausgelastet nicht möglich.</string>
@@ -251,5 +252,7 @@
 	<string key="ui_fast_travel_uncharted_point">Unentdeckter Schnellreisepunkt</string>
 	<string key="ui_fast_travel_shrine_activated_header">Schnellreiseschrein</string>
 	<string key="ui_fast_travel_shrine_activated_body">Neuer Schnellreisepunkt aktiviert!</string>
+	<string key="ui_red_button_housing_disabled_title">Behausung deaktiviert</string>
+	<string key="ui_red_button_housing_disabled">Aufgrund von Wartungsarbeiten ist die Behausung zurzeit deaktiviert.</string>
 </resources>
 

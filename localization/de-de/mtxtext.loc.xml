@@ -28,6 +28,10 @@
 	<string key="ui_featured">Derzeitige Angebote</string>
 	<string key="ui_show_purchased">Freigeschaltete zeigen</string>
 	<string key="ui_sort_by">Sortieren nach:</string>
+	<string key="ui_item_claim">Gegenstand beanspruchen</string>
+	<string key="ui_claim_button">Beanspruchen</string>
+	<string key="ui_preview">Vorschau</string>
+	<string key="ui_item_already_claimed">Der Gegenstand wurde bereits beansprucht.</string>
 	<string key="ui_add_more_fictional_currency" rel_version="Feature_MTX">Mehr &lt;img src="lyshineui/images/mtx/icon_mtx_currency" scale="2.8" yOffset="10"&gt;&lt;/img&gt; hinzufügen</string>
 	<string key="ui_discount_off">Um {number} &lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;reduziert&lt;/font&gt;</string>
 	<string key="ui_discount_off_bold">Um {number} &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;reduziert&lt;/font&gt;</string>
@@ -116,6 +120,7 @@
 	<string key="ui_crest_disclaimer" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Hinweis:&lt;/font&gt; Kompaniewappen kannst du nur verwenden, wenn du der Gouverneur (Gründer) der Kompanie bist.</string>
 	<string key="ui_disabled_default_title" rel_version="Feature_MTX">Inhalt nicht verfügbar</string>
 	<string key="ui_disabled_default_description" rel_version="Feature_MTX">Dieser Inhalt ist zurzeit nicht verfügbar.</string>
+	<string key="ui_disabled_freeplayer_description" rel_version="Feature_MTX">Kaufe New World, um auf den Shop zugreifen zu können.</string>
 	<string key="ui_preview_emote">Emote-Vorschau</string>
 	<string key="ui_end_preview">Vorschau beenden</string>
 	<string key="ui_limited_time">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Befristet&lt;/font&gt;</string>
@@ -154,6 +159,9 @@
 	<string key="ui_notification_unlock_desc">Deinem Konto wurden Gegenstände hinzugefügt.</string>
 	<string key="ui_notification_unlock_title">Freigeschaltet!</string>
 	<string key="ui_view_item">Gegenstände ansehen</string>
+	<string key="ui_claim_fail_alreadyunlocked">Du hast dieses Anrecht bereits beansprucht.</string>
+	<string key="ui_claim_fail_inventoryfull">Du kannst dieses Anrecht nicht beanspruchen, solange dein Inventar voll ist. Bitte schaffe etwas Platz und versuche es erneut.</string>
+	<string key="ui_claim_fail_transactionerror">Transaktionsfehler. Versuche es bitte erneut.</string>
 	<string key="smolderingscarlet_dye_name" rel_version="Dye_SmolderingScarlet">Glühendes Scharlachrot</string>
 	<string key="runic_jackal_name" rel_version="Apparel_RunicJackal">Schakal-Runen</string>
 	<string key="crescent_fang_name" rel_version="Weapon_CrescentFang">Sichelreißzahn</string>
@@ -778,5 +786,23 @@
 	<string key="ui_crestforeground_213" rel_version="Crest_Pack_Plants">Pflanzenbündel</string>
 	<string key="ui_crestforeground_214" rel_version="Crest_Pack_Plants">Hanfblatt</string>
 	<string key="ui_crestforeground_215" rel_version="Crest_Pack_Plants">Hanfpflanze</string>
+	<string key="Bundle_PR_SilentDeath_Apparel_name" rel_version="Bundle_Apparel_SilentDeath">"Kleidung des Meuchelmörderflüsterns"-Paket</string>
+	<string key="Bundle_PR_SilentDeath_Weapons_name" rel_version="Bundle_Weapons_SilentDeath">"Waffe des Meuchelmörderflüsterns"-Paket</string>
+	<string key="Bundle_PR_LaunchPets_name" rel_version="Bundle_Pets_LaunchPets">Pelzige Freunde</string>
+	<string key="Bundle_PR_LegendaryToolsets_name" rel_version="Bundle_Toolsets_Legendary">Legendäre Werkzeuge</string>
+	<string key="Bundle_PR_SilentDeath_Apparel_description" rel_version="Bundle_Apparel_SilentDeath">"Lauere deinen Feinden selbstbewusst auf, wohl wissend, dass sie dich erst bemerken … wenn es bereits zu spät ist."</string>
+	<string key="Bundle_PR_SilentDeath_Weapons_description" rel_version="Bundle_Weapons_SilentDeath">"Die Werkzeuge eines fanatischen Mörders."</string>
+	<string key="Bundle_PR_LaunchPets_description" rel_version="Bundle_Pets_LaunchPets">"Auf dieser absonderlichen, grausamen Insel benötigt jeder ein wenig Gesellschaft. Lade diese vierbeinigen Freunde in dein Haus ein."</string>
+	<string key="Bundle_PR_LegendaryToolsets_description" rel_version="Bundle_Toolsets_Legendary">"Meisterhaft konstruierte Werkzeuge verschaffen dir Flair, während du dich abrackerst, um ein Vermögen anzuhäufen."</string>
+	<string key="Apparel_SilentDeath_L_name" rel_version="Apparel_SilentDeath_L">Bespickter Pirscher</string>
+	<string key="Apparel_SilentDeath_L_description" rel_version="Apparel_SilentDeath_L">"Aus dem feinsten bespickten Leder Aeternums. Bietet Schutz und macht dich lautlos."</string>
+	<string key="Apparel_SilentDeath_M_name" rel_version="Apparel_SilentDeath_M">Metallrabe</string>
+	<string key="Apparel_SilentDeath_M_description" rel_version="Apparel_SilentDeath_M">"Was auf den ersten Blick nach einem großen Vogel aussieht, der auf dich zustürmt, erweist sich letztlich als dein vorzeitiges Ende."</string>
+	<string key="Apparel_SilentDeath_H_name" rel_version="Apparel_SilentDeath_H">Schulterplattenangst</string>
+	<string key="Apparel_SilentDeath_H_description" rel_version="Apparel_SilentDeath_H">"Dein schlimmster Albtraum erwacht zum Leben und sucht die Schlachtfelder Aeternums heim."</string>
+	<string key="Bundle_Tool_SilentDeath_name" rel_version="ToolSkins_SilentDeath_MTX">Meuchelmörderwerkzeuge</string>
+	<string key="Bundle_Tool_SilentDeath_description" rel_version="ToolSkins_SilentDeath_MTX">"Anhänger der schwarzen Künste sammeln sogar Rohstoffe nur in finsterer Nacht."</string>
+	<string key="Bundle_Decor_ClassicRPG_name" rel_version="Housing_RPG_MTX_Pack_2022">Drachenhöhlen-Dekorpaket</string>
+	<string key="Bundle_Decor_ClassicRPG_description" rel_version="Housing_RPG_MTX_Pack_2022">"Eine Horde im Haus erinnert an das ruhmreiche Abenteurerleben."</string>
 </resources>
 

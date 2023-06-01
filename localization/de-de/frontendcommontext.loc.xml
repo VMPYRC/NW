@@ -197,7 +197,7 @@
 	<string key="mm_rejected_Client_Kicked_BannedCSLockout">Dein Konto wurde gesperrt. Bitte wende dich an den Kundendienst für zusätzliche Informationen.</string>
 	<string key="mm_rejected_Client_Kicked_CSLockout">Dein Konto wurde gesperrt. Bitte wende dich an den Kundendienst für zusätzliche Informationen.</string>
 	<string key="mm_rejected_Client_Kicked_BannedCommerce">Zahlungsproblem</string>
-	<string key="mm_rejected_Client_Kicked_Embargoed_Country">Ein Zugriff ist von deinem aktuellen Standort aus nicht möglich.</string>
+	<string key="mm_rejected_Client_Kicked_Embargoed_Country">Von deinem aktuellen Standort aus ist leider kein Zugang möglich.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Du wurdest aus dem Spiel geworfen.</string>
 	<string key="mm_authresult_Authorized">Erfolg</string>
 	<string key="mm_characterCreateDisabled">Die Charaktererstellung ist vorübergehend deaktiviert. Die Welt ist zu voll. Bitte versuche, den Charakter auf einer anderen Welt zu erstellen.</string>
@@ -299,25 +299,46 @@
 	<string key="ui_trade_skills">Fähigkeiten</string>
 	<string key="ui_how_it_works">So funktioniert das</string>
 	<string key="ui_pvp_track_skills_tab" rel_version="PvP_Rewards_Track">PvP</string>
-	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Kontrollpunkt {checkpoint}:&lt;/font&gt; {currentProgression}/{maxProgression}\n\nErziele Fortschritte in der Serie, indem du PvP-Missionen abschließt, dich am Außenpostensturm oder der Eroberung von Festungen beteiligst, andere Spieler besiegst und an PvP-Arenen teilnimmst und EP erhältst, während du markiert bist.</string>
+	<string key="ui_pvp_track" rel_version="PvP_Rewards_Track">PvP-Serie</string>
+	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Kontrollpunkt {checkpoint}:&lt;/font&gt; {currentProgression}/{maxProgression}\n\nErziele Fortschritte in der Serie, indem du PvP-Missionen abschließt, dich am Außenpostensturm oder der Eroberung von Festungen beteiligst, andere Spieler besiegst und an 3-gg-3-Arenen teilnimmst und EP erhältst, während du markiert bist.</string>
 	<string key="ui_pvp_track_next_track_tooltip" rel_version="PvP_Rewards_Track">Du musst alle Kontrollpunkte abschließen, bevor du die nächste Serie beginnen kannst. Mit der Auswahl einer Belohnung eines Kontrollpunkts beginnt automatisch die nächste Serie.\n\nFür jeden Kontrollpunkt, dessen Belohnung du nicht beanspruchst, erhältst du zum Beginn der nächsten Serie 300 Azoth-Salz.</string>
 	<string key="ui_pvp_track_unknown_item_tooltip" rel_version="PvP_Rewards_Track">Belohnungsoptionen werden nach dem Abschluss eines Kontrollpunkts enthüllt.</string>
+	<string key="ui_pvp_track_completions" comment="The number of times they have completed the track. Like a level" rel_version="PvP_Rewards_Track">Serien abgeschlossen</string>
+	<string key="ui_pvp_track_purchasehint" rel_version="PvP_Rewards_Track">Wähle max. &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={itemColor}&gt;einen Gegenstand pro Kontrollpunkt&lt;/font&gt; aus, den du mit &lt;font color={azothColor}&gt;Azoth-Salz&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt; kaufen kannst.</string>
+	<string key="ui_pvp_track_openemblems" rel_version="PvP_Rewards_Track">Wappen und Belohnungen</string>
+	<string key="ui_pvp_track_checkpoint" rel_version="PvP_Rewards_Track">Kontrollpunkt &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{index}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_pvpprogress" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={colorProgress}&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_warsmall_white" scale="1.5" yOffset="4"&gt;&lt;/img&gt;&lt;font color={colorCheckpoint} face="lyshineui/fonts/Nimbus_regular.font"&gt; bis Kontrollpunkt {index}&lt;/font&gt;</string>
+	<string key="ui_pvp_currency_amount" rel_version="PvP_Rewards_Track">{amount}&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_insufficient_azoth_salt" rel_version="PvP_Rewards_Track">Nicht genug Azoth-Salz</string>
 	<string key="ui_pvp_cant_unlock" rel_version="PvP_Rewards_Track">Keine weitere Freischaltung dieses Gegenstands möglich.</string>
+	<string key="ui_pvp_track_nexttrack" rel_version="PvP_Rewards_Track">Serie abschließen</string>
 	<string key="ui_pvp_track_nexttrack_popup_title" rel_version="PvP_Rewards_Track">Nächste Serie starten</string>
-	<string key="azoth_salt_currency_desc" rel_version="PvP_Rewards_Track">Azoth-Salz ist die Währung, mit der du aus der PvP-Serie Belohnungen erhältst. Du erhältst Azoth-Salz, indem du dich an Kriegen, am Außenpostensturm, in PvP-Arenen, an PvP-Missionen beteiligst oder in der offenen Welt Spieler im PvP besiegst und EP dazugewinnst, während du markiert bist.\n\nDu kannst höchstens 100.000 Azoth-Salz besitzen.</string>
+	<string key="azoth_salt_currency_name" rel_version="PvP_Rewards_Track">Azoth-Salz</string>
+	<string key="azoth_salt_currency_desc" rel_version="PvP_Rewards_Track">Azoth-Salz ist die Währung, mit der du aus der PvP-Serie Belohnungen erhältst. Du erhältst Azoth-Salz, indem du dich an Kriegen, am Außenpostensturm, in 3-gg-3-Arenen, an PvP-Missionen beteiligst oder in der offenen Welt Spieler im PvP besiegst und EP dazugewinnst, während du markiert bist.\n\nDu kannst höchstens 100.000 Azoth-Salz besitzen.</string>
 	<string key="azoth_salt_currency_lost" rel_version="PvP_Rewards_Track">Azoth-Salz-Verlust</string>
-	<string key="azoth_salt_lost_tooltip" rel_version="PvP_Rewards_Track">Azoth-Salz ist die Währung, mit der du aus der PvP-Serie Belohnungen erhältst. Du erhältst Azoth-Salz, indem du dich an Kriegen, am Außenpostensturm, in PvP-Arenen und an PvP-Missionen beteiligst oder in der offenen Welt Spieler im PvP besiegst und EP dazugewinnst, während du markiert bist.\n\nFür die Tötung von Spielern, die über 10 Stufen unter deiner aktuellen Stufen stehen, gibt es kein Azoth-Salz und außerdem muss das Opfer mehr als 10 Minuten lang markiert gewesen sein.</string>
+	<string key="azoth_salt_lost_tooltip" rel_version="PvP_Rewards_Track">Azoth-Salz ist die Währung, mit der du aus der PvP-Serie Belohnungen erhältst. Du erhältst Azoth-Salz, indem du dich an Kriegen, am Außenpostensturm, in 3-gg-3-Arenen und an PvP-Missionen beteiligst oder in der offenen Welt Spieler im PvP besiegst und EP dazugewinnst, während du markiert bist.\n\nFür die Tötung von Spielern, die über 10 Stufen unter deiner aktuellen Stufen stehen, gibt es kein Azoth-Salz und außerdem muss das Opfer mehr als 10 Minuten lang markiert gewesen sein.</string>
+	<string key="ui_pvp_track_tut_title1" rel_version="PvP_Rewards_Track">PvP-Belohnungsserie</string>
+	<string key="ui_pvp_track_tut_title2" rel_version="PvP_Rewards_Track">PvP-EP</string>
+	<string key="ui_pvp_track_tut_title3" rel_version="PvP_Rewards_Track">Azoth-Salz</string>
+	<string key="ui_pvp_track_tut_title4" rel_version="PvP_Rewards_Track">Belohnungen</string>
+	<string key="ui_pvp_track_tut_desc1" rel_version="PvP_Rewards_Track">Die PvP-Belohnungsserien enthalten PvP-spezifische Belohnungen für PvP-Aktivitäten im Spiel. Du kannst die Belohnungsserien abschließen und erneut angehen, um andere Belohnungen zu erhalten. Je mehr Belohnungsserien du absolvierst, desto hochwertiger werden die Belohnungen.</string>
+	<string key="ui_pvp_track_tut_desc2" rel_version="PvP_Rewards_Track">Erziele Fortschritte in der Belohnungsserie, indem du PvP-Missionen abschließt, dich am Außenpostensturm, an Kriegen oder der Eroberung von Festungen beteiligst, andere Spieler besiegst, an 3-gg-3-Arenen teilnimmst und EP dazugewinnst, während du markiert bist.</string>
+	<string key="ui_pvp_track_tut_desc3" rel_version="PvP_Rewards_Track">Azoth-Salz ist die Währung, mit der du aus der PvP-Serie Belohnungen erhältst. Du erhältst Azoth-Salz, indem du dich an Kriegen, am Außenpostensturm, in 3-gg-3-Arenen, an PvP-Missionen beteiligst oder Spieler in der offenen Welt im PvP besiegst und EP dazugewinnst, während du markiert bist.</string>
+	<string key="ui_pvp_track_tut_desc4" rel_version="PvP_Rewards_Track">Wähle aus einzigartigen Belohnungen aus, darunter prestigeträchtige Rüstungen und Waffen, Emotes, Währung und Verbrauchsgegenstände.</string>
+	<string key="ui_pvp_track_leveltext" rel_version="PvP_Rewards_Track">&lt;font color="#FFFFFF" &gt;{level}&lt;/font&gt; Serien abgeschlossen</string>
 	<string key="ui_pvp_track_leveltext_header" rel_version="PvP_Rewards_Track">Abgeschlossene Serien: &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#FFFFFF"&gt;{level}&lt;/font&gt;</string>
 	<string key="ui_pvp_track_current_balance" rel_version="PvP_Rewards_Track">Guthaben: &lt;font color={colorBalance} face="lyshineui/fonts/CaslonAnt.font"&gt;{balance}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_addtopool" rel_version="PvP_Rewards_Track">+ Belohnungsauswahl</string>
+	<string key="ui_pvp_track_rankup_confirmation" rel_version="PvP_Rewards_Track">Erhalte einen Bonus für jeden Kontrollpunkt mit einer unbeanspruchten Belohnung und nimm dein Azoth-Salz in die neue Serie mit neuen Belohnungen mit.</string>
 	<string key="ui_pvp_track_rankup_stagesummary" rel_version="PvP_Rewards_Track">\n&lt;font color={colorBonus}&gt;Kontrollpunkt-Bonus: &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_track_rankup_bonussalt" rel_version="PvP_Rewards_Track">&lt;font color={colorBonus}&gt; Serienabschluss-Bonus: &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_pvp_track_bannertext" rel_version="PvP_Rewards_Track">PvP-Serie abgeschlossen</string>
 	<string key="ui_pvp_track_bannerrewards_1" rel_version="PvP_Rewards_Track">Belohnungsauswahl: \n+Emote</string>
 	<string key="ui_pvp_track_bannerrewards_2" rel_version="PvP_Rewards_Track">Belohnungsauswahl: \n+ benannte Ausrüstung \n+ Mehr Währung</string>
 	<string key="ui_pvp_track_bannerrewards_3" rel_version="PvP_Rewards_Track">Belohnungsauswahl: \n+Prestige-Ausrüstung \n+ Emote \n+ Salzphiolen-Pakete</string>
 	<string key="ui_pvp_track_bannerrewards_4" rel_version="PvP_Rewards_Track">Belohnungsauswahl: \n+ Gips \n+ Mehr Währung \n+ Mehr Schattensplitter</string>
 	<string key="ui_pvp_track_bannerrewards_5" rel_version="PvP_Rewards_Track">Belohnungsauswahl: \n+ Emote \n+ Schattensplitter </string>
-	<string key="ui_pvp_track_bannerrewards_6" rel_version="PvP_Rewards_Track">Belohnungsauswahl: \n+ Emote \n+ Mehr Währung</string>
+	<string key="ui_pvp_track_bannerrewards_6" rel_version="PvP_Rewards_Track">Belohnungsauswahl: \n+ Emote \n+ Mehr Währung \n+ Mehr Beute</string>
 	<string key="ui_pvp_track_next_milestone" rel_version="PvP_Rewards_Track">{milestone} Serien-Meilenstein bei:</string>
 	<string key="ui_pvp_track_milestone" rel_version="PvP_Rewards_Track">{milestone} Serien-Meilenstein</string>
 	<string key="ui_pvp_track_reward" rel_version="PvP_Rewards_Track">Belohnung</string>

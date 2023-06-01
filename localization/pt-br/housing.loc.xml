@@ -35,8 +35,8 @@
 	<string key="ui_house_abandon_notification">Sua casa {houseName} foi abandonada.</string>
 	<string key="ui_house_abandon_popup_desc">Você já tem 1 casa nesta vila.\n Você gostaria de abandonar {houseName} para comprar esta casa?\nTodos os troféus e móveis da casa abandonada serão movidos para o Inventário da Vila.</string>
 	<string key="ui_house_abandon_popup_title">Você só pode ter uma casa em cada vila.</string>
-	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;O custo da compra e os impostos não serão reembolsados se esta casa for abandonada.&lt;/font&gt;\nTodos os troféus e móveis da casa abandonada serão movidos para o Inventário da Vila.\n\nPara continuar, digite {territoryName} abaixo.</string>
-	<string key="ui_house_abandon_this_house_desc">O custo da compra e os impostos não serão reembolsados se esta casa for abandonada. Todos os troféus e móveis da casa serão movidos para o inventário da vila.</string>
+	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;{percent}% do custo de compra original será reembolsado se esta casa for abandonada.&lt;/font&gt;\nTodos os troféus e móveis da casa abandonada serão movidos para o Inventário da Vila.\n\nPara continuar, digite {territoryName} abaixo.</string>
+	<string key="ui_house_abandon_this_house_desc">{percent}% do custo de compra original será reembolsado se esta casa for abandonada. Todos os troféus e móveis da casa serão movidos para o inventário da vila.</string>
 	<string key="ui_house_abandon_this_popup_title">Abandonar Casa?</string>
 	<string key="ui_house_abandon_confirm_placeholder_text">Digite o nome do território.</string>
 	<string key="ui_house_abandon_confirm_button">Abandonar Casa</string>
@@ -195,6 +195,7 @@
 	<string key="ui_fast_travel_error_description_inCooldown_with_time">Esta ação está em recarga.\nVocê pode retornar em {time}.</string>
 	<string key="ui_fast_travel_error_noDestination">Você precisa visitar o assentamento antes de fazer uma viagem rápida até lá.</string>
 	<string key="ui_fast_travel_error_noDestination_outpost">Você precisa visitar o posto avançado antes de fazer uma viagem rápida até lá.</string>
+	<string key="ui_fast_travel_error_noDestination_shrine">Você precisa visitar o santuário antes de fazer uma viagem rápida até lá.</string>
 	<string key="ui_fast_travel_error_badStartLoc">Você só pode realizar uma Viagem Rápida em um Assentamento, Posto Avançado ou Santuário Espiritual.</string>
 	<string key="ui_fast_travel_error_cantAfford">Você não tem Azoth suficiente.</string>
 	<string key="ui_fast_travel_error_encumbered">Você não pode fazer uma viagem rápida quando estiver com sobrecarga.</string>
@@ -251,5 +252,7 @@
 	<string key="ui_fast_travel_uncharted_point">Ponto de Viagem Rápida Inexplorado</string>
 	<string key="ui_fast_travel_shrine_activated_header">Santuário de Viagem Rápida</string>
 	<string key="ui_fast_travel_shrine_activated_body">Novo Ponto de Viagem Rápida Ativado!</string>
+	<string key="ui_red_button_housing_disabled_title">Alojamento Desativado</string>
+	<string key="ui_red_button_housing_disabled">O alojamento está desativado no momento devido à manutenção</string>
 </resources>
 

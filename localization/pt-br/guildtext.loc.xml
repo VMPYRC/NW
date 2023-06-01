@@ -137,6 +137,7 @@
 	<string key="ui_treasury_notification_withdrawalcappeddailylimit">Um saque de &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} foi feito na tesouraria da companhia (limitado pelo limite diário).</string>
 	<string key="ui_treasury_notification_setdailylimitsuccess">O limite de saque diário foi definido para &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage}.</string>
 	<string key="ui_treasury_notification_setdailylimitsuccessinfinite">O limite de saque diário foi definido para {infinityImage}.</string>
+	<string key="ui_treasury_notification_cointransferaldisabled">Você precisa estar no nível {minLevel} para usar o tesouro da guilda.</string>
 	<string key="ui_treasury_notification_error_generic">Falha de operação na tesouraria. Tente novamente.</string>
 	<string key="ui_setSiegeWindow">Definir Janela de Cerco</string>
 	<string key="ui_forDefending">Para defender seus territórios</string>
@@ -201,7 +202,8 @@
 	<string key="ui_leaveguild">Sair da Companhia</string>
 	<string key="ui_leaveguild_confirm">Tem certeza de que deseja sair da Companhia?</string>
 	<string key="ui_leaveguild_governor_confirm">Tem certeza de que deseja sair da Companhia?\n\nOutro membro será promovido a Governador quando você sair, e quaisquer participações que a companhia possuir permanecerão com a companhia sob o novo governador.</string>
-	<string key="ui_leaveguild_alone_confirm">Tem certeza de que deseja sair da Companhia?\n\nVocê é o único membro e, ao sair, todas as participações da companhia serão perdidas.</string>
+	<string key="ui_leaveguild_alone_confirm">Você é o único membro desta Companhia. Quando você sair, todas as propriedades da Companhia serão perdidas e a Carteira da Companhia será adicionada à sua carteira.</string>
+	<string key="ui_leaveguild_alone_walletwarning">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Coletar a Carteira da Empresa deixará você acima da Capacidade de Moedas. Se você dissolver a Companhia agora, Moedas excedentes serão perdidas.&lt;/font&gt;</string>
 	<string key="ui_leftguildmessage">Saiu da Companhia.</string>
 	<string key="ui_modifycrest">Editar Brasão</string>
 	<string key="ui_guildcrestsaved">Novo Brasão Salvo</string>
@@ -254,7 +256,13 @@
 	<string key="ui_promote">Promover</string>
 	<string key="ui_promote_transfer_owner">Transferir Titularidade</string>
 	<string key="ui_promotetoguildmaster_confirm_title">Transferir Companhia?</string>
-	<string key="ui_promotetoguildmaster_confirm" comment="Pronoun for Transferring ownership to a player. Need to break into two string keys">Tem certeza de que deseja transferir o governo da Companhia para {memberName}?\n\nTodos os membros, conquistas, estruturas e fundos de tesouraria de {guildName} ficarão sob o controle de {memberName} como novo Governador de {guildName}. O brasão e o nome da Companhia permanecerão os mesmos. Seu ranque será rebaixado ao nível imediatamente inferior.\n\nEsta ação é definitiva e a mudança ocorrerá imediatamente.</string>
+	<string key="ui_promotetoguildmaster_confirm_part1" comment="Pronoun for local player.">Tem certeza de que deseja transferir o governo da Companhia para {memberName}?</string>
+	<string key="ui_promotetoguildmaster_confirm_part1_SHE" comment="Pronoun for local player.">Tem certeza de que deseja transferir o governo da Companhia para {memberName}?</string>
+	<string key="ui_promotetoguildmaster_confirm_part1_THEY" comment="Pronoun for local player.">Tem certeza de que deseja transferir o governo da Companhia para {memberName}?</string>
+	<string key="ui_promotetoguildmaster_confirm_part2" comment="Pronoun for player ownership is transfered to.">Todos os membros, conquistas, estruturas e fundos de tesouraria de {guildName} ficarão sob o controle de {memberName} como novo Governador de {guildName}. O brasão e o nome da Companhia permanecerão os mesmos. Seu ranque será rebaixado ao nível imediatamente inferior.</string>
+	<string key="ui_promotetoguildmaster_confirm_part2_SHE" comment="Pronoun for player ownership is transfered to.">Todos os membros, conquistas, estruturas e fundos de tesouraria de {guildName} ficarão sob o controle de {memberName} como nova Governadora de {guildName}. O brasão e o nome da Companhia permanecerão os mesmos. Seu ranque será rebaixado ao nível imediatamente inferior.</string>
+	<string key="ui_promotetoguildmaster_confirm_part2_THEY" comment="Pronoun for player ownership is transfered to.">Todos os membros, conquistas, estruturas e fundos de tesouraria de {guildName} ficarão sob o controle de {memberName} como Governante de {guildName}. O brasão e o nome da Companhia permanecerão os mesmos. Seu ranque será rebaixado ao nível imediatamente inferior.</string>
+	<string key="ui_promotetoguildmaster_confirm_part3">Esta ação é definitiva e a mudança ocorrerá imediatamente.</string>
 	<string key="ui_rank">Ranque</string>
 	<string key="ui_rankmovedowndisabled">Este é o ranque mais baixo</string>
 	<string key="ui_rankmoveupdisabled">Não pode mover acima de {gmRankName}</string>
@@ -340,11 +348,11 @@
 	<string key="ui_wardeclarationpopup_item_siege_supply_rate">Índice de Suprimentos de Cerco</string>
 	<string key="ui_wardeclaration_requirements_format">{territoryText}\n{permissionsText}\n{moneyText}</string>
 	<string key="ui_wardeclaration_pending_notification_title">Declaração de Guerra Pendente</string>
-	<string key="ui_wardeclaration_pending_notification_text">Sua declaração de guerra está pendente!\nVocê receberá uma notificação em breve informando se a declaração foi válida.</string>
+	<string key="ui_wardeclaration_pending_notification_text">Sua Declaração de Guerra está pendente!\nVocê receberá uma notificação em breve informando se a declaração foi válida.</string>
 	<string key="ui_wardeclaration_unsuccessful_notification_title">Declaração de Guerra Inválida</string>
-	<string key="ui_wardeclaration_unsuccessful_notification_text">A declaração de guerra de outra companhia foi selecionada. Suas moedas foram devolvidas à Carteira da Companhia.</string>
+	<string key="ui_wardeclaration_unsuccessful_notification_text">A Declaração de Guerra de outra companhia foi selecionada. Suas moedas foram devolvidas à Carteira da Companhia.</string>
 	<string key="ui_wardeclaration_successful_notification_title">Declaração de Guerra Aceita</string>
-	<string key="ui_wardeclaration_successful_notification_text">A próxima guerra está marcada. Vá ao quadro de guerra do território para registrar e gerenciar seu exército.</string>
+	<string key="ui_wardeclaration_successful_notification_text">A próxima Guerra está marcada. Vá ao Quadro de Guerra do Território para registrar e gerenciar seu exército.</string>
 	<string key="ui_territory_upkeep_due">{name} está devendo Impostos de Territórios da Companhia!</string>
 	<string key="ui_warframe_range_prewar">Pré-Guerra</string>
 	<string key="ui_warframe_range_currentwar">Guerra Atual</string>
@@ -435,9 +443,10 @@
 	<string key="ui_trade_failure_global_storage_not_enough_currency">Você não possui fundos o suficiente para pagar a taxa de saque para itens armazenados remotamente.</string>
 	<string key="ui_trade_failure_global_storage_wrong_faction">Sacar requer que ambos os territórios estejam em sua facção e com a manutenção em dia.</string>
 	<string key="ui_trade_failure_global_storage_invalid_deposit">Você só pode depositar itens na Despensa na sua localização.</string>
+	<string key="ui_trade_failure_global_storage_invalid_deposit_rfi">Você só pode depositar itens em despensas de assentamentos que já visitou.</string>
 	<string key="ui_guildclaimsowned">Conquistas Possuídas</string>
 	<string key="ui_guildoneclaimowned">Conquista Possuída</string>
-	<string key="ui_acceptguildinvitepopuptitle">Juntar-se à Nova Companhia?</string>
+	<string key="ui_acceptguildinvitepopuptitle">Juntar-se à Companhia?</string>
 	<string key="ui_acceptguildinvitepopupmessage_noguild">Tem certeza de que deseja entrar em uma Companhia nova?</string>
 	<string key="ui_acceptguildinvitepopupmessage_hasclaims">Quaisquer territórios que você possua não serão transferidos para a nova Companhia, e continuarão sendo reivindicados pela Companhia que você está deixando. As Companhias precisam passar pelo processo de Declaração de Guerra para reivindicar qualquer um destes Territórios.</string>
 	<string key="ui_acceptguildinvitepopupmessage_noclaims_time_remaining">Tem certeza de que deseja sair de sua Companhia atual e entrar em uma nova Companhia?\nVocê não poderá voltar para esta Companhia por {rejoinTime} e não poderá entrar em uma nova Companhia por {switchTime}.</string>
@@ -546,12 +555,16 @@
 	<string key="ui_siege_signup_failed">Ocorreu um problema ao se inscrever nesta guerra.</string>
 	<string key="ui_siege_signup_conquest_overlap_title">Tem certeza?</string>
 	<string key="ui_siege_signup_conquest_overlap_confirm">Você já está inscrito em uma guerra programada para o mesmo horário aproximado.\nDeseja abandonar sua inscrição em {territoryName}?</string>
-	<string key="ui_siege_signup_abandon_title">Abandonar Inscrição de Guerra</string>
+	<string key="ui_siege_signup_abandon_title">Abandonar Inscrição</string>
 	<string key="ui_siege_signup_abandon_message">Tem certeza de que deseja abandonar sua inscrição para esta guerra?</string>
 	<string key="ui_siege_abandon_title">Abandonar Guerra</string>
+	<string key="ui_invasion_abandon_title">Abandonar Invasão</string>
 	<string key="ui_siege_abandon_message">Tem certeza de que deseja abandonar esta guerra (os itens e tokens gastos serão perdidos)?</string>
+	<string key="ui_invasion_abandon_message">Tem certeza de que deseja abandonar esta invasão (os itens e tokens gastos serão perdidos)?</string>
 	<string key="ui_siege_abandon_and_accept_group_title">Abandonar Guerra</string>
-	<string key="ui_siege_abandon_and_accept_group_message">Tem certeza de que deseja abandonar a guerra e aceitar o convite de grupo?\nVocê será teletransportado para fora da área da guerra e perderá tokens e itens usados.</string>
+	<string key="ui_invasion_abandon_and_accept_group_title">Abandonar Invasão</string>
+	<string key="ui_siege_abandon_and_accept_group_message">Tem certeza de que deseja abandonar a Guerra e aceitar o convite de grupo?\nVocê será teletransportado para fora da área e perderá tokens e itens usados.</string>
+	<string key="ui_invasion_abandon_and_accept_group_message">Tem certeza de que deseja abandonar a Invasão e aceitar o convite de grupo?\nVocê será teletransportado para fora da área e perderá tokens e itens usados.</string>
 	<string key="ui_siege_set_roster_failed_not_permitted">Você não tem permissão para gerenciar o exército.</string>
 	<string key="ui_siege_set_roster_failed_invalid_player">Não foi possível mover um dos jogadores selecionados. Tente novamente.</string>
 	<string key="ui_siege_set_roster_failed_no_more_selections">Não é permitido fazer mais seleções manuais, remova um jogador primeiro.</string>

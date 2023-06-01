@@ -71,8 +71,10 @@
 	<string key="feasting_DisplayName">Banchettare</string>
 	<string key="ResetAI_DisplayName">Ritirarsi</string>
 	<string key="VillagerFrenzy_DisplayName">Pozione della corruzione potenziata</string>
-	<string key="PvP_Arena_PreRound_DisplayName">Preparazione</string>
-	<string key="PvP_Arena_PreRound_Description">Ti prepari per lo scontro imminente. Subisci Silenziamento temporaneo e i tuoi tempi di ricarica vengono ripristinati.</string>
+	<string key="PvP_Arena_PreRound_DisplayName" rel_version="Feature_PVP_Arenas">Preparazione</string>
+	<string key="PvP_Arena_PreRound_Description" rel_version="Feature_PVP_Arenas">Ti prepari per lo scontro imminente. Subisci Silenziamento temporaneo e i tuoi tempi di ricarica vengono ripristinati.</string>
+	<string key="PVP_Arena_ScalingHealingDebuff_DisplayName" rel_version="Feature_PVP_Arenas">Guarigione smorzata</string>
+	<string key="PVP_Arena_ScalingHealingDebuff_Tooltip" rel_version="Feature_PVP_Arenas">La guarigione ricevuta da incantesimi e consumabili viene ridotta di un {[Type_StatusEffectData.PvP_Arena_ScalingHealingDebuff.HealMod * 100]}% per ogni accumulo di questo depotenziamento.</string>
 	<string key="MinorFoodMagicAbsorption_DisplayName">Assorbimento minimo arcano</string>
 	<string key="MinorFoodMagicAbsorption_Tooltip">Aumenta l'assorbimento arcano di 2,0</string>
 	<string key="MinorFoodFireAbsorption_DisplayName">Assorbimento minimo del fuoco</string>
@@ -396,14 +398,31 @@
 	<string key="FoodHarvesterT5_Effect_DisplayName">Fortuna nella raccolta delle messi V</string>
 	<string key="FoodHunterT5_Effect_DisplayName">Fortuna nella scuoiatura V</string>
 	<string key="FoodLumberjackT5_Effect_DisplayName">Fortuna nel taglio e trasporto di legname V</string>
+	<string key="PvPArenaDeathFog_MasterName" rel_version="Feature_PVP_Arenas">Fiamme di battaglia</string>
+	<string key="PvPArenaDeathFog_Description" rel_version="Feature_PVP_Arenas">Mentre sei tra le fiamme di battaglia, perdi il 10% di salute al secondo e riduci tutte le cure del 99%.</string>
 	<string key="Mut_Disease_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Infetto I</string>
 	<string key="Mut_Disease_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Infetto II</string>
 	<string key="Mut_Disease_1_DisplayName" rel_version="Feature_Dungeon_Mutators">Malattia minore</string>
 	<string key="Mut_Disease_1_Tooltip" rel_version="Feature_Dungeon_Mutators">Riduce la guarigione ricevuta di un {[Type_StatusEffectData.Mut_Disease_1.HealMod * -100]}%, sommandosi fino a {[Type_StatusEffectData.Mut_Disease_1.StackMax]} volte.</string>
 	<string key="Mut_Disease_2_DisplayName" rel_version="Feature_Dungeon_Mutators">Malattia</string>
 	<string key="Mut_Disease_2_Tooltip" rel_version="Feature_Dungeon_Mutators">Riduce la guarigione ricevuta di un {[Type_StatusEffectData.Mut_Disease_2.HealMod * -100]}%, sommandosi fino a {[Type_StatusEffectData.Mut_Disease_2.StackMax]} volte.</string>
+	<string key="Mut_StaminaDamage_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Frantumante I</string>
+	<string key="Mut_StaminaDamage_1_BlockBreak_Bleed_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Sanguinamento infranto</string>
+	<string key="Mut_StaminaDamage_1_BlockBreak_Bleed_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Sanguinante per un {[Type_StatusEffectData.Mut_StaminaDamage_1_BlockBreak_Bleed.HealthModifierPercent * -100]}% di danni fisici alla salute di base ogni {[Type_StatusEffectData.Mut_StaminaDamage_1_BlockBreak_Bleed.TickRate]} secondi.</string>
+	<string key="Mut_StaminaDamage_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Frantumante II</string>
+	<string key="Mut_StaminaDamage_2_BlockBreak_Bleed_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Sanguinamento infranto</string>
+	<string key="Mut_StaminaDamage_2_BlockBreak_Bleed_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Sanguinante per un {[Type_StatusEffectData.Mut_StaminaDamage_2_BlockBreak_Bleed.HealthModifierPercent * -100]}% di danni fisici alla salute di base ogni {[Type_StatusEffectData.Mut_StaminaDamage_2_BlockBreak_Bleed.TickRate]} secondi.</string>
+	<string key="Mut_ManaDamage_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Cacciatore di maghi I</string>
+	<string key="Mut_ManaDamage_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Cacciatore di maghi II</string>
+	<string key="Mut_ManaThorns_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Cacciatore di maghi I</string>
+	<string key="Mut_ManaThorns_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Cacciatore di maghi II</string>
 	<string key="Mut_LifeSteal_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Vampirico I</string>
 	<string key="Mut_LifeSteal_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Vampirico II</string>
+	<string key="Mut_Enrage_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Infuriato</string>
+	<string key="Mut_Enrage_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Furia prodigiosa</string>
+	<string key="Mut_SilenceArea_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Soppressore</string>
+	<string key="Mut_SilenceArea_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Silenzio</string>
+	<string key="Mut_SilenceArea_Effect_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">In questa zona non è possibile utilizzare le abilità.</string>
 	<string key="Mut_ProjectileShield_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Falange</string>
 	<string key="Mut_RotatingBeam_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Affettatore</string>
 	<string key="Mut_Fir_Damage_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Infiammato</string>
@@ -441,20 +460,73 @@
 	<string key="Mut_Voi_Leech_2_Heal_DisplayName" rel_version="Feature_Dungeon_Mutators">Risucchiaoblio II</string>
 	<string key="Mut_Voi_Death_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Insidioso</string>
 	<string key="Mut_Voi_Death_Empower_DisplayName" rel_version="Feature_Dungeon_Mutators">Potere insidioso</string>
+	<string key="Mut_Nat_Damage_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Arboreo</string>
+	<string key="Mut_Nat_Resist_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Resistente alla natura I</string>
+	<string key="Mut_Nat_Resist_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Resistente alla natura II</string>
+	<string key="Mut_Nat_Pools_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Tossico I</string>
+	<string key="Mut_Nat_Pools_1_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Veleno I</string>
+	<string key="Mut_Nat_Pools_1_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Fa subire un {[Type_StatusEffectData.Mut_Nat_Pools_1_Damage.HealthModifierDamageBased * -100]}% di danni di base da natura ogni {[Type_StatusEffectData.Mut_Nat_Pools_1_Damage.TickRate]} secondi.</string>
+	<string key="Mut_Nat_Pools_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Tossico II</string>
+	<string key="Mut_Nat_Pools_2_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Veleno II</string>
+	<string key="Mut_Nat_Pools_2_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Fa subire un {[Type_StatusEffectData.Mut_Nat_Pools_2_Damage.HealthModifierDamageBased * -100]}% di danni di base da natura ogni {[Type_StatusEffectData.Mut_Nat_Pools_2_Damage.TickRate]} secondi.</string>
+	<string key="Mut_Nat_Crawler_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Tossico I</string>
+	<string key="Mut_Nat_Crawler_1_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Tossina I</string>
+	<string key="Mut_Nat_Crawler_1_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Fa subire un {[Type_StatusEffectData.Mut_Nat_Crawler_1_Damage.HealthModifierDamageBased * -100]}% di danni di base da natura ogni {[Type_StatusEffectData.Mut_Nat_Crawler_1_Damage.TickRate]} secondi.</string>
+	<string key="Mut_Nat_Crawler_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Tossico II</string>
+	<string key="Mut_Nat_Crawler_2_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Tossina II</string>
+	<string key="Mut_Nat_Crawler_2_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Fa subire un {[Type_StatusEffectData.Mut_Nat_Crawler_2_Damage.HealthModifierDamageBased * -100]}% di danni di base da natura ogni {[Type_StatusEffectData.Mut_Nat_Crawler_2_Damage.TickRate]} secondi.</string>
+	<string key="Mut_Nat_Thorns_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Rovo I</string>
+	<string key="Mut_Nat_Thorns_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Rovo II</string>
+	<string key="Mut_Nat_Death_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Compost</string>
+	<string key="Mut_Nat_Death_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Rigenerazione</string>
 	<string key="Mut_Fir_Curse1_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Fuoco instabile</string>
 	<string key="Mut_Fir_Curse1_Minor_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Fiammata instabile</string>
 	<string key="Mut_Fir_Curse1_Minor_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Fa subire un {[Type_StatusEffectData.Mut_Fir_Curse1_Minor_Damage.HealthModifierPercent * -100]}% di danni da fuoco ogni {[Type_StatusEffectData.Mut_Fir_Curse1_Minore_Damage.TickRate]} secondi.</string>
 	<string key="Mut_Voi_Curse1_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Vuoto instabile</string>
 	<string key="Mut_Voi_Curse1_Minor_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Flusso instabile</string>
 	<string key="Mut_Voi_Curse1_Minor_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Fa subire un {[Type_StatusEffectData.Mut_Voi_Curse1_Minor_Damage.HealthModifierPercent * -100]}% di danni da Vuoto ogni {[Type_StatusEffectData.Mut_Voi_Curse1_Minor_Damage.TickRate]} secondi.</string>
+	<string key="Mut_Nat_Curse1_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Natura instabile</string>
+	<string key="Mut_Nat_Curse1_Minor_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Linfa instabile</string>
+	<string key="Mut_Nat_Curse1_Minor_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Fa subire un {[Type_StatusEffectData.Mut_Nat_Curse1_Minor_Damage.HealthModifierPercent * -100]}% di danni da natura ogni {[Type_StatusEffectData.Mut_Nat_Curse1_Minor_Damage.TickRate]} secondi.</string>
+	<string key="Mut_Fir_Curse1_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Fuoco sovraccarico</string>
+	<string key="Mut_Fir_Curse1_Major_Buff_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Aumenta temporaneamente di un {[Type_StatusEffectData.Mut_Fir_Curse1_Major_Damage.HealthModifierDamageBased * -100]}% i danni da fuoco degli alleati vicini ogni {[Type_StatusEffectData.Mut_Fir_Curse1_Major_Damage.TickRate]} secondi. Ottieni un {[Type_StatusEffectData.Mut_Fir_Curse1_Major_Buff.ABSFire * 100]}% di assorbimento del fuoco.</string>
+	<string key="Mut_Fir_Curse1_Major_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Fiammata sovraccarica</string>
+	<string key="Mut_Fir_Curse1_Major_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Fa subire un {[Type_StatusEffectData.Mut_Fir_Curse1_Major_Damage.HealthModifierDamageBased * -100]}% di danni da fuoco ogni {[Type_StatusEffectData.Mut_Fir_Curse1_Major_Damage.TickRate]} secondi.</string>
+	<string key="Mut_Voi_Curse1_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Vuoto sovraccarico</string>
+	<string key="Mut_Voi_Curse1_Major_Buff_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Aumenta temporaneamente di un {[Type_StatusEffectData.Mut_Voi_Curse1_Major_Damage.HealthModifierDamageBased * -100]}% i danni da Vuoto degli alleati vicini ogni {[Type_StatusEffectData.Mut_Voi_Curse1_Major_Damage.TickRate]} secondi. Ottieni un {[Type_StatusEffectData.Mut_Voi_Curse1_Major_Buff.ABSCorruption * 100]}% di assorbimento del Vuoto.</string>
+	<string key="Mut_Voi_Curse1_Major_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Abisso sovraccarico</string>
+	<string key="Mut_Voi_Curse1_Major_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Fa subire un {[Type_StatusEffectData.Mut_Voi_Curse1_Major_Damage.HealthModifierDamageBased * -100]}% di danni da Vuoto ogni {[Type_StatusEffectData.Mut_Voi_Curse1_Major_Damage.TickRate]} secondi.</string>
+	<string key="Mut_Nat_Curse1_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Natura sovraccarica</string>
+	<string key="Mut_Nat_Curse1_Major_Buff_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Aumenta temporaneamente di un {[Type_StatusEffectData.Mut_Nat_Curse1_Major_Damage.HealthModifierDamageBased * -100]}% i danni da natura degli alleati vicini ogni {[Type_StatusEffectData.Mut_Nat_Curse1_Major_Damage.TickRate]} secondi. Ottieni un {[Type_StatusEffectData.Mut_Nat_Curse1_Major_Buff.ABSNature * 100]}% di assorbimento della natura.</string>
+	<string key="Mut_Nat_Curse1_Major_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Linfa sovraccarica</string>
+	<string key="Mut_Nat_Curse1_Major_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Fa subire un {[Type_StatusEffectData.Mut_Nat_Curse1_Major_Damage.HealthModifierDamageBased * -100]}% di danni da natura ogni {[Type_StatusEffectData.Mut_Nat_Curse1_Major_Damage.TickRate]} secondi.</string>
+	<string key="Mut_Ice_Curse1_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Ghiaccio sovraccarico</string>
+	<string key="Mut_Ice_Curse1_Major_Buff_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Aumenta temporaneamente di un {[Type_StatusEffectData.Mut_Ice_Curse1_Major_Damage.HealthModifierDamageBased * -100]}% i danni da ghiaccio degli alleati vicini ogni {[Type_StatusEffectData.Mut_Ice_Curse1_Major_Damage.TickRate]} secondi. Ottieni un {[Type_StatusEffectData.Mut_Ice_Curse1_Major_Buff.ABSIce * 100]}% di assorbimento del ghiaccio.</string>
+	<string key="Mut_Ice_Curse1_Major_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Gelo sovraccarico</string>
+	<string key="Mut_Ice_Curse1_Major_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Fa subire un {[Type_StatusEffectData.Mut_Ice_Curse1_Major_Damage.HealthModifierDamageBased * -100]}% di danni da ghiaccio ogni {[Type_StatusEffectData.Mut_Ice_Curse1_Major_Damage.TickRate]} secondi.</string>
+	<string key="Mut_Curse2_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Stanchezza</string>
+	<string key="Mut_Curse2_Minor_SlowRend_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Stanchezza</string>
+	<string key="Mut_Curse2_Minor_SlowRend_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">La tua velocità di movimento diminuisce di un {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.MoveSpeedMod * -100]}% e i danni inflitti aumentano di un {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.WKNStandard * 100]}%.</string>
+	<string key="Mut_Curse2_Fir_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Offerta di sangue</string>
+	<string key="Mut_Curse2_Fir_Major_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Fiammata insanguinata</string>
+	<string key="Mut_Curse2_Fir_Major_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Fa subire un {[Type_StatusEffectData.Mut_Curse2_Fir_Major_Damage.HealthModifierPercent * -100]}% di danni da fuoco alla salute massima ogni {[Type_StatusEffectData.Mut_Curse2_Fir_Major_Damage.TickRate]} secondi.</string>
+	<string key="Mut_Curse2_Voi_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Offerta di sangue</string>
+	<string key="Mut_Curse2_Voi_Major_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Flusso insanguinato</string>
+	<string key="Mut_Curse2_Voi_Major_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Fa subire un {[Type_StatusEffectData.Mut_Curse2_Voi_Major_Damage.HealthModifierPercent * -100]}% di danni da Vuoto alla salute massima ogni {[Type_StatusEffectData.Mut_Curse2_Voi_Major_Damage.TickRate]} secondi.</string>
+	<string key="Mut_Curse2_Nat_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Offerta di sangue</string>
+	<string key="Mut_Curse2_Nat_Major_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Linfa insanguinata</string>
+	<string key="Mut_Curse2_Nat_Major_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Fa subire un {[Type_StatusEffectData.Mut_Curse2_Nat_Major_Damage.HealthModifierPercent * -100]}% di danni da natura alla salute massima ogni {[Type_StatusEffectData.Mut_Curse2_Nat_Major_Damage.TickRate]} secondi.</string>
 	<string key="Mut_Fir_Curse3_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Fuoco combustibile</string>
+	<string key="Mut_Nat_Curse3_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Natura combustibile</string>
 	<string key="Mut_Voi_Curse3_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Vuoto combustibile</string>
 	<string key="Mut_Fir_Curse3_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Fuoco inaridito</string>
+	<string key="Mut_Nat_Curse3_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Natura inaridita</string>
 	<string key="Mut_Voi_Curse3_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Vuoto inaridito</string>
 	<string key="Mut_Curse3_Weaken_DisplayName" rel_version="Feature_Dungeon_Mutators">Inaridito</string>
 	<string key="Mut_Curse3_Weaken_Tooltip" rel_version="Feature_Dungeon_Mutators">Tutti i danni inflitti si riducono di un {[Type_StatusEffectData.Mut_Curse3_Weaken.DMGStandard * -100]}% e tutte le cure applicate si riducono di un {[Type_StatusEffectData.Mut_Curse3_Weaken.HealScalingValueMultiplier * -100]}%.</string>
 	<string key="Mut_Curse4_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Troncatura</string>
 	<string key="Mut_Fir_Curse4_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Fuoco di ritorno</string>
+	<string key="Mut_Nat_Curse4_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Natura di ritorno</string>
 	<string key="Mut_Voi_Curse4_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Vuoto di ritorno</string>
 	<string key="Mut_Curse4_Major_Exhaust_DisplayName" rel_version="Feature_Dungeon_Mutators">Sfinito</string>
 	<string key="Mut_Curse4_Major_Exhaust_ToolTip" rel_version="Feature_Dungeon_Mutators">Rigenerazione di energia ridotta di un {[Type_StatusEffectData.Mut_Curse4_Major_Exhaust.StaminaRate * -100]}%.</string>
@@ -520,10 +592,11 @@
 	<string key="AI_Slime_Slow_DisplayName">Appiccicoso</string>
 	<string key="AI_Slime_Slow_Tooltip">Velocità di movimento ridotta di un {[Type_StatusEffectData.AI_Slime_Slow.MoveSpeedMod * -100]}%.</string>
 	<string key="AI_SpiderBite_Tooltip">Avvelenato per un {[Type_StatusEffectData.AI_SpiderBite.HealthModifierDamageBased * -100]}% di danni di base da natura ogni {[Type_StatusEffectData.AI_SpiderBite.TickRate]} secondi per {[Type_StatusEffectData.AI_SpiderBite.BaseDuration]} secondi.</string>
-	<string key="AI_SpiderVenom_Tooltip">Avvelenato per un {[Type_StatusEffectData.AI_SpiderVenom.HealthModifierDamageBased * -100]}% di danni di base da natura ogni {[Type_StatusEffectData.AI_SpiderVenom.TickRate]} secondi per {[Type_StatusEffectData.AI_SpiderVenom.BaseDuration]} secondi.</string>
+	<string key="AI_SpiderVenom_Tooltip">L'armatura è un {[Type_StatusEffectData.AI_SpiderVenom.ABSStandard * -100]}% meno efficace.</string>
 	<string key="AI_PoisonOnHit_Buff_DisplayName">Velenoso</string>
 	<string key="AI_PoisonOnHit_Damage_DisplayName">Veleno</string>
 	<string key="AI_PoisonOnHit_Damage_Tooltip">Avvelenato per un {[Type_StatusEffectData.AI_PoisonOnHit_Damage.HealthModifierDamageBased * -100]}% di danni di base da natura ogni {[Type_StatusEffectData.AI_PoisonOnHit_Damage.TickRate]} secondi per {[Type_StatusEffectData.AI_PoisonOnHit_Damage.BaseDuration]} secondi.</string>
+	<string key="AI_HealAuraOnHit_Buff_DisplayName">Raduno</string>
 	<string key="AI_Corruption_Pool_Buff_DisplayName">Contaminato</string>
 	<string key="AI_Staggered_Telegraph_DisplayName">Vacillante</string>
 	<string key="AI_Enable_Stagger">Vacillamento abilitato</string>
@@ -544,6 +617,8 @@
 	<string key="AI_Thorpe_Burn_Tooltip">Rovente per un {[Type_StatusEffectData.AI_Thorpe_Burn.HealthModifierDamageBased * -100]}% di danni di base + {[Type_StatusEffectData.AI_Thorpe_Burn.HealthModifierPercent * -100]}% di danni da fuoco alla salute di base ogni {[Type_StatusEffectData.AI_Thorpe_Burn.TickRate]} secondi per {[Type_StatusEffectData.AI_Thorpe_Burn.BaseDuration]} secondi.</string>
 	<string key="AI_Thorpe_FTUE_Burn_DisplayName">Bruciatura</string>
 	<string key="AI_Thorpe_FTUE_Burn_Tooltip">Rovente per un {[Type_StatusEffectData.AI_Thorpe_FTUE_Burn.HealthModifierDamageBased * -100]}% di danni di base + {[Type_StatusEffectData.AI_Thorpe_FTUE_Burn.HealthModifierPercent * -100]}% di danni da fuoco alla salute di base ogni {[Type_StatusEffectData.AI_Thorpe_FTUE_Burn.TickRate]} secondi per {[Type_StatusEffectData.AI_Thorpe_FTUE_Burn.BaseDuration]} secondi.</string>
+	<string key="AI_Evil_Knight_Mine_Burn_DisplayName">Rovente</string>
+	<string key="AI_Evil_Knight_Mine_Burn_Tooltip">Rovente per un {[Type_StatusEffectData.AI_Evil_Knight_Mine_Burn.HealthModifierPercent * -100]}% di danni da fuoco di base per accumulo ogni {[Type_StatusEffectData.AI_Evil_Knight_Mine_Burn.TickRate]} secondi per {[Type_StatusEffectData.AI_Evil_Knight_Mine_Burn.BaseDuration]} secondi.</string>
 	<string key="AI_Poison_55_DisplayName">Avvelenato</string>
 	<string key="AI_Poison_55_Tooltip">Avvelenato per un {[Type_StatusEffectData.AI_Poison_55.HealthModifierDamageBased * -100]}% di danni di base + {[Type_StatusEffectData.AI_Poison_55.HealthModifierPercent * -100]}% di danni da natura alla salute di base ogni {[Type_StatusEffectData.AI_Poison_55.TickRate]} secondi per {[Type_StatusEffectData.AI_Poison_55.BaseDuration]} secondi.</string>
 	<string key="AI_Poison_Pool_DisplayName">Avvelenato</string>
@@ -592,7 +667,7 @@
 	<string key="AI_Joven_Rend_DisplayName">Lacerazione di Joven</string>
 	<string key="AI_Joven_Rend_Tooltip">Subisci un {[Type_StatusEffectData.AI_Joven_Rend.WKNCorruption * 100]}% di danni da Vuoto aggiuntivi per {[Type_StatusEffectData.AI_Joven_Rend.BaseDuration]} secondi.</string>
 	<string key="AI_Isabella_Phase2_TouchOfCorruption_DisplayName">Tocco di Corruzione</string>
-	<string key="AI_Isabella_Phase2_TouchOfCorruption_Tooltip">Subisci afflizione da corruzione ogni {[Type_StatusEffectData.AI_Isabella_Phase2_TouchOfCorruption.TickRate]} per {[Type_StatusEffectData.AI_Isabella_Phase2_TouchOfCorruption.BaseDuration]} secondi.</string>
+	<string key="AI_Isabella_Phase2_TouchOfCorruption_Tooltip">La velocità di movimento viene ridotta di un {[Type_StatusEffectData.AI_Isabella_Phase2_TouchOfCorruption.MoveSpeedMod * -100]}% e subisci afflizione da corruzione ogni {[Type_StatusEffectData.AI_Isabella_Phase2_TouchOfCorruption.TickRate]} secondi per {[Type_StatusEffectData.AI_Isabella_Phase2_TouchOfCorruption.BaseDuration]} secondi.</string>
 	<string key="AI_Mage_Miniboss_Orbs_StatusEffect_DisplayName">Essenza arcana</string>
 	<string key="AI_Mage_Miniboss_Orbs_StatusEffect_Tooltip">Il mago sta attingendo essenza da te per curarsi.</string>
 	<string key="AI_IceDryad_Frostgrip_IceVein_Root_DisplayName" rel_version="Event_WinterConvergence_Perm">Radicato</string>
@@ -992,6 +1067,8 @@
 	<string key="Combust_Stun_DisplayName" comment="FIRESTAFF">BRUCIATO!</string>
 	<string key="FireStaff_LowHealth_FireDmgBonus_DisplayName" comment="FIRESTAFF">Piromania</string>
 	<string key="FireStaff_LowHealth_FireDmgBonus_Description" comment="FIRESTAFF">Infligge il 25% di danni da fuoco aggiuntivi.</string>
+	<string key="FireStaff_ManaRegen_DisplayName" comment="FIRESTAFF">Surriscaldamento efficace</string>
+	<string key="FireStaff_ManaRegen_Description" comment="FIRESTAFF">Rigenerazione del mana aumentata.</string>
 	<string key="Combust_Stun_Description" comment="FIRESTAFF">Sei stordito per 3 secondi!</string>
 	<string key="HornOfResilienceT1_DisplayName">Corno della resilienza L1</string>
 	<string key="HornOfResilienceT1_Tooltip">Ripristina 334 punti salute al secondo e aggiunge il 15% di assorbimento dei danni.</string>
@@ -1061,7 +1138,7 @@
 	<string key="Status_Spear_BonusStamRegenOnLowStam_Description">Rigenerazione di energia aumentata di un {[Type_StatusEffectData.Spear_BonusStamRegenOnLowStam.StaminaRate * 100]}%.</string>
 	<string key="Status_Spear_SlowOnLightVsLowHP_Description">Velocità di movimento ridotta di un {[Type_StatusEffectData.Spear_SlowOnLightVsLowHP.MoveSpeedMod * -100]}% per {[Type_StatusEffectData.Spear_SlowOnLightVsLowHP.BaseDuration]} secondi.</string>
 	<string key="Rapier_Bleed_DoT_DisplayName">Sanguinamento</string>
-	<string key="Rapier_Bleed_DoT_Description">Infligge un {[Type_StatusEffectData.Rapier_Bleed_DOT.HealthModifierDamageBased * 100]}% dei danni da arma degli attaccanti al secondo.</string>
+	<string key="Rapier_Bleed_DoT_Description">Infligge un {[Type_StatusEffectData.Rapier_Bleed_DOT.HealthModifierDamageBased * -100]}% dei danni da arma degli attaccanti al secondo.</string>
 	<string key="Rapier_Rupture_Speed_Bonus_DisplayName">Velocità</string>
 	<string key="Rapier_Rupture_Speed_Bonus_Description">Velocità</string>
 	<string key="Rapier_Rupture_Speed_Bonus_Upgraded_DisplayName">Bonus velocità 1</string>
@@ -1164,7 +1241,7 @@
 	<string key="Status_Passive_Bow_Skirmish_HasteOnSwap_Timer_description">Allo scadere, potrai riottenere Velocità dell'arciere.</string>
 	<string key="Status_Bow_Poison_description">{[Type_StatusEffectData.Status_Bow_Poison.HealthModifierDamageBased * -100]}% di danni da arma al secondo.</string>
 	<string key="Status_Bow_Poison_Upgrade_description">{[Type_StatusEffectData.Status_Bow_Poison_Upgrade.HealthModifierDamageBased * 100]}% di danni da arma al secondo.</string>
-	<string key="Status_Passive_RainofArrows_Bleed_description">Infligge un {[Type_StatusEffectData.Status_Passive_RainofArrows_Bleed.HealthModifierDamageBased * 100]}% dei danni da arma degli attaccanti al secondo.</string>
+	<string key="Status_Passive_RainofArrows_Bleed_description">Infligge un {[Type_StatusEffectData.Status_Passive_RainofArrows_Bleed.HealthModifierDamageBased * -100]}% dei danni da arma degli attaccanti al secondo.</string>
 	<string key="Status_Ultimate_Greataxe_Mauler">Furia del picchiatore</string>
 	<string key="Status_Ultimate_Greataxe_Mauler_description">I tuoi danni aumentano di un {[Type_StatusEffectData.Status_Ultimate_Greataxe_Mauler.DMGStandard * 100]}%.</string>
 	<string key="Status_Ultimate_Greataxe_Reaper">Brama di sangue</string>
@@ -1350,15 +1427,17 @@
 	<string key="AI_EvilKnight_Rally_DisplayName" rel_version="AI_Evil_Knights_P1">Grido di guerra dei Variaghi</string>
 	<string key="RoadTravel_SprintBoost">Fretta sulle strade</string>
 	<string key="RoadTravel_SprintBoost_Description">La velocità dello scatto aumenta di un {[Type_StatusEffectData.Traversal_RoadSprintBoost_Haste.SprintSpeedMod * 100]}% mentre stai scattando sulle strade.</string>
+	<string key="OutOfCombat_PassiveRegen_Name">Rigenerazione placida</string>
+	<string key="OutOfCombat_PassiveRegen_Description">Rigenerazione passiva che cura nel tempo, aumenta il tasso di rigenerazione del mana e aumenta gli effetti della guarigione passiva da cibo quando non sei in combattimento.</string>
 	<string key="Status_Weapon_DiseaseOnCrit_Description" rel_version="MorePerksV1">L'efficacia della guarigione si riduce di un {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.HealMod * -100]}%.</string>
 	<string key="Status_Weapon_DiseaseOnHeavy_Description" rel_version="MorePerksV1">L'efficacia della guarigione si riduce di un {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.HealMod * -100]}%.</string>
 	<string key="Status_Weapon_ChargedHeavyRend_Description" rel_version="MorePerksV1">Subisci un {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.ABSStandard * -100]}% di danni aggiuntivi da tutte le fonti.</string>
-	<string key="Status_Timer_ChargedHeavyRend_Description" rel_version="MorePerksV1">Allo scadere, potrai riottenere il vantaggio Sintonia del gelo.</string>
-	<string key="Blunderbuss_ChargeCooldown_Name" rel_version="Weapon_Blunderbuss">Carica</string>
-	<string key="Blunderbuss_ChargeCooldown_Desc" rel_version="Weapon_Blunderbuss">La tua abilità del caos successiva si ricarica più velocemente</string>
-	<string key="Blunderbuss_ChargeCooldownOnCooldown_Desc" rel_version="Weapon_Blunderbuss">Allo scadere, potrai usare di nuovo la tua Carica passiva.</string>
+	<string key="Status_Timer_ChargedHeavyRend_Description" rel_version="MorePerksV1">Al termine, potrai riottenere il vantaggio Lacerato incisivo.</string>
+	<string key="Blunderbuss_ChargeCooldown_Name" rel_version="Weapon_Blunderbuss">Tutto per tutto</string>
+	<string key="Blunderbuss_ChargeCooldown_Desc" rel_version="Weapon_Blunderbuss">La tua abilità successiva con lo schioppo si ricarica più velocemente.</string>
+	<string key="Blunderbuss_ChargeCooldownOnCooldown_Desc" rel_version="Weapon_Blunderbuss">Allo scadere, potrai usare di nuovo la tua abilità passiva Tutto per tutto.</string>
 	<string key="Blunderbuss_AbilityRamp_Name" rel_version="Weapon_Blunderbuss">Inarrestabile</string>
-	<string key="Blunderbuss_AbilityRamp_Desc" rel_version="Weapon_Blunderbuss">Tutti i danni ricevuti sono ridotti dell'1% per accumulo (max 10)</string>
+	<string key="Blunderbuss_AbilityRamp_Desc" rel_version="Weapon_Blunderbuss">Tutti i danni subiti si riducono di un {[Type_StatusEffectData.Blunderbuss_AbilityRamp.ABSStandard * 100]}%. Cumulabile fino a {[Type_StatusEffectData.Blunderbuss_AbilityRamp.StackMax]} volte.</string>
 	<string key="Blunderbuss_Nine_Name" rel_version="Weapon_Blunderbuss">Scarica</string>
 	<string key="Blunderbuss_Nine_Desc" rel_version="Weapon_Blunderbuss">Il tuo prossimo attacco base spara 9 colpi.</string>
 	<string key="Blunderbuss_Ramp_Name" rel_version="Weapon_Blunderbuss">Rampa</string>
@@ -1370,6 +1449,8 @@
 	<string key="Blunderbuss_BarbedNet_Desc" rel_version="Weapon_Blunderbuss">Subisci danni nel tempo.</string>
 	<string key="Blunderbuss_Run_And_Gun_Name" rel_version="Weapon_Blunderbuss">Corri e spara</string>
 	<string key="Blunderbuss_Run_And_Gun_Desc" rel_version="Weapon_Blunderbuss">Ti muovi più velocemente dopo la ricarica.</string>
+	<string key="Blunderbuss_In_And_Out_Name" rel_version="Weapon_Blunderbuss">Lavoretto veloce</string>
+	<string key="Blunderbuss_In_And_Out_Desc" rel_version="Weapon_Blunderbuss">Ripristina energia ogni secondo.</string>
 	<string key="Status_Blunderbuss_FortifyCloseRange_Desc" rel_version="Weapon_Blunderbuss">I danni subiti si riducono di un {[Type_StatusEffectData.Blunderbuss_FortifyCloseRange.ABSStandard * 100]}%.</string>
 	<string key="Status_ShirkingFire" rel_version="MorePerksV2">Fiamme elusive</string>
 	<string key="Status_ShirkingFire_Description" rel_version="MorePerksV2">Il tuo prossimo attacco infliggerà danni da fuoco aggiuntivi.</string>
@@ -1393,7 +1474,33 @@
 	<string key="Status_DodgeStamina_Timer_Description" rel_version="MorePerksV2">Al termine, potrai riottenere il vantaggio Energia elusiva.</string>
 	<string key="Status_GatherProc_Heal" rel_version="MorePerksV2">Raccolta di guarigione</string>
 	<string key="Status_GatherProc_Heal_Description" rel_version="MorePerksV2">Rigenera salute con il vantaggio Raccolta del recupero.</string>
-	<string key="Status_MothersLove">Amore materno</string>
-	<string key="Status_MothersLove_Description">Ti avvolge una presenza materna che ti guida, aumentando la fortuna di un {[Type_StatusEffectData.Shrine_MothersLove.GlobalRollMod * 0.01]}% per {[Type_StatusEffectData.Shrine_MothersLove.BaseDuration / 60]} min.</string>
+	<string key="Dungeon_RelicBubble" rel_version="Expedition_ShatterMtn_00">Reliquiario</string>
+	<string key="Dungeon_RelicBubble_Description" rel_version="Expedition_ShatterMtn_00">Forma una bolla protettiva intorno a te che cura gli alleati e infligge danni ai nemici.</string>
+	<string key="Status_CleanseBuffs_Crits_Timer_Description" rel_version="PvP_Rewards_Track">Al termine, potrai riottenere il vantaggio Critici purificanti.</string>
+	<string key="Status_EmpowerTilDeath" rel_version="PvP_Rewards_Track">Potere mortale</string>
+	<string key="Status_EmpowerTilDeath_Description" rel_version="PvP_Rewards_Track">I danni aumentano di un {[Type_StatusEffectData.Status_PvP_Perk_OnKill_EmpowerTilDeath.DMGStandard * 100]}% per ogni accumulo di Potere mortale che possiedi.</string>
+	<string key="PvPArena_GrandPotionRegen_DisplayName">Rigenerazione eccellente di salute</string>
+	<string key="PvPArena_GrandPotionRegen_Tooltip">Fornisce una notevole quantità di salute e mana nel tempo</string>
+	<string key="PvPArena_GrandPotionFocus_DisplayName">Rigenerazione eccellente di mana</string>
+	<string key="PvPArena_GrandPotionFocus_Tooltip">Fornisce una notevole quantità di mana nel tempo</string>
+	<string key="PvPArena_FoodRecoveryT5_MasterName">Ben nutrito</string>
+	<string key="PvPArena_FoodRecoveryT3_Description">Curi te stesso per un {[Type_StatusEffectData.PVPArena_FoodRecoveryT3.HealthModifierPercent * 100]}% della tua salute massima ogni 2,5 secondi.</string>
+	<string key="PvPArena_FoodRecoveryT4_Description">Curi te stesso per un {[Type_StatusEffectData.PVPArena_FoodRecoveryT4.HealthModifierPercent * 100]}% della tua salute massima ogni 2,5 secondi.</string>
+	<string key="PvPArena_FoodRecoveryT5_Description">Curi te stesso per un {[Type_StatusEffectData.PVPArena_FoodRecoveryT5.HealthModifierPercent * 100]}% della tua salute massima ogni 2,5 secondi.</string>
+	<string key="PvPArena_FoodSTRT3_Tooltip">Aumenta la Forza di 20 punti Attributo. Questo effetto viene rimosso quando esci dall'arena.</string>
+	<string key="PvPArena_FoodSTRT4_Tooltip">Aumenta la Forza di 30 punti Attributo. Questo effetto viene rimosso quando esci dall'arena.</string>
+	<string key="PvPArena_FoodSTRT5_Tooltip">Aumenta la Forza di 40 punti Attributo. Questo effetto viene rimosso quando esci dall'arena.</string>
+	<string key="PvPArena_FoodDEXT3_Tooltip">Aumenta la Destrezza di 20 punti Attributo. Questo effetto viene rimosso quando esci dall'arena.</string>
+	<string key="PvPArena_FoodDEXT4_Tooltip">Aumenta la Destrezza di 30 punti Attributo. Questo effetto viene rimosso quando esci dall'arena.</string>
+	<string key="PvPArena_FoodDEXT5_Tooltip">Aumenta la Destrezza di 40 punti Attributo. Questo effetto viene rimosso quando esci dall'arena.</string>
+	<string key="PvPArena_FoodINTT3_Tooltip">Aumenta l'Intelligenza di 20 punti Attributo. Questo effetto viene rimosso quando esci dall'arena.</string>
+	<string key="PvPArena_FoodINTT4_Tooltip">Aumenta l'Intelligenza di 30 punti Attributo. Questo effetto viene rimosso quando esci dall'arena.</string>
+	<string key="PvPArena_FoodINTT5_Tooltip">Aumenta l'Intelligenza di 40 punti Attributo. Questo effetto viene rimosso quando esci dall'arena.</string>
+	<string key="PvPArena_FoodCONT3_Tooltip">Aumenta la Costituzione di 20 punti Attributo. Questo effetto viene rimosso quando esci dall'arena.</string>
+	<string key="PvPArena_FoodCONT4_Tooltip">Aumenta la Costituzione di 30 punti Attributo. Questo effetto viene rimosso quando esci dall'arena.</string>
+	<string key="PvPArena_FoodCONT5_Tooltip">Aumenta la Costituzione di 40 punti Attributo. Questo effetto viene rimosso quando lasci l'arena.</string>
+	<string key="PvPArena_FoodFOCT3_Tooltip">Aumenta la Concentrazione di 20 punti Attributo. Questo effetto viene rimosso quando esci dall'arena.</string>
+	<string key="PvPArena_FoodFOCT4_Tooltip">Aumenta la Concentrazione di 30 punti Attributo. Questo effetto viene rimosso quando esci dall'arena.</string>
+	<string key="PvPArena_FoodFOCT5_Tooltip">Aumenta la Concentrazione di 40 punti Attributo. Questo effetto viene rimosso quando esci dall'arena.</string>
 </resources>
 

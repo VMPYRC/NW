@@ -28,6 +28,10 @@
 	<string key="ui_featured">Ofertas em destaque</string>
 	<string key="ui_show_purchased">Mostrar desbloqueados</string>
 	<string key="ui_sort_by">Ordenar por:</string>
+	<string key="ui_item_claim">Recebimento do Item</string>
+	<string key="ui_claim_button">Receber</string>
+	<string key="ui_preview">Pré-visualização</string>
+	<string key="ui_item_already_claimed">O item já foi recebido.</string>
 	<string key="ui_add_more_fictional_currency" rel_version="Feature_MTX">Adicione mais &lt;img src="lyshineui/images/mtx/icon_mtx_currency" scale="2.8" yOffset="10"&gt;&lt;/img&gt;</string>
 	<string key="ui_discount_off">&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;-&lt;/font&gt;{number}</string>
 	<string key="ui_discount_off_bold">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;-&lt;/font&gt;{number}</string>
@@ -116,7 +120,7 @@
 	<string key="ui_crest_disclaimer" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Aviso:&lt;/font&gt; Brasões da Companhia só podem ser usados se você for o governador (criador) da companhia.</string>
 	<string key="ui_disabled_default_title" rel_version="Feature_MTX">Conteúdo Indisponível</string>
 	<string key="ui_disabled_default_description" rel_version="Feature_MTX">Este conteúdo não está disponível no momento.</string>
-	<string key="ui_disabled_freeplayer_description" rel_version="Feature_MTX">Adquira o New World para acessar a loja.</string>
+	<string key="ui_disabled_freeplayer_description" rel_version="Feature_MTX">Adquira New World para acessar a loja.</string>
 	<string key="ui_preview_emote">Pré-visualizar Gesto</string>
 	<string key="ui_end_preview">Encerrar pré-visualização</string>
 	<string key="ui_limited_time">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Tempo limitado&lt;/font&gt;</string>
@@ -155,6 +159,9 @@
 	<string key="ui_notification_unlock_desc">Itens foram adicionados à sua conta.</string>
 	<string key="ui_notification_unlock_title">Desbloqueou!</string>
 	<string key="ui_view_item">Exibir Itens</string>
+	<string key="ui_claim_fail_alreadyunlocked">Você já recebeu este direito.</string>
+	<string key="ui_claim_fail_inventoryfull">Não é possível receber o direito enquanto seu inventário está cheio. Libere espaço e tente novamente.</string>
+	<string key="ui_claim_fail_transactionerror">Erro na transação. Tente novamente.</string>
 	<string key="smolderingscarlet_dye_name" rel_version="Dye_SmolderingScarlet">Escarlate Abrasador</string>
 	<string key="runic_jackal_name" rel_version="Apparel_RunicJackal">Chacal Rúnico</string>
 	<string key="crescent_fang_name" rel_version="Weapon_CrescentFang">Presa Crescente</string>
@@ -774,5 +781,28 @@
 	<string key="Bundle_PR_RPG_Weapons_name" rel_version="MTX_ClassicRPG_Weapon_Skins">Conjunto de Armas O Tesouro do Dragão</string>
 	<string key="Bundle_PR_RPG_Apparel_description" rel_version="MTX_ClassicRPG_Weapon_Skins">“O traje perfeito para explorar florestas primitivas ou masmorras abissais.”</string>
 	<string key="Bundle_PR_RPG_Weapons_description" rel_version="MTX_ClassicRPG_Weapon_Skins">“Armas adormecidas há muito tempo no covil de um verme perverso, ainda afiadas e prontas para a batalha.”</string>
+	<string key="Bundle_Crest_Plants_name" rel_version="Crest_Pack_Plants">Pacote de Brasões de Plantas</string>
+	<string key="Bundle_Crest_Plants_description" rel_version="Crest_Pack_Plants">“Realizando o sonho de um colhedor.”</string>
+	<string key="ui_crestforeground_213" rel_version="Crest_Pack_Plants">Feixe de Plantas</string>
+	<string key="ui_crestforeground_214" rel_version="Crest_Pack_Plants">Folha de Cânhamo</string>
+	<string key="ui_crestforeground_215" rel_version="Crest_Pack_Plants">Planta de Cânhamo</string>
+	<string key="Bundle_PR_SilentDeath_Apparel_name" rel_version="Bundle_Apparel_SilentDeath">Conjunto de Vestimentas Sussurro do Assassino</string>
+	<string key="Bundle_PR_SilentDeath_Weapons_name" rel_version="Bundle_Weapons_SilentDeath">Conjunto de Armas Sussurro do Assassino</string>
+	<string key="Bundle_PR_LaunchPets_name" rel_version="Bundle_Pets_LaunchPets">Amigos Felpudos</string>
+	<string key="Bundle_PR_LegendaryToolsets_name" rel_version="Bundle_Toolsets_Legendary">Ferramentas da Lenda</string>
+	<string key="Bundle_PR_SilentDeath_Apparel_description" rel_version="Bundle_Apparel_SilentDeath">“Persiga seus inimigos com confiança, sabendo que quando perceberem que você está lá... será tarde demais.”</string>
+	<string key="Bundle_PR_SilentDeath_Weapons_description" rel_version="Bundle_Weapons_SilentDeath">“As ferramentas de uma pessoa fanaticamente dedicada a tirar vidas.”</string>
+	<string key="Bundle_PR_LaunchPets_description" rel_version="Bundle_Pets_LaunchPets">“Todos precisam de companheirismo nesta ilha doentia e cruel. Convide esses amigos de quatro patas para sua casa.”</string>
+	<string key="Bundle_PR_LegendaryToolsets_description" rel_version="Bundle_Toolsets_Legendary">“Conjuntos de ferramentas magistralmente confeccionadas demonstram seu talento enquanto você trabalha duro para construir uma fortuna.”</string>
+	<string key="Apparel_SilentDeath_L_name" rel_version="Apparel_SilentDeath_L">Espreitador Cravejado</string>
+	<string key="Apparel_SilentDeath_L_description" rel_version="Apparel_SilentDeath_L">“Feito do melhor couro cravejado em Aeternum, protege com a mesma qualidade, pois não faz barulho ao se movimentar.”</string>
+	<string key="Apparel_SilentDeath_M_name" rel_version="Apparel_SilentDeath_M">Corvo de Metal</string>
+	<string key="Apparel_SilentDeath_M_description" rel_version="Apparel_SilentDeath_M">“O que a princípio parece ser um grande pássaro correndo em sua direção será sua morte prematura.”</string>
+	<string key="Apparel_SilentDeath_H_name" rel_version="Apparel_SilentDeath_H">Temores com Ombreiras</string>
+	<string key="Apparel_SilentDeath_H_description" rel_version="Apparel_SilentDeath_H">“Seu pior pesadelo ganha vida para assombrar os campos de batalha de Aeternum.”</string>
+	<string key="Bundle_Tool_SilentDeath_name" rel_version="ToolSkins_SilentDeath_MTX">Ferramentas do Assassino</string>
+	<string key="Bundle_Tool_SilentDeath_description" rel_version="ToolSkins_SilentDeath_MTX">“Para aqueles nos negócios das trevas, até a coleta de recursos é feita na escuridão da noite.”</string>
+	<string key="Bundle_Decor_ClassicRPG_name" rel_version="Housing_RPG_MTX_Pack_2022">Conjunto de Decorações O Tesouro do Dragão</string>
+	<string key="Bundle_Decor_ClassicRPG_description" rel_version="Housing_RPG_MTX_Pack_2022">“Uma horda dentro de casa, lembranças de uma vida gloriosa de aventuras.”</string>
 </resources>
 

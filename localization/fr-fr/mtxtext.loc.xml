@@ -28,6 +28,10 @@
 	<string key="ui_featured">Offres du moment</string>
 	<string key="ui_show_purchased">Articles déverrouillés</string>
 	<string key="ui_sort_by">Trier par :</string>
+	<string key="ui_item_claim">Obtention d'objet</string>
+	<string key="ui_claim_button">Obtenir</string>
+	<string key="ui_preview">Aperçu</string>
+	<string key="ui_item_already_claimed">L'objet a déjà été obtenu.</string>
 	<string key="ui_add_more_fictional_currency" rel_version="Feature_MTX">Ajouter plus de &lt;img src="lyshineui/images/mtx/icon_mtx_currency" scale="2.8" yOffset="10"&gt;&lt;/img&gt;</string>
 	<string key="ui_discount_off">&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;-&lt;/font&gt;{number}</string>
 	<string key="ui_discount_off_bold">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;-&lt;/font&gt;{number}</string>
@@ -116,6 +120,7 @@
 	<string key="ui_crest_disclaimer" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Attention :&lt;/font&gt; seul le gouverneur (créateur) de la compagnie peut utiliser les armoiries de compagnie.</string>
 	<string key="ui_disabled_default_title" rel_version="Feature_MTX">Contenu indisponible</string>
 	<string key="ui_disabled_default_description" rel_version="Feature_MTX">Ce contenu est actuellement indisponible.</string>
+	<string key="ui_disabled_freeplayer_description" rel_version="Feature_MTX">Achetez New World pour pouvoir accéder à la boutique.</string>
 	<string key="ui_preview_emote">Prévisualiser l'émote</string>
 	<string key="ui_end_preview">Terminer la prévisualisation</string>
 	<string key="ui_limited_time">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Durée limitée&lt;/font&gt;</string>
@@ -154,6 +159,9 @@
 	<string key="ui_notification_unlock_desc">Les objets ont été ajoutés à votre compte.</string>
 	<string key="ui_notification_unlock_title">Déverrouillé !</string>
 	<string key="ui_view_item">Voir les objets</string>
+	<string key="ui_claim_fail_alreadyunlocked">Vous avez déjà obtenu ce droit.</string>
+	<string key="ui_claim_fail_inventoryfull">Vous ne pouvez pas récupérer ce droit lorsque votre inventaire est plein. Veuillez libérer de l'espace avant de réessayer.</string>
+	<string key="ui_claim_fail_transactionerror">Erreur de transaction. Veuillez réessayer.</string>
 	<string key="smolderingscarlet_dye_name" rel_version="Dye_SmolderingScarlet">Rouge grenat</string>
 	<string key="runic_jackal_name" rel_version="Apparel_RunicJackal">Chacal runique</string>
 	<string key="crescent_fang_name" rel_version="Weapon_CrescentFang">Croc ourlé</string>
@@ -757,7 +765,7 @@
 	<string key="Apparel_ClassicRPG_1_description" rel_version="Apparel_ClassicRPG_1">« Libérez la rage qui vous consume au plus profond de vous »</string>
 	<string key="Apparel_ClassicRPG_2_description" rel_version="Apparel_ClassicRPG_2">« Tissé avec la meilleure laine du Val des Larmes, cet habit permet au pisteur d'explorer les contrées sauvages sans un bruit. »</string>
 	<string key="Apparel_ClassicRPG_3_description" rel_version="Apparel_ClassicRPG_3">« Foncez au combat pour protéger ce qui vous revient de droit. »</string>
-	<string key="Weapon_ClassicRPG_Sword_name" rel_version="Weapon_Sword_ClassicRPG_MTX">Lame de dragon</string>
+	<string key="Weapon_ClassicRPG_Sword_name" rel_version="Weapon_Sword_ClassicRPG_MTX">Lame de Dragon</string>
 	<string key="Weapon_ClassicRPG_ShieldK_name" rel_version="Weapon_KShield_ClassicRPG_MTX">Garde de léviathan</string>
 	<string key="Weapon_ClassicRPG_Greataxe_name" rel_version="Weapon_GreatAxe_ClassicRPG_MTX">Tranchant draconien</string>
 	<string key="Weapon_ClassicRPG_Warhammer_name" rel_version="Weapon_Warhammer_ClassicRPG_MTX">Bêtes jumelles</string>
@@ -778,5 +786,23 @@
 	<string key="ui_crestforeground_213" rel_version="Crest_Pack_Plants">Gerbe de plantes</string>
 	<string key="ui_crestforeground_214" rel_version="Crest_Pack_Plants">Feuille de chanvre</string>
 	<string key="ui_crestforeground_215" rel_version="Crest_Pack_Plants">Plant de chanvre</string>
+	<string key="Bundle_PR_SilentDeath_Apparel_name" rel_version="Bundle_Apparel_SilentDeath">Pack de vêtements du Murmure de l'assassin</string>
+	<string key="Bundle_PR_SilentDeath_Weapons_name" rel_version="Bundle_Weapons_SilentDeath">Pack d'armes du Murmure de l'assassin</string>
+	<string key="Bundle_PR_LaunchPets_name" rel_version="Bundle_Pets_LaunchPets">Amis boules de poils</string>
+	<string key="Bundle_PR_LegendaryToolsets_name" rel_version="Bundle_Toolsets_Legendary">Outils de légende</string>
+	<string key="Bundle_PR_SilentDeath_Apparel_description" rel_version="Bundle_Apparel_SilentDeath">« Traquez vos ennemis en toute confiance, sachant que quand ils réaliseront que vous êtes là, ce sera déjà trop tard. »</string>
+	<string key="Bundle_PR_SilentDeath_Weapons_description" rel_version="Bundle_Weapons_SilentDeath">« Les outils d'une personne entièrement dévouée à prendre des vies. »</string>
+	<string key="Bundle_PR_LaunchPets_description" rel_version="Bundle_Pets_LaunchPets">« Tout le monde a besoin de compagnie sur cette île cruelle et retorse. Invitez ces amis à quatre pattes chez vous. »</string>
+	<string key="Bundle_PR_LegendaryToolsets_description" rel_version="Bundle_Toolsets_Legendary">« Des ensembles d'outils magistralement conçus attestent de votre savoir-faire tandis que vous vous attelez au dur labeur indispensable à la prospérité. »</string>
+	<string key="Apparel_SilentDeath_L_name" rel_version="Apparel_SilentDeath_L">Harceleur clouté</string>
+	<string key="Apparel_SilentDeath_L_description" rel_version="Apparel_SilentDeath_L">« Fabriquée dans le meilleur cuir clouté d'Aeternum, cette pièce d'armure est aussi protectrice que silencieuse en mouvement. »</string>
+	<string key="Apparel_SilentDeath_M_name" rel_version="Apparel_SilentDeath_M">Corbeau en métal</string>
+	<string key="Apparel_SilentDeath_M_description" rel_version="Apparel_SilentDeath_M">« Ce qui semble à première vue être un grand oiseau vous fonçant dessus vous conduira à une mort prématurée. »</string>
+	<string key="Apparel_SilentDeath_H_name" rel_version="Apparel_SilentDeath_H">Peur endurcie</string>
+	<string key="Apparel_SilentDeath_H_description" rel_version="Apparel_SilentDeath_H">« Votre pire cauchemar prend vie pour hanter les champs de bataille d'Aeternum. »</string>
+	<string key="Bundle_Tool_SilentDeath_name" rel_version="ToolSkins_SilentDeath_MTX">Outils d'assassin</string>
+	<string key="Bundle_Tool_SilentDeath_description" rel_version="ToolSkins_SilentDeath_MTX">« Pour ceux qui pratiquent le commerce de l'ombre, même la collecte de ressources se fait à la faveur de la nuit. »</string>
+	<string key="Bundle_Decor_ClassicRPG_name" rel_version="Housing_RPG_MTX_Pack_2022">Pack de décors du trésor draconique</string>
+	<string key="Bundle_Decor_ClassicRPG_description" rel_version="Housing_RPG_MTX_Pack_2022">« Une horde à domicile, souvenir d'une glorieuse vie d'aventures. »</string>
 </resources>
 

@@ -28,6 +28,10 @@
 	<string key="ui_featured">Offerte in primo piano</string>
 	<string key="ui_show_purchased">Mostra sbloccati</string>
 	<string key="ui_sort_by">Ordina per:</string>
+	<string key="ui_item_claim">Ottieni oggetti</string>
+	<string key="ui_claim_button">Ottieni</string>
+	<string key="ui_preview">Anteprima</string>
+	<string key="ui_item_already_claimed">L'oggetto è stato già ottenuto.</string>
 	<string key="ui_add_more_fictional_currency" rel_version="Feature_MTX">Aggiungi più &lt;img src="lyshineui/images/mtx/icon_mtx_currency" scale="2.8" yOffset="10"&gt;&lt;/img&gt;</string>
 	<string key="ui_discount_off">{number} &lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;di sconto&lt;/font&gt;</string>
 	<string key="ui_discount_off_bold">{number} &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;di sconto&lt;/font&gt;</string>
@@ -116,6 +120,7 @@
 	<string key="ui_crest_disclaimer" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Avviso:&lt;/font&gt; Gli emblemi della compagnia possono essere utilizzati solo se sei il governatore (creatore) della compagnia.</string>
 	<string key="ui_disabled_default_title" rel_version="Feature_MTX">Contenuto non disponibile</string>
 	<string key="ui_disabled_default_description" rel_version="Feature_MTX">Questo contenuto non è attualmente disponibile.</string>
+	<string key="ui_disabled_freeplayer_description" rel_version="Feature_MTX">Acquista New World per accedere al negozio.</string>
 	<string key="ui_preview_emote">Anteprima emote</string>
 	<string key="ui_end_preview">Fine anteprima</string>
 	<string key="ui_limited_time">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Tempo limitato&lt;/font&gt;</string>
@@ -154,6 +159,9 @@
 	<string key="ui_notification_unlock_desc">Alcuni oggetti sono stati aggiunti al tuo account.</string>
 	<string key="ui_notification_unlock_title">Sbloccato!</string>
 	<string key="ui_view_item">Vedi oggetti</string>
+	<string key="ui_claim_fail_alreadyunlocked">Hai già ottenuto questo diritto.</string>
+	<string key="ui_claim_fail_inventoryfull">Non puoi ottenere questo diritto se il tuo inventario è pieno. Libera spazio e riprova.</string>
+	<string key="ui_claim_fail_transactionerror">Errore durante la transazione. Riprova.</string>
 	<string key="smolderingscarlet_dye_name" rel_version="Dye_SmolderingScarlet">Scarlatto ardente</string>
 	<string key="runic_jackal_name" rel_version="Apparel_RunicJackal">Sciacallo runico</string>
 	<string key="crescent_fang_name" rel_version="Weapon_CrescentFang">Zanna a falce</string>
@@ -778,5 +786,23 @@
 	<string key="ui_crestforeground_213" rel_version="Crest_Pack_Plants">Fascio di piante</string>
 	<string key="ui_crestforeground_214" rel_version="Crest_Pack_Plants">Foglia di canapa</string>
 	<string key="ui_crestforeground_215" rel_version="Crest_Pack_Plants">Pianta di canapa</string>
+	<string key="Bundle_PR_SilentDeath_Apparel_name" rel_version="Bundle_Apparel_SilentDeath">Pacchetto vestiario Sussurro dell'assassino</string>
+	<string key="Bundle_PR_SilentDeath_Weapons_name" rel_version="Bundle_Weapons_SilentDeath">Pacchetto armi Sussurro dell'assassino</string>
+	<string key="Bundle_PR_LaunchPets_name" rel_version="Bundle_Pets_LaunchPets">Amici pelosi</string>
+	<string key="Bundle_PR_LegendaryToolsets_name" rel_version="Bundle_Toolsets_Legendary">Strumenti da leggenda</string>
+	<string key="Bundle_PR_SilentDeath_Apparel_description" rel_version="Bundle_Apparel_SilentDeath">"Insegui i tuoi nemici con fiducia, perché quando si accorgeranno di te... sarà troppo tardi."</string>
+	<string key="Bundle_PR_SilentDeath_Weapons_description" rel_version="Bundle_Weapons_SilentDeath">"Gli strumenti di qualcuno fanaticamente dedito a spezzare vite."</string>
+	<string key="Bundle_PR_LaunchPets_description" rel_version="Bundle_Pets_LaunchPets">"Tutti hanno bisogno di compagnia su quest'isola sinistra e crudele. Invita questi amici a quattro zampe nella tua casa."</string>
+	<string key="Bundle_PR_LegendaryToolsets_description" rel_version="Bundle_Toolsets_Legendary">"Degli strumenti realizzati con maestria dimostrano il tuo stile mentre lavori sodo per fare fortuna."</string>
+	<string key="Apparel_SilentDeath_L_name" rel_version="Apparel_SilentDeath_L">Inseguitore borchiato</string>
+	<string key="Apparel_SilentDeath_L_description" rel_version="Apparel_SilentDeath_L">"La migliore pelle borchiata di Aeternum, garantisce protezione e movimenti silenziosi."</string>
+	<string key="Apparel_SilentDeath_M_name" rel_version="Apparel_SilentDeath_M">Corvo metallico</string>
+	<string key="Apparel_SilentDeath_M_description" rel_version="Apparel_SilentDeath_M">"Quello che sembra semplicemente un grosso uccello diretto verso di te segnerà la tua prematura scomparsa."</string>
+	<string key="Apparel_SilentDeath_H_name" rel_version="Apparel_SilentDeath_H">Terrori imponenti</string>
+	<string key="Apparel_SilentDeath_H_description" rel_version="Apparel_SilentDeath_H">"Il tuo incubo peggiore prende vita per infestare i campi di battaglia di Aeternum."</string>
+	<string key="Bundle_Tool_SilentDeath_name" rel_version="ToolSkins_SilentDeath_MTX">Strumenti da assassino</string>
+	<string key="Bundle_Tool_SilentDeath_description" rel_version="ToolSkins_SilentDeath_MTX">"Chi pratica mestieri oscuri raccoglie risorse nel buio della notte."</string>
+	<string key="Bundle_Decor_ClassicRPG_name" rel_version="Housing_RPG_MTX_Pack_2022">Pacchetto mobilio Tesoro del drago</string>
+	<string key="Bundle_Decor_ClassicRPG_description" rel_version="Housing_RPG_MTX_Pack_2022">"Un tesoro in casa, ricordo di una gloriosa vita di avventure."</string>
 </resources>
 

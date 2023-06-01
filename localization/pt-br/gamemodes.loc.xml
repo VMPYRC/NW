@@ -95,7 +95,7 @@
 	<string key="ui_outpost_rush_signup_playercount">{playerCount} Jogadores</string>
 	<string key="ui_outpost_rush_signup_failsolo">Você está em um grupo no momento e não pode entrar como jogador solo</string>
 	<string key="ui_outpost_rush_signup_failgroup">Você não está em um grupo no momento</string>
-	<string key="ui_outpost_rush_signup_failgroupinvite">Você tem um convite de grupo pendente no momento</string>
+	<string key="ui_outpost_rush_signup_failgroupinvite">Você tem um convite para o Saguão de Expedição</string>
 	<string key="ui_outpost_rush_signup_faillevel">É &lt;font color="#f10000"&gt;necessário&lt;/font&gt; estar no nível {levelRequirement}</string>
 	<string key="ui_outpost_rush_signup_failwar">Você não pode se registrar porque já está registrado em uma guerra que começa dentro de uma hora.</string>
 	<string key="ui_outpost_rush_signup_failqueue">Você não pode se registrar porque já está registrado para {matchname} no momento.</string>
@@ -223,13 +223,9 @@
 	<string key="ui_durability_loss_war">Você está em uma guerra (ou invasão), seu equipamento não foi danificado após sua morte.</string>
 	<string key="ui_item_durability_loss">Todo o equipamento em seu inventário foi danificado após sua morte.</string>
 	<string key="ui_item_durability_loss_pvp">Você foi morto por outro jogador, seu equipamento sofreu dano reduzido.</string>
-	<string key="ui_pvp_arena_leave">Sair da Arena PvP</string>
-	<string key="ui_cannot_travel_pvp_arena">Você não pode fazer uma viagem rápida durante a Arena PvP</string>
-	<string key="ui_pvp_arena_leave_desc">Tem certeza de que deseja sair da Arena PvP?</string>
-	<string key="ui_pvp_arena_leave_desc_time">Tem certeza de que deseja sair da Arena PvP?\nVocê não poderá entrar de novo na fila da Arena PvP por &lt;font color="#ff2e2e"&gt;[{time}]&lt;/font&gt;.</string>
-	<string key="ui_pvp_arena_leave_title">Sair da Arena PvP?</string>
 	<string key="ui_in_spectators_box">Na Caixa de Espectador</string>
-	<string key="ui_in_spectators_box_description">Armas e Habilidades Desativadas</string>
+	<string key="ui_in_spectators_box_description">Habilidades Desativadas</string>
+	<string key="ui_in_spectators_moving_to">Movendo-se para a Caixa de Espectador em {seconds} s</string>
 	<string key="ui_round_number">Rodada {number}</string>
 	<string key="ui_match_point">Ponto Decisivo</string>
 	<string key="ui_final_round">Rodada Final</string>

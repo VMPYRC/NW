@@ -21,6 +21,8 @@
 	<string key="ui_notoolmining">Nie wyposażono się w oskard</string>
 	<string key="ui_lowskillmining" comment="the required skill level will be shown in a circle immediately to the right of this string">Wymagana umiejętność górnictwa</string>
 	<string key="ui_notoolazothstaff">Nie wyposażono się w: {itemName} klasy {tier}</string>
+	<string key="ui_notoolitem_multiple">Wymaga: {itemName} x{count}</string>
+	<string key="ui_notoolitem">Wymaga: {itemName}</string>
 	<string key="ui_nopermission">Brak dostępu publicznego.</string>
 	<string key="ui_nopermissionrank">Stopień "{rank}" nie ma pozwolenia na to działanie ({action}).</string>
 	<string key="ui_nopermissionpublic">To działanie ({action}) nie jest dozwolone w przypadku konstrukcji publicznych.</string>
@@ -63,6 +65,7 @@
 	<string key="ui_interact_territory_functionality_down">BŁĄD SERWERA: Spróbuj ponownie za kilka minut.</string>
 	<string key="ui_interact_with_item_cost">{interactionName} ({amount} {itemName})</string>
 	<string key="ui_interact_with_item_cost_sufficient">{interactionName} ({have}/{need} &lt;img src="{itemName}" xPadding="2" scale="1.25" yOffset="0.5"&gt;&lt;/img&gt;)</string>
+	<string key="ui_interact_with_item_cost_sufficient_no_qty">{interactionName} (&lt;img src="{itemName}" xPadding="2" scale="1.25" yOffset="0.5"&gt;&lt;/img&gt;)</string>
 	<string key="ui_interact_with_item_cost_insufficient">{interactionName} (&lt;font color="#f14b4b"&gt;{have}&lt;/font&gt;/{need} &lt;img src="{itemName}" xPadding="2" scale="1.25" yOffset="0.5"&gt;&lt;/img&gt;)</string>
 	<string key="ui_interact_with_item_cost_not_needed">{interactionName} – Niepotrzebne</string>
 	<string key="ui_interactable_only_in_conquest_phase">{interactionName} – Można użyć tylko podczas aktywnej wojny</string>

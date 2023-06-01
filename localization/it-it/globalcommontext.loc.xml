@@ -118,6 +118,7 @@
 	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Allo scadere del tempo, il giocatore con la quantità minore di salute diventa Combustibile.</string>
 	<string key="ui_affliction_mutcurse4" rel_version="Feature_Dungeon_Mutators">resistenza di ritorno</string>
 	<string key="ui_affliction_mutcurse4_tooltip" rel_version="Feature_Dungeon_Mutators">Se rimani senza resistenza, attorno a te si attiverà un'area di Silenzio. L'area esploderà dopo un periodo di tempo, infliggendo danni ai giocatori. La resistenza è condivisa da tutti i membri del tuo gruppo.</string>
+	<string key="ui_affliction_mutcurse2" rel_version="Feature_Dungeon_Mutators_pt2">resistenza alla stanchezza</string>
 	<string key="ui_affliction_mutcurse2_tooltip" rel_version="Feature_Dungeon_Mutators">Se rimani senza resistenza, attorno a te si attiverà un'area di Stanchezza che rallenterà i tuoi movimenti e aumenterà tutti i danni che subirai. Utilizzare abilità aumenta la resistenza. La resistenza è condivisa da tutti i membri del tuo gruppo.</string>
 	<string key="ui_afflicted_bleeding">sanguinamento</string>
 	<string key="ui_afflicted_bleeding_tooltip">Quando sanguini, rigeneri energia molto più lentamente</string>
@@ -231,8 +232,8 @@
 	<string key="ui_company_name_input">Dai un nome alla tua compagnia</string>
 	<string key="ui_customize_company_information">Queste impostazioni possono essere modificate in qualsiasi momento</string>
 	<string key="ui_no_points_spent">Nessun punto speso</string>
-	<string key="ui_commit_1_point">Spendi &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt; 1 &lt;/font&gt; punto</string>
-	<string key="ui_commit_points">Spendi &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt; {points} &lt;/font&gt; punti</string>
+	<string key="ui_commit_1_point">Assegna &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt; 1 &lt;/font&gt; punto</string>
+	<string key="ui_commit_points">Assegna &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{points}&lt;/font&gt; punti</string>
 	<string key="ui_abilities_on_cooldown">Abilità in ricarica</string>
 	<string key="ui_abilities_in_combat">In combattimento</string>
 	<string key="ui_componentname">Nome componente</string>
@@ -246,7 +247,7 @@
 	<string key="ui_purchase_slot_button">Acquista slot</string>
 	<string key="ui_convertitem">Converti {numItems} oggetti</string>
 	<string key="ui_copperaxehead">testa d'ascia di rame</string>
-	<string key="ui_copyright">Copyright © 2021-2022, Amazon.com, Inc. o sue affiliate. Tutti i diritti riservati.</string>
+	<string key="ui_copyright">Copyright (c) 2021-2022, Amazon.com, Inc. o sue affiliate. Tutti i diritti riservati.</string>
 	<string key="ui_craft">Produci</string>
 	<string key="ui_craft_fee">TASSA {territoryName}: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{fee} &lt;/font&gt; &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="0.9" yOffset="0.7"&gt;&lt;/img&gt;</string>
 	<string key="ui_crafting_carried">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; disponibili</string>
@@ -261,6 +262,8 @@
 	<string key="ui_twitch_reward_notification">Ricompensa di Twitch</string>
 	<string key="ui_twitch_reward_text">Hai ricevuto un omaggio di Twitch</string>
 	<string key="ui_twitch_reward_view">Visualizza ricompensa/e</string>
+	<string key="ui_prime_reward_notification">Ricompensa Prime Gaming</string>
+	<string key="ui_prime_reward_text">Hai ricevuto un oggetto di Prime Gaming</string>
 	<string key="ui_createnewcharacter">CREA NUOVO PERSONAGGIO</string>
 	<string key="ui_crest">Emblema</string>
 	<string key="ui_crest_emblem">Stemma emblema</string>
@@ -280,6 +283,8 @@
 	<string key="ui_days_with_time_short">{time} g</string>
 	<string key="ui_day_with_time">1 giorno</string>
 	<string key="ui_day_with_time_short">1 g</string>
+	<string key="ui_lessthan_day_with_time">Meno di 1 giorno</string>
+	<string key="ui_lessthan_day_with_time_short">&lt; 1 g</string>
 	<string key="ui_hour_with_time">1 ora</string>
 	<string key="ui_hour_with_time_short">1 h</string>
 	<string key="ui_minute_with_time">1 minuto</string>
@@ -299,6 +304,7 @@
 	<string key="ui_hourago">1 ora fa</string>
 	<string key="ui_hoursago">{time} ore fa</string>
 	<string key="ui_dayago">1 giorno fa</string>
+	<string key="ui_lessthan_dayago">&gt;Meno di 1 giorno fa</string>
 	<string key="ui_daysago">{time} giorni fa</string>
 	<string key="ui_morethanoneyear">Più di 1 anno</string>
 	<string key="ui_morethanoneyearago">Oltre 1 anno fa</string>
@@ -445,6 +451,7 @@
 	<string key="ui_interactdetailed">Interazione secondaria</string>
 	<string key="ui_inventory">Inventario</string>
 	<string key="ui_inventoryfull">Inventario pieno</string>
+	<string key="ui_inventory_warning_toofullforrewards">Troppi oggetti nell'inventario per ricevere le ricompense.</string>
 	<string key="ui_inventoryslotsremaining">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{count}&lt;/font&gt; slot dell'inventario rimanenti</string>
 	<string key="ui_inventoryweightremaining">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{Weight}&lt;/font&gt; libbre rimanenti</string>
 	<string key="ui_inventoryMaxWeight">Hai raggiunto il peso massimo</string>
@@ -579,7 +586,7 @@
 	<string key="ui_ability_locked_error">L'abilità non può essere usata finché non viene sbloccata</string>
 	<string key="ui_ability_cooldown_error">Le abilità non si possono cambiare fino al termine del tempo di ricarica</string>
 	<string key="ui_ability_combat_error">Le abilità non si possono cambiare durante il combattimento</string>
-	<string key="ui_ability_points_combat_error">Impossibile applicare punti durante il combattimento</string>
+	<string key="ui_ability_points_combat_error">Impossibile assegnare punti durante il combattimento</string>
 	<string key="ui_respec_cooldown_error">Impossibile riassegnare mentre le abilità si stanno ricaricando</string>
 	<string key="ui_respec_combat_error">Impossibile riassegnare durante il combattimento</string>
 	<string key="ui_equipment_cooldown_error">Impossibile modificare l'equipaggiamento mentre le abilità si stanno ricaricando</string>
@@ -636,11 +643,6 @@
 	<string key="ui_quickslot_skinning_tooltip">Slot coltello da scuoiatura</string>
 	<string key="ui_quickslot_pickaxe_tooltip">Slot piccozza da estrazione</string>
 	<string key="ui_quickslot_azoth_tooltip">Slot bastone di Azoth</string>
-	<string key="ui_quickslot_flute_tooltip" rel_version="Feature_MusicalPerformances">Slot flauto</string>
-	<string key="ui_quickslot_guitar_tooltip" rel_version="Feature_MusicalPerformances">Slot chitarra</string>
-	<string key="ui_quickslot_mandolin_tooltip" rel_version="Feature_MusicalPerformances">Slot mandolino</string>
-	<string key="ui_quickslot_bass_tooltip" rel_version="Feature_MusicalPerformances">Slot contrabbasso</string>
-	<string key="ui_quickslot_drums_tooltip" rel_version="Feature_MusicalPerformances">Slot batteria</string>
 	<string key="ui_buildmode_grid">Griglia modalità costruzione</string>
 	<string key="ui_wave">Saluta con la mano</string>
 	<string key="ui_inspect_player">Azioni social</string>
@@ -707,9 +709,9 @@
 	<string key="ui_save">Salva</string>
 	<string key="ui_se">SE</string>
 	<string key="ui_binding_reserved_key_blocked">Impossibile associare il tasto {key}, riservato per: {actionName}. L'associazione corrente non può essere rimossa.</string>
-	<string key="ui_binding_reserved_key_title_single">Vuoi rimuovere l'azione precedente?</string>
+	<string key="ui_binding_reserved_key_title_single">Rimuovere l'azione precedente?</string>
 	<string key="ui_binding_reserved_key_message_single">Stai per assegnare {key} a una nuova azione: {newAction}. Così facendo, l'azione precedente ({oldAction}) non sarà associata a alcun tasto. Vuoi procedere?</string>
-	<string key="ui_binding_reserved_key_title_multiple">Vuoi rimuovere le azioni precedenti?</string>
+	<string key="ui_binding_reserved_key_title_multiple">Rimuovere le azioni precedenti?</string>
 	<string key="ui_binding_reserved_key_message_multiple">Stai per assegnare {key} a una nuova azione: {newAction}. Così facendo, le azioni precedenti qui indicate non saranno associate a alcun tasto. Vuoi procedere?\n{oldActions}</string>
 	<string key="ui_secondsLeft">{NumSeconds} secondi</string>
 	<string key="ui_second">secondo</string>
@@ -766,7 +768,7 @@
 	<string key="ui_tesat">tsetsdr</string>
 	<string key="ui_killed_notification">Hai sconfitto in combattimento: {playerName}.</string>
 	<string key="ui_downed_notification">Hai atterrato: {playerName}.</string>
-	<string key="ui_activate_arena">Attiva Arena</string>
+	<string key="ui_activate_arena">Attiva prova</string>
 	<string key="ui_theyareinthegreen">Sono nell'area verde.</string>
 	<string key="ui_timedays">Giorni</string>
 	<string key="ui_timehours">Ore</string>
@@ -902,6 +904,7 @@
 	<string key="ui_xp">PE</string>
 	<string key="ui_player_xp">PE giocatore</string>
 	<string key="ui_player_xp_desc">I PE ti consentono di far salire di livello il tuo personaggio.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Derivato da:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; completare missioni, produrre, uccidere i nemici, partecipare agli eventi&lt;/font&gt;</string>
+	<string key="ui_pvp_xp" rel_version="PvP_Rewards_Track">PE PvP</string>
 	<string key="ui_xp_boost">Aumento di PE</string>
 	<string key="ui_xp_event_title">EVENTO AUMENTO DI PE!</string>
 	<string key="ui_xp_event_desc">Lo speciale aumento di PE è attivo per questo mondo!</string>
@@ -910,9 +913,10 @@
 	<string key="ui_xp_event_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;PE (x{amount})&lt;/font&gt;</string>
 	<string key="ui_xp_event_tradeskill_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Competenza (x{amount})&lt;/font&gt;</string>
 	<string key="ui_xp_event_weaponmastery_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;Maestria con le armi (x{amount})&lt;/font&gt;</string>
-	<string key="ui_xp_event_progression_xp">&lt;font color="#ffcc00" face="lyshineui/fonts/Nimbus_regular.font"&gt;{progressionName} (x{amount})&lt;/font&gt;</string>
+	<string key="ui_xp_event_progression_xp">{progressionName} (x{amount})</string>
 	<string key="ui_xp_boost_reminder" comment="The leading space is intentional"> (x{bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;)</string>
 	<string key="ui_xp_multiplier_arrow" comment="The leading space is intentional"> x{bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_reached_max_daily_pvp_arena_rewards">Limite sale giornaliero arena PvP raggiunto!</string>
 	<string key="world_landing_title">Abbiamo selezionato per te il MONDO ottimale</string>
 	<string key="world_set">Set di mondi?</string>
 	<string key="world_set_title">*Cos'è un set di mondi?</string>
@@ -974,7 +978,7 @@
 	<string key="ui_navmenu_get_help">Chiedi aiuto</string>
 	<string key="ui_navmenu_get_help_desc">Visita la pagina di aiuto di New World per domande frequenti, supporto tecnico e altre risorse utili.</string>
 	<string key="ui_quitpopup_title">CONFERMA ABBANDONO</string>
-	<string key="ui_quitpopup_incombat_title">ESCI SUBITO DOPO UN COMBATTIMENTO</string>
+	<string key="ui_quitpopup_incombat_title">USCIRE DURANTE UN COMBATTIMENTO</string>
 	<string key="ui_quitpopup_criminal_title">ESCI DA CRIMINALE</string>
 	<string key="ui_quitpopup_murderer_title">ESCI DA ASSASSINO</string>
 	<string key="ui_quitdesktoppopup_message">Vuoi davvero abbandonare e tornare al desktop?</string>
@@ -1747,17 +1751,17 @@
 	<string key="ui_territory_standing_with_icon">Reputazione {territoryName}</string>
 	<string key="ui_redeem_a_reward">RIVENDICA LA TUA RICOMPENSA</string>
 	<string key="ui_not_enough_faction_standing">Non hai abbastanza Punti Reputazione per rivendicare una ricompensa del territorio.</string>
-	<string key="ui_exit_arena_title">Uscire dall'arena?</string>
-	<string key="ui_exit_arena_desc">Non potrai rientrare nell'arena dopo averla abbandonata e le tue ricompense andranno perse. \n Sarai teletrasportato fuori all'arena.</string>
+	<string key="ui_exit_arena_title">Abbandonare la prova?</string>
+	<string key="ui_exit_arena_desc">Non potrai rientrare nella prova dopo averla abbandonata e le tue ricompense andranno perse. \n Sarai teletrasportato fuori dalla prova.</string>
 	<string key="ui_giveup_arena_header">Immobilizzato</string>
 	<string key="ui_giveup_arena_desc">Non sanguinerai mentre sei immobilizzato.</string>
-	<string key="ui_arena_leave">Esci dall'arena</string>
-	<string key="ui_arena_title">Arena {monstername}</string>
+	<string key="ui_arena_leave">Abbandona prova</string>
+	<string key="ui_arena_title">Prova {monstername}</string>
 	<string key="ui_how_to_play">Dettagli</string>
 	<string key="ui_required_to_active">Requisiti</string>
-	<string key="ui_arena_time_remaining">Tempo rimanente per entrare nell'arena</string>
-	<string key="ui_arena_occupied">Un gruppo sta già combattendo nell'arena.</string>
-	<string key="ui_arena_description">Raduna il gruppo vicino all'ingresso per entrare nell'arena.&lt;font color="#ffffff"&gt; Può entrare nell'arena un solo gruppo alla volta.&lt;/font&gt;\n\nAll'interno dell'arena non è attiva la rigenerazione. Quando qualcuno viene abbattuto, si attiverà lo stato Immobilizzato.</string>
+	<string key="ui_arena_time_remaining">Tempo rimanente per partecipare alla prova</string>
+	<string key="ui_arena_occupied">Un gruppo sta già combattendo nella prova.</string>
+	<string key="ui_arena_description">Raduna il gruppo vicino all'ingresso per partecipare alla prova.&lt;font color="#ffffff"&gt; Può partecipare alla prova un solo gruppo alla volta.&lt;/font&gt;\n\nDurante la prova non è attiva la rigenerazione. Quando qualcuno viene abbattuto, si attiverà lo stato Immobilizzato.</string>
 	<string key="ui_arena_objective">Sfida e sconfiggi {monstername} in &lt;font color="#ffffff"&gt;15 minuti.&lt;/font&gt;</string>
 	<string key="ui_arena_item_reward">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt; {itemname}&lt;/font&gt;</string>
 	<string key="AwardAngryEarthEvent_MasterName">Nascondiglio di equipaggiamento della Terra irata</string>
@@ -1771,7 +1775,7 @@
 	<string key="ui_exit_dungeon_title">Uscire dalla Spedizione?</string>
 	<string key="ui_dungeon_exit">Portale di uscita dalla Spedizione</string>
 	<string key="ui_exit_dungeon_desc">Sarai teletrasportato fuori dalla Spedizione.\nPotrai rientrarci se nel frattempo non si sarà chiusa.</string>
-	<string key="ui_exit_dungeon_will_close_desc">Sarai teletrasportato fuori dalla Spedizione.\nSe escono anche tutti gli altri membri del tuo gruppo, la Spedizione si chiuderà.\n</string>
+	<string key="ui_exit_dungeon_will_close_desc">Sarai teletrasportato fuori dalla Spedizione.\nSe escono anche tutti gli altri membri del tuo gruppo, la Spedizione si chiuderà.</string>
 	<string key="ui_exit_dungeon_incombat">Non puoi abbandonare una Spedizione subito dopo un combattimento. \nPuoi abbandonare tra &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt;</string>
 	<string key="ui_enable_newDamageNumbers">Quantità di danni mobile</string>
 	<string key="ui_enable_newDamageNumbers_description">Se disattivata, la quantità di danni sarà ancorata alla barra della salute del nemico</string>
@@ -1826,10 +1830,10 @@
 	<string key="ui_has_resources">Ha risorse</string>
 	<string key="ui_deadnotification_title">SEI MORTO</string>
 	<string key="ui_deadnotification_body">Devi rigenerarti prima di poter rispondere a questa notifica.</string>
-	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Salute\n{currentValue} / {maxValue}\n\nRappresenta il tuo livello complessivo di salute. Se si esaurisce, sarai a un passo dalla morte. I giocatori non ostili potranno rianimarti mentre sei in queste condizioni.\n\nConsuma tinture per riguadagnare salute rapidamente e consuma cibo per riguadagnarla lentamente nel tempo dopo un rapido aumento immediato.\n\nMigliora Costituzione per aumentare la tua salute massima.</string>
+	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Salute\n{currentValue} / {maxValue}\n\nPer &lt;font color="#ffe940"&gt;riguadagnare&lt;/font&gt; salute\n- Consuma tinture per riguadagnarla rapidamente\n- Consuma cibo per riguadagnarla lentamente nel tempo dopo un rapido aumento immediato.\n\nMigliora &lt;font color="#ffe940"&gt;Costituzione&lt;/font&gt; per aumentare la tua salute massima.</string>
 	<string key="ui_vitals_stamina_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Energia\n{currentValue} / {maxValue}\n\nL'energia viene consumata eseguendo alcune azioni difensive, quali parata o schivata; se la esaurisci, potresti non essere in grado di eseguire tali azioni finché non si rigenera.\n\nL'energia si rigenera con il tempo a meno che tu non stia eseguendo uno scatto o un attacco.</string>
 	<string key="ui_vitals_mana_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Mana\n{currentValue} / {maxValue}\n\nRisorsa misteriosa richiesta per usare la magia. Se il livello è basso, potresti non essere in grado di utilizzare alcune abilità soprannaturali.\n\nIl mana si rigenera nel tempo.</string>
-	<string key="ui_vitals_mana_rate_tooltip">Il mana si rigenera nel tempo.</string>
+	<string key="ui_vitals_mana_rate_tooltip">Il mana si rigenera nel tempo.\n\nAumenta il tasso di rigenerazione del mana aumentando la Concentrazione a &lt;font color="#ffe940"&gt;50&lt;/font&gt;</string>
 	<string key="ui_vitals_cooldown_tooltip">Riduce la quantità di tempo richiesto prima di poter riutilizzare un'abilità.</string>
 	<string key="ui_vitals_food_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Cibo\n{currentValue} / {maxValue}\n\nMangiare aumenta il tasso di rigenerazione della salute. Se il tuo livello di cibo è troppo basso, potresti non guarire più!\n\nNon perderai salute a causa della fame. Influisce solo sul tasso di rigenerazione.</string>
 	<string key="ui_vitals_drink_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Bevande\n{currentValue} / {maxValue}\n\nL'idratazione aumenta la velocità di rigenerazione dell'energia. Mantieni il livello alto per massimizzare la tua efficienza.\n\nNon perderai energia a causa della sete. Influisce solo sul tasso di rigenerazione.</string>
@@ -1897,6 +1901,12 @@
 	<string key="ui_reputation_warning_title">Attenzione, limite massimo di reputazione</string>
 	<string key="ui_reputation_warning_desc">Hai quasi raggiunto il limite massimo di reputazione nella fazione: {amount}/{maxAmount}</string>
 	<string key="ui_reputation_max_tooltip">Limite massimo reputazione: {amount}</string>
+	<string key="ui_azoth_salt_max_title" rel_version="PvP_Rewards_Track">Quantità massima sale di Azoth</string>
+	<string key="ui_azoth_salt_max_desc" rel_version="PvP_Rewards_Track">Hai raggiunto il limite massimo di sale di Azoth. Quello in eccesso andrà perso.</string>
+	<string key="ui_azoth_salt_warning_title" rel_version="PvP_Rewards_Track">Attenzione, limite massimo di sale di Azoth</string>
+	<string key="ui_azoth_salt_warning_desc" rel_version="PvP_Rewards_Track">Hai quasi raggiunto il limite massimo di sale di Azoth: {amount}/{maxAmount}</string>
+	<string key="ui_azoth_salt_max_tooltip" rel_version="PvP_Rewards_Track">Apertura non consentita perché hai raggiunto il limite massimo di sale di Azoth.</string>
+	<string key="ui_azoth_salt_open_warning" rel_version="PvP_Rewards_Track">L'apertura ti farà raggiungere il limite massimo di sale di Azoth. Quello in eccesso andrà perso.</string>
 	<string key="ui_tokens_max_title">Quantità massima di gettoni</string>
 	<string key="ui_tokens_max_desc">Hai raggiunto il limite massimo di gettoni della fazione. Quelli in eccesso andranno persi.</string>
 	<string key="ui_tokens_warning_title">Attenzione, limite massimo di gettoni</string>
@@ -2058,7 +2068,7 @@
 	<string key="ui_sickle">Falcetto</string>
 	<string key="ui_skinningknife">Coltello da scuoiatura</string>
 	<string key="ui_camp_reconnect_failed">Il tuo accampamento è stato abbandonato. Allestiscine uno nuovo.</string>
-	<string key="ui_weapon_mastery_respec_warning">Vuoi davvero riassegnare quest'arma?\n\n Costo: {azoth}&lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_weapon_mastery_respec_warning">Vuoi davvero riassegnare quest'arma?\n\n Costo: {azoth}&lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.4" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_weapon_mastery_insufficient_azoth">Azoth insufficiente.</string>
 	<string key="ui_you_have_unlocked">Hai sbloccato</string>
 	<string key="ui_you_have_earned">Hai guadagnato</string>
@@ -2067,6 +2077,29 @@
 	<string key="ui_now_track_banner">Ora puoi trovare "{resourceName}".</string>
 	<string key="ui_now_gather">Ora puoi raccogliere</string>
 	<string key="ui_standing_up">Grado Reputazione aumentato</string>
+	<string key="hwm_loot_head">Competenza testa</string>
+	<string key="hwm_loot_chest">Competenza busto</string>
+	<string key="hwm_loot_hands">Competenza mani</string>
+	<string key="hwm_loot_legs">Competenza gambe</string>
+	<string key="hwm_loot_feet">Competenza piedi</string>
+	<string key="hwm_loot_amulet">Competenza amuleto</string>
+	<string key="hwm_loot_ring">Competenza anello</string>
+	<string key="hwm_loot_token">Competenza gettone</string>
+	<string key="hwm_loot_sword">Competenza spada</string>
+	<string key="hwm_loot_hatchet">Competenza accetta</string>
+	<string key="hwm_loot_2h_hammer">Competenza martello</string>
+	<string key="hwm_loot_2h_axe">Competenza ascia grande</string>
+	<string key="hwm_loot_bow">Competenza arco</string>
+	<string key="hwm_loot_musket">Competenza moschetto</string>
+	<string key="hwm_loot_shield">Competenza scudo</string>
+	<string key="hwm_loot_fire_staff">Competenza bastone infuocato</string>
+	<string key="hwm_loot_life_staff">Competenza bastone della vita</string>
+	<string key="hwm_loot_rapier">Competenza stocco</string>
+	<string key="hwm_loot_spear">Competenza lancia</string>
+	<string key="hwm_loot_ice_magic">Competenza magia del ghiaccio</string>
+	<string key="hwm_loot_void_gauntlet">Competenza guanto del Vuoto</string>
+	<string key="hwm_loot_blunderbuss">Competenza schioppo</string>
+	<string key="hwm_loot_greatsword">Competenza spadone</string>
 	<string key="ui_time_display">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt; ({timezone})</string>
 	<string key="ui_clusterwarning_title">GIOCA IN {worldName}</string>
 	<string key="ui_clusterwarning_warning">&lt;font color={colorHex1}&gt;Puoi avere 1 solo personaggio nel &lt;/font&gt; &lt;font face="lyshineui/fonts/nimbus_bold.font"&gt;&lt;font color={colorHex2}&gt;set di mondi{worldSetName}&lt;/font&gt;&lt;/font&gt;&lt;font color={colorHex1}&gt;.&lt;/font&gt;</string>
@@ -2252,7 +2285,7 @@
 	<string key="ui_tooltip_order_price">Prezzo ordine</string>
 	<string key="ui_tooltip_cost">Costo</string>
 	<string key="ui_tooltip_earnings">Guadagni</string>
-	<string key="ui_tooltip_listing_fee">{territoryName} Commissione di listino (x{quantity})</string>
+	<string key="ui_tooltip_listing_fee">Commissione - {territoryName} (x{quantity})</string>
 	<string key="ui_tooltip_sales_fee">{territoryName} Commissione di vendita (x{quantity})</string>
 	<string key="ui_notificationaccept">Notifica di accettazione</string>
 	<string key="ui_notificationdecline">Notifica di rifiuto</string>
@@ -2285,7 +2318,6 @@
 	<string key="ui_itemtypedescription_bow">Arco</string>
 	<string key="ui_itemtypedescription_musket">Moschetto</string>
 	<string key="ui_itemtypedescription_blunderbuss" rel_version="Weapon_Blunderbuss">Schioppo</string>
-	<string key="ui_itemtypedescription_greatsword" rel_version="Weapon_GreatSword">Spadone</string>
 	<string key="ui_itemtypedescription_pistol">Pistola</string>
 	<string key="ui_itemtypedescription_lifestaff">Bastone della vita</string>
 	<string key="ui_itemtypedescription_firestaff">Bastone infuocato</string>
@@ -2362,10 +2394,10 @@
 	<string key="ui_number_range">{lowNumber} - {highNumber}</string>
 	<string key="ui_recommended_level_range">Livello consigliato: {lowNumber} - {highNumber}</string>
 	<string key="ui_cannot_trade_currency_blocked">Per poter scambiare valuta devi prima di raggiungere il livello {level} e avere un account da più di {hoursNeeded} ore</string>
+	<string key="ui_treasury_purchase_nw">Acquista New World per usare la cassa comune della Compagnia</string>
 	<string key="ui_cannot_chat_global_blocked">Per poter chattare in questo canale devi avere un account da più di {hoursNeeded} ore e un tempo di gioco superiore a {playtimeNeeded}</string>
 	<string key="ui_complete_quests_to_unlock">Completa missioni nell'insediamento per sbloccare</string>
 	<string key="ui_cannot_chat_trading_blocked">Per accedere a questo canale, devi avere un account da più di {hoursNeeded}, devi aver giocato per almeno {playtimeNeeded} e aver sbloccato l'emporio.</string>
-	<string key="ui_treasury_purchase_nw">Acquista New World per utilizzare la cassa comune della compagnia</string>
 	<string key="ui_averageexpertise">Competenza\nmedia</string>
 	<string key="ui_averageexpertisetooltip">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Competenza&lt;/font&gt;\nLa competenza consente di quantificare la potenza massima di un oggetto equipaggiato.\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Competenza massima raggiungibile&lt;/font&gt;\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Come aumentare la competenza&lt;/font&gt;\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Spedizioni e punti d'interesse élite&lt;/font&gt;\nGli oggetti trovati nei forzieri o lasciati dalle creature in aree di livello 60 o superiore possono aumentare questo valore.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Produzione&lt;/font&gt;\nProdurre un oggetto con punteggio attrezzatura 600 aumenterà la competenza di questa tipologia di oggetti.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Calco di gesso&lt;/font&gt;\nAprire un calco di gesso aumenterà la competenza.\n\n&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_semibold.font"&gt;Miglioramento di oggetti (con schegge dell'ombra)&lt;/font&gt;Una volta raggiunta una competenza di 600, l'unico modo per aumentarla ulteriormente consiste nel migliorare gli oggetti usando le schegge dell'ombra.\n</string>
 	<string key="ui_itemtypedescription_shield_only">Scudo</string>
@@ -2388,5 +2420,7 @@
 	<string key="ui_fishing_hotspot_active">Punto di pesca attivo</string>
 	<string key="ui_fishing_hotspot_depleted_body">Dopo aver pescato abbastanza pesci, il punto di pesca si esaurirà. Un punto di pesca è esaurito quando non ci sono più pesci che guizzano fuori dall'acqua. Il punto di pesca esaurito tornerà attivo dopo un determinato periodo di tempo.</string>
 	<string key="ui_fishing_hotspot_active_body">Un punto di pesca è attivo quando ci sono pesci che guizzano fuori dall'acqua. Lancia la lenza al suo interno mentre è attivo per pescare più rapidamente e catturare pesci più rari. Quando la lenza è posizionata correttamente verrà visualizzato un piccolo messaggio indicante che hai centrato il punto di pesca.</string>
+	<string key="ui_event_token_disappears">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#cca000"&gt;I gettoni spariranno al termine dell'evento.&lt;/font&gt;</string>
+	<string key="ui_event_time_left">&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;L'evento termina tra: &lt;font color="#cca000"&gt;{timeLeft}&lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" xPadding="0" scale="1.1" yOffset="2"&gt;&lt;/img&gt;&lt;/font&gt;&lt;/font&gt;</string>
 </resources>
 
