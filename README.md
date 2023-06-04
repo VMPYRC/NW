@@ -37,7 +37,7 @@
 |              [v1.5.0](https://www.newworld.com/en-us/game/releases/may-update-arenas)              |    2022-05-26     | 550812781205658942  |   2   |
 |           [v1.5.1](https://www.newworld.com/en-us/news/articles/new-world-update-1-5-1)            |    2022-06-01     | 2744494912923229726 |   2   |
 |           [v1.5.2](https://www.newworld.com/en-us/news/articles/new-world-update-1-5-2)            |    2022-06-08     | 5583604181172907271 |   2   |
-|           [v1.5.3](https://www.newworld.com/en-us/news/articles/new-world-update-1-5-3)            |    2022-06-15     | 1826981071445674467 |       |
+|           [v1.5.3](https://www.newworld.com/en-us/news/articles/new-world-update-1-5-3)            |    2022-06-15     | 1826981071445674467 |   2   |
 |           [v1.5.4](https://www.newworld.com/en-us/news/articles/new-world-update-1-5-4)            |    2022-06-22     | 5865818411707175409 |       |
 |           [v1.5.5](https://www.newworld.com/en-us/news/articles/new-world-update-1-5-5)            |    2022-06-29     | 8968414366944867615 |       |
 |           [v1.5.6](https://www.newworld.com/en-us/news/articles/new-world-update-1-5-6)            |    2022-07-13     | 416689532578243190  |       |
