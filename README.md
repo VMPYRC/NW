@@ -39,7 +39,7 @@
 |           [v1.5.2](https://www.newworld.com/en-us/news/articles/new-world-update-1-5-2)            |    2022-06-08     | 5583604181172907271 |   2   |
 |           [v1.5.3](https://www.newworld.com/en-us/news/articles/new-world-update-1-5-3)            |    2022-06-15     | 1826981071445674467 |   2   |
 |           [v1.5.4](https://www.newworld.com/en-us/news/articles/new-world-update-1-5-4)            |    2022-06-22     | 5865818411707175409 |   2   |
-|           [v1.5.5](https://www.newworld.com/en-us/news/articles/new-world-update-1-5-5)            |    2022-06-29     | 8968414366944867615 |       |
+|           [v1.5.5](https://www.newworld.com/en-us/news/articles/new-world-update-1-5-5)            |    2022-06-29     | 8968414366944867615 |   2   |
 |           [v1.5.6](https://www.newworld.com/en-us/news/articles/new-world-update-1-5-6)            |    2022-07-13     | 416689532578243190  |       |
 |          [v1.6.0](https://www.newworld.com/en-us/game/releases/summer-medleyfaire-update)          |    2022-07-28     | 7004526120190805780 |       |
 |           [v1.6.1](https://www.newworld.com/en-us/news/articles/new-world-update-1-6-1)            |    2022-08-04     | 7039366044176731218 |       |
