@@ -40,7 +40,7 @@
 |           [v1.5.3](https://www.newworld.com/en-us/news/articles/new-world-update-1-5-3)            |    2022-06-15     | 1826981071445674467 |   2   |
 |           [v1.5.4](https://www.newworld.com/en-us/news/articles/new-world-update-1-5-4)            |    2022-06-22     | 5865818411707175409 |   2   |
 |           [v1.5.5](https://www.newworld.com/en-us/news/articles/new-world-update-1-5-5)            |    2022-06-29     | 8968414366944867615 |   2   |
-|           [v1.5.6](https://www.newworld.com/en-us/news/articles/new-world-update-1-5-6)            |    2022-07-13     | 416689532578243190  |       |
+|           [v1.5.6](https://www.newworld.com/en-us/news/articles/new-world-update-1-5-6)            |    2022-07-13     | 416689532578243190  |   2   |
 |          [v1.6.0](https://www.newworld.com/en-us/game/releases/summer-medleyfaire-update)          |    2022-07-28     | 7004526120190805780 |       |
 |           [v1.6.1](https://www.newworld.com/en-us/news/articles/new-world-update-1-6-1)            |    2022-08-04     | 7039366044176731218 |       |
 |           [v1.6.2](https://www.newworld.com/en-us/news/articles/new-world-update-1-6-2)            |    2022-08-10     | 4200123966127051060 |       |
@@ -61,17 +61,20 @@
 |           [v1.9.1](https://www.newworld.com/en-us/news/articles/new-world-update-1-9-1)            |    2023-04-12     | 3278494556928781013 |       |
 |           [v1.9.2](https://www.newworld.com/en-us/news/articles/new-world-update-1-9-2)            |    2023-04-26     | 6649128870281650733 |       |
 |           [v1.9.3](https://www.newworld.com/en-us/news/articles/new-world-update-1-9-3)            |    2023-05-10     | 7169538671478462825 |       |
-|           [v1.9.4](https://www.newworld.com/en-us/news/articles/new-world-update-1-9-4)            |    2023-05-24     |                     |       |
+|           [v1.9.4](https://www.newworld.com/en-us/news/articles/new-world-update-1-9-4)            |    2023-05-24     | 1528404857655436562 |       |
+|                                             [v1.9.x]()                                             |       2023-       |                     |       |
+|                                             [v1.9.x]()                                             |       2023-       |                     |       |
 |                                             [v1.9.x]()                                             |       2023-       |                     |       |
 
 ## Method
 
-1. steam://open/console
-2. download_depot 1063730 1063731 MANIFESTID
-3. Move DataStrm-part2.pak to unpackme
-4. unpacker.py
-5. unpackout for extracted files
-6. Move localization folder to NW
-7. Update README.md (this file)
-8. Commit as v1.0.0
-9. Release if there are changes
+1. Source: https://steamdb.info/depot/1063730/manifests/
+2. steam://open/console
+3. download_depot 1063730 1063731 MANIFESTID
+4. Move DataStrm-part2.pak to unpackme
+5. unpacker.py
+6. unpackout for extracted files
+7. Move localization folder to NW
+8. Update README.md (this file)
+9. Commit as v1.0.0
+10. Release if there are changes
